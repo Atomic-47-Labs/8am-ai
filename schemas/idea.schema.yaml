@@ -1,0 +1,39 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Idea
+type: object
+required: [id, slug, phase, source, summary, created, updated]
+properties:
+  id:
+    type: string
+    pattern: "^IDEA-\\d{4}$"
+  slug:
+    type: string
+  phase:
+    enum: [extracted, classified, researched-queued, researched, drafted, experimented, published]
+  track:
+    enum: [light, heavy, null]
+  source:
+    type: object
+    required: [meeting, speaker, window_id]
+    properties:
+      meeting: {type: string, description: "YYYY-MM-DD"}
+      speaker: {type: string}
+      window_id: {type: string}
+      timestamp_s: {type: number}
+      excerpt: {type: string}
+      linked_meetings:
+        type: array
+        items: {type: string}
+  summary: {type: string}
+  rationale: {type: string}
+  tags:
+    type: array
+    items: {type: string}
+  theme_refs:
+    type: array
+    items: {type: string, pattern: "^THEME-\\d{2,}$"}
+  directive_refs:
+    type: array
+    items: {type: string, pattern: "^DIR-\\d{4}$"}
+  created: {type: string, format: date-time}
+  updated: {type: string, format: date-time}

@@ -1,0 +1,22 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Theme
+type: object
+required: [id, slug, status, summary, first_seen, last_seen, idea_refs]
+properties:
+  id: {type: string, pattern: "^THEME-\\d{2,}$"}
+  slug: {type: string}
+  status: {enum: [emerging, active, dormant, matured]}
+  summary: {type: string}
+  first_seen: {type: string, format: date}
+  last_seen: {type: string, format: date}
+  idea_refs:
+    type: array
+    items: {type: string, pattern: "^IDEA-\\d{4}$"}
+  evidence:
+    type: array
+    items:
+      type: object
+      properties:
+        meeting: {type: string}
+        excerpt: {type: string}
+  trajectory: {enum: [rising, steady, fading, dormant]}

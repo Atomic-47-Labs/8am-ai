@@ -1,0 +1,100 @@
+facility: 8am-ai
+version: 0.1.0
+description: |
+  Thought facility for the 8am-AI peer group. Weekly meetup transcripts
+  flow through a skills pipeline that mines themes, mentions, directives,
+  curiosities, and goals — then promotes promising threads either to a
+  blog post / shared gist (light track) or to a bounded experiment with
+  a runnable artifact (heavy track, Forge-shaped).
+
+  The "book" is not authored upfront. It accretes from published artifacts.
+
+owners:
+  - name: David Olsson
+    email: david@atomic47.co
+    role: facility-keeper
+
+# Participants are pulled from transcripts on first synthesis pass; seed here.
+participants: []
+
+# Where transcripts come from.
+intake:
+  surfaces:
+    - kind: local
+      path: ./transcripts/             # the existing weekly folders
+    - kind: google-drive
+      folder_id: null                  # fill via /meetup-harvester-gdrive --bind
+      mime_types: [text/plain, application/vnd.google-apps.document, application/json, text/markdown]
+    - kind: fireflies
+      # legacy fireflies-python-scripts/ left in place for reference
+      enabled: false
+  cadence: weekly
+  meeting_day: wednesday               # adjust if wrong
+  meeting_time: "08:00"
+  timezone: America/Vancouver
+
+# What we are looking for. These bias the classifier.
+goals:
+  - id: G-01
+    text: Build applied thinking from weekly conversation — not just notes.
+  - id: G-02
+    text: Ship at least one publishable artifact (blog, gist, or experiment) per week.
+  - id: G-03
+    text: Accumulate a public corpus that others can install, contribute to, and reuse.
+
+curiosities:
+  - id: C-01
+    text: How do AI peer groups produce durable artifacts instead of vapor?
+  - id: C-02
+    text: When does a meme deserve an experiment vs. a blog post?
+
+# Lifecycle: a thought walks this DAG.
+lifecycle:
+  phases:
+    - captured        # in a transcript, not yet extracted
+    - extracted       # idea record exists
+    - classified      # tagged: theme/mention/directive/curiosity/goal
+    - researched      # background context attached
+    - drafted         # blog or gist draft exists
+    - experimented    # bounded experiment ran (optional, heavy track)
+    - published       # gist + scsiwyg blog live
+  tracks:
+    light: [extracted, classified, researched, drafted, published]
+    heavy: [extracted, classified, researched, experimented, drafted, published]
+
+# Publishing surface.
+publishing:
+  scsiwyg:
+    site_slug: 8am-ai
+    theme: editorial
+    visibility: unlisted
+    auto_publish: true
+  gist:
+    visibility: secret                  # share by link only
+  slack:
+    channel: null                       # set on bind
+    notify_on: [published, experiment-failed]
+
+# Substrate paths (rebuildable except where noted).
+paths:
+  transcripts: ./transcripts/
+  ideas: ./ideas/                       # IDEA-NNNN records (durable)
+  themes: ./themes/                     # THEME-NN longitudinal records (durable)
+  directives: ./directives/             # DIR-NNNN action items (durable)
+  blog: ./blog/                         # generated drafts
+  gists: ./gists/                       # generated drafts
+  state: ./state/                       # derived; rebuildable
+
+# Single-writer guarantees.
+substrate:
+  writer: meetup-state                  # only this skill writes ideas/themes/directives/state
+  lock: state/meetup.lock
+  activity_log: state/activity.ndjson
+
+secrets:
+  # All secrets resolved from host keychain; never enter substrate.
+  store: keychain
+  refs:
+    google_drive: 8am-ai/gdrive-oauth
+    scsiwyg: 8am-ai/scsiwyg-token
+    slack: 8am-ai/slack-webhook

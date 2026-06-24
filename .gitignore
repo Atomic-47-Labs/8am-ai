@@ -1,0 +1,20 @@
+.DS_Store
+state/meetup.lock
+state/logs/
+blog/drafts/*.local.md
+gists/drafts/*.local.md
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# do not upload audio — transcripts only
+*.mp3
+*.m4a
+*.wav
+*.mov
+*.mp4

@@ -1,0 +1,17 @@
+{
+  "name": "8am-ai",
+  "version": "0.1.0",
+  "description": "Thought facility for the 8am-AI peer group — weekly meetup transcripts walked through a skills pipeline to themes, drafts, experiments, and published artifacts.",
+  "owner": {
+    "name": "Atomic 47 Labs",
+    "url": "https://atomic47.co"
+  },
+  "plugins": [
+    {
+      "name": "8am-ai",
+      "version": "0.1.0",
+      "description": "Thought facility for the 8am-AI peer group — weekly meetup transcripts walked through a skills pipeline to themes, drafts, experiments, and published artifacts.",
+      "source": "./plugin"
+    }
+  ]
+}

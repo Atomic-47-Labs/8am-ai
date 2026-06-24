@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>8am-ai — a thought facility for the peer group</title>
+<meta name="description" content="Weekly meetup transcripts walked through a skills pipeline to themes, drafts, experiments, and published artifacts. Local-first. Installs as a Claude Code plugin.">
+<meta property="og:title" content="8am-ai — a thought facility for the peer group">
+<meta property="og:description" content="Weekly meetup transcripts → themes → published artifacts. Installs in two lines.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://8am-ai.netlify.app">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0E14; --ink2:#10151F; --ink3:#171D29;
+    --paper:#F4F3EF; --dim:#A9AEB8; --faint:#6B7280;
+    --line:#222937; --line2:#39414F;
+    --yellow:#F6AC2D; --teal:#62BAB7; --rose:#E0533D; --green:#7BA86B; --violet:#9293C6;
+    --fh:"Montserrat","Helvetica Neue",Arial,sans-serif;
+    --fm:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:var(--ink); color:var(--paper); font-family:var(--fh); }
+  body{ -webkit-font-smoothing:antialiased; }
+  ::selection{ background:var(--yellow); color:var(--ink); }
+  a{ color:var(--paper); text-decoration:none; border-bottom:1px solid var(--line2); padding-bottom:1px; transition:border-color .15s ease,color .15s ease; }
+  a:hover{ border-color:var(--yellow); color:var(--yellow); }
+  .wrap{ max-width:1180px; margin:0 auto; padding:0 32px; }
+  .eyebrow{ display:flex; align-items:center; gap:12px; font-family:var(--fm); font-size:13px; font-weight:500; letter-spacing:.2em; text-transform:uppercase; color:var(--dim); }
+  .dot{ display:inline-block; width:8px; height:8px; background:var(--yellow); }
+  .dot.teal{ background:var(--teal); } .dot.rose{ background:var(--rose); } .dot.green{ background:var(--green); } .dot.violet{ background:var(--violet); }
+
+  /* nav */
+  nav.top{ position:sticky; top:0; z-index:10; background:rgba(11,14,20,.85); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+  nav.top .wrap{ display:flex; align-items:center; justify-content:space-between; padding-top:18px; padding-bottom:18px; }
+  nav.top .brand{ font-weight:600; letter-spacing:-.01em; }
+  nav.top .brand em{ color:var(--yellow); font-style:italic; font-weight:500; }
+  nav.top .links{ display:flex; gap:24px; font-family:var(--fm); font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
+  nav.top .links a{ border:0; color:var(--dim); }
+  nav.top .links a:hover{ color:var(--yellow); }
+
+  /* hero */
+  header.hero{ padding:120px 0 100px; border-bottom:1px solid var(--line); }
+  header.hero .eyebrow{ margin-bottom:32px; }
+  header.hero h1{ font-size:clamp(56px,8vw,108px); font-weight:500; line-height:1.0; letter-spacing:-.03em; margin:0 0 28px; max-width:14ch; }
+  header.hero h1 em{ color:var(--yellow); font-style:italic; }
+  header.hero p.lede{ font-size:clamp(20px,2vw,26px); color:var(--dim); line-height:1.45; max-width:38ch; margin:0 0 48px; font-weight:300; }
+  .ctas{ display:flex; gap:14px; flex-wrap:wrap; }
+  .btn{ display:inline-flex; align-items:center; gap:10px; padding:14px 22px; font-family:var(--fm); font-size:13px; letter-spacing:.14em; text-transform:uppercase; border:1px solid var(--yellow); color:var(--ink); background:var(--yellow); }
+  .btn:hover{ background:transparent; color:var(--yellow); }
+  .btn.ghost{ background:transparent; color:var(--paper); border-color:var(--line2); }
+  .btn.ghost:hover{ border-color:var(--paper); color:var(--paper); }
+
+  /* sections */
+  section{ padding:96px 0; border-bottom:1px solid var(--line); }
+  section h2{ font-size:clamp(36px,4vw,56px); font-weight:500; letter-spacing:-.02em; line-height:1.05; margin:14px 0 24px; max-width:22ch; }
+  section h2 em{ color:var(--yellow); font-style:italic; font-weight:500; }
+  section .deck{ color:var(--dim); font-size:19px; line-height:1.55; max-width:60ch; margin:0; }
+
+  /* install */
+  .install-grid{ display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:48px; }
+  @media (max-width:780px){ .install-grid{ grid-template-columns:1fr; } }
+  .install-card{ border:1px solid var(--line2); padding:28px 28px 26px; background:linear-gradient(180deg,rgba(246,172,45,.04),rgba(246,172,45,0)); display:flex; flex-direction:column; gap:14px; }
+  .install-card.public{ border-color:var(--yellow); }
+  .install-card.private{ border-color:var(--teal); background:linear-gradient(180deg,rgba(98,186,183,.04),rgba(98,186,183,0)); }
+  .install-card .eyebrow{ color:var(--yellow); }
+  .install-card.private .eyebrow{ color:var(--teal); }
+  .install-card .name{ font-size:22px; font-weight:500; margin:0; }
+  .install-card .blurb{ font-size:14px; color:var(--dim); line-height:1.55; margin:0; }
+  .install-card pre{ margin:6px 0 0; padding:18px; background:var(--ink2); border:1px solid var(--line); font-family:var(--fm); font-size:13px; line-height:1.65; color:var(--paper); white-space:pre-wrap; overflow-x:auto; }
+  .install-card pre .prompt{ color:var(--faint); }
+  .install-card pre .arg{ color:var(--yellow); }
+  .install-card.private pre .arg{ color:var(--teal); }
+  .install-card .footnote{ font-family:var(--fm); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); margin-top:8px; }
+
+  /* pipeline */
+  .pipeline{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:48px; }
+  @media (max-width:1000px){ .pipeline{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:540px){ .pipeline{ grid-template-columns:1fr; } }
+  .step{ border:1px solid var(--line); padding:24px 22px; background:var(--ink2); }
+  .step .num{ font-family:var(--fm); font-size:12px; letter-spacing:.18em; color:var(--faint); margin-bottom:14px; }
+  .step h3{ margin:0 0 10px; font-size:20px; font-weight:500; letter-spacing:-.01em; }
+  .step h3 em{ color:var(--yellow); font-style:italic; font-weight:500; }
+  .step p{ margin:0; font-size:14px; line-height:1.55; color:var(--dim); }
+
+  /* skills */
+  .skills{ display:grid; grid-template-columns:repeat(2,1fr); gap:0; margin-top:48px; border-top:1px solid var(--line); }
+  @media (max-width:780px){ .skills{ grid-template-columns:1fr; } }
+  .skill{ display:grid; grid-template-columns:220px 1fr; gap:24px; padding:22px 18px; border-bottom:1px solid var(--line); }
+  @media (max-width:780px){ .skill{ grid-template-columns:1fr; gap:8px; } }
+  .skill code{ font-family:var(--fm); font-size:14px; color:var(--yellow); }
+  .skill span{ font-size:14px; color:var(--dim); line-height:1.5; }
+
+  /* tracks */
+  .tracks{ display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:40px; }
+  @media (max-width:780px){ .tracks{ grid-template-columns:1fr; } }
+  .track{ border:1px solid var(--line2); padding:28px; }
+  .track.light{ border-color:var(--green); }
+  .track.heavy{ border-color:var(--rose); }
+  .track h3{ font-size:22px; margin:0 0 12px; font-weight:500; }
+  .track h3 em{ font-style:italic; }
+  .track.light h3 em{ color:var(--green); }
+  .track.heavy h3 em{ color:var(--rose); }
+  .track p{ font-size:14px; color:var(--dim); line-height:1.55; margin:0 0 14px; }
+  .track .flow{ font-family:var(--fm); font-size:13px; color:var(--dim); }
+  .track .flow .arrow{ color:var(--faint); margin:0 6px; }
+
+  /* footer */
+  footer{ padding:60px 0 80px; }
+  footer .row{ display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between; align-items:flex-end; }
+  footer .meta{ font-family:var(--fm); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); }
+  footer .links{ display:flex; gap:18px; font-family:var(--fm); font-size:13px; }
+  footer .links a{ color:var(--dim); border-color:var(--line); }
+  footer .links a:hover{ color:var(--yellow); border-color:var(--yellow); }
+
+  .badge{ display:inline-block; padding:3px 9px; border:1px solid var(--line2); font-family:var(--fm); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--dim); margin-left:8px; vertical-align:middle; }
+  .badge.live{ border-color:var(--green); color:var(--green); }
+  .badge.scaffold{ border-color:var(--yellow); color:var(--yellow); }
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <div class="brand">8am-<em>ai</em></div>
+    <div class="links">
+      <a href="#install">install</a>
+      <a href="#pipeline">pipeline</a>
+      <a href="#skills">skills</a>
+      <a href="https://github.com/Atomic-47-Labs/8am-ai">github</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span>§ 00 · A thought facility</span></div>
+    <h1>Meeting transcripts that <em>actually</em> ship something.</h1>
+    <p class="lede">Weekly conversations of the 8am-AI peer group, walked through a skills pipeline that mines themes and walks promising threads to published artifacts — blogs, gists, runnable experiments. Local-first. Installs as a Claude Code plugin.</p>
+    <div class="ctas">
+      <a class="btn" href="#install">Install in two lines</a>
+      <a class="btn ghost" href="https://github.com/Atomic-47-Labs/8am-ai">View on GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section id="why">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot teal"></span><span>§ 01 · Why this exists</span></div>
+    <h2>Peer groups produce a lot of signal and very few durable <em>artifacts</em>.</h2>
+    <p class="deck">8am-ai is an experiment in fixing that — by treating the transcript as the source of truth and walking each surfaced thought through a small, opinionated pipeline that ends in something shareable. If it works, the corpus becomes a book. If it doesn't, we publish what we learned about why.</p>
+  </div>
+</section>
+
+<section id="install">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span><span>§ 02 · Install</span></div>
+    <h2>Two marketplaces — pick the one that fits your access.</h2>
+    <p class="deck">The plugin is the same code in both places. The public listing is open to anyone. The private listing is for Atomic 47 Labs internal use and ships alongside other internal plugins.</p>
+    <div class="install-grid">
+      <div class="install-card public">
+        <div class="eyebrow"><span class="dot"></span><span>Public · open to all</span></div>
+        <h3 class="name">8am-ai @ Atomic-47-Labs/8am-ai</h3>
+        <p class="blurb">Hosted on the public Atomic-47-Labs repo. Same code, MIT-licensed, no auth required.</p>
+        <pre><span class="prompt">›</span> /plugin marketplace add <span class="arg">Atomic-47-Labs/8am-ai</span>
+<span class="prompt">›</span> /plugin install <span class="arg">8am-ai@8am-ai</span></pre>
+        <div class="footnote">github.com/Atomic-47-Labs/8am-ai</div>
+      </div>
+      <div class="install-card private">
+        <div class="eyebrow"><span class="dot teal"></span><span>Private · A47 members</span></div>
+        <h3 class="name">8am-ai @ Atomic-47-Labs/atomic-47-marketplace</h3>
+        <p class="blurb">Bundled in the internal A47 marketplace alongside other private plugins. Requires org membership.</p>
+        <pre><span class="prompt">›</span> /plugin marketplace add <span class="arg">Atomic-47-Labs/atomic-47-marketplace</span>
+<span class="prompt">›</span> /plugin install <span class="arg">8am-ai@atomic-47</span></pre>
+        <div class="footnote">private · contact david@atomic47.co</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot rose"></span><span>§ 03 · Pipeline</span></div>
+    <h2>From transcript to artifact in <em>four</em> moves.</h2>
+    <p class="deck">Each step is a single skill. Phase is the queue — anything not yet "published" is in the orchestrator's pile.</p>
+    <div class="pipeline">
+      <div class="step">
+        <div class="num">01 · Intake</div>
+        <h3>Harvest &amp; <em>normalize</em></h3>
+        <p>Pulls transcripts from Google Drive (or local drop). Normalizes Fireflies JSON, summaries, DOCX into utterance windows.</p>
+      </div>
+      <div class="step">
+        <div class="num">02 · Mine</div>
+        <h3>Classify &amp; <em>extract</em></h3>
+        <p>Ideas, directives, mentions, curiosities — every record cites the source window so it stays traceable.</p>
+      </div>
+      <div class="step">
+        <div class="num">03 · Synthesize</div>
+        <h3>Cluster &amp; <em>promote</em></h3>
+        <p>Longitudinal theme detection across weeks. Promising ideas get assigned a track — light (blog) or heavy (experiment).</p>
+      </div>
+      <div class="step">
+        <div class="num">04 · Ship</div>
+        <h3>Publish &amp; <em>announce</em></h3>
+        <p>Secret-scrubbed gist + scsiwyg blog (editorial, unlisted) + optional Slack ping. Null results are still publishable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tracks">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot green"></span><span>§ 04 · Tracks</span></div>
+    <h2>Not every thought wants to be a runnable <em>experiment</em>.</h2>
+    <p class="deck">Two tracks come off the same intake. The synthesizer assigns based on whether the idea proposes a buildable artifact or a measurable claim.</p>
+    <div class="tracks">
+      <div class="track light">
+        <h3>Light · <em>essay track</em></h3>
+        <p>For ideas that want to be argued, not built. Researched, drafted, and shipped as a blog post + gist.</p>
+        <div class="flow">extracted<span class="arrow">→</span>classified<span class="arrow">→</span>researched<span class="arrow">→</span>drafted<span class="arrow">→</span>published</div>
+      </div>
+      <div class="track heavy">
+        <h3>Heavy · <em>experiment track</em></h3>
+        <p>For claims that can be tested. Bounded experiment runs in a sandbox with a kill criterion and a budget. Failed experiments still ship.</p>
+        <div class="flow">extracted<span class="arrow">→</span>classified<span class="arrow">→</span>researched<span class="arrow">→</span>experimented<span class="arrow">→</span>published</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot violet"></span><span>§ 05 · Skills</span></div>
+    <h2>Eight slash commands, one shared substrate.</h2>
+    <p class="deck">All reads/writes route through <code style="font-family:var(--fm);color:var(--yellow);">meetup-state</code> — the single writer. The rest are workers.</p>
+    <div class="skills">
+      <div class="skill"><code>/meetup-state <span class="badge scaffold">scaffold</span></code><span>Substrate spine. The only skill permitted to write ideas, themes, directives, and state to disk.</span></div>
+      <div class="skill"><code>/meetup-harvester-gdrive <span class="badge scaffold">scaffold</span></code><span>Pull new transcripts from the shared Google Drive folder; advance per-surface cursor.</span></div>
+      <div class="skill"><code>/meetup-intake <span class="badge scaffold">scaffold</span></code><span>Normalize transcripts (Fireflies JSON / MD / DOCX) into utterance windows.</span></div>
+      <div class="skill"><code>/meetup-classify <span class="badge scaffold">scaffold</span></code><span>Mine ideas, directives, mentions, curiosities. Every record cites a source window.</span></div>
+      <div class="skill"><code>/meetup-synthesizer <span class="badge scaffold">scaffold</span></code><span>Cluster ideas across weeks → THEME records. Assign light or heavy track.</span></div>
+      <div class="skill"><code>/meetup-experimenter <span class="badge scaffold">scaffold</span></code><span>Heavy track: bounded runnable test in a sandbox; outcome.yaml records hypothesis result.</span></div>
+      <div class="skill"><code>/meetup-publisher <span class="badge scaffold">scaffold</span></code><span>Secret-scrubbed gist + scsiwyg blog post (editorial theme, unlisted by default).</span></div>
+      <div class="skill"><code>/meetup-orchestrator <span class="badge scaffold">scaffold</span></code><span>Weekly walk — thin router over the lifecycle DAG; honors weekly budget; carries unfinished work forward.</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <div class="meta">© Atomic 47 Labs · MIT · v0.1.0 · sibling to forge-state · notella · work-state</div>
+      <div class="links">
+        <a href="https://github.com/Atomic-47-Labs/8am-ai">github</a>
+        <a href="https://atomic47.co">atomic47.co</a>
+        <a href="mailto:david@atomic47.co">david@atomic47.co</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

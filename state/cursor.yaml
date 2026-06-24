@@ -1,0 +1,9 @@
+gdrive:
+  folder_id: null
+  last_modified: null
+intake:
+  last_processed_meeting: null
+classify:
+  last_processed: {}        # { "MM-DD-YY": iso_ts }
+synthesize:
+  last_week_run: null       # YYYY-WNN

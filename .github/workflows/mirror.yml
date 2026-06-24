@@ -1,0 +1,45 @@
+name: mirror
+
+# Mirror Atomic-47-Labs/8am-ai (canonical) ➜ worksona/8am-ai (mirror).
+# Triggered on every push to main and on a daily cron as a safety net.
+#
+# Requires repo secret MIRROR_TOKEN: a fine-grained PAT with `contents: write`
+# on worksona/8am-ai. Set under
+#   Settings → Secrets and variables → Actions → New repository secret
+#   Name: MIRROR_TOKEN
+#   Value: <PAT for the `worksona` GitHub account>
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["**"]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * *"
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    if: github.repository == 'Atomic-47-Labs/8am-ai'
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Push to worksona/8am-ai
+        env:
+          MIRROR_TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: |
+          if [ -z "$MIRROR_TOKEN" ]; then
+            echo "::error::MIRROR_TOKEN secret not set; cannot mirror."
+            exit 1
+          fi
+          git remote add mirror "https://x-access-token:${MIRROR_TOKEN}@github.com/worksona/8am-ai.git"
+          git push mirror --all --force-with-lease
+          git push mirror --tags --force

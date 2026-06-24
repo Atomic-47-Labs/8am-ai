@@ -1,0 +1,22 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Directive
+type: object
+required: [id, slug, status, source]
+properties:
+  id: {type: string, pattern: "^DIR-\\d{4}$"}
+  slug: {type: string}
+  status: {enum: [open, in-flight, done, dropped]}
+  owner: {type: string}
+  due: {type: [string, "null"], format: date}
+  source:
+    type: object
+    required: [meeting, speaker]
+    properties:
+      meeting: {type: string}
+      speaker: {type: string}
+      window_id: {type: string}
+      timestamp_s: {type: number}
+      excerpt: {type: string}
+  idea_refs:
+    type: array
+    items: {type: string, pattern: "^IDEA-\\d{4}$"}
