@@ -4,7 +4,7 @@
 
 **40 ideas** · span 2024-08-14 → 2026-06-24 · trajectory: steady · 10 published
 
-> 📖 Published chapter: **[Mining the glue](https://scsiwyg.com/8am-ai/mining-the-glue)**
+> Published chapter: **[Mining the glue](https://scsiwyg.com/8am-ai/mining-the-glue)**
 
 ## How the thread evolved
 

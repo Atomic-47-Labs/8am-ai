@@ -4,7 +4,7 @@
 
 **59 ideas** · span 2024-07-31 → 2026-06-24 · trajectory: steady · 8 published
 
-> 📖 Published chapter: **[Atomic to architecture](https://scsiwyg.com/8am-ai/atomic-to-architecture)**
+> Published chapter: **[Atomic to architecture](https://scsiwyg.com/8am-ai/atomic-to-architecture)**
 
 ## How the thread evolved
 

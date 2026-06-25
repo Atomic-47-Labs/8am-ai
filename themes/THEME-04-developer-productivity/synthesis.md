@@ -4,7 +4,7 @@
 
 **59 ideas** · span 2024-08-28 → 2026-06-10 · trajectory: steady · 8 published
 
-> 📖 Published chapter: **[The tool-churn log](https://scsiwyg.com/8am-ai/the-tool-churn-log)**
+> Published chapter: **[The tool-churn log](https://scsiwyg.com/8am-ai/the-tool-churn-log)**
 
 ## How the thread evolved
 

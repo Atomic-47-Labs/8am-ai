@@ -4,7 +4,7 @@
 
 **97 ideas** · span 2024-04-24 → 2026-06-24 · trajectory: steady · 8 published
 
-> 📖 Published chapter: **[The model is the commodity](https://scsiwyg.com/8am-ai/the-model-is-the-commodity)**
+> Published chapter: **[The model is the commodity](https://scsiwyg.com/8am-ai/the-model-is-the-commodity)**
 
 ## How the thread evolved
 

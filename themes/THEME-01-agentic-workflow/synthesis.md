@@ -4,7 +4,7 @@
 
 **143 ideas** · span 2024-04-17 → 2026-06-17 · trajectory: steady · 8 published
 
-> 📖 Published chapter: **[From scrubs to swarms](https://scsiwyg.com/8am-ai/from-scrubs-to-swarms)**
+> Published chapter: **[From scrubs to swarms](https://scsiwyg.com/8am-ai/from-scrubs-to-swarms)**
 
 ## How the thread evolved
 

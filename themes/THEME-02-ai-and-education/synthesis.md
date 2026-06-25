@@ -4,7 +4,7 @@
 
 **55 ideas** · span 2024-06-26 → 2026-06-24 · trajectory: steady · 8 published
 
-> 📖 Published chapter: **[Teaching in the rubble](https://scsiwyg.com/8am-ai/teaching-in-the-rubble)**
+> Published chapter: **[Teaching in the rubble](https://scsiwyg.com/8am-ai/teaching-in-the-rubble)**
 
 ## How the thread evolved
 
