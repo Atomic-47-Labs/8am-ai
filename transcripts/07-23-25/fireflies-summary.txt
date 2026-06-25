@@ -1,0 +1,63 @@
+Meeting: 8am AI!
+Date: 7/23/2025, 8:00:00 AM
+Duration: 62.2599983215332 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- Discussion on note-taker management highlighted challenges and suggested an 'octagon-style' elimination process for multiple note-takers.
+- David Olsson presented an open-source alternative to the current meeting platform using Jitsi and WebRTC, with an estimated development time of one day.
+- The Worksona Playground was demonstrated, showcasing orchestrated agents capable of processing 50 documents simultaneously, generating 27 reports from long-form interviews.
+- The platform integrates Anthropic for custom audience targeting and supports various content types including images and documents.
+- A triple-layer development approach was detailed: Layer 1 (manual execution), Layer 2 (guided automation), Layer 3 (self-building systems).
+- Spencer MacBeth introduced a quality control framework for B2C sales agents, addressing hallucination issues with a focus on maintaining performance across vast generation scales.
+- The concept of context grooming as a preventive measure against token exhaustion was discussed to mitigate the context rot phenomenon affecting LLM performance.
+- An agent-first development philosophy was emphasized, aiming to make agents the core of applications for enhanced continuous learning and knowledge sharing.
+- Future predictions include a shift in app development dynamics where non-developers may emerge as leading developers, as highlighted in an AI 2027 paper.
+- David forecasted that by the year's end, agents will play a crucial role in applications, with an ability for full codebase handoff capabilities.
+
+ACTION ITEMS:
+
+**David Olsson**
+Deploy Worksona Playground to Netlify for team access and testing (05:30)
+Fix broken chatbot functionality in the playground interface (06:59)
+Complete deliverable for tomorrow's meeting (01:00:00)
+
+**Spencer MacBeth**
+Continue developing and potentially productizing quality control framework for customer-facing agents (37:27)
+
+**Unassigned**
+Explore AI 2027 paper and related YouTube explanations for strategic planning (57:55)
+
+
+KEYWORDS:
+Worksona, agents, context, manifest, playground, delegation
+
+SHORT SUMMARY:
+🛠️ **Technical Infrastructure and Development** (00:00 - 02:52)
+Discussion of note-taker management challenges and potential solutions including 'octagon-style' elimination process for multiple note-takers.
+David Olsson presented open-source alternative to current meeting platform using Jitsi and WebRTC technology, estimated development time of one day.
+Introduction of new team members including Jen Boger (Jennifer), BB at Atomic, Ashley from Jason's team, and Spencer who hasn't worked with Jason in 8 years.
+💻 **Worksona Playground Platform** (02:54 - 05:30)
+David demonstrated the Worksona Playground - a power prompting platform with orchestrated agents using card-based scenarios and personas.
+Platform supports multiple content types: images, documents, text input with Anthropic integration and custom audience targeting.
+Triple-layer development approach explained: Layer 1 (manual execution), Layer 2 (guided automation), Layer 3 (self-building systems).
+Platform processes up to 50 documents simultaneously and generates 27 different reports from single long-form interviews, particularly valuable for UX research.
+🤖 **Advanced AI Development Concepts** (16:09 - 28:44)
+Manifest concept introduced as JSON export containing workflows, patterns, and application logic - described as 'bill of materials' for AI applications.
+Context engineering discussion replacing traditional prompt engineering, emphasizing context grooming and compression techniques.
+Agent-first development philosophy where agents become core of applications to enable continuous learning and knowledge sharing.
+🔍 **Quality Control and Evaluation Framework** (35:44 - 53:54)
+Spencer MacBeth presented customer-facing agent quality control framework for B2C sales, addressing hallucination issues at scale with tens of thousands of generations.
+Discussion of context rot phenomenon where small errors compound over time, affecting LLM performance especially with composite queries requiring multiple fact connections.
+Context grooming emphasized as essential practice - 'less is more' approach to prevent token exhaustion and confusion.
+📈 **Industry Insights and Future Predictions** (34:40 - 01:00:00)
+Debate over article claiming best future app developers will be non-developers due to lack of legacy paradigm burden.
+Discussion of AI 2027 paper predicting rapid advancement with concerning implications for competitive dynamics between major AI companies.
+David's prediction: By end of year, agents will be core to applications with full codebase handoff capabilities.
+📄 **Business and Licensing Developments** (15:38 - 31:47)
+Worksona licensing agreement in progress for delegation patterns documentation and flowcharts, with 6-month to 1-year license duration discussions.
+Team focus shifting from application outputs to the learning processes and methodologies behind them - 'we want the prompt, not the result'.
+
+

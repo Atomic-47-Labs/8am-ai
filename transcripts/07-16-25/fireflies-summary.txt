@@ -1,0 +1,87 @@
+Meeting: 8am AI!
+Date: 7/16/2025, 8:00:00 AM
+Duration: 120.55000305175781 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- Six-week sprint plan for Alberta Energy Regulator app development presented by Scott Morton, focusing on markdown conversion and automated downloads.
+- David Olsson offered an existing markdown processing app for bulk PDF uploads, aiding regulatory compliance and efficiency.
+- Context management identified as a critical challenge in development workflows, impacting collaboration across tools.
+- Scott emphasized a systematic project planning approach, underscoring the importance of proper context before development work.
+- MCP (Model Context Protocol) discussed as an innovative strategy for integrating contextual knowledge into development processes.
+- Agent orchestration and delegator system challenges highlighted by David, with visualized decision-making processes improving collaboration.
+- Documentation automation highlighted as a major hurdle, with companies still relying on manual processes instead of leveraging AI tools.
+- Adoption barriers for AI identified, including fears of job displacement and resistance within organizations, particularly in the financial sector.
+- K-shaped intelligence graph proposed to illustrate divergent intelligence outcomes based on AI usage patterns, emphasizing the value of continued learning.
+- Scheduled follow-up discussions among David, Scott, and James to ensure alignment and progress on development goals.
+
+ACTION ITEMS:
+
+**David Olsson**
+Call Scott Morton and James Giroday on Friday for follow-up discussion (01:01:14)
+Provide Scott access to existing markdown processing application (03:22)
+Continue development of delegator system for agent orchestration (25:18)
+
+**Scott Morton**
+Execute six-week sprint plan for Alberta Energy Regulator companion app development starting in three weeks (11:21)
+Implement automated PDF download system for Directive 65 using Python, Beautiful Soup, and Requests (13:15)
+Review and prepare project documentation for Friday call with David (01:01:14)
+
+**Fulvio Ciano**
+Resolve MCP and API synchronization issues by implementing separate repository approach for code and context (01:16:01)
+Execute context rebuilding strategy using memory bank regeneration prompt (01:40:40)
+Address documentation discrepancies between code and documentation (01:40:55)
+
+**James Giroday**
+Participate in Friday follow-up call with David and Scott (01:01:14)
+Explore AI applications for financial industry workflows (36:46)
+
+
+KEYWORDS:
+regulatory-compliance, document-processing, agent-development, context-management, AI-automation, development-workflow
+
+SHORT SUMMARY:
+🔧 **Opening & Technical Setup** (01:55 - 03:08)
+Technical setup and camera issues resolved at meeting start with David Olsson, Scott Morton, and other participants joining.
+Scott Morton presented six-week sprint plan for Alberta Energy Regulator companion app development, including markdown conversion system.
+David Olsson offered access to existing markdown processing app that can handle bulk PDF uploads and convert to searchable database format.
+📄 **Document Processing & Regulatory Compliance** (04:25 - 10:26)
+Generalized PDF scraping service discussion for regulatory bodies including oil and gas, environmental regulations, and APSA knowledge management.
+EXA AI service demonstration for web scraping with immediate markdown conversion capabilities mentioned as potential solution.
+Scott's systematic approach to project planning emphasized importance of setting up proper context before development work begins.
+🛠️ **Development Framework & Context Management** (11:21 - 09:13)
+Six-week development timeline established by Scott for Alberta Energy Regulator app with phases including automated downloads, markdown conversion, and database upload.
+Context management identified as critical challenge in current development workflow, particularly for team collaboration across different tools.
+MCP (Model Context Protocol) pattern discussed as innovative approach for introducing contextual knowledge into development flow.
+📊 **Technical Architecture & Planning** (17:11 - 18:34)
+Comprehensive project documentation presented including problem statement, target audience, expected outcomes, and technical stack specifications.
+Core features outlined including time estimator for application approvals, SOC/SIR access, and regulatory question anticipation.
+User flow and GPT integration requirements detailed with data privacy considerations and hosting requirements.
+🤖 **Agent Development & Automation** (25:18 - 52:12)
+Agent orchestration challenges discussed with David working on delegator system that analyzes problems and delegates to appropriate agents.
+Prompt agents in IDE implementation described as effective method for documentation generation and code auditing.
+Decision-making process visualization shown through flowcharts demonstrating agent pattern selection and collaboration methods.
+📚 **Knowledge Management & Documentation** (47:28 - 32:08)
+Scott's book creation process shared using AI for both artistic memoir and technical documentation with rigorous fact-checking methodology.
+Documentation automation challenges highlighted with example of companies still manually cutting and pasting instead of using AI tools.
+Longitudinal analysis capabilities discussed for transcript processing beyond simple summarization to enable actionable insights.
+🏦 **Industry Adoption & Implementation** (41:22 - 55:29)
+Adoption barriers identified including concerns about hallucinations, job displacement, and organizational resistance to AI implementation.
+Financial industry applications discussed with Scott offering to solve multiple problems for financial professionals through AI automation.
+LLM-first thinking transition acknowledged by participants as fundamental shift in daily workflow integration.
+⚙️ **Technical Challenges & Solutions** (01:05:07 - 01:16:01)
+Context corruption issues detailed by Fulvio regarding MCP development where fixing one component breaks others.
+Code and context synchronization problems identified as major development challenge requiring separate repository approach.
+Git version control benefits emphasized for managing complex AI-assisted development workflows.
+🧠 **Intelligence & Learning Discussion** (58:35 - 59:33)
+Scott's IQ improvement story shared showing 16-point increase attributed to AI usage, challenging conventional intelligence peak assumptions.
+K-shaped intelligence graph concept proposed showing AI usage creating divergent intelligence outcomes based on usage patterns.
+Continued learning emphasis highlighted as factor distinguishing productive AI users from passive consumers.
+📅 **Meeting Conclusion & Future Planning** (01:01:03 - 01:40:40)
+Follow-up calls scheduled between David, Scott, and James for Friday discussion.
+Internal team meeting transition planned for continuing technical discussions.
+Context rebuilding strategy discussed for recovering from corrupted development environments.
+
+

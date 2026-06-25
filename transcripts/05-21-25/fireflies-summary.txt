@@ -1,0 +1,58 @@
+Meeting: 8am AI School
+Date: 5/21/2025, 8:00:00 AM
+Duration: 54.36000061035156 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- **AI Development Acceleration**: Scott Morton showcased an investor management app using Supabase, React, and Vite, built in 11 hours with AI assistance. Highlighted need for troubleshooting due to AI-generated code limitations, particularly the bug requiring full field re-entry when editing records.
+
+- **AI Extraction Challenges for Compliance**: Scott's attempt to use AI (ChatGPT 4.0/4.5) for extracting data from six AER regulatory documents faced issues with nuanced extraction, formatting inconsistencies, and quoting accuracy. Plans to use Claude with improved prompts. David suggested preprocessing documents for better AI handling.
+
+- **Enhancing AI Workflow Strategies**: David emphasized using explicit examples and templates for AI tasks. Suggested leveraging IDEs (like Cursor) for automation in document extraction and formatting. Scott will explore IDE automation and report on its effectiveness in upcoming sessions.
+
+ACTION ITEMS:
+
+**Scott Morton**
+Troubleshoot and restore backend connectivity between the application and Supabase database to enable full demo functionality (02:31)
+Continue refining AI-driven document extraction workflow for AER compliance, including testing with different models and providing more explicit examples in prompts (11:02)
+Experiment with using the Cursor IDE to automate extraction and formatting of information from multiple documents for AER checklist compliance (35:22)
+Report back in a couple of weeks on progress with document extraction and automation using IDE tools (51:51)
+
+**David Olsson**
+Cancel next week's meeting due to scheduling conflicts and upcoming conference (51:04)
+
+
+KEYWORDS:
+AI automation, Supabase, document extraction, regulatory compliance, IDE integration, investor management
+
+SHORT SUMMARY:
+🛠️ **Application Demo & Development Challenges** (03:02 - 09:05)
+Scott Morton demonstrated an investor management application built using Supabase, React, and Vite, with AI-generated code.
+The app features login, investor data management, transaction matching, and summary tables for board reporting.
+Scott described a bug where editing a record requires re-entering all fields, highlighting limitations in AI-generated code and the need for manual troubleshooting.
+Development with AI tools significantly accelerated the process, reducing what would have taken a month to about 11 hours (plus troubleshooting).
+🤖 **AI-Assisted Document Extraction for Regulatory Compliance** (11:02 - 19:27)
+Scott attempted to use AI (primarily ChatGPT 4.0/4.5) to extract and organize data from six regulatory documents for Alberta Energy Regulator (AER) compliance.
+AI struggled with nuanced extraction, inconsistent formatting, and providing precise references, often summarizing instead of quoting exact text.
+Scott plans to try Claude and provide more explicit examples in prompts to improve results.
+David suggested preprocessing documents into a structured corpus and using programmatic approaches or different models for better results.
+💡 **Strategies for Improving AI Workflows** (16:27 - 35:22)
+David recommended giving AI explicit examples and templates to improve extraction accuracy.
+Discussed using IDEs (like Cursor) to leverage AI for code and document processing, including building custom tools for extraction and formatting.
+Scott agreed to experiment with IDE-based automation and report back on effectiveness.
+📈 **Practical Applications and Future Potential** (23:06 - 43:31)
+Scott's investor management tool addresses real-world founder needs (cap table management, investor reporting) and could be productized with an AI interface for broader use.
+David highlighted the value of organized data rooms for startups, enabling continuous valuation and easier board/investor interactions.
+Both noted the difference between building tools for personal use and supporting them as products.
+🧑‍💻 **IDE Integration and Automation Insights** (32:15 - 50:51)
+David shared experiences using IDEs (Cursor, VS Code) with AI agents for rapid development, code documentation, and deployment (e.g., Netlify, Railway).
+Emphasized the power of IDEs for automating repetitive tasks, building and running applications, and integrating with version control and deployment pipelines.
+Scott and David discussed the potential for AI to decompose complex problems into agent-driven solutions, though current limitations (API constraints, model capabilities) remain.
+📅 **Meeting Logistics and Next Steps** (51:04 - 54:04)
+Next week's meeting is cancelled due to David's travel and conference commitments; participants will be notified.
+Scott will continue work on document extraction and automation, planning to report back in a couple of weeks with progress and findings.
+Open invitation for participants to reach out for troubleshooting or collaboration before the next meeting.
+
+

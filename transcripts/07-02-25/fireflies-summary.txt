@@ -1,0 +1,81 @@
+Meeting: 8am AI School
+Date: 7/2/2025, 8:00:00 AM
+Duration: 50.029998779296875 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- Successful implementation of MCP (Model Control Protocol) enhances context sharing across AI tools, allowing better collaboration between teams, as highlighted by David's recent efforts.
+- The integration of Claude Code SDK allows for automated repo analysis, taking over 5 minutes for comprehensive audits, promoting efficiency in development workflows.
+- Difficulty in transferring context between different development environments due to varying tools remains a significant challenge for the team, impacting productivity.
+- The value of portability in pre-deployment collaboration is crucial, as current workflows limit knowledge sharing to meetings and fail to utilize asynchronous communication effectively.
+- Proposal for a shared rules repository aims to standardize documentation and processes across the team, addressing inconsistencies in project-specific and global rules.
+- Introduction of 'Cascading Context' concept will enhance hierarchy in context management, drawing parallels with CSS for better organization of information across projects.
+- Fulvio’s commit rules, including committing when features are complete or during breaks, highlight the need for automated documentation updates in context management practices.
+- Recognition of the necessity for a convention-based system to normalize context across diverse development environments is essential for team cohesion.
+- Context management, identified as the biggest issue in computation for over 20 years, is becoming more manageable with the introduction of AI tools and strategies.
+- Meeting restructuring proposals suggest shorter, more focused planning sessions followed by larger collaborative meetings to accommodate various team schedules, improving overall efficiency.
+
+ACTION ITEMS:
+
+**David Olsson**
+Invite BB, Travis, and Jen to future 8am meetings (47:57)
+Set up twice-weekly meetings and determine optimal times for team (47:57)
+Restructure Tuesday meetings: 30-minute planning session with Fulvio, followed by larger group meeting (48:36)
+
+**Fulvio Ciano**
+Present cascading context strategy to BB as research project with functional output (45:06)
+Show Klein rules document to BB to demonstrate current implementation (46:07)
+
+**Unassigned**
+Create shared rules repository for standardized team rules (33:10)
+Develop cascading context strategy (CCS) for unified team approach (46:54)
+
+
+KEYWORDS:
+MCP, Claude, agents, context, portability, cascading
+
+SHORT SUMMARY:
+☕ **Opening and Casual Discussion** (04:33 - 05:44)
+David and Fulvio begin meeting, discussing coffee and Fulvio's new office setup
+David mentions being on a 'coffee train' and trying to reduce consumption
+🤖 **AI Tools and Development Challenges** (05:57 - 13:16)
+Discussed onboarding new team member and challenges of sharing context across different AI tools
+MCP (Model Control Protocol) implementation working successfully - David built one for delegator inside Clos
+Warp terminal integration using different LLMs (Claude, O3) for planning and execution
+Challenge of building AI systems without full understanding of what's been created - both participants experience this
+Black boxes within black boxes problem - multiple layers of opacity in AI systems making debugging difficult
+Significant improvement in AI models' ability to determine when documentation updates are actually needed
+🛠️ **Development Tools and Workflows** (13:16 - 31:04)
+David demonstrates Claude Code SDK integration for automated repo analysis with four different audit perspectives
+Repo analysis system takes 5+ minutes to complete comprehensive audits and documentation generation
+Built AI delegation system using Claude Code SDK with dynamically generated agents
+MCP integrations available for deployment platforms (Netlify, AWS, DigitalOcean) enabling agent-driven deployments
+Challenge of context transfer between different development environments when team members use different tools
+Discussion of 'Davidify' or 'Atomicify' process - using agents to make repositories compliant with team standards
+Gitzona project example - built three different marketing websites from same codebase targeting different audiences
+Developed sleep simulator and other delegator tools, some experiencing deployment issues
+🌐 **Portability and Collaboration Challenges** (26:13 - 31:04)
+Portability exists only at app level - major limitation for pre-deployment collaboration
+Value of portability is extremely high before deployment stage to enable collaboration
+Current collaboration happens only during meetings, missing opportunities for asynchronous knowledge sharing
+Need for knowledge graph to organize team discussions and context
+📚 **Context Management and Documentation** (31:04 - 39:06)
+Importance of leveraging functional code examples rather than just understanding for documentation
+Proposal for shared rules repository where all team members contribute standardized rules
+Global and project-specific rule sets concept - rules applied across all projects vs. project-specific rules
+Discussion of MCP for context management - programmatically injecting and sharing context across projects
+Fulvio's commit rules example: commit when feature complete or when taking breaks, with automatic documentation updates
+🔗 **Cascading Context Strategy** (39:07 - 45:06)
+Introduction of 'Cascading Context' concept - hierarchical context management system similar to CSS
+Fulvio's .client rules structure in Klein - uses Custom Instructions.md in .client directory
+Progress documentation challenges - distinguishing between personal and project progress tracking
+Need for convention-based system that normalizes context across different development environments
+Context as the biggest issue in compute for 20+ years, now becoming addressable through AI tools
+🗓️ **Meeting Structure and Next Steps** (45:06 - 49:42)
+Plan to invite BB, Travis, and Jen to future 8am meetings
+Meeting restructuring proposal: shorter planning meetings for David and Fulvio, followed by larger group meetings
+Accommodation for Eastern time zone (Fulvio) vs. other team members' schedules
+
+

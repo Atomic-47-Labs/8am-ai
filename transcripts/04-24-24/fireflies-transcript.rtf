@@ -1,0 +1,504 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI SCHOOL - Workshops in AI and PROMPTING. FREE!\b0\par
+\pard\qc\f1\fs20 4/24/2024 \bullet 0min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: unknownorganizer@calendar.google.com, david@atomic47.co\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay, that looks like that's working.\par
+\pard\f0\fs20 All right, bring that back over.\par
+\pard\f0\fs20 All right, good morning.\par
+\pard\f0\fs20 We're gonna get going and pick up for where we left off last time.\par
+\pard\f0\fs20 Got a little bit of an agenda here.\par
+\pard\f0\fs20 So last time we introduced the idea of a scrub, a works on a scrub, and that's just a get or done agent.\par
+\pard\f0\fs20 A really minimal set of instructions and descriptions, metadata that we can provide, a large language model like a GPT chat GPT to better assist us in doing some work.\par
+\pard\f0\fs20 You know, work like writing, research, image creation, analysis, code creation, all kinds of different things that we would normally do in the process of doing knowledge work.\par
+\pard\f0\fs20 A lot of analytic work we can get into as well.\par
+\pard\f0\fs20 But right now, Benny is set up as a scrub an agent, and I consolidated a bunch of information into a document that sort of describes what was going on in the session, and documents, in a copy and pastable way, a series of descriptions and prompts that can be used.\par
+\pard\f0\fs20 Here's the example, the tech researcher that the framework is being applied to, the workshop number one scrub framework.\par
+\pard\f0\fs20 This is workshop number two, is going to change a lot.\par
+\pard\f0\fs20 So this is looking at it here and seeing it broken out into instructions, variables, agent configuration, and output.\par
+\pard\f0\fs20 And in this version of sort of the scenario and agent prompt, we started breaking things out into using some nomenclature to define variables that they would be identified and could be easily replaced in some of the instruction set that we're using.\par
+\pard\f0\fs20 So we use goal as a variable assets, the type of things we want to produce, audience, who we're going to address.\par
+\pard\f0\fs20 And these can be then piped into various statements that we use considering for the output consideration here, like create a strategy and resulting plan that ensures a successful creation of and communication of the required bracket assets.\par
+\pard\f0\fs20 Included are intended for bracket audience that attained the bracket goal to attain the goal.\par
+\pard\f0\fs20 So those three things are identified up in a section called variables.\par
+\pard\f0\fs20 Now, I said this was going to change, because as we learn and as we put things into play, the refinement starts to speak to us, the opportunities for refinement, as well as the opportunity that we need to generalize, generalize.\par
+\pard\f0\fs20 So given that we want to have a series of scrubs, I want to have some way of looking at Benny as a sort of first kind of expression of building a template.\par
+\pard\f0\fs20 And so if we take out most of the content and we just define it as a scenario with some instructions, a goal, some variables, an agent who has some definition and some expected output, that's pretty succinct in terms of what we could do to get it to move, get the agent to do something in a direction that we want, where we can then start affecting it.\par
+\pard\f0\fs20 Maybe we describe the topic differently, describe the assets that we want.\par
+\pard\f0\fs20 I'm usually quite brief about the assets, and then we can get into refining what that statement is.\par
+\pard\f0\fs20 The audience.\par
+\pard\f0\fs20 It's very important to have some understanding of who we're talking to.\par
+\pard\f0\fs20 Work zone is all about understanding the Personas, who are the people involved in a scenario.\par
+\pard\f0\fs20 And an agent is a certain type of actor, and we're learning what type of metadata and what type of instructional sets these agents require to do their work.\par
+\pard\f0\fs20 As we've seen in some situations, like crew AI, there's basically three different, we can call them properties of an agent that define how it can work.\par
+\pard\f0\fs20 It's quite simple, and it works quite well in terms of being able to provide a generalized direction for taking action on work.\par
+\pard\f0\fs20 And so in the scenarios that we're setting up, we're going to be a bit more refined in terms of our defining of what an agent can be.\par
+\pard\f0\fs20 And it can get quite long, and, and then it becomes a bit wieldy, unwieldy, and then we have more information that's not being used or it's being used in this direction.\par
+\pard\f0\fs20 And so in the case where we come up with what I would call a succinct prompt, and it is still a page long and has some, has a fair bit of complexity to it.\par
+\pard\f0\fs20 And so I looked at what it would take to take Benny, our tech researcher, and see how we could optimize it.\par
+\pard\f0\fs20 And there's a body of research out there on getting the large language models to actually collaborate on building prompts and optimizing prompts.\par
+\pard\f0\fs20 And there's a number of prompts available for actually building what would be called a metaprompt for building a prompt engineer, or for building an engineer that can create more prompts.\par
+\pard\f0\fs20 So you have a language that can, at a higher level, define some of the activities and allow for some of the specificity at a more granular level that's defined right before the actions take place.\par
+\pard\f0\fs20 And so this is very much in a programming paradigm, like an object oriented sort of paradigm, where you have a prototype, and then you make the prototype very specific to what it needs to do.\par
+\pard\f0\fs20 And here's an example of a very verbose prompt that has a lot of the nomenclature that is recommended for use in prompting to make it easier for the large language model to interpret this as structure.\par
+\pard\f0\fs20 And so you see there's a markdown being used, there's start and end definitions for some of these sections.\par
+\pard\f0\fs20 And each of these sections is blocked off as if it was a variable.\par
+\pard\f0\fs20 Everything is either bullet pointed or action numbered to give it a sense of structure.\par
+\pard\f0\fs20 And the document itself reads quite effectively.\par
+\pard\f0\fs20 Well, and so this is a script that is meant to enable you to produce a collaborator from creating very, very optimized scripts.\par
+\pard\f0\fs20 And so I applied some of this to our Benny in a bunch of different experiments and came up with a series of, came up with a series of different views on what a researcher could be.\par
+\pard\f0\fs20 Here I have just.\par
+\pard\f0\fs20 I'm taking.\par
+\pard\f0\fs20 I'm calling it just a prompt engineer.\par
+\pard\f0\fs20 Just prompt engineer.\par
+\pard\f0\fs20 Its name is just, and it studies and simplifies prompt framework.\par
+\pard\f0\fs20 So it's.\par
+\pard\f0\fs20 It's a scrub definition of an agent that I could then bring into this metaprompt to work with as the content and then produce another version of our Benny researcher.\par
+\pard\f0\fs20 So this, as much as I have minimized and tried to create a minimum viable scrub in terms of what it can be, working with the metaprompting and looking at some of the feedback that I get from the work that I've done with this initial script.\par
+\pard\f0\fs20 Okay, this is the prompt architecture script that I had mentioned right here, and it's intended to create.\par
+\pard\f0\fs20 We'll get to the part where it's doing the creation.\par
+\pard\f0\fs20 Thank you for submitting your request.\par
+\pard\f0\fs20 I understand the following from your given request, and then it defines what it wants, what I wanted to do.\par
+\pard\f0\fs20 And it got to the point of ingesting that if I wanted to make any modifications to what was there.\par
+\pard\f0\fs20 And so I actually stood back and said, okay, well, just broadly define some of these variables that they have there and see if you could then get it to execute.\par
+\pard\f0\fs20 And so I minimized what I saw here into what I built here, and it was a cross section of what I'd learned from this metaprompt and what I had gotten to in terms of our scrub.\par
+\pard\f0\fs20 In terms of our scrub design, it's pretty tight.\par
+\pard\f0\fs20 The personality probably need to be there, and the tasks and skills are kind of intermixed, and the, you know, the goal and the instructions might be bound together inappropriately in the output, and the skills might be intertwined a little bit.\par
+\pard\f0\fs20 And so there's a little bit of spaghetti going on here that, you know, can be worked out.\par
+\pard\f0\fs20 And so I didn't take everything that I had.\par
+\pard\f0\fs20 I wanted to be able to see if I could invoke some of this prompt engineering and metaprompting language to create my own framework.\par
+\pard\f0\fs20 And so executing on the task of looking for intelligence information on the Internet and then figuring out how to actually do that.\par
+\pard\f0\fs20 It provided me the step by step, and then it went on to figure out what exists in that space based on the step by step.\par
+\pard\f0\fs20 And then I asked it, you know, here's a hybrid that occurs created a hybrid metapromp for creating an AI agent that will analyze and analyze the requirements, identify the domain, and apply appropriate cognitive processes.\par
+\pard\f0\fs20 And that just made me happy.\par
+\pard\f0\fs20 So it's like, here's the instructions for this prompt.\par
+\pard\f0\fs20 Here's the steps.\par
+\pard\f0\fs20 Step one, analyze the task requirements description provides a description of what to do.\par
+\pard\f0\fs20 Step two, define the domain.\par
+\pard\f0\fs20 Where are we in terms of what are we researching, what do we need to understand and what are the subdomains under that?\par
+\pard\f0\fs20 Determine the correct cognitive process based on the domain.\par
+\pard\f0\fs20 Select the appropriate cognitive process or metapromp framework to apply.\par
+\pard\f0\fs20 That's succinct.\par
+\pard\f0\fs20 Execute the task, follow the defined cognitive process like the previous task to achieve the task.\par
+\pard\f0\fs20 Outcome consulting domain specific experts if NAP is necessary.\par
+\pard\f0\fs20 So now we actually have some sense of experts out there that we might need and maybe we need to create.\par
+\pard\f0\fs20 And this is an interesting one, that is a huge consideration, and that is handle errors or unexpected outcomes.\par
+\pard\f0\fs20 The implementation of error handling is essential because it's maybe not error handling, and if it is error handling, then it can precipitate some better design final outcome of the task execution.\par
+\pard\f0\fs20 So the outcome is the outcome.\par
+\pard\f0\fs20 So you see there's a lot of self reflexivity going on in here.\par
+\pard\f0\fs20 So I thought this was quite cool.\par
+\pard\f0\fs20 So we have instructions and outcome, and that's a pretty tight, you know, you can use this hybrid prompt template for creating AI agents and execute complex text, adjust the structure based on specific tax requirements.\par
+\pard\f0\fs20 And so I didn't feel like it got enough, you know, it didn't do enough research to find enough basis for something tangible.\par
+\pard\f0\fs20 You know, it was pretty light, even though I like this structure here.\par
+\pard\f0\fs20 So I changed the brief hack that I put in and I said task equals search, put it in brackets and identify seven substantive active meta prompting frameworks, examples and articles.\par
+\pard\f0\fs20 Yeah, pushed a bunch of words out there.\par
+\pard\f0\fs20 The domain is gen AI, generative AI and prompt engineering.\par
+\pard\f0\fs20 Specifically metaprompting brackets the utilizing of prompt to iterate prompts.\par
+\pard\f0\fs20 That's my words.\par
+\pard\f0\fs20 I'm trying to force some meaning on it and then I just say outcome.\par
+\pard\f0\fs20 So I have task, domain and outcome report on identified resources listed list of resources and optimized prompt frameworks based list the resources and optimized prompt frameworks based on the research and analysis of findings.\par
+\pard\f0\fs20 Oh, my God.\par
+\pard\f0\fs20 Okay, so optimize.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It's weak.\par
+\pard\f0\fs20 So provide this prompt in a code block.\par
+\pard\f0\fs20 I like the prompt in the code block for its readability and for, or its copy and paste ability.\par
+\pard\f0\fs20 And it will sometimes determine what programming language or what format it thinks it's in.\par
+\pard\f0\fs20 And this is very appropriate.\par
+\pard\f0\fs20 JSON is great.\par
+\pard\f0\fs20 It shows internal structure, and it's very portable.\par
+\pard\f0\fs20 It looks a little programmer for some people.\par
+\pard\f0\fs20 But you can then take this and you can say, okay, put this into section titles and descriptions.\par
+\pard\f0\fs20 Put this in a long form format, not in markdown, or put it in markdown.\par
+\pard\f0\fs20 So this task where I actually asked it to find, you know, seven different resources, the idea was to get it to be a little bit more rigorous and granular and what it actually is using as its base, it's a strategy.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 And we will see how the strategy plays out, but we do get a lot more of resources listed, and that is now with citations.\par
+\pard\f0\fs20 And so this alone is a great exercise for me to go follow up and say, well, some of these things I know a fair bit about, and some of them I have some working knowledge of and some will metaproting for task agnostic scaffolding.\par
+\pard\f0\fs20 Well, that sounds pretty much like what we're trying to do here.\par
+\pard\f0\fs20 And so I'll probably go up and follow that.\par
+\pard\f0\fs20 It then lists that I end up with sort of a, it stops and gives me a summary.\par
+\pard\f0\fs20 This is what I do when that happens.\par
+\pard\f0\fs20 I give it the word proceed and something will happen.\par
+\pard\f0\fs20 How that happens is kind of interesting.\par
+\pard\f0\fs20 In this case, it didn't know what to do because it didn't have an instruction set in here as to what to do next, other than it was meant to do some research and provide this in a code block.\par
+\pard\f0\fs20 And it didn't even get to that.\par
+\pard\f0\fs20 So cac somewhere.\par
+\pard\f0\fs20 So I said, okay, create a prompt framework based on this, on your findings and analysis.\par
+\pard\f0\fs20 Submit a prompting.\par
+\pard\f0\fs20 Okay, well, that got it back on track.\par
+\pard\f0\fs20 And this is just the best look at this structure.\par
+\pard\f0\fs20 And to create a meta prompting framework that iterates prompts to accomplish complex tasks in generative AI and prompt engineering.\par
+\pard\f0\fs20 That is the purpose of this prompt.\par
+\pard\f0\fs20 And then we get into some sub sections, or we can call them sections because they get subbed out too.\par
+\pard\f0\fs20 And one is a context.\par
+\pard\f0\fs20 What is the context?\par
+\pard\f0\fs20 I call it scenario, but I think context is better.\par
+\pard\f0\fs20 So context.\par
+\pard\f0\fs20 And then within the context, there's domain generative AI and prompt engineering, and then an overview, which, you know, I would call a description sometimes, but an overview is great for context.\par
+\pard\f0\fs20 It could be that we have other, you know, subtopics underneath that.\par
+\pard\f0\fs20 But what's neat about this is it's an adjacent format and it allows to see that there's a bit of structure in place.\par
+\pard\f0\fs20 Purpose is at the same level as context, but domain is under context.\par
+\pard\f0\fs20 So we'll be getting into this when I bring in object oriented, the idea of object oriented programming into prompting.\par
+\pard\f0\fs20 But this form here of storing data in a JSON format, which is just a JavaScript sort of digestible format, originally, originally purpose that way is very handy.\par
+\pard\f0\fs20 And it provides not only information, but again a structured nature of it, a hierarchical structured nature of it.\par
+\pard\f0\fs20 So interdependence is built into it.\par
+\pard\f0\fs20 So it's pretty cool.\par
+\pard\f0\fs20 And then we have context, you know, so we have purpose, context, criteria, requirements, constraints.\par
+\pard\f0\fs20 These are common, these are great buckets.\par
+\pard\f0\fs20 And here's an, you know, it's filled with an example as to how you can understand it.\par
+\pard\f0\fs20 And then the procedure, what are we doing?\par
+\pard\f0\fs20 We call this instructions, call a procedure, and then there's the steps underneath that, which are, in this case because it's metaprompting, they're very generalized, you know, analyze the task requirements to find the domain, determine the cognitive process, execute the task, handle errors and utilize feedback and then the outcome.\par
+\pard\f0\fs20 So it's a little bit like the first one, right?\par
+\pard\f0\fs20 But it actually now has a lot more, I would call it structure around things.\par
+\pard\f0\fs20 It has a lot more places where I can put different types it of information.\par
+\pard\f0\fs20 Or I could take some document and then say based on this document person's HR records and a task that they have or history they have or something that's needed, build out, or you know, take this as the template and apply that information to this template and produce a functioning agent and prompt.\par
+\pard\f0\fs20 And this one is like it has the context of a scenario, purpose and context and the criteria, you know, you could get, you can call that some, some of your internal requirements for how things get done or what gets produced.\par
+\pard\f0\fs20 And then the outcome can be defined as the series of reports, interactions, assets, common worker, work products.\par
+\pard\f0\fs20 So I then took that, because this is a metaprompt, this is a prompt to define a metaprompting engineer.\par
+\pard\f0\fs20 Prompting engineer a metapromt to create a prompt engineer.\par
+\pard\f0\fs20 I wanted something different, like a real example of this, so that it's not like so reflexive that I get it.\par
+\pard\f0\fs20 And so I just asked for one.\par
+\pard\f0\fs20 And it likes, it likes going AI and healthcare.\par
+\pard\f0\fs20 And so it said the purpose to assess the impact of AI, adoption, healthcare, industry and propose strategies for optimal integration.\par
+\pard\f0\fs20 Well, that's a pretty good and fairly high level kind of purpose goal.\par
+\pard\f0\fs20 You know, and in other documentation we have goal and the domain is generative AI and healthcare.\par
+\pard\f0\fs20 And so it is generative AI, and so that's large language models.\par
+\pard\f0\fs20 And what we're experiencing is sort of an inflection of invasion.\par
+\pard\f0\fs20 The task overview the task aims to evaluate the effects of AI in healthcare and suggest best practices for adoption.\par
+\pard\f0\fs20 So this is promoting the adoption.\par
+\pard\f0\fs20 So criteria, requirements and constraints ensure recommendations are feasible within the current healthcare framework.\par
+\pard\f0\fs20 Well, that assumes a lot.\par
+\pard\f0\fs20 Consider ethical implications and patient privacy.\par
+\pard\f0\fs20 Well, those are two of the biggest sort of polemics of health care.\par
+\pard\f0\fs20 So there will be a wealth of information, information and easy access to that.\par
+\pard\f0\fs20 It can be very, what I would call categorical and maybe not the best, but we're seeing a really nice structure here and we can see under the steps, the steps are understand the task, define the domain, what is the cognitive process, execute, handle errors, and give feedback, and a comprehensive report including key areas of implementation, patient outcomes, and best practices for optimal integrations or integration.\par
+\pard\f0\fs20 That is a spanky looking prompt, so you can just copy that and paste it into another application or into one of your Google Docs or whatever.\par
+\pard\f0\fs20 I am cool with just saying, okay, well maybe it will actually function because it understands JSON and sees this as a structure.\par
+\pard\f0\fs20 Maybe I can just paste it in because it has a purpose, right, and so sorry, it has a purpose, so it will take that as a, as an action that it can take.\par
+\pard\f0\fs20 We aren't in any way saying what you are like in this case, I am me.\par
+\pard\f0\fs20 But what the agent is that is executing this, we haven't gone that far.\par
+\pard\f0\fs20 We have a scenario and what the requirements and constraints, the procedure is based on all this.\par
+\pard\f0\fs20 The next step would be to create an agent that would then be functional in the space.\par
+\pard\f0\fs20 And often we have an agent in mind, and that's what some of the work that I've done tends to include, a framework for an agent.\par
+\pard\f0\fs20 But in the case where we're building a building, a prompt that builds prompts that are filled with agents that is so highly reflexive that the engine will get it without us belaboring to a degree.\par
+\pard\f0\fs20 I just pasted this in and to see what would happen.\par
+\pard\f0\fs20 And thank you for sharing your prompt framework focusing on assessing AI adoption in healthcare, this framework provides a structured approach to analyze the effects of AI and healthcare and propose optimal integration strategy.\par
+\pard\f0\fs20 Your framework has a comprehensive structure that encompasses key elements for successful task execution, including purpose, and context, criteria, procedures and outcomes.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 To refine and improve this framework, consider incorporating these suggestions based on best practices and metaprompting iterative process integration of expert models, error handling feedback loops.\par
+\pard\f0\fs20 All right, so we have some of that that we've been working on previously.\par
+\pard\f0\fs20 Applying these recommendations can optimize the framework effectively with greater effect.\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\f0\fs20 I'm like, okay, cool.\par
+\pard\f0\fs20 Some analysis and some stuff I kind of knew and you're starting to, you know, meld it together instead of proceed.\par
+\pard\f0\fs20 I'm like, okay, well, execute the prompt.\par
+\pard\f0\fs20 So that I'm like saying like, that's a prompt.\par
+\pard\f0\fs20 Like execute it.\par
+\pard\f0\fs20 Executing the prompt, the given prompt requires analyzing the impact of AI adoption, proposing strategies and optimal.\par
+\pard\f0\fs20 Here's an outline of the steps we need to execute this.\par
+\pard\f0\fs20 This task, understand the task and so it goes through the specificity of AI and healthcare now and divides and decides what some subdomains could be when it's in the definition.\par
+\pard\f0\fs20 Define the domain phase, determine the cognitive process, decide the best approach to analyze the impact of AI in healthcare.\par
+\pard\f0\fs20 This could involve meta prompting techniques to iterate and refine analysis incorporating exponential models frameworks use a mix of qualitative and quantitative analysis to assess the effects of AI adoption, patient outcomes and healthcare proficiencies.\par
+\pard\f0\fs20 Again, those are high level things.\par
+\pard\f0\fs20 We can drill down for more specifics, execute the task, error handling, feedback, unique allergies and generate the outcome.\par
+\pard\f0\fs20 Okay, so I'm like, right, you've told me those steps.\par
+\pard\f0\fs20 Proceed with these steps.\par
+\pard\f0\fs20 Executing a task to assess the impact of AI on healthcare involves several key steps.\par
+\pard\f0\fs20 Well, it's repeating those.\par
+\pard\f0\fs20 Okay, perform task one to understand, dot, dot, dot to understand the impact of AI adoption, because it should and it did in healthcare.\par
+\pard\f0\fs20 It picked up what I meant and proposed strategies for optimal integration.\par
+\pard\f0\fs20 Dot, dot, dot, powerful ellipses.\par
+\pard\f0\fs20 Use it.\par
+\pard\f0\fs20 It's crucial to explore multiple aspects of AI use in industry.\par
+\pard\f0\fs20 Here's an overview of key areas.\par
+\pard\f0\fs20 And so it gets into more specificity on understanding the tasks by figuring out what the current state of things is for a set of criteria or a set of challenges or focuses for solutions.\par
+\pard\f0\fs20 And then, okay, I'm cool with this.\par
+\pard\f0\fs20 It's still high level.\par
+\pard\f0\fs20 And so to get to some level of granularity where maybe I can do further analysis to see if, you know, if this is working for me, if this is a step, is actually getting somewhere where it's not just generalized information, then I say provide three examples for the above.\par
+\pard\f0\fs20 Okay, well, now I'm getting to say, okay, well, now we can evaluate some of the applied reasoning to solutions.\par
+\pard\f0\fs20 So data organization, accessibility, combining in house teams with office health solutions and foundational investment in infrastructure that's under the healthcare and infrastructure and AI readiness.\par
+\pard\f0\fs20 So bucket of what can be done.\par
+\pard\f0\fs20 So it's getting down to things where people could say, okay, I understand what readiness means now.\par
+\pard\f0\fs20 And we could further drill down and say, okay, door data organization and accessibility.\par
+\pard\f0\fs20 What's a checklist for that?\par
+\pard\f0\fs20 And now we're getting somewhere.\par
+\pard\f0\fs20 And then we're saying, okay, well, this thing has utility.\par
+\pard\f0\fs20 And we can see where the end goal of this utility is in terms of getting to some data points where you could have very specific conversations.\par
+\pard\f0\fs20 Oh, and I was curious about what the statement up here meant when it said we had to utilize metaprompting to iterate and refine the analysis.\par
+\pard\f0\fs20 I'm like, so there's analysis that we want to do, and the prompting will look at the analysis.\par
+\pard\f0\fs20 It will reevaluate itself as a strategy and tactic for the analysis.\par
+\pard\f0\fs20 We'll try the analysis and then reevaluate itself for the analysis again and evaluate its previous analysis results against the new ones.\par
+\pard\f0\fs20 That's pretty powerful, but that's what I think it is.\par
+\pard\f0\fs20 So why not ask the large language model to explain it?\par
+\pard\f0\fs20 Because I think we're getting somewhere really, really neat.\par
+\pard\f0\fs20 So here's how metaprompting works in this context.\par
+\pard\f0\fs20 So in the context of refining the analysis, start with a base prompt.\par
+\pard\f0\fs20 You begin with foundational prompt that defines the task, subjective and scope.\par
+\pard\f0\fs20 Scope.\par
+\pard\f0\fs20 This initial prompt acts as a starting point for further iteration.\par
+\pard\f0\fs20 You iterate in the prompt based on the AI's response to the base prompt.\par
+\pard\f0\fs20 You create follow up prompts to explore specific areas.\par
+\pard\f0\fs20 Might be what we're doing here, people to clarify how to use, delve deeper into certain aspects.\par
+\pard\f0\fs20 And that's kind of where I want to see this approach to, you know, building agents and scenarios with sort of a meta awareness and then a meta description of things.\par
+\pard\f0\fs20 It's like, this is cool.\par
+\pard\f0\fs20 Then the scrubs, we can have sort of one sort of description of a base scrub, and it's a base prompt, and we iterate upon it through these steps to, you know, see what it does through refining the prompt that created the prompt and then have the prompt do some work.\par
+\pard\f0\fs20 Okay, I'll repeat that.\par
+\pard\f0\fs20 So we will have an engine prompting engineer create a base prompt based on some requirements, and then we'll have that base prompt for an agent and a scenario or a purpose.\par
+\pard\f0\fs20 We'll define what our key language, where it's going to be, and we'll stick to it probably after next workshop, so that we have some continuity moving forward and other things will shift, but we'll keep with some language.\par
+\pard\f0\fs20 So we're starting with the Bayes prompt.\par
+\pard\f0\fs20 We iterate on that, we have some analysis.\par
+\pard\f0\fs20 We iterate on the prompts to get new analysis so we can refine that.\par
+\pard\f0\fs20 And we possibly go on some of my paths to see like, what's the unexpected output that can be happening?\par
+\pard\f0\fs20 And then it says, in meta prompting, the AI systems guided through a structured process, often involving scaffolding techniques, to manage complex tasks.\par
+\pard\f0\fs20 These techniques allow for flexibility in adjusting the prompt to better align with the desired outcomes.\par
+\pard\f0\fs20 So these higher level tasks.\par
+\pard\f0\fs20 Harken back to a quote I have here.\par
+\pard\f0\fs20 Let's see.\par
+\pard\f0\fs20 Any problem in computer science can be solved by another layer of indirection.\par
+\pard\f0\fs20 Okay, so the word indirection is very interesting.\par
+\pard\f0\fs20 You can call it another layer of abstraction even.\par
+\pard\f0\fs20 Yeah, and we are doing that.\par
+\pard\f0\fs20 We have a prompt that we're saying we want to more, you know, adeptly define an agent can do things.\par
+\pard\f0\fs20 And then we're saying, well, there's a sort of a layer above that where we describe what a prompt is and how to utilize an optimization process to create a better prompt.\par
+\pard\f0\fs20 So we have this higher level prompt that creates a, we could say it, a more tactical lower level prompt, just in terms of hierarchy of information.\par
+\pard\f0\fs20 And so we are working in terms of a ladder of, you know, we have the chat GPT base interface.\par
+\pard\f0\fs20 You can say it's a vanilla kind of agent, and then we add a layer on top of it and make it a specific kind of researcher.\par
+\pard\f0\fs20 And then we can possibly layer a process on top of that.\par
+\pard\f0\fs20 Say we have a prompt engineer.\par
+\pard\f0\fs20 Here's a description of the tasks we need associated to some sort of outcome.\par
+\pard\f0\fs20 And what is the kind of best description of an agent that would suffice to service this work?\par
+\pard\f0\fs20 Okay, repeat that.\par
+\pard\f0\fs20 What kind of agent do we need to get that work done?\par
+\pard\f0\fs20 And then what is a process for, let's say, optimizing training or fine tuning that agent for the specificity of that task at hand?\par
+\pard\f0\fs20 And that's where the metapronting can come in in a really cool way.\par
+\pard\f0\fs20 So let's get back to being in our crazy series of iterating on what a prompt for a scenario and situation can be.\par
+\pard\f0\fs20 And so here's the base prompt that we would then iterate upon.\par
+\pard\f0\fs20 And I, you know, so provide an example of the above steps, creating a base prompt and following the metaprompting flow work described above.\par
+\pard\f0\fs20 So, you know, here it is.\par
+\pard\f0\fs20 Iterate refine.\par
+\pard\f0\fs20 Let's see that all in action.\par
+\pard\f0\fs20 And so it does step one.\par
+\pard\f0\fs20 And then using metaprompting to iterate and refine.\par
+\pard\f0\fs20 After creating the base prompt, you can use metaprompting to improve, improve and refine the analysis.\par
+\pard\f0\fs20 Extract key areas of implementation.\par
+\pard\f0\fs20 A follow up prompt could focus on identifying specific areas within healthcare where AI is implemented.\par
+\pard\f0\fs20 This helps refine the analysis by narrowing the focus and relevant aspects.\par
+\pard\f0\fs20 Question, what are the key areas?\par
+\pard\f0\fs20 Assess the impact and then provides another question where it can actually then learn from step three.\par
+\pard\f0\fs20 Refine the analysis with each iteration, gather more information and adjust the prompt so add fidelity to that.\par
+\pard\f0\fs20 So continue my alternate version of proceed.\par
+\pard\f0\fs20 Continue with the last step.\par
+\pard\f0\fs20 Refine the report structure.\par
+\pard\f0\fs20 Proceed.\par
+\pard\f0\fs20 I'm still like, where is it going?\par
+\pard\f0\fs20 Demonstrate the use of the metaprompt in iterating, refining analysis base prompt.\par
+\pard\f0\fs20 Okay, so it's getting more specific.\par
+\pard\f0\fs20 All right, all right, all right.\par
+\pard\f0\fs20 So we have some, let's go back, you know, up here that, no, no, we are in the same, same scenario.\par
+\pard\f0\fs20 Here's an example of base prompt, right?\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And I think, I think that's as far as I got in terms of iterating within the window following the space prompt, you can iterate and refine the analysis through this deeper adoption of these key areas.\par
+\pard\f0\fs20 Let's see.\par
+\pard\f0\fs20 Explore key areas or examination.\par
+\pard\f0\fs20 Iterate the metapromption concept five times.\par
+\pard\f0\fs20 All right, so I guess at this point I'm like, okay, so it's going down the path where I wouldn't say it's hallucinating, but I'm suggesting that I'm not pushing it any farther and providing me a more rigorous walk through of what I would like to see in terms of the iteration.\par
+\pard\f0\fs20 It's providing a question in which it will use to then iterate.\par
+\pard\f0\fs20 It's not, not giving me the analysis of it.\par
+\pard\f0\fs20 Even gotten to tell me what kind of report it would be.\par
+\pard\f0\fs20 I give up.\par
+\pard\f0\fs20 Here, let's iterate the prompting five times.\par
+\pard\f0\fs20 Iterate the prompt five times.\par
+\pard\f0\fs20 Here's the base and we're going to use for scaffolding.\par
+\pard\f0\fs20 Again, just adding more description.\par
+\pard\f0\fs20 But the notion of iterating, it's just one word and it does add fidelity.\par
+\pard\f0\fs20 And so this actually does take us into kind of the next step because I was like, iterate the metaproctin concept five times.\par
+\pard\f0\fs20 And I put that in there because I was doing research on loops, you know, iterating through loops of things.\par
+\pard\f0\fs20 And I was like, okay, so it wants to do that, right?\par
+\pard\f0\fs20 It wants to, it wants to, iterate so after it kind of not following through on one, like, showing me step by step what I wanted to, and maybe I did forget that it was showing me a lot of step by steps, though, iterating the framework as a command.\par
+\pard\f0\fs20 It's kind of cool because the beginnings of the iteration, that the source is still there, and it will add some fidelity to it.\par
+\pard\f0\fs20 And where this is interesting is in the process of iterating on, say, a statement or applying two concepts together, and, you know, like the color blue and color red, and you're trying to say, in some way, find words, describe the blending of the two, make that functional.\par
+\pard\f0\fs20 Sorry.\par
+\pard\f0\fs20 Sorry, sir.\par
+\pard\f0\fs20 It.\par
+\pard\f0\fs20 It does add to it.\par
+\pard\f0\fs20 And so I I got into this program lean on set of, like, okay, there's loops, because I found this.\par
+\pard\f0\fs20 I found this cool.\par
+\pard\f0\fs20 Where is it, this cool script?\par
+\pard\f0\fs20 And it was to prove a point, and it was to show that, you know, within the large language models, there's, you know, there's a lot of baked in programming, and you can rely on that in an interesting way.\par
+\pard\f0\fs20 And this.\par
+\pard\f0\fs20 This programming joke equals a joke about turtles, right?\par
+\pard\f0\fs20 So joke is a variable in programming loop ten times.\par
+\pard\f0\fs20 And this is the loop, the start of the loop, and the end of the loop.\par
+\pard\f0\fs20 And in that loop, you say joke equals improv joke.\par
+\pard\f0\fs20 So improvise a joke about turtles.\par
+\pard\f0\fs20 So you're improvising the bass joke.\par
+\pard\f0\fs20 Base.\par
+\pard\f0\fs20 Joke is it will return a result of some joke about turtles, and then it will create ten or nine iterations of that joke along that theme, not different ones.\par
+\pard\f0\fs20 Okay, that's important.\par
+\pard\f0\fs20 This is a base or a prototype.\par
+\pard\f0\fs20 And then this becomes more specific because it gets iterated on, improvised.\par
+\pard\f0\fs20 So, sure.\par
+\pard\f0\fs20 Let's create an evolving.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Turtle joke through ten improvisations.\par
+\pard\f0\fs20 Why did the turtle never play pape, why did the turtle never play poker?\par
+\pard\f0\fs20 Because he doesn't like to shell out.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Why did the cautious turtle.\par
+\pard\f0\fs20 This is iteration two.\par
+\pard\f0\fs20 Why did the cautious turtle avoid the poker table?\par
+\pard\f0\fs20 He didn't want to gamble his shelter.\par
+\pard\f0\fs20 Iteration three.\par
+\pard\f0\fs20 Why did the turtle say, what did the turtle say about the risky casino?\par
+\pard\f0\fs20 This place could flip my shell upside down.\par
+\pard\f0\fs20 Why do turtles make terrible gamblers?\par
+\pard\f0\fs20 They take too long to make a fast buck.\par
+\pard\f0\fs20 Number ten.\par
+\pard\f0\fs20 Why did the turtle finally leave the casino?\par
+\pard\f0\fs20 Because he realized slow and steady wins the race, but not at roulette.\par
+\pard\f0\fs20 And then it summarizes, by the 10th iteration, our turtle has evolved into a playful story about a turtle learning a lesson at the casino.\par
+\pard\f0\fs20 So there's a thread through there.\par
+\pard\f0\fs20 It starts at he never plays poker because he doesn't like to shell out, and then he realizes that probably shouldn't play poker.\par
+\pard\f0\fs20 So it isn't just like, give me ten versions of something.\par
+\pard\f0\fs20 It isn't like when I did the search and I said, here, search seven of these types of things.\par
+\pard\f0\fs20 It was a process baked into a loop, right?\par
+\pard\f0\fs20 And so as soon as I see something functional, I was like, okay, let's do this again.\par
+\pard\f0\fs20 We're going to loop 20 times, and we're going to not do the joke where it improvs the joke, but we improv the improv of the joke.\par
+\pard\f0\fs20 Yes, very dave.\par
+\pard\f0\fs20 Very dave.\par
+\pard\f0\fs20 Okay, so we don't need to break that down too much, but it will do some funky stuff if it can.\par
+\pard\f0\fs20 Let's see, iteration one.\par
+\pard\f0\fs20 Why did the turtle cross the road?\par
+\pard\f0\fs20 To get to the shell station?\par
+\pard\f0\fs20 Okay, why did the turtle.\par
+\pard\f0\fs20 What did the turtle do after crossing the road?\par
+\pard\f0\fs20 He stopped for a snack at the shell station.\par
+\pard\f0\fs20 Why.\par
+\pard\f0\fs20 Why was the turtle at the shell station so happy?\par
+\pard\f0\fs20 Because he found a sale on turtle wax.\par
+\pard\f0\fs20 So I don't know if it's recursive or not.\par
+\pard\f0\fs20 It's not embedded, but it's.\par
+\pard\f0\fs20 It's iterative, and at the end, it gives us.\par
+\pard\f0\fs20 What's the summary?\par
+\pard\f0\fs20 There you go.\par
+\pard\f0\fs20 The turtle transformed into a charming story about a turtle throwing a unique, leisurely party.\par
+\pard\f0\fs20 And I just thought, okay, well, will it do a hundred times?\par
+\pard\f0\fs20 Well, you know, it's.\par
+\pard\f0\fs20 It doesn't like presenting a hundred times, but it sort of did a hundred times.\par
+\pard\f0\fs20 And then.\par
+\pard\f0\fs20 And then I got to something.\par
+\pard\f0\fs20 Okay, so it's not turtles, it's research.\par
+\pard\f0\fs20 So r equals the research attitudes for AI loop.\par
+\pard\f0\fs20 Tenon times r equals iterate r.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Mind blown, because that actually did something.\par
+\pard\f0\fs20 Let's conceptualize the progression of research attitudes towards artificial intelligence over ten iterative developments.\par
+\pard\f0\fs20 Now, just that statement alone is so concise and powerful.\par
+\pard\f0\fs20 Initial.\par
+\pard\f0\fs20 So, number one, initial research attitudes towards AI are often characterized by curiosity and optimism about its potential to solve complex problems and enhance productivity.\par
+\pard\f0\fs20 Number two, as understanding deepens, concerns about ethical implications such as privacy and security begin to shape the research landscape.\par
+\pard\f0\fs20 Three further study leads to debates on the impact of AI on employment and the economy.\par
+\pard\f0\fs20 Questioning whether AI will create or displace jobs for the emergence of AI bias and decision making processes prompts a shift towards developing more transparent, explainable AI systems.\par
+\pard\f0\fs20 Five researchers increasingly emphasize the need for AI systems that can interact seamlessly and ethically with humans, focusing on human collaboration.\par
+\pard\f0\fs20 That's kind of what my jam is.\par
+\pard\f0\fs20 That focus then expands to regulatory frameworks as researchers and policymakers collaborate to establish guidelines that ensure safe and fair use.\par
+\pard\f0\fs20 And there's an escalation here.\par
+\pard\f0\fs20 There is a progression of sophistication, of understanding iterative development.\par
+\pard\f0\fs20 I'm quite impressed.\par
+\pard\f0\fs20 Ten.\par
+\pard\f0\fs20 Finally, the iterative cycle reaches a point where research attitudes are heavily geared towards sustainability and the ethical co evolution of AI in society, ensuring that AI development aligns with with global human values and ecological constraints.\par
+\pard\f0\fs20 By the 10th iteration, the research attitudes, where I encapsulate a comprehensive approach that balances innovation, ethical concerns, regulatory compliance, and social societal well being.\par
+\pard\f0\fs20 Well, that's a wonderful result.\par
+\pard\f0\fs20 And I'm gonna tell you, I think that's been well guarded and guardrail and nanofied, but that is a thorough response in the way that it actually did iterate progressively.\par
+\pard\f0\fs20 I then changed that, okay, I'm going to be ending very shortly.\par
+\pard\f0\fs20 I then changed that to, instead of iterate on R, I said R transform.\par
+\pard\f0\fs20 R.\par
+\pard\f0\fs20 Let's conceptualize a transformation of research attitudes towards artificial intelligence through ten transformative states.\par
+\pard\f0\fs20 Initial attitude, specialization development, ethical awareness, integration challenges, regulatory engagement, public discourse, global collaboration, sustainable focus, long term implications, holistic integration by the 10th transformation research attitude Soria encompasses a deeply integrated perspective that considers technological, ethical, regulatory, societal, environmental dimensions to ensure a balance of benefits, development, AI technologies.\par
+\pard\f0\fs20 That's very similar, right?\par
+\pard\f0\fs20 Very similar.\par
+\pard\f0\fs20 But that work transform, it produced some very particular changes in the presentation and synthesis of the information.\par
+\pard\f0\fs20 So this seemed like the most powerful loop been stuck in a while.\par
+\pard\f0\fs20 So I said, R equals find examples.\par
+\pard\f0\fs20 R like, okay, so, you know, natural pattern language programming is kind of funky.\par
+\pard\f0\fs20 Let's explore how research attitudes towards artificial intelligence evolve by finding specific examples through ten iterations.\par
+\pard\f0\fs20 Initial attitude researchers initially focus on AI's potential for automating simple tasks.\par
+\pard\f0\fs20 It gives us this examples of how things have played out.\par
+\pard\f0\fs20 AI applications and optimizing energy consumption in data centers, and enhancing predictive models for climate change impacts.\par
+\pard\f0\fs20 So sustainable under sustainability AI, that's an example.\par
+\pard\f0\fs20 So it's doing it.\par
+\pard\f0\fs20 They're again super generalized.\par
+\pard\f0\fs20 I would like citations.\par
+\pard\f0\fs20 I would like, you know, some attitudinal on it, but that's a depth to which maybe this is accessible.\par
+\pard\f0\fs20 So I keep doing research.\par
+\pard\f0\fs20 R equals iterate adversarially.\par
+\pard\f0\fs20 R, right?\par
+\pard\f0\fs20 That word adversarially.\par
+\pard\f0\fs20 And I didn't spell it right adversarially, did I?\par
+\pard\f0\fs20 It.\par
+\pard\f0\fs20 It's powerful.\par
+\pard\f0\fs20 In GenaI, when we're doing sort of collaborative work, it invokes a certain attitude.\par
+\pard\f0\fs20 So initial optimism, research is predominantly optimistic.\par
+\pard\f0\fs20 This is the first kind of phase of attitudes or AI adversarial challenge.\par
+\pard\f0\fs20 Skepticism arises about AI's decision making flaws and biases.\par
+\pard\f0\fs20 Well, we know that has happened happened biases and fairness focus.\par
+\pard\f0\fs20 Researchers pivot to prioritize addressing AI bias and ensuring fairness and algorithms.\par
+\pard\f0\fs20 You can see there's this procedural nature to this adversarial challenge.\par
+\pard\f0\fs20 Concerns escalate about AI systems being used for surveillance and privacy invasion.\par
+\pard\f0\fs20 For sure.\par
+\pard\f0\fs20 An adversarial challenge to that?\par
+\pard\f0\fs20 No, that was concerns escalated AI so privacy protections increased attention is given to developing AI with strong privacy safeguards.\par
+\pard\f0\fs20 An adversarial challenge fear grows regarding has potential for automating warfare, such as in drones and automate autonomous weapons.\par
+\pard\f0\fs20 We can safeguard and we can weaponize.\par
+\pard\f0\fs20 So it goes through all the steps and provides an adversarial challenge to whatever that statement is.\par
+\pard\f0\fs20 And it's very powerful to have that kind of position in your research and your work.\par
+\pard\f0\fs20 I then decided to give it something else of an r, something else to research.\par
+\pard\f0\fs20 Research the most common and most effective angles and techniques for you that use for marketing of a product for AI.\par
+\pard\f0\fs20 Iterate adversarial to model an adversarial iteration of common and most effective marketing techniques for an AI product, let's begin with the baseline and evolve through ten stages, each refining the approach in response to challenges and shifts in perception.\par
+\pard\f0\fs20 Emphasize the cutting edge technology of AI.\par
+\pard\f0\fs20 Well, I started seeing something here, and this was going to be a whole different tract of thinking and it required jumping into another session, which I'm not going to get to.\par
+\pard\f0\fs20 Okay, where the, where this was all leading is, is, is where I'm going to take it next week.\par
+\pard\f0\fs20 And that is taking it from this metaprompting sort of position of the prompt being able to iterate on itself to a point where it's either portable or effective in one way or another.\par
+\pard\f0\fs20 And we will be looking at how to do that in a more programmatic way so that we are very specific about what we want to be moving around as information.\par
+\pard\f0\fs20 And I'll be introducing an object oriented sort of paradigm for working in that space.\par
+\pard\f0\fs20 Again, the large language model allows for pseudo code, but you can be very rigorous in terms of how you want that to be positioned.\par
+\pard\f0\fs20 I'm using an old scripting language, acma based scripting language, where I'm setting up an object called scenario, and in that scenario there's a context and I'm setting the context is context, and from that context I've already created up here, the context has a property called a domain property called overview.\par
+\pard\f0\fs20 And if we put it into a JavaScript type of object this is what it would look like as a constant.\par
+\pard\f0\fs20 So I give it this and then it interprets it this way.\par
+\pard\f0\fs20 But then I can say put put context on overview and it will give me whatever is in there.\par
+\pard\f0\fs20 I could say get or some other command where it will then provide me that whatever is in there.\par
+\pard\f0\fs20 So I have this dot syntax.\par
+\pard\f0\fs20 I could then say some interesting things like put scenario dot context and then it would give me domain and overview.\par
+\pard\f0\fs20 And then I could add scenario dot procedure as a list of things that can be done.\par
+\pard\f0\fs20 Look at this, I could add a procedure procedure dot add research ar in healthcare put scenario and then it says adds to add empty array object and then like this.\par
+\pard\f0\fs20 So here's what I've got so far, procedure it's going to be put in at the level of an object add item.\par
+\pard\f0\fs20 So it's using JavaScript, I don't care.\par
+\pard\f0\fs20 And then it adds it in there, which is fine.\par
+\pard\f0\fs20 It is interpreting my code pseudocode and creating it functional, but then I can still use it as my pseudocode and say put scenario procedure.\par
+\pard\f0\fs20 And if it doesn't just do that, here's the output.\par
+\pard\f0\fs20 The command is scenario procedure in JavaScript and that's the output.\par
+\pard\f0\fs20 So by looking at this type of structure, especially when it comes to the agent, we can go agent name, agent role, agent skills, agent task, agent personality and just put an equal sign so we can do something like agent personality equals equals quote.\par
+\pard\f0\fs20 Happy go lucky with bouts of skip.\par
+\pard\f0\fs20 This is so agent.\par
+\pard\f0\fs20 So if I actually just copy this into here, last thing, it's going to do some stuff.\par
+\pard\f0\fs20 I'm going to give it some help.\par
+\pard\f0\fs20 Agent equals my one last thing is failing.\par
+\pard\f0\fs20 The put command pushed it into programming.\par
+\pard\f0\fs20 Just trying Java JavaScript here.\par
+\pard\f0\fs20 So if I put agent it did still cactus.\par
+\pard\f0\fs20 All right, get agent.\par
+\pard\f0\fs20 All right, we're getting there.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 I couldn't quite hack it with one line of code to create an agent with a property.\par
+\pard\f0\fs20 We'll work on that one though.\par
+\pard\f0\fs20 All right, where's my stop presenting?\par
+\pard\f0\fs20 And I want to thank you all for participating at the transcript level.\par
+\pard\f0\fs20 Cheers.\par
+}

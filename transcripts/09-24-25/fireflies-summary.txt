@@ -1,0 +1,67 @@
+Meeting: 8am AI!
+Date: 9/24/2025, 8:00:00 AM
+Duration: 54.58000183105469 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- Transition to Vercel was driven by AWS Amplify access challenges, specifically regarding IAM and organizational visibility issues faced during deployment.  
+- Strong interest in centralized deployment platforms to streamline processes and improve operational efficiency, with future plans to integrate AWS solutions.  
+- Positive user feedback highlighted Vercel and its ecosystem tools (Netlify, Vite) for their ease of deployment, despite limitations like timeouts for longer jobs.  
+- Discussion emphasized the need for AI in testing pipelines, focusing on embedding scoring and validation to enhance developer experience while managing costs.  
+- Strategies for leveraging multiple AI models in workflows were explored, including local LLMs, double prompting, and reinforcement learning from human feedback (RLHF) to boost output quality.  
+- The concept of 'AI agility' was underscored as crucial for designing flexible, model-agnostic AI workflows and SDKs, paralleling the flexibility seen in crypto.  
+- Reflection on the advantages and pitfalls of being platform and model agnostic, addressing historical technology stack lock-ins that stifle innovation.  
+- Potential for AI-driven orchestration platforms like N8N was discussed for creating and managing structured workflows dynamically, adapting workflows as needed.  
+- Emphasis on the importance of using robust AI validation techniques, such as local LLM scoring and A/B testing, to build effective AI pipelines.  
+- Need for abstraction in AI model APIs was highlighted to facilitate agility and easy swapping of back-end AI systems, promoting a more adaptable framework.
+
+ACTION ITEMS:
+
+**Fulvio Ciano**
+Follow up with Spencer MacBeth on AWS Amplify and IAM deployment challenges by exchanging emails for a deeper discussion (06:09)
+
+**Spencer MacBeth**
+Initiate email contact with Fulvio Ciano to share intelligence and assist in solving AWS deployment problems (06:44)
+
+**Meeting Participants**
+Consider utilizing agent orchestration and validation techniques discussed, such as local LLM scoring, AB testing, and reinforcement learning strategies for building more robust AI pipelines (14:56)
+
+**Development Teams**
+Explore abstraction of AI model APIs to promote agility and enable easy swapping of AI backends as discussed, potentially leveraging SDKs with agnostic design principles (32:11)
+
+**AI Workflow Designers**
+Investigate opportunities to build or adopt AI orchestration tools that enable dynamic generation and modification of workflows within platforms such as N8N, with AI capable of code generation and testing for orchestration steps (50:00)
+
+
+KEYWORDS:
+Vercel, AWS Amplify, AI orchestration, Large Language Models, AI validation, model agnostic
+
+SHORT SUMMARY:
+🔧 **AWS Amplify vs. Vercel Deployment Challenges** (02:04 - 05:08)
+Discussion on practical experiences and challenges with AWS Amplify and Vercel for deployment.
+Highlighting a switch to Vercel due to AWS Amplify access and management issues related to IAM and organizational visibility.
+🌐 **Centralized Deployment Platforms** (05:50 - 11:26)
+Interest expressed in centralized and unified deployment platforms to reduce complexity and improve operational efficiency.
+Intentions to eventually return to AWS for integration benefits despite initial pain points.
+🚀 **Positive Feedback on Vercel and Related Tools** (08:00 - 13:46)
+Positive remarks on Vercel and related tools (Netlify, Vite) for ease of deployment, especially for front-end projects.
+Acknowledgments of limitations like timeouts in Vercel for long-running jobs.
+🤖 **AI in Testing and Evaluation** (14:56 - 23:36)
+In-depth dialogue about the use of AI for testing and evaluation.
+Emphasis on embedding scoring and validation at different pipeline points, driven by developer experience and cost considerations.
+📈 **Leveraging Multiple AI Models** (24:54 - 29:57)
+Exploration of methods for leveraging multiple AI models in pipelines to improve output quality.
+Discussion on local LLMs, double prompting, and reinforcement learning from human feedback (RLHF).
+⚙️ **AI Agility Concept** (32:11 - 36:36)
+Concept and importance of 'AI agility' in designing AI workflows and SDKs to be model-agnostic.
+Drawing parallels to crypto agility and the need for flexible integration.
+🔄 **Platform and Model Agnosticism** (37:00 - 44:41)
+Reflection on benefits and challenges of being platform and model agnostic.
+Discussion on historical lock-ins in technology stacks and the impact of ecosystem lock-in on innovation.
+🛠️ **AI Orchestration Platforms** (48:17 - 54:10)
+Discussion on orchestration platforms like N8N for structured workflows.
+Suggestions for AI-driven orchestration tools capable of dynamically creating and modifying workflows.
+
+

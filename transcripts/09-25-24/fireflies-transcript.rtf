@@ -1,0 +1,1042 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI School\b0\par
+\pard\qc\f1\fs20 9/25/2024 \bullet 1min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,jason@jasonadam.ca,fulvio@atomic47.co, eric@scroll.ca, giroday@gmail.com, hanif.janmohamed@gmail.com, jason@jasonadam.ca\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\f0\fs20 Hello.\par
+\pard\f0\fs20 Cool beans.\par
+\pard\f0\fs20 Yeah, I gapped completely last week, man.\par
+\pard\f0\fs20 And mind the gap.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 And.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It was, you know, going to.\par
+\pard\f0\fs20 Calgary is like, because of what I have to deal with is like a completely different me, you know, and, and I live in a completely different condition and everything.\par
+\pard\f0\fs20 And so, yeah, you're somebody else.\par
+\pard\f0\fs20 I was living day to day and.\par
+\pard\f0\fs20 Then Wednesday I'm like, I part way through the day.\par
+\pard\f0\fs20 Like, why is James emailing?\par
+\pard\f0\fs20 Oh, it's Wednesday, but he's not here.\par
+\pard\f0\fs20 That's okay, James.\par
+\pard\f0\fs20 Jason's here.\par
+\pard\f0\fs20 Cool.\par
+\pard\f0\fs20 Good morning.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 I've been working on this other project for oil and gas and stepping.\par
+\pard\f0\fs20 Back from my work a little bit in terms of the prompting to do some business work and using zero one and getting more jiggy with tools like Nan and getting my stack or my development environment set up.\par
+\pard\f0\fs20 Foveo.\par
+\pard\f0\fs20 I'm not sure he's going to make it.\par
+\pard\f0\fs20 He is actually.\par
+\pard\f0\fs20 He's got everything going on his own machine and he's using Claude Dev instead of cursor.\par
+\pard\f0\fs20 And right now I can see why because cursor is fucking up.\par
+\pard\f0\fs20 It's not working very well at all.\par
+\pard\f0\fs20 But you'll be happy to know that I've got the anthropic account working with an API balance now.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So, David, I sent you a message in slack explaining what needs to be done.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 What the difficulty is in a way nothing can be done, but we'll talk about that later.\par
+\pard\f0\fs20 As unfortunately as I originally thought and the documentation is intentionally kind of confusing.\par
+\pard\f0\fs20 Anthropic is not cloth and Claude is not anthropic.\par
+\pard\f0\fs20 They're separate things.\par
+\pard\f0\fs20 So, you know, when you have an API key from Anthropoc, it has nothing to do with your cloud account, unfortunately, even though the model on the back end is the same.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And so there are restrictions on the anthropic account.\par
+\pard\f0\fs20 Almost none, really.\par
+\pard\f0\fs20 It's because it's by token use, right.\par
+\pard\f0\fs20 Like all you you're paying.\par
+\pard\f0\fs20 It's the difference between buffets and menu options.\par
+\pard\f0\fs20 Anthropic doesn't give a shit how many members you have in there.\par
+\pard\f0\fs20 Anthropic team stuff.\par
+\pard\f0\fs20 Whereas Claude, because it's buffet style.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Or pseudo buffet style with limits.\par
+\pard\f0\fs20 No, no.\par
+\pard\f0\fs20 500 pound crazy people, whatever.\par
+\pard\f0\fs20 I don't know.\par
+\pard\f0\fs20 The Claude team thing has minimum number of team members and you know, you know, it's, it's kind of stupid because the limitation it provides for Claude, for the team, for everybody to understand is that it's tough to work as a group with Claude unless you have five members right, because you can't really share what they call workspaces, which are indeed agents.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, no, they got some cool stuff, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I know, I know.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It's sitting on this shelf.\par
+\pard\f0\fs20 Like, a project is basically off the shelf rag.\par
+\pard\f0\fs20 It's just stupid.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But you can.\par
+\pard\f0\fs20 Anyway, in regards to the particular project we want to use that kind of functionality for, I have a solution plan, but it's outside the scope probably of everybody here, because it's specific to our specific needs.\par
+\pard\f0\fs20 The problem here is that there are.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 A million ways to do this.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 There's so many ways to skin this cat.\par
+\pard\f0\fs20 Building agents and interacting with documents.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, I know.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And they're.\par
+\pard\f0\fs20 And, you know, you know, I'll ruminate just a little bit with the team.\par
+\pard\f0\fs20 You go to so many of these AI's, and they all look the same, right?\par
+\pard\f0\fs20 Like, like, you know what I mean?\par
+\pard\f0\fs20 Like, the basic interface is like, so similar across Gemini, Claude, OpenAI, you know, all of these things, but they aren't exactly the same underneath.\par
+\pard\f0\fs20 And my big peeve is, like, nomenclature.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Differences that don't really need to exist.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Someone's fighting over, like, is it a workspace?\par
+\pard\f0\fs20 Is it a project?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 They're all their own language.\par
+\pard\f0\fs20 They want to push forward.\par
+\pard\f0\fs20 But regardless of that difficulty, the upside of actually using the goddamn tools is huge, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, it's enormous.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It's just fucking massive.\par
+\pard\f0\fs20 I'm designing shit that's way above my.\par
+\pard\f0\fs20 Pay grade right now.\par
+\pard\f0\fs20 I'm doing it.\par
+\pard\f0\fs20 Okay.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And by the way, everyone, if no one's had a look at napkin, if you're doing anything with diagrams, you might want to look at napkin.\par
+\pard\f0\fs20 If you're generating diagrams in any way, you might want to look at napkin.\par
+\pard\f0\fs20 And if you're generating more flowcharts, then I have some other suggestions for you.\par
+\pard\f0\fs20 Not that napkin can't do flow charts.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 But I've been using eraser.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 That's the other one in the, in the space.\par
+\pard\f0\fs20 But again, it.\par
+\pard\f0\fs20 If you're.\par
+\pard\f0\fs20 I can give you a better way to do eraser stuff, I have found, but napkin is much more like.\par
+\pard\f0\fs20 If you need diagrams for presentations that are, like, ready to drop into the presentation, napkins, the way to go.\par
+\pard\f0\fs20 In my opinion, it's quite beautiful.\par
+\pard\f0\fs20 It's, like, shockingly effective.\par
+\pard\f0\fs20 If you want to do one right now, David, you'll see.\par
+\pard\f0\fs20 No, I don't.\par
+\pard\f0\fs20 But if you want to do, let's say, stuff where you really need to work with it outside of this ide.\par
+\pard\f0\fs20 Let's call this an ide, right?\par
+\pard\f0\fs20 Then there's other methodologies that are better, right?\par
+\pard\f0\fs20 Like getting, getting a real model to do a mermaid output and then bring in a mermaid input and do what you want to do.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But it sounds magical.\par
+\pard\f0\fs20 Mermaids.\par
+\pard\f0\fs20 So.\par
+\pard\f0\fs20 Yeah, I don't know that one either.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Shouldn't, shouldn't that have a widely variant spelling?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It's actually spelled napkin.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Shouldn't it be an effective tool if.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It doesn't have a weird spelling?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Why is there no why?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 See, napkin is like sanitary, I think.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I think that means they managed to get the URL.\par
+\pard\f0\fs20 I think that's all that means.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 That's about it.\par
+\pard\f0\fs20 I got a word.\par
+\pard\f0\fs20 We're going to use it.\par
+\pard\f0\fs20 It's actually an english word.\par
+\pard\f0\fs20 Anyways, I wanted to show you.\par
+\pard\f0\fs20 Is that my dog out front?\par
+\pard\f0\fs20 Holy cow.\par
+\pard\f0\fs20 Okay, that's a, that's not a good thing.\par
+\pard\f0\fs20 When my dog runs out front when my wife is there.\par
+\pard\f0\fs20 I just wanted to show you how wicked and awesome zero one is.\par
+\pard\f0\fs20 If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you.\par
+\pard\f0\fs20 Want to go zero shot, like just give it a, give me a strategy.\par
+\pard\f0\fs20 Or give me a unique thing on this.\par
+\pard\f0\fs20 It'll do that kind of thing.\par
+\pard\f0\fs20 But I'm trying to create this concept for a market research company.\par
+\pard\f0\fs20 That I've talked about previously, but it's predatory in.\par
+\pard\f0\fs20 Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence.\par
+\pard\f0\fs20 I'm going to go after the market research industry anyway.\par
+\pard\f0\fs20 So this little description right here, which is basically the mission vision, how it.\par
+\pard\f0\fs20 Works, what we are and what that.\par
+\pard\f0\fs20 Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and.\par
+\pard\f0\fs20 Then provide strategies for success, super vague zero shot kind of thing.\par
+\pard\f0\fs20 And then it goes through a really nice, you know, it looks like my.\par
+\pard\f0\fs20 Prompt man in many ways because it's.\par
+\pard\f0\fs20 The thought chain of thought thing and it's stepping up above it and it's.\par
+\pard\f0\fs20 Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but.\par
+\pard\f0\fs20 It really does a decent job until.\par
+\pard\f0\fs20 It gets to the end.\par
+\pard\f0\fs20 And I think it just kind of craps out on shit at the end of stuff anyways.\par
+\pard\f0\fs20 But it did a pretty decent job.\par
+\pard\f0\fs20 Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion.\par
+\pard\f0\fs20 And then it gives me, you know, the big thing that I think is valuable out of a one is it.\par
+\pard\f0\fs20 Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is.\par
+\pard\f0\fs20 But you'll find a lot of value.\par
+\pard\f0\fs20 In the framing that it gives you.\par
+\pard\f0\fs20 And this kind of level of intelligence.\par
+\pard\f0\fs20 You can call it, or communication, is exactly what most executives and investors and.\par
+\pard\f0\fs20 Actually a very large pool of wealthy.\par
+\pard\f0\fs20 People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it.\par
+\pard\f0\fs20 And these machines do a much better job than me.\par
+\pard\f0\fs20 And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to.\par
+\pard\f0\fs20 Do the intake for the three different groups of people.\par
+\pard\f0\fs20 And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while.\par
+\pard\f0\fs20 It's going to be tested by putting.\par
+\pard\f0\fs20 A job description out on the market and seeing if there's an intake.\par
+\pard\f0\fs20 And so the whole cost of this effort to build potentially a new distributive.\par
+\pard\f0\fs20 Model for value and wealth inside an.\par
+\pard\f0\fs20 Organization that tests the whole model out.\par
+\pard\f0\fs20 I need people, and so the cost.\par
+\pard\f0\fs20 Of it is indeed job posting or posting on LinkedIn.\par
+\pard\f0\fs20 And so I think that's fairly significant.\par
+\pard\f0\fs20 It's my time, which I value at.\par
+\pard\f0\fs20 About $500 an hour.\par
+\pard\f0\fs20 And so the investment is manageable, right?\par
+\pard\f0\fs20 It's manageable in terms of somebody thinking that if this is an idea, we.\par
+\pard\f0\fs20 Can throw a scenario behind this and we can spin this a bit, and I can simulate this, and then I can say, I have people interested, then I should be able to build a reserve on the other side, which is the capital runner.\par
+\pard\f0\fs20 So zero one is damn good at elevating your thought to the point where.\par
+\pard\f0\fs20 You can find key indicators for validating the idea, and then a very simple way of pushing it out there and then testing it.\par
+\pard\f0\fs20 And one of the things that Jason taught me early on is like, you can test the product before the product, and you can do that quite rigorously through marketing or socializing.\par
+\pard\f0\fs20 And this is a way of figuring out how to do a lot of.\par
+\pard\f0\fs20 The work around a business to get.\par
+\pard\f0\fs20 To what could be the crux or axes of a value point.\par
+\pard\f0\fs20 And for me, the whole crux of my career problem has been sales has been the front facing nature of which I cannot and will not be, as you know, dedicated to that, I'll find other words, but dedicated to that.\par
+\pard\f0\fs20 And so working with o one, I'm like, okay, this is the problem.\par
+\pard\f0\fs20 How do I deal with this?\par
+\pard\f0\fs20 And then I just designed an MLM.\par
+\pard\f0\fs20 That'S actually amenable, right?\par
+\pard\f0\fs20 I just designed a Ponzi scheme that's actually amenable.\par
+\pard\f0\fs20 And so I think the guy's an asshole, so he's never getting any work for me anymore.\par
+\pard\f0\fs20 But what I can do with that is I can turn it into the valuation value proposition for anybody jumping on board.\par
+\pard\f0\fs20 An organization is basically a Ponzi scheme, and business is a Ponzi scheme.\par
+\pard\f0\fs20 A business is a Ponzi scheme because if it does not continue to grow, it dies.\par
+\pard\f0\fs20 And the organization has to grow in.\par
+\pard\f0\fs20 The way that it's designed as a pyramid.\par
+\pard\f0\fs20 That's how it is.\par
+\pard\f0\fs20 And it is a Ponzi scheme because there is something at the top that distributes value, and it's not distributed value evenly across the board.\par
+\pard\f0\fs20 And guess what an MLM can do if you design it amenably?\par
+\pard\f0\fs20 It can do that incredibly well.\par
+\pard\f0\fs20 And so I've been studying algorithmic trading.\par
+\pard\f0\fs20 And my other problem is money.\par
+\pard\f0\fs20 So I'm pickling the two of them.\par
+\pard\f0\fs20 But algorithmic trading is just bonkers, right?\par
+\pard\f0\fs20 Because you're setting up conditions for the.\par
+\pard\f0\fs20 Market which you sit, and it's fairly simple how to do this.\par
+\pard\f0\fs20 Where is my.\par
+\pard\f0\fs20 Where is that window?\par
+\pard\f0\fs20 I have one too many windows open.\par
+\pard\f0\fs20 I want to show this one because.\par
+\pard\f0\fs20 This is the most valuable thing I've seen in a while.\par
+\pard\f0\fs20 I came across this article on medium.\par
+\pard\f0\fs20 About building strategies for algorithmic trading using oon.\par
+\pard\f0\fs20 And this guy's built his own platform for it.\par
+\pard\f0\fs20 And it's really fucking simple, man.\par
+\pard\f0\fs20 It's really fucking crazy simple.\par
+\pard\f0\fs20 So what I did is I took.\par
+\pard\f0\fs20 The article that was talking about this thing, and it's simple in concept.\par
+\pard\f0\fs20 And so I took this article that.\par
+\pard\f0\fs20 Explained it, and I pasted in here, because you can't do anything fancy yet, otherwise, at least I thought so.\par
+\pard\f0\fs20 And so it analyzed it, and then it gave me sort of the key.\par
+\pard\f0\fs20 Points and model performance.\par
+\pard\f0\fs20 What nexus platform was the strategy?\par
+\pard\f0\fs20 You know, ideal, you know, how the.\par
+\pard\f0\fs20 System works, which is kind of not.\par
+\pard\f0\fs20 My thing right now, because I'm figuring out what it is.\par
+\pard\f0\fs20 But then the functional insights in the.\par
+\pard\f0\fs20 Application enhance the capabilities of finance algorithm trading optimization.\par
+\pard\f0\fs20 It gets into how to practically do this.\par
+\pard\f0\fs20 And so the problem with all trading is you can back test anything, but the conditions aren't live, right?\par
+\pard\f0\fs20 So just breaking this all down into what the sort of actionable steps are.\par
+\pard\f0\fs20 To get to the point of being.\par
+\pard\f0\fs20 Able to do this was incredibly valuable.\par
+\pard\f0\fs20 And then I was like, well, what is all that going to be?\par
+\pard\f0\fs20 And I'm like, I need a step by step define your goals, use it to generate the outline strategy, develop detailed strategy components, translate strategy into executable rules.\par
+\pard\f0\fs20 And then it starts to write code for me.\par
+\pard\f0\fs20 So I'm actually building a system.\par
+\pard\f0\fs20 So you can see where this guy.\par
+\pard\f0\fs20 That did this article and did this nexus thing, he just started following his nose, man, and he put some wrapper.\par
+\pard\f0\fs20 Around this thing and now he's got this spiffy thing that he's offering free, up to 1200 bucks a month.\par
+\pard\f0\fs20 And it's a chat system monitor, optimize, last thing, ensure compliance.\par
+\pard\f0\fs20 Those are all great things, right?\par
+\pard\f0\fs20 So the next steps are, begin this, create an agent that works for doing this.\par
+\pard\f0\fs20 Understand the scope.\par
+\pard\f0\fs20 Okay?\par
+\pard\f0\fs20 So it starts doing this crap of.\par
+\pard\f0\fs20 Building me an agent that I don't want, and that's because I'm rushed through it, so I gotta get to the next step.\par
+\pard\f0\fs20 So I wanted to create an agent ur.\par
+\pard\f0\fs20 And so it gives me the conversation.\par
+\pard\f0\fs20 And as an example of how it will perform.\par
+\pard\f0\fs20 And so it's basically going through the example in the article where he's setting up the conditions and doing all the stuff around it and saying, here's your focus and signals, and there's a lot.\par
+\pard\f0\fs20 Of language around here.\par
+\pard\f0\fs20 You want to learn anything about investment, this is a good one.\par
+\pard\f0\fs20 And so how do you set up the agent?\par
+\pard\f0\fs20 You, you know, it's again telling me how to do things that I'm not really wanting.\par
+\pard\f0\fs20 And then, but I get it to update the agent because I want to use the agent.\par
+\pard\f0\fs20 And then I set it to have a standard configuration file for how to set up a fucking trading strategy based on all this, right?\par
+\pard\f0\fs20 So because it's just inputs and outputs and then the parameters of position sizing.\par
+\pard\f0\fs20 And so it's explaining to me how to build an algorithmic strategy.\par
+\pard\f0\fs20 It's reverse engineering this guy's whole platform.\par
+\pard\f0\fs20 In front of me.\par
+\pard\f0\fs20 Provide a prompt that will fucking do it all.\par
+\pard\f0\fs20 And then I said, ensure you clued what type of agent it is because.\par
+\pard\f0\fs20 I wanted it to be more specific and because I'm trying to get this thing to do things.\par
+\pard\f0\fs20 And so I was able to then take that.\par
+\pard\f0\fs20 And I'm not sure where I've got Matt.\par
+\pard\f0\fs20 Okay, dog arithmetic, I'm sure this time instead.\par
+\pard\f0\fs20 So I've got the define how to build a algorithmic trading strategy right here.\par
+\pard\f0\fs20 Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy.\par
+\pard\f0\fs20 I'm applying that all to the birdwatcher, mister.\par
+\pard\f0\fs20 And that's what my raptors do.\par
+\pard\f0\fs20 This is what they do.\par
+\pard\f0\fs20 They do finance style strategy applied initially.\par
+\pard\f0\fs20 To the intelligence sector, which is market research.\par
+\pard\f0\fs20 And they do it in the fashion of being able to understand it as a market and moving.\par
+\pard\f0\fs20 And on the backside is me spinning simulations all around this to get to the predictive component of what will happen.\par
+\pard\f0\fs20 Next and being able to extract value.\par
+\pard\f0\fs20 So fuck me, man, yesterday this comes together in a very succinct way.\par
+\pard\f0\fs20 So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents.\par
+\pard\f0\fs20 Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund.\par
+\pard\f0\fs20 And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space.\par
+\pard\f0\fs20 And fucking market research is nothing full of boutiques, man, one in two person shops.\par
+\pard\f0\fs20 And they do not have the horsepower to leverage their own intelligence.\par
+\pard\f0\fs20 You give them the money, the capital and the ability to leverage all these LLMs in a succinct way.\par
+\pard\f0\fs20 Then you have a super intelligence, you have an agency working underneath people that.\par
+\pard\f0\fs20 Are very motivated to do business in a very different way.\par
+\pard\f0\fs20 And that is zero one helping me be succinct along.\par
+\pard\f0\fs20 A whole lot of thinking that was.\par
+\pard\f0\fs20 And I was with Jason and talking.\par
+\pard\f0\fs20 About this, I was quite vengeful in my thinking.\par
+\pard\f0\fs20 I was quite spiteful about it.\par
+\pard\f0\fs20 I was quite like I had a.\par
+\pard\f0\fs20 Chip on my shoulder about it.\par
+\pard\f0\fs20 And then through the work that I've.\par
+\pard\f0\fs20 Done in working with AI, I've not.\par
+\pard\f0\fs20 Only found a way to deliver on.\par
+\pard\f0\fs20 What I wanted to be my first promise, my first business about equitable ownership.\par
+\pard\f0\fs20 In a way that distributes value down the chain to the actual people building the code.\par
+\pard\f0\fs20 And to me that was a massive.\par
+\pard\f0\fs20 Revelation of what is possible using AIH.\par
+\pard\f0\fs20 Not only to build machines and Jason's building one of the most sophisticated compound.\par
+\pard\f0\fs20 Machines I've ever seen, but to be.\par
+\pard\f0\fs20 Able to organize people in a new way to build machines.\par
+\pard\f0\fs20 And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a.\par
+\pard\f0\fs20 Sheer limitation of all of us.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 And so teamwork makes the dream work, Dave.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Sorry.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Teamwork makes the dream work.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 The fact that I've been able to actually resonate this back and forth with me and then with you peoples is.\par
+\pard\f0\fs20 The validation step of having somebody not, you know, hit that hang up button.\par
+\pard\f0\fs20 But I thought that was.\par
+\pard\f0\fs20 That was a real proof for me.\par
+\pard\f0\fs20 That just using this thing is the.\par
+\pard\f0\fs20 Space as an effective day to day processes.\par
+\pard\f0\fs20 Process, or series of them is.\par
+\pard\f0\fs20 In itself a product.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It is a new way of working.\par
+\pard\f0\fs20 And those people that get it, they.\par
+\pard\f0\fs20 Get it in a way that you don't have to train them to do it.\par
+\pard\f0\fs20 And I'm not talking about developers and programmers.\par
+\pard\f0\fs20 They all get things like that because they're just rigorous and learning at that level.\par
+\pard\f0\fs20 But there's a lot of people that.\par
+\pard\f0\fs20 Are very good pattern recognition types that.\par
+\pard\f0\fs20 See these things in business, and they just don't see them as accessible in terms of being able to touch them.\par
+\pard\f0\fs20 And that's.\par
+\pard\f0\fs20 That's why entrepreneurship has been such a boon and so big is it's intended in some way to level a field.\par
+\pard\f0\fs20 Of opportunity so that the meritocracy can take place.\par
+\pard\f0\fs20 Jason, you've used that phrasing, too, is that there's a merit.\par
+\pard\f0\fs20 Merit base to things that can be promoted.\par
+\pard\f0\fs20 And right now, this stupid fucking arms race for the LLMs and the really.\par
+\pard\f0\fs20 It'S just generative AI that's getting all the limelight.\par
+\pard\f0\fs20 But stupid arms race is purposeless.\par
+\pard\f0\fs20 It's actually purposeless.\par
+\pard\f0\fs20 The people that are building the arms are just like the arms manufacturers.\par
+\pard\f0\fs20 They don't have a purpose other than to provide the capabilities of war.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So some of them, like Nvidia, they recognizing they gotta go to war.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So they're jumping on top of.\par
+\pard\f0\fs20 On top of, on top of.\par
+\pard\f0\fs20 And a lot of them are.\par
+\pard\f0\fs20 But for the most part, there is a huge opportunity to sit on top of all of these LLMs.\par
+\pard\f0\fs20 As we're seeing with the concerts that.\par
+\pard\f0\fs20 We'Re seeing in the ensembles, like, within cursory AI, there's, like, eight different options for LLMs that it can draw to not very effectively.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I think the hardest part here is, like, trying to discern the layers and then the stage of competition at which each of those layers is at, you know, hardware.\par
+\pard\f0\fs20 Like, it's a mechanism, right.\par
+\pard\f0\fs20 But, like, when you get down to the, you know, the product layer, it's like a blue ocean.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Very succinct chase, because those.\par
+\pard\f0\fs20 There's just so many layers.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 And the parts that I get confused about.\par
+\pard\f0\fs20 Foveo is like the, like I'm paying attention to everything and there's agents and then there's like, you know, rag systems and then there's, you know, all these like, ways that you're putting these pieces together.\par
+\pard\f0\fs20 But as you're ping ponging between a bunch of different things, or at least in my thinking, I'm constantly ping ponging between where I get distracted around what I'm even doing.\par
+\pard\f0\fs20 Because I'm like, maybe I should be building agents for this.\par
+\pard\f0\fs20 Then I'm like, okay, well, maybe, you know, I should be doing this over here or doing that over there.\par
+\pard\f0\fs20 It's really hard to keep things straight right now, at least.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, I think, I think you have elucidated a yemenite, a very real problem, right.\par
+\pard\f0\fs20 And so I think the solution is dispositional in the sense that like, you have to be the kind of person who's laser focused on what your goal is.\par
+\pard\f0\fs20 Because some of the layers, in my opinion, and I'm not guilty of this.\par
+\pard\f0\fs20 Okay, so I'm not preach, I'm not.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Doing what I preach.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Okay, but you should ignore, you should like, not pay attention to what do I need tomorrow?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I need this tomorrow.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And if I can get, if I can get 100% of the way there by using 10% of my effort in.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 This layer and ignore those other layers.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 That'S what I should do.\par
+\pard\f0\fs20 And factoring in things like, I don't know, subscription costs and APIs, because inevitably a lot of the layers of technologies are focused on trying to extract subscription fees from you to use those layers or to modify those layers.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So there's a cost of validation, right?\par
+\pard\f0\fs20 That's right.\par
+\pard\f0\fs20 Exactly.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So, and so the cost of validation.\par
+\pard\f0\fs20 Is an opportunity, and I call that intelligence arbitrage.\par
+\pard\f0\fs20 Because if you do enough simulations, you can reassure yourself that you're going to be successful.\par
+\pard\f0\fs20 And to your point is like, how much of, how much LLM do you need, how much team do you need?\par
+\pard\f0\fs20 How much time do you need?\par
+\pard\f0\fs20 Is the arbitrage you can do if you have superpower.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, but I think everyone should give themselves a rabbit hole budget because, because if you go down a rabbit hole at any layer, you learn something and inevitably it will inform your utilization, your meta understanding in a way that it will affect the quality of your output.\par
+\pard\f0\fs20 Right, so it is.\par
+\pard\f0\fs20 And then, like I said, it's wonderfully amplified or modulated by people using different terms descriptions.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, no, that's the best part.\par
+\pard\f0\fs20 Yeah, this is great, Jason.\par
+\pard\f0\fs20 I like this.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I sent this a day last night.\par
+\pard\f0\fs20 This actually was one of the things that really kind of helped stabilize my anxiety and thinking a little bit.\par
+\pard\f0\fs20 And I think this is this graphics from Microsoft research.\par
+\pard\f0\fs20 And it's basically just kind of showing the different like stages of these, you know, applications and the usage of, um, you know, what they're trying to like move towards.\par
+\pard\f0\fs20 Um, and, and I'm like, okay.\par
+\pard\f0\fs20 Like it helps me kind of think about staying in my lane in a way where like I want my application to do all these things and I'm, you know, like a product visionary like Dave.\par
+\pard\f0\fs20 So I'm thinking about all the, what I want and I'm like, oh.\par
+\pard\f0\fs20 And I'm seeing these different tools come out and then I start to try to figure out as I'm going how to start to jam other capabilities into my stack.\par
+\pard\f0\fs20 And to your point, fulvio, like you got to just stop, like cool.\par
+\pard\f0\fs20 You know, these things, these things work.\par
+\pard\f0\fs20 Build it with this, you know, v one, v two, whatever.\par
+\pard\f0\fs20 Like as the technology gets there because a bunch of these things, like we're just not there with this stuff.\par
+\pard\f0\fs20 Like we're kind of, you know, we're here and we're kind of broaching on to here.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 But we're, you know, like, you know, zero, zero one is, you know, is, is here maybe like, you know, I want to do all these other things.\par
+\pard\f0\fs20 So I just kind of felt this, that was a helpful kind of like centering graphic to kind of like illustrate these kinds of, kinds of stages.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, I'm going to download it from you.\par
+\pard\f0\fs20 I totally agree.\par
+\pard\f0\fs20 And, you know, you get into this, but I do think you need a, I think you need a rabbit hole budget because a lot comes out of going down those rabbit holes and understanding and, you know, the old analogy of I have is like way before AI, right?\par
+\pard\f0\fs20 You know, person who has to like rake the leaves and, you know, they spend two days working on a plastic thing to help them hold open the bag and rake the leaves and do the thing and, you know, and then they could have raked the leaves in half an hour, but they spend a bunch of time, you know, and so this AI problem is exactly that, right?\par
+\pard\f0\fs20 Because if you know the layer you can get, you have the discipline to stay focused on what you need to do in the moment.\par
+\pard\f0\fs20 Then you attack at the right layer, the other layers are done for you.\par
+\pard\f0\fs20 If you're doing it right and your output is sufficient, then it's good.\par
+\pard\f0\fs20 Especially when you get into tools like na n and stuff like that.\par
+\pard\f0\fs20 Right?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That was crazy.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Oh, yeah.\par
+\pard\f0\fs20 That's been like the biggest time suck in my life.\par
+\pard\f0\fs20 The last two weeks has been building something and then editing these workflows as the architecture evolves.\par
+\pard\f0\fs20 And it's like a never ending shithole.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh, my God.\par
+\pard\f0\fs20 Oh, no.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And then you find out that, like, the way you are using n eight n, you have to, like, back up and go the other way because you.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Can'T use it in the cloud because.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 You need file access.\par
+\pard\f0\fs20 And so it's like all these kinds of things, right?\par
+\pard\f0\fs20 Absolutely.\par
+\pard\f0\fs20 I mean, I think I accelerated that in some of my investigations and I got somewhere really quick.\par
+\pard\f0\fs20 But I'm pretty ruthlessly disciplined about fast prototyping and staying on.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 The goal.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right, what I should generate.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So I just wanted to mention one project that Fulvia and I are going to work on.\par
+\pard\f0\fs20 We actually got.\par
+\pard\f0\fs20 So we're working with Lamina one.\par
+\pard\f0\fs20 So we're going to be the first project to launch on Lamina one.\par
+\pard\f0\fs20 We have a haiku project is now.\par
+\pard\f0\fs20 Funded and granted through Lamina one.\par
+\pard\f0\fs20 And I wanted to reflect on that like, it's a huge win, man.\par
+\pard\f0\fs20 It's multimedia again, man.\par
+\pard\f0\fs20 It's totally there.\par
+\pard\f0\fs20 And so it's a huge win because of some of the things that we're talking about.\par
+\pard\f0\fs20 It achieved with, because of the content being reflective and contemplative.\par
+\pard\f0\fs20 The process was one of ease in.\par
+\pard\f0\fs20 Terms of collaboration, ideation, and even building.\par
+\pard\f0\fs20 A system that it quite effectively found.\par
+\pard\f0\fs20 We found the strength, the layer, and all the essential pieces right there.\par
+\pard\f0\fs20 It just requires some tokens at the beginning and the export at the end.\par
+\pard\f0\fs20 And the sharing lamina one underneath it all.\par
+\pard\f0\fs20 But it was neat to see the harmonizing of the idea with the capabilities.\par
+\pard\f0\fs20 Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going.\par
+\pard\f0\fs20 Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience.\par
+\pard\f0\fs20 Even if the text is wrong on the screen.\par
+\pard\f0\fs20 We'll fix that.\par
+\pard\f0\fs20 But the simplicity of it was more accessible now.\par
+\pard\f0\fs20 And now I haven't tried my prompts in zero one.\par
+\pard\f0\fs20 I actually don't think that's a great.\par
+\pard\f0\fs20 Thing because of the fact that it's so succinct in what it's doing.\par
+\pard\f0\fs20 But to be able to.\par
+\pard\f0\fs20 We can gel things with that.\par
+\pard\f0\fs20 With 40, we can just use that with these service.\par
+\pard\f0\fs20 We can build our own haiku thing.\par
+\pard\f0\fs20 Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities.\par
+\pard\f0\fs20 And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use.\par
+\pard\f0\fs20 But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now.\par
+\pard\f0\fs20 And the weight is on sort of.\par
+\pard\f0\fs20 A really ethereal feeling that it provides.\par
+\pard\f0\fs20 And the chatbot does provide a feeling, right.\par
+\pard\f0\fs20 Intelligence.\par
+\pard\f0\fs20 What I write down, it's like intelligence is a feeling.\par
+\pard\f0\fs20 And in that, feelings are not real.\par
+\pard\f0\fs20 And intelligence is ephemeral.\par
+\pard\f0\fs20 So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that's just data.\par
+\pard\f0\fs20 So I think it's very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that's harmonizing.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And from Jason's point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better.\par
+\pard\f0\fs20 And so figuring out what the balance of that is right now, it's all about trying to take what we had yesterday.\par
+\pard\f0\fs20 And I fine to the fuck out of it.\par
+\pard\f0\fs20 But, you know, stage three and four is like, you know what the rationales are basically in question now.\par
+\pard\f0\fs20 It's not the actions and the results, it's the actual what the fuck is underneath it.\par
+\pard\f0\fs20 And that's what I believe the three and four is suggesting is like, okay.\par
+\pard\f0\fs20 Motivation, behavior, we can tune that, because all of the options underneath it are.\par
+\pard\f0\fs20 Very specific and personalized to everybody.\par
+\pard\f0\fs20 But where the insertion point is has.\par
+\pard\f0\fs20 Always been my curiosity around business.\par
+\pard\f0\fs20 And I always call this a layered cake.\par
+\pard\f0\fs20 And if I can get to the understanding of a layered cake for business, I know that it has what I would refer to as layers of circumstance.\par
+\pard\f0\fs20 And some of them are very costly.\par
+\pard\f0\fs20 And if you can work with a blind eye to some of them, then that's a great thing.\par
+\pard\f0\fs20 And the LLM provides you a way of hedging bets in certain regards.\par
+\pard\f0\fs20 But you do.\par
+\pard\f0\fs20 You have to have that harmony or some way of finding your own layer where you harmonize.\par
+\pard\f0\fs20 It's chaos with your chaos.\par
+\pard\f0\fs20 And that is right now not working.\par
+\pard\f0\fs20 I mean, it's not working from the strategic level.\par
+\pard\f0\fs20 It's not artificial, but it's super fucking cool.\par
+\pard\f0\fs20 I just like, I've, like I had nothing but six months of not being able to focus.\par
+\pard\f0\fs20 And it's been two days, and I'm.\par
+\pard\f0\fs20 Still on the phone all the time.\par
+\pard\f0\fs20 But it is interesting to see what.\par
+\pard\f0\fs20 The wake sleep cycle is all about, and I've been good in my past about measuring that and throttling it and stuff, but that's another way to provide yourself some cadence, I think, Fulbio, is to give yourself that notion of awake sleep cycle and that you can be.\par
+\pard\f0\fs20 Working but asleep at your work a.\par
+\pard\f0\fs20 Lot of the time, and then you can be very awake.\par
+\pard\f0\fs20 And the work you do is foundational and takes maybe months or weeks or whatever days to catch up with.\par
+\pard\f0\fs20 But having some way of being able to manage that is just another rabbit hole, too.\par
+\pard\f0\fs20 If you're asleep at the wheel, which I believe most businesses are, especially the older they are, then waking up is a very curious thing.\par
+\pard\f0\fs20 What's your feedback?\par
+\pard\f0\fs20 Because the sleep feedback is what we work with.\par
+\pard\f0\fs20 It's the sleep feedback, not the wake feedback.\par
+\pard\f0\fs20 And it's just an interesting, interesting experience from my side.\par
+\pard\f0\fs20 And I've been able to see my brother grow and then plateau and grow and find him underneath it all and all this other stuff, which is, again, it's a progression down this road of understanding where he sits in terms of his development of consciousness.\par
+\pard\f0\fs20 And the current approach to the LLM.\par
+\pard\f0\fs20 Seems like it's going to peter out pretty quick.\par
+\pard\f0\fs20 We're tapping out at a strategic level right now, so the behavioral shifts probably not available in this model just fine.\par
+\pard\f0\fs20 Come in at the.\par
+\pard\f0\fs20 Make it pretty level, man.\par
+\pard\f0\fs20 Make it more concise.\par
+\pard\f0\fs20 Precision decision.\par
+\pard\f0\fs20 Anyways, I thought it was a good couple of days.\par
+\pard\f0\fs20 I'm actually able to work till like 08:00 last night.\par
+\pard\f0\fs20 So that's my update.\par
+\pard\f0\fs20 I wanted to be able to share some of the stuff that I think is worth looking at is like, if you do have conceptual work or you're stuck, I think zero one is a.\par
+\pard\f0\fs20 Very interesting way to go and give.\par
+\pard\f0\fs20 It some broad context or copy and paste in some stuff that is fairly high level.\par
+\pard\f0\fs20 And it's.\par
+\pard\f0\fs20 I wouldn't say, you know, I wouldn't use it for what I was using.\par
+\pard\f0\fs20 40 four before a lot of the time.\par
+\pard\f0\fs20 But we'll see.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Did we, did we arrive if like.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 O was just using train of thought or if it was using some of these kind of like more complicated like search techniques inside the LLM?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Do we figure that out?\par
+\pard\f0\fs20 So I've been reading a lot of articles on this, so, and there's a very, and the most, a lot of the information isn't coming out of them directly, it's coming out of other people.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Who are reading their stuff.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And then frankly, I think coming to conclusions.\par
+\pard\f0\fs20 But some of them are in the, in the know.\par
+\pard\f0\fs20 If you know what I mean?\par
+\pard\f0\fs20 So, yes, chain of thought is in there.\par
+\pard\f0\fs20 You can find articles that explain papers that explain how the chain of thought stuff is working and why it's doing what it's working.\par
+\pard\f0\fs20 One of the interesting ones, by the way, that was very elucidating, was talking about a really interesting phenomenon that if you look at.\par
+\pard\f0\fs20 If you look at it, you know.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 The part where it says thinking, and.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It doesn't tell you what it's thinking.\par
+\pard\f0\fs20 People have complained, why doesn't it tell you what it's thinking?\par
+\pard\f0\fs20 And the reason for that is not what you think.\par
+\pard\f0\fs20 Boy, that's a meta statement.\par
+\pard\f0\fs20 Anyway, so the reason for that, and I believe this, okay, is that the chain of thought is unfiltered.\par
+\pard\f0\fs20 And what I mean by that is that, you know, you know how obviously, you know how LLMs will not do things like tell you how to steal a car or tell you how to, you know, rob a bank or steal someone's identity or stuff like that.\par
+\pard\f0\fs20 So the chain of thought stuff is hidden because in the chain of thought process, there's no filtering.\par
+\pard\f0\fs20 None at all.\par
+\pard\f0\fs20 So if you saw it, you would learn everything you needed to learn by following its chain of thought.\par
+\pard\f0\fs20 So it's not a proprietary process issue.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It's not a.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 We don't want you to know how the chain of thought works.\par
+\pard\f0\fs20 In fact, one of the articles I found explained it in great detail.\par
+\pard\f0\fs20 So they are doing chain of thought.\par
+\pard\f0\fs20 They're doing it iteratively.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Step by step, iteratively.\par
+\pard\f0\fs20 Chain of thought stuff.\par
+\pard\f0\fs20 They are doing a Monte Carlo tree of thoughts, not just chain of thoughts.\par
+\pard\f0\fs20 They're doing something I coined in 2014, negative thought.\par
+\pard\f0\fs20 Negative chain trimming.\par
+\pard\f0\fs20 Like early, early stumping.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Zeros.\par
+\pard\f0\fs20 Like zeros, not negative ones and ones.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And so forth.\par
+\pard\f0\fs20 There's a lot of things going on.\par
+\pard\f0\fs20 I think the chain of thought, one is the most impactful, and here's why I think the chain of thought one is the most impactful.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Three days ago, I don't even know.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 If I told this to David.\par
+\pard\f0\fs20 Maybe I have told this to David.\par
+\pard\f0\fs20 I don't remember.\par
+\pard\f0\fs20 I know I told it to another friend.\par
+\pard\f0\fs20 Very interesting article.\par
+\pard\f0\fs20 Came out of Google where they said they published a mathematical proof that any problem can be solved with chain of thought, even if the model being used is constrained.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh, yes.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Has a constant number of layers.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 There's no.\par
+\pard\f0\fs20 There's no internal mechanism to grow itself.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Even.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Even if you never static.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Even if you have a static number of layers, you can solve any problem.\par
+\pard\f0\fs20 They mathematically proved this, I'm highly skeptical.\par
+\pard\f0\fs20 Not that it's not true.\par
+\pard\f0\fs20 I'm highly skeptical of the proof.\par
+\pard\f0\fs20 We'll talk about that another time.\par
+\pard\f0\fs20 But so what that, what that elucidates that is so important to everybody, and as I've mentioned to David a couple of times, is that the Jesuits are right.\par
+\pard\f0\fs20 You know, like your meth, youre, your, your method of thinking about thinking is the key.\par
+\pard\f0\fs20 Okay?\par
+\pard\f0\fs20 And so chain of thoughts, is that powerful?\par
+\pard\f0\fs20 So there are other things going on, trimming Monte Carlo, all sorts of stuff.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 You know, lots of cosign action.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, all sorts of things.\par
+\pard\f0\fs20 But in the end, the one that I think the biggest bang for your buck is Isdev, is the chain of thought stuff.\par
+\pard\f0\fs20 And if you think about it, it's, there is like very simple anecdotal ways of thinking about it.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 You can do incredibly complex things with.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Simple tools if you chain the use of the simple tools to solve the complex problem.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And then if you just admit or observe or conclude that you can stack that metal logically.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And there you go.\par
+\pard\f0\fs20 That's the answer.\par
+\pard\f0\fs20 So what it means is that this shit's going to get better fast.\par
+\pard\f0\fs20 I think.\par
+\pard\f0\fs20 I don't know.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I don't think anybody's prediction is too.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Aggressive, except the parameter increase did allow.\par
+\pard\f0\fs20 For strategy to entertain a.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So at 750 million, stuff started happening and into the, into the billions.\par
+\pard\f0\fs20 That's when the next level of order.\par
+\pard\f0\fs20 Of understanding strategy starts to kick in.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So there's this magnitude that has to occur for another order of magnitude understanding to occur.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But if you can only raise things.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 To the power of three, who cares.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 If you can raise it to the power of three three times, right?\par
+\pard\f0\fs20 Like, you know, you, you can stack.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 These things, but within that model, like, how big is big in the cost.\par
+\pard\f0\fs20 Of, you know, 10 shot is what is where it's gone.\par
+\pard\f0\fs20 So you can, you can decide anything, assuredly given enough energy.\par
+\pard\f0\fs20 So.\par
+\pard\f0\fs20 And no matter what, that's the case with chain of thought.\par
+\pard\f0\fs20 And chain of thought is the most rigorous thing we have.\par
+\pard\f0\fs20 It's, it's an analytical process, and above that, we have something higher.\par
+\pard\f0\fs20 And we would call it intuition or behavioral science or whatever you want to call that.\par
+\pard\f0\fs20 And so there's that level, which is why scientists say this will never be AI, because it is just a skeptical way of looking at the fact that it's just pattern recognition.\par
+\pard\f0\fs20 Significant.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, one of the significant steps, I suspect.\par
+\pard\f0\fs20 You guys know, the whole Alex saw this thing at OpenAI and, you know, that's what started the whole battle Sam Altman at him.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Do you guys know this story?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I don't know, but is it.\par
+\pard\f0\fs20 I have to leave in at ten two.\par
+\pard\f0\fs20 Can you get it in so I can leave?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, it's really fast.\par
+\pard\f0\fs20 So Alex, you know, the guy from University of Toronto, I can never pronounce his last name.\par
+\pard\f0\fs20 I have a speech impediment.\par
+\pard\f0\fs20 Anyway, he left open the eye and accused Sam Altman of all these things.\par
+\pard\f0\fs20 And Sam Altman got removed through the.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Board and then he came back and.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sam, and then Alex is gone.\par
+\pard\f0\fs20 And Alex is now running SSi, right.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Safe super intelligence.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Which is supposedly super intelligence in one shot.\par
+\pard\f0\fs20 Safe super intelligence in one shot.\par
+\pard\f0\fs20 I think basically that's what he saw, determined, concluded, understood.\par
+\pard\f0\fs20 He saw chain of thought.\par
+\pard\f0\fs20 Does this chain of thought is the solution, right.\par
+\pard\f0\fs20 Chain of thought is the critical piece.\par
+\pard\f0\fs20 Not that the other things don't affect, and very important things like speed, efficiency, time, because those are all important too.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 Like if it's unusable, it's unusable.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 But I believe that's what happened back then is Alex is one of the guys who really understands how all these things are actually done and achieved and so forth, very early realize the true power of chain of thought and realize that other things were scaling practical problems to be solved by individual algorithms or methodologies and so forth.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 So.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 This version is very cool.\par
+\pard\f0\fs20 Orion will be very, very, very cool.\par
+\pard\f0\fs20 Who knows?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I do think they'll come out with that model of, you'll be paying like what they say is a low income.\par
+\pard\f0\fs20 Rate for access to a model with a certain capacity to run it, and two grand.\par
+\pard\f0\fs20 They're probably going to give you a certain number of hours of access to the cpu, as an analogy.\par
+\pard\f0\fs20 And it will make sense at the next level.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Lets you, unless access to the AI also lets you create your own local model that you don't have to pay for.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So it'll be interesting.\par
+\pard\f0\fs20 Right now they're getting all this stuff for free, right?\par
+\pard\f0\fs20 They're getting us using it at this level and they know who's using it to what effect.\par
+\pard\f0\fs20 And they're, they're getting all their next level of training going on right now.\par
+\pard\f0\fs20 And it will be, it will help.\par
+\pard\f0\fs20 Them get closer in a, in maybe not touching the model way, but in.\par
+\pard\f0\fs20 Touching on top of the model way.\par
+\pard\f0\fs20 So it's kind of cool.\par
+\pard\f0\fs20 I think it's, um.\par
+\pard\f0\fs20 I get just, I get.\par
+\pard\f0\fs20 Like, I get in the same mindset of Jason sometimes.\par
+\pard\f0\fs20 And Paulvio is like, it's a lot until you have a win and then you're like, okay, then the last while is worth it.\par
+\pard\f0\fs20 I can reflect on my period when I was programming that.\par
+\pard\f0\fs20 Even at a win, after a long.\par
+\pard\f0\fs20 While, it was not perceived as a big enough win if it took a long while, because it was a predictable win.\par
+\pard\f0\fs20 And at the business development, the ideation and the conceptualizing, like prototyping level, we are able to work as a fairly, at a fairly high competency now, at least to the point of being proven that there is a certain number of variables moving in our models and our ideas, our business or whatever, and we're attenuating them now and in new ways at some point.\par
+\pard\f0\fs20 Jason, if you could just high level walk through the flow that you have.\par
+\pard\f0\fs20 That you're building to understand a direct to consumer world.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I can show you guys some of the flows even here.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 They're very rigorous and they use a.\par
+\pard\f0\fs20 Great deal of the Internet to understand people.\par
+\pard\f0\fs20 And it's one, it's one, you know, it's one.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, I'm getting a chubby already.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That's what I mean.\par
+\pard\f0\fs20 Your stuff is like out there, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So it looks a lot like mine, I gotta tell you.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I'll give you like some quick background.\par
+\pard\f0\fs20 Like when I, when we first started to, like when I first prototyped this like idea a year and a half ago, basically we were like, hey, can we just take Abe very rigorously developed process that we've kind of established over like a decade, and then can I chunk that into constituent components and then use chained outputs to be able to kind of enrich the context of each kind of subsequent step?\par
+\pard\f0\fs20 But I'll show you a small one here.\par
+\pard\f0\fs20 And basically what this is like, this is just a workflow that does like competitor research for a, for a product.\par
+\pard\f0\fs20 And so I think I might have broken it this morning when I was fucking around with it.\par
+\pard\f0\fs20 But basically what it does is it uses Exa AI.\par
+\pard\f0\fs20 If you guys haven't used Exa, it's pretty interesting.\par
+\pard\f0\fs20 It basically rags the Internet and then allows you to search and based off of similarity for you look up.\par
+\pard\f0\fs20 So you can basically take a domain or a website and it'll find the closestly related websites to that website.\par
+\pard\f0\fs20 So I put it in a company, it finds the kind of five nearest competitors and then goes through, takes each one of those competitors and then pulls all the reviews out of each of those competitors products and then runs a process where we use those reviews to better understand the product category and like, and the, what people like and what they don't like.\par
+\pard\f0\fs20 And then we can use that kind of generated insight from all these things that people care about and don't care about as context to improve the direction of the marketing copy that gets written for websites kind of later on.\par
+\pard\f0\fs20 So that's kind of like a high level, but I'll kind of show simple output.\par
+\pard\f0\fs20 This one is populating.\par
+\pard\f0\fs20 I'm getting some issues where like I'm not a developer, so like I am strung by like having to learn how some of these things fit together.\par
+\pard\f0\fs20 But you're reading a lot of JSON, huh?\par
+\pard\f0\fs20 Yeah, well basically I'm running into an issue where like one of these things is producing a null output and I can't filter it out.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But that's my bag if you ever need help.\par
+\pard\f0\fs20 Jason.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Oh man.\par
+\pard\f0\fs20 Hey, did you get the Slack channel?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh no, we haven't got that Slack channel.\par
+\pard\f0\fs20 And so that'll go on the list with Exa right now.\par
+\pard\f0\fs20 And actually, you know, fulfill is super.\par
+\pard\f0\fs20 Fucking adapt at this shit, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, I mean mostly, mostly cooking italian food, so don't listen to it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh yeah, sorry.\par
+\pard\f0\fs20 He's italian too, so you gotta, you gotta, you know, I love it.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 No no, I've had the same.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Italian, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 You know, I built a lot of full stack applications and JSON's like, you know the meat, right?\par
+\pard\f0\fs20 Everywhere and I know my way and I, and I basically bitched n eight NDE over two days.\par
+\pard\f0\fs20 I just sort of conquered it.\par
+\pard\f0\fs20 But um, it's tough, man.\par
+\pard\f0\fs20 Like you know, you're just going to struggle with little things because you know what, you're using this on the cloud, right?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 One thing I'm interested in about what you're doing is like the input on the front end and the output on the back end because you're not dealing with files, right?\par
+\pard\f0\fs20 You're dealing with.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, basically what I'm doing is I'm just using fire scraping, scrape, markdown, and then I'm using the markdown as the basis for the transformation across everything and then storing it all as separate JSON arrays in Supabase and then pulling in the data from those components.\par
+\pard\f0\fs20 This is how the app works.\par
+\pard\f0\fs20 It does all this scraping and research and content generation.\par
+\pard\f0\fs20 Then we have workflows that build a section of a website.\par
+\pard\f0\fs20 Those all have react components to get populated with GraphQL.\par
+\pard\f0\fs20 I have to write these graphql queries, generates the content for those, contextualizes the whole website based off all of the kind of centralized research that gets created in this flow.\par
+\pard\f0\fs20 And then my next step is to build an assistant that I can provide a bunch of directional context to around how it should be making decisions, around how it should be structuring and ordering that content based off of an objective.\par
+\pard\f0\fs20 So I've kind of got a bunch of preliminary work done and this concept that Dave's been talking about around this kind of the knowledge not repository.\par
+\pard\f0\fs20 Dave, what's the, what do you just.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Reserve just that idea knowledge?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 So using these knowledge reserves in kind of JSON objects that I want to try and see if it'll work properly in assistance to be able to like hit different decision points, you know, based off of objectives.\par
+\pard\f0\fs20 Um, seems to work in my like preliminary testing, like surprisingly well.\par
+\pard\f0\fs20 It's just a bit of the plumbing around all these graphql queries and everything, which is kind of like of having to learn that as a non developer is like, I got core concepts, but it's been a bit of a, I.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Mean, look, a process like this, if you can keep within any den, if you can keep everything in JSON format inside an I handle everything else at the end or the beginning, you make your life really easy.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, I tried to like start to flatten everything into storing it as text, but the schema got so unwieldy, it was like sucking up all of my energy to try and flatten everything.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Don't do that, because you'll end up wasting your time parsing and reparsing and de parsing.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Actually one of the things that I found I was telling Dave is that like one of the things here you'll see is basically it'll run a prompt and get an output, and then I then have to parse it to JSON to store it.\par
+\pard\f0\fs20 Because if you are running parsed JSON as inputs into prompt chains, the quality of the outputs are substantially worse.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Say that again, please, Jason, say that again.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 If you're providing in a prompt chain like this, the output of one prompt into another one, if you are just giving it markdown, it works a lot better than if you were to give it JSON.\par
+\pard\f0\fs20 So this flow would be easier if I was like, okay, I just didn't, I just had this as output as JSON and then defeated into the next prompt.\par
+\pard\f0\fs20 But for whatever reason, as it relates to at least marketing copy or like kind of thought analysis, giving it structured JSON seems to like it definitely truncates the output and it tries to synthesize it.\par
+\pard\f0\fs20 But what part of what we're going for here is like some verbosity, like we want it to be more verbose and have more context created.\par
+\pard\f0\fs20 And if we're, if you give it JSON.\par
+\pard\f0\fs20 Even, even if you try and like take this, this kind of text output.\par
+\pard\f0\fs20 And I said, hey, parse it into JSON, you got to really be explicit to not change the content because it will try and make things shorter and more succinct.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, I was trying to figure out where the problem is going because I suspected the problem wasn't that if it's doing that, that's a problem, right.\par
+\pard\f0\fs20 You're basically removing information when you do that.\par
+\pard\f0\fs20 I thought the problem might be that it only utilizes the content and nothing, so to speak, the header or the labels of the content in this process.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It uses all of that.\par
+\pard\f0\fs20 But you think that would make it better, right, by defining all of that.\par
+\pard\f0\fs20 But for whatever reason, arriving at the quality of the output seems to not be great if I just give it JSON.\par
+\pard\f0\fs20 So that's why there's a bunch of extra steps in here.\par
+\pard\f0\fs20 But this is pretty simple.\par
+\pard\f0\fs20 Basically, we take the markdown, we turn it into some structured information about a product.\par
+\pard\f0\fs20 We do a bunch of research on that product, we perform a market analysis, find the underlying emotions about the market and about the product, and then, you know, create some people that, that might be interested in that process of like, you know, information that's relevant to a marketer and then takes that.\par
+\pard\f0\fs20 I'm trying to figure out right now how to split those things out effectively and then run this loop for them individually.\par
+\pard\f0\fs20 And then the end goal of what we're building is like dynamic personalization.\par
+\pard\f0\fs20 So the thing that we're shooting for is to be able to go to a website and then just based off of browser detectable data, we want to build this solution, collect a bunch of data, be able to associate different outputs with browser detectable things like how hard did they push on that button and how long did they dwell on the sections, and then be able to fine tune a model that then will dynamically adjust the content based off of the on site behavior.\par
+\pard\f0\fs20 So you're hooking up to Google Analytics.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 At some point and bringing that in and matching it up against.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, we use an analytics platform called Rudderstack, but we're trying to figure out, like, there's a bunch of stuff that we need to do.\par
+\pard\f0\fs20 I'm just trying to get, like, right now I'm just getting everything kind of piped in.\par
+\pard\f0\fs20 So, like, it generates everything and we can build these pages statically.\par
+\pard\f0\fs20 So we're kind of just at the, you know, two yard line of that, and then we'll have to figure out.\par
+\pard\f0\fs20 That's why I'm trying to figure out what these assistants, if I give it all of this kind of knowledge, this knowledge reserve, will it be able to.\par
+\pard\f0\fs20 And Dave's framing was like, can we kind of create a foot race where we run like say a multi armed bandit style, like bayesian experimentation on different site variables, covariates, and then have the LLM predicting what it thinks would be the best answer, and then have that comparative data set of what worked, what didn't work, and then use that comparative data set to then fine tune a model that's more effective than just kind of the off the shelf model.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Interesting.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 That's kind of what interesting.\par
+\pard\f0\fs20 I'm thinking about it.\par
+\pard\f0\fs20 I mean, I don't know if it's right, but I mean, who knows what's right right now?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Interesting.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Very, very interesting.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Very cool.\par
+\pard\f0\fs20 Yeah, very, very useful, that's for sure.\par
+\pard\f0\fs20 And for your, this is a, this.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Is a service for you to provide other people or a tool?\par
+\pard\f0\fs20 Well, yeah, this is the thing.\par
+\pard\f0\fs20 So our backgrounds in like in digital marketing and what we've found is that it's just really hard for people to build websites and landing pages and for products because it takes a copywriter, designer and developer and all these things.\par
+\pard\f0\fs20 So v one here is like, we'll take like whatever the ad is for the product.\par
+\pard\f0\fs20 We deconstruct the ad, and then we use the context for the ad to regenerate the page to make sure that it aligns with exactly what the ad was talking about.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Interesting.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 So what we've observed from that is that when you do that, even manually, the conversion rate of the user is like 20% to 35% higher.\par
+\pard\f0\fs20 So having a system that automatically does that should be pretty valuable.\par
+\pard\f0\fs20 And so from a business model perspective right now, we're taking a percentage of revenue that flows through the platform because it's, we're kind of delivering what people are used to as a service.\par
+\pard\f0\fs20 So we're charging service rates as opposed to charging like a software type rate.\par
+\pard\f0\fs20 So we're kind of operating at like a managed platform.\par
+\pard\f0\fs20 So people don't know how much AI we're doing.\par
+\pard\f0\fs20 They kind of think that there's some AI and some people, and that way, like our pricing power is pretty crazy.\par
+\pard\f0\fs20 And that'll erode over time as competitors come on the market.\par
+\pard\f0\fs20 Someone will try and sell this thing for like $100 a month or something.\par
+\pard\f0\fs20 But right now we're kind of, we think that we can charge more, but that might prove out to be wrong.\par
+\pard\f0\fs20 We have a couple of customers, like beta customers, and they're happily paying it because they only care about the outcomes that they experienced, not they don't care.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 About, they don't care about the amount they pay you.\par
+\pard\f0\fs20 They care about, they don't care about the 10% they paid you.\par
+\pard\f0\fs20 They care about the 80% they got because of what you did.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And as long as they can measure that, it's good, right?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\f0\fs20 I think it like if I want to continue down that path that requires a bunch of like sales infrastructure.\par
+\pard\f0\fs20 So we might just relent and be like, hey cool, it's going to be software, it's going to be like you know, two grand a month or something but, but we'll see.\par
+\pard\f0\fs20 You know, like part of the issue right now is like, you know, image and video is just not there yet.\par
+\pard\f0\fs20 You know, like maybe by the end of the year, early next year that stuff will be able to be done.\par
+\pard\f0\fs20 Like we could do it but I can't find a existing APIs from third parties that will deploy that.\par
+\pard\f0\fs20 And then I kind of looked into like building some of the kind of image automation solutions in like replicate or fall and that's just kind of beyond my pay grade right now.\par
+\pard\f0\fs20 I think it's relatively straightforward but you.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Know you could do it now with a bunch of research but for sure before the end of the year it'll just be an API you can call in a reliable way and you can do it.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 There are some like wild products that people are building out there on the marketing side.\par
+\pard\f0\fs20 Like I'm actually really curious to see what like what, where the regulation falls on this and how fast it comes into play because say there's one example of a company that if you're an influencer you can license your likeness to that company and then they basically auction off you to different brands that put different products in your hands and use kind of like a hey gen or did style kind of like video generation to pitch different products and then that influencer creator just gets a royalty on whatever happens but they have no actual work to be done.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 There's a project Dave and I are collaborating on that so overlaps that I'm.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Going to create a slack channel for us all so we can, we can jam.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Gonna do that.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I did notice he didn't.\par
+\pard\f0\fs20 I got it here, I got the email.\par
+\pard\f0\fs20 I can do it right now.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, just if you want to go ahead and do that and invite him to it, to it, you'll probably notice that you've done it and not him.\par
+\pard\f0\fs20 Yeah, you have all the emails and I would just call it Dave's AI school or something.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Seems to be the nexus of things.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Um.\par
+\pard\f0\fs20 That's cool.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It's so hard right now, let me tell you.\par
+\pard\f0\fs20 Because the tools are just, like, fast and furious, changing every week.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, it's.\par
+\pard\f0\fs20 I'm so into that.\par
+\pard\f0\fs20 I mean, it's distracting, you know, like you.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So distracting.\par
+\pard\f0\fs20 So distracting.\par
+\pard\f0\fs20 I almost feel like I, you know, I could tackle a problem or maybe I should go to sleep for a week because.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Yeah, like a week.\par
+\pard\f0\fs20 Someone's done it, right?\par
+\pard\f0\fs20 Maybe.\par
+\pard\f0\fs20 I don't know.\par
+\pard\f0\fs20 It's a roll of the dice.\par
+\pard\f0\fs20 Depends on the problem.\par
+\pard\f0\fs20 And a lot of problems are solved.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 And you just can't find the solution.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 That's all part of it.\par
+\pard\f0\fs20 That's.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 That's even worse, though, right?\par
+\pard\f0\fs20 Like, it just takes a lot of, like, sifting and then I don't have even a good system for, like, you know, keeping track of all the things that I found, you know, just trying to scrub, scrawl stuff down.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I'm gonna go myself.\par
+\pard\f0\fs20 Always.\par
+\pard\f0\fs20 Awesome, guys.\par
+\pard\f0\fs20 Take care.\par
+\pard\f0\fs20 Yeah, I'll be quick to jump into that AI channel when it pops up.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Put it right together.\par
+\pard\f0\fs20 All right, take it easy, guys.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Take care.\par
+}

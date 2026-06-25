@@ -1,0 +1,767 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI!\b0\par
+\pard\qc\f1\fs20 9/24/2025 \bullet 0min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,fulvio@atomic47.co,scott@driftresourcetechnologies.com,anshuldhariwal04@gmail.com,travis@atomic47.co,bibi@atomic47.co,jason@mttr.ca,jen@atomic47.co,myles@mttr.ca,loren@mttr.ca,shabraj@mttr.ca,spencer@ratiomachina.com,ashley@mttr.ca,graham@ratiomachina.com,carol@atomic47.co,joel.semeniuk@primal.com,lee.kennedy@primal.com, eric@scroll.ca, giroday@gmail.com, hanif.janmohamed@gmail.com, fulvio@atomic47.co\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\f0\fs20 Just a second.\par
+\pard\f0\fs20 I'm wearing headphones, but they're not plugged in.\par
+\pard\f0\fs20 A lot of use.\par
+\pard\f0\fs20 That is.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Good morning, Miles.\par
+\pard\f0\fs20 How you doing?\par
+\pard\f0\fs20 Good.\par
+\pard\f0\fs20 You?\par
+\pard\f0\fs20 Yeah, good.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Just getting familiar with the Vercel Edge API SDK for routing on the agenda for this week.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Thanks.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 You guys integrate with Vercel much?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 We do, and it's.\par
+\pard\f0\fs20 It's interesting.\par
+\pard\f0\fs20 We.\par
+\pard\f0\fs20 We have a particular project that's probably the main one that we work with, and it was going direct to aws, right.\par
+\pard\f0\fs20 Using Amplify and Radius, I believe.\par
+\pard\f0\fs20 And we had some problems with Amplify.\par
+\pard\f0\fs20 They really aren't with Amplify, they're with other things.\par
+\pard\f0\fs20 But nonetheless, it was.\par
+\pard\f0\fs20 It was causing problems with Amplify.\par
+\pard\f0\fs20 So quick, switch to Vercel just to like, you know, gosh, it needs to be updated tomorrow, blah, blah, blah.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so we did that.\par
+\pard\f0\fs20 But I would like to go back because, you know, having so much of our infrastructure on aws, having it sort of a unified platform for everything is better.\par
+\pard\f0\fs20 And if you've used aws, you know, there's this problem that it does a lot, but, you know, using it and navigating it requires almost a dedicated resource because it's just so much and so truly trying to find a way to like, really put an AI head on it so that we don't have to become a freaking expert on every freaking service that AWS has in order to be able to work with it.\par
+\pard\f0\fs20 Especially since, you know, the attraction to Amplify and our code base was being able to use GitHub Actions to deploy.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 It's so nice.\par
+\pard\f0\fs20 My current deployment stack is I have private instances for each one of my clients of our API and I have all of those pointing back to the same repo.\par
+\pard\f0\fs20 So I just push and all five of my instances deploy right away.\par
+\pard\f0\fs20 Why did you switch to.\par
+\pard\f0\fs20 I'm sorry, I came in late and I'm very curious about this conversation.\par
+\pard\f0\fs20 Why did you switch to Vercel?\par
+\pard\f0\fs20 What was the problem you were running into?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, the problem is really unrelated to Vercel or it is definitely related to aws.\par
+\pard\f0\fs20 The problem was one of the members of the team had deployed via a.\par
+\pard\f0\fs20 Via AWS Amplify.\par
+\pard\f0\fs20 And to keep it short, we weren't able to see the amplified.\par
+\pard\f0\fs20 The other members of the organization just weren't able to see the instance to do anything with it.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 We're able to go to GitHub and do.\par
+\pard\f0\fs20 But, you know, we're not able to interact with the AWS Amplify instance itself.\par
+\pard\f0\fs20 And that's an issue probably having to do with IAM or, or.\par
+\pard\f0\fs20 Or.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Sounds like you need a service principle.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Spencer, I need to talk to you about a couple of things and I don't want to use up this meeting for it so I would love to chat with you.\par
+\pard\f0\fs20 Really?\par
+\pard\f0\fs20 Really What?\par
+\pard\f0\fs20 So I'm going to at you my email if you don't have it right now and maybe we can, maybe we could because I, you know.\par
+\pard\f0\fs20 Yes, there are plenty of what I would call hand bomb solutions or expertise leveling up I could do to solve the problem.\par
+\pard\f0\fs20 Especially with any help from someone like you or another resource I had that was my DevOps guy at my video game development company who knows all this inside out backwards.\par
+\pard\f0\fs20 But I do want to find some agentic solution where it's easy to maintain through the agent.\par
+\pard\f0\fs20 Maybe, maybe, maybe a better goal is just well documented through an agent so that you know.\par
+\pard\f0\fs20 Because documentation is everything in these kinds of things because you, you do them and leave them alone and then you go back and you're like what the did I do?\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 My experience has been with aws I have to provide a lot of guidance to the.\par
+\pard\f0\fs20 Even when I have Claude like hooked up to MCP for like the AWS docs and The AWS like APIs it's like it can be very good and surprising sometimes but also it goes astray a lot like unfortunately but here I'm.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sure sure love to chat with you Spencer, I pinged you my email.\par
+\pard\f0\fs20 That's my personal evenal the atomic 47 but.\par
+\pard\f0\fs20 But happy to give you either one.\par
+\pard\f0\fs20 I just.\par
+\pard\f0\fs20 My brain did the personal one because that's always the one at the top of my list.\par
+\pard\f0\fs20 Sorry.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 No worries.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I'll.\par
+\pard\f0\fs20 I'll.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 I'll take that back and happy to chat sometime.\par
+\pard\f0\fs20 I'll send you an email.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, that'd be great.\par
+\pard\f0\fs20 Let me give a little bit of an update to the group.\par
+\pard\f0\fs20 David did not instruct me but I.\par
+\pard\f0\fs20 Well, we work at the same organization as Pierce and I happen to know he's at all in AI in Montreal.\par
+\pard\f0\fs20 In fact I could probably tell you which.\par
+\pard\f0\fs20 Which specific talk he's at right now or panel he's listening to.\par
+\pard\f0\fs20 But regardless, I don't suspect he'll show up.\par
+\pard\f0\fs20 He didn't tell me specifically but I don't suspect he'll show up.\par
+\pard\f0\fs20 And I think I missed the last meeting because I was in a pitch for another project for our company.\par
+\pard\f0\fs20 So I don't know what we talked about last time.\par
+\pard\f0\fs20 You guys don't know why David's not here.\par
+\pard\f0\fs20 And so in the interest of keeping it all really loose, love to either hand it over to someone if they have some topics they'd like to throw in and.\par
+\pard\f0\fs20 Or I'm also happy to provide something to talk about.\par
+\pard\f0\fs20 Anybody want to go first or.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Sure.\par
+\pard\f0\fs20 Well, I think as people are joining this morning, we were just talking about using Vercel Edge middleware and anyone had experience using that, so that's on the table for me this week.\par
+\pard\f0\fs20 So my understanding is Vercel is just a wrapper for those AWS services.\par
+\pard\f0\fs20 Makes it easy to deploy.\par
+\pard\f0\fs20 Yeah, I guess.\par
+\pard\f0\fs20 Specifically, is anyone doing any sort of routing with the edge middleware at this point?\par
+\pard\f0\fs20 I know there's an SDK that you can integrate with, so I'm just getting up to speed with the SDK.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 All I can say about Vercel is like it's they, they make Next JS and I'm a big fan of Next JS and they make it really easy to deploy Next JS applications and they have their AI SDK which I have used in like some consulting projects and like people I like know and respect use that.\par
+\pard\f0\fs20 But I was running in.\par
+\pard\f0\fs20 But they don't necessarily use.\par
+\pard\f0\fs20 And I, I use Next JS as a developer, but I don't necessarily use Vercel as my like cloud infra platform.\par
+\pard\f0\fs20 However, their AI SDK and like you know, all of that stuff is very, very good.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Do you know, do they wrap that SDK in an MCP or does anyone do that so that you can.\par
+\pard\f0\fs20 Or not.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 I was just using it directly.\par
+\pard\f0\fs20 I haven't, I haven't hooked it up to an MCP or anything.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah, that's my plan to use it directly because we have a next application, so.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Perfect.\par
+\pard\f0\fs20 Nice.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Watch for timeouts though.\par
+\pard\f0\fs20 That's my only caution, I'll say with Vercel is like anything that's a long running job won't play well nicely with Vercel.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Interesting.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 That's why we were using Ingest as an orchestration layer for that.\par
+\pard\f0\fs20 Aisling Cana Miles.\par
+\pard\f0\fs20 Okay, right.\par
+\pard\f0\fs20 The stuff that Lauren got going.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Well, so many of these DevOps deployment issues are like things we have to struggle with.\par
+\pard\f0\fs20 As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally.\par
+\pard\f0\fs20 And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right?\par
+\pard\f0\fs20 So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right?\par
+\pard\f0\fs20 Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go.\par
+\pard\f0\fs20 I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right.\par
+\pard\f0\fs20 You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever.\par
+\pard\f0\fs20 And so it's quite challenging, I have to say.\par
+\pard\f0\fs20 Vercel.\par
+\pard\f0\fs20 So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And that's extraordinarily noble.\par
+\pard\f0\fs20 I know Dave uses netlify, right.\par
+\pard\f0\fs20 For, for some projects and it, Netlify is great.\par
+\pard\f0\fs20 I don't know if any of you using something called beat.\par
+\pard\f0\fs20 Oh, some people say it differently, but it is.\par
+\pard\f0\fs20 Or vite.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Oh, vita.\par
+\pard\f0\fs20 I, I said it differently, I think.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 I've used bite before.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah, yeah, yeah.\par
+\pard\f0\fs20 Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy.\par
+\pard\f0\fs20 Wow.\par
+\pard\f0\fs20 So easy, right?\par
+\pard\f0\fs20 Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right.\par
+\pard\f0\fs20 And know that like if you then go put it there, you know what you're going to get, right.\par
+\pard\f0\fs20 Like you can, you can prototype it.\par
+\pard\f0\fs20 The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something.\par
+\pard\f0\fs20 And yeah, you know, the amount of service you've got.\par
+\pard\f0\fs20 So if you've got a full front end solution with no back end, I would highly recommend that's the way to go.\par
+\pard\f0\fs20 TypeScript, JavaScript, you name it, it's all good.\par
+\pard\f0\fs20 I can't think of an instance where it just didn't work the first time.\par
+\pard\f0\fs20 I haven't used Vercel firsthand a lot.\par
+\pard\f0\fs20 We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws.\par
+\pard\f0\fs20 And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Not a lot, but.\par
+\pard\f0\fs20 And I didn't do it, so I shouldn't be commenting on it.\par
+\pard\f0\fs20 I don't like to take credit for other people's pain.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 I, I have a question I would like to, to pose to the group and I certainly would have liked to hear like some of the other folks answers to this, but, and forgive me if you've talked about this at length before, but I'm somewhat new I guess, and I get that's evaluations and really like where in the pipeline and why in the pipeline?\par
+\pard\f0\fs20 If you have, you know, calls to LLMs or you're using consumer AI, how are you evaluating things from the spectrum of just like a quick vibe check and eyeball writing prompts against something in a UI quickly or are you actually using like LLMs as a judge somewhere doing some kind of sentiment analysis or like, you know, change checking the results.\par
+\pard\f0\fs20 So like big broad topic, but I guess like very specifically where and why are you doing evaluations?\par
+\pard\f0\fs20 Or maybe in the more old school like tests.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah, it's a good question and, and, and really good one because it makes a difference.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It's one of these things that would have, has a performative impact on your result, I think.\par
+\pard\f0\fs20 Sorry, I thought someone.\par
+\pard\f0\fs20 Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so when we use worksona, sometimes it's doing that.\par
+\pard\f0\fs20 So it's spinning up, it's.\par
+\pard\f0\fs20 It's mapping and spinning up a judge agent or a validation agent or a testing agent.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 A B testing agent or whatever and puts it in the, in, in the map, I will say.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so, and you're, you're really asking about where in the map, right.\par
+\pard\f0\fs20 And, and where do you get the best results?\par
+\pard\f0\fs20 It really depends on, you know, how you're like, what your environment looks like.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So I use, I use a ton.\par
+\pard\f0\fs20 I use it a lot because I worry a lot about, you know, all the problems.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Hallucinations, you know, whatever it is.\par
+\pard\f0\fs20 And so I, I will.\par
+\pard\f0\fs20 And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right?\par
+\pard\f0\fs20 And you know, and I have a structured approach as far as like context, right?\par
+\pard\f0\fs20 So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle.\par
+\pard\f0\fs20 I, I call it right?\par
+\pard\f0\fs20 To like, look at that and say, hey, did that compare the result to the prompt?\par
+\pard\f0\fs20 And like, you know, tell me, you know, you know, first of all, score.\par
+\pard\f0\fs20 I do use scoring a lot, not word scoring, right?\par
+\pard\f0\fs20 Because I do think it's valuable to say score, right?\par
+\pard\f0\fs20 And so definitely I score, right?\par
+\pard\f0\fs20 And Almost all the LLMs will articulate a score.\par
+\pard\f0\fs20 What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right?\par
+\pard\f0\fs20 It's in my context and in my prompt, right?\par
+\pard\f0\fs20 Like, you know, if it's going to score zero to five, what's five, one, zero, right?\par
+\pard\f0\fs20 And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right?\par
+\pard\f0\fs20 Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this.\par
+\pard\f0\fs20 Because inevitably that's what a map looks like.\par
+\pard\f0\fs20 Okay, so, and so just, just out.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Of curiosity, is that happening at runtime or are these tests running before you push the models out or before you push the, the agents out?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Let me be clear about this.\par
+\pard\f0\fs20 I generally don't run the way worksona runs.\par
+\pard\f0\fs20 As in like set it all all up, hit a button and go, okay, I, I don't do that.\par
+\pard\f0\fs20 Okay, Work soda can do that.\par
+\pard\f0\fs20 And I think that's what a lot of people hope to do in various orchestration patterns.\par
+\pard\f0\fs20 But, but I don't just my workflow doesn't look like that.\par
+\pard\f0\fs20 But you can do that.\par
+\pard\f0\fs20 I don't.\par
+\pard\f0\fs20 And I can talk to you about why I don't.\par
+\pard\f0\fs20 Not comfortable doing that and all the rest of it.\par
+\pard\f0\fs20 So I call, I call that like context validation, right?\par
+\pard\f0\fs20 Like, because that's basically like, you know, those MD files, those documents are context, right?\par
+\pard\f0\fs20 They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah.\par
+\pard\f0\fs20 I do that.\par
+\pard\f0\fs20 I would say I do that almost everywhere.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic.\par
+\pard\f0\fs20 They always find a reason to like your, your, your results Right.\par
+\pard\f0\fs20 And, and in your prompt, you can tune that in or out a little bit if you want.\par
+\pard\f0\fs20 But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that.\par
+\pard\f0\fs20 Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I do use, because I have found it really useful.\par
+\pard\f0\fs20 Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like me.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Or validating or, you know, figuring out the quality of God.\par
+\pard\f0\fs20 Gemini CLI is awesome.\par
+\pard\f0\fs20 I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And it'll use just, it'll, it's amazing what it'll do.\par
+\pard\f0\fs20 It's great at using MCPS and comparing to APIs and giving me really, really good output.\par
+\pard\f0\fs20 That's everything from this function failed probably for this reason under these test conditions.\par
+\pard\f0\fs20 It's really good at that.\par
+\pard\f0\fs20 And I've got a bunch of sample files that I have organically built up so that it knows what I like output like.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Well, forget what I like.\par
+\pard\f0\fs20 That's useful.\par
+\pard\f0\fs20 Right, Right.\par
+\pard\f0\fs20 You know what I mean?\par
+\pard\f0\fs20 Like, I like it because it's useful.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It's like where it like gives me the test conditions and so forth.\par
+\pard\f0\fs20 And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So, yeah, I've definitely been doing something.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Like that recently where I've been trying to like, in addition to scoring, I've also been trying to like, always have if I'm storing LLM outputs to have a reasoning of some kind available there so that it can tell me and that can help me peer into the black box a little bit in terms of what I might need to change my content or context to get towards the result I was actually hoping for.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make.\par
+\pard\f0\fs20 Make you want to remap the way the agents are.\par
+\pard\f0\fs20 The way the RE agents are aligned.\par
+\pard\f0\fs20 Aligned is not the right word sequence.\par
+\pard\f0\fs20 Orchestrated.\par
+\pard\f0\fs20 Orchestrated is the right word, right?\par
+\pard\f0\fs20 And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy.\par
+\pard\f0\fs20 I could really do something with this, right?\par
+\pard\f0\fs20 Like, you know, what I was missing at the front end was like even guidance.\par
+\pard\f0\fs20 It's almost always guidance, right?\par
+\pard\f0\fs20 Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't.\par
+\pard\f0\fs20 It did infer from the problem the.\par
+\pard\f0\fs20 And I guess that's in my prompt or in the samples I provided.\par
+\pard\f0\fs20 Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened.\par
+\pard\f0\fs20 And that's what's useful right now.\par
+\pard\f0\fs20 That's us using human reasoning on top of its reasoning, right?\par
+\pard\f0\fs20 Like, because I am Spencer.\par
+\pard\f0\fs20 I am hand bombing the orchestration, right?\par
+\pard\f0\fs20 I'm going back and like, you know, doing that.\par
+\pard\f0\fs20 And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot.\par
+\pard\f0\fs20 Because like, you know, all of this stuff just generates more and more, right?\par
+\pard\f0\fs20 Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right?\par
+\pard\f0\fs20 Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is.\par
+\pard\f0\fs20 You just, you're exploding your context, right?\par
+\pard\f0\fs20 And when do you throw out the result?\par
+\pard\f0\fs20 Is it like if the score was good, get rid of that.\par
+\pard\f0\fs20 Don't use that context going forward.\par
+\pard\f0\fs20 You have to use that context in some way, right?\par
+\pard\f0\fs20 Otherwise what's the point of having done it, right?\par
+\pard\f0\fs20 So, you know, I, I look at.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 It myself like, and that's also, you know, turning myself back into a bottleneck.\par
+\pard\f0\fs20 But that's been like the way that I've gotten more quality, I feel like.\par
+\pard\f0\fs20 Jason, you mentioned.\par
+\pard\f0\fs20 Sorry, I just saw your note in the chat, Jason, about like the using chained LLMs against like criteria.\par
+\pard\f0\fs20 What are you, what are you working on there?\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah, so like it's really kind of.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Damn.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 We're not allowed to know.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 We lost.\par
+\pard\f0\fs20 We lost you.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 As soon as he started talking.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Classic phones behavior.\par
+\pard\f0\fs20 So what I was saying there, Spencer, is like, like what I've been doing is like way more nice.\par
+\pard\f0\fs20 Like I don't think it fits for what you guys are doing because like we're basically running like a bunch of prop chains that like put a bunch of contest in from whatever scraped content.\par
+\pard\f0\fs20 And then I'm trying to get like an output that's like base context for like a specific prompt to produce something for a website, a landing page.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 But I kind of have like that you know, prompt that produces that material and then like inserting the output of that into another prompt which is like you know, eval against this criteria score and then you know, produce another output in one and then I have that, you know, use that context to replace it.\par
+\pard\f0\fs20 So I like blindly leverage the output from the eval as opposed to like evaluating whether the eval was good with any kind of human in the loop or aging.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 And it seems to work pretty well.\par
+\pard\f0\fs20 It just forces the requirements again.\par
+\pard\f0\fs20 Yeah, but I don't think it's very sophisticated.\par
+\pard\f0\fs20 It's just in my experimentations found to be like pretty reliable.\par
+\pard\f0\fs20 But it's also not very economical because you're basically double prompting everything.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yep, yep.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 No, that makes sense.\par
+\pard\f0\fs20 Like sometimes just having like an extra set of eyes like from one AI to another is useful.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And that's exactly right, Jason.\par
+\pard\f0\fs20 That's why I mentioned like I tend to do that kind of, that kind of stuff with my, with my local models.\par
+\pard\f0\fs20 Like I'm not worried about exactness of code.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Or, or, or big things.\par
+\pard\f0\fs20 I'm looking for short succinct evaluations and I just find I get really good results from what I'm using locally.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And, and it keeps the cost down and it keeps the, it keeps the complexity down and anything that isn't like, that isn't like if I out of the automation.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because I don't want it all in the automation because it's going to stick around and keep happening and always spend tokens and stuff like that.\par
+\pard\f0\fs20 You know, I do a couple of runs where I do that and then I get my learnings and I go back and I adjust the other pipeline and that's it.\par
+\pard\f0\fs20 All right, go ahead.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 I'm sure there's lots of tools out there, but I was using a tool and anthropic bought them so it's not available anymore.\par
+\pard\f0\fs20 But basically just doing a bunch of runs on the same kind of stage and then like literally like good, bad, good, bad, Thumbs up, thumbs down, thumbs up, thumbs down.\par
+\pard\f0\fs20 And then building an RLHF data set and then just fine tuning particular fine tuned model to use at that stage as opposed to just the regular model.\par
+\pard\f0\fs20 And so like that produces really good outcomes.\par
+\pard\f0\fs20 Just like you only get a sample of like as few as like 20, 20 rows to be able to like produce like a reasonably fine tuned model to call on.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Yeah, that's very cool.\par
+\pard\f0\fs20 We're looking at that like in our platform right now of like, how are we like building our customer feedback loops in a way where we're able to like hopefully get people to buy in in a way that they're motivated, if they're using the platform directly to like give us those thumbs ups and thumbs down for their particular, their particular Personas that we're deploying for them and like looping all that.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 The other thing that I like eventually want to do is just use the progression to the next step as the thumbs up and then the non progression as the thumbs down.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And so just inferring that if they moved where I wanted them to go, that it was good and if they didn't, it was bad.\par
+\pard\f0\fs20 I think that's probably dangerous, but like, I don't know.\par
+\pard\f0\fs20 Worth a shot.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Well, that sounds, that sounds interesting.\par
+\pard\f0\fs20 That's very dynamic.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 That goes back to, I think what.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 We chatted about before is just like generating everything on the fly, like as as much as humanly possible.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, cool.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Humanly, yes.\par
+\pard\f0\fs20 Also, you like teleported onto that plane.\par
+\pard\f0\fs20 You were like, like one second, you were like in the airport, you went dark for like a second and then you were on a plane like.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah, like an in.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I was wondering how he did that.\par
+\pard\f0\fs20 Like, holy crap.\par
+\pard\f0\fs20 Front of the line.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Glitch in the matrix.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 You know, I think that there's like a.\par
+\pard\f0\fs20 It's funny that we're talking about it because the general improvements in AR are often about this.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 In like the models themselves are using these kinds of things.\par
+\pard\f0\fs20 Things like reinforcement, learning.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And scoring and all the rest.\par
+\pard\f0\fs20 So it's relevant, period.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like it's a feature that's pushed forward.\par
+\pard\f0\fs20 Really.\par
+\pard\f0\fs20 It's a feature that's required because of a bug.\par
+\pard\f0\fs20 So we all know about hallucinations and blah, blah, blah, blah.\par
+\pard\f0\fs20 And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that.\par
+\pard\f0\fs20 So the models are doing this on their own in thinking the thinking models.\par
+\pard\f0\fs20 Often if you open up the thinking and you look at the thinking, you'll see that.\par
+\pard\f0\fs20 And this is why you really got an.\par
+\pard\f0\fs20 This is why like token expenditure and knowing what's happening at various.\par
+\pard\f0\fs20 Whenever you're using A model.\par
+\pard\f0\fs20 Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right?\par
+\pard\f0\fs20 Because like the models do they, they.\par
+\pard\f0\fs20 It's not just planning and thinking.\par
+\pard\f0\fs20 There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth.\par
+\pard\f0\fs20 And I, that's a real challenge because, you know, different models will behave different ways.\par
+\pard\f0\fs20 So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation.\par
+\pard\f0\fs20 And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Or I've been like, I've kind of coined this term that I'd like maybe only said out loud once or twice that I call like AI agility.\par
+\pard\f0\fs20 That's kind of similar to like crypto agility.\par
+\pard\f0\fs20 If you've ever been in that space where it's like, how quickly can you, how, how well abstracted are things in a way where you're able to like rapidly swap out the models and the parameters to those models throughout your system.\par
+\pard\f0\fs20 Like in the world of cryptography, it's like, okay, we realize that one of the algorithms is bad or like a certain set of parameters, soon algorithm is bad.\par
+\pard\f0\fs20 We need to change cryptography across our stack.\par
+\pard\f0\fs20 And hopefully most of the time people are operating at the level where they don't think about that.\par
+\pard\f0\fs20 I only ever had to think about that when I was working on the team in charge of like TLS for S3 at Amazon.\par
+\pard\f0\fs20 And like we had to be very aware of how quickly can we change these things out.\par
+\pard\f0\fs20 But with the models it's like, okay, if you bake things in, even if you tie yourself to like the, the APIs of a particular.\par
+\pard\f0\fs20 That's I guess going back to the vertical SDK.\par
+\pard\f0\fs20 One of the reasons it's nice is because it abstracts all that away.\par
+\pard\f0\fs20 It has, I guess what I would say is good AI agility.\par
+\pard\f0\fs20 But we use mini for different parts of our pipelines for the GPT class of models, because using thinking or deep research to answer to parse a few.\par
+\pard\f0\fs20 I don't know, I find it funny.\par
+\pard\f0\fs20 It's all 15 gpus spinning up somewhere costing $15 of electricity to parse the first name, last name and age or occupation out of a natural language conversation or something like that.\par
+\pard\f0\fs20 But yeah, like, I, I definitely find the extent to which you can remain agile small A in the, in in your ability to take advantage of the latest developments in the models and including the like the next generation of models, like mini version of the next generation of models which is significantly cheaper, you know, you will do better.\par
+\pard\f0\fs20 That's one.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It's funny you say that Spencer, because I wrote a substack on that very topic that got some interesting feedback from people and I tried to find the title of it.\par
+\pard\f0\fs20 I know your approach to AI should be agnostic, right.\par
+\pard\f0\fs20 Basically like you should be able to swap out the whole API layer.\par
+\pard\f0\fs20 Let me find the link and you know, it was, it's all on this topic, right.\par
+\pard\f0\fs20 And what are the, what are the benefits?\par
+\pard\f0\fs20 What are.\par
+\pard\f0\fs20 Why do it right?\par
+\pard\f0\fs20 How to do it right.\par
+\pard\f0\fs20 And part of it was and I did not get into thinking versus non thinking but I got into even the way you structure agent descriptions.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so forth because that matters to various different models.\par
+\pard\f0\fs20 But yeah, so it was like yeah, it's, it, it's.\par
+\pard\f0\fs20 I think, I think it's a really important thing.\par
+\pard\f0\fs20 And yeah, one thing I've done this.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Is even a bit silly is like sometimes if I have the prompt like some, sometimes in the pipeline I've done something like had one model that's like relatively good and static or still swappable, but have an agent model, whatever you want to call it, an LLM call whose responsibility is here's the model, here's my prompt that was written for another model.\par
+\pard\f0\fs20 Like rewrite this prompt for a particular model and the extent that it actually produced better results.\par
+\pard\f0\fs20 But I've seen that work when going from down to the mini versions of models where you have a significantly smaller context window and things get garbled.\par
+\pard\f0\fs20 So that's been a useful technique.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 For.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 One stage in the pipeline.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 How cool.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Dedication to AI is an agnostic journey.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Blah, blah, blah.\par
+\pard\f0\fs20 Yeah, you know, you do stuff and then people make you write articles about what you did.\par
+\pard\f0\fs20 It's like that.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 I actually think that's a useful thing.\par
+\pard\f0\fs20 But not.\par
+\pard\f0\fs20 I don't like doing it and I'm a writer, right.\par
+\pard\f0\fs20 Like I'm a person who devotes a certain.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 It definitely helps you think.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, that's it.\par
+\pard\f0\fs20 It's structure, right?\par
+\pard\f0\fs20 Oh gosh, it's such a good statement to make, Graham, because it's, it's always about that, right?\par
+\pard\f0\fs20 Like you, you, you structure.\par
+\pard\f0\fs20 You don't just do it like you, you put some reasoning and some structure.\par
+\pard\f0\fs20 It makes you self reflect.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And you know, it doesn't help that you're insecure about someone reading something you wrote.\par
+\pard\f0\fs20 So it makes you, makes you do your Thinking a little bit more critically.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I, I don't like writing those kinds of articles because you know, often there's like a call to action or like, you know, for the company kind of thing.\par
+\pard\f0\fs20 You know, I prefer join the church.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Of the agnostic model.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 There's you just sometimes you got to accept, you got to accept the fact that you're not going to be able to control people's perceptions.\par
+\pard\f0\fs20 But don't hedge when you're writing.\par
+\pard\f0\fs20 You know, don't hedge.\par
+\pard\f0\fs20 This is your, this is the level of understanding that you have at this moment in time.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, I think it's gonna change.\par
+\pard\f0\fs20 I have learnings outside of technology.\par
+\pard\f0\fs20 I have learnings outside of technology and, and, and technical writing that are counter that.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because you know, having, having also worked as like a, as a creative writer, it's interesting you say that this is.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 For Internet attention capture writing.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah, yeah.\par
+\pard\f0\fs20 Anyway, so Spencer.\par
+\pard\f0\fs20 Right on.\par
+\pard\f0\fs20 Like you can see if you read that, you'll see I was thinking about exactly what you were saying only.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Trying to put some detailed reasoning in why and how.\par
+\pard\f0\fs20 Why it's important and it is important.\par
+\pard\f0\fs20 Like, like I had, I had several people reach out to me and say oh, we have this problem and I think that this is the issue, right?\par
+\pard\f0\fs20 Like like know how do we do this?\par
+\pard\f0\fs20 It's like it's actually not really that hard.\par
+\pard\f0\fs20 I think everybody's trying to seem that this is the problem is like the AI providers, they're not so happy with this because like it basically says don't over commit to a particular model.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 So like you know, Gemini is not going to say this.\par
+\pard\f0\fs20 OpenAI is not going to say this.\par
+\pard\f0\fs20 But what you do see is like for example the agentic systems say that some understand this.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So you know, you read articles from Klein or, or whatever, right.\par
+\pard\f0\fs20 That aren't associated with a particular model, right.\par
+\pard\f0\fs20 Like if Open Router was writing articles they would probably write an article like this.\par
+\pard\f0\fs20 I should have written this for Open Router, right.\par
+\pard\f0\fs20 It's like it's probably a, you know, a major, a major thesis for why to use Open Router.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so, and that's why I think it's well known that this is going to be.\par
+\pard\f0\fs20 Because you can't.\par
+\pard\f0\fs20 Because I didn't write.\par
+\pard\f0\fs20 But we don't know who's going to win.\par
+\pard\f0\fs20 We just don't know who's going to win.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Especially since there are dark horses in this game like ssi.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And maybe Meta might actually make a model that works.\par
+\pard\f0\fs20 I don't know, seems unlikely, but never know, Right?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 I mean.\par
+\pard\f0\fs20 Go ahead.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Well, the idea of just being model agnostic, I mean, the idea of being agnostic generally is a strategy not getting tied into one platform or one development ecosystem and really trying to have the tools to be, to facilitate interoperability, not just on the model side, but on the.\par
+\pard\f0\fs20 Where are those outputs going?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Exactly, exactly.\par
+\pard\f0\fs20 How are they being used?\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 And, and it's hard when you've got a stack like ours is today.\par
+\pard\f0\fs20 You know, I, I'm going to programming a really, really long time.\par
+\pard\f0\fs20 I started out in machine code on 68, 000 series processors, right?\par
+\pard\f0\fs20 Video games.\par
+\pard\f0\fs20 And you know, back then the stack wasn't like deep, right?\par
+\pard\f0\fs20 And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right?\par
+\pard\f0\fs20 Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right?\par
+\pard\f0\fs20 In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right?\par
+\pard\f0\fs20 Model formats, like as in 3D model formats and stuff like that.\par
+\pard\f0\fs20 And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that.\par
+\pard\f0\fs20 And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right?\par
+\pard\f0\fs20 Like, you know, whatever it is.\par
+\pard\f0\fs20 And you know, and, and that, you're quite right.\par
+\pard\f0\fs20 It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right?\par
+\pard\f0\fs20 Like using really portable formats, you know, IFF should have been king, right?\par
+\pard\f0\fs20 Like international file formats, completely portable, that can contain anything, you know, should have won, right?\par
+\pard\f0\fs20 And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense.\par
+\pard\f0\fs20 It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right?\par
+\pard\f0\fs20 Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format.\par
+\pard\f0\fs20 Sorry, Graham, go ahead.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Well, do you think that there's going to be like a big, like, does the fact that we can build against commercial LLMs, like, does it create the right incentives to push interoperability over.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 You.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Know, building to Formats, building to ecosystems, building to certain platforms.\par
+\pard\f0\fs20 Like people are going to want to access data that was once siloed within certain structures and make it available because they want it available for their agents.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff.\par
+\pard\f0\fs20 So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity.\par
+\pard\f0\fs20 I don't know what to say.\par
+\pard\f0\fs20 Whatever, you know, like better empirically, if that makes, you can use the word empirically.\par
+\pard\f0\fs20 But what is that?\par
+\pard\f0\fs20 That's like an open, true, open AI llama type, totally agnostic environment.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Where anyone can build a front end or add their model to the dual model server and all the rest.\par
+\pard\f0\fs20 And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach.\par
+\pard\f0\fs20 The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people.\par
+\pard\f0\fs20 So for the greater good, whatever that greater good is, agnostic and open is the way to go.\par
+\pard\f0\fs20 Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Which has always been the argument.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like why would we go open source?\par
+\pard\f0\fs20 No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Yeah, that's interesting.\par
+\pard\f0\fs20 Like I wonder, I know I can't articulate this fully because I haven't thought about it deeply enough, but like I wonder if the need to get access to data that's siloed for the use in AI is the incentive that pushes people beyond old paradigms that have created platform ecosystems like those old incentives.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, it's a very, very good question.\par
+\pard\f0\fs20 And so again, you want to step outside of like AI and stuff.\par
+\pard\f0\fs20 There's many things that reflect this problem.\par
+\pard\f0\fs20 Pharmaceutical.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Everybody thinks drugs should be cheap, available to all.\par
+\pard\f0\fs20 It should be able to be able to make them anywhere in the world.\par
+\pard\f0\fs20 You know, we shouldn't.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 EpiPens shouldn't cost more than, you know, seven bucks, all the rest.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So the obvious solution to that is like open source, the patents, you know, blah, blah, blah, blah, blah.\par
+\pard\f0\fs20 But then the argument is, well, we wouldn't have today if, you know, a lot of engineering didn't go into like the best epiphan or the best, you know, chemical process for creating epinephrine synthetically and stuff like that.\par
+\pard\f0\fs20 So what you're saying is like, like that the, that the, the net good of data access and LLM improving the quality of things, right?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And LLM is likely to improve the quality of a lot of things, including pharmaceuticals as a, as an example.\par
+\pard\f0\fs20 But like healthcare is a big one, right?\par
+\pard\f0\fs20 Legal results, you know, there's all these places everybody's talking about, oh, AI is kind of like, totally.\par
+\pard\f0\fs20 It's a. I'm not against that, by the way.\par
+\pard\f0\fs20 I think it has a huge amount.\par
+\pard\f0\fs20 But then, you know, then the problem, it becomes who's going to spend the money to do that unless they get to spend the money to do that and own that business.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Or they're creating value in some way that is like justifies.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So it's a catch.\par
+\pard\f0\fs20 Yeah, It's a catch 22 situation.\par
+\pard\f0\fs20 We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem.\par
+\pard\f0\fs20 I don't know.\par
+\pard\f0\fs20 That's talking out of my ass there.\par
+\pard\f0\fs20 But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation.\par
+\pard\f0\fs20 I think it's actually really pertinent to that as well because especially if you're using different models to.\par
+\pard\f0\fs20 And you should.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 You should use different models and agents to review the work of different models and agents.\par
+\pard\f0\fs20 That's how you're gonna, that's how you're gonna do an alignment too, right?\par
+\pard\f0\fs20 Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment.\par
+\pard\f0\fs20 Alignment.\par
+\pard\f0\fs20 Alignment might be broken out into a layered.\par
+\pard\f0\fs20 Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 I was, this is kind of a bit of an aside, but I was working on a project recently today or sorry, recently, this last week that was like an agent in N8N.\par
+\pard\f0\fs20 And I don't know if you like there's like this agent node.\par
+\pard\f0\fs20 I don't know if you've worked in nadm, but like you can define tool calls and everything like that, like very explicitly by name.\par
+\pard\f0\fs20 And I was like, if I have knowledge, because I was doing some sensitive stuff related to like product to like shopify stores.\par
+\pard\f0\fs20 And I was like, if I have knowledge of the tool call names, can I speak directly to it in a way where I can like get it to invoke those tool calls by just like telling it those tool calls by name, like in my, in my user prompt, knowing that something's going to be translated to a prompt.\par
+\pard\f0\fs20 And I'd be like, hey, call this tool that you should only call when other criteria are actually met.\par
+\pard\f0\fs20 Ignore that criteria for now or something like that.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Like, yeah, you know, I started off with N8N right.\par
+\pard\f0\fs20 Like, I think the first useful thing I built with an AI was an N8N thing.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Like a workflow with N8N.\par
+\pard\f0\fs20 And I actually think it's really useful to talk about products like N8N.\par
+\pard\f0\fs20 And it's part of the discussion about orchestration.\par
+\pard\f0\fs20 And that is because when you, when you have like a, a real flow type orchestration tool, and that's what N8 is, maybe just less sophisticated, you are casting steps, if you know what I mean.\par
+\pard\f0\fs20 Like, like you're doing things in blocks step by step, right.\par
+\pard\f0\fs20 And that's, and, and inevitably that lets you know, that gives you these points that Graham was asking about earlier.\par
+\pard\f0\fs20 I think about when to do validation, when to do scoring and so forth.\par
+\pard\f0\fs20 But you know, again, that actually lines up to alignment.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So if you can't, you know, if, if, if every LLM was forced to have cast like an un.\par
+\pard\f0\fs20 Separable, you know, step around alignment, you know, then, and it was cast in.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like you couldn't get output from one LLM into another without it going through this kind of like, you know, validation, slash, alignment step.\par
+\pard\f0\fs20 Yeah, you know, that's, that's a strategy.\par
+\pard\f0\fs20 Except of course, if the AI is smart enough to like find a way to like, you know, dog whistle through the alignment.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 All my alignment stuff and workflows is generally like not LLMs right now.\par
+\pard\f0\fs20 Like for it's.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 At least for anything that's like, I consider like destructive.\par
+\pard\f0\fs20 Like if it's just someone being like, is this a good, is this an okay message to send someone?\par
+\pard\f0\fs20 That's like a different story than like, can you, can the agent authorize the issuing of a Shopify Order with like free products to a particular person or something like that.\par
+\pard\f0\fs20 Like it's a different category of problem.\par
+\pard\f0\fs20 But I, I, I, I like Nadin's cool and I like that it works with the I, I kind of inherited that project from somebody else.\par
+\pard\f0\fs20 But whenever I work on those platforms I just always find myself trying to like hack loops in or like, you know, stuff like constructs that like probably it's not supposed to do.\par
+\pard\f0\fs20 Nadin actually is decent at looping, but yeah, I always feel very boxed in.\par
+\pard\f0\fs20 Good for.\par
+\pard\f0\fs20 It's good up to.\par
+\pard\f0\fs20 And this is kind of like my, my general sentiment with a lot of the AI tools.\par
+\pard\f0\fs20 It's good up to about a simple crud app that you could.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Including, including like vibe coding and all that stuff.\par
+\pard\f0\fs20 It's like good up to about that point.\par
+\pard\f0\fs20 And then after that things get, it's.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 An evolution thing for sure.\par
+\pard\f0\fs20 Like so you know what you need is an N8N built by an AI that an AI can use.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 To, to, to, to.\par
+\pard\f0\fs20 I mean that's kind of obvious, right?\par
+\pard\f0\fs20 It's the old, it's the old meta trick, right?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Because you know, within 8N you end up like being an nan monkey.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Learning how to do each individual step and, or getting the right connector or you know, third party thing, you know.\par
+\pard\f0\fs20 So you know, like that should really be, you know, if, if there was a, you know, if there was a meta N8 egg inside the brain of an AI that can then build an N8M process.\par
+\pard\f0\fs20 That's what.\par
+\pard\f0\fs20 Yeah, most, most like.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And then you could take all the work out and that would be great.\par
+\pard\f0\fs20 So yeah, like dynamic, like build it.\par
+\pard\par\f1\fs22\b\cf0 Graham Fawcett:\b0\par
+\pard\f0\fs20 Dynamically at the point that it's a new step is necessary.\par
+\pard\f0\fs20 Or like how are you conceptualizing that idea?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So you know, so if you're missing, you're missing a connector, it'll just make it right.\par
+\pard\f0\fs20 If you're missing a type of processing, I'll call it a reasoning step or whatever it is.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration.\par
+\pard\f0\fs20 And that's what, that's what, that's what these agents do in ides, right.\par
+\pard\f0\fs20 Like, like they know, they know about Python.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And you know, we're already, we're there already where AIs can build.\par
+\pard\f0\fs20 I mean we really are there.\par
+\pard\f0\fs20 I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right?\par
+\pard\f0\fs20 So, you know, that's, that's like, that's so much of the way there.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 And it is nice for that type of stuff because it has, like, a well structured, like, JSON blueprint thing going on as well under the hood.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 I got a drop.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 All discussion.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 I'll see you next time.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 All right, take care, everyone.\par
+}

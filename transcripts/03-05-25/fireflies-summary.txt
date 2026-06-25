@@ -1,0 +1,48 @@
+Meeting: 8am AI School
+Date: 3/5/2025, 8:00:00 AM
+Duration: 23.280000686645508 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+The 8am AI School meeting focused on a range of technical discussions, primarily centered around API exploration and innovative applications in food technology. Fulvio introduced a base-to-base hex security obfuscation algorithm, which sparked conversations on encryption techniques, including a trait-based system balanced for security and accessibility. David showcased creative applications such as a roller coaster-like camera movement and vibrant ideas for using food-related APIs, particularly the spoonacular API, emphasizing the need for simplified recipe formats amid challenges posed by online distractions. The participants discussed the potential of using APIs and AI to create unique recipe experiences, such as 'Mad Libs' style interactions, while also sharing insights on cooking and managing temperature conversions. Action items were assigned to Travis and David to implement and test encryption functionalities, respectively, ensuring the progression of their discussed initiatives.
+
+ACTION ITEMS:
+
+**Travis**
+Implement the algorithm for trait-based encryption in the front end (16:58)
+
+**David**
+Test the encryption algorithm to verify its functionality (16:58)
+
+
+KEYWORDS:
+API, Encryption, Recipes, Obfuscation, Tokenization, Food-tech
+
+SHORT SUMMARY:
+🖥️ **Technical Discussion and API Exploration** (02:59 - 07:11)
+Fulvio shared a base to base hex security obfuscation algorithm with Travis
+David demonstrated a roller coaster-like camera movement along a curve
+Discussion on the use of tags and JSON files for labeling in UIs
+Mention of Field Notes 2 app and its features
+Introduction of spoonacular API, a food-related API for recipes and ingredients
+🍳 **Food API and Recipe Challenges** (07:12 - 11:04)
+Discussion on the potential uses of the spoonacular API for food journaling apps
+Challenges of finding recipes online due to excessive ads and trackers
+Fulvio shared his cooking background and approach to recipes
+Discussed the need for simplified recipe formats focusing on key information
+Challenges with temperature conversions in recipes (Celsius vs. Fahrenheit)
+📊 **API Integration and App Development Ideas** (11:04 - 15:18)
+Explored potential applications using food-related APIs
+Discussed the concept of using APIs and AI to create recipe 'Mad Libs'
+Emphasized the importance of concise recipe information
+David mentioned his experience with macrobacon.com and its large database of bacon-related posts
+🔐 **Encryption and Obfuscation Techniques** (15:18 - 23:05)
+Fulvio explained a trait-based encryption system using base-8 numbers converted to hex
+Discussed the potential use of this system in token minting and availability checking
+Explored the balance between security and accessibility in the encryption method
+Mentioned the possibility of adding additional layers of obfuscation if needed
+Brief discussion on the potential for reverse-engineering and its implications
+
+

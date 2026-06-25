@@ -1,0 +1,1524 @@
+{
+  "meeting_id": "rhHP8MqM7b76nmey",
+  "title": "8am AI School - Workshop #5",
+  "date": 1716390000000,
+  "duration": 41,
+  "organizer": "david@atomic47.co",
+  "participants": [
+    "david@atomic47.co"
+  ],
+  "sentences": [
+    {
+      "text": "All right, I'm going to get going and start presenting.",
+      "speaker_name": "David Olsson",
+      "start_time": 411.974,
+      "end_time": 418.754
+    },
+    {
+      "text": "I wanted to show this.",
+      "speaker_name": "David Olsson",
+      "start_time": 419.054,
+      "end_time": 423.754
+    },
+    {
+      "text": "This document here is quite interesting.",
+      "speaker_name": "David Olsson",
+      "start_time": 427.214,
+      "end_time": 429.434
+    },
+    {
+      "text": "I've taken a prompt from a workflow provided by Jason, and it's an interesting workflow.",
+      "speaker_name": "David Olsson",
+      "start_time": 431.134,
+      "end_time": 438.254
+    },
+    {
+      "text": "It's one about taking a product description and making it a series of prompts that make it a fully fledged kind of ecommerce experience.",
+      "speaker_name": "David Olsson",
+      "start_time": 439.234,
+      "end_time": 450.854
+    },
+    {
+      "text": "The first prompt is how to write a detailed product description.",
+      "speaker_name": "David Olsson",
+      "start_time": 451.394,
+      "end_time": 454.434
+    },
+    {
+      "text": "So let's see it here.",
+      "speaker_name": "David Olsson",
+      "start_time": 454.474,
+      "end_time": 456.426
+    },
+    {
+      "text": "This is maybe the system message saying you're kind of this kind of person, this kind of entity, and then here's what you need to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 456.61,
+      "end_time": 465.694
+    },
+    {
+      "text": "And so your goal is to write a detailed product description for the product, and you can provide one, and it does all these things.",
+      "speaker_name": "David Olsson",
+      "start_time": 465.854,
+      "end_time": 474.594
+    },
+    {
+      "text": "So I took that description of that prompt and I asked it to make up, I asked Chatpt to just make an agent of that prompt, and it produced this, which is pretty tight.",
+      "speaker_name": "David Olsson",
+      "start_time": 475.974,
+      "end_time": 491.384
+    },
+    {
+      "text": "It's got a role goal and tasks, and that's primarily what we need out of an agent, and it tells us what was to do, what it was told here in the previous prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 493.284,
+      "end_time": 503.78
+    },
+    {
+      "text": "So basically I took the system and message prompts, combined the two and chapter, and I've got what we call our first generation agent based on a description or another prompt, whatever the source may be.",
+      "speaker_name": "David Olsson",
+      "start_time": 503.932,
+      "end_time": 525.6
+    },
+    {
+      "text": "We've iterated through and produced something of a standardized, easy to understand structure for an agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 525.632,
+      "end_time": 534.744
+    },
+    {
+      "text": "And then I have a prompt engineer agent that I've created from some of the research that I've done.",
+      "speaker_name": "David Olsson",
+      "start_time": 534.904,
+      "end_time": 541.858
+    },
+    {
+      "text": "And it sets itself up to do some cool stuff as some key performance indicators, some requirements and some usage.",
+      "speaker_name": "David Olsson",
+      "start_time": 542.026,
+      "end_time": 549.746
+    },
+    {
+      "text": "So you know what it can do.",
+      "speaker_name": "David Olsson",
+      "start_time": 549.85,
+      "end_time": 551.414
+    },
+    {
+      "text": "And so in a chat gdp four session, I took this description and I brought it into this agent and I asked it to create an agent from it, a verbose agent, I think.",
+      "speaker_name": "David Olsson",
+      "start_time": 552.114,
+      "end_time": 565.782
+    },
+    {
+      "text": "And it went through.",
+      "speaker_name": "David Olsson",
+      "start_time": 565.978,
+      "end_time": 567.798
+    },
+    {
+      "text": "And because it has a much more rich understanding of what is responsible by an agent or what a response responsible agent might do, it was able to generate a really cool kind of description of an agent, functional description.",
+      "speaker_name": "David Olsson",
+      "start_time": 567.846,
+      "end_time": 588.154
+    },
+    {
+      "text": "It still had that structure of role goal tasks, but it also had steps involved to achieve those.",
+      "speaker_name": "David Olsson",
+      "start_time": 591.434,
+      "end_time": 598.214
+    },
+    {
+      "text": "And I also asked it to include a self reflection step that I have created.",
+      "speaker_name": "David Olsson",
+      "start_time": 598.834,
+      "end_time": 604.434
+    },
+    {
+      "text": "Another demonstration and self reflection step gets it to review its own work.",
+      "speaker_name": "David Olsson",
+      "start_time": 604.594,
+      "end_time": 611.414
+    },
+    {
+      "text": "So I added that in and I added some strategies to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 612.954,
+      "end_time": 615.458
+    },
+    {
+      "text": "And so I was able to take this base right here, right here.",
+      "speaker_name": "David Olsson",
+      "start_time": 615.506,
+      "end_time": 622.594
+    },
+    {
+      "text": "Working within my agent, it was able to describe itself better, add some steps, self reflection step, and some strategies for how to work with content.",
+      "speaker_name": "David Olsson",
+      "start_time": 623.774,
+      "end_time": 640.474
+    },
+    {
+      "text": "And it came up with these based on the very first description.",
+      "speaker_name": "David Olsson",
+      "start_time": 640.974,
+      "end_time": 647.406
+    },
+    {
+      "text": "So, content depth and accuracy, the way to measure that is to ensure all descriptions are detailed.",
+      "speaker_name": "David Olsson",
+      "start_time": 647.55,
+      "end_time": 652.222
+    },
+    {
+      "text": "The criteria for understanding if that's being met is the completeness, accuracy and the inclusion of unique features.",
+      "speaker_name": "David Olsson",
+      "start_time": 652.358,
+      "end_time": 658.622
+    },
+    {
+      "text": "And then there's a way of scaling that and descriptions on how that scale would be achieved.",
+      "speaker_name": "David Olsson",
+      "start_time": 658.718,
+      "end_time": 664.11
+    },
+    {
+      "text": "So we can take this description and we can actually sort of invert it, not saying, but we can make it functional and say that the product did not have, have, if we go down to one, it did not have enough significant information to suggest that it was accurate.",
+      "speaker_name": "David Olsson",
+      "start_time": 664.262,
+      "end_time": 679.954
+    },
+    {
+      "text": "It had significant inaccuracies, according to the analysis that was taken.",
+      "speaker_name": "David Olsson",
+      "start_time": 680.334,
+      "end_time": 684.194
+    },
+    {
+      "text": "And so based on that, we would ask it to go back and review itself, review the content, and then try to add to it to make it more rich and full.",
+      "speaker_name": "David Olsson",
+      "start_time": 684.734,
+      "end_time": 694.302
+    },
+    {
+      "text": "So these scoring scales are based on the criteria and the strategy.",
+      "speaker_name": "David Olsson",
+      "start_time": 694.438,
+      "end_time": 701.524
+    },
+    {
+      "text": "So they have six different strategies here for achieving better content, a better product description.",
+      "speaker_name": "David Olsson",
+      "start_time": 701.564,
+      "end_time": 709.944
+    },
+    {
+      "text": "So these are all folded into the agent, and then the scoring can be aggregate.",
+      "speaker_name": "David Olsson",
+      "start_time": 710.244,
+      "end_time": 718.3
+    },
+    {
+      "text": "So it actually then took what I provided it in terms of scoring and then built out an aggregate understanding of an overall score for content output from this agent and breaking it down into what it thought would be the weighting appropriate to those aspects of what it's asked to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 718.332,
+      "end_time": 738.19
+    },
+    {
+      "text": "And it's, you know, it's pretty cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 738.342,
+      "end_time": 741.074
+    },
+    {
+      "text": "It's, whether you think it is complete or valuable or not, as is debatable or it's up to you, whatever, but it gets you to think about, okay, I can do this.",
+      "speaker_name": "David Olsson",
+      "start_time": 741.974,
+      "end_time": 757.13
+    },
+    {
+      "text": "All right, so I can weight these things differently is the tone, is what is important as the inclusion of features is SEO optimization in what I'm doing.",
+      "speaker_name": "David Olsson",
+      "start_time": 757.162,
+      "end_time": 767.274
+    },
+    {
+      "text": "Very important is the readability and structure weighted properly.",
+      "speaker_name": "David Olsson",
+      "start_time": 767.354,
+      "end_time": 772.49
+    },
+    {
+      "text": "Like you can do that.",
+      "speaker_name": "David Olsson",
+      "start_time": 772.522,
+      "end_time": 773.33
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 773.362,
+      "end_time": 773.554
+    },
+    {
+      "text": "So because it's a calculation, then you can come up with a sum of 100, what the score could be.",
+      "speaker_name": "David Olsson",
+      "start_time": 773.594,
+      "end_time": 778.854
+    },
+    {
+      "text": "It's an agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 780.254,
+      "end_time": 781.174
+    },
+    {
+      "text": "So what does it need to get better at what it does?",
+      "speaker_name": "David Olsson",
+      "start_time": 781.254,
+      "end_time": 784.182
+    },
+    {
+      "text": "Skills and content management system and e commerce platforms will be using these things.",
+      "speaker_name": "David Olsson",
+      "start_time": 784.318,
+      "end_time": 788.134
+    },
+    {
+      "text": "So the interesting thing is this training requirements are as if it's an agent, a human or an entity that will continue to evolve.",
+      "speaker_name": "David Olsson",
+      "start_time": 788.174,
+      "end_time": 797.634
+    },
+    {
+      "text": "Adaptability and testing.",
+      "speaker_name": "David Olsson",
+      "start_time": 798.214,
+      "end_time": 799.574
+    },
+    {
+      "text": "This is something that, again, it added to this agent and it's a component that's quite important.",
+      "speaker_name": "David Olsson",
+      "start_time": 799.654,
+      "end_time": 805.934
+    },
+    {
+      "text": "How can it modify its behavior in a situation and how can it know what is good, you know, conduct baby testing?",
+      "speaker_name": "David Olsson",
+      "start_time": 807.754,
+      "end_time": 819.574
+    },
+    {
+      "text": "So this is, this is a killer, this gen two agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 820.394,
+      "end_time": 824.762
+    },
+    {
+      "text": "It's killer.",
+      "speaker_name": "David Olsson",
+      "start_time": 824.938,
+      "end_time": 826.002
+    },
+    {
+      "text": "It's got tasks, it's got a way of doing them.",
+      "speaker_name": "David Olsson",
+      "start_time": 826.178,
+      "end_time": 828.666
+    },
+    {
+      "text": "It's got a way of, you know, explaining how it wants to be done.",
+      "speaker_name": "David Olsson",
+      "start_time": 828.73,
+      "end_time": 833.754
+    },
+    {
+      "text": "It has a self reflection step, which will then assess almost any kind of step it takes.",
+      "speaker_name": "David Olsson",
+      "start_time": 834.214,
+      "end_time": 838.934
+    },
+    {
+      "text": "And it has an overall scoring system, and then it has strategies on how to make the content better.",
+      "speaker_name": "David Olsson",
+      "start_time": 839.094,
+      "end_time": 847.078
+    },
+    {
+      "text": "So how did, how to go about doing its job better?",
+      "speaker_name": "David Olsson",
+      "start_time": 847.126,
+      "end_time": 850.314
+    },
+    {
+      "text": "And these strategies are applied during the scoring evaluation and then reiteration or revising of the content.",
+      "speaker_name": "David Olsson",
+      "start_time": 850.934,
+      "end_time": 859.214
+    },
+    {
+      "text": "So I'm pretty happy with this, but, you know, I've been doing my research and it's interesting to see what is effective and what isn't.",
+      "speaker_name": "David Olsson",
+      "start_time": 861.114,
+      "end_time": 867.01
+    },
+    {
+      "text": "So we have these three levels of content in, within the agent, or prompt, or whatever you want to call it, that describe the actions associated with that entity and what it wants to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 867.042,
+      "end_time": 878.214
+    },
+    {
+      "text": "So the research I've been doing, there are ways to describe different things within software, especially within the notion of the area of machine learning and AI, that are curiously interesting in that they are, they describe the characteristics of traits of what we can call an entity or a thing or something.",
+      "speaker_name": "David Olsson",
+      "start_time": 879.434,
+      "end_time": 900.704
+    },
+    {
+      "text": "In this case, these are actions that I want to take.",
+      "speaker_name": "David Olsson",
+      "start_time": 901.204,
+      "end_time": 903.324
+    },
+    {
+      "text": "The agent takes actions, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 903.364,
+      "end_time": 905.212
+    },
+    {
+      "text": "It understands something about a situation, it's been given so mandate and it takes actions, and then from that it can do maybe more things.",
+      "speaker_name": "David Olsson",
+      "start_time": 905.308,
+      "end_time": 914.622
+    },
+    {
+      "text": "But I took this agent and then I, with what I understood in terms of the research I was looking at, converted this agent with characteristics, traits and processes and scoring into a series of what we call symbols.",
+      "speaker_name": "David Olsson",
+      "start_time": 914.678,
+      "end_time": 933.274
+    },
+    {
+      "text": "Symbols are interesting, but if we just say this is a symbolic representation of the description, it gets more interesting and more approachable.",
+      "speaker_name": "David Olsson",
+      "start_time": 934.434,
+      "end_time": 941.338
+    },
+    {
+      "text": "So symbols are things that we can understand, in this case are words, and it's a lot of pairing of what seems to be arbitrary characters and whatnot.",
+      "speaker_name": "David Olsson",
+      "start_time": 941.386,
+      "end_time": 953.754
+    },
+    {
+      "text": "But this structure is very, very useful, very digestible, and enables some pretty cool, what I call a left and right movement on what we are able to do with large language models and agents.",
+      "speaker_name": "David Olsson",
+      "start_time": 953.794,
+      "end_time": 969.164
+    },
+    {
+      "text": "This description, this symbolic action for the agent taking all this description, it went through a process after I prompted it to create an action, symbolic action, out of the description.",
+      "speaker_name": "David Olsson",
+      "start_time": 969.704,
+      "end_time": 980.784
+    },
+    {
+      "text": "And it came to these, we can call them statements, if you like, action content, review parameters.",
+      "speaker_name": "David Olsson",
+      "start_time": 980.904,
+      "end_time": 989.084
+    },
+    {
+      "text": "There's an agent, there's an e commerce page, the preconditions and the product list.",
+      "speaker_name": "David Olsson",
+      "start_time": 989.124,
+      "end_time": 993.924
+    },
+    {
+      "text": "There is some precondition and we need a product list.",
+      "speaker_name": "David Olsson",
+      "start_time": 994.004,
+      "end_time": 997.172
+    },
+    {
+      "text": "The effect is, is the content relevant?",
+      "speaker_name": "David Olsson",
+      "start_time": 997.308,
+      "end_time": 999.268
+    },
+    {
+      "text": "It's like these are, I'm inferring that language around it, but just this structure enables the large language model or other softwares to, we can say, infer whole lot, a whole lot, meaning that there's a lot of structure from the previous long form natural language description of what I wanted done captured in this nomenclature.",
+      "speaker_name": "David Olsson",
+      "start_time": 999.316,
+      "end_time": 1030.084
+    },
+    {
+      "text": "And it is highly optimized in the way that it can be processed by the language model.",
+      "speaker_name": "David Olsson",
+      "start_time": 1030.784,
+      "end_time": 1039.231
+    },
+    {
+      "text": "And it abstracts out a lot of the specificity of the content within the description that I provided for the agent and gives it the most, gives it what is most important in terms of information and relationships to the large language model.",
+      "speaker_name": "David Olsson",
+      "start_time": 1039.367,
+      "end_time": 1060.883
+    },
+    {
+      "text": "It reduces the amount of non or unimportant information that would necessarily be to be parsed through an analysis of what has been offered to it as content.",
+      "speaker_name": "David Olsson",
+      "start_time": 1061.823,
+      "end_time": 1076.566
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1076.67,
+      "end_time": 1076.91
+    },
+    {
+      "text": "So it doesn't even know what it is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1076.942,
+      "end_time": 1077.974
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1078.014,
+      "end_time": 1078.594
+    },
+    {
+      "text": "The question is it statement?",
+      "speaker_name": "David Olsson",
+      "start_time": 1079.254,
+      "end_time": 1081.094
+    },
+    {
+      "text": "Is it a structure, is it a simulation?",
+      "speaker_name": "David Olsson",
+      "start_time": 1081.174,
+      "end_time": 1084.062
+    },
+    {
+      "text": "What is it?",
+      "speaker_name": "David Olsson",
+      "start_time": 1084.158,
+      "end_time": 1084.958
+    },
+    {
+      "text": "And so this nomenclature here, this way of creating what we could call functional information because it's crazy cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1085.086,
+      "end_time": 1098.49
+    },
+    {
+      "text": "Functional.",
+      "speaker_name": "David Olsson",
+      "start_time": 1098.522,
+      "end_time": 1099.254
+    },
+    {
+      "text": "I'll show you right now that I can just take this, not this whole thing and not change any of that specifically because it is meant to be a generic, like, meant to be applicable as it is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1101.034,
+      "end_time": 1114.29
+    },
+    {
+      "text": "Just take this simple action, copy it into.",
+      "speaker_name": "David Olsson",
+      "start_time": 1114.322,
+      "end_time": 1119.114
+    },
+    {
+      "text": "Oh my goodness.",
+      "speaker_name": "David Olsson",
+      "start_time": 1126.174,
+      "end_time": 1127.474
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1145.154,
+      "end_time": 1146.094
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1148.794,
+      "end_time": 1149.458
+    },
+    {
+      "text": "I want to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1149.546,
+      "end_time": 1150.614
+    },
+    {
+      "text": "This is the product.",
+      "speaker_name": "David Olsson",
+      "start_time": 1153.154,
+      "end_time": 1154.814
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1155.194,
+      "end_time": 1155.962
+    },
+    {
+      "text": "I'm going to give it a fidget spinner.",
+      "speaker_name": "David Olsson",
+      "start_time": 1156.098,
+      "end_time": 1161.814
+    },
+    {
+      "text": "This is the product.",
+      "speaker_name": "David Olsson",
+      "start_time": 1183.374,
+      "end_time": 1184.554
+    },
+    {
+      "text": "Execute this.",
+      "speaker_name": "David Olsson",
+      "start_time": 1186.334,
+      "end_time": 1187.954
+    },
+    {
+      "text": "Okay, so this is very much brute force, but I just wanted to show you that what I have come up with here in this, by working with Jack DBT and asking it to prepare this type of format of information for me, I can then paste it into here.",
+      "speaker_name": "David Olsson",
+      "start_time": 1188.854,
+      "end_time": 1207.794
+    },
+    {
+      "text": "And what happens is similar to what would happen is if I asked it to use the agent, but there is really no reference to the agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 1207.954,
+      "end_time": 1219.01
+    },
+    {
+      "text": "Let's go through the process of describing this product using defined actions.",
+      "speaker_name": "David Olsson",
+      "start_time": 1219.122,
+      "end_time": 1222.386
+    },
+    {
+      "text": "The product is a fidget spinner designed for anxiety relief and available on Amazon.",
+      "speaker_name": "David Olsson",
+      "start_time": 1222.41,
+      "end_time": 1227.53
+    },
+    {
+      "text": "The description process includes several steps, each building on the previous one fit review, overview creation next.",
+      "speaker_name": "David Olsson",
+      "start_time": 1227.562,
+      "end_time": 1237.762
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1237.818,
+      "end_time": 1238.226
+    },
+    {
+      "text": "And overview.",
+      "speaker_name": "David Olsson",
+      "start_time": 1238.33,
+      "end_time": 1239.482
+    },
+    {
+      "text": "So wrote the overview, added use.",
+      "speaker_name": "David Olsson",
+      "start_time": 1239.658,
+      "end_time": 1243.994
+    },
+    {
+      "text": "So we needed use cases ideal for this and that include details, highlight unique aspects, unique selling propositions or value propositions.",
+      "speaker_name": "David Olsson",
+      "start_time": 1244.074,
+      "end_time": 1257.074
+    },
+    {
+      "text": "Edit the description for clarity.",
+      "speaker_name": "David Olsson",
+      "start_time": 1264.094,
+      "end_time": 1266.518
+    },
+    {
+      "text": "Scores the description.",
+      "speaker_name": "David Olsson",
+      "start_time": 1266.686,
+      "end_time": 1268.094
+    },
+    {
+      "text": "So it actually did go back and do the editing step for clarity to ensure that it was clear that would have been going through the self reflection step.",
+      "speaker_name": "David Olsson",
+      "start_time": 1268.134,
+      "end_time": 1282.25
+    },
+    {
+      "text": "And so you can see that this is the description that it went through.",
+      "speaker_name": "David Olsson",
+      "start_time": 1282.402,
+      "end_time": 1288.894
+    },
+    {
+      "text": "Now I know that it did do a step and it told us a step, but I'm going to tell it, do the self, do self reflection.",
+      "speaker_name": "David Olsson",
+      "start_time": 1289.394,
+      "end_time": 1301.194
+    },
+    {
+      "text": "Score the results according to all strategies.",
+      "speaker_name": "David Olsson",
+      "start_time": 1342.034,
+      "end_time": 1344.894
+    },
+    {
+      "text": "I wonder if that's going to define them.",
+      "speaker_name": "David Olsson",
+      "start_time": 1346.114,
+      "end_time": 1347.826
+    },
+    {
+      "text": "The strategy score in the criteria.",
+      "speaker_name": "David Olsson",
+      "start_time": 1347.85,
+      "end_time": 1352.514
+    },
+    {
+      "text": "Okay, so I did.",
+      "speaker_name": "David Olsson",
+      "start_time": 1353.334,
+      "end_time": 1354.754
+    },
+    {
+      "text": "So I'm gonna, I'm gonna ask it to provide feedback to increase the score.",
+      "speaker_name": "David Olsson",
+      "start_time": 1365.814,
+      "end_time": 1372.958
+    },
+    {
+      "text": "So go farther than 4.8.",
+      "speaker_name": "David Olsson",
+      "start_time": 1373.006,
+      "end_time": 1374.598
+    },
+    {
+      "text": "Precision feedback is sure it all takes include a table or bullet points.",
+      "speaker_name": "David Olsson",
+      "start_time": 1374.646,
+      "end_time": 1380.284
+    },
+    {
+      "text": "All right, so it did go through and it did do that one.",
+      "speaker_name": "David Olsson",
+      "start_time": 1386.864,
+      "end_time": 1389.104
+    },
+    {
+      "text": "Okay, Bill, so, okay, so, all right, so it added a bit of spa in terms of provide the differences between the versions showing analysis and text.",
+      "speaker_name": "David Olsson",
+      "start_time": 1389.144,
+      "end_time": 1417.984
+    },
+    {
+      "text": "I've been going and scrolling back and forth and it's faster to actually get it to sync in that regard.",
+      "speaker_name": "David Olsson",
+      "start_time": 1421.644,
+      "end_time": 1430.804
+    },
+    {
+      "text": "Just give me what I'm looking for instead of me finding it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1430.964,
+      "end_time": 1434.584
+    },
+    {
+      "text": "So it's giving me the original.",
+      "speaker_name": "David Olsson",
+      "start_time": 1436.884,
+      "end_time": 1438.556
+    },
+    {
+      "text": "Let's see, here's the original.",
+      "speaker_name": "David Olsson",
+      "start_time": 1438.62,
+      "end_time": 1440.304
+    },
+    {
+      "text": "You can see that the revised is quite a bit longer and the analysis original crafted.",
+      "speaker_name": "David Olsson",
+      "start_time": 1440.844,
+      "end_time": 1448.076
+    },
+    {
+      "text": "Yada, yada, yada, quite spin crafted from premium materials.",
+      "speaker_name": "David Olsson",
+      "start_time": 1448.14,
+      "end_time": 1451.184
+    },
+    {
+      "text": "Seamless, quiet spinning experience improve precision by removing redundant phrases and ensuring clear language.",
+      "speaker_name": "David Olsson",
+      "start_time": 1451.524,
+      "end_time": 1460.524
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1467.624,
+      "end_time": 1468.464
+    },
+    {
+      "text": "Relevance, general audience mention.",
+      "speaker_name": "David Olsson",
+      "start_time": 1468.624,
+      "end_time": 1471.444
+    },
+    {
+      "text": "Specific targets are mentioned, such as students and those with Aght.",
+      "speaker_name": "David Olsson",
+      "start_time": 1471.784,
+      "end_time": 1476.792
+    },
+    {
+      "text": "Add more context to who would benefit from the product conciseness.",
+      "speaker_name": "David Olsson",
+      "start_time": 1476.968,
+      "end_time": 1481.414
+    },
+    {
+      "text": "Original revised remove the sentence to avoid looking for delete strategy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1481.914,
+      "end_time": 1489.774
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 1491.234,
+      "end_time": 1492.014
+    },
+    {
+      "text": "Streamline description to eliminate repetitive information.",
+      "speaker_name": "David Olsson",
+      "start_time": 1493.234,
+      "end_time": 1496.13
+    },
+    {
+      "text": "Engagement wax user synchron language added customer testimonials analysis enhanced engagement by including retailable user experiences and mobile language technical details did not include specific technical details.",
+      "speaker_name": "David Olsson",
+      "start_time": 1496.322,
+      "end_time": 1520.752
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1520.928,
+      "end_time": 1521.36
+    },
+    {
+      "text": "Out of the section of dimensions so we can find those and.",
+      "speaker_name": "David Olsson",
+      "start_time": 1521.392,
+      "end_time": 1524.404
+    },
+    {
+      "text": "Okay, so we can see that there's, how would you characterize the difference?",
+      "speaker_name": "David Olsson",
+      "start_time": 1524.784,
+      "end_time": 1536.984
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1573.104,
+      "end_time": 1573.624
+    },
+    {
+      "text": "So I wanted it to give me some understanding.",
+      "speaker_name": "David Olsson",
+      "start_time": 1573.664,
+      "end_time": 1577.016
+    },
+    {
+      "text": "So I could just say, yeah, I'm done.",
+      "speaker_name": "David Olsson",
+      "start_time": 1577.04,
+      "end_time": 1578.352
+    },
+    {
+      "text": "But more precise, relevant, concise, engaging, featuring specific measurements, target audience details and streamline language and customer testimonial.",
+      "speaker_name": "David Olsson",
+      "start_time": 1578.488,
+      "end_time": 1587.196
+    },
+    {
+      "text": "So it's pretty tight.",
+      "speaker_name": "David Olsson",
+      "start_time": 1587.26,
+      "end_time": 1589.5
+    },
+    {
+      "text": "Like if I was to look at what we have here about this item, four to ten minute spins, fun, spinning, no big noise, high quality materials.",
+      "speaker_name": "David Olsson",
+      "start_time": 1589.572,
+      "end_time": 1602.732
+    },
+    {
+      "text": "We care for you.",
+      "speaker_name": "David Olsson",
+      "start_time": 1602.788,
+      "end_time": 1603.904
+    },
+    {
+      "text": "Interesting, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 1605.644,
+      "end_time": 1606.564
+    },
+    {
+      "text": "So interesting that they would give it this and then they explain it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1606.604,
+      "end_time": 1610.24
+    },
+    {
+      "text": "This is like being really well structured information for use in a whole lot of different scenarios.",
+      "speaker_name": "David Olsson",
+      "start_time": 1610.272,
+      "end_time": 1616.844
+    },
+    {
+      "text": "Yeah, we got a product description out of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1622.144,
+      "end_time": 1626.192
+    },
+    {
+      "text": "It's pretty good.",
+      "speaker_name": "David Olsson",
+      "start_time": 1626.208,
+      "end_time": 1627.164
+    },
+    {
+      "text": "The next step would be one of taking this content, which is a product description, moving it through the marketing machine.",
+      "speaker_name": "David Olsson",
+      "start_time": 1628.544,
+      "end_time": 1641.98
+    },
+    {
+      "text": "That would then see us evolve from just the product description to whatever the next step in this workflow would be.",
+      "speaker_name": "David Olsson",
+      "start_time": 1642.012,
+      "end_time": 1653.404
+    },
+    {
+      "text": "Most likely it would be something around.",
+      "speaker_name": "David Olsson",
+      "start_time": 1653.564,
+      "end_time": 1655.304
+    },
+    {
+      "text": "Once we have a description, we can say, okay, what's a series of calls to action?",
+      "speaker_name": "David Olsson",
+      "start_time": 1655.924,
+      "end_time": 1660.172
+    },
+    {
+      "text": "Or what are some different ways we can encourage people to engage with the project, persuade them, influence them into understanding what the value is by going through workflow.",
+      "speaker_name": "David Olsson",
+      "start_time": 1660.228,
+      "end_time": 1671.984
+    },
+    {
+      "text": "This is gen two producing this description.",
+      "speaker_name": "David Olsson",
+      "start_time": 1674.484,
+      "end_time": 1678.904
+    },
+    {
+      "text": "I have a generation three version of this agent where I have folded in the scoring into the task.",
+      "speaker_name": "David Olsson",
+      "start_time": 1679.684,
+      "end_time": 1690.9
+    },
+    {
+      "text": "So the criterion tasks are combined and the scoring is accompanying that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1690.932,
+      "end_time": 1694.716
+    },
+    {
+      "text": "So things aren't broken out into a separate step in terms of where the scoring would come from.",
+      "speaker_name": "David Olsson",
+      "start_time": 1694.74,
+      "end_time": 1701.704
+    },
+    {
+      "text": "Scoring is internal to the activity.",
+      "speaker_name": "David Olsson",
+      "start_time": 1702.644,
+      "end_time": 1705.504
+    },
+    {
+      "text": "So it took away this strategies task and it melded them into the process steps into the tasks.",
+      "speaker_name": "David Olsson",
+      "start_time": 1706.564,
+      "end_time": 1722.484
+    },
+    {
+      "text": "So let's go back.",
+      "speaker_name": "David Olsson",
+      "start_time": 1724.144,
+      "end_time": 1726.324
+    },
+    {
+      "text": "Name, role, goal, tasks and criteria.",
+      "speaker_name": "David Olsson",
+      "start_time": 1729.624,
+      "end_time": 1733.164
+    },
+    {
+      "text": "You can see they're very similar, but it's the same, same thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1735.024,
+      "end_time": 1738.724
+    },
+    {
+      "text": "It doesn't have our aggregate scoring.",
+      "speaker_name": "David Olsson",
+      "start_time": 1739.284,
+      "end_time": 1741.544
+    },
+    {
+      "text": "It works on a single score.",
+      "speaker_name": "David Olsson",
+      "start_time": 1743.004,
+      "end_time": 1744.864
+    },
+    {
+      "text": "So there's not this overall nature, but we could certainly add that in if we wanted to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1745.244,
+      "end_time": 1750.144
+    },
+    {
+      "text": "So I'm like, okay, so this is, this is getting to be very specific.",
+      "speaker_name": "David Olsson",
+      "start_time": 1752.604,
+      "end_time": 1757.62
+    },
+    {
+      "text": "This agent has, I think, enough information to be portable, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 1757.812,
+      "end_time": 1764.38
+    },
+    {
+      "text": "Like does it, right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1764.412,
+      "end_time": 1765.152
+    },
+    {
+      "text": "Require too much more to be effective?",
+      "speaker_name": "David Olsson",
+      "start_time": 1765.188,
+      "end_time": 1768.324
+    },
+    {
+      "text": "So what does it mean to make this an action?",
+      "speaker_name": "David Olsson",
+      "start_time": 1768.784,
+      "end_time": 1771.432
+    },
+    {
+      "text": "So taking it and just saying this is an action separate from an agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 1771.488,
+      "end_time": 1779.424
+    },
+    {
+      "text": "There's a series of things that need to happen.",
+      "speaker_name": "David Olsson",
+      "start_time": 1779.544,
+      "end_time": 1781.84
+    },
+    {
+      "text": "We could call it a vector if we want an action.",
+      "speaker_name": "David Olsson",
+      "start_time": 1781.952,
+      "end_time": 1783.888
+    },
+    {
+      "text": "Easiest.",
+      "speaker_name": "David Olsson",
+      "start_time": 1783.936,
+      "end_time": 1784.684
+    },
+    {
+      "text": "You describe the product, that's the high level action.",
+      "speaker_name": "David Olsson",
+      "start_time": 1785.344,
+      "end_time": 1787.752
+    },
+    {
+      "text": "The effect.",
+      "speaker_name": "David Olsson",
+      "start_time": 1787.808,
+      "end_time": 1788.232
+    },
+    {
+      "text": "What we're looking for is to have these description complete, accurate, engaging, optimized, and feedback is incorporated.",
+      "speaker_name": "David Olsson",
+      "start_time": 1788.288,
+      "end_time": 1795.284
+    },
+    {
+      "text": "So those are the effects.",
+      "speaker_name": "David Olsson",
+      "start_time": 1795.624,
+      "end_time": 1798.004
+    },
+    {
+      "text": "It says their effects, right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1798.944,
+      "end_time": 1800.496
+    },
+    {
+      "text": "There are effectors for the content.",
+      "speaker_name": "David Olsson",
+      "start_time": 1800.52,
+      "end_time": 1803.004
+    },
+    {
+      "text": "And we can see when I cast this into a symbolic action, it was a very brief to beginning.",
+      "speaker_name": "David Olsson",
+      "start_time": 1803.664,
+      "end_time": 1815.584
+    },
+    {
+      "text": "The very first version of it was just the highest level task, content review, just these seven things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1815.624,
+      "end_time": 1821.25
+    },
+    {
+      "text": "It didn't have any of the description, didn't have any of the scoring or criterion.",
+      "speaker_name": "David Olsson",
+      "start_time": 1821.362,
+      "end_time": 1827.294
+    },
+    {
+      "text": "And so I thought it would be important to include that because it was abstracting out more than I wanted.",
+      "speaker_name": "David Olsson",
+      "start_time": 1828.554,
+      "end_time": 1838.186
+    },
+    {
+      "text": "And so I learned a lot about the abstraction process in that it is arbitrary.",
+      "speaker_name": "David Olsson",
+      "start_time": 1838.21,
+      "end_time": 1843.374
+    },
+    {
+      "text": "Meaning?",
+      "speaker_name": "David Olsson",
+      "start_time": 1844.074,
+      "end_time": 1844.42
+    },
+    {
+      "text": "Meaning the nomenclature I have is very, very useful.",
+      "speaker_name": "David Olsson",
+      "start_time": 1844.442,
+      "end_time": 1847.4
+    },
+    {
+      "text": "It's not something I've created.",
+      "speaker_name": "David Olsson",
+      "start_time": 1847.432,
+      "end_time": 1848.76
+    },
+    {
+      "text": "It's been around for a long time, and it is useful in ways that I'm just beginning to see.",
+      "speaker_name": "David Olsson",
+      "start_time": 1848.792,
+      "end_time": 1858.168
+    },
+    {
+      "text": "There's some very straightforward use cases for it, but the portability is a huge component.",
+      "speaker_name": "David Olsson",
+      "start_time": 1858.216,
+      "end_time": 1863.56
+    },
+    {
+      "text": "It's abstraction out of key components of how it can be applied.",
+      "speaker_name": "David Olsson",
+      "start_time": 1863.712,
+      "end_time": 1868.624
+    },
+    {
+      "text": "Is interesting in this case where I say I'm verbose.",
+      "speaker_name": "David Olsson",
+      "start_time": 1868.744,
+      "end_time": 1872.628
+    },
+    {
+      "text": "I've added specificity to this and you can see that here with the scoring involved.",
+      "speaker_name": "David Olsson",
+      "start_time": 1872.796,
+      "end_time": 1879.348
+    },
+    {
+      "text": "The scoring is very specific to accuracy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1879.516,
+      "end_time": 1883.744
+    },
+    {
+      "text": "So it doesn't say scoring and, you know, it's not doing content review and it wants to have a score.",
+      "speaker_name": "David Olsson",
+      "start_time": 1884.684,
+      "end_time": 1891.388
+    },
+    {
+      "text": "It would then figure out what that rating would be if I did not provide it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1891.476,
+      "end_time": 1895.316
+    },
+    {
+      "text": "That in the case where I have provided it, I wanted it in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 1895.34,
+      "end_time": 1899.208
+    },
+    {
+      "text": "And then this became not an abstracted action, but it became, became an action, a high level action with specificity.",
+      "speaker_name": "David Olsson",
+      "start_time": 1899.336,
+      "end_time": 1915.496
+    },
+    {
+      "text": "So these are, this nomenclature allows us to elevate these actions to what we can call high level action, and then we can rely on certain grounding of this by providing more information as to what would be provided, what would be processed in the context of this action, and can ground it in that regard.",
+      "speaker_name": "David Olsson",
+      "start_time": 1915.6,
+      "end_time": 1935.752
+    },
+    {
+      "text": "I've added more specificity to the action, which will further tie it to the grounding.",
+      "speaker_name": "David Olsson",
+      "start_time": 1935.928,
+      "end_time": 1942.464
+    },
+    {
+      "text": "I'm using that word in my own way, but it does have value in this case, grounding to what I want to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1942.544,
+      "end_time": 1949.532
+    },
+    {
+      "text": "And I'm using that as a foundational way.",
+      "speaker_name": "David Olsson",
+      "start_time": 1949.728,
+      "end_time": 1952.236
+    },
+    {
+      "text": "So I'm saying, you know, I want to have a certain kind of thing occur.",
+      "speaker_name": "David Olsson",
+      "start_time": 1952.26,
+      "end_time": 1955.9
+    },
+    {
+      "text": "How do I ground it in that?",
+      "speaker_name": "David Olsson",
+      "start_time": 1956.052,
+      "end_time": 1958.544
+    },
+    {
+      "text": "And so I really want the scoring in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 1958.884,
+      "end_time": 1961.852
+    },
+    {
+      "text": "How do I ground it in there if I don't care about a particular scoring?",
+      "speaker_name": "David Olsson",
+      "start_time": 1961.988,
+      "end_time": 1968.396
+    },
+    {
+      "text": "If I'm abstracting this out, like, I just want to have a very generic action at a high level, describe the product, and I want score.",
+      "speaker_name": "David Olsson",
+      "start_time": 1968.42,
+      "end_time": 1975.52
+    },
+    {
+      "text": "I can just have that as a generic element in there, right here.",
+      "speaker_name": "David Olsson",
+      "start_time": 1975.612,
+      "end_time": 1983.724
+    },
+    {
+      "text": "Description score.",
+      "speaker_name": "David Olsson",
+      "start_time": 1985.864,
+      "end_time": 1987.164
+    },
+    {
+      "text": "Okay, so once a score, once a description is made, it will then evaluate it based on what it's been asked, you know, what the attributes are within the action that it's actually working.",
+      "speaker_name": "David Olsson",
+      "start_time": 1988.304,
+      "end_time": 1999.484
+    },
+    {
+      "text": "So it will determine some of those characteristics based on the high level key entities that are involved in describing what's going on.",
+      "speaker_name": "David Olsson",
+      "start_time": 2000.964,
+      "end_time": 2011.424
+    },
+    {
+      "text": "This is another reason I do these things is to hear myself say that kind of stuff.",
+      "speaker_name": "David Olsson",
+      "start_time": 2011.724,
+      "end_time": 2015.784
+    },
+    {
+      "text": "This is sort of a fundamental axis for enabling this kind of casting of information into a structured format that enables it to be structural at the same time as functional, at the same time as abstract, enabling the specificity of the content to be pumped into it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2019.404,
+      "end_time": 2047.284
+    },
+    {
+      "text": "It's like a little program sort of thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2048.664,
+      "end_time": 2053.124
+    },
+    {
+      "text": "It's an action, and it has characteristics and traits embroiled into it in the large language model, figures out how to associate these things through the nomenclature that's provided.",
+      "speaker_name": "David Olsson",
+      "start_time": 2053.244,
+      "end_time": 2064.636
+    },
+    {
+      "text": "And if I go through and I actually showed, if I was to go through and show one of the chat sessions where I produced the prompt, we would see, we would see what these tailing little question marks and a's are referred to as.",
+      "speaker_name": "David Olsson",
+      "start_time": 2064.74,
+      "end_time": 2113.064
+    },
+    {
+      "text": "Actually, I think I have it in this agent development right here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2113.484,
+      "end_time": 2123.824
+    },
+    {
+      "text": "This is the research that brought me to this understanding things.",
+      "speaker_name": "David Olsson",
+      "start_time": 2125.484,
+      "end_time": 2130.342
+    },
+    {
+      "text": "Here we go.",
+      "speaker_name": "David Olsson",
+      "start_time": 2130.398,
+      "end_time": 2131.23
+    },
+    {
+      "text": "So what I glommed onto in terms of.",
+      "speaker_name": "David Olsson",
+      "start_time": 2131.382,
+      "end_time": 2133.454
+    },
+    {
+      "text": "I found a research paper, one of the key things, and it was symbolic action definitions define action of something as this type of set of parameters.",
+      "speaker_name": "David Olsson",
+      "start_time": 2133.534,
+      "end_time": 2145.414
+    },
+    {
+      "text": "And what it will do is if I bring that in, it will then tell me what the parameters are.",
+      "speaker_name": "David Olsson",
+      "start_time": 2145.574,
+      "end_time": 2150.998
+    },
+    {
+      "text": "So if I bring this into Chachi GPT as a structure, sorry.",
+      "speaker_name": "David Olsson",
+      "start_time": 2151.046,
+      "end_time": 2156.864
+    },
+    {
+      "text": "Here's the symbolic action definition for the action heat object.",
+      "speaker_name": "David Olsson",
+      "start_time": 2158.284,
+      "end_time": 2164.924
+    },
+    {
+      "text": "Alfred House test.",
+      "speaker_name": "David Olsson",
+      "start_time": 2165.084,
+      "end_time": 2166.268
+    },
+    {
+      "text": "It's a scenario for doing things in AI.",
+      "speaker_name": "David Olsson",
+      "start_time": 2166.316,
+      "end_time": 2169.38
+    },
+    {
+      "text": "Anyways, it doesn't matter too much.",
+      "speaker_name": "David Olsson",
+      "start_time": 2169.412,
+      "end_time": 2170.716
+    },
+    {
+      "text": "It's about heating something on the stove, and it's generically about heating something on the stove, like, so those are not specific things.",
+      "speaker_name": "David Olsson",
+      "start_time": 2170.74,
+      "end_time": 2177.42
+    },
+    {
+      "text": "It's not a pot, it's not tea kettle, it's not water, it's not, that's not.",
+      "speaker_name": "David Olsson",
+      "start_time": 2177.452,
+      "end_time": 2183.404
+    },
+    {
+      "text": "And so we can see that these things here, these question marks, these pipes, they are all explained inside of the session, and you can get it to explain anything that you would like.",
+      "speaker_name": "David Olsson",
+      "start_time": 2184.264,
+      "end_time": 2199.04
+    },
+    {
+      "text": "If you're like, why is it like this?",
+      "speaker_name": "David Olsson",
+      "start_time": 2199.112,
+      "end_time": 2200.48
+    },
+    {
+      "text": "Or how do I use this?",
+      "speaker_name": "David Olsson",
+      "start_time": 2200.552,
+      "end_time": 2202.084
+    },
+    {
+      "text": "There's a great ways to start.",
+      "speaker_name": "David Olsson",
+      "start_time": 2202.704,
+      "end_time": 2203.968
+    },
+    {
+      "text": "I usually try to start using things, but lately I've been asking it too.",
+      "speaker_name": "David Olsson",
+      "start_time": 2204.016,
+      "end_time": 2207.686
+    },
+    {
+      "text": "So, in terms of what's involved in this object, we can see the explanation.",
+      "speaker_name": "David Olsson",
+      "start_time": 2207.87,
+      "end_time": 2213.086
+    },
+    {
+      "text": "There's parameters, defines parameters for the action location, where the action takes place.",
+      "speaker_name": "David Olsson",
+      "start_time": 2213.11,
+      "end_time": 2217.782
+    },
+    {
+      "text": "A lot of the time, these actions are associated with robotics.",
+      "speaker_name": "David Olsson",
+      "start_time": 2217.918,
+      "end_time": 2221.326
+    },
+    {
+      "text": "So, you know, context is a very interesting thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2221.47,
+      "end_time": 2225.034
+    },
+    {
+      "text": "In this case, we're talking about the microwave.",
+      "speaker_name": "David Olsson",
+      "start_time": 2225.934,
+      "end_time": 2230.594
+    },
+    {
+      "text": "Very specific example of it is the object heated.",
+      "speaker_name": "David Olsson",
+      "start_time": 2231.854,
+      "end_time": 2236.338
+    },
+    {
+      "text": "So there's a notion of parameters, a precondition.",
+      "speaker_name": "David Olsson",
+      "start_time": 2236.386,
+      "end_time": 2239.37
+    },
+    {
+      "text": "What's the situation that we're walking into, and what is the effect that we're looking for?",
+      "speaker_name": "David Olsson",
+      "start_time": 2239.562,
+      "end_time": 2244.134
+    },
+    {
+      "text": "The object must be out of location, the object must be held by the agent, the receptacle must be also.",
+      "speaker_name": "David Olsson",
+      "start_time": 2245.354,
+      "end_time": 2251.974
+    },
+    {
+      "text": "So there is this way of, without knowing what the object is, and the location is having this interesting structure that is, we call abstracting out a lot of the language I'm using to explain things in a programming way.",
+      "speaker_name": "David Olsson",
+      "start_time": 2252.794,
+      "end_time": 2272.834
+    },
+    {
+      "text": "Here's a symbolic action on definition for search the web for cats.",
+      "speaker_name": "David Olsson",
+      "start_time": 2273.454,
+      "end_time": 2277.134
+    },
+    {
+      "text": "Right, I think this is interesting.",
+      "speaker_name": "David Olsson",
+      "start_time": 2277.254,
+      "end_time": 2279.274
+    },
+    {
+      "text": "I should tweet this, grinding my Internet to a halt.",
+      "speaker_name": "David Olsson",
+      "start_time": 2280.294,
+      "end_time": 2298.294
+    },
+    {
+      "text": "Okay, I just published the symbolic action for search the web for cats.",
+      "speaker_name": "David Olsson",
+      "start_time": 2427.774,
+      "end_time": 2436.114
+    },
+    {
+      "text": "Yeah, well, I'm going to call it quits there.",
+      "speaker_name": "David Olsson",
+      "start_time": 2439.834,
+      "end_time": 2444.738
+    },
+    {
+      "text": "And yeah, I look forward to looking at reading the transcript to see where there was some value in what I said.",
+      "speaker_name": "David Olsson",
+      "start_time": 2444.906,
+      "end_time": 2457.226
+    },
+    {
+      "text": "And I will.",
+      "speaker_name": "David Olsson",
+      "start_time": 2457.29,
+      "end_time": 2457.714
+    }
+  ]
+}

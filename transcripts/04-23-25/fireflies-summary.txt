@@ -1,0 +1,76 @@
+Meeting: 8am AI School
+Date: 4/23/2025, 8:00:00 AM
+Duration: 65.83999633789062 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+The "8am AI School" meeting featured a technical discussion and demo centered on various development challenges and innovative tools within the AI landscape. Scott opened with his personal experiences confronting issues while adding a login page to his project, leading to a broader conversation about common software development setbacks and the importance of taking breaks and creating backups. Fulvio and Dave introduced the Model Context Protocol (MCP), a methodology aiding external systems in connecting with large language models (LLMs), which sparked discussions about its potential applications and benefits in conjunction with existing APIs. A demo of a chatbot for generating Product Requirements Documents (PRDs) highlighted standardization efforts, while Dave presented Worksona JS, an API for managing AI agents that streamlines the development process by separating agent functionality from application code. Additional topics included the AI Compass tool for non-profits, strategies for obtaining user feedback, and plans for scaling and monetizing these innovative solutions. Action items were assigned to further enhance collaboration and tool development.
+
+ACTION ITEMS:
+
+**Dave**
+Share AI Compass and PRD generator links with the team (35:29)
+Explore UBC Okanagan Co-op program for potential interns (48:13)
+Push Worksona JS documentation online (41:12)
+Create a command-line version of Worksona (51:32)
+
+**Scott**
+Continue rebuilding development environment with proper Git setup (02:50)
+
+
+KEYWORDS:
+MCP, AI Agents, PRD Generator, Worksona JS, API Development, Non-profit Tools
+
+SHORT SUMMARY:
+💻 **Development Challenges** (01:10 - 08:42)
+Scott shared his development struggles with a project that initially worked but later crashed when adding a login page
+He described the frustration of losing his app.js file during dependency issues with Tailwind CSS
+After taking a break for several days, Scott restarted properly by setting up his development environment with Git, reconnecting to his database, and reimporting seed data
+Participants discussed the universal experience of software development setbacks and the importance of walking away when frustrated
+The conversation touched on the value of creating backup files during development
+🧩 **MCP Discussion** (08:42 - 16:38)
+Fulvio introduced Model Context Protocol (MCP) as a methodology for integrating and utilizing context within applications
+Dave explained that MCP allows external systems to connect with LLMs, enabling agents to query databases and use various APIs
+The group discussed how MCP represents a standardized way for LLMs to engage with external tools and data sources
+Weather API was mentioned as a common example of MCP implementation
+MCP was described as the next evolution beyond RAG (Retrieval Augmented Generation)
+Participants noted MCP's integration with development environments like Klein and Cursor
+🛠️ **PRD Creation Tools** (16:38 - 24:23)
+Dave demonstrated a chat bot designed to create Product Requirements Documents (PRDs)
+He showed how the system guides users through standardized steps to create comprehensive project documentation
+The interface allows for threaded conversations around different project aspects (overview, functional requirements)
+Dave emphasized that Anthropic and other companies are promoting PRD standardization
+The PRD generator builds structured documentation without requiring users to know the standardized format
+Dave's demo showed a control panel displaying agent details running in the application
+🔄 **Worksona JS API** (24:25 - 31:25)
+Dave revealed his development of Worksona JS, an API for programmatic creation and management of AI agents
+The API allows for tracking agent history and utilities in a standardized format with minimal code
+He demonstrated how the API enables quickly building applications with integrated agents
+Dave showed a control panel that provides visibility into all agents in applications, with prompt history and conversation details
+The API separates agent functionality from application code, allowing developers to focus on specific processes
+Dave emphasized finding stable architectural elements amid rapidly changing AI technology
+📊 **AI Tools for Non-Profits** (31:25 - 38:03)
+Dave showcased AI Compass, a tool built for non-profits that provides contextualized guidance based on user roles
+The system offers different content paths for leaders, staff, and executives
+AI Compass includes features like surveys to assess organizational readiness and generate customized playbooks
+Dave discussed how the tool helps resource-constrained organizations scale their efforts
+The demo highlighted AI-generated insights, assessment fundamentals, and strategies based on user input
+Dave mentioned development costs for AI tools, noting that his projects use high-quality models despite the expense
+🎯 **Feedback and User Adoption** (38:03 - 45:32)
+Discussion about getting user feedback on sophisticated AI tools from non-technical users
+Dave acknowledged the need for direct feedback from intentionally unsophisticated users, possibly through interns
+The group discussed challenges in getting meaningful feedback, as people are often reluctant to complete surveys
+Dave mentioned his focus on enabling team members while developing standardized ways to share workloads
+The conversation explored strategies for creating feedback loops beyond immediate team members
+Scott suggested adding direct feedback interfaces to applications like the non-profit tool
+🔍 **Strategy and Future Plans** (45:32 - 53:25)
+Dave discussed his strategy for scaling and monetizing his tools, including offering bounties for work
+He mentioned plans to engage with the local developer community in Kelowna to gain traction
+The group discussed potential hiring of interns through UBC Okanagan Co-op program
+Dave explained how Worksona JS is now available on GitHub with documentation and use cases
+He plans to create a command-line version of Worksona for terminal use
+The meeting concluded with reflections on work motivation and the value of establishing rules that make work easier
+
+

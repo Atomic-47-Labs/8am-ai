@@ -1,0 +1,888 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI School\b0\par
+\pard\qc\f1\fs20 2/12/2025 \bullet 0min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,jason@jasonadam.ca,fulvio@atomic47.co,scott@driftresourcetechnologies.com,greg@dexosphere.xyz,anshuldhariwal04@gmail.com, eric@scroll.ca, giroday@gmail.com, hanif.janmohamed@gmail.com, jason@jasonadam.ca\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It.\par
+\pard\f0\fs20 Good morning.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Good morning, David.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 How are you?\par
+\pard\f0\fs20 Not too bad.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sound like cold or something.\par
+\pard\f0\fs20 Sorry, you have a cold or something?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I don't know if I've got cold.\par
+\pard\f0\fs20 I got sniffles right now for sure.\par
+\pard\f0\fs20 And it's been four long days, so I'm waking up slower.\par
+\pard\f0\fs20 Here's.\par
+\pard\f0\fs20 I've got a DB in here.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Mongo Atlas.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, I'm just using IndexEDDB and there's a library called Dexi that makes it easy to work with multiple stores.\par
+\pard\f0\fs20 Right now I'm just, Every time I upload data, I put a plus in here to load the previous, the most recent store because I was getting bored of uploading all the time because my UI is real time.\par
+\pard\f0\fs20 It's like, it's really.\par
+\pard\f0\fs20 I need to start with the.\par
+\pard\f0\fs20 Okay, Dave, you got to test it instead of build it.\par
+\pard\f0\fs20 But now I've got a plus sign in there that just goes back and pulls this out.\par
+\pard\f0\fs20 Otherwise I was like loading.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I've got a look, I've got a local MongoDB instance running and if we ever need to get, we will, we'll need to get like a Mongo Atlas going.\par
+\pard\f0\fs20 Yeah, I can do that real, real well.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I played with their, their cloud service and I played a little bit until I realized I didn't need to actually do that.\par
+\pard\f0\fs20 I could actually get same functionality.\par
+\pard\f0\fs20 It's just like, whoa, guys, the browser really is a killer app.\par
+\pard\f0\fs20 It is like it is all in one.\par
+\pard\f0\fs20 Like, the dev tools are phenomenal now and now they have AI.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I know, right?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I know they have AI built into them and I just saw that yesterday because I'm in the, I'm in the dev tools a lot that the AI now keeps its context history, the chat history, permanently.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, wow.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I'm like, okay, one, I don't use it that well.\par
+\pard\f0\fs20 Two, it hasn't been very useful.\par
+\pard\f0\fs20 So we'll see.\par
+\pard\f0\fs20 Because if it's hooking up to Gemini 2, then it should get a lot better.\par
+\pard\f0\fs20 And it's kind of cool that the browser could do maybe better debugging than the idea.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Did you see the size of the context window for two zero?\par
+\pard\f0\fs20 It's huge.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 No, no.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I, I, I, what I sort of got was like, it's just big enough.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh my God.\par
+\pard\f0\fs20 It's the biggest of all of them.\par
+\pard\f0\fs20 It's just insane.\par
+\pard\f0\fs20 I, I, I'm afraid to misquote it, so I'll look it up real quick.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I make sure I'm using chat GPT3.\par
+\pard\f0\fs20 So I, I had to convert my.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Data to JSON just a flash version is 1 million tokens.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Wow.\par
+\pard\f0\fs20 1 million.\par
+\pard\f0\fs20 That's pretty good.\par
+\pard\f0\fs20 That's.\par
+\pard\f0\fs20 That's an app.\par
+\pard\f0\fs20 That's an app.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It's a little more than an app.\par
+\pard\f0\fs20 That's the app and the data.\par
+\pard\f0\fs20 Dude, that's crazy.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, that's.\par
+\pard\f0\fs20 Well, no, I just, like, that's the duration it would take to build a good app for me as a million tokens.\par
+\pard\f0\fs20 Yeah, but so just thinking, yeah, I would do an efficient job of it so I could see it doing a decent.\par
+\pard\f0\fs20 That's how I scale them now.\par
+\pard\f0\fs20 It's like, okay, the most practical thing that they do for me is make apps.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I don't understand.\par
+\pard\f0\fs20 They must have some technology that others don't.\par
+\pard\f0\fs20 Around the context window.\par
+\pard\f0\fs20 Not expanding.\par
+\pard\f0\fs20 Not expanding the compute time speed.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because the size of the context window affects the compute time speed.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, no, it's just if you just think about it, like they're crunching so much data and it's just, like, ridiculous.\par
+\pard\f0\fs20 So they must.\par
+\pard\f0\fs20 What's weird is the compression that they find and then the invisible layers that they leverage that I just don't understand yet.\par
+\pard\f0\fs20 And when.\par
+\pard\f0\fs20 When they're doing things at the consumer level, I don't even know if we're engaging with AI a lot of the time.\par
+\pard\f0\fs20 You know, I mean, when we're working with an API, you are.\par
+\pard\f0\fs20 But when you're working within cloud, what layers are you working on?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\f0\fs20 Well, it's.\par
+\pard\f0\fs20 It's gonna be so fast this year.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like, they've all quietly announced they're going to.\par
+\pard\f0\fs20 They're going to the LCM architecture.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like, they're keeping the LLMs on the front end and like, that should radically improve performance.\par
+\pard\f0\fs20 You know, it's going to be crazy to see and, and the impact of the context window sizes, which are ridiculous already.\par
+\pard\f0\fs20 Like I said, one million tokens.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Million tokens is crazy.\par
+\pard\f0\fs20 I'm still running up against two and a half million.\par
+\pard\f0\fs20 Sometimes being a problem.\par
+\pard\f0\fs20 If I work in cloud, that's just.\par
+\pard\f0\fs20 That works.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Hey, fellas.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning, sir.\par
+\pard\f0\fs20 How are you doing?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 I wasn't sure if we were getting on the.\par
+\pard\f0\fs20 On the hangout or on the Discord.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh, right.\par
+\pard\f0\fs20 And I didn't make that clear at all.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 You can't try and update Discord and lose your Internet or Discord.\par
+\pard\f0\fs20 Discord has a really hard time.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I find Discord to be clunky.\par
+\pard\f0\fs20 It does a lot of things in the background that I don't like it doing.\par
+\pard\f0\fs20 Like trying to switch audio on me.\par
+\pard\f0\fs20 I'm like, what are you trying to do?\par
+\pard\f0\fs20 I don't understand.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Who knows what let's try to do.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It's kind of take over and settle days.\par
+\pard\f0\fs20 But yeah, I've.\par
+\pard\f0\fs20 The very late email is because my mind is just completely elsewhere right now.\par
+\pard\f0\fs20 But that's good to have these meetings because it's about surfacing.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, no, it's.\par
+\pard\f0\fs20 I, I got it wrong.\par
+\pard\f0\fs20 It's 2 million tokens for the Pro.\par
+\pard\f0\fs20 It's 1 million for the Flash version I'm using.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That's what it is.\par
+\pard\f0\fs20 That's still a lot of context for doing practice.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It's double.\par
+\pard\f0\fs20 It's double what I was saying.\par
+\pard\f0\fs20 I didn't even realize.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And by the time it gets to 10, it's all over.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 There's a bunch of these optimizations like I don't even.\par
+\pard\f0\fs20 Like I've been playing around with Llama CPP to, to integrate Vulcan so I can make use of the GPUs in the environment that aren't natively supported.\par
+\pard\f0\fs20 And like, don't get me wrong, what people have done is incredible.\par
+\pard\f0\fs20 But there's tons of places for optimization.\par
+\pard\f0\fs20 Like, we're nowhere near like the limit.\par
+\pard\f0\fs20 You know what I mean?\par
+\pard\f0\fs20 Like, if I can go in there and find stuff and improve performance the way I am, like, you know, never mind what other people can do and then what these systems can do to themselves with proper, proper attention and focus.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I went node the other day.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, you did?\par
+\pard\f0\fs20 You managed it?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, I, I Not Node js.\par
+\pard\f0\fs20 I just built myself my own node editor.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I see around with Flume, which is beautiful and all, but it's just technically more than I can manage right now.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 What's the, what's the, what's the JavaScript package you use for this?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I made.\par
+\pard\f0\fs20 This is bespoke.\par
+\pard\f0\fs20 I, I hand rolled this one.\par
+\pard\f0\fs20 I hand rolled it.\par
+\pard\f0\fs20 I described the application really well.\par
+\pard\f0\fs20 It turns out that these node editors are a good pattern.\par
+\pard\f0\fs20 Like if you find anything that's a good pattern, then it's easy to work with.\par
+\pard\f0\fs20 And so what I was finding with my situation here where I'm generating all these slides, I didn't have the right patterns in place and I did like 10 apps and just quickly trying to get.\par
+\pard\f0\fs20 Quickly.\par
+\pard\f0\fs20 So quickly trying to get.\par
+\pard\f0\fs20 Taking survey data and putting it into essentially slides to output to ppt.\par
+\pard\f0\fs20 But I had the wrong metaphors in place.\par
+\pard\f0\fs20 And if you don't have the right metaphors in place, then the.\par
+\pard\f0\fs20 Or the right UI patterns, whatever you want to call them, then, then it's hard to.\par
+\pard\f0\fs20 It's hard for the application, hard for The LLM to.\par
+\pard\f0\fs20 To weave it dynamically as you build the application.\par
+\pard\f0\fs20 But if the patterns are really solid like the playground, I stop that flashing in my face.\par
+\pard\f0\fs20 The playground was cards.\par
+\pard\f0\fs20 And the reason that it was easy to extend the application is I describe it the same way all the time.\par
+\pard\f0\fs20 And so that the application was designed internally with some integrity.\par
+\pard\f0\fs20 Turns out node editors are common pattern.\par
+\pard\f0\fs20 Like if you want to.\par
+\pard\f0\fs20 You want to see how quickly you want to do a comparison between LLMs, do a to do app and see how quickly it creates it.\par
+\pard\f0\fs20 Because the to do app is now the simplest app and is given to students to build across all applications and all environments.\par
+\pard\f0\fs20 Just like hello world.\par
+\pard\f0\fs20 And this it turns out it's common like flow wise flume, this other node editors, they all have the same idea of inputs, outputs and then controls and then fields and that's it.\par
+\pard\f0\fs20 And so adding, you know, changing this from right now, the data, the formats aren't correct.\par
+\pard\f0\fs20 Like I think I have a prompt one.\par
+\pard\f0\fs20 Yeah, it's.\par
+\pard\f0\fs20 It's garbage.\par
+\pard\f0\fs20 But to make this.\par
+\pard\f0\fs20 This already has logic built in it because of the fact that it has to work from the UI point of view.\par
+\pard\f0\fs20 So underneath it, the data structure and the UI structure, the application structure, support the workflow I want to do.\par
+\pard\f0\fs20 So the logic is already there.\par
+\pard\f0\fs20 I have the chatbot built in.\par
+\pard\f0\fs20 I just need to say execute the command and hand it off.\par
+\pard\f0\fs20 The work to make it in a Gentex environment after making a solid UI is almost nil now.\par
+\pard\f0\fs20 That's really cool.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Speaking of agents, did anyone look at that Goose package that.\par
+\pard\f0\fs20 What's this pickle deployed?\par
+\pard\f0\fs20 Did you see that one?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 No, I don't even know what you're talking about.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 What's the guy who started Twitter?\par
+\pard\f0\fs20 What's his name?\par
+\pard\f0\fs20 Jack Dorsey.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Dorsey.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 He's crazy.\par
+\pard\f0\fs20 He's crazy.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Under.\par
+\pard\f0\fs20 Under block.\par
+\pard\f0\fs20 His like his holding company, they deployed this Goose open source agent builder like last week.\par
+\pard\f0\fs20 Anyway, something.\par
+\pard\f0\fs20 I just saw it this morning, so I haven't played with it yet.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Dave, I mean that's awesome.\par
+\pard\f0\fs20 So can you use Node builder in the same way where you've got the LLM driving the node creation and the linkage and everything.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 This is all just an app right now.\par
+\pard\f0\fs20 This is all just JavaScript.\par
+\pard\f0\fs20 The ability to then say put a prompt in here like give me 10 primes easy.\par
+\pard\f0\fs20 And then it.\par
+\pard\f0\fs20 Because these are set up, it'll hand her off as the value that'll go into here.\par
+\pard\f0\fs20 And so sequencing it as a workflow like the card metaphor was really easy to once I had the source, I could make the source the previous one and then all of a sudden our workflow built into it.\par
+\pard\f0\fs20 This allows for other people to quickly build logic.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 And I do this a lot.\par
+\pard\f0\fs20 Like, that's kind of my primary.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 My primary thing.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 If you use, you use flow wise, right?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 No, I'm using like a dummy one.\par
+\pard\f0\fs20 Like it's called hunch.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Hunch.\par
+\pard\f0\fs20 Yeah, but okay, so they're all fairly similar.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 It's just like, you know, it's like AI block, content block, you know, so it's like input or output and then it's just the daisy chain and then it just inserts the output at the bottom of the next one.\par
+\pard\f0\fs20 And then like, you know, it's.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I'm basically just going to make it easier to use the, the playground, call it a workspace and it'll be the same fundamental thing.\par
+\pard\f0\fs20 Instead of here, like in, in this one, what I'll make it is like pull down and it'll be like all the prompts will be there, the agents will be there.\par
+\pard\f0\fs20 So you know, there'll be probably different types of agents.\par
+\pard\f0\fs20 Research, analysis and then whatever.\par
+\pard\f0\fs20 And then use.\par
+\pard\f0\fs20 The data is just a source like you say, and then the output is just a conforming to.\par
+\pard\f0\fs20 That's where I'm spending all my time right now is building a conforming engine.\par
+\pard\f0\fs20 I'm taking results from a survey, mapping them to the questions, and then dynamically building a chart and a table and an analysis for each of them and then exporting them as ppt.\par
+\pard\f0\fs20 So the conforming part is a big deal turns out, because you know, you want to make it nice and.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Roll.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 On it as I move along.\par
+\pard\f0\fs20 But it's pretty cool.\par
+\pard\f0\fs20 The next step is right here.\par
+\pard\f0\fs20 I have the ability to.\par
+\pard\f0\fs20 Then this is how I'm constructing.\par
+\pard\f0\fs20 I don't know what to do.\par
+\pard\f0\fs20 So I'll take my slide and then I can, I can.\par
+\pard\f0\fs20 Oh, it's broken.\par
+\pard\f0\fs20 Now I can.\par
+\pard\f0\fs20 Oh, wait, no, it's because I go to IT decision makers.\par
+\pard\f0\fs20 I can talk to the chart, the table and analyze.\par
+\pard\f0\fs20 They won't find any anyways.\par
+\pard\f0\fs20 I've got the 360 going and then what I would like to be able to do is talk to the design of the page and do it dynamically so that things are moving along.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, there we go.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Got it.\par
+\pard\f0\fs20 We got some similar analysis.\par
+\pard\f0\fs20 Oh, it's doing a much better job.\par
+\pard\f0\fs20 I know that it's actually integrating it now.\par
+\pard\f0\fs20 I didn't work this time.\par
+\pard\f0\fs20 All right, so that was the original app.\par
+\pard\f0\fs20 Was.\par
+\pard\f0\fs20 I was Basically I built a chatbot that I wanted to be able to say send the data to the chatbot to the LLM and ask it a question like produce a demographic slide and, and return it in HTML.\par
+\pard\f0\fs20 And here's the HTML and here's the.\par
+\pard\f0\fs20 And here's the data.\par
+\pard\f0\fs20 I asked for a table of anomalies.\par
+\pard\f0\fs20 Gave me.\par
+\pard\f0\fs20 It gave me everything.\par
+\pard\f0\fs20 Everything is an anomaly.\par
+\pard\f0\fs20 But it.\par
+\pard\f0\fs20 The.\par
+\pard\f0\fs20 The node editor will allow for building this kind of thing very quickly.\par
+\pard\f0\fs20 So now see when it gets broken, it gets really broken.\par
+\pard\f0\fs20 Supposed to show this tomorrow and I'm having panicky attacks.\par
+\pard\f0\fs20 But Goose, code name Goose, you're on machine agent automating engineering tasks seamlessly.\par
+\pard\f0\fs20 This is probably where I'm trying to go.\par
+\pard\f0\fs20 Yeah, maybe can you review the code chat GPT Yesterday I saw I was doing something.\par
+\pard\f0\fs20 I was trying to make JSON out of table data.\par
+\pard\f0\fs20 And the nice thing about JSON is you can make relational table relational database happen really quickly.\par
+\pard\f0\fs20 Try to work with relational database.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I have a relational database thing happening.\par
+\pard\f0\fs20 I've got a search survey it needs to look up anyways.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 You can just use Supabase.\par
+\pard\f0\fs20 Dave.\par
+\pard\f0\fs20 It's pretty slick.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, I know.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 But that's infrastructure.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so that's the next step.\par
+\pard\f0\fs20 I looked at it.\par
+\pard\f0\fs20 I'm trying to figure out what this.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Got into the problem.\par
+\pard\f0\fs20 But anyways this is the level at which I'm building inside my apps to be able to finish my apps.\par
+\pard\f0\fs20 It's like be able to talk to the app to make it, to design it better.\par
+\pard\f0\fs20 It needs to make sure that you, you, you have to have an, like an API in the page or it has to be really well structured.\par
+\pard\f0\fs20 So I'm using View JS to enable this case.\par
+\pard\f0\fs20 A well structured page.\par
+\pard\f0\fs20 But this looks pretty slick.\par
+\pard\f0\fs20 Runs locally and just you know, with four zero now or maybe it's other models too.\par
+\pard\f0\fs20 In ChatGPT they have a preview of your.\par
+\pard\f0\fs20 You can create HTML page in a preview for it.\par
+\pard\f0\fs20 So it's a, it's an editor now for code.\par
+\pard\f0\fs20 And you know what?\par
+\pard\f0\fs20 That probably was about an afternoon of effort for them.\par
+\pard\f0\fs20 But that's kind of that craziness.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 You're supposed to add or clone a repo.\par
+\pard\f0\fs20 It's different man.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I'm so like oh, you're getting well man.\par
+\pard\f0\fs20 So git.\par
+\pard\f0\fs20 Are you using the desktop app?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So you want to.\par
+\pard\f0\fs20 If you're creating one, you want to add a repo.\par
+\pard\f0\fs20 And the problem with it is if you've already created the folder on your drive that's a bit of a fucked up situation where I have a clutch of a workaround.\par
+\pard\f0\fs20 So what you want to do is create the repo first and then move into the directory and start working.\par
+\pard\f0\fs20 But that's not often how we work.\par
+\pard\f0\fs20 So what I've done is I will add and initialize a new and then drop my folder, my files into that directory because it has a git file in there and then you can initialize them that way.\par
+\pard\f0\fs20 It's a super, super.\par
+\pard\f0\fs20 Not the right way to go.\par
+\pard\f0\fs20 But I've been coding hot the last two days.\par
+\pard\f0\fs20 Small commits here and there and if I'm in a rush I will just do that thing I'm talking about.\par
+\pard\f0\fs20 So yeah, your origin isn't on your desktop, it's up in the cloud and you're pushing and pulling and you got to get.\par
+\pard\f0\fs20 I think if you do it a hundred times then it's better.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So what, what are you, what are you using to develop your prototype thinking?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Me, I've been mostly like around with reflux and like bulge and those kinds of things because like the, the thing is is that like I get into like cursor and everything seems to go relatively well.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 But you know, like I just don't have a good like flow of like being able to like it'll like, you know, it kind of add stuff and then I, because I don't know how to code it like chokes on itself and I'm just like trying to fix things and it's just not, not, not there.\par
+\pard\f0\fs20 So even though I have like a little deployment thing set up and that was good but like I'm like, okay, now I need to like, I need more fundamental understanding to be able to do this.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So I was wondering why Replit.\par
+\pard\f0\fs20 Your guys are on replit, right?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 No, and I think I'm gonna like test out Lovable because it has like a better, has a better integration to suit the case.\par
+\pard\f0\fs20 So it's all just like you don't have to think about anything.\par
+\pard\f0\fs20 It's interesting to see how much of this stuff is getting abstracted away.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Well, I'm liking my workflow right now.\par
+\pard\f0\fs20 It is basically it's whatever the IDE is and then GitHub Desktop and then Netlify to.\par
+\pard\f0\fs20 So it's all automated once I have a low in place version of all that.\par
+\pard\f0\fs20 But it is nice to see that the deploys are quick now if they're.\par
+\pard\f0\fs20 Yeah, my stuff isn't complicated yet and so it's going to get there in a heartbeat if this demo goes well, which it should just depending on when.\par
+\pard\f0\fs20 Then.\par
+\pard\f0\fs20 Yeah, the next step is considering replit or something standardizing around a tool set.\par
+\pard\f0\fs20 And I'm just like, who is that person?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, I mean, they're just different things, right?\par
+\pard\f0\fs20 Like, I mean, like the thing is with like replit, like, I don't know, how do you even give it your own code?\par
+\pard\f0\fs20 Like, no, I'm sure you can, but.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 I was spending some time talking to Lauren yesterday.\par
+\pard\f0\fs20 We were looking at like how to kind of do the generations and transformations into.\par
+\pard\f0\fs20 With like.\par
+\pard\f0\fs20 Yeah, what it's called because we were using GraphQL for everything.\par
+\pard\f0\fs20 There's some package in there that like turns it into this like Zod schema.\par
+\pard\f0\fs20 And then like you can.\par
+\pard\f0\fs20 Which is basically like JSON, I guess.\par
+\pard\f0\fs20 And then when we're instead of having to give it like an example of a schema to conform, it output to like, it just knows what it is like.\par
+\pard\f0\fs20 And so it's like, okay, the output's always structured in like the react component structure.\par
+\pard\f0\fs20 So the, you know, prop generates whatever the content is and then it just like frees it automatically into the.\par
+\pard\f0\fs20 Basically picked up.\par
+\pard\f0\fs20 But we were talking about like it did kind of get.\par
+\pard\f0\fs20 Getting to the point where we're like, oh man, like, how can we do this almost in real time?\par
+\pard\f0\fs20 Like, it's seemed like it was something that was a further step down the path.\par
+\pard\f0\fs20 And we're like, that's actually not that far, not that hard.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, it's generally not from a sense what you've got going on.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I actually found that the reverse was hard for me is that as soon as it's not in real time, it was more difficult.\par
+\pard\f0\fs20 And that was because my.\par
+\pard\f0\fs20 My information was super clean.\par
+\pard\f0\fs20 My.\par
+\pard\f0\fs20 My data model was nice.\par
+\pard\f0\fs20 I was generating it.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It's synthetic data.\par
+\pard\f0\fs20 And the other thing to just reflect on what you said and this way I'm going about this is like I.\par
+\pard\f0\fs20 It was metadata, it was JSON.\par
+\pard\f0\fs20 And the power of buck and JSON is that it has the structure built into it and so that it can infer all kinds of creatures.\par
+\pard\f0\fs20 Crazy meaning.\par
+\pard\f0\fs20 So to your point, it's just like it knows.\par
+\pard\f0\fs20 It just knows.\par
+\pard\f0\fs20 Like if you put it in that format, it has a greater understanding of what's going on because there is this other level of information put into it.\par
+\pard\f0\fs20 When I have a relational database, I have a bunch of values that represent.\par
+\pard\f0\fs20 That are represented in a lookup table and I have a respondent sitting somewhere else and I have to glue it all together.\par
+\pard\f0\fs20 It has no integrity.\par
+\pard\f0\fs20 And so my Thing is, first thing I do is export it every every respondent as a JSON file.\par
+\pard\f0\fs20 Question, answer and the answers are just values.\par
+\pard\f0\fs20 The best thing would be what is the literal question?\par
+\pard\f0\fs20 What were my options and what was my answer as the data format?\par
+\pard\f0\fs20 And then everything has integrity and you can analyze it on its flaw, it can analyze things in context.\par
+\pard\f0\fs20 And having adding the questions is a little too much, but adding all the options in, but at least having a question the answer, you have the context for things.\par
+\pard\f0\fs20 Then the LLM, if you're working that way, it can effectively do better.\par
+\pard\f0\fs20 But if you're using any of the tools, man, it just jumps up and down the stuff because it's xml.\par
+\pard\f0\fs20 As soon as I changed my stuff from tables to JSON files, my stuff worked better.\par
+\pard\f0\fs20 I spent three days beating my head against trying to get this lookup thing working in a bunch of different ways to see if the LLM could help in some regards.\par
+\pard\f0\fs20 But it was all about trying to scrub the data to make it work.\par
+\pard\f0\fs20 And once I sat there and got it after some work into a table, I was able to then say, build it into a JSON file so that the relational nature was there and it could find everything.\par
+\pard\f0\fs20 Now I can get back to what I do well.\par
+\pard\f0\fs20 And so I think anytime that you're looking at making things in real time, like the information structure that you're working with might not be the structure that you're got it stored in the database.\par
+\pard\f0\fs20 Whatever you try to leverage at the execution of the page, depending on how you're working with it, and if you're working with the generation and the transformation, working at that level of metadata probably you can probably work huge chunks of data, meaning typically what you're going to send to the LLM is going to be dithered down to very specific set of calls and joins from your relational database.\par
+\pard\f0\fs20 You might just be able to send up a high level object chunky because it would like the context of the objects above it.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Everything likes context, man.\par
+\pard\f0\fs20 So, you know, I think you're on the right path what you say.\par
+\pard\f0\fs20 I don't think it's that big difference between not, you know, static and real time.\par
+\pard\f0\fs20 I don't think it is, man.\par
+\pard\f0\fs20 It's just everything I'm going to build moving forward is going to be in real time and then it's just going to be something, you know, it's going to be a job of trying to get it down to the number of tokens appropriately and then to the number of seconds, milliseconds appropriately, because Is easier if you start there in many ways.\par
+\pard\f0\fs20 And if you start at understanding how the data can move more quickly through the application without having to make calls back and forth all the time.\par
+\pard\f0\fs20 How do you maintain context of the information that you bring into the page, into its context, and how do you work with it?\par
+\pard\f0\fs20 I'm just trying to work through the information myself right now, Jason, as I talk through this, because context is everything, right?\par
+\pard\f0\fs20 If I send the whole page up to the LLM, it knows what's going on.\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 But it's too big and it's too complicated.\par
+\pard\f0\fs20 If I just send the table up and I just send the table and analyze that, that's not enough.\par
+\pard\f0\fs20 I send the table and the chart.\par
+\pard\f0\fs20 That's great.\par
+\pard\f0\fs20 I send the table and the chart and some contextual information about the demographics, it gives me more information, so that context.\par
+\pard\f0\fs20 But this is me just trying with the survey data.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, I mean, I was trying to think about, like, is it, like, have we tested.\par
+\pard\f0\fs20 Is it better to send the actual, like, code or to send the, like, content or to send, like, an image?\par
+\pard\f0\fs20 I mean, image takes longer.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So.\par
+\pard\f0\fs20 All good questions.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Like, you have to do some testing.\par
+\pard\f0\fs20 And then like, obviously every model is going to be a little bit different.\par
+\pard\f0\fs20 I was reading, watching this Stanford talk about.\par
+\pard\f0\fs20 This guy was talking about, like, compound systems and LLMs and, like, you know, how these things work.\par
+\pard\f0\fs20 And like, just some of the earlier experimentation that was done where, you know, model to model, like, you know, prompting differences.\par
+\pard\f0\fs20 Like, we know, like the kind of large difference, like, you know, Claude likes XML open AI likes this.\par
+\pard\f0\fs20 But, like, you know, it's like whether there was a colon at the end of something or not a colon, you know, like.\par
+\pard\f0\fs20 And then in this model, it likes these things.\par
+\pard\f0\fs20 In this model, it doesn't like these things.\par
+\pard\f0\fs20 And like, it's like, really we take for granted the things that we think that we know about these things, but we really don't know them, you know, like.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, no, it requires.\par
+\pard\f0\fs20 The experimentation is vital and it's just really expensive and it's not how we normally want work when it comes to business.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, but I think learning the, the, the, like, the.\par
+\pard\f0\fs20 We talked about this before, like, a while ago, like, the, the styling of the prompts, like the iterative, like, automated regeneration of the prompts in terms of the styling.\par
+\pard\f0\fs20 Because I remember, like, back when you'd, like, had that, like, you know, funky, like, LLM language that was, you know, like you compressed everything into, like, you know, seemingly gibberish and it was still.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Still Running super functional.\par
+\pard\f0\fs20 I want to go back there.\par
+\pard\f0\fs20 I thought about yesterday.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Abstraction layer.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, yeah, so.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So it could be that you get to a logical abstraction layer above everything, which is.\par
+\pard\f0\fs20 You know what the, the node thing is really good at is the business logic.\par
+\pard\f0\fs20 The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right?\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 And there's.\par
+\pard\f0\fs20 There are ways to iterate, especially if you're going atomic.\par
+\pard\f0\fs20 Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that.\par
+\pard\f0\fs20 But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now.\par
+\pard\f0\fs20 Super costly and academic is the proof is in the pudding and the output breathing of it.\par
+\pard\f0\fs20 And I was like.\par
+\pard\f0\fs20 Because I, I created a couple of prompting environments and created histories and then tried to compare them.\par
+\pard\f0\fs20 That got really expensive.\par
+\pard\f0\fs20 But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat.\par
+\pard\f0\fs20 But what I had was control of my ship.\par
+\pard\f0\fs20 That was like two years ago I said that.\par
+\pard\f0\fs20 And then it was like, okay, well, that's a really integral structure.\par
+\pard\f0\fs20 If I'm defining agents, I can define not only their characteristics, but how they function too.\par
+\pard\f0\fs20 In that regard, I can actually embed data inside that.\par
+\pard\f0\fs20 So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there.\par
+\pard\f0\fs20 I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively.\par
+\pard\f0\fs20 Just less words, you know, again, all context.\par
+\pard\f0\fs20 But I think that this is the, the timeline is just.\par
+\pard\f0\fs20 Is quite curious.\par
+\pard\f0\fs20 Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 That's what the LLMs are doing.\par
+\pard\f0\fs20 They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files.\par
+\pard\f0\fs20 And so they're creating Python tools if they don't have them already in cursor right in front of you.\par
+\pard\f0\fs20 They're small, but they're doing.\par
+\pard\f0\fs20 And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at.\par
+\pard\f0\fs20 And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation.\par
+\pard\f0\fs20 And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis.\par
+\pard\f0\fs20 And so that time I was sending the API up previous.\par
+\pard\f0\fs20 In other cases, I send the data set up.\par
+\pard\f0\fs20 So you can do both depending on how you structure the data.\par
+\pard\f0\fs20 If it's send.\par
+\pard\f0\fs20 If you send the data set up as JSON, then it's.\par
+\pard\f0\fs20 It's quite good.\par
+\pard\f0\fs20 But again, the context and send table data.\par
+\pard\f0\fs20 It likes that too.\par
+\pard\f0\fs20 But I did.\par
+\pard\f0\fs20 Depending on where you want to function, like for your stuff, you probably want to function at the API level of your, of your database and the page.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 That's where like the GraphQL part comes in.\par
+\pard\f0\fs20 Because it's basically like a database.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 GraphQL is super, super jazzy and fast, right?\par
+\pard\f0\fs20 In terms of making those connections.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It's not like it's not real.\par
+\pard\f0\fs20 It's not real fast.\par
+\pard\f0\fs20 You got to be like efficient.\par
+\pard\f0\fs20 You have to be efficient in your queries.\par
+\pard\f0\fs20 I mean it can get like unruly, but I think it's fast if it's like focused.\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 You want to have a minimal data set inside each of your DBs for sure.\par
+\pard\f0\fs20 Because you're, you're making an N dimensional conceptually.\par
+\pard\f0\fs20 I think of it as an N dimensional array.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Or N dimensional cube.\par
+\pard\f0\fs20 And then.\par
+\pard\f0\fs20 And that's, that's super powerful.\par
+\pard\f0\fs20 But if you have too many dimensions, it's.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, I think that's the.\par
+\pard\f0\fs20 I'm just trying to like figure out a way to express the way that I'm thinking about it and.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good one.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I think it's.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So it's really hard when it doesn't seem like a good way to be able to express the way what you're like, I don't know, I need a substrate to be able to like label.\par
+\pard\f0\fs20 So.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I found that because of my practice, like one way to solve problems is to solve problems, meaning to build solutions is a way of understanding the problem.\par
+\pard\f0\fs20 And in the case where discussion was, well, we don't know what the LLMs really like or do.\par
+\pard\f0\fs20 So a lot of the cases, like we have to build it to get into the problem.\par
+\pard\f0\fs20 And what I'm recognizing now is what that means for me As a practice in terms of if I understand the scope of the problem up front, how long it takes to solve the problem.\par
+\pard\f0\fs20 In this new paradigm of problem solving, not the traditional waterfall approach.\par
+\pard\f0\fs20 This is zero water.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 There is a tiny bit of waterfall, or we could call it base jumping where you are like, okay, this is a good spot and I've got everything ready and then you jump and then it's depending on what you've set up in terms of the framework and rails around it.\par
+\pard\f0\fs20 Then it go really fast or go really ugly.\par
+\pard\f0\fs20 But when I, I asked on Sunday, I asked Claude to take a really rigorous specific and it spent an hour building it.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Like just continually, continually.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I had only allowed for 20 approved pre approved actions and it was doing some file structure stuff on that I don't have pre approval for.\par
+\pard\f0\fs20 So I had that hit approval a few times but I didn't do anything other than approve it for about an hour.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Oh wow.\par
+\pard\f0\fs20 Wow.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I gave it, I gave it.\par
+\pard\f0\fs20 You know, I spent, I spent over an hour or whatever on describing this application in very concise three sentence paragraphs.\par
+\pard\f0\fs20 But it wasn't, I didn't.\par
+\pard\f0\fs20 So there is an plan mode in clo.\par
+\pard\f0\fs20 Incline.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And sorry, I've been saying the wrong thing incline.\par
+\pard\f0\fs20 And I did allow it to do that.\par
+\pard\f0\fs20 It's kind of okay.\par
+\pard\f0\fs20 It's nothing special.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 You know, I think like sorry.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And then I just acted out.\par
+\pard\f0\fs20 You change from plan, you'll hit plan.\par
+\pard\f0\fs20 It does a small spec and you hit act and then it just goes to down and it.\par
+\pard\f0\fs20 So but it didn't, it produced something that was not very useful.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah, I think like in, in retrospect like I've been kind of like trying to like, I think bite it off like because I'm thinking about how to do this and like how I'm.\par
+\pard\f0\fs20 Things work together and I, I think just like real fundamentally I just need to build like a really comprehensive PRD and be like, okay from this and then use the LLMs to actually help me like flush it out a little bit.\par
+\pard\f0\fs20 And then like finally like that's what I do.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I, I start with a paragraph or page depending on how super fast it's going to be and then I work to build out a specification.\par
+\pard\f0\fs20 I make sure that I have a specification and I will try it concurrently in different environments.\par
+\pard\f0\fs20 But I typically will usually do one big push in, in one of the big LLMs and then get a base going and then I'll work inside cursor to then iterate on it.\par
+\pard\f0\fs20 And again to your point, I know how to read both the code and the ability of the environment to know if it's working well.\par
+\pard\f0\fs20 Well, and that's only through like the few hundred hours I put into it because I can tell if it's writing the wrong code just by how long it takes.\par
+\pard\f0\fs20 And that's just an intuition thing.\par
+\pard\f0\fs20 But.\par
+\pard\f0\fs20 And if it starts going down that path, I'm like, well, it's too complicated.\par
+\pard\f0\fs20 I ask for something simple.\par
+\pard\f0\fs20 I can tell if it's going simple.\par
+\pard\f0\fs20 I'll read all the code down.\par
+\pard\f0\fs20 All of it.\par
+\pard\f0\fs20 8,000 lines of code this morning in one page.\par
+\pard\f0\fs20 That was an accident.\par
+\pard\f0\fs20 And then I got it down to four.\par
+\pard\f0\fs20 But unless you have that step, Jason, there's.\par
+\pard\f0\fs20 I wonder which environment you're working in.\par
+\pard\f0\fs20 And I think where.\par
+\pard\f0\fs20 I didn't know what was going on inside the LLMs.\par
+\pard\f0\fs20 I was only working inside chatbots.\par
+\pard\f0\fs20 I focused on the, on the metadata being a way to save my stuff and be portable and make sure I maintain my ability to learn and move through it.\par
+\pard\f0\fs20 And it came at a price of not coding.\par
+\pard\f0\fs20 And the tools weren't ready for me.\par
+\pard\f0\fs20 I was trying to code and then.\par
+\pard\f0\fs20 But so now on the converse side of things, including that other thing is available to me right now.\par
+\pard\f0\fs20 But it's, it is super curious and it is like, I think it's weeks away.\par
+\pard\f0\fs20 Like I can, I can confidently up to about 3,000 lines of code.\par
+\pard\f0\fs20 I can have a really good time just riffing and making an app work if I have the right pattern in place.\par
+\pard\f0\fs20 After that it's work even if I break it out into proper format because it's analyzing the whole code base at once and that's just not what it's good at.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So all my stuff has been single page apps pretty much.\par
+\pard\f0\fs20 And that's just going to end after this week.\par
+\pard\f0\fs20 So I need some help soon because it's going to be about structuring this properly.\par
+\pard\f0\fs20 And that's why I'm asking you questions about Flip and like that like, okay, like what will it mean?\par
+\pard\f0\fs20 What will it mean to be the other thing that I've, I've recognized too.\par
+\pard\f0\fs20 And I don't think I'm instill any confidence in anyone else right now is like whatever anyone's doing right now, they should not be investing a whole ton of money in like we are to the point where whatever we can afford.\par
+\pard\f0\fs20 But like anybody building.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sure, one, one press release or change in the marketplace could like blow up everything you've done.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, that's what I mean.\par
+\pard\f0\fs20 That's, that's exactly it.\par
+\pard\f0\fs20 It's like, you need to be out there, like.\par
+\pard\f0\fs20 Like we're working with this company, Pantera, and they.\par
+\pard\f0\fs20 And luckily, I feel confident Carol's assessment of them, they need help from.\par
+\pard\f0\fs20 From us and we're in a position, like, we need to get some work and it's really hard for me.\par
+\pard\f0\fs20 I need a few more days.\par
+\pard\f0\fs20 But they.\par
+\pard\f0\fs20 They can't find any solution for them because of how they function.\par
+\pard\f0\fs20 They've got all kinds of things that could work, but nothing.\par
+\pard\f0\fs20 So they have to try things.\par
+\pard\f0\fs20 In this middling space, they have to try things.\par
+\pard\f0\fs20 And if you're not going to try things now, you're going to be looked.\par
+\pard\f0\fs20 You're going to miss the opportunity because the next thing isn't going to be appropriate.\par
+\pard\f0\fs20 But it is, like, any solution right now, man, I'm pretty sure in 12 months, we're tearing it apart, throwing it out the window.\par
+\pard\f0\fs20 No matter how much effort you put into it, it'll just be so much better to build in 12 months.\par
+\pard\f0\fs20 Yeah, just crazy.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Well, and that's where, like, I've been sitting and I've been like, you know, I'm like, oh, man, I should have been able to get some of these things done further, like, a while ago.\par
+\pard\f0\fs20 But then it's like, okay, like, by actually waiting, it's actually going to take me less time to actually build it, you know, like.\par
+\pard\f0\fs20 And then it's like, well, how much.\par
+\pard\f0\fs20 How long do you wait until, like, as this cooling.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That's the thing I don't like too, is that mentality.\par
+\pard\f0\fs20 How do you account for the learning that doesn't make you lazy?\par
+\pard\f0\fs20 And.\par
+\pard\f0\fs20 And the one thing that is so difficult to do is account for the.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 For the.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 The learning curve on this one is that it's just so radical that, you know, talking to clients is like, you know, was difficult to instill confidence because we're just basically doing yesterday's work faster.\par
+\pard\f0\fs20 That's all I'm doing, is yesterday's work faster.\par
+\pard\f0\fs20 As soon as they see what I can do, it'll be.\par
+\pard\f0\fs20 It'll change some of their lights going on, but it won't change their immediate needs for sure, because their needs are all yesterday.\par
+\pard\f0\fs20 And it's.\par
+\pard\f0\fs20 It's quite crazy to account for something that you can't account for, because what I do account for is I don't know what I'm doing in a year now.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I really.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I thought it was a couple.\par
+\pard\f0\fs20 I don't know in a year.\par
+\pard\f0\fs20 Don't know, because what I'm.\par
+\pard\f0\fs20 What I'm doing right now is accounting.\par
+\pard\f0\fs20 For the LLMs, inability to do things.\par
+\pard\f0\fs20 That's it.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 You know, we'll see some other step.\par
+\pard\f0\fs20 Function change here at some point in the next little while.\par
+\pard\f0\fs20 Like, who knows what's going to like, roll down the pipe.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I know it is wackadoo and I, I'm getting a lot of push on Copilot.\par
+\pard\f0\fs20 It's free now inside VS code and amped up and there's a.\par
+\pard\f0\fs20 Actually, no, it's GitHub's co pilot they're trying to push on me.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I haven't done my homework on it, but if there's ever anybody to watch for a tool, it might be them, man.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, well, I mean, I'm in all the boards watching all the reviews and it's a constant battle to see who's on which side.\par
+\pard\f0\fs20 Like, like the observation is a battle because they're very emphatic.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 They're never, they're never gently in a camp, if you know what I mean.\par
+\pard\f0\fs20 Right, right.\par
+\pard\f0\fs20 And.\par
+\pard\f0\fs20 But I have to say it, it certainly doesn't look to me at all like, like Co pilot is winning.\par
+\pard\f0\fs20 It seems to be.\par
+\pard\f0\fs20 In fact, it's, it's.\par
+\pard\f0\fs20 What I'm seeing is some frustration because of the observation you made, David, that they should be the winner.\par
+\pard\f0\fs20 Do you know what I mean?\par
+\pard\f0\fs20 Because.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, no, it makes sense about it.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like, if you think about it, they natively have all the data, everybody puts their source code there.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And Microsoft.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And so you'd think.\par
+\pard\f0\fs20 But generally the consensus is no.\par
+\pard\f0\fs20 And I think it's because.\par
+\pard\f0\fs20 I think it's because they're slow moving that, you know, there's not a lot of changes over time and, and they don't seem to be significant or responsive and.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 No, there's a lot of change.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, there's been various little changes.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 There's not a lot of changes, not a lot of improvements.\par
+\pard\f0\fs20 You know, the one thing you can say about frankly, these smaller players, like, like Klein, like, God, they push out stuff all the freaking time and they're really, really interactive.\par
+\pard\f0\fs20 Like the community is what drives the changes.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 As opposed to some sort of like master plan kind of thing.\par
+\pard\f0\fs20 So the, the people who are on the forefront are in that community and really.\par
+\pard\f0\fs20 And then it's the, the small projects tend to follow each other that are very fast, if, if that makes any sense.\par
+\pard\f0\fs20 In other words.\par
+\pard\f0\fs20 No, nobody's.\par
+\pard\f0\fs20 Nobody follows the slow guys.\par
+\pard\f0\fs20 You know what I mean?\par
+\pard\f0\fs20 Like, it's amazing how Rue and Klein and, and a lot of these like, small guys who move really quickly and aren't doing the work of the model itself.\par
+\pard\f0\fs20 Like they're not.\par
+\pard\f0\fs20 Like these guys aren't making models.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 They don't care which model you use.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 You basically hook up.\par
+\pard\f0\fs20 Well, which is.\par
+\pard\f0\fs20 Which is actually part of the problem with co pilot because they have an extreme bias, if you follow.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And I have to say I think that's one of the things that.\par
+\pard\f0\fs20 That those players have gotten.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Those guys were like, stay out of the actual model building game.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And.\par
+\pard\f0\fs20 And focus on the interface between the models and the process of building projects and software.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It's actually at the.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Driving all the innovation.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, no, it's.\par
+\pard\f0\fs20 It is pretty exciting stuff.\par
+\pard\f0\fs20 It's just.\par
+\pard\f0\fs20 It's a weird set of problem solving skills that are.\par
+\pard\f0\fs20 They're transient or liminal.\par
+\pard\f0\fs20 That's.\par
+\pard\f0\fs20 That's.\par
+\pard\f0\fs20 I mean, problems on the skills never.\par
+\pard\f0\fs20 But the kind of problems I'm solving right now are curious ones.\par
+\pard\f0\fs20 It'll be good to get back to reasoning.\par
+\pard\f0\fs20 I'm just applying the reasoning right now.\par
+\pard\f0\fs20 There's anything fun to pull up and no fun things in the last week.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Hey, David, you know what?\par
+\pard\f0\fs20 Outside of the scope.\par
+\pard\f0\fs20 I'm just going to say I've been working on something I need you to review for the meeting this afternoon.\par
+\pard\f0\fs20 But it's sort of outside the scope of this.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Cool.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 We'll chat later.\par
+\pard\f0\fs20 All right, man.\par
+\pard\f0\fs20 Well, it's actually one minute past 8:45.\par
+\pard\f0\fs20 And that sounds like it's quiet and we have our eyes on other monitors.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Get onto it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yes.\par
+\pard\f0\fs20 Let's kill it, man.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Let's go.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Jason, thanks for.\par
+\pard\f0\fs20 Thanks for our lunch this last weekend.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Oh, man, it was.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It was great.\par
+\pard\f0\fs20 The conversation is still going on in.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 My head, so I feel that they're still trying to like break it all down.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So it's good to have things to go to when the code is heavy and.\par
+\pard\f0\fs20 Well, we'll be in touch.\par
+\pard\f0\fs20 See you online.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 See you guys.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Thanks.\par
+}

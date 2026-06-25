@@ -1,0 +1,1121 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI!\b0\par
+\pard\qc\f1\fs20 10/8/2025 \bullet 1min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,fulvio@atomic47.co,scott@driftresourcetechnologies.com,anshuldhariwal04@gmail.com,travis@atomic47.co,bibi@atomic47.co,jason@mttr.ca,jen@atomic47.co,myles@mttr.ca,loren@mttr.ca,shabraj@mttr.ca,spencer@ratiomachina.com,ashley@mttr.ca,graham@ratiomachina.com,carol@atomic47.co,joel.semeniuk@primal.com,lee.kennedy@primal.com, eric@scroll.ca, giroday@gmail.com, hanif.janmohamed@gmail.com, fulvio@atomic47.co\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Morning, David.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning, Miles.\par
+\pard\f0\fs20 How you doing?\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Doing well.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 It's getting a little chillier here.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Every two weeks I got to take.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 My kids to school in the morning.\par
+\pard\f0\fs20 But doing my best so I can join.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, I'm glad you're here.\par
+\pard\f0\fs20 Jen chimed in.\par
+\pard\f0\fs20 She has similar commitments at this time of day.\par
+\pard\f0\fs20 Different one than normal, but she's not going to join us.\par
+\pard\f0\fs20 If she does, it'll be later.\par
+\pard\f0\fs20 Hold on.\par
+\pard\f0\fs20 I have cats.\par
+\pard\f0\fs20 Growling.\par
+\pard\f0\fs20 Oh, my God.\par
+\pard\f0\fs20 Cool.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah, I'm currently looking, working on getting page load times down quick for experiments Endpoint so we can serve pages the same way we do statically.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Cool.\par
+\pard\f0\fs20 In.\par
+\pard\f0\fs20 In what challenge are you figuring out?\par
+\pard\f0\fs20 Like, is it using the inference or.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Essentially, we're running experiments and we want to make sure that we load the page that we decide after the experiment in the same manner that we're doing it in the static fashion.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah, we have quite a few components that we run GraphQL on, so part of it is optimizing the queries.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, we want to get down to.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 2 to 3 second load time.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That would be awesome.\par
+\pard\f0\fs20 I can't demo my stuff.\par
+\pard\f0\fs20 I got a video.\par
+\pard\f0\fs20 But I have been looking.\par
+\pard\f0\fs20 Jason actually pointed me to Gro some time ago, Groq.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And it's super fast in France.\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 I love that it's very, very, very fast.\par
+\pard\f0\fs20 But it's, you know, it's.\par
+\pard\f0\fs20 It's another vendor and they're building on top of other people.\par
+\pard\f0\fs20 Good morning, everyone.\par
+\pard\f0\fs20 Good morning.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Hey, Travis.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Nice to meet you.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Hey, nice to meet you too.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Sorry, Travis is maybe even lurking on.\par
+\pard\f0\fs20 Email, I don't know.\par
+\pard\f0\fs20 But I get to work with Travis.\par
+\pard\f0\fs20 Now and he's asked that I do.\par
+\pard\f0\fs20 Some demos today of stuff that we do to sort of surface to ourselves and others and then bring up questions.\par
+\pard\f0\fs20 Because we're trying to figure out how.\par
+\pard\f0\fs20 To collaborate across a team.\par
+\pard\f0\fs20 And that's interesting when you're looking for more than deliverables.\par
+\pard\f0\fs20 And so, Miles, you brought up observability and the fact that you're doing things.\par
+\pard\f0\fs20 Dynamically and you want it to actually be like static.\par
+\pard\f0\fs20 We had a company that we were trying to work with called Akka Akka IO and they were Java.\par
+\pard\f0\fs20 And so their whole thing was static and my whole thing was dynamic.\par
+\pard\f0\fs20 And I'm saying I got full traceability.\par
+\pard\f0\fs20 Yeah, we can't do that stuff.\par
+\pard\f0\fs20 It's Java.\par
+\pard\f0\fs20 It's a paradigm shift.\par
+\pard\f0\fs20 But I didn't figure out how to.\par
+\pard\f0\fs20 Use it in design time, which was acceptable because the output you should test.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, Got up and quick question, David, before you get up and walk away again, are you recording the video as well as the audio or just the.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Because that would be useful for some participants, I think.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, it would be.\par
+\pard\f0\fs20 Let me just get this piece of machinery over here because I know Gemini.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 By default will take notes.\par
+\pard\f0\fs20 You have to turn on the recording.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Because we've got extensive amount of note takers.\par
+\pard\f0\fs20 And so one thing I will speak to is.\par
+\pard\f0\fs20 Is the fact that that's what we have.\par
+\pard\f0\fs20 Oh, let me see if I can get things functioning.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sorry, said folio.\par
+\pard\f0\fs20 Are you trying to study my body language with what Dave says makes me uncomfortable.\par
+\pard\f0\fs20 No, I'm ignoring your body language.\par
+\pard\f0\fs20 I have all these remote viewing things capturing everything you do, Jason.\par
+\pard\f0\fs20 Oh, never mind.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right, so I'll get into that here in a second by showing something.\par
+\pard\f0\fs20 So we've been dealing with the fact that we're growing and we have a lot more subscriptions and we have a lot more people on different things and we've been on Fireflies for a long time and there's a whole lot of transcripts that are stuck in it.\par
+\pard\f0\fs20 And I think I've demonstrated this summary for the last.\par
+\pard\f0\fs20 It will now go through my Fireflies account and search.\par
+\pard\f0\fs20 And since I'm looking at things, I'm trying to figure it out.\par
+\pard\f0\fs20 I always make sure I have permission set to allow only.\par
+\pard\f0\fs20 And now it's going through and it's doing things that are MCP ish.\par
+\pard\f0\fs20 Now it's found it and now it's going to.\par
+\pard\f0\fs20 I see multiple.\par
+\pard\f0\fs20 Let me fetch the most Recent one.\par
+\pard\f0\fs20 On October 1st.\par
+\pard\f0\fs20 Get a summary so it can get the summaries and get the transcripts and then it can do the work and it's pretty cool, right?\par
+\pard\f0\fs20 Like that's one thing.\par
+\pard\f0\fs20 But if I go to my settings and I go to developer and I show that I've.\par
+\pard\f0\fs20 I've installed the Chrome, the Chrome Control MCP so it can take over Chrome.\par
+\pard\f0\fs20 I don't have the Chrome extension.\par
+\pard\f0\fs20 I'm on the list for that, but.\par
+\pard\f0\fs20 Actually I'm not on the list.\par
+\pard\f0\fs20 Contact 7.\par
+\pard\f0\fs20 I think everybody knows what that one does.\par
+\pard\f0\fs20 I built one for Akka.\par
+\pard\f0\fs20 I was like, we were going to get into this work with them.\par
+\pard\f0\fs20 I actually figured out how to do all the work prior to.\par
+\pard\f0\fs20 And so I have an Akka.\par
+\pard\f0\fs20 I have their documentation in MCP which allows me to then vibe code inside Claude.\par
+\pard\f0\fs20 It's pretty cool.\par
+\pard\f0\fs20 Fireflies, they built this one and then.\par
+\pard\f0\fs20 You just add your authentication key or token.\par
+\pard\f0\fs20 I've been doing work with Delegators So.\par
+\pard\f0\fs20 I built the delegator pattern and then I built the delegator documentation and then I built delegator mcp and so now.\par
+\pard\f0\fs20 It'S running on my desktop all the.\par
+\pard\f0\fs20 Time and it accidentally kicks in everywhere.\par
+\pard\f0\fs20 And then I have works on agents.\par
+\pard\f0\fs20 I've got like I don't know, 90, 100, I don't know what the number.\par
+\pard\f0\fs20 Of agents is in there.\par
+\pard\f0\fs20 And so they're all in the background, right?\par
+\pard\f0\fs20 So they, they, they kind of do their thing.\par
+\pard\f0\fs20 So I can ask for an agent to do something.\par
+\pard\f0\fs20 Capped out.\par
+\pard\f0\fs20 Okay, doc writer.\par
+\pard\f0\fs20 Oh, I can go like list the.\par
+\pard\f0\fs20 Agents I have and it will now list all the agents.\par
+\pard\f0\fs20 And so I'm doing this to show that I have these things inside there.\par
+\pard\f0\fs20 And then they work.\par
+\pard\f0\fs20 That's cool.\par
+\pard\f0\fs20 I can trigger them, I can get them to work, I can build delegations.\par
+\pard\f0\fs20 One time we were working, when we were working with Akka, I surfaced to.\par
+\pard\f0\fs20 These earlier agents, yada yada, I surfaced.\par
+\pard\f0\fs20 I surfaced the fact that they were willing to pay for documentation only.\par
+\pard\f0\fs20 And so then it got me thinking.\par
+\pard\f0\fs20 Okay, cool.\par
+\pard\f0\fs20 Documentation only.\par
+\pard\f0\fs20 I've got the delegator agents in here.\par
+\pard\f0\fs20 The actual patterns are right here.\par
+\pard\f0\fs20 Bang.\par
+\pard\f0\fs20 I can attach the pattern documentation to a session.\par
+\pard\f0\fs20 Use these patterns to design a JavaScript framework that is purely transactional.\par
+\pard\f0\fs20 Enables the flow of agents and handshake and hand.\par
+\pard\f0\fs20 This is a middle JavaScript implementation of the patterns enabling agentic work.\par
+\pard\f0\fs20 Provide the use cases.\par
+\pard\f0\fs20 Provide use cases for each pattern as it is applied.\par
+\pard\f0\fs20 That's just terrible.\par
+\pard\f0\fs20 But what it is is it's enough for it to start figuring things out.\par
+\pard\f0\fs20 And it built out a whole JavaScript.\par
+\pard\f0\fs20 Framework just from the pattern documentation.\par
+\pard\f0\fs20 Great.\par
+\pard\f0\fs20 That's cool.\par
+\pard\f0\fs20 It's kind of a one to one thing.\par
+\pard\f0\fs20 What's really kind of cool is when things collide.\par
+\pard\f0\fs20 Come on, come on.\par
+\pard\f0\fs20 Piece of my machine is crying in the background right now.\par
+\pard\f0\fs20 When you collide these things and they.\par
+\pard\f0\fs20 Work to provide you a strategic path.\par
+\pard\f0\fs20 Okay, So I have 800, 800 or so transcripts in Fireflies.\par
+\pard\f0\fs20 It knows that.\par
+\pard\f0\fs20 Provide strategies on how agentic AI can help leaders simulate how changes in team structures, leadership and organizational design will play out in practice.\par
+\pard\f0\fs20 Providing foresight and collaboration, performance and engagement.\par
+\pard\f0\fs20 What the fuck?\par
+\pard\f0\fs20 Hey, that's quite something.\par
+\pard\f0\fs20 How can we actually create simulations?\par
+\pard\f0\fs20 That's my comment.\par
+\pard\f0\fs20 Then it goes into how to do this from theory to practice.\par
+\pard\f0\fs20 It decides that it can build an agent simulation and how to actually build these things.\par
+\pard\f0\fs20 Purpose built simulation using your data.\par
+\pard\f0\fs20 This we'll use your 800 transcripts as training data.\par
+\pard\f0\fs20 I will Build this for you using your Fireflies.\par
+\pard\f0\fs20 I will analyze your historical collaboration patterns, model individual working styles, simulate proposed organizational changes, generate reports on predicted outcomes.\par
+\pard\f0\fs20 And then it gives me option two.\par
+\pard\f0\fs20 And then it gives me option three using my Akka platform to build a stateful version of this.\par
+\pard\f0\fs20 And then it gives me practical implement roadmap.\par
+\pard\f0\fs20 I said provide strategies for number one because that sounds like something I want to do.\par
+\pard\f0\fs20 I want to take a history of.\par
+\pard\f0\fs20 800 meetings and then I want to be able to figure out how I can build Personas around them and then.\par
+\pard\f0\fs20 From those Personas, do simulations.\par
+\pard\f0\fs20 This is something that I had first designed over 18 months ago and then did it in chat GPT a little bit and now it's helping push me in that direction.\par
+\pard\f0\fs20 I can do this right now.\par
+\pard\f0\fs20 Step 1.2.\par
+\pard\f0\fs20 Okay, do the extraction.\par
+\pard\f0\fs20 And so it's going to give me something like this as a description of an agent based on analyzing interaction patterns in conversation.\par
+\pard\f0\fs20 And then it will actually get to how do they understand?\par
+\pard\f0\fs20 So this is doing the LLM is doing all this, right?\par
+\pard\f0\fs20 So this is where worksona actually could.\par
+\pard\f0\fs20 Do it in the background too.\par
+\pard\f0\fs20 But it's doing all this stuff like figuring out how to measure this shit.\par
+\pard\f0\fs20 And then evaluate conversations to then give it these values so that we can.\par
+\pard\f0\fs20 Then run statistical analysis and then code to extract it.\par
+\pard\f0\fs20 It loves Python.\par
+\pard\f0\fs20 I'm not a big fan, meaning I like the portability of JavaScript and and.\par
+\pard\f0\fs20 And then share Billy.\par
+\pard\f0\fs20 But that said, Python is really jammy and here it goes through and it's.\par
+\pard\f0\fs20 Able to go through all of my stuff on the end of this thing.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Have you tested this one with the spelled.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 There it is.\par
+\pard\f0\fs20 This is based on me building a spec from the conversation, then just running the spec inside my ID.\par
+\pard\f0\fs20 The workflow I have is work inside ChatGPT or now inside Cloud because 4.5 build out a spec based on experiments or other work.\par
+\pard\f0\fs20 The spec is fairly rigorous.\par
+\pard\f0\fs20 Then I dithered down into a plan where an MVP is possible.\par
+\pard\f0\fs20 I then bring it into the idea in the ide.\par
+\pard\f0\fs20 I ask it to make to study it and then make a very specific.\par
+\pard\f0\fs20 Plan to do one of the versions, usually the MVP and then it will do a MDB markdown version of that.\par
+\pard\f0\fs20 And then it'll just go into this.\par
+\pard\f0\fs20 Plan and build it.\par
+\pard\f0\fs20 And I asked for certain tech stack I had given an example of something I wanted to do.\par
+\pard\f0\fs20 It is streaming through a whole lot of simulated transactions.\par
+\pard\f0\fs20 This is all statistical.\par
+\pard\f0\fs20 This is not inferred.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Can you explain what it's doing?\par
+\pard\f0\fs20 Like so the simulation is.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I can tell you what it's doing.\par
+\pard\f0\fs20 So what it's on is it's gone through, it's created.\par
+\pard\f0\fs20 It's created agents.\par
+\pard\f0\fs20 Let's see if I can find.\par
+\pard\f0\fs20 So it's processed.\par
+\pard\f0\fs20 There's the agents.\par
+\pard\f0\fs20 It's processed.\par
+\pard\f0\fs20 All of the conversations is.\par
+\pard\f0\fs20 Come up with a statistical understanding of each of participants, about how many connections they have and all the different types of conversations they've had and how they make decisions.\par
+\pard\f0\fs20 And then it runs analyses on that based on a scenario.\par
+\pard\f0\fs20 And guess what this scenario was.\par
+\pard\f0\fs20 It was actually figured out.\par
+\pard\f0\fs20 There was three scenarios that were derived from my session.\par
+\pard\f0\fs20 And the three scenarios were based on.\par
+\pard\f0\fs20 Events that have happened inside Atomic 47.\par
+\pard\f0\fs20 And those three scenarios have changed the organizational structure.\par
+\pard\f0\fs20 And they're a result of things that occurred and came to a head.\par
+\pard\f0\fs20 And positive things changed.\par
+\pard\f0\fs20 And because of those things, it studied and said, we have enough information based on the meetings, I can say that this has happened.\par
+\pard\f0\fs20 That we can then analyze the participants, come up with a representation of them, simulate them, and see if we can end up in the same position, the same quandary or the same problem with the same result coming out of it.\par
+\pard\f0\fs20 I can't.\par
+\pard\f0\fs20 Oh, scroll to the bottom.\par
+\pard\f0\fs20 I don't know if we're gonna see it in here.\par
+\pard\f0\fs20 10 minutes, 10 decisions.\par
+\pard\f0\fs20 Escalation.\par
+\pard\f0\fs20 It's got too many participants in it now.\par
+\pard\f0\fs20 I think I've added it to 50.\par
+\pard\f0\fs20 It wanted to do seven to nine in my first versions of the simulation where there was less participants.\par
+\pard\f0\fs20 And it focused on the hundred meetings from the last hundred meetings and analyzing those.\par
+\pard\f0\fs20 It ended up simulating that I was overloaded and required assistance in reallocating my work.\par
+\pard\f0\fs20 This happened.\par
+\pard\par\f1\fs22\b\cf0 Jen Boger:\b0\par
+\pard\f0\fs20 I was going to say that's pretty accurate.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 There's three things that happened.\par
+\pard\f0\fs20 BB came on board, so we have.\par
+\pard\f0\fs20 More people on board.\par
+\pard\f0\fs20 We had new senior leadership on the product side.\par
+\pard\f0\fs20 With Carol jumping into amqc.\par
+\pard\f0\fs20 That happened too.\par
+\pard\f0\fs20 And we had you jump on board too, Jeff.\par
+\pard\f0\fs20 And that changed things as well structurally.\par
+\pard\f0\fs20 And so it was interesting to see.\par
+\pard\f0\fs20 Now eat your own dog food.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 You might end up in a really cool place.\par
+\pard\f0\fs20 Can I do that?\par
+\pard\f0\fs20 You might end up in mad cow disease.\par
+\pard\f0\fs20 But because it's a statistical analysis, then.\par
+\pard\f0\fs20 We can look at how it functions.\par
+\pard\f0\fs20 The visualization is bunk, but what's going on behind the scenes is a series of.\par
+\pard\f0\fs20 Move this down.\par
+\pard\f0\fs20 Welcome to Vibe Coding.\par
+\pard\f0\fs20 A series of actors that are getting a bunch of different parameters transacted on.\par
+\pard\f0\fs20 And this is in a.\par
+\pard\f0\fs20 This is in a statistical fashion.\par
+\pard\f0\fs20 So where this gets really Interesting is.\par
+\pard\f0\fs20 Where we can then make this agenda.\par
+\pard\f0\fs20 And I would really reduce this down.\par
+\pard\f0\fs20 To seven players and then do leadership type exercises with it based on the.\par
+\pard\f0\fs20 Last hundred meetings where those seven participants were in them.\par
+\pard\f0\fs20 And try programming that, Try programming that when you have a directory of 800 meetings that are all in JSON format, try programming that.\par
+\pard\f0\fs20 You want to select those meetings of.\par
+\pard\f0\fs20 That kind from that set and build the Python script to do that.\par
+\pard\f0\fs20 Now you can do that, but man, you go in here and you do that and it's way easier.\par
+\pard\f0\fs20 You say, give me the last hundred.\par
+\pard\f0\fs20 Meetings.\par
+\pard\f0\fs20 And build Personas of the key.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 It'S quite something when you have that paradigm in place where you have different MCPs functioning inside the framework of.\par
+\pard\f0\fs20 The LLM, supporting your, your workflow and.\par
+\pard\f0\fs20 Then also your ideation.\par
+\pard\f0\fs20 So it jumped the, it jumped the shark tank for me there when it actually helped push me down the path of something that I had already conceived of previously and I'd already done demos.\par
+\pard\f0\fs20 Of, but this time it was using actual data.\par
+\pard\f0\fs20 And that means that we could get quite good at it.\par
+\pard\f0\fs20 And having 800 meetings is a significant thing.\par
+\pard\f0\fs20 And the neat thing about that is this experiment would work quite well with maybe our group because it's a subset and it would be a bit more focused.\par
+\pard\f0\fs20 Now, I wouldn't ask it for, you know what we could ask them.\par
+\pard\f0\fs20 It would be very interesting, right?\par
+\pard\f0\fs20 So you could simulate the direction of.\par
+\pard\f0\fs20 These conversations and you would do that in a gentic fashion.\par
+\pard\f0\fs20 So it's pretty neat to be able to have these things working.\par
+\pard\f0\fs20 And so right now I have agents inside CLAUDE Desktop as an MCP running and then we're using something, trying to.\par
+\pard\f0\fs20 Adopt something called Claude Cold Templates, which.\par
+\pard\f0\fs20 Is a project that allows you to.\par
+\pard\f0\fs20 Just put agents and directories and markdown files and then you have hooks and you can get mcps and then it's got UI if you want to use.\par
+\pard\f0\fs20 That, but it's all command line interface, just like some of the stuff that.\par
+\pard\f0\fs20 I've been experimenting with and building myself.\par
+\pard\f0\fs20 But this is a project that's managed and it has a lot of contributions and it has the same sort of.\par
+\pard\f0\fs20 Core ideas of having a core set.\par
+\pard\f0\fs20 Of agents that you use.\par
+\pard\f0\fs20 Maybe I'll show you.\par
+\pard\f0\fs20 Oh, do I have it running?\par
+\pard\f0\fs20 Hey, David, I don't have it running.\par
+\pard\f0\fs20 Shit.\par
+\pard\f0\fs20 Yes.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Is that demo you just showed US in a atomic 47 repository?\par
+\pard\f0\fs20 Would it be something I can access?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 The one that.\par
+\pard\f0\fs20 The simulation.\par
+\pard\f0\fs20 It'S hot.\par
+\pard\f0\fs20 So I had it run in the background because I wasn't like it Was.\par
+\pard\f0\fs20 Not, not a focus.\par
+\pard\f0\fs20 It was something that Karen, Karen said, can we do this?\par
+\pard\f0\fs20 And I'm like, yeah, we can do that.\par
+\pard\f0\fs20 I'm like, well, how would we do.\par
+\pard\f0\fs20 It and what would that mean?\par
+\pard\f0\fs20 And so I will, I'll check it in.\par
+\pard\f0\fs20 I'll check it in with what I have right now, which is.\par
+\pard\f0\fs20 And I will share that.\par
+\pard\f0\fs20 I have what I call works on a MCP server or inside.\par
+\pard\f0\fs20 It's called works on agents, which allows you to use an MCP server locally.\par
+\pard\f0\fs20 And it's just a node package.\par
+\pard\f0\fs20 You install it locally and in ChatGPT probably, and then, but also in Claude.\par
+\pard\f0\fs20 And what you get is you get standardized agents and so you get standardized report, right?\par
+\pard\f0\fs20 And it gets you into this mode of being able to do workflows and intuit how you use them because you can just reference them.\par
+\pard\f0\fs20 Like say, I need to figure.\par
+\pard\f0\fs20 I need a team to figure out a development team to figure out how to solve this problem.\par
+\pard\f0\fs20 Or you just say like project planner, allocate the right team members to this.\par
+\pard\f0\fs20 Spec doc, build out the initial stub of it.\par
+\pard\f0\fs20 And now 4.5, even inside Claude Desktop, even in that, encode your stubs effectively.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Well, it does require you to ask for like, or at least reference some agent, right?\par
+\pard\f0\fs20 So like you're saying I need a team of programmers or I need a.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 You need to be.\par
+\pard\f0\fs20 Yeah, you need to be referencing them as such to get them to invoke that way.\par
+\pard\f0\fs20 There are ways of adding different parts.\par
+\pard\f0\fs20 Like there are different commands.\par
+\pard\f0\fs20 I can actually show you this.\par
+\pard\f0\fs20 I just might as well show you.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 And is delegator a specific agent or is a delegator the one that decides which of those flows to enact?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So I built out a delegator system which does figure out which ones to enact.\par
+\pard\f0\fs20 And so the delegator is its own mcp.\par
+\pard\f0\fs20 And then what's interesting with the agents is that you can create workflows and.\par
+\pard\f0\fs20 They will figure it out, but it's a handoff.\par
+\pard\f0\fs20 Usually it's very linear.\par
+\pard\f0\fs20 You can do parallel work with it too.\par
+\pard\f0\fs20 The neat thing about this stuff is that it works at the command line level in the CLI as well.\par
+\pard\f0\fs20 So you install these agents and a.\par
+\pard\f0\fs20 Few shell commands and then you can.\par
+\pard\f0\fs20 Just run them inside cloud desktop or not.\par
+\pard\f0\fs20 This is the kind of this is cloud code templates.\par
+\pard\f0\fs20 It provides a view on your agents based on your key that you use for using cloud code and it will actually show you the breakdown of your agent use.\par
+\pard\f0\fs20 And so that's why moving in this direction is the ability to actually see at the agent level who's doing what.\par
+\pard\f0\fs20 Agents are, and are they effectively doing it?\par
+\pard\f0\fs20 Well, if we.\par
+\pard\f0\fs20 Some tasks inside cloud code are gloriously, gloriously, a thousand times more expensive.\par
+\pard\f0\fs20 In the past version, maybe 4.5, as they say, is better.\par
+\pard\f0\fs20 But if you ran cloud code all day long, it cost you 200 bucks.\par
+\pard\f0\fs20 I know.\par
+\pard\f0\fs20 Because my boss told me.\par
+\pard\f0\fs20 And then I went and looked and I'm like, man, we are doing this a few times.\par
+\pard\f0\fs20 And so figuring out how that's working is of course, essential.\par
+\pard\f0\fs20 And then just also having the mix.\par
+\pard\f0\fs20 Of working inside cloud code as well as cursor.\par
+\pard\f0\fs20 And I know that Travis and I both have a preference for how we work in cursor.\par
+\pard\f0\fs20 I use cloud go for certain things, and now I'm trying it in other.\par
+\pard\f0\fs20 Things because 4.5 is freaking snappy.\par
+\pard\f0\fs20 But that's one of the pieces where we're able to get observability while we're working.\par
+\pard\f0\fs20 I built this out.\par
+\pard\f0\fs20 It's not.\par
+\pard\f0\fs20 It's just a view of what they have.\par
+\pard\f0\fs20 Their documentation is all loud and noisy.\par
+\pard\f0\fs20 And full of emoticons.\par
+\pard\f0\fs20 But this is what they have inside there is.\par
+\pard\f0\fs20 What is neat, is the integration.\par
+\pard\f0\fs20 We can all share, basically config files and whatnot.\par
+\pard\f0\fs20 And it just installs quite easily.\par
+\pard\f0\fs20 It's a node package, and then you install it per project.\par
+\pard\f0\fs20 That's how the cloud code kind of stuff runs.\par
+\pard\f0\fs20 You can install the agents at a per project level, or they exist at globally.\par
+\pard\f0\fs20 So I just built this as a cheat sheet.\par
+\pard\f0\fs20 The MCP that I built for inside.\par
+\pard\f0\fs20 CLAUDE code.\par
+\pard\f0\fs20 This is.\par
+\pard\f0\fs20 Will it be working?\par
+\pard\f0\fs20 Okay, this is the set of agents that are inside there.\par
+\pard\f0\fs20 So there's actually 18 teams of different types.\par
+\pard\f0\fs20 This is built out for somebody like Jan.\par
+\pard\f0\fs20 It's a bunch of different agents for.\par
+\pard\f0\fs20 Different types of research.\par
+\pard\f0\fs20 Now, where the specificity of these agents come into value is always interesting.\par
+\pard\f0\fs20 And so you can add, you can add.\par
+\pard\f0\fs20 There are different ways to interface with the agents inside cloud desktop as well.\par
+\pard\f0\fs20 As well as cloud code.\par
+\pard\f0\fs20 I'm trying to do things in as simple as possible.\par
+\pard\f0\fs20 Even as simple as this was like.\par
+\pard\f0\fs20 Installing a node package.\par
+\pard\f0\fs20 Helping Jen do this, she had to.\par
+\pard\f0\fs20 Install node update node, then down, then.\par
+\pard\f0\fs20 Install the MCP server, then figure out what the nomenclature was for the adding an NCP server to claude.\par
+\pard\f0\fs20 Because you have to do this silly.\par
+\pard\f0\fs20 Thing where you go inside the.\par
+\pard\f0\fs20 Inside.\par
+\pard\f0\fs20 Developer mode, edit config, and add text.\par
+\pard\f0\fs20 And it's different on Windows and Mac and Linux.\par
+\pard\f0\fs20 And so that's a pretty big barrier.\par
+\pard\f0\fs20 But these things are very valuable.\par
+\pard\f0\fs20 When you make something once, like you've.\par
+\pard\f0\fs20 Got a set of agents, then you.\par
+\pard\f0\fs20 Can figure out how to make command line interface for so that they go.\par
+\pard\f0\fs20 From markdown to functional on their own.\par
+\pard\f0\fs20 And then you can figure out how to then build an MCP around them.\par
+\pard\f0\fs20 And then all of a sudden you've.\par
+\pard\f0\fs20 Got the LLM helping you out as well.\par
+\pard\f0\fs20 The LLM has all the orchestration capabilities.\par
+\pard\f0\fs20 And delegation capabilities built into.\par
+\pard\f0\fs20 It's just you don't know what the fuck they're doing.\par
+\pard\f0\fs20 And so I thought this was really interesting where I was able to get value in one path.\par
+\pard\f0\fs20 My normal path is to work with.\par
+\pard\f0\fs20 The code, to build stuff out, to.\par
+\pard\f0\fs20 Build apps that do things inside the chat scenario, inside the chatbot, where you got the mcps, it's different.\par
+\pard\f0\fs20 It's like you can think less programmatically.\par
+\pard\f0\fs20 It's still critical thinking.\par
+\pard\f0\fs20 But I need these kinds of meetings, I need these meetings, I want this kind of stuff out of it.\par
+\pard\f0\fs20 You can probably even get it to then calculate, to provide, to build Python, to then analyze the discussions so that.\par
+\pard\f0\fs20 You had a framework around how it was coming up with the values.\par
+\pard\f0\fs20 But this is incredibly cool stuff for building any kind of simulations when you have any like survey data or any.\par
+\pard\f0\fs20 Long longitudinal data with any individuals or people that you think are individuals, because it allows you to move from that historical point of view where you're trying to affect SKUs to affect behavior by modeling.\par
+\pard\f0\fs20 So it's pretty, pretty neat.\par
+\pard\f0\fs20 And that's what I wanted to demonstrate is like how we're getting inside of things.\par
+\pard\f0\fs20 I'll surface these, I do have project pages for these things now because I.\par
+\pard\f0\fs20 Need to share them within my team and I will surface them to others.\par
+\pard\f0\fs20 They're just node packages.\par
+\pard\f0\fs20 I'm trying to make things distribute widely.\par
+\pard\f0\fs20 Easily to work locally.\par
+\pard\f0\fs20 I tried to convert my works on a team, my works on agents to a hosted server and I hit my wall of commitment to that late on.\par
+\pard\f0\fs20 A Sunday or no, not this weekend.\par
+\pard\f0\fs20 But last week, just trying to get it to work.\par
+\pard\f0\fs20 But it wasn't, it was very complex.\par
+\pard\f0\fs20 I was going by.\par
+\pard\f0\fs20 And since a lot of people here.\par
+\pard\f0\fs20 Work locally and they have that kind of skills, these things are pretty handy.\par
+\pard\f0\fs20 But that's, that's a technical kind of blah, blah, blah on things and it's not really gonna be that useful for the video demos afterwards.\par
+\pard\f0\fs20 But it does get me into the mode of showing things where there's a way to prototype stuff inside like ChatGPT.\par
+\pard\f0\fs20 And Claude to see what kind of results you can get.\par
+\pard\f0\fs20 So from Our Project amqc.\par
+\pard\f0\fs20 The more we can build a really interesting either MCP or series of them.\par
+\pard\f0\fs20 The wilder the future becomes in terms of how we build applications.\par
+\pard\f0\fs20 You know, having.\par
+\pard\f0\fs20 Having individual vibe code stuff and even.\par
+\pard\f0\fs20 Be really good at prompting is low.\par
+\pard\f0\fs20 Low is.\par
+\pard\f0\fs20 Is low likelihood in a lot of places.\par
+\pard\f0\fs20 Them being very articulate.\par
+\pard\f0\fs20 If you're articulate, you can get really good results.\par
+\pard\f0\fs20 So it may be the case that.\par
+\pard\f0\fs20 They just hit a button and then we have a really good prompt that does a lot of work.\par
+\pard\f0\fs20 That would have been an extremely large amount of effort with structured code.\par
+\pard\f0\fs20 I believe the LLMs are going to win.\par
+\pard\f0\fs20 I fucking.\par
+\pard\f0\fs20 I didn't, I didn't, I didn't.\par
+\pard\f0\fs20 I really don't want to see Sam.\par
+\pard\f0\fs20 Altman, you know, as the king of the world.\par
+\pard\f0\fs20 But it's.\par
+\pard\f0\fs20 It's a high likelihood that this approach could supersede anybody's desire to work in.\par
+\pard\f0\fs20 Microsoft Excel or work.\par
+\pard\f0\fs20 And that's what it has to win at.\par
+\pard\f0\fs20 And it's killing like, as soon as you can attach data sources like that.\par
+\pard\f0\fs20 Have.\par
+\pard\f0\fs20 I think, I think, Spencer, you've attached.\par
+\pard\f0\fs20 Your Google suite to Claude Desktop.\par
+\pard\f0\fs20 Has anybody else done anything like that?\par
+\pard\f0\fs20 Given it full access?\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Aws.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But yeah, aws.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 But honestly, like, yeah, I have the MCP server for AWS hooked up, but what I wind up doing more because of like, safety and also practicality is just like constructing the commands that I know Claude will use or should use for my particular project and just including.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Those in my Claude md.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So that's the problem that I've run into.\par
+\pard\f0\fs20 It's like, you know, if you're using Google as a, as a repo solution too, right?\par
+\pard\f0\fs20 In the sense that you've got Google Docs all over the place and Google Docs are lovely.\par
+\pard\f0\fs20 The one thing that seems to be missing from the.\par
+\pard\f0\fs20 What's the right word?\par
+\pard\f0\fs20 A menagerie of Google platforms, because there's Google, cli, Gemini, AI Studio.\par
+\pard\f0\fs20 So integrated into your thing, right, Is like the, the.\par
+\pard\f0\fs20 The kind of like, here's a folder with all the data in it and use it.\par
+\pard\f0\fs20 All right?\par
+\pard\f0\fs20 Shockingly, Google, the one participant that has all the opportunity to do that.\par
+\pard\f0\fs20 The best I haven't found them integrate it natively in any of the individual members of that menagerie.\par
+\pard\f0\fs20 Shocking to me, the only place you can kind of do it is at the drive level.\par
+\pard\f0\fs20 If you use, you know, if you click Gemini and ask it about what's in the drive, it'll do that.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But AI Studio doesn't really let you properly attach a folder Nor does Gemini.\par
+\pard\f0\fs20 And I've heard rumors that that's coming, right?\par
+\pard\f0\fs20 That.\par
+\pard\f0\fs20 That's like as in tomorrow, by the way, as in this mythical October 9th where this new model will drop.\par
+\pard\f0\fs20 Oh, really?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 There's.\par
+\pard\f0\fs20 There's.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 The.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Things are so big in October, are they?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, that's what they say.\par
+\pard\f0\fs20 But anyway, you know, that's until it's true.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So it's interesting that you guys come around to that point because, like, whether you like regardless of the, the.\par
+\pard\f0\fs20 The strategic way you frame the need, connecting to context, connecting to data, connecting to whatever it.\par
+\pard\f0\fs20 It boils down to that, right?\par
+\pard\f0\fs20 Like, like, does it have access and does it know what to get from where in what way?\par
+\pard\f0\fs20 So that it's all available to it to do the magic thing that LLMs do.\par
+\pard\f0\fs20 And shockingly, that piece is the piece that's like, not, not.\par
+\pard\f0\fs20 It's not that it doesn't exist because there are MCPs to do it in parts, but it's not natively integrated properly yet.\par
+\pard\f0\fs20 And everything will change when that happens.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 In my opinion.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I don't, I don't think that's a bad.\par
+\pard\f0\fs20 I don't think that's a.\par
+\pard\f0\fs20 That's a risky prediction.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Full integration is like the full integration.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But it's not full integration.\par
+\pard\f0\fs20 It's just.\par
+\pard\f0\fs20 It's that easy.\par
+\pard\f0\fs20 Data native integration, that's the thing.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So you've never had, like, even with, even with the previous versions of the.\par
+\pard\f0\fs20 The Office, you've never had that capability.\par
+\pard\f0\fs20 You had it well organized, but you've never been able to melt it down.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So I think what Spencer was talking about, like, you know, you can, you can, you can say, you can have prompts that will do it for you.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like, look at this folder and build a.\par
+\pard\f0\fs20 Build a tree of what's in here and what it's useful for.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And then you, you're half.\par
+\pard\f0\fs20 You're three quarters of the way there, then you use that as your grounding element.\par
+\pard\f0\fs20 And as long as you've got a way to get it, those things are good.\par
+\pard\f0\fs20 But nothing does that like out of the can natively in the box.\par
+\pard\f0\fs20 And I find that shockingly, I find that to be shocking.\par
+\pard\f0\fs20 That hasn't been licked yet.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Yeah, I like go even a step further and put like the actual, like, aws, like CLI commands that I need in the Cloud MD and the simplest flows.\par
+\pard\f0\fs20 I probably just have a lot of implicit knowledge in my head about how to navigate it.\par
+\pard\f0\fs20 But just log diving and debugging a service, an error that's happening In.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 A.\par
+\pard\par\f1\fs22\b\cf0 Spencer MacBeth:\b0\par
+\pard\f0\fs20 Microservice that has a bunch of AWS services strung together and how to traverse different logs and different services.\par
+\pard\f0\fs20 It gets so lost and just can't.\par
+\pard\f0\fs20 Can't do it.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It becomes a fallible human.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I think that has something to do with the way to do that.\par
+\pard\f0\fs20 Changes of the context of the infrastructure you're on.\par
+\pard\f0\fs20 That's a very packed statement, but I think that's it.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Really tough now.\par
+\pard\f0\fs20 Well, I would love us to have an MCP for that kind of thing.\par
+\pard\f0\fs20 Because, you know, it's a huge thick layer of obtuse a lot of the.\par
+\pard\f0\fs20 Time, but so is data.\par
+\pard\f0\fs20 Like, but what's interesting now that we have a Data set of 800 meetings, like, it's a data set and you can use things.\par
+\pard\f0\fs20 You can do it and use things.\par
+\pard\f0\fs20 Use it for things.\par
+\pard\f0\fs20 In previous work, things had to be theoretical.\par
+\pard\f0\fs20 Had to synthesize data to get it to do things.\par
+\pard\f0\fs20 Now it's like there's still a whole.\par
+\pard\f0\fs20 Layer of what you point to where you use the LLM for assertion or inference and then you get all these numbers and values and framework out of it.\par
+\pard\f0\fs20 But you can ground that against historical norms, too.\par
+\pard\f0\fs20 So there's a way at least to.\par
+\pard\f0\fs20 To normalize your experience in and out of these things.\par
+\pard\f0\fs20 But what it's doing right now, and it's magical.\par
+\pard\f0\fs20 And so it's doing all of that behind the scenes.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 It's like, yeah, Dave is this.\par
+\pard\f0\fs20 He's a 0.8 here, he's a point there.\par
+\pard\f0\fs20 And he's.\par
+\pard\f0\fs20 He's a.\par
+\pard\f0\fs20 He's a 0.9.\par
+\pard\f0\fs20 I'm like, I'm a 0.9.\par
+\pard\f0\fs20 What does that mean?\par
+\pard\f0\fs20 And then it tells me the range.\par
+\pard\f0\fs20 Is 0 to 1.\par
+\pard\f0\fs20 Oh, that's probably bad, right?\par
+\pard\f0\fs20 So the.\par
+\pard\f0\fs20 They.\par
+\pard\f0\fs20 They.\par
+\pard\f0\fs20 No one cares yet.\par
+\pard\f0\fs20 No one cares that they're hiding all.\par
+\pard\f0\fs20 That because no one's asked for.\par
+\pard\f0\fs20 For us to build any workflow that has any proper delegation.\par
+\pard\f0\fs20 They're okay with it being hidden behind the scenes.\par
+\pard\f0\fs20 And that's what that is.\par
+\pard\f0\fs20 That's what I experienced is magic, right?\par
+\pard\f0\fs20 Like, that's.\par
+\pard\f0\fs20 It was like, oh, this is here.\par
+\pard\f0\fs20 That's here.\par
+\pard\f0\fs20 We'll connect these two things if you want.\par
+\pard\f0\fs20 I'm like, that's absurd.\par
+\pard\f0\fs20 But not always.\par
+\pard\f0\fs20 So thank you for letting me do that.\par
+\pard\f0\fs20 And to.\par
+\pard\f0\fs20 If.\par
+\pard\f0\fs20 If anyone has anything else on that kind of side of things, we.\par
+\pard\f0\fs20 We can actually reflect back on last week's conversation because Jen wasn't there and.\par
+\pard\f0\fs20 She wanted to be there and she's.\par
+\pard\f0\fs20 Going to be bouncing probably she's this.\par
+\pard\f0\fs20 Is a tough time for her.\par
+\pard\f0\fs20 She's still got kids in school.\par
+\pard\f0\fs20 I do too, but she's 19.\par
+\pard\par\f1\fs22\b\cf0 Jen Boger:\b0\par
+\pard\f0\fs20 She gets herself to school.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I hope.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I don't know you're in a residence.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 I might have it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Or not.\par
+\pard\par\f1\fs22\b\cf0 Jen Boger:\b0\par
+\pard\f0\fs20 This is really cool though.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 We're struggling with this as a business right now.\par
+\pard\f0\fs20 We have people that we're talking to.\par
+\pard\f0\fs20 The simulation wasn't just coming out of nowhere.\par
+\pard\f0\fs20 We have organizations that are going through changes.\par
+\pard\f0\fs20 If we can help them understand how this can impact people from a functional point of view, then that's where the LLMs have a curiosity.\par
+\pard\f0\fs20 But they also have this intensity to them that we're so far away from being able to just accept.\par
+\pard\f0\fs20 Meaning that their bias is fine.\par
+\pard\f0\fs20 But we're in the thrones of selling.\par
+\pard\f0\fs20 That all the time and using it even more so.\par
+\pard\f0\fs20 And I. I'm curious to see now when I actually have some conversation that you know, would be analyzed by humans.\par
+\pard\f0\fs20 To come up with frameworks around things.\par
+\pard\f0\fs20 How well it can actually do different.\par
+\pard\f0\fs20 Types of analysis and then see if we can surface things that are.\par
+\pard\f0\fs20 Curious about the LLM other than what we read.\par
+\pard\f0\fs20 And that would be anecdotally see if.\par
+\pard\f0\fs20 It'S making systematic thinking about us that's really, really pointed in a direction that.\par
+\pard\f0\fs20 Others say they can defeat.\par
+\pard\f0\fs20 Then that's curious.\par
+\pard\f0\fs20 But it's generally quite good at picking.\par
+\pard\f0\fs20 Up signal to noise in conversation.\par
+\pard\f0\fs20 So I'm.\par
+\pard\f0\fs20 I'm usually bullish on that type of analysis and then providing that kind of work.\par
+\pard\f0\fs20 But that's usually because of the frameworks.\par
+\pard\f0\fs20 That I put in front of it and then come afterwards or with it.\par
+\pard\f0\fs20 But I'll just leave it there.\par
+\pard\f0\fs20 And that I'm usually generally comfortable with.\par
+\pard\f0\fs20 My stuff because I try to put forth that it is completely biased and if you're working on a computer, then that's your first mistake.\par
+\pard\f0\fs20 And then if you're not considering that you're human, then we have nothing to.\par
+\pard\f0\fs20 Talk about but in the details of LLMs and how they actually infer and hallucinate.\par
+\pard\f0\fs20 They're hallucinating.\par
+\pard\f0\fs20 Consistently poorly right now inside my IDE after about 75%.\par
+\pard\f0\fs20 And that's on the most simplistic thing that it can understand.\par
+\pard\f0\fs20 That's programming.\par
+\pard\par\f1\fs22\b\cf0 Jen Boger:\b0\par
+\pard\f0\fs20 Yeah, Very structured too.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 For 75%.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I'm sorry, it's.\par
+\pard\f0\fs20 It's hallucinating poorly.\par
+\pard\f0\fs20 That means it's hallucinating too much.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Working poorly after 75%.\par
+\pard\f0\fs20 Oh, okay.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sorry.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It just.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 With a.\par
+\pard\f0\fs20 There was a missing.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, I probably said that.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 But what it is just Noticeable.\par
+\pard\f0\fs20 It's just this thing is.\par
+\pard\f0\fs20 Is still jammed full of.\par
+\pard\f0\fs20 Of cruft at the edge intech level.\par
+\pard\f0\fs20 And it's highly functional inside an ide.\par
+\pard\f0\fs20 And I, and I, and I try to do more work inside it than is just that.\par
+\pard\f0\fs20 But it doesn't do it any better when I'm talking about knowledge work and everyone else is that way it'll build apps for it really well.\par
+\pard\f0\fs20 But the ChatGPT 5 and 4.5.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Are.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 The best for reasoning.\par
+\pard\f0\fs20 And that's 99% of what I end up doing.\par
+\pard\f0\fs20 The bias has to be baked in.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 David, I gotta hop off.\par
+\pard\f0\fs20 I gotta do something quickly for our next meeting.\par
+\pard\f0\fs20 But I appreciate the demo.\par
+\pard\f0\fs20 It was nice to see it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 We'll do more.\par
+\pard\f0\fs20 We have a meeting in the 15 minutes as well.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 Thank you for pushing me Nudge in.\par
+\pard\f0\fs20 That direction and I'll get much more on that.\par
+\pard\f0\fs20 The amount of work that has been done to.\par
+\pard\f0\fs20 To stay up with.\par
+\pard\f0\fs20 Stay up to date with things is it needs to be shared more often because it gets stale quickly.\par
+\pard\f0\fs20 And the reason we're doing it is.\par
+\pard\f0\fs20 To stay in line with things.\par
+\pard\f0\fs20 Our company is writing an article every week at least on our experience of.\par
+\pard\f0\fs20 Of working with and employing and trying to deploy AI.\par
+\pard\f0\fs20 And the.\par
+\pard\f0\fs20 The experience of it, I think is one of the things that we're going.\par
+\pard\f0\fs20 To surface a lot more of how.\par
+\pard\f0\fs20 Can change how we work but still.\par
+\pard\f0\fs20 Be fucking frustrated with how it is perceived in the news.\par
+\pard\f0\fs20 Like I'm.\par
+\pard\f0\fs20 Or I'm stuck at the aqueous of understanding.\par
+\pard\f0\fs20 What fear means now.\par
+\pard\f0\fs20 Because before it was easy, it was like ignorance.\par
+\pard\f0\fs20 You just had to walk them into.\par
+\pard\f0\fs20 A wall of ignorance.\par
+\pard\f0\fs20 And that was like, I don't know, software.\par
+\pard\f0\fs20 And that was that.\par
+\pard\f0\fs20 That calmed them down.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And then they were like, okay, how.\par
+\pard\f0\fs20 Much does that cost?\par
+\pard\f0\fs20 Well, it's 10 grand.\par
+\pard\f0\fs20 Okay, then that's everything's fine.\par
+\pard\f0\fs20 And now none of that is holding true.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Yep.\par
+\pard\f0\fs20 Okay.\par
+\pard\par\f1\fs22\b\cf0 Jen Boger:\b0\par
+\pard\f0\fs20 Changing so fast.\par
+\pard\f0\fs20 Everyone's just.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yep.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 All right.\par
+\pard\f0\fs20 Over.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Thanks again.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay, ciao.\par
+\pard\f0\fs20 All right.\par
+\pard\f0\fs20 One, two, three.\par
+\pard\f0\fs20 I've got three more minutes.\par
+\pard\f0\fs20 I don't think I've got anything else I can show other than the fact that I've been continuing to working on trying to upskill my team.\par
+\pard\f0\fs20 And that's another thing that's kind of.\par
+\pard\f0\fs20 Curious too is like getting people to work in a more sophisticated way when they don't necessarily need to.\par
+\pard\f0\fs20 The LLMs actually fill time as much as they create efficiencies in a lot of ways.\par
+\pard\f0\fs20 But.\par
+\pard\f0\fs20 Thanks.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 For the demo because it makes Me understand a little bit more of what you're actually trying to achieve there.\par
+\pard\f0\fs20 I could see when I was running it, sort of.\par
+\pard\f0\fs20 I could tell, like, when Jen came on, because I started attending these meetings and it actually picked that nuance up, which is cool.\par
+\pard\par\f1\fs22\b\cf0 Travis Worthing:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So there's.\par
+\pard\f0\fs20 That's the thing with the Fireflies mcp.\par
+\pard\f0\fs20 I think my team needs to run.\par
+\pard\f0\fs20 That's how we're going to move off of it.\par
+\pard\f0\fs20 So I have to figure something else out.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So it's just not scaling in the.\par
+\pard\f0\fs20 Way that makes sense for us.\par
+\pard\f0\fs20 And the work that I have to.\par
+\pard\f0\fs20 Do in the background, I had to build a whole app, download 800, because it's not easy to download 800 files.\par
+\pard\f0\fs20 Like, it's actually 3200 files.\par
+\pard\f0\fs20 But now that we have them, it's great.\par
+\pard\f0\fs20 But the MCP is still working with their system, and it just does a.\par
+\pard\f0\fs20 Beautiful job of that.\par
+\pard\f0\fs20 And we have an MQC system that has a whole data backbone.\par
+\pard\f0\fs20 And I want to figure out how to not let people curiously, you know, prompt it and.\par
+\pard\f0\fs20 And see if that turns into a really cool way.\par
+\pard\f0\fs20 So, yeah, I'll try to surface more.\par
+\pard\f0\fs20 And we've talked about getting a channel like Slack Channel going, and I think Jason started that again, and I've just.\par
+\pard\f0\fs20 Not been on top of it because I went away, you know, what happened.\par
+\pard\f0\fs20 Last time when he started it, too.\par
+\pard\f0\fs20 And I'm like, man, excuse my language.\par
+\pard\f0\fs20 But that I think would be the best place to share a lot more rapidly.\par
+\pard\f0\fs20 And then it's not.\par
+\pard\f0\fs20 And then that can help.\par
+\pard\f0\fs20 We can help each other in that.\par
+\pard\f0\fs20 Regard because, yeah, I'm usually building one.\par
+\pard\f0\fs20 Or two side things to figure out the main project we're working on because.\par
+\pard\f0\fs20 It'S too delicate to do it the other way.\par
+\pard\par\f1\fs22\b\cf0 Myles Holt:\b0\par
+\pard\f0\fs20 I'll ping Jason about the Slack Channel.\par
+\pard\f0\fs20 I haven't heard him mention it, so that'd be cool.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, I want to try to meet him here soon enough.\par
+\pard\f0\fs20 And so I'll ping him about that.\par
+\pard\f0\fs20 Too, because there's enough of us, and I think the interest is there and.\par
+\pard\f0\fs20 The movement of things is more than once a week.\par
+\pard\f0\fs20 So I'll open.\par
+\pard\f0\fs20 I'll chime out now on that because that's a good note, this positive note.\par
+\pard\f0\fs20 To do and bringing that conversation of the.\par
+\pard\f0\fs20 The demonstration conversation to that space.\par
+\pard\f0\fs20 And then we can see what percolates as a result of that and have more dialogue in our meetings next week.\par
+\pard\f0\fs20 All right, Hanif, I will see you tomorrow.\par
+\pard\f0\fs20 Fulvio, I'll see you in minutes.\par
+\pard\f0\fs20 And no figures.\par
+\pard\f0\fs20 Thanks.\par
+\pard\f0\fs20 Oh, And Ying.\par
+\pard\f0\fs20 Bye.\par
+\pard\f0\fs20 Oh hey, you have your hand again.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Can you hear me?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yes, I can hear you.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Sorry I'm off camera because I'm packing and I'm leaving for conference in about 40 minutes.\par
+\pard\f0\fs20 Of course, just have a quick comment.\par
+\pard\f0\fs20 Thank you so much for showing the demo.\par
+\pard\f0\fs20 My comment is again I'm not trying to criticize, just view from consumers perspective, I think the demo you showed is amazing.\par
+\pard\f0\fs20 But from consumers perspective, users perspective, that's more from what you have done.\par
+\pard\f0\fs20 If I were you, I will go back and talk to the team and say what is the pain points our solution actually can solve what a painkiller we can provide to solve exactly what kind of pain organizations facing.\par
+\pard\f0\fs20 Do they need better decisions or do they trust the agent to help them making decisions like what exactly they need?\par
+\pard\f0\fs20 That's my feedback.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yes, that's what we do.\par
+\pard\f0\fs20 And yeah, no, we have a whole.\par
+\pard\f0\fs20 Discovery process that we go through with with prospects.\par
+\pard\f0\fs20 What I'm showing here is experiments in directions to see if that's an opportunity.\par
+\pard\f0\fs20 For us to go in.\par
+\pard\f0\fs20 What I've uncovered with the utility of.\par
+\pard\f0\fs20 Using MCPS inside environments where there's a chatbot is that you can do interesting.\par
+\pard\f0\fs20 Research and you can actually build product.\par
+\pard\f0\fs20 Meaning you come out with results that show that things are possible.\par
+\pard\f0\fs20 And once you can show something is possible, then you can see if there.\par
+\pard\f0\fs20 Is an opportunity in the marketplace for it.\par
+\pard\f0\fs20 If people are asking for things and we had somebody discussing the fact that.\par
+\pard\f0\fs20 They have problems with the fact that they're going through transformational change at the.\par
+\pard\f0\fs20 At the scale of billions of dollars and they're worried about leadership in the.\par
+\pard\f0\fs20 Capacity all really soft things that they don't have any way of modeling in a sophisticated way.\par
+\pard\f0\fs20 And so to look at a way of figuring that out is, is to.\par
+\pard\f0\fs20 It just started presenting itself and.\par
+\pard\f0\fs20 And it was an echo of something.\par
+\pard\f0\fs20 Previously that I'd done.\par
+\pard\f0\fs20 How it's represented is absolute garbage.\par
+\pard\f0\fs20 But the under underlying pattern, just like with the delegators, I think it's super powerful.\par
+\pard\f0\fs20 Take.\par
+\pard\f0\fs20 Take your past history of conversations.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Yeah, I have no doubt.\par
+\pard\f0\fs20 Yeah, I have no doubt about the power.\par
+\pard\f0\fs20 I feel you're overestimate the.\par
+\pard\f0\fs20 The capability and the how to say the knowledge the users may have.\par
+\pard\f0\fs20 I think even for the leaders what they need to see.\par
+\pard\f0\fs20 It's really a practical, simple example.\par
+\pard\f0\fs20 Say hey, this is the struggle you may have.\par
+\pard\f0\fs20 This is how we solve the problem.\par
+\pard\f0\fs20 Like because this is too gigantic to digest, I would feed them in smaller pieces and then linking them together and say hey, this is.\par
+\pard\f0\fs20 This is a simple Example uses, and this is another simple example.\par
+\pard\f0\fs20 You use it and then link it together because they need to sell it to the organization.\par
+\pard\f0\fs20 Even the leaders are, you know, they have holistic view of the company.\par
+\pard\f0\fs20 They have way more information.\par
+\pard\f0\fs20 There's the information asymmetry.\par
+\pard\f0\fs20 They have way more information than their employees.\par
+\pard\f0\fs20 And eventually they will use it.\par
+\pard\f0\fs20 Their employee may use it.\par
+\pard\f0\fs20 So, so give them how to say, like write a script.\par
+\pard\f0\fs20 They can easily communicate this with their employee.\par
+\pard\f0\fs20 Because every employee's mindset is, I already have tons of work on my plate and now you want me to learn something new like why?\par
+\pard\f0\fs20 So I think that's where my question coming from.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, so the, the whole point of any of the type of work where you're doing any simulations is to have.\par
+\pard\f0\fs20 Scenarios that are meaningful for you and.\par
+\pard\f0\fs20 The MCPs working inside Claude, where I was saying I wanted to understand how I could do this, it uncovered three scenarios that actually did occur in my organization in the last hundred meetings and.\par
+\pard\f0\fs20 Were discussed from problem or understanding of.\par
+\pard\f0\fs20 Problem to solution, to seeing path out.\par
+\pard\f0\fs20 And then seeing metrics of success.\par
+\pard\f0\fs20 Those were all there.\par
+\pard\f0\fs20 The team can actually point to them.\par
+\pard\f0\fs20 And we have been able to find markers in our conversation around that and.\par
+\pard\f0\fs20 Pointed to three different scenarios that were recognizable that occurred in our company and that we could then start to model around to then see if our modeling was actually capable of producing similar results.\par
+\pard\f0\fs20 And that is in itself organizational design.\par
+\pard\f0\fs20 And it's an opportunity for us to explore it in a whole new interesting way.\par
+\pard\f0\fs20 But it comes down to scenarios.\par
+\pard\f0\fs20 It comes down to do you have.\par
+\pard\f0\fs20 These problems where you're introducing new leadership into an organization?\par
+\pard\f0\fs20 And everybody does have that problem right now.\par
+\pard\f0\fs20 They have AI as a transformational problem.\par
+\pard\f0\fs20 They have a new role they're assigning.\par
+\pard\f0\fs20 Somebody to who has.\par
+\pard\f0\fs20 Has to learn faster than the rest of the organization, has to do more.\par
+\pard\f0\fs20 Work to keep up with things, and.\par
+\pard\f0\fs20 Then to pull the rest of the art with them.\par
+\pard\f0\fs20 That's never been there before.\par
+\pard\f0\fs20 And so there's a high stress on any organization that is relying on that role.\par
+\pard\f0\fs20 Where we traditionally would have somebody in finance that we're confident with that to.\par
+\pard\f0\fs20 Be able to do for a company.\par
+\pard\f0\fs20 And so the CEOs and the chairmans.\par
+\pard\f0\fs20 That'S who's this discussion is with.\par
+\pard\f0\fs20 They have the concern of not even looking at the specific individuals, but how.\par
+\pard\f0\fs20 The things are structured and seeing if that's an opportunity.\par
+\pard\f0\fs20 And for us it came down to structure.\par
+\pard\f0\fs20 And so I'm like, these are all things that seem to be reasonable in terms of how we would go about Things, the demonstration of it, it's garbage.\par
+\pard\f0\fs20 What's underneath it that's a reasonable approach to research.\par
+\pard\f0\fs20 And I don't see in terms of our approach to how we would discuss things with this individual.\par
+\pard\f0\fs20 I don't have any other way of framing things as to how we would uncover what they would do other than doing interviews and surveys, which is getting.\par
+\pard\f0\fs20 Us the same sort of data.\par
+\pard\f0\fs20 So there's a unique way of doing that.\par
+\pard\f0\fs20 I don't think they need to understand that there's jam around that.\par
+\pard\f0\fs20 Nobody does.\par
+\pard\f0\fs20 The AI itself as an experience, if we're asking questions of our own data and we know that we're doing that, I think that's super powerful.\par
+\pard\f0\fs20 And I think somebody like James does that all day long in different systems.\par
+\pard\f0\fs20 I think if you had one interface where he had a bunch of systems.\par
+\pard\f0\fs20 Coming together, he'd see the value like I did with the delegator, the agents, and then the background noise of.\par
+\pard\f0\fs20 So it's.\par
+\pard\f0\fs20 I appreciate trying to connect the dots directly to hitting the individuals in an org.\par
+\pard\f0\fs20 And that has been a distinct concern.\par
+\pard\f0\fs20 Our organization is looking at education as a significant opportunity and not education at.\par
+\pard\f0\fs20 The level of like, how do you prompt?\par
+\pard\f0\fs20 But education at the level of how do you prompt in a policy environment.\par
+\pard\f0\fs20 That has measurable metrics of success in.\par
+\pard\f0\fs20 Terms of achieving goals through the path of adoption.\par
+\pard\f0\fs20 And that's a really neat way of looking at things.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 I have two quick points and I have to get off.\par
+\pard\f0\fs20 First is, yeah, I agree, you mentioned they need to identify what problem they want to solve.\par
+\pard\f0\fs20 But I want to make a counter argument, especially in the marketing space.\par
+\pard\f0\fs20 Many times the users actually don't know know the problem they have.\par
+\pard\f0\fs20 Like for instance, we previously only have Classic Coke and then the marketers come up with a zero Coke and then that comes with like a blueberry flavor into peach flavor.\par
+\pard\f0\fs20 Customers never really ask, but that's what the marketing is leading the road.\par
+\pard\f0\fs20 So I think for the product, if you can demonstrate the things they never thought about, maybe they can see value in it.\par
+\pard\f0\fs20 So that's the first thing.\par
+\pard\f0\fs20 And the second, well, on top of they realize what problem they have, they can come to you, ask you to help them solve the problem.\par
+\pard\f0\fs20 So there's two things.\par
+\pard\f0\fs20 One is they identify the problem.\par
+\pard\f0\fs20 The second is you actually help them to identify things they don't know actually exist.\par
+\pard\f0\fs20 And the second one is, again, I think we all hang out with people who are more knowledgeable about AI agent, authentic AI, because we're living in this ecosystem.\par
+\pard\f0\fs20 But the reality is people outside the circle they have minimum knowledge about all those almost you have to talk to them as if you're talking to like, I don't know, 18 years old to you know, feed really small, like, like feeding small chunk of knowledge and make them buy in.\par
+\pard\f0\fs20 Because if you put too big of picture, people don't like uncertainty and they don't like the things they don't know.\par
+\pard\f0\fs20 So that's from psychology perspective.\par
+\pard\f0\fs20 Like if you can get them to buy in small things, that's the consistent theory.\par
+\pard\f0\fs20 If they say yes to a small thing, they're more likely to sell, say yes to bigger things.\par
+\pard\f0\fs20 That's, that's just a human nature.\par
+\pard\f0\fs20 So I, I might, you know, like thinking from your sales team's perspective.\par
+\pard\f0\fs20 Yes, you want to present this super powerful gigantic system can solve pretty much all the organization problem is that's too big.\par
+\pard\f0\fs20 If I don't understand, my resistance level will be high as a leader because I, I don't want to sign up on something I have absolutely no clue.\par
+\pard\f0\fs20 Does that make sense?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah, no.\par
+\pard\f0\fs20 So the whole effort of the experiment was to see if we could position.\par
+\pard\f0\fs20 Research in the way that the software.\par
+\pard\f0\fs20 Is pointing to, if that was something.\par
+\pard\f0\fs20 That they actually can, you know, currently did, or they do that kind of.\par
+\pard\f0\fs20 Research with surveys or something along the lines.\par
+\pard\f0\fs20 But yes, I don't think that presenting any of any of my software to anybody has solved any problems for them because that's not the point of it.\par
+\pard\f0\fs20 At least it hasn't been directly when we're dealing with market research, it has.\par
+\pard\f0\fs20 Because that's solvable and understood.\par
+\pard\f0\fs20 But yeah, there's a distance between what they have as expectations and desires and what we have as his capabilities and.\par
+\pard\f0\fs20 Wanting to push solutions.\par
+\pard\f0\fs20 And there is a discovery page page that we normally would pull and use and right now it's being laundered for educational purposes and protracted in a way that doesn't allow for sales to be understood as easily.\par
+\pard\f0\fs20 And it's not being pursued only through using software and what we have.\par
+\pard\f0\fs20 And in fact, how I would like to write about Worksona is why worksona and why we even use it.\par
+\pard\f0\fs20 And it's the same reason as ever given that there's about 3,000 different platforms.\par
+\pard\f0\fs20 Out there now for creating anything in Gentex, you can spin them up and.\par
+\pard\f0\fs20 You take a course with Andrew Ng and he's like, here's how you do one, here's how you spin your own up in Python, I just spun one up with JavaScript using some documentation.\par
+\pard\f0\fs20 So the distance is still beyond, is getting them beyond the news into something practical is a train of thought that.\par
+\pard\f0\fs20 Can be turned into either research or experiments or work.\par
+\pard\f0\fs20 And if you have a little widget of a project and you're trying to.\par
+\pard\f0\fs20 Sell it to an enterprise, you're fucked.\par
+\pard\f0\fs20 You're just fucked because your widget of.\par
+\pard\f0\fs20 A project just turned into something OpenAI.\par
+\pard\f0\fs20 Last week or next week, they're chewing.\par
+\pard\f0\fs20 Away at all of anything.\par
+\pard\f0\fs20 And so, you know, LangChain just came.\par
+\pard\f0\fs20 Out with their own workflow editor.\par
+\pard\f0\fs20 They just felt apologized because of the timing on it.\par
+\pard\f0\fs20 And everybody that's coming out with a workflow editor is just like, yeah, everybody's got one and they're all node based.\par
+\pard\f0\fs20 And I didn't start making one 9 months ago too because of the fact that N8N pointed out the direction.\par
+\pard\f0\fs20 So there's, there's a, like, there's a great deal of busyness on, on, on one side and a great deal of apprehension on the other.\par
+\pard\f0\fs20 And then being at AI, there's this motivator we have in Canada that's trying.\par
+\pard\f0\fs20 To actually wedge that as a, into into action.\par
+\pard\f0\fs20 But there's still this unique fear in the marketplace that is different than before.\par
+\pard\f0\fs20 When it comes to software.\par
+\pard\f0\fs20 And, and the fear is, is I think it's because of the mainlining of news and the wholehearted consumption of news.\par
+\pard\f0\fs20 And the lack of practical application of the ideas behind the news.\par
+\pard\f0\fs20 And so the bubble is about to burst.\par
+\pard\f0\fs20 I think it's been going on for quite a long time.\par
+\pard\f0\fs20 And the desire to actually consume energy might be what people recognize they're doing it.\par
+\pard\f0\fs20 But by investing in these data centers.\par
+\pard\f0\fs20 And so they might recognize the end.\par
+\pard\f0\fs20 Game or they might not.\par
+\pard\f0\fs20 But right now the whole game is to build data centers.\par
+\pard\f0\fs20 That's all the money is going.\par
+\pard\f0\fs20 And if I believe what Jen, what.\par
+\pard\f0\fs20 Carol has told me, we can get away since we're not doing training per se yet.\par
+\pard\f0\fs20 And even then it's changing daily.\par
+\pard\f0\fs20 The accessibility of that's changing rapidly.\par
+\pard\f0\fs20 We can get away with a lot.\par
+\pard\f0\fs20 Less tech behind the scenes to do rapid work, especially get off of the major vendors.\par
+\pard\f0\fs20 So things are changing rapidly and getting more sophisticated and we can have different responses.\par
+\pard\f0\fs20 And we're thinking about going on prem because of the type of work we're.\par
+\pard\f0\fs20 Going and that gets us into the.\par
+\pard\f0\fs20 Sovereignty conversation, makes things more sophisticated and.\par
+\pard\f0\fs20 Yeah, understood.\par
+\pard\f0\fs20 So was that like a really articulate understanding of a fuzzy concept?\par
+\pard\f0\fs20 That's where we're at?\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Yeah, okay.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Really articulate understanding of sales, but the.\par
+\pard\f0\fs20 Concept is fuzzy as to how to sell, how, you know, as, as how it's understood.\par
+\pard\f0\fs20 So it's a, it's, it's, it's a really good problem to continually approach and.\par
+\pard\f0\fs20 That is what is the product.\par
+\pard\f0\fs20 And we're now not selling works on it as product.\par
+\pard\f0\fs20 We stopped doing that and sell it as process and, and I had to.\par
+\pard\f0\fs20 Stop selling it as product when I.\par
+\pard\f0\fs20 Had to figure out how to piggyback.\par
+\pard\f0\fs20 It on top of other things.\par
+\pard\f0\fs20 And I was happy to do that because it's a high level API.\par
+\pard\f0\fs20 But again that's just a strategic thing technically and it hasn't won any business.\par
+\pard\f0\fs20 It's just, it just allows to ride the wave of things.\par
+\pard\f0\fs20 And so I think the biggest part of staying involved with this stuff is the conversation around what we have in this room.\par
+\pard\f0\fs20 Meaning like how do you solve the social side of this while still, still staying fully engaged and get ahead of it?\par
+\pard\f0\fs20 Right now my consumption is to stay.\par
+\pard\f0\fs20 Up with it and not get ahead of it in terms of trying to provide leadership on how to use it.\par
+\pard\f0\fs20 First you need to get more people working with us.\par
+\pard\f0\fs20 And then it's like, okay, now that we've got you in the track, we're gonna make things better.\par
+\pard\f0\fs20 And that's what we've as we do software.\par
+\pard\f0\fs20 It was, it was all about efficiency.\par
+\pard\f0\fs20 And optimization or you could even say it was a big three.\par
+\pard\f0\fs20 But it's, it's an understood path and bespoke software is often quite helpful.\par
+\pard\f0\fs20 But bespoke software attached to an LLM.\par
+\pard\f0\fs20 That'S ever increasing in its values.\par
+\pard\f0\fs20 It's weird interface and it can be the wag the tail kind of experience unless there's real business chutzpah.\par
+\pard\f0\fs20 That's why my team is growing.\par
+\pard\f0\fs20 But.\par
+\pard\f0\fs20 We still have this consumption on.\par
+\pard\f0\fs20 The other side of news and where to focus.\par
+\pard\f0\fs20 That's super challenging.\par
+\pard\f0\fs20 That's the biggest arbiter of business I believe is the news.\par
+\pard\f0\fs20 But I'm late.\par
+\pard\f0\fs20 I'm already two minutes late for another meeting because I started rambling there and thank you, Ying.\par
+\pard\f0\fs20 Those are questions that will keep pounding away at every time we see demonstration.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Yeah, thank you so much for sharing.\par
+\pard\f0\fs20 I learned a lot.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay, cheers everyone.\par
+\pard\f0\fs20 Bye.\par
+\pard\par\f1\fs22\b\cf0 Ying:\b0\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 Bye.\par
+}

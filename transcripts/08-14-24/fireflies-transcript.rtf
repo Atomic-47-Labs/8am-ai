@@ -1,0 +1,1293 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI School\b0\par
+\pard\qc\f1\fs20 8/14/2024 \bullet 1min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: eric@scroll.ca,jason@jasonadam.ca,giroday@gmail.com,hanif.janmohamed@gmail.com, eric@scroll.ca, giroday@gmail.com, hanif.janmohamed@gmail.com, jason@jasonadam.ca\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 It.\par
+\pard\f0\fs20 Good morning, Foveo and Eric, can you hear me?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I can.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Eric, I'd like you to meet Foveo.\par
+\pard\f0\fs20 Fove, Eric.\par
+\pard\f0\fs20 Hello.\par
+\pard\f0\fs20 Folvio.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Nice to meet you.\par
+\pard\f0\fs20 Eric.\par
+\pard\f0\fs20 Pleasure.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Nice to meet you.\par
+\pard\f0\fs20 Eric and I go back a fairly long time as friends in compadres and he works in the tech space as a.\par
+\pard\f0\fs20 For emojio Mojio.\par
+\pard\f0\fs20 I don't know.\par
+\pard\f0\fs20 The company has to do with Internet of things.\par
+\pard\f0\fs20 Internet of things.\par
+\pard\f0\fs20 Everyone likes that one.\par
+\pard\f0\fs20 And I'm collaborating with Folio on some projects, particularly the haiku project and some.\par
+\pard\f0\fs20 A couple of other projects.\par
+\pard\f0\fs20 We're trying to get into the pipe in terms of production work.\par
+\pard\f0\fs20 And he's joining now today, I guess, to see what's going on.\par
+\pard\f0\fs20 And I sent out an.\par
+\pard\f0\fs20 I shared something earlier in the week and I said I was going to be here at 08:00 a.m.\par
+\pard\f0\fs20 but I don't know if Neef, he did mention it.\par
+\pard\f0\fs20 I don't know if he'll make it or not.\par
+\pard\f0\fs20 What I was going to do is review a couple of things today in the way of providing a view as to what I feel I'm going to be releasing through work Sauna Kobe.\par
+\pard\f0\fs20 One of the things that the team here has been a part of, there's like three or four other people that kind of come in and go out.\par
+\pard\f0\fs20 They've been sort of viewing and experiencing along with me.\par
+\pard\f0\fs20 I do my work and then I present and provide a view on that and show how some of it works.\par
+\pard\f0\fs20 And then I then in many cases, I will make my tools accessible for the team and they can use them as they will.\par
+\pard\f0\fs20 And sometimes they do and we talk about that.\par
+\pard\f0\fs20 But where I've gotten to in things of with workzone is being able to provide like a spreadsheet understanding of things.\par
+\pard\f0\fs20 Meaning my dog needs to open.\par
+\pard\f0\fs20 Working with spreadsheets to provide both the database and the structure for prompting.\par
+\pard\f0\fs20 And what I'm going to walk through today is a number of different, what I would call agencies that I've built that have agents that do work around a theme or something like that.\par
+\pard\f0\fs20 And to step back a little bit, I'm going to be bucketing products for work Sona into three different kind of groups.\par
+\pard\f0\fs20 It's my daughter's 18th birthday today, you guys.\par
+\pard\f0\fs20 Sarah turned 18.\par
+\pard\f0\fs20 Are you kicking her out?\par
+\pard\f0\fs20 She's kicking herself out slowly.\par
+\pard\f0\fs20 She's accepted a Du vic and she's taking a year off.\par
+\pard\f0\fs20 So she'll be going there next year.\par
+\pard\f0\fs20 But I wanted to bring this up.\par
+\pard\f0\fs20 So this is kind of how I'm bucketing, ways in which I can provide the experience and how I can roll it out.\par
+\pard\f0\fs20 And what we've been working with in terms of the thematics is the scrubs, these minimum viable agents.\par
+\pard\f0\fs20 What I call a scrub, like a redneck agent, that's just maybe five lines of code, which is words, and it does some stuff.\par
+\pard\f0\fs20 But what I've got is a lot of examples of different kinds of prompting environments, scenarios, agents doing things in situations.\par
+\pard\f0\fs20 One of the buckets I have is situation rooms, where you're pitching.\par
+\pard\f0\fs20 Hello, Hanif.\par
+\pard\f0\fs20 You're either pitching to a person, a group, you're either an artist, you're an entrepreneur, or you're in debate.\par
+\pard\f0\fs20 And I have those scenarios where you have a corpus of work and your Persona is pitching to another, other Personas and getting feedback.\par
+\pard\f0\fs20 So I have a series of situation rooms, which are you getting that reciprocal feedback to yourself?\par
+\pard\f0\fs20 So a one on one experience collaborating with you and an agent, and then the next group of sort of experiences that I would offer is that agency how to work with an agency, how to have, like, a high level goal handed off to a meta or a manager agent.\par
+\pard\f0\fs20 And the manager agent then works with a series of agents, like.\par
+\pard\f0\fs20 Like these ones, like a product, a product describer, a market researcher, a consumer researcher, a copyright, and an advertorial writer.\par
+\pard\f0\fs20 Those are kind of direct to consumer focused agents.\par
+\pard\f0\fs20 And why they're a scrub is because, oh, that's not a scrub.\par
+\pard\f0\fs20 These are.\par
+\pard\f0\fs20 These are actually the full agents.\par
+\pard\f0\fs20 It's like the full description.\par
+\pard\f0\fs20 Like, this is a pretty bang on agent, man.\par
+\pard\f0\fs20 But the scrub, as we know, it's just this little, like, role responsibilities and backstory kind of thing.\par
+\pard\f0\fs20 And so the scrubs are meant to eventually be sort of this very simple composite of a goal backstory and a task which would then have some sort of work products associated with it, expected outputs and an expected input.\par
+\pard\f0\fs20 And so this spreadsheet here is kind of like another agency of types.\par
+\pard\f0\fs20 This is the one that I want for me, for my kind of work, I want to have more smaller, specific agents that do certain kinds of analysis.\par
+\pard\f0\fs20 And then I bring it together myself.\par
+\pard\f0\fs20 I like that process.\par
+\pard\f0\fs20 So mine are like, what's this?\par
+\pard\f0\fs20 I need something, just a strategy.\par
+\pard\f0\fs20 So it just focuses on 20, not just strategies, like 26 different frameworks for strategy, of course, because it's me, but I would say use the top three, and then I would do something like that, and then an analyzer.\par
+\pard\f0\fs20 And so this work that I've done to establish, like, these are the things that I think I do.\par
+\pard\f0\fs20 Here's what they kind of need to be able to do, the work products generally associated with them and then how to get them to do things.\par
+\pard\f0\fs20 And then I will go further, and then I will describe a work product as a template so that my scrubs or my agents in this spreadsheet will like, okay, here's the agents.\par
+\pard\f0\fs20 Here's their work products.\par
+\pard\f0\fs20 What's the work product look like?\par
+\pard\f0\fs20 Well, it'd be best if I had really good examples of output products, like work products, like an overall strategy document, and then it could conform to that.\par
+\pard\f0\fs20 But I, here's a good outline of one, and then that's the goal and the audience and then KPI.\par
+\pard\f0\fs20 So that's enough for me to hand off an assignment, those bits of information.\par
+\pard\f0\fs20 And I can say, here it is.\par
+\pard\f0\fs20 This is the work product and the outline, and this is the associated person that does, at night seem to have a lot of them.\par
+\pard\f0\fs20 So already this as a spreadsheet, having agents and work products, it can figure out the tasks associated with that, and then it can go to town on that.\par
+\pard\f0\fs20 So this is a, you know, this a one thing is almost functional as a, as an agency that can be deployed, and I will show you how to do that.\par
+\pard\f0\fs20 I forwarded this one earlier in the week as another form of somebody using a spreadsheet to create kind of an engine for building dolly.\par
+\pard\f0\fs20 This is an older one, so it's dolly, two prompts, but, you know, you can do whatever.\par
+\pard\f0\fs20 And I'm kind of going down that route too.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because I want to be able to create images, these hagas for haikus that are very predictable.\par
+\pard\f0\fs20 And so this spreadsheet kind of allows you to say, well, yeah, that's styles.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Artists, you know, those are the biggies you can point to and formats.\par
+\pard\f0\fs20 Well, that actually makes things functional in that way.\par
+\pard\f0\fs20 Like I say, making an old style postcard, and it does a good job.\par
+\pard\f0\fs20 Boosters, that's somehow like, these are adjectives that you can add to the prompts that are really powerful.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So we're going to get to my idea of madlibs.\par
+\pard\f0\fs20 My idea of employing madlibs.\par
+\pard\f0\fs20 Yeah, two guys came up with in the fifties, man, they're smart.\par
+\pard\f0\fs20 And then vibes, I guess these would be like this, the feely things like emotive components and then perspectives, that that's the camera work.\par
+\pard\f0\fs20 So that's actually direction.\par
+\pard\f0\fs20 And then, you know, there's a workflow.\par
+\pard\f0\fs20 Like, that's the madlib thing that I'm kind of getting at.\par
+\pard\f0\fs20 It's like the workflow is you have a subject and a style and the format you want to get output, and it has these adjectives describe it, and there's these weights you can say, make it more this and that, and then the output is, you know, somehow baked all of that.\par
+\pard\f0\fs20 And then the three different engines that were available at the time, the person actually provided that view on.\par
+\pard\f0\fs20 So that's a fairly powerful spreadsheet.\par
+\pard\f0\fs20 Not to use it maybe, but to break down the elements.\par
+\pard\f0\fs20 And so I provided that as to show you that this is a sort of a genre of way of working, building up capacity in a spreadsheet, using it as a database, and then building more around that.\par
+\pard\f0\fs20 And so that mad lib kind of thing.\par
+\pard\f0\fs20 Like, here's the formula, right?\par
+\pard\f0\fs20 These are like formulaic components that you would like to add to a description to find an image.\par
+\pard\f0\fs20 And that's kind of the workflow of the prompt.\par
+\pard\f0\fs20 It's saying, do these things in this order.\par
+\pard\f0\fs20 And so if we take that idea and say, you know, like the madlib thing that I've been kind of getting at, here's a version of an agent as a madlib, you know, act like a specific role.\par
+\pard\f0\fs20 You will need, I need you to do something, and then I need something.\par
+\pard\f0\fs20 So work product or thought or something, and then you will need to do a task to get that.\par
+\pard\f0\fs20 Many of the things I do like, that's what I want them to figure out is the task.\par
+\pard\f0\fs20 But in the process that you should uncover something.\par
+\pard\f0\fs20 Maybe KPI's.\par
+\pard\f0\fs20 That's a good one.\par
+\pard\f0\fs20 And please note not to do something or to do something.\par
+\pard\f0\fs20 So that's what I call the low level policies.\par
+\pard\f0\fs20 These are very specific.\par
+\pard\f0\fs20 Don't use commas or use Oxford commas.\par
+\pard\f0\fs20 Please input the final result in a format.\par
+\pard\f0\fs20 So conform to this format.\par
+\pard\f0\fs20 Again, another sort of what I call low level policy, because it's at the end saying, put it in a Persona of this shape.\par
+\pard\f0\fs20 And here's an example.\par
+\pard\f0\fs20 Of course, every time we can provide an example to the LLM, it then says, well, I'll just make it look like that.\par
+\pard\f0\fs20 And it will look for the information that will make it say, shaped like that.\par
+\pard\f0\fs20 So it's formative to provide, you know, structured data.\par
+\pard\f0\fs20 And so this is like, if I have a spreadsheet with those broken out.\par
+\pard\f0\fs20 Oh, maybe I do.\par
+\pard\f0\fs20 Here's that, and here's the sort of, this is what it looks like as a pseudo code, kind of.\par
+\pard\f0\fs20 These are the variables.\par
+\pard\f0\fs20 Like act like a role, and then you go to role, and here's all your roles.\par
+\pard\f0\fs20 Trusted consultant, dedicated research, you see how they have like a qualifying adjective there.\par
+\pard\f0\fs20 It just gives it some oomph, right.\par
+\pard\f0\fs20 My first thing I would test is pull that word out and see what results you got.\par
+\pard\f0\fs20 And if you can reduce the fluff, then good but proficient web designer.\par
+\pard\f0\fs20 So here the role, the needs are.\par
+\pard\f0\fs20 I want a web page.\par
+\pard\f0\fs20 The tasks would be analyze a web page and then calculate the time to build the webpage, design the webpage, generate the page, simulate a web page.\par
+\pard\f0\fs20 I'm actually wondering if these aren't maybe everything that you do, right?\par
+\pard\f0\fs20 Like there's probably a list of everything you do in the vein of starting like a thought to finishing a project.\par
+\pard\f0\fs20 And they're probably only a handful of things.\par
+\pard\f0\fs20 This is 30 things.\par
+\pard\f0\fs20 And so what I've gone about doing is like, okay, so I got those and I tried to define what one of those tasks would be, right?\par
+\pard\f0\fs20 So adapt.\par
+\pard\f0\fs20 I could just say adapt.\par
+\pard\f0\fs20 But I'm like, what is adapt?\par
+\pard\f0\fs20 It could be like one of these archetypal words, but then I'm like, well, I got to use it.\par
+\pard\f0\fs20 So I know if I describe, describe the use of it, that's actually functional.\par
+\pard\f0\fs20 And so I go back into my research.\par
+\pard\f0\fs20 This is a research kind of, like I say, research and civil framework.\par
+\pard\f0\fs20 This is all kind of breaking it out into what it looks like.\par
+\pard\f0\fs20 Here's the roles, the tasks, and then the output formats.\par
+\pard\f0\fs20 So that's coming along nicely for what I did next.\par
+\pard\f0\fs20 And that is create the questions that would then allow people to then go through a process of saying, just answer three questions and then export me a prompt and pop it into whatever inference engine I like.\par
+\pard\f0\fs20 I just use this crazy phrase called inference engine.\par
+\pard\f0\fs20 And that's what's happening when you work at the level, almost always at the level of working in an alarm.\par
+\pard\f0\fs20 It's inferring some meaning.\par
+\pard\f0\fs20 And there's one called grok, groq.com comma.\par
+\pard\f0\fs20 It's like the spankiest, fastest inference engine right now.\par
+\pard\f0\fs20 And they have a hardware software solution.\par
+\pard\f0\fs20 And the idea here is I would like to provide this middleware piece where it does all this kind of interesting work, but instead of giving it a zero shot, like, I need a web page, it's like I need a new version of a web page based on this criteria.\par
+\pard\f0\fs20 And then maybe some tasks that are specific and so that you're just doing this kind of thing, I added key aspects of adaptation because adaptation is such a weird thing and so is, so is all of, so were all of these, like, analyze.\par
+\pard\f0\fs20 It is just one act, but the context of it is so deterministic.\par
+\pard\f0\fs20 And so that's what I was trying to get at with, it's a key aspect.\par
+\pard\f0\fs20 And then here's how the madlib can play out, right, for what it means to adapt anything.\par
+\pard\f0\fs20 First I was like, adapt.\par
+\pard\f0\fs20 And it's like, it's trying to adapt itself, right?\par
+\pard\f0\fs20 I'm like, oh, okay, so the thing wants to adapt like the agent wants to adapt.\par
+\pard\f0\fs20 I'm like, yeah, that's way advanced.\par
+\pard\f0\fs20 What we want is the agent to adapt something.\par
+\pard\f0\fs20 And so I said, adapt some content.\par
+\pard\f0\fs20 And I'm like, okay, so now it's not even like, first it was text.\par
+\pard\f0\fs20 I'm like, content.\par
+\pard\f0\fs20 Okay, so now it's applying it.\par
+\pard\f0\fs20 It could be various forms of media.\par
+\pard\f0\fs20 Yeah, that's good.\par
+\pard\f0\fs20 And then I'm like, input, maybe that's a better word.\par
+\pard\f0\fs20 Adapt the input.\par
+\pard\f0\fs20 And then the input could be structured information, it could be a, it could be another spreadsheet, it could just be like XML, it could be JSON.\par
+\pard\f0\fs20 And then whatever it is, I'm not determining too much meaning by saying text, I'm saying input.\par
+\pard\f0\fs20 And it's going to have to figure out something about that input.\par
+\pard\f0\fs20 So I'm inferring that it will do some inference based on the structure of what I put in there.\par
+\pard\f0\fs20 So I made this fairly generalized saying that there was going to be some sort of adaptation with these aspects that would be adapted.\par
+\pard\f0\fs20 And this is how you would know it would be adapted and then be, you know, my thing is to be able to score everything, right?\par
+\pard\f0\fs20 And so then score it according to these.\par
+\pard\f0\fs20 This is not the full definition, but according to what a one, a 51234 and five is.\par
+\pard\f0\fs20 And the reason scoring is important is because I have a step after that called self reflection, where the act, the agent will do this.\par
+\pard\f0\fs20 Okay, here's my response I've been asked to reflect on.\par
+\pard\f0\fs20 Is it clear, is it concise?\par
+\pard\f0\fs20 And does it provide confidence to the end user?\par
+\pard\f0\fs20 And so that's its way of saying I have to reflect on whether it's achieved these high level goals for the end.\par
+\pard\f0\fs20 And so it will go back and edit the content.\par
+\pard\f0\fs20 And almost always from, okay, how about this?\par
+\pard\f0\fs20 I've never seen where the self reflection doesn't do a better job of providing the content.\par
+\pard\f0\fs20 And if it finds the content okay, it will tell you the content is okay.\par
+\pard\f0\fs20 But it's like going in and doing QC on things.\par
+\pard\f0\fs20 And you could actually do, you could provide like the whole of a style guide or handbook as a series of low level, low level policies like this.\par
+\pard\f0\fs20 And they could play out as if it's not concise.\par
+\pard\f0\fs20 Follow these five tasks to make it concise.\par
+\pard\f0\fs20 And yes, folio.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, I'm asking a question without knowing, even if you know the answer, because I guess the answer doesn't matter in the sense that it's important that the act of the self reflection creates a better result.\par
+\pard\f0\fs20 But is what's happening that without the self reflection, you are getting just the intuitive response in the sense that it must answer, it provides an answer and it will give you the first answer.\par
+\pard\f0\fs20 Or is there more?\par
+\pard\f0\fs20 I guess there's more analysis happening as well because of the reflection, in the sense that it's a deeper analysis, because it's iterative in some way.\par
+\pard\f0\fs20 Is that what's happening?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So I'll provide steps.\par
+\pard\f0\fs20 So there'll be a task associated with things.\par
+\pard\f0\fs20 First of all, typically I'll get a query or a question or a task that's goal, and then distill that and then say how, strategize around it, plan.\par
+\pard\f0\fs20 And then once it has a plan, it will have some steps that it can go through.\par
+\pard\f0\fs20 So there's generalized tasks, review the content, do something, and then it can break things down into process steps, which is even further, like sub tasks.\par
+\pard\f0\fs20 And so it's behind the scenes, iterating on things, providing a view based on if you provide nothing, it will do a job of it.\par
+\pard\f0\fs20 If you provided a structure, it will go through the structure and build on it.\par
+\pard\f0\fs20 I created one agent that had 99 self reflections.\par
+\pard\f0\fs20 So it looked at one piece of text and it tried to add every different thing to it.\par
+\pard\f0\fs20 And it turned from two sentences to 101 sentences trying to qualify this one product.\par
+\pard\f0\fs20 So it was able to take these kind of policies and then modify the content after the content was created.\par
+\pard\f0\fs20 So this is the first pass, and then it would go through a self reflection, and then it says, evaluate the content using the appropriate chosen strategy based on content.\par
+\pard\f0\fs20 Now, I have in another document, of course, 27 strategies, and it can go through them a lot of the time.\par
+\pard\f0\fs20 I will bake them into an agent, but ideally I have a library system of strategies, and it goes and say, this is the best strategy.\par
+\pard\f0\fs20 And in fact, all my strategies, they're actually tasks.\par
+\pard\f0\fs20 And so I take tasks and convert them into strategies.\par
+\pard\f0\fs20 Anyways, this is this two step process.\par
+\pard\f0\fs20 What I will do is I will trace through it to see what happens and what the formal process for that will be in the next iteration of my experiments.\par
+\pard\f0\fs20 That is the next iteration of what I do.\par
+\pard\f0\fs20 I will label things before and afterwards, the labeling, meaning, is it good?\par
+\pard\f0\fs20 How do we know it's good, grade it, go through a process.\par
+\pard\f0\fs20 Is it better?\par
+\pard\f0\fs20 How do we know it's better?\par
+\pard\f0\fs20 Grade it.\par
+\pard\f0\fs20 And that will be all done right now, internally in one LLM.\par
+\pard\f0\fs20 But in the future, that grading that qualification would be a separate LLM, qualifying that this LLM is actually not hallucinating.\par
+\pard\f0\fs20 And so with this labeling component, you can ensure that things are actually clicking along on a certain workflow.\par
+\pard\f0\fs20 I'm creating all these, what we can call invisible layers that are behind the scenes are the agent's way of working through all of this.\par
+\pard\f0\fs20 So it will produce something.\par
+\pard\f0\fs20 You can actually encourage it not to hallucinate and not to give an answer if it doesn't have the material.\par
+\pard\f0\fs20 You can encourage it to focus on the corpus of material that you've given it.\par
+\pard\f0\fs20 You can do all kinds of rag and fine tuning, and I refuse to go down that road.\par
+\pard\f0\fs20 But you can provide it an access into the answer.\par
+\pard\f0\fs20 And then you can say, step back.\par
+\pard\f0\fs20 And this is what, this is literally a thing you can do.\par
+\pard\f0\fs20 Say, step back and analyze the problem from that position.\par
+\pard\f0\fs20 And it will do that.\par
+\pard\f0\fs20 And so the self reflection is that step back, step, and it will step back from itself.\par
+\pard\f0\fs20 And this is a kind of a metacritic role.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So the research that I've done is that no matter what is going on, you need a critic to provide feedback to that agent to then better its job.\par
+\pard\f0\fs20 And that critic can come from another LLM.\par
+\pard\f0\fs20 But right now, they all come internally from the same session.\par
+\pard\f0\fs20 And that critic sits in there, has a different role, has different strategies for analysis, and then come at it from a grading point of view, saying you're only a three.\par
+\pard\f0\fs20 That means that you do not have enough supporting material, generate more supporting material.\par
+\pard\f0\fs20 If you don't have enough supporting material, mention that you don't, and suggest how to get it.\par
+\pard\f0\fs20 And it does that.\par
+\pard\f0\fs20 And so you can call that a hallucination.\par
+\pard\f0\fs20 But if you take labeling before and afterwards and all the way through, you can see that it's tracking on information.\par
+\pard\f0\fs20 And so one of the things that I fell into the hole of is believing things.\par
+\pard\f0\fs20 And then what I fell out of is falling hard on to not believing anything.\par
+\pard\f0\fs20 And that meant that what I'm doing in this interim space has to be qualified, has to be, you have to see it, you have to be able to change it, and you have to be able to see how things move if you vary it.\par
+\pard\f0\fs20 So the spreadsheet is super powerful and allowing to have either a bunch of different agents work together or to have one agent do the same thing.\par
+\pard\f0\fs20 With slightly different variants in the workflow or slightly different concern for how you do that.\par
+\pard\f0\fs20 And then you can see how things move around.\par
+\pard\f0\fs20 And so I had a long conversation with Karen yesterday, trying to sort of relay how I'd like to roll this out.\par
+\pard\f0\fs20 And it didn't sit that well because of the fact that this is incredibly complex.\par
+\pard\f0\fs20 But if there's a few use cases where it's relatively simple to understand the value coming out of it, then you can have a relatively high level access of.\par
+\pard\f0\fs20 Here's my goal, here's some criteria for it.\par
+\pard\f0\fs20 And I have this resource of all these things sitting in here.\par
+\pard\f0\fs20 They have their own process.\par
+\pard\f0\fs20 I don't need to know too much about it, but if I wanted to, I could hear all the chatter going on between them, and I could see all of the fact that they are communicating and that there is something going on.\par
+\pard\f0\fs20 And it's not just a lie that everyone believes.\par
+\pard\f0\fs20 And so the challenge is one of fireflies does a lot of work to provide some sort of level of intelligence around conversations.\par
+\pard\f0\fs20 I do a lot of that work myself, too.\par
+\pard\f0\fs20 And then there's perplexity, which does a great deal of work for providing you factual information.\par
+\pard\f0\fs20 I use it all the time for structuring agents and structuring data.\par
+\pard\f0\fs20 And so where does work zone exit in all that?\par
+\pard\f0\fs20 Well, it's in the application of those, the application of ideas on top of those engines.\par
+\pard\f0\fs20 And so these structures of databases sitting as spreadsheets that have descriptions of actions, and they're just kind of entities and relationships, the LLM stitches a lot of that together.\par
+\pard\f0\fs20 I'm right now, I'm manually doing that, and it's painful and brittle.\par
+\pard\f0\fs20 And what I'm getting to is like defining all the elements with a great deal of more clarity around them.\par
+\pard\f0\fs20 And so I've broken out, works on it into what is ostensibly one on one.\par
+\pard\f0\fs20 You work with yourself, you work with some team, a scrub agents, you've got an agency, you've got a team that you can tell to do things, they can create things, you can make better decisions.\par
+\pard\f0\fs20 Those are the two things it does.\par
+\pard\f0\fs20 It create things and makes better decisions.\par
+\pard\f0\fs20 And then coalesce is the ability to take documents, any kind of conversation you've had, slice and dice and analyze it, and make it accessible as intelligence, either through chat or through generated automated reporting, which I've got versions of that happening because I share expressions of that.\par
+\pard\f0\fs20 And the ultimate kind of goal of all this would be to be able to monetize your own Persona as an agent and then constantly feed it relevant metadata for it to be what you want it to be as some sort of actor in other people's plays.\par
+\pard\f0\fs20 And so I've been pressured to, you know, in a good way by a lot of people from different angles to understand how to bring this to the market in a way that shows value that isn't just comparable to, or even less comparable to a lot of really high functioning platforms and agent network frameworks, but it is the application of them in a unique way, and how it scales up from individuals wanting to get better at presenting their own information to how do I work more effectively?\par
+\pard\f0\fs20 Well, with either augmenting my team with agents, having them shadow in some regard, or me having my own sort of little mini marketing agency, and then being able to work either as a small or medium sized organization and say, we have meetings all the time, it'd be great to have a corpus of intelligence around that, so that not only do we have these documents that can be parsed and better reported on and shared, but we can then extend them through this artificial simulation thing, where we can then have these collaborative efforts of a nascent workforce working collaboratively behind the scenes to provide more options and available scenarios for the team that has no resources.\par
+\pard\f0\fs20 And there's a great deal of organizations that I've been bumping up against that fit in all of these categories, especially the coalesce.\par
+\pard\f0\fs20 One is that they know that there's something there for AI.\par
+\pard\f0\fs20 They have all these meetings, somebody's doing all this work, and they get these watered down things at the end of them.\par
+\pard\f0\fs20 And so some of these tools, like fireflies, do enable meetings and conversation to be higher valenced.\par
+\pard\f0\fs20 But I've now kind of positioned all of the experiments I've gotten sort of the way that I've run through the realization of work zone as a concept, from just a stack of psychological concepts to how they interact as a network.\par
+\pard\f0\fs20 And I've determined that I can relatively quickly work with you lot to get the scrubs out and be the only graduates from the 08:00 a.m.\par
+\pard\f0\fs20 aI school and punt them out the door as a spreadsheet supported spreadsheet of functional scenarios where you can use it and load it up.\par
+\pard\f0\fs20 And to that goal, it would look a lot like just having a spreadsheet in Google sheets and being able to link it up.\par
+\pard\f0\fs20 Now, which one should I use?\par
+\pard\f0\fs20 We'll use a 47 r.\par
+\pard\f0\fs20 Are you.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Going to do some incredible magic trick where you reference the spreadsheet and get it to like, actually utilize that as the methodology or a prompt.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 So that's what happens.\par
+\pard\f0\fs20 The spreadsheet, and you've nailed it.\par
+\pard\f0\fs20 And so that's what this formative data structure can do is not only has this spreadsheet allowed me to composite from left to right, starting with an agent description as a strategist to define the role, goal and backstory.\par
+\pard\f0\fs20 And I use something called crude Aih, which is a really cool framework for agents.\par
+\pard\f0\fs20 I use someone else's AI agent framework to build these scrubs, these really simple agents, and then I take them through.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 My, can you explain that again?\par
+\pard\f0\fs20 Because that's terribly interesting and I'm not sure I follow.\par
+\pard\f0\fs20 Say that again.\par
+\pard\f0\fs20 What I'm watching you do is just reference a spreadsheet into chat GPT, right?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And it's essentially pulling the methodology from the spreadsheet.\par
+\pard\f0\fs20 But you're pre, you say you're using crew AI.\par
+\pard\f0\fs20 In what way are you doing that?\par
+\pard\f0\fs20 You are linking that first or you're sorry, guys, I'm just really curious about this step.\par
+\pard\f0\fs20 I want to make sure I'm not.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 You asked good questions.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I want to make sure I'm not missing a magic trick, because it's like the spreadsheets themselves are beautiful and magical, but I want to understand how they're used.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right, okay, so this is how I would start something if I didn't know where to start.\par
+\pard\f0\fs20 I'm like, okay, I can come up with what an agency looks like for atomic 47.\par
+\pard\f0\fs20 I know what that looks like.\par
+\pard\f0\fs20 But there's also, okay, so, David, I'm.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Sorry, I'm going to see if I can fast track you.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I know, I'm just starting here.\par
+\pard\f0\fs20 I'm going to go jump back into my spreadsheet.\par
+\pard\f0\fs20 So this is where you could start if you didn't know what to do using someone else's product.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Okay, okay, so crew AI provides you the direction to you of how to structure your spreadsheet, to be able to use it in that way?\par
+\pard\f0\fs20 Is that what you're saying?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And so that's what, that's why I'm showing you, here's the agent role, the goal and the backstory.\par
+\pard\f0\fs20 That's right.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Now I understand.\par
+\pard\f0\fs20 That was the part I didn't understand.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So, so that's where I'm showing you the genesis of generally, you want to start with something.\par
+\pard\f0\fs20 If you've got a document, it's original, good document, you got a specification, you can start with a specification.\par
+\pard\f0\fs20 That's a really good place to start.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 You got a description of a product.\par
+\pard\f0\fs20 That's a great place to start.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 No, no.\par
+\pard\f0\fs20 Totally awesome.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 What are the people associated with that and then go down this path?\par
+\pard\f0\fs20 So this is, this is an agency of people that, you know, agents that are now kind of described.\par
+\pard\f0\fs20 They have an expected output, they have.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 A metallogical wizard you've become because you're using an LLM to give you the structure and methodology to use LLMs better and then to help you like the, you know.\par
+\pard\f0\fs20 Yeah, no, the constant bootstrapping is almost incredible.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So I understand now what you're doing.\par
+\pard\f0\fs20 I just didn't understand that bit when you said I use crew AI.\par
+\pard\f0\fs20 I know I didn't phrase the question well, but you totally answered it, which is like crew AI sort of taught you how to structure the methodology in such a way so that AI could use it.\par
+\pard\f0\fs20 I get it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I was thinking about using that framework because my stuff sits on top of it.\par
+\pard\f0\fs20 It's just meta stuff on top of that.\par
+\pard\f0\fs20 So it's all structured data that sits in and needs to plop into some formative LLM.\par
+\pard\f0\fs20 It can be a LLM framework or framework for agents.\par
+\pard\f0\fs20 And then the llenna.\par
+\pard\f0\fs20 And so for the atomic 47 labs agency, I started in there because I had a list of things and then it gave me goal backstory.\par
+\pard\f0\fs20 And then task example and breakdown, I start doing those myself.\par
+\pard\f0\fs20 And I'm like, well, I'm working inside a chat session.\par
+\pard\f0\fs20 Okay, give me work products that are associated now give me KPI's.\par
+\pard\f0\fs20 And so now I know what I'm driving, right?\par
+\pard\f0\fs20 The KPI's are on top of the work products are on top of the tasks or on top of the individual.\par
+\pard\f0\fs20 And then who's the intended audience?\par
+\pard\f0\fs20 Well, now I know how to tonality and style it.\par
+\pard\f0\fs20 And then the detailed product is give me the framework.\par
+\pard\f0\fs20 That's where I'm trying to go.\par
+\pard\f0\fs20 Give me a framework for the report.\par
+\pard\f0\fs20 And the requirements for successful role execution is again sort of getting at KPI's.\par
+\pard\f0\fs20 But I'm, you know, I'm looking, I'm learning, I'm trying to see what I can build and then the skills, maybe I just want to transfer it into a series of skills and I've separated from the agent.\par
+\pard\f0\fs20 And then how does this thing, like now I'm like, okay, it looks like I have something.\par
+\pard\f0\fs20 How does it continue to evolve?\par
+\pard\f0\fs20 I haven't taken things to that next step because I don't have tooling.\par
+\pard\f0\fs20 But the next thing is how does it evolve and learn and continue to do that?\par
+\pard\f0\fs20 Right now I am that person.\par
+\pard\f0\fs20 But you know, what does it mean for this person to provide this kind of role to a team.\par
+\pard\f0\fs20 And what are the output, you know, the leadership quality.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 What you're learning is how to change the methodology.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 As opposed to the LLM learning itself.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, I'm looking to see what is inside, like what I can structure as information and what is important.\par
+\pard\f0\fs20 And so the most, the most important thing is what I do, methodology.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But, yes, I understand what you mean.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But what I'm trying to learn is what is most important.\par
+\pard\f0\fs20 So trying to work to a mad lib allows me to say that there's key words like, this is where the haiku thing is so interesting, because it has these keywords like a cut and word and whatever else that are very dramatic in terms of their influence on the haiku.\par
+\pard\f0\fs20 And I know that an adjective well placed or an adverb well placed changes it from a role to an effective role.\par
+\pard\f0\fs20 And so just having those words placed properly into a sentence might allow you to carry brand all the way through a product evolution.\par
+\pard\f0\fs20 Just as a madlib.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 So you add the madlib of brand, which has voice, tone, colors, feel, examples and whatnot, as a paragraph.\par
+\pard\f0\fs20 And that's a really tight, structured format.\par
+\pard\f0\fs20 It reads like a narrative.\par
+\pard\f0\fs20 It has variables defined in it, and it's portable.\par
+\pard\f0\fs20 And so that's, for me, very powerful, because right now, we don't know where the engines are, what they'll be.\par
+\pard\f0\fs20 And everything I'm doing needs to be portable and have some integrity to itself.\par
+\pard\f0\fs20 And so this madlib may well be in for the scrubs.\par
+\pard\f0\fs20 This notion of the scrubs, like this agency, that is very minimal.\par
+\pard\f0\fs20 The madlib makes perfect sense.\par
+\pard\f0\fs20 You want to get done work done really quickly and have a sense of where to go.\par
+\pard\f0\fs20 You give the, you do a mad lib, and then it has some structure as to what it needs to do.\par
+\pard\f0\fs20 It'll assign the right agents, and it'll come out with a report.\par
+\pard\f0\fs20 It won't be the most dynamic and thorough report, but then you can do that.\par
+\pard\f0\fs20 You can make it dynamic.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 The madlib is very accessible.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 In the sense.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so that's what, that's what the scrubs are about, is like, if I can give people a spreadsheet and say, this is the tab of agents, don't worry about it.\par
+\pard\f0\fs20 This is the tab of tasks.\par
+\pard\f0\fs20 Add to it if you like.\par
+\pard\f0\fs20 Here's the tab where in any of your spreadsheet.\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 Inspired.\par
+\pard\f0\fs20 This is that you can then go through and have pull down menu options, just like for the haiku.\par
+\pard\f0\fs20 Or you can have fill in the blanks, and it can ask very distinctly in a workflow or a form, what the questions are, you hit the submit on the form, those are submitted to the LLM, and boom, you have this experience that's generated.\par
+\pard\f0\fs20 So it's fairly simple in terms of people's approach to the power, and then not having to understand the great deal of what's going on underneath it, which if you read it, it just sounds like a job description or a profile, but, you know, or it just looks like a spreadsheet with columns of things.\par
+\pard\f0\fs20 But it's the relationship and the fact that I'm working with an LLM to build these spreadsheets, right?\par
+\pard\f0\fs20 And so by virtue of me being able to ask the LLM to contribute more information to a spreadsheet, it means it understands the spreadsheet, it means it understands the values in the cells and they're functional to it.\par
+\pard\f0\fs20 Otherwise I couldn't say, take everything in this cell and create a prompt, right?\par
+\pard\f0\fs20 Like, I take it, I take a row, and my end goal of a role now is, okay, I ended with outputs on this one.\par
+\pard\f0\fs20 I'm not gonna have it.\par
+\pard\f0\fs20 I don't have it.\par
+\pard\f0\fs20 Spreadsheets.\par
+\pard\f0\fs20 Every spreadsheet I build now, whatever the columns are, the top row is, build me a prompt for that column.\par
+\pard\f0\fs20 So I just built my data, and then at the end I'm like, okay, I don't remember what my prompts are, I don't remember how I got here.\par
+\pard\f0\fs20 Help me rebuild this thing.\par
+\pard\f0\fs20 Give me all the prompts in a row and a column that can generate all the data.\par
+\pard\f0\fs20 And so I've just created not only the functional information for how to work with prompts, I've created the meta level information inside the spreadsheet to create infinite number of any iterations of all that stuff off.\par
+\pard\f0\fs20 And so the spreadsheet is so fucking powerful, and it can, and everybody knows how to run one in business.\par
+\pard\f0\fs20 And even if my friend Eve, who says he doesn't know how to run a spreadsheet, he could fill in the blanks in a spreadsheet, and then he could, he could hit that, he could hit the go button, you know, so.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 We'Re all worried we're going to be replaced by AI's.\par
+\pard\f0\fs20 What you're telling us is we're going to be replaced by spreadsheets that talk to the AI, but that's fine.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, this is a step to you being able to work at a fairly high level of efficiency or proficiency, right?\par
+\pard\f0\fs20 So I'm talking right here at this level of, you've got an agent, you have many things that you could actually put into works.\par
+\pard\f0\fs20 And I think that this is a very significant step.\par
+\pard\f0\fs20 And I've already done this kind of situation room one on one kind of scenarios.\par
+\pard\f0\fs20 And I will standardize those want to make them accessible for people that want to get better at their work.\par
+\pard\f0\fs20 And then, but this one is, you know, the scrubs are about leadership.\par
+\pard\f0\fs20 They're about better content creation.\par
+\pard\f0\fs20 They're about better decision making.\par
+\pard\f0\fs20 And there's a real value in pumping out of, like one spreadsheet of one kind of set of agents.\par
+\pard\f0\fs20 And it's what I'm doing.\par
+\pard\f0\fs20 I'm creating agents for Atomic 47.\par
+\pard\f0\fs20 I'm creating agents for us in this, you know, this schooly thing, like, focused on some of Hanifa's ideas and work and whatever else.\par
+\pard\f0\fs20 And then I'm creating agents for my friend Jason and Kriske that are very focused on direct to consumers.\par
+\pard\f0\fs20 So these are, I'm already doing these agencies and so packaging them up in a way right now that I can support and that you guys can use.\par
+\pard\f0\fs20 Like, by the time we meet next week, you'll have the first version of scrubs to be playing with because it will be like what I have and then a prompt to use it.\par
+\pard\f0\fs20 And the prompt will ask you the appropriate questions, and it will be a meta level prompt because it will be every, you know, every action is different, like adapting.\par
+\pard\f0\fs20 It's like, what's the difference between adapting and enhancing?\par
+\pard\f0\fs20 We use those words differently, but they could be applied in the same way.\par
+\pard\f0\fs20 And so I had to find that out of.\par
+\pard\f0\fs20 And so there's, there's a great deal of value in thinking about a word for a long time.\par
+\pard\f0\fs20 And there's also a great deal of value in like, okay, there's a bunch of stuff in here.\par
+\pard\f0\fs20 I can just ask it some examples.\par
+\pard\f0\fs20 I can ask it a question and give it an example.\par
+\pard\f0\fs20 You know, here's a product like my fidget spinner is an easy one.\par
+\pard\f0\fs20 And I'll use an example of, like, when I have the direct to consumer agents, I just, I say, here is the URL for the product on Amazon, and it creates everything after that.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And right now, the works owner system that you're building is homogeneous because it always uses the same LLM, right?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But it is.\par
+\pard\f0\fs20 And it like, so that's the other thing that one of the early promises that I zero, like, I want to say zero effort, no technical challenge on is making it appropriate for the various LLMs.\par
+\pard\f0\fs20 Right now, I'm using McDonald's because it's McDonald's and it's actually, I can tell you how shitty it is.\par
+\pard\f0\fs20 I can tell you very specifically how shitty it is, but it's what we have.\par
+\pard\f0\fs20 But also, I just copy and paste my stuff into Grok and I paste my stuff into perplexity and shit happens, Mandy.\par
+\pard\f0\fs20 And it doesn't function the same way, and so.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And it would function differently with different ones.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Doing different steps.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because some LLMs are tuned for, for finance or whatever, for content or for whatever.\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And so again, looking at that challenge of like, what is the accounting department look like?\par
+\pard\f0\fs20 And talking to somebody like James and saying, you know, what, what's a handful of peers that work in the same vein, describe them.\par
+\pard\f0\fs20 That in itself will be a useful package just to say, okay, here's five guys, five girls and five things looking at the same spreadsheet from their points of view.\par
+\pard\f0\fs20 And they all give an analysis and it's just something you get every time, you know, you just get a document.\par
+\pard\f0\fs20 Like, I don't care what it is, throw it at my team and tell me the bullshit, you know, and I'd love to get to the bullshit filters and then, you know, but initially it can just be, you know, help me make my content more clear and concise and give you more confidence in that.\par
+\pard\f0\fs20 Show me that I can get more output done and show me I can do side by side comparisons.\par
+\pard\f0\fs20 And then down the road, show me how I can take anything that we have and turn it into sharable intelligence.\par
+\pard\f0\fs20 This spreadsheet, it's been defining in terms of it's only a one way street right now, but you can create them and you can export them.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so my tools are primitive in that when you're working with a chatbot, you need to take something out of there at some point.\par
+\pard\f0\fs20 And that conforming is a bit of a struggle, but that is part of what I will challenge you guys to help me with.\par
+\pard\f0\fs20 And I will get into communication earlier next week providing something so that you can help me in the session.\par
+\pard\f0\fs20 But it will be about like, how, how to best support, like a really primitive product that is just, you know, just a spreadsheet.\par
+\pard\f0\fs20 And I'm going to challenge myself to see if that is possible because once it's out there, the next thing is.\par
+\pard\f0\fs20 The next thing is a library of libraries and it's not any, it's not a technical challenge to go there.\par
+\pard\f0\fs20 Spent a great deal of time thinking about it and I actually build them in the background inside the LLM anyways.\par
+\pard\f0\fs20 And so it's just a matter of tooling and getting that done.\par
+\pard\f0\fs20 So once this is out there, I.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Can see where the haiku project is an excellent template.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh, it's perfect, man.\par
+\pard\f0\fs20 So perfect.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So is the alien one right, that you and I discussed?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\f0\fs20 Okay, so Zorlox is a good one too, but the haiku is really good because of the compact nature of the meaningfulness of it and the fact that the creation process is a contemplative one.\par
+\pard\f0\fs20 And it has these super powerful words that influence you into the situation.\par
+\pard\f0\fs20 And that's what we do.\par
+\pard\f0\fs20 That's what I do, is I influence and encourage the LLM to respond.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 It's certainly a really concise, concise.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So it's good in that regard, and that there's three agents that I can really describe well.\par
+\pard\f0\fs20 And right now I'm lucky in how they're working.\par
+\pard\f0\fs20 And so what I'm getting to is trying to get to that mad lib understanding of things so that I can have something like this for you guys, like a prompt.\par
+\pard\f0\fs20 And, you know, you like, here's my, here's my product, which is a spinner, and then just, this is all crap.\par
+\pard\f0\fs20 But you would then say, provide me some reports so I can understand, you know, the viability of marking this on Shopify or something like that.\par
+\pard\f0\fs20 And then it would then provide you that report based on the fact that, you know, you've got all these agents that work together.\par
+\pard\f0\fs20 In fact, there's twelve of them in this one, that hand off and build this corpus of work.\par
+\pard\f0\fs20 And so the package would be one of having a spreadsheet like this, and then you would have a prompt that you would copy.\par
+\pard\f0\fs20 You work either in here, another separate sheet, and you'd fill in the blanks here you do your madlib here, you copy and paste this in, and you would upload your spreadsheet, or I would make that a mygpt so it's accessible through the interface, or I would make it its own separate app.\par
+\pard\f0\fs20 They're all very simple to do.\par
+\pard\f0\fs20 And then you would take that prompt, and then you would just keep working with it, and you work with the spreadsheet in the same way.\par
+\pard\f0\fs20 And I know that I'm missing a lot of what could go wrong and what can go right, but this is a way of handing off something that's more powerful than, than what I've been doing, which is working examples.\par
+\pard\f0\fs20 It's meant to be a functioning system, and like an app, but it is, it is ostensibly a framework, and because of that, it can be pulled apart and turned into bigger systems.\par
+\pard\f0\fs20 But I'm keen to be able to communicate to the people around me that are, you know, wanting to have interest in the project and can't see, you know, the productization path very readily.\par
+\pard\f0\fs20 I don't think this is the product.\par
+\pard\f0\fs20 These things that I point to aren't the end of it.\par
+\pard\f0\fs20 And when I look at industry, I look at a scale larger than even workzone.net, wherever, you know, at a conglomerate level you could have hundreds of thousands of employees.\par
+\pard\f0\fs20 Or at a festival level you have 40,000 people moving around in an environment.\par
+\pard\f0\fs20 And so I do want to put a number five down here and it's like market scale simulations because that excites the shit out of me and I can do them, but they build on it.\par
+\pard\f0\fs20 And this is, this is meant to be a roadmap.\par
+\pard\f0\fs20 How come it never goes back to the same doing there?\par
+\pard\f0\fs20 Look at that.\par
+\pard\f0\fs20 I don't know if he's.\par
+\pard\f0\fs20 Do we look like it felt blurry?\par
+\pard\f0\fs20 1818 going to Alberta.\par
+\pard\f0\fs20 Go out and go to a club.\par
+\pard\f0\fs20 Going to Calgary tomorrow?\par
+\pard\f0\fs20 Yeah, party time with her boyfriend and a couple others.\par
+\pard\f0\fs20 A couple of days in calibre.\par
+\pard\f0\fs20 So yeah, I think my bandwidth has gone funky.\par
+\pard\f0\fs20 It's getting all blurry on my end.\par
+\pard\f0\fs20 So that's kind of what I wanted to cover today.\par
+\pard\f0\fs20 I wanted to.\par
+\pard\f0\fs20 I wanted to get more into some other stuff.\par
+\pard\f0\fs20 But I also recognized that this morning when I was up early, I wanted to float these things past you guys in an environment.\par
+\pard\f0\fs20 And it's interesting that Fulvio is here for this morning as well because he'll be brushing up against these things as we collaborate on other work.\par
+\pard\f0\fs20 I effectively use all of this stuff in my work right now.\par
+\pard\f0\fs20 I don't do any work now.\par
+\pard\f0\fs20 Like if I'm.\par
+\pard\f0\fs20 I got stuck on the multi level marketing where I stuck, started doing all the work manually myself and felt the pressure of a deadline.\par
+\pard\f0\fs20 And then once I was able to step back from that, I was like twice as productive and much more on point, right.\par
+\pard\f0\fs20 Because I had built up this integrity to this workflow into how I have this feedback loop.\par
+\pard\f0\fs20 And I guess it's too bad that that's not showing up properly.\par
+\pard\f0\fs20 But these four different, at least the top three things there, the one on one and then the agency and then coalesce.\par
+\pard\f0\fs20 They're all about trying to provide feedback in a new way, feedback loops.\par
+\pard\f0\fs20 In the first case, if you're pitching your product, your idea, or whatever you're doing, presenting, you usually only have one shot at that.\par
+\pard\f0\fs20 If you're good, you practice it a few times.\par
+\pard\f0\fs20 Your feedback is generally weak.\par
+\pard\f0\fs20 And in many situations, your feedback is as weak as you make it as an opportunity.\par
+\pard\f0\fs20 And in these patterns here, the feedback can be very rich if you can be very dynamic and in a way that you can hedge your bets or de risk yourself in a much greater degree than it was possible for.\par
+\pard\f0\fs20 And that's just on the business side of things.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 On the creative side of things, it just opens up things in a massive way where you can then work with yourself and against yourself in this just dynamic, crazy pattern.\par
+\pard\f0\fs20 And one of the things that I was challenged with in discussing, you know, what does it mean to productize?\par
+\pard\f0\fs20 This is like, you know, how can I say it?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Karen can't see what benefit it has to anybody.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 What?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 She can't, she can't.\par
+\pard\f0\fs20 So she can't see, like, why would anybody use any of this stuff?\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 And so the, so the negative vectors that you can throw at an idea, they are, when in conversation, I can tell you they're difficult because there's difficulty there.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, I think she's, but I mean.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 You, you are, I'm just going to take it to let me follow suit.\par
+\pard\f0\fs20 And so those things, you know, those things can be burdensome in the process of getting to a project's, you know, good space, working through all those challenges and those points of view that, that don't make sense to you because you have this understanding, you got this working for.\par
+\pard\f0\fs20 But those negative, you can call them negative vectors, those, those vectors of doubt, those questions that are really hard, man, those are the best things for you ever, all the time.\par
+\pard\f0\fs20 And with an LLM, you have the opportunity to ask it juicy, you know, powerful, negative, even questions about things and get feedback back that, you know, is just a machine, you know, and you can just like, okay, I've actually run scenarios now.\par
+\pard\f0\fs20 I've spun all the scenarios in the positive way because they all, they were easy.\par
+\pard\f0\fs20 And then, yeah, I did all the, okay, so I don't, you know, so the spreadsheet thing doesn't work.\par
+\pard\f0\fs20 What's the alternative?\par
+\pard\f0\fs20 And what, so you have those options available to you now, and you can actually, you know, de risk things and take them down all kinds of creative paths all at the same time.\par
+\pard\f0\fs20 The spreadsheet is the solution for that.\par
+\pard\f0\fs20 None of us are going to sit around and program all of that as our first way into anything.\par
+\pard\f0\fs20 We may work on paper.\par
+\pard\f0\fs20 And luckily, now my workflow for paper is pretty tight, too.\par
+\pard\f0\fs20 It does a great job of summarizing even my notes.\par
+\pard\f0\fs20 And I've gotten better at making my notes clearer and it's working out.\par
+\pard\f0\fs20 So there's value to be had here, but the negativity that maybe one has for themselves around their project, the doubt, it's time to be honest about it in a way where it's functional and it's useful.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 But may I ask, I want to understand is so if you package this all up as a black box for someone to use, then I can understand the skepticism, right.\par
+\pard\f0\fs20 Because if you don't understand what it's doing or how it's doing it or how the, how to interact with it, it just produces an output which if you don't, aren't involved, let's say in the process of looking inside the black box, you probably have great amount of skepticism of what the output is.\par
+\pard\f0\fs20 It looks good, looks great.\par
+\pard\f0\fs20 You probably certainly impressive in the sense of like the, the quantity of output that it can generate and quickly.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Because in utilizing one of these, after you, one of these, one of these templates, right.\par
+\pard\f0\fs20 I'll call them a template, you get output and the output, you know, will impress somebody, I guess, is the skepticism around the fact that you go from using the template, you go from a to g so easily that you think there's a natural skepticism around it.\par
+\pard\f0\fs20 Is that the issue?\par
+\pard\f0\fs20 Or is it that if you don't know what's going on in the black box, it's difficult to see the value in the output because you don't know what's.\par
+\pard\f0\fs20 Because like the, it's very hard to qualify.\par
+\pard\f0\fs20 What I'm trying to say is like by knowing what your template does, you have much greater confidence to how the output has value without knowing what the template does.\par
+\pard\f0\fs20 Do you understand what I'm saying?\par
+\pard\f0\fs20 Does that make sense?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 So yeah, your axes is at the functional level.\par
+\pard\f0\fs20 I would suggest her challenge is at the conceptual level.\par
+\pard\f0\fs20 And so where I see the value in the solution is at the functional level of using things.\par
+\pard\f0\fs20 And so being able to show that these are the ways you can use it in simple ways, very easy coalesce, is just WordPress in reverse, and it is using WordPress to publish WordPress in reverse.\par
+\pard\f0\fs20 So it's really easily achievable too.\par
+\pard\f0\fs20 So these are like super accessible productizations of the product, of the concept and how I've gone about building it.\par
+\pard\f0\fs20 But it really is at a higher level of like, I don't see how this does anything.\par
+\pard\f0\fs20 And how is it different than other agents?\par
+\pard\f0\fs20 And you're saying it's not just agents.\par
+\pard\f0\fs20 How is it different than that?\par
+\pard\f0\fs20 And how is it different than perplexity?\par
+\pard\f0\fs20 Which I use all the time, and I got great results.\par
+\pard\f0\fs20 I'm like, well, yeah, you don't know any different.\par
+\pard\f0\fs20 You don't know any different.\par
+\pard\f0\fs20 And so that is the challenge with all of this stuff is like, if you don't know any different, then you're reading about it.\par
+\pard\f0\fs20 And then the challenges are one of educating people up a piece of rope that they don't want to climb, right?\par
+\pard\f0\fs20 And so getting the hands on things in a really simple way and saying, here's a spreadsheet.\par
+\pard\f0\fs20 Look, you can open it up, see how all that shit is.\par
+\pard\f0\fs20 You can change it if you want.\par
+\pard\f0\fs20 You don't need to.\par
+\pard\f0\fs20 But here's a really simple way of understanding how LLMs work.\par
+\pard\f0\fs20 You got to be really concise about what you want.\par
+\pard\f0\fs20 And to do that, there's a goddamn mad lib.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, it sounds like that's an observation on the.\par
+\pard\f0\fs20 Not the usefulness of work, Sona, but.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 The monetization potential, the productization, what is it?\par
+\pard\f0\fs20 And so that's the challenge I have right now is not how I use it all the time.\par
+\pard\f0\fs20 And how it's useful is that one, can I make it useful for other people?\par
+\pard\f0\fs20 And I want to do that with.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 My peers and then realize that it's useful.\par
+\pard\f0\fs20 Then.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 If I see them like, I was a teacher.\par
+\pard\f0\fs20 I've been paid to teach at the highest levels in the country.\par
+\pard\f0\fs20 I I can do that.\par
+\pard\f0\fs20 I have a lot of doubts in the house, but I can do that.\par
+\pard\f0\fs20 And so by teaching people how to use a tutorial, I can find out if the fucking shit works for people in a way that's meaningful.\par
+\pard\f0\fs20 And right now I can see it meaningful and just that the other way.\par
+\pard\f0\fs20 But I have, like, somebody who wants to start taking leadership in this project who has no concept of it.\par
+\pard\f0\fs20 And so that's going to be everybody.\par
+\pard\f0\fs20 That's going to be everybody.\par
+\pard\f0\fs20 They're like, sure, sounds cool.\par
+\pard\f0\fs20 You're using AI.\par
+\pard\f0\fs20 I'm like, I don't want to talk about it.\par
+\pard\f0\fs20 So how do you build something like this such that people can at least understand that there's a great deal of complexity required to be concise and that you don't need to focus on it in the way that I have to get the benefit out of that, because that's what a product is.\par
+\pard\f0\fs20 It's like an optimized version of everything.\par
+\pard\f0\fs20 And the people that I would initially be providing this view to would be, you know, sophisticated, you know, professionals that have spent their life working in business.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Tools, sophisticated professionals working in business.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 What?\par
+\pard\f0\fs20 I don't know.\par
+\pard\f0\fs20 People can use email.\par
+\pard\f0\fs20 That means they have some level of sophistication and that's.\par
+\pard\f0\fs20 That's just, you know, whether they want to be that person or not.\par
+\pard\f0\fs20 Like the whole number one category, one on one, getting better at pitching, getting better at presenting, getting better at who you are.\par
+\pard\f0\fs20 That's nobody I know except me and maybe you three.\par
+\pard\f0\fs20 Nobody I know will do that, will spend time investing in themselves to see what it looks like for them to present their material or to have anybody else's opinion on it other than who they want.\par
+\pard\f0\fs20 And that's not helpful.\par
+\pard\f0\fs20 It's helpful to have somebody you, you know, maybe you don't like so much that has a real distinct position on things, and you're like, fuck, okay, give me the fucking feedback, man.\par
+\pard\f0\fs20 And then that's a useful position.\par
+\pard\f0\fs20 And I'll tell you, I don't know how to sell that.\par
+\pard\f0\fs20 I have access to all those people.\par
+\pard\f0\fs20 I don't know how to sell that.\par
+\pard\f0\fs20 So I'm not, I don't want to sell my stuff.\par
+\pard\f0\fs20 That's the other thing is like, that's not what I want.\par
+\pard\f0\fs20 I want to bring somebody who can actually do that part, can make the product market fit, that wants to spend the time grinding on some other people that like to be grinded on.\par
+\pard\f0\fs20 And so the enablement of my team is where I want to go with things.\par
+\pard\f0\fs20 And this is a great way to see who that team is.\par
+\pard\f0\fs20 And if I have the capacity on my side to actually be empathetic in the way that I think I, you know, I've only spent 40 years program, actually 45 years program.\par
+\pard\f0\fs20 It's only been 45 years years.\par
+\pard\f0\fs20 And I've only been a professional for 37 years, right?\par
+\pard\f0\fs20 And I've only taught at university level.\par
+\pard\f0\fs20 So I don't know.\par
+\pard\f0\fs20 I don't know what people want until people use it.\par
+\pard\f0\fs20 And so this is the attempt to put the product out there in some way that's useful.\par
+\pard\f0\fs20 And I can't see anybody doing this like this.\par
+\pard\f0\fs20 I can see a whole lot of people teaching a whole lot of people how to use their shit to do a whole lot of nothing.\par
+\pard\f0\fs20 Build a whole lot of toys that are super expensive to run and give you analytics that you don't really drive anything on because all of these frameworks, you know, if I'm not working within my account of chat GBT, I would run up bills of hundreds of dollars a day, hundreds of dollars a day on research.\par
+\pard\f0\fs20 Just on research, right?\par
+\pard\f0\fs20 And if I was to do work for any one person, I would demand $100,000 worth of just crunch money, right, to do anything reasonable.\par
+\pard\f0\fs20 And so this is an approach where everybody that's in an executive position, that has to have an AI strategy, they have no understanding of how to work with anything.\par
+\pard\f0\fs20 And that's an overgeneralization, but it's more true than nothing.\par
+\pard\f0\fs20 And so here's a situation where you can work with a chat GPT, upload your document on what you'd like to pitch.\par
+\pard\f0\fs20 See it being pitched to four personalities that you know are real assholes and getting some real good feedback on what to do better in your pitch.\par
+\pard\f0\fs20 And then you can do the same thing with, I've got a product, show me how I can actually break it out into tweets, social tweets, or social this direct to consumer that, how to have tone, how to do all these things.\par
+\pard\f0\fs20 And then maybe there's people out there that you can then see, oh, my pattern is different over here.\par
+\pard\f0\fs20 I work in this.\par
+\pard\f0\fs20 My guys are XYZ, and I'd really like to have digital twins of them because we would like to spin scenarios where everybody's doing different things, whatever.\par
+\pard\f0\fs20 So there's, there's nothing in the market right now that exposes the real value of Genaida.\par
+\pard\f0\fs20 Absolutely nothing.\par
+\pard\f0\fs20 I gotta jump, guys.\par
+\pard\f0\fs20 Thanks, David.\par
+\pard\f0\fs20 All right, man.\par
+\pard\f0\fs20 Enjoy your day, Eric.\par
+\pard\f0\fs20 So I think anything at this point where I'm not having to, you know, jump over a moon to build a product, because I don't know who's on, who's on the moon or on the other side, and to demand that it be so concise that it is works on a.net dot.\par
+\pard\f0\fs20 All those things are fucking achievable as documentation.\par
+\pard\f0\fs20 There's no point in them.\par
+\pard\f0\fs20 And as it is right now, I have reams of documentation.\par
+\pard\f0\fs20 I have 17 GPTs.\par
+\pard\f0\fs20 I have six or seven active agencies in development and functional, and it's time to get them out.\par
+\pard\f0\fs20 And I'm going to work with Wednesday morning as I have, as a formative structure for that, to the point where the scrubs will be announced, and then the formative focus of this will be working with them every day, every week.\par
+\pard\f0\fs20 And that this will change from me expressing this kind of stuff to me working with, hopefully real cases that are like, yeah, no, I.\par
+\pard\f0\fs20 The jams not working, Dave.\par
+\pard\f0\fs20 Okay, that's a, that's something new.\par
+\pard\f0\fs20 And I, to be honest, when I was teaching kids HTML and all that shit, now, that was hard work when things weren't working, because it's very particular.\par
+\pard\f0\fs20 But at least this space, there's a lot of strategies to share and so that's the next step, is to.\par
+\pard\f0\fs20 To figure out what that means and be able to quickly turn and adapt.\par
+\pard\f0\fs20 Like building a very specific set of agents for you, Hanif, so that they're, they're just sitting in the background helping.\par
+\pard\f0\fs20 Like, you.\par
+\pard\f0\fs20 You do your paperwork and you throw it at them and it comes back and you're like, okay, yeah, well, there's something right there.\par
+\pard\f0\fs20 Like, that's what I want.\par
+\pard\f0\fs20 And I've almost got it now where I do seven or eight pages of notes.\par
+\pard\f0\fs20 I throw it up there and I say, do these four things, and then I'm ready to do my work afterwards.\par
+\pard\f0\fs20 I'm like, transcribed them, it summarized them and analyzed them, it gave me questions about them, it gave me an overall summary, and then it gives me a sense of its intention and those.\par
+\pard\f0\fs20 I can't do all that in my head rigorously on top of one another a whole bunch of times in an hour.\par
+\pard\f0\fs20 I would be applauded to being very smart if I did it once ever, you know, in a job, and people talk about all the things, of doing things multiple times, but you'll know when you need to.\par
+\pard\f0\fs20 And at the beginning of it, if you're conceptualizing, it can be like very long roadmap to landing, to the practical terms in which you can then engage community, right, the bits and pieces that make up a user journey.\par
+\pard\f0\fs20 And right now I try to dither things down to a very simple user journey.\par
+\pard\f0\fs20 Like the mad libs.\par
+\pard\f0\fs20 I think I'm so proud of myself, and for nothing, absolutely nothing.\par
+\pard\f0\fs20 But in terms of, okay, I found a way in to make it easier.\par
+\pard\f0\fs20 I don't know how to make it easier.\par
+\pard\f0\fs20 Right?\par
+\pard\f0\fs20 A zero.\par
+\pard\f0\fs20 A zero shot.\par
+\pard\f0\fs20 Like, just tell me what you want.\par
+\pard\f0\fs20 From a very general point of view, that's fucked.\par
+\pard\f0\fs20 It's just not reasonable.\par
+\pard\f0\fs20 It's not how we work, and it's not how really articulate work gets done, and you can't build on it.\par
+\pard\f0\fs20 And so stepping back and saying, give me some time to say, this is the context, this is how the entities are described, and this is how they relate.\par
+\pard\f0\fs20 And then you got a scenario.\par
+\pard\f0\fs20 And once you have a scenario, you can say, now throw some interesting vectors at what it means.\par
+\pard\f0\fs20 Then let's build a spreadsheet around the user experience and say, what can we do around motivating them?\par
+\pard\f0\fs20 And see if we can build prompts on top of that.\par
+\pard\f0\fs20 Like, literally, I try to get it to build a fucking and prompt at the end of the line, and it does, and I'll throw it in and it'll work.\par
+\pard\f0\fs20 And once you have these spreadsheets with integral data, and soon you'll have a number of them and they're all kind of different, then you'll be able to say, like, just work with each row as an agent, just describe it like that, see if it works.\par
+\pard\f0\fs20 Or just say, you know what, just focus on the detail column and see what it does.\par
+\pard\f0\fs20 But that's where I.\par
+\pard\f0\fs20 When I'm trying to find what's important, it's.\par
+\pard\f0\fs20 There's two phrases, exclamation important and important exclamation and exclamation important means not important in programming terms.\par
+\pard\f0\fs20 And so important exclamation captures everything I do as an emetic structure.\par
+\pard\f0\fs20 And so the distillation of what is important has profoundly changed me in that I understand how to approach any situation as a strategy now, and I can establish my success at the very beginning of it, no matter what.\par
+\pard\f0\fs20 And I've never felt confident about that.\par
+\pard\f0\fs20 I felt I would have to do more work than everyone else in the room.\par
+\pard\f0\fs20 And I'll be honest, I've felt more capable than a lot of people in the room for producing that.\par
+\pard\f0\fs20 And that's just unreasonable approach to everything, because it means that you have to come with all the solutions.\par
+\pard\f0\fs20 And from what I've seen, nobody cares about them for the most part.\par
+\pard\f0\fs20 So this is a really, really, really interesting process to get to, because once you get to the level of describing how to do something, then you probably have access to how you would describe how to do it.\par
+\pard\f0\fs20 And then that's the win, Fulvio, you point to it all the time.\par
+\pard\f0\fs20 You talk about the pattern that we're exposing through the work on a project.\par
+\pard\f0\fs20 I'm there with you, man.\par
+\pard\f0\fs20 Always.\par
+\pard\f0\fs20 Always.\par
+\pard\f0\fs20 And my pattern now, it's interesting.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 The clients are generally, but that's fine.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But even now, my sense of what the next engagement would be, how I position it, is all about making sure that whatever the patterns are that we experience, they're all to our benefit.\par
+\pard\f0\fs20 And seriously, just through this MLM thing, how we go about anything moving forward, we'll be massively rich if we can just change a couple of small things about what's important to us and what's not important to us in a contract.\par
+\pard\f0\fs20 And by doing that and saying they're there for a reason and then having all these other real valuable reasons behind the scenes that are invisible, nobody needs to know about, well, that's what's happening with my stuff, is that behind the scenes I have ways of making each aspect of this very articulate and I'm trying to figure out where Thor's hammer sits in all of that.\par
+\pard\f0\fs20 In our project with the MLM, Thor's hammer was leveraged.\par
+\pard\f0\fs20 That was not in the product, in the project and the work products delivered.\par
+\pard\f0\fs20 It was absent from everything that was done.\par
+\pard\f0\fs20 And that's what I'm finding right now.\par
+\pard\f0\fs20 The value in what I do is absent from everything I'm doing.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, certainly explicitly absent.\par
+\pard\f0\fs20 It was present in intuition that the vision person had said.\par
+\pard\f0\fs20 But that's, that's, that's, that doesn't matter.\par
+\pard\f0\fs20 It's absent explicitly.\par
+\pard\f0\fs20 That's for sure.\par
+\pard\f0\fs20 Needed to be, so to speak, rediscovered or discovered periods, because it wasn't.\par
+\pard\f0\fs20 Was never communicated.\par
+\pard\f0\fs20 Very interesting.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 But yeah, it's just so, just even like situating things moving forward, like with intelligence as the core of what we do, you know, I want to have custody over my work until I hand it off, until there is a formal handoff of that work, I want to have full custody of everything I do.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, I think.\par
+\pard\f0\fs20 I think that's.\par
+\pard\f0\fs20 I think that's probably, that's interesting that you see that, because I strongly believe that too.\par
+\pard\f0\fs20 I would say further than that there is decision whether to hand off custody at all.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yes, that's why to have it.\par
+\pard\f0\fs20 That's exactly why to have it is that at some points during the conversation on the other side they're questioning whether they need you and they would.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, I think they'll just let me.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 They might do that.\par
+\pard\f0\fs20 And on my side, I would love the opportunity to say we're done with you as we are right now.\par
+\pard\f0\fs20 All this IP sits with me and I found another vendor.\par
+\pard\f0\fs20 I found.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, that's right, because you could be, you could be a service offering.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 In which case I think most customers want you to be a service offering that then teaches them how to replace you as a service provider.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 That's certainly, that's the template.\par
+\pard\f0\fs20 I think that a particular client you and I are talking about has.\par
+\pard\f0\fs20 And a lot of, a lot of, a lot of.\par
+\pard\f0\fs20 A lot of clients are using that template, even if they're not, you know, let's say.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, they're not aware of it.\par
+\pard\f0\fs20 They say it's not.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Internally whether you want to be, whether you want.\par
+\pard\f0\fs20 And, you know, you're adding AI is adding a problem because.\par
+\pard\f0\fs20 Well, no complexity to it, right.\par
+\pard\f0\fs20 Because AI is something you're using internally to do a lot of the work.\par
+\pard\f0\fs20 So you have to make sure that if you're a service offering, you don't hand over the factory.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, that's exactly why?\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so this shift is allowed for that thinking and you've nailed it perfectly as to how he situated is like all my tools are super high valence and they're more valuable than anybody's project.\par
+\pard\f0\fs20 That's the, that's the positioning of it.\par
+\pard\f0\fs20 And we need to protect those tools and we also need to protect the IP.\par
+\pard\f0\fs20 And by virtue of that, what we do behind the scenes is this notion of flywheel.\par
+\pard\f0\fs20 If I'm the lead, you're flywheeling.\par
+\pard\f0\fs20 Vice versa.\par
+\pard\f0\fs20 Your lead on flywheeling and the whole team, the whole time that flywheel is engaging with the product to reproductive with some other aspect of the market and generate more ancillary opportunity and to push for the end of the project sooner than the team lead is with the client.\par
+\pard\f0\fs20 So that everybody's motivated in the same way to reach the end through different KPI's that generate a much bigger bottom line for us and still reach the goal.\par
+\pard\f0\fs20 And we have the investment from the client needing to reach the goal too.\par
+\pard\f0\fs20 This is like, until we have formal sign off, this guy owns our shit.\par
+\pard\f0\fs20 And so that dynamic I think is significantly new and brought about by this work with this intelligence and it provides this new platform of opportunity to redefine what service work means and to put the client at a full end of the risk on everything.\par
+\pard\f0\fs20 Anyway, I say I'm tired of this end of things and, and I think that the way that we work now, and especially, you know, the way that I want to work so transparently is not at all what we should do.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Interesting.\par
+\pard\f0\fs20 Yeah, except for this group.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Anyways, that was an aside.\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 I did want to speak to some of that because we have some of this to play out today.\par
+\pard\f0\fs20 And I'm talking to somebody in my network today that understands the notion of leverage extensively.\par
+\pard\f0\fs20 And I've been studying it and my, my way of dealing with this one client that we're not talking to specifically in name is to leverage this concept that I have and say that fuck you and your money.\par
+\pard\f0\fs20 You can't use anything we've done.\par
+\pard\f0\fs20 I'm going to find another client, not even say the last part and then put a box.\par
+\pard\f0\fs20 And that's what I want to do today is put a box around all of our content that is changed permissions on the folder and say, you know, fucking pay us.\par
+\pard\f0\fs20 There's nothing at right now that they should do to not pay us.\par
+\pard\f0\fs20 And if they further the conversation, I'm going to publish a huge article on how to audit and how to look at everybody that does an MLM and how to understand where the end of their piece of rope is and to see if they're running a Ponzi scheme.\par
+\pard\f0\fs20 And I will expose all the mechanics that are available to anybody on the consumer side of MLM.\par
+\pard\f0\fs20 And I will point to home royalty without name as their pattern as an example of how it gets used as a Ponzi.\par
+\pard\f0\fs20 And so I've got leverage.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 One, I'm not a lawyer, and I don't play one on tv or certainly not on Google Meet.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, but that's, it's highly accessible and it's part of what I wouldn't, probably shouldn't do that.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Probably.\par
+\pard\f0\fs20 There's a way to resolve that situation.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Much more anyways.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 That'S for sure.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, no, but the reason for strategy is we've, and I'll point to a, point to what I was speaking to earlier.\par
+\pard\f0\fs20 The reason for the, the benefit of strategy is to put all these vectors in play and to analyze them and not say, ah, we don't do that because we're not nice.\par
+\pard\f0\fs20 We say leverage says we need to do something and we need to have some leverage.\par
+\pard\f0\fs20 So what can we do?\par
+\pard\f0\fs20 Well, what we can do is we can kick him in the fucking balls, and we can kick him in the balls in a whole bunch of different ways.\par
+\pard\f0\fs20 And we can do that legally, whether it's ethical or not.\par
+\pard\f0\fs20 We already know that he's an ethical asshole.\par
+\pard\f0\fs20 And so what we do is what we do.\par
+\pard\f0\fs20 We spin scenarios, all of them illegal, legal, gray, cool, or what we say is canadian.\par
+\pard\f0\fs20 And then we step back and say, these are our options.\par
+\pard\f0\fs20 And I'm sick and tired of saying not doing that because I've been fucked the whole of my career by taking other people's leadership, saying that they understand the other side.\par
+\pard\f0\fs20 And the other side is saying, this person has given me all this information, and I love how transparent they are.\par
+\pard\f0\fs20 And it's just working to our benefit because we're going to cut them off.\par
+\pard\f0\fs20 And they always do.\par
+\pard\f0\fs20 And you can tell me that that's not the case, but I can tell you they always do.\par
+\pard\f0\fs20 And as a strategy, it's important that we have a strategy for all the always do things.\par
+\pard\f0\fs20 And yeah, I'm spicy about it because of how much of my thought goes into things at the front end of things and how valued.\par
+\pard\f0\fs20 I see that.\par
+\pard\f0\fs20 And so I want to find somebody that's willing to put bondable fucking paperwork around the fact that at the beginning of a project in our participation, it is more valuable at the beginning than it is at the end, and for that reason we own custody and we maintain custody and we push the idea out.\par
+\pard\f0\fs20 You want it faster, you pay more, you want it right now, you pay everything.\par
+\pard\f0\fs20 That's different terms.\par
+\pard\f0\fs20 And they can be put on paper and to be nice and canadian, but this thing where we throw ourselves into a scenario and say, what are our threats?\par
+\pard\f0\fs20 Well, that's what I'm building, man.\par
+\pard\f0\fs20 So that the next time we get into a contract, because the next contract could have a shit ton of zeros after it, and we will go into it with just the same set of eyes.\par
+\pard\f0\fs20 And there's no way that I'm going to be putting any effort into anybody's software just for a paycheck at the end of the day.\par
+\pard\f0\fs20 So there you go.\par
+\pard\f0\fs20 End of class, I guess.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Thanks, David, really, I learned a lot about how you're actually utilizing these and what they're actually doing.\par
+\pard\f0\fs20 And I must say my confidence in the value of the, of these agents is even just with those little amount of information that I got out of it today, is I can see why they're powerful and why they're producing something of real value as opposed to everybody's concern about AI is that it's not high value output or that it's a hallucination or it's prone to hallucination.\par
+\pard\f0\fs20 But I can see in particular, part of the comfort I got is in understanding the methodology, especially the iterative metaphor methodology and the review methodology and the detail to which the templates for the agents have probably have an extreme impact on the, on the quality, on the output because they really are more than prompt you.\par
+\pard\f0\fs20 They're a methodology, right?\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Well, they're a methodology that generates or uses a prompt to get an output, which is a value.\par
+\pard\f0\fs20 And I think you have to.\par
+\pard\f0\fs20 It's, you know, it's the sad part about AI, right?\par
+\pard\f0\fs20 Like, you know, you, they present the similar problem to the math calculator, right?\par
+\pard\f0\fs20 If you go to use them, you stop knowing how to do things because you just go to the calculator to do the math and you don't, there's no way for you to know if the calculator is ever wrong because you don't understand what's happening.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, the phone is a good one, too.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Yeah, the phone, yeah.\par
+\pard\f0\fs20 And I, you know, I was CEO of a telecom company.\par
+\pard\f0\fs20 Everybody uses a phone and nobody knows anything about how they work.\par
+\pard\f0\fs20 I will add to that.\par
+\pard\f0\fs20 I will add to that.\par
+\pard\f0\fs20 A lot of the engineers in the telephone industry have no idea how.\par
+\pard\f0\fs20 I am not kidding, no exaggeration.\par
+\pard\f0\fs20 Whatsoever in there.\par
+\pard\f0\fs20 I, right, telephone industries held together by bubblegum and bailing wire to the extreme even now, more so now with the types of digital technology that do the work.\par
+\pard\f0\fs20 But there's a very metaphysical conversation around how to use AI without doing more harm than good in the sense of, to your own ability to do anything.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And you know, that, that's, that's unfortunately too much fun of a conversation in an investigation.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And I'm not sure what, what, yeah, it doesn't end.\par
+\pard\f0\fs20 That's one.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 So it doesn't end.\par
+\pard\f0\fs20 And I'm not sure what practical output you get out of that conversation other than reducing confidence in your willingness to participate in the extraordinary opportunity.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 With Eric in here too, I know the room can actually go down that path and enjoy it for quite, quite a long road.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Oh, is that right?\par
+\pard\f0\fs20 I'm new so I'm new to it.\par
+\pard\f0\fs20 I didn't know that.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Oh, we like ideas and thinking.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well look, just being a software developer, I think if you've been a software developer for a significant portion of your life, and you know, I spent 20 years in the video game industry alone, nevermind intel company and fintech and all the rest, right?\par
+\pard\f0\fs20 Like as a software developer, your goal has been even pre AI, whether it's been spoken or unspoken, your goal has been to get rid of labor, right?\par
+\pard\f0\fs20 Software generally gets rid of labor, right?\par
+\pard\f0\fs20 Like you write programs to do the work that otherwise people would do on paper or in person or what have you.\par
+\pard\f0\fs20 This AI thing takes that to the ultimate extreme, right?\par
+\pard\f0\fs20 And so it would almost be suspect if you, if you don't occasionally get dragged into that conversation about who's going to buy anything.\par
+\pard\f0\fs20 If everything's being made by computers, then they're not.\par
+\pard\f0\fs20 No one's earning any money to then buy the things being made by, and I know computers is the wrong word, we all know that, but, you know, by automated systems.\par
+\pard\f0\fs20 But listen, I do think there is a simple answer to the how to monetize use of AI.\par
+\pard\f0\fs20 It's not a comfortable answer, it's an extremely uncomfortable answer for me personally.\par
+\pard\f0\fs20 And that is that, you know, rather you have to, whenever possible, steer towards using AI to make products you own and you own the ip of so that it doesn't matter, you know, whether, whether you're a service business or not, if you're a service business, your service business for yourself, you're servicing yourself and you own the product and you will make money off of the sale of product.\par
+\pard\f0\fs20 Using AI to create content that makes money is probably the best solution to a lot of the problems you observe, I suspect, David, but, you know, then you have to be able to bootstrap the right content creation business and you have to make sure that there's a market for it and that you can support the operations of that market market.\par
+\pard\f0\fs20 So that's my suspicion.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And that's that's the challenge is like, so what is that?\par
+\pard\f0\fs20 Or what does that Florida break into?\par
+\pard\f0\fs20 And and right now, if this is still showing, like workstone is still showing the capacity of what it can do, but not with the teeth of money behind it, right.\par
+\pard\f0\fs20 There's no there's no tangible money problem it's solving at this point.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 With the agencies, I think you could get there very quickly.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, with the agencies I'm building with that notion of the agency, it is because I can, with the POC, I was with the with the MLM thing, I was able to produce these agents and I just said, here's the information on it, which was just a bunch of strategies and it produced a half a dozen reports based on on that.\par
+\pard\f0\fs20 So and the reports were light, but the reports were substantive in that they talked about the project and it was derivative of the project.\par
+\pard\f0\fs20 And so it's getting there.\par
+\pard\f0\fs20 It's just, again, having people on the other side saying, yeah, how do I make it not look like chat?\par
+\pard\f0\fs20 GPT right.\par
+\pard\f0\fs20 Because that's the end user.\par
+\pard\f0\fs20 The end user has a very simple way of saying some some things.\par
+\pard\f0\fs20 And I'm like, well, that means it's a low level policy.\par
+\pard\f0\fs20 I got to get in there, understand brand, and I got to do it.\par
+\pard\f0\fs20 You know what?\par
+\pard\f0\fs20 And their thing is just like, don't use commas really, and stop using bullet points and make sure it's not just three things all the time.\par
+\pard\f0\fs20 So.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 There'S something interesting about what you surface in terms of the LLMs and the AI.\par
+\pard\f0\fs20 And I think what Fulvia was saying about owning the product and the AI servicing that product and that's the interface.\par
+\pard\f0\fs20 There's something interesting there.\par
+\pard\f0\fs20 I think the transparency that you were talking about, I think applies in this regard as well.\par
+\pard\f0\fs20 So the full transparency actually kind of dilutes the value in some way.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 No, it does.\par
+\pard\f0\fs20 It has to.\par
+\pard\f0\fs20 So there has to be an automagical component of it, but there has to be trust, right.\par
+\pard\f0\fs20 And so I need to have the I need to know.\par
+\pard\f0\fs20 So I'm building trust at the mechanical, functional level and it needs to be surfaced through a really trustworthy experience.\par
+\pard\f0\fs20 And I and I think that's through finding some way that it's endearing to people in a way that they don't like.\par
+\pard\f0\fs20 They, they can appreciate when someone gives them feedback.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Like, but, you know, some people couch it.\par
+\pard\f0\fs20 Like, are you ready for it?\par
+\pard\f0\fs20 You know?\par
+\pard\f0\fs20 And so I'm like, ah, not today.\par
+\pard\f0\fs20 Or, you know what?\par
+\pard\f0\fs20 Just send it in an email.\par
+\pard\f0\fs20 And sometimes that's better.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So, like, the format of things is interesting.\par
+\pard\f0\fs20 And getting people to, you know, experience something in a different way is like that.\par
+\pard\f0\fs20 You know, my first product was a bbs.\par
+\pard\f0\fs20 Dial in bbs in a victor when I was going to University of Victoria in 1992, bought it secondhand off of somebody else.\par
+\pard\f0\fs20 It was called second site.\par
+\pard\f0\fs20 Secondhand.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Boy.\par
+\pard\f0\fs20 We've overlapped in more ways than I realized.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Anyway, that was the same problem here is like, trying to expose the value of it.\par
+\pard\f0\fs20 You had to get people in there to see it.\par
+\pard\f0\fs20 And so only a few people could do that.\par
+\pard\f0\fs20 And.\par
+\pard\f0\fs20 But it was important to do that so that a few people could then tell other people, yeah, you don't need to go there.\par
+\pard\f0\fs20 Anyways, thank you.\par
+\pard\f0\fs20 I think that's probably good for now.\par
+\pard\f0\fs20 I got a.\par
+\pard\f0\fs20 My brother has a couple of meetings this morning, so I got to get ready.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 You've got meetings to go to?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 David, just help Jeremy.\par
+\pard\f0\fs20 He has physical therapist coming in.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And then I'd love a few minutes before our 03:00 okay.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Well, 03:00 for me.\par
+\pard\f0\fs20 I know it's not 03:00 for you, but, you know.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 What is it, noon?\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 I think it's noon for you.\par
+\pard\f0\fs20 Cause I'm in Ontario.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Yeah, for sure.\par
+\pard\f0\fs20 Let's.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Nice to meet you, Hanif.\par
+\pard\f0\fs20 Pleasure.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Likewise.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 And see you.\par
+\pard\f0\fs20 See you next Wednesday if you're there.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 All right, guys.\par
+\pard\f0\fs20 Thank you.\par
+\pard\f0\fs20 That was awesome.\par
+\pard\f0\fs20 Appreciate it.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah, and I did find the questionnaire and I think it actually would be a cool little.\par
+\pard\f0\fs20 Yeah, I can see it.\par
+\pard\f0\fs20 Kind of voodoo, this good opportunity, throwing some juju.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That's it.\par
+\pard\f0\fs20 And that.\par
+\pard\f0\fs20 That's the word, man.\par
+\pard\f0\fs20 You call it magic, whatever.\par
+\pard\f0\fs20 Juju.\par
+\pard\f0\fs20 Something where you're like, ooh, yeah, exactly.\par
+\pard\f0\fs20 Or let's.\par
+\pard\f0\fs20 You know.\par
+\pard\f0\fs20 And I like.\par
+\pard\f0\fs20 So I did.\par
+\pard\f0\fs20 I was working with my sticks, my bamboo sticks.\par
+\pard\f0\fs20 I didn't find the image.\par
+\pard\f0\fs20 Anyways, I, you know, I lay them down.\par
+\pard\f0\fs20 The sticks and lay them down and.\par
+\pard\f0\fs20 And I was thinking about Conway.\par
+\pard\f0\fs20 I'm like, okay.\par
+\pard\f0\fs20 It's kind of like Conway.\par
+\pard\f0\fs20 It's like a map.\par
+\pard\f0\fs20 It's like a grid.\par
+\pard\f0\fs20 And I started analyzing.\par
+\pard\f0\fs20 Can I create evolutionary rules from this?\par
+\pard\f0\fs20 Because I wanted to get this intuition, feedback thing right.\par
+\pard\f0\fs20 You set an intention, do the sticks, take a photo, you keep doing that and like, maybe patterns of listen, right?\par
+\pard\f0\fs20 And so I'm like, how do I analyze this thing to give feedback saying, these are how you're thinking because, you know, it's expressing things in flow.\par
+\pard\f0\fs20 Well, fuck, man.\par
+\pard\f0\fs20 I found an angle in.\par
+\pard\f0\fs20 And so it was quite cool.\par
+\pard\f0\fs20 And so where's the best way of looking at it?\par
+\pard\f0\fs20 Here I was able to figure out, you know, the sticks have things on them and they're in positions.\par
+\pard\f0\fs20 And then, and so what it did was able to, like, analyze a bunch of different things.\par
+\pard\f0\fs20 And so a number of intersections of nodes, the node density in clusters, the stick orientation this way or that way, the band position relative to node.\par
+\pard\f0\fs20 So it's analyzing as a network, man, and it's creating meaning along those lines.\par
+\pard\f0\fs20 And then it's like giving it a score because I asked it to, and there's a different relative score.\par
+\pard\f0\fs20 And then what evidence did it find for that?\par
+\pard\f0\fs20 I'm like, how do you know?\par
+\pard\f0\fs20 And it says looks for nodes where only two sticks intersect, right?\par
+\pard\f0\fs20 That's kind of like Conway.\par
+\pard\f0\fs20 I'm like.\par
+\pard\f0\fs20 And then I'm like, what's the prompt for that?\par
+\pard\f0\fs20 So, you know, what's the problem?\par
+\pard\f0\fs20 Like, how do I work this as a system?\par
+\pard\f0\fs20 Like, I want to be able to understand.\par
+\pard\f0\fs20 And the prompt is identified.\par
+\pard\f0\fs20 I'm like, oh, yeah, right.\par
+\pard\f0\fs20 The rules are really simple for evolutionary stuff, but, but it did this thing and said, we'll make indices of it, right?\par
+\pard\f0\fs20 Like, I need indices.\par
+\pard\f0\fs20 I need something more than just here's the factors.\par
+\pard\f0\fs20 And here's a way of, it's like, roll the factors up into something.\par
+\pard\f0\fs20 And the indices were like, overall performance, key strengths, areas of improvement.\par
+\pard\f0\fs20 That's one set of indices.\par
+\pard\f0\fs20 But the more interesting ones was when I called directive.\par
+\pard\f0\fs20 It says, number of intersections out of node.\par
+\pard\f0\fs20 Oh, no, no, this is stages.\par
+\pard\f0\fs20 Here we go.\par
+\pard\f0\fs20 Here's the indices.\par
+\pard\f0\fs20 So if I go back to this one, all these contribute to the complexity index.\par
+\pard\f0\fs20 All of the, it's decided that these attributes, if you bring them together, you can get what's called a complexity index.\par
+\pard\f0\fs20 I'm like, this is the jam.\par
+\pard\f0\fs20 This is the dewdrop.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Bring it on.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 This is the axes of jujube.\par
+\pard\f0\fs20 And so I'm like, wow, that's a really granular thing.\par
+\pard\f0\fs20 And it can calculate that and then it can compose this thing and it can calculate that.\par
+\pard\f0\fs20 And then there's a functionality index.\par
+\pard\f0\fs20 So it's thinking of the network again, robustness, efficiency.\par
+\pard\f0\fs20 And I'm like, this is all great, but I want to cast it to something.\par
+\pard\f0\fs20 And this is where, this is where I'm like, okay, I can come at things from the network side of things, and then you can come out from like your.\par
+\pard\f0\fs20 This is like the things in background.\par
+\pard\f0\fs20 And I'm like, meet the two together.\par
+\pard\f0\fs20 What's the.\par
+\pard\f0\fs20 So I can't remember what the prompt is.\par
+\pard\f0\fs20 I'll have to get it.\par
+\pard\f0\fs20 But intuition and flow interpretation nodes with more intersections could represent areas of heightened awareness or decision points where intuition is critical.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Sounds good.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And it's an index and it has a calculation.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And so you created.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 It's created its own.\par
+\pard\par\f1\fs22\b\cf0 Fulvio Ciano:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And it's saying, well, yeah, no, all these things contribute to a certain kind of network understanding because it's got this network understanding and it's like, it knows all this shitty and so, well, it's got its own internal integrity.\par
+\pard\f0\fs20 It doesn't mean anything unto anything else until I cast it that way.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So now it has internal integrity.\par
+\pard\f0\fs20 It can create its indices and it can say, we believe it's these things.\par
+\pard\f0\fs20 And it is.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 And I mean, if you take that and apply it to some extracted data from somebody and say, hey, okay, so I'm gonna.\par
+\pard\f0\fs20 This is what this is.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 That's it.\par
+\pard\f0\fs20 And so I did that just with this notion of interpretation and flow, like, flow and intuition, like, how could it be cast to some way of steering your intuition?\par
+\pard\f0\fs20 Are recognizing it in play.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 And that.\par
+\pard\f0\fs20 But your version of it, way better.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I was just hacking that in and I'm like, give me a column where I got.\par
+\pard\f0\fs20 Give me a column where I can see how to connect it to something else.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 Well, I'm excited to start to play with it.\par
+\pard\f0\fs20 I will actually, I should share the questionnaire with you.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, that would be great.\par
+\pard\f0\fs20 That spreadsheet.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Because what we can do is that questionnaire will populate the spreadsheet.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 If you answer it or if anyone answers it.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, here's the first thing I'm going to do is I'm going to create, I'm going to create a bunch of synthetic users that are going to go through and they're going to answer the spreadsheet and it's going to create a spreadsheet of answers.\par
+\pard\f0\fs20 And that's how we go about it.\par
+\pard\f0\fs20 And then when we say, well, now we'll give the users a tone, now we'll.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 So what I think I should do is I should create a new version.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, yeah.\par
+\pard\f0\fs20 Keep whatever you have.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Keep that old stuff.\par
+\pard\f0\fs20 And then I'll just.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, clone it.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Clone the spreadsheet.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, give it a sandbox you know, that you've got your stuff, your source from before.\par
+\pard\f0\fs20 This is the new source.\par
+\pard\f0\fs20 And in fact, what I do is I copy.\par
+\pard\f0\fs20 I copy.\par
+\pard\f0\fs20 Yeah, you copied yours as well, and I copy.\par
+\pard\f0\fs20 And so that I don't mess things up.\par
+\pard\f0\fs20 And then usually what I end up with is a new version of something that has slightly different integrity to it.\par
+\pard\f0\fs20 But I need to have that path back.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah, I'll create that and share that with you.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I will find some time for Pennyfan in my, probably early morning one morning, because it fits into this structure I'm building in my head, I guess, like this thing.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 What's interesting to me also is, you know, in the initial kind of conceptualization of it was for public engagement at the ago, but, you know, we.\par
+\pard\f0\fs20 We talked about it a lot as this kind of playful kiosk, you know, where you go, and it's that kind of, you know, you mug shots and, you know, you get a version of yourself, and I think that's the cat.\par
+\pard\f0\fs20 That's the hook, you know, because we all want to see ourselves, and we're not actually interested in anything else.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Well, that's.\par
+\pard\f0\fs20 That the selfishness is significant, and it's the motivation to jump on right now.\par
+\pard\f0\fs20 You've got it right.\par
+\pard\f0\fs20 It's.\par
+\pard\f0\fs20 That's what's driving a lot of things.\par
+\pard\f0\fs20 Yeah, I got to.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah, you gotta run.\par
+\pard\f0\fs20 I gotta run, too.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, I just see that my brother has a half an hour.\par
+\pard\f0\fs20 He needs time to get ready, so I should go make sure he's up.\par
+\pard\f0\fs20 But, yeah, if you.\par
+\pard\f0\fs20 If you forward that, that'll.\par
+\pard\f0\fs20 I'll take a view.\par
+\pard\f0\fs20 And usually, like, that view provides me something to think about, and then I'll have some time to experiment where I do something, you know, play around with things and.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 And I think there's lots of room where it can grow.\par
+\pard\f0\fs20 This was really just a kernel.\par
+\pard\f0\fs20 I have an idea.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Yeah, well, it's a good one.\par
+\pard\f0\fs20 And like I say, you've inspired me to go down this path of.\par
+\pard\f0\fs20 I could create the spreadsheet that outputs the Matlab now.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 I mean, I conceptually thought, like, okay, yeah, sure.\par
+\pard\f0\fs20 But it could be just that.\par
+\pard\f0\fs20 It is.\par
+\pard\f0\fs20 The product is a spreadsheet.\par
+\pard\f0\fs20 You just copy and paste your prompt in, and it works.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 That's kind of how I see.\par
+\pard\f0\fs20 See it right now.\par
+\pard\f0\fs20 So I do appreciate you sharing that golden document, but we'll be in touch.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 I'm sure we'll keep talking.\par
+\pard\f0\fs20 Yeah.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Thanks, Eddie.\par
+\pard\par\f1\fs22\b\cf0 Hanif Janmohamed:\b0\par
+\pard\f0\fs20 Peace out.\par
+}

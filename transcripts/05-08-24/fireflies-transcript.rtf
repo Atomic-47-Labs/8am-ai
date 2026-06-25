@@ -1,0 +1,954 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8 am AI School - Workshop #4\b0\par
+\pard\qc\f1\fs20 5/8/2024 \bullet 1min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Morning, Dave.\par
+\pard\f0\fs20 How's it going?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Buenos dias.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Hey, good morning.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\f0\fs20 Can you hear me now?\par
+\pard\f0\fs20 We can hear you.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Yep.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Good morning.\par
+\pard\f0\fs20 Is the text on this?\par
+\pard\f0\fs20 Is this text on the screen reading properly for you guys?\par
+\pard\f0\fs20 Like it says 08:00 a.m..\par
+\pard\f0\fs20 A high school.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Not.\par
+\pard\f0\fs20 It's not backwards.\par
+\pard\f0\fs20 Nope.\par
+\pard\f0\fs20 Okay, cool.\par
+\pard\f0\fs20 We'll get going then.\par
+\pard\f0\fs20 Just to let you know, I'm using.\par
+\pard\f0\fs20 Some sort of encoder software on my desktop so that I can capture all this stuff.\par
+\pard\f0\fs20 And to that point, let me start recording that and we'll get going.\par
+\pard\f0\fs20 I want to thank you all.\par
+\pard\f0\fs20 Looks like we have a few people.\par
+\pard\f0\fs20 1235 people this morning.\par
+\pard\f0\fs20 That was a goal.\par
+\pard\f0\fs20 Excellent.\par
+\pard\f0\fs20 I'm going to go over kind of.\par
+\pard\f0\fs20 Where we're at today with this sort of AI school stuff and where we've taken the last three classes or workshops.\par
+\pard\f0\fs20 In terms of progress, can I just ask?\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Sorry, yeah, it's fairly low res.\par
+\pard\f0\fs20 Is that just me?\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 I think it's just you.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 Okay.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Actually, I can't read.\par
+\pard\f0\fs20 Oh, now it's low res for me.\par
+\pard\f0\fs20 Now it's high res.\par
+\pard\f0\fs20 It's alternating.\par
+\pard\f0\fs20 There is a documentary.\par
+\pard\f0\fs20 So at the workshop index page on.\par
+\pard\f0\fs20 The website, there is two documents there that you will be able to be using as we move through this.\par
+\pard\f0\fs20 This what I've got in front of us right now, it's just allowing me to have an agenda.\par
+\pard\f0\fs20 Hopefully you'll be able to see stuff because guess what?\par
+\pard\f0\fs20 We're going to go into chat GPT.\par
+\pard\f0\fs20 And use it, but you'll also have.\par
+\pard\f0\fs20 The agents accessible to you.\par
+\pard\f0\fs20 So we've been working on what I call scrubs, agents that are kind of.\par
+\pard\f0\fs20 A minimal set of requirements to actually define what it is to have an agent working in a large language model, like a chakrapt environment.\par
+\pard\f0\fs20 We've looked at a whole lot of.\par
+\pard\f0\fs20 Different types of ways of defining what an AI assistant would look like, giving them a name, a role, some skills, a task, personality.\par
+\pard\f0\fs20 I've also introduced a bunch of different ways of designing.\par
+\pard\f0\fs20 We could call it agents, and I put them together in a document for today's workshop because I've been creating them as I've needed them for the classes and in this case, wanted to make them all available in one place.\par
+\pard\f0\fs20 So you can copy and paste like mad to try things out and also.\par
+\pard\f0\fs20 To show you the different ways in which you can define an agent.\par
+\pard\f0\fs20 There's no one way to do this, and there's no one way in which you can prompt within these spaces.\par
+\pard\f0\fs20 I've started using perplexity AI a little bit more, and I would suggest you try it out.\par
+\pard\f0\fs20 It's pretty nice, but the same sort of rules, strategies and techniques apply in.\par
+\pard\f0\fs20 That environment, which is kind of cool.\par
+\pard\f0\fs20 And that's why we want to get to a minimum set as to what we can define an agent.\par
+\pard\f0\fs20 So I call it this minimum viable scrub an agent with this kind of.\par
+\pard\f0\fs20 Little bit of information.\par
+\pard\f0\fs20 And then to get it to move.\par
+\pard\f0\fs20 Into in terms of a.\par
+\pard\f0\fs20 Script, we need a little bit more.\par
+\pard\f0\fs20 Sorry, there's a prompt.\par
+\pard\f0\fs20 We need a little bit more around.\par
+\pard\f0\fs20 This to get it to work.\par
+\pard\f0\fs20 Inside chat GBT, we give it some instructions.\par
+\pard\f0\fs20 There's this fabulous statement called go step by step, which induces this type of reasoning within the space that is all.\par
+\pard\f0\fs20 Of my work, actually.\par
+\pard\f0\fs20 It allows for something called chain of.\par
+\pard\f0\fs20 Thought and different types of reasoning patterns.\par
+\pard\f0\fs20 So we can include it or we.\par
+\pard\f0\fs20 Can actually exclude it and see what happens.\par
+\pard\f0\fs20 But I've explicitly included it in here.\par
+\pard\f0\fs20 So that we can force some sort of different pattern on things.\par
+\pard\f0\fs20 And so, just to show you how.\par
+\pard\f0\fs20 Things can work, I've created Benny, and we go into chat.\par
+\pard\f0\fs20 Hopefully, things hopefully seem to be moving.\par
+\pard\f0\fs20 I'll just paste this in from Google.\par
+\pard\f0\fs20 Doc, and it should give me something great.\par
+\pard\f0\fs20 Let's break down the step by step, Betty, since we're exploring competitors in the.\par
+\pard\f0\fs20 Field of LLM, specifically those working in Jnai.\par
+\pard\f0\fs20 Okay, so now this script is gonna play out.\par
+\pard\f0\fs20 There's not a lot going on here.\par
+\pard\f0\fs20 But in terms of what I've told it to do, but it is actually setting about building a plan, strategy plan, and executing on writing an article eventually.\par
+\pard\f0\fs20 That would be approachable.\par
+\pard\f0\fs20 So if I.\par
+\pard\f0\fs20 My favorite thing to type.\par
+\pard\f0\fs20 When things get to a certain point and it's cacked, meaning my simulation might not be proceeding as I wanted it to because it's interpreting it differently than.\par
+\pard\f0\fs20 I expected, I type proceed, and it generally.\par
+\pard\f0\fs20 Generally, I didn't actually do it.\par
+\pard\f0\fs20 It just stalled.\par
+\pard\f0\fs20 You can see that it's still going.\par
+\pard\f0\fs20 So if it stalls like I thought.\par
+\pard\f0\fs20 It did, I just type proceed, and it will actually continue with the simulation.\par
+\pard\f0\fs20 Almost in all cases with what I want to do.\par
+\pard\f0\fs20 If I don't, then I go back.\par
+\pard\f0\fs20 To the editing drawing board.\par
+\pard\f0\fs20 But you can see that little tiny.\par
+\pard\f0\fs20 Script basically asking Benny to be a technology researcher.\par
+\pard\f0\fs20 It's saying they have some experience and asking them to come up with these three different types of assets.\par
+\pard\f0\fs20 And, you know, even giving it some weird variables that didn't really make a.\par
+\pard\f0\fs20 Lot of sense.\par
+\pard\f0\fs20 It goes out and it did it.\par
+\pard\f0\fs20 And I would suggest that what it pulled back with wasn't, you know, the.\par
+\pard\f0\fs20 Most intensely valuable stuff.\par
+\pard\f0\fs20 But from there we've got something we.\par
+\pard\f0\fs20 Can work with and we can expand on.\par
+\pard\f0\fs20 And so the template that I moved.\par
+\pard\f0\fs20 Forward with is one of including some sort of set of instructions on goal.\par
+\pard\f0\fs20 For the scenario variables, if you can set, move around.\par
+\pard\f0\fs20 And I provided Benny as a full.\par
+\pard\f0\fs20 Sort of blown out example so you.\par
+\pard\f0\fs20 Can see how you would work with some of the cool kind of nomenclature that I like.\par
+\pard\f0\fs20 This is kind of setting up variables.\par
+\pard\f0\fs20 And using them throughout the space.\par
+\pard\f0\fs20 The nice thing about this is you can take this, you can just change the kind of researcher, you can change the goals, the kind of assets you want, even the investors, and then this framework will still work.\par
+\pard\f0\fs20 Oh look, I give you a blank template.\par
+\pard\f0\fs20 And one thing that I like.\par
+\pard\f0\fs20 To do is I take something like my.\par
+\pard\f0\fs20 Prompts or my agents and then.\par
+\pard\f0\fs20 I will bring them back into chat.\par
+\pard\f0\fs20 And I will actually ask them to generate or optimize.\par
+\pard\f0\fs20 And here's an example of what it did with previous agent design of love.\par
+\pard\f0\fs20 You can see that it's made it sort of more structured and simplified a.\par
+\pard\f0\fs20 Little bit like it likes things like this.\par
+\pard\f0\fs20 And you can start to see that the structure in there is breaking down.\par
+\pard\f0\fs20 Into almost pairs, right?\par
+\pard\f0\fs20 So very brief in terms of descriptions that it wants.\par
+\pard\f0\fs20 So I would suggest that this is.\par
+\pard\f0\fs20 Pretty good as a template and so.\par
+\pard\f0\fs20 Are all these other ones for what.\par
+\pard\f0\fs20 We would call our scrubs.\par
+\pard\f0\fs20 And I'll show you even some more stuff below.\par
+\pard\f0\fs20 But one of the things we got.\par
+\pard\f0\fs20 Into and started talking about it, we.\par
+\pard\f0\fs20 Fucking IQ was metaprompting.\par
+\pard\f0\fs20 And so.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Is audio back on?\par
+\pard\f0\fs20 Yep, it is.\par
+\pard\f0\fs20 Jesus.\par
+\pard\f0\fs20 Okay, so this is curious.\par
+\pard\f0\fs20 It's probably my Internet doing that for.\par
+\pard\f0\fs20 Some of you and me.\par
+\pard\f0\fs20 Okay, so I asked it to work with Benny here and it's still saying that it's an analyst, but it's still going to go through and define the goals.\par
+\pard\f0\fs20 Well, it is an analyst.\par
+\pard\f0\fs20 Sorry, I'm getting this mixed up.\par
+\pard\f0\fs20 It's redefining how it understands this little.\par
+\pard\f0\fs20 Bit of documentation I gave it and.\par
+\pard\f0\fs20 How it's going to go about the.\par
+\pard\f0\fs20 Building of.\par
+\pard\f0\fs20 Looking at the web based.\par
+\pard\f0\fs20 Resistance, the assets that I asked it to.\par
+\pard\f0\fs20 So it's actually, it's actually hallucinating in.\par
+\pard\f0\fs20 A way that I didn't want to.\par
+\pard\f0\fs20 It's gone and created the asset and.\par
+\pard\f0\fs20 Then created what it's need to do.\par
+\pard\f0\fs20 Very interesting.\par
+\pard\f0\fs20 I didn't give it enough of a context, asking it to optimize what I provided.\par
+\pard\f0\fs20 And so I said hallucinate, but I.\par
+\pard\f0\fs20 Didn'T give it enough of a context.\par
+\pard\f0\fs20 For it to actually move through and create what I wanted to.\par
+\pard\f0\fs20 So it created the.\par
+\pard\f0\fs20 Agent and then it agent created its work.\par
+\pard\f0\fs20 So, I mean, that's awesome, but that's.\par
+\pard\f0\fs20 Not what I was intending.\par
+\pard\f0\fs20 But there you go.\par
+\pard\f0\fs20 That's kind of how that could play out.\par
+\pard\f0\fs20 And if I actually went back into explore my exports, HPts, if you just do a keyboard search on Sona, you'll start to see some of the other.\par
+\pard\f0\fs20 Stuff we're going to work with today.\par
+\pard\f0\fs20 Hanif, I've looked at what you provided me as an asset.\par
+\pard\f0\fs20 The image.\par
+\pard\f0\fs20 If you could just type into the window.\par
+\pard\f0\fs20 May I use your image as an example in today's sort of tutorials or samples?\par
+\pard\f0\fs20 Okay, cool.\par
+\pard\f0\fs20 Hanif is doing some interesting work with blood Tisch, and he's provided me a comp of one of his images.\par
+\pard\f0\fs20 And if you do a keyword search.\par
+\pard\f0\fs20 On work Sona, you can see a variety of different kinds of agents that I've built, and I cleaned it up.\par
+\pard\f0\fs20 So they're all kind of useful.\par
+\pard\f0\fs20 Now, I really want to get into the supervisor agent, but what we will be doing today is working with Ali and ZD.\par
+\pard\f0\fs20 And I didn't necessarily spell them right.\par
+\pard\f0\fs20 But I've created what I call a fidget.\par
+\pard\f0\fs20 It's just an environment where you can.\par
+\pard\f0\fs20 Work with images and these two agents that I've created.\par
+\pard\f0\fs20 And so to go full circle back into that document that I provided that has all these wonderful different renderings of.\par
+\pard\f0\fs20 What an agent can look like in terms of metadata.\par
+\pard\f0\fs20 I've got one more scenario, one more version.\par
+\pard\f0\fs20 I call it framework a, because it was a framework that we actually developed.\par
+\pard\f0\fs20 In one of our sessions.\par
+\pard\f0\fs20 It was pretty good.\par
+\pard\f0\fs20 I really liked it, actually, because it.\par
+\pard\f0\fs20 Introduced this notion of procedures and how.\par
+\pard\f0\fs20 To go through any kind of task and very, very valuable.\par
+\pard\f0\fs20 And then how to define an agent.\par
+\pard\f0\fs20 Was a little bit different too.\par
+\pard\f0\fs20 Interest in ocean KPI's, which again, is useful.\par
+\pard\f0\fs20 I already provided this, but examples in the world that aren't mine.\par
+\pard\f0\fs20 Big fan of crew AI, in fact, ching.\par
+\pard\f0\fs20 Part of my research is trying to.\par
+\pard\f0\fs20 Understand patterns, and part of my work.\par
+\pard\f0\fs20 Is to go through and see how things are made.\par
+\pard\f0\fs20 And so through the deconstruction of some.\par
+\pard\f0\fs20 Of the crew AI work that I.\par
+\pard\f0\fs20 I did, I've called a whole lot.\par
+\pard\f0\fs20 Of different, very, very brief definitions of an agent, a role, goal, backstory, kind of that's their thing, or that raiders thing is that that's a very brief.\par
+\pard\f0\fs20 Way of discussing or documenting an agent.\par
+\pard\f0\fs20 So I provided that Jasper also has.\par
+\pard\f0\fs20 A whole lot of prompts available that.\par
+\pard\f0\fs20 I don't.\par
+\pard\f0\fs20 That I've gone through and I've looked at and they have some of the nomongelecture I've seen elsewhere where you're, you know, you can make, you.\par
+\pard\f0\fs20 Can make prompt very generic by using this kind of structure where you don't.\par
+\pard\f0\fs20 Know what that product or service is, but then the buyer Persona would ask.\par
+\pard\f0\fs20 You that and then fill it out.\par
+\pard\f0\fs20 So conducting interviews, different types of agents for interviews, these are all on the website.\par
+\pard\f0\fs20 I'm looking at it to understand it.\par
+\pard\f0\fs20 I bring it into chat, I bring.\par
+\pard\f0\fs20 It into Google Docs, read it, browse.\par
+\pard\f0\fs20 It, doing my thing in my head also, then take it into chat pt.\par
+\pard\f0\fs20 And I start to look for similarity.\par
+\pard\f0\fs20 So these are working documents, very useful for if you just want to search.\par
+\pard\f0\fs20 For a quick and dirty scrubby type.\par
+\pard\f0\fs20 Agent, there's another great resource.\par
+\pard\f0\fs20 And of course I've sort of shown.\par
+\pard\f0\fs20 You how works on works.\par
+\pard\f0\fs20 It takes data, various types of metadata.\par
+\pard\f0\fs20 And then it works to optimize that as an agent.\par
+\pard\f0\fs20 So there's a bunch of different types of.\par
+\pard\f0\fs20 Agents in here.\par
+\pard\f0\fs20 And then, you know, based on come, wanting to come in and make this more interactive.\par
+\pard\f0\fs20 Jammy.\par
+\pard\f0\fs20 Wanted to get going with some.\par
+\pard\f0\fs20 Agents that I kind of designed ahead.\par
+\pard\f0\fs20 Of time, so we weren't spending time on that.\par
+\pard\f0\fs20 And so they're available to you to.\par
+\pard\f0\fs20 Copy and paste and to work within whatever way you want as well as to access them as GPTs are my.\par
+\pard\f0\fs20 So I created two agents, one to.\par
+\pard\f0\fs20 Sort of analyze the visuals and one to analyze the text, thinking that that would be an interesting way to look.\par
+\pard\f0\fs20 At this.\par
+\pard\f0\fs20 To be able to have.\par
+\pard\f0\fs20 Not one, but two different points of.\par
+\pard\f0\fs20 View and to see what then we.\par
+\pard\f0\fs20 Can do in terms of collaboration or conversation or whatever else.\par
+\pard\f0\fs20 So I didn't get much farther than.\par
+\pard\f0\fs20 Just designing them, but we can look at the design and we can see what they are.\par
+\pard\f0\fs20 Ally Visual and semiotics analyzer terrible assist artists in analyzing visual elements and textual discourse within their projects.\par
+\pard\f0\fs20 Enhancing documentation scholars engagements well, some of.\par
+\pard\f0\fs20 Those words are mine, but they're not certainly all.\par
+\pard\f0\fs20 And then the tools used in the.\par
+\pard\f0\fs20 Tasks, I didn't, I didn't come up.\par
+\pard\f0\fs20 With any of this stuff.\par
+\pard\f0\fs20 I came up with description and then.\par
+\pard\f0\fs20 Worked with chat CPT to create.\par
+\pard\f0\fs20 These.\par
+\pard\f0\fs20 Characters.\par
+\pard\f0\fs20 Show you before we get working with them.\par
+\pard\f0\fs20 How I created them, because it's kind of jammy.\par
+\pard\f0\fs20 Create a concise prompt from the following.\par
+\pard\f0\fs20 I had some information on what could be tasks associated with the kind of agent that would do some work.\par
+\pard\f0\fs20 Actually, that's the one, not the full one.\par
+\pard\f0\fs20 I had.\par
+\pard\f0\fs20 Worked definition backstory and built the tools and sort of analysis using sort of a crew AI framework around things.\par
+\pard\f0\fs20 And then I wanted to generate some.\par
+\pard\f0\fs20 Easier versions of it to work with.\par
+\pard\f0\fs20 And I kept dithering it down, make.\par
+\pard\f0\fs20 This more compact and include a section called important.\par
+\pard\f0\fs20 I was going to work with that.\par
+\pard\f0\fs20 Today, but I didn't get there.\par
+\pard\f0\fs20 So it's starting to get more simple.\par
+\pard\f0\fs20 But as I work with it, I.\par
+\pard\f0\fs20 Found it was becoming more generic.\par
+\pard\f0\fs20 And this is one thing Jason McKay.\par
+\pard\f0\fs20 And I have discussed, and he's found it in his work too, is that if we don't have the right kind of information in a directive, in a description, we don't have a rich enough description there.\par
+\pard\f0\fs20 Then it comes up banal.\par
+\pard\f0\fs20 And so I started working down this.\par
+\pard\f0\fs20 Path and ended up with poop, with.\par
+\pard\f0\fs20 Poop, until I went back to the.\par
+\pard\f0\fs20 Original and then started finding that it was giving me something a little bit more meaty to work with.\par
+\pard\f0\fs20 And if I go to the bottom, I ended up going with what I.\par
+\pard\f0\fs20 Thought was much longer description of things.\par
+\pard\f0\fs20 The one thing that's neat about working.\par
+\pard\f0\fs20 Within chat GPT, and I know I'm.\par
+\pard\f0\fs20 Scrolling hell through this, is that you.\par
+\pard\f0\fs20 Can cast, you can change the type.\par
+\pard\f0\fs20 Of the document output that you want into different things.\par
+\pard\f0\fs20 Some of us in the programming language, like we like something called Yaml, yet another markup language.\par
+\pard\f0\fs20 It's just a way of structuring the data.\par
+\pard\f0\fs20 How else did it do it?\par
+\pard\f0\fs20 You can actually ask it to export it as a doc, file or PDF.\par
+\pard\f0\fs20 I'm trying to make things compact and useful inside chat.\par
+\pard\f0\fs20 So if this copies and pastes, well, you see that kind of copies and pastes not too well, not too bad, right?\par
+\pard\f0\fs20 It keeps its structure, that's an important aspect of it.\par
+\pard\f0\fs20 The structure of the information and structure.\par
+\pard\f0\fs20 Of your data is actually contributing to how it gets processed and turned into functional stuff.\par
+\pard\f0\fs20 Okay, so that's sort of how I created these jammy, Jammy two guys, Ali.\par
+\pard\f0\fs20 And ZD, in the text analyzer, analysis.\par
+\pard\f0\fs20 Criticism, academic research tools used like these are neat.\par
+\pard\f0\fs20 Okay?\par
+\pard\f0\fs20 So because I was working within that.\par
+\pard\f0\fs20 Framework of crew AI, it has a task and it wants to have tools associated.\par
+\pard\f0\fs20 Some of the tools are built within Python, for instance.\par
+\pard\f0\fs20 For this stuff, I want to work.\par
+\pard\f0\fs20 Within, just within the context window.\par
+\pard\f0\fs20 So it's all just not calling function calls outside the program environment sort of.\par
+\pard\f0\fs20 Experience the chatbot environment.\par
+\pard\f0\fs20 But these tools can be described using English, and then they can be functional in that regard.\par
+\pard\f0\fs20 So we can take a description metadata.\par
+\pard\f0\fs20 And we make it functional inside the large language model.\par
+\pard\f0\fs20 So.\par
+\pard\f0\fs20 The description.\par
+\pard\f0\fs20 So actually I can't do it.\par
+\pard\f0\fs20 I was trying to cast it anyway.\par
+\pard\f0\fs20 So if we just describe a semantic.\par
+\pard\f0\fs20 Analysis tool to break down and explore structures and themes, that's, that's general enough.\par
+\pard\f0\fs20 I spent many years understanding that, but that's okay.\par
+\pard\f0\fs20 The same type of one that allows us to understand that, you know, there's.\par
+\pard\f0\fs20 Some sort of tooling that would be involved, could get advanced.\par
+\pard\f0\fs20 We can also probably not just fake it, simulate it inside this environment.\par
+\pard\f0\fs20 The tasks are analyze the text, draft.\par
+\pard\f0\fs20 Some criticism, provide some assistance.\par
+\pard\f0\fs20 Cool.\par
+\pard\f0\fs20 Okay, so I've taken those two doodads, whatever you want to call them, things, and I've created just for the sake.\par
+\pard\f0\fs20 Of ease, I guess I've created a Mychatbt.\par
+\pard\f0\fs20 Now I haven't given away the rights.\par
+\pard\f0\fs20 To edit, I think a lot of.\par
+\pard\f0\fs20 These things, but, but that's neither here nor there because most of the time I'm just going to just enable you.\par
+\pard\f0\fs20 Guys to paste stuff into here.\par
+\pard\f0\fs20 But instead of pasting stuff into here.\par
+\pard\f0\fs20 I'm pasting it over here.\par
+\pard\f0\fs20 Instructions.\par
+\pard\f0\fs20 So I didn't call it much.\par
+\pard\f0\fs20 I called Dali and ZD.\par
+\pard\f0\fs20 It's a fidget, whatever, it's a thing.\par
+\pard\f0\fs20 Create both agents in the attached documents.\par
+\pard\f0\fs20 So I separated them out and created.\par
+\pard\f0\fs20 Attached PDF's so they can upload, introduce them and introduce them.\par
+\pard\f0\fs20 They are there to aid the user.\par
+\pard\f0\fs20 So that's not the best language in the world, but it gets us going.\par
+\pard\f0\fs20 We have capabilities we can have here.\par
+\pard\f0\fs20 We can add actions which are fun.\par
+\pard\f0\fs20 You know, programming language sort of functions.\par
+\pard\f0\fs20 That we would add capabilities, web browsing, probably.\par
+\pard\f0\fs20 We want to be able to dolly.\par
+\pard\f0\fs20 As we're working with images we want.\par
+\pard\f0\fs20 To be able to generate and we.\par
+\pard\f0\fs20 Want to be able to interpret a lot of things.\par
+\pard\f0\fs20 So the code interpreter is there.\par
+\pard\f0\fs20 So that's, you know, there's not a lot there.\par
+\pard\f0\fs20 If we looked at the individual scrubs.\par
+\pard\f0\fs20 You know, they have some tools and some tasks.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 The agent has empowered our scholars and critics enhance research.\par
+\pard\f0\fs20 So fairly useful.\par
+\pard\f0\fs20 I'm going to update it just to.\par
+\pard\f0\fs20 Show, show you where that kind of thing goes.\par
+\pard\f0\fs20 Where this is kind of an interesting thing is to be able to, okay, so view GPT, anyone with link view.\par
+\pard\f0\fs20 GPT so I can work with it.\par
+\pard\f0\fs20 Okay, I'm just hitting the begin button because.\par
+\pard\f0\fs20 And it should give me something.\par
+\pard\f0\fs20 Okay, so we're gonna get an introduction.\par
+\pard\f0\fs20 To who they are and it's probably.\par
+\pard\f0\fs20 Gonna be a little bit, you know, procedural.\par
+\pard\f0\fs20 Well, the experience is, but I mean, the how it provides information.\par
+\pard\f0\fs20 Oh, that summarized it the last time.\par
+\pard\f0\fs20 It gave me the whole config.\par
+\pard\f0\fs20 And I've asked it in this case.\par
+\pard\f0\fs20 To provide us a menu of options of things that we could do so.\par
+\pard\f0\fs20 That there's some sense of workflow.\par
+\pard\f0\fs20 You know, I didn't tell them to do these things, but I said, we're going to work with images and text.\par
+\pard\f0\fs20 And won't be able to upload them kind of thing.\par
+\pard\f0\fs20 So it was enough to provide some.\par
+\pard\f0\fs20 Sort of context for this.\par
+\pard\f0\fs20 And if I type one now, I.\par
+\pard\f0\fs20 Don'T really need to type one.\par
+\pard\f0\fs20 I can just hit click button.\par
+\pard\f0\fs20 Great.\par
+\pard\f0\fs20 But this is how you can create.\par
+\pard\f0\fs20 A flow for people.\par
+\pard\f0\fs20 I can work outside this by typing anything I like, or I can work with menu system.\par
+\pard\f0\fs20 So.\par
+\pard\f0\fs20 This is this one.\par
+\pard\f0\fs20 So this is Hanif's good work.\par
+\pard\f0\fs20 Our analyzers engage this.\par
+\pard\f0\fs20 My goal of.\par
+\pard\f0\fs20 Being able to provide.\par
+\pard\f0\fs20 Multiple lines of discourse in to the project.\par
+\pard\f0\fs20 Oh.\par
+\pard\f0\fs20 It says as oh, God.\par
+\pard\f0\fs20 Previously, oh, it'll work.\par
+\pard\f0\fs20 Shit.\par
+\pard\f0\fs20 Anyway, so Hanif, that would be kind of about it at this point.\par
+\pard\f0\fs20 It's like, okay, how do I want.\par
+\pard\f0\fs20 To get going on things?\par
+\pard\f0\fs20 You know, the themes that you're working.\par
+\pard\f0\fs20 With, you might have an artist statement.\par
+\pard\f0\fs20 You can upload your artist statement along with your visuals with.\par
+\pard\f0\fs20 With comps, with renderings, drawings, whatever kind of corollary you would have to words, explaining or providing context in.\par
+\pard\f0\fs20 And then you could even provide a framework around that.\par
+\pard\f0\fs20 I'm asking these two agents that I.\par
+\pard\f0\fs20 Set up, because they're fairly sophisticated, they can do some neat things.\par
+\pard\f0\fs20 And so instead of me trying to.\par
+\pard\f0\fs20 You know, go back and say, well, what can they do?\par
+\pard\f0\fs20 Like, what can I specifically ask them?\par
+\pard\f0\fs20 Knowing what they can do, I'm asking them, because they are agents, to invite me into that process.\par
+\pard\f0\fs20 And so, engaging with Ali, the analysis.\par
+\pard\f0\fs20 Dissect, composition, thematic relevance, each segment, document documentation, assistance for effectively communicating the concept embodied in your project.\par
+\pard\f0\fs20 Ali can help you formulate detailed artist statements.\par
+\pard\f0\fs20 Engaging with ZD, textual and semiotic analysis.\par
+\pard\f0\fs20 Can offer a semiotic analysis of textual elements, artwork with a query.\par
+\pard\f0\fs20 What is this juxtaposed with the image?\par
+\pard\f0\fs20 All right, I guess I'm not needed here.\par
+\pard\f0\fs20 If your goal includes publishing a critical.\par
+\pard\f0\fs20 Analysis or an assay, ZD can assist.\par
+\pard\f0\fs20 This is, I think, a very interesting aspect of it.\par
+\pard\f0\fs20 You could, you could write your essay, and then you could have an agent represent, you know, your essay and the.\par
+\pard\f0\fs20 Work and engage an audience from that point of view.\par
+\pard\f0\fs20 And, you know, how I would go about that was my essay would be like ten questions that the agent would.\par
+\pard\f0\fs20 Then look at the corpus of work.\par
+\pard\f0\fs20 You'Ve done to answer those questions and.\par
+\pard\f0\fs20 Then engage in audience.\par
+\pard\f0\fs20 Anyways, more to that.\par
+\pard\f0\fs20 But if there's anything that you would like to try to poke around with.\par
+\pard\f0\fs20 This, I think there's the volume is working on them.\par
+\pard\f0\fs20 We have audio and text, so.\par
+\pard\f0\fs20 Right, so copy and paste and cheat.\par
+\pard\f0\fs20 This is where you're working with intelligence.\par
+\pard\f0\fs20 So if you can laterally think, which this group can do, then you have interesting ways of building a framework for.\par
+\pard\f0\fs20 Analysis, for inquiry and basically intelligence.\par
+\pard\f0\fs20 So this is all a movement.\par
+\pard\f0\fs20 So I.\par
+\pard\f0\fs20 One of my things is information in motionism intelligence.\par
+\pard\f0\fs20 And, you know, just by this being teletype, you can say that that's an embodiment of that interaction level.\par
+\pard\f0\fs20 But.\par
+\pard\f0\fs20 This is what it provides you an opportunity to do, is to, you.\par
+\pard\f0\fs20 Know, look at this from the point of view of the average Internet user.\par
+\pard\f0\fs20 And then to hype it up with.\par
+\pard\f0\fs20 The sort of the context of agents with expertise providing conversation around it.\par
+\pard\f0\fs20 Now where I think something like this.\par
+\pard\f0\fs20 Would be meaningful is like, it's probably.\par
+\pard\f0\fs20 Going to come up with fairly banal things as the first pass.\par
+\pard\f0\fs20 That's kind of like table stakes for.\par
+\pard\f0\fs20 How this kind of stuff works.\par
+\pard\f0\fs20 Unless you get a little bit more sophisticated.\par
+\pard\f0\fs20 I'm going to show you my supervisor agent a little later.\par
+\pard\f0\fs20 And it's the jam now for me in terms of how to get the agent to work as an optimizer for you.\par
+\pard\f0\fs20 So I wasn't looking at all this.\par
+\pard\f0\fs20 So dissecting the composition, thematic relevance, satellite.\par
+\pard\f0\fs20 Imagery, organic textures, colors, blues, dominant warm.\par
+\pard\f0\fs20 Accents, circular fluid motion shapes, structured versus randomness.\par
+\pard\f0\fs20 Overall, segmented yet cohesive layout.\par
+\pard\f0\fs20 I would say that's kind of boring.\par
+\pard\f0\fs20 It, you know, we could take it.\par
+\pard\f0\fs20 And we can then say, what could.\par
+\pard\f0\fs20 We do with it?\par
+\pard\f0\fs20 I kind of find that I'm not really interested in this.\par
+\pard\f0\fs20 I'm interested in the fact that we.\par
+\pard\f0\fs20 Have these two people here, these two.\par
+\pard\f0\fs20 Representatives of people here.\par
+\pard\f0\fs20 Maybe they could, okay, do something that's more interesting.\par
+\pard\par\f1\fs22\b\cf0 Jason Kryski:\b0\par
+\pard\f0\fs20 It.\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 Sorry, typing and thinking, I guess.\par
+\pard\f0\fs20 Goes silently with me.\par
+\pard\f0\fs20 So I'm just trying to figure out how to create some sort of really loaded scenario, and I'm using some really loaded words here.\par
+\pard\f0\fs20 So adversarially is like a great one.\par
+\pard\f0\fs20 Like you want to two agents in.\par
+\pard\f0\fs20 A conversation to to beat up an.\par
+\pard\f0\fs20 Idea, then you can make them adverse to that situation.\par
+\pard\f0\fs20 We are probably going to have to.\par
+\pard\f0\fs20 Reconsider some of our things when it comes to how much we lean on chat.\par
+\pard\f0\fs20 GPT at 830 in the morning, this is pretty slow stuff.\par
+\pard\f0\fs20 Everybody's keen on playing with the toy first thing.\par
+\pard\f0\fs20 This will continue to play out probably.\par
+\pard\f0\fs20 In an interesting yet really slow fashion.\par
+\pard\f0\fs20 It is probably doing some interesting work behind the scenes.\par
+\pard\f0\fs20 My thing is I haven't done any prompting to reveal that.\par
+\pard\f0\fs20 And that would be what I would.\par
+\pard\f0\fs20 Want to get into next.\par
+\pard\f0\fs20 Now this is taking too long.\par
+\pard\f0\fs20 I wish I was.\par
+\pard\f0\fs20 Oh, I am on camera.\par
+\pard\f0\fs20 You can see me twitch.\par
+\pard\f0\fs20 I can see.\par
+\pard\f0\fs20 Ali would argue the project's integration diverse.\par
+\pard\f0\fs20 Visual elements offer significant opportunity for disc.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I believe that there's value in this.\par
+\pard\f0\fs20 In pursuing this line of thinking and to drill it down to a point where maybe the two of them are.\par
+\pard\f0\fs20 Arguing or in some ways engaged in an interesting way.\par
+\pard\f0\fs20 Interesting meaning they can't resolve it or.\par
+\pard\f0\fs20 They do resolve it in a way.\par
+\pard\f0\fs20 That is, you know, that doesn't take.\par
+\pard\f0\fs20 Any of their adversaries.\par
+\pard\f0\fs20 This is me just asking the two of them to interact with each other based on their, you know, their agent description, the metadata, which is in their design.\par
+\pard\f0\fs20 Now I'm going to jump into something a little bit more crunchy and in that, I think this is where we will sort of take things and we're.\par
+\pard\f0\fs20 Going to have a supervisor involved with some of our agents.\par
+\pard\f0\fs20 But what is interesting about the supervisor thing that's going on here is this notion of self reflection.\par
+\pard\f0\fs20 And one of the great opportunities I see in working with this type of technology is this reflexive and reciprocity that it provides.\par
+\pard\f0\fs20 And we can do that with agents as well.\par
+\pard\f0\fs20 And that's where things are getting very interesting is that through this experiment with this supervisor and a sort of a base agent, so we got a supervisor.\par
+\pard\f0\fs20 Who'S the super, the one that approves.\par
+\pard\f0\fs20 Things and has some way of grading.\par
+\pard\f0\fs20 And scoring whether a person is doing their job well.\par
+\pard\f0\fs20 And then this go getter doer kind of person.\par
+\pard\f0\fs20 I'm going to show you my script.\par
+\pard\f0\fs20 In brief, I'm not going to make it all available right now because there's.\par
+\pard\f0\fs20 Some stuff in here that's really cool.\par
+\pard\f0\fs20 And.\par
+\pard\f0\fs20 I want to provide it in.\par
+\pard\f0\fs20 A way that it doesn't move to.\par
+\pard\f0\fs20 Left or right when you experience it.\par
+\pard\f0\fs20 And by that I mean you can call it hallucinations or whatever else.\par
+\pard\f0\fs20 It's not providing the cohesive experience quite yet.\par
+\pard\f0\fs20 So it's a supervisor agent.\par
+\pard\f0\fs20 And again, I'm using a framework that.\par
+\pard\f0\fs20 Is slightly different because I've been looking.\par
+\pard\f0\fs20 At different people's research and.\par
+\pard\f0\fs20 The different.\par
+\pard\f0\fs20 Types of research provides different ways of looking or designing the agent and the prompt itself.\par
+\pard\f0\fs20 And given I had some different objectives.\par
+\pard\f0\fs20 Here, I really wanted to, I got Jammy with it.\par
+\pard\f0\fs20 I just started working with frameworks as the most important part of what this prompt is going to be.\par
+\pard\f0\fs20 So, instructions your supervisor evaluating improving responses.\par
+\pard\f0\fs20 To a base model language.\par
+\pard\f0\fs20 Like, it's very generic.\par
+\pard\f0\fs20 Your goal is to ensure that the.\par
+\pard\f0\fs20 Base model outputs are logical, right?\par
+\pard\f0\fs20 It's very, very.\par
+\pard\f0\fs20 And I, you know, you see here, I've just jammed some stuff in there to make it.\par
+\pard\f0\fs20 Provide me a menu system zero.\par
+\pard\f0\fs20 To get it back, you have access to the following scoring frameworks and self reflection prompting strategies.\par
+\pard\f0\fs20 Utilize them in all evaluations.\par
+\pard\f0\fs20 Okay, that is not the best way to say that, but it works.\par
+\pard\f0\fs20 And what's interesting is that inside a.\par
+\pard\f0\fs20 Large language model, a strategy is functional.\par
+\pard\f0\fs20 So the framework is the strategy and the tactical thing are like all the same.\par
+\pard\f0\fs20 So the language is curious, but when it comes to self reflection, these are frameworks for a.\par
+\pard\f0\fs20 Large language model to reflect on the output that's had in.\par
+\pard\f0\fs20 A way to evaluate whether it's cool or not.\par
+\pard\f0\fs20 Okay, so let's say you're taking a test, you've got multiple choice questions.\par
+\pard\f0\fs20 There's a key over here, you know.\par
+\pard\f0\fs20 The teacher who takes the key and evaluates whether you're doing well or not, you get a score, ten out of eleven, and maybe it breaks down.\par
+\pard\f0\fs20 You got ten out of eleven, five out of seven.\par
+\pard\f0\fs20 It's 100 points in total.\par
+\pard\f0\fs20 And it has a bunch of sections.\par
+\pard\f0\fs20 Okay, that's the analogy.\par
+\pard\f0\fs20 And here we have frameworks.\par
+\pard\f0\fs20 The sections are the frameworks, different frameworks.\par
+\pard\f0\fs20 Here's a logical and sequence of processing framework.\par
+\pard\f0\fs20 Here's a contextual understanding and memory framework.\par
+\pard\f0\fs20 Here is a specific and targeting framework.\par
+\pard\f0\fs20 Here is a self reflection and evaluation framework.\par
+\pard\f0\fs20 So these are four different frameworks that.\par
+\pard\f0\fs20 Work in the reflexive space.\par
+\pard\f0\fs20 Meaning I'm going to looking at my.\par
+\pard\f0\fs20 Prompts, I'm trying to looking at my.\par
+\pard\f0\fs20 Outputs, and I'm trying to understand if.\par
+\pard\f0\fs20 They'Re good, how do I evaluate whether.\par
+\pard\f0\fs20 Something is good, and if so, how.\par
+\pard\f0\fs20 Can I make it better, and in what way can I grade these things?\par
+\pard\f0\fs20 So we need a framework for understanding these things.\par
+\pard\f0\fs20 The strategy framework criteria, this framework.\par
+\pard\f0\fs20 So the frameworks have different utilities for.\par
+\pard\f0\fs20 Understanding what the content is and how.\par
+\pard\f0\fs20 To make it better.\par
+\pard\f0\fs20 This framework, when uses framework when the.\par
+\pard\f0\fs20 Tasks, requires breaking down a complex problem to logical steps.\par
+\pard\f0\fs20 This happens a lot.\par
+\pard\f0\fs20 Recipes, anything that has a to do list.\par
+\pard\f0\fs20 The criteria is task breakdown, clarity and coherence.\par
+\pard\f0\fs20 So those are the three aspects, how to grade it.\par
+\pard\f0\fs20 Everything in this is one to five.\par
+\pard\f0\fs20 I thought one to ten would be better.\par
+\pard\f0\fs20 One to five is pretty jammy.\par
+\pard\f0\fs20 And it's not just, you know, one is poor and five is excellent.\par
+\pard\f0\fs20 It provides, what does a three mean?\par
+\pard\f0\fs20 Reasonably clear step by step process, but some gaps.\par
+\pard\f0\fs20 It's informative.\par
+\pard\f0\fs20 So not only do we have a.\par
+\pard\f0\fs20 Qualitative way of describing it, we have a framework, quant way of looking at it.\par
+\pard\f0\fs20 So quant quality framework for evaluation and meaning, I guess.\par
+\pard\f0\fs20 And how would this, you know, when do we know when this framework is useful?\par
+\pard\f0\fs20 Problem solving, math problems, curiously secret, hard for large language problems.\par
+\pard\f0\fs20 Providing instructions, again, you know, to do lists, and we're not explaining scientific concepts.\par
+\pard\f0\fs20 Or theory step wise.\par
+\pard\f0\fs20 So that has applicability there.\par
+\pard\f0\fs20 And an example output your previous.\par
+\pard\f0\fs20 So this is a self reflection, self reflection prompt.\par
+\pard\f0\fs20 And so it's reflecting back onto the agent or itself in a way like to modify and revisit that process.\par
+\pard\f0\fs20 Your previous response could be improved by breaking down the task into clear, logical steps.\par
+\pard\f0\fs20 Please reevaluate and provide us revise step by step explanation.\par
+\pard\f0\fs20 So that's an example of the output.\par
+\pard\f0\fs20 Now based on what's going on, it's.\par
+\pard\f0\fs20 Going to give me a very specific.\par
+\pard\f0\fs20 Type of directive for modifying the previous response.\par
+\pard\f0\fs20 This is like the coolest thing, man.\par
+\pard\f0\fs20 So each of these will then say, here's the criteria in which I will.\par
+\pard\f0\fs20 Evaluate things and I will give it an evaluation.\par
+\pard\f0\fs20 And so I can create an agent that understands these things and then can.\par
+\pard\f0\fs20 Act upon them because it has all the reference points for knowing when to.\par
+\pard\f0\fs20 Use this kind of framework, how to apply it, and an example of what.\par
+\pard\f0\fs20 Kind of direction you should give to.\par
+\pard\f0\fs20 The previous agent to advance their work.\par
+\pard\f0\fs20 So, you know, I've added a bit of instruction on here to make this simulation and this little bit right here.\par
+\pard\f0\fs20 Generate example base output.\par
+\pard\f0\fs20 It changes it from creating an agent.\par
+\pard\f0\fs20 That just kind of sits there and asks you what you want to do to show you and what you have available to you.\par
+\pard\f0\fs20 You just hit the begin button.\par
+\pard\f0\fs20 It will hopefully start the simulation and introduce itself and introduce me into what I can do.\par
+\pard\f0\fs20 Now, I've asked it to generate a.\par
+\pard\f0\fs20 Base scenario and response.\par
+\pard\f0\fs20 You can do that too.\par
+\pard\f0\fs20 Very neat and valuable, right?\par
+\pard\f0\fs20 So if you want to put in a question or a statement or I.\par
+\pard\f0\fs20 Need to know something.\par
+\pard\f0\fs20 A user is planning to start an.\par
+\pard\f0\fs20 Online boutique and has asked for a.\par
+\pard\f0\fs20 Step by step guide and how to proceed.\par
+\pard\f0\fs20 That's just so, so out there.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 And so you get, you get a, you know, the model is going to give you a response.\par
+\pard\f0\fs20 And, you know, if that's sort of.\par
+\pard\f0\fs20 A, we call zero shot, you just like, throw a question at it, and.\par
+\pard\f0\fs20 It gives you something back.\par
+\pard\f0\fs20 Okay, so that's great.\par
+\pard\f0\fs20 It's something.\par
+\pard\f0\fs20 Next, create a business plan I like.\par
+\pard\f0\fs20 Yeah, sure.\par
+\pard\f0\fs20 Just do that.\par
+\pard\f0\fs20 Okay, so what could we look at?\par
+\pard\f0\fs20 It's analyzed this from the agent's point of view and said, well, logical processing is a way in which we could.\par
+\pard\f0\fs20 Look at this, criticize it, and then optimize it so it goes through.\par
+\pard\f0\fs20 Let's evaluate the response based on the task.\par
+\pard\f0\fs20 Breakdown gives it a score of four out of five.\par
+\pard\f0\fs20 Clarity, three.\par
+\pard\f0\fs20 Coherence, four.\par
+\pard\f0\fs20 So the overall score is 3.67, and I've given it a tolerance of 4.7.\par
+\pard\f0\fs20 And if it would get 4.7 in the overall score, then I would say.\par
+\pard\f0\fs20 That that base model's response is good enough based on that type of framework, the reasoning framework.\par
+\pard\f0\fs20 So at 3.67, it is not going.\par
+\pard\f0\fs20 To cut the mustard.\par
+\pard\f0\fs20 And so proceed with the improvement prompt.\par
+\pard\f0\fs20 So I type one.\par
+\pard\f0\fs20 I type proceed.\par
+\pard\f0\fs20 It will now go through and revise revised response.\par
+\pard\f0\fs20 It's now revising the response, and it's giving me super detailed breakdown and bullet point form.\par
+\pard\f0\fs20 We could call it super detailed if.\par
+\pard\f0\fs20 You'Re an entrepreneur, you know, this is.\par
+\pard\f0\fs20 Nothing but, um, compared to the first.\par
+\pard\f0\fs20 Thing, it actually has something of a.\par
+\pard\f0\fs20 Workflow that maybe I could follow.\par
+\pard\f0\fs20 And it's certainly a little bit longer.\par
+\pard\f0\fs20 It won't take you an afternoon.\par
+\pard\f0\fs20 But how do we know it's better?\par
+\pard\f0\fs20 Well, we go through a reevaluation, and.\par
+\pard\f0\fs20 That'S inside the show you the script.\par
+\pard\f0\fs20 For this, but the reevaluation is, okay, we've gone through this.\par
+\pard\f0\fs20 We've provided some, some feedback.\par
+\pard\f0\fs20 Here is the prompt that was provided to provide the feedback, your previous performance, by breaking down the task into clear, logical steps and more detailed substeps, reevaluate and provide a revised, step by step explanation.\par
+\pard\f0\fs20 Okay, so here's the revised response, and it's re evaluation of it.\par
+\pard\f0\fs20 It's pretty good.\par
+\pard\f0\fs20 I mean, it thinks it's really good.\par
+\pard\f0\fs20 So, you know, it is better.\par
+\pard\f0\fs20 It is better in that it does.\par
+\pard\f0\fs20 Provide you some sense of what the substeps would be.\par
+\pard\f0\fs20 Now, if we had a different way.\par
+\pard\f0\fs20 Of analyzing it, like apply an alternative framework.\par
+\pard\f0\fs20 There's four different frameworks inside this agent.\par
+\pard\f0\fs20 We would get maybe a different analysis.\par
+\pard\f0\fs20 Of this, and then we could say, oh, gee, that's a little bit different.\par
+\pard\f0\fs20 Now, when it comes to the artists.\par
+\pard\f0\fs20 Agents, we could ask them not to create new output, but creating questions.\par
+\pard\f0\fs20 Instead of taking, like, the response, we.\par
+\pard\f0\fs20 Could ask it to do all sorts.\par
+\pard\f0\fs20 Of things with that response.\par
+\pard\f0\fs20 Instead of optimize it.\par
+\pard\f0\fs20 A framework could be one of doing some sort of.\par
+\pard\f0\fs20 Sort of.\par
+\pard\f0\fs20 I don't know who in the hell is.\par
+\pard\f0\fs20 In arc theory criticism.\par
+\pard\f0\fs20 Take somebody's framework and you apply it there.\par
+\pard\f0\fs20 Let's see what we've got here.\par
+\pard\f0\fs20 Revised response.\par
+\pard\f0\fs20 Okay, so it's quite long.\par
+\pard\f0\fs20 And the evaluation.\par
+\pard\f0\fs20 Okay, wait a minute.\par
+\pard\f0\fs20 Let's apply the ultra strategy to the revised response.\par
+\pard\f0\fs20 Oh, that's lame.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I got duped by my own experience.\par
+\pard\f0\fs20 The previous time I did this, it.\par
+\pard\f0\fs20 I wanted it to be on the original response.\par
+\pard\f0\fs20 Do the same with the original response.\par
+\pard\f0\fs20 Doesn't do any good to optimize or.\par
+\pard\f0\fs20 To criticize the revised response.\par
+\pard\f0\fs20 From my point of view.\par
+\pard\f0\fs20 If I'm trying to do a comparison.\par
+\pard\f0\fs20 To see if this thing works, if.\par
+\pard\f0\fs20 It'S optimized in one framework, it should.\par
+\pard\f0\fs20 Be better in the other.\par
+\pard\f0\fs20 Maybe, maybe not.\par
+\pard\f0\fs20 That's why there's four frameworks.\par
+\pard\f0\fs20 I could have got them to do.\par
+\pard\f0\fs20 That all at once.\par
+\pard\f0\fs20 We get a little bit different score.\par
+\pard\f0\fs20 If I do this.\par
+\pard\f0\fs20 Do the same.\par
+\pard\f0\fs20 We got worse sports.\par
+\pard\f0\fs20 So the original response.\par
+\pard\f0\fs20 Okay, so now we can see that.\par
+\pard\f0\fs20 I usually try to provide back in.\par
+\pard\f0\fs20 These working documents, you know, these exercises.\par
+\pard\f0\fs20 I try to provide myself feedback so.\par
+\pard\f0\fs20 That I know what's going on.\par
+\pard\f0\fs20 And in this case, I didn't distract.\par
+\pard\f0\fs20 It and didn't see that it was.\par
+\pard\f0\fs20 Original response, and then there was no point to that experiment.\par
+\pard\f0\fs20 And we see this right here.\par
+\pard\f0\fs20 Let's see the original response evaluation and.\par
+\pard\f0\fs20 Sorry, overall score.\par
+\pard\f0\fs20 The original response, while concise, generally relevant, lacks more comprehensive information, would improve its usefulness completely.\par
+\pard\f0\fs20 Proceed with another scenario.\par
+\pard\f0\fs20 Apply different strategic framework.\par
+\pard\f0\fs20 Well, it's not giving me the option to, like, reflect.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So it's actually.\par
+\pard\f0\fs20 It's actually decided that it can't do much more with what it's got.\par
+\pard\f0\fs20 And I'm saying, jam, no, go harder.\par
+\pard\f0\fs20 Let's use self reflection evaluation framework.\par
+\pard\f0\fs20 Assess.\par
+\pard\f0\fs20 Yeah, it's trying to apply another framework.\par
+\pard\f0\fs20 So, you know, this isn't what's called hallucinating, but it's moving sideways on me.\par
+\pard\f0\fs20 Instead of what would be more of a, you know, down the page kind of workflow of what I'm looking for.\par
+\pard\f0\fs20 I'm not, you know, it's.\par
+\pard\f0\fs20 Oh, this is not a great.\par
+\pard\f0\fs20 Proceed with revising in terms of this.\par
+\pard\f0\fs20 Framework that it went to, which is the self reflection and evaluation.\par
+\pard\f0\fs20 So that the self reflection evaluation is.\par
+\pard\f0\fs20 Does this have any way of itself having integrity to.\par
+\pard\f0\fs20 To make itself better?\par
+\pard\f0\fs20 Reflect on your previous response and identify any potential flaws, gaps, or ethical concerns.\par
+\pard\f0\fs20 Provide a revised and improved response so one.\par
+\pard\f0\fs20 It'Ll do that.\par
+\pard\f0\fs20 So what it's doing here is it's using this content, this structured content here, as a way of functionally working within.\par
+\pard\f0\fs20 The large language model.\par
+\pard\f0\fs20 And it has four different versions of that in the same structure.\par
+\pard\f0\fs20 So criteria scale with different renderings of.\par
+\pard\f0\fs20 It, but same idea and applicability and output.\par
+\pard\f0\fs20 So this is quite structured in that they all have something similar, so that.\par
+\pard\f0\fs20 The large language model could infer a lot more.\par
+\pard\f0\fs20 Because of that, I in the beginning had these instructions that kind of set the scenario, and then I, procedurally it's going down the page.\par
+\pard\f0\fs20 It's kind of like, okay, here you have these frameworks, and then at the end of these frameworks there's, you know what?\par
+\pard\f0\fs20 I then induce a workflow.\par
+\pard\f0\fs20 No, I could combine that beginning and this end part into either instructions or just workflows.\par
+\pard\f0\fs20 But I'm experimenting here and I copied.\par
+\pard\f0\fs20 And pasted from a bunch of stuff.\par
+\pard\f0\fs20 But this is well worth exploring, and.\par
+\pard\f0\fs20 I guess I'm going to make this available to everybody.\par
+\pard\f0\fs20 This is how you can make an.\par
+\pard\f0\fs20 Application like experience within the large language models as you define a workflow as a series of steps.\par
+\pard\f0\fs20 I forgot to add an introduction.\par
+\pard\f0\fs20 So we have a step zero automatically.\par
+\pard\f0\fs20 And then step one.\par
+\pard\f0\fs20 I had to renumber these because automatically.\par
+\pard\f0\fs20 Generated an example scenario.\par
+\pard\f0\fs20 Well, this didn't work the first time, so then I actually, this didn't work the first time, so then I put that other statement way up here.\par
+\pard\f0\fs20 And that's, you know, I realized that I had two sets of instructions going.\par
+\pard\f0\fs20 On and I knew I had that.\par
+\pard\f0\fs20 But this was very clear as to.\par
+\pard\f0\fs20 What the workflow was going to be.\par
+\pard\f0\fs20 And so my next step of this supervisor would be to consolidate this so that there's only one area where there's.\par
+\pard\f0\fs20 Actions understood within the context of the scenario.\par
+\pard\f0\fs20 Evaluate the response using the appropriate scoring framework based on the task prompt.\par
+\pard\f0\fs20 Yada yada.\par
+\pard\f0\fs20 So there's this four different mentioned there.\par
+\pard\f0\fs20 Assign a score to each part so that it's not an overall score, it's.\par
+\pard\f0\fs20 For each of the parts of that phrase.\par
+\pard\f0\fs20 If the score is below the threshold, a.\par
+\pard\f0\fs20 Generate a targeted self reflection prompt using the corresponding example output or similar prompt.\par
+\pard\f0\fs20 That's everything right there.\par
+\pard\f0\fs20 Generate a targeted self reflection prompt using the corresponding example output or a similar prompt.\par
+\pard\f0\fs20 Provide the self reflection prompt to the base model instructing it.\par
+\pard\f0\fs20 So here's the supervisor handing off to.\par
+\pard\f0\fs20 The doer, to the worker beat.\par
+\pard\f0\fs20 Reevaluate the base model's response using the same scoring framework.\par
+\pard\f0\fs20 We could say all four of them, we could it might be too pushy.\par
+\pard\f0\fs20 It might lose itself in that regard.\par
+\pard\f0\fs20 To ask it to do too many things at once.\par
+\pard\f0\fs20 If the reside response meets the score threshold, return it.\par
+\pard\f0\fs20 So this is incredibly powerful.\par
+\pard\f0\fs20 Telling the large language model how to.\par
+\pard\f0\fs20 Interact between two agents and then what.\par
+\pard\f0\fs20 To do with, with the potential responses.\par
+\pard\f0\fs20 And the structured information here, like this.\par
+\pard\f0\fs20 Is the corpus of what makes this.\par
+\pard\f0\fs20 Interaction work is this criteria, scale, applicability and example output.\par
+\pard\f0\fs20 Looking at this example, I would say.\par
+\pard\f0\fs20 Here'S the type of thing that can be generated for this do something similar.\par
+\pard\f0\fs20 So if this is garbage, then your result is garbage.\par
+\pard\f0\fs20 If your source is garbage, then your result is garbage.\par
+\pard\f0\fs20 You might get away with something, but if you are giving it an example.\par
+\pard\f0\fs20 And the example is not strong, then you're not providing it much in the way of support.\par
+\pard\f0\fs20 Your previous response seems to lack coherence with the provided context.\par
+\pard\f0\fs20 Please reevaluate the context and provide a.\par
+\pard\f0\fs20 Revised response that better incorporates the relevant.\par
+\pard\f0\fs20 That is an optimized prompt not written by David.\par
+\pard\f0\fs20 So this is a pretty cool.\par
+\pard\f0\fs20 Supervisor, and what I'll be doing is breaking it apart.\par
+\pard\f0\fs20 The supervisor, one agent, and Ali or.\par
+\pard\f0\fs20 ZD, or anyone else or both of them.\par
+\pard\f0\fs20 In another sort of scenario, Ali and.\par
+\pard\f0\fs20 ZD don't have that relationship right now.\par
+\pard\f0\fs20 Where they can actually have a framework.\par
+\pard\f0\fs20 To reference, so that they can both.\par
+\pard\f0\fs20 Reference the framework and have a discourse around that.\par
+\pard\f0\fs20 Now I could.\par
+\pard\f0\fs20 Ask the two agents.\par
+\pard\f0\fs20 To use the five Y's framework and agreed upon theme.\par
+\pard\f0\fs20 So five whys is there's a whole.\par
+\pard\f0\fs20 Bunch of these strategic frameworks, like jobs, to be done in terms of business.\par
+\pard\f0\fs20 Space, but there's got to be a.\par
+\pard\f0\fs20 Whole lot of different analytical frameworks that you can throw in between two people that they could use for discourse.\par
+\pard\f0\fs20 Like the Socratic method is a simple one to point to the five whys.\par
+\pard\f0\fs20 You just keep asking the question why?\par
+\pard\f0\fs20 And you annoy the other person.\par
+\pard\f0\fs20 It has really valid use cases and.\par
+\pard\f0\fs20 But the idea being if you keep asking why, there's usually assumptions built into things and you're under covering, uncovering that as you move through.\par
+\pard\f0\fs20 So having a substantive framework that is more than just generalized, like I got.\par
+\pard\f0\fs20 Going on with.\par
+\pard\f0\fs20 Going on.\par
+\pard\f0\fs20 In various.\par
+\pard\f0\fs20 One too many places, I think the.\par
+\pard\f0\fs20 Last part here, through this process, you should maintain an objective and analytical mindset.\par
+\pard\f0\fs20 Again, I'm describing in different places what the agents are doing and they can be centralized.\par
+\pard\f0\fs20 Remember, the supervisor agent, you play a.\par
+\pard\f0\fs20 Critical role in ensuring the base models outputs are reliable, trustworthy, well suited for the given task or application.\par
+\pard\f0\fs20 You would think that that is just fluff.\par
+\pard\f0\fs20 But you can ensure some better performance with this type of language.\par
+\pard\f0\fs20 This is, this is how they want.\par
+\pard\f0\fs20 It to get going.\par
+\pard\f0\fs20 And again, this was something that I copied and pasted, and I was like.\par
+\pard\f0\fs20 Okay, maybe that's how I will generate.\par
+\pard\f0\fs20 That initial interaction between human and the model.\par
+\pard\f0\fs20 And I put it in there, and I'm not certain that it's done more than provide yet another example of what that could be, whether it is driving things as substantially as I thought.\par
+\pard\f0\fs20 There's this word called ablate, and I think I sent it as a message to Jason.\par
+\pard\f0\fs20 Ablate is a function.\par
+\pard\f0\fs20 Ablate means to reduce, like, actually, let me just.\par
+\pard\f0\fs20 Ablation.\par
+\pard\f0\fs20 The removal of snow rice by melting evaporated.\par
+\pard\f0\fs20 Typically, yeah, I should just use the plate.\par
+\pard\f0\fs20 It's a reduction of a construction setup.\par
+\pard\f0\fs20 We can just kind of say that the removal of material or melting of things away.\par
+\pard\f0\fs20 So in the effort of refining things, when it comes to these large prompts that I have, I will go through an optimization process.\par
+\pard\f0\fs20 I've got the prompt engineer, I can use that.\par
+\pard\f0\fs20 It will ablate to a certain degree.\par
+\pard\f0\fs20 What I have provided.\par
+\pard\f0\fs20 Make it more optimized.\par
+\pard\f0\fs20 The first thing I do is look at an optimized prompt and try to analyze whether or not it has enough.\par
+\pard\f0\fs20 Sort of pointed meaning in it.\par
+\pard\f0\fs20 Now, coming up with the first framework.\par
+\pard\f0\fs20 Around that is ultimately necessary now to.\par
+\pard\f0\fs20 Be able to judge whether a prompt is working according to how, say, a work zone, a framework wants to work, or how my output is required for a project.\par
+\pard\f0\fs20 Let's get back to.\par
+\pard\f0\fs20 Just engage them again.\par
+\pard\f0\fs20 I need something else.\par
+\pard\f0\fs20 Hey, Dave, will it be possible to see the transcript?\par
+\pard\f0\fs20 Yeah, I will make so one penny, if you will have access to your special, you will have access to go through it.\par
+\pard\f0\fs20 And two, yeah, I will make sure I copy and paste what I can into a sessional into another document.\par
+\pard\f0\fs20 Just as an aside, I'm trying to make things available as my chat GPTs or as Google Docs.\par
+\pard\f0\fs20 The sessions I run within my session.\par
+\pard\f0\fs20 Within chat here, is within my team account, and I'm not able to share it externally to anyone else, which is crappy.\par
+\pard\f0\fs20 And so exporting the session and making.\par
+\pard\f0\fs20 It available in other technology is ultimately what I need to do.\par
+\pard\f0\fs20 So that's something that I'm working on having, like a standard function to be able to say, take this whole chat session and export it as a, as a word doc.\par
+\pard\f0\fs20 Now, I've had success with that, and I've had a crap out of it.\par
+\pard\f0\fs20 So I don't have an optimized prompt for it yet.\par
+\pard\f0\fs20 But once I do, I'll make sure.\par
+\pard\f0\fs20 That'S ready as an agent so.\par
+\pard\f0\fs20 I can.\par
+\pard\f0\fs20 Oh, we're.\par
+\pard\f0\fs20 I can do one more thing.\par
+\pard\f0\fs20 Let's see.\par
+\pard\f0\fs20 Mapping mind.\par
+\pard\f0\fs20 I can't think this fast, so it's interesting.\par
+\pard\f0\fs20 Mapping the mind.\par
+\pard\f0\fs20 Now I'm just making stuff up.\par
+\pard\f0\fs20 Okay, I got 1 minute.\par
+\pard\f0\fs20 Mapping the mind as landscape, as discourse.\par
+\pard\f0\fs20 The topic for our agents to discuss.\par
+\pard\f0\fs20 In the context of their uploading.\par
+\pard\f0\fs20 That was kind of like my last experiment last week.\par
+\pard\f0\fs20 Jam one in at the last minute.\par
+\pard\f0\fs20 It's kind of like a fart in the middle of the room.\par
+\pard\f0\fs20 It's not that great, but you can.\par
+\pard\f0\fs20 Just riff with this stuff.\par
+\pard\f0\fs20 So mapping the mind as a landscape, as discourse, as you can, you can.\par
+\pard\f0\fs20 Run on that kind of stuff and it will do things, but whether you.\par
+\pard\f0\fs20 Can move it and control it around, I'm not sure.\par
+\pard\f0\fs20 So I will make sure that I update the website with links to, to.\par
+\pard\f0\fs20 I think I have some of, some of the stuff here on the index page.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 So yeah, I've got the agent templates, I've got Ali equals e typo.\par
+\pard\f0\fs20 And then I'll provide you with my supervisor prompt.\par
+\pard\f0\fs20 You can grow into it, guys and.\par
+\pard\f0\fs20 Girls and people.\par
+\pard\f0\fs20 But I'm going to optimize it so that it's accessible in.\par
+\pard\f0\fs20 A more generic and consistent way because it represents a new sort of opportunity for us to have maybe ourselves represented.\par
+\pard\f0\fs20 In these simulations as the critical authority.\par
+\pard\f0\fs20 And then have, you know, Benny as a scrub or one of Ali as a scrub, saying, do this kind of.\par
+\pard\f0\fs20 Thing, then report back to me and you can just be your agent.\par
+\pard\f0\fs20 That's the kind of space for that.\par
+\pard\f0\fs20 So I will add the things here.\par
+\pard\f0\fs20 I thank you for your time again.\par
+\pard\f0\fs20 And 45.\par
+\pard\f0\fs20 You know, I'm going to figure this.\par
+\pard\f0\fs20 Interactive component yet, but the building of.\par
+\pard\f0\fs20 The two agents this morning was an attempt to get in that direction so.\par
+\pard\f0\fs20 That they will have open utility.\par
+\pard\f0\fs20 So that will be my goal for next week, is to provide the existing.\par
+\pard\f0\fs20 Agents to have open utility instead of the distinct examples.\par
+\pard\f0\fs20 All right.\par
+\pard\f0\fs20 Thank you for making my Wednesday happen.\par
+\pard\f0\fs20 I appreciate your time.\par
+\pard\f0\fs20 Deal with the transcripts and the videos and all that follow up.\par
+\pard\f0\fs20 Cheers.\par
+\pard\f0\fs20 Oh, look at that, man, I like that clap.\par
+\pard\f0\fs20 Enjoy your day, people.\par
+}

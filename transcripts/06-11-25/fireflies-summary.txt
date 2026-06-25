@@ -1,0 +1,102 @@
+Meeting: 8am AI School
+Date: 6/11/2025, 8:00:00 AM
+Duration: 62.09000015258789 minutes
+Organizer: david@atomic47.co
+
+============================================================
+
+OVERVIEW:
+- Scott presented his share structure analysis app using Supabase, with David estimating an AI overlay could add $100 value for corporate users.
+- David outlined two AI integration approaches: API calls versus direct datasets to LLMs, emphasizing the importance of using Model Control Protocols for communication.
+- AI successfully generated a 3D web application and bill of materials from 2D isometric engineering drawings, demonstrating its capabilities in real-world applications.
+- OpenAI's streaming API showed near real-time voice interaction, with a focus on fallback strategies for maintaining functionality during outages.
+- Rapid innovation cycles in AI are raising concerns about the obsolescence of current technologies and human knowledge workers within 6-9 months.
+- David introduced the delegator agent concept to decompose problems among specialized agents, revealing various architectural patterns for optimization.
+- Discussion highlighted semantic differences in understanding between humans and AI, focusing on emotional interpretation versus mathematical reasoning.
+- AI readiness assessment tools were shared, alongside a recommendation for enhanced research tools to address the limitations of Google Scholar in academic research.
+- Scott's plan to test AI tools in the oil and gas sector aims to address technical hurdles and enhance investor credibility for pilot projects. 
+- David noted the political climate's impact on science funding and discussed strategies for thorough technical analysis to attract investors.
+
+ACTION ITEMS:
+
+**David Olsson**
+Follow up personally with Scott regarding lunch plans in Calgary (01:08)
+Keep an eye out for similar technologies at the energy show and report back to Scott (02:26)
+Have separate conversation about engineering drawings and 3D visualization project (25:20)
+Circle back with Hanif today (01:01:38)
+
+**Scott Morton**
+Create a global API for the share structure analysis application (13:07)
+Test deep research capabilities with oil and gas pilot project plan (57:46)
+
+
+KEYWORDS:
+AI integration, engineering drawings, agent delegation, semantic meaning, deep research, oil and gas
+
+SHORT SUMMARY:
+🌍 **Opening Discussions and Current Events** (00:00 - 06:19)
+David Olsson joined from Calgary energy show, explaining his delayed email responses due to travel and conference attendance
+Discussion of current weather conditions in Calgary - sunny but smoky with unexpected wind affecting temperatures
+Conversation about Los Angeles fires and political climate, with comparisons to historical regimes and concerns about current US political situation
+Fulvio shared personal family history with fascism through his grandfather's military service and connection to Mussolini's regime
+Brief mention of Trump's supposed trade deal with China
+🤖 **Scott's AI Application Development** (06:19 - 09:13)
+Scott presented his share structure analysis application built with Supabase and full-stack development tools
+David had previously suggested adding AI layer on top could be worth $100 for corporate users
+Scott expressed uncertainty about how to implement AI overlay and requested guidance on the technical approach
+Discussion of the clean interface design with topics on left side and boxes on right that David had referenced
+🔧 **AI Integration Strategies and Technical Implementation** (09:13 - 17:14)
+David explained two approaches for AI integration: sending API calls vs sending datasets directly to LLM
+Introduction to Model Control Protocols (MCPs) for standardized agent-to-database communication
+Discussion of agent-to-agent protocols using JSON for structured information exchange
+Explanation of how LLMs can determine appropriate tools to use through MCP framework
+David recommended using Claude 4.0 for reasoning and implementation guidance
+Emphasis on providing reasoning context ('why') to improve LLM performance in IDEs
+📐 **Engineering Drawing AI Analysis Demo** (17:14 - 25:29)
+David demonstrated AI analysis of isometric engineering drawings using Claude
+AI successfully created 3D web application using Three.js from 2D isometric drawing
+Generated accurate bill of materials and identified all components from the drawing
+AI provided regulatory compliance information including ABSA forms and estimated costs
+Scott offered his complex under-reamer drawings (26 drawings for one piece) as test data
+Discussion of MicroStation software for 3D engineering visualization and potential training applications
+🎙️ **Voice AI and Streaming Capabilities** (25:29 - 29:47)
+David showcased OpenAI streaming API implementation for more responsive voice interactions
+Demonstrated near real-time voice communication similar to ChatGPT voice button functionality
+Discussion of fallback strategies when streaming capabilities aren't available
+Claude taught David about implementing fallback mechanisms for better user experience
+Addressed interruption problems in voice AI - noting 11Labs has solved this issue
+⚡ **Innovation Curves and Industry Challenges** (29:47 - 33:02)
+David expressed concerns about rapid AI innovation cycles making current work obsolete
+Discussion of how LLM feature releases supersede existing functionality and development efforts
+Observation that human knowledge worker skills are increasingly questioned as AI reasoning improves
+Challenge of building products knowing they may become obsolete in 6-9 months
+David's strategy of counting on future AI capabilities to solve current technical problems
+👥 **Agent Delegation Patterns and Architecture** (33:02 - 41:23)
+David presented delegator agent concept - one agent decomposing problems for multiple specialized agents
+Demonstrated various delegation patterns: hierarchical, federated, and peer-to-peer architectures
+Showed auto-generated agent interaction diagrams and reporting structures
+Discussion of agent trait definition using keywords and behavioral markers on scales
+Hanif shared experience with GPT instruction sets and 8,000 character limits
+Exploration of dynamic agent interactions and orchestration possibilities
+🧠 **Semantic Meaning and AI Communication** (41:23 - 51:24)
+David raised concerns about semantic meaning differences between humans and AI
+Scott discussed AI's mathematical understanding vs human emotional interpretation
+Conversation about AI's ability to blend multiple personas (Harvard professor + mom example)
+Discussion of AI's limitations in combining complex human characteristics
+Scott's psychological testing of AI emotional responses and context switching
+David showed personality trait sliders for programmatic agent behavior control
+📚 **Research Tools and Educational Resources** (51:24 - 01:01:17)
+David shared AI readiness assessment tools for different organizational levels
+Discussion of Google Scholar limitations and need for AI-enhanced academic research
+Recommendation to use deep research tools (Perplexity, Anthropic, OpenAI) for comprehensive analysis
+David's experience with side-by-side LLM comparisons for oil and gas research
+Scott's plan to create beginner AI course for business partners
+Discussion of AI's improved research and synthesis capabilities
+🛢️ **Oil and Gas Industry Applications** (01:01:17 - 01:01:49)
+Scott's plan to test AI deep research tools against his experimental pilot project
+Discussion of using AI to assess technical hurdles and provide credibility for investors
+Scott's frustration with investor questions about abrasion and coating solutions
+David's advice on demonstrating thorough technical analysis to investors
+Conversation about current political climate affecting science and research funding
+
+

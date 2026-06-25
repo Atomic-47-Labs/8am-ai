@@ -1,0 +1,3955 @@
+{
+  "meeting_id": "01K5S34M3AH30CVDR198G11WGB",
+  "title": "8am AI!",
+  "date": 1758726000000,
+  "duration": 54.58000183105469,
+  "organizer": "david@atomic47.co",
+  "participants": [
+    "david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,fulvio@atomic47.co,scott@driftresourcetechnologies.com,anshuldhariwal04@gmail.com,travis@atomic47.co,bibi@atomic47.co,jason@mttr.ca,jen@atomic47.co,myles@mttr.ca,loren@mttr.ca,shabraj@mttr.ca,spencer@ratiomachina.com,ashley@mttr.ca,graham@ratiomachina.com,carol@atomic47.co,joel.semeniuk@primal.com,lee.kennedy@primal.com",
+    "eric@scroll.ca",
+    "giroday@gmail.com",
+    "hanif.janmohamed@gmail.com",
+    "fulvio@atomic47.co",
+    "scott@driftresourcetechnologies.com",
+    "anshuldhariwal04@gmail.com",
+    "travis@atomic47.co",
+    "bibi@atomic47.co",
+    "jason@mttr.ca",
+    "jen@atomic47.co",
+    "myles@mttr.ca",
+    "loren@mttr.ca",
+    "shabraj@mttr.ca",
+    "spencer@ratiomachina.com",
+    "ashley@mttr.ca",
+    "graham@ratiomachina.com",
+    "carol@atomic47.co",
+    "joel.semeniuk@primal.com",
+    "lee.kennedy@primal.com"
+  ],
+  "sentences": [
+    {
+      "text": "Good morning.",
+      "speaker_name": "Myles Holt",
+      "start_time": 123,
+      "end_time": 123.4
+    },
+    {
+      "text": "Good morning.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 124.04,
+      "end_time": 124.76
+    },
+    {
+      "text": "Just a second.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 124.76,
+      "end_time": 125.48
+    },
+    {
+      "text": "I'm wearing headphones, but they're not plugged in.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 125.96,
+      "end_time": 128.04
+    },
+    {
+      "text": "A lot of use.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 128.96,
+      "end_time": 129.44
+    },
+    {
+      "text": "That is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 129.44,
+      "end_time": 129.92
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 129.92,
+      "end_time": 130.24
+    },
+    {
+      "text": "Good morning, Miles.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 133.44,
+      "end_time": 134.4
+    },
+    {
+      "text": "How you doing?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 134.88,
+      "end_time": 135.6
+    },
+    {
+      "text": "Good.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 136.48,
+      "end_time": 136.88
+    },
+    {
+      "text": "You?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 136.96,
+      "end_time": 137.36
+    },
+    {
+      "text": "Yeah, good.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 137.92,
+      "end_time": 138.64
+    },
+    {
+      "text": "Just getting familiar with the Vercel Edge API SDK for routing on the agenda for this week.",
+      "speaker_name": "Myles Holt",
+      "start_time": 140.64,
+      "end_time": 150.56
+    },
+    {
+      "text": "Thanks.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 151.52,
+      "end_time": 152
+    },
+    {
+      "text": "You guys integrate with Vercel much?",
+      "speaker_name": "Myles Holt",
+      "start_time": 152.8,
+      "end_time": 154.48
+    },
+    {
+      "text": "We do, and it's.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 155.11,
+      "end_time": 156.87
+    },
+    {
+      "text": "It's interesting.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 156.87,
+      "end_time": 157.67
+    },
+    {
+      "text": "We.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 158.79,
+      "end_time": 159.19
+    },
+    {
+      "text": "We have a particular project that's probably the main one that we work with, and it was going direct to aws, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 160.55,
+      "end_time": 167.67
+    },
+    {
+      "text": "Using Amplify and Radius, I believe.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 168.23,
+      "end_time": 171.67
+    },
+    {
+      "text": "And we had some problems with Amplify.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 173.35,
+      "end_time": 176.39
+    },
+    {
+      "text": "They really aren't with Amplify, they're with other things.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 177.35,
+      "end_time": 179.63
+    },
+    {
+      "text": "But nonetheless, it was.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 179.63,
+      "end_time": 180.99
+    },
+    {
+      "text": "It was causing problems with Amplify.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 180.99,
+      "end_time": 182.63
+    },
+    {
+      "text": "So quick, switch to Vercel just to like, you know, gosh, it needs to be updated tomorrow, blah, blah, blah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 183.4,
+      "end_time": 188.28
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 188.28,
+      "end_time": 188.6
+    },
+    {
+      "text": "And so we did that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 190.28,
+      "end_time": 191.48
+    },
+    {
+      "text": "But I would like to go back because, you know, having so much of our infrastructure on aws, having it sort of a unified platform for everything is better.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 191.88,
+      "end_time": 200.68
+    },
+    {
+      "text": "And if you've used aws, you know, there's this problem that it does a lot, but, you know, using it and navigating it requires almost a dedicated resource because it's just so much and so truly trying to find a way to like, really put an AI head on it so that we don't have to become a freaking expert on every freaking service that AWS has in order to be able to work with it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 202.28,
+      "end_time": 232.13
+    },
+    {
+      "text": "Especially since, you know, the attraction to Amplify and our code base was being able to use GitHub Actions to deploy.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 232.21,
+      "end_time": 240.89
+    },
+    {
+      "text": "It's so nice.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 242.25,
+      "end_time": 243.21
+    },
+    {
+      "text": "My current deployment stack is I have private instances for each one of my clients of our API and I have all of those pointing back to the same repo.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 245.21,
+      "end_time": 253.93
+    },
+    {
+      "text": "So I just push and all five of my instances deploy right away.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 253.93,
+      "end_time": 259.21
+    },
+    {
+      "text": "Why did you switch to.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 260.25,
+      "end_time": 261.21
+    },
+    {
+      "text": "I'm sorry, I came in late and I'm very curious about this conversation.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 261.21,
+      "end_time": 264.21
+    },
+    {
+      "text": "Why did you switch to Vercel?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 264.21,
+      "end_time": 265.93
+    },
+    {
+      "text": "What was the problem you were running into?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 265.93,
+      "end_time": 267.21
+    },
+    {
+      "text": "Well, the problem is really unrelated to Vercel or it is definitely related to aws.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 268.08,
+      "end_time": 272.64
+    },
+    {
+      "text": "The problem was one of the members of the team had deployed via a.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 273.68,
+      "end_time": 278.72
+    },
+    {
+      "text": "Via AWS Amplify.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 279.04,
+      "end_time": 280.72
+    },
+    {
+      "text": "And to keep it short, we weren't able to see the amplified.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 281.28,
+      "end_time": 284.88
+    },
+    {
+      "text": "The other members of the organization just weren't able to see the instance to do anything with it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 285.68,
+      "end_time": 290.96
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 290.96,
+      "end_time": 291.28
+    },
+    {
+      "text": "We're able to go to GitHub and do.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 291.44,
+      "end_time": 293.12
+    },
+    {
+      "text": "But, you know, we're not able to interact with the AWS Amplify instance itself.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 293.2,
+      "end_time": 297.64
+    },
+    {
+      "text": "And that's an issue probably having to do with IAM or, or.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 298.76,
+      "end_time": 304.2
+    },
+    {
+      "text": "Or.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 304.28,
+      "end_time": 304.68
+    },
+    {
+      "text": "Sounds like you need a service principle.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 305.08,
+      "end_time": 307.48
+    },
+    {
+      "text": "Spencer, I need to talk to you about a couple of things and I don't want to use up this meeting for it so I would love to chat with you.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 308.84,
+      "end_time": 317.6
+    },
+    {
+      "text": "Really?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 317.6,
+      "end_time": 317.92
+    },
+    {
+      "text": "Really What?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 317.92,
+      "end_time": 318.52
+    },
+    {
+      "text": "So I'm going to at you my email if you don't have it right now and maybe we can, maybe we could because I, you know.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 319,
+      "end_time": 328.07
+    },
+    {
+      "text": "Yes, there are plenty of what I would call hand bomb solutions or expertise leveling up I could do to solve the problem.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 328.71,
+      "end_time": 335.03
+    },
+    {
+      "text": "Especially with any help from someone like you or another resource I had that was my DevOps guy at my video game development company who knows all this inside out backwards.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 335.11,
+      "end_time": 344.83
+    },
+    {
+      "text": "But I do want to find some agentic solution where it's easy to maintain through the agent.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 344.83,
+      "end_time": 354.16
+    },
+    {
+      "text": "Maybe, maybe, maybe a better goal is just well documented through an agent so that you know.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 354.32,
+      "end_time": 361.04
+    },
+    {
+      "text": "Because documentation is everything in these kinds of things because you, you do them and leave them alone and then you go back and you're like what the did I do?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 361.2,
+      "end_time": 368.8
+    },
+    {
+      "text": "My experience has been with aws I have to provide a lot of guidance to the.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 369.28,
+      "end_time": 373.46
+    },
+    {
+      "text": "Even when I have Claude like hooked up to MCP for like the AWS docs and The AWS like APIs it's like it can be very good and surprising sometimes but also it goes astray a lot like unfortunately but here I'm.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 373.46,
+      "end_time": 388.3
+    },
+    {
+      "text": "Sure sure love to chat with you Spencer, I pinged you my email.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 388.3,
+      "end_time": 391.66
+    },
+    {
+      "text": "That's my personal evenal the atomic 47 but.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 391.82,
+      "end_time": 395.9
+    },
+    {
+      "text": "But happy to give you either one.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 395.9,
+      "end_time": 397.38
+    },
+    {
+      "text": "I just.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 397.38,
+      "end_time": 397.78
+    },
+    {
+      "text": "My brain did the personal one because that's always the one at the top of my list.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 397.78,
+      "end_time": 401.51
+    },
+    {
+      "text": "Sorry.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 401.51,
+      "end_time": 402.03
+    },
+    {
+      "text": "No worries.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 402.51,
+      "end_time": 403.23
+    },
+    {
+      "text": "I'll.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 403.63,
+      "end_time": 404.19
+    },
+    {
+      "text": "I'll.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 404.19,
+      "end_time": 404.67
+    },
+    {
+      "text": "I'll take that back and happy to chat sometime.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 404.67,
+      "end_time": 407.23
+    },
+    {
+      "text": "I'll send you an email.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 407.23,
+      "end_time": 408.07
+    },
+    {
+      "text": "Yeah, that'd be great.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 408.07,
+      "end_time": 409.19
+    },
+    {
+      "text": "Let me give a little bit of an update to the group.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 409.19,
+      "end_time": 411.47
+    },
+    {
+      "text": "David did not instruct me but I.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 412.03,
+      "end_time": 413.87
+    },
+    {
+      "text": "Well, we work at the same organization as Pierce and I happen to know he's at all in AI in Montreal.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 414.83,
+      "end_time": 421.31
+    },
+    {
+      "text": "In fact I could probably tell you which.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 423.15,
+      "end_time": 424.99
+    },
+    {
+      "text": "Which specific talk he's at right now or panel he's listening to.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 425.8,
+      "end_time": 431.16
+    },
+    {
+      "text": "But regardless, I don't suspect he'll show up.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 431.96,
+      "end_time": 434
+    },
+    {
+      "text": "He didn't tell me specifically but I don't suspect he'll show up.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 434,
+      "end_time": 436.84
+    },
+    {
+      "text": "And I think I missed the last meeting because I was in a pitch for another project for our company.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 439,
+      "end_time": 447.32
+    },
+    {
+      "text": "So I don't know what we talked about last time.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 447.48,
+      "end_time": 449.24
+    },
+    {
+      "text": "You guys don't know why David's not here.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 450.04,
+      "end_time": 451.72
+    },
+    {
+      "text": "And so in the interest of keeping it all really loose, love to either hand it over to someone if they have some topics they'd like to throw in and.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 452.17,
+      "end_time": 462.21
+    },
+    {
+      "text": "Or I'm also happy to provide something to talk about.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 462.21,
+      "end_time": 466.73
+    },
+    {
+      "text": "Anybody want to go first or.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 467.21,
+      "end_time": 469.77
+    },
+    {
+      "text": "Sure.",
+      "speaker_name": "Myles Holt",
+      "start_time": 471.13,
+      "end_time": 471.49
+    },
+    {
+      "text": "Well, I think as people are joining this morning, we were just talking about using Vercel Edge middleware and anyone had experience using that, so that's on the table for me this week.",
+      "speaker_name": "Myles Holt",
+      "start_time": 471.49,
+      "end_time": 481.71
+    },
+    {
+      "text": "So my understanding is Vercel is just a wrapper for those AWS services.",
+      "speaker_name": "Myles Holt",
+      "start_time": 483.79,
+      "end_time": 488.35
+    },
+    {
+      "text": "Makes it easy to deploy.",
+      "speaker_name": "Myles Holt",
+      "start_time": 488.43,
+      "end_time": 489.55
+    },
+    {
+      "text": "Yeah, I guess.",
+      "speaker_name": "Myles Holt",
+      "start_time": 493.07,
+      "end_time": 493.95
+    },
+    {
+      "text": "Specifically, is anyone doing any sort of routing with the edge middleware at this point?",
+      "speaker_name": "Myles Holt",
+      "start_time": 494.67,
+      "end_time": 500.43
+    },
+    {
+      "text": "I know there's an SDK that you can integrate with, so I'm just getting up to speed with the SDK.",
+      "speaker_name": "Myles Holt",
+      "start_time": 501.63,
+      "end_time": 505.55
+    },
+    {
+      "text": "All I can say about Vercel is like it's they, they make Next JS and I'm a big fan of Next JS and they make it really easy to deploy Next JS applications and they have their AI SDK which I have used in like some consulting projects and like people I like know and respect use that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 506.5,
+      "end_time": 526.02
+    },
+    {
+      "text": "But I was running in.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 527.94,
+      "end_time": 529.06
+    },
+    {
+      "text": "But they don't necessarily use.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 529.06,
+      "end_time": 530.58
+    },
+    {
+      "text": "And I, I use Next JS as a developer, but I don't necessarily use Vercel as my like cloud infra platform.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 530.74,
+      "end_time": 537.34
+    },
+    {
+      "text": "However, their AI SDK and like you know, all of that stuff is very, very good.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 537.34,
+      "end_time": 544.42
+    },
+    {
+      "text": "Do you know, do they wrap that SDK in an MCP or does anyone do that so that you can.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 545.7,
+      "end_time": 551.94
+    },
+    {
+      "text": "Or not.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 552.26,
+      "end_time": 552.9
+    },
+    {
+      "text": "I was just using it directly.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 555.7,
+      "end_time": 557.3
+    },
+    {
+      "text": "I haven't, I haven't hooked it up to an MCP or anything.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 557.3,
+      "end_time": 559.86
+    },
+    {
+      "text": "Yeah, that's my plan to use it directly because we have a next application, so.",
+      "speaker_name": "Myles Holt",
+      "start_time": 560.67,
+      "end_time": 565.39
+    },
+    {
+      "text": "Perfect.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 566.59,
+      "end_time": 567.07
+    },
+    {
+      "text": "Nice.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 567.47,
+      "end_time": 567.95
+    },
+    {
+      "text": "Watch for timeouts though.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 570.51,
+      "end_time": 571.71
+    },
+    {
+      "text": "That's my only caution, I'll say with Vercel is like anything that's a long running job won't play well nicely with Vercel.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 571.71,
+      "end_time": 577.63
+    },
+    {
+      "text": "Interesting.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 579.87,
+      "end_time": 580.59
+    },
+    {
+      "text": "That's why we were using Ingest as an orchestration layer for that.",
+      "speaker_name": "Myles Holt",
+      "start_time": 581.79,
+      "end_time": 586.27
+    },
+    {
+      "text": "Aisling Cana Miles.",
+      "speaker_name": "Myles Holt",
+      "start_time": 586.27,
+      "end_time": 587.71
+    },
+    {
+      "text": "Okay, right.",
+      "speaker_name": "Myles Holt",
+      "start_time": 589.49,
+      "end_time": 590.13
+    },
+    {
+      "text": "The stuff that Lauren got going.",
+      "speaker_name": "Myles Holt",
+      "start_time": 590.69,
+      "end_time": 592.13
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 595.89,
+      "end_time": 596.37
+    },
+    {
+      "text": "Well, so many of these DevOps deployment issues are like things we have to struggle with.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 596.37,
+      "end_time": 602.01
+    },
+    {
+      "text": "As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 602.01,
+      "end_time": 616.84
+    },
+    {
+      "text": "And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 617.48,
+      "end_time": 634.52
+    },
+    {
+      "text": "So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 634.52,
+      "end_time": 645.55
+    },
+    {
+      "text": "Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 645.55,
+      "end_time": 654.91
+    },
+    {
+      "text": "I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 655.549,
+      "end_time": 676.12
+    },
+    {
+      "text": "You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 677.88,
+      "end_time": 686.76
+    },
+    {
+      "text": "And so it's quite challenging, I have to say.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 686.92,
+      "end_time": 690.08
+    },
+    {
+      "text": "Vercel.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 690.08,
+      "end_time": 690.64
+    },
+    {
+      "text": "So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 690.64,
+      "end_time": 708.29
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 708.53,
+      "end_time": 708.93
+    },
+    {
+      "text": "And that's extraordinarily noble.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 709.09,
+      "end_time": 710.69
+    },
+    {
+      "text": "I know Dave uses netlify, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 710.93,
+      "end_time": 714.01
+    },
+    {
+      "text": "For, for some projects and it, Netlify is great.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 714.01,
+      "end_time": 717.01
+    },
+    {
+      "text": "I don't know if any of you using something called beat.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 717.01,
+      "end_time": 718.85
+    },
+    {
+      "text": "Oh, some people say it differently, but it is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 719.67,
+      "end_time": 721.67
+    },
+    {
+      "text": "Or vite.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 722.95,
+      "end_time": 723.75
+    },
+    {
+      "text": "Oh, vita.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 724.71,
+      "end_time": 725.63
+    },
+    {
+      "text": "I, I said it differently, I think.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 725.63,
+      "end_time": 728.07
+    },
+    {
+      "text": "Yeah, yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 728.55,
+      "end_time": 729.47
+    },
+    {
+      "text": "I've used bite before.",
+      "speaker_name": "Myles Holt",
+      "start_time": 729.47,
+      "end_time": 730.51
+    },
+    {
+      "text": "Yeah, yeah, yeah, yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 730.51,
+      "end_time": 733.47
+    },
+    {
+      "text": "Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 733.47,
+      "end_time": 743.51
+    },
+    {
+      "text": "Wow.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 743.67,
+      "end_time": 744.15
+    },
+    {
+      "text": "So easy, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 744.23,
+      "end_time": 745.47
+    },
+    {
+      "text": "Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 745.55,
+      "end_time": 755.23
+    },
+    {
+      "text": "And know that like if you then go put it there, you know what you're going to get, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 755.47,
+      "end_time": 760.79
+    },
+    {
+      "text": "Like you can, you can prototype it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 760.79,
+      "end_time": 762.31
+    },
+    {
+      "text": "The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 762.31,
+      "end_time": 768.55
+    },
+    {
+      "text": "And yeah, you know, the amount of service you've got.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 768.55,
+      "end_time": 771.87
+    },
+    {
+      "text": "So if you've got a full front end solution with no back end, I would highly recommend that's the way to go.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 771.87,
+      "end_time": 780.33
+    },
+    {
+      "text": "TypeScript, JavaScript, you name it, it's all good.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 782.25,
+      "end_time": 784.73
+    },
+    {
+      "text": "I can't think of an instance where it just didn't work the first time.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 785.77,
+      "end_time": 791.61
+    },
+    {
+      "text": "I haven't used Vercel firsthand a lot.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 795.21,
+      "end_time": 798.09
+    },
+    {
+      "text": "We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 798.43,
+      "end_time": 807.55
+    },
+    {
+      "text": "And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 808.27,
+      "end_time": 821.23
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 821.23,
+      "end_time": 821.63
+    },
+    {
+      "text": "Not a lot, but.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 821.87,
+      "end_time": 822.83
+    },
+    {
+      "text": "And I didn't do it, so I shouldn't be commenting on it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 822.99,
+      "end_time": 825.39
+    },
+    {
+      "text": "I don't like to take credit for other people's pain.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 826.59,
+      "end_time": 829.23
+    },
+    {
+      "text": "I, I have a question I would like to, to pose to the group and I certainly would have liked to hear like some of the other folks answers to this, but, and forgive me if you've talked about this at length before, but I'm somewhat new I guess, and I get that's evaluations and really like where in the pipeline and why in the pipeline?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 832.19,
+      "end_time": 855.39
+    },
+    {
+      "text": "If you have, you know, calls to LLMs or you're using consumer AI, how are you evaluating things from the spectrum of just like a quick vibe check and eyeball writing prompts against something in a UI quickly or are you actually using like LLMs as a judge somewhere doing some kind of sentiment analysis or like, you know, change checking the results.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 855.76,
+      "end_time": 881.97
+    },
+    {
+      "text": "So like big broad topic, but I guess like very specifically where and why are you doing evaluations?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 882.37,
+      "end_time": 890.65
+    },
+    {
+      "text": "Or maybe in the more old school like tests.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 890.65,
+      "end_time": 893.65
+    },
+    {
+      "text": "Yeah, yeah, it's a good question and, and, and really good one because it makes a difference.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 896.13,
+      "end_time": 899.93
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 899.93,
+      "end_time": 900.17
+    },
+    {
+      "text": "It's one of these things that would have, has a performative impact on your result, I think.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 900.17,
+      "end_time": 904.69
+    },
+    {
+      "text": "Sorry, I thought someone.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 907.74,
+      "end_time": 908.54
+    },
+    {
+      "text": "Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 908.86,
+      "end_time": 921.7
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 921.7,
+      "end_time": 921.94
+    },
+    {
+      "text": "And so when we use worksona, sometimes it's doing that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 921.94,
+      "end_time": 924.78
+    },
+    {
+      "text": "So it's spinning up, it's.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 925.34,
+      "end_time": 927.34
+    },
+    {
+      "text": "It's mapping and spinning up a judge agent or a validation agent or a testing agent.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 927.34,
+      "end_time": 934.15
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 934.23,
+      "end_time": 934.59
+    },
+    {
+      "text": "A B testing agent or whatever and puts it in the, in, in the map, I will say.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 934.59,
+      "end_time": 943.91
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 943.91,
+      "end_time": 944.23
+    },
+    {
+      "text": "And so, and you're, you're really asking about where in the map, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 944.23,
+      "end_time": 948.07
+    },
+    {
+      "text": "And, and where do you get the best results?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 948.31,
+      "end_time": 950.47
+    },
+    {
+      "text": "It really depends on, you know, how you're like, what your environment looks like.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 951.75,
+      "end_time": 956.51
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 956.51,
+      "end_time": 956.79
+    },
+    {
+      "text": "So I use, I use a ton.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 956.87,
+      "end_time": 959.48
+    },
+    {
+      "text": "I use it a lot because I worry a lot about, you know, all the problems.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 959.72,
+      "end_time": 965.84
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 965.84,
+      "end_time": 966.08
+    },
+    {
+      "text": "Hallucinations, you know, whatever it is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 966.08,
+      "end_time": 968.28
+    },
+    {
+      "text": "And so I, I will.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 969.4,
+      "end_time": 972.28
+    },
+    {
+      "text": "And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 972.28,
+      "end_time": 987.65
+    },
+    {
+      "text": "And you know, and I have a structured approach as far as like context, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 988.21,
+      "end_time": 993.33
+    },
+    {
+      "text": "So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 993.33,
+      "end_time": 1005.13
+    },
+    {
+      "text": "I, I call it right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1005.13,
+      "end_time": 1006.41
+    },
+    {
+      "text": "To like, look at that and say, hey, did that compare the result to the prompt?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1006.41,
+      "end_time": 1009.81
+    },
+    {
+      "text": "And like, you know, tell me, you know, you know, first of all, score.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1009.81,
+      "end_time": 1014.23
+    },
+    {
+      "text": "I do use scoring a lot, not word scoring, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1014.23,
+      "end_time": 1017.19
+    },
+    {
+      "text": "Because I do think it's valuable to say score, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1018.39,
+      "end_time": 1022.07
+    },
+    {
+      "text": "And so definitely I score, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1022.71,
+      "end_time": 1025.91
+    },
+    {
+      "text": "And Almost all the LLMs will articulate a score.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1027.109,
+      "end_time": 1032.43
+    },
+    {
+      "text": "What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1032.43,
+      "end_time": 1037.23
+    },
+    {
+      "text": "It's in my context and in my prompt, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1037.23,
+      "end_time": 1039.11
+    },
+    {
+      "text": "Like, you know, if it's going to score zero to five, what's five, one, zero, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1039.11,
+      "end_time": 1043.63
+    },
+    {
+      "text": "And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1044.51,
+      "end_time": 1051.47
+    },
+    {
+      "text": "Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1051.47,
+      "end_time": 1058.19
+    },
+    {
+      "text": "Because inevitably that's what a map looks like.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1058.19,
+      "end_time": 1060.11
+    },
+    {
+      "text": "Okay, so, and so just, just out.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1060.43,
+      "end_time": 1064.43
+    },
+    {
+      "text": "Of curiosity, is that happening at runtime or are these tests running before you push the models out or before you push the, the agents out?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1064.43,
+      "end_time": 1072.01
+    },
+    {
+      "text": "Let me be clear about this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1075.77,
+      "end_time": 1077.53
+    },
+    {
+      "text": "I generally don't run the way worksona runs.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1078.41,
+      "end_time": 1081.25
+    },
+    {
+      "text": "As in like set it all all up, hit a button and go, okay, I, I don't do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1081.25,
+      "end_time": 1086.97
+    },
+    {
+      "text": "Okay, Work soda can do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1087.05,
+      "end_time": 1090.41
+    },
+    {
+      "text": "And I think that's what a lot of people hope to do in various orchestration patterns.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1090.49,
+      "end_time": 1095.7
+    },
+    {
+      "text": "But, but I don't just my workflow doesn't look like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1095.86,
+      "end_time": 1100.66
+    },
+    {
+      "text": "But you can do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1103.14,
+      "end_time": 1104.98
+    },
+    {
+      "text": "I don't.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1105.14,
+      "end_time": 1105.9
+    },
+    {
+      "text": "And I can talk to you about why I don't.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1105.9,
+      "end_time": 1107.78
+    },
+    {
+      "text": "Not comfortable doing that and all the rest of it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1107.78,
+      "end_time": 1109.7
+    },
+    {
+      "text": "So I call, I call that like context validation, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1110.02,
+      "end_time": 1113.66
+    },
+    {
+      "text": "Like, because that's basically like, you know, those MD files, those documents are context, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1113.66,
+      "end_time": 1117.98
+    },
+    {
+      "text": "They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1117.98,
+      "end_time": 1122.54
+    },
+    {
+      "text": "I do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1122.54,
+      "end_time": 1123.14
+    },
+    {
+      "text": "I would say I do that almost everywhere.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1123.54,
+      "end_time": 1125.3
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1125.46,
+      "end_time": 1126.02
+    },
+    {
+      "text": "I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1126.02,
+      "end_time": 1134.3
+    },
+    {
+      "text": "They always find a reason to like your, your, your results Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1134.3,
+      "end_time": 1138.34
+    },
+    {
+      "text": "And, and in your prompt, you can tune that in or out a little bit if you want.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1138.5,
+      "end_time": 1143.06
+    },
+    {
+      "text": "But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1144.66,
+      "end_time": 1159.5
+    },
+    {
+      "text": "Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1162.86,
+      "end_time": 1171.26
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1171.74,
+      "end_time": 1172.34
+    },
+    {
+      "text": "I do use, because I have found it really useful.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1172.34,
+      "end_time": 1175.34
+    },
+    {
+      "text": "Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1175.66,
+      "end_time": 1184.69
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1184.77,
+      "end_time": 1185.13
+    },
+    {
+      "text": "Like me.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1185.13,
+      "end_time": 1185.73
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1185.97,
+      "end_time": 1186.37
+    },
+    {
+      "text": "Or validating or, you know, figuring out the quality of God.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1186.45,
+      "end_time": 1190.73
+    },
+    {
+      "text": "Gemini CLI is awesome.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1190.73,
+      "end_time": 1192.61
+    },
+    {
+      "text": "I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1192.69,
+      "end_time": 1200.69
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1201.09,
+      "end_time": 1201.49
+    },
+    {
+      "text": "And it'll use just, it'll, it's amazing what it'll do.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1201.65,
+      "end_time": 1206.01
+    },
+    {
+      "text": "It's great at using MCPS and comparing to APIs and giving me really, really good output.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1207.04,
+      "end_time": 1215.68
+    },
+    {
+      "text": "That's everything from this function failed probably for this reason under these test conditions.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1215.92,
+      "end_time": 1225.36
+    },
+    {
+      "text": "It's really good at that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1225.76,
+      "end_time": 1226.8
+    },
+    {
+      "text": "And I've got a bunch of sample files that I have organically built up so that it knows what I like output like.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1226.8,
+      "end_time": 1237.84
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1238.24,
+      "end_time": 1238.64
+    },
+    {
+      "text": "Well, forget what I like.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1239.12,
+      "end_time": 1241.04
+    },
+    {
+      "text": "That's useful.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1241.04,
+      "end_time": 1241.84
+    },
+    {
+      "text": "Right, Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1242.16,
+      "end_time": 1243.4
+    },
+    {
+      "text": "You know what I mean?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1243.4,
+      "end_time": 1243.96
+    },
+    {
+      "text": "Like, I like it because it's useful.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1243.96,
+      "end_time": 1245.72
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1245.72,
+      "end_time": 1245.96
+    },
+    {
+      "text": "It's like where it like gives me the test conditions and so forth.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1245.96,
+      "end_time": 1249.92
+    },
+    {
+      "text": "And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1249.92,
+      "end_time": 1282.7
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1282.7,
+      "end_time": 1283.06
+    },
+    {
+      "text": "So, yeah, I've definitely been doing something.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1283.14,
+      "end_time": 1286.76
+    },
+    {
+      "text": "Like that recently where I've been trying to like, in addition to scoring, I've also been trying to like, always have if I'm storing LLM outputs to have a reasoning of some kind available there so that it can tell me and that can help me peer into the black box a little bit in terms of what I might need to change my content or context to get towards the result I was actually hoping for.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1286.76,
+      "end_time": 1321.65
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1323.81,
+      "end_time": 1324.29
+    },
+    {
+      "text": "When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1324.29,
+      "end_time": 1336.96
+    },
+    {
+      "text": "Make you want to remap the way the agents are.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1337.11,
+      "end_time": 1340.23
+    },
+    {
+      "text": "The way the RE agents are aligned.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1340.23,
+      "end_time": 1343.27
+    },
+    {
+      "text": "Aligned is not the right word sequence.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1343.27,
+      "end_time": 1345.35
+    },
+    {
+      "text": "Orchestrated.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1345.35,
+      "end_time": 1346.11
+    },
+    {
+      "text": "Orchestrated is the right word, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1346.11,
+      "end_time": 1347.99
+    },
+    {
+      "text": "And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1348.31,
+      "end_time": 1357.67
+    },
+    {
+      "text": "I could really do something with this, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1357.99,
+      "end_time": 1360.11
+    },
+    {
+      "text": "Like, you know, what I was missing at the front end was like even guidance.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1360.11,
+      "end_time": 1367.82
+    },
+    {
+      "text": "It's almost always guidance, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1367.82,
+      "end_time": 1369.78
+    },
+    {
+      "text": "Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1369.78,
+      "end_time": 1378.46
+    },
+    {
+      "text": "It did infer from the problem the.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1378.54,
+      "end_time": 1381.54
+    },
+    {
+      "text": "And I guess that's in my prompt or in the samples I provided.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1381.54,
+      "end_time": 1384.86
+    },
+    {
+      "text": "Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1385.34,
+      "end_time": 1396.35
+    },
+    {
+      "text": "And that's what's useful right now.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1396.35,
+      "end_time": 1398.07
+    },
+    {
+      "text": "That's us using human reasoning on top of its reasoning, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1399.27,
+      "end_time": 1403.27
+    },
+    {
+      "text": "Like, because I am Spencer.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1403.59,
+      "end_time": 1406.87
+    },
+    {
+      "text": "I am hand bombing the orchestration, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1406.87,
+      "end_time": 1410.63
+    },
+    {
+      "text": "I'm going back and like, you know, doing that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1410.63,
+      "end_time": 1413.51
+    },
+    {
+      "text": "And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1416.8,
+      "end_time": 1428.16
+    },
+    {
+      "text": "Because like, you know, all of this stuff just generates more and more, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1428.16,
+      "end_time": 1432
+    },
+    {
+      "text": "Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1432,
+      "end_time": 1438.4
+    },
+    {
+      "text": "Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1438.4,
+      "end_time": 1448.92
+    },
+    {
+      "text": "You just, you're exploding your context, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1448.92,
+      "end_time": 1451.56
+    },
+    {
+      "text": "And when do you throw out the result?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1453.08,
+      "end_time": 1454.92
+    },
+    {
+      "text": "Is it like if the score was good, get rid of that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1454.92,
+      "end_time": 1459.56
+    },
+    {
+      "text": "Don't use that context going forward.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1459.56,
+      "end_time": 1460.92
+    },
+    {
+      "text": "You have to use that context in some way, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1460.92,
+      "end_time": 1463
+    },
+    {
+      "text": "Otherwise what's the point of having done it, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1463,
+      "end_time": 1465.88
+    },
+    {
+      "text": "So, you know, I, I look at.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1466.04,
+      "end_time": 1469.12
+    },
+    {
+      "text": "It myself like, and that's also, you know, turning myself back into a bottleneck.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1469.12,
+      "end_time": 1474.5
+    },
+    {
+      "text": "But that's been like the way that I've gotten more quality, I feel like.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1474.5,
+      "end_time": 1478.74
+    },
+    {
+      "text": "Jason, you mentioned.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1481.86,
+      "end_time": 1483.06
+    },
+    {
+      "text": "Sorry, I just saw your note in the chat, Jason, about like the using chained LLMs against like criteria.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1483.22,
+      "end_time": 1490.9
+    },
+    {
+      "text": "What are you, what are you working on there?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1491.3,
+      "end_time": 1493.62
+    },
+    {
+      "text": "Yeah, so like it's really kind of.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1494.34,
+      "end_time": 1496.1
+    },
+    {
+      "text": "Damn.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1501.26,
+      "end_time": 1501.66
+    },
+    {
+      "text": "We're not allowed to know.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1503.74,
+      "end_time": 1505.02
+    },
+    {
+      "text": "We lost.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1505.18,
+      "end_time": 1505.82
+    },
+    {
+      "text": "We lost you.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1505.9,
+      "end_time": 1506.78
+    },
+    {
+      "text": "As soon as he started talking.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 1509.26,
+      "end_time": 1510.78
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1510.78,
+      "end_time": 1511.26
+    },
+    {
+      "text": "Classic phones behavior.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1517.98,
+      "end_time": 1521.82
+    },
+    {
+      "text": "So what I was saying there, Spencer, is like, like what I've been doing is like way more nice.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1523.16,
+      "end_time": 1529.24
+    },
+    {
+      "text": "Like I don't think it fits for what you guys are doing because like we're basically running like a bunch of prop chains that like put a bunch of contest in from whatever scraped content.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1529.32,
+      "end_time": 1541
+    },
+    {
+      "text": "And then I'm trying to get like an output that's like base context for like a specific prompt to produce something for a website, a landing page.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1542.28,
+      "end_time": 1551.63
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1551.71,
+      "end_time": 1552.19
+    },
+    {
+      "text": "But I kind of have like that you know, prompt that produces that material and then like inserting the output of that into another prompt which is like you know, eval against this criteria score and then you know, produce another output in one and then I have that, you know, use that context to replace it.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1552.19,
+      "end_time": 1570.75
+    },
+    {
+      "text": "So I like blindly leverage the output from the eval as opposed to like evaluating whether the eval was good with any kind of human in the loop or aging.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1570.91,
+      "end_time": 1585.07
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1585.31,
+      "end_time": 1585.87
+    },
+    {
+      "text": "And it seems to work pretty well.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1586.35,
+      "end_time": 1587.63
+    },
+    {
+      "text": "It just forces the requirements again.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1587.63,
+      "end_time": 1591.47
+    },
+    {
+      "text": "Yeah, but I don't think it's very sophisticated.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1592.27,
+      "end_time": 1595.67
+    },
+    {
+      "text": "It's just in my experimentations found to be like pretty reliable.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1595.67,
+      "end_time": 1599.79
+    },
+    {
+      "text": "But it's also not very economical because you're basically double prompting everything.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1601.34,
+      "end_time": 1605.26
+    },
+    {
+      "text": "Yep, yep.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1605.9,
+      "end_time": 1607.18
+    },
+    {
+      "text": "No, that makes sense.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1608.06,
+      "end_time": 1608.94
+    },
+    {
+      "text": "Like sometimes just having like an extra set of eyes like from one AI to another is useful.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1609.42,
+      "end_time": 1616.22
+    },
+    {
+      "text": "And that's exactly right, Jason.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1616.94,
+      "end_time": 1618.7
+    },
+    {
+      "text": "That's why I mentioned like I tend to do that kind of, that kind of stuff with my, with my local models.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1618.7,
+      "end_time": 1624.98
+    },
+    {
+      "text": "Like I'm not worried about exactness of code.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1624.98,
+      "end_time": 1627.26
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1627.34,
+      "end_time": 1627.7
+    },
+    {
+      "text": "Or, or, or big things.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1627.7,
+      "end_time": 1629.88
+    },
+    {
+      "text": "I'm looking for short succinct evaluations and I just find I get really good results from what I'm using locally.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1629.88,
+      "end_time": 1638.08
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1638.16,
+      "end_time": 1638.56
+    },
+    {
+      "text": "And, and it keeps the cost down and it keeps the, it keeps the complexity down and anything that isn't like, that isn't like if I out of the automation.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1638.72,
+      "end_time": 1651.28
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1651.28,
+      "end_time": 1651.48
+    },
+    {
+      "text": "Because I don't want it all in the automation because it's going to stick around and keep happening and always spend tokens and stuff like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1651.48,
+      "end_time": 1657.62
+    },
+    {
+      "text": "You know, I do a couple of runs where I do that and then I get my learnings and I go back and I adjust the other pipeline and that's it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1657.78,
+      "end_time": 1664.3
+    },
+    {
+      "text": "All right, go ahead.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1664.3,
+      "end_time": 1665.14
+    },
+    {
+      "text": "I'm sure there's lots of tools out there, but I was using a tool and anthropic bought them so it's not available anymore.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1666.74,
+      "end_time": 1671.86
+    },
+    {
+      "text": "But basically just doing a bunch of runs on the same kind of stage and then like literally like good, bad, good, bad, Thumbs up, thumbs down, thumbs up, thumbs down.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1672.1,
+      "end_time": 1681.94
+    },
+    {
+      "text": "And then building an RLHF data set and then just fine tuning particular fine tuned model to use at that stage as opposed to just the regular model.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1682.29,
+      "end_time": 1692.29
+    },
+    {
+      "text": "And so like that produces really good outcomes.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1693.01,
+      "end_time": 1695.73
+    },
+    {
+      "text": "Just like you only get a sample of like as few as like 20, 20 rows to be able to like produce like a reasonably fine tuned model to call on.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1695.73,
+      "end_time": 1709.93
+    },
+    {
+      "text": "Yeah, that's very cool.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1712.33,
+      "end_time": 1713.45
+    },
+    {
+      "text": "We're looking at that like in our platform right now of like, how are we like building our customer feedback loops in a way where we're able to like hopefully get people to buy in in a way that they're motivated, if they're using the platform directly to like give us those thumbs ups and thumbs down for their particular, their particular Personas that we're deploying for them and like looping all that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1713.85,
+      "end_time": 1733.77
+    },
+    {
+      "text": "The other thing that I like eventually want to do is just use the progression to the next step as the thumbs up and then the non progression as the thumbs down.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1734.93,
+      "end_time": 1743.97
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1744.61,
+      "end_time": 1745.05
+    },
+    {
+      "text": "And so just inferring that if they moved where I wanted them to go, that it was good and if they didn't, it was bad.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1745.05,
+      "end_time": 1750.53
+    },
+    {
+      "text": "I think that's probably dangerous, but like, I don't know.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1750.85,
+      "end_time": 1754.09
+    },
+    {
+      "text": "Worth a shot.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1754.09,
+      "end_time": 1754.85
+    },
+    {
+      "text": "Well, that sounds, that sounds interesting.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1755.57,
+      "end_time": 1757.41
+    },
+    {
+      "text": "That's very dynamic.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1757.41,
+      "end_time": 1758.29
+    },
+    {
+      "text": "That goes back to, I think what.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1758.29,
+      "end_time": 1759.37
+    },
+    {
+      "text": "We chatted about before is just like generating everything on the fly, like as as much as humanly possible.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1759.37,
+      "end_time": 1767.38
+    },
+    {
+      "text": "Yeah, cool.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1767.86,
+      "end_time": 1770.34
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1771.06,
+      "end_time": 1771.62
+    },
+    {
+      "text": "Humanly, yes.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1772.58,
+      "end_time": 1773.62
+    },
+    {
+      "text": "Also, you like teleported onto that plane.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1775.22,
+      "end_time": 1777.38
+    },
+    {
+      "text": "You were like, like one second, you were like in the airport, you went dark for like a second and then you were on a plane like.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1777.54,
+      "end_time": 1784.42
+    },
+    {
+      "text": "Yeah, like an in.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1785.14,
+      "end_time": 1787.2
+    },
+    {
+      "text": "I was wondering how he did that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1787.68,
+      "end_time": 1789.44
+    },
+    {
+      "text": "Like, holy crap.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1789.44,
+      "end_time": 1790.56
+    },
+    {
+      "text": "Front of the line.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1791.76,
+      "end_time": 1792.64
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1792.96,
+      "end_time": 1793.44
+    },
+    {
+      "text": "Glitch in the matrix.",
+      "speaker_name": "Myles Holt",
+      "start_time": 1795.92,
+      "end_time": 1797.2
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1797.52,
+      "end_time": 1798.08
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1798.16,
+      "end_time": 1798.64
+    },
+    {
+      "text": "You know, I think that there's like a.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1800,
+      "end_time": 1803.76
+    },
+    {
+      "text": "It's funny that we're talking about it because the general improvements in AR are often about this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1804.56,
+      "end_time": 1811.68
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1811.84,
+      "end_time": 1812.2
+    },
+    {
+      "text": "In like the models themselves are using these kinds of things.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1812.2,
+      "end_time": 1815.49
+    },
+    {
+      "text": "Things like reinforcement, learning.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1815.64,
+      "end_time": 1817.16
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1817.56,
+      "end_time": 1817.96
+    },
+    {
+      "text": "And scoring and all the rest.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1818.12,
+      "end_time": 1820.12
+    },
+    {
+      "text": "So it's relevant, period.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1821.4,
+      "end_time": 1824.04
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1824.36,
+      "end_time": 1824.76
+    },
+    {
+      "text": "Like it's a feature that's pushed forward.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1824.84,
+      "end_time": 1832.68
+    },
+    {
+      "text": "Really.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1833,
+      "end_time": 1833.4
+    },
+    {
+      "text": "It's a feature that's required because of a bug.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1833.64,
+      "end_time": 1835.96
+    },
+    {
+      "text": "So we all know about hallucinations and blah, blah, blah, blah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1835.96,
+      "end_time": 1839.24
+    },
+    {
+      "text": "And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1839.48,
+      "end_time": 1858.21
+    },
+    {
+      "text": "So the models are doing this on their own in thinking the thinking models.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1858.21,
+      "end_time": 1867.89
+    },
+    {
+      "text": "Often if you open up the thinking and you look at the thinking, you'll see that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1868.21,
+      "end_time": 1874.12
+    },
+    {
+      "text": "And this is why you really got an.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1874.6,
+      "end_time": 1876.44
+    },
+    {
+      "text": "This is why like token expenditure and knowing what's happening at various.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1876.68,
+      "end_time": 1882.2
+    },
+    {
+      "text": "Whenever you're using A model.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1883.08,
+      "end_time": 1884.32
+    },
+    {
+      "text": "Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1884.32,
+      "end_time": 1892.24
+    },
+    {
+      "text": "Because like the models do they, they.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1892.24,
+      "end_time": 1895.66
+    },
+    {
+      "text": "It's not just planning and thinking.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1895.82,
+      "end_time": 1898.14
+    },
+    {
+      "text": "There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1898.14,
+      "end_time": 1905.62
+    },
+    {
+      "text": "And I, that's a real challenge because, you know, different models will behave different ways.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1905.62,
+      "end_time": 1910.06
+    },
+    {
+      "text": "So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1910.06,
+      "end_time": 1917.66
+    },
+    {
+      "text": "And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 1917.66,
+      "end_time": 1931.11
+    },
+    {
+      "text": "Or I've been like, I've kind of coined this term that I'd like maybe only said out loud once or twice that I call like AI agility.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1931.11,
+      "end_time": 1941.91
+    },
+    {
+      "text": "That's kind of similar to like crypto agility.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1942.47,
+      "end_time": 1944.79
+    },
+    {
+      "text": "If you've ever been in that space where it's like, how quickly can you, how, how well abstracted are things in a way where you're able to like rapidly swap out the models and the parameters to those models throughout your system.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1944.79,
+      "end_time": 1960.45
+    },
+    {
+      "text": "Like in the world of cryptography, it's like, okay, we realize that one of the algorithms is bad or like a certain set of parameters, soon algorithm is bad.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1961.97,
+      "end_time": 1972.21
+    },
+    {
+      "text": "We need to change cryptography across our stack.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1972.21,
+      "end_time": 1975.49
+    },
+    {
+      "text": "And hopefully most of the time people are operating at the level where they don't think about that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1975.49,
+      "end_time": 1979.65
+    },
+    {
+      "text": "I only ever had to think about that when I was working on the team in charge of like TLS for S3 at Amazon.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1979.65,
+      "end_time": 1985.32
+    },
+    {
+      "text": "And like we had to be very aware of how quickly can we change these things out.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1985.32,
+      "end_time": 1989.88
+    },
+    {
+      "text": "But with the models it's like, okay, if you bake things in, even if you tie yourself to like the, the APIs of a particular.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1990.04,
+      "end_time": 1998.76
+    },
+    {
+      "text": "That's I guess going back to the vertical SDK.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 1998.92,
+      "end_time": 2001.04
+    },
+    {
+      "text": "One of the reasons it's nice is because it abstracts all that away.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2001.04,
+      "end_time": 2003.64
+    },
+    {
+      "text": "It has, I guess what I would say is good AI agility.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2003.64,
+      "end_time": 2006.44
+    },
+    {
+      "text": "But we use mini for different parts of our pipelines for the GPT class of models, because using thinking or deep research to answer to parse a few.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2007.96,
+      "end_time": 2021.8
+    },
+    {
+      "text": "I don't know, I find it funny.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2022.12,
+      "end_time": 2023.16
+    },
+    {
+      "text": "It's all 15 gpus spinning up somewhere costing $15 of electricity to parse the first name, last name and age or occupation out of a natural language conversation or something like that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2023.16,
+      "end_time": 2037.11
+    },
+    {
+      "text": "But yeah, like, I, I definitely find the extent to which you can remain agile small A in the, in in your ability to take advantage of the latest developments in the models and including the like the next generation of models, like mini version of the next generation of models which is significantly cheaper, you know, you will do better.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2038.79,
+      "end_time": 2067.56
+    },
+    {
+      "text": "That's one.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2067.72,
+      "end_time": 2068.52
+    },
+    {
+      "text": "It's funny you say that Spencer, because I wrote a substack on that very topic that got some interesting feedback from people and I tried to find the title of it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2069.32,
+      "end_time": 2083.16
+    },
+    {
+      "text": "I know your approach to AI should be agnostic, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2083.16,
+      "end_time": 2087.29
+    },
+    {
+      "text": "Basically like you should be able to swap out the whole API layer.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2087.29,
+      "end_time": 2091.61
+    },
+    {
+      "text": "Let me find the link and you know, it was, it's all on this topic, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2093.53,
+      "end_time": 2102.05
+    },
+    {
+      "text": "And what are the, what are the benefits?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2102.05,
+      "end_time": 2103.45
+    },
+    {
+      "text": "What are.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2103.45,
+      "end_time": 2103.93
+    },
+    {
+      "text": "Why do it right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2104.01,
+      "end_time": 2105.37
+    },
+    {
+      "text": "How to do it right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2106.17,
+      "end_time": 2107.53
+    },
+    {
+      "text": "And part of it was and I did not get into thinking versus non thinking but I got into even the way you structure agent descriptions.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2107.53,
+      "end_time": 2118.34
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2118.58,
+      "end_time": 2118.98
+    },
+    {
+      "text": "And so forth because that matters to various different models.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2119.14,
+      "end_time": 2122.38
+    },
+    {
+      "text": "But yeah, so it was like yeah, it's, it, it's.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2122.38,
+      "end_time": 2129.02
+    },
+    {
+      "text": "I think, I think it's a really important thing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2129.02,
+      "end_time": 2132.66
+    },
+    {
+      "text": "And yeah, one thing I've done this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2132.82,
+      "end_time": 2138.87
+    },
+    {
+      "text": "Is even a bit silly is like sometimes if I have the prompt like some, sometimes in the pipeline I've done something like had one model that's like relatively good and static or still swappable, but have an agent model, whatever you want to call it, an LLM call whose responsibility is here's the model, here's my prompt that was written for another model.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2138.87,
+      "end_time": 2165.97
+    },
+    {
+      "text": "Like rewrite this prompt for a particular model and the extent that it actually produced better results.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2165.97,
+      "end_time": 2171.17
+    },
+    {
+      "text": "But I've seen that work when going from down to the mini versions of models where you have a significantly smaller context window and things get garbled.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2171.25,
+      "end_time": 2182.29
+    },
+    {
+      "text": "So that's been a useful technique.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2182.45,
+      "end_time": 2184.29
+    },
+    {
+      "text": "For.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2186.29,
+      "end_time": 2186.69
+    },
+    {
+      "text": "One stage in the pipeline.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2186.77,
+      "end_time": 2188.21
+    },
+    {
+      "text": "How cool.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2189.25,
+      "end_time": 2189.97
+    },
+    {
+      "text": "Dedication to AI is an agnostic journey.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2191.48,
+      "end_time": 2194.12
+    },
+    {
+      "text": "Blah, blah, blah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2196.44,
+      "end_time": 2197.56
+    },
+    {
+      "text": "Yeah, you know, you do stuff and then people make you write articles about what you did.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2197.64,
+      "end_time": 2205.04
+    },
+    {
+      "text": "It's like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2205.04,
+      "end_time": 2205.8
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2205.959,
+      "end_time": 2206.439
+    },
+    {
+      "text": "I actually think that's a useful thing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2209.08,
+      "end_time": 2210.72
+    },
+    {
+      "text": "But not.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2210.72,
+      "end_time": 2211.72
+    },
+    {
+      "text": "I don't like doing it and I'm a writer, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2211.72,
+      "end_time": 2213.8
+    },
+    {
+      "text": "Like I'm a person who devotes a certain.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2213.8,
+      "end_time": 2216.28
+    },
+    {
+      "text": "It definitely helps you think.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2216.28,
+      "end_time": 2217.48
+    },
+    {
+      "text": "Yeah, that's it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2218.48,
+      "end_time": 2219.12
+    },
+    {
+      "text": "It's structure, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2219.12,
+      "end_time": 2220.2
+    },
+    {
+      "text": "Oh gosh, it's such a good statement to make, Graham, because it's, it's always about that, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2220.2,
+      "end_time": 2224.44
+    },
+    {
+      "text": "Like you, you, you structure.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2224.44,
+      "end_time": 2227.44
+    },
+    {
+      "text": "You don't just do it like you, you put some reasoning and some structure.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2227.92,
+      "end_time": 2232.56
+    },
+    {
+      "text": "It makes you self reflect.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2232.56,
+      "end_time": 2233.999
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2234.24,
+      "end_time": 2234.6
+    },
+    {
+      "text": "And you know, it doesn't help that you're insecure about someone reading something you wrote.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2234.6,
+      "end_time": 2238.72
+    },
+    {
+      "text": "So it makes you, makes you do your Thinking a little bit more critically.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2238.72,
+      "end_time": 2241.92
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2242.24,
+      "end_time": 2242.64
+    },
+    {
+      "text": "I, I don't like writing those kinds of articles because you know, often there's like a call to action or like, you know, for the company kind of thing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2244.22,
+      "end_time": 2253.58
+    },
+    {
+      "text": "You know, I prefer join the church.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2254.22,
+      "end_time": 2257.94
+    },
+    {
+      "text": "Of the agnostic model.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2257.94,
+      "end_time": 2259.26
+    },
+    {
+      "text": "Yeah, yeah, yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2259.9,
+      "end_time": 2262.34
+    },
+    {
+      "text": "There's you just sometimes you got to accept, you got to accept the fact that you're not going to be able to control people's perceptions.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2262.34,
+      "end_time": 2268.18
+    },
+    {
+      "text": "But don't hedge when you're writing.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2268.18,
+      "end_time": 2271.51
+    },
+    {
+      "text": "You know, don't hedge.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2271.91,
+      "end_time": 2273.39
+    },
+    {
+      "text": "This is your, this is the level of understanding that you have at this moment in time.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2273.39,
+      "end_time": 2276.95
+    },
+    {
+      "text": "Well, I think it's gonna change.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2277.83,
+      "end_time": 2279.19
+    },
+    {
+      "text": "I have learnings outside of technology.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2279.75,
+      "end_time": 2281.83
+    },
+    {
+      "text": "I have learnings outside of technology and, and, and technical writing that are counter that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2282.15,
+      "end_time": 2287.99
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2287.99,
+      "end_time": 2288.31
+    },
+    {
+      "text": "Because you know, having, having also worked as like a, as a creative writer, it's interesting you say that this is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2288.31,
+      "end_time": 2296.68
+    },
+    {
+      "text": "For Internet attention capture writing.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2296.68,
+      "end_time": 2298.76
+    },
+    {
+      "text": "Yeah, yeah, yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2299,
+      "end_time": 2300.52
+    },
+    {
+      "text": "Anyway, so Spencer.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2300.52,
+      "end_time": 2302
+    },
+    {
+      "text": "Right on.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2302,
+      "end_time": 2302.4
+    },
+    {
+      "text": "Like you can see if you read that, you'll see I was thinking about exactly what you were saying only.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2302.4,
+      "end_time": 2306.44
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2306.44,
+      "end_time": 2306.84
+    },
+    {
+      "text": "Trying to put some detailed reasoning in why and how.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2306.84,
+      "end_time": 2310.68
+    },
+    {
+      "text": "Why it's important and it is important.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2310.68,
+      "end_time": 2312.52
+    },
+    {
+      "text": "Like, like I had, I had several people reach out to me and say oh, we have this problem and I think that this is the issue, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2312.52,
+      "end_time": 2320.92
+    },
+    {
+      "text": "Like like know how do we do this?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2320.92,
+      "end_time": 2323.49
+    },
+    {
+      "text": "It's like it's actually not really that hard.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2323.49,
+      "end_time": 2325.13
+    },
+    {
+      "text": "I think everybody's trying to seem that this is the problem is like the AI providers, they're not so happy with this because like it basically says don't over commit to a particular model.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2325.13,
+      "end_time": 2336.49
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2336.49,
+      "end_time": 2336.89
+    },
+    {
+      "text": "So like you know, Gemini is not going to say this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2336.89,
+      "end_time": 2339.69
+    },
+    {
+      "text": "OpenAI is not going to say this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2339.69,
+      "end_time": 2341.37
+    },
+    {
+      "text": "But what you do see is like for example the agentic systems say that some understand this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2341.77,
+      "end_time": 2347.62
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2347.62,
+      "end_time": 2347.94
+    },
+    {
+      "text": "So you know, you read articles from Klein or, or whatever, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2347.94,
+      "end_time": 2352.78
+    },
+    {
+      "text": "That aren't associated with a particular model, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2352.78,
+      "end_time": 2356.22
+    },
+    {
+      "text": "Like if Open Router was writing articles they would probably write an article like this.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2356.22,
+      "end_time": 2360.5
+    },
+    {
+      "text": "I should have written this for Open Router, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2360.5,
+      "end_time": 2362.82
+    },
+    {
+      "text": "It's like it's probably a, you know, a major, a major thesis for why to use Open Router.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2364.5,
+      "end_time": 2371.38
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2372.75,
+      "end_time": 2372.91
+    },
+    {
+      "text": "And so, and that's why I think it's well known that this is going to be.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2372.91,
+      "end_time": 2378.67
+    },
+    {
+      "text": "Because you can't.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2378.67,
+      "end_time": 2379.31
+    },
+    {
+      "text": "Because I didn't write.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2379.31,
+      "end_time": 2380.87
+    },
+    {
+      "text": "But we don't know who's going to win.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2380.87,
+      "end_time": 2382.19
+    },
+    {
+      "text": "We just don't know who's going to win.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2382.19,
+      "end_time": 2383.43
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2383.43,
+      "end_time": 2383.75
+    },
+    {
+      "text": "Especially since there are dark horses in this game like ssi.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2383.75,
+      "end_time": 2388.989
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2389.23,
+      "end_time": 2389.63
+    },
+    {
+      "text": "And maybe Meta might actually make a model that works.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2389.79,
+      "end_time": 2392.63
+    },
+    {
+      "text": "I don't know, seems unlikely, but never know, Right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2392.63,
+      "end_time": 2396.99
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2398.76,
+      "end_time": 2399.16
+    },
+    {
+      "text": "I mean.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2402.36,
+      "end_time": 2402.92
+    },
+    {
+      "text": "Go ahead.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2404.68,
+      "end_time": 2405.16
+    },
+    {
+      "text": "Well, the idea of just being model agnostic, I mean, the idea of being agnostic generally is a strategy not getting tied into one platform or one development ecosystem and really trying to have the tools to be, to facilitate interoperability, not just on the model side, but on the.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2405.16,
+      "end_time": 2423.88
+    },
+    {
+      "text": "Where are those outputs going?",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2424.52,
+      "end_time": 2425.64
+    },
+    {
+      "text": "Exactly, exactly.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2426.36,
+      "end_time": 2427.32
+    },
+    {
+      "text": "How are they being used?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2427.32,
+      "end_time": 2428.28
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2428.84,
+      "end_time": 2429.16
+    },
+    {
+      "text": "And, and it's hard when you've got a stack like ours is today.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2429.16,
+      "end_time": 2432.84
+    },
+    {
+      "text": "You know, I, I'm going to programming a really, really long time.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2433.72,
+      "end_time": 2437.08
+    },
+    {
+      "text": "I started out in machine code on 68, 000 series processors, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2437.16,
+      "end_time": 2442.04
+    },
+    {
+      "text": "Video games.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2442.12,
+      "end_time": 2442.76
+    },
+    {
+      "text": "And you know, back then the stack wasn't like deep, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2443.16,
+      "end_time": 2446.76
+    },
+    {
+      "text": "And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2447.16,
+      "end_time": 2458.18
+    },
+    {
+      "text": "Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2458.26,
+      "end_time": 2467.18
+    },
+    {
+      "text": "In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2467.18,
+      "end_time": 2475.78
+    },
+    {
+      "text": "Model formats, like as in 3D model formats and stuff like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2476.6,
+      "end_time": 2479.48
+    },
+    {
+      "text": "And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2479.72,
+      "end_time": 2488.08
+    },
+    {
+      "text": "And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2488.08,
+      "end_time": 2502.39
+    },
+    {
+      "text": "Like, you know, whatever it is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2502.39,
+      "end_time": 2504.55
+    },
+    {
+      "text": "And you know, and, and that, you're quite right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2504.63,
+      "end_time": 2506.99
+    },
+    {
+      "text": "It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2506.99,
+      "end_time": 2517.83
+    },
+    {
+      "text": "Like using really portable formats, you know, IFF should have been king, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2517.83,
+      "end_time": 2523.11
+    },
+    {
+      "text": "Like international file formats, completely portable, that can contain anything, you know, should have won, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2523.19,
+      "end_time": 2530.44
+    },
+    {
+      "text": "And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2530.44,
+      "end_time": 2535.72
+    },
+    {
+      "text": "It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2535.72,
+      "end_time": 2545.64
+    },
+    {
+      "text": "Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2545.64,
+      "end_time": 2551.84
+    },
+    {
+      "text": "Sorry, Graham, go ahead.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2551.84,
+      "end_time": 2552.92
+    },
+    {
+      "text": "Well, do you think that there's going to be like a big, like, does the fact that we can build against commercial LLMs, like, does it create the right incentives to push interoperability over.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2553.97,
+      "end_time": 2568.29
+    },
+    {
+      "text": "You.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2570.05,
+      "end_time": 2570.33
+    },
+    {
+      "text": "Know, building to Formats, building to ecosystems, building to certain platforms.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2570.33,
+      "end_time": 2573.97
+    },
+    {
+      "text": "Like people are going to want to access data that was once siloed within certain structures and make it available because they want it available for their agents.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2574.53,
+      "end_time": 2584.06
+    },
+    {
+      "text": "Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2585.5,
+      "end_time": 2595.66
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2595.9,
+      "end_time": 2596.3
+    },
+    {
+      "text": "So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2596.46,
+      "end_time": 2603.18
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2603.66,
+      "end_time": 2604.02
+    },
+    {
+      "text": "Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2604.02,
+      "end_time": 2616.26
+    },
+    {
+      "text": "So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2616.26,
+      "end_time": 2626.18
+    },
+    {
+      "text": "I don't know what to say.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2626.18,
+      "end_time": 2627.14
+    },
+    {
+      "text": "Whatever, you know, like better empirically, if that makes, you can use the word empirically.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2627.14,
+      "end_time": 2632.58
+    },
+    {
+      "text": "But what is that?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2632.94,
+      "end_time": 2634.22
+    },
+    {
+      "text": "That's like an open, true, open AI llama type, totally agnostic environment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2634.46,
+      "end_time": 2640.62
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2641.58,
+      "end_time": 2641.98
+    },
+    {
+      "text": "Where anyone can build a front end or add their model to the dual model server and all the rest.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2642.06,
+      "end_time": 2651.54
+    },
+    {
+      "text": "And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2651.54,
+      "end_time": 2666.99
+    },
+    {
+      "text": "The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2667.39,
+      "end_time": 2674.11
+    },
+    {
+      "text": "So for the greater good, whatever that greater good is, agnostic and open is the way to go.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2674.19,
+      "end_time": 2680.43
+    },
+    {
+      "text": "Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2681.23,
+      "end_time": 2688.19
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2688.97,
+      "end_time": 2689.17
+    },
+    {
+      "text": "Which has always been the argument.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2689.17,
+      "end_time": 2690.85
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2690.85,
+      "end_time": 2691.17
+    },
+    {
+      "text": "Like why would we go open source?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2691.17,
+      "end_time": 2693.37
+    },
+    {
+      "text": "No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2693.45,
+      "end_time": 2703.69
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2704.33,
+      "end_time": 2704.73
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2705.21,
+      "end_time": 2705.77
+    },
+    {
+      "text": "Yeah, that's interesting.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2706.01,
+      "end_time": 2709.05
+    },
+    {
+      "text": "Like I wonder, I know I can't articulate this fully because I haven't thought about it deeply enough, but like I wonder if the need to get access to data that's siloed for the use in AI is the incentive that pushes people beyond old paradigms that have created platform ecosystems like those old incentives.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2709.29,
+      "end_time": 2733
+    },
+    {
+      "text": "Yeah, it's a very, very good question.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2733.48,
+      "end_time": 2734.92
+    },
+    {
+      "text": "And so again, you want to step outside of like AI and stuff.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2736.28,
+      "end_time": 2740.12
+    },
+    {
+      "text": "There's many things that reflect this problem.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2740.2,
+      "end_time": 2742.2
+    },
+    {
+      "text": "Pharmaceutical.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2743.33,
+      "end_time": 2744.13
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2744.13,
+      "end_time": 2744.49
+    },
+    {
+      "text": "Everybody thinks drugs should be cheap, available to all.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2744.49,
+      "end_time": 2746.97
+    },
+    {
+      "text": "It should be able to be able to make them anywhere in the world.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2746.97,
+      "end_time": 2749.29
+    },
+    {
+      "text": "You know, we shouldn't.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2749.29,
+      "end_time": 2750.13
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2750.61,
+      "end_time": 2751.01
+    },
+    {
+      "text": "EpiPens shouldn't cost more than, you know, seven bucks, all the rest.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2751.01,
+      "end_time": 2755.97
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2755.97,
+      "end_time": 2756.37
+    },
+    {
+      "text": "So the obvious solution to that is like open source, the patents, you know, blah, blah, blah, blah, blah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2756.37,
+      "end_time": 2761.97
+    },
+    {
+      "text": "But then the argument is, well, we wouldn't have today if, you know, a lot of engineering didn't go into like the best epiphan or the best, you know, chemical process for creating epinephrine synthetically and stuff like that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2761.97,
+      "end_time": 2774.1
+    },
+    {
+      "text": "So what you're saying is like, like that the, that the, the net good of data access and LLM improving the quality of things, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2774.1,
+      "end_time": 2783.18
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2783.18,
+      "end_time": 2783.58
+    },
+    {
+      "text": "And LLM is likely to improve the quality of a lot of things, including pharmaceuticals as a, as an example.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2783.58,
+      "end_time": 2790.34
+    },
+    {
+      "text": "But like healthcare is a big one, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2790.42,
+      "end_time": 2792.74
+    },
+    {
+      "text": "Legal results, you know, there's all these places everybody's talking about, oh, AI is kind of like, totally.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2792.98,
+      "end_time": 2797.98
+    },
+    {
+      "text": "It's a. I'm not against that, by the way.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2797.98,
+      "end_time": 2799.8
+    },
+    {
+      "text": "I think it has a huge amount.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2799.8,
+      "end_time": 2801.24
+    },
+    {
+      "text": "But then, you know, then the problem, it becomes who's going to spend the money to do that unless they get to spend the money to do that and own that business.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2801.24,
+      "end_time": 2810.36
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2811.16,
+      "end_time": 2811.56
+    },
+    {
+      "text": "Or they're creating value in some way that is like justifies.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 2811.96,
+      "end_time": 2815.32
+    },
+    {
+      "text": "So it's a catch.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2817.08,
+      "end_time": 2818.36
+    },
+    {
+      "text": "Yeah, It's a catch 22 situation.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2818.6,
+      "end_time": 2820.36
+    },
+    {
+      "text": "We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2821,
+      "end_time": 2828.79
+    },
+    {
+      "text": "I don't know.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2828.79,
+      "end_time": 2829.27
+    },
+    {
+      "text": "That's talking out of my ass there.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2829.27,
+      "end_time": 2831.11
+    },
+    {
+      "text": "But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2832.15,
+      "end_time": 2842.47
+    },
+    {
+      "text": "I think it's actually really pertinent to that as well because especially if you're using different models to.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2842.47,
+      "end_time": 2849.23
+    },
+    {
+      "text": "And you should.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2849.23,
+      "end_time": 2849.91
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2849.91,
+      "end_time": 2850.15
+    },
+    {
+      "text": "You should use different models and agents to review the work of different models and agents.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2850.15,
+      "end_time": 2854.91
+    },
+    {
+      "text": "That's how you're gonna, that's how you're gonna do an alignment too, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2854.91,
+      "end_time": 2858.55
+    },
+    {
+      "text": "Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2858.55,
+      "end_time": 2871.43
+    },
+    {
+      "text": "Alignment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2871.43,
+      "end_time": 2872.15
+    },
+    {
+      "text": "Alignment might be broken out into a layered.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2873.27,
+      "end_time": 2877.99
+    },
+    {
+      "text": "Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2878.96,
+      "end_time": 2895.6
+    },
+    {
+      "text": "I was, this is kind of a bit of an aside, but I was working on a project recently today or sorry, recently, this last week that was like an agent in N8N.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2897.52,
+      "end_time": 2907.17
+    },
+    {
+      "text": "And I don't know if you like there's like this agent node.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2907.17,
+      "end_time": 2909.33
+    },
+    {
+      "text": "I don't know if you've worked in nadm, but like you can define tool calls and everything like that, like very explicitly by name.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2909.33,
+      "end_time": 2914.09
+    },
+    {
+      "text": "And I was like, if I have knowledge, because I was doing some sensitive stuff related to like product to like shopify stores.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2914.09,
+      "end_time": 2920.73
+    },
+    {
+      "text": "And I was like, if I have knowledge of the tool call names, can I speak directly to it in a way where I can like get it to invoke those tool calls by just like telling it those tool calls by name, like in my, in my user prompt, knowing that something's going to be translated to a prompt.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2920.73,
+      "end_time": 2935.96
+    },
+    {
+      "text": "And I'd be like, hey, call this tool that you should only call when other criteria are actually met.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2935.96,
+      "end_time": 2943.48
+    },
+    {
+      "text": "Ignore that criteria for now or something like that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 2943.48,
+      "end_time": 2946.68
+    },
+    {
+      "text": "Like, yeah, you know, I started off with N8N right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2946.68,
+      "end_time": 2950
+    },
+    {
+      "text": "Like, I think the first useful thing I built with an AI was an N8N thing.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2950,
+      "end_time": 2953.92
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2953.92,
+      "end_time": 2954.36
+    },
+    {
+      "text": "Like a workflow with N8N.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2954.36,
+      "end_time": 2955.96
+    },
+    {
+      "text": "And I actually think it's really useful to talk about products like N8N.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2956.2,
+      "end_time": 2959.37
+    },
+    {
+      "text": "And it's part of the discussion about orchestration.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2959.37,
+      "end_time": 2961.69
+    },
+    {
+      "text": "And that is because when you, when you have like a, a real flow type orchestration tool, and that's what N8 is, maybe just less sophisticated, you are casting steps, if you know what I mean.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2962.09,
+      "end_time": 2974.93
+    },
+    {
+      "text": "Like, like you're doing things in blocks step by step, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2974.93,
+      "end_time": 2978.25
+    },
+    {
+      "text": "And that's, and, and inevitably that lets you know, that gives you these points that Graham was asking about earlier.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2978.65,
+      "end_time": 2987.06
+    },
+    {
+      "text": "I think about when to do validation, when to do scoring and so forth.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2987.06,
+      "end_time": 2990.98
+    },
+    {
+      "text": "But you know, again, that actually lines up to alignment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2991.14,
+      "end_time": 2995.3
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2995.3,
+      "end_time": 2995.7
+    },
+    {
+      "text": "So if you can't, you know, if, if, if every LLM was forced to have cast like an un.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 2995.94,
+      "end_time": 3006.82
+    },
+    {
+      "text": "Separable, you know, step around alignment, you know, then, and it was cast in.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3007.38,
+      "end_time": 3014.37
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3014.37,
+      "end_time": 3014.65
+    },
+    {
+      "text": "Like you couldn't get output from one LLM into another without it going through this kind of like, you know, validation, slash, alignment step.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3014.65,
+      "end_time": 3022.33
+    },
+    {
+      "text": "Yeah, you know, that's, that's a strategy.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3022.49,
+      "end_time": 3025.13
+    },
+    {
+      "text": "Except of course, if the AI is smart enough to like find a way to like, you know, dog whistle through the alignment.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3026.41,
+      "end_time": 3033.05
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3033.13,
+      "end_time": 3033.53
+    },
+    {
+      "text": "All my alignment stuff and workflows is generally like not LLMs right now.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3034.89,
+      "end_time": 3039.98
+    },
+    {
+      "text": "Like for it's.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3040.14,
+      "end_time": 3041.22
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3041.22,
+      "end_time": 3041.66
+    },
+    {
+      "text": "At least for anything that's like, I consider like destructive.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3042.3,
+      "end_time": 3045.18
+    },
+    {
+      "text": "Like if it's just someone being like, is this a good, is this an okay message to send someone?",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3045.34,
+      "end_time": 3050.22
+    },
+    {
+      "text": "That's like a different story than like, can you, can the agent authorize the issuing of a Shopify Order with like free products to a particular person or something like that.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3050.22,
+      "end_time": 3060.22
+    },
+    {
+      "text": "Like it's a different category of problem.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3060.3,
+      "end_time": 3062.38
+    },
+    {
+      "text": "But I, I, I, I like Nadin's cool and I like that it works with the I, I kind of inherited that project from somebody else.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3063.18,
+      "end_time": 3072.32
+    },
+    {
+      "text": "But whenever I work on those platforms I just always find myself trying to like hack loops in or like, you know, stuff like constructs that like probably it's not supposed to do.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3073.12,
+      "end_time": 3082.56
+    },
+    {
+      "text": "Nadin actually is decent at looping, but yeah, I always feel very boxed in.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3083.28,
+      "end_time": 3089.52
+    },
+    {
+      "text": "Good for.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3090.05,
+      "end_time": 3090.45
+    },
+    {
+      "text": "It's good up to.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3090.45,
+      "end_time": 3091.57
+    },
+    {
+      "text": "And this is kind of like my, my general sentiment with a lot of the AI tools.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3091.73,
+      "end_time": 3096.01
+    },
+    {
+      "text": "It's good up to about a simple crud app that you could.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3096.01,
+      "end_time": 3100.61
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3100.93,
+      "end_time": 3101.41
+    },
+    {
+      "text": "Including, including like vibe coding and all that stuff.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3101.65,
+      "end_time": 3104.25
+    },
+    {
+      "text": "It's like good up to about that point.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3104.25,
+      "end_time": 3106.09
+    },
+    {
+      "text": "And then after that things get, it's.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3106.09,
+      "end_time": 3109.13
+    },
+    {
+      "text": "An evolution thing for sure.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3109.13,
+      "end_time": 3110.45
+    },
+    {
+      "text": "Like so you know what you need is an N8N built by an AI that an AI can use.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3110.69,
+      "end_time": 3115.17
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3115.71,
+      "end_time": 3116.11
+    },
+    {
+      "text": "To, to, to, to.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3116.43,
+      "end_time": 3117.67
+    },
+    {
+      "text": "I mean that's kind of obvious, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3117.67,
+      "end_time": 3118.79
+    },
+    {
+      "text": "It's the old, it's the old meta trick, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3118.79,
+      "end_time": 3120.67
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3120.75,
+      "end_time": 3121.11
+    },
+    {
+      "text": "Because you know, within 8N you end up like being an nan monkey.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3121.11,
+      "end_time": 3126.19
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3126.19,
+      "end_time": 3126.51
+    },
+    {
+      "text": "Learning how to do each individual step and, or getting the right connector or you know, third party thing, you know.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3126.51,
+      "end_time": 3133.55
+    },
+    {
+      "text": "So you know, like that should really be, you know, if, if there was a, you know, if there was a meta N8 egg inside the brain of an AI that can then build an N8M process.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3133.63,
+      "end_time": 3149.36
+    },
+    {
+      "text": "That's what.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3149.36,
+      "end_time": 3149.76
+    },
+    {
+      "text": "Yeah, most, most like.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3149.76,
+      "end_time": 3151.64
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3151.88,
+      "end_time": 3152.2
+    },
+    {
+      "text": "And then you could take all the work out and that would be great.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3152.2,
+      "end_time": 3155.56
+    },
+    {
+      "text": "So yeah, like dynamic, like build it.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3155.8,
+      "end_time": 3160.04
+    },
+    {
+      "text": "Dynamically at the point that it's a new step is necessary.",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 3160.04,
+      "end_time": 3164.16
+    },
+    {
+      "text": "Or like how are you conceptualizing that idea?",
+      "speaker_name": "Graham Fawcett",
+      "start_time": 3164.16,
+      "end_time": 3166.28
+    },
+    {
+      "text": "Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3167.73,
+      "end_time": 3177.09
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3177.17,
+      "end_time": 3177.57
+    },
+    {
+      "text": "So you know, so if you're missing, you're missing a connector, it'll just make it right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3177.73,
+      "end_time": 3182.21
+    },
+    {
+      "text": "If you're missing a type of processing, I'll call it a reasoning step or whatever it is.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3183.49,
+      "end_time": 3189.29
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3189.29,
+      "end_time": 3189.57
+    },
+    {
+      "text": "It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3189.57,
+      "end_time": 3200.71
+    },
+    {
+      "text": "And that's what, that's what, that's what these agents do in ides, right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3200.71,
+      "end_time": 3205.15
+    },
+    {
+      "text": "Like, like they know, they know about Python.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3205.15,
+      "end_time": 3207.51
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3207.67,
+      "end_time": 3208.07
+    },
+    {
+      "text": "And you know, we're already, we're there already where AIs can build.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3208.709,
+      "end_time": 3213.99
+    },
+    {
+      "text": "I mean we really are there.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3214.31,
+      "end_time": 3215.47
+    },
+    {
+      "text": "I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right?",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3215.47,
+      "end_time": 3222.54
+    },
+    {
+      "text": "So, you know, that's, that's like, that's so much of the way there.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3224.06,
+      "end_time": 3228.7
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3228.78,
+      "end_time": 3229.18
+    },
+    {
+      "text": "You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3229.26,
+      "end_time": 3239.98
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3240.14,
+      "end_time": 3240.54
+    },
+    {
+      "text": "So.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3241.82,
+      "end_time": 3242.22
+    },
+    {
+      "text": "And it is nice for that type of stuff because it has, like, a well structured, like, JSON blueprint thing going on as well under the hood.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3242.86,
+      "end_time": 3249.16
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3249.24,
+      "end_time": 3249.72
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3250.12,
+      "end_time": 3250.6
+    },
+    {
+      "text": "I got a drop.",
+      "speaker_name": "Myles Holt",
+      "start_time": 3250.68,
+      "end_time": 3251.56
+    },
+    {
+      "text": "Thank you.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3251.56,
+      "end_time": 3252
+    },
+    {
+      "text": "All discussion.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3252,
+      "end_time": 3253.64
+    },
+    {
+      "text": "I'll see you next time.",
+      "speaker_name": "Spencer MacBeth",
+      "start_time": 3253.88,
+      "end_time": 3255.08
+    },
+    {
+      "text": "All right, take care, everyone.",
+      "speaker_name": "Fulvio Ciano",
+      "start_time": 3255.8,
+      "end_time": 3257.32
+    }
+  ]
+}

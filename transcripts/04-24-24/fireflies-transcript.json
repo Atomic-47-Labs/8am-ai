@@ -1,0 +1,2965 @@
+{
+  "meeting_id": "2yFa34OiQUQlRlpr",
+  "title": "8am AI SCHOOL - Workshops in AI and PROMPTING. FREE!",
+  "date": 1713970800000,
+  "duration": 59,
+  "organizer": "david@atomic47.co",
+  "participants": [
+    "unknownorganizer@calendar.google.com",
+    "david@atomic47.co"
+  ],
+  "sentences": [
+    {
+      "text": "Okay, that looks like that's working.",
+      "speaker_name": "David Olsson",
+      "start_time": 40.584,
+      "end_time": 44.724
+    },
+    {
+      "text": "All right, bring that back over.",
+      "speaker_name": "David Olsson",
+      "start_time": 48.144,
+      "end_time": 53.224
+    },
+    {
+      "text": "All right, good morning.",
+      "speaker_name": "David Olsson",
+      "start_time": 65.404,
+      "end_time": 66.228
+    },
+    {
+      "text": "We're gonna get going and pick up for where we left off last time.",
+      "speaker_name": "David Olsson",
+      "start_time": 66.276,
+      "end_time": 71.744
+    },
+    {
+      "text": "Got a little bit of an agenda here.",
+      "speaker_name": "David Olsson",
+      "start_time": 74.644,
+      "end_time": 76.22
+    },
+    {
+      "text": "So last time we introduced the idea of a scrub, a works on a scrub, and that's just a get or done agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 76.292,
+      "end_time": 84.022
+    },
+    {
+      "text": "A really minimal set of instructions and descriptions, metadata that we can provide, a large language model like a GPT chat GPT to better assist us in doing some work.",
+      "speaker_name": "David Olsson",
+      "start_time": 84.078,
+      "end_time": 99.238
+    },
+    {
+      "text": "You know, work like writing, research, image creation, analysis, code creation, all kinds of different things that we would normally do in the process of doing knowledge work.",
+      "speaker_name": "David Olsson",
+      "start_time": 99.326,
+      "end_time": 113.246
+    },
+    {
+      "text": "A lot of analytic work we can get into as well.",
+      "speaker_name": "David Olsson",
+      "start_time": 113.43,
+      "end_time": 116.766
+    },
+    {
+      "text": "But right now, Benny is set up as a scrub an agent, and I consolidated a bunch of information into a document that sort of describes what was going on in the session, and documents, in a copy and pastable way, a series of descriptions and prompts that can be used.",
+      "speaker_name": "David Olsson",
+      "start_time": 116.91,
+      "end_time": 144.084
+    },
+    {
+      "text": "Here's the example, the tech researcher that the framework is being applied to, the workshop number one scrub framework.",
+      "speaker_name": "David Olsson",
+      "start_time": 144.204,
+      "end_time": 155.304
+    },
+    {
+      "text": "This is workshop number two, is going to change a lot.",
+      "speaker_name": "David Olsson",
+      "start_time": 156.124,
+      "end_time": 159.104
+    },
+    {
+      "text": "So this is looking at it here and seeing it broken out into instructions, variables, agent configuration, and output.",
+      "speaker_name": "David Olsson",
+      "start_time": 161.524,
+      "end_time": 170.556
+    },
+    {
+      "text": "And in this version of sort of the scenario and agent prompt, we started breaking things out into using some nomenclature to define variables that they would be identified and could be easily replaced in some of the instruction set that we're using.",
+      "speaker_name": "David Olsson",
+      "start_time": 170.7,
+      "end_time": 195.666
+    },
+    {
+      "text": "So we use goal as a variable assets, the type of things we want to produce, audience, who we're going to address.",
+      "speaker_name": "David Olsson",
+      "start_time": 195.73,
+      "end_time": 201.614
+    },
+    {
+      "text": "And these can be then piped into various statements that we use considering for the output consideration here, like create a strategy and resulting plan that ensures a successful creation of and communication of the required bracket assets.",
+      "speaker_name": "David Olsson",
+      "start_time": 204.314,
+      "end_time": 220.614
+    },
+    {
+      "text": "Included are intended for bracket audience that attained the bracket goal to attain the goal.",
+      "speaker_name": "David Olsson",
+      "start_time": 220.694,
+      "end_time": 228.862
+    },
+    {
+      "text": "So those three things are identified up in a section called variables.",
+      "speaker_name": "David Olsson",
+      "start_time": 228.918,
+      "end_time": 235.126
+    },
+    {
+      "text": "Now, I said this was going to change, because as we learn and as we put things into play, the refinement starts to speak to us, the opportunities for refinement, as well as the opportunity that we need to generalize, generalize.",
+      "speaker_name": "David Olsson",
+      "start_time": 235.15,
+      "end_time": 262.564
+    },
+    {
+      "text": "So given that we want to have a series of scrubs, I want to have some way of looking at Benny as a sort of first kind of expression of building a template.",
+      "speaker_name": "David Olsson",
+      "start_time": 264.544,
+      "end_time": 273.414
+    },
+    {
+      "text": "And so if we take out most of the content and we just define it as a scenario with some instructions, a goal, some variables, an agent who has some definition and some expected output, that's pretty succinct in terms of what we could do to get it to move, get the agent to do something in a direction that we want, where we can then start affecting it.",
+      "speaker_name": "David Olsson",
+      "start_time": 273.454,
+      "end_time": 301.206
+    },
+    {
+      "text": "Maybe we describe the topic differently, describe the assets that we want.",
+      "speaker_name": "David Olsson",
+      "start_time": 301.23,
+      "end_time": 305.414
+    },
+    {
+      "text": "I'm usually quite brief about the assets, and then we can get into refining what that statement is.",
+      "speaker_name": "David Olsson",
+      "start_time": 305.494,
+      "end_time": 309.718
+    },
+    {
+      "text": "The audience.",
+      "speaker_name": "David Olsson",
+      "start_time": 309.886,
+      "end_time": 310.502
+    },
+    {
+      "text": "It's very important to have some understanding of who we're talking to.",
+      "speaker_name": "David Olsson",
+      "start_time": 310.558,
+      "end_time": 314.034
+    },
+    {
+      "text": "Work zone is all about understanding the Personas, who are the people involved in a scenario.",
+      "speaker_name": "David Olsson",
+      "start_time": 314.814,
+      "end_time": 319.91
+    },
+    {
+      "text": "And an agent is a certain type of actor, and we're learning what type of metadata and what type of instructional sets these agents require to do their work.",
+      "speaker_name": "David Olsson",
+      "start_time": 320.062,
+      "end_time": 334.454
+    },
+    {
+      "text": "As we've seen in some situations, like crew AI, there's basically three different, we can call them properties of an agent that define how it can work.",
+      "speaker_name": "David Olsson",
+      "start_time": 335.114,
+      "end_time": 346.174
+    },
+    {
+      "text": "It's quite simple, and it works quite well in terms of being able to provide a generalized direction for taking action on work.",
+      "speaker_name": "David Olsson",
+      "start_time": 347.434,
+      "end_time": 357.134
+    },
+    {
+      "text": "And so in the scenarios that we're setting up, we're going to be a bit more refined in terms of our defining of what an agent can be.",
+      "speaker_name": "David Olsson",
+      "start_time": 357.294,
+      "end_time": 368.434
+    },
+    {
+      "text": "And it can get quite long, and, and then it becomes a bit wieldy, unwieldy, and then we have more information that's not being used or it's being used in this direction.",
+      "speaker_name": "David Olsson",
+      "start_time": 369.054,
+      "end_time": 380.822
+    },
+    {
+      "text": "And so in the case where we come up with what I would call a succinct prompt, and it is still a page long and has some, has a fair bit of complexity to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 380.998,
+      "end_time": 395.654
+    },
+    {
+      "text": "And so I looked at what it would take to take Benny, our tech researcher, and see how we could optimize it.",
+      "speaker_name": "David Olsson",
+      "start_time": 395.774,
+      "end_time": 405.67
+    },
+    {
+      "text": "And there's a body of research out there on getting the large language models to actually collaborate on building prompts and optimizing prompts.",
+      "speaker_name": "David Olsson",
+      "start_time": 405.822,
+      "end_time": 415.166
+    },
+    {
+      "text": "And there's a number of prompts available for actually building what would be called a metaprompt for building a prompt engineer, or for building an engineer that can create more prompts.",
+      "speaker_name": "David Olsson",
+      "start_time": 415.19,
+      "end_time": 429.47
+    },
+    {
+      "text": "So you have a language that can, at a higher level, define some of the activities and allow for some of the specificity at a more granular level that's defined right before the actions take place.",
+      "speaker_name": "David Olsson",
+      "start_time": 429.502,
+      "end_time": 444.128
+    },
+    {
+      "text": "And so this is very much in a programming paradigm, like an object oriented sort of paradigm, where you have a prototype, and then you make the prototype very specific to what it needs to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 444.216,
+      "end_time": 456.084
+    },
+    {
+      "text": "And here's an example of a very verbose prompt that has a lot of the nomenclature that is recommended for use in prompting to make it easier for the large language model to interpret this as structure.",
+      "speaker_name": "David Olsson",
+      "start_time": 456.664,
+      "end_time": 472.918
+    },
+    {
+      "text": "And so you see there's a markdown being used, there's start and end definitions for some of these sections.",
+      "speaker_name": "David Olsson",
+      "start_time": 473.086,
+      "end_time": 485.87
+    },
+    {
+      "text": "And each of these sections is blocked off as if it was a variable.",
+      "speaker_name": "David Olsson",
+      "start_time": 485.942,
+      "end_time": 490.034
+    },
+    {
+      "text": "Everything is either bullet pointed or action numbered to give it a sense of structure.",
+      "speaker_name": "David Olsson",
+      "start_time": 490.774,
+      "end_time": 498.294
+    },
+    {
+      "text": "And the document itself reads quite effectively.",
+      "speaker_name": "David Olsson",
+      "start_time": 498.414,
+      "end_time": 501.862
+    },
+    {
+      "text": "Well, and so this is a script that is meant to enable you to produce a collaborator from creating very, very optimized scripts.",
+      "speaker_name": "David Olsson",
+      "start_time": 501.918,
+      "end_time": 515.054
+    },
+    {
+      "text": "And so I applied some of this to our Benny in a bunch of different experiments and came up with a series of, came up with a series of different views on what a researcher could be.",
+      "speaker_name": "David Olsson",
+      "start_time": 515.174,
+      "end_time": 542.388
+    },
+    {
+      "text": "Here I have just.",
+      "speaker_name": "David Olsson",
+      "start_time": 542.556,
+      "end_time": 543.964
+    },
+    {
+      "text": "I'm taking.",
+      "speaker_name": "David Olsson",
+      "start_time": 544.124,
+      "end_time": 545.14
+    },
+    {
+      "text": "I'm calling it just a prompt engineer.",
+      "speaker_name": "David Olsson",
+      "start_time": 545.332,
+      "end_time": 547.388
+    },
+    {
+      "text": "Just prompt engineer.",
+      "speaker_name": "David Olsson",
+      "start_time": 547.436,
+      "end_time": 549.574
+    },
+    {
+      "text": "Its name is just, and it studies and simplifies prompt framework.",
+      "speaker_name": "David Olsson",
+      "start_time": 551.434,
+      "end_time": 555.778
+    },
+    {
+      "text": "So it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 555.826,
+      "end_time": 556.45
+    },
+    {
+      "text": "It's a scrub definition of an agent that I could then bring into this metaprompt to work with as the content and then produce another version of our Benny researcher.",
+      "speaker_name": "David Olsson",
+      "start_time": 556.562,
+      "end_time": 579.664
+    },
+    {
+      "text": "So this, as much as I have minimized and tried to create a minimum viable scrub in terms of what it can be, working with the metaprompting and looking at some of the feedback that I get from the work that I've done with this initial script.",
+      "speaker_name": "David Olsson",
+      "start_time": 580.004,
+      "end_time": 603.884
+    },
+    {
+      "text": "Okay, this is the prompt architecture script that I had mentioned right here, and it's intended to create.",
+      "speaker_name": "David Olsson",
+      "start_time": 604.704,
+      "end_time": 614.764
+    },
+    {
+      "text": "We'll get to the part where it's doing the creation.",
+      "speaker_name": "David Olsson",
+      "start_time": 616.944,
+      "end_time": 619.484
+    },
+    {
+      "text": "Thank you for submitting your request.",
+      "speaker_name": "David Olsson",
+      "start_time": 623.304,
+      "end_time": 624.584
+    },
+    {
+      "text": "I understand the following from your given request, and then it defines what it wants, what I wanted to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 624.624,
+      "end_time": 632.454
+    },
+    {
+      "text": "And it got to the point of ingesting that if I wanted to make any modifications to what was there.",
+      "speaker_name": "David Olsson",
+      "start_time": 632.614,
+      "end_time": 639.302
+    },
+    {
+      "text": "And so I actually stood back and said, okay, well, just broadly define some of these variables that they have there and see if you could then get it to execute.",
+      "speaker_name": "David Olsson",
+      "start_time": 639.478,
+      "end_time": 655.354
+    },
+    {
+      "text": "And so I minimized what I saw here into what I built here, and it was a cross section of what I'd learned from this metaprompt and what I had gotten to in terms of our scrub.",
+      "speaker_name": "David Olsson",
+      "start_time": 656.534,
+      "end_time": 674.474
+    },
+    {
+      "text": "In terms of our scrub design, it's pretty tight.",
+      "speaker_name": "David Olsson",
+      "start_time": 678.294,
+      "end_time": 681.11
+    },
+    {
+      "text": "The personality probably need to be there, and the tasks and skills are kind of intermixed, and the, you know, the goal and the instructions might be bound together inappropriately in the output, and the skills might be intertwined a little bit.",
+      "speaker_name": "David Olsson",
+      "start_time": 681.262,
+      "end_time": 703.022
+    },
+    {
+      "text": "And so there's a little bit of spaghetti going on here that, you know, can be worked out.",
+      "speaker_name": "David Olsson",
+      "start_time": 703.198,
+      "end_time": 711.184
+    },
+    {
+      "text": "And so I didn't take everything that I had.",
+      "speaker_name": "David Olsson",
+      "start_time": 711.884,
+      "end_time": 716.544
+    },
+    {
+      "text": "I wanted to be able to see if I could invoke some of this prompt engineering and metaprompting language to create my own framework.",
+      "speaker_name": "David Olsson",
+      "start_time": 717.564,
+      "end_time": 732.824
+    },
+    {
+      "text": "And so executing on the task of looking for intelligence information on the Internet and then figuring out how to actually do that.",
+      "speaker_name": "David Olsson",
+      "start_time": 735.024,
+      "end_time": 747.248
+    },
+    {
+      "text": "It provided me the step by step, and then it went on to figure out what exists in that space based on the step by step.",
+      "speaker_name": "David Olsson",
+      "start_time": 747.416,
+      "end_time": 757.72
+    },
+    {
+      "text": "And then I asked it, you know, here's a hybrid that occurs created a hybrid metapromp for creating an AI agent that will analyze and analyze the requirements, identify the domain, and apply appropriate cognitive processes.",
+      "speaker_name": "David Olsson",
+      "start_time": 757.752,
+      "end_time": 773.632
+    },
+    {
+      "text": "And that just made me happy.",
+      "speaker_name": "David Olsson",
+      "start_time": 773.688,
+      "end_time": 775.484
+    },
+    {
+      "text": "So it's like, here's the instructions for this prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 776.904,
+      "end_time": 782.084
+    },
+    {
+      "text": "Here's the steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 783.664,
+      "end_time": 784.768
+    },
+    {
+      "text": "Step one, analyze the task requirements description provides a description of what to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 784.856,
+      "end_time": 790.298
+    },
+    {
+      "text": "Step two, define the domain.",
+      "speaker_name": "David Olsson",
+      "start_time": 790.426,
+      "end_time": 791.826
+    },
+    {
+      "text": "Where are we in terms of what are we researching, what do we need to understand and what are the subdomains under that?",
+      "speaker_name": "David Olsson",
+      "start_time": 791.89,
+      "end_time": 798.534
+    },
+    {
+      "text": "Determine the correct cognitive process based on the domain.",
+      "speaker_name": "David Olsson",
+      "start_time": 799.954,
+      "end_time": 802.738
+    },
+    {
+      "text": "Select the appropriate cognitive process or metapromp framework to apply.",
+      "speaker_name": "David Olsson",
+      "start_time": 802.786,
+      "end_time": 809.134
+    },
+    {
+      "text": "That's succinct.",
+      "speaker_name": "David Olsson",
+      "start_time": 810.154,
+      "end_time": 811.534
+    },
+    {
+      "text": "Execute the task, follow the defined cognitive process like the previous task to achieve the task.",
+      "speaker_name": "David Olsson",
+      "start_time": 812.714,
+      "end_time": 818.334
+    },
+    {
+      "text": "Outcome consulting domain specific experts if NAP is necessary.",
+      "speaker_name": "David Olsson",
+      "start_time": 818.374,
+      "end_time": 823.438
+    },
+    {
+      "text": "So now we actually have some sense of experts out there that we might need and maybe we need to create.",
+      "speaker_name": "David Olsson",
+      "start_time": 823.526,
+      "end_time": 828.674
+    },
+    {
+      "text": "And this is an interesting one, that is a huge consideration, and that is handle errors or unexpected outcomes.",
+      "speaker_name": "David Olsson",
+      "start_time": 830.614,
+      "end_time": 837.806
+    },
+    {
+      "text": "The implementation of error handling is essential because it's maybe not error handling, and if it is error handling, then it can precipitate some better design final outcome of the task execution.",
+      "speaker_name": "David Olsson",
+      "start_time": 837.83,
+      "end_time": 853.748
+    },
+    {
+      "text": "So the outcome is the outcome.",
+      "speaker_name": "David Olsson",
+      "start_time": 853.916,
+      "end_time": 855.86
+    },
+    {
+      "text": "So you see there's a lot of self reflexivity going on in here.",
+      "speaker_name": "David Olsson",
+      "start_time": 855.932,
+      "end_time": 859.236
+    },
+    {
+      "text": "So I thought this was quite cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 859.26,
+      "end_time": 860.884
+    },
+    {
+      "text": "So we have instructions and outcome, and that's a pretty tight, you know, you can use this hybrid prompt template for creating AI agents and execute complex text, adjust the structure based on specific tax requirements.",
+      "speaker_name": "David Olsson",
+      "start_time": 860.924,
+      "end_time": 879.004
+    },
+    {
+      "text": "And so I didn't feel like it got enough, you know, it didn't do enough research to find enough basis for something tangible.",
+      "speaker_name": "David Olsson",
+      "start_time": 879.904,
+      "end_time": 894.74
+    },
+    {
+      "text": "You know, it was pretty light, even though I like this structure here.",
+      "speaker_name": "David Olsson",
+      "start_time": 894.912,
+      "end_time": 900.104
+    },
+    {
+      "text": "So I changed the brief hack that I put in and I said task equals search, put it in brackets and identify seven substantive active meta prompting frameworks, examples and articles.",
+      "speaker_name": "David Olsson",
+      "start_time": 903.004,
+      "end_time": 919.344
+    },
+    {
+      "text": "Yeah, pushed a bunch of words out there.",
+      "speaker_name": "David Olsson",
+      "start_time": 920.884,
+      "end_time": 924.748
+    },
+    {
+      "text": "The domain is gen AI, generative AI and prompt engineering.",
+      "speaker_name": "David Olsson",
+      "start_time": 924.836,
+      "end_time": 929.956
+    },
+    {
+      "text": "Specifically metaprompting brackets the utilizing of prompt to iterate prompts.",
+      "speaker_name": "David Olsson",
+      "start_time": 930.02,
+      "end_time": 936.224
+    },
+    {
+      "text": "That's my words.",
+      "speaker_name": "David Olsson",
+      "start_time": 936.884,
+      "end_time": 938.22
+    },
+    {
+      "text": "I'm trying to force some meaning on it and then I just say outcome.",
+      "speaker_name": "David Olsson",
+      "start_time": 938.412,
+      "end_time": 943.18
+    },
+    {
+      "text": "So I have task, domain and outcome report on identified resources listed list of resources and optimized prompt frameworks based list the resources and optimized prompt frameworks based on the research and analysis of findings.",
+      "speaker_name": "David Olsson",
+      "start_time": 943.212,
+      "end_time": 958.952
+    },
+    {
+      "text": "Oh, my God.",
+      "speaker_name": "David Olsson",
+      "start_time": 959.008,
+      "end_time": 959.688
+    },
+    {
+      "text": "Okay, so optimize.",
+      "speaker_name": "David Olsson",
+      "start_time": 959.776,
+      "end_time": 962.008
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 962.056,
+      "end_time": 962.644
+    },
+    {
+      "text": "It's weak.",
+      "speaker_name": "David Olsson",
+      "start_time": 963.104,
+      "end_time": 964.136
+    },
+    {
+      "text": "So provide this prompt in a code block.",
+      "speaker_name": "David Olsson",
+      "start_time": 964.32,
+      "end_time": 967.644
+    },
+    {
+      "text": "I like the prompt in the code block for its readability and for, or its copy and paste ability.",
+      "speaker_name": "David Olsson",
+      "start_time": 968.744,
+      "end_time": 977.142
+    },
+    {
+      "text": "And it will sometimes determine what programming language or what format it thinks it's in.",
+      "speaker_name": "David Olsson",
+      "start_time": 977.198,
+      "end_time": 982.902
+    },
+    {
+      "text": "And this is very appropriate.",
+      "speaker_name": "David Olsson",
+      "start_time": 982.918,
+      "end_time": 984.054
+    },
+    {
+      "text": "JSON is great.",
+      "speaker_name": "David Olsson",
+      "start_time": 984.094,
+      "end_time": 985.274
+    },
+    {
+      "text": "It shows internal structure, and it's very portable.",
+      "speaker_name": "David Olsson",
+      "start_time": 985.774,
+      "end_time": 989.114
+    },
+    {
+      "text": "It looks a little programmer for some people.",
+      "speaker_name": "David Olsson",
+      "start_time": 989.614,
+      "end_time": 991.798
+    },
+    {
+      "text": "But you can then take this and you can say, okay, put this into section titles and descriptions.",
+      "speaker_name": "David Olsson",
+      "start_time": 991.846,
+      "end_time": 998.014
+    },
+    {
+      "text": "Put this in a long form format, not in markdown, or put it in markdown.",
+      "speaker_name": "David Olsson",
+      "start_time": 998.174,
+      "end_time": 1007.004
+    },
+    {
+      "text": "So this task where I actually asked it to find, you know, seven different resources, the idea was to get it to be a little bit more rigorous and granular and what it actually is using as its base, it's a strategy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1007.744,
+      "end_time": 1024.208
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1024.296,
+      "end_time": 1024.664
+    },
+    {
+      "text": "And we will see how the strategy plays out, but we do get a lot more of resources listed, and that is now with citations.",
+      "speaker_name": "David Olsson",
+      "start_time": 1024.704,
+      "end_time": 1033.003
+    },
+    {
+      "text": "And so this alone is a great exercise for me to go follow up and say, well, some of these things I know a fair bit about, and some of them I have some working knowledge of and some will metaproting for task agnostic scaffolding.",
+      "speaker_name": "David Olsson",
+      "start_time": 1033.583,
+      "end_time": 1049.383
+    },
+    {
+      "text": "Well, that sounds pretty much like what we're trying to do here.",
+      "speaker_name": "David Olsson",
+      "start_time": 1049.423,
+      "end_time": 1053.443
+    },
+    {
+      "text": "And so I'll probably go up and follow that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1053.823,
+      "end_time": 1055.963
+    },
+    {
+      "text": "It then lists that I end up with sort of a, it stops and gives me a summary.",
+      "speaker_name": "David Olsson",
+      "start_time": 1056.444,
+      "end_time": 1062.664
+    },
+    {
+      "text": "This is what I do when that happens.",
+      "speaker_name": "David Olsson",
+      "start_time": 1064.124,
+      "end_time": 1066.064
+    },
+    {
+      "text": "I give it the word proceed and something will happen.",
+      "speaker_name": "David Olsson",
+      "start_time": 1068.604,
+      "end_time": 1074.024
+    },
+    {
+      "text": "How that happens is kind of interesting.",
+      "speaker_name": "David Olsson",
+      "start_time": 1076.444,
+      "end_time": 1080.944
+    },
+    {
+      "text": "In this case, it didn't know what to do because it didn't have an instruction set in here as to what to do next, other than it was meant to do some research and provide this in a code block.",
+      "speaker_name": "David Olsson",
+      "start_time": 1082.144,
+      "end_time": 1092.96
+    },
+    {
+      "text": "And it didn't even get to that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1092.992,
+      "end_time": 1094.08
+    },
+    {
+      "text": "So cac somewhere.",
+      "speaker_name": "David Olsson",
+      "start_time": 1094.112,
+      "end_time": 1095.684
+    },
+    {
+      "text": "So I said, okay, create a prompt framework based on this, on your findings and analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 1098.104,
+      "end_time": 1102.96
+    },
+    {
+      "text": "Submit a prompting.",
+      "speaker_name": "David Olsson",
+      "start_time": 1102.992,
+      "end_time": 1103.912
+    },
+    {
+      "text": "Okay, well, that got it back on track.",
+      "speaker_name": "David Olsson",
+      "start_time": 1104.048,
+      "end_time": 1105.752
+    },
+    {
+      "text": "And this is just the best look at this structure.",
+      "speaker_name": "David Olsson",
+      "start_time": 1105.848,
+      "end_time": 1111.204
+    },
+    {
+      "text": "And to create a meta prompting framework that iterates prompts to accomplish complex tasks in generative AI and prompt engineering.",
+      "speaker_name": "David Olsson",
+      "start_time": 1111.364,
+      "end_time": 1120.116
+    },
+    {
+      "text": "That is the purpose of this prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1120.22,
+      "end_time": 1123.224
+    },
+    {
+      "text": "And then we get into some sub sections, or we can call them sections because they get subbed out too.",
+      "speaker_name": "David Olsson",
+      "start_time": 1123.724,
+      "end_time": 1131.212
+    },
+    {
+      "text": "And one is a context.",
+      "speaker_name": "David Olsson",
+      "start_time": 1131.348,
+      "end_time": 1132.864
+    },
+    {
+      "text": "What is the context?",
+      "speaker_name": "David Olsson",
+      "start_time": 1133.574,
+      "end_time": 1134.822
+    },
+    {
+      "text": "I call it scenario, but I think context is better.",
+      "speaker_name": "David Olsson",
+      "start_time": 1134.958,
+      "end_time": 1137.39
+    },
+    {
+      "text": "So context.",
+      "speaker_name": "David Olsson",
+      "start_time": 1137.422,
+      "end_time": 1138.11
+    },
+    {
+      "text": "And then within the context, there's domain generative AI and prompt engineering, and then an overview, which, you know, I would call a description sometimes, but an overview is great for context.",
+      "speaker_name": "David Olsson",
+      "start_time": 1138.182,
+      "end_time": 1149.314
+    },
+    {
+      "text": "It could be that we have other, you know, subtopics underneath that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1149.934,
+      "end_time": 1154.558
+    },
+    {
+      "text": "But what's neat about this is it's an adjacent format and it allows to see that there's a bit of structure in place.",
+      "speaker_name": "David Olsson",
+      "start_time": 1154.686,
+      "end_time": 1161.724
+    },
+    {
+      "text": "Purpose is at the same level as context, but domain is under context.",
+      "speaker_name": "David Olsson",
+      "start_time": 1162.464,
+      "end_time": 1167.704
+    },
+    {
+      "text": "So we'll be getting into this when I bring in object oriented, the idea of object oriented programming into prompting.",
+      "speaker_name": "David Olsson",
+      "start_time": 1167.864,
+      "end_time": 1177.644
+    },
+    {
+      "text": "But this form here of storing data in a JSON format, which is just a JavaScript sort of digestible format, originally, originally purpose that way is very handy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1178.144,
+      "end_time": 1193.688
+    },
+    {
+      "text": "And it provides not only information, but again a structured nature of it, a hierarchical structured nature of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1193.776,
+      "end_time": 1203.724
+    },
+    {
+      "text": "So interdependence is built into it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1204.064,
+      "end_time": 1205.976
+    },
+    {
+      "text": "So it's pretty cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1206,
+      "end_time": 1207.8
+    },
+    {
+      "text": "And then we have context, you know, so we have purpose, context, criteria, requirements, constraints.",
+      "speaker_name": "David Olsson",
+      "start_time": 1207.832,
+      "end_time": 1214.236
+    },
+    {
+      "text": "These are common, these are great buckets.",
+      "speaker_name": "David Olsson",
+      "start_time": 1214.3,
+      "end_time": 1216.944
+    },
+    {
+      "text": "And here's an, you know, it's filled with an example as to how you can understand it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1217.244,
+      "end_time": 1221.132
+    },
+    {
+      "text": "And then the procedure, what are we doing?",
+      "speaker_name": "David Olsson",
+      "start_time": 1221.228,
+      "end_time": 1223.94
+    },
+    {
+      "text": "We call this instructions, call a procedure, and then there's the steps underneath that, which are, in this case because it's metaprompting, they're very generalized, you know, analyze the task requirements to find the domain, determine the cognitive process, execute the task, handle errors and utilize feedback and then the outcome.",
+      "speaker_name": "David Olsson",
+      "start_time": 1224.092,
+      "end_time": 1245.522
+    },
+    {
+      "text": "So it's a little bit like the first one, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 1245.538,
+      "end_time": 1250.17
+    },
+    {
+      "text": "But it actually now has a lot more, I would call it structure around things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1250.282,
+      "end_time": 1260.042
+    },
+    {
+      "text": "It has a lot more places where I can put different types it of information.",
+      "speaker_name": "David Olsson",
+      "start_time": 1260.098,
+      "end_time": 1264.474
+    },
+    {
+      "text": "Or I could take some document and then say based on this document person's HR records and a task that they have or history they have or something that's needed, build out, or you know, take this as the template and apply that information to this template and produce a functioning agent and prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1265.054,
+      "end_time": 1291.854
+    },
+    {
+      "text": "And this one is like it has the context of a scenario, purpose and context and the criteria, you know, you could get, you can call that some, some of your internal requirements for how things get done or what gets produced.",
+      "speaker_name": "David Olsson",
+      "start_time": 1292.594,
+      "end_time": 1307.906
+    },
+    {
+      "text": "And then the outcome can be defined as the series of reports, interactions, assets, common worker, work products.",
+      "speaker_name": "David Olsson",
+      "start_time": 1308.05,
+      "end_time": 1317.354
+    },
+    {
+      "text": "So I then took that, because this is a metaprompt, this is a prompt to define a metaprompting engineer.",
+      "speaker_name": "David Olsson",
+      "start_time": 1318.654,
+      "end_time": 1332.474
+    },
+    {
+      "text": "Prompting engineer a metapromt to create a prompt engineer.",
+      "speaker_name": "David Olsson",
+      "start_time": 1333.174,
+      "end_time": 1337.394
+    },
+    {
+      "text": "I wanted something different, like a real example of this, so that it's not like so reflexive that I get it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1340.594,
+      "end_time": 1347.894
+    },
+    {
+      "text": "And so I just asked for one.",
+      "speaker_name": "David Olsson",
+      "start_time": 1348.394,
+      "end_time": 1350.346
+    },
+    {
+      "text": "And it likes, it likes going AI and healthcare.",
+      "speaker_name": "David Olsson",
+      "start_time": 1350.37,
+      "end_time": 1352.994
+    },
+    {
+      "text": "And so it said the purpose to assess the impact of AI, adoption, healthcare, industry and propose strategies for optimal integration.",
+      "speaker_name": "David Olsson",
+      "start_time": 1353.074,
+      "end_time": 1359.562
+    },
+    {
+      "text": "Well, that's a pretty good and fairly high level kind of purpose goal.",
+      "speaker_name": "David Olsson",
+      "start_time": 1359.618,
+      "end_time": 1366.59
+    },
+    {
+      "text": "You know, and in other documentation we have goal and the domain is generative AI and healthcare.",
+      "speaker_name": "David Olsson",
+      "start_time": 1366.782,
+      "end_time": 1374.914
+    },
+    {
+      "text": "And so it is generative AI, and so that's large language models.",
+      "speaker_name": "David Olsson",
+      "start_time": 1375.934,
+      "end_time": 1379.31
+    },
+    {
+      "text": "And what we're experiencing is sort of an inflection of invasion.",
+      "speaker_name": "David Olsson",
+      "start_time": 1379.342,
+      "end_time": 1385.994
+    },
+    {
+      "text": "The task overview the task aims to evaluate the effects of AI in healthcare and suggest best practices for adoption.",
+      "speaker_name": "David Olsson",
+      "start_time": 1389.694,
+      "end_time": 1397.36
+    },
+    {
+      "text": "So this is promoting the adoption.",
+      "speaker_name": "David Olsson",
+      "start_time": 1397.472,
+      "end_time": 1399.496
+    },
+    {
+      "text": "So criteria, requirements and constraints ensure recommendations are feasible within the current healthcare framework.",
+      "speaker_name": "David Olsson",
+      "start_time": 1399.6,
+      "end_time": 1405.68
+    },
+    {
+      "text": "Well, that assumes a lot.",
+      "speaker_name": "David Olsson",
+      "start_time": 1405.832,
+      "end_time": 1407.404
+    },
+    {
+      "text": "Consider ethical implications and patient privacy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1407.984,
+      "end_time": 1410.608
+    },
+    {
+      "text": "Well, those are two of the biggest sort of polemics of health care.",
+      "speaker_name": "David Olsson",
+      "start_time": 1410.656,
+      "end_time": 1417.104
+    },
+    {
+      "text": "So there will be a wealth of information, information and easy access to that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1417.224,
+      "end_time": 1420.584
+    },
+    {
+      "text": "It can be very, what I would call categorical and maybe not the best, but we're seeing a really nice structure here and we can see under the steps, the steps are understand the task, define the domain, what is the cognitive process, execute, handle errors, and give feedback, and a comprehensive report including key areas of implementation, patient outcomes, and best practices for optimal integrations or integration.",
+      "speaker_name": "David Olsson",
+      "start_time": 1420.704,
+      "end_time": 1452.772
+    },
+    {
+      "text": "That is a spanky looking prompt, so you can just copy that and paste it into another application or into one of your Google Docs or whatever.",
+      "speaker_name": "David Olsson",
+      "start_time": 1452.948,
+      "end_time": 1467.864
+    },
+    {
+      "text": "I am cool with just saying, okay, well maybe it will actually function because it understands JSON and sees this as a structure.",
+      "speaker_name": "David Olsson",
+      "start_time": 1468.764,
+      "end_time": 1477.208
+    },
+    {
+      "text": "Maybe I can just paste it in because it has a purpose, right, and so sorry, it has a purpose, so it will take that as a, as an action that it can take.",
+      "speaker_name": "David Olsson",
+      "start_time": 1477.256,
+      "end_time": 1495.764
+    },
+    {
+      "text": "We aren't in any way saying what you are like in this case, I am me.",
+      "speaker_name": "David Olsson",
+      "start_time": 1498.614,
+      "end_time": 1503.63
+    },
+    {
+      "text": "But what the agent is that is executing this, we haven't gone that far.",
+      "speaker_name": "David Olsson",
+      "start_time": 1503.662,
+      "end_time": 1509.39
+    },
+    {
+      "text": "We have a scenario and what the requirements and constraints, the procedure is based on all this.",
+      "speaker_name": "David Olsson",
+      "start_time": 1509.422,
+      "end_time": 1514.934
+    },
+    {
+      "text": "The next step would be to create an agent that would then be functional in the space.",
+      "speaker_name": "David Olsson",
+      "start_time": 1514.974,
+      "end_time": 1520.518
+    },
+    {
+      "text": "And often we have an agent in mind, and that's what some of the work that I've done tends to include, a framework for an agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 1520.646,
+      "end_time": 1528.72
+    },
+    {
+      "text": "But in the case where we're building a building, a prompt that builds prompts that are filled with agents that is so highly reflexive that the engine will get it without us belaboring to a degree.",
+      "speaker_name": "David Olsson",
+      "start_time": 1528.752,
+      "end_time": 1553.544
+    },
+    {
+      "text": "I just pasted this in and to see what would happen.",
+      "speaker_name": "David Olsson",
+      "start_time": 1555.204,
+      "end_time": 1558.764
+    },
+    {
+      "text": "And thank you for sharing your prompt framework focusing on assessing AI adoption in healthcare, this framework provides a structured approach to analyze the effects of AI and healthcare and propose optimal integration strategy.",
+      "speaker_name": "David Olsson",
+      "start_time": 1558.844,
+      "end_time": 1569.156
+    },
+    {
+      "text": "Your framework has a comprehensive structure that encompasses key elements for successful task execution, including purpose, and context, criteria, procedures and outcomes.",
+      "speaker_name": "David Olsson",
+      "start_time": 1569.18,
+      "end_time": 1578.324
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1578.324,
+      "end_time": 1578.915
+    },
+    {
+      "text": "To refine and improve this framework, consider incorporating these suggestions based on best practices and metaprompting iterative process integration of expert models, error handling feedback loops.",
+      "speaker_name": "David Olsson",
+      "start_time": 1578.915,
+      "end_time": 1590.986
+    },
+    {
+      "text": "All right, so we have some of that that we've been working on previously.",
+      "speaker_name": "David Olsson",
+      "start_time": 1591.13,
+      "end_time": 1594.694
+    },
+    {
+      "text": "Applying these recommendations can optimize the framework effectively with greater effect.",
+      "speaker_name": "David Olsson",
+      "start_time": 1595.354,
+      "end_time": 1600.014
+    },
+    {
+      "text": "Yeah, yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 1601.034,
+      "end_time": 1602.094
+    },
+    {
+      "text": "I'm like, okay, cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1603.514,
+      "end_time": 1605.542
+    },
+    {
+      "text": "Some analysis and some stuff I kind of knew and you're starting to, you know, meld it together instead of proceed.",
+      "speaker_name": "David Olsson",
+      "start_time": 1605.598,
+      "end_time": 1614.334
+    },
+    {
+      "text": "I'm like, okay, well, execute the prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1614.374,
+      "end_time": 1616.486
+    },
+    {
+      "text": "So that I'm like saying like, that's a prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1616.55,
+      "end_time": 1618.822
+    },
+    {
+      "text": "Like execute it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1618.878,
+      "end_time": 1620.914
+    },
+    {
+      "text": "Executing the prompt, the given prompt requires analyzing the impact of AI adoption, proposing strategies and optimal.",
+      "speaker_name": "David Olsson",
+      "start_time": 1622.614,
+      "end_time": 1628.35
+    },
+    {
+      "text": "Here's an outline of the steps we need to execute this.",
+      "speaker_name": "David Olsson",
+      "start_time": 1628.422,
+      "end_time": 1630.59
+    },
+    {
+      "text": "This task, understand the task and so it goes through the specificity of AI and healthcare now and divides and decides what some subdomains could be when it's in the definition.",
+      "speaker_name": "David Olsson",
+      "start_time": 1630.622,
+      "end_time": 1644.294
+    },
+    {
+      "text": "Define the domain phase, determine the cognitive process, decide the best approach to analyze the impact of AI in healthcare.",
+      "speaker_name": "David Olsson",
+      "start_time": 1644.374,
+      "end_time": 1651.334
+    },
+    {
+      "text": "This could involve meta prompting techniques to iterate and refine analysis incorporating exponential models frameworks use a mix of qualitative and quantitative analysis to assess the effects of AI adoption, patient outcomes and healthcare proficiencies.",
+      "speaker_name": "David Olsson",
+      "start_time": 1651.374,
+      "end_time": 1666.008
+    },
+    {
+      "text": "Again, those are high level things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1666.096,
+      "end_time": 1668.272
+    },
+    {
+      "text": "We can drill down for more specifics, execute the task, error handling, feedback, unique allergies and generate the outcome.",
+      "speaker_name": "David Olsson",
+      "start_time": 1668.448,
+      "end_time": 1681.364
+    },
+    {
+      "text": "Okay, so I'm like, right, you've told me those steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 1681.944,
+      "end_time": 1685.922
+    },
+    {
+      "text": "Proceed with these steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 1686.058,
+      "end_time": 1687.666
+    },
+    {
+      "text": "Executing a task to assess the impact of AI on healthcare involves several key steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 1687.77,
+      "end_time": 1695.49
+    },
+    {
+      "text": "Well, it's repeating those.",
+      "speaker_name": "David Olsson",
+      "start_time": 1695.562,
+      "end_time": 1697.174
+    },
+    {
+      "text": "Okay, perform task one to understand, dot, dot, dot to understand the impact of AI adoption, because it should and it did in healthcare.",
+      "speaker_name": "David Olsson",
+      "start_time": 1697.874,
+      "end_time": 1707.618
+    },
+    {
+      "text": "It picked up what I meant and proposed strategies for optimal integration.",
+      "speaker_name": "David Olsson",
+      "start_time": 1707.666,
+      "end_time": 1711.794
+    },
+    {
+      "text": "Dot, dot, dot, powerful ellipses.",
+      "speaker_name": "David Olsson",
+      "start_time": 1712.214,
+      "end_time": 1714.634
+    },
+    {
+      "text": "Use it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1714.934,
+      "end_time": 1715.994
+    },
+    {
+      "text": "It's crucial to explore multiple aspects of AI use in industry.",
+      "speaker_name": "David Olsson",
+      "start_time": 1716.574,
+      "end_time": 1721.814
+    },
+    {
+      "text": "Here's an overview of key areas.",
+      "speaker_name": "David Olsson",
+      "start_time": 1721.894,
+      "end_time": 1723.766
+    },
+    {
+      "text": "And so it gets into more specificity on understanding the tasks by figuring out what the current state of things is for a set of criteria or a set of challenges or focuses for solutions.",
+      "speaker_name": "David Olsson",
+      "start_time": 1723.95,
+      "end_time": 1744.146
+    },
+    {
+      "text": "And then, okay, I'm cool with this.",
+      "speaker_name": "David Olsson",
+      "start_time": 1744.33,
+      "end_time": 1747.762
+    },
+    {
+      "text": "It's still high level.",
+      "speaker_name": "David Olsson",
+      "start_time": 1747.858,
+      "end_time": 1749.694
+    },
+    {
+      "text": "And so to get to some level of granularity where maybe I can do further analysis to see if, you know, if this is working for me, if this is a step, is actually getting somewhere where it's not just generalized information, then I say provide three examples for the above.",
+      "speaker_name": "David Olsson",
+      "start_time": 1749.994,
+      "end_time": 1770.1
+    },
+    {
+      "text": "Okay, well, now I'm getting to say, okay, well, now we can evaluate some of the applied reasoning to solutions.",
+      "speaker_name": "David Olsson",
+      "start_time": 1770.132,
+      "end_time": 1777.948
+    },
+    {
+      "text": "So data organization, accessibility, combining in house teams with office health solutions and foundational investment in infrastructure that's under the healthcare and infrastructure and AI readiness.",
+      "speaker_name": "David Olsson",
+      "start_time": 1778.116,
+      "end_time": 1789.344
+    },
+    {
+      "text": "So bucket of what can be done.",
+      "speaker_name": "David Olsson",
+      "start_time": 1790.124,
+      "end_time": 1792.558
+    },
+    {
+      "text": "So it's getting down to things where people could say, okay, I understand what readiness means now.",
+      "speaker_name": "David Olsson",
+      "start_time": 1792.606,
+      "end_time": 1798.594
+    },
+    {
+      "text": "And we could further drill down and say, okay, door data organization and accessibility.",
+      "speaker_name": "David Olsson",
+      "start_time": 1799.094,
+      "end_time": 1804.59
+    },
+    {
+      "text": "What's a checklist for that?",
+      "speaker_name": "David Olsson",
+      "start_time": 1804.662,
+      "end_time": 1806.514
+    },
+    {
+      "text": "And now we're getting somewhere.",
+      "speaker_name": "David Olsson",
+      "start_time": 1806.894,
+      "end_time": 1808.374
+    },
+    {
+      "text": "And then we're saying, okay, well, this thing has utility.",
+      "speaker_name": "David Olsson",
+      "start_time": 1808.494,
+      "end_time": 1811.27
+    },
+    {
+      "text": "And we can see where the end goal of this utility is in terms of getting to some data points where you could have very specific conversations.",
+      "speaker_name": "David Olsson",
+      "start_time": 1811.462,
+      "end_time": 1821.694
+    },
+    {
+      "text": "Oh, and I was curious about what the statement up here meant when it said we had to utilize metaprompting to iterate and refine the analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 1824.914,
+      "end_time": 1840.298
+    },
+    {
+      "text": "I'm like, so there's analysis that we want to do, and the prompting will look at the analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 1840.346,
+      "end_time": 1849.398
+    },
+    {
+      "text": "It will reevaluate itself as a strategy and tactic for the analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 1849.486,
+      "end_time": 1856.11
+    },
+    {
+      "text": "We'll try the analysis and then reevaluate itself for the analysis again and evaluate its previous analysis results against the new ones.",
+      "speaker_name": "David Olsson",
+      "start_time": 1856.262,
+      "end_time": 1865.714
+    },
+    {
+      "text": "That's pretty powerful, but that's what I think it is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1867.214,
+      "end_time": 1873.574
+    },
+    {
+      "text": "So why not ask the large language model to explain it?",
+      "speaker_name": "David Olsson",
+      "start_time": 1875.034,
+      "end_time": 1878.162
+    },
+    {
+      "text": "Because I think we're getting somewhere really, really neat.",
+      "speaker_name": "David Olsson",
+      "start_time": 1878.178,
+      "end_time": 1882.454
+    },
+    {
+      "text": "So here's how metaprompting works in this context.",
+      "speaker_name": "David Olsson",
+      "start_time": 1885.114,
+      "end_time": 1888.898
+    },
+    {
+      "text": "So in the context of refining the analysis, start with a base prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1888.986,
+      "end_time": 1892.586
+    },
+    {
+      "text": "You begin with foundational prompt that defines the task, subjective and scope.",
+      "speaker_name": "David Olsson",
+      "start_time": 1892.61,
+      "end_time": 1895.842
+    },
+    {
+      "text": "Scope.",
+      "speaker_name": "David Olsson",
+      "start_time": 1895.858,
+      "end_time": 1896.274
+    },
+    {
+      "text": "This initial prompt acts as a starting point for further iteration.",
+      "speaker_name": "David Olsson",
+      "start_time": 1896.354,
+      "end_time": 1900.346
+    },
+    {
+      "text": "You iterate in the prompt based on the AI's response to the base prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1900.45,
+      "end_time": 1904.394
+    },
+    {
+      "text": "You create follow up prompts to explore specific areas.",
+      "speaker_name": "David Olsson",
+      "start_time": 1904.434,
+      "end_time": 1907.774
+    },
+    {
+      "text": "Might be what we're doing here, people to clarify how to use, delve deeper into certain aspects.",
+      "speaker_name": "David Olsson",
+      "start_time": 1908.354,
+      "end_time": 1914.826
+    },
+    {
+      "text": "And that's kind of where I want to see this approach to, you know, building agents and scenarios with sort of a meta awareness and then a meta description of things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1914.85,
+      "end_time": 1931.534
+    },
+    {
+      "text": "It's like, this is cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1931.574,
+      "end_time": 1933.174
+    },
+    {
+      "text": "Then the scrubs, we can have sort of one sort of description of a base scrub, and it's a base prompt, and we iterate upon it through these steps to, you know, see what it does through refining the prompt that created the prompt and then have the prompt do some work.",
+      "speaker_name": "David Olsson",
+      "start_time": 1933.214,
+      "end_time": 1957.054
+    },
+    {
+      "text": "Okay, I'll repeat that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1958.194,
+      "end_time": 1959.514
+    },
+    {
+      "text": "So we will have an engine prompting engineer create a base prompt based on some requirements, and then we'll have that base prompt for an agent and a scenario or a purpose.",
+      "speaker_name": "David Olsson",
+      "start_time": 1959.634,
+      "end_time": 1972.226
+    },
+    {
+      "text": "We'll define what our key language, where it's going to be, and we'll stick to it probably after next workshop, so that we have some continuity moving forward and other things will shift, but we'll keep with some language.",
+      "speaker_name": "David Olsson",
+      "start_time": 1972.37,
+      "end_time": 1987.934
+    },
+    {
+      "text": "So we're starting with the Bayes prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 1987.974,
+      "end_time": 1989.678
+    },
+    {
+      "text": "We iterate on that, we have some analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 1989.846,
+      "end_time": 1995.11
+    },
+    {
+      "text": "We iterate on the prompts to get new analysis so we can refine that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1995.302,
+      "end_time": 2000.192
+    },
+    {
+      "text": "And we possibly go on some of my paths to see like, what's the unexpected output that can be happening?",
+      "speaker_name": "David Olsson",
+      "start_time": 2000.318,
+      "end_time": 2006.384
+    },
+    {
+      "text": "And then it says, in meta prompting, the AI systems guided through a structured process, often involving scaffolding techniques, to manage complex tasks.",
+      "speaker_name": "David Olsson",
+      "start_time": 2006.884,
+      "end_time": 2014.452
+    },
+    {
+      "text": "These techniques allow for flexibility in adjusting the prompt to better align with the desired outcomes.",
+      "speaker_name": "David Olsson",
+      "start_time": 2014.548,
+      "end_time": 2019.476
+    },
+    {
+      "text": "So these higher level tasks.",
+      "speaker_name": "David Olsson",
+      "start_time": 2019.66,
+      "end_time": 2024.064
+    },
+    {
+      "text": "Harken back to a quote I have here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2025.984,
+      "end_time": 2028.976
+    },
+    {
+      "text": "Let's see.",
+      "speaker_name": "David Olsson",
+      "start_time": 2029.04,
+      "end_time": 2029.804
+    },
+    {
+      "text": "Any problem in computer science can be solved by another layer of indirection.",
+      "speaker_name": "David Olsson",
+      "start_time": 2032.984,
+      "end_time": 2037.016
+    },
+    {
+      "text": "Okay, so the word indirection is very interesting.",
+      "speaker_name": "David Olsson",
+      "start_time": 2037.2,
+      "end_time": 2040.024
+    },
+    {
+      "text": "You can call it another layer of abstraction even.",
+      "speaker_name": "David Olsson",
+      "start_time": 2040.104,
+      "end_time": 2043.124
+    },
+    {
+      "text": "Yeah, and we are doing that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2044.624,
+      "end_time": 2047.232
+    },
+    {
+      "text": "We have a prompt that we're saying we want to more, you know, adeptly define an agent can do things.",
+      "speaker_name": "David Olsson",
+      "start_time": 2047.248,
+      "end_time": 2054.584
+    },
+    {
+      "text": "And then we're saying, well, there's a sort of a layer above that where we describe what a prompt is and how to utilize an optimization process to create a better prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 2056.164,
+      "end_time": 2071.42
+    },
+    {
+      "text": "So we have this higher level prompt that creates a, we could say it, a more tactical lower level prompt, just in terms of hierarchy of information.",
+      "speaker_name": "David Olsson",
+      "start_time": 2071.452,
+      "end_time": 2079.784
+    },
+    {
+      "text": "And so we are working in terms of a ladder of, you know, we have the chat GPT base interface.",
+      "speaker_name": "David Olsson",
+      "start_time": 2081.094,
+      "end_time": 2089.246
+    },
+    {
+      "text": "You can say it's a vanilla kind of agent, and then we add a layer on top of it and make it a specific kind of researcher.",
+      "speaker_name": "David Olsson",
+      "start_time": 2089.31,
+      "end_time": 2096.514
+    },
+    {
+      "text": "And then we can possibly layer a process on top of that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2096.894,
+      "end_time": 2099.582
+    },
+    {
+      "text": "Say we have a prompt engineer.",
+      "speaker_name": "David Olsson",
+      "start_time": 2099.598,
+      "end_time": 2100.942
+    },
+    {
+      "text": "Here's a description of the tasks we need associated to some sort of outcome.",
+      "speaker_name": "David Olsson",
+      "start_time": 2100.998,
+      "end_time": 2105.534
+    },
+    {
+      "text": "And what is the kind of best description of an agent that would suffice to service this work?",
+      "speaker_name": "David Olsson",
+      "start_time": 2105.574,
+      "end_time": 2112.766
+    },
+    {
+      "text": "Okay, repeat that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2112.95,
+      "end_time": 2114.87
+    },
+    {
+      "text": "What kind of agent do we need to get that work done?",
+      "speaker_name": "David Olsson",
+      "start_time": 2115.062,
+      "end_time": 2117.434
+    },
+    {
+      "text": "And then what is a process for, let's say, optimizing training or fine tuning that agent for the specificity of that task at hand?",
+      "speaker_name": "David Olsson",
+      "start_time": 2124.014,
+      "end_time": 2133.914
+    },
+    {
+      "text": "And that's where the metapronting can come in in a really cool way.",
+      "speaker_name": "David Olsson",
+      "start_time": 2134.524,
+      "end_time": 2138.944
+    },
+    {
+      "text": "So let's get back to being in our crazy series of iterating on what a prompt for a scenario and situation can be.",
+      "speaker_name": "David Olsson",
+      "start_time": 2140.524,
+      "end_time": 2159.344
+    },
+    {
+      "text": "And so here's the base prompt that we would then iterate upon.",
+      "speaker_name": "David Olsson",
+      "start_time": 2161.484,
+      "end_time": 2166.348
+    },
+    {
+      "text": "And I, you know, so provide an example of the above steps, creating a base prompt and following the metaprompting flow work described above.",
+      "speaker_name": "David Olsson",
+      "start_time": 2166.396,
+      "end_time": 2173.22
+    },
+    {
+      "text": "So, you know, here it is.",
+      "speaker_name": "David Olsson",
+      "start_time": 2173.252,
+      "end_time": 2175.196
+    },
+    {
+      "text": "Iterate refine.",
+      "speaker_name": "David Olsson",
+      "start_time": 2175.26,
+      "end_time": 2176.564
+    },
+    {
+      "text": "Let's see that all in action.",
+      "speaker_name": "David Olsson",
+      "start_time": 2176.684,
+      "end_time": 2178.864
+    },
+    {
+      "text": "And so it does step one.",
+      "speaker_name": "David Olsson",
+      "start_time": 2179.724,
+      "end_time": 2182.66
+    },
+    {
+      "text": "And then using metaprompting to iterate and refine.",
+      "speaker_name": "David Olsson",
+      "start_time": 2182.852,
+      "end_time": 2185.18
+    },
+    {
+      "text": "After creating the base prompt, you can use metaprompting to improve, improve and refine the analysis.",
+      "speaker_name": "David Olsson",
+      "start_time": 2185.252,
+      "end_time": 2189.934
+    },
+    {
+      "text": "Extract key areas of implementation.",
+      "speaker_name": "David Olsson",
+      "start_time": 2190.054,
+      "end_time": 2192.062
+    },
+    {
+      "text": "A follow up prompt could focus on identifying specific areas within healthcare where AI is implemented.",
+      "speaker_name": "David Olsson",
+      "start_time": 2192.198,
+      "end_time": 2198.994
+    },
+    {
+      "text": "This helps refine the analysis by narrowing the focus and relevant aspects.",
+      "speaker_name": "David Olsson",
+      "start_time": 2200.374,
+      "end_time": 2204.07
+    },
+    {
+      "text": "Question, what are the key areas?",
+      "speaker_name": "David Olsson",
+      "start_time": 2204.102,
+      "end_time": 2205.514
+    },
+    {
+      "text": "Assess the impact and then provides another question where it can actually then learn from step three.",
+      "speaker_name": "David Olsson",
+      "start_time": 2208.694,
+      "end_time": 2215.274
+    },
+    {
+      "text": "Refine the analysis with each iteration, gather more information and adjust the prompt so add fidelity to that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2215.354,
+      "end_time": 2223.682
+    },
+    {
+      "text": "So continue my alternate version of proceed.",
+      "speaker_name": "David Olsson",
+      "start_time": 2223.698,
+      "end_time": 2227.614
+    },
+    {
+      "text": "Continue with the last step.",
+      "speaker_name": "David Olsson",
+      "start_time": 2228.274,
+      "end_time": 2229.722
+    },
+    {
+      "text": "Refine the report structure.",
+      "speaker_name": "David Olsson",
+      "start_time": 2229.858,
+      "end_time": 2231.814
+    },
+    {
+      "text": "Proceed.",
+      "speaker_name": "David Olsson",
+      "start_time": 2235.314,
+      "end_time": 2236.194
+    },
+    {
+      "text": "I'm still like, where is it going?",
+      "speaker_name": "David Olsson",
+      "start_time": 2236.314,
+      "end_time": 2237.97
+    },
+    {
+      "text": "Demonstrate the use of the metaprompt in iterating, refining analysis base prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 2238.082,
+      "end_time": 2242.326
+    },
+    {
+      "text": "Okay, so it's getting more specific.",
+      "speaker_name": "David Olsson",
+      "start_time": 2242.47,
+      "end_time": 2247.714
+    },
+    {
+      "text": "All right, all right, all right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2248.214,
+      "end_time": 2249.954
+    },
+    {
+      "text": "So we have some, let's go back, you know, up here that, no, no, we are in the same, same scenario.",
+      "speaker_name": "David Olsson",
+      "start_time": 2250.374,
+      "end_time": 2258.914
+    },
+    {
+      "text": "Here's an example of base prompt, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2260.134,
+      "end_time": 2264.046
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 2264.11,
+      "end_time": 2264.874
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 2267.484,
+      "end_time": 2268.264
+    },
+    {
+      "text": "And I think, I think that's as far as I got in terms of iterating within the window following the space prompt, you can iterate and refine the analysis through this deeper adoption of these key areas.",
+      "speaker_name": "David Olsson",
+      "start_time": 2269.844,
+      "end_time": 2284.116
+    },
+    {
+      "text": "Let's see.",
+      "speaker_name": "David Olsson",
+      "start_time": 2284.22,
+      "end_time": 2285.092
+    },
+    {
+      "text": "Explore key areas or examination.",
+      "speaker_name": "David Olsson",
+      "start_time": 2285.268,
+      "end_time": 2287.584
+    },
+    {
+      "text": "Iterate the metapromption concept five times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2292.124,
+      "end_time": 2294.464
+    },
+    {
+      "text": "All right, so I guess at this point I'm like, okay, so it's going down the path where I wouldn't say it's hallucinating, but I'm suggesting that I'm not pushing it any farther and providing me a more rigorous walk through of what I would like to see in terms of the iteration.",
+      "speaker_name": "David Olsson",
+      "start_time": 2294.914,
+      "end_time": 2317.694
+    },
+    {
+      "text": "It's providing a question in which it will use to then iterate.",
+      "speaker_name": "David Olsson",
+      "start_time": 2318.794,
+      "end_time": 2321.934
+    },
+    {
+      "text": "It's not, not giving me the analysis of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2322.234,
+      "end_time": 2325.894
+    },
+    {
+      "text": "Even gotten to tell me what kind of report it would be.",
+      "speaker_name": "David Olsson",
+      "start_time": 2331.514,
+      "end_time": 2334.014
+    },
+    {
+      "text": "I give up.",
+      "speaker_name": "David Olsson",
+      "start_time": 2337.634,
+      "end_time": 2338.594
+    },
+    {
+      "text": "Here, let's iterate the prompting five times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2338.634,
+      "end_time": 2340.594
+    },
+    {
+      "text": "Iterate the prompt five times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2340.674,
+      "end_time": 2342.314
+    },
+    {
+      "text": "Here's the base and we're going to use for scaffolding.",
+      "speaker_name": "David Olsson",
+      "start_time": 2342.394,
+      "end_time": 2345.706
+    },
+    {
+      "text": "Again, just adding more description.",
+      "speaker_name": "David Olsson",
+      "start_time": 2345.85,
+      "end_time": 2347.61
+    },
+    {
+      "text": "But the notion of iterating, it's just one word and it does add fidelity.",
+      "speaker_name": "David Olsson",
+      "start_time": 2347.642,
+      "end_time": 2358.844
+    },
+    {
+      "text": "And so this actually does take us into kind of the next step because I was like, iterate the metaproctin concept five times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2361.184,
+      "end_time": 2370.604
+    },
+    {
+      "text": "And I put that in there because I was doing research on loops, you know, iterating through loops of things.",
+      "speaker_name": "David Olsson",
+      "start_time": 2373.424,
+      "end_time": 2378.724
+    },
+    {
+      "text": "And I was like, okay, so it wants to do that, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2379.424,
+      "end_time": 2385.112
+    },
+    {
+      "text": "It wants to, it wants to, iterate so after it kind of not following through on one, like, showing me step by step what I wanted to, and maybe I did forget that it was showing me a lot of step by steps, though, iterating the framework as a command.",
+      "speaker_name": "David Olsson",
+      "start_time": 2385.168,
+      "end_time": 2417.324
+    },
+    {
+      "text": "It's kind of cool because the beginnings of the iteration, that the source is still there, and it will add some fidelity to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2422.064,
+      "end_time": 2438.716
+    },
+    {
+      "text": "And where this is interesting is in the process of iterating on, say, a statement or applying two concepts together, and, you know, like the color blue and color red, and you're trying to say, in some way, find words, describe the blending of the two, make that functional.",
+      "speaker_name": "David Olsson",
+      "start_time": 2438.74,
+      "end_time": 2457.788
+    },
+    {
+      "text": "Sorry.",
+      "speaker_name": "David Olsson",
+      "start_time": 2457.876,
+      "end_time": 2458.544
+    },
+    {
+      "text": "Sorry, sir.",
+      "speaker_name": "David Olsson",
+      "start_time": 2458.964,
+      "end_time": 2459.984
+    },
+    {
+      "text": "It.",
+      "speaker_name": "David Olsson",
+      "start_time": 2463.684,
+      "end_time": 2464.164
+    },
+    {
+      "text": "It does add to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2464.244,
+      "end_time": 2466.036
+    },
+    {
+      "text": "And so I I got into this program lean on set of, like, okay, there's loops, because I found this.",
+      "speaker_name": "David Olsson",
+      "start_time": 2466.06,
+      "end_time": 2472.264
+    },
+    {
+      "text": "I found this cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 2472.924,
+      "end_time": 2474.796
+    },
+    {
+      "text": "Where is it, this cool script?",
+      "speaker_name": "David Olsson",
+      "start_time": 2474.94,
+      "end_time": 2480.204
+    },
+    {
+      "text": "And it was to prove a point, and it was to show that, you know, within the large language models, there's, you know, there's a lot of baked in programming, and you can rely on that in an interesting way.",
+      "speaker_name": "David Olsson",
+      "start_time": 2485.304,
+      "end_time": 2499.624
+    },
+    {
+      "text": "And this.",
+      "speaker_name": "David Olsson",
+      "start_time": 2499.744,
+      "end_time": 2501.2
+    },
+    {
+      "text": "This programming joke equals a joke about turtles, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2501.272,
+      "end_time": 2504.952
+    },
+    {
+      "text": "So joke is a variable in programming loop ten times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2504.968,
+      "end_time": 2508.784
+    },
+    {
+      "text": "And this is the loop, the start of the loop, and the end of the loop.",
+      "speaker_name": "David Olsson",
+      "start_time": 2509.324,
+      "end_time": 2512.508
+    },
+    {
+      "text": "And in that loop, you say joke equals improv joke.",
+      "speaker_name": "David Olsson",
+      "start_time": 2512.556,
+      "end_time": 2515.78
+    },
+    {
+      "text": "So improvise a joke about turtles.",
+      "speaker_name": "David Olsson",
+      "start_time": 2515.972,
+      "end_time": 2520.624
+    },
+    {
+      "text": "So you're improvising the bass joke.",
+      "speaker_name": "David Olsson",
+      "start_time": 2521.284,
+      "end_time": 2525.104
+    },
+    {
+      "text": "Base.",
+      "speaker_name": "David Olsson",
+      "start_time": 2526.364,
+      "end_time": 2526.756
+    },
+    {
+      "text": "Joke is it will return a result of some joke about turtles, and then it will create ten or nine iterations of that joke along that theme, not different ones.",
+      "speaker_name": "David Olsson",
+      "start_time": 2526.78,
+      "end_time": 2539.864
+    },
+    {
+      "text": "Okay, that's important.",
+      "speaker_name": "David Olsson",
+      "start_time": 2540.024,
+      "end_time": 2541.32
+    },
+    {
+      "text": "This is a base or a prototype.",
+      "speaker_name": "David Olsson",
+      "start_time": 2541.432,
+      "end_time": 2543.92
+    },
+    {
+      "text": "And then this becomes more specific because it gets iterated on, improvised.",
+      "speaker_name": "David Olsson",
+      "start_time": 2544.032,
+      "end_time": 2549.484
+    },
+    {
+      "text": "So, sure.",
+      "speaker_name": "David Olsson",
+      "start_time": 2550.264,
+      "end_time": 2551.328
+    },
+    {
+      "text": "Let's create an evolving.",
+      "speaker_name": "David Olsson",
+      "start_time": 2551.376,
+      "end_time": 2552.776
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2552.92,
+      "end_time": 2553.604
+    },
+    {
+      "text": "Turtle joke through ten improvisations.",
+      "speaker_name": "David Olsson",
+      "start_time": 2553.984,
+      "end_time": 2556.924
+    },
+    {
+      "text": "Why did the turtle never play pape, why did the turtle never play poker?",
+      "speaker_name": "David Olsson",
+      "start_time": 2557.364,
+      "end_time": 2563.584
+    },
+    {
+      "text": "Because he doesn't like to shell out.",
+      "speaker_name": "David Olsson",
+      "start_time": 2563.924,
+      "end_time": 2567.684
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 2567.804,
+      "end_time": 2568.584
+    },
+    {
+      "text": "Why did the cautious turtle.",
+      "speaker_name": "David Olsson",
+      "start_time": 2569.684,
+      "end_time": 2571.708
+    },
+    {
+      "text": "This is iteration two.",
+      "speaker_name": "David Olsson",
+      "start_time": 2571.796,
+      "end_time": 2572.86
+    },
+    {
+      "text": "Why did the cautious turtle avoid the poker table?",
+      "speaker_name": "David Olsson",
+      "start_time": 2572.932,
+      "end_time": 2575.564
+    },
+    {
+      "text": "He didn't want to gamble his shelter.",
+      "speaker_name": "David Olsson",
+      "start_time": 2575.724,
+      "end_time": 2578.864
+    },
+    {
+      "text": "Iteration three.",
+      "speaker_name": "David Olsson",
+      "start_time": 2580.644,
+      "end_time": 2581.54
+    },
+    {
+      "text": "Why did the turtle say, what did the turtle say about the risky casino?",
+      "speaker_name": "David Olsson",
+      "start_time": 2581.612,
+      "end_time": 2586.62
+    },
+    {
+      "text": "This place could flip my shell upside down.",
+      "speaker_name": "David Olsson",
+      "start_time": 2586.692,
+      "end_time": 2589.504
+    },
+    {
+      "text": "Why do turtles make terrible gamblers?",
+      "speaker_name": "David Olsson",
+      "start_time": 2590.724,
+      "end_time": 2594.068
+    },
+    {
+      "text": "They take too long to make a fast buck.",
+      "speaker_name": "David Olsson",
+      "start_time": 2594.236,
+      "end_time": 2598.344
+    },
+    {
+      "text": "Number ten.",
+      "speaker_name": "David Olsson",
+      "start_time": 2599.084,
+      "end_time": 2599.804
+    },
+    {
+      "text": "Why did the turtle finally leave the casino?",
+      "speaker_name": "David Olsson",
+      "start_time": 2599.884,
+      "end_time": 2602.468
+    },
+    {
+      "text": "Because he realized slow and steady wins the race, but not at roulette.",
+      "speaker_name": "David Olsson",
+      "start_time": 2602.596,
+      "end_time": 2608.064
+    },
+    {
+      "text": "And then it summarizes, by the 10th iteration, our turtle has evolved into a playful story about a turtle learning a lesson at the casino.",
+      "speaker_name": "David Olsson",
+      "start_time": 2608.504,
+      "end_time": 2615.964
+    },
+    {
+      "text": "So there's a thread through there.",
+      "speaker_name": "David Olsson",
+      "start_time": 2617.504,
+      "end_time": 2619.736
+    },
+    {
+      "text": "It starts at he never plays poker because he doesn't like to shell out, and then he realizes that probably shouldn't play poker.",
+      "speaker_name": "David Olsson",
+      "start_time": 2619.84,
+      "end_time": 2627.404
+    },
+    {
+      "text": "So it isn't just like, give me ten versions of something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2631.544,
+      "end_time": 2636.534
+    },
+    {
+      "text": "It isn't like when I did the search and I said, here, search seven of these types of things.",
+      "speaker_name": "David Olsson",
+      "start_time": 2636.834,
+      "end_time": 2643.174
+    },
+    {
+      "text": "It was a process baked into a loop, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2643.954,
+      "end_time": 2650.49
+    },
+    {
+      "text": "And so as soon as I see something functional, I was like, okay, let's do this again.",
+      "speaker_name": "David Olsson",
+      "start_time": 2650.562,
+      "end_time": 2658.374
+    },
+    {
+      "text": "We're going to loop 20 times, and we're going to not do the joke where it improvs the joke, but we improv the improv of the joke.",
+      "speaker_name": "David Olsson",
+      "start_time": 2659.994,
+      "end_time": 2666.974
+    },
+    {
+      "text": "Yes, very dave.",
+      "speaker_name": "David Olsson",
+      "start_time": 2667.674,
+      "end_time": 2669.042
+    },
+    {
+      "text": "Very dave.",
+      "speaker_name": "David Olsson",
+      "start_time": 2669.098,
+      "end_time": 2670.026
+    },
+    {
+      "text": "Okay, so we don't need to break that down too much, but it will do some funky stuff if it can.",
+      "speaker_name": "David Olsson",
+      "start_time": 2670.17,
+      "end_time": 2679.938
+    },
+    {
+      "text": "Let's see, iteration one.",
+      "speaker_name": "David Olsson",
+      "start_time": 2680.026,
+      "end_time": 2682.042
+    },
+    {
+      "text": "Why did the turtle cross the road?",
+      "speaker_name": "David Olsson",
+      "start_time": 2682.098,
+      "end_time": 2683.65
+    },
+    {
+      "text": "To get to the shell station?",
+      "speaker_name": "David Olsson",
+      "start_time": 2683.682,
+      "end_time": 2685.594
+    },
+    {
+      "text": "Okay, why did the turtle.",
+      "speaker_name": "David Olsson",
+      "start_time": 2685.714,
+      "end_time": 2688.058
+    },
+    {
+      "text": "What did the turtle do after crossing the road?",
+      "speaker_name": "David Olsson",
+      "start_time": 2688.186,
+      "end_time": 2690.314
+    },
+    {
+      "text": "He stopped for a snack at the shell station.",
+      "speaker_name": "David Olsson",
+      "start_time": 2690.434,
+      "end_time": 2693.534
+    },
+    {
+      "text": "Why.",
+      "speaker_name": "David Olsson",
+      "start_time": 2694.124,
+      "end_time": 2694.628
+    },
+    {
+      "text": "Why was the turtle at the shell station so happy?",
+      "speaker_name": "David Olsson",
+      "start_time": 2694.716,
+      "end_time": 2698.26
+    },
+    {
+      "text": "Because he found a sale on turtle wax.",
+      "speaker_name": "David Olsson",
+      "start_time": 2698.332,
+      "end_time": 2700.704
+    },
+    {
+      "text": "So I don't know if it's recursive or not.",
+      "speaker_name": "David Olsson",
+      "start_time": 2706.884,
+      "end_time": 2714.184
+    },
+    {
+      "text": "It's not embedded, but it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 2715.564,
+      "end_time": 2717.828
+    },
+    {
+      "text": "It's iterative, and at the end, it gives us.",
+      "speaker_name": "David Olsson",
+      "start_time": 2717.996,
+      "end_time": 2721.872
+    },
+    {
+      "text": "What's the summary?",
+      "speaker_name": "David Olsson",
+      "start_time": 2721.928,
+      "end_time": 2722.608
+    },
+    {
+      "text": "There you go.",
+      "speaker_name": "David Olsson",
+      "start_time": 2722.656,
+      "end_time": 2723.176
+    },
+    {
+      "text": "The turtle transformed into a charming story about a turtle throwing a unique, leisurely party.",
+      "speaker_name": "David Olsson",
+      "start_time": 2723.2,
+      "end_time": 2727.724
+    },
+    {
+      "text": "And I just thought, okay, well, will it do a hundred times?",
+      "speaker_name": "David Olsson",
+      "start_time": 2729.264,
+      "end_time": 2731.704
+    },
+    {
+      "text": "Well, you know, it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 2731.744,
+      "end_time": 2732.888
+    },
+    {
+      "text": "It doesn't like presenting a hundred times, but it sort of did a hundred times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2732.936,
+      "end_time": 2737.204
+    },
+    {
+      "text": "And then.",
+      "speaker_name": "David Olsson",
+      "start_time": 2737.984,
+      "end_time": 2738.712
+    },
+    {
+      "text": "And then I got to something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2738.808,
+      "end_time": 2740.68
+    },
+    {
+      "text": "Okay, so it's not turtles, it's research.",
+      "speaker_name": "David Olsson",
+      "start_time": 2740.752,
+      "end_time": 2745.284
+    },
+    {
+      "text": "So r equals the research attitudes for AI loop.",
+      "speaker_name": "David Olsson",
+      "start_time": 2745.694,
+      "end_time": 2750.454
+    },
+    {
+      "text": "Tenon times r equals iterate r.",
+      "speaker_name": "David Olsson",
+      "start_time": 2750.494,
+      "end_time": 2753.71
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 2753.822,
+      "end_time": 2754.674
+    },
+    {
+      "text": "Mind blown, because that actually did something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2754.974,
+      "end_time": 2760.87
+    },
+    {
+      "text": "Let's conceptualize the progression of research attitudes towards artificial intelligence over ten iterative developments.",
+      "speaker_name": "David Olsson",
+      "start_time": 2760.982,
+      "end_time": 2769.574
+    },
+    {
+      "text": "Now, just that statement alone is so concise and powerful.",
+      "speaker_name": "David Olsson",
+      "start_time": 2769.694,
+      "end_time": 2775.104
+    },
+    {
+      "text": "Initial.",
+      "speaker_name": "David Olsson",
+      "start_time": 2777.604,
+      "end_time": 2778.132
+    },
+    {
+      "text": "So, number one, initial research attitudes towards AI are often characterized by curiosity and optimism about its potential to solve complex problems and enhance productivity.",
+      "speaker_name": "David Olsson",
+      "start_time": 2778.188,
+      "end_time": 2788.66
+    },
+    {
+      "text": "Number two, as understanding deepens, concerns about ethical implications such as privacy and security begin to shape the research landscape.",
+      "speaker_name": "David Olsson",
+      "start_time": 2788.852,
+      "end_time": 2798.824
+    },
+    {
+      "text": "Three further study leads to debates on the impact of AI on employment and the economy.",
+      "speaker_name": "David Olsson",
+      "start_time": 2799.254,
+      "end_time": 2805.874
+    },
+    {
+      "text": "Questioning whether AI will create or displace jobs for the emergence of AI bias and decision making processes prompts a shift towards developing more transparent, explainable AI systems.",
+      "speaker_name": "David Olsson",
+      "start_time": 2806.574,
+      "end_time": 2820.514
+    },
+    {
+      "text": "Five researchers increasingly emphasize the need for AI systems that can interact seamlessly and ethically with humans, focusing on human collaboration.",
+      "speaker_name": "David Olsson",
+      "start_time": 2820.974,
+      "end_time": 2834.514
+    },
+    {
+      "text": "That's kind of what my jam is.",
+      "speaker_name": "David Olsson",
+      "start_time": 2835.014,
+      "end_time": 2837.434
+    },
+    {
+      "text": "That focus then expands to regulatory frameworks as researchers and policymakers collaborate to establish guidelines that ensure safe and fair use.",
+      "speaker_name": "David Olsson",
+      "start_time": 2838.054,
+      "end_time": 2848.794
+    },
+    {
+      "text": "And there's an escalation here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2849.254,
+      "end_time": 2851.794
+    },
+    {
+      "text": "There is a progression of sophistication, of understanding iterative development.",
+      "speaker_name": "David Olsson",
+      "start_time": 2852.164,
+      "end_time": 2861.384
+    },
+    {
+      "text": "I'm quite impressed.",
+      "speaker_name": "David Olsson",
+      "start_time": 2862.684,
+      "end_time": 2864.784
+    },
+    {
+      "text": "Ten.",
+      "speaker_name": "David Olsson",
+      "start_time": 2866.324,
+      "end_time": 2866.708
+    },
+    {
+      "text": "Finally, the iterative cycle reaches a point where research attitudes are heavily geared towards sustainability and the ethical co evolution of AI in society, ensuring that AI development aligns with with global human values and ecological constraints.",
+      "speaker_name": "David Olsson",
+      "start_time": 2866.756,
+      "end_time": 2881.684
+    },
+    {
+      "text": "By the 10th iteration, the research attitudes, where I encapsulate a comprehensive approach that balances innovation, ethical concerns, regulatory compliance, and social societal well being.",
+      "speaker_name": "David Olsson",
+      "start_time": 2882.304,
+      "end_time": 2891.496
+    },
+    {
+      "text": "Well, that's a wonderful result.",
+      "speaker_name": "David Olsson",
+      "start_time": 2891.64,
+      "end_time": 2893.84
+    },
+    {
+      "text": "And I'm gonna tell you, I think that's been well guarded and guardrail and nanofied, but that is a thorough response in the way that it actually did iterate progressively.",
+      "speaker_name": "David Olsson",
+      "start_time": 2893.912,
+      "end_time": 2907.984
+    },
+    {
+      "text": "I then changed that, okay, I'm going to be ending very shortly.",
+      "speaker_name": "David Olsson",
+      "start_time": 2910.684,
+      "end_time": 2913.572
+    },
+    {
+      "text": "I then changed that to, instead of iterate on R, I said R transform.",
+      "speaker_name": "David Olsson",
+      "start_time": 2913.628,
+      "end_time": 2919.444
+    },
+    {
+      "text": "R.",
+      "speaker_name": "David Olsson",
+      "start_time": 2919.524,
+      "end_time": 2920.144
+    },
+    {
+      "text": "Let's conceptualize a transformation of research attitudes towards artificial intelligence through ten transformative states.",
+      "speaker_name": "David Olsson",
+      "start_time": 2923.044,
+      "end_time": 2930.678
+    },
+    {
+      "text": "Initial attitude, specialization development, ethical awareness, integration challenges, regulatory engagement, public discourse, global collaboration, sustainable focus, long term implications, holistic integration by the 10th transformation research attitude Soria encompasses a deeply integrated perspective that considers technological, ethical, regulatory, societal, environmental dimensions to ensure a balance of benefits, development, AI technologies.",
+      "speaker_name": "David Olsson",
+      "start_time": 2930.836,
+      "end_time": 2959.774
+    },
+    {
+      "text": "That's very similar, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2961.354,
+      "end_time": 2963.362
+    },
+    {
+      "text": "Very similar.",
+      "speaker_name": "David Olsson",
+      "start_time": 2963.418,
+      "end_time": 2964.254
+    },
+    {
+      "text": "But that work transform, it produced some very particular changes in the presentation and synthesis of the information.",
+      "speaker_name": "David Olsson",
+      "start_time": 2964.794,
+      "end_time": 2977.05
+    },
+    {
+      "text": "So this seemed like the most powerful loop been stuck in a while.",
+      "speaker_name": "David Olsson",
+      "start_time": 2977.122,
+      "end_time": 2983.594
+    },
+    {
+      "text": "So I said, R equals find examples.",
+      "speaker_name": "David Olsson",
+      "start_time": 2984.734,
+      "end_time": 2987.334
+    },
+    {
+      "text": "R like, okay, so, you know, natural pattern language programming is kind of funky.",
+      "speaker_name": "David Olsson",
+      "start_time": 2987.414,
+      "end_time": 2992.714
+    },
+    {
+      "text": "Let's explore how research attitudes towards artificial intelligence evolve by finding specific examples through ten iterations.",
+      "speaker_name": "David Olsson",
+      "start_time": 2993.054,
+      "end_time": 2999.87
+    },
+    {
+      "text": "Initial attitude researchers initially focus on AI's potential for automating simple tasks.",
+      "speaker_name": "David Olsson",
+      "start_time": 3000.062,
+      "end_time": 3006.514
+    },
+    {
+      "text": "It gives us this examples of how things have played out.",
+      "speaker_name": "David Olsson",
+      "start_time": 3010.194,
+      "end_time": 3015.73
+    },
+    {
+      "text": "AI applications and optimizing energy consumption in data centers, and enhancing predictive models for climate change impacts.",
+      "speaker_name": "David Olsson",
+      "start_time": 3015.922,
+      "end_time": 3022.826
+    },
+    {
+      "text": "So sustainable under sustainability AI, that's an example.",
+      "speaker_name": "David Olsson",
+      "start_time": 3022.85,
+      "end_time": 3025.778
+    },
+    {
+      "text": "So it's doing it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3025.826,
+      "end_time": 3030.338
+    },
+    {
+      "text": "They're again super generalized.",
+      "speaker_name": "David Olsson",
+      "start_time": 3030.466,
+      "end_time": 3032.454
+    },
+    {
+      "text": "I would like citations.",
+      "speaker_name": "David Olsson",
+      "start_time": 3033.404,
+      "end_time": 3035.06
+    },
+    {
+      "text": "I would like, you know, some attitudinal on it, but that's a depth to which maybe this is accessible.",
+      "speaker_name": "David Olsson",
+      "start_time": 3035.132,
+      "end_time": 3042.344
+    },
+    {
+      "text": "So I keep doing research.",
+      "speaker_name": "David Olsson",
+      "start_time": 3044.484,
+      "end_time": 3046.104
+    },
+    {
+      "text": "R equals iterate adversarially.",
+      "speaker_name": "David Olsson",
+      "start_time": 3046.724,
+      "end_time": 3048.74
+    },
+    {
+      "text": "R, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 3048.812,
+      "end_time": 3050.636
+    },
+    {
+      "text": "That word adversarially.",
+      "speaker_name": "David Olsson",
+      "start_time": 3050.78,
+      "end_time": 3052.156
+    },
+    {
+      "text": "And I didn't spell it right adversarially, did I?",
+      "speaker_name": "David Olsson",
+      "start_time": 3052.26,
+      "end_time": 3055.184
+    },
+    {
+      "text": "It.",
+      "speaker_name": "David Olsson",
+      "start_time": 3057.924,
+      "end_time": 3058.664
+    },
+    {
+      "text": "It's powerful.",
+      "speaker_name": "David Olsson",
+      "start_time": 3059.164,
+      "end_time": 3060.344
+    },
+    {
+      "text": "In GenaI, when we're doing sort of collaborative work, it invokes a certain attitude.",
+      "speaker_name": "David Olsson",
+      "start_time": 3060.884,
+      "end_time": 3071.42
+    },
+    {
+      "text": "So initial optimism, research is predominantly optimistic.",
+      "speaker_name": "David Olsson",
+      "start_time": 3071.452,
+      "end_time": 3074.876
+    },
+    {
+      "text": "This is the first kind of phase of attitudes or AI adversarial challenge.",
+      "speaker_name": "David Olsson",
+      "start_time": 3074.94,
+      "end_time": 3080.804
+    },
+    {
+      "text": "Skepticism arises about AI's decision making flaws and biases.",
+      "speaker_name": "David Olsson",
+      "start_time": 3080.844,
+      "end_time": 3083.9
+    },
+    {
+      "text": "Well, we know that has happened happened biases and fairness focus.",
+      "speaker_name": "David Olsson",
+      "start_time": 3083.932,
+      "end_time": 3086.88
+    },
+    {
+      "text": "Researchers pivot to prioritize addressing AI bias and ensuring fairness and algorithms.",
+      "speaker_name": "David Olsson",
+      "start_time": 3086.952,
+      "end_time": 3092.528
+    },
+    {
+      "text": "You can see there's this procedural nature to this adversarial challenge.",
+      "speaker_name": "David Olsson",
+      "start_time": 3092.576,
+      "end_time": 3097.884
+    },
+    {
+      "text": "Concerns escalate about AI systems being used for surveillance and privacy invasion.",
+      "speaker_name": "David Olsson",
+      "start_time": 3098.744,
+      "end_time": 3103.576
+    },
+    {
+      "text": "For sure.",
+      "speaker_name": "David Olsson",
+      "start_time": 3103.72,
+      "end_time": 3104.524
+    },
+    {
+      "text": "An adversarial challenge to that?",
+      "speaker_name": "David Olsson",
+      "start_time": 3107.984,
+      "end_time": 3109.884
+    },
+    {
+      "text": "No, that was concerns escalated AI so privacy protections increased attention is given to developing AI with strong privacy safeguards.",
+      "speaker_name": "David Olsson",
+      "start_time": 3113.684,
+      "end_time": 3125.544
+    },
+    {
+      "text": "An adversarial challenge fear grows regarding has potential for automating warfare, such as in drones and automate autonomous weapons.",
+      "speaker_name": "David Olsson",
+      "start_time": 3126.204,
+      "end_time": 3133.664
+    },
+    {
+      "text": "We can safeguard and we can weaponize.",
+      "speaker_name": "David Olsson",
+      "start_time": 3136.104,
+      "end_time": 3138.288
+    },
+    {
+      "text": "So it goes through all the steps and provides an adversarial challenge to whatever that statement is.",
+      "speaker_name": "David Olsson",
+      "start_time": 3138.416,
+      "end_time": 3144.456
+    },
+    {
+      "text": "And it's very powerful to have that kind of position in your research and your work.",
+      "speaker_name": "David Olsson",
+      "start_time": 3144.6,
+      "end_time": 3154.164
+    },
+    {
+      "text": "I then decided to give it something else of an r, something else to research.",
+      "speaker_name": "David Olsson",
+      "start_time": 3155.024,
+      "end_time": 3159.472
+    },
+    {
+      "text": "Research the most common and most effective angles and techniques for you that use for marketing of a product for AI.",
+      "speaker_name": "David Olsson",
+      "start_time": 3159.528,
+      "end_time": 3167.664
+    },
+    {
+      "text": "Iterate adversarial to model an adversarial iteration of common and most effective marketing techniques for an AI product, let's begin with the baseline and evolve through ten stages, each refining the approach in response to challenges and shifts in perception.",
+      "speaker_name": "David Olsson",
+      "start_time": 3168.484,
+      "end_time": 3187.464
+    },
+    {
+      "text": "Emphasize the cutting edge technology of AI.",
+      "speaker_name": "David Olsson",
+      "start_time": 3195.544,
+      "end_time": 3198.124
+    },
+    {
+      "text": "Well, I started seeing something here, and this was going to be a whole different tract of thinking and it required jumping into another session, which I'm not going to get to.",
+      "speaker_name": "David Olsson",
+      "start_time": 3198.944,
+      "end_time": 3219.764
+    },
+    {
+      "text": "Okay, where the, where this was all leading is, is, is where I'm going to take it next week.",
+      "speaker_name": "David Olsson",
+      "start_time": 3226.464,
+      "end_time": 3238.048
+    },
+    {
+      "text": "And that is taking it from this metaprompting sort of position of the prompt being able to iterate on itself to a point where it's either portable or effective in one way or another.",
+      "speaker_name": "David Olsson",
+      "start_time": 3238.136,
+      "end_time": 3252.474
+    },
+    {
+      "text": "And we will be looking at how to do that in a more programmatic way so that we are very specific about what we want to be moving around as information.",
+      "speaker_name": "David Olsson",
+      "start_time": 3255.174,
+      "end_time": 3268.514
+    },
+    {
+      "text": "And I'll be introducing an object oriented sort of paradigm for working in that space.",
+      "speaker_name": "David Olsson",
+      "start_time": 3269.274,
+      "end_time": 3275.322
+    },
+    {
+      "text": "Again, the large language model allows for pseudo code, but you can be very rigorous in terms of how you want that to be positioned.",
+      "speaker_name": "David Olsson",
+      "start_time": 3275.498,
+      "end_time": 3282.854
+    },
+    {
+      "text": "I'm using an old scripting language, acma based scripting language, where I'm setting up an object called scenario, and in that scenario there's a context and I'm setting the context is context, and from that context I've already created up here, the context has a property called a domain property called overview.",
+      "speaker_name": "David Olsson",
+      "start_time": 3283.714,
+      "end_time": 3309.074
+    },
+    {
+      "text": "And if we put it into a JavaScript type of object this is what it would look like as a constant.",
+      "speaker_name": "David Olsson",
+      "start_time": 3310.134,
+      "end_time": 3315.55
+    },
+    {
+      "text": "So I give it this and then it interprets it this way.",
+      "speaker_name": "David Olsson",
+      "start_time": 3315.742,
+      "end_time": 3318.526
+    },
+    {
+      "text": "But then I can say put put context on overview and it will give me whatever is in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 3318.55,
+      "end_time": 3324.386
+    },
+    {
+      "text": "I could say get or some other command where it will then provide me that whatever is in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 3324.41,
+      "end_time": 3333.346
+    },
+    {
+      "text": "So I have this dot syntax.",
+      "speaker_name": "David Olsson",
+      "start_time": 3333.37,
+      "end_time": 3335.122
+    },
+    {
+      "text": "I could then say some interesting things like put scenario dot context and then it would give me domain and overview.",
+      "speaker_name": "David Olsson",
+      "start_time": 3335.258,
+      "end_time": 3344.37
+    },
+    {
+      "text": "And then I could add scenario dot procedure as a list of things that can be done.",
+      "speaker_name": "David Olsson",
+      "start_time": 3344.562,
+      "end_time": 3349.184
+    },
+    {
+      "text": "Look at this, I could add a procedure procedure dot add research ar in healthcare put scenario and then it says adds to add empty array object and then like this.",
+      "speaker_name": "David Olsson",
+      "start_time": 3349.724,
+      "end_time": 3361.356
+    },
+    {
+      "text": "So here's what I've got so far, procedure it's going to be put in at the level of an object add item.",
+      "speaker_name": "David Olsson",
+      "start_time": 3361.38,
+      "end_time": 3369.412
+    },
+    {
+      "text": "So it's using JavaScript, I don't care.",
+      "speaker_name": "David Olsson",
+      "start_time": 3369.468,
+      "end_time": 3371.632
+    },
+    {
+      "text": "And then it adds it in there, which is fine.",
+      "speaker_name": "David Olsson",
+      "start_time": 3371.788,
+      "end_time": 3375.456
+    },
+    {
+      "text": "It is interpreting my code pseudocode and creating it functional, but then I can still use it as my pseudocode and say put scenario procedure.",
+      "speaker_name": "David Olsson",
+      "start_time": 3375.52,
+      "end_time": 3384.976
+    },
+    {
+      "text": "And if it doesn't just do that, here's the output.",
+      "speaker_name": "David Olsson",
+      "start_time": 3385.12,
+      "end_time": 3389.764
+    },
+    {
+      "text": "The command is scenario procedure in JavaScript and that's the output.",
+      "speaker_name": "David Olsson",
+      "start_time": 3390.584,
+      "end_time": 3396.484
+    },
+    {
+      "text": "So by looking at this type of structure, especially when it comes to the agent, we can go agent name, agent role, agent skills, agent task, agent personality and just put an equal sign so we can do something like agent personality equals equals quote.",
+      "speaker_name": "David Olsson",
+      "start_time": 3397.044,
+      "end_time": 3428.77
+    },
+    {
+      "text": "Happy go lucky with bouts of skip.",
+      "speaker_name": "David Olsson",
+      "start_time": 3428.962,
+      "end_time": 3433.974
+    },
+    {
+      "text": "This is so agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 3435.834,
+      "end_time": 3451.022
+    },
+    {
+      "text": "So if I actually just copy this into here, last thing, it's going to do some stuff.",
+      "speaker_name": "David Olsson",
+      "start_time": 3451.198,
+      "end_time": 3460.954
+    },
+    {
+      "text": "I'm going to give it some help.",
+      "speaker_name": "David Olsson",
+      "start_time": 3465.774,
+      "end_time": 3466.966
+    },
+    {
+      "text": "Agent equals my one last thing is failing.",
+      "speaker_name": "David Olsson",
+      "start_time": 3467.07,
+      "end_time": 3488.854
+    },
+    {
+      "text": "The put command pushed it into programming.",
+      "speaker_name": "David Olsson",
+      "start_time": 3514.694,
+      "end_time": 3517.274
+    },
+    {
+      "text": "Just trying Java JavaScript here.",
+      "speaker_name": "David Olsson",
+      "start_time": 3520.334,
+      "end_time": 3524.014
+    },
+    {
+      "text": "So if I put agent it did still cactus.",
+      "speaker_name": "David Olsson",
+      "start_time": 3524.054,
+      "end_time": 3532.294
+    },
+    {
+      "text": "All right, get agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 3533.074,
+      "end_time": 3534.654
+    },
+    {
+      "text": "All right, we're getting there.",
+      "speaker_name": "David Olsson",
+      "start_time": 3545.874,
+      "end_time": 3550.134
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 3552.074,
+      "end_time": 3552.854
+    },
+    {
+      "text": "I couldn't quite hack it with one line of code to create an agent with a property.",
+      "speaker_name": "David Olsson",
+      "start_time": 3553.444,
+      "end_time": 3558.064
+    },
+    {
+      "text": "We'll work on that one though.",
+      "speaker_name": "David Olsson",
+      "start_time": 3560.484,
+      "end_time": 3562.092
+    },
+    {
+      "text": "All right, where's my stop presenting?",
+      "speaker_name": "David Olsson",
+      "start_time": 3562.268,
+      "end_time": 3565.704
+    },
+    {
+      "text": "And I want to thank you all for participating at the transcript level.",
+      "speaker_name": "David Olsson",
+      "start_time": 3566.204,
+      "end_time": 3573.028
+    },
+    {
+      "text": "Cheers.",
+      "speaker_name": "David Olsson",
+      "start_time": 3573.156,
+      "end_time": 3573.364
+    }
+  ]
+}

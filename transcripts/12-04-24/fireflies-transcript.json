@@ -1,0 +1,5857 @@
+{
+  "meeting_id": "U4Ef14cwg7M5WT6y",
+  "title": "8am AI School",
+  "date": 1733328000000,
+  "duration": 60,
+  "organizer": "david@atomic47.co",
+  "participants": [
+    "david@atomic47.co,eric@scroll.ca,giroday@gmail.com,hanif.janmohamed@gmail.com,jason@jasonadam.ca,fulvio@atomic47.co,scott@driftresourcetechnologies.com,greg@dexosphere.xyz",
+    "eric@scroll.ca",
+    "giroday@gmail.com",
+    "hanif.janmohamed@gmail.com",
+    "jason@jasonadam.ca",
+    "fulvio@atomic47.co",
+    "scott@driftresourcetechnologies.com",
+    "greg@dexosphere.xyz"
+  ],
+  "sentences": [
+    {
+      "text": "Hello.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 267.845,
+      "end_time": 268.465
+    },
+    {
+      "text": "Hello.",
+      "speaker_name": "David Olsson",
+      "start_time": 269.365,
+      "end_time": 270.225
+    },
+    {
+      "text": "That's a good one.",
+      "speaker_name": "David Olsson",
+      "start_time": 290.735,
+      "end_time": 291.995
+    },
+    {
+      "text": "Silly setup.",
+      "speaker_name": "David Olsson",
+      "start_time": 325.785,
+      "end_time": 327.005
+    },
+    {
+      "text": "Morning.",
+      "speaker_name": "David Olsson",
+      "start_time": 328.785,
+      "end_time": 329.525
+    },
+    {
+      "text": "Good morning.",
+      "speaker_name": "James Giroday",
+      "start_time": 362.365,
+      "end_time": 363.013
+    },
+    {
+      "text": "Good morning.",
+      "speaker_name": "James Giroday",
+      "start_time": 363.069,
+      "end_time": 363.825
+    },
+    {
+      "text": "Good morning.",
+      "speaker_name": "David Olsson",
+      "start_time": 364.245,
+      "end_time": 365.145
+    },
+    {
+      "text": "Oh, the Ooda loop.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 377.565,
+      "end_time": 378.957
+    },
+    {
+      "text": "Love that.",
+      "speaker_name": "David Olsson",
+      "start_time": 379.061,
+      "end_time": 379.985
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 385.765,
+      "end_time": 386.589
+    },
+    {
+      "text": "Trying to find things that people can glom on to.",
+      "speaker_name": "David Olsson",
+      "start_time": 386.757,
+      "end_time": 389.625
+    },
+    {
+      "text": "And I've pointed out that I studied the military, and I just realized.",
+      "speaker_name": "David Olsson",
+      "start_time": 391.685,
+      "end_time": 394.973
+    },
+    {
+      "text": "I say that now, but they're worth studying.",
+      "speaker_name": "David Olsson",
+      "start_time": 395.029,
+      "end_time": 398.785
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 399.605,
+      "end_time": 400.425
+    },
+    {
+      "text": "Well, I'm a major glommer myself, so I appreciate all that.",
+      "speaker_name": "James Giroday",
+      "start_time": 405.365,
+      "end_time": 409.149
+    },
+    {
+      "text": "Yeah, I'm glomming hard here.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 409.317,
+      "end_time": 411.185
+    },
+    {
+      "text": "Holy gloms.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 412.805,
+      "end_time": 414.185
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 415.205,
+      "end_time": 415.565
+    },
+    {
+      "text": "And so I had a discussion yesterday with Fulvio.",
+      "speaker_name": "David Olsson",
+      "start_time": 415.605,
+      "end_time": 419.669
+    },
+    {
+      "text": "He won't be joining us today, but.",
+      "speaker_name": "David Olsson",
+      "start_time": 419.717,
+      "end_time": 420.869
+    },
+    {
+      "text": "The discussion was along the lines of there's tools coming up for setting.",
+      "speaker_name": "David Olsson",
+      "start_time": 420.957,
+      "end_time": 424.669
+    },
+    {
+      "text": "Setting up context properly in development environments like Klein and others, where you.",
+      "speaker_name": "David Olsson",
+      "start_time": 424.797,
+      "end_time": 431.925
+    },
+    {
+      "text": "One of the things that happens is.",
+      "speaker_name": "David Olsson",
+      "start_time": 432.085,
+      "end_time": 433.117
+    },
+    {
+      "text": "You constantly lose your context.",
+      "speaker_name": "David Olsson",
+      "start_time": 433.141,
+      "end_time": 436.065
+    },
+    {
+      "text": "And so you're trying to set it.",
+      "speaker_name": "David Olsson",
+      "start_time": 436.785,
+      "end_time": 440.073
+    },
+    {
+      "text": "At a global level.",
+      "speaker_name": "David Olsson",
+      "start_time": 440.089,
+      "end_time": 440.817
+    },
+    {
+      "text": "You're trying to set it at, like, at the app level and then even at the function level.",
+      "speaker_name": "David Olsson",
+      "start_time": 440.881,
+      "end_time": 445.209
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 445.257,
+      "end_time": 445.441
+    },
+    {
+      "text": "But my thing is, like, it's all reflective.",
+      "speaker_name": "David Olsson",
+      "start_time": 445.473,
+      "end_time": 448.593
+    },
+    {
+      "text": "What I'm doing at each level is the same thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 448.689,
+      "end_time": 450.929
+    },
+    {
+      "text": "It's just described slightly differently.",
+      "speaker_name": "David Olsson",
+      "start_time": 450.977,
+      "end_time": 452.937
+    },
+    {
+      "text": "The application needs to do this.",
+      "speaker_name": "David Olsson",
+      "start_time": 453.121,
+      "end_time": 454.681
+    },
+    {
+      "text": "Then I wanted to use these things, and then I wanted to perform this way.",
+      "speaker_name": "David Olsson",
+      "start_time": 454.753,
+      "end_time": 457.649
+    },
+    {
+      "text": "And then here's a function that's not working properly.",
+      "speaker_name": "David Olsson",
+      "start_time": 457.697,
+      "end_time": 459.849
+    },
+    {
+      "text": "And so.",
+      "speaker_name": "David Olsson",
+      "start_time": 460.017,
+      "end_time": 460.925
+    },
+    {
+      "text": "You'Ve heard it's turtles all the way down.",
+      "speaker_name": "David Olsson",
+      "start_time": 463.895,
+      "end_time": 466.631
+    },
+    {
+      "text": "You've heard that phrasing?",
+      "speaker_name": "David Olsson",
+      "start_time": 466.783,
+      "end_time": 468.095
+    },
+    {
+      "text": "No, I like Jason's look.",
+      "speaker_name": "David Olsson",
+      "start_time": 468.255,
+      "end_time": 471.955
+    },
+    {
+      "text": "Okay, Jason, what do you.",
+      "speaker_name": "David Olsson",
+      "start_time": 473.735,
+      "end_time": 475.183
+    },
+    {
+      "text": "Existential crisis at 8 o'clock in the.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 475.359,
+      "end_time": 477.663
+    },
+    {
+      "text": "Morning on a Wednesday?",
+      "speaker_name": "David Olsson",
+      "start_time": 477.679,
+      "end_time": 478.755
+    },
+    {
+      "text": "No, no, I'm gonna build it up.",
+      "speaker_name": "David Olsson",
+      "start_time": 479.455,
+      "end_time": 480.695
+    },
+    {
+      "text": "It's not gonna be a crisis.",
+      "speaker_name": "David Olsson",
+      "start_time": 480.735,
+      "end_time": 481.887
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 481.951,
+      "end_time": 482.439
+    },
+    {
+      "text": "I'm not gonna spiral then.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 482.487,
+      "end_time": 484.135
+    },
+    {
+      "text": "Okay, so, yes, that's the problem.",
+      "speaker_name": "David Olsson",
+      "start_time": 484.295,
+      "end_time": 486.035
+    },
+    {
+      "text": "The concept or the phrasing is like.",
+      "speaker_name": "David Olsson",
+      "start_time": 486.415,
+      "end_time": 489.273
+    },
+    {
+      "text": "It'S turtles all the way down.",
+      "speaker_name": "David Olsson",
+      "start_time": 489.359,
+      "end_time": 490.917
+    },
+    {
+      "text": "And the notion is we're, you know, there.",
+      "speaker_name": "David Olsson",
+      "start_time": 491.061,
+      "end_time": 494.525
+    },
+    {
+      "text": "This flat, and we're standing.",
+      "speaker_name": "David Olsson",
+      "start_time": 494.565,
+      "end_time": 496.749
+    },
+    {
+      "text": "Or we're standing on the back of a turtle.",
+      "speaker_name": "David Olsson",
+      "start_time": 496.797,
+      "end_time": 498.845
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "David Olsson",
+      "start_time": 498.925,
+      "end_time": 499.381
+    },
+    {
+      "text": "And then we're, you know, it's a platform.",
+      "speaker_name": "David Olsson",
+      "start_time": 499.493,
+      "end_time": 501.229
+    },
+    {
+      "text": "What is it?",
+      "speaker_name": "David Olsson",
+      "start_time": 501.277,
+      "end_time": 501.749
+    },
+    {
+      "text": "The turtle is our platform.",
+      "speaker_name": "David Olsson",
+      "start_time": 501.797,
+      "end_time": 503.149
+    },
+    {
+      "text": "And then, you know, if you.",
+      "speaker_name": "David Olsson",
+      "start_time": 503.277,
+      "end_time": 505.265
+    },
+    {
+      "text": "In the scenario, it's a philosopher talking to somebody, an elder or whomever, and the question is, well, what's, you know, so there's a flat earth and there's a turtle, and we're standing on top of that.",
+      "speaker_name": "David Olsson",
+      "start_time": 505.685,
+      "end_time": 516.652
+    },
+    {
+      "text": "Or there's a turtle and we're standing.",
+      "speaker_name": "David Olsson",
+      "start_time": 516.748,
+      "end_time": 518.236
+    },
+    {
+      "text": "On top of that.",
+      "speaker_name": "David Olsson",
+      "start_time": 518.26,
+      "end_time": 518.772
+    },
+    {
+      "text": "What's under the turtle?",
+      "speaker_name": "David Olsson",
+      "start_time": 518.828,
+      "end_time": 520.384
+    },
+    {
+      "text": "It's another turtle under the turtle.",
+      "speaker_name": "James Giroday",
+      "start_time": 521.684,
+      "end_time": 524.012
+    },
+    {
+      "text": "It's turtles all the way down.",
+      "speaker_name": "David Olsson",
+      "start_time": 524.188,
+      "end_time": 525.904
+    },
+    {
+      "text": "And meaning, if you have a platform.",
+      "speaker_name": "David Olsson",
+      "start_time": 526.244,
+      "end_time": 529.764
+    },
+    {
+      "text": "Or a foundation, what is it standing on?",
+      "speaker_name": "David Olsson",
+      "start_time": 529.844,
+      "end_time": 532.344
+    },
+    {
+      "text": "And so.",
+      "speaker_name": "David Olsson",
+      "start_time": 535.684,
+      "end_time": 536.652
+    },
+    {
+      "text": "Yeah, right.",
+      "speaker_name": "David Olsson",
+      "start_time": 536.828,
+      "end_time": 537.604
+    },
+    {
+      "text": "And so you keep going Deeper.",
+      "speaker_name": "David Olsson",
+      "start_time": 537.644,
+      "end_time": 538.972
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 539.028,
+      "end_time": 539.244
+    },
+    {
+      "text": "And so the notion as a negative.",
+      "speaker_name": "David Olsson",
+      "start_time": 539.284,
+      "end_time": 541.228
+    },
+    {
+      "text": "Sort of analog, the notion is you have.",
+      "speaker_name": "David Olsson",
+      "start_time": 541.316,
+      "end_time": 544.959
+    },
+    {
+      "text": "You keep surf, you uncover more and.",
+      "speaker_name": "David Olsson",
+      "start_time": 545.007,
+      "end_time": 547.463
+    },
+    {
+      "text": "More, and it turns into this rat's nest of roots going down, trying to find more and more grounding and more and more founding.",
+      "speaker_name": "David Olsson",
+      "start_time": 547.479,
+      "end_time": 553.383
+    },
+    {
+      "text": "But, you know, there's a lot to that value.",
+      "speaker_name": "David Olsson",
+      "start_time": 553.519,
+      "end_time": 556.743
+    },
+    {
+      "text": "It's like that recursive.",
+      "speaker_name": "David Olsson",
+      "start_time": 556.799,
+      "end_time": 558.511
+    },
+    {
+      "text": "Like I landed on recursion from my experience of working in the code and with prompting, saying that the same thing is happening at every level, but it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 558.583,
+      "end_time": 567.719
+    },
+    {
+      "text": "Happening slightly differently at every level, but it's the same description of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 567.767,
+      "end_time": 572.653
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 572.749,
+      "end_time": 572.957
+    },
+    {
+      "text": "I can say meta, meta with metadata.",
+      "speaker_name": "David Olsson",
+      "start_time": 572.981,
+      "end_time": 574.941
+    },
+    {
+      "text": "It's the same thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 574.973,
+      "end_time": 575.973
+    },
+    {
+      "text": "The specifics of the tasks are different.",
+      "speaker_name": "David Olsson",
+      "start_time": 576.029,
+      "end_time": 578.173
+    },
+    {
+      "text": "But if we, you know, I found this in my work, like, I'll find something.",
+      "speaker_name": "David Olsson",
+      "start_time": 578.349,
+      "end_time": 582.869
+    },
+    {
+      "text": "I'm like, okay, this is interesting.",
+      "speaker_name": "David Olsson",
+      "start_time": 582.957,
+      "end_time": 584.517
+    },
+    {
+      "text": "Direct to consumer.",
+      "speaker_name": "David Olsson",
+      "start_time": 584.661,
+      "end_time": 585.653
+    },
+    {
+      "text": "Okay, direct to consumer.",
+      "speaker_name": "David Olsson",
+      "start_time": 585.709,
+      "end_time": 587.093
+    },
+    {
+      "text": "There's a paradigm here.",
+      "speaker_name": "David Olsson",
+      "start_time": 587.149,
+      "end_time": 587.917
+    },
+    {
+      "text": "What's a landing page look like?",
+      "speaker_name": "David Olsson",
+      "start_time": 587.941,
+      "end_time": 589.477
+    },
+    {
+      "text": "Well, there's a structure to a landing page.",
+      "speaker_name": "David Olsson",
+      "start_time": 589.501,
+      "end_time": 591.389
+    },
+    {
+      "text": "Well, there's a structure to the landing page because each of the sections does something.",
+      "speaker_name": "David Olsson",
+      "start_time": 591.517,
+      "end_time": 594.767
+    },
+    {
+      "text": "Yes, each of the sections does something.",
+      "speaker_name": "David Olsson",
+      "start_time": 594.901,
+      "end_time": 596.395
+    },
+    {
+      "text": "What do they do?",
+      "speaker_name": "David Olsson",
+      "start_time": 596.435,
+      "end_time": 597.035
+    },
+    {
+      "text": "Well, they do this.",
+      "speaker_name": "David Olsson",
+      "start_time": 597.075,
+      "end_time": 597.811
+    },
+    {
+      "text": "They do social pressure.",
+      "speaker_name": "David Olsson",
+      "start_time": 597.843,
+      "end_time": 598.795
+    },
+    {
+      "text": "Okay, what's social pressure?",
+      "speaker_name": "David Olsson",
+      "start_time": 598.835,
+      "end_time": 600.043
+    },
+    {
+      "text": "Okay, cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 600.139,
+      "end_time": 600.723
+    },
+    {
+      "text": "What's.",
+      "speaker_name": "David Olsson",
+      "start_time": 600.779,
+      "end_time": 601.123
+    },
+    {
+      "text": "What kinds of social pressure?",
+      "speaker_name": "David Olsson",
+      "start_time": 601.179,
+      "end_time": 602.787
+    },
+    {
+      "text": "Turns out there's a lot of them.",
+      "speaker_name": "David Olsson",
+      "start_time": 602.891,
+      "end_time": 604.643
+    },
+    {
+      "text": "What are the best ones?",
+      "speaker_name": "David Olsson",
+      "start_time": 604.739,
+      "end_time": 605.907
+    },
+    {
+      "text": "Good, great.",
+      "speaker_name": "David Olsson",
+      "start_time": 606.011,
+      "end_time": 606.643
+    },
+    {
+      "text": "What if you're, you know, what if you're building a community?",
+      "speaker_name": "David Olsson",
+      "start_time": 606.699,
+      "end_time": 608.803
+    },
+    {
+      "text": "Well, you've got an adoption curve.",
+      "speaker_name": "David Olsson",
+      "start_time": 608.859,
+      "end_time": 610.139
+    },
+    {
+      "text": "Which one of those works with an adoption curve?",
+      "speaker_name": "David Olsson",
+      "start_time": 610.187,
+      "end_time": 611.803
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 611.859,
+      "end_time": 612.219
+    },
+    {
+      "text": "There's your turtles on turtles is that.",
+      "speaker_name": "David Olsson",
+      "start_time": 612.307,
+      "end_time": 616.059
+    },
+    {
+      "text": "One framework produces another framework produces another framework in terms of your, you know.",
+      "speaker_name": "David Olsson",
+      "start_time": 616.187,
+      "end_time": 621.957
+    },
+    {
+      "text": "You'Re trying to constantly ground things.",
+      "speaker_name": "David Olsson",
+      "start_time": 621.981,
+      "end_time": 623.621
+    },
+    {
+      "text": "And if I look at Jason, Jason's got like this amazing workflow because he understands the industry and the turtles keep going on.",
+      "speaker_name": "David Olsson",
+      "start_time": 623.653,
+      "end_time": 629.885
+    },
+    {
+      "text": "That's why he doesn't want an existential crisis in the middle of the week.",
+      "speaker_name": "David Olsson",
+      "start_time": 629.925,
+      "end_time": 632.585
+    },
+    {
+      "text": "I'm guessing.",
+      "speaker_name": "David Olsson",
+      "start_time": 635.765,
+      "end_time": 636.905
+    },
+    {
+      "text": "It'S gone beyond anything useful.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 639.085,
+      "end_time": 641.385
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 641.725,
+      "end_time": 642.181
+    },
+    {
+      "text": "And so that's what the phrase is.",
+      "speaker_name": "David Olsson",
+      "start_time": 642.253,
+      "end_time": 643.621
+    },
+    {
+      "text": "Usually is pointed to, is it's never.",
+      "speaker_name": "David Olsson",
+      "start_time": 643.653,
+      "end_time": 646.133
+    },
+    {
+      "text": "Really Dr.",
+      "speaker_name": "David Olsson",
+      "start_time": 646.189,
+      "end_time": 646.701
+    },
+    {
+      "text": "Sue Turtle Tower.",
+      "speaker_name": "David Olsson",
+      "start_time": 646.733,
+      "end_time": 647.789
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 647.917,
+      "end_time": 648.589
+    },
+    {
+      "text": "It's not useful.",
+      "speaker_name": "David Olsson",
+      "start_time": 648.757,
+      "end_time": 649.549
+    },
+    {
+      "text": "But how about this?",
+      "speaker_name": "David Olsson",
+      "start_time": 649.597,
+      "end_time": 650.789
+    },
+    {
+      "text": "I've had this keen understanding of inverted truths for a while.",
+      "speaker_name": "David Olsson",
+      "start_time": 650.917,
+      "end_time": 654.745
+    },
+    {
+      "text": "I like that.",
+      "speaker_name": "James Giroday",
+      "start_time": 654.785,
+      "end_time": 655.685
+    },
+    {
+      "text": "And so inverted truths are like the promise that's delivered is never what's, you.",
+      "speaker_name": "David Olsson",
+      "start_time": 657.105,
+      "end_time": 662.049
+    },
+    {
+      "text": "Know, promise that's evoked is never what's evidenced.",
+      "speaker_name": "David Olsson",
+      "start_time": 662.057,
+      "end_time": 664.721
+    },
+    {
+      "text": "And so if we say that this turtles on turtles, there's something to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 664.873,
+      "end_time": 669.577
+    },
+    {
+      "text": "There's incredible value.",
+      "speaker_name": "David Olsson",
+      "start_time": 669.601,
+      "end_time": 670.689
+    },
+    {
+      "text": "I've built it into my platform.",
+      "speaker_name": "David Olsson",
+      "start_time": 670.737,
+      "end_time": 671.953
+    },
+    {
+      "text": "Okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 672.009,
+      "end_time": 672.645
+    },
+    {
+      "text": "But it's way I'm looking at things is I'm trying To elevate the thinking of people.",
+      "speaker_name": "David Olsson",
+      "start_time": 674.225,
+      "end_time": 679.445
+    },
+    {
+      "text": "Decision making strategy, the ability to work at high levels.",
+      "speaker_name": "David Olsson",
+      "start_time": 679.815,
+      "end_time": 684.355
+    },
+    {
+      "text": "I'm not asking people to get to the roots of the matter in the code or understand hex or what a machine does.",
+      "speaker_name": "David Olsson",
+      "start_time": 685.295,
+      "end_time": 690.835
+    },
+    {
+      "text": "I'm asking them to say, describe your.",
+      "speaker_name": "David Olsson",
+      "start_time": 691.455,
+      "end_time": 694.423
+    },
+    {
+      "text": "Problem and maybe some variables around it.",
+      "speaker_name": "David Olsson",
+      "start_time": 694.479,
+      "end_time": 697.111
+    },
+    {
+      "text": "And that's high level strategy stuff.",
+      "speaker_name": "David Olsson",
+      "start_time": 697.183,
+      "end_time": 698.767
+    },
+    {
+      "text": "So that's actually, if you look at it, it's inverting it, you know, saying we're working upwards instead of saying we're working downwards and it's getting bigger, we're working upwards and it's working towards a point.",
+      "speaker_name": "David Olsson",
+      "start_time": 698.791,
+      "end_time": 714.801
+    },
+    {
+      "text": "And that point is something to act upon, a decision to act.",
+      "speaker_name": "David Olsson",
+      "start_time": 714.953,
+      "end_time": 721.617
+    },
+    {
+      "text": "And it's a, at the highest level, it's a 0 or a 1, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 721.761,
+      "end_time": 726.945
+    },
+    {
+      "text": "In the most, if you do all your work to come to decision, you make a decision and once you're past it, things are different.",
+      "speaker_name": "David Olsson",
+      "start_time": 726.985,
+      "end_time": 735.861
+    },
+    {
+      "text": "And so if we invert this turtles instead, instead of it being turtles all the way down, it's turtles all the way up.",
+      "speaker_name": "David Olsson",
+      "start_time": 736.053,
+      "end_time": 744.425
+    },
+    {
+      "text": "It turns into a tree and a tree reaches up and you can have all of these strategies reaching up towards understanding what that one concept is.",
+      "speaker_name": "David Olsson",
+      "start_time": 745.205,
+      "end_time": 759.425
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 759.745,
+      "end_time": 760.321
+    },
+    {
+      "text": "The tree does go like this, but it aspires to go up.",
+      "speaker_name": "David Olsson",
+      "start_time": 760.433,
+      "end_time": 765.185
+    },
+    {
+      "text": "And as you go up you get more specificity.",
+      "speaker_name": "David Olsson",
+      "start_time": 765.345,
+      "end_time": 768.121
+    },
+    {
+      "text": "And so the turtles thing was quite cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 768.233,
+      "end_time": 770.685
+    },
+    {
+      "text": "And where I, bro, bring this back down to the OODA loop is that the turtles can be a process.",
+      "speaker_name": "David Olsson",
+      "start_time": 772.345,
+      "end_time": 779.325
+    },
+    {
+      "text": "So the, and that's, I'm getting to what I call the how.",
+      "speaker_name": "David Olsson",
+      "start_time": 780.625,
+      "end_time": 784.365
+    },
+    {
+      "text": "Said this before the how of how, but now we can go to the how of how how because they're all just turtles.",
+      "speaker_name": "David Olsson",
+      "start_time": 784.715,
+      "end_time": 793.055
+    },
+    {
+      "text": "Dr.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 793.675,
+      "end_time": 794.331
+    },
+    {
+      "text": "Thing was very informative.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 794.443,
+      "end_time": 797.067
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 797.131,
+      "end_time": 797.775
+    },
+    {
+      "text": "So yeah, it turns out he's a bad guy, but he might have been.",
+      "speaker_name": "David Olsson",
+      "start_time": 800.835,
+      "end_time": 803.219
+    },
+    {
+      "text": "A smart man, but yeah, it was.",
+      "speaker_name": "David Olsson",
+      "start_time": 803.227,
+      "end_time": 807.267
+    },
+    {
+      "text": "He was a Nazi though.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 807.291,
+      "end_time": 808.363
+    },
+    {
+      "text": "Was he or was he?",
+      "speaker_name": "Jason Kryski",
+      "start_time": 808.379,
+      "end_time": 810.083
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 810.259,
+      "end_time": 811.033
+    },
+    {
+      "text": "Well, we'll leave it at its art and artists are different.",
+      "speaker_name": "David Olsson",
+      "start_time": 811.179,
+      "end_time": 815.785
+    },
+    {
+      "text": "And so the turtles thing here is the OODA loot.",
+      "speaker_name": "David Olsson",
+      "start_time": 816.325,
+      "end_time": 819.505
+    },
+    {
+      "text": "I need people to understand how to work with agentic systems and I need to give them some way points, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 820.685,
+      "end_time": 827.197
+    },
+    {
+      "text": "And so we have problem process solutions.",
+      "speaker_name": "David Olsson",
+      "start_time": 827.261,
+      "end_time": 829.813
+    },
+    {
+      "text": "Of super generalized pattern.",
+      "speaker_name": "David Olsson",
+      "start_time": 829.909,
+      "end_time": 833.549
+    },
+    {
+      "text": "But the agents do this stuff like give them a document, they go in and they observe it, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 833.717,
+      "end_time": 838.341
+    },
+    {
+      "text": "They go in there and they look.",
+      "speaker_name": "David Olsson",
+      "start_time": 838.373,
+      "end_time": 839.405
+    },
+    {
+      "text": "At it and then you tell them.",
+      "speaker_name": "David Olsson",
+      "start_time": 839.445,
+      "end_time": 840.573
+    },
+    {
+      "text": "To make some assumptions and then we.",
+      "speaker_name": "David Olsson",
+      "start_time": 840.589,
+      "end_time": 842.377
+    },
+    {
+      "text": "Do the, you know, if we do the assumptions and the analysis, that's the observance, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 842.401,
+      "end_time": 845.713
+    },
+    {
+      "text": "So we, we observe to get tools to orient.",
+      "speaker_name": "David Olsson",
+      "start_time": 845.769,
+      "end_time": 849.257
+    },
+    {
+      "text": "So we may build a map from.",
+      "speaker_name": "David Olsson",
+      "start_time": 849.321,
+      "end_time": 850.417
+    },
+    {
+      "text": "All that information and then we can move through the Information better.",
+      "speaker_name": "David Olsson",
+      "start_time": 850.441,
+      "end_time": 853.393
+    },
+    {
+      "text": "And the purpose of the map is.",
+      "speaker_name": "David Olsson",
+      "start_time": 853.529,
+      "end_time": 855.097
+    },
+    {
+      "text": "To decide which path is best.",
+      "speaker_name": "David Olsson",
+      "start_time": 855.121,
+      "end_time": 857.001
+    },
+    {
+      "text": "And then we do an A STAR algorithm or whatever we do in terms.",
+      "speaker_name": "David Olsson",
+      "start_time": 857.153,
+      "end_time": 859.753
+    },
+    {
+      "text": "Of our head to get down that path.",
+      "speaker_name": "David Olsson",
+      "start_time": 859.769,
+      "end_time": 861.537
+    },
+    {
+      "text": "And then once we come to a decision point, and as an executive, I.",
+      "speaker_name": "David Olsson",
+      "start_time": 861.601,
+      "end_time": 866.129
+    },
+    {
+      "text": "Realized early on in my career that that's what my job was, to bring.",
+      "speaker_name": "David Olsson",
+      "start_time": 866.177,
+      "end_time": 869.671
+    },
+    {
+      "text": "Things to a decision point.",
+      "speaker_name": "David Olsson",
+      "start_time": 869.703,
+      "end_time": 870.695
+    },
+    {
+      "text": "And it didn't always mean it was a good decision, but it was a point at which we could act.",
+      "speaker_name": "David Olsson",
+      "start_time": 870.735,
+      "end_time": 874.727
+    },
+    {
+      "text": "And so everything comes to that, even.",
+      "speaker_name": "David Olsson",
+      "start_time": 874.791,
+      "end_time": 877.767
+    },
+    {
+      "text": "Me deciding to drink coffee.",
+      "speaker_name": "David Olsson",
+      "start_time": 877.911,
+      "end_time": 879.675
+    },
+    {
+      "text": "I always forget, now it's warm.",
+      "speaker_name": "David Olsson",
+      "start_time": 881.015,
+      "end_time": 883.035
+    },
+    {
+      "text": "So at the global level, I'm going to provide a workflow of an OODA loop and break out my left to right workflow into four stages.",
+      "speaker_name": "David Olsson",
+      "start_time": 885.615,
+      "end_time": 895.355
+    },
+    {
+      "text": "So people say, here's where I am.",
+      "speaker_name": "David Olsson",
+      "start_time": 895.765,
+      "end_time": 897.733
+    },
+    {
+      "text": "Trying to define the problem.",
+      "speaker_name": "David Olsson",
+      "start_time": 897.789,
+      "end_time": 899.397
+    },
+    {
+      "text": "I'm observing.",
+      "speaker_name": "David Olsson",
+      "start_time": 899.541,
+      "end_time": 900.705
+    },
+    {
+      "text": "Willie enough in that place of observing, you're defining the problem.",
+      "speaker_name": "David Olsson",
+      "start_time": 901.085,
+      "end_time": 911.653
+    },
+    {
+      "text": "You're saying, this is the parameters, this is what I want to know, and.",
+      "speaker_name": "David Olsson",
+      "start_time": 911.749,
+      "end_time": 913.773
+    },
+    {
+      "text": "This is the query I have.",
+      "speaker_name": "David Olsson",
+      "start_time": 913.789,
+      "end_time": 915.245
+    },
+    {
+      "text": "Then from that, then I would say, well, here's how we have some agents.",
+      "speaker_name": "David Olsson",
+      "start_time": 915.405,
+      "end_time": 918.621
+    },
+    {
+      "text": "That can help you with that.",
+      "speaker_name": "David Olsson",
+      "start_time": 918.653,
+      "end_time": 919.541
+    },
+    {
+      "text": "To build a structured data set, you.",
+      "speaker_name": "David Olsson",
+      "start_time": 919.573,
+      "end_time": 922.571
+    },
+    {
+      "text": "Learn the problem set, and then you could move through that and orient yourself as to what the problem really means, possibly by doing simulations, saying, in the future things could be different.",
+      "speaker_name": "David Olsson",
+      "start_time": 922.603,
+      "end_time": 933.939
+    },
+    {
+      "text": "And so if you did simulations, you'd see that it doesn't really matter how.",
+      "speaker_name": "David Olsson",
+      "start_time": 934.067,
+      "end_time": 937.643
+    },
+    {
+      "text": "Much money you put into a project, it's the people you put in.",
+      "speaker_name": "David Olsson",
+      "start_time": 937.659,
+      "end_time": 939.603
+    },
+    {
+      "text": "And then you're like, okay, that's what we'll move on.",
+      "speaker_name": "David Olsson",
+      "start_time": 939.619,
+      "end_time": 941.331
+    },
+    {
+      "text": "That was the decision.",
+      "speaker_name": "David Olsson",
+      "start_time": 941.363,
+      "end_time": 942.003
+    },
+    {
+      "text": "Hire people, don't get investment.",
+      "speaker_name": "David Olsson",
+      "start_time": 942.059,
+      "end_time": 943.635
+    },
+    {
+      "text": "And so you act upon that and.",
+      "speaker_name": "David Olsson",
+      "start_time": 943.795,
+      "end_time": 946.147
+    },
+    {
+      "text": "You have this evidence trail that you went down.",
+      "speaker_name": "David Olsson",
+      "start_time": 946.171,
+      "end_time": 948.775
+    },
+    {
+      "text": "And the evidence trail is, I had a problem, I needed to define it, and then I analyzed it.",
+      "speaker_name": "David Olsson",
+      "start_time": 948.925,
+      "end_time": 955.355
+    },
+    {
+      "text": "And then we came together once I had something to look at and we decided.",
+      "speaker_name": "David Olsson",
+      "start_time": 955.395,
+      "end_time": 958.867
+    },
+    {
+      "text": "And so the turtles is there for the.",
+      "speaker_name": "David Olsson",
+      "start_time": 959.011,
+      "end_time": 961.015
+    },
+    {
+      "text": "That's a turtle and it's there for the user, and that's a turtle that's there for the agent, and that's a turtle that's there for the meta agent.",
+      "speaker_name": "David Olsson",
+      "start_time": 961.475,
+      "end_time": 970.067
+    },
+    {
+      "text": "Who'S organizing all the agents.",
+      "speaker_name": "David Olsson",
+      "start_time": 970.091,
+      "end_time": 971.655
+    },
+    {
+      "text": "And so that framing allowed for the turtle turtles to rise up towards strategy.",
+      "speaker_name": "David Olsson",
+      "start_time": 972.355,
+      "end_time": 978.393
+    },
+    {
+      "text": "Stop that.",
+      "speaker_name": "David Olsson",
+      "start_time": 978.449,
+      "end_time": 979.325
+    },
+    {
+      "text": "I thought Dave was going to go out on the street there for a second, right.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 981.865,
+      "end_time": 985.857
+    },
+    {
+      "text": "I'll throw them out the window.",
+      "speaker_name": "David Olsson",
+      "start_time": 985.881,
+      "end_time": 986.665
+    },
+    {
+      "text": "Looks like I'm in professional meetings.",
+      "speaker_name": "David Olsson",
+      "start_time": 986.705,
+      "end_time": 990.801
+    },
+    {
+      "text": "I'm asked to have a background.",
+      "speaker_name": "David Olsson",
+      "start_time": 990.833,
+      "end_time": 992.405
+    },
+    {
+      "text": "So I just wanted to reflect on the fact that it's a very interesting thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 995.665,
+      "end_time": 999.337
+    },
+    {
+      "text": "And what's happening is that with the development tools, the Ability to provide context to working at the global level.",
+      "speaker_name": "David Olsson",
+      "start_time": 999.361,
+      "end_time": 1006.751
+    },
+    {
+      "text": "Where I'm describing an app.",
+      "speaker_name": "David Olsson",
+      "start_time": 1006.783,
+      "end_time": 1007.847
+    },
+    {
+      "text": "I now do a screenshot.",
+      "speaker_name": "David Olsson",
+      "start_time": 1007.911,
+      "end_time": 1009.327
+    },
+    {
+      "text": "If I can take somebody else, else's stuff, say, this is something.",
+      "speaker_name": "David Olsson",
+      "start_time": 1009.351,
+      "end_time": 1012.119
+    },
+    {
+      "text": "And I do.",
+      "speaker_name": "David Olsson",
+      "start_time": 1012.207,
+      "end_time": 1013.015
+    },
+    {
+      "text": "Here's my description of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1013.095,
+      "end_time": 1014.255
+    },
+    {
+      "text": "And so that's my first turtle.",
+      "speaker_name": "David Olsson",
+      "start_time": 1014.335,
+      "end_time": 1015.919
+    },
+    {
+      "text": "It's a global view on things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1015.967,
+      "end_time": 1017.399
+    },
+    {
+      "text": "It's like, that's the big thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1017.447,
+      "end_time": 1018.959
+    },
+    {
+      "text": "It's the platform, it's the foundation.",
+      "speaker_name": "David Olsson",
+      "start_time": 1019.007,
+      "end_time": 1020.687
+    },
+    {
+      "text": "The next thing is I move upwards, upwards, upwards until I get a ui.",
+      "speaker_name": "David Olsson",
+      "start_time": 1020.751,
+      "end_time": 1024.035
+    },
+    {
+      "text": "Right now, if I hand off the ui, I hand off three different things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1025.655,
+      "end_time": 1028.071
+    },
+    {
+      "text": "Or four different things in a video.",
+      "speaker_name": "David Olsson",
+      "start_time": 1028.103,
+      "end_time": 1029.455
+    },
+    {
+      "text": "That's not a very good, uh, why.",
+      "speaker_name": "David Olsson",
+      "start_time": 1029.575,
+      "end_time": 1031.215
+    },
+    {
+      "text": "But at least that's sort of how.",
+      "speaker_name": "David Olsson",
+      "start_time": 1031.555,
+      "end_time": 1035.295
+    },
+    {
+      "text": "Now if we say turtling, that's a completely different thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1035.915,
+      "end_time": 1038.651
+    },
+    {
+      "text": "But how the analogy, how that anal.",
+      "speaker_name": "David Olsson",
+      "start_time": 1038.803,
+      "end_time": 1043.095
+    },
+    {
+      "text": "A girl taught me that word.",
+      "speaker_name": "David Olsson",
+      "start_time": 1043.475,
+      "end_time": 1045.251
+    },
+    {
+      "text": "I was like, you guys are so terrible women.",
+      "speaker_name": "David Olsson",
+      "start_time": 1045.283,
+      "end_time": 1047.615
+    },
+    {
+      "text": "The gross.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 1048.475,
+      "end_time": 1049.495
+    },
+    {
+      "text": "But yeah, that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1050.715,
+      "end_time": 1052.355
+    },
+    {
+      "text": "I think that's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1052.395,
+      "end_time": 1053.219
+    },
+    {
+      "text": "That was.",
+      "speaker_name": "David Olsson",
+      "start_time": 1053.307,
+      "end_time": 1053.795
+    },
+    {
+      "text": "To me, that was a.",
+      "speaker_name": "David Olsson",
+      "start_time": 1053.875,
+      "end_time": 1055.735
+    },
+    {
+      "text": "That was a good day where I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1056.045,
+      "end_time": 1057.437
+    },
+    {
+      "text": "Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes.",
+      "speaker_name": "David Olsson",
+      "start_time": 1057.501,
+      "end_time": 1066.837
+    },
+    {
+      "text": "And James, I think I mentioned this.",
+      "speaker_name": "David Olsson",
+      "start_time": 1066.901,
+      "end_time": 1069.157
+    },
+    {
+      "text": "Your diagrams usually mean you're working at a higher level, understanding things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1069.261,
+      "end_time": 1072.493
+    },
+    {
+      "text": "All my words, which have been there for the last three weeks, words and words and words.",
+      "speaker_name": "David Olsson",
+      "start_time": 1072.589,
+      "end_time": 1077.005
+    },
+    {
+      "text": "I got eight pages of diagrams.",
+      "speaker_name": "David Olsson",
+      "start_time": 1077.125,
+      "end_time": 1078.945
+    },
+    {
+      "text": "So that's a completely different mode of thinking.",
+      "speaker_name": "David Olsson",
+      "start_time": 1079.725,
+      "end_time": 1082.415
+    },
+    {
+      "text": "And it was brought about by this notion of encapsulation of turtle turtles.",
+      "speaker_name": "David Olsson",
+      "start_time": 1082.605,
+      "end_time": 1088.055
+    },
+    {
+      "text": "And it was a really powerful thing to just, you know, go and say.",
+      "speaker_name": "David Olsson",
+      "start_time": 1088.675,
+      "end_time": 1093.843
+    },
+    {
+      "text": "Okay, this is a really, you know, there's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1093.899,
+      "end_time": 1096.915
+    },
+    {
+      "text": "There are a lot of loops, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 1096.955,
+      "end_time": 1098.347
+    },
+    {
+      "text": "I got Bloom's learning loop, which is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1098.371,
+      "end_time": 1101.427
+    },
+    {
+      "text": "A huge one for me because that's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1101.451,
+      "end_time": 1103.179
+    },
+    {
+      "text": "Everybody needs to learn through every cycle.",
+      "speaker_name": "David Olsson",
+      "start_time": 1103.227,
+      "end_time": 1105.043
+    },
+    {
+      "text": "And so you can pop that into as a cycle.",
+      "speaker_name": "David Olsson",
+      "start_time": 1105.179,
+      "end_time": 1108.781
+    },
+    {
+      "text": "Every one of these.",
+      "speaker_name": "David Olsson",
+      "start_time": 1108.933,
+      "end_time": 1109.709
+    },
+    {
+      "text": "Observe, orient and decide things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1109.757,
+      "end_time": 1111.805
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1111.965,
+      "end_time": 1112.429
+    },
+    {
+      "text": "And then when I'm proposing to do simulations, it's like, how granular do you want to get?",
+      "speaker_name": "David Olsson",
+      "start_time": 1112.517,
+      "end_time": 1118.677
+    },
+    {
+      "text": "Well, we can add another framework out of that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1118.701,
+      "end_time": 1120.425
+    },
+    {
+      "text": "We can get more specific.",
+      "speaker_name": "David Olsson",
+      "start_time": 1122.325,
+      "end_time": 1123.629
+    },
+    {
+      "text": "Do you need to know at the, at the six or seven figures or at the, at the decimal point?",
+      "speaker_name": "David Olsson",
+      "start_time": 1123.677,
+      "end_time": 1128.501
+    },
+    {
+      "text": "And so I've, I've been doing work.",
+      "speaker_name": "David Olsson",
+      "start_time": 1128.653,
+      "end_time": 1131.269
+    },
+    {
+      "text": "To try to expose like the value.",
+      "speaker_name": "David Olsson",
+      "start_time": 1131.317,
+      "end_time": 1136.079
+    },
+    {
+      "text": "Of where works on.",
+      "speaker_name": "David Olsson",
+      "start_time": 1136.127,
+      "end_time": 1138.167
+    },
+    {
+      "text": "It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have.",
+      "speaker_name": "David Olsson",
+      "start_time": 1138.191,
+      "end_time": 1151.663
+    },
+    {
+      "text": "But I wanted, I wanted that pattern that I mentioned.",
+      "speaker_name": "David Olsson",
+      "start_time": 1151.799,
+      "end_time": 1156.951
+    },
+    {
+      "text": "Like I get a screenshot and then.",
+      "speaker_name": "David Olsson",
+      "start_time": 1156.983,
+      "end_time": 1158.831
+    },
+    {
+      "text": "I do a spac and do all kinds.",
+      "speaker_name": "David Olsson",
+      "start_time": 1158.863,
+      "end_time": 1160.903
+    },
+    {
+      "text": "Oh, I did a lot of work.",
+      "speaker_name": "David Olsson",
+      "start_time": 1160.919,
+      "end_time": 1161.807
+    },
+    {
+      "text": "To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and.",
+      "speaker_name": "David Olsson",
+      "start_time": 1161.831,
+      "end_time": 1166.647
+    },
+    {
+      "text": "Write it and then I use my.",
+      "speaker_name": "David Olsson",
+      "start_time": 1166.671,
+      "end_time": 1168.447
+    },
+    {
+      "text": "Writing in a bunch of ways.",
+      "speaker_name": "David Olsson",
+      "start_time": 1168.471,
+      "end_time": 1169.575
+    },
+    {
+      "text": "Anyways, I asked for an AI website.",
+      "speaker_name": "David Olsson",
+      "start_time": 1169.655,
+      "end_time": 1171.415
+    },
+    {
+      "text": "Look what I got guys.",
+      "speaker_name": "David Olsson",
+      "start_time": 1171.455,
+      "end_time": 1172.595
+    },
+    {
+      "text": "Looks like my stuff, but it's borrowed from every other first stage AI company.",
+      "speaker_name": "David Olsson",
+      "start_time": 1174.015,
+      "end_time": 1178.247
+    },
+    {
+      "text": "Is doing this node and spoke kind of animation background.",
+      "speaker_name": "David Olsson",
+      "start_time": 1178.351,
+      "end_time": 1182.103
+    },
+    {
+      "text": "Anyways, the aesthetic was one I wanted.",
+      "speaker_name": "David Olsson",
+      "start_time": 1182.199,
+      "end_time": 1184.191
+    },
+    {
+      "text": "With the green, brown, green and gray and taupe.",
+      "speaker_name": "David Olsson",
+      "start_time": 1184.223,
+      "end_time": 1187.077
+    },
+    {
+      "text": "And it did break out everything I wanted to in terms of use cases.",
+      "speaker_name": "David Olsson",
+      "start_time": 1187.101,
+      "end_time": 1191.053
+    },
+    {
+      "text": "Examples and providing a playground.",
+      "speaker_name": "David Olsson",
+      "start_time": 1191.109,
+      "end_time": 1192.685
+    },
+    {
+      "text": "And then what I've got right now is agents and agencies.",
+      "speaker_name": "David Olsson",
+      "start_time": 1192.805,
+      "end_time": 1195.661
+    },
+    {
+      "text": "I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data.",
+      "speaker_name": "David Olsson",
+      "start_time": 1195.733,
+      "end_time": 1206.465
+    },
+    {
+      "text": "And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling.",
+      "speaker_name": "David Olsson",
+      "start_time": 1207.085,
+      "end_time": 1215.465
+    },
+    {
+      "text": "And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view.",
+      "speaker_name": "David Olsson",
+      "start_time": 1215.545,
+      "end_time": 1224.265
+    },
+    {
+      "text": "And that's that inverted triangle which I'll call the tree.",
+      "speaker_name": "David Olsson",
+      "start_time": 1224.305,
+      "end_time": 1227.665
+    },
+    {
+      "text": "And I'm going to take this and I'm going to keep processing it and.",
+      "speaker_name": "David Olsson",
+      "start_time": 1227.705,
+      "end_time": 1231.097
+    },
+    {
+      "text": "Turn it into you know like the heads on kind of effect theory thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1231.121,
+      "end_time": 1234.793
+    },
+    {
+      "text": "Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you.",
+      "speaker_name": "David Olsson",
+      "start_time": 1234.929,
+      "end_time": 1239.663
+    },
+    {
+      "text": "But if you just use a vector.",
+      "speaker_name": "David Olsson",
+      "start_time": 1239.679,
+      "end_time": 1240.671
+    },
+    {
+      "text": "For querying, use a bunch of them.",
+      "speaker_name": "David Olsson",
+      "start_time": 1240.703,
+      "end_time": 1242.855
+    },
+    {
+      "text": "Those are like really good strategies for sort of paradigm, paradigm setup.",
+      "speaker_name": "David Olsson",
+      "start_time": 1243.015,
+      "end_time": 1248.351
+    },
+    {
+      "text": "And I want to get into that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1248.383,
+      "end_time": 1249.671
+    },
+    {
+      "text": "But it, it was able to effectively.",
+      "speaker_name": "David Olsson",
+      "start_time": 1249.703,
+      "end_time": 1252.903
+    },
+    {
+      "text": "Well after about six hours, okay.",
+      "speaker_name": "David Olsson",
+      "start_time": 1252.959,
+      "end_time": 1255.631
+    },
+    {
+      "text": "Of work, generate enough content and some of it's just ridiculous, but it did like I asked for more interactive content and it tried to create a decision making process where it would take you to the next step.",
+      "speaker_name": "David Olsson",
+      "start_time": 1255.783,
+      "end_time": 1264.563
+    },
+    {
+      "text": "Recommend which tool I had, which tool you'd want.",
+      "speaker_name": "David Olsson",
+      "start_time": 1264.679,
+      "end_time": 1267.375
+    },
+    {
+      "text": "So you know that's decent.",
+      "speaker_name": "David Olsson",
+      "start_time": 1267.755,
+      "end_time": 1270.003
+    },
+    {
+      "text": "I did a competitive analysis and I went down and I browsed all the.",
+      "speaker_name": "David Olsson",
+      "start_time": 1270.179,
+      "end_time": 1273.515
+    },
+    {
+      "text": "Websites that it said were competitors and.",
+      "speaker_name": "David Olsson",
+      "start_time": 1273.555,
+      "end_time": 1275.323
+    },
+    {
+      "text": "Of course they're not, but they're all.",
+      "speaker_name": "David Olsson",
+      "start_time": 1275.339,
+      "end_time": 1277.627
+    },
+    {
+      "text": "Very vague in the same way.",
+      "speaker_name": "David Olsson",
+      "start_time": 1277.691,
+      "end_time": 1278.891
+    },
+    {
+      "text": "And so what I've done is gone.",
+      "speaker_name": "David Olsson",
+      "start_time": 1278.923,
+      "end_time": 1280.147
+    },
+    {
+      "text": "About focusing on how to make it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1280.171,
+      "end_time": 1283.027
+    },
+    {
+      "text": "And this isn't quite there but how to make it approachable to SMBs and recognize that small teams are everything.",
+      "speaker_name": "David Olsson",
+      "start_time": 1283.051,
+      "end_time": 1289.691
+    },
+    {
+      "text": "And so push putting it in the context of here it is and here you go.",
+      "speaker_name": "David Olsson",
+      "start_time": 1289.763,
+      "end_time": 1292.821
+    },
+    {
+      "text": "So I'm trying to now expose that to the world.",
+      "speaker_name": "David Olsson",
+      "start_time": 1292.973,
+      "end_time": 1297.625
+    },
+    {
+      "text": "I'm still doing that same processes.",
+      "speaker_name": "David Olsson",
+      "start_time": 1298.525,
+      "end_time": 1300.237
+    },
+    {
+      "text": "This is a case where I did that, I got in there, I was like, okay, study things that's my framing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1300.261,
+      "end_time": 1304.845
+    },
+    {
+      "text": "Study things, analyze them.",
+      "speaker_name": "David Olsson",
+      "start_time": 1304.925,
+      "end_time": 1306.917
+    },
+    {
+      "text": "And then I'm like, okay, these are all just this palette.",
+      "speaker_name": "David Olsson",
+      "start_time": 1307.021,
+      "end_time": 1309.197
+    },
+    {
+      "text": "And this is the expected palette.",
+      "speaker_name": "David Olsson",
+      "start_time": 1309.221,
+      "end_time": 1310.437
+    },
+    {
+      "text": "Okay, Just go down the path of.",
+      "speaker_name": "David Olsson",
+      "start_time": 1310.461,
+      "end_time": 1311.549
+    },
+    {
+      "text": "The palette, and then it gets down the path and I go to the next level.",
+      "speaker_name": "David Olsson",
+      "start_time": 1311.557,
+      "end_time": 1314.765
+    },
+    {
+      "text": "Okay, I've got this thing, and it's a website.",
+      "speaker_name": "David Olsson",
+      "start_time": 1314.805,
+      "end_time": 1316.709
+    },
+    {
+      "text": "I know what to do with it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1316.757,
+      "end_time": 1317.681
+    },
+    {
+      "text": "And I'll get down to the code.",
+      "speaker_name": "David Olsson",
+      "start_time": 1317.713,
+      "end_time": 1318.721
+    },
+    {
+      "text": "I'm like, okay, now I have the.",
+      "speaker_name": "David Olsson",
+      "start_time": 1318.753,
+      "end_time": 1319.857
+    },
+    {
+      "text": "Strategy on the code, and I want.",
+      "speaker_name": "David Olsson",
+      "start_time": 1319.881,
+      "end_time": 1320.929
+    },
+    {
+      "text": "To change that level.",
+      "speaker_name": "David Olsson",
+      "start_time": 1320.937,
+      "end_time": 1322.001
+    },
+    {
+      "text": "And so the problem solving is consistent.",
+      "speaker_name": "David Olsson",
+      "start_time": 1322.153,
+      "end_time": 1326.365
+    },
+    {
+      "text": "And.",
+      "speaker_name": "David Olsson",
+      "start_time": 1327.545,
+      "end_time": 1328.285
+    },
+    {
+      "text": "But like I say, that thing yesterday, it happened, it changed my words into diagrams.",
+      "speaker_name": "David Olsson",
+      "start_time": 1329.105,
+      "end_time": 1334.097
+    },
+    {
+      "text": "This is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1334.241,
+      "end_time": 1334.745
+    },
+    {
+      "text": "That's the how, how of how.",
+      "speaker_name": "David Olsson",
+      "start_time": 1334.785,
+      "end_time": 1336.445
+    },
+    {
+      "text": "So.",
+      "speaker_name": "David Olsson",
+      "start_time": 1338.185,
+      "end_time": 1338.925
+    },
+    {
+      "text": "That'S where I'm going to leave.",
+      "speaker_name": "David Olsson",
+      "start_time": 1340.785,
+      "end_time": 1342.073
+    },
+    {
+      "text": "Things, because the how of how of.",
+      "speaker_name": "David Olsson",
+      "start_time": 1342.129,
+      "end_time": 1343.975
+    },
+    {
+      "text": "How is now up to you guys to engage on.",
+      "speaker_name": "David Olsson",
+      "start_time": 1344.015,
+      "end_time": 1350.195
+    },
+    {
+      "text": "That's how.",
+      "speaker_name": "David Olsson",
+      "start_time": 1350.495,
+      "end_time": 1351.303
+    },
+    {
+      "text": "Do you want to learn something, to do something?",
+      "speaker_name": "David Olsson",
+      "start_time": 1351.319,
+      "end_time": 1354.355
+    },
+    {
+      "text": "And I want to turn the corner on these meetings not to change how we feel about them, but to change how we do them so that the end of them isn't just completion of an hour or 45 minutes, but it's the handing off of things in a.",
+      "speaker_name": "David Olsson",
+      "start_time": 1355.655,
+      "end_time": 1373.177
+    },
+    {
+      "text": "Useful way where there's that next opportunity to expose yourself to what the turtle looks like when you apply that next level.",
+      "speaker_name": "David Olsson",
+      "start_time": 1373.201,
+      "end_time": 1384.017
+    },
+    {
+      "text": "Thank you.",
+      "speaker_name": "David Olsson",
+      "start_time": 1384.081,
+      "end_time": 1384.849
+    },
+    {
+      "text": "And if I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1385.017,
+      "end_time": 1387.685
+    },
+    {
+      "text": "Do, I have it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1390.185,
+      "end_time": 1391.405
+    },
+    {
+      "text": "I'll.",
+      "speaker_name": "David Olsson",
+      "start_time": 1392.025,
+      "end_time": 1392.361
+    },
+    {
+      "text": "I'll just go through.",
+      "speaker_name": "David Olsson",
+      "start_time": 1392.393,
+      "end_time": 1393.473
+    },
+    {
+      "text": "Can you see, man, this site is sharp.",
+      "speaker_name": "James Giroday",
+      "start_time": 1393.569,
+      "end_time": 1396.255
+    },
+    {
+      "text": "Well, it's pretty cliche.",
+      "speaker_name": "David Olsson",
+      "start_time": 1396.835,
+      "end_time": 1398.803
+    },
+    {
+      "text": "It's cliche.",
+      "speaker_name": "David Olsson",
+      "start_time": 1398.939,
+      "end_time": 1400.055
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 1401.755,
+      "end_time": 1402.395
+    },
+    {
+      "text": "It's good cliche then, because it looks nice.",
+      "speaker_name": "James Giroday",
+      "start_time": 1402.515,
+      "end_time": 1405.655
+    },
+    {
+      "text": "But okay, I say that and I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1407.955,
+      "end_time": 1411.187
+    },
+    {
+      "text": "Guess I've been an outlier my career in that I, you know, the center of an industry is usually mushy and lacking center, and they're just a shimmer or whatever you want to call it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1411.211,
+      "end_time": 1425.571
+    },
+    {
+      "text": "They're in the marketing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1425.603,
+      "end_time": 1426.835
+    },
+    {
+      "text": "They're not in them in the trenches.",
+      "speaker_name": "David Olsson",
+      "start_time": 1426.955,
+      "end_time": 1428.683
+    },
+    {
+      "text": "So that's, you know, it's a marketing website.",
+      "speaker_name": "David Olsson",
+      "start_time": 1428.819,
+      "end_time": 1431.475
+    },
+    {
+      "text": "Websites are meant to sell things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1431.635,
+      "end_time": 1433.255
+    },
+    {
+      "text": "On the topic of turtles, just while you do this, I'll tell a quick story.",
+      "speaker_name": "James Giroday",
+      "start_time": 1442.595,
+      "end_time": 1446.571
+    },
+    {
+      "text": "I actually saw a turtle about a year ago in the summer in Ontario.",
+      "speaker_name": "James Giroday",
+      "start_time": 1446.603,
+      "end_time": 1451.211
+    },
+    {
+      "text": "It was on a stump.",
+      "speaker_name": "James Giroday",
+      "start_time": 1451.363,
+      "end_time": 1452.707
+    },
+    {
+      "text": "It was a snapping turtle.",
+      "speaker_name": "James Giroday",
+      "start_time": 1452.891,
+      "end_time": 1454.283
+    },
+    {
+      "text": "Pretty big.",
+      "speaker_name": "James Giroday",
+      "start_time": 1454.339,
+      "end_time": 1455.131
+    },
+    {
+      "text": "Yeah, probably 30 years old.",
+      "speaker_name": "James Giroday",
+      "start_time": 1455.283,
+      "end_time": 1457.227
+    },
+    {
+      "text": "Like, pretty big one.",
+      "speaker_name": "James Giroday",
+      "start_time": 1457.291,
+      "end_time": 1458.695
+    },
+    {
+      "text": "And we walked up close to it and it didn't move at all.",
+      "speaker_name": "James Giroday",
+      "start_time": 1460.035,
+      "end_time": 1463.067
+    },
+    {
+      "text": "And it was alive.",
+      "speaker_name": "James Giroday",
+      "start_time": 1463.211,
+      "end_time": 1464.275
+    },
+    {
+      "text": "Then we noticed that it had probably like 40 little leeches on the bat on its back leg.",
+      "speaker_name": "James Giroday",
+      "start_time": 1464.395,
+      "end_time": 1471.375
+    },
+    {
+      "text": "So it was like probably kind of in pain.",
+      "speaker_name": "James Giroday",
+      "start_time": 1471.875,
+      "end_time": 1474.901
+    },
+    {
+      "text": "So anyways, we went.",
+      "speaker_name": "James Giroday",
+      "start_time": 1474.933,
+      "end_time": 1475.789
+    },
+    {
+      "text": "Went and grabbed some salt.",
+      "speaker_name": "James Giroday",
+      "start_time": 1475.877,
+      "end_time": 1477.741
+    },
+    {
+      "text": "We threw it on the leeches took.",
+      "speaker_name": "James Giroday",
+      "start_time": 1477.893,
+      "end_time": 1480.277
+    },
+    {
+      "text": "Took a five minutes.",
+      "speaker_name": "James Giroday",
+      "start_time": 1480.341,
+      "end_time": 1481.461
+    },
+    {
+      "text": "The turtle just stayed still on the stump.",
+      "speaker_name": "James Giroday",
+      "start_time": 1481.493,
+      "end_time": 1484.117
+    },
+    {
+      "text": "While we did this, we got all these 40 leeches off of its leg, continued on the walk, came back, turtle was gone.",
+      "speaker_name": "James Giroday",
+      "start_time": 1484.301,
+      "end_time": 1492.305
+    },
+    {
+      "text": "True story.",
+      "speaker_name": "James Giroday",
+      "start_time": 1494.005,
+      "end_time": 1495.037
+    },
+    {
+      "text": "Pretty random.",
+      "speaker_name": "James Giroday",
+      "start_time": 1495.221,
+      "end_time": 1495.973
+    },
+    {
+      "text": "I mean, yeah, like this turtle just chilled while we took the leeches off its leg.",
+      "speaker_name": "James Giroday",
+      "start_time": 1496.029,
+      "end_time": 1500.739
+    },
+    {
+      "text": "It was really random.",
+      "speaker_name": "James Giroday",
+      "start_time": 1500.787,
+      "end_time": 1502.055
+    },
+    {
+      "text": "Well, there's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1502.395,
+      "end_time": 1503.027
+    },
+    {
+      "text": "There's actually a lot of turtles in Kelowna.",
+      "speaker_name": "David Olsson",
+      "start_time": 1503.091,
+      "end_time": 1505.495
+    },
+    {
+      "text": "I've seen one.",
+      "speaker_name": "James Giroday",
+      "start_time": 1506.635,
+      "end_time": 1507.483
+    },
+    {
+      "text": "I saw a paint, a painted, I think, up near.",
+      "speaker_name": "James Giroday",
+      "start_time": 1507.539,
+      "end_time": 1510.055
+    },
+    {
+      "text": "Yeah, but you have to find.",
+      "speaker_name": "David Olsson",
+      "start_time": 1510.955,
+      "end_time": 1512.875
+    },
+    {
+      "text": "You have to know, and you gotta be patient with them.",
+      "speaker_name": "David Olsson",
+      "start_time": 1512.915,
+      "end_time": 1514.507
+    },
+    {
+      "text": "But yeah, there's turtle crossings in Wilden.",
+      "speaker_name": "David Olsson",
+      "start_time": 1514.531,
+      "end_time": 1516.979
+    },
+    {
+      "text": "You know, the community next to mine.",
+      "speaker_name": "David Olsson",
+      "start_time": 1517.027,
+      "end_time": 1518.615
+    },
+    {
+      "text": "There's toll crossing signs.",
+      "speaker_name": "David Olsson",
+      "start_time": 1519.115,
+      "end_time": 1520.835
+    },
+    {
+      "text": "Oh, really?",
+      "speaker_name": "James Giroday",
+      "start_time": 1520.995,
+      "end_time": 1521.787
+    },
+    {
+      "text": "That's cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1521.891,
+      "end_time": 1525.455
+    },
+    {
+      "text": "This is the tool that I have right now, Playground, and the pattern is bomber.",
+      "speaker_name": "David Olsson",
+      "start_time": 1526.245,
+      "end_time": 1530.669
+    },
+    {
+      "text": "It's just killer.",
+      "speaker_name": "David Olsson",
+      "start_time": 1530.717,
+      "end_time": 1532.105
+    },
+    {
+      "text": "It's a spreadsheet.",
+      "speaker_name": "David Olsson",
+      "start_time": 1533.125,
+      "end_time": 1534.425
+    },
+    {
+      "text": "It's a spreadsheet in the works.",
+      "speaker_name": "David Olsson",
+      "start_time": 1536.325,
+      "end_time": 1537.985
+    },
+    {
+      "text": "Where it really becomes a spreadsheet is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1539.245,
+      "end_time": 1541.477
+    },
+    {
+      "text": "If I go here and this one is broken, it doesn't work other than the ui.",
+      "speaker_name": "David Olsson",
+      "start_time": 1541.581,
+      "end_time": 1555.185
+    },
+    {
+      "text": "But adding sources and adding prompts, now that's a spreadsheet.",
+      "speaker_name": "David Olsson",
+      "start_time": 1559.765,
+      "end_time": 1565.065
+    },
+    {
+      "text": "And because I can pipe between.",
+      "speaker_name": "David Olsson",
+      "start_time": 1568.925,
+      "end_time": 1573.025
+    },
+    {
+      "text": "My.",
+      "speaker_name": "David Olsson",
+      "start_time": 1576.925,
+      "end_time": 1577.665
+    },
+    {
+      "text": "Results, I have a composable workflow as spreadsheets in a row, you can go.",
+      "speaker_name": "David Olsson",
+      "start_time": 1580.475,
+      "end_time": 1589.123
+    },
+    {
+      "text": "Plus, minus, plus, minus, as you do down the row.",
+      "speaker_name": "David Olsson",
+      "start_time": 1589.179,
+      "end_time": 1591.815
+    },
+    {
+      "text": "Now you can do plus, minus, and.",
+      "speaker_name": "David Olsson",
+      "start_time": 1593.515,
+      "end_time": 1595.019
+    },
+    {
+      "text": "You can do multithreading.",
+      "speaker_name": "David Olsson",
+      "start_time": 1595.027,
+      "end_time": 1596.443
+    },
+    {
+      "text": "In the version that doesn't work, I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1596.579,
+      "end_time": 1598.403
+    },
+    {
+      "text": "Can select more than one result.",
+      "speaker_name": "David Olsson",
+      "start_time": 1598.419,
+      "end_time": 1600.335
+    },
+    {
+      "text": "I could say, generate Personas, generate a.",
+      "speaker_name": "David Olsson",
+      "start_time": 1602.115,
+      "end_time": 1606.823
+    },
+    {
+      "text": "Persona and then generate an idea.",
+      "speaker_name": "David Olsson",
+      "start_time": 1606.919,
+      "end_time": 1608.783
+    },
+    {
+      "text": "And then in the next prompt, bring.",
+      "speaker_name": "David Olsson",
+      "start_time": 1608.839,
+      "end_time": 1610.271
+    },
+    {
+      "text": "The idea and the Persona in.",
+      "speaker_name": "David Olsson",
+      "start_time": 1610.303,
+      "end_time": 1611.463
+    },
+    {
+      "text": "And now apply this process to it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1611.519,
+      "end_time": 1613.635
+    },
+    {
+      "text": "Instead of just saying 1, I would.",
+      "speaker_name": "David Olsson",
+      "start_time": 1615.495,
+      "end_time": 1617.943
+    },
+    {
+      "text": "Be able to select 1, 2, 3, and 4, and those would be the.",
+      "speaker_name": "David Olsson",
+      "start_time": 1617.959,
+      "end_time": 1621.287
+    },
+    {
+      "text": "Content source that then this prompt would act on.",
+      "speaker_name": "David Olsson",
+      "start_time": 1621.351,
+      "end_time": 1624.319
+    },
+    {
+      "text": "At which point I have N8N functional.",
+      "speaker_name": "David Olsson",
+      "start_time": 1624.447,
+      "end_time": 1629.799
+    },
+    {
+      "text": "At the node and spoke level, not with the extant functionality in it, but.",
+      "speaker_name": "David Olsson",
+      "start_time": 1629.967,
+      "end_time": 1635.395
+    },
+    {
+      "text": "This playground.",
+      "speaker_name": "David Olsson",
+      "start_time": 1637.575,
+      "end_time": 1640.079
+    },
+    {
+      "text": "And these are going to be like load playground, load export playground.",
+      "speaker_name": "David Olsson",
+      "start_time": 1640.207,
+      "end_time": 1644.275
+    },
+    {
+      "text": "This has 30 reports in it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1645.535,
+      "end_time": 1647.327
+    },
+    {
+      "text": "And just a couple of these would be useful.",
+      "speaker_name": "David Olsson",
+      "start_time": 1647.431,
+      "end_time": 1651.959
+    },
+    {
+      "text": "And they would take a couple hours.",
+      "speaker_name": "David Olsson",
+      "start_time": 1652.047,
+      "end_time": 1654.415
+    },
+    {
+      "text": "If I was going to hand them.",
+      "speaker_name": "David Olsson",
+      "start_time": 1654.455,
+      "end_time": 1655.223
+    },
+    {
+      "text": "Off to a client, they probably take four hours or to take all the.",
+      "speaker_name": "David Olsson",
+      "start_time": 1655.239,
+      "end_time": 1660.087
+    },
+    {
+      "text": "Reports from one meeting.",
+      "speaker_name": "David Olsson",
+      "start_time": 1660.111,
+      "end_time": 1661.079
+    },
+    {
+      "text": "And to hand it off in a proper format would probably mean a lot of work.",
+      "speaker_name": "David Olsson",
+      "start_time": 1661.127,
+      "end_time": 1665.619
+    },
+    {
+      "text": "And in this case, the only work was my UI run all button in this version doesn't work very well.",
+      "speaker_name": "David Olsson",
+      "start_time": 1665.707,
+      "end_time": 1672.027
+    },
+    {
+      "text": "So the only thing I had, you know, I just had to hit the run buttons.",
+      "speaker_name": "David Olsson",
+      "start_time": 1672.171,
+      "end_time": 1675.083
+    },
+    {
+      "text": "That was it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1675.179,
+      "end_time": 1676.211
+    },
+    {
+      "text": "And then I have, for one interview.",
+      "speaker_name": "David Olsson",
+      "start_time": 1676.403,
+      "end_time": 1679.531
+    },
+    {
+      "text": "I have it broken down into all.",
+      "speaker_name": "David Olsson",
+      "start_time": 1679.683,
+      "end_time": 1682.283
+    },
+    {
+      "text": "The bits and pieces I would build out Personas with.",
+      "speaker_name": "David Olsson",
+      "start_time": 1682.299,
+      "end_time": 1685.095
+    },
+    {
+      "text": "And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project.",
+      "speaker_name": "David Olsson",
+      "start_time": 1685.675,
+      "end_time": 1693.051
+    },
+    {
+      "text": "Build out all the assets to build.",
+      "speaker_name": "David Olsson",
+      "start_time": 1693.123,
+      "end_time": 1694.595
+    },
+    {
+      "text": "Personas, user journeys, every component of what primary research would want to deliver.",
+      "speaker_name": "David Olsson",
+      "start_time": 1694.635,
+      "end_time": 1700.895
+    },
+    {
+      "text": "And these prompts that I have in.",
+      "speaker_name": "David Olsson",
+      "start_time": 1701.315,
+      "end_time": 1704.451
+    },
+    {
+      "text": "Here, they're like scrubs.",
+      "speaker_name": "David Olsson",
+      "start_time": 1704.483,
+      "end_time": 1706.555
+    },
+    {
+      "text": "I just invented them on the go.",
+      "speaker_name": "David Olsson",
+      "start_time": 1706.675,
+      "end_time": 1709.651
+    },
+    {
+      "text": "I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1709.803,
+      "end_time": 1710.235
+    },
+    {
+      "text": "From my UX scrub research, I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1710.315,
+      "end_time": 1712.147
+    },
+    {
+      "text": "I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1712.211,
+      "end_time": 1712.387
+    },
+    {
+      "text": "Wanted things to be really not my stuff, like long.",
+      "speaker_name": "David Olsson",
+      "start_time": 1712.411,
+      "end_time": 1717.221
+    },
+    {
+      "text": "I wanted it to be somewhat articulate, but then having a standardized format so.",
+      "speaker_name": "David Olsson",
+      "start_time": 1717.373,
+      "end_time": 1722.973
+    },
+    {
+      "text": "That people could see that because this is a structured prompt, it's more structured.",
+      "speaker_name": "David Olsson",
+      "start_time": 1722.989,
+      "end_time": 1727.085
+    },
+    {
+      "text": "Than most people's and it's just got two parts.",
+      "speaker_name": "David Olsson",
+      "start_time": 1727.125,
+      "end_time": 1729.705
+    },
+    {
+      "text": "So.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1730.725,
+      "end_time": 1731.061
+    },
+    {
+      "text": "Dave, I had trouble with the piping.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1731.093,
+      "end_time": 1733.869
+    },
+    {
+      "text": "I wasn't able to actually.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1733.917,
+      "end_time": 1735.261
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 1735.333,
+      "end_time": 1735.677
+    },
+    {
+      "text": "Oh, it wasn't working for you?",
+      "speaker_name": "David Olsson",
+      "start_time": 1735.741,
+      "end_time": 1737.345
+    },
+    {
+      "text": "Yeah, it said that it couldn't access the source or something like that.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1737.685,
+      "end_time": 1743.189
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 1743.237,
+      "end_time": 1743.753
+    },
+    {
+      "text": "Okay, so that can be.",
+      "speaker_name": "David Olsson",
+      "start_time": 1743.869,
+      "end_time": 1746.205
+    },
+    {
+      "text": "Oh no, I didn't put in.",
+      "speaker_name": "David Olsson",
+      "start_time": 1752.905,
+      "end_time": 1753.945
+    },
+    {
+      "text": "I didn't put in the password.",
+      "speaker_name": "David Olsson",
+      "start_time": 1753.985,
+      "end_time": 1755.485
+    },
+    {
+      "text": "It's going to give me an error.",
+      "speaker_name": "David Olsson",
+      "start_time": 1756.545,
+      "end_time": 1757.845
+    },
+    {
+      "text": "I didn't put in key.",
+      "speaker_name": "David Olsson",
+      "start_time": 1758.225,
+      "end_time": 1759.485
+    },
+    {
+      "text": "Ok, so thank you.",
+      "speaker_name": "David Olsson",
+      "start_time": 1760.025,
+      "end_time": 1761.405
+    },
+    {
+      "text": "So that context thing that I was talking about in the turtles, the reason.",
+      "speaker_name": "David Olsson",
+      "start_time": 1762.425,
+      "end_time": 1764.953
+    },
+    {
+      "text": "That it's so top of mind is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1764.969,
+      "end_time": 1765.977
+    },
+    {
+      "text": "That when using the AI to code, it will sometimes rewrite code that you.",
+      "speaker_name": "David Olsson",
+      "start_time": 1766.001,
+      "end_time": 1770.657
+    },
+    {
+      "text": "Don'T want it to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1770.681,
+      "end_time": 1771.725
+    },
+    {
+      "text": "And that's what happened is that I.",
+      "speaker_name": "David Olsson",
+      "start_time": 1772.225,
+      "end_time": 1774.937
+    },
+    {
+      "text": "Had the run all button functioning really well.",
+      "speaker_name": "David Olsson",
+      "start_time": 1774.961,
+      "end_time": 1777.209
+    },
+    {
+      "text": "The sequence from left to right, it was beautiful.",
+      "speaker_name": "David Olsson",
+      "start_time": 1777.257,
+      "end_time": 1779.289
+    },
+    {
+      "text": "It would finish one, it would go to the next.",
+      "speaker_name": "David Olsson",
+      "start_time": 1779.337,
+      "end_time": 1781.209
+    },
+    {
+      "text": "Because I want it to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1781.297,
+      "end_time": 1782.145
+    },
+    {
+      "text": "You know, if you're piping from left to right, you need to have what's on the left done.",
+      "speaker_name": "David Olsson",
+      "start_time": 1782.185,
+      "end_time": 1785.889
+    },
+    {
+      "text": "And so my first version was asynchronous.",
+      "speaker_name": "David Olsson",
+      "start_time": 1786.057,
+      "end_time": 1787.905
+    },
+    {
+      "text": "Which was kind of cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 1787.945,
+      "end_time": 1788.801
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "David Olsson",
+      "start_time": 1788.873,
+      "end_time": 1789.105
+    },
+    {
+      "text": "Like that means everything gets done on its own and gets threaded to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1789.145,
+      "end_time": 1792.817
+    },
+    {
+      "text": "It's multi threaded to the, to the.",
+      "speaker_name": "David Olsson",
+      "start_time": 1792.961,
+      "end_time": 1795.033
+    },
+    {
+      "text": "LLM and gets back much faster.",
+      "speaker_name": "David Olsson",
+      "start_time": 1795.049,
+      "end_time": 1797.285
+    },
+    {
+      "text": "It's a great way to burn money.",
+      "speaker_name": "David Olsson",
+      "start_time": 1797.755,
+      "end_time": 1799.255
+    },
+    {
+      "text": "But what I wanted to do is.",
+      "speaker_name": "David Olsson",
+      "start_time": 1800.995,
+      "end_time": 1803.499
+    },
+    {
+      "text": "To be able to, like you say, like, do the piping is like I've.",
+      "speaker_name": "David Olsson",
+      "start_time": 1803.547,
+      "end_time": 1806.563
+    },
+    {
+      "text": "Done something here, bring it in here.",
+      "speaker_name": "David Olsson",
+      "start_time": 1806.579,
+      "end_time": 1809.611
+    },
+    {
+      "text": "As my thing and then run it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1809.803,
+      "end_time": 1812.215
+    },
+    {
+      "text": "And I'm sorry that that broke because it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1812.555,
+      "end_time": 1814.491
+    },
+    {
+      "text": "I've.",
+      "speaker_name": "David Olsson",
+      "start_time": 1814.563,
+      "end_time": 1814.995
+    },
+    {
+      "text": "I've been able to work it in other demos.",
+      "speaker_name": "David Olsson",
+      "start_time": 1815.075,
+      "end_time": 1817.403
+    },
+    {
+      "text": "So it's kind of.",
+      "speaker_name": "David Olsson",
+      "start_time": 1817.459,
+      "end_time": 1818.735
+    },
+    {
+      "text": "Because I've been demoing.",
+      "speaker_name": "David Olsson",
+      "start_time": 1819.595,
+      "end_time": 1820.475
+    },
+    {
+      "text": "I was just curious though, do you just.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1820.515,
+      "end_time": 1823.475
+    },
+    {
+      "text": "Because I was trying to load multiple sources and then I decided, well, I'll just load one at a time and then do an analysis on a source and then I wanted to compare the results.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1823.635,
+      "end_time": 1837.555
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1838.095,
+      "end_time": 1838.479
+    },
+    {
+      "text": "And that's a great use case.",
+      "speaker_name": "David Olsson",
+      "start_time": 1838.527,
+      "end_time": 1840.591
+    },
+    {
+      "text": "Yeah, that's the perfect use case.",
+      "speaker_name": "David Olsson",
+      "start_time": 1840.783,
+      "end_time": 1842.735
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1842.775,
+      "end_time": 1842.951
+    },
+    {
+      "text": "Like that's a great.",
+      "speaker_name": "David Olsson",
+      "start_time": 1842.983,
+      "end_time": 1843.783
+    },
+    {
+      "text": "That's what its utility is supposed to be.",
+      "speaker_name": "David Olsson",
+      "start_time": 1843.879,
+      "end_time": 1845.823
+    },
+    {
+      "text": "And I'm sorry.",
+      "speaker_name": "David Olsson",
+      "start_time": 1845.919,
+      "end_time": 1846.795
+    },
+    {
+      "text": "So I'll just add a note to the transcript, Dave, make sure you look at this as, and describe it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1848.015,
+      "end_time": 1853.929
+    },
+    {
+      "text": "Get it described as the way Hanif did, so that you can then use.",
+      "speaker_name": "David Olsson",
+      "start_time": 1854.017,
+      "end_time": 1856.737
+    },
+    {
+      "text": "That as the vector in.",
+      "speaker_name": "David Olsson",
+      "start_time": 1856.761,
+      "end_time": 1857.721
+    },
+    {
+      "text": "To debug it.",
+      "speaker_name": "David Olsson",
+      "start_time": 1857.753,
+      "end_time": 1858.961
+    },
+    {
+      "text": "I've.",
+      "speaker_name": "David Olsson",
+      "start_time": 1859.153,
+      "end_time": 1859.777
+    },
+    {
+      "text": "I've tried to fix it twice.",
+      "speaker_name": "David Olsson",
+      "start_time": 1859.881,
+      "end_time": 1861.265
+    },
+    {
+      "text": "It takes, you know, a good half.",
+      "speaker_name": "David Olsson",
+      "start_time": 1861.345,
+      "end_time": 1862.761
+    },
+    {
+      "text": "An hour at a time to be.",
+      "speaker_name": "David Olsson",
+      "start_time": 1862.793,
+      "end_time": 1864.033
+    },
+    {
+      "text": "Able to, to work a solution and my time is pretty tight.",
+      "speaker_name": "David Olsson",
+      "start_time": 1864.049,
+      "end_time": 1869.081
+    },
+    {
+      "text": "So I've been trying to.",
+      "speaker_name": "David Olsson",
+      "start_time": 1869.153,
+      "end_time": 1871.401
+    },
+    {
+      "text": "Because I'm just discussing with people, you know, trying to get their interest.",
+      "speaker_name": "David Olsson",
+      "start_time": 1871.513,
+      "end_time": 1875.873
+    },
+    {
+      "text": "There's just way too many things all at once.",
+      "speaker_name": "David Olsson",
+      "start_time": 1876.009,
+      "end_time": 1877.721
+    },
+    {
+      "text": "But I want this tool to be.",
+      "speaker_name": "David Olsson",
+      "start_time": 1877.753,
+      "end_time": 1879.727
+    },
+    {
+      "text": "Bomber by the end of the week so that I can use it more effectively.",
+      "speaker_name": "David Olsson",
+      "start_time": 1879.751,
+      "end_time": 1884.675
+    },
+    {
+      "text": "We have interviews in the, in the quality control project and the stuff I'm pulling out of just with this report, like doing this manually once.",
+      "speaker_name": "David Olsson",
+      "start_time": 1885.055,
+      "end_time": 1892.311
+    },
+    {
+      "text": "It's incredibly good, it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 1892.423,
+      "end_time": 1894.991
+    },
+    {
+      "text": "It's helping.",
+      "speaker_name": "David Olsson",
+      "start_time": 1895.183,
+      "end_time": 1896.235
+    },
+    {
+      "text": "Yeah, some of the interviews are shite.",
+      "speaker_name": "David Olsson",
+      "start_time": 1898.855,
+      "end_time": 1900.535
+    },
+    {
+      "text": "In terms of, you know, they're all leading, you know, because people don't know how to read research.",
+      "speaker_name": "David Olsson",
+      "start_time": 1900.615,
+      "end_time": 1904.445
+    },
+    {
+      "text": "And this allows to work with the bias.",
+      "speaker_name": "David Olsson",
+      "start_time": 1905.305,
+      "end_time": 1908.085
+    },
+    {
+      "text": "Yeah, I was just able to copy the results of one and put it into.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1908.985,
+      "end_time": 1914.205
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1914.665,
+      "end_time": 1915.405
+    },
+    {
+      "text": "The prompt and then.",
+      "speaker_name": "David Olsson",
+      "start_time": 1916.105,
+      "end_time": 1917.473
+    },
+    {
+      "text": "Yeah, and then.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 1917.529,
+      "end_time": 1918.525
+    },
+    {
+      "text": "Yeah, and so that's why the copy and paste was there initially to be able to do that because I didn't.",
+      "speaker_name": "David Olsson",
+      "start_time": 1919.025,
+      "end_time": 1926.849
+    },
+    {
+      "text": "Have the piping and I'm like, well.",
+      "speaker_name": "David Olsson",
+      "start_time": 1926.897,
+      "end_time": 1930.393
+    },
+    {
+      "text": "With the copy and paste I can pipe.",
+      "speaker_name": "David Olsson",
+      "start_time": 1930.409,
+      "end_time": 1931.965
+    },
+    {
+      "text": "And so it's moving from me working.",
+      "speaker_name": "David Olsson",
+      "start_time": 1932.585,
+      "end_time": 1936.777
+    },
+    {
+      "text": "In spreadsheets to me trying to enable.",
+      "speaker_name": "David Olsson",
+      "start_time": 1936.801,
+      "end_time": 1938.881
+    },
+    {
+      "text": "That as a ui.",
+      "speaker_name": "David Olsson",
+      "start_time": 1938.953,
+      "end_time": 1940.525
+    },
+    {
+      "text": "And so I really appreciate that feedback because this is another interesting thing working this way.",
+      "speaker_name": "David Olsson",
+      "start_time": 1941.225,
+      "end_time": 1948.005
+    },
+    {
+      "text": "You're doing your best to describe things.",
+      "speaker_name": "David Olsson",
+      "start_time": 1950.465,
+      "end_time": 1952.913
+    },
+    {
+      "text": "In a concise manner and minimize how much is being touched by the AI.",
+      "speaker_name": "David Olsson",
+      "start_time": 1952.969,
+      "end_time": 1957.605
+    },
+    {
+      "text": "And so that's levels of, that's like levels of encapsulation.",
+      "speaker_name": "David Olsson",
+      "start_time": 1958.325,
+      "end_time": 1963.825
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 1964.885,
+      "end_time": 1965.197
+    },
+    {
+      "text": "So like, don't touch this, don't touch that, don't touch this, don't touch that.",
+      "speaker_name": "David Olsson",
+      "start_time": 1965.221,
+      "end_time": 1968.465
+    },
+    {
+      "text": "And that gets really long.",
+      "speaker_name": "David Olsson",
+      "start_time": 1969.445,
+      "end_time": 1971.069
+    },
+    {
+      "text": "So having a programmatic way of saying.",
+      "speaker_name": "David Olsson",
+      "start_time": 1971.157,
+      "end_time": 1972.901
+    },
+    {
+      "text": "You know, I want to do that is great.",
+      "speaker_name": "David Olsson",
+      "start_time": 1972.973,
+      "end_time": 1974.549
+    },
+    {
+      "text": "Now Klein does these whole hot calls.",
+      "speaker_name": "David Olsson",
+      "start_time": 1974.677,
+      "end_time": 1978.669
+    },
+    {
+      "text": "And tries to fix things in a whole way.",
+      "speaker_name": "David Olsson",
+      "start_time": 1978.757,
+      "end_time": 1981.705
+    },
+    {
+      "text": "Cursor AI, you can highlight code and then you can try to fix little.",
+      "speaker_name": "David Olsson",
+      "start_time": 1982.005,
+      "end_time": 1985.541
+    },
+    {
+      "text": "Bits and pieces of code.",
+      "speaker_name": "David Olsson",
+      "start_time": 1985.573,
+      "end_time": 1986.861
+    },
+    {
+      "text": "And that's a different paradigm.",
+      "speaker_name": "David Olsson",
+      "start_time": 1986.973,
+      "end_time": 1988.157
+    },
+    {
+      "text": "It's a much better paradigm, but it's not as effective.",
+      "speaker_name": "David Olsson",
+      "start_time": 1988.181,
+      "end_time": 1992.065
+    },
+    {
+      "text": "So there you go.",
+      "speaker_name": "David Olsson",
+      "start_time": 1994.525,
+      "end_time": 1995.901
+    },
+    {
+      "text": "And right now my limit is like.",
+      "speaker_name": "David Olsson",
+      "start_time": 1996.013,
+      "end_time": 1997.717
+    },
+    {
+      "text": "1200 lines of code.",
+      "speaker_name": "David Olsson",
+      "start_time": 1997.821,
+      "end_time": 2002.701
+    },
+    {
+      "text": "Anything beyond that, you're hoopy but it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2002.733,
+      "end_time": 2006.117
+    },
+    {
+      "text": "Should be the case and I'll make sure that I follow up with everybody.",
+      "speaker_name": "David Olsson",
+      "start_time": 2006.141,
+      "end_time": 2009.061
+    },
+    {
+      "text": "That I've tested it and put the link in our Slack channel that you can do this piping in a version of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2009.093,
+      "end_time": 2018.815
+    },
+    {
+      "text": "You do multi select and the UI works because it's showing all the results.",
+      "speaker_name": "David Olsson",
+      "start_time": 2019.755,
+      "end_time": 2024.655
+    },
+    {
+      "text": "But it didn't work in terms of the send to the LLM.",
+      "speaker_name": "David Olsson",
+      "start_time": 2026.555,
+      "end_time": 2030.295
+    },
+    {
+      "text": "So tracing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2031.995,
+      "end_time": 2034.179
+    },
+    {
+      "text": "Can I ask a question?",
+      "speaker_name": "James Giroday",
+      "start_time": 2034.307,
+      "end_time": 2035.455
+    },
+    {
+      "text": "Earlier you described maybe handing some stuff.",
+      "speaker_name": "James Giroday",
+      "start_time": 2036.675,
+      "end_time": 2038.909
+    },
+    {
+      "text": "Stuff off for opportunities for stuff like that.",
+      "speaker_name": "James Giroday",
+      "start_time": 2038.947,
+      "end_time": 2042.525
+    },
+    {
+      "text": "I would wouldn't mind watching the rest of this demo with a bit of an idea about what that might be.",
+      "speaker_name": "James Giroday",
+      "start_time": 2043.505,
+      "end_time": 2048.473
+    },
+    {
+      "text": "Any, any ideas what you're.",
+      "speaker_name": "James Giroday",
+      "start_time": 2048.529,
+      "end_time": 2049.993
+    },
+    {
+      "text": "What you have in mind in terms of demos.",
+      "speaker_name": "David Olsson",
+      "start_time": 2050.089,
+      "end_time": 2052.577
+    },
+    {
+      "text": "Sorry, in terms of like you said you wanted to change.",
+      "speaker_name": "James Giroday",
+      "start_time": 2052.641,
+      "end_time": 2055.905
+    },
+    {
+      "text": "Oh, to hand off.",
+      "speaker_name": "David Olsson",
+      "start_time": 2055.945,
+      "end_time": 2056.849
+    },
+    {
+      "text": "Yeah, yeah, yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 2056.977,
+      "end_time": 2058.889
+    },
+    {
+      "text": "So there's certain people I know have certain roles and they're top of mind.",
+      "speaker_name": "David Olsson",
+      "start_time": 2058.937,
+      "end_time": 2066.407
+    },
+    {
+      "text": "When I'm trying to think of how to position this.",
+      "speaker_name": "David Olsson",
+      "start_time": 2066.431,
+      "end_time": 2068.967
+    },
+    {
+      "text": "And the piping was a big one.",
+      "speaker_name": "David Olsson",
+      "start_time": 2069.071,
+      "end_time": 2070.755
+    },
+    {
+      "text": "But this UX workflow that I have, I know a lot of UX and they do a lot of primary research.",
+      "speaker_name": "David Olsson",
+      "start_time": 2071.455,
+      "end_time": 2078.871
+    },
+    {
+      "text": "And I'm sure they would, if it didn't cost them any time, they would throw a handful of interviews at this just to get the results.",
+      "speaker_name": "David Olsson",
+      "start_time": 2078.943,
+      "end_time": 2087.995
+    },
+    {
+      "text": "And so I think of that that's one problem.",
+      "speaker_name": "David Olsson",
+      "start_time": 2089.575,
+      "end_time": 2091.839
+    },
+    {
+      "text": "Sets people are in marketing, people don't have a marketing team.",
+      "speaker_name": "David Olsson",
+      "start_time": 2091.887,
+      "end_time": 2095.181
+    },
+    {
+      "text": "You know, I built all these agencies.",
+      "speaker_name": "David Olsson",
+      "start_time": 2095.333,
+      "end_time": 2096.709
+    },
+    {
+      "text": "And now I'm trying to leverage the agencies with specificity.",
+      "speaker_name": "David Olsson",
+      "start_time": 2096.757,
+      "end_time": 2099.865
+    },
+    {
+      "text": "The direct to consumer stuff, it's in an agent, it's in a playground right now and it works on I pass it my fidget spinner and it produces.",
+      "speaker_name": "David Olsson",
+      "start_time": 2101.165,
+      "end_time": 2108.269
+    },
+    {
+      "text": "Okay results.",
+      "speaker_name": "David Olsson",
+      "start_time": 2108.397,
+      "end_time": 2109.505
+    },
+    {
+      "text": "And it's sitting there and I'm not going to let people use.",
+      "speaker_name": "David Olsson",
+      "start_time": 2111.525,
+      "end_time": 2115.149
+    },
+    {
+      "text": "It until it does better than that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2115.157,
+      "end_time": 2116.221
+    },
+    {
+      "text": "But that's what I'm looking at right now is trying to enable simple use cases like here's four or five steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 2116.253,
+      "end_time": 2122.205
+    },
+    {
+      "text": "Or for people to do research.",
+      "speaker_name": "David Olsson",
+      "start_time": 2122.365,
+      "end_time": 2124.309
+    },
+    {
+      "text": "Their problem isn't four or five steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 2124.437,
+      "end_time": 2126.029
+    },
+    {
+      "text": "They know four or five steps.",
+      "speaker_name": "David Olsson",
+      "start_time": 2126.077,
+      "end_time": 2127.557
+    },
+    {
+      "text": "They want to do four or five.",
+      "speaker_name": "David Olsson",
+      "start_time": 2127.741,
+      "end_time": 2128.789
+    },
+    {
+      "text": "Steps 10 times or do like I do 30 steps and then do them 50 times.",
+      "speaker_name": "David Olsson",
+      "start_time": 2128.837,
+      "end_time": 2135.425
+    },
+    {
+      "text": "And so you create 3,000 knowledge blobs that are actual full on reports.",
+      "speaker_name": "David Olsson",
+      "start_time": 2136.605,
+      "end_time": 2141.465
+    },
+    {
+      "text": "So there's probably 100.",
+      "speaker_name": "David Olsson",
+      "start_time": 2141.805,
+      "end_time": 2146.155
+    },
+    {
+      "text": "No, there's 300,000 data points at least.",
+      "speaker_name": "David Olsson",
+      "start_time": 2147.215,
+      "end_time": 2150.031
+    },
+    {
+      "text": "No, it's probably half a million data.",
+      "speaker_name": "David Olsson",
+      "start_time": 2150.183,
+      "end_time": 2151.535
+    },
+    {
+      "text": "Points in a report that has 30 interviews.",
+      "speaker_name": "David Olsson",
+      "start_time": 2151.575,
+      "end_time": 2154.075
+    },
+    {
+      "text": "That's a lot.",
+      "speaker_name": "David Olsson",
+      "start_time": 2154.895,
+      "end_time": 2156.035
+    },
+    {
+      "text": "And then because it's all structured, it's wonderful.",
+      "speaker_name": "David Olsson",
+      "start_time": 2156.575,
+      "end_time": 2159.555
+    },
+    {
+      "text": "It's really wonderful.",
+      "speaker_name": "David Olsson",
+      "start_time": 2161.895,
+      "end_time": 2163.195
+    },
+    {
+      "text": "So that's kind of, that's what I wanted to bring to the Team today.",
+      "speaker_name": "David Olsson",
+      "start_time": 2163.615,
+      "end_time": 2166.591
+    },
+    {
+      "text": "I want to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2166.623,
+      "end_time": 2167.063
+    },
+    {
+      "text": "I want.",
+      "speaker_name": "David Olsson",
+      "start_time": 2167.119,
+      "end_time": 2167.431
+    },
+    {
+      "text": "I really do want to, like, with this forming and Henny having very articulate questions.",
+      "speaker_name": "David Olsson",
+      "start_time": 2167.463,
+      "end_time": 2171.823
+    },
+    {
+      "text": "I want to be.",
+      "speaker_name": "David Olsson",
+      "start_time": 2171.919,
+      "end_time": 2172.407
+    },
+    {
+      "text": "And James, you're pointing to it as well.",
+      "speaker_name": "David Olsson",
+      "start_time": 2172.431,
+      "end_time": 2173.887
+    },
+    {
+      "text": "Is like, that's where things are at.",
+      "speaker_name": "David Olsson",
+      "start_time": 2173.911,
+      "end_time": 2175.271
+    },
+    {
+      "text": "Right now for me.",
+      "speaker_name": "David Olsson",
+      "start_time": 2175.303,
+      "end_time": 2175.951
+    },
+    {
+      "text": "And I think.",
+      "speaker_name": "David Olsson",
+      "start_time": 2175.983,
+      "end_time": 2176.755
+    },
+    {
+      "text": "You know, the question.",
+      "speaker_name": "David Olsson",
+      "start_time": 2178.975,
+      "end_time": 2179.823
+    },
+    {
+      "text": "Of how to use it and what it's useful for are known, like, at least conceptually.",
+      "speaker_name": "David Olsson",
+      "start_time": 2179.879,
+      "end_time": 2185.151
+    },
+    {
+      "text": "But how to work with it differently is tough.",
+      "speaker_name": "David Olsson",
+      "start_time": 2185.223,
+      "end_time": 2188.575
+    },
+    {
+      "text": "That's.",
+      "speaker_name": "James Giroday",
+      "start_time": 2188.695,
+      "end_time": 2189.143
+    },
+    {
+      "text": "Is that what you're kind of, like, looking for a bit of feedback on is, like, how maybe, like.",
+      "speaker_name": "James Giroday",
+      "start_time": 2189.239,
+      "end_time": 2194.607
+    },
+    {
+      "text": "Because that.",
+      "speaker_name": "James Giroday",
+      "start_time": 2194.671,
+      "end_time": 2195.007
+    },
+    {
+      "text": "One of the questions that is how to use it and just like, feedback sort of.",
+      "speaker_name": "James Giroday",
+      "start_time": 2195.031,
+      "end_time": 2199.809
+    },
+    {
+      "text": "Yeah, yeah, I had a.",
+      "speaker_name": "James Giroday",
+      "start_time": 2199.857,
+      "end_time": 2202.225
+    },
+    {
+      "text": "Yeah, sorry, go ahead.",
+      "speaker_name": "James Giroday",
+      "start_time": 2202.345,
+      "end_time": 2203.385
+    },
+    {
+      "text": "No, no, that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2203.505,
+      "end_time": 2204.265
+    },
+    {
+      "text": "That's completely.",
+      "speaker_name": "David Olsson",
+      "start_time": 2204.345,
+      "end_time": 2204.905
+    },
+    {
+      "text": "Is like one, what are you doing?",
+      "speaker_name": "David Olsson",
+      "start_time": 2204.945,
+      "end_time": 2206.673
+    },
+    {
+      "text": "Is a big one, and then two, if you're using it, how are you.",
+      "speaker_name": "David Olsson",
+      "start_time": 2206.769,
+      "end_time": 2210.353
+    },
+    {
+      "text": "Because it does allow for a bunch.",
+      "speaker_name": "David Olsson",
+      "start_time": 2210.409,
+      "end_time": 2212.465
+    },
+    {
+      "text": "Of different use cases.",
+      "speaker_name": "David Olsson",
+      "start_time": 2212.505,
+      "end_time": 2214.449
+    },
+    {
+      "text": "Like just structured use cases.",
+      "speaker_name": "David Olsson",
+      "start_time": 2214.537,
+      "end_time": 2216.961
+    },
+    {
+      "text": "Totally.",
+      "speaker_name": "James Giroday",
+      "start_time": 2217.113,
+      "end_time": 2217.641
+    },
+    {
+      "text": "Okay, got it.",
+      "speaker_name": "James Giroday",
+      "start_time": 2217.713,
+      "end_time": 2218.489
+    },
+    {
+      "text": "Nice.",
+      "speaker_name": "James Giroday",
+      "start_time": 2218.537,
+      "end_time": 2218.769
+    },
+    {
+      "text": "That makes sense.",
+      "speaker_name": "James Giroday",
+      "start_time": 2218.817,
+      "end_time": 2219.729
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "James Giroday",
+      "start_time": 2219.897,
+      "end_time": 2220.449
+    },
+    {
+      "text": "So are you thinking of, like, maybe enhancing these cards?",
+      "speaker_name": "James Giroday",
+      "start_time": 2220.537,
+      "end_time": 2225.363
+    },
+    {
+      "text": "The cards is like one of the main things I've glommed onto, if you'll excuse.",
+      "speaker_name": "James Giroday",
+      "start_time": 2225.529,
+      "end_time": 2230.315
+    },
+    {
+      "text": "Yeah, yeah, I'm done to that one big time.",
+      "speaker_name": "James Giroday",
+      "start_time": 2230.615,
+      "end_time": 2232.879
+    },
+    {
+      "text": "Yeah, the cards make a lot of sense to me.",
+      "speaker_name": "James Giroday",
+      "start_time": 2233.047,
+      "end_time": 2234.791
+    },
+    {
+      "text": "Like, they're kind of easy to understand.",
+      "speaker_name": "James Giroday",
+      "start_time": 2234.823,
+      "end_time": 2237.015
+    },
+    {
+      "text": "And are you considering, like, enhancing the cards in any way?",
+      "speaker_name": "James Giroday",
+      "start_time": 2237.175,
+      "end_time": 2241.655
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "David Olsson",
+      "start_time": 2241.815,
+      "end_time": 2242.287
+    },
+    {
+      "text": "So what in this version.",
+      "speaker_name": "David Olsson",
+      "start_time": 2242.351,
+      "end_time": 2245.847
+    },
+    {
+      "text": "Yeah, you can see there's a toolbar here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2246.031,
+      "end_time": 2248.075
+    },
+    {
+      "text": "And that toolbar has conceptually extended to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2249.295,
+      "end_time": 2252.515
+    },
+    {
+      "text": "One that has the whatever the AI wizard button thing looks like.",
+      "speaker_name": "David Olsson",
+      "start_time": 2252.815,
+      "end_time": 2258.915
+    },
+    {
+      "text": "And then from that, you know, right below this, it says chat with this content, and so you can chat with the results right in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 2259.815,
+      "end_time": 2270.319
+    },
+    {
+      "text": "Where there's a big opportunity for that is so in every card where there's a result text field, the opportunity to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2270.407,
+      "end_time": 2280.889
+    },
+    {
+      "text": "Analyze that in context is incredibly valuable.",
+      "speaker_name": "David Olsson",
+      "start_time": 2281.057,
+      "end_time": 2285.285
+    },
+    {
+      "text": "And so adding more features into the.",
+      "speaker_name": "David Olsson",
+      "start_time": 2285.585,
+      "end_time": 2287.825
+    },
+    {
+      "text": "Card to make the card provide you.",
+      "speaker_name": "David Olsson",
+      "start_time": 2287.865,
+      "end_time": 2291.321
+    },
+    {
+      "text": "More than just the result.",
+      "speaker_name": "David Olsson",
+      "start_time": 2291.353,
+      "end_time": 2292.425
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2292.505,
+      "end_time": 2292.745
+    },
+    {
+      "text": "So, sure, that's a great Persona.",
+      "speaker_name": "David Olsson",
+      "start_time": 2292.785,
+      "end_time": 2296.729
+    },
+    {
+      "text": "Can you make it just 20 words?",
+      "speaker_name": "David Olsson",
+      "start_time": 2296.817,
+      "end_time": 2299.025
+    },
+    {
+      "text": "You know, can you focus this Persona on being active this way?",
+      "speaker_name": "David Olsson",
+      "start_time": 2299.145,
+      "end_time": 2305.147
+    },
+    {
+      "text": "So, like, in many prop systems, there's like an enhance button, and that's kind.",
+      "speaker_name": "David Olsson",
+      "start_time": 2305.281,
+      "end_time": 2311.799
+    },
+    {
+      "text": "Of how I saw it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2311.807,
+      "end_time": 2312.367
+    },
+    {
+      "text": "It's like if you have a Persona and the initial ones are pretty.",
+      "speaker_name": "David Olsson",
+      "start_time": 2312.391,
+      "end_time": 2317.315
+    },
+    {
+      "text": "Pretty simple.",
+      "speaker_name": "David Olsson",
+      "start_time": 2317.855,
+      "end_time": 2319.395
+    },
+    {
+      "text": "Enhance, and you have an.",
+      "speaker_name": "James Giroday",
+      "start_time": 2321.455,
+      "end_time": 2323.431
+    },
+    {
+      "text": "Enhanced button, and then I give you.",
+      "speaker_name": "David Olsson",
+      "start_time": 2323.463,
+      "end_time": 2324.663
+    },
+    {
+      "text": "A work sauna Persona, and you're like, whoa.",
+      "speaker_name": "David Olsson",
+      "start_time": 2324.679,
+      "end_time": 2326.875
+    },
+    {
+      "text": "But the card level, that's one thing where I want to integrate the tools to be say, well, here's my prompt.",
+      "speaker_name": "David Olsson",
+      "start_time": 2329.335,
+      "end_time": 2336.119
+    },
+    {
+      "text": "There's a lot of prompt optimizers out there.",
+      "speaker_name": "David Olsson",
+      "start_time": 2336.287,
+      "end_time": 2340.615
+    },
+    {
+      "text": "And the reason Is because it's easy because you add your structure and then.",
+      "speaker_name": "David Olsson",
+      "start_time": 2340.695,
+      "end_time": 2346.623
+    },
+    {
+      "text": "You say, make it like this.",
+      "speaker_name": "David Olsson",
+      "start_time": 2346.799,
+      "end_time": 2348.231
+    },
+    {
+      "text": "And so you could do that here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2348.343,
+      "end_time": 2350.591
+    },
+    {
+      "text": "You could enhance the prompt and then you can say, analyze the result.",
+      "speaker_name": "David Olsson",
+      "start_time": 2350.623,
+      "end_time": 2353.951
+    },
+    {
+      "text": "That's one thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2354.103,
+      "end_time": 2355.315
+    },
+    {
+      "text": "The real spreadsheet thing is, well, you got the piping from left to right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2356.265,
+      "end_time": 2359.817
+    },
+    {
+      "text": "So you can work your magic from this cell to this cell to this.",
+      "speaker_name": "David Olsson",
+      "start_time": 2359.841,
+      "end_time": 2363.113
+    },
+    {
+      "text": "Cell to this cell.",
+      "speaker_name": "David Olsson",
+      "start_time": 2363.129,
+      "end_time": 2364.049
+    },
+    {
+      "text": "And then at the end you could have a composite result, right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2364.177,
+      "end_time": 2367.377
+    },
+    {
+      "text": "You could say average everything or no, that's not good because they're all separate reports.",
+      "speaker_name": "David Olsson",
+      "start_time": 2367.481,
+      "end_time": 2371.849
+    },
+    {
+      "text": "Create a project plan based on all.",
+      "speaker_name": "David Olsson",
+      "start_time": 2372.017,
+      "end_time": 2373.657
+    },
+    {
+      "text": "Of the results, which is great.",
+      "speaker_name": "David Olsson",
+      "start_time": 2373.681,
+      "end_time": 2375.961
+    },
+    {
+      "text": "That would say you have a longitudinal.",
+      "speaker_name": "David Olsson",
+      "start_time": 2376.153,
+      "end_time": 2378.009
+    },
+    {
+      "text": "View on all these reports.",
+      "speaker_name": "David Olsson",
+      "start_time": 2378.097,
+      "end_time": 2380.673
+    },
+    {
+      "text": "Now, if you want to have a vertical view, that's the super big powerful.",
+      "speaker_name": "David Olsson",
+      "start_time": 2380.849,
+      "end_time": 2384.471
+    },
+    {
+      "text": "Thing that I want to figure out next.",
+      "speaker_name": "David Olsson",
+      "start_time": 2384.503,
+      "end_time": 2386.055
+    },
+    {
+      "text": "And that is this prompt is being executed against all of these things over here.",
+      "speaker_name": "David Olsson",
+      "start_time": 2386.215,
+      "end_time": 2391.555
+    },
+    {
+      "text": "All these.",
+      "speaker_name": "David Olsson",
+      "start_time": 2393.215,
+      "end_time": 2394.063
+    },
+    {
+      "text": "If they're interviews, then the results are going to be structured the same way.",
+      "speaker_name": "David Olsson",
+      "start_time": 2394.199,
+      "end_time": 2398.031
+    },
+    {
+      "text": "And so at the bottom of each of these columns, there would be a very interesting card.",
+      "speaker_name": "David Olsson",
+      "start_time": 2398.143,
+      "end_time": 2405.355
+    },
+    {
+      "text": "And the card would allow you to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2406.095,
+      "end_time": 2408.115
+    },
+    {
+      "text": "Analyze all columnar results.",
+      "speaker_name": "David Olsson",
+      "start_time": 2408.935,
+      "end_time": 2412.505
+    },
+    {
+      "text": "And then it's a spreadsheet.",
+      "speaker_name": "David Olsson",
+      "start_time": 2414.205,
+      "end_time": 2416.265
+    },
+    {
+      "text": "Okay, I got a question here.",
+      "speaker_name": "James Giroday",
+      "start_time": 2419.045,
+      "end_time": 2422.065
+    },
+    {
+      "text": "Have you considered just having like all of these, like, there's two different playground layouts here that we're looking at.",
+      "speaker_name": "James Giroday",
+      "start_time": 2423.205,
+      "end_time": 2430.565
+    },
+    {
+      "text": "Have you considered bringing those both into just like one page where you can toggle between layouts using like a tray and maybe like, maybe there's like.",
+      "speaker_name": "James Giroday",
+      "start_time": 2430.685,
+      "end_time": 2447.307
+    },
+    {
+      "text": "These are all fairly, for lack of a better word, not intimidating, but like complex.",
+      "speaker_name": "James Giroday",
+      "start_time": 2447.331,
+      "end_time": 2455.095
+    },
+    {
+      "text": "Yeah, layouts.",
+      "speaker_name": "James Giroday",
+      "start_time": 2455.835,
+      "end_time": 2457.043
+    },
+    {
+      "text": "Maybe there's one where there's like, you just see one card at a time.",
+      "speaker_name": "James Giroday",
+      "start_time": 2457.179,
+      "end_time": 2460.855
+    },
+    {
+      "text": "And because the card is like a structure all unto its own, I think it's like really powerful if you maybe you just see one card at a time and then you can like, you know, like cycle through images.",
+      "speaker_name": "James Giroday",
+      "start_time": 2461.395,
+      "end_time": 2479.401
+    },
+    {
+      "text": "Like you can go back or forward.",
+      "speaker_name": "James Giroday",
+      "start_time": 2479.473,
+      "end_time": 2481.249
+    },
+    {
+      "text": "But what I'm saying is like, I guess.",
+      "speaker_name": "James Giroday",
+      "start_time": 2481.337,
+      "end_time": 2485.045
+    },
+    {
+      "text": "Oh, can't hear you.",
+      "speaker_name": "David Olsson",
+      "start_time": 2490.155,
+      "end_time": 2492.935
+    },
+    {
+      "text": "You're on mute.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 2493.515,
+      "end_time": 2494.195
+    },
+    {
+      "text": "James.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 2494.235,
+      "end_time": 2494.855
+    },
+    {
+      "text": "Oh, yeah, Somehow I muted myself.",
+      "speaker_name": "James Giroday",
+      "start_time": 2495.675,
+      "end_time": 2498.531
+    },
+    {
+      "text": "Anyways, on like, design wise, a lot of the.",
+      "speaker_name": "James Giroday",
+      "start_time": 2498.643,
+      "end_time": 2503.375
+    },
+    {
+      "text": "What I try to do is just throw options out there and then like, you know, call them down later.",
+      "speaker_name": "James Giroday",
+      "start_time": 2503.715,
+      "end_time": 2511.695
+    },
+    {
+      "text": "And that might be one way to look at it in terms of the.",
+      "speaker_name": "James Giroday",
+      "start_time": 2512.075,
+      "end_time": 2516.445
+    },
+    {
+      "text": "I like what you're pointing to is the card and I recognize the card.",
+      "speaker_name": "David Olsson",
+      "start_time": 2517.545,
+      "end_time": 2520.505
+    },
+    {
+      "text": "Is super limiting the view that it is.",
+      "speaker_name": "David Olsson",
+      "start_time": 2520.545,
+      "end_time": 2522.953
+    },
+    {
+      "text": "And adding a button that says enhance is just going to be like a thumbnail button.",
+      "speaker_name": "David Olsson",
+      "start_time": 2523.129,
+      "end_time": 2528.321
+    },
+    {
+      "text": "And you're like, well, what's that?",
+      "speaker_name": "David Olsson",
+      "start_time": 2528.353,
+      "end_time": 2530.073
+    },
+    {
+      "text": "And you can't really read things very well.",
+      "speaker_name": "David Olsson",
+      "start_time": 2530.169,
+      "end_time": 2531.881
+    },
+    {
+      "text": "So my notion is the card should extend out.",
+      "speaker_name": "David Olsson",
+      "start_time": 2531.913,
+      "end_time": 2534.685
+    },
+    {
+      "text": "Extend out on the screen, just like a canvas or whatever, a.",
+      "speaker_name": "David Olsson",
+      "start_time": 2536.585,
+      "end_time": 2540.625
+    },
+    {
+      "text": "Modal dialogue, whatever you want to call it, where you're working within the card and then in a way that it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 2540.705,
+      "end_time": 2545.771
+    },
+    {
+      "text": "Taking over the screen.",
+      "speaker_name": "David Olsson",
+      "start_time": 2545.843,
+      "end_time": 2547.139
+    },
+    {
+      "text": "And then the reason I arrived at that is because there's a new card.",
+      "speaker_name": "David Olsson",
+      "start_time": 2547.307,
+      "end_time": 2550.947
+    },
+    {
+      "text": "I want to introduce and that's the.",
+      "speaker_name": "David Olsson",
+      "start_time": 2550.971,
+      "end_time": 2552.443
+    },
+    {
+      "text": "Scenario card and that's the contextualizing and the constraints around the whole of the workflow.",
+      "speaker_name": "David Olsson",
+      "start_time": 2552.499,
+      "end_time": 2558.295
+    },
+    {
+      "text": "And so as soon as I introduce.",
+      "speaker_name": "David Olsson",
+      "start_time": 2558.675,
+      "end_time": 2562.043
+    },
+    {
+      "text": "That, then I have, then I'm saying, well, every prompt that goes to the LLM is going to be contextualized, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2562.099,
+      "end_time": 2568.251
+    },
+    {
+      "text": "It's like, okay, I use the phrase.",
+      "speaker_name": "David Olsson",
+      "start_time": 2568.283,
+      "end_time": 2570.331
+    },
+    {
+      "text": "I'm salting my steak, I'm sending the steak.",
+      "speaker_name": "David Olsson",
+      "start_time": 2570.363,
+      "end_time": 2572.155
+    },
+    {
+      "text": "And now the salt is going to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2572.195,
+      "end_time": 2573.483
+    },
+    {
+      "text": "Be this context and the context is going to make sure that what the.",
+      "speaker_name": "David Olsson",
+      "start_time": 2573.499,
+      "end_time": 2577.633
+    },
+    {
+      "text": "Results come back are going to be focused.",
+      "speaker_name": "David Olsson",
+      "start_time": 2577.649,
+      "end_time": 2579.885
+    },
+    {
+      "text": "And so that was, that's a really powerful thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2580.385,
+      "end_time": 2583.185
+    },
+    {
+      "text": "And that scenario card, I've already designed.",
+      "speaker_name": "David Olsson",
+      "start_time": 2583.305,
+      "end_time": 2585.881
+    },
+    {
+      "text": "A scenario because I've been doing this kind of stuff.",
+      "speaker_name": "David Olsson",
+      "start_time": 2585.913,
+      "end_time": 2588.321
+    },
+    {
+      "text": "And the scenario has different components, constraints, you know, description.",
+      "speaker_name": "David Olsson",
+      "start_time": 2588.473,
+      "end_time": 2592.945
+    },
+    {
+      "text": "So those are all field areas, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2592.985,
+      "end_time": 2595.121
+    },
+    {
+      "text": "So it requires a different type of input because I don't want it to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2595.273,
+      "end_time": 2598.793
+    },
+    {
+      "text": "Be paragraphs, I want it to be broken out so that people say that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2598.809,
+      "end_time": 2602.273
+    },
+    {
+      "text": "Oh, okay, I got that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2602.329,
+      "end_time": 2603.649
+    },
+    {
+      "text": "This is a component, I got a view this way.",
+      "speaker_name": "David Olsson",
+      "start_time": 2603.697,
+      "end_time": 2605.953
+    },
+    {
+      "text": "And so that requires a UI that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2606.089,
+      "end_time": 2607.817
+    },
+    {
+      "text": "Has a card that is scrollable in.",
+      "speaker_name": "David Olsson",
+      "start_time": 2607.881,
+      "end_time": 2610.377
+    },
+    {
+      "text": "Different sections and at which point it breaks the model.",
+      "speaker_name": "David Olsson",
+      "start_time": 2610.441,
+      "end_time": 2614.465
+    },
+    {
+      "text": "And so my design pattern has been since I understood programming is we do everything the same until we don't have to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2614.505,
+      "end_time": 2624.005
+    },
+    {
+      "text": "And so I feel lucky that I've relied on my training such, you know, intuitively.",
+      "speaker_name": "David Olsson",
+      "start_time": 2624.825,
+      "end_time": 2629.879
+    },
+    {
+      "text": "And I have an amazing pattern in place.",
+      "speaker_name": "David Olsson",
+      "start_time": 2630.007,
+      "end_time": 2633.711
+    },
+    {
+      "text": "And it's not even like, it's just amazing how I've applied it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2633.903,
+      "end_time": 2638.263
+    },
+    {
+      "text": "And it's a simple pattern, it's a.",
+      "speaker_name": "David Olsson",
+      "start_time": 2638.439,
+      "end_time": 2640.983
+    },
+    {
+      "text": "Card based pattern, it's a, it's a cell based pattern.",
+      "speaker_name": "David Olsson",
+      "start_time": 2640.999,
+      "end_time": 2644.955
+    },
+    {
+      "text": "And so yeah, I, you know, I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2645.295,
+      "end_time": 2647.527
+    },
+    {
+      "text": "Said like my email, I'm like, man, this is my, seriously, the first job I took was doing this and seeing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2647.551,
+      "end_time": 2653.941
+    },
+    {
+      "text": "What you could do with cells.",
+      "speaker_name": "David Olsson",
+      "start_time": 2653.973,
+      "end_time": 2655.781
+    },
+    {
+      "text": "I didn't know what I was like when, when you're problem solving, you don't know what you're doing a lot of the time in terms of the innovation.",
+      "speaker_name": "David Olsson",
+      "start_time": 2655.973,
+      "end_time": 2662.365
+    },
+    {
+      "text": "So that's been a significant component of this is how to like we pitched yesterday to VC and they're like, come back later.",
+      "speaker_name": "David Olsson",
+      "start_time": 2662.525,
+      "end_time": 2669.065
+    },
+    {
+      "text": "Like, I got that.",
+      "speaker_name": "David Olsson",
+      "start_time": 2669.685,
+      "end_time": 2671.437
+    },
+    {
+      "text": "And so come back later is like.",
+      "speaker_name": "David Olsson",
+      "start_time": 2671.621,
+      "end_time": 2673.797
+    },
+    {
+      "text": "Make it look like it does something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2673.901,
+      "end_time": 2676.465
+    },
+    {
+      "text": "Not it does something, but make it look like it does something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2676.925,
+      "end_time": 2681.635
+    },
+    {
+      "text": "I get that.",
+      "speaker_name": "James Giroday",
+      "start_time": 2683.015,
+      "end_time": 2684.071
+    },
+    {
+      "text": "And so right now it does something.",
+      "speaker_name": "David Olsson",
+      "start_time": 2684.263,
+      "end_time": 2686.111
+    },
+    {
+      "text": "And if I have a problem, I can, I can solve 100 million dollar.",
+      "speaker_name": "David Olsson",
+      "start_time": 2686.183,
+      "end_time": 2691.215
+    },
+    {
+      "text": "Problems with this in days.",
+      "speaker_name": "David Olsson",
+      "start_time": 2691.255,
+      "end_time": 2693.355
+    },
+    {
+      "text": "I can solve 100 million dollar problems.",
+      "speaker_name": "David Olsson",
+      "start_time": 2695.455,
+      "end_time": 2696.991
+    },
+    {
+      "text": "In about three weeks, two weeks, three weeks.",
+      "speaker_name": "David Olsson",
+      "start_time": 2697.023,
+      "end_time": 2699.515
+    },
+    {
+      "text": "But I can solve.",
+      "speaker_name": "David Olsson",
+      "start_time": 2700.975,
+      "end_time": 2702.087
+    },
+    {
+      "text": "And by that I mean here's a.",
+      "speaker_name": "David Olsson",
+      "start_time": 2702.151,
+      "end_time": 2703.823
+    },
+    {
+      "text": "Model and work with it, or here's a problem, develop a model, work with it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2703.839,
+      "end_time": 2708.561
+    },
+    {
+      "text": "This allows for the modeling to be crazy.",
+      "speaker_name": "David Olsson",
+      "start_time": 2708.673,
+      "end_time": 2713.105
+    },
+    {
+      "text": "You know, it's kind of like I remember being in high school and doing physics or math problems and, you know, showing them the answer and then they'd be like, well, you got to show your work.",
+      "speaker_name": "James Giroday",
+      "start_time": 2713.265,
+      "end_time": 2723.665
+    },
+    {
+      "text": "You don't, you don't get full points unless you.",
+      "speaker_name": "James Giroday",
+      "start_time": 2723.705,
+      "end_time": 2725.765
+    },
+    {
+      "text": "I had the same problem in algebra.",
+      "speaker_name": "David Olsson",
+      "start_time": 2727.385,
+      "end_time": 2729.225
+    },
+    {
+      "text": "I skipped grade eight and then I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2729.305,
+      "end_time": 2730.329
+    },
+    {
+      "text": "Was in grade nine.",
+      "speaker_name": "David Olsson",
+      "start_time": 2730.337,
+      "end_time": 2731.129
+    },
+    {
+      "text": "And I could intuitively figure it out.",
+      "speaker_name": "David Olsson",
+      "start_time": 2731.177,
+      "end_time": 2732.823
+    },
+    {
+      "text": "I did it kind of backwards.",
+      "speaker_name": "David Olsson",
+      "start_time": 2732.879,
+      "end_time": 2733.943
+    },
+    {
+      "text": "I still do math a little bit backwards, or I do it, whatever.",
+      "speaker_name": "David Olsson",
+      "start_time": 2733.999,
+      "end_time": 2737.991
+    },
+    {
+      "text": "And they, they, they stopped me in my tracks.",
+      "speaker_name": "David Olsson",
+      "start_time": 2738.103,
+      "end_time": 2741.191
+    },
+    {
+      "text": "And they did the same thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2741.343,
+      "end_time": 2742.175
+    },
+    {
+      "text": "My daughter and you had the same thing going on.",
+      "speaker_name": "David Olsson",
+      "start_time": 2742.215,
+      "end_time": 2744.999
+    },
+    {
+      "text": "And I feel it's one of the.",
+      "speaker_name": "David Olsson",
+      "start_time": 2745.127,
+      "end_time": 2746.383
+    },
+    {
+      "text": "Greatest disappointments in education that they don't understand.",
+      "speaker_name": "David Olsson",
+      "start_time": 2746.399,
+      "end_time": 2748.975
+    },
+    {
+      "text": "There's a way to teach that doesn't remove that intuition.",
+      "speaker_name": "David Olsson",
+      "start_time": 2749.095,
+      "end_time": 2753.415
+    },
+    {
+      "text": "Took years to get it back, man.",
+      "speaker_name": "David Olsson",
+      "start_time": 2753.575,
+      "end_time": 2755.159
+    },
+    {
+      "text": "Years.",
+      "speaker_name": "David Olsson",
+      "start_time": 2755.247,
+      "end_time": 2755.875
+    },
+    {
+      "text": "Years and years.",
+      "speaker_name": "David Olsson",
+      "start_time": 2756.215,
+      "end_time": 2756.935
+    },
+    {
+      "text": "And I'm not there, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2756.975,
+      "end_time": 2758.031
+    },
+    {
+      "text": "If I would have been able to keep going on that understanding of things, I would have been a mathematician as a career.",
+      "speaker_name": "David Olsson",
+      "start_time": 2758.063,
+      "end_time": 2763.795
+    },
+    {
+      "text": "But I was derailed in high school to enough where I could get A's and minus A minuses and not know what I was doing after three weeks, you know, like I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2764.775,
+      "end_time": 2772.915
+    },
+    {
+      "text": "The learning pattern was broken.",
+      "speaker_name": "David Olsson",
+      "start_time": 2773.695,
+      "end_time": 2776.287
+    },
+    {
+      "text": "And you point to that maybe that's.",
+      "speaker_name": "David Olsson",
+      "start_time": 2776.471,
+      "end_time": 2780.423
+    },
+    {
+      "text": "What high school is.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 2780.439,
+      "end_time": 2781.959
+    },
+    {
+      "text": "It's kind of where people get derailed, right?",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 2782.007,
+      "end_time": 2786.567
+    },
+    {
+      "text": "And so that you spend the next.",
+      "speaker_name": "David Olsson",
+      "start_time": 2786.591,
+      "end_time": 2787.927
+    },
+    {
+      "text": "Four years, that's what it's about.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 2787.991,
+      "end_time": 2789.525
+    },
+    {
+      "text": "I don't know, get in the box.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 2789.695,
+      "end_time": 2792.285
+    },
+    {
+      "text": "It wasn't about, it wasn't about learning.",
+      "speaker_name": "David Olsson",
+      "start_time": 2794.345,
+      "end_time": 2796.393
+    },
+    {
+      "text": "I mean, learning curricula, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2796.489,
+      "end_time": 2798.545
+    },
+    {
+      "text": "I mean, I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2798.585,
+      "end_time": 2799.857
+    },
+    {
+      "text": "But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2799.921,
+      "end_time": 2803.833
+    },
+    {
+      "text": "But man, now you read Shakespeare, like, why was it so hard?",
+      "speaker_name": "David Olsson",
+      "start_time": 2803.969,
+      "end_time": 2807.565
+    },
+    {
+      "text": "But yeah, I do.",
+      "speaker_name": "David Olsson",
+      "start_time": 2810.105,
+      "end_time": 2811.657
+    },
+    {
+      "text": "See, I see that this is like a really neat place to arrive, you know, after I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2811.681,
+      "end_time": 2818.375
+    },
+    {
+      "text": "My first product was in 1992 with Dean Dean Edwards in Victoria.",
+      "speaker_name": "David Olsson",
+      "start_time": 2818.495,
+      "end_time": 2823.215
+    },
+    {
+      "text": "I had a bulletin board system called Second Sight.",
+      "speaker_name": "David Olsson",
+      "start_time": 2823.255,
+      "end_time": 2825.295
+    },
+    {
+      "text": "We bought it for 75 bucks off a guy who's upgrading to the new version.",
+      "speaker_name": "David Olsson",
+      "start_time": 2825.335,
+      "end_time": 2828.751
+    },
+    {
+      "text": "And we bought his old version.",
+      "speaker_name": "David Olsson",
+      "start_time": 2828.863,
+      "end_time": 2829.991
+    },
+    {
+      "text": "And while we weren't on the Internet, we hosted BBS's, right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2830.023,
+      "end_time": 2835.471
+    },
+    {
+      "text": "We bought used software and we ran it on our phone and that was the first product.",
+      "speaker_name": "David Olsson",
+      "start_time": 2835.503,
+      "end_time": 2840.675
+    },
+    {
+      "text": "But that was, that was years, years.",
+      "speaker_name": "David Olsson",
+      "start_time": 2841.785,
+      "end_time": 2844.665
+    },
+    {
+      "text": "After I had already made products in oil and gas.",
+      "speaker_name": "David Olsson",
+      "start_time": 2844.785,
+      "end_time": 2847.245
+    },
+    {
+      "text": "I just didn't know.",
+      "speaker_name": "David Olsson",
+      "start_time": 2847.585,
+      "end_time": 2848.885
+    },
+    {
+      "text": "Right.",
+      "speaker_name": "David Olsson",
+      "start_time": 2852.305,
+      "end_time": 2852.665
+    },
+    {
+      "text": "So I think that this can turn into air tables.",
+      "speaker_name": "David Olsson",
+      "start_time": 2852.705,
+      "end_time": 2857.005
+    },
+    {
+      "text": "It's going to turn into air tables in, in a week.",
+      "speaker_name": "David Olsson",
+      "start_time": 2858.145,
+      "end_time": 2860.865
+    },
+    {
+      "text": "If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break.",
+      "speaker_name": "David Olsson",
+      "start_time": 2860.945,
+      "end_time": 2871.575
+    },
+    {
+      "text": "So the piping has to be fixed.",
+      "speaker_name": "David Olsson",
+      "start_time": 2875.035,
+      "end_time": 2877.179
+    },
+    {
+      "text": "I also did something cool with it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2877.347,
+      "end_time": 2878.907
+    },
+    {
+      "text": "I decomposed it.",
+      "speaker_name": "David Olsson",
+      "start_time": 2878.931,
+      "end_time": 2879.851
+    },
+    {
+      "text": "It's a proper app.",
+      "speaker_name": "David Olsson",
+      "start_time": 2879.883,
+      "end_time": 2880.987
+    },
+    {
+      "text": "It is running.",
+      "speaker_name": "David Olsson",
+      "start_time": 2881.091,
+      "end_time": 2882.019
+    },
+    {
+      "text": "It has no, it is now it needs to be like the version I.",
+      "speaker_name": "David Olsson",
+      "start_time": 2882.107,
+      "end_time": 2885.763
+    },
+    {
+      "text": "Have, this one is just a web page.",
+      "speaker_name": "David Olsson",
+      "start_time": 2885.779,
+      "end_time": 2887.595
+    },
+    {
+      "text": "But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready.",
+      "speaker_name": "David Olsson",
+      "start_time": 2887.715,
+      "end_time": 2895.447
+    },
+    {
+      "text": "To roll with real devs.",
+      "speaker_name": "David Olsson",
+      "start_time": 2895.471,
+      "end_time": 2897.155
+    },
+    {
+      "text": "I'm still hacking on my old version with 1200 lines of code.",
+      "speaker_name": "David Olsson",
+      "start_time": 2897.655,
+      "end_time": 2903.727
+    },
+    {
+      "text": "So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have.",
+      "speaker_name": "David Olsson",
+      "start_time": 2903.791,
+      "end_time": 2912.607
+    },
+    {
+      "text": "And it's, it's about simplicity is the next thing I've.",
+      "speaker_name": "David Olsson",
+      "start_time": 2912.751,
+      "end_time": 2918.495
+    },
+    {
+      "text": "Yesterday I just sent out a whole lot of emails.",
+      "speaker_name": "David Olsson",
+      "start_time": 2918.615,
+      "end_time": 2920.911
+    },
+    {
+      "text": "A whole lot for me is 5.",
+      "speaker_name": "David Olsson",
+      "start_time": 2921.023,
+      "end_time": 2922.475
+    },
+    {
+      "text": "To people sending them the links, the password, the key and a link to.",
+      "speaker_name": "David Olsson",
+      "start_time": 2923.735,
+      "end_time": 2928.103
+    },
+    {
+      "text": "A data set and just waiting for.",
+      "speaker_name": "David Olsson",
+      "start_time": 2928.119,
+      "end_time": 2930.047
+    },
+    {
+      "text": "The responses and knowing that these are.",
+      "speaker_name": "David Olsson",
+      "start_time": 2930.071,
+      "end_time": 2934.087
+    },
+    {
+      "text": "My friends of sorts, the responses are going to be nice.",
+      "speaker_name": "David Olsson",
+      "start_time": 2934.111,
+      "end_time": 2938.439
+    },
+    {
+      "text": "Dave looks cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 2938.487,
+      "end_time": 2939.655
+    },
+    {
+      "text": "I need a tutorial.",
+      "speaker_name": "David Olsson",
+      "start_time": 2939.735,
+      "end_time": 2940.751
+    },
+    {
+      "text": "That was the best one.",
+      "speaker_name": "David Olsson",
+      "start_time": 2940.823,
+      "end_time": 2941.927
+    },
+    {
+      "text": "My response back is everyone needs a tutorial.",
+      "speaker_name": "David Olsson",
+      "start_time": 2942.031,
+      "end_time": 2944.607
+    },
+    {
+      "text": "And that's been my approach.",
+      "speaker_name": "David Olsson",
+      "start_time": 2944.711,
+      "end_time": 2945.995
+    },
+    {
+      "text": "If you have a unique problem, you have a unique pattern.",
+      "speaker_name": "David Olsson",
+      "start_time": 2946.505,
+      "end_time": 2949.465
+    },
+    {
+      "text": "And that unique pattern is one of looking to expose the value in agentic thinking.",
+      "speaker_name": "David Olsson",
+      "start_time": 2949.585,
+      "end_time": 2957.753
+    },
+    {
+      "text": "And that has that left right workflow thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2957.809,
+      "end_time": 2959.505
+    },
+    {
+      "text": "So demos are going to be what I'm doing.",
+      "speaker_name": "David Olsson",
+      "start_time": 2959.545,
+      "end_time": 2962.685
+    },
+    {
+      "text": "I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right?",
+      "speaker_name": "David Olsson",
+      "start_time": 2962.985,
+      "end_time": 2973.771
+    },
+    {
+      "text": "So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up.",
+      "speaker_name": "David Olsson",
+      "start_time": 2973.803,
+      "end_time": 2980.667
+    },
+    {
+      "text": "And that's a demonstration of my, my software in your space and ends in their inbox.",
+      "speaker_name": "David Olsson",
+      "start_time": 2980.691,
+      "end_time": 2987.275
+    },
+    {
+      "text": "They get a transcript, they can talk to it, you know.",
+      "speaker_name": "David Olsson",
+      "start_time": 2987.315,
+      "end_time": 2991.467
+    },
+    {
+      "text": "So yeah, are you going to support like multiple sources?",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 2991.611,
+      "end_time": 2996.695
+    },
+    {
+      "text": "Right now it's parses the source and puts it into that box on the Left when you upload a second one, it just replaces it or does it append?",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 2997.275,
+      "end_time": 3008.445
+    },
+    {
+      "text": "Right now it replaces it, but what it's supposed to do is append it here.",
+      "speaker_name": "David Olsson",
+      "start_time": 3009.865,
+      "end_time": 3018.537
+    },
+    {
+      "text": "Multiple resources.",
+      "speaker_name": "David Olsson",
+      "start_time": 3018.641,
+      "end_time": 3020.005
+    },
+    {
+      "text": "The multiple sources automatically go into the rows associated.",
+      "speaker_name": "David Olsson",
+      "start_time": 3024.785,
+      "end_time": 3028.445
+    },
+    {
+      "text": "This tray in the next view.",
+      "speaker_name": "David Olsson",
+      "start_time": 3028.985,
+      "end_time": 3031.001
+    },
+    {
+      "text": "This tray can't be stationary like this.",
+      "speaker_name": "David Olsson",
+      "start_time": 3031.033,
+      "end_time": 3032.849
+    },
+    {
+      "text": "With this view, the tray has to.",
+      "speaker_name": "David Olsson",
+      "start_time": 3032.897,
+      "end_time": 3035.257
+    },
+    {
+      "text": "Line up with the columns and your.",
+      "speaker_name": "David Olsson",
+      "start_time": 3035.281,
+      "end_time": 3036.993
+    },
+    {
+      "text": "Tray would be right here.",
+      "speaker_name": "David Olsson",
+      "start_time": 3037.049,
+      "end_time": 3038.561
+    },
+    {
+      "text": "This one will be sourced, it'll be.",
+      "speaker_name": "David Olsson",
+      "start_time": 3038.673,
+      "end_time": 3039.777
+    },
+    {
+      "text": "Different color, just like some other things.",
+      "speaker_name": "David Olsson",
+      "start_time": 3039.801,
+      "end_time": 3042.685
+    },
+    {
+      "text": "And then you could delete that source and that row would go away.",
+      "speaker_name": "David Olsson",
+      "start_time": 3043.145,
+      "end_time": 3048.605
+    },
+    {
+      "text": "It is the case that it works with multiple images.",
+      "speaker_name": "David Olsson",
+      "start_time": 3050.505,
+      "end_time": 3054.685
+    },
+    {
+      "text": "Yeah, I saw that and I didn't ask for that.",
+      "speaker_name": "David Olsson",
+      "start_time": 3055.265,
+      "end_time": 3058.565
+    },
+    {
+      "text": "I tried to replace an image and it went up and then I'm like, I can actually select multiple images.",
+      "speaker_name": "David Olsson",
+      "start_time": 3059.475,
+      "end_time": 3063.655
+    },
+    {
+      "text": "And so, you know, it's already baked in.",
+      "speaker_name": "David Olsson",
+      "start_time": 3065.995,
+      "end_time": 3068.459
+    },
+    {
+      "text": "It's just not across the app because.",
+      "speaker_name": "David Olsson",
+      "start_time": 3068.547,
+      "end_time": 3070.147
+    },
+    {
+      "text": "I haven't put in a requirement to then retune my app.",
+      "speaker_name": "David Olsson",
+      "start_time": 3070.171,
+      "end_time": 3073.627
+    },
+    {
+      "text": "And that is a.",
+      "speaker_name": "David Olsson",
+      "start_time": 3073.731,
+      "end_time": 3075.331
+    },
+    {
+      "text": "That is that workflow that I talked.",
+      "speaker_name": "David Olsson",
+      "start_time": 3075.443,
+      "end_time": 3076.923
+    },
+    {
+      "text": "About where if I had that described at the beginning and I fed it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3076.939,
+      "end_time": 3080.267
+    },
+    {
+      "text": "In each time when I'm, you know.",
+      "speaker_name": "David Olsson",
+      "start_time": 3080.291,
+      "end_time": 3082.387
+    },
+    {
+      "text": "The context, then hopefully.",
+      "speaker_name": "David Olsson",
+      "start_time": 3082.411,
+      "end_time": 3084.935
+    },
+    {
+      "text": "Oh, I just found something.",
+      "speaker_name": "David Olsson",
+      "start_time": 3086.405,
+      "end_time": 3087.705
+    },
+    {
+      "text": "Ok.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3091.405,
+      "end_time": 3091.765
+    },
+    {
+      "text": "So I've been doing things manually but if I were to create, say here's my prompt that I wanted to change my code to and then I analyzed it and analyzed the results afterwards with the prompt, then I could probably.",
+      "speaker_name": "David Olsson",
+      "start_time": 3091.805,
+      "end_time": 3105.181
+    },
+    {
+      "text": "That could be my context for my next thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 3105.333,
+      "end_time": 3107.733
+    },
+    {
+      "text": "Sorry, thinking out loud because context is driving me crazy and I didn't hopefully.",
+      "speaker_name": "David Olsson",
+      "start_time": 3107.869,
+      "end_time": 3119.377
+    },
+    {
+      "text": "Jason, you're not down the existential rabbit hole because your context is wide and.",
+      "speaker_name": "David Olsson",
+      "start_time": 3119.441,
+      "end_time": 3124.305
+    },
+    {
+      "text": "Deep and we want it to be trees and not turtles.",
+      "speaker_name": "David Olsson",
+      "start_time": 3124.345,
+      "end_time": 3129.525
+    },
+    {
+      "text": "Yeah, I kind of just put it down for a minute.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3130.345,
+      "end_time": 3133.329
+    },
+    {
+      "text": "I know you're well and I did too.",
+      "speaker_name": "David Olsson",
+      "start_time": 3133.497,
+      "end_time": 3138.085
+    },
+    {
+      "text": "And then it was long enough that when I picked it back up I was able to do that thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 3138.895,
+      "end_time": 3143.311
+    },
+    {
+      "text": "And Jason, we're going to keep talking because I think you're on that cusp too.",
+      "speaker_name": "David Olsson",
+      "start_time": 3143.343,
+      "end_time": 3146.435
+    },
+    {
+      "text": "Yeah, no, I think it's right there.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3146.855,
+      "end_time": 3150.075
+    },
+    {
+      "text": "One little app will do it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3151.335,
+      "end_time": 3153.143
+    },
+    {
+      "text": "One little app and then you'll bug your devs on fixing your shit outward.",
+      "speaker_name": "David Olsson",
+      "start_time": 3153.199,
+      "end_time": 3158.303
+    },
+    {
+      "text": "Yeah, well, I'm going to spend some time this week.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3158.399,
+      "end_time": 3160.535
+    },
+    {
+      "text": "I'm going to play with what you built here.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3160.575,
+      "end_time": 3162.087
+    },
+    {
+      "text": "I haven't had a chance to really dig into it yet.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3162.111,
+      "end_time": 3164.875
+    },
+    {
+      "text": "I've been spending a little bit of like brain dead time just like using to build some stuff.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3167.715,
+      "end_time": 3173.603
+    },
+    {
+      "text": "Cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 3173.739,
+      "end_time": 3174.415
+    },
+    {
+      "text": "It's actually oddly therapeutic.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3175.395,
+      "end_time": 3177.379
+    },
+    {
+      "text": "I don't know why to like just talk to a machine and have it like fix things.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3177.427,
+      "end_time": 3183.095
+    },
+    {
+      "text": "There's something about it that is like kind of.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3183.915,
+      "end_time": 3187.335
+    },
+    {
+      "text": "It's pretty cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 3188.195,
+      "end_time": 3189.483
+    },
+    {
+      "text": "Yeah, I'm just like, I'm just enjoying the.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3189.619,
+      "end_time": 3193.445
+    },
+    {
+      "text": "The agency over the machine, I think at this point.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3193.785,
+      "end_time": 3199.125
+    },
+    {
+      "text": "Wow.",
+      "speaker_name": "David Olsson",
+      "start_time": 3199.665,
+      "end_time": 3200.233
+    },
+    {
+      "text": "I'm.",
+      "speaker_name": "David Olsson",
+      "start_time": 3200.329,
+      "end_time": 3200.793
+    },
+    {
+      "text": "I'm there.",
+      "speaker_name": "David Olsson",
+      "start_time": 3200.889,
+      "end_time": 3201.785
+    },
+    {
+      "text": "I.",
+      "speaker_name": "David Olsson",
+      "start_time": 3201.945,
+      "end_time": 3202.673
+    },
+    {
+      "text": "The cadence is driving me a bit nuts, so I need it to be better.",
+      "speaker_name": "David Olsson",
+      "start_time": 3202.849,
+      "end_time": 3208.201
+    },
+    {
+      "text": "To your point, since you brought it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3208.393,
+      "end_time": 3209.873
+    },
+    {
+      "text": "Up, I'm gonna follow up Suit.",
+      "speaker_name": "David Olsson",
+      "start_time": 3209.889,
+      "end_time": 3212.165
+    },
+    {
+      "text": "I.",
+      "speaker_name": "David Olsson",
+      "start_time": 3213.145,
+      "end_time": 3213.625
+    },
+    {
+      "text": "Hey, see James, I've got a.",
+      "speaker_name": "David Olsson",
+      "start_time": 3213.705,
+      "end_time": 3215.631
+    },
+    {
+      "text": "Got a 9:00, so I'll be prudent five minutes.",
+      "speaker_name": "David Olsson",
+      "start_time": 3215.753,
+      "end_time": 3218.507
+    },
+    {
+      "text": "But I built two things.",
+      "speaker_name": "David Olsson",
+      "start_time": 3218.611,
+      "end_time": 3221.611
+    },
+    {
+      "text": "I said like, yeah, the CEO linger index was a joy to build.",
+      "speaker_name": "David Olsson",
+      "start_time": 3221.643,
+      "end_time": 3227.611
+    },
+    {
+      "text": "That was me watching tv, building a spec based on an idea I had and then seeing it actually function within three hours.",
+      "speaker_name": "David Olsson",
+      "start_time": 3227.723,
+      "end_time": 3234.763
+    },
+    {
+      "text": "That's how long Karen went to the movie for.",
+      "speaker_name": "David Olsson",
+      "start_time": 3234.819,
+      "end_time": 3236.523
+    },
+    {
+      "text": "And then.",
+      "speaker_name": "David Olsson",
+      "start_time": 3236.659,
+      "end_time": 3237.455
+    },
+    {
+      "text": "And so I did that with this chat thing too.",
+      "speaker_name": "David Olsson",
+      "start_time": 3238.435,
+      "end_time": 3240.907
+    },
+    {
+      "text": "It's like I need just a chat interface where I can just.",
+      "speaker_name": "David Olsson",
+      "start_time": 3240.931,
+      "end_time": 3244.359
+    },
+    {
+      "text": "I wanted to have a works on a chat interface that wasn't me using someone else's.",
+      "speaker_name": "David Olsson",
+      "start_time": 3244.407,
+      "end_time": 3248.367
+    },
+    {
+      "text": "And so this is a great way to do it because the chat interface is very common.",
+      "speaker_name": "David Olsson",
+      "start_time": 3248.511,
+      "end_time": 3253.327
+    },
+    {
+      "text": "And I described it and I gave it a screenshot of what I was looking for because I want to.",
+      "speaker_name": "David Olsson",
+      "start_time": 3253.511,
+      "end_time": 3258.135
+    },
+    {
+      "text": "I'm looking at this color palette kind of thing and I wanted it to.",
+      "speaker_name": "David Olsson",
+      "start_time": 3258.175,
+      "end_time": 3262.479
+    },
+    {
+      "text": "Be similar, but I also am trying to, you know, get all the features in there and see how things work in a short period of time.",
+      "speaker_name": "David Olsson",
+      "start_time": 3262.487,
+      "end_time": 3271.055
+    },
+    {
+      "text": "So.",
+      "speaker_name": "David Olsson",
+      "start_time": 3271.095,
+      "end_time": 3271.279
+    },
+    {
+      "text": "So I was able to, you know, upload and then I got a viewer in there.",
+      "speaker_name": "David Olsson",
+      "start_time": 3271.317,
+      "end_time": 3276.379
+    },
+    {
+      "text": "So.",
+      "speaker_name": "David Olsson",
+      "start_time": 3276.427,
+      "end_time": 3277.015
+    },
+    {
+      "text": "So I, you know, I built.",
+      "speaker_name": "David Olsson",
+      "start_time": 3282.675,
+      "end_time": 3284.819
+    },
+    {
+      "text": "Oh, I did that wrong.",
+      "speaker_name": "David Olsson",
+      "start_time": 3284.947,
+      "end_time": 3287.307
+    },
+    {
+      "text": "I searched Whoops Search and AIM Q.",
+      "speaker_name": "David Olsson",
+      "start_time": 3287.411,
+      "end_time": 3291.255
+    },
+    {
+      "text": "I built, you know, the components that I'd like to see seeing it and they're not talking to each other yet.",
+      "speaker_name": "David Olsson",
+      "start_time": 3294.475,
+      "end_time": 3299.327
+    },
+    {
+      "text": "And I'm getting all these weird token errors.",
+      "speaker_name": "David Olsson",
+      "start_time": 3299.431,
+      "end_time": 3301.675
+    },
+    {
+      "text": "But in various versions of this, I was able to get it functional and acting really cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 3302.455,
+      "end_time": 3311.743
+    },
+    {
+      "text": "Right?",
+      "speaker_name": "David Olsson",
+      "start_time": 3311.839,
+      "end_time": 3312.119
+    },
+    {
+      "text": "Like do a search and then analyze.",
+      "speaker_name": "David Olsson",
+      "start_time": 3312.167,
+      "end_time": 3314.391
+    },
+    {
+      "text": "That in the chat.",
+      "speaker_name": "David Olsson",
+      "start_time": 3314.423,
+      "end_time": 3315.555
+    },
+    {
+      "text": "And that's just a simple thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 3315.855,
+      "end_time": 3317.743
+    },
+    {
+      "text": "But if I'm going to show things to people in the world, this is a great one to have on the website because I can and how it goes.",
+      "speaker_name": "David Olsson",
+      "start_time": 3317.799,
+      "end_time": 3325.719
+    },
+    {
+      "text": "I would upload just like I did with the Shark Tank.",
+      "speaker_name": "David Olsson",
+      "start_time": 3325.767,
+      "end_time": 3327.367
+    },
+    {
+      "text": "And I'll make that available too.",
+      "speaker_name": "David Olsson",
+      "start_time": 3327.391,
+      "end_time": 3328.375
+    },
+    {
+      "text": "I'll just upload like a knowledge or a fact of work Sona and that's how it's loaded.",
+      "speaker_name": "David Olsson",
+      "start_time": 3328.455,
+      "end_time": 3333.615
+    },
+    {
+      "text": "And then you can just do the same thing, your own and you know, and so getting these things, these utilities or these views out there, I'm really quite focused on how I spend my.",
+      "speaker_name": "David Olsson",
+      "start_time": 3333.655,
+      "end_time": 3344.791
+    },
+    {
+      "text": "Time because I burn out and I burn hot.",
+      "speaker_name": "David Olsson",
+      "start_time": 3344.823,
+      "end_time": 3348.079
+    },
+    {
+      "text": "So I want to make sure that.",
+      "speaker_name": "David Olsson",
+      "start_time": 3348.127,
+      "end_time": 3348.967
+    },
+    {
+      "text": "I'm doing the right things in the.",
+      "speaker_name": "David Olsson",
+      "start_time": 3348.991,
+      "end_time": 3350.155
+    },
+    {
+      "text": "Right part of the day.",
+      "speaker_name": "David Olsson",
+      "start_time": 3350.155,
+      "end_time": 3351.335
+    },
+    {
+      "text": "But to your point, Jason, I think the next time we meet, we'll do this together.",
+      "speaker_name": "David Olsson",
+      "start_time": 3351.915,
+      "end_time": 3357.363
+    },
+    {
+      "text": "We'll do it side by side, spec it and do a little app, and then that will be the cracking of the nut.",
+      "speaker_name": "David Olsson",
+      "start_time": 3357.459,
+      "end_time": 3364.915
+    },
+    {
+      "text": "Because it is rewarding if you're doing something to see it fix problems.",
+      "speaker_name": "David Olsson",
+      "start_time": 3364.955,
+      "end_time": 3370.015
+    },
+    {
+      "text": "It's super rewarding if you can describe the problem.",
+      "speaker_name": "David Olsson",
+      "start_time": 3370.795,
+      "end_time": 3374.175
+    },
+    {
+      "text": "And it does understand that.",
+      "speaker_name": "David Olsson",
+      "start_time": 3374.515,
+      "end_time": 3376.375
+    },
+    {
+      "text": "And so because I've been coding for so long, like I can, and doing UXD and all these other things is like, yeah, you can describe things.",
+      "speaker_name": "David Olsson",
+      "start_time": 3377.185,
+      "end_time": 3383.145
+    },
+    {
+      "text": "You know apps.",
+      "speaker_name": "David Olsson",
+      "start_time": 3383.185,
+      "end_time": 3383.857
+    },
+    {
+      "text": "You two guys know apps.",
+      "speaker_name": "David Olsson",
+      "start_time": 3383.881,
+      "end_time": 3385.081
+    },
+    {
+      "text": "Like no one's business, even on all sides of designing them.",
+      "speaker_name": "David Olsson",
+      "start_time": 3385.113,
+      "end_time": 3389.665
+    },
+    {
+      "text": "So debugging them with words is cool.",
+      "speaker_name": "David Olsson",
+      "start_time": 3389.785,
+      "end_time": 3393.585
+    },
+    {
+      "text": "Now it's super awkward.",
+      "speaker_name": "David Olsson",
+      "start_time": 3393.665,
+      "end_time": 3395.473
+    },
+    {
+      "text": "If you get long code and you.",
+      "speaker_name": "David Olsson",
+      "start_time": 3395.609,
+      "end_time": 3397.041
+    },
+    {
+      "text": "Do all kinds of things, you got to be ginger about things.",
+      "speaker_name": "David Olsson",
+      "start_time": 3397.073,
+      "end_time": 3399.689
+    },
+    {
+      "text": "That's the brittle nature of it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3399.817,
+      "end_time": 3401.001
+    },
+    {
+      "text": "But if you do a small app and you just describe it and you give it a sketch, it'll work.",
+      "speaker_name": "David Olsson",
+      "start_time": 3401.033,
+      "end_time": 3407.527
+    },
+    {
+      "text": "I gave like I Jenna J I N AI they have a neat.",
+      "speaker_name": "David Olsson",
+      "start_time": 3407.591,
+      "end_time": 3412.903
+    },
+    {
+      "text": "You can use their reader to do.",
+      "speaker_name": "David Olsson",
+      "start_time": 3412.999,
+      "end_time": 3415.423
+    },
+    {
+      "text": "Markdown of a webpage.",
+      "speaker_name": "David Olsson",
+      "start_time": 3415.439,
+      "end_time": 3416.671
+    },
+    {
+      "text": "They got a neat website.",
+      "speaker_name": "David Olsson",
+      "start_time": 3416.743,
+      "end_time": 3418.235
+    },
+    {
+      "text": "It's all techie because, you know, it's designed after devs.",
+      "speaker_name": "David Olsson",
+      "start_time": 3418.775,
+      "end_time": 3422.751
+    },
+    {
+      "text": "And I just used that as a.",
+      "speaker_name": "David Olsson",
+      "start_time": 3422.823,
+      "end_time": 3424.919
+    },
+    {
+      "text": "Here's my content.",
+      "speaker_name": "David Olsson",
+      "start_time": 3425.087,
+      "end_time": 3426.143
+    },
+    {
+      "text": "Use that website as this page as the design.",
+      "speaker_name": "David Olsson",
+      "start_time": 3426.239,
+      "end_time": 3429.079
+    },
+    {
+      "text": "And it built out a website that looked like that website, a web page.",
+      "speaker_name": "David Olsson",
+      "start_time": 3429.207,
+      "end_time": 3434.327
+    },
+    {
+      "text": "That looked like a website with functionality.",
+      "speaker_name": "David Olsson",
+      "start_time": 3434.351,
+      "end_time": 3438.151
+    },
+    {
+      "text": "That I didn't describe based on the website.",
+      "speaker_name": "David Olsson",
+      "start_time": 3438.223,
+      "end_time": 3441.191
+    },
+    {
+      "text": "And so you can do that kind.",
+      "speaker_name": "David Olsson",
+      "start_time": 3441.343,
+      "end_time": 3443.983
+    },
+    {
+      "text": "Of looky lose thing as the starting point.",
+      "speaker_name": "David Olsson",
+      "start_time": 3443.999,
+      "end_time": 3446.315
+    },
+    {
+      "text": "And then my stuff has a real feel.",
+      "speaker_name": "David Olsson",
+      "start_time": 3447.015,
+      "end_time": 3451.103
+    },
+    {
+      "text": "Like the works on a playground is a work feeling.",
+      "speaker_name": "David Olsson",
+      "start_time": 3451.159,
+      "end_time": 3454.381
+    },
+    {
+      "text": "And it's.",
+      "speaker_name": "David Olsson",
+      "start_time": 3454.523,
+      "end_time": 3455.785
+    },
+    {
+      "text": "I like it, but that's not where I'm gonna go with it.",
+      "speaker_name": "David Olsson",
+      "start_time": 3455.825,
+      "end_time": 3458.885
+    },
+    {
+      "text": "I'm gonna go with this black and green and taupe thing.",
+      "speaker_name": "David Olsson",
+      "start_time": 3459.545,
+      "end_time": 3461.965
+    },
+    {
+      "text": "And it's gonna.",
+      "speaker_name": "David Olsson",
+      "start_time": 3462.265,
+      "end_time": 3463.881
+    },
+    {
+      "text": "It's gonna.",
+      "speaker_name": "David Olsson",
+      "start_time": 3464.033,
+      "end_time": 3464.965
+    },
+    {
+      "text": "I'm in the mode of trying to baffle people or how about this market.",
+      "speaker_name": "David Olsson",
+      "start_time": 3467.305,
+      "end_time": 3472.625
+    },
+    {
+      "text": "To people and their expectations are just kind of cliche.",
+      "speaker_name": "David Olsson",
+      "start_time": 3472.705,
+      "end_time": 3476.845
+    },
+    {
+      "text": "That is they.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3479.185,
+      "end_time": 3481.235
+    },
+    {
+      "text": "They are not trying to look for something.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3481.615,
+      "end_time": 3485.079
+    },
+    {
+      "text": "They're not trying to understand something new.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3485.207,
+      "end_time": 3486.895
+    },
+    {
+      "text": "You need to really help them understand.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3486.935,
+      "end_time": 3488.555
+    },
+    {
+      "text": "Yeah, it's pretty crazy.",
+      "speaker_name": "David Olsson",
+      "start_time": 3489.015,
+      "end_time": 3490.755
+    },
+    {
+      "text": "Yeah, it's the education part, right?",
+      "speaker_name": "David Olsson",
+      "start_time": 3491.215,
+      "end_time": 3492.631
+    },
+    {
+      "text": "It's like in this piece and I seem to do this to myself.",
+      "speaker_name": "David Olsson",
+      "start_time": 3492.663,
+      "end_time": 3495.463
+    },
+    {
+      "text": "I get into like, I don't like championing the category.",
+      "speaker_name": "David Olsson",
+      "start_time": 3495.519,
+      "end_time": 3498.367
+    },
+    {
+      "text": "And that's where I'm at again.",
+      "speaker_name": "David Olsson",
+      "start_time": 3498.471,
+      "end_time": 3499.915
+    },
+    {
+      "text": "And so examples are everything.",
+      "speaker_name": "David Olsson",
+      "start_time": 3500.295,
+      "end_time": 3502.447
+    },
+    {
+      "text": "And that's what, you know, we're Getting exposure to, to VCs, so being able to elicit more, more quickly and say, oh, it looks like the other guys.",
+      "speaker_name": "David Olsson",
+      "start_time": 3502.551,
+      "end_time": 3511.705
+    },
+    {
+      "text": "Because I'm sorry, VCs are not like.",
+      "speaker_name": "David Olsson",
+      "start_time": 3511.785,
+      "end_time": 3515.353
+    },
+    {
+      "text": "They have money, but they're just regular Joes.",
+      "speaker_name": "David Olsson",
+      "start_time": 3515.409,
+      "end_time": 3517.785
+    },
+    {
+      "text": "They got lucky, most likely because they knew somebody.",
+      "speaker_name": "David Olsson",
+      "start_time": 3517.825,
+      "end_time": 3520.681
+    },
+    {
+      "text": "And their tools for analysis are just.",
+      "speaker_name": "David Olsson",
+      "start_time": 3520.873,
+      "end_time": 3524.737
+    },
+    {
+      "text": "As weak as anyone else in the ecosystem.",
+      "speaker_name": "David Olsson",
+      "start_time": 3524.761,
+      "end_time": 3527.033
+    },
+    {
+      "text": "They are pattern recognizing robots.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3527.169,
+      "end_time": 3530.105
+    },
+    {
+      "text": "That's it, man.",
+      "speaker_name": "David Olsson",
+      "start_time": 3530.265,
+      "end_time": 3531.223
+    },
+    {
+      "text": "And so if you don't get enough patterns, you recognize the wrong things.",
+      "speaker_name": "David Olsson",
+      "start_time": 3531.329,
+      "end_time": 3534.883
+    },
+    {
+      "text": "Yeah, it's just like, it's like buzzword, buzzword, you know, like you, you just gotta be in the.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3535.059,
+      "end_time": 3543.355
+    },
+    {
+      "text": "You know, it's funny, I found that you just gotta like frame it up and relate it to something that they understand that they already have like consensus around that is like.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3543.515,
+      "end_time": 3553.179
+    },
+    {
+      "text": "And then, then it's like, you know, then a bunch of whys or whatever.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3553.347,
+      "end_time": 3556.707
+    },
+    {
+      "text": "But it is more vibe than it is really anything else.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3556.771,
+      "end_time": 3561.755
+    },
+    {
+      "text": "Yeah, I know.",
+      "speaker_name": "David Olsson",
+      "start_time": 3562.135,
+      "end_time": 3562.727
+    },
+    {
+      "text": "You know that.",
+      "speaker_name": "David Olsson",
+      "start_time": 3562.751,
+      "end_time": 3563.127
+    },
+    {
+      "text": "And so I'm gonna lean on you here in the next few days, so.",
+      "speaker_name": "David Olsson",
+      "start_time": 3563.151,
+      "end_time": 3565.183
+    },
+    {
+      "text": "Yeah, man, I'm happy to help.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3565.199,
+      "end_time": 3566.175
+    },
+    {
+      "text": "I love that kind of stuff.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3566.215,
+      "end_time": 3567.279
+    },
+    {
+      "text": "That's my.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3567.327,
+      "end_time": 3568.071
+    },
+    {
+      "text": "I know.",
+      "speaker_name": "David Olsson",
+      "start_time": 3568.143,
+      "end_time": 3568.431
+    },
+    {
+      "text": "And that's.",
+      "speaker_name": "David Olsson",
+      "start_time": 3568.463,
+      "end_time": 3568.887
+    },
+    {
+      "text": "And so when I, I recognize when I start having no value for myself or I'm working really hard, you know, Working really hard and not getting anywhere or getting where I want to go.",
+      "speaker_name": "David Olsson",
+      "start_time": 3568.951,
+      "end_time": 3578.879
+    },
+    {
+      "text": "Anyways, I gotta get going because I got Manuel on the line, 9:00.",
+      "speaker_name": "David Olsson",
+      "start_time": 3579.007,
+      "end_time": 3583.687
+    },
+    {
+      "text": "And I want to warm up my coffee again.",
+      "speaker_name": "David Olsson",
+      "start_time": 3583.711,
+      "end_time": 3585.767
+    },
+    {
+      "text": "Thanks, Dave.",
+      "speaker_name": "James Giroday",
+      "start_time": 3585.911,
+      "end_time": 3586.447
+    },
+    {
+      "text": "Thanks.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3586.471,
+      "end_time": 3587.063
+    },
+    {
+      "text": "See you guys.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3587.239,
+      "end_time": 3587.735
+    },
+    {
+      "text": "Yeah, thank you guys.",
+      "speaker_name": "David Olsson",
+      "start_time": 3587.775,
+      "end_time": 3588.503
+    },
+    {
+      "text": "I really appreciate.",
+      "speaker_name": "David Olsson",
+      "start_time": 3588.559,
+      "end_time": 3589.223
+    },
+    {
+      "text": "I heard a term just as part vibe.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 3589.239,
+      "end_time": 3592.355
+    },
+    {
+      "text": "What Vibe?",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3593.295,
+      "end_time": 3594.635
+    },
+    {
+      "text": "It's the vibe economy.",
+      "speaker_name": "James Giroday",
+      "start_time": 3596.215,
+      "end_time": 3597.463
+    },
+    {
+      "text": "Check it out.",
+      "speaker_name": "Hanif Janmohamed",
+      "start_time": 3597.559,
+      "end_time": 3598.207
+    },
+    {
+      "text": "Yeah.",
+      "speaker_name": "Jason Kryski",
+      "start_time": 3598.311,
+      "end_time": 3598.775
+    },
+    {
+      "text": "All right.",
+      "speaker_name": "David Olsson",
+      "start_time": 3598.855,
+      "end_time": 3599.599
+    },
+    {
+      "text": "That's a good one to leave on, man.",
+      "speaker_name": "David Olsson",
+      "start_time": 3599.767,
+      "end_time": 3600.935
+    }
+  ]
+}

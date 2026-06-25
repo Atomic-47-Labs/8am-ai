@@ -1,0 +1,264 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}{\f1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red80\green80\blue80;}
+\pard\qc\f1\fs32\b 8am AI School - Workshop #5\b0\par
+\pard\qc\f1\fs20 5/22/2024 \bullet 0min\par
+\pard\qc\f1\fs18\cf1 Organizer: david@atomic47.co\par
+\pard\qc\f1\fs18\cf1 Participants: david@atomic47.co\par
+\pard\par\par
+\pard\f1\fs26\b Transcript\b0\par
+\pard\par
+\pard\par\f1\fs22\b\cf0 David Olsson:\b0\par
+\pard\f0\fs20 All right, I'm going to get going and start presenting.\par
+\pard\f0\fs20 I wanted to show this.\par
+\pard\f0\fs20 This document here is quite interesting.\par
+\pard\f0\fs20 I've taken a prompt from a workflow provided by Jason, and it's an interesting workflow.\par
+\pard\f0\fs20 It's one about taking a product description and making it a series of prompts that make it a fully fledged kind of ecommerce experience.\par
+\pard\f0\fs20 The first prompt is how to write a detailed product description.\par
+\pard\f0\fs20 So let's see it here.\par
+\pard\f0\fs20 This is maybe the system message saying you're kind of this kind of person, this kind of entity, and then here's what you need to do.\par
+\pard\f0\fs20 And so your goal is to write a detailed product description for the product, and you can provide one, and it does all these things.\par
+\pard\f0\fs20 So I took that description of that prompt and I asked it to make up, I asked Chatpt to just make an agent of that prompt, and it produced this, which is pretty tight.\par
+\pard\f0\fs20 It's got a role goal and tasks, and that's primarily what we need out of an agent, and it tells us what was to do, what it was told here in the previous prompt.\par
+\pard\f0\fs20 So basically I took the system and message prompts, combined the two and chapter, and I've got what we call our first generation agent based on a description or another prompt, whatever the source may be.\par
+\pard\f0\fs20 We've iterated through and produced something of a standardized, easy to understand structure for an agent.\par
+\pard\f0\fs20 And then I have a prompt engineer agent that I've created from some of the research that I've done.\par
+\pard\f0\fs20 And it sets itself up to do some cool stuff as some key performance indicators, some requirements and some usage.\par
+\pard\f0\fs20 So you know what it can do.\par
+\pard\f0\fs20 And so in a chat gdp four session, I took this description and I brought it into this agent and I asked it to create an agent from it, a verbose agent, I think.\par
+\pard\f0\fs20 And it went through.\par
+\pard\f0\fs20 And because it has a much more rich understanding of what is responsible by an agent or what a response responsible agent might do, it was able to generate a really cool kind of description of an agent, functional description.\par
+\pard\f0\fs20 It still had that structure of role goal tasks, but it also had steps involved to achieve those.\par
+\pard\f0\fs20 And I also asked it to include a self reflection step that I have created.\par
+\pard\f0\fs20 Another demonstration and self reflection step gets it to review its own work.\par
+\pard\f0\fs20 So I added that in and I added some strategies to it.\par
+\pard\f0\fs20 And so I was able to take this base right here, right here.\par
+\pard\f0\fs20 Working within my agent, it was able to describe itself better, add some steps, self reflection step, and some strategies for how to work with content.\par
+\pard\f0\fs20 And it came up with these based on the very first description.\par
+\pard\f0\fs20 So, content depth and accuracy, the way to measure that is to ensure all descriptions are detailed.\par
+\pard\f0\fs20 The criteria for understanding if that's being met is the completeness, accuracy and the inclusion of unique features.\par
+\pard\f0\fs20 And then there's a way of scaling that and descriptions on how that scale would be achieved.\par
+\pard\f0\fs20 So we can take this description and we can actually sort of invert it, not saying, but we can make it functional and say that the product did not have, have, if we go down to one, it did not have enough significant information to suggest that it was accurate.\par
+\pard\f0\fs20 It had significant inaccuracies, according to the analysis that was taken.\par
+\pard\f0\fs20 And so based on that, we would ask it to go back and review itself, review the content, and then try to add to it to make it more rich and full.\par
+\pard\f0\fs20 So these scoring scales are based on the criteria and the strategy.\par
+\pard\f0\fs20 So they have six different strategies here for achieving better content, a better product description.\par
+\pard\f0\fs20 So these are all folded into the agent, and then the scoring can be aggregate.\par
+\pard\f0\fs20 So it actually then took what I provided it in terms of scoring and then built out an aggregate understanding of an overall score for content output from this agent and breaking it down into what it thought would be the weighting appropriate to those aspects of what it's asked to do.\par
+\pard\f0\fs20 And it's, you know, it's pretty cool.\par
+\pard\f0\fs20 It's, whether you think it is complete or valuable or not, as is debatable or it's up to you, whatever, but it gets you to think about, okay, I can do this.\par
+\pard\f0\fs20 All right, so I can weight these things differently is the tone, is what is important as the inclusion of features is SEO optimization in what I'm doing.\par
+\pard\f0\fs20 Very important is the readability and structure weighted properly.\par
+\pard\f0\fs20 Like you can do that.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So because it's a calculation, then you can come up with a sum of 100, what the score could be.\par
+\pard\f0\fs20 It's an agent.\par
+\pard\f0\fs20 So what does it need to get better at what it does?\par
+\pard\f0\fs20 Skills and content management system and e commerce platforms will be using these things.\par
+\pard\f0\fs20 So the interesting thing is this training requirements are as if it's an agent, a human or an entity that will continue to evolve.\par
+\pard\f0\fs20 Adaptability and testing.\par
+\pard\f0\fs20 This is something that, again, it added to this agent and it's a component that's quite important.\par
+\pard\f0\fs20 How can it modify its behavior in a situation and how can it know what is good, you know, conduct baby testing?\par
+\pard\f0\fs20 So this is, this is a killer, this gen two agent.\par
+\pard\f0\fs20 It's killer.\par
+\pard\f0\fs20 It's got tasks, it's got a way of doing them.\par
+\pard\f0\fs20 It's got a way of, you know, explaining how it wants to be done.\par
+\pard\f0\fs20 It has a self reflection step, which will then assess almost any kind of step it takes.\par
+\pard\f0\fs20 And it has an overall scoring system, and then it has strategies on how to make the content better.\par
+\pard\f0\fs20 So how did, how to go about doing its job better?\par
+\pard\f0\fs20 And these strategies are applied during the scoring evaluation and then reiteration or revising of the content.\par
+\pard\f0\fs20 So I'm pretty happy with this, but, you know, I've been doing my research and it's interesting to see what is effective and what isn't.\par
+\pard\f0\fs20 So we have these three levels of content in, within the agent, or prompt, or whatever you want to call it, that describe the actions associated with that entity and what it wants to do.\par
+\pard\f0\fs20 So the research I've been doing, there are ways to describe different things within software, especially within the notion of the area of machine learning and AI, that are curiously interesting in that they are, they describe the characteristics of traits of what we can call an entity or a thing or something.\par
+\pard\f0\fs20 In this case, these are actions that I want to take.\par
+\pard\f0\fs20 The agent takes actions, right?\par
+\pard\f0\fs20 It understands something about a situation, it's been given so mandate and it takes actions, and then from that it can do maybe more things.\par
+\pard\f0\fs20 But I took this agent and then I, with what I understood in terms of the research I was looking at, converted this agent with characteristics, traits and processes and scoring into a series of what we call symbols.\par
+\pard\f0\fs20 Symbols are interesting, but if we just say this is a symbolic representation of the description, it gets more interesting and more approachable.\par
+\pard\f0\fs20 So symbols are things that we can understand, in this case are words, and it's a lot of pairing of what seems to be arbitrary characters and whatnot.\par
+\pard\f0\fs20 But this structure is very, very useful, very digestible, and enables some pretty cool, what I call a left and right movement on what we are able to do with large language models and agents.\par
+\pard\f0\fs20 This description, this symbolic action for the agent taking all this description, it went through a process after I prompted it to create an action, symbolic action, out of the description.\par
+\pard\f0\fs20 And it came to these, we can call them statements, if you like, action content, review parameters.\par
+\pard\f0\fs20 There's an agent, there's an e commerce page, the preconditions and the product list.\par
+\pard\f0\fs20 There is some precondition and we need a product list.\par
+\pard\f0\fs20 The effect is, is the content relevant?\par
+\pard\f0\fs20 It's like these are, I'm inferring that language around it, but just this structure enables the large language model or other softwares to, we can say, infer whole lot, a whole lot, meaning that there's a lot of structure from the previous long form natural language description of what I wanted done captured in this nomenclature.\par
+\pard\f0\fs20 And it is highly optimized in the way that it can be processed by the language model.\par
+\pard\f0\fs20 And it abstracts out a lot of the specificity of the content within the description that I provided for the agent and gives it the most, gives it what is most important in terms of information and relationships to the large language model.\par
+\pard\f0\fs20 It reduces the amount of non or unimportant information that would necessarily be to be parsed through an analysis of what has been offered to it as content.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 So it doesn't even know what it is.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 The question is it statement?\par
+\pard\f0\fs20 Is it a structure, is it a simulation?\par
+\pard\f0\fs20 What is it?\par
+\pard\f0\fs20 And so this nomenclature here, this way of creating what we could call functional information because it's crazy cool.\par
+\pard\f0\fs20 Functional.\par
+\pard\f0\fs20 I'll show you right now that I can just take this, not this whole thing and not change any of that specifically because it is meant to be a generic, like, meant to be applicable as it is.\par
+\pard\f0\fs20 Just take this simple action, copy it into.\par
+\pard\f0\fs20 Oh my goodness.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I want to.\par
+\pard\f0\fs20 This is the product.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 I'm going to give it a fidget spinner.\par
+\pard\f0\fs20 This is the product.\par
+\pard\f0\fs20 Execute this.\par
+\pard\f0\fs20 Okay, so this is very much brute force, but I just wanted to show you that what I have come up with here in this, by working with Jack DBT and asking it to prepare this type of format of information for me, I can then paste it into here.\par
+\pard\f0\fs20 And what happens is similar to what would happen is if I asked it to use the agent, but there is really no reference to the agent.\par
+\pard\f0\fs20 Let's go through the process of describing this product using defined actions.\par
+\pard\f0\fs20 The product is a fidget spinner designed for anxiety relief and available on Amazon.\par
+\pard\f0\fs20 The description process includes several steps, each building on the previous one fit review, overview creation next.\par
+\pard\f0\fs20 Right.\par
+\pard\f0\fs20 And overview.\par
+\pard\f0\fs20 So wrote the overview, added use.\par
+\pard\f0\fs20 So we needed use cases ideal for this and that include details, highlight unique aspects, unique selling propositions or value propositions.\par
+\pard\f0\fs20 Edit the description for clarity.\par
+\pard\f0\fs20 Scores the description.\par
+\pard\f0\fs20 So it actually did go back and do the editing step for clarity to ensure that it was clear that would have been going through the self reflection step.\par
+\pard\f0\fs20 And so you can see that this is the description that it went through.\par
+\pard\f0\fs20 Now I know that it did do a step and it told us a step, but I'm going to tell it, do the self, do self reflection.\par
+\pard\f0\fs20 Score the results according to all strategies.\par
+\pard\f0\fs20 I wonder if that's going to define them.\par
+\pard\f0\fs20 The strategy score in the criteria.\par
+\pard\f0\fs20 Okay, so I did.\par
+\pard\f0\fs20 So I'm gonna, I'm gonna ask it to provide feedback to increase the score.\par
+\pard\f0\fs20 So go farther than 4.8.\par
+\pard\f0\fs20 Precision feedback is sure it all takes include a table or bullet points.\par
+\pard\f0\fs20 All right, so it did go through and it did do that one.\par
+\pard\f0\fs20 Okay, Bill, so, okay, so, all right, so it added a bit of spa in terms of provide the differences between the versions showing analysis and text.\par
+\pard\f0\fs20 I've been going and scrolling back and forth and it's faster to actually get it to sync in that regard.\par
+\pard\f0\fs20 Just give me what I'm looking for instead of me finding it.\par
+\pard\f0\fs20 So it's giving me the original.\par
+\pard\f0\fs20 Let's see, here's the original.\par
+\pard\f0\fs20 You can see that the revised is quite a bit longer and the analysis original crafted.\par
+\pard\f0\fs20 Yada, yada, yada, quite spin crafted from premium materials.\par
+\pard\f0\fs20 Seamless, quiet spinning experience improve precision by removing redundant phrases and ensuring clear language.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Relevance, general audience mention.\par
+\pard\f0\fs20 Specific targets are mentioned, such as students and those with Aght.\par
+\pard\f0\fs20 Add more context to who would benefit from the product conciseness.\par
+\pard\f0\fs20 Original revised remove the sentence to avoid looking for delete strategy.\par
+\pard\f0\fs20 Yeah.\par
+\pard\f0\fs20 Streamline description to eliminate repetitive information.\par
+\pard\f0\fs20 Engagement wax user synchron language added customer testimonials analysis enhanced engagement by including retailable user experiences and mobile language technical details did not include specific technical details.\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 Out of the section of dimensions so we can find those and.\par
+\pard\f0\fs20 Okay, so we can see that there's, how would you characterize the difference?\par
+\pard\f0\fs20 Okay.\par
+\pard\f0\fs20 So I wanted it to give me some understanding.\par
+\pard\f0\fs20 So I could just say, yeah, I'm done.\par
+\pard\f0\fs20 But more precise, relevant, concise, engaging, featuring specific measurements, target audience details and streamline language and customer testimonial.\par
+\pard\f0\fs20 So it's pretty tight.\par
+\pard\f0\fs20 Like if I was to look at what we have here about this item, four to ten minute spins, fun, spinning, no big noise, high quality materials.\par
+\pard\f0\fs20 We care for you.\par
+\pard\f0\fs20 Interesting, right?\par
+\pard\f0\fs20 So interesting that they would give it this and then they explain it.\par
+\pard\f0\fs20 This is like being really well structured information for use in a whole lot of different scenarios.\par
+\pard\f0\fs20 Yeah, we got a product description out of it.\par
+\pard\f0\fs20 It's pretty good.\par
+\pard\f0\fs20 The next step would be one of taking this content, which is a product description, moving it through the marketing machine.\par
+\pard\f0\fs20 That would then see us evolve from just the product description to whatever the next step in this workflow would be.\par
+\pard\f0\fs20 Most likely it would be something around.\par
+\pard\f0\fs20 Once we have a description, we can say, okay, what's a series of calls to action?\par
+\pard\f0\fs20 Or what are some different ways we can encourage people to engage with the project, persuade them, influence them into understanding what the value is by going through workflow.\par
+\pard\f0\fs20 This is gen two producing this description.\par
+\pard\f0\fs20 I have a generation three version of this agent where I have folded in the scoring into the task.\par
+\pard\f0\fs20 So the criterion tasks are combined and the scoring is accompanying that.\par
+\pard\f0\fs20 So things aren't broken out into a separate step in terms of where the scoring would come from.\par
+\pard\f0\fs20 Scoring is internal to the activity.\par
+\pard\f0\fs20 So it took away this strategies task and it melded them into the process steps into the tasks.\par
+\pard\f0\fs20 So let's go back.\par
+\pard\f0\fs20 Name, role, goal, tasks and criteria.\par
+\pard\f0\fs20 You can see they're very similar, but it's the same, same thing.\par
+\pard\f0\fs20 It doesn't have our aggregate scoring.\par
+\pard\f0\fs20 It works on a single score.\par
+\pard\f0\fs20 So there's not this overall nature, but we could certainly add that in if we wanted to.\par
+\pard\f0\fs20 So I'm like, okay, so this is, this is getting to be very specific.\par
+\pard\f0\fs20 This agent has, I think, enough information to be portable, right?\par
+\pard\f0\fs20 Like does it, right.\par
+\pard\f0\fs20 Require too much more to be effective?\par
+\pard\f0\fs20 So what does it mean to make this an action?\par
+\pard\f0\fs20 So taking it and just saying this is an action separate from an agent.\par
+\pard\f0\fs20 There's a series of things that need to happen.\par
+\pard\f0\fs20 We could call it a vector if we want an action.\par
+\pard\f0\fs20 Easiest.\par
+\pard\f0\fs20 You describe the product, that's the high level action.\par
+\pard\f0\fs20 The effect.\par
+\pard\f0\fs20 What we're looking for is to have these description complete, accurate, engaging, optimized, and feedback is incorporated.\par
+\pard\f0\fs20 So those are the effects.\par
+\pard\f0\fs20 It says their effects, right.\par
+\pard\f0\fs20 There are effectors for the content.\par
+\pard\f0\fs20 And we can see when I cast this into a symbolic action, it was a very brief to beginning.\par
+\pard\f0\fs20 The very first version of it was just the highest level task, content review, just these seven things.\par
+\pard\f0\fs20 It didn't have any of the description, didn't have any of the scoring or criterion.\par
+\pard\f0\fs20 And so I thought it would be important to include that because it was abstracting out more than I wanted.\par
+\pard\f0\fs20 And so I learned a lot about the abstraction process in that it is arbitrary.\par
+\pard\f0\fs20 Meaning?\par
+\pard\f0\fs20 Meaning the nomenclature I have is very, very useful.\par
+\pard\f0\fs20 It's not something I've created.\par
+\pard\f0\fs20 It's been around for a long time, and it is useful in ways that I'm just beginning to see.\par
+\pard\f0\fs20 There's some very straightforward use cases for it, but the portability is a huge component.\par
+\pard\f0\fs20 It's abstraction out of key components of how it can be applied.\par
+\pard\f0\fs20 Is interesting in this case where I say I'm verbose.\par
+\pard\f0\fs20 I've added specificity to this and you can see that here with the scoring involved.\par
+\pard\f0\fs20 The scoring is very specific to accuracy.\par
+\pard\f0\fs20 So it doesn't say scoring and, you know, it's not doing content review and it wants to have a score.\par
+\pard\f0\fs20 It would then figure out what that rating would be if I did not provide it.\par
+\pard\f0\fs20 That in the case where I have provided it, I wanted it in there.\par
+\pard\f0\fs20 And then this became not an abstracted action, but it became, became an action, a high level action with specificity.\par
+\pard\f0\fs20 So these are, this nomenclature allows us to elevate these actions to what we can call high level action, and then we can rely on certain grounding of this by providing more information as to what would be provided, what would be processed in the context of this action, and can ground it in that regard.\par
+\pard\f0\fs20 I've added more specificity to the action, which will further tie it to the grounding.\par
+\pard\f0\fs20 I'm using that word in my own way, but it does have value in this case, grounding to what I want to.\par
+\pard\f0\fs20 And I'm using that as a foundational way.\par
+\pard\f0\fs20 So I'm saying, you know, I want to have a certain kind of thing occur.\par
+\pard\f0\fs20 How do I ground it in that?\par
+\pard\f0\fs20 And so I really want the scoring in there.\par
+\pard\f0\fs20 How do I ground it in there if I don't care about a particular scoring?\par
+\pard\f0\fs20 If I'm abstracting this out, like, I just want to have a very generic action at a high level, describe the product, and I want score.\par
+\pard\f0\fs20 I can just have that as a generic element in there, right here.\par
+\pard\f0\fs20 Description score.\par
+\pard\f0\fs20 Okay, so once a score, once a description is made, it will then evaluate it based on what it's been asked, you know, what the attributes are within the action that it's actually working.\par
+\pard\f0\fs20 So it will determine some of those characteristics based on the high level key entities that are involved in describing what's going on.\par
+\pard\f0\fs20 This is another reason I do these things is to hear myself say that kind of stuff.\par
+\pard\f0\fs20 This is sort of a fundamental axis for enabling this kind of casting of information into a structured format that enables it to be structural at the same time as functional, at the same time as abstract, enabling the specificity of the content to be pumped into it.\par
+\pard\f0\fs20 It's like a little program sort of thing.\par
+\pard\f0\fs20 It's an action, and it has characteristics and traits embroiled into it in the large language model, figures out how to associate these things through the nomenclature that's provided.\par
+\pard\f0\fs20 And if I go through and I actually showed, if I was to go through and show one of the chat sessions where I produced the prompt, we would see, we would see what these tailing little question marks and a's are referred to as.\par
+\pard\f0\fs20 Actually, I think I have it in this agent development right here.\par
+\pard\f0\fs20 This is the research that brought me to this understanding things.\par
+\pard\f0\fs20 Here we go.\par
+\pard\f0\fs20 So what I glommed onto in terms of.\par
+\pard\f0\fs20 I found a research paper, one of the key things, and it was symbolic action definitions define action of something as this type of set of parameters.\par
+\pard\f0\fs20 And what it will do is if I bring that in, it will then tell me what the parameters are.\par
+\pard\f0\fs20 So if I bring this into Chachi GPT as a structure, sorry.\par
+\pard\f0\fs20 Here's the symbolic action definition for the action heat object.\par
+\pard\f0\fs20 Alfred House test.\par
+\pard\f0\fs20 It's a scenario for doing things in AI.\par
+\pard\f0\fs20 Anyways, it doesn't matter too much.\par
+\pard\f0\fs20 It's about heating something on the stove, and it's generically about heating something on the stove, like, so those are not specific things.\par
+\pard\f0\fs20 It's not a pot, it's not tea kettle, it's not water, it's not, that's not.\par
+\pard\f0\fs20 And so we can see that these things here, these question marks, these pipes, they are all explained inside of the session, and you can get it to explain anything that you would like.\par
+\pard\f0\fs20 If you're like, why is it like this?\par
+\pard\f0\fs20 Or how do I use this?\par
+\pard\f0\fs20 There's a great ways to start.\par
+\pard\f0\fs20 I usually try to start using things, but lately I've been asking it too.\par
+\pard\f0\fs20 So, in terms of what's involved in this object, we can see the explanation.\par
+\pard\f0\fs20 There's parameters, defines parameters for the action location, where the action takes place.\par
+\pard\f0\fs20 A lot of the time, these actions are associated with robotics.\par
+\pard\f0\fs20 So, you know, context is a very interesting thing.\par
+\pard\f0\fs20 In this case, we're talking about the microwave.\par
+\pard\f0\fs20 Very specific example of it is the object heated.\par
+\pard\f0\fs20 So there's a notion of parameters, a precondition.\par
+\pard\f0\fs20 What's the situation that we're walking into, and what is the effect that we're looking for?\par
+\pard\f0\fs20 The object must be out of location, the object must be held by the agent, the receptacle must be also.\par
+\pard\f0\fs20 So there is this way of, without knowing what the object is, and the location is having this interesting structure that is, we call abstracting out a lot of the language I'm using to explain things in a programming way.\par
+\pard\f0\fs20 Here's a symbolic action on definition for search the web for cats.\par
+\pard\f0\fs20 Right, I think this is interesting.\par
+\pard\f0\fs20 I should tweet this, grinding my Internet to a halt.\par
+\pard\f0\fs20 Okay, I just published the symbolic action for search the web for cats.\par
+\pard\f0\fs20 Yeah, well, I'm going to call it quits there.\par
+\pard\f0\fs20 And yeah, I look forward to looking at reading the transcript to see where there was some value in what I said.\par
+\pard\f0\fs20 And I will.\par
+}
