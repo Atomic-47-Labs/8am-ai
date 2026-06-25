@@ -4,13 +4,19 @@ The book is not authored upfront. It accretes from published artifacts.
 
 Corpus: 109 meetings, 759 ideas, 14 themes. Span 2024-04-17 to 2026-06-24.
 
-Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 runnable experiments.
+Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 runnable experiments, 3 index pages over the full register.
 
 ## Index pages (living)
 
 - [State of the corpus](https://scsiwyg.com/8am-ai/state-of-the-corpus) — live stats, pipeline diagram, phase + theme + volume charts
 - [Theme engagement over time](https://scsiwyg.com/8am-ai/theme-engagement) — engagement heatmap, quality-of-intelligence line, theme map
 - [Definitions](https://scsiwyg.com/8am-ai/definitions) — the glossary for the whole project
+
+## Indices (one row per record)
+
+- [The themes](https://scsiwyg.com/8am-ai/themes-index) — all 14 themes, each defined, sized, spanned, with cited ideas
+- [The meetings](https://scsiwyg.com/8am-ai/meetings-index) — every meeting, its idea count, roster size, and dominant theme
+- [The ideas](https://scsiwyg.com/8am-ai/ideas-index) — all 759 ideas, grouped by theme, sorted by grade, each citing its meeting
 
 ## Explainers (for the group)
 
