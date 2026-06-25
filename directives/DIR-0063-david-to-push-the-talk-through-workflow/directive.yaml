@@ -1,6 +1,6 @@
 id: DIR-0063
 slug: david-to-push-the-talk-through-workflow
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to push the talk-through workflow/survey tool to his team and LinkedIn
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: push
+  age_days: 463
+  reason: build/explore intent "push"; aged 463d, untracked

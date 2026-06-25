@@ -1,6 +1,6 @@
 id: DIR-0214
 slug: test-single-pdf-workflow-with-aer-direct
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Test single PDF workflow with AER directive using Supabase database
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: test
+  age_days: 351
+  reason: build/explore intent "test"; aged 351d, untracked

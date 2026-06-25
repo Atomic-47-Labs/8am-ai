@@ -1,6 +1,6 @@
 id: DIR-0151
 slug: report-back-in-a-couple-of-weeks-on-prog
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Report back in a couple of weeks on progress with document extraction and automation using IDE tools
 created: '2026-06-25T17:20:11Z'
-updated: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: report
+  age_days: 400
+  reason: build/explore intent "report"; aged 400d, untracked

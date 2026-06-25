@@ -1,6 +1,6 @@
 id: DIR-0054
 slug: implement-the-algorithm-for-trait-based
-phase: open
+phase: dropped
 owner: Travis
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Implement the algorithm for trait-based encryption in the front end
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 477
+  reason: build/explore intent "implement"; aged 477d, untracked

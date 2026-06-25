@@ -1,6 +1,6 @@
 id: DIR-0282
 slug: meet-with-jason-kriskey-to-discuss-and-p
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Meet with Jason Kriskey to discuss and potentially implement the workflow
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: meet
+  age_days: 672
+  reason: build/explore intent "meet"; aged 672d, untracked

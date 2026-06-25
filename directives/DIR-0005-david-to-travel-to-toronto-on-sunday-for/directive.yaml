@@ -1,6 +1,6 @@
 id: DIR-0005
 slug: david-to-travel-to-toronto-on-sunday-for
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to travel to Toronto on Sunday for project negotiation
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: travel
+  age_days: 533
+  reason: build/explore intent "travel"; aged 533d, untracked

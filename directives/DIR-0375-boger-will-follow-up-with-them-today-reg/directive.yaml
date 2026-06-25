@@ -1,6 +1,6 @@
 id: DIR-0375
 slug: boger-will-follow-up-with-them-today-reg
-phase: open
+phase: done
 owner: Jen
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Boger will follow up with them today regarding the meeting next week and send a reminder email by 10:00 a.m. if no email is received by then.
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: done
+  verb: follow
+  age_days: 211
+  reason: one-shot comms/scheduling verb "follow"; aged 211d, presumed executed

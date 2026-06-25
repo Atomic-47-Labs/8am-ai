@@ -1,6 +1,6 @@
 id: DIR-0128
 slug: please-reevaluate-the-context-and-provid
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Please reevaluate the context and provide a revised response that better incorporates relevant information
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: reevaluate
+  age_days: 778
+  reason: build/explore intent "reevaluate"; aged 778d, untracked

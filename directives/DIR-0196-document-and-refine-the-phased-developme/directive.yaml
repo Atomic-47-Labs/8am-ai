@@ -1,6 +1,6 @@
 id: DIR-0196
 slug: document-and-refine-the-phased-developme
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Document and refine the phased development process methodology
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: document
+  age_days: 365
+  reason: build/explore intent "document"; aged 365d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0010
 slug: janmohamed-will-finish-the-progressive-w
-phase: open
+phase: dropped
 owner: Hanif
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Janmohamed will finish the progressive web app, stand up the AI conversation, and put a QR code on the prototypes in Mexico City.
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: finish
+  age_days: 162
+  reason: build/explore intent "finish"; aged 162d, untracked

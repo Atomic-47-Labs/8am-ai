@@ -1,6 +1,6 @@
 id: DIR-0369
 slug: check-out-the-unsupervised-learning-news
-phase: open
+phase: dropped
 owner: James Giroday
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Check out the "Unsupervised Learning" newsletter
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: check
+  age_days: 589
+  reason: build/explore intent "check"; aged 589d, untracked

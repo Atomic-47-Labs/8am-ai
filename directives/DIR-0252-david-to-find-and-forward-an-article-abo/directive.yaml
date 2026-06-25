@@ -1,6 +1,6 @@
 id: DIR-0252
 slug: david-to-find-and-forward-an-article-abo
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to find and forward an article about sound and perspective to James
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: find
+  age_days: 687
+  reason: build/explore intent "find"; aged 687d, untracked

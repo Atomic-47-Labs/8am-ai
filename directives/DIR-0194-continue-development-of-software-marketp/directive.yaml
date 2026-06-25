@@ -1,6 +1,6 @@
 id: DIR-0194
 slug: continue-development-of-software-marketp
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue development of software marketplace for AI-generated applications
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 365
+  reason: build/explore intent "continue"; aged 365d, untracked

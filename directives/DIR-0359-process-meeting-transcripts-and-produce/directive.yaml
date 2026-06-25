@@ -1,6 +1,6 @@
 id: DIR-0359
 slug: process-meeting-transcripts-and-produce
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Process meeting transcripts and produce 30 reports
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: process
+  age_days: 596
+  reason: build/explore intent "process"; aged 596d, untracked

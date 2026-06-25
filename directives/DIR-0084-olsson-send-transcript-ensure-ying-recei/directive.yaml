@@ -1,6 +1,6 @@
 id: DIR-0084
 slug: olsson-send-transcript-ensure-ying-recei
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Olsson\] Send Transcript: Ensure Ying receives meeting transcripts to use question content in her session.'
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: ensure
+  age_days: 71
+  reason: build/explore intent "ensure"; aged 71d, untracked

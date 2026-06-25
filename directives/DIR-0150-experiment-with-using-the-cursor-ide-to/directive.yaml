@@ -1,6 +1,6 @@
 id: DIR-0150
 slug: experiment-with-using-the-cursor-ide-to
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Experiment with using the Cursor IDE to automate extraction and formatting of information from multiple documents for AER checklist compliance
 created: '2026-06-25T17:20:11Z'
-updated: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: experiment
+  age_days: 400
+  reason: build/explore intent "experiment"; aged 400d, untracked

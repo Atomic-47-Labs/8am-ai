@@ -1,6 +1,6 @@
 id: DIR-0225
 slug: install-the-multi-panel-installation-at
-phase: open
+phase: dropped
 owner: Hanif Janmohamed
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Install the multi-panel installation at Deloitte in Toronto
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: install
+  age_days: 715
+  reason: build/explore intent "install"; aged 715d, untracked

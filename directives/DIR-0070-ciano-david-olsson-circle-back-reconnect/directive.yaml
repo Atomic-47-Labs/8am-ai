@@ -1,6 +1,6 @@
 id: DIR-0070
 slug: ciano-david-olsson-circle-back-reconnect
-phase: open
+phase: dropped
 owner: Fulvio
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Ciano, David Olsson\] Circle Back: Reconnect regarding the upcoming meeting logistics. Obtain food and coffee refreshments.'
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: reconnect
+  age_days: 92
+  reason: build/explore intent "reconnect"; aged 92d, untracked

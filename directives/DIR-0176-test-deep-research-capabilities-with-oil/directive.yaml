@@ -1,6 +1,6 @@
 id: DIR-0176
 slug: test-deep-research-capabilities-with-oil
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Test deep research capabilities with oil and gas pilot project plan
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: test
+  age_days: 379
+  reason: build/explore intent "test"; aged 379d, untracked

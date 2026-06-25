@@ -1,6 +1,6 @@
 id: DIR-0058
 slug: olsson-implement-checkbox-put-in-a-conse
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Olsson] Implement Checkbox: Put in a consent checkbox for sharing the survey.'
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 106
+  reason: build/explore intent "implement"; aged 106d, untracked

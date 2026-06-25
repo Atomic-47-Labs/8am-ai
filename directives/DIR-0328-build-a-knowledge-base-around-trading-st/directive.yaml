@@ -1,6 +1,6 @@
 id: DIR-0328
 slug: build-a-knowledge-base-around-trading-st
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Build a knowledge base around trading strategies
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: build
+  age_days: 624
+  reason: build/explore intent "build"; aged 624d, untracked

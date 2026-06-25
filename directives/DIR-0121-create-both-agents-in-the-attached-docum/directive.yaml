@@ -1,6 +1,6 @@
 id: DIR-0121
 slug: create-both-agents-in-the-attached-docum
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Create both agents in the attached documents and introduce them
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 778
+  reason: build/explore intent "create"; aged 778d, untracked

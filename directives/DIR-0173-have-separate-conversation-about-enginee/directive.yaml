@@ -1,6 +1,6 @@
 id: DIR-0173
 slug: have-separate-conversation-about-enginee
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Have separate conversation about engineering drawings and 3D visualization project
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: have
+  age_days: 379
+  reason: build/explore intent "have"; aged 379d, untracked

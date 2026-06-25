@@ -1,6 +1,6 @@
 id: DIR-0023
 slug: exploring-various-creative-tools-and-tec
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: '- Exploring various creative tools and technologies can lead to innovative solutions and improve project outcomes'
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: exploring
+  age_days: 512
+  reason: build/explore intent "exploring"; aged 512d, untracked

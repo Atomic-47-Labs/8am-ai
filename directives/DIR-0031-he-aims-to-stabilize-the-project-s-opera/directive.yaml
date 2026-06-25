@@ -1,6 +1,6 @@
 id: DIR-0031
 slug: he-aims-to-stabilize-the-project-s-opera
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: '- He aims to stabilize the project''s operations and ensure regular financial support.'
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: he
+  age_days: 512
+  reason: build/explore intent "he"; aged 512d, untracked

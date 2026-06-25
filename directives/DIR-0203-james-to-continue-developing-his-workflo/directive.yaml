@@ -1,6 +1,6 @@
 id: DIR-0203
 slug: james-to-continue-developing-his-workflo
-phase: open
+phase: dropped
 owner: James Giroday
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: James to continue developing his workflow for analyzing large datasets using ChatGPT and other tools
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 729
+  reason: build/explore intent "continue"; aged 729d, untracked

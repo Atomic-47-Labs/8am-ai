@@ -1,6 +1,6 @@
 id: DIR-0050
 slug: david-to-meet-with-a-person-from-alberta
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to meet with a person from Alberta to discuss website development
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: meet
+  age_days: 484
+  reason: build/explore intent "meet"; aged 484d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0337
 slug: formalize-the-scrubs-agents-into-a-direc
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Formalize the 'scrubs' agents into a directory for sharing
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: formalize
+  age_days: 617
+  reason: build/explore intent "formalize"; aged 617d, untracked

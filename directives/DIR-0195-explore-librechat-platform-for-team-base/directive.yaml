@@ -1,6 +1,6 @@
 id: DIR-0195
 slug: explore-librechat-platform-for-team-base
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Explore LibreChat platform for team-based agent development
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: explore
+  age_days: 365
+  reason: build/explore intent "explore"; aged 365d, untracked

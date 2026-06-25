@@ -1,6 +1,6 @@
 id: DIR-0039
 slug: boger-will-feed-the-draft-post-through-g
-phase: open
+phase: dropped
 owner: Jen
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Boger will feed the draft post through Grok to compare how it would be received on X.
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: feed
+  age_days: 134
+  reason: build/explore intent "feed"; aged 134d, untracked

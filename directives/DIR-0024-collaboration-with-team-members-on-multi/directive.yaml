@@ -1,6 +1,6 @@
 id: DIR-0024
 slug: collaboration-with-team-members-on-multi
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: '- Collaboration with team members on multimedia projects can foster a more dynamic and productive work environment'
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: collaboration
+  age_days: 512
+  reason: build/explore intent "collaboration"; aged 512d, untracked

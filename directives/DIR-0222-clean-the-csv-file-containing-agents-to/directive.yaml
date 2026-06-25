@@ -1,6 +1,6 @@
 id: DIR-0222
 slug: clean-the-csv-file-containing-agents-to
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Clean the CSV file containing agents to make it more useful
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: clean
+  age_days: 715
+  reason: build/explore intent "clean"; aged 715d, untracked

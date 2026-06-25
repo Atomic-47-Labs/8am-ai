@@ -1,6 +1,6 @@
 id: DIR-0343
 slug: book-ferry-tickets-for-pender-trip
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Book ferry tickets for Pender trip
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: book
+  age_days: 610
+  reason: build/explore intent "book"; aged 610d, untracked

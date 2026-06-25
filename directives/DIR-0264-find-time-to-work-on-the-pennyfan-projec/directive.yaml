@@ -1,6 +1,6 @@
 id: DIR-0264
 slug: find-time-to-work-on-the-pennyfan-projec
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Find time to work on the Pennyfan project, likely in early morning
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: find
+  age_days: 680
+  reason: build/explore intent "find"; aged 680d, untracked

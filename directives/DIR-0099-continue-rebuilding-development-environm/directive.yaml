@@ -1,6 +1,6 @@
 id: DIR-0099
 slug: continue-rebuilding-development-environm
-phase: open
+phase: dropped
 owner: Scott
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue rebuilding development environment with proper Git setup
 created: '2026-06-25T17:20:08Z'
-updated: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 428
+  reason: build/explore intent "continue"; aged 428d, untracked

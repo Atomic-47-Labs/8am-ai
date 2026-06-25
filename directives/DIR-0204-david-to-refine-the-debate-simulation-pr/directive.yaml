@@ -1,6 +1,6 @@
 id: DIR-0204
 slug: david-to-refine-the-debate-simulation-pr
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to refine the debate simulation prompts and ensure they pull from the correct datasets
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: refine
+  age_days: 729
+  reason: build/explore intent "refine"; aged 729d, untracked

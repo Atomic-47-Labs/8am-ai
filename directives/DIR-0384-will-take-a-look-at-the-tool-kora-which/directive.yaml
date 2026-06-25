@@ -1,6 +1,6 @@
 id: DIR-0384
 slug: will-take-a-look-at-the-tool-kora-which
-phase: open
+phase: dropped
 owner: Ying
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: will take a look at the tool Kora, which is related to inbox, email, and AI, as linked by Hanif Janmohamed.
 created: '2026-06-25T17:20:21Z'
-updated: '2026-06-25T17:20:21Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: take
+  age_days: 204
+  reason: build/explore intent "take"; aged 204d, untracked

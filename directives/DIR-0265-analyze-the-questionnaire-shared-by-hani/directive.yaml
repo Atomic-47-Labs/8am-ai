@@ -1,6 +1,6 @@
 id: DIR-0265
 slug: analyze-the-questionnaire-shared-by-hani
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Analyze the questionnaire shared by Hanif and experiment with it
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: analyze
+  age_days: 680
+  reason: build/explore intent "analyze"; aged 680d, untracked

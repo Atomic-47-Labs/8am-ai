@@ -1,6 +1,6 @@
 id: DIR-0049
 slug: david-to-create-and-share-a-video-demons
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to create and share a video demonstrating the market research tool
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 484
+  reason: build/explore intent "create"; aged 484d, untracked

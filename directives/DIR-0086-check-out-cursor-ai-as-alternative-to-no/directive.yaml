@@ -1,6 +1,6 @@
 id: DIR-0086
 slug: check-out-cursor-ai-as-alternative-to-no
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Check out Cursor AI as alternative to Notepad for development
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: check
+  age_days: 435
+  reason: build/explore intent "check"; aged 435d, untracked

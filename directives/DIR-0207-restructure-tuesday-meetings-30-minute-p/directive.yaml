@@ -1,6 +1,6 @@
 id: DIR-0207
 slug: restructure-tuesday-meetings-30-minute-p
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Restructure Tuesday meetings: 30-minute planning session with Fulvio, followed by larger group meeting'
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: minute
+  age_days: 358
+  reason: build/explore intent "minute"; aged 358d, untracked

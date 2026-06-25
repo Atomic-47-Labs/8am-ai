@@ -1,6 +1,6 @@
 id: DIR-0144
 slug: send-out-an-email-ahead-of-time-to-ask-f
-phase: open
+phase: done
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Send out an email ahead of time to ask for questions or examples from participants
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: done
+  verb: send
+  age_days: 771
+  reason: one-shot comms/scheduling verb "send"; aged 771d, presumed executed

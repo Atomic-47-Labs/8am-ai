@@ -1,6 +1,6 @@
 id: DIR-0083
 slug: kryski-create-sessions-build-required-t
-phase: open
+phase: dropped
 owner: Jason
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Kryski\] Create Sessions: Build required T-Mux sessions.'
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: build
+  age_days: 71
+  reason: build/explore intent "build"; aged 71d, untracked

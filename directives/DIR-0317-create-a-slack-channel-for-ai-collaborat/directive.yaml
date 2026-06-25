@@ -1,6 +1,6 @@
 id: DIR-0317
 slug: create-a-slack-channel-for-ai-collaborat
-phase: open
+phase: dropped
 owner: Jason Adam
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Create a Slack channel for AI collaboration
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 638
+  reason: build/explore intent "create"; aged 638d, untracked

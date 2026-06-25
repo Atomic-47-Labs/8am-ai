@@ -1,6 +1,6 @@
 id: DIR-0215
 slug: invite-bibiana-to-upcoming-amqc-project
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Invite Bibiana to upcoming AMQC project meeting
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: upcoming
+  age_days: 351
+  reason: build/explore intent "upcoming"; aged 351d, untracked

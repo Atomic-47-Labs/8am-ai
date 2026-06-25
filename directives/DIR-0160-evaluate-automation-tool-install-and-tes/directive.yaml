@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Evaluate Automation Tool: Install and test the recommended local model agent software. Determine if the platform meets specific privacy and automation needs for routine email tasks.'
 created: '2026-06-25T17:20:11Z'
-updated: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: open
+  verb: install
+  age_days: 22
+  reason: within 60d window (meeting 2026-06-03)

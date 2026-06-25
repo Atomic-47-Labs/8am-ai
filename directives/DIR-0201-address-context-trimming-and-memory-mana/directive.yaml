@@ -1,6 +1,6 @@
 id: DIR-0201
 slug: address-context-trimming-and-memory-mana
-phase: open
+phase: dropped
 owner: Unassigned
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Address context trimming and memory management issues in AI workflows
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: address
+  age_days: 365
+  reason: build/explore intent "address"; aged 365d, untracked

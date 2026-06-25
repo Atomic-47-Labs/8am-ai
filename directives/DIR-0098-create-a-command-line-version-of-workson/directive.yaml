@@ -1,6 +1,6 @@
 id: DIR-0098
 slug: create-a-command-line-version-of-workson
-phase: open
+phase: dropped
 owner: Dave
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Create a command-line version of Worksona
 created: '2026-06-25T17:20:08Z'
-updated: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 428
+  reason: build/explore intent "create"; aged 428d, untracked

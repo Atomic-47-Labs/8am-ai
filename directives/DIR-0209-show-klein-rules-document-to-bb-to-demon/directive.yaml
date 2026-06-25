@@ -1,6 +1,6 @@
 id: DIR-0209
 slug: show-klein-rules-document-to-bb-to-demon
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Show Klein rules document to BB to demonstrate current implementation
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: show
+  age_days: 358
+  reason: build/explore intent "show"; aged 358d, untracked

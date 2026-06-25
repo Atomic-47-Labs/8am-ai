@@ -1,6 +1,6 @@
 id: DIR-0301
 slug: consider-using-david-s-tools-to-analyze
-phase: open
+phase: dropped
 owner: Group
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Consider using David's tools to analyze past conversations and generate scaffolding for terms and conditions
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: consider
+  age_days: 288
+  reason: build/explore intent "consider"; aged 288d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0217
 slug: explore-business-collaboration-opportuni
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Explore business collaboration opportunities with Scott on regulatory document management
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: explore
+  age_days: 351
+  reason: build/explore intent "explore"; aged 351d, untracked

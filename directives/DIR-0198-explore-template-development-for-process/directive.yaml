@@ -1,6 +1,6 @@
 id: DIR-0198
 slug: explore-template-development-for-process
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Explore template development for process frameworks beyond current pattern templates
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: explore
+  age_days: 365
+  reason: build/explore intent "explore"; aged 365d, untracked

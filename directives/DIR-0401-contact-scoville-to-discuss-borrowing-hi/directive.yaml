@@ -1,6 +1,6 @@
 id: DIR-0401
 slug: contact-scoville-to-discuss-borrowing-hi
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Contact Scoville to discuss borrowing his name for the tool
 created: '2026-06-25T17:20:21Z'
-updated: '2026-06-25T17:20:21Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: discuss
+  age_days: 554
+  reason: build/explore intent "discuss"; aged 554d, untracked

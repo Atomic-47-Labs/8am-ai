@@ -1,6 +1,6 @@
 id: DIR-0009
 slug: david-to-develop-a-financial-advisor-age
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to develop a financial advisor agent for specific opportunities
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: develop
+  age_days: 533
+  reason: build/explore intent "develop"; aged 533d, untracked

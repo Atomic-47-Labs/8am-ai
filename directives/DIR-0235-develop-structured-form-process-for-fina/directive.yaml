@@ -1,6 +1,6 @@
 id: DIR-0235
 slug: develop-structured-form-process-for-fina
-phase: open
+phase: dropped
 owner: James Giroday
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Develop structured form process for financial RFP requests to reduce back-and-forth context gathering
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: develop
+  age_days: 330
+  reason: build/explore intent "develop"; aged 330d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0202
 slug: james-to-get-the-report-on-machine-learn
-phase: open
+phase: dropped
 owner: James Giroday
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: James to get the report on machine learning analysis of social media activity and cryptocurrency prices
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: get
+  age_days: 729
+  reason: build/explore intent "get"; aged 729d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0106
 slug: advance-the-swarm-model-to-handle-more-c
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Advance the swarm model to handle more complex iterations
 created: '2026-06-25T17:20:08Z'
-updated: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: advance
+  age_days: 421
+  reason: build/explore intent "advance"; aged 421d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0199
 slug: develop-better-integration-between-quali
-phase: open
+phase: dropped
 owner: Unassigned
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Develop better integration between quality LLMs and agent development tools
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: develop
+  age_days: 365
+  reason: build/explore intent "develop"; aged 365d, untracked

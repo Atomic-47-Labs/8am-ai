@@ -1,6 +1,6 @@
 id: DIR-0090
 slug: define-the-next-agent-with-a-clear-goal
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Define the next agent with a clear goal
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: define
+  age_days: 799
+  reason: build/explore intent "define"; aged 799d, untracked

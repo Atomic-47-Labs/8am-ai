@@ -1,6 +1,6 @@
 id: DIR-0373
 slug: document-the-process-of-building-and-twe
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Document the process of building and tweaking code in Klein
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: document
+  age_days: 582
+  reason: build/explore intent "document"; aged 582d, untracked

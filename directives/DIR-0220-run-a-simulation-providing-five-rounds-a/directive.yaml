@@ -1,6 +1,6 @@
 id: DIR-0220
 slug: run-a-simulation-providing-five-rounds-a
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Run a simulation providing five rounds and moves to each of the agents
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: run
+  age_days: 715
+  reason: build/explore intent "run"; aged 715d, untracked

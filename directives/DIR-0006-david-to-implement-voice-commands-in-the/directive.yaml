@@ -1,6 +1,6 @@
 id: DIR-0006
 slug: david-to-implement-voice-commands-in-the
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to implement voice commands in the oil and gas interface application
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 533
+  reason: build/explore intent "implement"; aged 533d, untracked

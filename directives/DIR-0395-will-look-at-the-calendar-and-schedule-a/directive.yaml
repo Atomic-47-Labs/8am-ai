@@ -1,6 +1,6 @@
 id: DIR-0395
 slug: will-look-at-the-calendar-and-schedule-a
-phase: open
+phase: dropped
 owner: Ying
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: will look at the calendar and schedule a coffee with David Olsson.
 created: '2026-06-25T17:20:21Z'
-updated: '2026-06-25T17:20:21Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: look
+  age_days: 197
+  reason: build/explore intent "look"; aged 197d, untracked

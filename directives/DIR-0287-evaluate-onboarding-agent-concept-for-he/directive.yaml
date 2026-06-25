@@ -1,6 +1,6 @@
 id: DIR-0287
 slug: evaluate-onboarding-agent-concept-for-he
-phase: open
+phase: dropped
 owner: Graham Fawcett
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Evaluate onboarding agent concept for helping customers with context engineering
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: evaluate
+  age_days: 302
+  reason: build/explore intent "evaluate"; aged 302d, untracked

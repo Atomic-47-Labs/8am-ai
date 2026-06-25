@@ -1,6 +1,6 @@
 id: DIR-0101
 slug: refine-the-report-structure
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Refine the report structure
 created: '2026-06-25T17:20:08Z'
-updated: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: refine
+  age_days: 792
+  reason: build/explore intent "refine"; aged 792d, untracked

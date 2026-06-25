@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Olsson\] Share project plugin: Send the plugin and relevant access links to the group via email. Include the meeting transcript in the correspondence.'
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: open
+  verb: send
+  age_days: 8
+  reason: within 60d window (meeting 2026-06-17)

@@ -1,6 +1,6 @@
 id: DIR-0025
 slug: david-to-talk-with-angel-about-potential
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to talk with Angel about potential onboarding in February
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: talk
+  age_days: 512
+  reason: build/explore intent "talk"; aged 512d, untracked

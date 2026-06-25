@@ -1,6 +1,6 @@
 id: DIR-0034
 slug: olsson-will-listen-to-the-client-s-requi
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Olsson will listen to the client's requirement to craft a plan, estimate the cost, and provide a potential price.
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: listen
+  age_days: 141
+  reason: build/explore intent "listen"; aged 141d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0076
 slug: continue-development-on-aiguides-ca-food
-phase: open
+phase: dropped
 owner: James Giroday
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue development on aiguides.ca food/protein tracking project
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 456
+  reason: build/explore intent "continue"; aged 456d, untracked

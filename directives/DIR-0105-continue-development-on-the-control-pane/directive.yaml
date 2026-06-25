@@ -1,6 +1,6 @@
 id: DIR-0105
 slug: continue-development-on-the-control-pane
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue development on the control panel to improve agent observability
 created: '2026-06-25T17:20:08Z'
-updated: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 421
+  reason: build/explore intent "continue"; aged 421d, untracked

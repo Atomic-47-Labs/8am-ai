@@ -1,6 +1,6 @@
 id: DIR-0093
 slug: group-establish-group-chat-table-the-dis
-phase: open
+phase: dropped
 owner: The
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'group] Establish Group Chat: Table the discussion; ensure the creation of a collaborative chat platform.'
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: establish
+  age_days: 64
+  reason: build/explore intent "establish"; aged 64d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0056
 slug: review-notes-look-how-to-access-previous
-phase: open
+phase: dropped
 owner: Ying
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Review Notes: Look how to access previous meeting notes.'
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: look
+  age_days: 106
+  reason: build/explore intent "look"; aged 106d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0122
 slug: update-the-supervisor-agent-to-show-how
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Update the supervisor agent to show how it works with agents
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: update
+  age_days: 778
+  reason: build/explore intent "update"; aged 778d, untracked

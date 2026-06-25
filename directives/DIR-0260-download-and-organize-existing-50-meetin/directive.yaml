@@ -1,6 +1,6 @@
 id: DIR-0260
 slug: download-and-organize-existing-50-meetin
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Download and organize existing 50+ meeting transcripts into the GitHub repository system
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: download
+  age_days: 316
+  reason: build/explore intent "download"; aged 316d, untracked

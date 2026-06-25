@@ -1,6 +1,6 @@
 id: DIR-0319
 slug: join-the-new-ai-slack-channel-when-it-s
-phase: open
+phase: dropped
 owner: Fulvio
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Join the new AI Slack channel when it's created
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: join
+  age_days: 638
+  reason: build/explore intent "join"; aged 638d, untracked

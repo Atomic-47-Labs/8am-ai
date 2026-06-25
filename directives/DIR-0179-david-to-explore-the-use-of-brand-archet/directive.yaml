@@ -1,6 +1,6 @@
 id: DIR-0179
 slug: david-to-explore-the-use-of-brand-archet
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: David to explore the use of brand archetypes for improving agent outputs
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: explore
+  age_days: 743
+  reason: build/explore intent "explore"; aged 743d, untracked

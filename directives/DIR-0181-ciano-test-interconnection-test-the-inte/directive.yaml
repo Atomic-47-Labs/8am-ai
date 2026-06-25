@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Ciano\] Test Interconnection: Test the interconnection between the local model and cloud models to confirm the reported fix.'
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: open
+  verb: test
+  age_days: 8
+  reason: within 60d window (meeting 2026-06-17)

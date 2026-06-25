@@ -1,6 +1,6 @@
 id: DIR-0075
 slug: complete-remaining-work-before-1-00-meet
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Complete remaining work before 1:00 meeting
 created: '2026-06-25T17:20:06Z'
-updated: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: complete
+  age_days: 456
+  reason: build/explore intent "complete"; aged 456d, untracked

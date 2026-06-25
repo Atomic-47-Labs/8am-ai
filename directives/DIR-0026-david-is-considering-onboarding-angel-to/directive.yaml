@@ -1,6 +1,6 @@
 id: DIR-0026
 slug: david-is-considering-onboarding-angel-to
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: '- David is considering onboarding Angel to assist with project tasks.'
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: is
+  age_days: 512
+  reason: build/explore intent "is"; aged 512d, untracked

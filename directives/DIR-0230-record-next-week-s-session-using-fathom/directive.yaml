@@ -1,6 +1,6 @@
 id: DIR-0230
 slug: record-next-week-s-session-using-fathom
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Record next week's session using Fathom to capture video of the hands-on experimentation
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: record
+  age_days: 342
+  reason: build/explore intent "record"; aged 342d, untracked

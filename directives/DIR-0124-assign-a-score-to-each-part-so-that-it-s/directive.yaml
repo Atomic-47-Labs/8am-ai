@@ -1,6 +1,6 @@
 id: DIR-0124
 slug: assign-a-score-to-each-part-so-that-it-s
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Assign a score to each part so that it's not an overall score
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: assign
+  age_days: 778
+  reason: build/explore intent "assign"; aged 778d, untracked

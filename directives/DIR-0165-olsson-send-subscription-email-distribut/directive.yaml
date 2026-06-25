@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Olsson\] Send Subscription Email: Distribute subscription invitations for the 8 a.m. meeting to all team members via email.'
 created: '2026-06-25T17:20:12Z'
-updated: '2026-06-25T17:20:12Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: open
+  verb: distribute
+  age_days: 15
+  reason: within 60d window (meeting 2026-06-10)

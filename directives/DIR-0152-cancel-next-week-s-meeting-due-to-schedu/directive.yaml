@@ -1,6 +1,6 @@
 id: DIR-0152
 slug: cancel-next-week-s-meeting-due-to-schedu
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Cancel next week's meeting due to scheduling conflicts and upcoming conference
 created: '2026-06-25T17:20:11Z'
-updated: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: cancel
+  age_days: 400
+  reason: build/explore intent "cancel"; aged 400d, untracked

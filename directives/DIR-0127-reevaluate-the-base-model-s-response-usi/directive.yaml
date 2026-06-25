@@ -1,6 +1,6 @@
 id: DIR-0127
 slug: reevaluate-the-base-model-s-response-usi
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Reevaluate the base model's response using the same scoring framework
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: reevaluate
+  age_days: 778
+  reason: build/explore intent "reevaluate"; aged 778d, untracked

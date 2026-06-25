@@ -1,6 +1,6 @@
 id: DIR-0316
 slug: investigate-opportunities-to-build-or-ad
-phase: open
+phase: dropped
 owner: AI Workflow Designers
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Investigate opportunities to build or adopt AI orchestration tools that enable dynamic generation and modification of workflows within platforms such as N8N, with AI capable of code generation and testing for orchestration steps
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: investigate
+  age_days: 274
+  reason: build/explore intent "investigate"; aged 274d, untracked

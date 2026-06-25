@@ -1,6 +1,6 @@
 id: DIR-0041
 slug: review-something-for-the-meeting-this-af
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Review something for the meeting this afternoon
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: review
+  age_days: 498
+  reason: build/explore intent "review"; aged 498d, untracked

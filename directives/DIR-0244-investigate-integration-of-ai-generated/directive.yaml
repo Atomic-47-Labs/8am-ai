@@ -1,6 +1,6 @@
 id: DIR-0244
 slug: investigate-integration-of-ai-generated
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Investigate integration of AI-generated content with blockchain for NFT creation
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: investigate
+  age_days: 694
+  reason: build/explore intent "investigate"; aged 694d, untracked

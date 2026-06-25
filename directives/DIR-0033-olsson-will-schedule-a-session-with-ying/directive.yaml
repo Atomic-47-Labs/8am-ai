@@ -1,6 +1,6 @@
 id: DIR-0033
 slug: olsson-will-schedule-a-session-with-ying
-phase: open
+phase: done
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Olsson will schedule a session with Ying next week or in the future to go through the provided material and make it useful.
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: done
+  verb: schedule
+  age_days: 141
+  reason: one-shot comms/scheduling verb "schedule"; aged 141d, presumed executed

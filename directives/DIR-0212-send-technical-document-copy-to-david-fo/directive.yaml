@@ -1,6 +1,6 @@
 id: DIR-0212
 slug: send-technical-document-copy-to-david-fo
-phase: open
+phase: done
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Send technical document copy to David for review and pattern analysis
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: done
+  verb: send
+  age_days: 351
+  reason: one-shot comms/scheduling verb "send"; aged 351d, presumed executed

@@ -1,6 +1,6 @@
 id: DIR-0272
 slug: build-reliable-downloader-for-meeting-tr
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Build reliable downloader for meeting transcripts to add to repository
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: build
+  age_days: 309
+  reason: build/explore intent "build"; aged 309d, untracked

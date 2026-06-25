@@ -1,6 +1,6 @@
 id: DIR-0148
 slug: troubleshoot-and-restore-backend-connect
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Troubleshoot and restore backend connectivity between the application and Supabase database to enable full demo functionality
 created: '2026-06-25T17:20:11Z'
-updated: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: troubleshoot
+  age_days: 400
+  reason: build/explore intent "troubleshoot"; aged 400d, untracked

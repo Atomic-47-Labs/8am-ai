@@ -1,6 +1,6 @@
 id: DIR-0360
 slug: put-meeting-reports-in-mongodb
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Put meeting reports in MongoDB
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: put
+  age_days: 596
+  reason: build/explore intent "put"; aged 596d, untracked

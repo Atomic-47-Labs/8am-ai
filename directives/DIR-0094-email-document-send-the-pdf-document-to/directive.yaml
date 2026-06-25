@@ -1,6 +1,6 @@
 id: DIR-0094
 slug: email-document-send-the-pdf-document-to
-phase: open
+phase: done
 owner: Ying
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Email Document: Send the PDF document to all attendees; share the resource directly.'
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: done
+  verb: send
+  age_days: 64
+  reason: one-shot comms/scheduling verb "send"; aged 64d, presumed executed

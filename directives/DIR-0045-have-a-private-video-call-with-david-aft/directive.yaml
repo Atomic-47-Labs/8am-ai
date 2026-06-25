@@ -1,6 +1,6 @@
 id: DIR-0045
 slug: have-a-private-video-call-with-david-aft
-phase: open
+phase: dropped
 owner: Anshul
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Have a private video call with David after the meeting
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: have
+  age_days: 491
+  reason: build/explore intent "have"; aged 491d, untracked

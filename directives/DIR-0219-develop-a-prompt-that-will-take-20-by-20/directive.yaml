@@ -1,6 +1,6 @@
 id: DIR-0219
 slug: develop-a-prompt-that-will-take-20-by-20
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Develop a prompt that will take 20 by 20 cells and create a data structure for interaction
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: develop
+  age_days: 715
+  reason: build/explore intent "develop"; aged 715d, untracked

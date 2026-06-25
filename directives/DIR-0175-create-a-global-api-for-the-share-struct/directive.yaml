@@ -1,6 +1,6 @@
 id: DIR-0175
 slug: create-a-global-api-for-the-share-struct
-phase: open
+phase: dropped
 owner: Scott Morton
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Create a global API for the share structure analysis application
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 379
+  reason: build/explore intent "create"; aged 379d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0268
 slug: finalize-fabrication-arrangements-with-m
-phase: open
+phase: dropped
 owner: Hanif Janmohamed
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Finalize fabrication arrangements with Mexican fabricator for pilot production
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: finalize
+  age_days: 309
+  reason: build/explore intent "finalize"; aged 309d, untracked

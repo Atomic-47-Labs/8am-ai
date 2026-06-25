@@ -1,6 +1,6 @@
 id: DIR-0237
 slug: continue-synthetica-research-project-dev
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue Synthetica research project development and testing on small datasets
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 330
+  reason: build/explore intent "continue"; aged 330d, untracked

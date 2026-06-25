@@ -1,6 +1,6 @@
 id: DIR-0172
 slug: keep-an-eye-out-for-similar-technologies
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Keep an eye out for similar technologies at the energy show and report back to Scott
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: keep
+  age_days: 379
+  reason: build/explore intent "keep"; aged 379d, untracked

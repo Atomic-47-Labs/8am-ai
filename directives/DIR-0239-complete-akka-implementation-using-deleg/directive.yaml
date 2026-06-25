@@ -1,6 +1,6 @@
 id: DIR-0239
 slug: complete-akka-implementation-using-deleg
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Complete Akka implementation using delegation patterns and MCP integration
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: complete
+  age_days: 330
+  reason: build/explore intent "complete"; aged 330d, untracked

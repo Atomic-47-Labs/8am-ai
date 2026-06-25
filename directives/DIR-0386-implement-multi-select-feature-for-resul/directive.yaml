@@ -1,6 +1,6 @@
 id: DIR-0386
 slug: implement-multi-select-feature-for-resul
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Implement multi-select feature for results in the Playground tool
 created: '2026-06-25T17:20:21Z'
-updated: '2026-06-25T17:20:21Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 568
+  reason: build/explore intent "implement"; aged 568d, untracked

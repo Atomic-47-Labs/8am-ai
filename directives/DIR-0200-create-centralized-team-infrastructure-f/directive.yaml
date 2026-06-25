@@ -1,6 +1,6 @@
 id: DIR-0200
 slug: create-centralized-team-infrastructure-f
-phase: open
+phase: dropped
 owner: Unassigned
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Create centralized team infrastructure for shared AI tool access
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: create
+  age_days: 365
+  reason: build/explore intent "create"; aged 365d, untracked

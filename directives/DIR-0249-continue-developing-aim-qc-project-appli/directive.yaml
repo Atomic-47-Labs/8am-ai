@@ -1,6 +1,6 @@
 id: DIR-0249
 slug: continue-developing-aim-qc-project-appli
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue developing AIM QC project application in oil and gas quality control
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 323
+  reason: build/explore intent "continue"; aged 323d, untracked

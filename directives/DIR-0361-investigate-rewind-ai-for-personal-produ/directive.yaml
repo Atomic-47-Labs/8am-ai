@@ -1,6 +1,6 @@
 id: DIR-0361
 slug: investigate-rewind-ai-for-personal-produ
-phase: open
+phase: dropped
 owner: Jason Kryski
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Investigate Rewind AI for personal productivity
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: investigate
+  age_days: 596
+  reason: build/explore intent "investigate"; aged 596d, untracked

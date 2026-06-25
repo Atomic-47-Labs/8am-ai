@@ -1,6 +1,6 @@
 id: DIR-0290
 slug: test-the-feedback-scrub-tool-and-report
-phase: open
+phase: dropped
 owner: James
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Test the feedback scrub tool and report back
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: test
+  age_days: 666
+  reason: build/explore intent "test"; aged 666d, untracked

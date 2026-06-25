@@ -1,6 +1,6 @@
 id: DIR-0136
 slug: explore-and-test-large-context-window-mo
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Explore and test large context window models (e.g., GPT-4.1) for improved document processing and agent tooling
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: explore
+  age_days: 407
+  reason: build/explore intent "explore"; aged 407d, untracked

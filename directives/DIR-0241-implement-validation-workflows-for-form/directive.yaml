@@ -1,6 +1,6 @@
 id: DIR-0241
 slug: implement-validation-workflows-for-form
-phase: open
+phase: dropped
 owner: Graham Fawcett & Spencer MacBeth
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Implement validation workflows for form completeness checking
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 330
+  reason: build/explore intent "implement"; aged 330d, untracked

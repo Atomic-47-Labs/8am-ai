@@ -1,6 +1,6 @@
 id: DIR-0349
 slug: fulvio-to-start-implementing-a-stress-ma
-phase: open
+phase: dropped
 owner: Fulvio
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Fulvio to start implementing a stress management protocol
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: start
+  age_days: 603
+  reason: build/explore intent "start"; aged 603d, untracked

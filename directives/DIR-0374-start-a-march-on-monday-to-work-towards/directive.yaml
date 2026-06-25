@@ -1,6 +1,6 @@
 id: DIR-0374
 slug: start-a-march-on-monday-to-work-towards
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Start a "march" on Monday to work towards end-of-year goals
 created: '2026-06-25T17:20:20Z'
-updated: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: start
+  age_days: 582
+  reason: build/explore intent "start"; aged 582d, untracked

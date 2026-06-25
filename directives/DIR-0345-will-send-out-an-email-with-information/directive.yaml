@@ -1,6 +1,6 @@
 id: DIR-0345
 slug: will-send-out-an-email-with-information
-phase: open
+phase: done
 owner: Ying
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: will send out an email with information about the AI and education panel session happening tomorrow at 10 AM for those in Colona.
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: done
+  verb: send
+  age_days: 239
+  reason: one-shot comms/scheduling verb "send"; aged 239d, presumed executed

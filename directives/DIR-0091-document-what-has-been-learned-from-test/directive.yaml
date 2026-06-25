@@ -1,6 +1,6 @@
 id: DIR-0091
 slug: document-what-has-been-learned-from-test
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Document what has been learned from testing the current agent and apply improvements for specificity
 created: '2026-06-25T17:20:07Z'
-updated: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: document
+  age_days: 799
+  reason: build/explore intent "document"; aged 799d, untracked

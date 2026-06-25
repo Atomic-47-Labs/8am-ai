@@ -1,6 +1,6 @@
 id: DIR-0197
 slug: investigate-librechat-platform-capabilit
-phase: open
+phase: dropped
 owner: Fulvio Ciano
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Investigate LibreChat platform capabilities for multi-agent environments
 created: '2026-06-25T17:20:16Z'
-updated: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: investigate
+  age_days: 365
+  reason: build/explore intent "investigate"; aged 365d, untracked

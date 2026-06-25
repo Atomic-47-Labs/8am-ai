@@ -1,6 +1,6 @@
 id: DIR-0125
 slug: generate-a-targeted-self-reflection-prom
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Generate a targeted self-reflection prompt using the corresponding example output or similar prompt
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: generate
+  age_days: 778
+  reason: build/explore intent "generate"; aged 778d, untracked

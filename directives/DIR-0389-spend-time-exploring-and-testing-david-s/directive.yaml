@@ -1,6 +1,6 @@
 id: DIR-0389
 slug: spend-time-exploring-and-testing-david-s
-phase: open
+phase: dropped
 owner: Jason
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Spend time exploring and testing David's built tool
 created: '2026-06-25T17:20:21Z'
-updated: '2026-06-25T17:20:21Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: spend
+  age_days: 568
+  reason: build/explore intent "spend"; aged 568d, untracked

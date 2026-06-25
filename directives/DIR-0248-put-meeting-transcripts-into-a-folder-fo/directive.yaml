@@ -1,6 +1,6 @@
 id: DIR-0248
 slug: put-meeting-transcripts-into-a-folder-fo
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Put meeting transcripts into a folder for group analysis and potential sharing with others
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: put
+  age_days: 323
+  reason: build/explore intent "put"; aged 323d, untracked

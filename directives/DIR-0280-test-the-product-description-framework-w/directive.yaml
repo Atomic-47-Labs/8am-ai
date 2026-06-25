@@ -1,6 +1,6 @@
 id: DIR-0280
 slug: test-the-product-description-framework-w
-phase: open
+phase: dropped
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Test the product description framework with AI prompting
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: test
+  age_days: 672
+  reason: build/explore intent "test"; aged 672d, untracked

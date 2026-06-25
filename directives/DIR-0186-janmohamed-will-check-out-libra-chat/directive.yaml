@@ -1,6 +1,6 @@
 id: DIR-0186
 slug: janmohamed-will-check-out-libra-chat
-phase: open
+phase: dropped
 owner: Hanif
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Janmohamed will check out Libra chat.
 created: '2026-06-25T17:20:15Z'
-updated: '2026-06-25T17:20:15Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: check
+  age_days: 372
+  reason: build/explore intent "check"; aged 372d, untracked

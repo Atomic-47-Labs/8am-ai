@@ -1,6 +1,6 @@
 id: DIR-0306
 slug: implement-team-wide-fireflies-mcp-instal
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Implement team-wide Fireflies MCP installation across organization
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: implement
+  age_days: 281
+  reason: build/explore intent "implement"; aged 281d, untracked

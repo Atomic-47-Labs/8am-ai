@@ -1,6 +1,6 @@
 id: DIR-0262
 slug: test-github-code-review-functionality-wi
-phase: open
+phase: dropped
 owner: Myles Holt
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Test GitHub code review functionality with Claude and report back to team on the quality and usefulness of AI-generated code reviews
 created: '2026-06-25T17:20:17Z'
-updated: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: test
+  age_days: 316
+  reason: build/explore intent "test"; aged 316d, untracked

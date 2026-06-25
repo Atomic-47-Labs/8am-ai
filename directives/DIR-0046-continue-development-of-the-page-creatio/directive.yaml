@@ -1,6 +1,6 @@
 id: DIR-0046
 slug: continue-development-of-the-page-creatio
-phase: open
+phase: dropped
 owner: Jason
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Continue development of the page creation system and component-based content generation
 created: '2026-06-25T17:20:05Z'
-updated: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: continue
+  age_days: 491
+  reason: build/explore intent "continue"; aged 491d, untracked

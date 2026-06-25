@@ -8,4 +8,9 @@ source:
   window_id: null
 text: 'Distribute Meeting Transcripts: Store meeting transcripts in a shared repository for access by all participants.'
 created: '2026-06-25T17:20:15Z'
-updated: '2026-06-25T17:20:15Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: open
+  verb: store
+  age_days: 1
+  reason: within 60d window (meeting 2026-06-24)

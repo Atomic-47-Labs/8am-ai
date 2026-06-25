@@ -1,6 +1,6 @@
 id: DIR-0342
 slug: send-the-meeting-recording-to-jason
-phase: open
+phase: done
 owner: David
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Send the meeting recording to Jason
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: done
+  verb: send
+  age_days: 610
+  reason: one-shot comms/scheduling verb "send"; aged 610d, presumed executed

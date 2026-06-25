@@ -1,6 +1,6 @@
 id: DIR-0340
 slug: should-review-gemini-s-notes-to-make-sur
-phase: open
+phase: dropped
 owner: You
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: should review Gemini's notes to make sure they're accurate. Get tips and learn how Gemini takes notes*
 created: '2026-06-25T17:20:19Z'
-updated: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: review
+  age_days: 246
+  reason: build/explore intent "review"; aged 246d, untracked

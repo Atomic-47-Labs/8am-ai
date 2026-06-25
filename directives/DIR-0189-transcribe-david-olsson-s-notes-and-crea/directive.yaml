@@ -1,6 +1,6 @@
 id: DIR-0189
 slug: transcribe-david-olsson-s-notes-and-crea
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Transcribe David Olsson's notes and create a Google Doc with the prompts and results from the session
 created: '2026-06-25T17:20:15Z'
-updated: '2026-06-25T17:20:15Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: transcribe
+  age_days: 736
+  reason: build/explore intent "transcribe"; aged 736d, untracked

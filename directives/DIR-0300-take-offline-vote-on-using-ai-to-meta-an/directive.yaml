@@ -1,6 +1,6 @@
 id: DIR-0300
 slug: take-offline-vote-on-using-ai-to-meta-an
-phase: open
+phase: dropped
 owner: Group
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Take offline vote on using AI to meta-analyze past conversations for generating high-level values-based social contract
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: take
+  age_days: 288
+  reason: build/explore intent "take"; aged 288d, untracked

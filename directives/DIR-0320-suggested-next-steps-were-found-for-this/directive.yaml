@@ -1,6 +1,6 @@
 id: DIR-0320
 slug: suggested-next-steps-were-found-for-this
-phase: open
+phase: dropped
 owner: 'No'
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: suggested next steps were found for this meeting.*
 created: '2026-06-25T17:20:18Z'
-updated: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:54:39Z'
+triage:
+  rule: dropped
+  verb: suggested
+  age_days: 267
+  reason: build/explore intent "suggested"; aged 267d, untracked

@@ -1,6 +1,6 @@
 id: DIR-0119
 slug: start-recording
-phase: open
+phase: dropped
 owner: David Olsson
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Start recording
 created: '2026-06-25T17:20:10Z'
-updated: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: start
+  age_days: 778
+  reason: build/explore intent "start"; aged 778d, untracked

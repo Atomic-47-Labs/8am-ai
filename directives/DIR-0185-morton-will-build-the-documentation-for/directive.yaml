@@ -1,6 +1,6 @@
 id: DIR-0185
 slug: morton-will-build-the-documentation-for
-phase: open
+phase: dropped
 owner: Scott
 due: null
 source:
@@ -8,4 +8,9 @@ source:
   window_id: null
 text: Morton will build the documentation for the application and present it at the next meeting.
 created: '2026-06-25T17:20:15Z'
-updated: '2026-06-25T17:20:15Z'
+updated: '2026-06-25T17:54:38Z'
+triage:
+  rule: dropped
+  verb: build
+  age_days: 372
+  reason: build/explore intent "build"; aged 372d, untracked
