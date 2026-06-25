@@ -721,7 +721,10 @@
       "/8am-ai/product-to-process",
       "/8am-ai/the-meeting-as-method",
       "/8am-ai/the-social-layer",
-      "/8am-ai/the-philosophical-edge"
+      "/8am-ai/the-philosophical-edge",
+      "/8am-ai/state-of-the-corpus",
+      "/8am-ai/theme-engagement",
+      "/8am-ai/definitions"
     ],
     "newsletter": {
       "enabled": true,
@@ -735,6 +738,15 @@
       "profile": "project-state/voice-profile.md",
       "aligned": true,
       "aligned_at": "2026-06-25"
-    }
+    },
+    "index_pages": [
+      "/8am-ai/state-of-the-corpus",
+      "/8am-ai/theme-engagement",
+      "/8am-ai/definitions"
+    ]
+  },
+  "site": {
+    "charts": "site/charts/",
+    "charts_raw_base": "https://raw.githubusercontent.com/Atomic-47-Labs/8am-ai/main/site/charts/"
   }
 }

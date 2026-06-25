@@ -6,6 +6,12 @@ Corpus: 109 meetings, 759 ideas, 14 themes. Span 2024-04-17 to 2026-06-24.
 
 Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 runnable experiments.
 
+## Index pages (living)
+
+- [State of the corpus](https://scsiwyg.com/8am-ai/state-of-the-corpus) — live stats, pipeline diagram, phase + theme + volume charts
+- [Theme engagement over time](https://scsiwyg.com/8am-ai/theme-engagement) — engagement heatmap, quality-of-intelligence line, theme map
+- [Definitions](https://scsiwyg.com/8am-ai/definitions) — the glossary for the whole project
+
 ## Chapters
 
 - [Two years of 8am AI](https://scsiwyg.com/8am-ai/two-years-of-8am-ai) — the index — the whole arc, end to end
