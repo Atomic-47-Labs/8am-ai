@@ -23,8 +23,8 @@ intake:
     - kind: local
       path: ./transcripts/             # the existing weekly folders
     - kind: google-drive
-      folder_id: null                  # fill via /meetup-harvester-gdrive --bind
-      mime_types: [text/plain, application/vnd.google-apps.document, application/json, text/markdown]
+      folder_id: 13QWqV_mH_eGJJlxcSNQZR6K0gPhBrDFI
+      mime_types: [text/plain, application/vnd.google-apps.document, application/json, text/markdown, application/vnd.openxmlformats-officedocument.wordprocessingml.document]
     - kind: fireflies
       # legacy fireflies-python-scripts/ left in place for reference
       enabled: false
