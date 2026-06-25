@@ -1,162 +1,44 @@
-# THEME-01 — Agentic Workflow
+# THEME-01 — agentic-workflow
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-04-17 &nbsp; | &nbsp; Last seen: 2026-06-17 &nbsp; | &nbsp; Ideas: 143
+*How agents got built, pointed, and finally let loose — the corpus's clearest arc.*
 
-## Pattern
+**143 ideas** · span 2024-04-17 → 2026-06-17 · trajectory: steady · 8 published
 
-Across 68 meetings the group keeps returning to **agentic workflow**. The thread shows up in the following moments:
+> 📖 Published chapter: **[From scrubs to swarms](https://scsiwyg.com/8am-ai/from-scrubs-to-swarms)**
 
-- *2024-04-17* ([IDEA-0192]): The meeting began with **David Olsson** introducing the concept of creating functional agents known as **scrubs** for various tasks within chat GPT. These scrubs have specific purposes like research or editing, provided with detailed instru
-- *2024-05-08* ([IDEA-0238]): **David Olsson** led a discussion on AI school progress, emphasizing self-reflection for improved responses in a large language model environment. Frameworks were used to define agents, introducing concepts like scrubs and minimum viable ag
-- *2024-05-22* ([IDEA-0272]): David Olsson presented and demonstrated the development of a sophisticated AI agent based on prompts and workflows. He showcased how the agent creates detailed product descriptions, incorporates self-reflection steps, scoring evaluations, a
-- *2024-06-05* ([IDEA-0295]): David demonstrated creating a product description agent. Discussed the process of using agents to generate product descriptions. David showed how to use self-reflection strategies for agents.
-- *2024-06-05* ([IDEA-0296]): David used Hanif's project 'Stonemaster' as an example. The agent generated a product description for 'Stonemaster'. Hanif reviewed the generated description for accuracy.
-- *2024-06-05* ([IDEA-0297]): David discussed agent collaboration and simulation. Explored the concept of agents working together to solve problems. David explained the non-deterministic nature of large language models.
-- *2024-06-05* ([IDEA-0298]): David shared practical applications of agents in marketing workflows. Discussed the importance of structured data for agent effectiveness. David planned to create more agents using the provided spreadsheet.
-- *2024-06-05* ([IDEA-0299]): David scheduled a session for Thursday to explore agent creation further. Participants discussed the potential of Hanif's project. Meeting concluded with plans for the next steps.
+## How the thread evolved
 
-## Ideas attached
+- **2024 Q2** (2024-04-17) — The meeting began with **David Olsson** introducing the
+- **2024 Q3** (2024-07-10) — Spreadsheet and Data Structure Development
+- **2024 Q4** (2024-10-09) — AI in Business and Development
+- **2025 Q1** (2025-01-29) — Project Management and AI Integration
+- **2025 Q2** (2025-04-16) — Development Tools & Workflows
+- **2025 Q3** (2025-07-02) — Development Tools and Workflows
+- **2025 Q4** (2025-10-08) — WorkSona MCP Server for Local Use
+- **2026 Q1** (2026-01-07) — Adoption of Agentic Workflows
+- **2026 Q2** (2026-04-08) — Initial Business Context and Growth Challenges
 
-- IDEA-0192
-- IDEA-0238
-- IDEA-0272
-- IDEA-0295
-- IDEA-0296
-- IDEA-0297
-- IDEA-0298
-- IDEA-0299
-- IDEA-0321
-- IDEA-0322
-- IDEA-0323
-- IDEA-0324
-- IDEA-0326
-- IDEA-0327
-- IDEA-0328
-- IDEA-0329
-- IDEA-0352
-- IDEA-0374
-- IDEA-0376
-- IDEA-0391
-- IDEA-0392
-- IDEA-0393
-- IDEA-0394
-- IDEA-0395
-- IDEA-0437
-- IDEA-0446
-- IDEA-0447
-- IDEA-0467
-- IDEA-0488
-- IDEA-0493
-- IDEA-0497
-- IDEA-0515
-- IDEA-0540
-- IDEA-0544
-- IDEA-0564
-- IDEA-0598
-- IDEA-0600
-- IDEA-0631
-- IDEA-0646
-- IDEA-0647
-- IDEA-0665
-- IDEA-0687
-- IDEA-0689
-- IDEA-0722
-- IDEA-0738
-- IDEA-0741
-- IDEA-0756
-- IDEA-0054
-- IDEA-0098
-- IDEA-0144
-- IDEA-0145
-- IDEA-0147
-- IDEA-0189
-- IDEA-0204
-- IDEA-0206
-- IDEA-0223
-- IDEA-0224
-- IDEA-0225
-- IDEA-0249
-- IDEA-0268
-- IDEA-0270
-- IDEA-0271
-- IDEA-0312
-- IDEA-0316
-- IDEA-0367
-- IDEA-0368
-- IDEA-0380
-- IDEA-0400
-- IDEA-0416
-- IDEA-0423
-- IDEA-0424
-- IDEA-0445
-- IDEA-0462
-- IDEA-0464
-- IDEA-0500
-- IDEA-0508
-- IDEA-0522
-- IDEA-0549
-- IDEA-0550
-- IDEA-0558
-- IDEA-0560
-- IDEA-0589
-- IDEA-0590
-- IDEA-0591
-- IDEA-0592
-- IDEA-0594
-- IDEA-0595
-- IDEA-0596
-- IDEA-0597
-- IDEA-0603
-- IDEA-0622
-- IDEA-0627
-- IDEA-0635
-- IDEA-0638
-- IDEA-0655
-- IDEA-0656
-- IDEA-0659
-- IDEA-0671
-- IDEA-0696
-- IDEA-0697
-- IDEA-0698
-- IDEA-0701
-- IDEA-0728
-- IDEA-0735
-- IDEA-0748
-- IDEA-0751
-- IDEA-0002
-- IDEA-0006
-- IDEA-0025
-- IDEA-0027
-- IDEA-0028
-- IDEA-0029
-- IDEA-0030
-- IDEA-0031
-- IDEA-0034
-- IDEA-0041
-- IDEA-0042
-- IDEA-0043
-- IDEA-0044
-- IDEA-0059
-- IDEA-0066
-- IDEA-0067
-- IDEA-0068
-- IDEA-0076
-- IDEA-0077
-- IDEA-0079
-- IDEA-0081
-- IDEA-0096
-- IDEA-0103
-- IDEA-0121
-- IDEA-0122
-- IDEA-0123
-- IDEA-0150
-- IDEA-0156
-- IDEA-0159
-- IDEA-0167
-- IDEA-0183
-- IDEA-0185
-- IDEA-0202
-- IDEA-0214
-- IDEA-0215
-- IDEA-0240
-- IDEA-0335
+## Highest-signal ideas
+
+- **IDEA-0215** (grade 70.8) — Shifting Focus to Cognitive Effort and Value in Work
+  > David Olsson noted that Juan is addressing the quality problem by spending time in one-on-one sessions to work through the cognitive effort that went into producing assets, thereby determining where t
+- **IDEA-0214** (grade 70.8) — Difficulty in Collaborative Feedback Loops
+  > David Olsson described the difficulty in working with feedback and comments in the current LLM workflow, where criticisms like "this needs to change" do not always provide enough context for effective
+- **IDEA-0150** (grade 69.8) — Initial Check-in and Disclosure of Workflow Issues
+  > Fulvio Ciano and David Olsson confirmed they could hear each other, and David Olsson mentioned they were considering canceling the meeting to take two weeks off and relaunch a more automated process,
+- **IDEA-0335** (grade 66.7) — Transitioning from Discussion to Action
+  > David Olsson emphasizes the need to move from "talking" about AI to "activating" it, noting that most prototyping currently relies on free databases like Neon or Supabase. The participants reflect on
+- **IDEA-0701** (grade 65.3) — Quantum Safe Cryptography and Agent Protocols
+  > Spencer MacBeth followed up on the quantum discussion, mentioning that Ethereum is preparing for quantum cryptography, believing it will be a practical problem by 2030, and is rolling out quantum safe
+- **IDEA-0635** (grade 64.8) — Morning Greetings and AI Capabilities
+  > David Olsson, Hanif Janmohamed, and James Giroday exchanged morning greetings. David Olsson discussed the advanced capabilities of GPT-5 and Sonic 4.5 in quality control and oil and gas, noting their
+
+## Tools & entities recurring in this thread
+
+  Claude, LLM, Gemini, Gmail, GPT, MCP, OpenAI, Anthropic, Cursor, Slack
+
+## Trajectory note
+
+Across 68 meetings this thread runs 2024-04-17 → 2026-06-17. The synthesizer marks it **steady**. A published chapter develops it in full; this file is the structured index behind that piece.
+
+_Generated 2026-06-25 from 143 graded ideas._

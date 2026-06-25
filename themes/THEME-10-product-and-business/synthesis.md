@@ -1,80 +1,42 @@
-# THEME-10 — Product And Business
+# THEME-10 — product-and-business
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-06-05 &nbsp; | &nbsp; Last seen: 2026-06-10 &nbsp; | &nbsp; Ideas: 61
+*From product to process — value-based pricing, market access as the scarce thing.*
 
-## Pattern
+**61 ideas** · span 2024-06-05 → 2026-06-10 · trajectory: steady · 1 published
 
-Across 42 meetings the group keeps returning to **product and business**. The thread shows up in the following moments:
+## How the thread evolved
 
-- *2024-06-05* ([IDEA-0294]): David faced issues with the link redirect. David shared a spreadsheet link for product development. Participants confirmed access to the spreadsheet.
-- *2024-06-12* ([IDEA-0325]): David introduced Carl Jung's brand archetypes as a framework for improving agent outputs. He discussed the potential of using these archetypes to create more effective marketing content. David shared his thoughts on integrating brand archet
-- *2024-06-19* ([IDEA-0350]): David Olsson greeted participants and mentioned he needs to leave early for a veterinary appointment. Introduced the idea of orchestration and pinned two documents to the chat. Discussed the previous week's marketing prompt and the need for
-- *2024-07-31* ([IDEA-0433]): Discussed potential AI applications in real estate industry Explored challenges of lead generation in real estate Compared real estate market structure to political campaigns
-- *2024-08-14* ([IDEA-0469]): Discusses the potential of AI in improving business processes Explains how AI can help in creating better content and decision making Discusses the challenges of productizing AI solutions Introduces the concept of using AI for market scale 
-- *2024-08-14* ([IDEA-0473]): Discusses the potential of AI in creating personalized experiences Explains the concept of using AI for pattern recognition and analysis Discusses the challenges of integrating AI into existing business processes Introduces the concept of u
-- *2024-08-22* ([IDEA-0496]): David presented a spreadsheet-based framework for comprehensive product descriptions Discussed 16 core dimensions for describing a product Highlighted the potential for this framework to generate marketing materials
-- *2024-08-28* ([IDEA-0516]): Discussion on using AI for business and marketing analysis Exploration of spreadsheet-based conceptual frameworks Development of AI-driven interview and data population systems
+- **2024 Q2** (2024-06-05) — Technical Issues and Spreadsheet Sharing
+- **2024 Q3** (2024-07-31) — Real Estate and AI Applications
+- **2024 Q4** (2024-10-02) — Project Updates and Collaboration
+- **2025 Q1** (2025-01-22) — Phone Usage and Productivity
+- **2025 Q2** (2025-05-14) — AI as a Commodity and Future Trends
+- **2025 Q3** (2025-07-30) — Agent Design & Context Engineering
+- **2025 Q4** (2025-10-15) — AI Experimentation and Deployment
+- **2026 Q1** (2026-01-07) — The Race to Market Access
+- **2026 Q2** (2026-05-06) — Strategic State and Customer Profiles
 
-## Ideas attached
+## Highest-signal ideas
 
-- IDEA-0294
-- IDEA-0325
-- IDEA-0350
-- IDEA-0433
-- IDEA-0469
-- IDEA-0473
-- IDEA-0496
-- IDEA-0516
-- IDEA-0543
-- IDEA-0566
-- IDEA-0567
-- IDEA-0579
-- IDEA-0582
-- IDEA-0583
-- IDEA-0585
-- IDEA-0615
-- IDEA-0630
-- IDEA-0632
-- IDEA-0634
-- IDEA-0661
-- IDEA-0725
-- IDEA-0754
-- IDEA-0755
-- IDEA-0038
-- IDEA-0069
-- IDEA-0071
-- IDEA-0099
-- IDEA-0115
-- IDEA-0148
-- IDEA-0149
-- IDEA-0165
-- IDEA-0253
-- IDEA-0269
-- IDEA-0372
-- IDEA-0422
-- IDEA-0426
-- IDEA-0479
-- IDEA-0502
-- IDEA-0506
-- IDEA-0547
-- IDEA-0602
-- IDEA-0628
-- IDEA-0731
-- IDEA-0732
-- IDEA-0734
-- IDEA-0743
-- IDEA-0746
-- IDEA-0750
-- IDEA-0008
-- IDEA-0009
-- IDEA-0010
-- IDEA-0022
-- IDEA-0078
-- IDEA-0119
-- IDEA-0134
-- IDEA-0139
-- IDEA-0236
-- IDEA-0245
-- IDEA-0263
-- IDEA-0282
-- IDEA-0307
+- **IDEA-0282** (grade 76.7) — Scheduling and Alignment
+  > David and Fulvio addressed personal scheduling matters, including upcoming family graduation events. They decided to conclude the current meeting and coordinate a follow-up conversation to ensure alig
+- **IDEA-0245** (grade 74.9) — Claude Versus OpenAI Utility
+  > David Olsson explains their strategy for selecting large language models, stating that they prefer using Claude as a product for knowledge workers while relying on OpenAI as a standalone large languag
+- **IDEA-0139** (grade 69.3) — Concerns about Bias and LLM Reliability in Business
+  > David Olsson raised a concern that universities might unintentionally teach bias through their perspective and reliance on LLM information. They stated that in business, relying solely on an LLM is di
+- **IDEA-0307** (grade 68.5) — Reporting and infrastructure plans
+  > The tool features a reporting matrix that can be adapted for grant submissions or internal product tracking, offering milestones and phases for projects (00:22:27). David Olsson also announced plans t
+- **IDEA-0134** (grade 67.3) — Platform Capabilities and Future Simulations
+  > David Olsson explained that the market research platform is being built to allow for various forms of analysis, including simulating responses based on user profiles or questionnaire data. They noted
+- **IDEA-0119** (grade 65.9) — Audience Engagement and Strategy in the Debate
+  > David Olsson explained that Ying had been assigned to the negative side of the debate topic but was ultimately on the positive side, and they used in-the-moment market research to gauge the audience.
+
+## Tools & entities recurring in this thread
+
+  Claude, LLM, Gemini, OpenAI, GPT, Gmail, Slack, Anthropic, MCP, GitHub
+
+## Trajectory note
+
+Across 42 meetings this thread runs 2024-06-05 → 2026-06-10. The synthesizer marks it **steady**. No standalone chapter yet — this is the primary synthesis, and a candidate for the next drafting pass.
+
+_Generated 2026-06-25 from 61 graded ideas._

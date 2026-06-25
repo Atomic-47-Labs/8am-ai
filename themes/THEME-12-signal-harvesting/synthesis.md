@@ -1,59 +1,43 @@
-# THEME-12 — Signal Harvesting
+# THEME-12 — signal-harvesting
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-08-14 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 40
+*Reading across everything said to surface the glue — the primitive that became the method.*
 
-## Pattern
+**40 ideas** · span 2024-08-14 → 2026-06-24 · trajectory: steady · 10 published
 
-Across 23 meetings the group keeps returning to **signal harvesting**. The thread shows up in the following moments:
+> 📖 Published chapter: **[Mining the glue](https://scsiwyg.com/8am-ai/mining-the-glue)**
 
-- *2024-08-14* ([IDEA-0470]): Discusses the challenges of bringing AI products to market Explains the importance of showing tangible value in AI solutions Discusses the potential of AI in augmenting team capabilities Introduces the concept of using AI for automated repo
-- *2024-08-14* ([IDEA-0471]): Discusses the importance of transparency in AI applications Explains the challenges of building trust in AI systems Discusses the potential risks of over-reliance on AI Introduces the concept of using AI to create owned intellectual propert
-- *2024-09-25* ([IDEA-0562]): David: Designing complex systems using AI tools Discussion on Zero One AI capabilities and applications David: Creating concept for market research company using AI Exploration of algorithmic trading strategies using AI David: Building fran
-- *2024-10-02* ([IDEA-0586]): Discussion on activist investing and socially responsible investing Exploration of using AI for portfolio management and strategy implementation Conversation about emotional intelligence in investing decisions
-- *2024-10-16* ([IDEA-0617]): Discussion on using AI for knowledge synthesis and analysis Exploration of AI tools for processing large amounts of information Reflection on the potential of AI in enhancing human understanding and decision-making
-- *2024-12-11* ([IDEA-0740]): Speculated on the potential outcomes of AI surpassing human intelligence Discussed theories about AI's impact on human society and potential symbiosis Explored the concept of AI integration in everyday life and its implications
-- *2025-03-26* ([IDEA-0162]): Fulvio identifies three key areas for potential technological leaps: 1. Large Concept Models (LCMs) that use concepts instead of tokens 2. New chip technology (potentially graphene-based) 3. Network architecture improvements Discussion abou
-- *2025-05-14* ([IDEA-0250]): Discussion on applying agent-based systems to real-world tasks such as database migration and quality control document analysis. Emphasis on the importance of finding 'anchor' data or processes (e.g., spreadsheets) to drive project clarity 
+## How the thread evolved
 
-## Ideas attached
+- **2024 Q3** (2024-08-14) — AI Product Development and Monetization
+- **2024 Q4** (2024-10-02) — Investment Strategies and AI
+- **2025 Q1** (2025-03-26) — Future Technology Advances
+- **2025 Q2** (2025-05-14) — Application to Real Projects and Data Anchoring
+- **2025 Q3** (2025-07-16) — Intelligence and AI Use
+- **2025 Q4** (2025-10-29) — Challenges in Canadian Funding and IP Retention
+- **2026 Q1** (2026-03-25) — Standardization and Quantizing Intelligence
+- **2026 Q2** (2026-04-22) — AI as a Collaborative Partner and Signal Harvesting
 
-- IDEA-0470
-- IDEA-0471
-- IDEA-0562
-- IDEA-0586
-- IDEA-0617
-- IDEA-0740
-- IDEA-0162
-- IDEA-0250
-- IDEA-0369
-- IDEA-0401
-- IDEA-0420
-- IDEA-0501
-- IDEA-0503
-- IDEA-0523
-- IDEA-0642
-- IDEA-0710
-- IDEA-0711
-- IDEA-0155
-- IDEA-0201
-- IDEA-0230
-- IDEA-0231
-- IDEA-0232
-- IDEA-0233
-- IDEA-0235
-- IDEA-0237
-- IDEA-0241
-- IDEA-0247
-- IDEA-0279
-- IDEA-0284
-- IDEA-0287
-- IDEA-0288
-- IDEA-0289
-- IDEA-0290
-- IDEA-0291
-- IDEA-0305
-- IDEA-0309
-- IDEA-0330
-- IDEA-0336
-- IDEA-0338
-- IDEA-0364
+## Highest-signal ideas
+
+- **IDEA-0309** (grade 78.8) — Reflections on AI development
+  > David Olsson and Hanif Janmohamed discussed the role of AI, noting that while LLMs can hallucinate, creating artifacts and knowledge graphs is valuable for long-term intelligence (00:34:40). David Ols
+- **IDEA-0305** (grade 78.3) — Data ingestion and connectors
+  > Project State allows users to integrate various data sources, including Slack, Google, and GitHub repositories, to gather project information (00:12:01) (00:16:45). David Olsson noted that while LLMs
+- **IDEA-0330** (grade 75.0) — Ollama and Model Interconnection
+  > Fulvio Ciano and David Olsson discuss technical challenges regarding the interconnection between local models, specifically Ollama, and cloud models, noting that a recent software update resolved a pr
+- **IDEA-0230** (grade 74.4) — Project State's Four Layers and Signal Harvesting
+  > The system is conceptualized as four (possibly five or one) layers, with a foundational component called "Work State" that harvests activity signals from various connectors such as GitHub, Gmail, Slac
+- **IDEA-0291** (grade 73.7) — Struggles with Workflow and AI Productivity
+  > Hanif Janmohamed shared the difficulty of finding a "middle ground" when working with Artificial Intelligence, as traditional methods feel outdated, while new methods are hard to calibrate for consist
+- **IDEA-0201** (grade 72.9) — AI as a Collaborative Partner and Signal Harvesting
+  > Hanif Janmohamed noted that working with AI feels like a "constantly evolving paradigm" and that they are impressed by how they can leverage their intuition and get feedback from their AI collaborator
+
+## Tools & entities recurring in this thread
+
+  LLM, Gmail, Claude, Gemini, OpenAI, Anthropic, GPT, Notion, Slack, GitHub
+
+## Trajectory note
+
+Across 23 meetings this thread runs 2024-08-14 → 2026-06-24. The synthesizer marks it **steady**. A published chapter develops it in full; this file is the structured index behind that piece.
+
+_Generated 2026-06-25 from 40 graded ideas._

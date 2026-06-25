@@ -1,116 +1,44 @@
-# THEME-03 — Context Engineering
+# THEME-03 — context-engineering
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-04-24 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 97
+*One conviction restated for two years — the model is the commodity, context is the lever.*
 
-## Pattern
+**97 ideas** · span 2024-04-24 → 2026-06-24 · trajectory: steady · 8 published
 
-Across 54 meetings the group keeps returning to **context engineering**. The thread shows up in the following moments:
+> 📖 Published chapter: **[The model is the commodity](https://scsiwyg.com/8am-ai/the-model-is-the-commodity)**
 
-- *2024-04-24* ([IDEA-0210]): **David Olsson** discussed **scrubs**, basic sets of instructions and metadata to aid large language models like GPT in tasks such as writing. He stressed the importance of grasping **Personas** and providing precise instructions for accura
-- *2024-06-19* ([IDEA-0354]): David demonstrated the execution of a prompt in ChatGPT. Discussed the importance of starting on paper and iterating on ideas. Encouraged participants to define agents and scenarios on paper and transcribe them. Committed to creating a Goog
-- *2024-06-19* ([IDEA-0355]): David mentioned his upcoming veterinary appointment for his dog Willie. Committed to making the session's content accessible in a Google Doc. Encouraged Hanif to review and iterate on the sketches and notes.
-- *2024-08-07* ([IDEA-0452]): Hanif sharing details about his questionnaire-based project Discussion on leveraging existing data for new AI-driven projects Exploration of ways to interpret and expand on collected data
-- *2024-08-07* ([IDEA-0453]): David analyzing Hanif's spreadsheet data using AI tools Discussion on the potential of AI in understanding and expanding on existing data Exploration of ways to leverage AI for data interpretation and project development
-- *2024-08-07* ([IDEA-0455]): Discussion on leveraging AI capabilities for better user interfaces Exploration of ideas inspired by artists working with data and imagery Reflection on the potential of combining various data sources with AI
-- *2024-08-14* ([IDEA-0466]): David introduces Work Sona project and its components Explains the use of spreadsheets for database and prompting structures Discusses different types of agencies and agents built Introduces the concept of 'scrubs' - minimum viable agents E
-- *2024-08-14* ([IDEA-0468]): David explains how to use spreadsheets to create functional AI agencies Discusses the process of creating prompts from spreadsheet data Explains the importance of understanding what's important in data Introduces the concept of 'important e
+## How the thread evolved
 
-## Ideas attached
+- **2024 Q2** (2024-04-24) — **David Olsson** discussed **scrubs**, basic sets of instructions
+- **2024 Q3** (2024-08-07) — AI Analysis of Spreadsheet Data
+- **2024 Q4** (2024-10-02) — Algorithmic Trading and Nexus Platform
+- **2025 Q1** (2025-02-12) — Development Practices and Challenges
+- **2025 Q2** (2025-04-16) — Table Design & CSS Challenges
+- **2025 Q3** (2025-07-02) — Portability and Collaboration Challenges
+- **2025 Q4** (2025-10-01) — Challenges in AI Service Organizations
+- **2026 Q1** (2026-01-14) — Facilitating Relationships and Stone Agency
+- **2026 Q2** (2026-04-08) — The Importance of Foundational Knowledge
 
-- IDEA-0210
-- IDEA-0354
-- IDEA-0355
-- IDEA-0452
-- IDEA-0453
-- IDEA-0455
-- IDEA-0466
-- IDEA-0468
-- IDEA-0472
-- IDEA-0486
-- IDEA-0492
-- IDEA-0494
-- IDEA-0499
-- IDEA-0513
-- IDEA-0580
-- IDEA-0601
-- IDEA-0648
-- IDEA-0678
-- IDEA-0703
-- IDEA-0709
-- IDEA-0721
-- IDEA-0753
-- IDEA-0757
-- IDEA-0758
-- IDEA-0759
-- IDEA-0083
-- IDEA-0084
-- IDEA-0113
-- IDEA-0188
-- IDEA-0208
-- IDEA-0267
-- IDEA-0315
-- IDEA-0317
-- IDEA-0347
-- IDEA-0349
-- IDEA-0371
-- IDEA-0381
-- IDEA-0382
-- IDEA-0383
-- IDEA-0387
-- IDEA-0388
-- IDEA-0399
-- IDEA-0402
-- IDEA-0403
-- IDEA-0404
-- IDEA-0405
-- IDEA-0406
-- IDEA-0413
-- IDEA-0419
-- IDEA-0428
-- IDEA-0442
-- IDEA-0461
-- IDEA-0481
-- IDEA-0507
-- IDEA-0509
-- IDEA-0520
-- IDEA-0524
-- IDEA-0531
-- IDEA-0538
-- IDEA-0557
-- IDEA-0571
-- IDEA-0668
-- IDEA-0684
-- IDEA-0685
-- IDEA-0019
-- IDEA-0021
-- IDEA-0062
-- IDEA-0073
-- IDEA-0074
-- IDEA-0080
-- IDEA-0095
-- IDEA-0104
-- IDEA-0108
-- IDEA-0131
-- IDEA-0132
-- IDEA-0151
-- IDEA-0152
-- IDEA-0158
-- IDEA-0169
-- IDEA-0170
-- IDEA-0173
-- IDEA-0193
-- IDEA-0199
-- IDEA-0200
-- IDEA-0213
-- IDEA-0219
-- IDEA-0248
-- IDEA-0261
-- IDEA-0276
-- IDEA-0277
-- IDEA-0278
-- IDEA-0281
-- IDEA-0304
-- IDEA-0331
-- IDEA-0334
-- IDEA-0337
-- IDEA-0362
+## Highest-signal ideas
+
+- **IDEA-0304** (grade 75.2) — Onboarding and UI challenges
+  > David Olsson is utilizing Project State for the "Stone Maps" project and acknowledged that onboarding and the current user interface present challenges (00:14:37). David Olsson is using Claude to gene
+- **IDEA-0276** (grade 74.5) — Bypassing Safeguards via Conditioning
+  > Fulvio shared an experience from penetration testing where they successfully bypassed LLM safety filters by altering the prompting strategy. By presenting assertions for the model to evaluate rather t
+- **IDEA-0337** (grade 72.9) — Hierarchical Processing of Information
+  > Ying introduces the data-information-knowledge-wisdom hierarchy, arguing that AI excels at processing data into information and knowledge quickly. Ying contends that human value now lies in exercising
+- **IDEA-0362** (grade 72.9) — Business Writing Strategy
+  > In response to a request from James for advice on business writing, Ying suggests prioritizing a clear understanding of the target audience and defining the unique value proposition of the content (00
+- **IDEA-0331** (grade 71.4) — Mind Map Tool and Base64 Encoding
+  > David Olsson demonstrates a custom mind map tool created via AI prompts, which utilizes Base64 URLs to generate and load maps (00:02:11). David Olsson highlights that this "thin client" pattern allows
+- **IDEA-0152** (grade 70.0) — The Importance of Individual Workflow and Tooling
+  > David Olsson acknowledged the brittleness of Fulvio Ciano's current situation and offered to help standardize practices for better coverage and handoff, relating that Fulvio Ciano's previously success
+
+## Tools & entities recurring in this thread
+
+  Claude, LLM, Gemini, Gmail, Cursor, GPT, OpenAI, Notion, MCP, Anthropic
+
+## Trajectory note
+
+Across 54 meetings this thread runs 2024-04-24 → 2026-06-24. The synthesizer marks it **steady**. A published chapter develops it in full; this file is the structured index behind that piece.
+
+_Generated 2026-06-25 from 97 graded ideas._

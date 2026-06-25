@@ -1,73 +1,41 @@
-# THEME-08 — Meta Meeting Cadence
+# THEME-08 — meta-meeting-cadence
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-05-15 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 54
+*The group examining itself: how should a peer group meet, demo, and decide as the work changes?*
 
-## Pattern
+**54 ideas** · span 2024-05-15 → 2026-06-24 · trajectory: steady · 0 published
 
-Across 37 meetings the group keeps returning to **meta meeting cadence**. The thread shows up in the following moments:
+## How the thread evolved
 
-- *2024-05-15* ([IDEA-0255]): The meeting with **David Olsson**, **James Giroday**, and **Hanif Janmohamed** discussed advancements in chat GPT models. **David** conducted experiments with model 4.0 for Omni, demonstrating applications beyond traditional chat environmen
-- *2024-06-12* ([IDEA-0320]): David and James greeted each other and discussed a previous meeting. David shared a picture of his dog, Willie, and a brief story about him.
-- *2024-06-19* ([IDEA-0351]): David shared photos and sketches related to his project. Introduced the concept of 'situation rooms' for collaborative or adversarial work. Discussed various formats like debates, town halls, and council meetings. Shared examples of past pr
-- *2024-06-26* ([IDEA-0373]): David shared updates about his pets and their impact on his daily routine. Discussion about meeting frequency and recent meetings with Eric and Hanif.
-- *2024-06-26* ([IDEA-0377]): David demonstrated a debate simulation tool he developed, highlighting its features and potential applications. Discussion on the importance of using real data versus synthetic data in simulations.
-- *2024-10-16* ([IDEA-0613]): David shares his work on creating lessons for trading education Discussion on using AI tools for financial analysis Exploration of Google's Notebook LLM for document analysis David demonstrates the capabilities of Notebook LLM with various 
-- *2024-11-06* ([IDEA-0664]): Discussion on the importance of habits in personal and business contexts Exploration of how emotions relate to habits and AI development Consideration of how AI can be used to analyze meetings and create new layers of information
-- *2024-12-11* ([IDEA-0737]): Discussed the practical applications of AI in browser-based environments Explored the concept of hiding AI functionality to improve user experience David demonstrated how AI can control 3D objects and manipulate viewports Emphasized the shi
+- **2024 Q2** (2024-05-15) — The meeting with **David Olsson**, **James Giroday**, and
+- **2024 Q4** (2024-10-16) — Financial Analysis and AI Tools
+- **2025 Q1** (2025-01-08) — AI Integration and Future Plans
+- **2025 Q2** (2025-04-30) — AI Development Progress & Demonstrations
+- **2025 Q3** (2025-07-02) — Opening and Casual Discussion
+- **2025 Q4** (2025-10-08) — Challenges and Accuracy of Simulations
+- **2026 Q1** (2026-01-14) — Introduction and Welcome
+- **2026 Q2** (2026-05-06) — Introduction and Setup
 
-## Ideas attached
+## Highest-signal ideas
 
-- IDEA-0255
-- IDEA-0320
-- IDEA-0351
-- IDEA-0373
-- IDEA-0377
-- IDEA-0613
-- IDEA-0664
-- IDEA-0737
-- IDEA-0012
-- IDEA-0014
-- IDEA-0052
-- IDEA-0056
-- IDEA-0112
-- IDEA-0116
-- IDEA-0127
-- IDEA-0160
-- IDEA-0221
-- IDEA-0222
-- IDEA-0319
-- IDEA-0340
-- IDEA-0378
-- IDEA-0384
-- IDEA-0411
-- IDEA-0412
-- IDEA-0417
-- IDEA-0459
-- IDEA-0465
-- IDEA-0482
-- IDEA-0484
-- IDEA-0485
-- IDEA-0529
-- IDEA-0530
-- IDEA-0532
-- IDEA-0593
-- IDEA-0621
-- IDEA-0624
-- IDEA-0637
-- IDEA-0651
-- IDEA-0652
-- IDEA-0653
-- IDEA-0658
-- IDEA-0682
-- IDEA-0693
-- IDEA-0744
-- IDEA-0015
-- IDEA-0087
-- IDEA-0089
-- IDEA-0117
-- IDEA-0133
-- IDEA-0143
-- IDEA-0228
-- IDEA-0242
-- IDEA-0339
-- IDEA-0356
+- **IDEA-0356** (grade 69.4) — Welcome and Meeting Purpose
+  > David welcomes James back to the group, acknowledging that James was the reason the weekly meetings began. The participants express mutual appreciation for the initiative taken to maintain the group a
+- **IDEA-0339** (grade 67.2) — Collective Memory and Future Value
+  > David Olsson explores the idea of creating an executable product from their meetings, such as a "Tamagotchi" style interface to nurture conversation flow, or simply finding ways to connect more deeply
+- **IDEA-0133** (grade 65.9) — Introduction of the AI Group Collaboration Readiness Assessment Survey
+  > David Olsson decided to proceed with developing and deploying a market research tool and a survey to the group, despite the low meeting attendance. They described using an existing chatbot framework t
+- **IDEA-0682** (grade 65.7) — Personal Updates and Break Activities
+  > David Olsson and Hanif Janmohamed started the meeting with casual conversation about being busy and David's recent break. David mentioned doing a lot of disco and playing Frisbee. David noted that the
+- **IDEA-0242** (grade 65.1) — Conversations as Fundamental Data
+  > David Olsson expresses that conversation is the most fundamental activity in their work, which is why they prioritize transcripts. They mention a colleague, James, and express a desire to ensure their
+- **IDEA-0412** (grade 64.6) — Meeting Logistics and New Team Members
+  > Fulvio Ciano and David Olsson discussed the need for better note-taking arrangements and David suggested using Jitsi, an open-source WebRTC platform, which could allow individuals to run their own "ro
+
+## Tools & entities recurring in this thread
+
+  Claude, LLM, Gemini, Gmail, MCP, GPT, Fireflies, OpenAI, Notion, Anthropic
+
+## Trajectory note
+
+Across 37 meetings this thread runs 2024-05-15 → 2026-06-24. The synthesizer marks it **steady**. No standalone chapter yet — this is the primary synthesis, and a candidate for the next drafting pass.
+
+_Generated 2026-06-25 from 54 graded ideas._

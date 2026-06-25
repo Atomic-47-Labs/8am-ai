@@ -1,74 +1,42 @@
-# THEME-02 — Ai And Education
+# THEME-02 — ai-and-education
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-06-26 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 55
+*The group's conscience: when the machine can do the work, what is school for?*
 
-## Pattern
+**55 ideas** · span 2024-06-26 → 2026-06-24 · trajectory: steady · 8 published
 
-Across 28 meetings the group keeps returning to **ai and education**. The thread shows up in the following moments:
+> 📖 Published chapter: **[Teaching in the rubble](https://scsiwyg.com/8am-ai/teaching-in-the-rubble)**
 
-- *2024-06-26* ([IDEA-0375]): James shared his experience with a machine learning challenge related to social media and cryptocurrency prices. Discussion on the challenges of handling large datasets and setting up the necessary software environment.
-- *2024-10-16* ([IDEA-0612]): David discusses his research on algorithmic trading and AI-assisted learning Exploration of trading objectives and risk tolerances Discussion on hedge funds and their strategies Introduction to various trading concepts and strategies
-- *2024-11-13* ([IDEA-0676]): Scott Morton expresses interest in learning from more skilled team members David Olsson discusses a design pattern for a web app listing prompts Olsson describes creating a prototype using Claude AI and FastAPI Olsson mentions consolidating
-- *2024-11-13* ([IDEA-0679]): James Giroday asks about AI newsletters David Olsson recommends "Unsupervised Learning" newsletter Discussion on habit formation and its application in AI and consulting
-- *2024-12-04* ([IDEA-0724]): Reflection on how traditional education methods can hinder intuitive problem-solving Discussion on the importance of maintaining intuition in learning processes David shares his experience of building products and the evolution of his curre
-- *2025-05-14* ([IDEA-0254]): Fulvio shared sources for AI benchmarking and analysis, including Reddit (Local Llama), YouTube (e.g., Matthew Berman), and newsletters (e.g., Daniel Miessler's Unsupervised Learning). Discussion on the challenge of finding comprehensive, u
-- *2025-06-11* ([IDEA-0318]): David shared AI readiness assessment tools for different organizational levels Discussion of Google Scholar limitations and need for AI-enhanced academic research Recommendation to use deep research tools (Perplexity, Anthropic, OpenAI) for
-- *2025-06-18* ([IDEA-0341]): Scott Morton expressed appreciation for the form created by David Olsson and noted the collaborative learning process, especially with the speed of new AI tools. Scott Morton raised a technical question about interfaces for selecting or gen
+## How the thread evolved
 
-## Ideas attached
+- **2024 Q2** (2024-06-26) — James' Workflow Development
+- **2024 Q4** (2024-10-16) — Introduction and AI Exploration
+- **2025 Q2** (2025-05-14) — Staying Informed: Benchmarks, News, and Analysis
+- **2025 Q3** (2025-07-18) — 8am-ai.com Vision & Implementation
+- **2025 Q4** (2025-10-01) — Conference Learnings and AI Funding in Canada
+- **2026 Q1** (2026-01-21) — Platform Choice and Accessibility for Teams
+- **2026 Q2** (2026-04-08) — Concerns about Learning and Skill Gaps
 
-- IDEA-0375
-- IDEA-0612
-- IDEA-0676
-- IDEA-0679
-- IDEA-0724
-- IDEA-0254
-- IDEA-0318
-- IDEA-0341
-- IDEA-0407
-- IDEA-0408
-- IDEA-0410
-- IDEA-0421
-- IDEA-0440
-- IDEA-0525
-- IDEA-0527
-- IDEA-0528
-- IDEA-0548
-- IDEA-0569
-- IDEA-0570
-- IDEA-0577
-- IDEA-0578
-- IDEA-0636
-- IDEA-0660
-- IDEA-0669
-- IDEA-0672
-- IDEA-0674
-- IDEA-0729
-- IDEA-0733
-- IDEA-0742
-- IDEA-0032
-- IDEA-0033
-- IDEA-0060
-- IDEA-0061
-- IDEA-0063
-- IDEA-0090
-- IDEA-0091
-- IDEA-0094
-- IDEA-0135
-- IDEA-0136
-- IDEA-0137
-- IDEA-0138
-- IDEA-0140
-- IDEA-0174
-- IDEA-0175
-- IDEA-0177
-- IDEA-0184
-- IDEA-0194
-- IDEA-0195
-- IDEA-0212
-- IDEA-0239
-- IDEA-0243
-- IDEA-0358
-- IDEA-0359
-- IDEA-0360
-- IDEA-0361
+## Highest-signal ideas
+
+- **IDEA-0212** (grade 73.3) — Team Evolution and Learning Gaps
+  > David Olsson observed that Juan's team is evolving, potentially unknowingly, as Juan helps them, but they are also recognizing a learning loop where team members are focused only on getting work done
+- **IDEA-0239** (grade 70.4) — Mindfulness and Teaching Philosophy
+  > David Olsson and Hanif Janmohamed discuss the difficulty of maintaining mindfulness while working in front of computers, leading David to replace the word "thoughtful" with "learner" in their project
+- **IDEA-0360** (grade 70.2) — AI as a Trajectory Refiner
+  > James suggests that for motivated individuals, AI tools serve as a "trajectory refiner" that helps explore new topics and remove irrelevant information (00:16:50). Ying references educational models l
+- **IDEA-0184** (grade 70.0) — Need for a Focused Claude Workflow Discussion
+  > Jason Kryski expressed interest in learning more about David Olsson's specific development workflow using Claude. David Olsson agreed that a separate meeting on the topic would be beneficial to break
+- **IDEA-0359** (grade 67.2) — Human Motivation and AI Dependency
+  > The group discusses the innate human tendency to conserve cognitive resources, debating whether AI adoption exacerbates laziness (00:10:10). Juan compares the current era to the introduction of comput
+- **IDEA-0361** (grade 67.2) — Attention Spans and Structured Knowledge
+  > Ying highlights the impact of social media on the current generation's ability to engage in deep reading and maintain attention. They argue that university structures are necessary to provide a progre
+
+## Tools & entities recurring in this thread
+
+  Claude, LLM, Gemini, Gmail, GPT, OpenAI, Notion, Anthropic, MCP, Cursor
+
+## Trajectory note
+
+Across 28 meetings this thread runs 2024-06-26 → 2026-06-24. The synthesizer marks it **steady**. A published chapter develops it in full; this file is the structured index behind that piece.
+
+_Generated 2026-06-25 from 55 graded ideas._

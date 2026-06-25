@@ -1,33 +1,40 @@
-# THEME-07 — Llm Evaluation And Trust
+# THEME-07 — llm-evaluation-and-trust
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2024-08-28 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 14
+*They don't know how they know — so your input is the eval, and trust has to be engineered.*
 
-## Pattern
+**14 ideas** · span 2024-08-28 → 2026-06-24 · trajectory: steady · 1 published
 
-Across 11 meetings the group keeps returning to **llm evaluation and trust**. The thread shows up in the following moments:
+## How the thread evolved
 
-- *2024-08-28* ([IDEA-0511]): David discussing Work Sona tool development Creation of analysis sets for document evaluation Development of a feedback system for content improvement
-- *2024-08-28* ([IDEA-0514]): Development of AI-driven analysis and reporting tools Discussion on refining AI outputs and reducing hallucinations Exploration of metadata's role in AI analysis
-- *2024-11-20* ([IDEA-0691]): Discussion on the need for cybersecurity expertise in AI development Concerns raised about the lack of focus on safety in major AI companies Debate on the trustworthiness of AI models for business applications Reflection on the data sources
-- *2025-04-30* ([IDEA-0227]): James asked about incorporating confidence measures in AI responses David explained that reflection is part of the AI thinking process Brief discussion about how models can evaluate their own outputs Touched on the concept of AI being able 
-- *2025-07-30* ([IDEA-0427]): Performance tracking methods: Baseline comparisons without LLM, conversion rates, and engagement rate measurements Negative state analysis: Agents evaluate whether non-converting prospects were still progressing toward goals Scoring systems
-- *2025-09-10* ([IDEA-0535]): Jason Kryski raised concerns that rigid consent structures might undermine trust and alter current inter-relational dynamics among participants.
-- *2025-09-10* ([IDEA-0536]): Ying advocated for a trust-based approach that emphasizes reputation over mere compliance, stressing the importance of behavior in consent agreements.
-- *2025-09-24* ([IDEA-0556]): In-depth dialogue about the use of AI for testing and evaluation. Emphasis on embedding scoring and validation at different pipeline points, driven by developer experience and cost considerations.
+- **2024 Q3** (2024-08-28) — Work Sona and Analysis Tools
+- **2024 Q4** (2024-11-20) — AI Safety and Security Concerns
+- **2025 Q2** (2025-04-30) — AI Confidence & Reflection
+- **2025 Q3** (2025-07-30) — Measurement & Evaluation Systems
+- **2025 Q4** (2025-11-26) — LLM Automation Limitations and Development Strategy
+- **2026 Q1** (2026-02-25) — The Erosion of Community and Trust
+- **2026 Q2** (2026-05-27) — LLM Self-Reflection and Human Evaluation
 
-## Ideas attached
+## Highest-signal ideas
 
-- IDEA-0511
-- IDEA-0514
-- IDEA-0691
-- IDEA-0227
-- IDEA-0427
-- IDEA-0535
-- IDEA-0536
-- IDEA-0556
-- IDEA-0694
-- IDEA-0695
-- IDEA-0110
-- IDEA-0275
-- IDEA-0332
-- IDEA-0365
+- **IDEA-0332** (grade 79.6) — Git Gists as Data Substrate
+  > David Olsson explores using GitHub gists to emulate blockchain-like functionality, creating a system for verifying and hashing data (00:05:09). Fulvio Ciano and David Olsson discuss that while it is n
+- **IDEA-0365** (grade 72.6) — Evolution of Skill Requirements
+  > Ying and David agree that "prompt engineering" as a distinct skill is likely becoming a temporary or historical concept. They argue that the focus should shift to broader competencies, such as critica
+- **IDEA-0275** (grade 70.2) — LLM Self-Reflection and Human Evaluation
+  > Fulvio noted that LLMs often lack certainty regarding how they arrive at conclusions, as they sometimes rely on vector database inference rather than a defined source. Both participants concluded that
+- **IDEA-0694** (grade 68.1) — New Workflow Tools and LLM Evaluation
+  > David Olsson asked the group if they are using anything new in their workflow, given the pace of innovation (00:05:45). Jason Kryski stated a feeling of increased obligation to understand new things,
+- **IDEA-0695** (grade 65.6) — LLM Automation Limitations and Development Strategy
+  > Fulvio Ciano agreed that while LLMs can perform complex tasks, the output is not useful for automation, emphasizing that automation requires significant time investment to evaluate the model's perform
+- **IDEA-0427** (grade 60.0) — Measurement & Evaluation Systems
+  > Performance tracking methods: Baseline comparisons without LLM, conversion rates, and engagement rate measurements Negative state analysis: Agents evaluate whether non-converting prospects were still
+
+## Tools & entities recurring in this thread
+
+  LLM, Claude, Gmail, GPT, Gemini, Netlify, GitHub, MCP, Anthropic, OpenAI
+
+## Trajectory note
+
+Across 11 meetings this thread runs 2024-08-28 → 2026-06-24. The synthesizer marks it **steady**. No standalone chapter yet — this is the primary synthesis, and a candidate for the next drafting pass.
+
+_Generated 2026-06-25 from 14 graded ideas._
