@@ -292,3 +292,7 @@
 {"ts": "2026-06-25T18:05:03Z", "op": "experiment", "idea": "IDEA-0332", "experiment": "EXP-0001-gist-data-substrate", "verdict": "built+run"}
 {"ts": "2026-06-25T18:05:03Z", "op": "experiment", "idea": "IDEA-0230", "experiment": "EXP-0002-corpus-signal-harvester", "verdict": "built+run"}
 {"ts": "2026-06-25T18:05:03Z", "op": "experiment", "idea": "IDEA-0273", "experiment": "EXP-0003-baseline-interview", "verdict": "built+run"}
+{"ts": "2026-06-25T19:52:17Z", "op": "newsletter_enable", "site": "8am-ai"}
+{"ts": "2026-06-25T19:52:17Z", "op": "newsletter_compose", "slug": "launch-the-corpus-is-open", "status": "ready"}
+{"ts": "2026-06-25T19:52:17Z", "op": "newsletter_test", "to": "david@atomic47.co", "result": "sent"}
+{"ts": "2026-06-25T19:52:17Z", "op": "newsletter_send", "result": "blocked", "reason": "0 active subscribers"}

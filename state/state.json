@@ -745,6 +745,14 @@
       "/8am-ai/the-tool-churn-log",
       "/8am-ai/mining-the-glue",
       "/8am-ai/atomic-to-architecture"
-    ]
+    ],
+    "newsletter": {
+      "enabled": true,
+      "from_name": "8am AI",
+      "launch_draft": "launch-the-corpus-is-open",
+      "test_sent_to": "david@atomic47.co",
+      "subscribers": 0,
+      "broadcast": "blocked: 0 active subscribers"
+    }
   }
 }
