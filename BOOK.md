@@ -12,6 +12,11 @@ Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 run
 - [Theme engagement over time](https://scsiwyg.com/8am-ai/theme-engagement) — engagement heatmap, quality-of-intelligence line, theme map
 - [Definitions](https://scsiwyg.com/8am-ai/definitions) — the glossary for the whole project
 
+## Explainers (for the group)
+
+- [What 8am AI remembers](https://scsiwyg.com/8am-ai/what-8am-ai-remembers) — the substrate / state file, in plain terms
+- [The workers behind 8am AI](https://scsiwyg.com/8am-ai/the-workers-behind-8am-ai) — the skills that fill the memory in
+
 ## Chapters
 
 - [Two years of 8am AI](https://scsiwyg.com/8am-ai/two-years-of-8am-ai) — the index — the whole arc, end to end
