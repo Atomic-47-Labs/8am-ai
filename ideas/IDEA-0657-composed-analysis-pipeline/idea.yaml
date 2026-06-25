@@ -1,0 +1,27 @@
+id: IDEA-0657
+slug: composed-analysis-pipeline
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-11-05'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson highlighted a powerful feature of Dante, which allows for the creation of a composable pipeline for processing PDFs, including adding regions, text blocks, and applying high-res page and text LLM analysis (00:15:56). He suggested that this feature, which addresses the limitations of zero-shot approaches to PDF processing, might be the application's value, especially for researchers in the medical and chemical engineering spaces (00:17:06).
+summary: Composed Analysis Pipeline
+rationale: David Olsson highlighted a powerful feature of Dante, which allows for the creation of a composable pipeline for processing PDFs, including adding regions, text blocks, and applying high-res page and text LLM analysis (00:15:56). He suggested that this feature, which addresses the limitations of zero-shot approaches to PDF processing, might be the application's value, especially for researchers in
+tags: []
+theme_refs: []
+directive_refs: []
+created: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 49.7
+grade_breakdown:
+  evidence: 25
+  theme: 0
+  recency: 1.2
+  concretion: 8.5
+  uniqueness: 15
+  carryover: 0
+rank: 455
+tier: backlog

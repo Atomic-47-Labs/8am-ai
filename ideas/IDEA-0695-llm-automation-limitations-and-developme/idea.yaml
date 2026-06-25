@@ -1,0 +1,28 @@
+id: IDEA-0695
+slug: llm-automation-limitations-and-developme
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-11-26'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Fulvio Ciano agreed that while LLMs can perform complex tasks, the output is not useful for automation, emphasizing that automation requires significant time investment to evaluate the model''s performance on desired tasks (00:08:28). Fulvio Ciano stressed the importance of figuring out early enough whether the goal is to do a small task, create a process, or build a tool, to avoid "chasing things". David Olsson shared that their iterative approach to solving a problem, initially using LLM strategies, led them back to using Python for region detection because it was more accurate, tunable, and '
+summary: LLM Automation Limitations and Development Strategy
+rationale: Fulvio Ciano agreed that while LLMs can perform complex tasks, the output is not useful for automation, emphasizing that automation requires significant time investment to evaluate the model's performance on desired tasks (00:08:28). Fulvio Ciano stressed the importance of figuring out early enough whether the goal is to do a small task, create a process, or build a tool, to avoid "chasing things"
+tags: []
+theme_refs:
+- THEME-07
+directive_refs: []
+created: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 65.6
+grade_breakdown:
+  evidence: 25
+  theme: 11.6
+  recency: 1.5
+  concretion: 12.5
+  uniqueness: 15
+  carryover: 0
+rank: 85
+tier: queue

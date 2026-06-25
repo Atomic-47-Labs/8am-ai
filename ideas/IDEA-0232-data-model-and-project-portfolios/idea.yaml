@@ -1,0 +1,28 @@
+id: IDEA-0232
+slug: data-model-and-project-portfolios
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: The system is built upon a flat file model, operating at the metadata level, which was the original architectural approach for Work Sona (00:03:57). David Olsson noted the high volume of projects and the necessity of viewing them in "portfolios" or groups, which led to the creation of a comprehensive view that tracks all work by harvesting signals at a granular level (00:05:01). ![][image3]
+summary: Data Model and Project Portfolios
+rationale: The system is built upon a flat file model, operating at the metadata level, which was the original architectural approach for Work Sona (00:03:57). David Olsson noted the high volume of projects and the necessity of viewing them in "portfolios" or groups, which led to the creation of a comprehensive view that tracks all work by harvesting signals at a granular level (00:05:01). ![][image3]
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 62.4
+grade_breakdown:
+  evidence: 25
+  theme: 9.5
+  recency: 9.9
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 166
+tier: queue

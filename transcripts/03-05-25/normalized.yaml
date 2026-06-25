@@ -1,0 +1,718 @@
+meeting:
+  date: '2025-03-05'
+  title: 8am-AI 2025-03-05
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  duration_s: 1385.05
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 178.63
+  t_end: 179.37
+  text: It.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 215.44
+  t_end: 216.54
+  text: Hey David.
+- id: u3
+  speaker: David Olsson
+  t_start: 217.28
+  t_end: 222.18
+  text: Hey man, how are you?
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 222.56
+  t_end: 230.67
+  text: Good. I was just had a. Travis had a bunch of questions for me so I was just helping him a bit and try to do some stuff and it's like please.
+- id: u5
+  speaker: David Olsson
+  t_start: 231.61
+  t_end: 232.63
+  text: Excellent.
+- id: u6
+  speaker: Fulvio Ciano
+  t_start: 232.97
+  t_end: 246.11
+  text: I showed him the base to base hex security through obfuscation algorithm for the solidity contract on Haiku and he's like, oh, he loved it, thought it was great.
+- id: u7
+  speaker: David Olsson
+  t_start: 246.65
+  t_end: 259.91
+  text: Yeah, he's totally that guy, man. He's. He'll like the technical kind of snafus and kung fu in chomp. I built this yesterday while I was in a meeting.
+- id: u8
+  speaker: David Olsson
+  t_start: 269.65
+  t_end: 274.19
+  text: It's kind of ridiculous, but what I did is I enabled it to be like a roller coaster ride.
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 277.73
+  t_end: 281.15
+  text: Very nice camera moving along the curve.
+- id: u10
+  speaker: David Olsson
+  t_start: 281.9
+  t_end: 325.59
+  text: Yeah. So there's a project back in the day, I was a big fan of a designer guy called John Miata and he did a bunch of interactive work back in the day in Java. And one of the projects he had was called One Line and he built a Java application where anybody around the world could log in and contribute to adding to one line. And so you could just draw this ribbon in the space just like this and it would add on to the last person's line. And it was just this interactive project. It'll make you nauseous, so I'll turn that off.
+- id: u11
+  speaker: David Olsson
+  t_start: 331.17
+  t_end: 352.44
+  text: About this, I'm really liking the notion of tags. They do a lot just in their labeling, you know. So if you do a nice JSON file with a bunch of labels and UIs are really snappy.
+- id: u12
+  speaker: David Olsson
+  t_start: 358.71
+  t_end: 364.81
+  text: Discovered this in Field Notes 2 app.
+- id: u13
+  speaker: David Olsson
+  t_start: 371.91
+  t_end: 378.81
+  text: But I came across this. See if anybody joins today.
+- id: u14
+  speaker: David Olsson
+  t_start: 386.16
+  t_end: 428.79
+  text: Actually this is funny, this portfolio site right here, look at this. It says right there and then here is the picture of it. Picture website. Ridiculous. But in building this website it brought up because it, you know, it built the JSON for me. It actually added a text stack in here. Weather API. I have, but I never heard of spoon ocular or spoonacular API.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 430.65
+  t_end: 432.082
+  text: Never heard of it.
+- id: u16
+  speaker: David Olsson
+  t_start: 432.266
+  t_end: 544.612
+  text: Right. It's a food API. What it is, it's an API. There's recipes and ingredients. It's an interesting open available API for building a dynamic menu or journaling app or product, whatever. But I thought it would be an interesting one to look at in the case of anybody showing up because you can quickly build something around this. Like people have been talking about protein and James was journaling and it's a good one where you could just. The field notes app that I built was really. It was strung together with just providing it a little bit of information. As to what to track and then how to track it, and then to add these notions of tags. And these notions of tags really translated well across different views, map views, list views and calendar views. And that's kind of what a food journaling app would be too. But these things are so, I don't say non trivial, but they are probably not that much work to get into motion nowadays in the ides we have. And I don't know if you look for recipes on the Internet these days. Sorry, the web, but it is the best place to find anything that isn't porn in terms of. They're trying everything, every kind of ad, every kind of tracker. You can't actually find the recipe ingredients. They hide them so well. It takes you like a minute to find the actual.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 544.676
+  t_end: 547.012
+  text: It's really, really frustrating.
+- id: u18
+  speaker: David Olsson
+  t_start: 547.156
+  t_end: 550.292
+  text: Right. Look, they figured it out, man.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 550.476
+  t_end: 553.664
+  text: I'm a serious foodie and cook. Right. And.
+- id: u20
+  speaker: David Olsson
+  t_start: 553.484
+  t_end: 553.984
+  text: Yeah.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 553.956
+  t_end: 559.988
+  text: And. And I. My mother was a witch. And what I mean, witch. I mean kitchen witch.
+- id: u22
+  speaker: David Olsson
+  t_start: 560.084
+  t_end: 560.724
+  text: Yeah.
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 560.852
+  t_end: 581.742
+  text: Magical cook. And I learned the Bene Jesuit, which cook way. And so I generally don't cook from ingredients. I cook from the symbolism of the ingredients to use the haiku thing, you know what I mean? And, but, but I, I want to start from a recipe in the sense that.
+- id: u24
+  speaker: David Olsson
+  t_start: 581.766
+  t_end: 582.654
+  text: Yeah, yeah.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 582.702
+  t_end: 615.15
+  text: What is. What is. What is the. You know, what are the ingredients? Not necessarily what's the. Exactly. The intention is exactly right. Is this. Is this a. Is this a flower? Is this a spice? Is this an acid? Is this a sweet? Is it a lipid? Is it a. Whatever. And it amazes me how the recipe. Because I've noticed exactly what you said, which is when you look for a recipe, first of all, it's too much article and not enough. What are the ingredients and the temperature. Right.
+- id: u26
+  speaker: David Olsson
+  t_start: 615.01
+  t_end: 615.63
+  text: Yeah.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 616.85
+  t_end: 617.354
+  text: Only.
+- id: u28
+  speaker: David Olsson
+  t_start: 617.442
+  t_end: 622.956
+  text: You only need this much. When you wrote your mother's recipe down or whatever, I, I did a lot of that. It was about that long.
+- id: u29
+  speaker: Fulvio Ciano
+  t_start: 623.028
+  t_end: 623.528
+  text: That's.
+- id: u30
+  speaker: David Olsson
+  t_start: 623.436
+  t_end: 624.46
+  text: That's a recipe.
+- id: u31
+  speaker: Fulvio Ciano
+  t_start: 624.62
+  t_end: 638.032
+  text: That's right. And. And it's funny because the other one I struggle with is temperature. I don't know why I end up with a lot of. I think because of what I look up, I end up with European recipes with Celsius temperatures. And I want.
+- id: u32
+  speaker: David Olsson
+  t_start: 638.084
+  t_end: 641.996
+  text: Yeah, yeah. That's not easy with our cooking and like our ovens here.
+- id: u33
+  speaker: Fulvio Ciano
+  t_start: 642.068
+  t_end: 645.448
+  text: Our ovens are all Fahrenheit. Right. And I'm.
+- id: u34
+  speaker: David Olsson
+  t_start: 645.436
+  t_end: 647.68
+  text: It is. Cooking is the one thing that lags.
+- id: u35
+  speaker: Fulvio Ciano
+  t_start: 648.22
+  t_end: 649.56
+  text: It's shocking.
+- id: u36
+  speaker: David Olsson
+  t_start: 652.06
+  t_end: 657.172
+  text: Maybe now in the US that will change. I deal with cups and liquids now.
+- id: u37
+  speaker: Fulvio Ciano
+  t_start: 657.276
+  t_end: 661.44
+  text: In my Head, but yeah, cups of liquids though. But I know that one in my head.
+- id: u38
+  speaker: David Olsson
+  t_start: 663.58
+  t_end: 682.79
+  text: Temperatures are like stupid. But here's the apps that you know. Here's somebody that did like a keto thing and yeah, here's one. This kind of thing, right? Carbs and meal plan, weight loss. These are all the kind of things that you can do with an apr like this.
+- id: u39
+  speaker: Fulvio Ciano
+  t_start: 685.57
+  t_end: 693.23
+  text: Well, and it's funny, like an agent can totally do all this work of like, get me. So all you would. It's a Mad Lib, right? Like you're mad.
+- id: u40
+  speaker: David Olsson
+  t_start: 694.61
+  t_end: 704.07
+  text: So that's what I wrote down. Yeah, it's like this, this idea of the API and a Mad Lib and you should be able to do it. All right?
+- id: u41
+  speaker: Fulvio Ciano
+  t_start: 704.11
+  t_end: 731.56
+  text: And then give it to me, give it to me. What it's good for. I want to know what it is. Summary first. Then I want to know the ingredients. Then I want to know the time the servings and the temperature cooking at for what time. That's it. The rest is garbage. I don't want to hear a story about Admiral Legacy's brother, right? And who he got it from and when he got it and which girl he was hitting on at the time, right? I want to know the temperature of the oven in Fahrenheit.
+- id: u42
+  speaker: David Olsson
+  t_start: 733.82
+  t_end: 803.44
+  text: When I'm doing a recipe for the first time. I read it like 10 times. And so those places, those websites are just awful for me. But this would be a great thing because you could build it off of say, like, here's an API so you get the experience of building off the API. Well, the common knowledge that we can get through the LLM is pretty significant too. But, but it's nice to be able to like in the environment of this group of people is like, you know what? This is how the world is kind of going to work. You're going to have APIs everywhere and you're just going to ask to use the better ones if you want to pay. And you could just ask GPT for some sort of sauce or you could go through this process of inspired time of day, thinking relationships and then work to food that way. But I thought that was a cool, cool thing. And you know, I read my content and so it's been like, what are all these tags? Keith Kit A healthcare API. Right? That's an interesting one. I should check that one out. The rest of them are new open weather. I've already used. And so that was the.
+- id: u43
+  speaker: David Olsson
+  t_start: 809.49
+  t_end: 860.63
+  text: I wanted to build. Just gonna go down this path of, of getting people to contribute over a few weeks, which I'm gonna do anyways. I was gonna build in some sort of wonky media muxing like this app. I can never remember what I what the URL is, but I'm a fan of this kind of. There's a lot of real data behind the scenes, but how it comes together is totally plastic. So it's cloudy here right now, so we're getting a lot of clouds. But you could do that with food really easily too. You could because there's so much media around food.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 864.77
+  t_end: 868.89
+  text: Hey David, Is anyone else coming to this today? Doesn't look like it.
+- id: u45
+  speaker: David Olsson
+  t_start: 868.93
+  t_end: 884.53
+  text: Eh, no, no, it's really, really light. I've had this website for 1012 years, macrobacon.com and it is at one hot. At one time I had a quarter million postings about bacon.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 885.19
+  t_end: 886.046
+  text: Wow.
+- id: u47
+  speaker: David Olsson
+  t_start: 886.238
+  t_end: 887.01
+  text: Yeah.
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 891.83
+  t_end: 892.862
+  text: Oh wow.
+- id: u49
+  speaker: David Olsson
+  t_start: 893.006
+  t_end: 904.41
+  text: I learned a lot. There's like a K pop star called Bacon. B A, E, Y, C O E. Overland or something. And they call him Bacon. And so he showed up for like a significant couple of years.
+- id: u50
+  speaker: Fulvio Ciano
+  t_start: 906.71
+  t_end: 917.912
+  text: Hey David. Yep. Just, just because it's just you and me, can I walk you through something that Travis asked me about that will pertain to you that you can make use of Travis wants to do?
+- id: u51
+  speaker: David Olsson
+  t_start: 918.016
+  t_end: 926.632
+  text: So I'm done with my part. I've got another cool thing I could show you. It's just totally off topic, but I'll show it to you in a minute.
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 926.776
+  t_end: 930.5
+  text: Okay. So you remember this, right?
+- id: u53
+  speaker: David Olsson
+  t_start: 932.4
+  t_end: 937.928
+  text: Yeah, yeah, I. I told. Took that and removed some spaces and columns and used it.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 938.064
+  t_end: 949.448
+  text: Great. And so. Because Travis was trying to understand how the data would be referenced via ipfs. Right?
+- id: u55
+  speaker: David Olsson
+  t_start: 949.584
+  t_end: 950.3
+  text: Yes.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 951.28
+  t_end: 967.042
+  text: And so I explained that the way I designed this was so that there are five traits, Right. With eight variations each. And so you could describe any combinations of traits with a five digit base eight number.
+- id: u57
+  speaker: David Olsson
+  t_start: 967.226
+  t_end: 968.582
+  text: Cool. Nice. Yeah.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 968.274
+  t_end: 986.314
+  text: Okay, I gave an example here, right. And that corresponds to 1524 in base. Because the first one is zero. So the first digit is zero. And so I said what you do then is you convert it to hex. And the reason you convert it to hex is to obfuscate because now. Yeah.
+- id: u59
+  speaker: David Olsson
+  t_start: 986.482
+  t_end: 987.674
+  text: You don't know where it came from.
+- id: u60
+  speaker: Fulvio Ciano
+  t_start: 987.762
+  t_end: 1018.03
+  text: Yeah. Right. And so. And he says he was really impressed by that. And I said the reason I'm doing this though is so that you can build an engine which by checking a token number, if a token number is minted, will tell you whether an option is available or not. Because you can go backwards. Yeah. Right. And so he loves this. He's going to do an algorithm for this. I walked him through the math for it. And then you should be able to use that algorithm in the front end. Yeah.
+- id: u61
+  speaker: David Olsson
+  t_start: 1017.844
+  t_end: 1019.908
+  text: To see if it works. To see what we have.
+- id: u62
+  speaker: Fulvio Ciano
+  t_start: 1020.044
+  t_end: 1027.988
+  text: To see what you have. And that way we don't have to have databases. And slow like this will be super fast lookup.
+- id: u63
+  speaker: David Olsson
+  t_start: 1028.084
+  t_end: 1029.076
+  text: Super fast look up.
+- id: u64
+  speaker: Fulvio Ciano
+  t_start: 1029.148
+  t_end: 1031.204
+  text: Well, it's not a lookup. That's the whole point. Right.
+- id: u65
+  speaker: David Olsson
+  t_start: 1031.372
+  t_end: 1035.3
+  text: It's a lookup algorithm. Yeah, yeah, yeah.
+- id: u66
+  speaker: Fulvio Ciano
+  t_start: 1035.46
+  t_end: 1044.676
+  text: So he loved that. He wanted access to the spreadsheet, so I gave it to him. Right. I'm not going to write up how it works because you understand it. Travis understands.
+- id: u67
+  speaker: David Olsson
+  t_start: 1044.708
+  t_end: 1075.72
+  text: Yeah, no, it's good. It's a good. Yeah, it's. So you know this stuff I were talking about with the cryptographer over at. And doing like this scavenger hunts type stuff. Eric and I did that kind of thing, studying it for quite a long time. So I'm all cool on the rot and doing all this kind of casting from one mnemonic system to another. And because they're all just very simple things, but you. If you string them together, nobody can. It is just obfuscation. But nobody can make their way back. You know, it's.
+- id: u68
+  speaker: Fulvio Ciano
+  t_start: 1076.14
+  t_end: 1080.184
+  text: Yeah. I mean, if, you know, the obfuscation is gone. Right.
+- id: u69
+  speaker: David Olsson
+  t_start: 1079.916
+  t_end: 1080.416
+  text: Yeah.
+- id: u70
+  speaker: Fulvio Ciano
+  t_start: 1080.148
+  t_end: 1082.692
+  text: Because it is security through obfuscation.
+- id: u71
+  speaker: David Olsson
+  t_start: 1082.836
+  t_end: 1086.58
+  text: Yeah. But we don't need anything greater for the fact that it's just an internal system going on.
+- id: u72
+  speaker: Fulvio Ciano
+  t_start: 1086.7
+  t_end: 1089.556
+  text: Right. And I think, David, if someone figures out. Who cares.
+- id: u73
+  speaker: David Olsson
+  t_start: 1089.668
+  t_end: 1130.52
+  text: Yeah, yeah, no, it's. It's more numerology behind it. And that's. I think that's an interesting side of things too, is that, is that, that's part of what you can build into the lore and, and it can be uncovered from the inside out too. Meaning that there's all these patterns that we're working with, we're uncovering. We've already, all of us, all of a sudden we've got fives and eights, right? Oh, we're fives and eights. And it's fives and sevens. Whoa, what the hell, right? But I think that's the playfulness in which we can get to it. I came across this crazy research paper on knots. And it's just this same sort of arbitrary thing that's still super meaningful.
+- id: u74
+  speaker: Fulvio Ciano
+  t_start: 1131.31
+  t_end: 1136.842
+  text: Well, this is a combination of. This is a combination of information theory and combatronics. That's all.
+- id: u75
+  speaker: David Olsson
+  t_start: 1136.894
+  t_end: 1161.742
+  text: Well, and so that's what I'm looking at these knots as. I'm like these. Not this nodding system, this visual nodding system could be a, a form of encryption that could be quite neat for people because I can make it algorithmically happen, the knots. Right. Like a 3D knot or whatever. Taurus. But from their side of things, it's just like the experience of the haiku. So I like what I'm seeing because it works with that idea of me just.
+- id: u76
+  speaker: Fulvio Ciano
+  t_start: 1161.926
+  t_end: 1162.89
+  text: I don't know.
+- id: u77
+  speaker: David Olsson
+  t_start: 1163.35
+  t_end: 1166.03
+  text: Karen says I'm attracted to circles right now. I don't know what that means.
+- id: u78
+  speaker: Fulvio Ciano
+  t_start: 1166.07
+  t_end: 1171.406
+  text: So maybe I'm definitely attracted to circles. Certain ones more than others. But.
+- id: u79
+  speaker: David Olsson
+  t_start: 1171.558
+  t_end: 1176.702
+  text: Yeah. Well, I can, I should say curves because these aren't circles at all.
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 1176.886
+  t_end: 1179.006
+  text: Curves. I like curves too, David.
+- id: u81
+  speaker: David Olsson
+  t_start: 1179.198
+  t_end: 1181.05
+  text: Yes, I guess we both do.
+- id: u82
+  speaker: Fulvio Ciano
+  t_start: 1181.75
+  t_end: 1186.964
+  text: So. So only you, me and Travis really need to know about this, obviously.
+- id: u83
+  speaker: David Olsson
+  t_start: 1187.012
+  t_end: 1193.88
+  text: Yeah, no, it's cool. It's a neat little thing under the hood and if it comes out, it comes out and it's just like, yeah, man, we're. We're baking this stuff deep.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 1195.1
+  t_end: 1225.678
+  text: Well, because you will be able, like solidity contracts can be, can be decompiled. Right. Like that is the right word. They can be decompiled. Right. Because they are pseudo compiled when they're put on the. Yeah. So you know, somebody really smart could like do the work and then they'd have to figure out the enumeration order of the. Yeah. Of the variation name and the traits and stuff. I don't think anybody will, to be honest. I doubt it.
+- id: u85
+  speaker: David Olsson
+  t_start: 1225.734
+  t_end: 1282.8
+  text: Well, and, and I don't know for. We're lining up to be that kind of project to exploit. Right. Like it's pretty under the covers. Like a handful of people know about us and you know, at most tens of k. Tens of people. Right. Tens of thousands of people. So it's like, okay, that's number. But yeah, I did, you know, I had a. We used to play Quake back in the day and we put up a server and, and people accused us of server sitting and then they just hacked our websites because of that or like, man, it's for us, you fuckers. So. But they did. They totally took down our websites and went hacked. And then we found ourselves on leaderboards and like what, what the. And then we're like a target for a while and what. This is so wild. That was the first experience of trolling. It was like deep tech trolling. So I, I, I don't leave it out of the realm of possibility given, you know, there's billions of people and a lot of them are bored.
+- id: u86
+  speaker: Fulvio Ciano
+  t_start: 1283.78
+  t_end: 1291.28
+  text: That's right. That's exactly right. I'm just gonna do this so that he knows.
+- id: u87
+  speaker: David Olsson
+  t_start: 1292.18
+  t_end: 1292.96
+  text: Yeah.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 1293.54
+  t_end: 1307.76
+  text: Two decimal. That it's I this one. So that should be the actual token number because the token number would be the token number in the metadata.
+- id: u89
+  speaker: Fulvio Ciano
+  t_start: 1313.06
+  t_end: 1333.59
+  text: So somebody could figure out that the token number corresponded to this number via hex. But that wouldn't tell them the. The enumeration strategy. They'd have to convert it to base. To figure out the enumeration strategy, we could use a. We could use an additional obfuscator here and make it really tough.
+- id: u90
+  speaker: David Olsson
+  t_start: 1333.75
+  t_end: 1362.88
+  text: Yeah, we could do an rot in it. We could do anything that would just with it and. Or we like anything that we know. Even like an RLT is so simple. But anything along those lines would like as soon as you add one more different technique. We know about cryptography. It's like a magnitude greater and. And the people recognize we're using toy. Toy crypto AMQC huddle right now. Oh, God.
+- id: u91
+  speaker: Fulvio Ciano
+  t_start: 1364.5
+  t_end: 1366.68
+  text: Well, is that right now?
+- id: u92
+  speaker: David Olsson
+  t_start: 1367.3
+  t_end: 1369.852
+  text: 10 minutes, so. Oh, that's cool.
+- id: u93
+  speaker: Fulvio Ciano
+  t_start: 1369.916
+  t_end: 1370.416
+  text: That's.
+- id: u94
+  speaker: David Olsson
+  t_start: 1370.332
+  t_end: 1376.746
+  text: That's good stuff. Yes. I just see that Travis ping me and he's impressed by you, by the way, so there you go.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 1376.818
+  t_end: 1382.826
+  text: Oh, all right. All right. I'm going to go get ready for that next meeting. We actually have a string in a row.
+- id: u96
+  speaker: David Olsson
+  t_start: 1382.938
+  t_end: 1385.05
+  text: I'll check. Okay, bye.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  text: It.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  text: Hey David. Hey man, how are you? Good. I was just had a. Travis had a bunch of questions for me so I was just helping him a bit and try to do some stuff and it's like please. Excellent. I showed him the base to base hex security through obfuscation algorithm for the solidity contract on Haiku and he's like, oh, he loved it, thought it was great. Yeah, he's totally that guy, man. He's. He'll like the technical kind of snafus and kung fu in chomp. I built this yesterday while I was in a meeting. It's kind of ridiculous, but what I did is I enabled it to be like a roller coaster ride. Very nice camera moving along the curve. Yeah. So there's a project back in the day, I was a big fan of a designer guy called John Miata and he did a bunch of interactive work back in the day in Java. And one of the projects he had was called One Line and he built a Java application where anybody around the world could log in and contribute to adding to one line. And so you could just draw this ribbon in the space just like this and it would add on to the last person's line. And it was just this interactive project. It'll make you nauseous, so I'll turn that off.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  text: It's kind of ridiculous, but what I did is I enabled it to be like a roller coaster ride. Very nice camera moving along the curve. Yeah. So there's a project back in the day, I was a big fan of a designer guy called John Miata and he did a bunch of interactive work back in the day in Java. And one of the projects he had was called One Line and he built a Java application where anybody around the world could log in and contribute to adding to one line. And so you could just draw this ribbon in the space just like this and it would add on to the last person's line. And it was just this interactive project. It'll make you nauseous, so I'll turn that off. About this, I'm really liking the notion of tags. They do a lot just in their labeling, you know. So if you do a nice JSON file with a bunch of labels and UIs are really snappy. Discovered this in Field Notes 2 app. But I came across this. See if anybody joins today. Actually this is funny, this portfolio site right here, look at this. It says right there and then here is the picture of it. Picture website. Ridiculous. But in building this website it brought up because it, you know, it built the JSON for me. It actually added a text stack in here. Weather API. I have, but I never heard of spoon ocular or spoonacular API.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  text: Discovered this in Field Notes 2 app. But I came across this. See if anybody joins today. Actually this is funny, this portfolio site right here, look at this. It says right there and then here is the picture of it. Picture website. Ridiculous. But in building this website it brought up because it, you know, it built the JSON for me. It actually added a text stack in here. Weather API. I have, but I never heard of spoon ocular or spoonacular API. Never heard of it. Right. It's a food API. What it is, it's an API. There's recipes and ingredients. It's an interesting open available API for building a dynamic menu or journaling app or product, whatever. But I thought it would be an interesting one to look at in the case of anybody showing up because you can quickly build something around this. Like people have been talking about protein and James was journaling and it's a good one where you could just. The field notes app that I built was really. It was strung together with just providing it a little bit of information. As to what to track and then how to track it, and then to add these notions of tags. And these notions of tags really translated well across different views, map views, list views and calendar views. And that's kind of what a food journaling app would be too. But these things are so, I don't say non trivial, but they are probably not that much work to get into motion nowadays in the ides we have. And I don't know if you look for recipes on the Internet these days. Sorry, the web, but it is the best place to find anything that isn't porn in terms of. They're trying everything, every kind of ad, every kind of tracker. You can't actually find the recipe ingredients. They hide them so well. It takes you like a minute to find the actual.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  text: Right. It's a food API. What it is, it's an API. There's recipes and ingredients. It's an interesting open available API for building a dynamic menu or journaling app or product, whatever. But I thought it would be an interesting one to look at in the case of anybody showing up because you can quickly build something around this. Like people have been talking about protein and James was journaling and it's a good one where you could just. The field notes app that I built was really. It was strung together with just providing it a little bit of information. As to what to track and then how to track it, and then to add these notions of tags. And these notions of tags really translated well across different views, map views, list views and calendar views. And that's kind of what a food journaling app would be too. But these things are so, I don't say non trivial, but they are probably not that much work to get into motion nowadays in the ides we have. And I don't know if you look for recipes on the Internet these days. Sorry, the web, but it is the best place to find anything that isn't porn in terms of. They're trying everything, every kind of ad, every kind of tracker. You can't actually find the recipe ingredients. They hide them so well. It takes you like a minute to find the actual. It's really, really frustrating. Right. Look, they figured it out, man. I'm a serious foodie and cook. Right. And. Yeah. And. And I. My mother was a witch. And what I mean, witch. I mean kitchen witch. Yeah. Magical cook. And I learned the Bene Jesuit, which cook way. And so I generally don't cook from ingredients. I cook from the symbolism of the ingredients to use the haiku thing, you know what I mean? And, but, but I, I want to start from a recipe in the sense that.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  text: Right. It's a food API. What it is, it's an API. There's recipes and ingredients. It's an interesting open available API for building a dynamic menu or journaling app or product, whatever. But I thought it would be an interesting one to look at in the case of anybody showing up because you can quickly build something around this. Like people have been talking about protein and James was journaling and it's a good one where you could just. The field notes app that I built was really. It was strung together with just providing it a little bit of information. As to what to track and then how to track it, and then to add these notions of tags. And these notions of tags really translated well across different views, map views, list views and calendar views. And that's kind of what a food journaling app would be too. But these things are so, I don't say non trivial, but they are probably not that much work to get into motion nowadays in the ides we have. And I don't know if you look for recipes on the Internet these days. Sorry, the web, but it is the best place to find anything that isn't porn in terms of. They're trying everything, every kind of ad, every kind of tracker. You can't actually find the recipe ingredients. They hide them so well. It takes you like a minute to find the actual. It's really, really frustrating. Right. Look, they figured it out, man. I'm a serious foodie and cook. Right. And. Yeah. And. And I. My mother was a witch. And what I mean, witch. I mean kitchen witch. Yeah. Magical cook. And I learned the Bene Jesuit, which cook way. And so I generally don't cook from ingredients. I cook from the symbolism of the ingredients to use the haiku thing, you know what I mean? And, but, but I, I want to start from a recipe in the sense that. Yeah, yeah. What is. What is. What is the. You know, what are the ingredients? Not necessarily what's the. Exactly. The intention is exactly right. Is this. Is this a. Is this a flower? Is this a spice? Is this an acid? Is this a sweet? Is it a lipid? Is it a. Whatever. And it amazes me how the recipe. Because I've noticed exactly what you said, which is when you look for a recipe, first of all, it's too much article and not enough. What are the ingredients and the temperature. Right. Yeah. Only. You only need this much. When you wrote your mother's recipe down or whatever, I, I did a lot of that. It was about that long. That's. That's a recipe. That's right. And. And it's funny because the other one I struggle with is temperature. I don't know why I end up with a lot of. I think because of what I look up, I end up with European recipes with Celsius temperatures. And I want. Yeah, yeah. That's not easy with our cooking and like our ovens here. Our ovens are all Fahrenheit. Right. And I'm. It is. Cooking is the one thing that lags. It's shocking. Maybe now in the US that will change. I deal with cups and liquids now. In my Head, but yeah, cups of liquids though. But I know that one in my head.
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  text: That's right. And. And it's funny because the other one I struggle with is temperature. I don't know why I end up with a lot of. I think because of what I look up, I end up with European recipes with Celsius temperatures. And I want. Yeah, yeah. That's not easy with our cooking and like our ovens here. Our ovens are all Fahrenheit. Right. And I'm. It is. Cooking is the one thing that lags. It's shocking. Maybe now in the US that will change. I deal with cups and liquids now. In my Head, but yeah, cups of liquids though. But I know that one in my head. Temperatures are like stupid. But here's the apps that you know. Here's somebody that did like a keto thing and yeah, here's one. This kind of thing, right? Carbs and meal plan, weight loss. These are all the kind of things that you can do with an apr like this. Well, and it's funny, like an agent can totally do all this work of like, get me. So all you would. It's a Mad Lib, right? Like you're mad. So that's what I wrote down. Yeah, it's like this, this idea of the API and a Mad Lib and you should be able to do it. All right? And then give it to me, give it to me. What it's good for. I want to know what it is. Summary first. Then I want to know the ingredients. Then I want to know the time the servings and the temperature cooking at for what time. That's it. The rest is garbage. I don't want to hear a story about Admiral Legacy's brother, right? And who he got it from and when he got it and which girl he was hitting on at the time, right? I want to know the temperature of the oven in Fahrenheit. When I'm doing a recipe for the first time. I read it like 10 times. And so those places, those websites are just awful for me. But this would be a great thing because you could build it off of say, like, here's an API so you get the experience of building off the API. Well, the common knowledge that we can get through the LLM is pretty significant too. But, but it's nice to be able to like in the environment of this group of people is like, you know what? This is how the world is kind of going to work. You're going to have APIs everywhere and you're just going to ask to use the better ones if you want to pay. And you could just ask GPT for some sort of sauce or you could go through this process of inspired time of day, thinking relationships and then work to food that way. But I thought that was a cool, cool thing. And you know, I read my content and so it's been like, what are all these tags? Keith Kit A healthcare API. Right? That's an interesting one. I should check that one out. The rest of them are new open weather. I've already used. And so that was the.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  text: And then give it to me, give it to me. What it's good for. I want to know what it is. Summary first. Then I want to know the ingredients. Then I want to know the time the servings and the temperature cooking at for what time. That's it. The rest is garbage. I don't want to hear a story about Admiral Legacy's brother, right? And who he got it from and when he got it and which girl he was hitting on at the time, right? I want to know the temperature of the oven in Fahrenheit. When I'm doing a recipe for the first time. I read it like 10 times. And so those places, those websites are just awful for me. But this would be a great thing because you could build it off of say, like, here's an API so you get the experience of building off the API. Well, the common knowledge that we can get through the LLM is pretty significant too. But, but it's nice to be able to like in the environment of this group of people is like, you know what? This is how the world is kind of going to work. You're going to have APIs everywhere and you're just going to ask to use the better ones if you want to pay. And you could just ask GPT for some sort of sauce or you could go through this process of inspired time of day, thinking relationships and then work to food that way. But I thought that was a cool, cool thing. And you know, I read my content and so it's been like, what are all these tags? Keith Kit A healthcare API. Right? That's an interesting one. I should check that one out. The rest of them are new open weather. I've already used. And so that was the. I wanted to build. Just gonna go down this path of, of getting people to contribute over a few weeks, which I'm gonna do anyways. I was gonna build in some sort of wonky media muxing like this app. I can never remember what I what the URL is, but I'm a fan of this kind of. There's a lot of real data behind the scenes, but how it comes together is totally plastic. So it's cloudy here right now, so we're getting a lot of clouds. But you could do that with food really easily too. You could because there's so much media around food.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: I wanted to build. Just gonna go down this path of, of getting people to contribute over a few weeks, which I'm gonna do anyways. I was gonna build in some sort of wonky media muxing like this app. I can never remember what I what the URL is, but I'm a fan of this kind of. There's a lot of real data behind the scenes, but how it comes together is totally plastic. So it's cloudy here right now, so we're getting a lot of clouds. But you could do that with food really easily too. You could because there's so much media around food. Hey David, Is anyone else coming to this today? Doesn't look like it. Eh, no, no, it's really, really light. I've had this website for 1012 years, macrobacon.com and it is at one hot. At one time I had a quarter million postings about bacon. Wow. Yeah. Oh wow. I learned a lot. There's like a K pop star called Bacon. B A, E, Y, C O E. Overland or something. And they call him Bacon. And so he showed up for like a significant couple of years. Hey David. Yep. Just, just because it's just you and me, can I walk you through something that Travis asked me about that will pertain to you that you can make use of Travis wants to do? So I'm done with my part. I've got another cool thing I could show you. It's just totally off topic, but I'll show it to you in a minute. Okay. So you remember this, right?
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  text: I learned a lot. There's like a K pop star called Bacon. B A, E, Y, C O E. Overland or something. And they call him Bacon. And so he showed up for like a significant couple of years. Hey David. Yep. Just, just because it's just you and me, can I walk you through something that Travis asked me about that will pertain to you that you can make use of Travis wants to do? So I'm done with my part. I've got another cool thing I could show you. It's just totally off topic, but I'll show it to you in a minute. Okay. So you remember this, right? Yeah, yeah, I. I told. Took that and removed some spaces and columns and used it. Great. And so. Because Travis was trying to understand how the data would be referenced via ipfs. Right? Yes. And so I explained that the way I designed this was so that there are five traits, Right. With eight variations each. And so you could describe any combinations of traits with a five digit base eight number. Cool. Nice. Yeah. Okay, I gave an example here, right. And that corresponds to 1524 in base. Because the first one is zero. So the first digit is zero. And so I said what you do then is you convert it to hex. And the reason you convert it to hex is to obfuscate because now. Yeah. You don't know where it came from. Yeah. Right. And so. And he says he was really impressed by that. And I said the reason I'm doing this though is so that you can build an engine which by checking a token number, if a token number is minted, will tell you whether an option is available or not. Because you can go backwards. Yeah. Right. And so he loves this. He's going to do an algorithm for this. I walked him through the math for it. And then you should be able to use that algorithm in the front end. Yeah. To see if it works. To see what we have.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  text: Yeah. Right. And so. And he says he was really impressed by that. And I said the reason I'm doing this though is so that you can build an engine which by checking a token number, if a token number is minted, will tell you whether an option is available or not. Because you can go backwards. Yeah. Right. And so he loves this. He's going to do an algorithm for this. I walked him through the math for it. And then you should be able to use that algorithm in the front end. Yeah. To see if it works. To see what we have. To see what you have. And that way we don't have to have databases. And slow like this will be super fast lookup. Super fast look up. Well, it's not a lookup. That's the whole point. Right. It's a lookup algorithm. Yeah, yeah, yeah. So he loved that. He wanted access to the spreadsheet, so I gave it to him. Right. I'm not going to write up how it works because you understand it. Travis understands. Yeah, no, it's good. It's a good. Yeah, it's. So you know this stuff I were talking about with the cryptographer over at. And doing like this scavenger hunts type stuff. Eric and I did that kind of thing, studying it for quite a long time. So I'm all cool on the rot and doing all this kind of casting from one mnemonic system to another. And because they're all just very simple things, but you. If you string them together, nobody can. It is just obfuscation. But nobody can make their way back. You know, it's. Yeah. I mean, if, you know, the obfuscation is gone. Right. Yeah. Because it is security through obfuscation. Yeah. But we don't need anything greater for the fact that it's just an internal system going on. Right. And I think, David, if someone figures out. Who cares. Yeah, yeah, no, it's. It's more numerology behind it. And that's. I think that's an interesting side of things too, is that, is that, that's part of what you can build into the lore and, and it can be uncovered from the inside out too. Meaning that there's all these patterns that we're working with, we're uncovering. We've already, all of us, all of a sudden we've got fives and eights, right? Oh, we're fives and eights. And it's fives and sevens. Whoa, what the hell, right? But I think that's the playfulness in which we can get to it. I came across this crazy research paper on knots. And it's just this same sort of arbitrary thing that's still super meaningful.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  text: Yeah. I mean, if, you know, the obfuscation is gone. Right. Yeah. Because it is security through obfuscation. Yeah. But we don't need anything greater for the fact that it's just an internal system going on. Right. And I think, David, if someone figures out. Who cares. Yeah, yeah, no, it's. It's more numerology behind it. And that's. I think that's an interesting side of things too, is that, is that, that's part of what you can build into the lore and, and it can be uncovered from the inside out too. Meaning that there's all these patterns that we're working with, we're uncovering. We've already, all of us, all of a sudden we've got fives and eights, right? Oh, we're fives and eights. And it's fives and sevens. Whoa, what the hell, right? But I think that's the playfulness in which we can get to it. I came across this crazy research paper on knots. And it's just this same sort of arbitrary thing that's still super meaningful. Well, this is a combination of. This is a combination of information theory and combatronics. That's all. Well, and so that's what I'm looking at these knots as. I'm like these. Not this nodding system, this visual nodding system could be a, a form of encryption that could be quite neat for people because I can make it algorithmically happen, the knots. Right. Like a 3D knot or whatever. Taurus. But from their side of things, it's just like the experience of the haiku. So I like what I'm seeing because it works with that idea of me just. I don't know. Karen says I'm attracted to circles right now. I don't know what that means. So maybe I'm definitely attracted to circles. Certain ones more than others. But. Yeah. Well, I can, I should say curves because these aren't circles at all. Curves. I like curves too, David. Yes, I guess we both do. So. So only you, me and Travis really need to know about this, obviously. Yeah, no, it's cool. It's a neat little thing under the hood and if it comes out, it comes out and it's just like, yeah, man, we're. We're baking this stuff deep. Well, because you will be able, like solidity contracts can be, can be decompiled. Right. Like that is the right word. They can be decompiled. Right. Because they are pseudo compiled when they're put on the. Yeah. So you know, somebody really smart could like do the work and then they'd have to figure out the enumeration order of the. Yeah. Of the variation name and the traits and stuff. I don't think anybody will, to be honest. I doubt it.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: So maybe I'm definitely attracted to circles. Certain ones more than others. But. Yeah. Well, I can, I should say curves because these aren't circles at all. Curves. I like curves too, David. Yes, I guess we both do. So. So only you, me and Travis really need to know about this, obviously. Yeah, no, it's cool. It's a neat little thing under the hood and if it comes out, it comes out and it's just like, yeah, man, we're. We're baking this stuff deep. Well, because you will be able, like solidity contracts can be, can be decompiled. Right. Like that is the right word. They can be decompiled. Right. Because they are pseudo compiled when they're put on the. Yeah. So you know, somebody really smart could like do the work and then they'd have to figure out the enumeration order of the. Yeah. Of the variation name and the traits and stuff. I don't think anybody will, to be honest. I doubt it. Well, and, and I don't know for. We're lining up to be that kind of project to exploit. Right. Like it's pretty under the covers. Like a handful of people know about us and you know, at most tens of k. Tens of people. Right. Tens of thousands of people. So it's like, okay, that's number. But yeah, I did, you know, I had a. We used to play Quake back in the day and we put up a server and, and people accused us of server sitting and then they just hacked our websites because of that or like, man, it's for us, you fuckers. So. But they did. They totally took down our websites and went hacked. And then we found ourselves on leaderboards and like what, what the. And then we're like a target for a while and what. This is so wild. That was the first experience of trolling. It was like deep tech trolling. So I, I, I don't leave it out of the realm of possibility given, you know, there's billions of people and a lot of them are bored. That's right. That's exactly right. I'm just gonna do this so that he knows.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  text: Well, and, and I don't know for. We're lining up to be that kind of project to exploit. Right. Like it's pretty under the covers. Like a handful of people know about us and you know, at most tens of k. Tens of people. Right. Tens of thousands of people. So it's like, okay, that's number. But yeah, I did, you know, I had a. We used to play Quake back in the day and we put up a server and, and people accused us of server sitting and then they just hacked our websites because of that or like, man, it's for us, you fuckers. So. But they did. They totally took down our websites and went hacked. And then we found ourselves on leaderboards and like what, what the. And then we're like a target for a while and what. This is so wild. That was the first experience of trolling. It was like deep tech trolling. So I, I, I don't leave it out of the realm of possibility given, you know, there's billions of people and a lot of them are bored. That's right. That's exactly right. I'm just gonna do this so that he knows. Yeah. Two decimal. That it's I this one. So that should be the actual token number because the token number would be the token number in the metadata. So somebody could figure out that the token number corresponded to this number via hex. But that wouldn't tell them the. The enumeration strategy. They'd have to convert it to base. To figure out the enumeration strategy, we could use a. We could use an additional obfuscator here and make it really tough. Yeah, we could do an rot in it. We could do anything that would just with it and. Or we like anything that we know. Even like an RLT is so simple. But anything along those lines would like as soon as you add one more different technique. We know about cryptography. It's like a magnitude greater and. And the people recognize we're using toy. Toy crypto AMQC huddle right now. Oh, God. Well, is that right now? 10 minutes, so. Oh, that's cool. That's. That's good stuff. Yes. I just see that Travis ping me and he's impressed by you, by the way, so there you go. Oh, all right. All right. I'm going to go get ready for that next meeting. We actually have a string in a row.
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1385.05
+  utterance_ids:
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  text: Yeah, we could do an rot in it. We could do anything that would just with it and. Or we like anything that we know. Even like an RLT is so simple. But anything along those lines would like as soon as you add one more different technique. We know about cryptography. It's like a magnitude greater and. And the people recognize we're using toy. Toy crypto AMQC huddle right now. Oh, God. Well, is that right now? 10 minutes, so. Oh, that's cool. That's. That's good stuff. Yes. I just see that Travis ping me and he's impressed by you, by the way, so there you go. Oh, all right. All right. I'm going to go get ready for that next meeting. We actually have a string in a row. I'll check. Okay, bye.

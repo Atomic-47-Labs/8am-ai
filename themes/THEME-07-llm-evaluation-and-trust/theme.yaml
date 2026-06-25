@@ -1,31 +1,61 @@
 id: THEME-07
 slug: llm-evaluation-and-trust
 status: active
-summary: 'Recurring across 4 meetings: llm evaluation and trust.'
-first_seen: '2025-09-10'
+summary: 'Recurring across 11 meetings: llm evaluation and trust.'
+first_seen: '2024-08-28'
 last_seen: '2026-06-24'
 idea_refs:
-- IDEA-0167
-- IDEA-0168
-- IDEA-0073
-- IDEA-0103
-- IDEA-0120
+- IDEA-0511
+- IDEA-0514
+- IDEA-0691
+- IDEA-0227
+- IDEA-0427
+- IDEA-0535
+- IDEA-0536
+- IDEA-0556
+- IDEA-0694
+- IDEA-0695
+- IDEA-0110
+- IDEA-0275
+- IDEA-0332
+- IDEA-0365
 evidence:
+- meeting: '2024-08-28'
+  idea_ref: IDEA-0511
+  excerpt: David discussing Work Sona tool development Creation of analysis sets for document evaluation Development of a feedback system for content improvement
+- meeting: '2024-08-28'
+  idea_ref: IDEA-0514
+  excerpt: Development of AI-driven analysis and reporting tools Discussion on refining AI outputs and reducing hallucinations Exploration of metadata's role in AI analysis
+- meeting: '2024-11-20'
+  idea_ref: IDEA-0691
+  excerpt: Discussion on the need for cybersecurity expertise in AI development Concerns raised about the lack of focus on safety in major AI companies Debate on the trustworthiness of AI models for business applications Reflection on the data sources
+- meeting: '2025-04-30'
+  idea_ref: IDEA-0227
+  excerpt: 'James asked about incorporating confidence measures in AI responses David explained that reflection is part of the AI thinking process Brief discussion about how models can evaluate their own outputs Touched on the concept of AI being able '
+- meeting: '2025-07-30'
+  idea_ref: IDEA-0427
+  excerpt: 'Performance tracking methods: Baseline comparisons without LLM, conversion rates, and engagement rate measurements Negative state analysis: Agents evaluate whether non-converting prospects were still progressing toward goals Scoring systems'
 - meeting: '2025-09-10'
-  idea_ref: IDEA-0167
+  idea_ref: IDEA-0535
   excerpt: Jason Kryski raised concerns that rigid consent structures might undermine trust and alter current inter-relational dynamics among participants.
 - meeting: '2025-09-10'
-  idea_ref: IDEA-0168
+  idea_ref: IDEA-0536
   excerpt: Ying advocated for a trust-based approach that emphasizes reputation over mere compliance, stressing the importance of behavior in consent agreements.
+- meeting: '2025-09-24'
+  idea_ref: IDEA-0556
+  excerpt: In-depth dialogue about the use of AI for testing and evaluation. Emphasis on embedding scoring and validation at different pipeline points, driven by developer experience and cost considerations.
+- meeting: '2025-11-26'
+  idea_ref: IDEA-0694
+  excerpt: David Olsson asked the group if they are using anything new in their workflow, given the pace of innovation (00:05:45). Jason Kryski stated a feeling of increased obligation to understand new things, like Gemini, but noted the risk of parro
+- meeting: '2025-11-26'
+  idea_ref: IDEA-0695
+  excerpt: Fulvio Ciano agreed that while LLMs can perform complex tasks, the output is not useful for automation, emphasizing that automation requires significant time investment to evaluate the model's performance on desired tasks (00:08:28). Fulvio
+- meeting: '2026-02-25'
+  idea_ref: IDEA-0110
+  excerpt: Ying discussed how the closure of local, small media companies led people to rely on platforms like Twitter for information, resulting in a widespread lack of trust.
 - meeting: '2026-05-27'
-  idea_ref: IDEA-0073
+  idea_ref: IDEA-0275
   excerpt: Fulvio noted that LLMs often lack certainty regarding how they arrive at conclusions, as they sometimes rely on vector database inference rather than a defined source. Both participants concluded that LLMs require an external evaluation pro
-- meeting: '2026-06-17'
-  idea_ref: IDEA-0103
-  excerpt: David Olsson explores using GitHub gists to emulate blockchain-like functionality, creating a system for verifying and hashing data (00:05:09). Fulvio Ciano and David Olsson discuss that while it is not a distributed ledger in the tradition
-- meeting: '2026-06-24'
-  idea_ref: IDEA-0120
-  excerpt: Ying and David agree that "prompt engineering" as a distinct skill is likely becoming a temporary or historical concept. They argue that the focus should shift to broader competencies, such as critical thinking, workflow management, and the
-trajectory: rising
-created: '2026-06-25T14:36:57Z'
-updated: '2026-06-25T14:36:57Z'
+trajectory: steady
+created: '2026-06-25T17:20:56Z'
+updated: '2026-06-25T17:20:56Z'

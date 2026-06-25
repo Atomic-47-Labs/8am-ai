@@ -1,0 +1,28 @@
+id: IDEA-0370
+slug: memory-and-context-management-challenges
+phase: backlog
+track: light
+source:
+  meeting: '2025-06-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Context trimming identified as major pain point - models struggle to maintain clean documents and forget specific corrections. Abandoning sessions frequently required when models get confused, forcing users to start new conversations and re-import context. Git commits serve as long-term memory for IDEs, providing version control and restoration capabilities. 25% of US coding now AI-generated, representing significant feedback for improvement.
+summary: Memory and Context Management Challenges
+rationale: Context trimming identified as major pain point - models struggle to maintain clean documents and forget specific corrections. Abandoning sessions frequently required when models get confused, forcing users to start new conversations and re-import context. Git commits serve as long-term memory for IDEs, providing version control and restoration capabilities. 25% of US coding now AI-generated, repr
+tags: []
+theme_refs:
+- THEME-11
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 54.3
+grade_breakdown:
+  evidence: 25
+  theme: 14.0
+  recency: 0.3
+  concretion: 0.0
+  uniqueness: 15
+  carryover: 0
+rank: 343
+tier: backlog

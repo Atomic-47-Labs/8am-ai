@@ -1,46 +1,116 @@
 # THEME-03 — Context Engineering
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2025-08-13 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 27
+Status: **steady** &nbsp; | &nbsp; First seen: 2024-04-24 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 97
 
 ## Pattern
 
-Across 14 meetings the group keeps returning to **context engineering**. The thread shows up in the following moments:
+Across 54 meetings the group keeps returning to **context engineering**. The thread shows up in the following moments:
 
-- *2025-08-13* ([IDEA-0126]): Successful installation of the MCP for transcript processing by David marks a critical progress point in technical execution for meeting documentation.
-- *2025-08-20* ([IDEA-0136]): David Olsson underscored AI development principles centered around documentation, interoperability, and the introduction of Model Context Protocol for seamless LLM integration.
-- *2025-08-27* ([IDEA-0148]): The context management strategy involves workflow-based prompt systems to mitigate context rot during expanding conversations.
-- *2025-08-27* ([IDEA-0150]): Tension exists between revealing system instructions and leveraging campaign learnings to optimize user experience in automated contexts.
-- *2025-09-03* ([IDEA-0152]): Fulvio Ciano highlighted the importance of context engineering in AI, citing the 'quicksand problem' as a significant challenge in achieving sophisticated code completion.
-- *2025-09-03* ([IDEA-0156]): Graham Fawcett shared his approach of using AI for identity creation and self-reflection, leveraging journaling dialogues to gain personal insights.
-- *2025-09-10* ([IDEA-0163]): Jen Boger noted that consent complexities vary based on context and value propositions, particularly in indefinite research outcomes, stressing the need for tailored approaches.
-- *2025-09-10* ([IDEA-0170]): Jen Boger recommended a values-based framework for consent that encourages situational flexibility and includes a model for disclosing conflicts of interest among participants.
+- *2024-04-24* ([IDEA-0210]): **David Olsson** discussed **scrubs**, basic sets of instructions and metadata to aid large language models like GPT in tasks such as writing. He stressed the importance of grasping **Personas** and providing precise instructions for accura
+- *2024-06-19* ([IDEA-0354]): David demonstrated the execution of a prompt in ChatGPT. Discussed the importance of starting on paper and iterating on ideas. Encouraged participants to define agents and scenarios on paper and transcribe them. Committed to creating a Goog
+- *2024-06-19* ([IDEA-0355]): David mentioned his upcoming veterinary appointment for his dog Willie. Committed to making the session's content accessible in a Google Doc. Encouraged Hanif to review and iterate on the sketches and notes.
+- *2024-08-07* ([IDEA-0452]): Hanif sharing details about his questionnaire-based project Discussion on leveraging existing data for new AI-driven projects Exploration of ways to interpret and expand on collected data
+- *2024-08-07* ([IDEA-0453]): David analyzing Hanif's spreadsheet data using AI tools Discussion on the potential of AI in understanding and expanding on existing data Exploration of ways to leverage AI for data interpretation and project development
+- *2024-08-07* ([IDEA-0455]): Discussion on leveraging AI capabilities for better user interfaces Exploration of ideas inspired by artists working with data and imagery Reflection on the potential of combining various data sources with AI
+- *2024-08-14* ([IDEA-0466]): David introduces Work Sona project and its components Explains the use of spreadsheets for database and prompting structures Discusses different types of agencies and agents built Introduces the concept of 'scrubs' - minimum viable agents E
+- *2024-08-14* ([IDEA-0468]): David explains how to use spreadsheets to create functional AI agencies Discusses the process of creating prompts from spreadsheet data Explains the importance of understanding what's important in data Introduces the concept of 'important e
 
 ## Ideas attached
 
-- IDEA-0126
-- IDEA-0136
-- IDEA-0148
-- IDEA-0150
-- IDEA-0152
-- IDEA-0156
-- IDEA-0163
-- IDEA-0170
-- IDEA-0003
-- IDEA-0004
-- IDEA-0007
+- IDEA-0210
+- IDEA-0354
+- IDEA-0355
+- IDEA-0452
+- IDEA-0453
+- IDEA-0455
+- IDEA-0466
+- IDEA-0468
+- IDEA-0472
+- IDEA-0486
+- IDEA-0492
+- IDEA-0494
+- IDEA-0499
+- IDEA-0513
+- IDEA-0580
+- IDEA-0601
+- IDEA-0648
+- IDEA-0678
+- IDEA-0703
+- IDEA-0709
+- IDEA-0721
+- IDEA-0753
+- IDEA-0757
+- IDEA-0758
+- IDEA-0759
+- IDEA-0083
+- IDEA-0084
+- IDEA-0113
+- IDEA-0188
+- IDEA-0208
+- IDEA-0267
+- IDEA-0315
+- IDEA-0317
+- IDEA-0347
+- IDEA-0349
+- IDEA-0371
+- IDEA-0381
+- IDEA-0382
+- IDEA-0383
+- IDEA-0387
+- IDEA-0388
+- IDEA-0399
+- IDEA-0402
+- IDEA-0403
+- IDEA-0404
+- IDEA-0405
+- IDEA-0406
+- IDEA-0413
+- IDEA-0419
+- IDEA-0428
+- IDEA-0442
+- IDEA-0461
+- IDEA-0481
+- IDEA-0507
+- IDEA-0509
+- IDEA-0520
+- IDEA-0524
+- IDEA-0531
+- IDEA-0538
+- IDEA-0557
+- IDEA-0571
+- IDEA-0668
+- IDEA-0684
+- IDEA-0685
+- IDEA-0019
 - IDEA-0021
-- IDEA-0027
-- IDEA-0028
-- IDEA-0033
-- IDEA-0039
-- IDEA-0060
-- IDEA-0066
+- IDEA-0062
+- IDEA-0073
 - IDEA-0074
-- IDEA-0075
-- IDEA-0076
-- IDEA-0079
+- IDEA-0080
 - IDEA-0095
-- IDEA-0102
-- IDEA-0105
+- IDEA-0104
 - IDEA-0108
-- IDEA-0117
+- IDEA-0131
+- IDEA-0132
+- IDEA-0151
+- IDEA-0152
+- IDEA-0158
+- IDEA-0169
+- IDEA-0170
+- IDEA-0173
+- IDEA-0193
+- IDEA-0199
+- IDEA-0200
+- IDEA-0213
+- IDEA-0219
+- IDEA-0248
+- IDEA-0261
+- IDEA-0276
+- IDEA-0277
+- IDEA-0278
+- IDEA-0281
+- IDEA-0304
+- IDEA-0331
+- IDEA-0334
+- IDEA-0337
+- IDEA-0362

@@ -1,0 +1,55 @@
+meeting:
+  date: '2025-05-28'
+  title: 8am-AI 2025-05-28
+  participants:
+  - David Olsson
+  duration_s: 648.46
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 255.46
+  t_end: 648.46
+  text: It, sam.
+windows:
+- id: W-0001
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  text: It, sam.
+- id: W-0002
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u1
+  text: It, sam.
+- id: W-0003
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u1
+  text: It, sam.
+- id: W-0004
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u1
+  text: It, sam.
+- id: W-0005
+  t_start: 540.0
+  t_end: 648.46
+  utterance_ids:
+  - u1
+  text: It, sam.
+- id: W-0006
+  t_start: 630.0
+  t_end: 648.46
+  utterance_ids:
+  - u1
+  text: It, sam.

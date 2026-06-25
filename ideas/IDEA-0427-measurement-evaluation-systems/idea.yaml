@@ -1,0 +1,28 @@
+id: IDEA-0427
+slug: measurement-evaluation-systems
+phase: researched-queued
+track: light
+source:
+  meeting: '2025-07-30'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Performance tracking methods: Baseline comparisons without LLM, conversion rates, and engagement rate measurements Negative state analysis: Agents evaluate whether non-converting prospects were still progressing toward goals Scoring systems: 1-100 aggregate scores for delegation pattern selection, with statistical foundations to constrain LLM hallucination Context structure importance: JSON and database formats preferred over natural language to reduce semantic ambiguity'
+summary: Measurement & Evaluation Systems
+rationale: 'Performance tracking methods: Baseline comparisons without LLM, conversion rates, and engagement rate measurements Negative state analysis: Agents evaluate whether non-converting prospects were still progressing toward goals Scoring systems: 1-100 aggregate scores for delegation pattern selection, with statistical foundations to constrain LLM hallucination Context structure importance: JSON and da'
+tags: []
+theme_refs:
+- THEME-07
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 60.0
+grade_breakdown:
+  evidence: 25
+  theme: 11.6
+  recency: 0.4
+  concretion: 8.0
+  uniqueness: 15
+  carryover: 0
+rank: 211
+tier: queue

@@ -1,0 +1,28 @@
+id: IDEA-0229
+slug: introduction-to-project-state
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson introduced "Project State," a tool designed to maintain a comprehensive memory of a project's status at any given time. The tool primarily focuses on providing "intelligence" around a project by storing information based on a specific schema, which is then utilized by large language models, typically within an Integrated Development Environment (IDE) (00:01:46). ![][image1]
+summary: Introduction to Project State
+rationale: David Olsson introduced "Project State," a tool designed to maintain a comprehensive memory of a project's status at any given time. The tool primarily focuses on providing "intelligence" around a project by storing information based on a specific schema, which is then utilized by large language models, typically within an Integrated Development Environment (IDE) (00:01:46). ![][image1]
+tags: []
+theme_refs:
+- THEME-11
+directive_refs: []
+created: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 68.4
+grade_breakdown:
+  evidence: 25
+  theme: 14.0
+  recency: 9.9
+  concretion: 4.5
+  uniqueness: 15
+  carryover: 0
+rank: 55
+tier: queue

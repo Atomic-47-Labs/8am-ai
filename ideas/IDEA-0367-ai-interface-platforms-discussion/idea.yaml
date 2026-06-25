@@ -1,0 +1,28 @@
+id: IDEA-0367
+slug: ai-interface-platforms-discussion
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-06-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Fulvio Ciano uses Open Web UI connected to Ollama server for local AI interactions, capable of image generation, voice communication, workspace management, and tool/MCP installation. LibreChat platform discussed as alternative with agent-building capabilities, memory management, and integration with Google Docs and local files. All AI interfaces appear similar with familiar layouts: left bar, right bar, chat window, and common tools. ChatGPT Canvas tool experiencing functionality issues, causing users to switch back to Claude.'
+summary: AI Interface Platforms Discussion
+rationale: 'Fulvio Ciano uses Open Web UI connected to Ollama server for local AI interactions, capable of image generation, voice communication, workspace management, and tool/MCP installation. LibreChat platform discussed as alternative with agent-building capabilities, memory management, and integration with Google Docs and local files. All AI interfaces appear similar with familiar layouts: left bar, righ'
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 59.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.3
+  concretion: 10.5
+  uniqueness: 15
+  carryover: 0
+rank: 220
+tier: queue

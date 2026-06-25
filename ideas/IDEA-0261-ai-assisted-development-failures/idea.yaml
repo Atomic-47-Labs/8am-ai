@@ -1,0 +1,28 @@
+id: IDEA-0261
+slug: ai-assisted-development-failures
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-20'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan shared a story about a junior developer who relied on an AI tool that provided incorrect guidance for a penetration test remediation. The solution was flawed, and only through discussions with DevOps was the error uncovered, highlighting the danger of trusting AI without sufficient context or expertise.
+summary: AI-Assisted Development Failures
+rationale: Juan shared a story about a junior developer who relied on an AI tool that provided incorrect guidance for a penetration test remediation. The solution was flawed, and only through discussions with DevOps was the error uncovered, highlighting the danger of trusting AI without sufficient context or expertise.
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 66.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 11.6
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 73
+tier: queue

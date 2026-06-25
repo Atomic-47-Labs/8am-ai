@@ -1,0 +1,1081 @@
+meeting:
+  date: '2024-11-20'
+  title: 8am-AI 2024-11-20
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  - James Giroday
+  - Hanif Janmohamed
+  - Jason Kryski
+  duration_s: 3840.705
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 177.405
+  t_end: 185.145
+  text: Oh, David, you checked out Fathom. Yes. That might suggest you. That's great. Yeah.
+- id: u2
+  speaker: David Olsson
+  t_start: 184.989
+  t_end: 195.421
+  text: I did both do comparison looking at the video platforms to seeing their extensibility and where they're going with them.
+- id: u3
+  speaker: Fulvio Ciano
+  t_start: 195.453
+  t_end: 198.945
+  text: And. Yeah.
+- id: u4
+  speaker: David Olsson
+  t_start: 198.981
+  t_end: 204.945
+  text: Trying to figure out that insertion point on an. On a rapidly changing environment.
+- id: u5
+  speaker: Fulvio Ciano
+  t_start: 205.285
+  t_end: 211.295
+  text: Oh, my God. God, that sentence is so exactly what I'm feeling, David. I can't keep up.
+- id: u6
+  speaker: David Olsson
+  t_start: 211.955
+  t_end: 226.135
+  text: Yeah. So it's like some. I'm building things and I'm like, yeah. It is what it is. Move on, don't fix it. It's broken in places. That's all it is. You gotta go on. I'm like, that's not cool.
+- id: u7
+  speaker: Fulvio Ciano
+  t_start: 226.595
+  t_end: 243.295
+  text: No, it's totally not. Totally not. And I fluctuate between. Between wanting the little pieces to do more or less because if they do less, then I can maybe rely on them doing what they do better, more reliably.
+- id: u8
+  speaker: David Olsson
+  t_start: 243.455
+  t_end: 244.271
+  text: Yeah.
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 244.463
+  t_end: 245.407
+  text: You know what I mean?
+- id: u10
+  speaker: David Olsson
+  t_start: 245.511
+  t_end: 247.263
+  text: Like, that's exactly where I'm at. Yeah.
+- id: u11
+  speaker: Fulvio Ciano
+  t_start: 247.399
+  t_end: 258.811
+  text: Yeah. Because if the trends. If the recording and transcription tool just did that, okay. Then. Then I can handle it as an input. Right.
+- id: u12
+  speaker: James Giroday
+  t_start: 258.751
+  t_end: 259.251
+  text: And.
+- id: u13
+  speaker: Fulvio Ciano
+  t_start: 259.018
+  t_end: 269.82
+  text: And use the right tool for the rest of it. But the problem is this, that they're all trying to. This is what you and I were talking about, separate from the others about the correct value position. Right.
+- id: u14
+  speaker: David Olsson
+  t_start: 269.688
+  t_end: 271.392
+  text: Because yeah, it's.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 271.448
+  t_end: 284.0
+  text: It's a real problem. Like. And I'm. I'm hoping to break my paralysis today on a couple of items because I. Factoring out what to consider and what not to consider, if you know what I mean.
+- id: u16
+  speaker: David Olsson
+  t_start: 284.152
+  t_end: 318.635
+  text: No, I think that's. That's actually. I think the thing that's surfacing is it keeps. We keep having to elevate our thinking out of the really detailed stuff to. Find a context or perspective on things. And the perspective seems to be changing too. Like the really how things get done. Like, the questions around. Good morning. About that seem to be the most formative ones yet. You know, how you employ the how questions is.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 321.775
+  t_end: 435.505
+  text: I'll tell you one of the reasons I feel a little immovable. I feel immovable on certain tools. Right. Because I don't want to refactor the wrong thing. And then you know, that everything else affects. So I really do try really hard, David, to be like, independent on the actual model I'm using. Do you know what I mean? Language model is what I mean. Right. And so I want as much as possible to be. I want it to have like a very tight control job. The one that always seems to be winning for me is Klein. Like, once I Get to coding. I don't want to use anything else other than Klein because it seems to behave the most consistently. What changes is which models it works with better in what way, if you know what I mean. And that has changed yet again. I'm sorry to report that to people, but it's true. And then the other one is this one that you and I have been talking about, the front end data collection. And then the other one is the back end automation one. And I'm trying the back end automation one. I'm trying to hold steady the client one, I'm trying to hold steady the model one I consider myself flexible on because, as you know, I've got everything from local. I managed to Get Gwen Coder 2.5 running locally on my machine and performing like, almost. I can't tell it apart from Sonnet now. It's that good on certain kinds of tasks on a local model. That's kind of shocking to me. And then, you know, I often will do the same task in a couple of different LLMs because you get slightly different results. And it gives me insights on what I can tune for or not tune for.
+- id: u18
+  speaker: David Olsson
+  t_start: 437.125
+  t_end: 531.505
+  text: Yeah, well, eliminating things that are moving. I think is good strategy. And, yeah, I've stuck with Sonnet too. This morning I started up and I was working and I'm like, what's going on? And then I realized at the end of yesterday I was getting token errors, and so I moved to open AI and it's just so not there. Meanwhile, I built this beautiful thing with Sonnet. And it. It's great, it's asynchronous. It allows you to add as many. Prompts against something as you like. You can export all the data you. Can in one version. You could upload effectively. Even with my version control, I wonked it out. But to your point earlier, like, I. Made this relatively simple first, and then. I made it a bunch of cards. I called them cards, and then I made them go this way. And then I. And then I tried to do a bunch of other things on top of it, and it started to get brittle. And broke in a big way, and I just abandoned it. And so I went back to my simple version. This has to be more paste. And so what I found is if I just take on one feature at. A time, I can keep a base moving. But if you try to do too much at once with the tools, it'll. Do it, but it makes it really brittle. That's my experience of it so far.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 531.965
+  t_end: 540.981
+  text: Can you say that again, David? Just say it One more time, please. I'm sorry, das, can you repeat yourself? What makes it brittle if you try.
+- id: u20
+  speaker: David Olsson
+  t_start: 541.013
+  t_end: 544.185
+  text: To do too much at once? Right.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 544.685
+  t_end: 554.643
+  text: The whole automation, breaking it up yourself into step by step as opposed to letting the AI undertake the step by step. Right.
+- id: u22
+  speaker: David Olsson
+  t_start: 554.415
+  t_end: 610.307
+  text: And that's, that's been my theory about. My, my, my, my agents, the work. Zone agents as well. They take control by having a framework. Usually in all situations, and then the framework gets employed by the LLM. But yeah, in this case. So what I found super effective is. Doing a user experience diagram, a sketch of the UI with notes and steps. On the same page and then going in and. Or maybe just notes on the page. And then going in and writing the steps, the user experience steps as a step by step, do this, do that. Do the other thing. And then after that, possibly describing some. Of the things that it has to. Do in terms of features. Like you can even select your toolkit that you like. And I want to, that's one thing. That I want to do to minimize. Things is select different stacks that I. Know are fairly tight. Lightweight and brittle, I was trying to say, right? Like, yeah, brittle in only certain ways.
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 610.491
+  t_end: 611.295
+  text: Yeah.
+- id: u24
+  speaker: David Olsson
+  t_start: 611.915
+  t_end: 766.255
+  text: And so that seems to be playing. Out, you know, well, if I come at it with a strategy like this and say, okay, we can do this top side down if we have a really good spec and plan in play. And, and it doesn't have to be super rigorous. If you're like, the scope of this is fairly doable, the next thing I want to do is be able to provide source right here. Instead of it just always pulling from whatever the content is, it can pull from the previous results and that's just a pull down to say what source is. And then all of a sudden I've got an orchestrator. That's one feature. If I just build that one feature in next, it goes from asynchronous prompting to asynchronous and serial and compositional prompting all at the same time, one feature. Then if I take it the next day and I say, I just need one more feature to build out an agency, because guess what? I populated everything. All the prompts are here, the source is here, the relationships between all the prompts are there. That's an agency. You give it a source like my. Fidget spinner, and it's the direct to. Consumer agency and it goes in hands off things from one to the next all the way through. And you just choose the source for that. And the source would be the previous result. If I wanted to create A haiku here and then I wanted to analyze the haiku. I say choose this source and analyze it here. Just one feature at a time is what I'm going to try as a strategy moving forward to build this into an orchestrator that then I can then say export this interface. And once I can export this interface with all the populated data, I have. An agency, I have a product, I have a crystallized workflow that you can go and customize. I just need to then be able to say and I've done this structural. Work around it, define what the UI. Is in terms of the data structure. To your point Folvio, that's that captures everything as a JSON file. All of the information here can be captured as a JSON file. I can build on top of this to build another function to say capture it all and export as a JSON. File and then another function to then pump it in. Then I've got an agency, I've got a canned application.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 767.525
+  t_end: 812.225
+  text: Yeah. And on the subject of JSON, because I just, I want to be accurate about my position on it. I'm not biased about what, like, because there's a million ways to store both the data and the framework and the stuff. It's just that JSON meets so much of the criteria in a very flexible and most importantly like web reusable, shareable way. Right. Super portable. Because truthfully, I think probably like if you were going for best in class solution. Right. As far as like, you know, probably be like xml.
+- id: u26
+  speaker: David Olsson
+  t_start: 813.645
+  t_end: 820.625
+  text: So that's where I went to too as I went down the list of things that I would normally YAML was one as well, but then it was too descriptive in the wrong way.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 821.055
+  t_end: 867.025
+  text: Right, Exactly. So it's just that like JSON has, you know, the Venn diagram intersection of like really usable captures everything flexible enough. Right. And. And he's to work with I, I guess is the right. There's like a whole bunch of benefits. Right. So I, you know, I just, I don't want people to. Because JSON is used a lot strictly because it's used a lot, if you know what I mean. It's the ubiquity of it. Right. But in this case it has an applicability that is like an intersection of a whole bunch of sets of reasoning. So I am deep as you know that we should until we have a reason not to be using JSON as that layer.
+- id: u28
+  speaker: David Olsson
+  t_start: 867.325
+  t_end: 892.065
+  text: Yeah, it's just super handy and readable at the same time and everything in LLM land loves it and everything. And JavaScript loves it. I wanted to just demonstrate one more thing that's happening and it's happening out of this room. And some guidance from Fove Foveol. I had used netlify previously, so it wasn't that hard to get back into it. And as you saw, that's where I was hosting the prompt playground.
+- id: u29
+  speaker: Fulvio Ciano
+  t_start: 892.965
+  t_end: 901.985
+  text: Yeah, like I said, I did a lot of investigation a long time ago for a bunch of things and especially serverless, quick to deploy applications, just can't go fucking wrong.
+- id: u30
+  speaker: David Olsson
+  t_start: 902.325
+  t_end: 1347.965
+  text: 'It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: u31
+  speaker: Hanif Janmohamed
+  t_start: 1349.985
+  t_end: 1350.965
+  text: Too early.
+- id: u32
+  speaker: David Olsson
+  t_start: 1353.065
+  t_end: 1356.433
+  text: Hey, I found this out. You don't. Don't eat a banana while you're driving.
+- id: u33
+  speaker: Hanif Janmohamed
+  t_start: 1356.609
+  t_end: 1357.961
+  text: Oh, what happened?
+- id: u34
+  speaker: David Olsson
+  t_start: 1358.113
+  t_end: 1359.145
+  text: People look at you.
+- id: u35
+  speaker: Hanif Janmohamed
+  t_start: 1359.265
+  t_end: 1359.965
+  text: Oh.
+- id: u36
+  speaker: Fulvio Ciano
+  t_start: 1363.905
+  t_end: 1364.685
+  text: Sorry.
+- id: u37
+  speaker: David Olsson
+  t_start: 1367.155
+  t_end: 1368.575
+  text: I'll turn my mic off.
+- id: u38
+  speaker: Hanif Janmohamed
+  t_start: 1368.955
+  t_end: 1481.913
+  text: It's a way to draw attention. Yeah. I started to play with Notebook LLM. I have a bunch of material from our Stonemaps work over the years, different approaches in terms of slide decks to talk about the project. We wrote a research paper, so I just threw a bunch of stuff, including some things that I found in some readings that had some kind of curious resonance. So it was quite a mixed bag of stuff. And yeah, I've been pretty impressed with what you can extract in terms of different vectors through this, you know, potpourri of material. And then what really kind of got me laughing was the podcast. You can create the podcast and it's kind of like going into a future version of what you're doing, which has its own interests, you know, it's a way of seeing what you're doing in a different light. Plus the third party kind of reflected back to what you're doing. It's pretty good. So yeah, I don't know what else to say other than it's pretty cool. I think there's more work to be done of I guess difference is I, you know, I am not a coder so I don't get into that side of the engagement. But I'm impressed with, you know, even just strategy wise and kind of analysis of other projects and other project spaces. Yeah.
+- id: u39
+  speaker: David Olsson
+  t_start: 1482.089
+  t_end: 1516.249
+  text: So you're a programmatic thinker. You're a system thinker and design thinker. Right. And so I'm going, I'm going down to the code again. But you can work at the level. Of strategy just like you said. And that's programmatic. And so one of the things that we've been talking about is like the. Vector going through it and say I. Do simple things like pull out ideas just because that one is actually quite revealing. But, but I've been thinking about the. Conversations that I'm in and I'm like over the ones over time and I'm. Like, I want to go through all of the 8am ones with an eye for ideas along a line of thinking.
+- id: u40
+  speaker: Hanif Janmohamed
+  t_start: 1516.297
+  t_end: 1516.925
+  text: Yeah.
+- id: u41
+  speaker: David Olsson
+  t_start: 1517.505
+  t_end: 1575.019
+  text: And that would change it, right. Quite a lot. That second part along the line of. Thinking and that would be like criteria like find ideas that fit these questions or you know, or find a way to. You already did it. You went and time traveled into the future. But you could probably put, you know. Ask it to put it in the past tense and see what that means. Just as another way of saying that other condition on it. So you know, your vector can be. One of ideas and then it can. Be how you think of ideas. Right. There was one, one thing that came up when I was going through it and the weak, weak link, the weekly thought came out and I'm like, that's you in terms of what you've taught. Me about how ideas just persist and how they can be sparked to be persistent. And so that was totally revealing like. To be able to then say, okay. Now go at it with ideas along. How Hanif talks about this.
+- id: u42
+  speaker: Hanif Janmohamed
+  t_start: 1575.147
+  t_end: 1589.575
+  text: Yeah, yeah. I think there's a lot there, honestly I'm impressed with, you know, and when I think about all, you know, this, all it's doing is matching patterns. Just weird.
+- id: u43
+  speaker: David Olsson
+  t_start: 1590.775
+  t_end: 1593.727
+  text: Yeah. If you turn it into math, it's just whack.
+- id: u44
+  speaker: Hanif Janmohamed
+  t_start: 1593.911
+  t_end: 1620.893
+  text: It's Just whack. Yeah. But I think, you know, for example, you created a lexicon of the ideas in this kind of space, and that's usually useful because they come out of all kinds of different, you know, so you can intuit all a lot of this, but then to tease it out as specific little threads that you can then build on. That's project making. So.
+- id: u45
+  speaker: David Olsson
+  t_start: 1621.069
+  t_end: 1634.421
+  text: Yeah. And so that's those spreadsheets that I have. And the word dimensionality that I've learned from Jason is allowed for that kind of can use word programmatic approach to figuring out what the problem set is, you know.
+- id: u46
+  speaker: Hanif Janmohamed
+  t_start: 1634.533
+  t_end: 1635.033
+  text: Yeah.
+- id: u47
+  speaker: David Olsson
+  t_start: 1634.949
+  t_end: 1651.581
+  text: It's like redefining the problem set in new semantics or. I don't know what you want new. Questions or something like collections of answers. And it's. It was neat to see. There was, I don't know, 17. You had a lot of documents in there.
+- id: u48
+  speaker: Hanif Janmohamed
+  t_start: 1651.693
+  t_end: 1654.469
+  text: Yeah, 26 different.
+- id: u49
+  speaker: David Olsson
+  t_start: 1654.637
+  t_end: 1678.801
+  text: It was grinding for a long time. But it gave me, in the way that I was asking it uniquely, it gave me unique results. I wanted to see something more, and I was able to keep the conversation going. And so I'm going to use it for past projects. And Eric and I have one that I think would be ripe for just again, doing that full dump and then coming at it from a different point of view.
+- id: u50
+  speaker: Hanif Janmohamed
+  t_start: 1678.953
+  t_end: 1697.165
+  text: Yeah, it's a great way to. I mean, I think they kind of qualified as a research assistant, and I think that's pretty good way to look at it. The big dump of, you know, content, disparate information and then tease things out of it. Seemed real good.
+- id: u51
+  speaker: James Giroday
+  t_start: 1698.425
+  t_end: 1702.267
+  text: What was the podcast? Create a podcast?
+- id: u52
+  speaker: Hanif Janmohamed
+  t_start: 1702.371
+  t_end: 1745.595
+  text: Yeah, it creates a little podcast. It's kind of a bit. It's kind of curious, but it's two people, two generated characters. Male voice, female voice, and they talk about. They basically have a podcast about the project, what's in the Notebook? And I did another one with the. An ABC book that I'm working on, and it's hilarious. It's. But I think what's valuable about it is seeing. Seeing it from a, you know, from that perspective, which is not something you can do because you're inside it. So that. That's really valuable in a weird, uncanny way.
+- id: u53
+  speaker: David Olsson
+  t_start: 1747.895
+  t_end: 1994.975
+  text: Uncanny. Yeah. Yeah. I wrote a essay called Paper Dolls, and it was about agents and how to. How to think of them as paper. And to make it more approachable. And the way that, you know, you put things on paper, it's not real, but we think it's super powerful. Right. And we push it around the same. Way, but everything's a chimera I wanted to point to. I found. I'm working with a woman called Carol Wilder, and she does some interesting research and has some really good access to things. And we're talking about AI and all the things you can do with agents, of course. And she's found a diagram for some. You've mentioned research. And this is. This is an interesting. Thing about research that has been. That's happening. And I had this intimation quite a. While ago and was last year, this time last year in Vancouver trying to talk to the Reed family again about market research, because I believe this is very, very interesting and I can do this. Already I have more than one, you know, agent that kind of does this thing. This guy here actually creates the questions which then you can then work one of my other agents to then do the interview with. But the idea is that if you have some sense of the direction or vector of a person, then you can throw them at a corpus of content that is questions and rely on the fact that they have basically a form and a version of Internet zip in their head and they will respond in a certain way. And so what, whatever you salt that with is very interesting, right, Whatever you start it with. But if you start with some genuine. Component of yourself and say, like, I think this way, here's an example of. My pattern of thinking. Can you find it through. Through all of this work? And can you. Can you find it so it evolves, or can you find it so that it changes? Like that's what I want to do. With these thousand pages because I repeat myself again and again, again and it changes. And I use it as a form of processing, but it's also a form of reflection that I haven't actually tapped into. This part here, the generative reflection I. Get as far as interviewing myself. So. So guess what? I'm simulating now. And it was know it's very easy to do. That's why I was so excited. I was like, I could thousand x a research company and not very difficult time. And that would be conceptually just taking one of their data sets and turning it into a thousand. And that's really easy to do. Now you just have to understand why you're doing it to what point and. Then have some jam. You know, you got to have some jam, right? You got to be able to do. Something here and then here has to be the right interview, and it has to be the right way of doing the interview. And when I've interviewed myself the last two times I interviewed Myself with voice. I was so impressed. I just, I hate to say that, but I couldn't get it out of myself. And then I got things out. And what it always is inconsistent about doing is it reflects it back at you to say that it un
+- id: u54
+  speaker: Hanif Janmohamed
+  t_start: 1995.955
+  t_end: 2001.295
+  text: Where did the questions come from? How does the interview yourself work?
+- id: u55
+  speaker: David Olsson
+  t_start: 2002.595
+  t_end: 2449.935
+  text: 'Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to '
+- id: u56
+  speaker: Jason Kryski
+  t_start: 2452.155
+  t_end: 2453.699
+  text: Gotta call it something, man.
+- id: u57
+  speaker: David Olsson
+  t_start: 2453.867
+  t_end: 2527.103
+  text: I know, I know. Gotta call it something so that it. Has a cadence and you keep doing it. And then, and then as soon as I think of March and I think of Napoleon and I'm like, oh man, think of that guy, right? That guy was crazy, man. What a man. He got exiled and he escaped. I think at that point you rule the world. Anybody got anything to drop on us? I'm using something called Fathom right now. I think. Well, Foveo mentioned it to check it. Out and I know Jason Christie, you know something about, about it too. I'll let you know what it is. But it is another tool that captures a lot of value at the transcript level. Funny thing is, like when I started a couple of years ago, having some. Clarity around what was important. Intelligence was a concept and it was really important. And I wanted to capture as much of it as possible by creating a. Video platform called Securitize. It seems the most reasonable thing to do. Again, I've been trying to, I've been.
+- id: u58
+  speaker: Jason Kryski
+  t_start: 2527.119
+  t_end: 2536.415
+  text: Trying to do like research to find like an optimal note taker. I've tried like a number of them. I like Fathom, like it does like the video clips from the parts of the thing.
+- id: u59
+  speaker: Fulvio Ciano
+  t_start: 2536.455
+  t_end: 2536.955
+  text: Yeah.
+- id: u60
+  speaker: Jason Kryski
+  t_start: 2536.663
+  t_end: 2554.235
+  text: I'll use another one like that. I've also owned like an analysis paralysis, like trying to like just select one of these things. There is so many of them, like so much different functionality. The primary thing I'm trying to decide is like do I want a local one or do I want a web one.
+- id: u61
+  speaker: Hanif Janmohamed
+  t_start: 2554.315
+  t_end: 2554.891
+  text: Right.
+- id: u62
+  speaker: David Olsson
+  t_start: 2555.043
+  t_end: 2565.655
+  text: Yeah. Well, see that's the thing is that you, you could through. If you go local then you could have simple orchestration through something like just here's my. You can do it all fairly easily locally.
+- id: u63
+  speaker: Jason Kryski
+  t_start: 2566.035
+  t_end: 2570.443
+  text: Yeah, I think the local ones, like they just don't have to join the meetings. Like it just runs locally.
+- id: u64
+  speaker: David Olsson
+  t_start: 2570.459
+  t_end: 2586.117
+  text: Yeah, no, yeah, it runs afterwards kind. Of thing I think is the ultimate. Is to run in line, man. You know, of course on online algorithms are everything. But it's just, you know, it's just so far upstream for us, it's just not accessible except for, you know, there's.
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 2586.141
+  t_end: 2587.413
+  text: A bunch of them that the bunch.
+- id: u66
+  speaker: Jason Kryski
+  t_start: 2587.429
+  t_end: 2598.897
+  text: Of the sales oriented ones do run in line and they do like real time like objection handling and stuff. So it's like as you're having a sales conversation, it's like say this, say this.
+- id: u67
+  speaker: David Olsson
+  t_start: 2599.041
+  t_end: 2614.965
+  text: Okay, so I'm. I Eat my shorts on that one. Because I also read that eleven Labs now has an identic platform too for voice. For voice. And it's very conversational. And they, because of the interruption problem, they built their own.
+- id: u68
+  speaker: Jason Kryski
+  t_start: 2615.545
+  t_end: 2646.655
+  text: Yeah, that I would use chat GPT all the time. Like I try to use it to like teach me things or like give me summaries and insights, but like, like I'm like just wait until I like and say I'm done talking because right. I can't. And so I've talked to other people who try and like address that problem and they're like, oh yeah, I solved that by just rambling. And I'm like, this is not a good behavior to get into because I don't want to interact with you. Rambling, if that becomes one of your default communication.
+- id: u69
+  speaker: David Olsson
+  t_start: 2647.635
+  t_end: 2655.035
+  text: I found the more articulate, the more. Concise, the more, you know, less you say, the way more effective it is.
+- id: u70
+  speaker: Fulvio Ciano
+  t_start: 2655.075
+  t_end: 2657.331
+  text: But it just seems like that funny.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 2657.403
+  t_end: 2670.455
+  text: Unintentional consequence of like a product decision where they're like, well, let's make it as fast as possible. And then the consequence is like now that they're gonna get like shittier inputs because people need to ramble so that it doesn't interrupt them.
+- id: u72
+  speaker: David Olsson
+  t_start: 2671.435
+  t_end: 2684.571
+  text: I did notice when I was doing my interviews, it cut me off a few times and I'm like, okay. And it's summarizing back at me. Okay, well I got the gist of it. So yeah, I don't have anything more to say there. Yeah, but David, you never stopped talking.
+- id: u73
+  speaker: Fulvio Ciano
+  t_start: 2684.603
+  t_end: 2687.535
+  text: So how did it get a word in it? Oh man, I hear you.
+- id: u74
+  speaker: David Olsson
+  t_start: 2688.835
+  t_end: 2727.637
+  text: It is a popular thing with you guys and I, I've analyzed the of. This because it's a problem and I. Recognize that I need to socialize more. To do less powerful socializing like this. Yeah, no, I did well on the trip. What are you talking about, depender? I did, I did. I had my moments of very quiet. I, I, I. Hey man, I, I live in my room here alone with a dog called Willie and my wife is in Winnipeg right now. So it's quiet. It counterbalances all that.
+- id: u75
+  speaker: James Giroday
+  t_start: 2727.781
+  t_end: 2731.873
+  text: Hey, I had a question. Or did you, or do you want to keep going there?
+- id: u76
+  speaker: David Olsson
+  t_start: 2731.969
+  t_end: 2733.045
+  text: No. Yeah, right.
+- id: u77
+  speaker: James Giroday
+  t_start: 2733.385
+  t_end: 2816.065
+  text: I had a question. This is something that I've been thinking about and I wonder. It's probably going to be a question that's like sound funny. So think about it. Maybe if anybody comes up with any ideas, let me know. But what I'm trying to figure out is how you would parameterize an agent and this is something we've done dozens of times, probably like the Mad Libs, you know, there's role, goal, backstory. But is there more to agents? Right? Like, if you wanted to have a fully autonomous agent, there would be other things, like how it gets provisioned, I guess, for one thing, and, like, what model it's drawing off of. And potentially, like, what run. Like, for instance, if you had agents running Worksona, like, you might not have them all running all day. You might have one of them running in the morning and another one checking the one that's working in the morning's work and like having them sequenced, I guess. But anyways, that's kind of what I'm starting to try to try to conceptualize is from like a really holistic perspective. How do you, like, what are all of the parameters for getting a agent, you know, to be autonomous, I guess. Yeah.
+- id: u78
+  speaker: David Olsson
+  t_start: 2816.061
+  t_end: 2816.561
+  text: Yeah.
+- id: u79
+  speaker: James Giroday
+  t_start: 2816.397
+  t_end: 2817.541
+  text: Any thoughts on that?
+- id: u80
+  speaker: David Olsson
+  t_start: 2817.693
+  t_end: 2905.217
+  text: You're wanting them to do things on their own. And so I went to habits, like you. You know, you pushed me in that direction. And habits have cues, and so that's what we need for our agents. Agents would have cues. Based on Folvio's been able to get his workflow down so that a folder is being watched. If things go into a folder, it. Triggers a series of workflow executions. And so that's an agent that's built at the OS level doing what's either called cron jobs or occasionally looking to see if something happens for the state of that to change. Or you have things that are scheduled over time. And so you do have them. And so I've broken this out. There's like daily things that you probably want to schedule, right? And then there's things that, like, you have meetings. I get a meeting summary from the previous 8am meeting right before we have our meeting. And then right afterwards we get. I don't know, I haven't seen it summary delivered. So those are cues that could then trigger the agents. And Folio and I talked about this. The insertion point is essential, where you. Attach your agents and how you get them there. And right now we're bound up in a bunch of different systems that we need to figure out how to poke around. And what Jason was saying is, like, these video platforms, they all have features, but it may be, if you have this kind of ability to analyze transcripts on your desktop level, it could be quite a bit different than what the features are that you experience inside the app. But I'll hand over to FIOG so that I can stop Rambling, I mean.
+- id: u81
+  speaker: Fulvio Ciano
+  t_start: 2905.281
+  t_end: 2950.425
+  text: How you trigger it and control it is so almost arbitrary. Like one of the ones I've been playing with now because it's very easy with workflow automation tools to have it get a particular email with a particular subject and then act on that email. Right. Because everybody's doing shit like that for automated customer service and like that. So you can literally create an agent that's at an email address and it can be one of your email addresses. I don't know if you know this, but there's a feature in Google where you can put your email address dot a number to create multiple email addresses. This is a testing thing that's been around for a long time. A lot of people don't know about it.
+- id: u82
+  speaker: James Giroday
+  t_start: 2950.505
+  t_end: 2951.525
+  text: Never heard of that.
+- id: u83
+  speaker: David Olsson
+  t_start: 2952.185
+  t_end: 2957.145
+  text: Yeah, you can use pluses as well. Very good strategy and pluses.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 2957.185
+  t_end: 2995.275
+  text: That's right. There's various semantics for it, but you actually have an infinite number of emails if you want them. Each one could be for a different agent if you want. Right. And then it can literally, whenever it receives an email at that address, it can have like, you know, a process for looking at that email. That email could include something like start or end or start today at 3:00 or end today at 4:00 or I've left your work in this folder or not or whatever. The point is like this methodology of how to trigger them and when to trigger them and what they work with. There's probably a zillion ways to skin this cat.
+- id: u85
+  speaker: David Olsson
+  t_start: 2996.855
+  t_end: 3002.595
+  text: So does cost ever become a factor then in terms of just running these agents?
+- id: u86
+  speaker: Fulvio Ciano
+  t_start: 3003.775
+  t_end: 3086.745
+  text: Well, yeah, yeah. I mean, you know, tokens. Token cost. Right. Like there's a per token cost thing. So. And you guys know I've done a lot of experimentation with running my own local LLMs, the simple automation stuff that is like in my opinion, 90% of the work you could just run on your own local LLM on your machine and the cost is zero because you're already paying for that machine and you're already not using up any more power on my, you know, on my machine, especially when it's only going off every so often. So because the automation workflow stuff of receiving the email, that's not tokens. Right. So it's when it's triggered. And if you're using the, you know, the low value LLMs to do the simple stuff, and they do it really freaking well, by the way. Do not have a concern that if you're using LLAMA, you know, 3.1 version 7 billion parameters, which probably can run locally machine, no problem. It'll do the job just fine. And then there are specialized small set parameter LLMs that are great for that sort of thing. I will repeat a thing I learned. What year is it? It's 2024.
+- id: u87
+  speaker: James Giroday
+  t_start: 3088.005
+  t_end: 3089.653
+  text: I ask myself that all the time.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 3089.789
+  t_end: 3140.721
+  text: Yeah, I'll repeat something I Learned. In the mid-20s, I was the CTO of a public telecom firm. I eventually became the CEO of it. And you know, I made this prediction that everybody was like really upset with. It's like, well, you're upset with it, doesn't mean it isn't true. Right? Long distance fees are going to zero. Everybody's making a ton of money off of long distance fees. Still, it was eroding. But you know, my Subscribe 0. Everyone's gonna not give anyone so speeds because you'll be using apps over digital services and it's all you can eat. No one's going to make any, you know, it has essentially gone to zero, guys like you know, at the margins. Right. And so I'll make the same prediction about per token LLM cost. It's going to zero eventually.
+- id: u89
+  speaker: David Olsson
+  t_start: 3140.793
+  t_end: 3141.293
+  text: Yeah.
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 3141.265
+  t_end: 3143.089
+  text: And I dare you to prove me wrong.
+- id: u91
+  speaker: David Olsson
+  t_start: 3143.217
+  t_end: 3145.015
+  text: No, no. It's a race to zero.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 3145.185
+  t_end: 3147.475
+  text: It's a race to zero. It's a race to zero.
+- id: u93
+  speaker: David Olsson
+  t_start: 3147.595
+  t_end: 3148.495
+  text: It is race.
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 3149.235
+  t_end: 3250.281
+  text: I have a close friend who very, very, very high up in, was very, very high up in Google Canada. Okay, Almost as high as you can go because he's a lawyer and what he was specifically doing for them. And I had a lunch with him last week and of course part of the topic was about AI and, and the real topic was about this race to zero problem because you know, companies like Google and Open Chat and I would wager even Anthropic and some of the others, money they're earning off of this is not really that important. Certainly for Google and, and, and, and opening it, it's unimportant. It's the investment dollars. And then you have to ask yourself, well, if the money they're making now is at the margins of the cost and they're only going to drive that to zero in competition with each other, what's the play? Right? Like you know, what's, what's the fraking play? And right now I will tell you, it's this intuition they have that if they don't win, they lose. And so they're racing as fast as they can because if they don't win, they lose. They're not sure what they're going to win, but they know what they're going to lose. Right. Which is relevance, importance, market position, dominance, the whole bit. And so yeah, token cost is, it's going. And I know saying it's going to zero is not really accurate, but it's going to an all you can eat model for sure. Right.
+- id: u95
+  speaker: David Olsson
+  t_start: 3250.433
+  t_end: 3253.697
+  text: Not fast enough though. Not fast enough because that's actually what's.
+- id: u96
+  speaker: Fulvio Ciano
+  t_start: 3253.721
+  t_end: 3256.605
+  text: Happened to long distance. Right. It's some kind of an all you can do.
+- id: u97
+  speaker: James Giroday
+  t_start: 3257.105
+  t_end: 3266.337
+  text: The play is just ending up with the best model. Like because that once it's trained right, you can run inference on it and it's pretty valid.
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 3266.361
+  t_end: 3278.257
+  text: So that's a faction within Google. The faction, there's a faction within Google that says he with the model with the biggest best model wins because it's actually going to tell us how to.
+- id: u99
+  speaker: David Olsson
+  t_start: 3278.401
+  t_end: 3279.017
+  text: How to do it.
+- id: u100
+  speaker: Fulvio Ciano
+  t_start: 3279.041
+  t_end: 3349.675
+  text: Yeah, yeah, it's, it's, it has the answer, not us. Right? No, but I mean it sounds science, but I think it's 100 true. Right, right. So there's so many spaces right now, by the way, where we are completely dependent within, on the new innovations to AI. I did say completely dependent. It's true. Like no human can do this protein folding thing that several of the AIs can do shockingly well. And all the accelerated innovation in pharmacology is going to come from that. Okay. The next one, I think, because it's like nice and limited and isolated, is material science. Right. When the material science AIs figure out that space that they perform equally well as the protein folding models, then you know, chip science is just going to blow up. Right. You use tope or whatever of this particular atom in conjunction with these things at that temperature and pressure with this catalyst to get this new material we've never had before. And you've got transparent aluminum, to quote a Star Trek joke.
+- id: u101
+  speaker: David Olsson
+  t_start: 3351.415
+  t_end: 3352.799
+  text: We're getting there and work too.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 3352.927
+  t_end: 3375.085
+  text: So Google's position is they don't even know which one of those is the winning one, but the biggest best model wins. So they are racing at incredible speeds and the real topic of the discussion was whether they're doing it safely or not. So, so just so you know, like that's what led to that discussion. So the one, the answer is no, by the way.
+- id: u103
+  speaker: David Olsson
+  t_start: 3376.185
+  t_end: 3385.273
+  text: The one limit I have right now. Is 2.5 million tokens. That's the one limit I have right now. And it's, it's limiting my output right now.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 3385.449
+  t_end: 3451.955
+  text: Your output? Yeah. I'm having similar problems with several of the applications I'm working with where, you know, and then you lose context if you go outside the stuff. So yeah, but yeah, the answer is no because as far as I know, so this is secondhand. You know, he's a guy to know. He's there. He was internal. He's recently recovered. It's less than 60 days. He's left Google and yeah, he's a recovering lawyer and a recovering evil Empire member. And, and he says the safety work, at least at Google, and please don't repeat this. Okay. But it's what needs to be done. So they continue to do the race work. Like, like, like, you know, like it's, it's like it's necessary only so that they're allowed to proceed to race Work is not driving the work, the work is driving the safety work. And the safety work is, you know, backseat along for the ride and they have very little confidence in it.
+- id: u105
+  speaker: David Olsson
+  t_start: 3452.035
+  t_end: 3452.535
+  text: Okay.
+- id: u106
+  speaker: James Giroday
+  t_start: 3452.395
+  t_end: 3453.815
+  text: What could possibly go wrong?
+- id: u107
+  speaker: David Olsson
+  t_start: 3454.235
+  t_end: 3474.785
+  text: We know that this is true across the world and in quality control and. Quality assurance is that it's not paid for until it's tragic for an organization. And that's unfortunately how things work even in age old industries. The only reason things changed in oil and gas is because of explosions.
+- id: u108
+  speaker: Fulvio Ciano
+  t_start: 3476.285
+  t_end: 3482.265
+  text: Yeah. So we're probably going to see consequences before we get to climate change. What?
+- id: u109
+  speaker: David Olsson
+  t_start: 3483.095
+  t_end: 3490.755
+  text: No, the explosions were well before climate change and that's what it took for. Safety to become a thing.
+- id: u110
+  speaker: Fulvio Ciano
+  t_start: 3491.095
+  t_end: 3551.515
+  text: It's a beautiful analogy because everybody's worried about the ASI consequences. Right. Like Skynet takes over military drones and starts hunting us down to the streets. Right. And I think probably the reason we don't get to that moment in time is because there's so many small little explosions or events that will happen because of AI usage that will flash major warning lights. So I follow this, I don't know if you guys do, but zero day vulnerability detection and announcement has been hugely impacted by AI. The vast majority of them now are discoveries and announcements made out of AI departments at these, at these, at these large AI organizations. Google for instance. And they're not even reporting just their own zero day vulnerabilities, they're reporting other people's zero day vulnerabilities. Right.
+- id: u111
+  speaker: David Olsson
+  t_start: 3552.415
+  t_end: 3559.555
+  text: And so if I had my druthers. I would hire a security cybersecurity expert as my architect for works on it.
+- id: u112
+  speaker: Fulvio Ciano
+  t_start: 3560.305
+  t_end: 3570.129
+  text: Yeah. So you know, somebody breaks rsa, and I'm not saying that's mathematically possible, but something like that. You wake up the next morning, the world's a different place.
+- id: u113
+  speaker: David Olsson
+  t_start: 3570.217
+  t_end: 3592.891
+  text: Even without killer drones, or to James's point of how do you make things autonomous? You do it in the way that cybersecurity makes things safe, come at things with a series of strategies and understand how to then create opportunities and work from that point of view.
+- id: u114
+  speaker: Fulvio Ciano
+  t_start: 3592.963
+  t_end: 3601.463
+  text: Yeah, but, but when you hear, when you hear people on the inside saying that's not what's driving the work and the advancement, then you don't have any confidence in that. Right.
+- id: u115
+  speaker: David Olsson
+  t_start: 3601.163
+  t_end: 3606.027
+  text: That's the problem. I'm saying from my point of view, from our point of view.
+- id: u116
+  speaker: Fulvio Ciano
+  t_start: 3606.131
+  t_end: 3606.707
+  text: Right.
+- id: u117
+  speaker: David Olsson
+  t_start: 3606.851
+  t_end: 3625.901
+  text: Hiring a security, cyber security expert is. A support supremely strategic move to enable building a well orchestrated autonomous platform. Yeah. Because know how to problem solve from the outside in. And that's what we need with the problem you're talking about is we remember.
+- id: u118
+  speaker: Fulvio Ciano
+  t_start: 3625.933
+  t_end: 3681.137
+  text: When the revolt happened with Sam Altman, you know that what's his name? Left and so forth. Right. Alex and so forth. Ilya, sorry, that was over like a 5% allocation of the budget that OpenAI was working on to safety and security. And if you bothered to read into that stuff, you'll see that included even security, not just safety as in AI alignment and like that, that included and like 5% wouldn't even cover the non AI alignment in my universe. Right. Like the security cost of like making sure this stuff isn't shared with the wrong people or just plain taken or distributed or used for a bad purpose or gosh, I don't know, 5% would cover the, the, the, the, the R and D cost on filtering.
+- id: u119
+  speaker: James Giroday
+  t_start: 3681.201
+  t_end: 3730.855
+  text: So assume then that you can't trust like whatever you're handing to any of these models, like whether it's OpenAI or Claude or whoever, doesn't a really massive part of like potentially being value unlocking value. David, like I was saying, like the 20 grams of protein, 0 grams of sugar, like the protein is the AI, all the, you know, all the smarts you're getting and then the sugar is just like anybody who approaches using this stuff for business is like, can I trust it? And I think the answer is kind of like a resounding no. So if you're able to usher them along and be like no, you can trust these parts. And I've looked into it and like that becomes super valuable. I think.
+- id: u120
+  speaker: David Olsson
+  t_start: 3731.555
+  t_end: 3747.025
+  text: Yeah, well, I think that that whole layer will be exposed as soon as these autonomous ages start doing things for real. Right. Right now they're toying with things and. You know, email communication is so broken that they're allowed to roam free in it. It's just, that's the reality.
+- id: u121
+  speaker: Fulvio Ciano
+  t_start: 3747.405
+  t_end: 3758.225
+  text: Yeah, I mean you, do you guys remember, do you guys remember what, like the first chat GPT was trained on? Yes. You guys know the data set. Reddit, right?
+- id: u122
+  speaker: David Olsson
+  t_start: 3758.845
+  t_end: 3763.625
+  text: Reddit's pretty good, but. Well, it will be that kind of. It'll be a Reddit like experience.
+- id: u123
+  speaker: Fulvio Ciano
+  t_start: 3766.175
+  t_end: 3772.475
+  text: First transformers were trained off of data from Reddit. Anything that had two upvotes. Oh, my God.
+- id: u124
+  speaker: David Olsson
+  t_start: 3773.335
+  t_end: 3783.235
+  text: There you go. So they had, they had criteria. At least two people, two people had to engage with a piece of content for it to be communication and the opportunity for intelligence.
+- id: u125
+  speaker: James Giroday
+  t_start: 3783.615
+  t_end: 3784.675
+  text: Smash that.
+- id: u126
+  speaker: David Olsson
+  t_start: 3786.935
+  t_end: 3835.565
+  text: Well, you have to make everything the same, right? So if we're all content creators, I know how to help people. But if everybody's super specialized and have. All these really nuanced things that they've. Got going on, well, that's their problem. But if you can flatten things and. Make everything the same all the time. Then you can probably approach it from. A higher level point of view and have a different vector that goes through it. And the how is what I'm going to leave everybody with. The how we do things is what I believe. You know how I think about things as a good. An analogy, as a trim tab on a vector. There we go. I'll see some of you before next week.
+- id: u127
+  speaker: James Giroday
+  t_start: 3838.025
+  t_end: 3840.705
+  text: Nice seeing you guys. Have a good one, Carol.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Oh, David, you checked out Fathom. Yes. That might suggest you. That's great. Yeah. I did both do comparison looking at the video platforms to seeing their extensibility and where they're going with them. And. Yeah. Trying to figure out that insertion point on an. On a rapidly changing environment. Oh, my God. God, that sentence is so exactly what I'm feeling, David. I can't keep up.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  text: Oh, David, you checked out Fathom. Yes. That might suggest you. That's great. Yeah. I did both do comparison looking at the video platforms to seeing their extensibility and where they're going with them. And. Yeah. Trying to figure out that insertion point on an. On a rapidly changing environment. Oh, my God. God, that sentence is so exactly what I'm feeling, David. I can't keep up. Yeah. So it's like some. I'm building things and I'm like, yeah. It is what it is. Move on, don't fix it. It's broken in places. That's all it is. You gotta go on. I'm like, that's not cool. No, it's totally not. Totally not. And I fluctuate between. Between wanting the little pieces to do more or less because if they do less, then I can maybe rely on them doing what they do better, more reliably. Yeah. You know what I mean? Like, that's exactly where I'm at. Yeah. Yeah. Because if the trends. If the recording and transcription tool just did that, okay. Then. Then I can handle it as an input. Right. And. And use the right tool for the rest of it. But the problem is this, that they're all trying to. This is what you and I were talking about, separate from the others about the correct value position. Right. Because yeah, it's. It's a real problem. Like. And I'm. I'm hoping to break my paralysis today on a couple of items because I. Factoring out what to consider and what not to consider, if you know what I mean. No, I think that's. That's actually. I think the thing that's surfacing is it keeps. We keep having to elevate our thinking out of the really detailed stuff to. Find a context or perspective on things. And the perspective seems to be changing too. Like the really how things get done. Like, the questions around. Good morning. About that seem to be the most formative ones yet. You know, how you employ the how questions is.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u14
+  - u15
+  - u16
+  - u17
+  text: Because yeah, it's. It's a real problem. Like. And I'm. I'm hoping to break my paralysis today on a couple of items because I. Factoring out what to consider and what not to consider, if you know what I mean. No, I think that's. That's actually. I think the thing that's surfacing is it keeps. We keep having to elevate our thinking out of the really detailed stuff to. Find a context or perspective on things. And the perspective seems to be changing too. Like the really how things get done. Like, the questions around. Good morning. About that seem to be the most formative ones yet. You know, how you employ the how questions is. I'll tell you one of the reasons I feel a little immovable. I feel immovable on certain tools. Right. Because I don't want to refactor the wrong thing. And then you know, that everything else affects. So I really do try really hard, David, to be like, independent on the actual model I'm using. Do you know what I mean? Language model is what I mean. Right. And so I want as much as possible to be. I want it to have like a very tight control job. The one that always seems to be winning for me is Klein. Like, once I Get to coding. I don't want to use anything else other than Klein because it seems to behave the most consistently. What changes is which models it works with better in what way, if you know what I mean. And that has changed yet again. I'm sorry to report that to people, but it's true. And then the other one is this one that you and I have been talking about, the front end data collection. And then the other one is the back end automation one. And I'm trying the back end automation one. I'm trying to hold steady the client one, I'm trying to hold steady the model one I consider myself flexible on because, as you know, I've got everything from local. I managed to Get Gwen Coder 2.5 running locally on my machine and performing like, almost. I can't tell it apart from Sonnet now. It's that good on certain kinds of tasks on a local model. That's kind of shocking to me. And then, you know, I often will do the same task in a couple of different LLMs because you get slightly different results. And it gives me insights on what I can tune for or not tune for.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u17
+  - u18
+  text: I'll tell you one of the reasons I feel a little immovable. I feel immovable on certain tools. Right. Because I don't want to refactor the wrong thing. And then you know, that everything else affects. So I really do try really hard, David, to be like, independent on the actual model I'm using. Do you know what I mean? Language model is what I mean. Right. And so I want as much as possible to be. I want it to have like a very tight control job. The one that always seems to be winning for me is Klein. Like, once I Get to coding. I don't want to use anything else other than Klein because it seems to behave the most consistently. What changes is which models it works with better in what way, if you know what I mean. And that has changed yet again. I'm sorry to report that to people, but it's true. And then the other one is this one that you and I have been talking about, the front end data collection. And then the other one is the back end automation one. And I'm trying the back end automation one. I'm trying to hold steady the client one, I'm trying to hold steady the model one I consider myself flexible on because, as you know, I've got everything from local. I managed to Get Gwen Coder 2.5 running locally on my machine and performing like, almost. I can't tell it apart from Sonnet now. It's that good on certain kinds of tasks on a local model. That's kind of shocking to me. And then, you know, I often will do the same task in a couple of different LLMs because you get slightly different results. And it gives me insights on what I can tune for or not tune for. Yeah, well, eliminating things that are moving. I think is good strategy. And, yeah, I've stuck with Sonnet too. This morning I started up and I was working and I'm like, what's going on? And then I realized at the end of yesterday I was getting token errors, and so I moved to open AI and it's just so not there. Meanwhile, I built this beautiful thing with Sonnet. And it. It's great, it's asynchronous. It allows you to add as many. Prompts against something as you like. You can export all the data you. Can in one version. You could upload effectively. Even with my version control, I wonked it out. But to your point earlier, like, I. Made this relatively simple first, and then. I made it a bunch of cards. I called them cards, and then I made them go this way. And then I. And then I tried to do a bunch of other things on top of it, and it started to get brittle. And broke in a big way, and I just abandoned it. And so I went back to my simple version. This has to be more paste. And so what I found is if I just take on one feature at. A time, I can keep a base moving. But if you try to do too much at once with the tools, it'll. Do it, but it makes it really brittle. That's my experience of it so far.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Yeah, well, eliminating things that are moving. I think is good strategy. And, yeah, I've stuck with Sonnet too. This morning I started up and I was working and I'm like, what's going on? And then I realized at the end of yesterday I was getting token errors, and so I moved to open AI and it's just so not there. Meanwhile, I built this beautiful thing with Sonnet. And it. It's great, it's asynchronous. It allows you to add as many. Prompts against something as you like. You can export all the data you. Can in one version. You could upload effectively. Even with my version control, I wonked it out. But to your point earlier, like, I. Made this relatively simple first, and then. I made it a bunch of cards. I called them cards, and then I made them go this way. And then I. And then I tried to do a bunch of other things on top of it, and it started to get brittle. And broke in a big way, and I just abandoned it. And so I went back to my simple version. This has to be more paste. And so what I found is if I just take on one feature at. A time, I can keep a base moving. But if you try to do too much at once with the tools, it'll. Do it, but it makes it really brittle. That's my experience of it so far. Can you say that again, David? Just say it One more time, please. I'm sorry, das, can you repeat yourself? What makes it brittle if you try. To do too much at once? Right. The whole automation, breaking it up yourself into step by step as opposed to letting the AI undertake the step by step. Right. And that's, that's been my theory about. My, my, my, my agents, the work. Zone agents as well. They take control by having a framework. Usually in all situations, and then the framework gets employed by the LLM. But yeah, in this case. So what I found super effective is. Doing a user experience diagram, a sketch of the UI with notes and steps. On the same page and then going in and. Or maybe just notes on the page. And then going in and writing the steps, the user experience steps as a step by step, do this, do that. Do the other thing. And then after that, possibly describing some. Of the things that it has to. Do in terms of features. Like you can even select your toolkit that you like. And I want to, that's one thing. That I want to do to minimize. Things is select different stacks that I. Know are fairly tight. Lightweight and brittle, I was trying to say, right? Like, yeah, brittle in only certain ways.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: Can you say that again, David? Just say it One more time, please. I'm sorry, das, can you repeat yourself? What makes it brittle if you try. To do too much at once? Right. The whole automation, breaking it up yourself into step by step as opposed to letting the AI undertake the step by step. Right. And that's, that's been my theory about. My, my, my, my agents, the work. Zone agents as well. They take control by having a framework. Usually in all situations, and then the framework gets employed by the LLM. But yeah, in this case. So what I found super effective is. Doing a user experience diagram, a sketch of the UI with notes and steps. On the same page and then going in and. Or maybe just notes on the page. And then going in and writing the steps, the user experience steps as a step by step, do this, do that. Do the other thing. And then after that, possibly describing some. Of the things that it has to. Do in terms of features. Like you can even select your toolkit that you like. And I want to, that's one thing. That I want to do to minimize. Things is select different stacks that I. Know are fairly tight. Lightweight and brittle, I was trying to say, right? Like, yeah, brittle in only certain ways. Yeah. And so that seems to be playing. Out, you know, well, if I come at it with a strategy like this and say, okay, we can do this top side down if we have a really good spec and plan in play. And, and it doesn't have to be super rigorous. If you're like, the scope of this is fairly doable, the next thing I want to do is be able to provide source right here. Instead of it just always pulling from whatever the content is, it can pull from the previous results and that's just a pull down to say what source is. And then all of a sudden I've got an orchestrator. That's one feature. If I just build that one feature in next, it goes from asynchronous prompting to asynchronous and serial and compositional prompting all at the same time, one feature. Then if I take it the next day and I say, I just need one more feature to build out an agency, because guess what? I populated everything. All the prompts are here, the source is here, the relationships between all the prompts are there. That's an agency. You give it a source like my. Fidget spinner, and it's the direct to. Consumer agency and it goes in hands off things from one to the next all the way through. And you just choose the source for that. And the source would be the previous result. If I wanted to create A haiku here and then I wanted to analyze the haiku. I say choose this source and analyze it here. Just one feature at a time is what I'm going to try as a strategy moving forward to build this into an orchestrator that then I can then say export this interface. And once I can export this interface with all the populated data, I have. An agency, I have a product, I have a crystallized workflow that you can go and customize. I just need to then be able to say and I've done this structural. Work around it, define what the UI. Is in terms of the data structure. To your point Folvio, that's that captures everything as a JSON file. All of the information here can be captured as a JSON file. I can build on top of this to build another function to say capture it all and export as a JSON. File and then another function to then pump it in. Then I've got an agency, I've got a canned application.
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u24
+  text: And so that seems to be playing. Out, you know, well, if I come at it with a strategy like this and say, okay, we can do this top side down if we have a really good spec and plan in play. And, and it doesn't have to be super rigorous. If you're like, the scope of this is fairly doable, the next thing I want to do is be able to provide source right here. Instead of it just always pulling from whatever the content is, it can pull from the previous results and that's just a pull down to say what source is. And then all of a sudden I've got an orchestrator. That's one feature. If I just build that one feature in next, it goes from asynchronous prompting to asynchronous and serial and compositional prompting all at the same time, one feature. Then if I take it the next day and I say, I just need one more feature to build out an agency, because guess what? I populated everything. All the prompts are here, the source is here, the relationships between all the prompts are there. That's an agency. You give it a source like my. Fidget spinner, and it's the direct to. Consumer agency and it goes in hands off things from one to the next all the way through. And you just choose the source for that. And the source would be the previous result. If I wanted to create A haiku here and then I wanted to analyze the haiku. I say choose this source and analyze it here. Just one feature at a time is what I'm going to try as a strategy moving forward to build this into an orchestrator that then I can then say export this interface. And once I can export this interface with all the populated data, I have. An agency, I have a product, I have a crystallized workflow that you can go and customize. I just need to then be able to say and I've done this structural. Work around it, define what the UI. Is in terms of the data structure. To your point Folvio, that's that captures everything as a JSON file. All of the information here can be captured as a JSON file. I can build on top of this to build another function to say capture it all and export as a JSON. File and then another function to then pump it in. Then I've got an agency, I've got a canned application.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  - u27
+  text: And so that seems to be playing. Out, you know, well, if I come at it with a strategy like this and say, okay, we can do this top side down if we have a really good spec and plan in play. And, and it doesn't have to be super rigorous. If you're like, the scope of this is fairly doable, the next thing I want to do is be able to provide source right here. Instead of it just always pulling from whatever the content is, it can pull from the previous results and that's just a pull down to say what source is. And then all of a sudden I've got an orchestrator. That's one feature. If I just build that one feature in next, it goes from asynchronous prompting to asynchronous and serial and compositional prompting all at the same time, one feature. Then if I take it the next day and I say, I just need one more feature to build out an agency, because guess what? I populated everything. All the prompts are here, the source is here, the relationships between all the prompts are there. That's an agency. You give it a source like my. Fidget spinner, and it's the direct to. Consumer agency and it goes in hands off things from one to the next all the way through. And you just choose the source for that. And the source would be the previous result. If I wanted to create A haiku here and then I wanted to analyze the haiku. I say choose this source and analyze it here. Just one feature at a time is what I'm going to try as a strategy moving forward to build this into an orchestrator that then I can then say export this interface. And once I can export this interface with all the populated data, I have. An agency, I have a product, I have a crystallized workflow that you can go and customize. I just need to then be able to say and I've done this structural. Work around it, define what the UI. Is in terms of the data structure. To your point Folvio, that's that captures everything as a JSON file. All of the information here can be captured as a JSON file. I can build on top of this to build another function to say capture it all and export as a JSON. File and then another function to then pump it in. Then I've got an agency, I've got a canned application. Yeah. And on the subject of JSON, because I just, I want to be accurate about my position on it. I'm not biased about what, like, because there's a million ways to store both the data and the framework and the stuff. It's just that JSON meets so much of the criteria in a very flexible and most importantly like web reusable, shareable way. Right. Super portable. Because truthfully, I think probably like if you were going for best in class solution. Right. As far as like, you know, probably be like xml. So that's where I went to too as I went down the list of things that I would normally YAML was one as well, but then it was too descriptive in the wrong way. Right, Exactly. So it's just that like JSON has, you know, the Venn diagram intersection of like really usable captures everything flexible enough. Right. And. And he's to work with I, I guess is the right. There's like a whole bunch of benefits. Right. So I, you know, I just, I don't want people to. Because JSON is used a lot strictly because it's used a lot, if you know what I mean. It's the ubiquity of it. Right. But in this case it has an applicability that is like an intersection of a whole bunch of sets of reasoning. So I am deep as you know that we should until we have a reason not to be using JSON as that layer.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  text: 'Yeah. And on the subject of JSON, because I just, I want to be accurate about my position on it. I''m not biased about what, like, because there''s a million ways to store both the data and the framework and the stuff. It''s just that JSON meets so much of the criteria in a very flexible and most importantly like web reusable, shareable way. Right. Super portable. Because truthfully, I think probably like if you were going for best in class solution. Right. As far as like, you know, probably be like xml. So that''s where I went to too as I went down the list of things that I would normally YAML was one as well, but then it was too descriptive in the wrong way. Right, Exactly. So it''s just that like JSON has, you know, the Venn diagram intersection of like really usable captures everything flexible enough. Right. And. And he''s to work with I, I guess is the right. There''s like a whole bunch of benefits. Right. So I, you know, I just, I don''t want people to. Because JSON is used a lot strictly because it''s used a lot, if you know what I mean. It''s the ubiquity of it. Right. But in this case it has an applicability that is like an intersection of a whole bunch of sets of reasoning. So I am deep as you know that we should until we have a reason not to be using JSON as that layer. Yeah, it''s just super handy and readable at the same time and everything in LLM land loves it and everything. And JavaScript loves it. I wanted to just demonstrate one more thing that''s happening and it''s happening out of this room. And some guidance from Fove Foveol. I had used netlify previously, so it wasn''t that hard to get back into it. And as you saw, that''s where I was hosting the prompt playground. Yeah, like I said, I did a lot of investigation a long time ago for a bunch of things and especially serverless, quick to deploy applications, just can''t go fucking wrong. It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u29
+  - u30
+  text: 'Yeah, like I said, I did a lot of investigation a long time ago for a bunch of things and especially serverless, quick to deploy applications, just can''t go fucking wrong. It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u30
+  text: 'It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u30
+  text: 'It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u30
+  text: 'It was really quick because what I''ve done now is I''ve made sure that. I''ve got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it''s in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I''ve done the serverless page. Or in this case, you know, you could have some database attached to it. I''m going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you''re managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it''s not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it''s coming along quite cool. I''m. Going to be building out this into an agency and I think it''ll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn''T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it''ll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That''s pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It''s using serper to search the Internet for amesio.com which I know is there. Because we''re looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will '
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  text: It was really quick because what I've done now is I've made sure that. I've got a proper workflow going in. Place, GitHub desktop working. I have the Worksona repo in play and so all of my projects are now in repo and they then go. Up and that immediately makes things very publishable and it enables what now we have this incredible cidc, this pipeline of. Publishing that we can do if we have an account at someplace like Streamlit IO or we have one at. Netlify. Which does a crap ton of the work for you because it's in a. Repo, it can draw it down and. Then it can commission it and then it can build the website and so. You can work on your desktop using. Well, going back and forth and building things there, then put it into your repo and then commission it to through either netlify for either its own web pages. Like I've done the serverless page. Or in this case, you know, you could have some database attached to it. I'm going to MongoDB Atlas. Or you could use Streamlit, which comes with its own kind of funkiness, to be able to save and store things too if you want to get there. So this is a natural flow I think a lot of people can get into. Programmers are already there. I was there previously, but now it just makes a lot of sense with. The maturity of the Internet industry to be able to. Figure out how you're managing your files. Unfortunately, the chat component is still funky. So that part is kind of just experiential and it's not attached to the ID currently, but I think there is a product out there that might be doing that. So you can go back and maybe affect your product through the chat and go in insert that way. But it's coming along quite cool. I'm. Going to be building out this into an agency and I think it'll. Be very much appreciated by this team here where you upload an image and. It will have an agency left to right. Of all these analyses, analyses of a visual upload of an image of anything. And then you would then select whichever ones you want and then you would run them against your image. And then the idea being I have 1000 pages of notes that I need to figure out how to pay for. But I just wanted to illustrate that. This is taking a while that if. You chew off one thing, if code. Isn'T your thing, if you just try. Doing something with it, you can even just try querying. You just use Klein as a querying. Space and it'll just dump shit out into text files for you too. But if you get into it a little bit it will help you pull. Along and this room could help you get over that hump just through the encouragement and pointing at the right tools. That's pretty much what this is. Not working. Working very well right now, this similar company finder thing, but it should be. It's using serper to search the Internet for amesio.com which I know is there. Because we're looking at the oil and gas space. And then it will actually come up with, you know, do a market research analysis picking up first it does a company profile and then it will  Too early. Hey, I found this out. You don't. Don't eat a banana while you're driving. Oh, what happened? People look at you. Oh. Sorry. I'll turn my mic off. It's a way to draw attention. Yeah. I started to play with Notebook LLM. I have a bunch of material from our Stonemaps work over the years, different approaches in terms of slide decks to talk about the project. We wrote a research paper, so I just threw a bunch of stuff, including some things that I found in some readings that had some kind of curious resonance. So it was quite a mixed bag of stuff. And yeah, I've been pretty impressed with what you can extract in terms of different vectors through this, you know, potpourri of material. And then what really kind of got me laughing was the podcast. You can create the podcast and it's kind of like going into a future version of what you're doing, which has its own interests, you know, it's a way of seeing what you're doing in a different light. Plus the third party kind of reflected back to what you're doing. It's pretty good. So yeah, I don't know what else to say other than it's pretty cool. I think there's more work to be done of I guess difference is I, you know, I am not a coder so I don't get into that side of the engagement. But I'm impressed with, you know, even just strategy wise and kind of analysis of other projects and other project spaces. Yeah.
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  text: Too early. Hey, I found this out. You don't. Don't eat a banana while you're driving. Oh, what happened? People look at you. Oh. Sorry. I'll turn my mic off. It's a way to draw attention. Yeah. I started to play with Notebook LLM. I have a bunch of material from our Stonemaps work over the years, different approaches in terms of slide decks to talk about the project. We wrote a research paper, so I just threw a bunch of stuff, including some things that I found in some readings that had some kind of curious resonance. So it was quite a mixed bag of stuff. And yeah, I've been pretty impressed with what you can extract in terms of different vectors through this, you know, potpourri of material. And then what really kind of got me laughing was the podcast. You can create the podcast and it's kind of like going into a future version of what you're doing, which has its own interests, you know, it's a way of seeing what you're doing in a different light. Plus the third party kind of reflected back to what you're doing. It's pretty good. So yeah, I don't know what else to say other than it's pretty cool. I think there's more work to be done of I guess difference is I, you know, I am not a coder so I don't get into that side of the engagement. But I'm impressed with, you know, even just strategy wise and kind of analysis of other projects and other project spaces. Yeah.
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  text: It's a way to draw attention. Yeah. I started to play with Notebook LLM. I have a bunch of material from our Stonemaps work over the years, different approaches in terms of slide decks to talk about the project. We wrote a research paper, so I just threw a bunch of stuff, including some things that I found in some readings that had some kind of curious resonance. So it was quite a mixed bag of stuff. And yeah, I've been pretty impressed with what you can extract in terms of different vectors through this, you know, potpourri of material. And then what really kind of got me laughing was the podcast. You can create the podcast and it's kind of like going into a future version of what you're doing, which has its own interests, you know, it's a way of seeing what you're doing in a different light. Plus the third party kind of reflected back to what you're doing. It's pretty good. So yeah, I don't know what else to say other than it's pretty cool. I think there's more work to be done of I guess difference is I, you know, I am not a coder so I don't get into that side of the engagement. But I'm impressed with, you know, even just strategy wise and kind of analysis of other projects and other project spaces. Yeah. So you're a programmatic thinker. You're a system thinker and design thinker. Right. And so I'm going, I'm going down to the code again. But you can work at the level. Of strategy just like you said. And that's programmatic. And so one of the things that we've been talking about is like the. Vector going through it and say I. Do simple things like pull out ideas just because that one is actually quite revealing. But, but I've been thinking about the. Conversations that I'm in and I'm like over the ones over time and I'm. Like, I want to go through all of the 8am ones with an eye for ideas along a line of thinking. Yeah. And that would change it, right. Quite a lot. That second part along the line of. Thinking and that would be like criteria like find ideas that fit these questions or you know, or find a way to. You already did it. You went and time traveled into the future. But you could probably put, you know. Ask it to put it in the past tense and see what that means. Just as another way of saying that other condition on it. So you know, your vector can be. One of ideas and then it can. Be how you think of ideas. Right. There was one, one thing that came up when I was going through it and the weak, weak link, the weekly thought came out and I'm like, that's you in terms of what you've taught. Me about how ideas just persist and how they can be sparked to be persistent. And so that was totally revealing like. To be able to then say, okay. Now go at it with ideas along. How Hanif talks about this.
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: And that would change it, right. Quite a lot. That second part along the line of. Thinking and that would be like criteria like find ideas that fit these questions or you know, or find a way to. You already did it. You went and time traveled into the future. But you could probably put, you know. Ask it to put it in the past tense and see what that means. Just as another way of saying that other condition on it. So you know, your vector can be. One of ideas and then it can. Be how you think of ideas. Right. There was one, one thing that came up when I was going through it and the weak, weak link, the weekly thought came out and I'm like, that's you in terms of what you've taught. Me about how ideas just persist and how they can be sparked to be persistent. And so that was totally revealing like. To be able to then say, okay. Now go at it with ideas along. How Hanif talks about this. Yeah, yeah. I think there's a lot there, honestly I'm impressed with, you know, and when I think about all, you know, this, all it's doing is matching patterns. Just weird. Yeah. If you turn it into math, it's just whack. It's Just whack. Yeah. But I think, you know, for example, you created a lexicon of the ideas in this kind of space, and that's usually useful because they come out of all kinds of different, you know, so you can intuit all a lot of this, but then to tease it out as specific little threads that you can then build on. That's project making. So. Yeah. And so that's those spreadsheets that I have. And the word dimensionality that I've learned from Jason is allowed for that kind of can use word programmatic approach to figuring out what the problem set is, you know. Yeah. It's like redefining the problem set in new semantics or. I don't know what you want new. Questions or something like collections of answers. And it's. It was neat to see. There was, I don't know, 17. You had a lot of documents in there.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: It's Just whack. Yeah. But I think, you know, for example, you created a lexicon of the ideas in this kind of space, and that's usually useful because they come out of all kinds of different, you know, so you can intuit all a lot of this, but then to tease it out as specific little threads that you can then build on. That's project making. So. Yeah. And so that's those spreadsheets that I have. And the word dimensionality that I've learned from Jason is allowed for that kind of can use word programmatic approach to figuring out what the problem set is, you know. Yeah. It's like redefining the problem set in new semantics or. I don't know what you want new. Questions or something like collections of answers. And it's. It was neat to see. There was, I don't know, 17. You had a lot of documents in there. Yeah, 26 different. It was grinding for a long time. But it gave me, in the way that I was asking it uniquely, it gave me unique results. I wanted to see something more, and I was able to keep the conversation going. And so I'm going to use it for past projects. And Eric and I have one that I think would be ripe for just again, doing that full dump and then coming at it from a different point of view. Yeah, it's a great way to. I mean, I think they kind of qualified as a research assistant, and I think that's pretty good way to look at it. The big dump of, you know, content, disparate information and then tease things out of it. Seemed real good. What was the podcast? Create a podcast? Yeah, it creates a little podcast. It's kind of a bit. It's kind of curious, but it's two people, two generated characters. Male voice, female voice, and they talk about. They basically have a podcast about the project, what's in the Notebook? And I did another one with the. An ABC book that I'm working on, and it's hilarious. It's. But I think what's valuable about it is seeing. Seeing it from a, you know, from that perspective, which is not something you can do because you're inside it. So that. That's really valuable in a weird, uncanny way.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u52
+  - u53
+  text: Yeah, it creates a little podcast. It's kind of a bit. It's kind of curious, but it's two people, two generated characters. Male voice, female voice, and they talk about. They basically have a podcast about the project, what's in the Notebook? And I did another one with the. An ABC book that I'm working on, and it's hilarious. It's. But I think what's valuable about it is seeing. Seeing it from a, you know, from that perspective, which is not something you can do because you're inside it. So that. That's really valuable in a weird, uncanny way. Uncanny. Yeah. Yeah. I wrote a essay called Paper Dolls, and it was about agents and how to. How to think of them as paper. And to make it more approachable. And the way that, you know, you put things on paper, it's not real, but we think it's super powerful. Right. And we push it around the same. Way, but everything's a chimera I wanted to point to. I found. I'm working with a woman called Carol Wilder, and she does some interesting research and has some really good access to things. And we're talking about AI and all the things you can do with agents, of course. And she's found a diagram for some. You've mentioned research. And this is. This is an interesting. Thing about research that has been. That's happening. And I had this intimation quite a. While ago and was last year, this time last year in Vancouver trying to talk to the Reed family again about market research, because I believe this is very, very interesting and I can do this. Already I have more than one, you know, agent that kind of does this thing. This guy here actually creates the questions which then you can then work one of my other agents to then do the interview with. But the idea is that if you have some sense of the direction or vector of a person, then you can throw them at a corpus of content that is questions and rely on the fact that they have basically a form and a version of Internet zip in their head and they will respond in a certain way. And so what, whatever you salt that with is very interesting, right, Whatever you start it with. But if you start with some genuine. Component of yourself and say, like, I think this way, here's an example of. My pattern of thinking. Can you find it through. Through all of this work? And can you. Can you find it so it evolves, or can you find it so that it changes? Like that's what I want to do. With these thousand pages because I repeat myself again and again, again and it changes. And I use it as a form of processing, but it's also a form of reflection that I haven't actually tapped into. This part here, the generative reflection I. Get as far as interviewing myself. So. So guess what? I'm simulating now. And it was know it's very easy to do. That's why I was so excited. I was like, I could thousand x a research company and not very difficult time. And that would be conceptually just taking one of their data sets and turning it into a thousand. And that's really easy to do. Now you just have to understand why you're doing it to what point and. Then have some jam. You know, you got to have some jam, right? You got to be able to do. Something here and then here has to be the right interview, and it has to be the right way of doing the interview. And when I've interviewed myself the last two times I interviewed Myself with voice. I was so impressed. I just, I hate to say that, but I couldn't get it out of myself. And then I got things out. And what it always is inconsistent about doing is it reflects it back at you to say that it un
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u53
+  text: Uncanny. Yeah. Yeah. I wrote a essay called Paper Dolls, and it was about agents and how to. How to think of them as paper. And to make it more approachable. And the way that, you know, you put things on paper, it's not real, but we think it's super powerful. Right. And we push it around the same. Way, but everything's a chimera I wanted to point to. I found. I'm working with a woman called Carol Wilder, and she does some interesting research and has some really good access to things. And we're talking about AI and all the things you can do with agents, of course. And she's found a diagram for some. You've mentioned research. And this is. This is an interesting. Thing about research that has been. That's happening. And I had this intimation quite a. While ago and was last year, this time last year in Vancouver trying to talk to the Reed family again about market research, because I believe this is very, very interesting and I can do this. Already I have more than one, you know, agent that kind of does this thing. This guy here actually creates the questions which then you can then work one of my other agents to then do the interview with. But the idea is that if you have some sense of the direction or vector of a person, then you can throw them at a corpus of content that is questions and rely on the fact that they have basically a form and a version of Internet zip in their head and they will respond in a certain way. And so what, whatever you salt that with is very interesting, right, Whatever you start it with. But if you start with some genuine. Component of yourself and say, like, I think this way, here's an example of. My pattern of thinking. Can you find it through. Through all of this work? And can you. Can you find it so it evolves, or can you find it so that it changes? Like that's what I want to do. With these thousand pages because I repeat myself again and again, again and it changes. And I use it as a form of processing, but it's also a form of reflection that I haven't actually tapped into. This part here, the generative reflection I. Get as far as interviewing myself. So. So guess what? I'm simulating now. And it was know it's very easy to do. That's why I was so excited. I was like, I could thousand x a research company and not very difficult time. And that would be conceptually just taking one of their data sets and turning it into a thousand. And that's really easy to do. Now you just have to understand why you're doing it to what point and. Then have some jam. You know, you got to have some jam, right? You got to be able to do. Something here and then here has to be the right interview, and it has to be the right way of doing the interview. And when I've interviewed myself the last two times I interviewed Myself with voice. I was so impressed. I just, I hate to say that, but I couldn't get it out of myself. And then I got things out. And what it always is inconsistent about doing is it reflects it back at you to say that it un
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  text: 'Uncanny. Yeah. Yeah. I wrote a essay called Paper Dolls, and it was about agents and how to. How to think of them as paper. And to make it more approachable. And the way that, you know, you put things on paper, it''s not real, but we think it''s super powerful. Right. And we push it around the same. Way, but everything''s a chimera I wanted to point to. I found. I''m working with a woman called Carol Wilder, and she does some interesting research and has some really good access to things. And we''re talking about AI and all the things you can do with agents, of course. And she''s found a diagram for some. You''ve mentioned research. And this is. This is an interesting. Thing about research that has been. That''s happening. And I had this intimation quite a. While ago and was last year, this time last year in Vancouver trying to talk to the Reed family again about market research, because I believe this is very, very interesting and I can do this. Already I have more than one, you know, agent that kind of does this thing. This guy here actually creates the questions which then you can then work one of my other agents to then do the interview with. But the idea is that if you have some sense of the direction or vector of a person, then you can throw them at a corpus of content that is questions and rely on the fact that they have basically a form and a version of Internet zip in their head and they will respond in a certain way. And so what, whatever you salt that with is very interesting, right, Whatever you start it with. But if you start with some genuine. Component of yourself and say, like, I think this way, here''s an example of. My pattern of thinking. Can you find it through. Through all of this work? And can you. Can you find it so it evolves, or can you find it so that it changes? Like that''s what I want to do. With these thousand pages because I repeat myself again and again, again and it changes. And I use it as a form of processing, but it''s also a form of reflection that I haven''t actually tapped into. This part here, the generative reflection I. Get as far as interviewing myself. So. So guess what? I''m simulating now. And it was know it''s very easy to do. That''s why I was so excited. I was like, I could thousand x a research company and not very difficult time. And that would be conceptually just taking one of their data sets and turning it into a thousand. And that''s really easy to do. Now you just have to understand why you''re doing it to what point and. Then have some jam. You know, you got to have some jam, right? You got to be able to do. Something here and then here has to be the right interview, and it has to be the right way of doing the interview. And when I''ve interviewed myself the last two times I interviewed Myself with voice. I was so impressed. I just, I hate to say that, but I couldn''t get it out of myself. And then I got things out. And what it always is inconsistent about doing is it reflects it back at you to say that it un Where did the questions come from? How does the interview yourself work? Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool '
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  text: 'Uncanny. Yeah. Yeah. I wrote a essay called Paper Dolls, and it was about agents and how to. How to think of them as paper. And to make it more approachable. And the way that, you know, you put things on paper, it''s not real, but we think it''s super powerful. Right. And we push it around the same. Way, but everything''s a chimera I wanted to point to. I found. I''m working with a woman called Carol Wilder, and she does some interesting research and has some really good access to things. And we''re talking about AI and all the things you can do with agents, of course. And she''s found a diagram for some. You''ve mentioned research. And this is. This is an interesting. Thing about research that has been. That''s happening. And I had this intimation quite a. While ago and was last year, this time last year in Vancouver trying to talk to the Reed family again about market research, because I believe this is very, very interesting and I can do this. Already I have more than one, you know, agent that kind of does this thing. This guy here actually creates the questions which then you can then work one of my other agents to then do the interview with. But the idea is that if you have some sense of the direction or vector of a person, then you can throw them at a corpus of content that is questions and rely on the fact that they have basically a form and a version of Internet zip in their head and they will respond in a certain way. And so what, whatever you salt that with is very interesting, right, Whatever you start it with. But if you start with some genuine. Component of yourself and say, like, I think this way, here''s an example of. My pattern of thinking. Can you find it through. Through all of this work? And can you. Can you find it so it evolves, or can you find it so that it changes? Like that''s what I want to do. With these thousand pages because I repeat myself again and again, again and it changes. And I use it as a form of processing, but it''s also a form of reflection that I haven''t actually tapped into. This part here, the generative reflection I. Get as far as interviewing myself. So. So guess what? I''m simulating now. And it was know it''s very easy to do. That''s why I was so excited. I was like, I could thousand x a research company and not very difficult time. And that would be conceptually just taking one of their data sets and turning it into a thousand. And that''s really easy to do. Now you just have to understand why you''re doing it to what point and. Then have some jam. You know, you got to have some jam, right? You got to be able to do. Something here and then here has to be the right interview, and it has to be the right way of doing the interview. And when I''ve interviewed myself the last two times I interviewed Myself with voice. I was so impressed. I just, I hate to say that, but I couldn''t get it out of myself. And then I got things out. And what it always is inconsistent about doing is it reflects it back at you to say that it un Where did the questions come from? How does the interview yourself work? Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool '
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u55
+  text: 'Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to '
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u55
+  text: 'Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to '
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u55
+  text: 'Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I''ve been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that''s better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn''t work, and the second. Time I did a much better job. And I looked at it and I''m like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it''s really annoying, man. You know, sorry. I think I''ve been good with that. But nice. That one got me. If you drill down that much, anybody''s. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I''m stepping back for the design of things. And I''m rolling back and I''m saying, okay, we''re going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I''m in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I''ll bring it into Klein, and then I''ll start tweaking it in Klein until. I run out of tokens. And I''m documenting that process right now in front of you guys. So I have it on the transcript. Because that''s it. That''s. That''s what I''ve won. That''s what I''ve won as that process. And why it''s been won is that. I can now pump out some products that don''t require me. They''re empty, but they''re the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here''s my interview questions, here''s my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to '
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u55
+  - u56
+  - u57
+  text: Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I've been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that's better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn't work, and the second. Time I did a much better job. And I looked at it and I'm like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it's really annoying, man. You know, sorry. I think I've been good with that. But nice. That one got me. If you drill down that much, anybody's. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I'm stepping back for the design of things. And I'm rolling back and I'm saying, okay, we're going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I'm in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I'll bring it into Klein, and then I'll start tweaking it in Klein until. I run out of tokens. And I'm documenting that process right now in front of you guys. So I have it on the transcript. Because that's it. That's. That's what I've won. That's what I've won as that process. And why it's been won is that. I can now pump out some products that don't require me. They're empty, but they're the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here's my interview questions, here's my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to  Gotta call it something, man. I know, I know. Gotta call it something so that it. Has a cadence and you keep doing it. And then, and then as soon as I think of March and I think of Napoleon and I'm like, oh man, think of that guy, right? That guy was crazy, man. What a man. He got exiled and he escaped. I think at that point you rule the world. Anybody got anything to drop on us? I'm using something called Fathom right now. I think. Well, Foveo mentioned it to check it. Out and I know Jason Christie, you know something about, about it too. I'll let you know what it is. But it is another tool that captures a lot of value at the transcript level. Funny thing is, like when I started a couple of years ago, having some. Clarity around what was important. Intelligence was a concept and it was really important. And I wanted to capture as much of it as possible by creating a. Video platform called Securitize. It seems the most reasonable thing to do. Again, I've been trying to, I've been.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  text: Okay, so I started at the very beginning. I started how do you sell something? And I based my work on top of what I've been collaborating on Jason with on how do I build a site to sell works Persona. And it got at what are the salient points to do that? And then so I got at what are the questions that need to be asked to answer to provide a, you know, a single page website that sells you on what a product is. And I got a series of questions. There and then I turned them into a series of interview questions that would be more, you know, approachable as a person that would answer all of those questions. So give me an interview structure that's better than just answering all those questions questions. And it was slightly better. And so I followed that and I. And then said, I took those and then I said, now build an agent. And then I created my GPT and then I went out in the woods and I just hit the begin button and turned on the voice and it spoke to me. And it took a while to get over the, you know, the hump of it. First time didn't work, and the second. Time I did a much better job. And I looked at it and I'm like, this is really good. This is really good stuff in the. Way that it responds back. And I previously used different frameworks, like five whys. And it's really annoying, man. You know, sorry. I think I've been good with that. But nice. That one got me. If you drill down that much, anybody's. Just getting on your nerves, you know what I mean? And if you, if you. But you have A different way of. Doing it, and you have a different demeanor. And you can set that up in your interview, right? You can say, you know, the interviewer. Can have a person. And so it. It really makes things more approachable. So I. I rolled back, and now I'm stepping back for the design of things. And I'm rolling back and I'm saying, okay, we're going to start on paper. Because it can take what I do on paper and it creates great notes, and then it can infer. And then I build a spec just like folio saying, go into ChatGPT, do. It there, get that work done there. And then I go into Claude and I say, bang, build me up, build me it. With this framework, I'm in tailwind and streamlit or gradio light or whatever. And then it will produce really banger code inside Claude. I'll bring it into Klein, and then I'll start tweaking it in Klein until. I run out of tokens. And I'm documenting that process right now in front of you guys. So I have it on the transcript. Because that's it. That's. That's what I've won. That's what I've won as that process. And why it's been won is that. I can now pump out some products that don't require me. They're empty, but they're the framework for things to move forward. And you can see where, if I. Had one, like, if I go to Kaching, Kaching, this is. Here's my interview questions, here's my Personas. But Bing, this was asked for as a product for like a founder kind of tool to build confidence. And then, like, if you have any document you want to  Gotta call it something, man. I know, I know. Gotta call it something so that it. Has a cadence and you keep doing it. And then, and then as soon as I think of March and I think of Napoleon and I'm like, oh man, think of that guy, right? That guy was crazy, man. What a man. He got exiled and he escaped. I think at that point you rule the world. Anybody got anything to drop on us? I'm using something called Fathom right now. I think. Well, Foveo mentioned it to check it. Out and I know Jason Christie, you know something about, about it too. I'll let you know what it is. But it is another tool that captures a lot of value at the transcript level. Funny thing is, like when I started a couple of years ago, having some. Clarity around what was important. Intelligence was a concept and it was really important. And I wanted to capture as much of it as possible by creating a. Video platform called Securitize. It seems the most reasonable thing to do. Again, I've been trying to, I've been. Trying to do like research to find like an optimal note taker. I've tried like a number of them. I like Fathom, like it does like the video clips from the parts of the thing. Yeah. I'll use another one like that. I've also owned like an analysis paralysis, like trying to like just select one of these things. There is so many of them, like so much different functionality. The primary thing I'm trying to decide is like do I want a local one or do I want a web one.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  text: I know, I know. Gotta call it something so that it. Has a cadence and you keep doing it. And then, and then as soon as I think of March and I think of Napoleon and I'm like, oh man, think of that guy, right? That guy was crazy, man. What a man. He got exiled and he escaped. I think at that point you rule the world. Anybody got anything to drop on us? I'm using something called Fathom right now. I think. Well, Foveo mentioned it to check it. Out and I know Jason Christie, you know something about, about it too. I'll let you know what it is. But it is another tool that captures a lot of value at the transcript level. Funny thing is, like when I started a couple of years ago, having some. Clarity around what was important. Intelligence was a concept and it was really important. And I wanted to capture as much of it as possible by creating a. Video platform called Securitize. It seems the most reasonable thing to do. Again, I've been trying to, I've been. Trying to do like research to find like an optimal note taker. I've tried like a number of them. I like Fathom, like it does like the video clips from the parts of the thing. Yeah. I'll use another one like that. I've also owned like an analysis paralysis, like trying to like just select one of these things. There is so many of them, like so much different functionality. The primary thing I'm trying to decide is like do I want a local one or do I want a web one. Right. Yeah. Well, see that's the thing is that you, you could through. If you go local then you could have simple orchestration through something like just here's my. You can do it all fairly easily locally. Yeah, I think the local ones, like they just don't have to join the meetings. Like it just runs locally. Yeah, no, yeah, it runs afterwards kind. Of thing I think is the ultimate. Is to run in line, man. You know, of course on online algorithms are everything. But it's just, you know, it's just so far upstream for us, it's just not accessible except for, you know, there's. A bunch of them that the bunch. Of the sales oriented ones do run in line and they do like real time like objection handling and stuff. So it's like as you're having a sales conversation, it's like say this, say this. Okay, so I'm. I Eat my shorts on that one. Because I also read that eleven Labs now has an identic platform too for voice. For voice. And it's very conversational. And they, because of the interruption problem, they built their own. Yeah, that I would use chat GPT all the time. Like I try to use it to like teach me things or like give me summaries and insights, but like, like I'm like just wait until I like and say I'm done talking because right. I can't. And so I've talked to other people who try and like address that problem and they're like, oh yeah, I solved that by just rambling. And I'm like, this is not a good behavior to get into because I don't want to interact with you. Rambling, if that becomes one of your default communication.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: Okay, so I'm. I Eat my shorts on that one. Because I also read that eleven Labs now has an identic platform too for voice. For voice. And it's very conversational. And they, because of the interruption problem, they built their own. Yeah, that I would use chat GPT all the time. Like I try to use it to like teach me things or like give me summaries and insights, but like, like I'm like just wait until I like and say I'm done talking because right. I can't. And so I've talked to other people who try and like address that problem and they're like, oh yeah, I solved that by just rambling. And I'm like, this is not a good behavior to get into because I don't want to interact with you. Rambling, if that becomes one of your default communication. I found the more articulate, the more. Concise, the more, you know, less you say, the way more effective it is. But it just seems like that funny. Unintentional consequence of like a product decision where they're like, well, let's make it as fast as possible. And then the consequence is like now that they're gonna get like shittier inputs because people need to ramble so that it doesn't interrupt them. I did notice when I was doing my interviews, it cut me off a few times and I'm like, okay. And it's summarizing back at me. Okay, well I got the gist of it. So yeah, I don't have anything more to say there. Yeah, but David, you never stopped talking. So how did it get a word in it? Oh man, I hear you. It is a popular thing with you guys and I, I've analyzed the of. This because it's a problem and I. Recognize that I need to socialize more. To do less powerful socializing like this. Yeah, no, I did well on the trip. What are you talking about, depender? I did, I did. I had my moments of very quiet. I, I, I. Hey man, I, I live in my room here alone with a dog called Willie and my wife is in Winnipeg right now. So it's quiet. It counterbalances all that. Hey, I had a question. Or did you, or do you want to keep going there?
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  text: It is a popular thing with you guys and I, I've analyzed the of. This because it's a problem and I. Recognize that I need to socialize more. To do less powerful socializing like this. Yeah, no, I did well on the trip. What are you talking about, depender? I did, I did. I had my moments of very quiet. I, I, I. Hey man, I, I live in my room here alone with a dog called Willie and my wife is in Winnipeg right now. So it's quiet. It counterbalances all that. Hey, I had a question. Or did you, or do you want to keep going there? No. Yeah, right. I had a question. This is something that I've been thinking about and I wonder. It's probably going to be a question that's like sound funny. So think about it. Maybe if anybody comes up with any ideas, let me know. But what I'm trying to figure out is how you would parameterize an agent and this is something we've done dozens of times, probably like the Mad Libs, you know, there's role, goal, backstory. But is there more to agents? Right? Like, if you wanted to have a fully autonomous agent, there would be other things, like how it gets provisioned, I guess, for one thing, and, like, what model it's drawing off of. And potentially, like, what run. Like, for instance, if you had agents running Worksona, like, you might not have them all running all day. You might have one of them running in the morning and another one checking the one that's working in the morning's work and like having them sequenced, I guess. But anyways, that's kind of what I'm starting to try to try to conceptualize is from like a really holistic perspective. How do you, like, what are all of the parameters for getting a agent, you know, to be autonomous, I guess. Yeah. Yeah. Any thoughts on that? You're wanting them to do things on their own. And so I went to habits, like you. You know, you pushed me in that direction. And habits have cues, and so that's what we need for our agents. Agents would have cues. Based on Folvio's been able to get his workflow down so that a folder is being watched. If things go into a folder, it. Triggers a series of workflow executions. And so that's an agent that's built at the OS level doing what's either called cron jobs or occasionally looking to see if something happens for the state of that to change. Or you have things that are scheduled over time. And so you do have them. And so I've broken this out. There's like daily things that you probably want to schedule, right? And then there's things that, like, you have meetings. I get a meeting summary from the previous 8am meeting right before we have our meeting. And then right afterwards we get. I don't know, I haven't seen it summary delivered. So those are cues that could then trigger the agents. And Folio and I talked about this. The insertion point is essential, where you. Attach your agents and how you get them there. And right now we're bound up in a bunch of different systems that we need to figure out how to poke around. And what Jason was saying is, like, these video platforms, they all have features, but it may be, if you have this kind of ability to analyze transcripts on your desktop level, it could be quite a bit different than what the features are that you experience inside the app. But I'll hand over to FIOG so that I can stop Rambling, I mean.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  text: I had a question. This is something that I've been thinking about and I wonder. It's probably going to be a question that's like sound funny. So think about it. Maybe if anybody comes up with any ideas, let me know. But what I'm trying to figure out is how you would parameterize an agent and this is something we've done dozens of times, probably like the Mad Libs, you know, there's role, goal, backstory. But is there more to agents? Right? Like, if you wanted to have a fully autonomous agent, there would be other things, like how it gets provisioned, I guess, for one thing, and, like, what model it's drawing off of. And potentially, like, what run. Like, for instance, if you had agents running Worksona, like, you might not have them all running all day. You might have one of them running in the morning and another one checking the one that's working in the morning's work and like having them sequenced, I guess. But anyways, that's kind of what I'm starting to try to try to conceptualize is from like a really holistic perspective. How do you, like, what are all of the parameters for getting a agent, you know, to be autonomous, I guess. Yeah. Yeah. Any thoughts on that? You're wanting them to do things on their own. And so I went to habits, like you. You know, you pushed me in that direction. And habits have cues, and so that's what we need for our agents. Agents would have cues. Based on Folvio's been able to get his workflow down so that a folder is being watched. If things go into a folder, it. Triggers a series of workflow executions. And so that's an agent that's built at the OS level doing what's either called cron jobs or occasionally looking to see if something happens for the state of that to change. Or you have things that are scheduled over time. And so you do have them. And so I've broken this out. There's like daily things that you probably want to schedule, right? And then there's things that, like, you have meetings. I get a meeting summary from the previous 8am meeting right before we have our meeting. And then right afterwards we get. I don't know, I haven't seen it summary delivered. So those are cues that could then trigger the agents. And Folio and I talked about this. The insertion point is essential, where you. Attach your agents and how you get them there. And right now we're bound up in a bunch of different systems that we need to figure out how to poke around. And what Jason was saying is, like, these video platforms, they all have features, but it may be, if you have this kind of ability to analyze transcripts on your desktop level, it could be quite a bit different than what the features are that you experience inside the app. But I'll hand over to FIOG so that I can stop Rambling, I mean. How you trigger it and control it is so almost arbitrary. Like one of the ones I've been playing with now because it's very easy with workflow automation tools to have it get a particular email with a particular subject and then act on that email. Right. Because everybody's doing shit like that for automated customer service and like that. So you can literally create an agent that's at an email address and it can be one of your email addresses. I don't know if you know this, but there's a feature in Google where you can put your email address dot a number to create multiple email addresses. This is a testing thing that's been around for a long time. A lot of people don't know about it.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: You're wanting them to do things on their own. And so I went to habits, like you. You know, you pushed me in that direction. And habits have cues, and so that's what we need for our agents. Agents would have cues. Based on Folvio's been able to get his workflow down so that a folder is being watched. If things go into a folder, it. Triggers a series of workflow executions. And so that's an agent that's built at the OS level doing what's either called cron jobs or occasionally looking to see if something happens for the state of that to change. Or you have things that are scheduled over time. And so you do have them. And so I've broken this out. There's like daily things that you probably want to schedule, right? And then there's things that, like, you have meetings. I get a meeting summary from the previous 8am meeting right before we have our meeting. And then right afterwards we get. I don't know, I haven't seen it summary delivered. So those are cues that could then trigger the agents. And Folio and I talked about this. The insertion point is essential, where you. Attach your agents and how you get them there. And right now we're bound up in a bunch of different systems that we need to figure out how to poke around. And what Jason was saying is, like, these video platforms, they all have features, but it may be, if you have this kind of ability to analyze transcripts on your desktop level, it could be quite a bit different than what the features are that you experience inside the app. But I'll hand over to FIOG so that I can stop Rambling, I mean. How you trigger it and control it is so almost arbitrary. Like one of the ones I've been playing with now because it's very easy with workflow automation tools to have it get a particular email with a particular subject and then act on that email. Right. Because everybody's doing shit like that for automated customer service and like that. So you can literally create an agent that's at an email address and it can be one of your email addresses. I don't know if you know this, but there's a feature in Google where you can put your email address dot a number to create multiple email addresses. This is a testing thing that's been around for a long time. A lot of people don't know about it. Never heard of that. Yeah, you can use pluses as well. Very good strategy and pluses. That's right. There's various semantics for it, but you actually have an infinite number of emails if you want them. Each one could be for a different agent if you want. Right. And then it can literally, whenever it receives an email at that address, it can have like, you know, a process for looking at that email. That email could include something like start or end or start today at 3:00 or end today at 4:00 or I've left your work in this folder or not or whatever. The point is like this methodology of how to trigger them and when to trigger them and what they work with. There's probably a zillion ways to skin this cat. So does cost ever become a factor then in terms of just running these agents?
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  text: That's right. There's various semantics for it, but you actually have an infinite number of emails if you want them. Each one could be for a different agent if you want. Right. And then it can literally, whenever it receives an email at that address, it can have like, you know, a process for looking at that email. That email could include something like start or end or start today at 3:00 or end today at 4:00 or I've left your work in this folder or not or whatever. The point is like this methodology of how to trigger them and when to trigger them and what they work with. There's probably a zillion ways to skin this cat. So does cost ever become a factor then in terms of just running these agents? Well, yeah, yeah. I mean, you know, tokens. Token cost. Right. Like there's a per token cost thing. So. And you guys know I've done a lot of experimentation with running my own local LLMs, the simple automation stuff that is like in my opinion, 90% of the work you could just run on your own local LLM on your machine and the cost is zero because you're already paying for that machine and you're already not using up any more power on my, you know, on my machine, especially when it's only going off every so often. So because the automation workflow stuff of receiving the email, that's not tokens. Right. So it's when it's triggered. And if you're using the, you know, the low value LLMs to do the simple stuff, and they do it really freaking well, by the way. Do not have a concern that if you're using LLAMA, you know, 3.1 version 7 billion parameters, which probably can run locally machine, no problem. It'll do the job just fine. And then there are specialized small set parameter LLMs that are great for that sort of thing. I will repeat a thing I learned. What year is it? It's 2024. I ask myself that all the time. Yeah, I'll repeat something I Learned. In the mid-20s, I was the CTO of a public telecom firm. I eventually became the CEO of it. And you know, I made this prediction that everybody was like really upset with. It's like, well, you're upset with it, doesn't mean it isn't true. Right? Long distance fees are going to zero. Everybody's making a ton of money off of long distance fees. Still, it was eroding. But you know, my Subscribe 0. Everyone's gonna not give anyone so speeds because you'll be using apps over digital services and it's all you can eat. No one's going to make any, you know, it has essentially gone to zero, guys like you know, at the margins. Right. And so I'll make the same prediction about per token LLM cost. It's going to zero eventually.
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  text: Well, yeah, yeah. I mean, you know, tokens. Token cost. Right. Like there's a per token cost thing. So. And you guys know I've done a lot of experimentation with running my own local LLMs, the simple automation stuff that is like in my opinion, 90% of the work you could just run on your own local LLM on your machine and the cost is zero because you're already paying for that machine and you're already not using up any more power on my, you know, on my machine, especially when it's only going off every so often. So because the automation workflow stuff of receiving the email, that's not tokens. Right. So it's when it's triggered. And if you're using the, you know, the low value LLMs to do the simple stuff, and they do it really freaking well, by the way. Do not have a concern that if you're using LLAMA, you know, 3.1 version 7 billion parameters, which probably can run locally machine, no problem. It'll do the job just fine. And then there are specialized small set parameter LLMs that are great for that sort of thing. I will repeat a thing I learned. What year is it? It's 2024. I ask myself that all the time. Yeah, I'll repeat something I Learned. In the mid-20s, I was the CTO of a public telecom firm. I eventually became the CEO of it. And you know, I made this prediction that everybody was like really upset with. It's like, well, you're upset with it, doesn't mean it isn't true. Right? Long distance fees are going to zero. Everybody's making a ton of money off of long distance fees. Still, it was eroding. But you know, my Subscribe 0. Everyone's gonna not give anyone so speeds because you'll be using apps over digital services and it's all you can eat. No one's going to make any, you know, it has essentially gone to zero, guys like you know, at the margins. Right. And so I'll make the same prediction about per token LLM cost. It's going to zero eventually. Yeah. And I dare you to prove me wrong. No, no. It's a race to zero. It's a race to zero. It's a race to zero. It is race. I have a close friend who very, very, very high up in, was very, very high up in Google Canada. Okay, Almost as high as you can go because he's a lawyer and what he was specifically doing for them. And I had a lunch with him last week and of course part of the topic was about AI and, and the real topic was about this race to zero problem because you know, companies like Google and Open Chat and I would wager even Anthropic and some of the others, money they're earning off of this is not really that important. Certainly for Google and, and, and, and opening it, it's unimportant. It's the investment dollars. And then you have to ask yourself, well, if the money they're making now is at the margins of the cost and they're only going to drive that to zero in competition with each other, what's the play? Right? Like you know, what's, what's the fraking play? And right now I will tell you, it's this intuition they have that if they don't win, they lose. And so they're racing as fast as they can because if they don't win, they lose. They're not sure what they're going to win, but they know what they're going to lose. Right. Which is relevance, importance, market position, dominance, the whole bit. And so yeah, token cost is, it's going. And I know saying it's going to zero is not really accurate, but it's going to an all you can eat model for sure. Right.
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  text: I have a close friend who very, very, very high up in, was very, very high up in Google Canada. Okay, Almost as high as you can go because he's a lawyer and what he was specifically doing for them. And I had a lunch with him last week and of course part of the topic was about AI and, and the real topic was about this race to zero problem because you know, companies like Google and Open Chat and I would wager even Anthropic and some of the others, money they're earning off of this is not really that important. Certainly for Google and, and, and, and opening it, it's unimportant. It's the investment dollars. And then you have to ask yourself, well, if the money they're making now is at the margins of the cost and they're only going to drive that to zero in competition with each other, what's the play? Right? Like you know, what's, what's the fraking play? And right now I will tell you, it's this intuition they have that if they don't win, they lose. And so they're racing as fast as they can because if they don't win, they lose. They're not sure what they're going to win, but they know what they're going to lose. Right. Which is relevance, importance, market position, dominance, the whole bit. And so yeah, token cost is, it's going. And I know saying it's going to zero is not really accurate, but it's going to an all you can eat model for sure. Right. Not fast enough though. Not fast enough because that's actually what's. Happened to long distance. Right. It's some kind of an all you can do. The play is just ending up with the best model. Like because that once it's trained right, you can run inference on it and it's pretty valid. So that's a faction within Google. The faction, there's a faction within Google that says he with the model with the biggest best model wins because it's actually going to tell us how to.
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: I have a close friend who very, very, very high up in, was very, very high up in Google Canada. Okay, Almost as high as you can go because he's a lawyer and what he was specifically doing for them. And I had a lunch with him last week and of course part of the topic was about AI and, and the real topic was about this race to zero problem because you know, companies like Google and Open Chat and I would wager even Anthropic and some of the others, money they're earning off of this is not really that important. Certainly for Google and, and, and, and opening it, it's unimportant. It's the investment dollars. And then you have to ask yourself, well, if the money they're making now is at the margins of the cost and they're only going to drive that to zero in competition with each other, what's the play? Right? Like you know, what's, what's the fraking play? And right now I will tell you, it's this intuition they have that if they don't win, they lose. And so they're racing as fast as they can because if they don't win, they lose. They're not sure what they're going to win, but they know what they're going to lose. Right. Which is relevance, importance, market position, dominance, the whole bit. And so yeah, token cost is, it's going. And I know saying it's going to zero is not really accurate, but it's going to an all you can eat model for sure. Right. Not fast enough though. Not fast enough because that's actually what's. Happened to long distance. Right. It's some kind of an all you can do. The play is just ending up with the best model. Like because that once it's trained right, you can run inference on it and it's pretty valid. So that's a faction within Google. The faction, there's a faction within Google that says he with the model with the biggest best model wins because it's actually going to tell us how to. How to do it. Yeah, yeah, it's, it's, it has the answer, not us. Right? No, but I mean it sounds science, but I think it's 100 true. Right, right. So there's so many spaces right now, by the way, where we are completely dependent within, on the new innovations to AI. I did say completely dependent. It's true. Like no human can do this protein folding thing that several of the AIs can do shockingly well. And all the accelerated innovation in pharmacology is going to come from that. Okay. The next one, I think, because it's like nice and limited and isolated, is material science. Right. When the material science AIs figure out that space that they perform equally well as the protein folding models, then you know, chip science is just going to blow up. Right. You use tope or whatever of this particular atom in conjunction with these things at that temperature and pressure with this catalyst to get this new material we've never had before. And you've got transparent aluminum, to quote a Star Trek joke. We're getting there and work too. So Google's position is they don't even know which one of those is the winning one, but the biggest best model wins. So they are racing at incredible speeds and the real topic of the discussion was whether they're doing it safely or not. So, so just so you know, like that's what led to that discussion. So the one, the answer is no, by the way.
+- id: W-0037
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  text: Yeah, yeah, it's, it's, it has the answer, not us. Right? No, but I mean it sounds science, but I think it's 100 true. Right, right. So there's so many spaces right now, by the way, where we are completely dependent within, on the new innovations to AI. I did say completely dependent. It's true. Like no human can do this protein folding thing that several of the AIs can do shockingly well. And all the accelerated innovation in pharmacology is going to come from that. Okay. The next one, I think, because it's like nice and limited and isolated, is material science. Right. When the material science AIs figure out that space that they perform equally well as the protein folding models, then you know, chip science is just going to blow up. Right. You use tope or whatever of this particular atom in conjunction with these things at that temperature and pressure with this catalyst to get this new material we've never had before. And you've got transparent aluminum, to quote a Star Trek joke. We're getting there and work too. So Google's position is they don't even know which one of those is the winning one, but the biggest best model wins. So they are racing at incredible speeds and the real topic of the discussion was whether they're doing it safely or not. So, so just so you know, like that's what led to that discussion. So the one, the answer is no, by the way. The one limit I have right now. Is 2.5 million tokens. That's the one limit I have right now. And it's, it's limiting my output right now. Your output? Yeah. I'm having similar problems with several of the applications I'm working with where, you know, and then you lose context if you go outside the stuff. So yeah, but yeah, the answer is no because as far as I know, so this is secondhand. You know, he's a guy to know. He's there. He was internal. He's recently recovered. It's less than 60 days. He's left Google and yeah, he's a recovering lawyer and a recovering evil Empire member. And, and he says the safety work, at least at Google, and please don't repeat this. Okay. But it's what needs to be done. So they continue to do the race work. Like, like, like, you know, like it's, it's like it's necessary only so that they're allowed to proceed to race Work is not driving the work, the work is driving the safety work. And the safety work is, you know, backseat along for the ride and they have very little confidence in it.
+- id: W-0038
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  text: Your output? Yeah. I'm having similar problems with several of the applications I'm working with where, you know, and then you lose context if you go outside the stuff. So yeah, but yeah, the answer is no because as far as I know, so this is secondhand. You know, he's a guy to know. He's there. He was internal. He's recently recovered. It's less than 60 days. He's left Google and yeah, he's a recovering lawyer and a recovering evil Empire member. And, and he says the safety work, at least at Google, and please don't repeat this. Okay. But it's what needs to be done. So they continue to do the race work. Like, like, like, you know, like it's, it's like it's necessary only so that they're allowed to proceed to race Work is not driving the work, the work is driving the safety work. And the safety work is, you know, backseat along for the ride and they have very little confidence in it. Okay. What could possibly go wrong? We know that this is true across the world and in quality control and. Quality assurance is that it's not paid for until it's tragic for an organization. And that's unfortunately how things work even in age old industries. The only reason things changed in oil and gas is because of explosions. Yeah. So we're probably going to see consequences before we get to climate change. What? No, the explosions were well before climate change and that's what it took for. Safety to become a thing. It's a beautiful analogy because everybody's worried about the ASI consequences. Right. Like Skynet takes over military drones and starts hunting us down to the streets. Right. And I think probably the reason we don't get to that moment in time is because there's so many small little explosions or events that will happen because of AI usage that will flash major warning lights. So I follow this, I don't know if you guys do, but zero day vulnerability detection and announcement has been hugely impacted by AI. The vast majority of them now are discoveries and announcements made out of AI departments at these, at these, at these large AI organizations. Google for instance. And they're not even reporting just their own zero day vulnerabilities, they're reporting other people's zero day vulnerabilities. Right.
+- id: W-0039
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: It's a beautiful analogy because everybody's worried about the ASI consequences. Right. Like Skynet takes over military drones and starts hunting us down to the streets. Right. And I think probably the reason we don't get to that moment in time is because there's so many small little explosions or events that will happen because of AI usage that will flash major warning lights. So I follow this, I don't know if you guys do, but zero day vulnerability detection and announcement has been hugely impacted by AI. The vast majority of them now are discoveries and announcements made out of AI departments at these, at these, at these large AI organizations. Google for instance. And they're not even reporting just their own zero day vulnerabilities, they're reporting other people's zero day vulnerabilities. Right. And so if I had my druthers. I would hire a security cybersecurity expert as my architect for works on it. Yeah. So you know, somebody breaks rsa, and I'm not saying that's mathematically possible, but something like that. You wake up the next morning, the world's a different place. Even without killer drones, or to James's point of how do you make things autonomous? You do it in the way that cybersecurity makes things safe, come at things with a series of strategies and understand how to then create opportunities and work from that point of view. Yeah, but, but when you hear, when you hear people on the inside saying that's not what's driving the work and the advancement, then you don't have any confidence in that. Right. That's the problem. I'm saying from my point of view, from our point of view. Right. Hiring a security, cyber security expert is. A support supremely strategic move to enable building a well orchestrated autonomous platform. Yeah. Because know how to problem solve from the outside in. And that's what we need with the problem you're talking about is we remember. When the revolt happened with Sam Altman, you know that what's his name? Left and so forth. Right. Alex and so forth. Ilya, sorry, that was over like a 5% allocation of the budget that OpenAI was working on to safety and security. And if you bothered to read into that stuff, you'll see that included even security, not just safety as in AI alignment and like that, that included and like 5% wouldn't even cover the non AI alignment in my universe. Right. Like the security cost of like making sure this stuff isn't shared with the wrong people or just plain taken or distributed or used for a bad purpose or gosh, I don't know, 5% would cover the, the, the, the, the R and D cost on filtering.
+- id: W-0040
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  text: Yeah, but, but when you hear, when you hear people on the inside saying that's not what's driving the work and the advancement, then you don't have any confidence in that. Right. That's the problem. I'm saying from my point of view, from our point of view. Right. Hiring a security, cyber security expert is. A support supremely strategic move to enable building a well orchestrated autonomous platform. Yeah. Because know how to problem solve from the outside in. And that's what we need with the problem you're talking about is we remember. When the revolt happened with Sam Altman, you know that what's his name? Left and so forth. Right. Alex and so forth. Ilya, sorry, that was over like a 5% allocation of the budget that OpenAI was working on to safety and security. And if you bothered to read into that stuff, you'll see that included even security, not just safety as in AI alignment and like that, that included and like 5% wouldn't even cover the non AI alignment in my universe. Right. Like the security cost of like making sure this stuff isn't shared with the wrong people or just plain taken or distributed or used for a bad purpose or gosh, I don't know, 5% would cover the, the, the, the, the R and D cost on filtering. So assume then that you can't trust like whatever you're handing to any of these models, like whether it's OpenAI or Claude or whoever, doesn't a really massive part of like potentially being value unlocking value. David, like I was saying, like the 20 grams of protein, 0 grams of sugar, like the protein is the AI, all the, you know, all the smarts you're getting and then the sugar is just like anybody who approaches using this stuff for business is like, can I trust it? And I think the answer is kind of like a resounding no. So if you're able to usher them along and be like no, you can trust these parts. And I've looked into it and like that becomes super valuable. I think.
+- id: W-0041
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  text: So assume then that you can't trust like whatever you're handing to any of these models, like whether it's OpenAI or Claude or whoever, doesn't a really massive part of like potentially being value unlocking value. David, like I was saying, like the 20 grams of protein, 0 grams of sugar, like the protein is the AI, all the, you know, all the smarts you're getting and then the sugar is just like anybody who approaches using this stuff for business is like, can I trust it? And I think the answer is kind of like a resounding no. So if you're able to usher them along and be like no, you can trust these parts. And I've looked into it and like that becomes super valuable. I think. Yeah, well, I think that that whole layer will be exposed as soon as these autonomous ages start doing things for real. Right. Right now they're toying with things and. You know, email communication is so broken that they're allowed to roam free in it. It's just, that's the reality. Yeah, I mean you, do you guys remember, do you guys remember what, like the first chat GPT was trained on? Yes. You guys know the data set. Reddit, right? Reddit's pretty good, but. Well, it will be that kind of. It'll be a Reddit like experience. First transformers were trained off of data from Reddit. Anything that had two upvotes. Oh, my God. There you go. So they had, they had criteria. At least two people, two people had to engage with a piece of content for it to be communication and the opportunity for intelligence. Smash that. Well, you have to make everything the same, right? So if we're all content creators, I know how to help people. But if everybody's super specialized and have. All these really nuanced things that they've. Got going on, well, that's their problem. But if you can flatten things and. Make everything the same all the time. Then you can probably approach it from. A higher level point of view and have a different vector that goes through it. And the how is what I'm going to leave everybody with. The how we do things is what I believe. You know how I think about things as a good. An analogy, as a trim tab on a vector. There we go. I'll see some of you before next week.
+- id: W-0042
+  t_start: 3780.0
+  t_end: 3840.705
+  utterance_ids:
+  - u124
+  - u125
+  - u126
+  - u127
+  text: There you go. So they had, they had criteria. At least two people, two people had to engage with a piece of content for it to be communication and the opportunity for intelligence. Smash that. Well, you have to make everything the same, right? So if we're all content creators, I know how to help people. But if everybody's super specialized and have. All these really nuanced things that they've. Got going on, well, that's their problem. But if you can flatten things and. Make everything the same all the time. Then you can probably approach it from. A higher level point of view and have a different vector that goes through it. And the how is what I'm going to leave everybody with. The how we do things is what I believe. You know how I think about things as a good. An analogy, as a trim tab on a vector. There we go. I'll see some of you before next week. Nice seeing you guys. Have a good one, Carol.

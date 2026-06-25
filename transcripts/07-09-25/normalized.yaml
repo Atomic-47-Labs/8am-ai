@@ -1,0 +1,1346 @@
+meeting:
+  date: '2025-07-09'
+  title: 8am-AI 2025-07-09
+  participants:
+  - Bibiana Souza
+  - Scott Morton
+  - David Olsson
+  duration_s: 3001.64
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Bibiana Souza
+  t_start: 9.2
+  t_end: 9.7
+  text: Good morning.
+- id: u2
+  speaker: Scott Morton
+  t_start: 10.32
+  t_end: 11.68
+  text: Good morning. How are you?
+- id: u3
+  speaker: Bibiana Souza
+  t_start: 12.32
+  t_end: 18.32
+  text: I'm doing awesome. Pretty early. Are you in Vancouver?
+- id: u4
+  speaker: Scott Morton
+  t_start: 19.04
+  t_end: 20.72
+  text: No, I'm in Calgary.
+- id: u5
+  speaker: David Olsson
+  t_start: 24.24
+  t_end: 31.08
+  text: Good morning. Morning. Hey, David and welcome bb. Hello.
+- id: u6
+  speaker: Bibiana Souza
+  t_start: 32.5
+  t_end: 40.02
+  text: You're an early bird, David. I was catching up on my messages and I'm like, oh my God. 4:30. How's he doing?
+- id: u7
+  speaker: Scott Morton
+  t_start: 40.74
+  t_end: 44.26
+  text: Where are you? It's 4:30 in the morning. Are you in Hawaii or something?
+- id: u8
+  speaker: Bibiana Souza
+  t_start: 44.34
+  t_end: 45.54
+  text: Vancouver. Vancouver.
+- id: u9
+  speaker: David Olsson
+  t_start: 45.54
+  t_end: 47.2
+  text: Oh, Vancouver. Okay. Yeah.
+- id: u10
+  speaker: Bibiana Souza
+  t_start: 46.9
+  t_end: 48.5
+  text: No, but David was up at 4:30.
+- id: u11
+  speaker: Scott Morton
+  t_start: 48.58
+  t_end: 50.58
+  text: Oh yeah, I get up at 4:30 too.
+- id: u12
+  speaker: David Olsson
+  t_start: 52.18
+  t_end: 52.68
+  text: Yeah.
+- id: u13
+  speaker: Bibiana Souza
+  t_start: 52.58
+  t_end: 53.7
+  text: How do you guys do it?
+- id: u14
+  speaker: David Olsson
+  t_start: 55.24
+  t_end: 59.92
+  text: Among some peers here. But yeah, like it just happened and.
+- id: u15
+  speaker: Scott Morton
+  t_start: 59.92
+  t_end: 61.84
+  text: Then sometimes you just wake up.
+- id: u16
+  speaker: David Olsson
+  t_start: 61.84
+  t_end: 62.4
+  text: Right, David?
+- id: u17
+  speaker: Scott Morton
+  t_start: 62.4
+  t_end: 66.28
+  text: You wake up and you're like, oh, I gotta do this thing and you just go and do it.
+- id: u18
+  speaker: David Olsson
+  t_start: 66.76
+  t_end: 87.78
+  text: When I first started waking up, I woke up very awake and I was like, I'm not, I'm not tired. Okay, get up. So it was energizing. And then my pattern of life changed and all the other things. But yeah, sometimes I'm like, I should hold off on posting because that's people's response. I'm like, yeah, it's good for the east coast.
+- id: u19
+  speaker: Scott Morton
+  t_start: 88.58
+  t_end: 89.94
+  text: Yeah, yeah, exactly.
+- id: u20
+  speaker: David Olsson
+  t_start: 89.94
+  t_end: 99.8
+  text: Yeah. Yeah, that's funny. That's funny. But yes, Scott's in Calgary. Yes, or Calgary specifically. You live in Calgary? Yeah.
+- id: u21
+  speaker: Scott Morton
+  t_start: 99.74
+  t_end: 101.06
+  text: Yeah, just south of Calgary.
+- id: u22
+  speaker: David Olsson
+  t_start: 101.06
+  t_end: 109.36
+  text: Yep. And. And Jason, this is bb. BD and I work together now. And Jason lives here in Calgary and he's a good friend.
+- id: u23
+  speaker: Scott Morton
+  t_start: 111.44
+  t_end: 112.16
+  text: Hey Jason.
+- id: u24
+  speaker: David Olsson
+  t_start: 115.68
+  t_end: 156.67
+  text: Yeah, it's about that time. Everybody's doing that. And Folio's dealing with family stuff right. Now, so he's not going to join us. And Hanif is in Mexico with his son. Oh yeah. So that's a good thing. He actually submitted an application for his project, Stone Maps and he had a. Well, he. He vibe coded himself a lovable.dev website. And it takes money. Yep. It's functional. It does something. He says it only takes his. So far it's only taken his money. I'm like, that's. Welcome to the show, man.
+- id: u25
+  speaker: Scott Morton
+  t_start: 157.07
+  t_end: 161.07
+  text: Yeah, that's awesome. That's. That's how it goes for a little bit anyways.
+- id: u26
+  speaker: David Olsson
+  t_start: 161.79
+  t_end: 224.46
+  text: Yeah. But yeah, in this environment we kind. Of talk about the stuff that's going on with the AI. Initially it was about trying to teach people and everybody is learning on their own path. And what I mentioned, bb, is that things are getting different for us at Atomic because you're coming on board and we're scaling now with four people that. Are working in development and Fulvio has just cranked a wheel he's turned a corner and he, he figured out what he can do now in terms of his superpowers. So he's building shit. But I wanted to show you this, which is. I think I've showed this before. But we're in the throes of trying to define what works on is. And so I've been able to use Claude code to ask. It to figure. Out what works on it by starting the APIs. And then I take whatever that corpus is. So it gives me something. And I built out using cloud code marketing websites. Bing, bing, bing, bing, bing. Pow.
+- id: u27
+  speaker: Scott Morton
+  t_start: 224.46
+  t_end: 225.18
+  text: Oh, wow.
+- id: u28
+  speaker: David Olsson
+  t_start: 227.58
+  t_end: 261.24
+  text: And it just keeps going because it's. Not a lot of work. Yeah. And they don't do much and they're. All filled with a lot of it's crap. But you can get very specific and. Just a directional brief. And then using a tool like Claude code, which is kind of like Claude. Claude gives you this consumery experience. Right. Realized that just earlier when I was. Asking you to do something, it didn't give me like. A straightforward summary. It gave me like, this is revolutionary. I'm like, oh man, it's a little early for that. You know.
+- id: u29
+  speaker: Scott Morton
+  t_start: 264.12
+  t_end: 265.48
+  text: The buzzwords, right?
+- id: u30
+  speaker: David Olsson
+  t_start: 265.64
+  t_end: 348.37
+  text: We're not revolutionary yet. We haven't had coffee. Yeah, but. And so you get a lot of craft in it. But you do get a pattern. And the pattern is you get generally. Pretty informed and it'll look like everything else out there. So people won't be surprised by what you give them. And it does do the work sort of thing is what you tell your audience. And it will do that. It'll just like focus it on our audience. It will do a terrible job unless. You give it a profile and Personas and be going down that path. But I thought this was of interest. But I, I've been working in warp a lot and using. So it's a command line interface. So it's a terminal with an id. They're really promoting their id. No one's getting the fact that it's an ide. So it says right there at the bottom, hey man, use our agent. I'm like, no, I'm using Claude. Yeah, yeah. But it is really good for. So I use multiple tabs. And so if you're wanting to just. Read code it shows you that if you're wanting to go in and edit it, it's a piece of crap. Okay. It's like Vim or something like that. Where you have to know that. And I'm like, I'm not going that far. And if you want to use the agent, then it takes time to use the agent. I just do this for me and it's just like Claude, but it's not as fast.
+- id: u31
+  speaker: Scott Morton
+  t_start: 348.85
+  t_end: 362.07
+  text: Okay, but I like Cursor, the one that you, that you invited me to work. Like, it uses a bunch of different ones. So I really like Cursor. That's the one that I use quite often, David.
+- id: u32
+  speaker: David Olsson
+  t_start: 362.07
+  t_end: 364.51
+  text: Yeah, that's what I got it right there.
+- id: u33
+  speaker: Scott Morton
+  t_start: 364.51
+  t_end: 372.03
+  text: Like, the panels are nice and it looks like VS code and it has all the same stuff and it's just good, right?
+- id: u34
+  speaker: David Olsson
+  t_start: 372.35
+  t_end: 488.0
+  text: It is pretty much. I think. Well, everything that has momentum right now is cloning VS code and then just either full HAWK taking it over and just saying, hey, we're sprinkling in an agent and some tooling, or they do something very minor with it. Maybe you're using Windsurf. It's hard to tell if you can't see up top what application it is. Hey, like, if you. If you can't see, it looks like whatever. Yeah, it's the same thing. We're trying to figure out how to. Work at a sharing level above the. Tool that we use. Because we all have different tools. I'm moving between them because that's who I am. I really like Claude code and I really like the not IDE experience, except. When I want to really tool it. And tell it what to do. You know, when I'm really. I'm reading it, I'm like, no, that's wrong. So the first pass is usually in something like that. And so how do I get my rules from cursor into that environment? That's a challenge. And everybody figures that out. And. But how do I get it so that, you know, Bibi is more rigorous at her rules and is a master. At getting certain other activities. And I would like to benefit from that. And so we're going through that process. Ourselves of how to surface what we. Can control outside of it, to put it inside. And that pretty much works on a too. It's like surface as much as you can outside a fucking LLM so that you. You're not, you know, on the wing of it. But Matt said you're always on the wing of the LLM. Yeah, it's just such a big thing.
+- id: u35
+  speaker: Scott Morton
+  t_start: 488.56
+  t_end: 516.62
+  text: So I've got stuff to present today, David, if you are up for that. It's not what you're going to expect. It's what I had to do. But I, I swapped and I, I made sure that I used all my, all my AI stuff for this. So I'M gonna flip between screens and stuff like that because it's, it's just a little bit different. Let me just open. I think it's. It's here.
+- id: u36
+  speaker: David Olsson
+  t_start: 517.06
+  t_end: 517.56
+  text: Yeah.
+- id: u37
+  speaker: Scott Morton
+  t_start: 518.02
+  t_end: 561.79
+  text: Is this the one document? Yeah, I just gotta open it here. But what I did is while I'm opening this, I'll. I'll explain what I've done. So I've written two documents with. With AI, and one is all my experiences about my startup company. And so for people that don't know what I do, I. I run Drift and it's startup bitumen extraction processing company. And we do bitumen extraction without heat pressure or tailings ponds. So it's, it's pretty. It's pretty, Pretty exciting. And we leverage all known technologies and, you know, it's.
+- id: u38
+  speaker: David Olsson
+  t_start: 561.79
+  t_end: 562.29
+  text: It's.
+- id: u39
+  speaker: Scott Morton
+  t_start: 562.59
+  t_end: 564.75
+  text: I think it's pretty great, but I'm biased, so.
+- id: u40
+  speaker: David Olsson
+  t_start: 566.51
+  t_end: 567.01
+  text: But.
+- id: u41
+  speaker: Scott Morton
+  t_start: 570.6
+  t_end: 636.02
+  text: What I've done is I wrote a book and I used all my notes from all my experiences and I put it into AI and then just wrote a draft. So I'm probably not going to show that. But what I'll show today is the technical document that I wrote. What I did was I guided the AI. So we all have problems. It all. Sometimes the AI doesn't do exactly what we want to do, but people don't understand, like, it does exactly what you tell it to do. You just have to tell it to do it the right way to get the result that you want. And so I continue to explain that to people and they, they fight with me and they're like, no, it doesn't do anything right? And, you know, whatever. So I will open my document here and just give me a sec. Of course. Whenever you want to find something, it's always not there. All right, now I have to open my Google Drive. Sorry, guys. I should have been doing that while you're talking, David.
+- id: u42
+  speaker: David Olsson
+  t_start: 636.18
+  t_end: 640.5
+  text: That's okay. There's lots of talk to fill. Bibi, maybe you'd like to introduce yourself.
+- id: u43
+  speaker: Bibiana Souza
+  t_start: 643.22
+  t_end: 701.18
+  text: Yeah, absolutely. So, hi, everybody. Hi. I'm Bibi Full Stack developer. I'm the traditional developer, not AI first, if you could say that. But nowadays I've been learning a lot about how to use AI first, and it's been pretty exciting to be seeing what David and Flovio have been doing together. It is a bit outside of my comfort zone, so I'm pretty excited. And I started dabbling with some tools as well. I've been playing with War. It's pretty interesting. I've done cloud code in the past a lot. My favorite IDE is winter. I really like all of the workflows and the agentic aspect of it. I like cursor as well, but, yeah, that's a bit about me. That's a lame introduction. Sorry.
+- id: u44
+  speaker: Scott Morton
+  t_start: 701.12
+  t_end: 702.96
+  text: No, that's, no, that's great. That's great.
+- id: u45
+  speaker: David Olsson
+  t_start: 706.65
+  t_end: 718.49
+  text: And the nice thing is we have transcripts from every one of these, and so everybody gets the transcript. So there's, there's like 12 people or. 10 people on the list. And so you, you just introduce yourself to a whole lot of people that aren't here.
+- id: u46
+  speaker: Bibiana Souza
+  t_start: 718.81
+  t_end: 720.509
+  text: That makes it even worse. Dave.
+- id: u47
+  speaker: David Olsson
+  t_start: 722.57
+  t_end: 724.43
+  text: All right. Yeah.
+- id: u48
+  speaker: Scott Morton
+  t_start: 724.41
+  t_end: 785.42
+  text: No, so very. This is a type of paper that I would write for, for a journal article or a technical conference. This is what I'm going to use this document for. It took me probably longer than I would have expected just from using AI, but there was a lot of details that I had to provide and train the AI on. And so one of the things that I really struggled with was figure generation. It would, so what I did was I, I cheated because it's a tool and I'm allowed to cheat. And so what I did. And I'll show you the figures in a moment, but this is, I got 60 there, and then I did the rest myself in PowerPoint, which took me, you know, 20 minutes or whatever. But to do the whole thing, it would have taken me, you know, eight hours, nine hours, whatever it is.
+- id: u49
+  speaker: David Olsson
+  t_start: 785.42
+  t_end: 785.92
+  text: Right.
+- id: u50
+  speaker: Scott Morton
+  t_start: 786.02
+  t_end: 852.54
+  text: Because I wouldn't have been able to get the geometry and all that sort of stuff. So it's very, you know, I, I, I did all the editing. Like, I haven't, I'm not super comfortable yet allowing the, the AI to format everything because it has a special formatting coding or something like that, which is not conducive to a technical paper. It's, it's something else. Like whoever programmed always comes up with weird titles and stuff like that. So I'll work on that. But it did save me quite a bit of time. So this diagram was not generated by AI. This is my diagram. Yeah. So this just shows where the oil sands is. So in the green, this is the oil sands. And these squiggly lines here are the response to the rock that, that the tool has. Right. And so I, I know how to read these, and, and I eventually want the computer to read these, but that's down the road. So we'll, we'll, we'll talk about that. David. I'm not that skilled to, to do that, but we will talk about that.
+- id: u51
+  speaker: David Olsson
+  t_start: 852.54
+  t_end: 856.66
+  text: Yeah, yeah, that's a good Problem. It's a good one because you're. You're visually analyzing it, right?
+- id: u52
+  speaker: Scott Morton
+  t_start: 856.82
+  t_end: 865.85
+  text: Yep, exactly. And so, you know, there's water sand here. And the reason I know it's water sand is because of this straight line right here. You can see the oil is all kind of squiggly.
+- id: u53
+  speaker: Bibiana Souza
+  t_start: 865.85
+  t_end: 866.35
+  text: And.
+- id: u54
+  speaker: Scott Morton
+  t_start: 866.07
+  t_end: 883.51
+  text: And this is a resistivity log. It just measures resistivity. And so I know what the cutoff for resistivity for oil sands is, so I've just made that cutoff. And then right here, you know, we have. We have, you know, we have water sand because it's different. And so I know that just from.
+- id: u55
+  speaker: David Olsson
+  t_start: 883.51
+  t_end: 887.27
+  text: From school, observing the curves and the transitions is that.
+- id: u56
+  speaker: Scott Morton
+  t_start: 887.27
+  t_end: 956.56
+  text: Yeah, it's all. It's all observation. That's all, you know. And so obviously all of this was written by. By the AI with my guidance. Like, I was a manager and I was guiding the. I uploaded all my files. I trained the AI in our business, and then I said, I want to write this type of paper. You know, let's go. And so I did it section by section. I have a chat for each section. You know what I mean? And so the math and everything was all done by AI. I just described it. I mean, I know the math, but so I had to adjust it. But, you know, this is the diagram that I got from AI. I did not do this. I didn't write it or anything, which is actually pretty good. This diagram, I only had like six iterations, but it's a very technical diagram. It's a geometric shape. And those things are not great for AI. We know that that's a difficult thing for them to do, the large language model. So I really wanted to test it and grind it. And so it took me about seven tries to get it to this state.
+- id: u57
+  speaker: David Olsson
+  t_start: 956.96
+  t_end: 958.16
+  text: It's pretty good, man.
+- id: u58
+  speaker: Scott Morton
+  t_start: 958.64
+  t_end: 977.03
+  text: It's not bad, right? It has the diameters, it has the height, it has all the. Everything's labeled. It usually has the angle, which was a big struggle. Like, it didn't. Like, it wasn't understanding where I wanted to put the angle, but it did. This is a mistake for sure. The 10 meters over here.
+- id: u59
+  speaker: David Olsson
+  t_start: 977.19
+  t_end: 977.69
+  text: Yeah.
+- id: u60
+  speaker: Scott Morton
+  t_start: 977.59
+  t_end: 981.35
+  text: But I'll let my editors pick that out, if they can even find it.
+- id: u61
+  speaker: David Olsson
+  t_start: 982.55
+  t_end: 984.47
+  text: Yeah, well, like this.
+- id: u62
+  speaker: Scott Morton
+  t_start: 984.47
+  t_end: 997.35
+  text: I sent this out to, like, engineers and geologists and every. I'm like, guys, can you just. I've had four engineers come back to me and say, this is a very well written document. And I'm like, yeah, it really is.
+- id: u63
+  speaker: David Olsson
+  t_start: 998.71
+  t_end: 999.35
+  text: That's great.
+- id: u64
+  speaker: Scott Morton
+  t_start: 1000.07
+  t_end: 1004.19
+  text: So this is a diagram. That's all AI that handled this simple one.
+- id: u65
+  speaker: David Olsson
+  t_start: 1004.19
+  t_end: 1005.11
+  text: Simple version of it.
+- id: u66
+  speaker: Scott Morton
+  t_start: 1005.27
+  t_end: 1067.5
+  text: Yeah, simple version. It's just the 2D version. So that took me four tries to get that one. So it wasn't bad. And then this was a big struggle. So in the. What I'm doing is basically there's a geometric shape, but rocks don't adhere exactly to the geometric shape. So there's something called overbreak. And so I wanted to explain that. And basically it's extra material that you're going to recover just by. Just by recovering the original material. It just breaks down, the pressures change and, you know, all that sort of stuff. And so what I wanted it to do was exactly what it says in the legend. But what you can see in the diagram is not exactly. But I felt it was good enough because I was like, people know that there's a change on the edges. That's just what it is.
+- id: u67
+  speaker: David Olsson
+  t_start: 1068.62
+  t_end: 1070.06
+  text: Immediately I got that sense.
+- id: u68
+  speaker: Scott Morton
+  t_start: 1071.02
+  t_end: 1119.98
+  text: Yeah, that's what it is. This next document or the next diagram. So all these tables, all generated by AI it taught me how to put formulas in word and, you know, like, just really easy stuff, nothing crazy. This was the diagram. Like, this explains everything that we're doing. So I will show you the figure that I got from AI because you guys are going to be more interested in that then the one. So I think this is. This is the one. No, this is my edits. Okay, so it's the one before this.
+- id: u69
+  speaker: David Olsson
+  t_start: 1122.14
+  t_end: 1122.7
+  text: Yeah.
+- id: u70
+  speaker: Scott Morton
+  t_start: 1125.26
+  t_end: 1135.5
+  text: So this was what I told it to do after I struggled with it, because I was like, okay, you just need to give me the diagram without the labels.
+- id: u71
+  speaker: David Olsson
+  t_start: 1135.85
+  t_end: 1136.35
+  text: Right.
+- id: u72
+  speaker: Scott Morton
+  t_start: 1136.05
+  t_end: 1210.58
+  text: I will edit it. You know what I mean? Because then I can spell everything, right? I can, you know, because it has trouble spelling and, you know, but it was. This was the diagram. And so you can see sort of the difference. Like you can see the sand and the space in the sand where the old labels were. And, you know, I wanted the. Well to drop down and, you know, it just wasn't. It wasn't going well. And I was just like, I can probably do this quicker. And so this is. This is the diagram that I wanted, right? So you can see that I made the well longer. You can see that I made room for the. For the labels and, you know, the cutout. You know, I just. Anyways, the point is, is that I. I would have taken. Because I've written a paper like this before and I did this in about 50 hours. This whole paper, there's 13 sections and, you know, know lots of math and. And diagrams and stuff. Like that I wrote this in about 50, 60 hours, something like that. Maybe a little bit less. Yeah, probably a little bit less. This. I wrote a similar paper to this for a different project that I was on and it took me eight months.
+- id: u73
+  speaker: David Olsson
+  t_start: 1211.14
+  t_end: 1212.34
+  text: Oh my God.
+- id: u74
+  speaker: Scott Morton
+  t_start: 1213.54
+  t_end: 1219.08
+  text: And I'm not kidding now. There was more diagrams and there's twice.
+- id: u75
+  speaker: David Olsson
+  t_start: 1219.08
+  t_end: 1220.92
+  text: As big, but even they're twice as big as mine.
+- id: u76
+  speaker: Scott Morton
+  t_start: 1222.2
+  t_end: 1240.52
+  text: Yeah, it like, because these documents take a long time because you're thinking about it and everything, but once, once I've read the draft, I'm like, okay, yeah, this is a good sentence. Check, check, check. And then I, I list it as final. And then every time I, I pull it out of the AI, it knows what to pull out.
+- id: u77
+  speaker: David Olsson
+  t_start: 1240.84
+  t_end: 1241.34
+  text: Right.
+- id: u78
+  speaker: Scott Morton
+  t_start: 1240.96
+  t_end: 1250.04
+  text: Because I tell it to, to mark something as final. And then that's the only thing that you can pull out now is the final version. All my other versions.
+- id: u79
+  speaker: David Olsson
+  t_start: 1250.44
+  t_end: 1268.84
+  text: So that's an interesting. So could you describe that process? Because you basically create your own through process of working with it. Editing workflow. You know what I mean? Like you told it. Yeah, going on. And so you're saying it learned that when you said something was final that it wouldn't change that.
+- id: u80
+  speaker: Scott Morton
+  t_start: 1269.35
+  t_end: 1276.71
+  text: Yeah, exactly. And so what I did was, was I gave it a certain. So I work in the project section of Chat GPT.
+- id: u81
+  speaker: David Olsson
+  t_start: 1277.19
+  t_end: 1277.69
+  text: Right.
+- id: u82
+  speaker: Scott Morton
+  t_start: 1277.55
+  t_end: 1307.31
+  text: So you're able to make your own project. And so I uploaded the files that I wanted it to look at and then I said, okay, we're going to write section one. It's going to be an introduction. And I just said, okay, let's talk about whatever we need to talk about in the introduction. And then after I said, okay, I'm done with this, I like this version. Mark it as final and it marks it as final in its memory.
+- id: u83
+  speaker: David Olsson
+  t_start: 1308.19
+  t_end: 1337.4
+  text: That's great. You could probably even do that at the level of the document you're building. You could do it. If you say, give me a JSON structure. I'm just thinking of the manifest thing. BB is like, give me a JSON structure. Here's my article. Every paragraph has status for the article and the status is editing. And you, you can edit any of those ones in there. If it says final, don't touch it. And maybe that's a simple enough rule that it will pay attention to the structure. Yep.
+- id: u84
+  speaker: Scott Morton
+  t_start: 1337.48
+  t_end: 1355.39
+  text: Because, because what I found is every time, every time I, I, I, you know, I change something, but I like the paragraph before, but I didn't like the paragraph, it would fucking summarize shit. And it would just change it. And I'M just like, stop that.
+- id: u85
+  speaker: David Olsson
+  t_start: 1355.87
+  t_end: 1356.37
+  text: Right?
+- id: u86
+  speaker: Scott Morton
+  t_start: 1356.19
+  t_end: 1442.24
+  text: And so I was always like, go back to the previous version. Which it will do. Which it will do. Like, if you get into that situation, you go, go back to the previous version. It'll just print. It'll just print the previous version, which was a good, like, you know, whatever. That button in undo, right, that was my undo button, right? But once I marked it as final, it knew that it was final and it printed the final copy. And I don't use Canva in ChatGPT because that's where I started using Canva, like the. Where it pulls out the document into a separate, you know, little space for you to work in. Because I found that it was more likely to change things that I didn't want changed if it was in Canva, but versus if it printed on screen. And I was just like, okay, I can't do this. This is totally. It was driving me insane, right? And I'm sure I spent like 10 hours telling it to not go forward, right? So I know this wasn't what I described the last time we met, David, but I needed to do this because I'm giving a talk. Like, this will be the basis. Like, my AI generated, like with me, but like AI augmented. I don't know what to call it. Anyways, whatever I'm going to call it will be part of a technical conference in Calgary in October.
+- id: u87
+  speaker: David Olsson
+  t_start: 1442.4
+  t_end: 1482.63
+  text: Well, that's fucking awesome. And this is what surface your process, because that's one of the things that, like, we all try to champion, right? Like sharing that bit. And it's working at the document level in the chat bots and saying that you want to have this meta structure in place. So you're like, I approve each paragraph. Every paragraph, I approve. Don't touch it. You could just have a, like a system prompt that does that. Like, that would open all of these chat or all these canvas spaces. They have very little in the way of editing because of this problem that you're identifying. They'll allow you undo, or they'll have a selection and it'll say enhance or something. I've done those. That was the first thing I figured out how to do. Because I'm like, oh, editing inside this space is impossible.
+- id: u88
+  speaker: Scott Morton
+  t_start: 1483.06
+  t_end: 1484.02
+  text: It is, yeah.
+- id: u89
+  speaker: David Olsson
+  t_start: 1484.02
+  t_end: 1496.02
+  text: But you, you've provided a way of at least maintaining some parts of a document that are finalized and then it will only edit possibly. Now you're saying I'm like, it does.
+- id: u90
+  speaker: Scott Morton
+  t_start: 1496.02
+  t_end: 1499.94
+  text: Sometimes, but it's like, I would call it 90 good.
+- id: u91
+  speaker: David Olsson
+  t_start: 1499.94
+  t_end: 1519.5
+  text: That's. That's all we can really was at the prop level. That's all you can do. So that's a really cool strategy. And more than that, it's like a practical use and it does allow for people to jam with a chatbot and. Have, and not have it completely redo everything all the time.
+- id: u92
+  speaker: Scott Morton
+  t_start: 1519.98
+  t_end: 1594.19
+  text: And so what I've done is I split each section so there's 13 sections, and so each section has its own chat. And so then I mark that section as final. And then if I wanted to, I could just say compile the document. But I just, I was cutting and pasting while I was going. But yeah, yeah, there's, there's no, there's no reason why you couldn't just say that in the project space. I don't think they've tuned it as, as much as I want. Like, when I, when I talk about other chats in the project space, it doesn't, it doesn't see it very much. So I would just pull the, I would pull the final section from that chat into and just say, okay, this is what I was talking about. This is final. Don't change it. And now let's make this flow together. And I would take the last paragraph of one section to make sure that there was a nice transition into the next section. And I also did the very same workflow with the book that I wrote with my notes and stuff like that. It was the very same workflow whether it was a technical document or whether it was like a book.
+- id: u93
+  speaker: David Olsson
+  t_start: 1594.67
+  t_end: 1605.79
+  text: Okay, so that's a, that's a really high value. Like, so out of these conversations, that's a really high balance thing. We can actually just provide that as guidance and as a prompt, and then people can use that. I'm trying to figure out.
+- id: u94
+  speaker: Scott Morton
+  t_start: 1608.11
+  t_end: 1642.12
+  text: I can show you one other thing. Like, I'm just trying to see if I have it here. I did have. Where's this, where I have my, like, I saved, like. Oh, thanks. I saved my key prompts just so I could just cut and paste them in. Into each, each chat. Like, here's my prompt for the whole thing. And then let's go. I'll just see if I can find it quickly as. I'll just search here. I'm pretty sure. I'm pretty sure I save them. Yeah.
+- id: u95
+  speaker: David Olsson
+  t_start: 1641.82
+  t_end: 1642.9
+  text: GPT bots.
+- id: u96
+  speaker: Scott Morton
+  t_start: 1642.9
+  t_end: 1643.86
+  text: Yeah, here it is.
+- id: u97
+  speaker: David Olsson
+  t_start: 1644.5
+  t_end: 1672.83
+  text: There's a couple of desktop solutions that allow you to have like, the chat environment where you save all of your prompts and all of your chat histories, no matter which vendor you use. Yeah. One of them is called Libra Chat. And so you can, with your prompts, you can create agents right out of them and you can actually call the agents. Like it's really actually well built out. For a desktop app. Yeah. But it, if you were ever to wanting like the projects thing is bunk, man.
+- id: u98
+  speaker: Scott Morton
+  t_start: 1673.87
+  t_end: 1684.27
+  text: Yeah, it's, it doesn't work. It's not as good as I thought it was going to be. Like when I read about it, I was like, oh yeah, this sounds exactly like what I need because it's my own little space.
+- id: u99
+  speaker: David Olsson
+  t_start: 1685.15
+  t_end: 1685.65
+  text: Right.
+- id: u100
+  speaker: Scott Morton
+  t_start: 1685.55
+  t_end: 1700.44
+  text: And I'm used to that for geology because we have our own little area that we just want to work on. And yeah, it's, it's, it's, it's influenced by other things. But like I want to focus a lot on this work.
+- id: u101
+  speaker: David Olsson
+  t_start: 1700.84
+  t_end: 1701.34
+  text: Yeah.
+- id: u102
+  speaker: Scott Morton
+  t_start: 1701.24
+  t_end: 1740.03
+  text: And so anyways, this is an example of some of the chats that I had, you know. Please review this entire document carefully. I want, for, this is for my references. I want four things. The exact authors and organizations as stated in the title page. Not inferred. You know, just a short technical summary. The correct APA citation. Concise explanation of how this document supports or does not support Gabe development. Do not skip assume authorship. Do not use past examples or memory read and extract directly from the document. Take your time, only respond when you're sure.
+- id: u103
+  speaker: David Olsson
+  t_start: 1740.67
+  t_end: 1756.74
+  text: This is great. This is great. You know what I would suggest? And this is, this is, I would suggest trying to get the LLMs to optimize your prompt. That is that, that's because it's really succinct. I'm like, I don't know if you could get it any better. That's why I would do it.
+- id: u104
+  speaker: Scott Morton
+  t_start: 1757.06
+  t_end: 1766.42
+  text: So I wrote it, I wrote what I wanted and then I'm like, tell me how to help you. You tell me how to help you. And that's, that's what I came up.
+- id: u105
+  speaker: David Olsson
+  t_start: 1767.3
+  t_end: 1779.91
+  text: And so I actually still do the old school. When I'm using or building system level prompts I do for using just myself, I say there'll be a system prompt that starts ura.
+- id: u106
+  speaker: Scott Morton
+  t_start: 1780.55
+  t_end: 1781.05
+  text: Yeah.
+- id: u107
+  speaker: David Olsson
+  t_start: 1781.27
+  t_end: 1868.68
+  text: Yep. And, and then it, and then I know that I'm getting what I want. And it knows what I'm looking for because then it knows that you're sort of a consumer grade, you're looking to chat with it. Yeah, this is really powerful. And that's, that's, that's the kind of concise thing that you can get a lot other than I'm trying to build a templating system with my stuff that says okay, what is the valuable pieces. In Here in terms of that structure. That you have, just like I'm talking. About your workflow and then say, that's what I work at the level up. Instead of defining the rules themselves. When I was talking about earlier sharing things with Bibi, that's what we're doing across our ides, we're sharing the rule sets for how we integrate with other tools like git, because our IDEs can do all that for us, but we want to be able to control certain messaging. What we do is we make sure the messaging is correct and then we can still drive part of it. But also inside the different IDs, there's just like you have here, you can give it the rules like you can in ChatGPT and Claude, and you can give them more specifically around code. You can do it a higher level, just like you were doing. You can give it a higher level set of rules. And here's how we build out a project. Yeah, right. And so you. Now you've done an article twice, right. You've done this article, you've done this. One with AI hand in hand in. Terms of building out your corpus, what. I call it, your corpus of work.
+- id: u108
+  speaker: Scott Morton
+  t_start: 1868.92
+  t_end: 1869.42
+  text: Yeah.
+- id: u109
+  speaker: David Olsson
+  t_start: 1869.36
+  t_end: 1872.84
+  text: So you could probably do your next. One in half that time.
+- id: u110
+  speaker: Scott Morton
+  t_start: 1873.64
+  t_end: 1897.78
+  text: I expect that it will take me less time to do the next one. Yeah. The only hiccup is the imaging. And I tried a bunch of different agents and a bunch of different, like I looked up, you know, what, what are the AIs that generate the best images and, and that sort of thing. And I'll tell you, Chat GPT was still the best. Like I tried four different ones.
+- id: u111
+  speaker: David Olsson
+  t_start: 1898.18
+  t_end: 1898.68
+  text: Yeah.
+- id: u112
+  speaker: Scott Morton
+  t_start: 1898.54
+  t_end: 1899.7
+  text: And it was still the best.
+- id: u113
+  speaker: David Olsson
+  t_start: 1899.78
+  t_end: 1911.39
+  text: Yeah, yeah. I think that, that you can spend a lot of time in there and. If that's not your main goal, your main focus. It is, it's the rabbit hole thing with we get in and so. Yeah, so that's why I just did.
+- id: u114
+  speaker: Scott Morton
+  t_start: 1911.47
+  t_end: 1926.07
+  text: Yeah, that's why I just did what I told you. I was like, okay, you are like 60 there. Just give me the blank one and then I will do all the edit. Because there is, there's a, there's a definite difference between what I produced and.
+- id: u115
+  speaker: David Olsson
+  t_start: 1926.07
+  t_end: 1927.39
+  text: What the, what the.
+- id: u116
+  speaker: Scott Morton
+  t_start: 1928.59
+  t_end: 1939.72
+  text: What the AI produced. Which is fine. It just, it saved me a lot of time, no doubt. But it was just, it wasn't exactly what I wanted. And that's okay. I know that it'll get better in a month.
+- id: u117
+  speaker: David Olsson
+  t_start: 1940.2
+  t_end: 1979.74
+  text: Yeah, No, I find it's better as a starting, like if you have a small amount of work, like a Small corpus of work. It's good at helping you blow out. Framework to build it out. But if you have a good corpus of work, depending on the wrong model. You get to drivel. Yeah. And even with O3, which is great. It has a certain patina to it and it will come out in a certain way. And so you're, you're getting at the. Same thing that we figuring, you know, we're all figuring out is like the. More superstructure you put around your documentation, meaning do it this way, do it that way. That's the rule level. And the less time you spend fixing. What we normally say it's broken on.
+- id: u118
+  speaker: Scott Morton
+  t_start: 1980.06
+  t_end: 2012.61
+  text: Well, now I have, now I have an example, right. The next document I write, I'll be like, this is the gold standard you need to format, you need to do everything just like this. And here are your rules, which I have my prompts and stuff like that. So here are your rules for references. Here are your rules. You, you have to check every paragraph with me and I have to mark it as final. You know what I mean? Like, as you go through, it's just, it's, it's, it's very exciting for me.
+- id: u119
+  speaker: David Olsson
+  t_start: 2013.41
+  t_end: 2014.61
+  text: So yeah, that's great.
+- id: u120
+  speaker: Scott Morton
+  t_start: 2015.09
+  t_end: 2018.41
+  text: I'm going to be able to pump out a couple more technical documents over.
+- id: u121
+  speaker: Bibiana Souza
+  t_start: 2018.41
+  t_end: 2019.57
+  text: The next couple months.
+- id: u122
+  speaker: Scott Morton
+  t_start: 2020.13
+  t_end: 2031.25
+  text: And, and it won't take me eight months to do one. It'll take me, you know, a week or two. Which is, which is just great because then I can push that content out to whoever needs to see it.
+- id: u123
+  speaker: David Olsson
+  t_start: 2031.25
+  t_end: 2031.75
+  text: Right.
+- id: u124
+  speaker: Scott Morton
+  t_start: 2031.81
+  t_end: 2036.45
+  text: So this will be the backbone, this document will be the backbone for investor documentation.
+- id: u125
+  speaker: David Olsson
+  t_start: 2036.77
+  t_end: 2037.27
+  text: Investors.
+- id: u126
+  speaker: Scott Morton
+  t_start: 2037.09
+  t_end: 2051.01
+  text: It'll be marketing materials. It'll it like it is everything. And, and David, I will send you a copy so that you can see, you know, you can like, I know you're trying to read on the screen and everything. I'll just, I'm happy to share.
+- id: u127
+  speaker: David Olsson
+  t_start: 2051.01
+  t_end: 2072.46
+  text: Like that'd be cool. Yeah, yeah. You were fine with sharing. I think we, but I won't share it beyond that. I'm looking again for that thing that I can release as a pattern amongst ourselves. Just like you said, you're, you now know you can plow through your own work. And I'm trying to see how can. We plow through whatever the domain knowledge work is. Yep, exactly.
+- id: u128
+  speaker: Scott Morton
+  t_start: 2072.7
+  t_end: 2105.81
+  text: So the last thing that I, and I know I'm monopolizing because I haven't been here for a while. But, but the last thing I did was I created a six week sprint for the AER thing that I was, I was talking about the last time and that's probably what you expected to see this time with some, some development. But I was, I was tied up with, with this document in my book and money and you know, all that sort of stuff. So this I, I can show you on screen. Just let me get it here. I'll just share my screen again.
+- id: u129
+  speaker: Scott Morton
+  t_start: 2115.42
+  t_end: 2150.6
+  text: So this is, you know, and for, for folks that weren't here the last time when I was explaining about this. Let's see if I put it in here. Yeah, business. I think it was business ideas Regulatory. Yeah it's not coming up unfortunately there's two more items here that are supposed to be there anyways. Hopefully maybe it's here.
+- id: u130
+  speaker: David Olsson
+  t_start: 2150.76
+  t_end: 2160.12
+  text: No. I find that the, the user experience of chat GPT is a little flaky. It is.
+- id: u131
+  speaker: Scott Morton
+  t_start: 2160.44
+  t_end: 2161.96
+  text: It's not. Oh, here it is.
+- id: u132
+  speaker: David Olsson
+  t_start: 2165.08
+  t_end: 2168.06
+  text: See it always comes back though. I've never lost anything. That's.
+- id: u133
+  speaker: Scott Morton
+  t_start: 2167.88
+  t_end: 2170.2
+  text: Yeah, neither have I. I've never lost anything either.
+- id: u134
+  speaker: David Olsson
+  t_start: 2170.2
+  t_end: 2170.7
+  text: But.
+- id: u135
+  speaker: Scott Morton
+  t_start: 2174.07
+  t_end: 2308.84
+  text: Yeah, it's still not coming up. I don't, I don't know anyways but basically I have a printed out copy because I, I know this but basically it's a six month, it's a six month sprint on and I can just kind of read, read you the titles. It's like project overview and remember the documentation you and I were talking about the last time and how to like create that documentation. Like you want to create the documentation of what you want to do before you actually go and do it and then check it with GPT or whatever you know, model you're doing and then, and then you upload that plan as your base and then you tell it to just go and do it. So I've taken a half step David, because I'm very conservative. I haven't. I want to do some of it because I always like to understand some stuff. So I've just, I've done the six, the six week sprint on. You know it's the Alberta Energy Regulator companion app and it's the full development package and I've, I've just created you know, each week, you know, you have your app name and then you have the one liner description AI powered tool to help navigate AER regulations, applications and compliance tasks faster. So that is the goal of the AI agent is to do those things. And so you know, the problem is complexity of the regulator documents, the uncertainty around application requirements, unclear timelines and then lack of support for small operators and then limited access to past CSRs and SOCs. And so that is a question I have for this Group is how do I scrape stuff from the Internet? Like, I could go and download everything, but I want to scrape it like they. It's. It's already public data. I don't know the tool that allows the AI to go, because every time I ask it, it's like, oh, I can't read websites and I can't download those documents. And I'm like, what the hell? Like, so I just haven't spent enough time. So if you guys can give me a little bit of a head start, that's. That's what I want to do eventually, is just pull everything down so I don't have to do it manually.
+- id: u136
+  speaker: David Olsson
+  t_start: 2309.88
+  t_end: 2321.16
+  text: Okay, so there are a bunch of ways to crawl the web now. And what for LLMs, commonly, what we. Want to do is turn it into Markdown. Right. So you want to go to their website. Markdown is like a light.
+- id: u137
+  speaker: Scott Morton
+  t_start: 2321.64
+  t_end: 2322.86
+  text: I know what it is. Yeah.
+- id: u138
+  speaker: David Olsson
+  t_start: 2323.08
+  t_end: 2346.27
+  text: So it's. It just converts really well. And so if you use a service like Exa, which is designed for developers, but you can use it in your IDE really well, too, to be able to take any website and go any number of depths deep and scrape the. Whole site and turn it into, like, documents. Okay, Is that the kind of thing you're looking for?
+- id: u139
+  speaker: Scott Morton
+  t_start: 2346.83
+  t_end: 2367.1
+  text: Well, there'll be links to documents that I like. So, for example, if you just type in right now, just go to AER directive 56 just. And you'll get it right away. No, 60 is fine. Yeah, it doesn't matter, whatever directive it is. So just click on that and a PDF will come up.
+- id: u140
+  speaker: David Olsson
+  t_start: 2367.5
+  t_end: 2374.08
+  text: Okay, you want the PDFs, I want the PDF, right? Yeah, yeah. Okay, you can do that. Yeah, yeah. Right.
+- id: u141
+  speaker: Scott Morton
+  t_start: 2374.22
+  t_end: 2391.06
+  text: So. So I want to do that for every directive, every memo, every il, everything that they have on their website. I need it and want it, and it's. I have to have it. I have to.
+- id: u142
+  speaker: David Olsson
+  t_start: 2391.62
+  t_end: 2407.3
+  text: How about if you can figure it out? Or you can weigh half a heartbeat, because we got to figure that out, too. All right. There are tools for doing exactly this. You want to. So what? I understand the steps now. You want to do exactly what we want to do with an organization called absa.
+- id: u143
+  speaker: Scott Morton
+  t_start: 2407.86
+  t_end: 2410.3
+  text: Oh, yes. Oh, my God, yes.
+- id: u144
+  speaker: David Olsson
+  t_start: 2410.3
+  t_end: 2454.41
+  text: Okay. So they have the same. They have the same rat's nest of bullshit. And so the first step is downloading the PDFs. The second step is turning the PDFs into single pages and then turning those single pages into OCR documents or OCR text. You can do that through something like. I think Excel will probably do that as well. But what you want is a PDF to markdown or text converter as part of the solution. Because these are going to be. Actually, you're probably not. These aren't probably forms. They're probably. Oh man. It's a lot of text. They'll convert really well. Really well. Yeah. And so. Oh, it's actually, it's telling me it was extracting text. Extracting text from PDF.
+- id: u145
+  speaker: Scott Morton
+  t_start: 2454.73
+  t_end: 2456.849
+  text: Yeah, you can do it right there.
+- id: u146
+  speaker: David Olsson
+  t_start: 2456.849
+  t_end: 2486.38
+  text: It's doing it as I'm scrolling. What the hell? I don't even know what's going on. So that was weird. But what you want to do is so you first step is scrape them all down into directories. That is convert them into live text into a database. Yeah. And then you are off to the races. You can supersede the regulatory bodies. So you know, why don't we build this out together?
+- id: u147
+  speaker: Scott Morton
+  t_start: 2487.26
+  t_end: 2526.84
+  text: Why don't we do that? Then I will send you my Sprint because I have all the like, I'll, I'll be able to like code the interface and everything like that. Like that. That's just from Claude, like I'm. Or, or, or cursor or whatever. But it's the back end. Because I was gonna, I'll tell you my plan. I have it right here in front of me. I was gonna download one, one PDF like directive 56 or whatever and I was gonna just work with that one PDF to see if I could get, get it into the database, how it's housed. I was going to use a super base database. Just pay for the whatever.
+- id: u148
+  speaker: David Olsson
+  t_start: 2526.84
+  t_end: 2527.34
+  text: How.
+- id: u149
+  speaker: Scott Morton
+  t_start: 2528.4
+  t_end: 2546.1
+  text: Yeah, 10 bucks or whatever it is. And then I was going to, then I was going to test it, right? I was going to test it and trial it and can I get the next document? Okay, can I get directive 60? Can I get. And then once I have a, a workflow then I was just going to scrape everything.
+- id: u150
+  speaker: David Olsson
+  t_start: 2547.22
+  t_end: 2618.65
+  text: That is exactly the kind of progressive build you want to do for your app. Once I have a specification for app, I'll do build out a plan and I want it to be progressive. In fact, cloud code will do that. It will build out a progressive plan. And each step build out an app. So that it proves the technology works. Behind the scenes. There's things that can be done to ensure that there's quality on board. But what I'm showing you here is some piece of a tool like we're talking about. It takes any kind of mark, any. Kind of. Text based image and then just turns it into, you know, whatever and then builds a database behind the scenes, and then you can semantically search. The whole goddamn thing. Thing. And that's just in this app, standing. Alone as a client. So it doesn't even have a database back end. And we need to do this kind of ingestion of things for our clients on an ongoing basis. And it should be. It should be able to just be able to handle a PDF and do. It from the get go. And that's what you want. You want to like, upload PDF, put it in a database, let me do my shit.
+- id: u151
+  speaker: Scott Morton
+  t_start: 2618.89
+  t_end: 2620.09
+  text: Yep, exactly.
+- id: u152
+  speaker: David Olsson
+  t_start: 2620.49
+  t_end: 2620.99
+  text: Or.
+- id: u153
+  speaker: Scott Morton
+  t_start: 2621.37
+  t_end: 2633.55
+  text: Or alternatively, David, I want you as the user to go to the site and everything's already uploaded for you. It's like a regulatory manager in a box.
+- id: u154
+  speaker: David Olsson
+  t_start: 2633.79
+  t_end: 2637.07
+  text: Yeah, but I mean, initially, for figuring out that.
+- id: u155
+  speaker: Scott Morton
+  t_start: 2637.39
+  t_end: 2638.59
+  text: For figuring it out, yes.
+- id: u156
+  speaker: David Olsson
+  t_start: 2638.59
+  t_end: 2647.79
+  text: Yeah. You want the database first and you're like, okay, now I got it. Now I can hand off any PDF I like, but I'll use all this data to figure out what PDF they need.
+- id: u157
+  speaker: Scott Morton
+  t_start: 2648.27
+  t_end: 2664.59
+  text: Yeah, exactly. And so the other thing is they update their regulations just like ABSA does every, you know, whatever year, six months or whatever it is. I want that to go and just ping them and say, okay, where's the updates? What's changed?
+- id: u158
+  speaker: David Olsson
+  t_start: 2664.83
+  t_end: 2668.83
+  text: Right. This is a significant business opportunity in Alberta.
+- id: u159
+  speaker: Scott Morton
+  t_start: 2669.07
+  t_end: 2670.83
+  text: I agree 100%.
+- id: u160
+  speaker: David Olsson
+  t_start: 2670.99
+  t_end: 2804.37
+  text: And it is the kind of thing that if we could provide this to ABSA and say, this is the better way to go, we don't touch anything, we just take all your data, we digitize it, we then make it a better interface where it's all searchable and we can provide you an agent on the front end, they would, I think, bite on that. Yes. And then, you know, because that's. We're 70% of the way there, the agent on top is easy enough as soon as you get a database together. So this idea of being able to scrape these organizations in Alberta that have admittedly so had a back end, and then they got hacked and they didn't know what to do. So now they have PDFs. Like, they run a 13 billion. No, I don't know. It's trillions of dollars. Trillions of fucking dollars. And they run off of paper. Yep. Anyways, so I think that this makes a ton of sense. And if you're cool to just tacitly sharing this as an opportunity right now and seeing how we can promote it as a business, we got to solve this problem on our side. To the point of having the data building something specific for these clients on their side. Yeah, secondary thing. But you already want to do that. So this is a good result of this meeting and I really thank you for sharing that last piece and I think I gotta unfortunately meet on the. AMQC project here shortly. So. I'm gonna see Vivi. I don't think you've been invited to that. Are you available? Yeah, I will invite you that because it's happening right afterwards and we will talk about this piece that I'm showing. Right here and we will bring it. Up in the context of having to do that with. We need to do it for all of the documents we get at the beginning of a project from, from engineering documents to specifications. And I've done this with a take. So I've been given a turnover package, digitize the whole of a 1300 page turnover package. And I'm auditing it for their quality control. To understand how they use their quality control. Yeah. And the way that I'm doing it is using it, building a database and then using AI on top of it.
+- id: u161
+  speaker: Scott Morton
+  t_start: 2805.01
+  t_end: 2823.42
+  text: That's exactly what I wanted to do, David. That's exactly how I want to run this, is to have that database background. But in the background of the database it also has to be sort of updated. And you know, and whether that's a human or an AI, I don't care.
+- id: u162
+  speaker: David Olsson
+  t_start: 2823.42
+  t_end: 2853.63
+  text: But yeah, there's a lot of still normal business attire on an idea like this. We can service our own immediate needs without that. And then through the seating, if like on my side, it'd be other people. Negotiating and talking to those people, seeing. If there's a business opportunity to quickly help them. Because this isn't a really, really big achievement. It's a, it's a medium sized one. In terms of technology. But like to organizations like them, I.
+- id: u163
+  speaker: Scott Morton
+  t_start: 2853.63
+  t_end: 2856.75
+  text: Have seven other organizations that we can do the same thing for.
+- id: u164
+  speaker: David Olsson
+  t_start: 2856.83
+  t_end: 2885.14
+  text: It's a deal and a half. Like in bc, here we have community associations in Kelowna. They're setting up and I think they're setting up in all cities and there's small regions within the city that get a certain amount of money to manage themselves as a way of being a sub sort of soft organization anyways, they get enough money to hang themselves. But if you do the math, there's 10 of them, that's 50,000 a year. You could support them technically for 50,000 a year.
+- id: u165
+  speaker: Scott Morton
+  t_start: 2885.14
+  t_end: 2886.02
+  text: Of course you could.
+- id: u166
+  speaker: David Olsson
+  t_start: 2886.26
+  t_end: 2900.35
+  text: Right. And so if you did that across the country, there's $5 million right there a year to support these small organizations that have one person running them. And I think these things that we're talking about this is where the opportunities lie right now.
+- id: u167
+  speaker: Scott Morton
+  t_start: 2900.59
+  t_end: 2901.15
+  text: I agree.
+- id: u168
+  speaker: David Olsson
+  t_start: 2902.27
+  t_end: 2912.59
+  text: That's a really big one. And it can be something that's been up quickly. And I'll proceed with the conversation in 12 minutes along those lines, you'll forward the document.
+- id: u169
+  speaker: Scott Morton
+  t_start: 2913.79
+  t_end: 2916.81
+  text: So I'm gonna. I'm still gonna do my sprint. I'll. I'll see.
+- id: u170
+  speaker: David Olsson
+  t_start: 2916.71
+  t_end: 2919.47
+  text: Oh, man. No. Hey, anything you got moving, you keep it moving.
+- id: u171
+  speaker: Scott Morton
+  t_start: 2921.21
+  t_end: 2928.09
+  text: I'm happy to work with you guys and. And. And discuss. And you can book me offline. It doesn't have to be every Wednesday.
+- id: u172
+  speaker: David Olsson
+  t_start: 2929.29
+  t_end: 2929.79
+  text: But.
+- id: u173
+  speaker: Scott Morton
+  t_start: 2930.89
+  t_end: 2933.21
+  text: Yeah, just call me later like you always do.
+- id: u174
+  speaker: David Olsson
+  t_start: 2933.93
+  t_end: 2972.43
+  text: Yeah, I know I'm a loser that way. But in this case, I will put it to bed one way or the other and on my side, you know, Me too. It could be I just decide to wake up Sunday morning and build something too. Right? Exactly. And as long as we're of that mind that this is a decent problem to solve, we'll contribute to solving the problem. And I think that's. I think the fine what this room. Affords us in terms of trust. So we'll chat soon. Man, that's great. Nice to meet you in a few minutes. Okay. See ya. Are you there she is frozen. She's frozen. Oh, there you are.
+- id: u175
+  speaker: Bibiana Souza
+  t_start: 2973.95
+  t_end: 2975.55
+  text: Oh, sorry. My Internet.
+- id: u176
+  speaker: David Olsson
+  t_start: 2975.87
+  t_end: 2982.83
+  text: Yeah, no, because it was perfect. It was almost a perfect pause, and then it's like, no, you can't pause that long. You're not that good.
+- id: u177
+  speaker: Scott Morton
+  t_start: 2985.55
+  t_end: 2986.05
+  text: Yeah.
+- id: u178
+  speaker: David Olsson
+  t_start: 2985.87
+  t_end: 3001.64
+  text: I'll invite you to this other meeting and it'll be ongoing. And I will. You will be ongoing. Invited. It's a. It's meant to be the jump, the divide between oil and gas and technology talk and we see who shows up. Because it's pretty ad hoc, but at least we'll be there.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: Good morning. Good morning. How are you? I'm doing awesome. Pretty early. Are you in Vancouver? No, I'm in Calgary. Good morning. Morning. Hey, David and welcome bb. Hello. You're an early bird, David. I was catching up on my messages and I'm like, oh my God. 4:30. How's he doing? Where are you? It's 4:30 in the morning. Are you in Hawaii or something? Vancouver. Vancouver. Oh, Vancouver. Okay. Yeah. No, but David was up at 4:30. Oh yeah, I get up at 4:30 too. Yeah. How do you guys do it? Among some peers here. But yeah, like it just happened and. Then sometimes you just wake up. Right, David? You wake up and you're like, oh, I gotta do this thing and you just go and do it. When I first started waking up, I woke up very awake and I was like, I'm not, I'm not tired. Okay, get up. So it was energizing. And then my pattern of life changed and all the other things. But yeah, sometimes I'm like, I should hold off on posting because that's people's response. I'm like, yeah, it's good for the east coast. Yeah, yeah, exactly. Yeah. Yeah, that's funny. That's funny. But yes, Scott's in Calgary. Yes, or Calgary specifically. You live in Calgary? Yeah. Yeah, just south of Calgary. Yep. And. And Jason, this is bb. BD and I work together now. And Jason lives here in Calgary and he's a good friend. Hey Jason. Yeah, it's about that time. Everybody's doing that. And Folio's dealing with family stuff right. Now, so he's not going to join us. And Hanif is in Mexico with his son. Oh yeah. So that's a good thing. He actually submitted an application for his project, Stone Maps and he had a. Well, he. He vibe coded himself a lovable.dev website. And it takes money. Yep. It's functional. It does something. He says it only takes his. So far it's only taken his money. I'm like, that's. Welcome to the show, man.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  text: Yeah. Yeah, that's funny. That's funny. But yes, Scott's in Calgary. Yes, or Calgary specifically. You live in Calgary? Yeah. Yeah, just south of Calgary. Yep. And. And Jason, this is bb. BD and I work together now. And Jason lives here in Calgary and he's a good friend. Hey Jason. Yeah, it's about that time. Everybody's doing that. And Folio's dealing with family stuff right. Now, so he's not going to join us. And Hanif is in Mexico with his son. Oh yeah. So that's a good thing. He actually submitted an application for his project, Stone Maps and he had a. Well, he. He vibe coded himself a lovable.dev website. And it takes money. Yep. It's functional. It does something. He says it only takes his. So far it's only taken his money. I'm like, that's. Welcome to the show, man. Yeah, that's awesome. That's. That's how it goes for a little bit anyways. Yeah. But yeah, in this environment we kind. Of talk about the stuff that's going on with the AI. Initially it was about trying to teach people and everybody is learning on their own path. And what I mentioned, bb, is that things are getting different for us at Atomic because you're coming on board and we're scaling now with four people that. Are working in development and Fulvio has just cranked a wheel he's turned a corner and he, he figured out what he can do now in terms of his superpowers. So he's building shit. But I wanted to show you this, which is. I think I've showed this before. But we're in the throes of trying to define what works on is. And so I've been able to use Claude code to ask. It to figure. Out what works on it by starting the APIs. And then I take whatever that corpus is. So it gives me something. And I built out using cloud code marketing websites. Bing, bing, bing, bing, bing. Pow.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  text: Yeah. But yeah, in this environment we kind. Of talk about the stuff that's going on with the AI. Initially it was about trying to teach people and everybody is learning on their own path. And what I mentioned, bb, is that things are getting different for us at Atomic because you're coming on board and we're scaling now with four people that. Are working in development and Fulvio has just cranked a wheel he's turned a corner and he, he figured out what he can do now in terms of his superpowers. So he's building shit. But I wanted to show you this, which is. I think I've showed this before. But we're in the throes of trying to define what works on is. And so I've been able to use Claude code to ask. It to figure. Out what works on it by starting the APIs. And then I take whatever that corpus is. So it gives me something. And I built out using cloud code marketing websites. Bing, bing, bing, bing, bing. Pow. Oh, wow. And it just keeps going because it's. Not a lot of work. Yeah. And they don't do much and they're. All filled with a lot of it's crap. But you can get very specific and. Just a directional brief. And then using a tool like Claude code, which is kind of like Claude. Claude gives you this consumery experience. Right. Realized that just earlier when I was. Asking you to do something, it didn't give me like. A straightforward summary. It gave me like, this is revolutionary. I'm like, oh man, it's a little early for that. You know. The buzzwords, right? We're not revolutionary yet. We haven't had coffee. Yeah, but. And so you get a lot of craft in it. But you do get a pattern. And the pattern is you get generally. Pretty informed and it'll look like everything else out there. So people won't be surprised by what you give them. And it does do the work sort of thing is what you tell your audience. And it will do that. It'll just like focus it on our audience. It will do a terrible job unless. You give it a profile and Personas and be going down that path. But I thought this was of interest. But I, I've been working in warp a lot and using. So it's a command line interface. So it's a terminal with an id. They're really promoting their id. No one's getting the fact that it's an ide. So it says right there at the bottom, hey man, use our agent. I'm like, no, I'm using Claude. Yeah, yeah. But it is really good for. So I use multiple tabs. And so if you're wanting to just. Read code it shows you that if you're wanting to go in and edit it, it's a piece of crap. Okay. It's like Vim or something like that. Where you have to know that. And I'm like, I'm not going that far. And if you want to use the agent, then it takes time to use the agent. I just do this for me and it's just like Claude, but it's not as fast.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  text: We're not revolutionary yet. We haven't had coffee. Yeah, but. And so you get a lot of craft in it. But you do get a pattern. And the pattern is you get generally. Pretty informed and it'll look like everything else out there. So people won't be surprised by what you give them. And it does do the work sort of thing is what you tell your audience. And it will do that. It'll just like focus it on our audience. It will do a terrible job unless. You give it a profile and Personas and be going down that path. But I thought this was of interest. But I, I've been working in warp a lot and using. So it's a command line interface. So it's a terminal with an id. They're really promoting their id. No one's getting the fact that it's an ide. So it says right there at the bottom, hey man, use our agent. I'm like, no, I'm using Claude. Yeah, yeah. But it is really good for. So I use multiple tabs. And so if you're wanting to just. Read code it shows you that if you're wanting to go in and edit it, it's a piece of crap. Okay. It's like Vim or something like that. Where you have to know that. And I'm like, I'm not going that far. And if you want to use the agent, then it takes time to use the agent. I just do this for me and it's just like Claude, but it's not as fast. Okay, but I like Cursor, the one that you, that you invited me to work. Like, it uses a bunch of different ones. So I really like Cursor. That's the one that I use quite often, David. Yeah, that's what I got it right there. Like, the panels are nice and it looks like VS code and it has all the same stuff and it's just good, right? It is pretty much. I think. Well, everything that has momentum right now is cloning VS code and then just either full HAWK taking it over and just saying, hey, we're sprinkling in an agent and some tooling, or they do something very minor with it. Maybe you're using Windsurf. It's hard to tell if you can't see up top what application it is. Hey, like, if you. If you can't see, it looks like whatever. Yeah, it's the same thing. We're trying to figure out how to. Work at a sharing level above the. Tool that we use. Because we all have different tools. I'm moving between them because that's who I am. I really like Claude code and I really like the not IDE experience, except. When I want to really tool it. And tell it what to do. You know, when I'm really. I'm reading it, I'm like, no, that's wrong. So the first pass is usually in something like that. And so how do I get my rules from cursor into that environment? That's a challenge. And everybody figures that out. And. But how do I get it so that, you know, Bibi is more rigorous at her rules and is a master. At getting certain other activities. And I would like to benefit from that. And so we're going through that process. Ourselves of how to surface what we. Can control outside of it, to put it inside. And that pretty much works on a too. It's like surface as much as you can outside a fucking LLM so that you. You're not, you know, on the wing of it. But Matt said you're always on the wing of the LLM. Yeah, it's just such a big thing.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  text: Okay, but I like Cursor, the one that you, that you invited me to work. Like, it uses a bunch of different ones. So I really like Cursor. That's the one that I use quite often, David. Yeah, that's what I got it right there. Like, the panels are nice and it looks like VS code and it has all the same stuff and it's just good, right? It is pretty much. I think. Well, everything that has momentum right now is cloning VS code and then just either full HAWK taking it over and just saying, hey, we're sprinkling in an agent and some tooling, or they do something very minor with it. Maybe you're using Windsurf. It's hard to tell if you can't see up top what application it is. Hey, like, if you. If you can't see, it looks like whatever. Yeah, it's the same thing. We're trying to figure out how to. Work at a sharing level above the. Tool that we use. Because we all have different tools. I'm moving between them because that's who I am. I really like Claude code and I really like the not IDE experience, except. When I want to really tool it. And tell it what to do. You know, when I'm really. I'm reading it, I'm like, no, that's wrong. So the first pass is usually in something like that. And so how do I get my rules from cursor into that environment? That's a challenge. And everybody figures that out. And. But how do I get it so that, you know, Bibi is more rigorous at her rules and is a master. At getting certain other activities. And I would like to benefit from that. And so we're going through that process. Ourselves of how to surface what we. Can control outside of it, to put it inside. And that pretty much works on a too. It's like surface as much as you can outside a fucking LLM so that you. You're not, you know, on the wing of it. But Matt said you're always on the wing of the LLM. Yeah, it's just such a big thing.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  text: It is pretty much. I think. Well, everything that has momentum right now is cloning VS code and then just either full HAWK taking it over and just saying, hey, we're sprinkling in an agent and some tooling, or they do something very minor with it. Maybe you're using Windsurf. It's hard to tell if you can't see up top what application it is. Hey, like, if you. If you can't see, it looks like whatever. Yeah, it's the same thing. We're trying to figure out how to. Work at a sharing level above the. Tool that we use. Because we all have different tools. I'm moving between them because that's who I am. I really like Claude code and I really like the not IDE experience, except. When I want to really tool it. And tell it what to do. You know, when I'm really. I'm reading it, I'm like, no, that's wrong. So the first pass is usually in something like that. And so how do I get my rules from cursor into that environment? That's a challenge. And everybody figures that out. And. But how do I get it so that, you know, Bibi is more rigorous at her rules and is a master. At getting certain other activities. And I would like to benefit from that. And so we're going through that process. Ourselves of how to surface what we. Can control outside of it, to put it inside. And that pretty much works on a too. It's like surface as much as you can outside a fucking LLM so that you. You're not, you know, on the wing of it. But Matt said you're always on the wing of the LLM. Yeah, it's just such a big thing. So I've got stuff to present today, David, if you are up for that. It's not what you're going to expect. It's what I had to do. But I, I swapped and I, I made sure that I used all my, all my AI stuff for this. So I'M gonna flip between screens and stuff like that because it's, it's just a little bit different. Let me just open. I think it's. It's here. Yeah. Is this the one document? Yeah, I just gotta open it here. But what I did is while I'm opening this, I'll. I'll explain what I've done. So I've written two documents with. With AI, and one is all my experiences about my startup company. And so for people that don't know what I do, I. I run Drift and it's startup bitumen extraction processing company. And we do bitumen extraction without heat pressure or tailings ponds. So it's, it's pretty. It's pretty, Pretty exciting. And we leverage all known technologies and, you know, it's. It's. I think it's pretty great, but I'm biased, so. But.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: Is this the one document? Yeah, I just gotta open it here. But what I did is while I'm opening this, I'll. I'll explain what I've done. So I've written two documents with. With AI, and one is all my experiences about my startup company. And so for people that don't know what I do, I. I run Drift and it's startup bitumen extraction processing company. And we do bitumen extraction without heat pressure or tailings ponds. So it's, it's pretty. It's pretty, Pretty exciting. And we leverage all known technologies and, you know, it's. It's. I think it's pretty great, but I'm biased, so. But. What I've done is I wrote a book and I used all my notes from all my experiences and I put it into AI and then just wrote a draft. So I'm probably not going to show that. But what I'll show today is the technical document that I wrote. What I did was I guided the AI. So we all have problems. It all. Sometimes the AI doesn't do exactly what we want to do, but people don't understand, like, it does exactly what you tell it to do. You just have to tell it to do it the right way to get the result that you want. And so I continue to explain that to people and they, they fight with me and they're like, no, it doesn't do anything right? And, you know, whatever. So I will open my document here and just give me a sec. Of course. Whenever you want to find something, it's always not there. All right, now I have to open my Google Drive. Sorry, guys. I should have been doing that while you're talking, David. That's okay. There's lots of talk to fill. Bibi, maybe you'd like to introduce yourself. Yeah, absolutely. So, hi, everybody. Hi. I'm Bibi Full Stack developer. I'm the traditional developer, not AI first, if you could say that. But nowadays I've been learning a lot about how to use AI first, and it's been pretty exciting to be seeing what David and Flovio have been doing together. It is a bit outside of my comfort zone, so I'm pretty excited. And I started dabbling with some tools as well. I've been playing with War. It's pretty interesting. I've done cloud code in the past a lot. My favorite IDE is winter. I really like all of the workflows and the agentic aspect of it. I like cursor as well, but, yeah, that's a bit about me. That's a lame introduction. Sorry.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  text: What I've done is I wrote a book and I used all my notes from all my experiences and I put it into AI and then just wrote a draft. So I'm probably not going to show that. But what I'll show today is the technical document that I wrote. What I did was I guided the AI. So we all have problems. It all. Sometimes the AI doesn't do exactly what we want to do, but people don't understand, like, it does exactly what you tell it to do. You just have to tell it to do it the right way to get the result that you want. And so I continue to explain that to people and they, they fight with me and they're like, no, it doesn't do anything right? And, you know, whatever. So I will open my document here and just give me a sec. Of course. Whenever you want to find something, it's always not there. All right, now I have to open my Google Drive. Sorry, guys. I should have been doing that while you're talking, David. That's okay. There's lots of talk to fill. Bibi, maybe you'd like to introduce yourself. Yeah, absolutely. So, hi, everybody. Hi. I'm Bibi Full Stack developer. I'm the traditional developer, not AI first, if you could say that. But nowadays I've been learning a lot about how to use AI first, and it's been pretty exciting to be seeing what David and Flovio have been doing together. It is a bit outside of my comfort zone, so I'm pretty excited. And I started dabbling with some tools as well. I've been playing with War. It's pretty interesting. I've done cloud code in the past a lot. My favorite IDE is winter. I really like all of the workflows and the agentic aspect of it. I like cursor as well, but, yeah, that's a bit about me. That's a lame introduction. Sorry. No, that's, no, that's great. That's great. And the nice thing is we have transcripts from every one of these, and so everybody gets the transcript. So there's, there's like 12 people or. 10 people on the list. And so you, you just introduce yourself to a whole lot of people that aren't here. That makes it even worse. Dave. All right. Yeah. No, so very. This is a type of paper that I would write for, for a journal article or a technical conference. This is what I'm going to use this document for. It took me probably longer than I would have expected just from using AI, but there was a lot of details that I had to provide and train the AI on. And so one of the things that I really struggled with was figure generation. It would, so what I did was I, I cheated because it's a tool and I'm allowed to cheat. And so what I did. And I'll show you the figures in a moment, but this is, I got 60 there, and then I did the rest myself in PowerPoint, which took me, you know, 20 minutes or whatever. But to do the whole thing, it would have taken me, you know, eight hours, nine hours, whatever it is.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  text: That makes it even worse. Dave. All right. Yeah. No, so very. This is a type of paper that I would write for, for a journal article or a technical conference. This is what I'm going to use this document for. It took me probably longer than I would have expected just from using AI, but there was a lot of details that I had to provide and train the AI on. And so one of the things that I really struggled with was figure generation. It would, so what I did was I, I cheated because it's a tool and I'm allowed to cheat. And so what I did. And I'll show you the figures in a moment, but this is, I got 60 there, and then I did the rest myself in PowerPoint, which took me, you know, 20 minutes or whatever. But to do the whole thing, it would have taken me, you know, eight hours, nine hours, whatever it is. Right. Because I wouldn't have been able to get the geometry and all that sort of stuff. So it's very, you know, I, I, I did all the editing. Like, I haven't, I'm not super comfortable yet allowing the, the AI to format everything because it has a special formatting coding or something like that, which is not conducive to a technical paper. It's, it's something else. Like whoever programmed always comes up with weird titles and stuff like that. So I'll work on that. But it did save me quite a bit of time. So this diagram was not generated by AI. This is my diagram. Yeah. So this just shows where the oil sands is. So in the green, this is the oil sands. And these squiggly lines here are the response to the rock that, that the tool has. Right. And so I, I know how to read these, and, and I eventually want the computer to read these, but that's down the road. So we'll, we'll, we'll talk about that. David. I'm not that skilled to, to do that, but we will talk about that.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  text: Because I wouldn't have been able to get the geometry and all that sort of stuff. So it's very, you know, I, I, I did all the editing. Like, I haven't, I'm not super comfortable yet allowing the, the AI to format everything because it has a special formatting coding or something like that, which is not conducive to a technical paper. It's, it's something else. Like whoever programmed always comes up with weird titles and stuff like that. So I'll work on that. But it did save me quite a bit of time. So this diagram was not generated by AI. This is my diagram. Yeah. So this just shows where the oil sands is. So in the green, this is the oil sands. And these squiggly lines here are the response to the rock that, that the tool has. Right. And so I, I know how to read these, and, and I eventually want the computer to read these, but that's down the road. So we'll, we'll, we'll talk about that. David. I'm not that skilled to, to do that, but we will talk about that. Yeah, yeah, that's a good Problem. It's a good one because you're. You're visually analyzing it, right? Yep, exactly. And so, you know, there's water sand here. And the reason I know it's water sand is because of this straight line right here. You can see the oil is all kind of squiggly. And. And this is a resistivity log. It just measures resistivity. And so I know what the cutoff for resistivity for oil sands is, so I've just made that cutoff. And then right here, you know, we have. We have, you know, we have water sand because it's different. And so I know that just from. From school, observing the curves and the transitions is that. Yeah, it's all. It's all observation. That's all, you know. And so obviously all of this was written by. By the AI with my guidance. Like, I was a manager and I was guiding the. I uploaded all my files. I trained the AI in our business, and then I said, I want to write this type of paper. You know, let's go. And so I did it section by section. I have a chat for each section. You know what I mean? And so the math and everything was all done by AI. I just described it. I mean, I know the math, but so I had to adjust it. But, you know, this is the diagram that I got from AI. I did not do this. I didn't write it or anything, which is actually pretty good. This diagram, I only had like six iterations, but it's a very technical diagram. It's a geometric shape. And those things are not great for AI. We know that that's a difficult thing for them to do, the large language model. So I really wanted to test it and grind it. And so it took me about seven tries to get it to this state.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: Yeah, it's all. It's all observation. That's all, you know. And so obviously all of this was written by. By the AI with my guidance. Like, I was a manager and I was guiding the. I uploaded all my files. I trained the AI in our business, and then I said, I want to write this type of paper. You know, let's go. And so I did it section by section. I have a chat for each section. You know what I mean? And so the math and everything was all done by AI. I just described it. I mean, I know the math, but so I had to adjust it. But, you know, this is the diagram that I got from AI. I did not do this. I didn't write it or anything, which is actually pretty good. This diagram, I only had like six iterations, but it's a very technical diagram. It's a geometric shape. And those things are not great for AI. We know that that's a difficult thing for them to do, the large language model. So I really wanted to test it and grind it. And so it took me about seven tries to get it to this state. It's pretty good, man. It's not bad, right? It has the diameters, it has the height, it has all the. Everything's labeled. It usually has the angle, which was a big struggle. Like, it didn't. Like, it wasn't understanding where I wanted to put the angle, but it did. This is a mistake for sure. The 10 meters over here. Yeah. But I'll let my editors pick that out, if they can even find it. Yeah, well, like this. I sent this out to, like, engineers and geologists and every. I'm like, guys, can you just. I've had four engineers come back to me and say, this is a very well written document. And I'm like, yeah, it really is. That's great. So this is a diagram. That's all AI that handled this simple one. Simple version of it. Yeah, simple version. It's just the 2D version. So that took me four tries to get that one. So it wasn't bad. And then this was a big struggle. So in the. What I'm doing is basically there's a geometric shape, but rocks don't adhere exactly to the geometric shape. So there's something called overbreak. And so I wanted to explain that. And basically it's extra material that you're going to recover just by. Just by recovering the original material. It just breaks down, the pressures change and, you know, all that sort of stuff. And so what I wanted it to do was exactly what it says in the legend. But what you can see in the diagram is not exactly. But I felt it was good enough because I was like, people know that there's a change on the edges. That's just what it is.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  text: I sent this out to, like, engineers and geologists and every. I'm like, guys, can you just. I've had four engineers come back to me and say, this is a very well written document. And I'm like, yeah, it really is. That's great. So this is a diagram. That's all AI that handled this simple one. Simple version of it. Yeah, simple version. It's just the 2D version. So that took me four tries to get that one. So it wasn't bad. And then this was a big struggle. So in the. What I'm doing is basically there's a geometric shape, but rocks don't adhere exactly to the geometric shape. So there's something called overbreak. And so I wanted to explain that. And basically it's extra material that you're going to recover just by. Just by recovering the original material. It just breaks down, the pressures change and, you know, all that sort of stuff. And so what I wanted it to do was exactly what it says in the legend. But what you can see in the diagram is not exactly. But I felt it was good enough because I was like, people know that there's a change on the edges. That's just what it is. Immediately I got that sense. Yeah, that's what it is. This next document or the next diagram. So all these tables, all generated by AI it taught me how to put formulas in word and, you know, like, just really easy stuff, nothing crazy. This was the diagram. Like, this explains everything that we're doing. So I will show you the figure that I got from AI because you guys are going to be more interested in that then the one. So I think this is. This is the one. No, this is my edits. Okay, so it's the one before this.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  text: Yeah, that's what it is. This next document or the next diagram. So all these tables, all generated by AI it taught me how to put formulas in word and, you know, like, just really easy stuff, nothing crazy. This was the diagram. Like, this explains everything that we're doing. So I will show you the figure that I got from AI because you guys are going to be more interested in that then the one. So I think this is. This is the one. No, this is my edits. Okay, so it's the one before this. Yeah. So this was what I told it to do after I struggled with it, because I was like, okay, you just need to give me the diagram without the labels. Right. I will edit it. You know what I mean? Because then I can spell everything, right? I can, you know, because it has trouble spelling and, you know, but it was. This was the diagram. And so you can see sort of the difference. Like you can see the sand and the space in the sand where the old labels were. And, you know, I wanted the. Well to drop down and, you know, it just wasn't. It wasn't going well. And I was just like, I can probably do this quicker. And so this is. This is the diagram that I wanted, right? So you can see that I made the well longer. You can see that I made room for the. For the labels and, you know, the cutout. You know, I just. Anyways, the point is, is that I. I would have taken. Because I've written a paper like this before and I did this in about 50 hours. This whole paper, there's 13 sections and, you know, know lots of math and. And diagrams and stuff. Like that I wrote this in about 50, 60 hours, something like that. Maybe a little bit less. Yeah, probably a little bit less. This. I wrote a similar paper to this for a different project that I was on and it took me eight months.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  text: I will edit it. You know what I mean? Because then I can spell everything, right? I can, you know, because it has trouble spelling and, you know, but it was. This was the diagram. And so you can see sort of the difference. Like you can see the sand and the space in the sand where the old labels were. And, you know, I wanted the. Well to drop down and, you know, it just wasn't. It wasn't going well. And I was just like, I can probably do this quicker. And so this is. This is the diagram that I wanted, right? So you can see that I made the well longer. You can see that I made room for the. For the labels and, you know, the cutout. You know, I just. Anyways, the point is, is that I. I would have taken. Because I've written a paper like this before and I did this in about 50 hours. This whole paper, there's 13 sections and, you know, know lots of math and. And diagrams and stuff. Like that I wrote this in about 50, 60 hours, something like that. Maybe a little bit less. Yeah, probably a little bit less. This. I wrote a similar paper to this for a different project that I was on and it took me eight months. Oh my God. And I'm not kidding now. There was more diagrams and there's twice. As big, but even they're twice as big as mine. Yeah, it like, because these documents take a long time because you're thinking about it and everything, but once, once I've read the draft, I'm like, okay, yeah, this is a good sentence. Check, check, check. And then I, I list it as final. And then every time I, I pull it out of the AI, it knows what to pull out. Right. Because I tell it to, to mark something as final. And then that's the only thing that you can pull out now is the final version. All my other versions. So that's an interesting. So could you describe that process? Because you basically create your own through process of working with it. Editing workflow. You know what I mean? Like you told it. Yeah, going on. And so you're saying it learned that when you said something was final that it wouldn't change that. Yeah, exactly. And so what I did was, was I gave it a certain. So I work in the project section of Chat GPT. Right. So you're able to make your own project. And so I uploaded the files that I wanted it to look at and then I said, okay, we're going to write section one. It's going to be an introduction. And I just said, okay, let's talk about whatever we need to talk about in the introduction. And then after I said, okay, I'm done with this, I like this version. Mark it as final and it marks it as final in its memory.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: So that's an interesting. So could you describe that process? Because you basically create your own through process of working with it. Editing workflow. You know what I mean? Like you told it. Yeah, going on. And so you're saying it learned that when you said something was final that it wouldn't change that. Yeah, exactly. And so what I did was, was I gave it a certain. So I work in the project section of Chat GPT. Right. So you're able to make your own project. And so I uploaded the files that I wanted it to look at and then I said, okay, we're going to write section one. It's going to be an introduction. And I just said, okay, let's talk about whatever we need to talk about in the introduction. And then after I said, okay, I'm done with this, I like this version. Mark it as final and it marks it as final in its memory. That's great. You could probably even do that at the level of the document you're building. You could do it. If you say, give me a JSON structure. I'm just thinking of the manifest thing. BB is like, give me a JSON structure. Here's my article. Every paragraph has status for the article and the status is editing. And you, you can edit any of those ones in there. If it says final, don't touch it. And maybe that's a simple enough rule that it will pay attention to the structure. Yep. Because, because what I found is every time, every time I, I, I, you know, I change something, but I like the paragraph before, but I didn't like the paragraph, it would fucking summarize shit. And it would just change it. And I'M just like, stop that. Right? And so I was always like, go back to the previous version. Which it will do. Which it will do. Like, if you get into that situation, you go, go back to the previous version. It'll just print. It'll just print the previous version, which was a good, like, you know, whatever. That button in undo, right, that was my undo button, right? But once I marked it as final, it knew that it was final and it printed the final copy. And I don't use Canva in ChatGPT because that's where I started using Canva, like the. Where it pulls out the document into a separate, you know, little space for you to work in. Because I found that it was more likely to change things that I didn't want changed if it was in Canva, but versus if it printed on screen. And I was just like, okay, I can't do this. This is totally. It was driving me insane, right? And I'm sure I spent like 10 hours telling it to not go forward, right? So I know this wasn't what I described the last time we met, David, but I needed to do this because I'm giving a talk. Like, this will be the basis. Like, my AI generated, like with me, but like AI augmented. I don't know what to call it. Anyways, whatever I'm going to call it will be part of a technical conference in Calgary in October.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u84
+  - u85
+  - u86
+  - u87
+  text: Because, because what I found is every time, every time I, I, I, you know, I change something, but I like the paragraph before, but I didn't like the paragraph, it would fucking summarize shit. And it would just change it. And I'M just like, stop that. Right? And so I was always like, go back to the previous version. Which it will do. Which it will do. Like, if you get into that situation, you go, go back to the previous version. It'll just print. It'll just print the previous version, which was a good, like, you know, whatever. That button in undo, right, that was my undo button, right? But once I marked it as final, it knew that it was final and it printed the final copy. And I don't use Canva in ChatGPT because that's where I started using Canva, like the. Where it pulls out the document into a separate, you know, little space for you to work in. Because I found that it was more likely to change things that I didn't want changed if it was in Canva, but versus if it printed on screen. And I was just like, okay, I can't do this. This is totally. It was driving me insane, right? And I'm sure I spent like 10 hours telling it to not go forward, right? So I know this wasn't what I described the last time we met, David, but I needed to do this because I'm giving a talk. Like, this will be the basis. Like, my AI generated, like with me, but like AI augmented. I don't know what to call it. Anyways, whatever I'm going to call it will be part of a technical conference in Calgary in October. Well, that's fucking awesome. And this is what surface your process, because that's one of the things that, like, we all try to champion, right? Like sharing that bit. And it's working at the document level in the chat bots and saying that you want to have this meta structure in place. So you're like, I approve each paragraph. Every paragraph, I approve. Don't touch it. You could just have a, like a system prompt that does that. Like, that would open all of these chat or all these canvas spaces. They have very little in the way of editing because of this problem that you're identifying. They'll allow you undo, or they'll have a selection and it'll say enhance or something. I've done those. That was the first thing I figured out how to do. Because I'm like, oh, editing inside this space is impossible.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  text: And so I was always like, go back to the previous version. Which it will do. Which it will do. Like, if you get into that situation, you go, go back to the previous version. It'll just print. It'll just print the previous version, which was a good, like, you know, whatever. That button in undo, right, that was my undo button, right? But once I marked it as final, it knew that it was final and it printed the final copy. And I don't use Canva in ChatGPT because that's where I started using Canva, like the. Where it pulls out the document into a separate, you know, little space for you to work in. Because I found that it was more likely to change things that I didn't want changed if it was in Canva, but versus if it printed on screen. And I was just like, okay, I can't do this. This is totally. It was driving me insane, right? And I'm sure I spent like 10 hours telling it to not go forward, right? So I know this wasn't what I described the last time we met, David, but I needed to do this because I'm giving a talk. Like, this will be the basis. Like, my AI generated, like with me, but like AI augmented. I don't know what to call it. Anyways, whatever I'm going to call it will be part of a technical conference in Calgary in October. Well, that's fucking awesome. And this is what surface your process, because that's one of the things that, like, we all try to champion, right? Like sharing that bit. And it's working at the document level in the chat bots and saying that you want to have this meta structure in place. So you're like, I approve each paragraph. Every paragraph, I approve. Don't touch it. You could just have a, like a system prompt that does that. Like, that would open all of these chat or all these canvas spaces. They have very little in the way of editing because of this problem that you're identifying. They'll allow you undo, or they'll have a selection and it'll say enhance or something. I've done those. That was the first thing I figured out how to do. Because I'm like, oh, editing inside this space is impossible. It is, yeah. But you, you've provided a way of at least maintaining some parts of a document that are finalized and then it will only edit possibly. Now you're saying I'm like, it does. Sometimes, but it's like, I would call it 90 good. That's. That's all we can really was at the prop level. That's all you can do. So that's a really cool strategy. And more than that, it's like a practical use and it does allow for people to jam with a chatbot and. Have, and not have it completely redo everything all the time. And so what I've done is I split each section so there's 13 sections, and so each section has its own chat. And so then I mark that section as final. And then if I wanted to, I could just say compile the document. But I just, I was cutting and pasting while I was going. But yeah, yeah, there's, there's no, there's no reason why you couldn't just say that in the project space. I don't think they've tuned it as, as much as I want. Like, when I, when I talk about other chats in the project space, it doesn't, it doesn't see it very much. So I would just pull the, I would pull the final section from that chat into and just say, okay, this is what I was talking about. This is final. Don't change it. And now let's make this flow together. And I would take the last paragraph of one section to make sure that there was a nice transition into the next section. And I also did the very same workflow with the book that I wrote with my notes and stuff like that. It was the very same workflow whether it was a technical document or whether it was like a book.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: And so what I've done is I split each section so there's 13 sections, and so each section has its own chat. And so then I mark that section as final. And then if I wanted to, I could just say compile the document. But I just, I was cutting and pasting while I was going. But yeah, yeah, there's, there's no, there's no reason why you couldn't just say that in the project space. I don't think they've tuned it as, as much as I want. Like, when I, when I talk about other chats in the project space, it doesn't, it doesn't see it very much. So I would just pull the, I would pull the final section from that chat into and just say, okay, this is what I was talking about. This is final. Don't change it. And now let's make this flow together. And I would take the last paragraph of one section to make sure that there was a nice transition into the next section. And I also did the very same workflow with the book that I wrote with my notes and stuff like that. It was the very same workflow whether it was a technical document or whether it was like a book. Okay, so that's a, that's a really high value. Like, so out of these conversations, that's a really high balance thing. We can actually just provide that as guidance and as a prompt, and then people can use that. I'm trying to figure out. I can show you one other thing. Like, I'm just trying to see if I have it here. I did have. Where's this, where I have my, like, I saved, like. Oh, thanks. I saved my key prompts just so I could just cut and paste them in. Into each, each chat. Like, here's my prompt for the whole thing. And then let's go. I'll just see if I can find it quickly as. I'll just search here. I'm pretty sure. I'm pretty sure I save them. Yeah. GPT bots. Yeah, here it is. There's a couple of desktop solutions that allow you to have like, the chat environment where you save all of your prompts and all of your chat histories, no matter which vendor you use. Yeah. One of them is called Libra Chat. And so you can, with your prompts, you can create agents right out of them and you can actually call the agents. Like it's really actually well built out. For a desktop app. Yeah. But it, if you were ever to wanting like the projects thing is bunk, man.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: I can show you one other thing. Like, I'm just trying to see if I have it here. I did have. Where's this, where I have my, like, I saved, like. Oh, thanks. I saved my key prompts just so I could just cut and paste them in. Into each, each chat. Like, here's my prompt for the whole thing. And then let's go. I'll just see if I can find it quickly as. I'll just search here. I'm pretty sure. I'm pretty sure I save them. Yeah. GPT bots. Yeah, here it is. There's a couple of desktop solutions that allow you to have like, the chat environment where you save all of your prompts and all of your chat histories, no matter which vendor you use. Yeah. One of them is called Libra Chat. And so you can, with your prompts, you can create agents right out of them and you can actually call the agents. Like it's really actually well built out. For a desktop app. Yeah. But it, if you were ever to wanting like the projects thing is bunk, man. Yeah, it's, it doesn't work. It's not as good as I thought it was going to be. Like when I read about it, I was like, oh yeah, this sounds exactly like what I need because it's my own little space. Right. And I'm used to that for geology because we have our own little area that we just want to work on. And yeah, it's, it's, it's, it's influenced by other things. But like I want to focus a lot on this work. Yeah. And so anyways, this is an example of some of the chats that I had, you know. Please review this entire document carefully. I want, for, this is for my references. I want four things. The exact authors and organizations as stated in the title page. Not inferred. You know, just a short technical summary. The correct APA citation. Concise explanation of how this document supports or does not support Gabe development. Do not skip assume authorship. Do not use past examples or memory read and extract directly from the document. Take your time, only respond when you're sure.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  text: And so anyways, this is an example of some of the chats that I had, you know. Please review this entire document carefully. I want, for, this is for my references. I want four things. The exact authors and organizations as stated in the title page. Not inferred. You know, just a short technical summary. The correct APA citation. Concise explanation of how this document supports or does not support Gabe development. Do not skip assume authorship. Do not use past examples or memory read and extract directly from the document. Take your time, only respond when you're sure. This is great. This is great. You know what I would suggest? And this is, this is, I would suggest trying to get the LLMs to optimize your prompt. That is that, that's because it's really succinct. I'm like, I don't know if you could get it any better. That's why I would do it. So I wrote it, I wrote what I wanted and then I'm like, tell me how to help you. You tell me how to help you. And that's, that's what I came up. And so I actually still do the old school. When I'm using or building system level prompts I do for using just myself, I say there'll be a system prompt that starts ura. Yeah. Yep. And, and then it, and then I know that I'm getting what I want. And it knows what I'm looking for because then it knows that you're sort of a consumer grade, you're looking to chat with it. Yeah, this is really powerful. And that's, that's, that's the kind of concise thing that you can get a lot other than I'm trying to build a templating system with my stuff that says okay, what is the valuable pieces. In Here in terms of that structure. That you have, just like I'm talking. About your workflow and then say, that's what I work at the level up. Instead of defining the rules themselves. When I was talking about earlier sharing things with Bibi, that's what we're doing across our ides, we're sharing the rule sets for how we integrate with other tools like git, because our IDEs can do all that for us, but we want to be able to control certain messaging. What we do is we make sure the messaging is correct and then we can still drive part of it. But also inside the different IDs, there's just like you have here, you can give it the rules like you can in ChatGPT and Claude, and you can give them more specifically around code. You can do it a higher level, just like you were doing. You can give it a higher level set of rules. And here's how we build out a project. Yeah, right. And so you. Now you've done an article twice, right. You've done this article, you've done this. One with AI hand in hand in. Terms of building out your corpus, what. I call it, your corpus of work.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  text: Yep. And, and then it, and then I know that I'm getting what I want. And it knows what I'm looking for because then it knows that you're sort of a consumer grade, you're looking to chat with it. Yeah, this is really powerful. And that's, that's, that's the kind of concise thing that you can get a lot other than I'm trying to build a templating system with my stuff that says okay, what is the valuable pieces. In Here in terms of that structure. That you have, just like I'm talking. About your workflow and then say, that's what I work at the level up. Instead of defining the rules themselves. When I was talking about earlier sharing things with Bibi, that's what we're doing across our ides, we're sharing the rule sets for how we integrate with other tools like git, because our IDEs can do all that for us, but we want to be able to control certain messaging. What we do is we make sure the messaging is correct and then we can still drive part of it. But also inside the different IDs, there's just like you have here, you can give it the rules like you can in ChatGPT and Claude, and you can give them more specifically around code. You can do it a higher level, just like you were doing. You can give it a higher level set of rules. And here's how we build out a project. Yeah, right. And so you. Now you've done an article twice, right. You've done this article, you've done this. One with AI hand in hand in. Terms of building out your corpus, what. I call it, your corpus of work. Yeah. So you could probably do your next. One in half that time. I expect that it will take me less time to do the next one. Yeah. The only hiccup is the imaging. And I tried a bunch of different agents and a bunch of different, like I looked up, you know, what, what are the AIs that generate the best images and, and that sort of thing. And I'll tell you, Chat GPT was still the best. Like I tried four different ones. Yeah. And it was still the best. Yeah, yeah. I think that, that you can spend a lot of time in there and. If that's not your main goal, your main focus. It is, it's the rabbit hole thing with we get in and so. Yeah, so that's why I just did. Yeah, that's why I just did what I told you. I was like, okay, you are like 60 there. Just give me the blank one and then I will do all the edit. Because there is, there's a, there's a definite difference between what I produced and.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: I expect that it will take me less time to do the next one. Yeah. The only hiccup is the imaging. And I tried a bunch of different agents and a bunch of different, like I looked up, you know, what, what are the AIs that generate the best images and, and that sort of thing. And I'll tell you, Chat GPT was still the best. Like I tried four different ones. Yeah. And it was still the best. Yeah, yeah. I think that, that you can spend a lot of time in there and. If that's not your main goal, your main focus. It is, it's the rabbit hole thing with we get in and so. Yeah, so that's why I just did. Yeah, that's why I just did what I told you. I was like, okay, you are like 60 there. Just give me the blank one and then I will do all the edit. Because there is, there's a, there's a definite difference between what I produced and. What the, what the. What the AI produced. Which is fine. It just, it saved me a lot of time, no doubt. But it was just, it wasn't exactly what I wanted. And that's okay. I know that it'll get better in a month. Yeah, No, I find it's better as a starting, like if you have a small amount of work, like a Small corpus of work. It's good at helping you blow out. Framework to build it out. But if you have a good corpus of work, depending on the wrong model. You get to drivel. Yeah. And even with O3, which is great. It has a certain patina to it and it will come out in a certain way. And so you're, you're getting at the. Same thing that we figuring, you know, we're all figuring out is like the. More superstructure you put around your documentation, meaning do it this way, do it that way. That's the rule level. And the less time you spend fixing. What we normally say it's broken on. Well, now I have, now I have an example, right. The next document I write, I'll be like, this is the gold standard you need to format, you need to do everything just like this. And here are your rules, which I have my prompts and stuff like that. So here are your rules for references. Here are your rules. You, you have to check every paragraph with me and I have to mark it as final. You know what I mean? Like, as you go through, it's just, it's, it's, it's very exciting for me.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  text: Well, now I have, now I have an example, right. The next document I write, I'll be like, this is the gold standard you need to format, you need to do everything just like this. And here are your rules, which I have my prompts and stuff like that. So here are your rules for references. Here are your rules. You, you have to check every paragraph with me and I have to mark it as final. You know what I mean? Like, as you go through, it's just, it's, it's, it's very exciting for me. So yeah, that's great. I'm going to be able to pump out a couple more technical documents over. The next couple months. And, and it won't take me eight months to do one. It'll take me, you know, a week or two. Which is, which is just great because then I can push that content out to whoever needs to see it. Right. So this will be the backbone, this document will be the backbone for investor documentation. Investors. It'll be marketing materials. It'll it like it is everything. And, and David, I will send you a copy so that you can see, you know, you can like, I know you're trying to read on the screen and everything. I'll just, I'm happy to share. Like that'd be cool. Yeah, yeah. You were fine with sharing. I think we, but I won't share it beyond that. I'm looking again for that thing that I can release as a pattern amongst ourselves. Just like you said, you're, you now know you can plow through your own work. And I'm trying to see how can. We plow through whatever the domain knowledge work is. Yep, exactly. So the last thing that I, and I know I'm monopolizing because I haven't been here for a while. But, but the last thing I did was I created a six week sprint for the AER thing that I was, I was talking about the last time and that's probably what you expected to see this time with some, some development. But I was, I was tied up with, with this document in my book and money and you know, all that sort of stuff. So this I, I can show you on screen. Just let me get it here. I'll just share my screen again.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  text: Like that'd be cool. Yeah, yeah. You were fine with sharing. I think we, but I won't share it beyond that. I'm looking again for that thing that I can release as a pattern amongst ourselves. Just like you said, you're, you now know you can plow through your own work. And I'm trying to see how can. We plow through whatever the domain knowledge work is. Yep, exactly. So the last thing that I, and I know I'm monopolizing because I haven't been here for a while. But, but the last thing I did was I created a six week sprint for the AER thing that I was, I was talking about the last time and that's probably what you expected to see this time with some, some development. But I was, I was tied up with, with this document in my book and money and you know, all that sort of stuff. So this I, I can show you on screen. Just let me get it here. I'll just share my screen again. So this is, you know, and for, for folks that weren't here the last time when I was explaining about this. Let's see if I put it in here. Yeah, business. I think it was business ideas Regulatory. Yeah it's not coming up unfortunately there's two more items here that are supposed to be there anyways. Hopefully maybe it's here. No. I find that the, the user experience of chat GPT is a little flaky. It is. It's not. Oh, here it is. See it always comes back though. I've never lost anything. That's. Yeah, neither have I. I've never lost anything either. But. Yeah, it's still not coming up. I don't, I don't know anyways but basically I have a printed out copy because I, I know this but basically it's a six month, it's a six month sprint on and I can just kind of read, read you the titles. It's like project overview and remember the documentation you and I were talking about the last time and how to like create that documentation. Like you want to create the documentation of what you want to do before you actually go and do it and then check it with GPT or whatever you know, model you're doing and then, and then you upload that plan as your base and then you tell it to just go and do it. So I've taken a half step David, because I'm very conservative. I haven't. I want to do some of it because I always like to understand some stuff. So I've just, I've done the six, the six week sprint on. You know it's the Alberta Energy Regulator companion app and it's the full development package and I've, I've just created you know, each week, you know, you have your app name and then you have the one liner description AI powered tool to help navigate AER regulations, applications and compliance tasks faster. So that is the goal of the AI agent is to do those things. And so you know, the problem is complexity of the regulator documents, the uncertainty around application requirements, unclear timelines and then lack of support for small operators and then limited access to past CSRs and SOCs. And so that is a question I have for this Group is how do I scrape stuff from the Internet? Like, I could go and download everything, but I want to scrape it like they. It's. It's already public data. I don't know the tool that allows the AI to go, because every time I ask it, it's like, oh, I can't read websites and I can't download those documents. And I'm like, what the hell? Like, so I just haven't spent enough time. So if you guys can give me a little bit of a head start, that's. That's what I want to do eventually, is just pull everything down so I don't have to do it manually.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  text: No. I find that the, the user experience of chat GPT is a little flaky. It is. It's not. Oh, here it is. See it always comes back though. I've never lost anything. That's. Yeah, neither have I. I've never lost anything either. But. Yeah, it's still not coming up. I don't, I don't know anyways but basically I have a printed out copy because I, I know this but basically it's a six month, it's a six month sprint on and I can just kind of read, read you the titles. It's like project overview and remember the documentation you and I were talking about the last time and how to like create that documentation. Like you want to create the documentation of what you want to do before you actually go and do it and then check it with GPT or whatever you know, model you're doing and then, and then you upload that plan as your base and then you tell it to just go and do it. So I've taken a half step David, because I'm very conservative. I haven't. I want to do some of it because I always like to understand some stuff. So I've just, I've done the six, the six week sprint on. You know it's the Alberta Energy Regulator companion app and it's the full development package and I've, I've just created you know, each week, you know, you have your app name and then you have the one liner description AI powered tool to help navigate AER regulations, applications and compliance tasks faster. So that is the goal of the AI agent is to do those things. And so you know, the problem is complexity of the regulator documents, the uncertainty around application requirements, unclear timelines and then lack of support for small operators and then limited access to past CSRs and SOCs. And so that is a question I have for this Group is how do I scrape stuff from the Internet? Like, I could go and download everything, but I want to scrape it like they. It's. It's already public data. I don't know the tool that allows the AI to go, because every time I ask it, it's like, oh, I can't read websites and I can't download those documents. And I'm like, what the hell? Like, so I just haven't spent enough time. So if you guys can give me a little bit of a head start, that's. That's what I want to do eventually, is just pull everything down so I don't have to do it manually.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  text: Yeah, it's still not coming up. I don't, I don't know anyways but basically I have a printed out copy because I, I know this but basically it's a six month, it's a six month sprint on and I can just kind of read, read you the titles. It's like project overview and remember the documentation you and I were talking about the last time and how to like create that documentation. Like you want to create the documentation of what you want to do before you actually go and do it and then check it with GPT or whatever you know, model you're doing and then, and then you upload that plan as your base and then you tell it to just go and do it. So I've taken a half step David, because I'm very conservative. I haven't. I want to do some of it because I always like to understand some stuff. So I've just, I've done the six, the six week sprint on. You know it's the Alberta Energy Regulator companion app and it's the full development package and I've, I've just created you know, each week, you know, you have your app name and then you have the one liner description AI powered tool to help navigate AER regulations, applications and compliance tasks faster. So that is the goal of the AI agent is to do those things. And so you know, the problem is complexity of the regulator documents, the uncertainty around application requirements, unclear timelines and then lack of support for small operators and then limited access to past CSRs and SOCs. And so that is a question I have for this Group is how do I scrape stuff from the Internet? Like, I could go and download everything, but I want to scrape it like they. It's. It's already public data. I don't know the tool that allows the AI to go, because every time I ask it, it's like, oh, I can't read websites and I can't download those documents. And I'm like, what the hell? Like, so I just haven't spent enough time. So if you guys can give me a little bit of a head start, that's. That's what I want to do eventually, is just pull everything down so I don't have to do it manually. Okay, so there are a bunch of ways to crawl the web now. And what for LLMs, commonly, what we. Want to do is turn it into Markdown. Right. So you want to go to their website. Markdown is like a light. I know what it is. Yeah. So it's. It just converts really well. And so if you use a service like Exa, which is designed for developers, but you can use it in your IDE really well, too, to be able to take any website and go any number of depths deep and scrape the. Whole site and turn it into, like, documents. Okay, Is that the kind of thing you're looking for? Well, there'll be links to documents that I like. So, for example, if you just type in right now, just go to AER directive 56 just. And you'll get it right away. No, 60 is fine. Yeah, it doesn't matter, whatever directive it is. So just click on that and a PDF will come up. Okay, you want the PDFs, I want the PDF, right? Yeah, yeah. Okay, you can do that. Yeah, yeah. Right.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  text: So it's. It just converts really well. And so if you use a service like Exa, which is designed for developers, but you can use it in your IDE really well, too, to be able to take any website and go any number of depths deep and scrape the. Whole site and turn it into, like, documents. Okay, Is that the kind of thing you're looking for? Well, there'll be links to documents that I like. So, for example, if you just type in right now, just go to AER directive 56 just. And you'll get it right away. No, 60 is fine. Yeah, it doesn't matter, whatever directive it is. So just click on that and a PDF will come up. Okay, you want the PDFs, I want the PDF, right? Yeah, yeah. Okay, you can do that. Yeah, yeah. Right. So. So I want to do that for every directive, every memo, every il, everything that they have on their website. I need it and want it, and it's. I have to have it. I have to. How about if you can figure it out? Or you can weigh half a heartbeat, because we got to figure that out, too. All right. There are tools for doing exactly this. You want to. So what? I understand the steps now. You want to do exactly what we want to do with an organization called absa. Oh, yes. Oh, my God, yes. Okay. So they have the same. They have the same rat's nest of bullshit. And so the first step is downloading the PDFs. The second step is turning the PDFs into single pages and then turning those single pages into OCR documents or OCR text. You can do that through something like. I think Excel will probably do that as well. But what you want is a PDF to markdown or text converter as part of the solution. Because these are going to be. Actually, you're probably not. These aren't probably forms. They're probably. Oh man. It's a lot of text. They'll convert really well. Really well. Yeah. And so. Oh, it's actually, it's telling me it was extracting text. Extracting text from PDF. Yeah, you can do it right there. It's doing it as I'm scrolling. What the hell? I don't even know what's going on. So that was weird. But what you want to do is so you first step is scrape them all down into directories. That is convert them into live text into a database. Yeah. And then you are off to the races. You can supersede the regulatory bodies. So you know, why don't we build this out together?
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  text: Okay. So they have the same. They have the same rat's nest of bullshit. And so the first step is downloading the PDFs. The second step is turning the PDFs into single pages and then turning those single pages into OCR documents or OCR text. You can do that through something like. I think Excel will probably do that as well. But what you want is a PDF to markdown or text converter as part of the solution. Because these are going to be. Actually, you're probably not. These aren't probably forms. They're probably. Oh man. It's a lot of text. They'll convert really well. Really well. Yeah. And so. Oh, it's actually, it's telling me it was extracting text. Extracting text from PDF. Yeah, you can do it right there. It's doing it as I'm scrolling. What the hell? I don't even know what's going on. So that was weird. But what you want to do is so you first step is scrape them all down into directories. That is convert them into live text into a database. Yeah. And then you are off to the races. You can supersede the regulatory bodies. So you know, why don't we build this out together? Why don't we do that? Then I will send you my Sprint because I have all the like, I'll, I'll be able to like code the interface and everything like that. Like that. That's just from Claude, like I'm. Or, or, or cursor or whatever. But it's the back end. Because I was gonna, I'll tell you my plan. I have it right here in front of me. I was gonna download one, one PDF like directive 56 or whatever and I was gonna just work with that one PDF to see if I could get, get it into the database, how it's housed. I was going to use a super base database. Just pay for the whatever. How. Yeah, 10 bucks or whatever it is. And then I was going to, then I was going to test it, right? I was going to test it and trial it and can I get the next document? Okay, can I get directive 60? Can I get. And then once I have a, a workflow then I was just going to scrape everything. That is exactly the kind of progressive build you want to do for your app. Once I have a specification for app, I'll do build out a plan and I want it to be progressive. In fact, cloud code will do that. It will build out a progressive plan. And each step build out an app. So that it proves the technology works. Behind the scenes. There's things that can be done to ensure that there's quality on board. But what I'm showing you here is some piece of a tool like we're talking about. It takes any kind of mark, any. Kind of. Text based image and then just turns it into, you know, whatever and then builds a database behind the scenes, and then you can semantically search. The whole goddamn thing. Thing. And that's just in this app, standing. Alone as a client. So it doesn't even have a database back end. And we need to do this kind of ingestion of things for our clients on an ongoing basis. And it should be. It should be able to just be able to handle a PDF and do. It from the get go. And that's what you want. You want to like, upload PDF, put it in a database, let me do my shit.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  text: Why don't we do that? Then I will send you my Sprint because I have all the like, I'll, I'll be able to like code the interface and everything like that. Like that. That's just from Claude, like I'm. Or, or, or cursor or whatever. But it's the back end. Because I was gonna, I'll tell you my plan. I have it right here in front of me. I was gonna download one, one PDF like directive 56 or whatever and I was gonna just work with that one PDF to see if I could get, get it into the database, how it's housed. I was going to use a super base database. Just pay for the whatever. How. Yeah, 10 bucks or whatever it is. And then I was going to, then I was going to test it, right? I was going to test it and trial it and can I get the next document? Okay, can I get directive 60? Can I get. And then once I have a, a workflow then I was just going to scrape everything. That is exactly the kind of progressive build you want to do for your app. Once I have a specification for app, I'll do build out a plan and I want it to be progressive. In fact, cloud code will do that. It will build out a progressive plan. And each step build out an app. So that it proves the technology works. Behind the scenes. There's things that can be done to ensure that there's quality on board. But what I'm showing you here is some piece of a tool like we're talking about. It takes any kind of mark, any. Kind of. Text based image and then just turns it into, you know, whatever and then builds a database behind the scenes, and then you can semantically search. The whole goddamn thing. Thing. And that's just in this app, standing. Alone as a client. So it doesn't even have a database back end. And we need to do this kind of ingestion of things for our clients on an ongoing basis. And it should be. It should be able to just be able to handle a PDF and do. It from the get go. And that's what you want. You want to like, upload PDF, put it in a database, let me do my shit. Yep, exactly. Or. Or alternatively, David, I want you as the user to go to the site and everything's already uploaded for you. It's like a regulatory manager in a box. Yeah, but I mean, initially, for figuring out that. For figuring it out, yes. Yeah. You want the database first and you're like, okay, now I got it. Now I can hand off any PDF I like, but I'll use all this data to figure out what PDF they need.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  text: That is exactly the kind of progressive build you want to do for your app. Once I have a specification for app, I'll do build out a plan and I want it to be progressive. In fact, cloud code will do that. It will build out a progressive plan. And each step build out an app. So that it proves the technology works. Behind the scenes. There's things that can be done to ensure that there's quality on board. But what I'm showing you here is some piece of a tool like we're talking about. It takes any kind of mark, any. Kind of. Text based image and then just turns it into, you know, whatever and then builds a database behind the scenes, and then you can semantically search. The whole goddamn thing. Thing. And that's just in this app, standing. Alone as a client. So it doesn't even have a database back end. And we need to do this kind of ingestion of things for our clients on an ongoing basis. And it should be. It should be able to just be able to handle a PDF and do. It from the get go. And that's what you want. You want to like, upload PDF, put it in a database, let me do my shit. Yep, exactly. Or. Or alternatively, David, I want you as the user to go to the site and everything's already uploaded for you. It's like a regulatory manager in a box. Yeah, but I mean, initially, for figuring out that. For figuring it out, yes. Yeah. You want the database first and you're like, okay, now I got it. Now I can hand off any PDF I like, but I'll use all this data to figure out what PDF they need. Yeah, exactly. And so the other thing is they update their regulations just like ABSA does every, you know, whatever year, six months or whatever it is. I want that to go and just ping them and say, okay, where's the updates? What's changed? Right. This is a significant business opportunity in Alberta. I agree 100%. And it is the kind of thing that if we could provide this to ABSA and say, this is the better way to go, we don't touch anything, we just take all your data, we digitize it, we then make it a better interface where it's all searchable and we can provide you an agent on the front end, they would, I think, bite on that. Yes. And then, you know, because that's. We're 70% of the way there, the agent on top is easy enough as soon as you get a database together. So this idea of being able to scrape these organizations in Alberta that have admittedly so had a back end, and then they got hacked and they didn't know what to do. So now they have PDFs. Like, they run a 13 billion. No, I don't know. It's trillions of dollars. Trillions of fucking dollars. And they run off of paper. Yep. Anyways, so I think that this makes a ton of sense. And if you're cool to just tacitly sharing this as an opportunity right now and seeing how we can promote it as a business, we got to solve this problem on our side. To the point of having the data building something specific for these clients on their side. Yeah, secondary thing. But you already want to do that. So this is a good result of this meeting and I really thank you for sharing that last piece and I think I gotta unfortunately meet on the. AMQC project here shortly. So. I'm gonna see Vivi. I don't think you've been invited to that. Are you available? Yeah, I will invite you that because it's happening right afterwards and we will talk about this piece that I'm showing. Right here and we will bring it. Up in the context of having to do that with. We need to do it for all of the documents we get at the beginning of a project from, from engineering documents to specifications. And I've done this with a take. So I've been given a turnover package, digitize the whole of a 1300 page turnover package. And I'm auditing it for their quality control. To understand how they use their quality control. Yeah. And the way that I'm doing it is using it, building a database and then using AI on top of it.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u160
+  - u161
+  text: And it is the kind of thing that if we could provide this to ABSA and say, this is the better way to go, we don't touch anything, we just take all your data, we digitize it, we then make it a better interface where it's all searchable and we can provide you an agent on the front end, they would, I think, bite on that. Yes. And then, you know, because that's. We're 70% of the way there, the agent on top is easy enough as soon as you get a database together. So this idea of being able to scrape these organizations in Alberta that have admittedly so had a back end, and then they got hacked and they didn't know what to do. So now they have PDFs. Like, they run a 13 billion. No, I don't know. It's trillions of dollars. Trillions of fucking dollars. And they run off of paper. Yep. Anyways, so I think that this makes a ton of sense. And if you're cool to just tacitly sharing this as an opportunity right now and seeing how we can promote it as a business, we got to solve this problem on our side. To the point of having the data building something specific for these clients on their side. Yeah, secondary thing. But you already want to do that. So this is a good result of this meeting and I really thank you for sharing that last piece and I think I gotta unfortunately meet on the. AMQC project here shortly. So. I'm gonna see Vivi. I don't think you've been invited to that. Are you available? Yeah, I will invite you that because it's happening right afterwards and we will talk about this piece that I'm showing. Right here and we will bring it. Up in the context of having to do that with. We need to do it for all of the documents we get at the beginning of a project from, from engineering documents to specifications. And I've done this with a take. So I've been given a turnover package, digitize the whole of a 1300 page turnover package. And I'm auditing it for their quality control. To understand how they use their quality control. Yeah. And the way that I'm doing it is using it, building a database and then using AI on top of it. That's exactly what I wanted to do, David. That's exactly how I want to run this, is to have that database background. But in the background of the database it also has to be sort of updated. And you know, and whether that's a human or an AI, I don't care.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  text: And it is the kind of thing that if we could provide this to ABSA and say, this is the better way to go, we don't touch anything, we just take all your data, we digitize it, we then make it a better interface where it's all searchable and we can provide you an agent on the front end, they would, I think, bite on that. Yes. And then, you know, because that's. We're 70% of the way there, the agent on top is easy enough as soon as you get a database together. So this idea of being able to scrape these organizations in Alberta that have admittedly so had a back end, and then they got hacked and they didn't know what to do. So now they have PDFs. Like, they run a 13 billion. No, I don't know. It's trillions of dollars. Trillions of fucking dollars. And they run off of paper. Yep. Anyways, so I think that this makes a ton of sense. And if you're cool to just tacitly sharing this as an opportunity right now and seeing how we can promote it as a business, we got to solve this problem on our side. To the point of having the data building something specific for these clients on their side. Yeah, secondary thing. But you already want to do that. So this is a good result of this meeting and I really thank you for sharing that last piece and I think I gotta unfortunately meet on the. AMQC project here shortly. So. I'm gonna see Vivi. I don't think you've been invited to that. Are you available? Yeah, I will invite you that because it's happening right afterwards and we will talk about this piece that I'm showing. Right here and we will bring it. Up in the context of having to do that with. We need to do it for all of the documents we get at the beginning of a project from, from engineering documents to specifications. And I've done this with a take. So I've been given a turnover package, digitize the whole of a 1300 page turnover package. And I'm auditing it for their quality control. To understand how they use their quality control. Yeah. And the way that I'm doing it is using it, building a database and then using AI on top of it. That's exactly what I wanted to do, David. That's exactly how I want to run this, is to have that database background. But in the background of the database it also has to be sort of updated. And you know, and whether that's a human or an AI, I don't care. But yeah, there's a lot of still normal business attire on an idea like this. We can service our own immediate needs without that. And then through the seating, if like on my side, it'd be other people. Negotiating and talking to those people, seeing. If there's a business opportunity to quickly help them. Because this isn't a really, really big achievement. It's a, it's a medium sized one. In terms of technology. But like to organizations like them, I. Have seven other organizations that we can do the same thing for. It's a deal and a half. Like in bc, here we have community associations in Kelowna. They're setting up and I think they're setting up in all cities and there's small regions within the city that get a certain amount of money to manage themselves as a way of being a sub sort of soft organization anyways, they get enough money to hang themselves. But if you do the math, there's 10 of them, that's 50,000 a year. You could support them technically for 50,000 a year. Of course you could. Right. And so if you did that across the country, there's $5 million right there a year to support these small organizations that have one person running them. And I think these things that we're talking about this is where the opportunities lie right now. I agree. That's a really big one. And it can be something that's been up quickly. And I'll proceed with the conversation in 12 minutes along those lines, you'll forward the document.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  text: It's a deal and a half. Like in bc, here we have community associations in Kelowna. They're setting up and I think they're setting up in all cities and there's small regions within the city that get a certain amount of money to manage themselves as a way of being a sub sort of soft organization anyways, they get enough money to hang themselves. But if you do the math, there's 10 of them, that's 50,000 a year. You could support them technically for 50,000 a year. Of course you could. Right. And so if you did that across the country, there's $5 million right there a year to support these small organizations that have one person running them. And I think these things that we're talking about this is where the opportunities lie right now. I agree. That's a really big one. And it can be something that's been up quickly. And I'll proceed with the conversation in 12 minutes along those lines, you'll forward the document. So I'm gonna. I'm still gonna do my sprint. I'll. I'll see. Oh, man. No. Hey, anything you got moving, you keep it moving. I'm happy to work with you guys and. And. And discuss. And you can book me offline. It doesn't have to be every Wednesday. But. Yeah, just call me later like you always do. Yeah, I know I'm a loser that way. But in this case, I will put it to bed one way or the other and on my side, you know, Me too. It could be I just decide to wake up Sunday morning and build something too. Right? Exactly. And as long as we're of that mind that this is a decent problem to solve, we'll contribute to solving the problem. And I think that's. I think the fine what this room. Affords us in terms of trust. So we'll chat soon. Man, that's great. Nice to meet you in a few minutes. Okay. See ya. Are you there she is frozen. She's frozen. Oh, there you are. Oh, sorry. My Internet. Yeah, no, because it was perfect. It was almost a perfect pause, and then it's like, no, you can't pause that long. You're not that good. Yeah. I'll invite you to this other meeting and it'll be ongoing. And I will. You will be ongoing. Invited. It's a. It's meant to be the jump, the divide between oil and gas and technology talk and we see who shows up. Because it's pretty ad hoc, but at least we'll be there.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3001.64
+  utterance_ids:
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  text: Yeah, I know I'm a loser that way. But in this case, I will put it to bed one way or the other and on my side, you know, Me too. It could be I just decide to wake up Sunday morning and build something too. Right? Exactly. And as long as we're of that mind that this is a decent problem to solve, we'll contribute to solving the problem. And I think that's. I think the fine what this room. Affords us in terms of trust. So we'll chat soon. Man, that's great. Nice to meet you in a few minutes. Okay. See ya. Are you there she is frozen. She's frozen. Oh, there you are. Oh, sorry. My Internet. Yeah, no, because it was perfect. It was almost a perfect pause, and then it's like, no, you can't pause that long. You're not that good. Yeah. I'll invite you to this other meeting and it'll be ongoing. And I will. You will be ongoing. Invited. It's a. It's meant to be the jump, the divide between oil and gas and technology talk and we see who shows up. Because it's pretty ad hoc, but at least we'll be there.

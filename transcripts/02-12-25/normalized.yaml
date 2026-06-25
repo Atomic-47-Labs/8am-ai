@@ -1,0 +1,1264 @@
+meeting:
+  date: '2025-02-12'
+  title: 8am-AI 2025-02-12
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Jason Kryski
+  duration_s: 3006.42
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 153.1
+  t_end: 153.84
+  text: It.
+- id: u2
+  speaker: David Olsson
+  t_start: 179.19
+  t_end: 180.17
+  text: Good morning.
+- id: u3
+  speaker: Fulvio Ciano
+  t_start: 181.19
+  t_end: 182.286
+  text: Good morning, David.
+- id: u4
+  speaker: David Olsson
+  t_start: 182.318
+  t_end: 185.53
+  text: How are you? Not too bad.
+- id: u5
+  speaker: Fulvio Ciano
+  t_start: 186.63
+  t_end: 194.01
+  text: Sound like cold or something. Sorry, you have a cold or something?
+- id: u6
+  speaker: David Olsson
+  t_start: 195.27
+  t_end: 209.69
+  text: I don't know if I've got cold. I got sniffles right now for sure. And it's been four long days, so I'm waking up slower. Here's.
+- id: u7
+  speaker: David Olsson
+  t_start: 222.99
+  t_end: 225.57
+  text: I've got a DB in here.
+- id: u8
+  speaker: Fulvio Ciano
+  t_start: 228.83
+  t_end: 230.49
+  text: Mongo Atlas.
+- id: u9
+  speaker: David Olsson
+  t_start: 231.1
+  t_end: 258.44
+  text: No, I'm just using IndexEDDB and there's a library called Dexi that makes it easy to work with multiple stores. Right now I'm just, Every time I upload data, I put a plus in here to load the previous, the most recent store because I was getting bored of uploading all the time because my UI is real time. It's like, it's really. I need to start with the. Okay, Dave, you got to test it instead of build it. But now I've got a plus sign in there that just goes back and pulls this out. Otherwise I was like loading.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 259.54
+  t_end: 276.924
+  text: I've got a look, I've got a local MongoDB instance running and if we ever need to get, we will, we'll need to get like a Mongo Atlas going. Yeah, I can do that real, real well. Right.
+- id: u11
+  speaker: David Olsson
+  t_start: 277.092
+  t_end: 298.984
+  text: I played with their, their cloud service and I played a little bit until I realized I didn't need to actually do that. I could actually get same functionality. It's just like, whoa, guys, the browser really is a killer app. It is like it is all in one. Like, the dev tools are phenomenal now and now they have AI.
+- id: u12
+  speaker: Fulvio Ciano
+  t_start: 299.032
+  t_end: 299.864
+  text: I know, right?
+- id: u13
+  speaker: David Olsson
+  t_start: 299.952
+  t_end: 313.446
+  text: I know they have AI built into them and I just saw that yesterday because I'm in the, I'm in the dev tools a lot that the AI now keeps its context history, the chat history, permanently.
+- id: u14
+  speaker: Fulvio Ciano
+  t_start: 313.638
+  t_end: 314.65
+  text: Oh, wow.
+- id: u15
+  speaker: David Olsson
+  t_start: 315.07
+  t_end: 338.052
+  text: I'm like, okay, one, I don't use it that well. Two, it hasn't been very useful. So we'll see. Because if it's hooking up to Gemini 2, then it should get a lot better. And it's kind of cool that the browser could do maybe better debugging than the idea.
+- id: u16
+  speaker: Jason Kryski
+  t_start: 338.066
+  t_end: 338.566
+  text: Yeah.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 338.352
+  t_end: 343.94
+  text: Did you see the size of the context window for two zero? It's huge.
+- id: u18
+  speaker: Jason Kryski
+  t_start: 344.36
+  t_end: 345.072
+  text: No, no.
+- id: u19
+  speaker: David Olsson
+  t_start: 345.096
+  t_end: 348.752
+  text: I, I, I, what I sort of got was like, it's just big enough.
+- id: u20
+  speaker: Fulvio Ciano
+  t_start: 348.936
+  t_end: 359.02
+  text: Oh my God. It's the biggest of all of them. It's just insane. I, I, I'm afraid to misquote it, so I'll look it up real quick.
+- id: u21
+  speaker: David Olsson
+  t_start: 362.2
+  t_end: 364.54
+  text: I make sure I'm using chat GPT3.
+- id: u22
+  speaker: David Olsson
+  t_start: 373.83
+  t_end: 375.582
+  text: So I, I had to convert my.
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 375.606
+  t_end: 379.49
+  text: Data to JSON just a flash version is 1 million tokens.
+- id: u24
+  speaker: David Olsson
+  t_start: 380.15
+  t_end: 386.446
+  text: Wow. 1 million. That's pretty good. That's. That's an app. That's an app.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 386.598
+  t_end: 392.374
+  text: It's a little more than an app. That's the app and the data. Dude, that's crazy.
+- id: u26
+  speaker: David Olsson
+  t_start: 392.422
+  t_end: 411.69
+  text: No, that's. Well, no, I just, like, that's the duration it would take to build a good app for me as a million tokens. Yeah, but so just thinking, yeah, I would do an efficient job of it so I could see it doing a decent. That's how I scale them now. It's like, okay, the most practical thing that they do for me is make apps.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 413.31
+  t_end: 434.416
+  text: I don't understand. They must have some technology that others don't. Around the context window. Not expanding. Not expanding the compute time speed. Right. Because the size of the context window affects the compute time speed.
+- id: u28
+  speaker: David Olsson
+  t_start: 434.608
+  t_end: 466.52
+  text: Well, no, it's just if you just think about it, like they're crunching so much data and it's just, like, ridiculous. So they must. What's weird is the compression that they find and then the invisible layers that they leverage that I just don't understand yet. And when. When they're doing things at the consumer level, I don't even know if we're engaging with AI a lot of the time. You know, I mean, when we're working with an API, you are. But when you're working within cloud, what layers are you working on?
+- id: u29
+  speaker: Fulvio Ciano
+  t_start: 466.98
+  t_end: 505.932
+  text: Yeah, yeah. Well, it's. It's gonna be so fast this year. Right. Like, they've all quietly announced they're going to. They're going to the LCM architecture. Right. Like, they're keeping the LLMs on the front end and like, that should radically improve performance. You know, it's going to be crazy to see and, and the impact of the context window sizes, which are ridiculous already. Like I said, one million tokens. Yeah.
+- id: u30
+  speaker: David Olsson
+  t_start: 506.076
+  t_end: 516.16
+  text: Million tokens is crazy. I'm still running up against two and a half million. Sometimes being a problem. If I work in cloud, that's just. That works.
+- id: u31
+  speaker: Jason Kryski
+  t_start: 517.06
+  t_end: 518.16
+  text: Hey, fellas.
+- id: u32
+  speaker: David Olsson
+  t_start: 518.5
+  t_end: 520.36
+  text: Good morning, sir. How are you doing?
+- id: u33
+  speaker: Jason Kryski
+  t_start: 520.67
+  t_end: 524.41
+  text: I wasn't sure if we were getting on the. On the hangout or on the Discord.
+- id: u34
+  speaker: David Olsson
+  t_start: 524.83
+  t_end: 528.61
+  text: Oh, right. And I didn't make that clear at all.
+- id: u35
+  speaker: Jason Kryski
+  t_start: 532.43
+  t_end: 538.93
+  text: You can't try and update Discord and lose your Internet or Discord. Discord has a really hard time.
+- id: u36
+  speaker: David Olsson
+  t_start: 539.31
+  t_end: 546.528
+  text: I find Discord to be clunky. It does a lot of things in the background that I don't like it doing. Like trying to switch audio on me. I'm like, what are you trying to do? I don't understand.
+- id: u37
+  speaker: Fulvio Ciano
+  t_start: 546.694
+  t_end: 547.194
+  text: Yeah.
+- id: u38
+  speaker: Jason Kryski
+  t_start: 547.068
+  t_end: 548.556
+  text: Who knows what let's try to do.
+- id: u39
+  speaker: David Olsson
+  t_start: 548.708
+  t_end: 565.74
+  text: It's kind of take over and settle days. But yeah, I've. The very late email is because my mind is just completely elsewhere right now. But that's good to have these meetings because it's about surfacing.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 565.9
+  t_end: 572.67
+  text: Oh, no, it's. I, I got it wrong. It's 2 million tokens for the Pro. It's 1 million for the Flash version I'm using.
+- id: u41
+  speaker: David Olsson
+  t_start: 572.78
+  t_end: 577.994
+  text: That's what it is. That's still a lot of context for doing practice.
+- id: u42
+  speaker: Fulvio Ciano
+  t_start: 578.042
+  t_end: 580.99
+  text: It's double. It's double what I was saying. I didn't even realize.
+- id: u43
+  speaker: Jason Kryski
+  t_start: 583.97
+  t_end: 588.35
+  text: Yeah. And by the time it gets to 10, it's all over. Yeah.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 591.41
+  t_end: 634.222
+  text: There's a bunch of these optimizations like I don't even. Like I've been playing around with Llama CPP to, to integrate Vulcan so I can make use of the GPUs in the environment that aren't natively supported. And like, don't get me wrong, what people have done is incredible. But there's tons of places for optimization. Like, we're nowhere near like the limit. You know what I mean? Like, if I can go in there and find stuff and improve performance the way I am, like, you know, never mind what other people can do and then what these systems can do to themselves with proper, proper attention and focus.
+- id: u45
+  speaker: David Olsson
+  t_start: 634.326
+  t_end: 641.29
+  text: Right. I went node the other day.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 641.67
+  t_end: 644.01
+  text: Oh, you did? You managed it?
+- id: u47
+  speaker: David Olsson
+  t_start: 644.87
+  t_end: 649.518
+  text: No, I, I Not Node js. I just built myself my own node editor.
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 649.614
+  t_end: 650.114
+  text: Oh.
+- id: u49
+  speaker: David Olsson
+  t_start: 649.918
+  t_end: 660.21
+  text: I see around with Flume, which is beautiful and all, but it's just technically more than I can manage right now.
+- id: u50
+  speaker: Jason Kryski
+  t_start: 660.51
+  t_end: 665.01
+  text: What's the, what's the, what's the JavaScript package you use for this?
+- id: u51
+  speaker: David Olsson
+  t_start: 665.79
+  t_end: 823.068
+  text: I made. This is bespoke. I, I hand rolled this one. I hand rolled it. I described the application really well. It turns out that these node editors are a good pattern. Like if you find anything that's a good pattern, then it's easy to work with. And so what I was finding with my situation here where I'm generating all these slides, I didn't have the right patterns in place and I did like 10 apps and just quickly trying to get. Quickly. So quickly trying to get. Taking survey data and putting it into essentially slides to output to ppt. But I had the wrong metaphors in place. And if you don't have the right metaphors in place, then the. Or the right UI patterns, whatever you want to call them, then, then it's hard to. It's hard for the application, hard for The LLM to. To weave it dynamically as you build the application. But if the patterns are really solid like the playground, I stop that flashing in my face. The playground was cards. And the reason that it was easy to extend the application is I describe it the same way all the time. And so that the application was designed internally with some integrity. Turns out node editors are common pattern. Like if you want to. You want to see how quickly you want to do a comparison between LLMs, do a to do app and see how quickly it creates it. Because the to do app is now the simplest app and is given to students to build across all applications and all environments. Just like hello world. And this it turns out it's common like flow wise flume, this other node editors, they all have the same idea of inputs, outputs and then controls and then fields and that's it. And so adding, you know, changing this from right now, the data, the formats aren't correct. Like I think I have a prompt one. Yeah, it's. It's garbage. But to make this. This already has logic built in it because of the fact that it has to work from the UI point of view. So underneath it, the data structure and the UI structure, the application structure, support the workflow I want to do. So the logic is already there. I have the chatbot built in. I just need to say execute the command and hand it off. The work to make it in a Gentex environment after making a solid UI is almost nil now. That's really cool.
+- id: u52
+  speaker: Jason Kryski
+  t_start: 823.244
+  t_end: 835.792
+  text: Speaking of agents, did anyone look at that Goose package that. What's this pickle deployed? Did you see that one?
+- id: u53
+  speaker: Fulvio Ciano
+  t_start: 835.956
+  t_end: 838.1
+  text: No, I don't even know what you're talking about.
+- id: u54
+  speaker: Jason Kryski
+  t_start: 838.56
+  t_end: 842.168
+  text: It's. What's the guy who started Twitter? What's his name? Jack Dorsey.
+- id: u55
+  speaker: David Olsson
+  t_start: 842.264
+  t_end: 844.872
+  text: Dorsey. Yeah. He's crazy. He's crazy.
+- id: u56
+  speaker: Jason Kryski
+  t_start: 845.016
+  t_end: 856.98
+  text: Under. Under block. His like his holding company, they deployed this Goose open source agent builder like last week.
+- id: u57
+  speaker: Jason Kryski
+  t_start: 862.57
+  t_end: 866.21
+  text: Anyway, something. I just saw it this morning, so I haven't played with it yet.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 866.25
+  t_end: 866.83
+  text: But.
+- id: u59
+  speaker: Jason Kryski
+  t_start: 870.25
+  t_end: 880.67
+  text: Dave, I mean that's awesome. So can you use Node builder in the same way where you've got the LLM driving the node creation and the linkage and everything.
+- id: u60
+  speaker: David Olsson
+  t_start: 882.17
+  t_end: 910.298
+  text: This is all just an app right now. This is all just JavaScript. The ability to then say put a prompt in here like give me 10 primes easy. And then it. Because these are set up, it'll hand her off as the value that'll go into here. And so sequencing it as a workflow like the card metaphor was really easy to once I had the source, I could make the source the previous one and then all of a sudden our workflow built into it. This allows for other people to quickly build logic.
+- id: u61
+  speaker: Jason Kryski
+  t_start: 910.474
+  t_end: 914.17
+  text: And I do this a lot. Like, that's kind of my primary.
+- id: u62
+  speaker: David Olsson
+  t_start: 914.33
+  t_end: 915.31
+  text: Yeah, yeah.
+- id: u63
+  speaker: Jason Kryski
+  t_start: 915.65
+  t_end: 917.03
+  text: My primary thing.
+- id: u64
+  speaker: David Olsson
+  t_start: 919.01
+  t_end: 921.35
+  text: If you use, you use flow wise, right?
+- id: u65
+  speaker: Jason Kryski
+  t_start: 922.29
+  t_end: 926.378
+  text: No, I'm using like a dummy one. Like it's called hunch.
+- id: u66
+  speaker: David Olsson
+  t_start: 926.554
+  t_end: 930.55
+  text: Hunch. Yeah, but okay, so they're all fairly similar.
+- id: u67
+  speaker: Jason Kryski
+  t_start: 931.09
+  t_end: 945.56
+  text: It's. It's just like, you know, it's like AI block, content block, you know, so it's like input or output and then it's just the daisy chain and then it just inserts the output at the bottom of the next one. And then like, you know, it's.
+- id: u68
+  speaker: David Olsson
+  t_start: 945.64
+  t_end: 1002.18
+  text: I'm basically just going to make it easier to use the, the playground, call it a workspace and it'll be the same fundamental thing. Instead of here, like in, in this one, what I'll make it is like pull down and it'll be like all the prompts will be there, the agents will be there. So you know, there'll be probably different types of agents. Research, analysis and then whatever. And then use. The data is just a source like you say, and then the output is just a conforming to. That's where I'm spending all my time right now is building a conforming engine. I'm taking results from a survey, mapping them to the questions, and then dynamically building a chart and a table and an analysis for each of them and then exporting them as ppt. So the conforming part is a big deal turns out, because you know, you want to make it nice and.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1005.36
+  t_end: 1005.86
+  text: Roll.
+- id: u70
+  speaker: David Olsson
+  t_start: 1005.768
+  t_end: 1042.69
+  text: On it as I move along. But it's pretty cool. The next step is right here. I have the ability to. Then this is how I'm constructing. I don't know what to do. So I'll take my slide and then I can, I can. Oh, it's broken. Now I can. Oh, wait, no, it's because I go to IT decision makers. I can talk to the chart, the table and analyze.
+- id: u71
+  speaker: David Olsson
+  t_start: 1048.16
+  t_end: 1058.328
+  text: They won't find any anyways. I've got the 360 going and then what I would like to be able to do is talk to the design of the page and do it dynamically so that things are moving along.
+- id: u72
+  speaker: Fulvio Ciano
+  t_start: 1058.384
+  t_end: 1058.952
+  text: Oh, there we go.
+- id: u73
+  speaker: David Olsson
+  t_start: 1058.976
+  t_end: 1157.614
+  text: Got it. We got some similar analysis. Oh, it's doing a much better job. I know that it's actually integrating it now. I didn't work this time. All right, so that was the original app. Was. I was Basically I built a chatbot that I wanted to be able to say send the data to the chatbot to the LLM and ask it a question like produce a demographic slide and, and return it in HTML. And here's the HTML and here's the. And here's the data. I asked for a table of anomalies. Gave me. It gave me everything. Everything is an anomaly. But it. The. The node editor will allow for building this kind of thing very quickly. So now see when it gets broken, it gets really broken. Supposed to show this tomorrow and I'm having panicky attacks. But Goose, code name Goose, you're on machine agent automating engineering tasks seamlessly. This is probably where I'm trying to go. Yeah, maybe can you review the code chat GPT Yesterday I saw I was doing something. I was trying to make JSON out of table data. And the nice thing about JSON is you can make relational table relational database happen really quickly. Try to work with relational database. Right. I have a relational database thing happening. I've got a search survey it needs to look up anyways.
+- id: u74
+  speaker: Jason Kryski
+  t_start: 1157.662
+  t_end: 1161.47
+  text: You can just use Supabase. Dave. It's pretty slick.
+- id: u75
+  speaker: David Olsson
+  t_start: 1161.63
+  t_end: 1237.21
+  text: Yeah, I know. Yeah. But that's infrastructure. Right. And so that's the next step. I looked at it. I'm trying to figure out what this. Yeah. Got into the problem. But anyways this is the level at which I'm building inside my apps to be able to finish my apps. It's like be able to talk to the app to make it, to design it better. It needs to make sure that you, you, you have to have an, like an API in the page or it has to be really well structured. So I'm using View JS to enable this case. A well structured page. But this looks pretty slick. Runs locally and just you know, with four zero now or maybe it's other models too. In ChatGPT they have a preview of your. You can create HTML page in a preview for it. So it's a, it's an editor now for code. And you know what? That probably was about an afternoon of effort for them. But that's kind of that craziness.
+- id: u76
+  speaker: Jason Kryski
+  t_start: 1238.75
+  t_end: 1243.19
+  text: You're supposed to add or clone a repo. It's different man.
+- id: u77
+  speaker: David Olsson
+  t_start: 1243.23
+  t_end: 1250.838
+  text: I'm so like oh, you're getting well man. So git. Are you using the desktop app?
+- id: u78
+  speaker: Jason Kryski
+  t_start: 1250.974
+  t_end: 1251.622
+  text: Yeah.
+- id: u79
+  speaker: David Olsson
+  t_start: 1251.766
+  t_end: 1312.7
+  text: Yeah. So you want to. If you're creating one, you want to add a repo. And the problem with it is if you've already created the folder on your drive that's a bit of a fucked up situation where I have a clutch of a workaround. So what you want to do is create the repo first and then move into the directory and start working. But that's not often how we work. So what I've done is I will add and initialize a new and then drop my folder, my files into that directory because it has a git file in there and then you can initialize them that way. It's a super, super. Not the right way to go. But I've been coding hot the last two days. Small commits here and there and if I'm in a rush I will just do that thing I'm talking about. So yeah, your origin isn't on your desktop, it's up in the cloud and you're pushing and pulling and you got to get. I think if you do it a hundred times then it's better.
+- id: u80
+  speaker: Jason Kryski
+  t_start: 1315.41
+  t_end: 1316.19
+  text: Yeah.
+- id: u81
+  speaker: David Olsson
+  t_start: 1316.77
+  t_end: 1321.63
+  text: So what, what are you, what are you using to develop your prototype thinking?
+- id: u82
+  speaker: Jason Kryski
+  t_start: 1322.53
+  t_end: 1339.064
+  text: Me, I've been mostly like around with reflux and like bulge and those kinds of things because like the, the thing is is that like I get into like cursor and everything seems to go relatively well.
+- id: u83
+  speaker: David Olsson
+  t_start: 1339.242
+  t_end: 1339.742
+  text: Yeah.
+- id: u84
+  speaker: Jason Kryski
+  t_start: 1339.628
+  t_end: 1373.39
+  text: But you know, like I just don't have a good like flow of like being able to like it'll like, you know, it kind of add stuff and then I, because I don't know how to code it like chokes on itself and I'm just like trying to fix things and it's just not, not, not there. So even though I have like a little deployment thing set up and that was good but like I'm like, okay, now I need to like, I need more fundamental understanding to be able to do this.
+- id: u85
+  speaker: David Olsson
+  t_start: 1374.49
+  t_end: 1378.27
+  text: Yeah. So I was wondering why Replit. Your guys are on replit, right?
+- id: u86
+  speaker: Jason Kryski
+  t_start: 1379.05
+  t_end: 1393.15
+  text: No, and I think I'm gonna like test out Lovable because it has like a better, has a better integration to suit the case. So it's all just like you don't have to think about anything. It's interesting to see how much of this stuff is getting abstracted away.
+- id: u87
+  speaker: David Olsson
+  t_start: 1393.91
+  t_end: 1438.27
+  text: Yeah. Well, I'm liking my workflow right now. It is basically it's whatever the IDE is and then GitHub Desktop and then Netlify to. So it's all automated once I have a low in place version of all that. But it is nice to see that the deploys are quick now if they're. Yeah, my stuff isn't complicated yet and so it's going to get there in a heartbeat if this demo goes well, which it should just depending on when. Then. Yeah, the next step is considering replit or something standardizing around a tool set. And I'm just like, who is that person?
+- id: u88
+  speaker: Jason Kryski
+  t_start: 1438.89
+  t_end: 1518.01
+  text: Yeah, I mean, they're just different things, right? Like, I mean, like the thing is with like replit, like, I don't know, how do you even give it your own code? Like, no, I'm sure you can, but. Yeah. I was spending some time talking to Lauren yesterday. We were looking at like how to kind of do the generations and transformations into. With like. Yeah, what it's called because we were using GraphQL for everything. There's some package in there that like turns it into this like Zod schema. And then like you can. Which is basically like JSON, I guess. And then when we're instead of having to give it like an example of a schema to conform, it output to like, it just knows what it is like. And so it's like, okay, the output's always structured in like the react component structure. So the, you know, prop generates whatever the content is and then it just like frees it automatically into the. Basically picked up. But we were talking about like it did kind of get. Getting to the point where we're like, oh man, like, how can we do this almost in real time? Like, it's seemed like it was something that was a further step down the path. And we're like, that's actually not that far, not that hard.
+- id: u89
+  speaker: David Olsson
+  t_start: 1519.27
+  t_end: 1522.318
+  text: No, it's generally not from a sense what you've got going on.
+- id: u90
+  speaker: Jason Kryski
+  t_start: 1522.454
+  t_end: 1524.33
+  text: Yeah, it.
+- id: u91
+  speaker: David Olsson
+  t_start: 1524.63
+  t_end: 1706.4
+  text: I actually found that the reverse was hard for me is that as soon as it's not in real time, it was more difficult. And that was because my. My information was super clean. My. My data model was nice. I was generating it. Right. It's synthetic data. And the other thing to just reflect on what you said and this way I'm going about this is like I. It was metadata, it was JSON. And the power of buck and JSON is that it has the structure built into it and so that it can infer all kinds of creatures. Crazy meaning. So to your point, it's just like it knows. It just knows. Like if you put it in that format, it has a greater understanding of what's going on because there is this other level of information put into it. When I have a relational database, I have a bunch of values that represent. That are represented in a lookup table and I have a respondent sitting somewhere else and I have to glue it all together. It has no integrity. And so my Thing is, first thing I do is export it every every respondent as a JSON file. Question, answer and the answers are just values. The best thing would be what is the literal question? What were my options and what was my answer as the data format? And then everything has integrity and you can analyze it on its flaw, it can analyze things in context. And having adding the questions is a little too much, but adding all the options in, but at least having a question the answer, you have the context for things. Then the LLM, if you're working that way, it can effectively do better. But if you're using any of the tools, man, it just jumps up and down the stuff because it's xml. As soon as I changed my stuff from tables to JSON files, my stuff worked better. I spent three days beating my head against trying to get this lookup thing working in a bunch of different ways to see if the LLM could help in some regards. But it was all about trying to scrub the data to make it work. And once I sat there and got it after some work into a table, I was able to then say, build it into a JSON file so that the relational nature was there and it could find everything. Now I can get back to what I do well. And so I think anytime that you're looking at making things in real time, like the information structure that you're working with might not be the structure that you're got it stored in the database. Whatever you try to leverage at the execution of the page, depending on how you're working with it, and if you're working with the generation and the transformation, working at that level of metadata probably you can probably work huge chunks of data, meaning typically what you're going to send to the LLM is going to be dithered down to very specific set of calls and joins from your relational database. You might just be able to send up a high level object chunky because it would like the context of the objects above it.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 1707.58
+  t_end: 1708.32
+  text: Right?
+- id: u93
+  speaker: David Olsson
+  t_start: 1708.62
+  t_end: 1789.766
+  text: Everything likes context, man. So, you know, I think you're on the right path what you say. I don't think it's that big difference between not, you know, static and real time. I don't think it is, man. It's just everything I'm going to build moving forward is going to be in real time and then it's just going to be something, you know, it's going to be a job of trying to get it down to the number of tokens appropriately and then to the number of seconds, milliseconds appropriately, because Is easier if you start there in many ways. And if you start at understanding how the data can move more quickly through the application without having to make calls back and forth all the time. How do you maintain context of the information that you bring into the page, into its context, and how do you work with it? I'm just trying to work through the information myself right now, Jason, as I talk through this, because context is everything, right? If I send the whole page up to the LLM, it knows what's going on. It's. But it's too big and it's too complicated. If I just send the table up and I just send the table and analyze that, that's not enough. I send the table and the chart. That's great. I send the table and the chart and some contextual information about the demographics, it gives me more information, so that context. But this is me just trying with the survey data.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 1789.918
+  t_end: 1804.18
+  text: Yeah, I mean, I was trying to think about, like, is it, like, have we tested. Is it better to send the actual, like, code or to send the, like, content or to send, like, an image? I mean, image takes longer.
+- id: u95
+  speaker: David Olsson
+  t_start: 1805.4
+  t_end: 1807.44
+  text: So. All good questions.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 1807.6
+  t_end: 1851.4
+  text: Yeah. Like, you have to do some testing. And then like, obviously every model is going to be a little bit different. I was reading, watching this Stanford talk about. This guy was talking about, like, compound systems and LLMs and, like, you know, how these things work. And like, just some of the earlier experimentation that was done where, you know, model to model, like, you know, prompting differences. Like, we know, like the kind of large difference, like, you know, Claude likes XML open AI likes this. But, like, you know, it's like whether there was a colon at the end of something or not a colon, you know, like. And then in this model, it likes these things. In this model, it doesn't like these things. And like, it's like, really we take for granted the things that we think that we know about these things, but we really don't know them, you know, like.
+- id: u97
+  speaker: David Olsson
+  t_start: 1852.26
+  t_end: 1860.19
+  text: Yeah, no, it requires. The experimentation is vital and it's just really expensive and it's not how we normally want work when it comes to business. Right.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 1860.31
+  t_end: 1883.982
+  text: Yeah, but I think learning the, the, the, like, the. We talked about this before, like, a while ago, like, the, the styling of the prompts, like the iterative, like, automated regeneration of the prompts in terms of the styling. Because I remember, like, back when you'd, like, had that, like, you know, funky, like, LLM language that was, you know, like you compressed everything into, like, you know, seemingly gibberish and it was still.
+- id: u99
+  speaker: David Olsson
+  t_start: 1884.086
+  t_end: 1887.25
+  text: Still Running super functional. I want to go back there. I thought about yesterday.
+- id: u100
+  speaker: Jason Kryski
+  t_start: 1887.7
+  t_end: 1888.48
+  text: Yeah.
+- id: u101
+  speaker: David Olsson
+  t_start: 1891.14
+  t_end: 1892.412
+  text: Abstraction layer.
+- id: u102
+  speaker: Jason Kryski
+  t_start: 1892.556
+  t_end: 1895.02
+  text: Yeah, yeah, so.
+- id: u103
+  speaker: David Olsson
+  t_start: 1895.06
+  t_end: 2123.47
+  text: So it could be that you get to a logical abstraction layer above everything, which is. You know what the, the node thing is really good at is the business logic. The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right? It's. And there's. There are ways to iterate, especially if you're going atomic. Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that. But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now. Super costly and academic is the proof is in the pudding and the output breathing of it. And I was like. Because I, I created a couple of prompting environments and created histories and then tried to compare them. That got really expensive. But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat. But what I had was control of my ship. That was like two years ago I said that. And then it was like, okay, well, that's a really integral structure. If I'm defining agents, I can define not only their characteristics, but how they function too. In that regard, I can actually embed data inside that. So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there. I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively. Just less words, you know, again, all context. But I think that this is the, the timeline is just. Is quite curious. Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application. Right? That's what the LLMs are doing. They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files. And so they're creating Python tools if they don't have them already in cursor right in front of you. They're small, but they're doing. And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at. And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation. And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis. And so that time I was sending the API up previous. In other cases, I send the data set up. So you can do both depending on how you structure the data. If it's send. If you sen
+- id: u104
+  speaker: Jason Kryski
+  t_start: 2124.14
+  t_end: 2128.868
+  text: That's where like the GraphQL part comes in. Because it's basically like a database.
+- id: u105
+  speaker: David Olsson
+  t_start: 2129.044
+  t_end: 2135.528
+  text: Yeah. Yeah. GraphQL is super, super jazzy and fast, right? In terms of making those connections. Yeah.
+- id: u106
+  speaker: Jason Kryski
+  t_start: 2135.364
+  t_end: 2148.276
+  text: It's not like it's not real. It's not real fast. You got to be like efficient. You have to be efficient in your queries. I mean it can get like unruly, but I think it's fast if it's like focused. Yeah, yeah.
+- id: u107
+  speaker: David Olsson
+  t_start: 2148.308
+  t_end: 2156.706
+  text: You want to have a minimal data set inside each of your DBs for sure. Because you're, you're making an N dimensional conceptually. I think of it as an N dimensional array.
+- id: u108
+  speaker: Jason Kryski
+  t_start: 2156.898
+  t_end: 2157.398
+  text: Yeah.
+- id: u109
+  speaker: David Olsson
+  t_start: 2157.362
+  t_end: 2162.95
+  text: Or N dimensional cube. And then. And that's, that's super powerful. But if you have too many dimensions, it's.
+- id: u110
+  speaker: Jason Kryski
+  t_start: 2164.73
+  t_end: 2173.23
+  text: Yeah, I think that's the. I'm just trying to like figure out a way to express the way that I'm thinking about it and.
+- id: u111
+  speaker: David Olsson
+  t_start: 2180.34
+  t_end: 2188.52
+  text: Good one.
+- id: u112
+  speaker: Jason Kryski
+  t_start: 2189.46
+  t_end: 2192.636
+  text: Yeah, yeah, yeah.
+- id: u113
+  speaker: David Olsson
+  t_start: 2192.668
+  t_end: 2193.212
+  text: I think it's.
+- id: u114
+  speaker: Jason Kryski
+  t_start: 2193.276
+  t_end: 2200.92
+  text: Yeah. So it's really hard when it doesn't seem like a good way to be able to express the way what you're like, I don't know, I need a substrate to be able to like label. So.
+- id: u115
+  speaker: David Olsson
+  t_start: 2203.31
+  t_end: 2280.92
+  text: I found that because of my practice, like one way to solve problems is to solve problems, meaning to build solutions is a way of understanding the problem. And in the case where discussion was, well, we don't know what the LLMs really like or do. So a lot of the cases, like we have to build it to get into the problem. And what I'm recognizing now is what that means for me As a practice in terms of if I understand the scope of the problem up front, how long it takes to solve the problem. In this new paradigm of problem solving, not the traditional waterfall approach. This is zero water. Okay. There is a tiny bit of waterfall, or we could call it base jumping where you are like, okay, this is a good spot and I've got everything ready and then you jump and then it's depending on what you've set up in terms of the framework and rails around it. Then it go really fast or go really ugly. But when I, I asked on Sunday, I asked Claude to take a really rigorous specific and it spent an hour building it.
+- id: u116
+  speaker: Jason Kryski
+  t_start: 2283.46
+  t_end: 2287.324
+  text: Like just continually, continually.
+- id: u117
+  speaker: David Olsson
+  t_start: 2287.372
+  t_end: 2302.444
+  text: I had only allowed for 20 approved pre approved actions and it was doing some file structure stuff on that I don't have pre approval for. So I had that hit approval a few times but I didn't do anything other than approve it for about an hour.
+- id: u118
+  speaker: Jason Kryski
+  t_start: 2302.612
+  t_end: 2304.112
+  text: Oh wow. Wow.
+- id: u119
+  speaker: David Olsson
+  t_start: 2304.076
+  t_end: 2321.72
+  text: I gave it, I gave it. You know, I spent, I spent over an hour or whatever on describing this application in very concise three sentence paragraphs. But it wasn't, I didn't. So there is an plan mode in clo. Incline.
+- id: u120
+  speaker: Jason Kryski
+  t_start: 2321.88
+  t_end: 2322.38
+  text: Yeah.
+- id: u121
+  speaker: David Olsson
+  t_start: 2322.312
+  t_end: 2329.94
+  text: And sorry, I've been saying the wrong thing incline. And I did allow it to do that. It's kind of okay. It's nothing special.
+- id: u122
+  speaker: Jason Kryski
+  t_start: 2330.89
+  t_end: 2333.586
+  text: You know, I think like sorry.
+- id: u123
+  speaker: David Olsson
+  t_start: 2333.778
+  t_end: 2346.39
+  text: And then I just acted out. You change from plan, you'll hit plan. It does a small spec and you hit act and then it just goes to down and it. So but it didn't, it produced something that was not very useful.
+- id: u124
+  speaker: Jason Kryski
+  t_start: 2347.37
+  t_end: 2374.89
+  text: Yeah, I think like in, in retrospect like I've been kind of like trying to like, I think bite it off like because I'm thinking about how to do this and like how I'm. Things work together and I, I think just like real fundamentally I just need to build like a really comprehensive PRD and be like, okay from this and then use the LLMs to actually help me like flush it out a little bit. And then like finally like that's what I do.
+- id: u125
+  speaker: David Olsson
+  t_start: 2374.93
+  t_end: 2516.56
+  text: I, I start with a paragraph or page depending on how super fast it's going to be and then I work to build out a specification. I make sure that I have a specification and I will try it concurrently in different environments. But I typically will usually do one big push in, in one of the big LLMs and then get a base going and then I'll work inside cursor to then iterate on it. And again to your point, I know how to read both the code and the ability of the environment to know if it's working well. Well, and that's only through like the few hundred hours I put into it because I can tell if it's writing the wrong code just by how long it takes. And that's just an intuition thing. But. And if it starts going down that path, I'm like, well, it's too complicated. I ask for something simple. I can tell if it's going simple. I'll read all the code down. All of it. 8,000 lines of code this morning in one page. That was an accident. And then I got it down to four. But unless you have that step, Jason, there's. I wonder which environment you're working in. And I think where. I didn't know what was going on inside the LLMs. I was only working inside chatbots. I focused on the, on the metadata being a way to save my stuff and be portable and make sure I maintain my ability to learn and move through it. And it came at a price of not coding. And the tools weren't ready for me. I was trying to code and then. But so now on the converse side of things, including that other thing is available to me right now. But it's, it is super curious and it is like, I think it's weeks away. Like I can, I can confidently up to about 3,000 lines of code. I can have a really good time just riffing and making an app work if I have the right pattern in place. After that it's work even if I break it out into proper format because it's analyzing the whole code base at once and that's just not what it's good at.
+- id: u126
+  speaker: Jason Kryski
+  t_start: 2517.34
+  t_end: 2518.12
+  text: Yeah.
+- id: u127
+  speaker: David Olsson
+  t_start: 2520.54
+  t_end: 2567.384
+  text: So all my stuff has been single page apps pretty much. And that's just going to end after this week. So I need some help soon because it's going to be about structuring this properly. And that's why I'm asking you questions about Flip and like that like, okay, like what will it mean? What will it mean to be the other thing that I've, I've recognized too. And I don't think I'm instill any confidence in anyone else right now is like whatever anyone's doing right now, they should not be investing a whole ton of money in like we are to the point where whatever we can afford. But like anybody building.
+- id: u128
+  speaker: Fulvio Ciano
+  t_start: 2567.472
+  t_end: 2574.564
+  text: Sure, one, one press release or change in the marketplace could like blow up everything you've done. Right.
+- id: u129
+  speaker: David Olsson
+  t_start: 2574.576
+  t_end: 2628.624
+  text: Yeah, that's what I mean. That's, that's exactly it. It's like, you need to be out there, like. Like we're working with this company, Pantera, and they. And luckily, I feel confident Carol's assessment of them, they need help from. From us and we're in a position, like, we need to get some work and it's really hard for me. I need a few more days. But they. They can't find any solution for them because of how they function. They've got all kinds of things that could work, but nothing. So they have to try things. In this middling space, they have to try things. And if you're not going to try things now, you're going to be looked. You're going to miss the opportunity because the next thing isn't going to be appropriate. But it is, like, any solution right now, man, I'm pretty sure in 12 months, we're tearing it apart, throwing it out the window. No matter how much effort you put into it, it'll just be so much better to build in 12 months. Yeah, just crazy.
+- id: u130
+  speaker: Jason Kryski
+  t_start: 2628.752
+  t_end: 2646.54
+  text: Well, and that's where, like, I've been sitting and I've been like, you know, I'm like, oh, man, I should have been able to get some of these things done further, like, a while ago. But then it's like, okay, like, by actually waiting, it's actually going to take me less time to actually build it, you know, like. And then it's like, well, how much. How long do you wait until, like, as this cooling.
+- id: u131
+  speaker: David Olsson
+  t_start: 2647.52
+  t_end: 2659.56
+  text: That's the thing I don't like too, is that mentality. How do you account for the learning that doesn't make you lazy? And. And the one thing that is so difficult to do is account for the.
+- id: u132
+  speaker: Fulvio Ciano
+  t_start: 2659.68
+  t_end: 2660.18
+  text: For the.
+- id: u133
+  speaker: David Olsson
+  t_start: 2660.16
+  t_end: 2694.46
+  text: The learning curve on this one is that it's just so radical that, you know, talking to clients is like, you know, was difficult to instill confidence because we're just basically doing yesterday's work faster. That's all I'm doing, is yesterday's work faster. As soon as they see what I can do, it'll be. It'll change some of their lights going on, but it won't change their immediate needs for sure, because their needs are all yesterday. And it's. It's quite crazy to account for something that you can't account for, because what I do account for is I don't know what I'm doing in a year now.
+- id: u134
+  speaker: Fulvio Ciano
+  t_start: 2694.5
+  t_end: 2695.0
+  text: I really.
+- id: u135
+  speaker: David Olsson
+  t_start: 2694.9
+  t_end: 2704.84
+  text: I thought it was a couple. I don't know in a year. Don't know, because what I'm. What I'm doing right now is accounting. For the LLMs, inability to do things. That's it.
+- id: u136
+  speaker: Jason Kryski
+  t_start: 2705.86
+  t_end: 2712.492
+  text: Yeah. You know, we'll see some other step. Function change here at some point in the next little while. Like, who knows what's going to like, roll down the pipe.
+- id: u137
+  speaker: David Olsson
+  t_start: 2712.636
+  t_end: 2725.936
+  text: I know it is wackadoo and I, I'm getting a lot of push on Copilot. It's free now inside VS code and amped up and there's a. Actually, no, it's GitHub's co pilot they're trying to push on me.
+- id: u138
+  speaker: Jason Kryski
+  t_start: 2726.088
+  t_end: 2726.736
+  text: Right.
+- id: u139
+  speaker: David Olsson
+  t_start: 2726.888
+  t_end: 2733.9
+  text: I haven't done my homework on it, but if there's ever anybody to watch for a tool, it might be them, man.
+- id: u140
+  speaker: Fulvio Ciano
+  t_start: 2734.76
+  t_end: 2749.716
+  text: Yeah, well, I mean, I'm in all the boards watching all the reviews and it's a constant battle to see who's on which side. Like, like the observation is a battle because they're very emphatic.
+- id: u141
+  speaker: Jason Kryski
+  t_start: 2749.908
+  t_end: 2750.408
+  text: Yeah.
+- id: u142
+  speaker: Fulvio Ciano
+  t_start: 2750.372
+  t_end: 2774.284
+  text: They're never, they're never gently in a camp, if you know what I mean. Right, right. And. But I have to say it, it certainly doesn't look to me at all like, like Co pilot is winning. It seems to be. In fact, it's, it's. What I'm seeing is some frustration because of the observation you made, David, that they should be the winner. Do you know what I mean? Because.
+- id: u143
+  speaker: David Olsson
+  t_start: 2774.168
+  t_end: 2776.22
+  text: Yeah, no, it makes sense about it.
+- id: u144
+  speaker: Fulvio Ciano
+  t_start: 2776.6
+  t_end: 2803.82
+  text: Right. Like, if you think about it, they natively have all the data, everybody puts their source code there. Right. And Microsoft. Yeah. And so you'd think. But generally the consensus is no. And I think it's because. I think it's because they're slow moving that, you know, there's not a lot of changes over time and, and they don't seem to be significant or responsive and.
+- id: u145
+  speaker: Jason Kryski
+  t_start: 2803.86
+  t_end: 2804.828
+  text: No, there's a lot of change.
+- id: u146
+  speaker: David Olsson
+  t_start: 2804.884
+  t_end: 2806.396
+  text: Yeah, there's been various little changes.
+- id: u147
+  speaker: Fulvio Ciano
+  t_start: 2806.428
+  t_end: 2893.926
+  text: There's not a lot of changes, not a lot of improvements. You know, the one thing you can say about frankly, these smaller players, like, like Klein, like, God, they push out stuff all the freaking time and they're really, really interactive. Like the community is what drives the changes. Right. As opposed to some sort of like master plan kind of thing. So the, the people who are on the forefront are in that community and really. And then it's the, the small projects tend to follow each other that are very fast, if, if that makes any sense. In other words. No, nobody's. Nobody follows the slow guys. You know what I mean? Like, it's amazing how Rue and Klein and, and a lot of these like, small guys who move really quickly and aren't doing the work of the model itself. Like they're not. Like these guys aren't making models. Right. They don't care which model you use. Right. You basically hook up. Well, which is. Which is actually part of the problem with co pilot because they have an extreme bias, if you follow. Right. And I have to say I think that's one of the things that. That those players have gotten. Right. Those guys were like, stay out of the actual model building game. Right. And. And focus on the interface between the models and the process of building projects and software.
+- id: u148
+  speaker: David Olsson
+  t_start: 2894.118
+  t_end: 2895.41
+  text: It's actually at the.
+- id: u149
+  speaker: Fulvio Ciano
+  t_start: 2897.87
+  t_end: 2899.45
+  text: Driving all the innovation.
+- id: u150
+  speaker: David Olsson
+  t_start: 2900.68
+  t_end: 2928.23
+  text: Yeah, no, it's. It is pretty exciting stuff. It's just. It's a weird set of problem solving skills that are. They're transient or liminal. That's. That's. I mean, problems on the skills never. But the kind of problems I'm solving right now are curious ones. It'll be good to get back to reasoning. I'm just applying the reasoning right now.
+- id: u151
+  speaker: David Olsson
+  t_start: 2938.29
+  t_end: 2943.03
+  text: There's anything fun to pull up and no fun things in the last week.
+- id: u152
+  speaker: Fulvio Ciano
+  t_start: 2956.94
+  t_end: 2966.64
+  text: Hey, David, you know what? Outside of the scope. I'm just going to say I've been working on something I need you to review for the meeting this afternoon. But it's sort of outside the scope of this.
+- id: u153
+  speaker: Jason Kryski
+  t_start: 2967.58
+  t_end: 2968.08
+  text: Cool.
+- id: u154
+  speaker: Fulvio Ciano
+  t_start: 2967.988
+  t_end: 2968.488
+  text: Yeah.
+- id: u155
+  speaker: David Olsson
+  t_start: 2968.228
+  t_end: 2977.16
+  text: We'll chat later. All right, man. Well, it's actually one minute past 8:45. And that sounds like it's quiet and we have our eyes on other monitors.
+- id: u156
+  speaker: Jason Kryski
+  t_start: 2977.72
+  t_end: 2978.8
+  text: Get onto it.
+- id: u157
+  speaker: David Olsson
+  t_start: 2978.92
+  t_end: 2980.0
+  text: Yes. Let's kill it, man.
+- id: u158
+  speaker: Jason Kryski
+  t_start: 2980.04
+  t_end: 2980.816
+  text: Let's go.
+- id: u159
+  speaker: David Olsson
+  t_start: 2980.968
+  t_end: 2985.952
+  text: Okay. Jason, thanks for. Thanks for our lunch this last weekend.
+- id: u160
+  speaker: Jason Kryski
+  t_start: 2986.096
+  t_end: 2986.848
+  text: Oh, man, it was.
+- id: u161
+  speaker: David Olsson
+  t_start: 2986.904
+  t_end: 2989.952
+  text: It was great. The conversation is still going on in.
+- id: u162
+  speaker: Jason Kryski
+  t_start: 2989.976
+  t_end: 2996.304
+  text: My head, so I feel that they're still trying to like break it all down.
+- id: u163
+  speaker: David Olsson
+  t_start: 2996.472
+  t_end: 3004.232
+  text: Yeah. So it's good to have things to go to when the code is heavy and. Well, we'll be in touch. See you online.
+- id: u164
+  speaker: Jason Kryski
+  t_start: 3004.416
+  t_end: 3005.34
+  text: See you guys.
+- id: u165
+  speaker: David Olsson
+  t_start: 3005.92
+  t_end: 3006.42
+  text: Thanks.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  text: It. Good morning. Good morning, David. How are you? Not too bad. Sound like cold or something. Sorry, you have a cold or something? I don't know if I've got cold. I got sniffles right now for sure. And it's been four long days, so I'm waking up slower. Here's.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: Good morning. Good morning, David. How are you? Not too bad. Sound like cold or something. Sorry, you have a cold or something? I don't know if I've got cold. I got sniffles right now for sure. And it's been four long days, so I'm waking up slower. Here's. I've got a DB in here. Mongo Atlas. No, I'm just using IndexEDDB and there's a library called Dexi that makes it easy to work with multiple stores. Right now I'm just, Every time I upload data, I put a plus in here to load the previous, the most recent store because I was getting bored of uploading all the time because my UI is real time. It's like, it's really. I need to start with the. Okay, Dave, you got to test it instead of build it. But now I've got a plus sign in there that just goes back and pulls this out. Otherwise I was like loading. I've got a look, I've got a local MongoDB instance running and if we ever need to get, we will, we'll need to get like a Mongo Atlas going. Yeah, I can do that real, real well. Right. I played with their, their cloud service and I played a little bit until I realized I didn't need to actually do that. I could actually get same functionality. It's just like, whoa, guys, the browser really is a killer app. It is like it is all in one. Like, the dev tools are phenomenal now and now they have AI. I know, right? I know they have AI built into them and I just saw that yesterday because I'm in the, I'm in the dev tools a lot that the AI now keeps its context history, the chat history, permanently.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  text: I've got a look, I've got a local MongoDB instance running and if we ever need to get, we will, we'll need to get like a Mongo Atlas going. Yeah, I can do that real, real well. Right. I played with their, their cloud service and I played a little bit until I realized I didn't need to actually do that. I could actually get same functionality. It's just like, whoa, guys, the browser really is a killer app. It is like it is all in one. Like, the dev tools are phenomenal now and now they have AI. I know, right? I know they have AI built into them and I just saw that yesterday because I'm in the, I'm in the dev tools a lot that the AI now keeps its context history, the chat history, permanently. Oh, wow. I'm like, okay, one, I don't use it that well. Two, it hasn't been very useful. So we'll see. Because if it's hooking up to Gemini 2, then it should get a lot better. And it's kind of cool that the browser could do maybe better debugging than the idea. Yeah. Did you see the size of the context window for two zero? It's huge. No, no. I, I, I, what I sort of got was like, it's just big enough. Oh my God. It's the biggest of all of them. It's just insane. I, I, I'm afraid to misquote it, so I'll look it up real quick. I make sure I'm using chat GPT3. So I, I had to convert my. Data to JSON just a flash version is 1 million tokens. Wow. 1 million. That's pretty good. That's. That's an app. That's an app. It's a little more than an app. That's the app and the data. Dude, that's crazy.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  text: I make sure I'm using chat GPT3. So I, I had to convert my. Data to JSON just a flash version is 1 million tokens. Wow. 1 million. That's pretty good. That's. That's an app. That's an app. It's a little more than an app. That's the app and the data. Dude, that's crazy. No, that's. Well, no, I just, like, that's the duration it would take to build a good app for me as a million tokens. Yeah, but so just thinking, yeah, I would do an efficient job of it so I could see it doing a decent. That's how I scale them now. It's like, okay, the most practical thing that they do for me is make apps. I don't understand. They must have some technology that others don't. Around the context window. Not expanding. Not expanding the compute time speed. Right. Because the size of the context window affects the compute time speed. Well, no, it's just if you just think about it, like they're crunching so much data and it's just, like, ridiculous. So they must. What's weird is the compression that they find and then the invisible layers that they leverage that I just don't understand yet. And when. When they're doing things at the consumer level, I don't even know if we're engaging with AI a lot of the time. You know, I mean, when we're working with an API, you are. But when you're working within cloud, what layers are you working on? Yeah, yeah. Well, it's. It's gonna be so fast this year. Right. Like, they've all quietly announced they're going to. They're going to the LCM architecture. Right. Like, they're keeping the LLMs on the front end and like, that should radically improve performance. You know, it's going to be crazy to see and, and the impact of the context window sizes, which are ridiculous already. Like I said, one million tokens. Yeah.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  text: Well, no, it's just if you just think about it, like they're crunching so much data and it's just, like, ridiculous. So they must. What's weird is the compression that they find and then the invisible layers that they leverage that I just don't understand yet. And when. When they're doing things at the consumer level, I don't even know if we're engaging with AI a lot of the time. You know, I mean, when we're working with an API, you are. But when you're working within cloud, what layers are you working on? Yeah, yeah. Well, it's. It's gonna be so fast this year. Right. Like, they've all quietly announced they're going to. They're going to the LCM architecture. Right. Like, they're keeping the LLMs on the front end and like, that should radically improve performance. You know, it's going to be crazy to see and, and the impact of the context window sizes, which are ridiculous already. Like I said, one million tokens. Yeah. Million tokens is crazy. I'm still running up against two and a half million. Sometimes being a problem. If I work in cloud, that's just. That works. Hey, fellas. Good morning, sir. How are you doing? I wasn't sure if we were getting on the. On the hangout or on the Discord. Oh, right. And I didn't make that clear at all. You can't try and update Discord and lose your Internet or Discord. Discord has a really hard time. I find Discord to be clunky. It does a lot of things in the background that I don't like it doing. Like trying to switch audio on me. I'm like, what are you trying to do? I don't understand. Yeah. Who knows what let's try to do. It's kind of take over and settle days. But yeah, I've. The very late email is because my mind is just completely elsewhere right now. But that's good to have these meetings because it's about surfacing. Oh, no, it's. I, I got it wrong. It's 2 million tokens for the Pro. It's 1 million for the Flash version I'm using.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  text: I find Discord to be clunky. It does a lot of things in the background that I don't like it doing. Like trying to switch audio on me. I'm like, what are you trying to do? I don't understand. Yeah. Who knows what let's try to do. It's kind of take over and settle days. But yeah, I've. The very late email is because my mind is just completely elsewhere right now. But that's good to have these meetings because it's about surfacing. Oh, no, it's. I, I got it wrong. It's 2 million tokens for the Pro. It's 1 million for the Flash version I'm using. That's what it is. That's still a lot of context for doing practice. It's double. It's double what I was saying. I didn't even realize. Yeah. And by the time it gets to 10, it's all over. Yeah. There's a bunch of these optimizations like I don't even. Like I've been playing around with Llama CPP to, to integrate Vulcan so I can make use of the GPUs in the environment that aren't natively supported. And like, don't get me wrong, what people have done is incredible. But there's tons of places for optimization. Like, we're nowhere near like the limit. You know what I mean? Like, if I can go in there and find stuff and improve performance the way I am, like, you know, never mind what other people can do and then what these systems can do to themselves with proper, proper attention and focus. Right. I went node the other day. Oh, you did? You managed it? No, I, I Not Node js. I just built myself my own node editor. Oh. I see around with Flume, which is beautiful and all, but it's just technically more than I can manage right now.
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  text: There's a bunch of these optimizations like I don't even. Like I've been playing around with Llama CPP to, to integrate Vulcan so I can make use of the GPUs in the environment that aren't natively supported. And like, don't get me wrong, what people have done is incredible. But there's tons of places for optimization. Like, we're nowhere near like the limit. You know what I mean? Like, if I can go in there and find stuff and improve performance the way I am, like, you know, never mind what other people can do and then what these systems can do to themselves with proper, proper attention and focus. Right. I went node the other day. Oh, you did? You managed it? No, I, I Not Node js. I just built myself my own node editor. Oh. I see around with Flume, which is beautiful and all, but it's just technically more than I can manage right now. What's the, what's the, what's the JavaScript package you use for this? I made. This is bespoke. I, I hand rolled this one. I hand rolled it. I described the application really well. It turns out that these node editors are a good pattern. Like if you find anything that's a good pattern, then it's easy to work with. And so what I was finding with my situation here where I'm generating all these slides, I didn't have the right patterns in place and I did like 10 apps and just quickly trying to get. Quickly. So quickly trying to get. Taking survey data and putting it into essentially slides to output to ppt. But I had the wrong metaphors in place. And if you don't have the right metaphors in place, then the. Or the right UI patterns, whatever you want to call them, then, then it's hard to. It's hard for the application, hard for The LLM to. To weave it dynamically as you build the application. But if the patterns are really solid like the playground, I stop that flashing in my face. The playground was cards. And the reason that it was easy to extend the application is I describe it the same way all the time. And so that the application was designed internally with some integrity. Turns out node editors are common pattern. Like if you want to. You want to see how quickly you want to do a comparison between LLMs, do a to do app and see how quickly it creates it. Because the to do app is now the simplest app and is given to students to build across all applications and all environments. Just like hello world. And this it turns out it's common like flow wise flume, this other node editors, they all have the same idea of inputs, outputs and then controls and then fields and that's it. And so adding, you know, changing this from right now, the data, the formats aren't correct. Like I think I have a prompt one. Yeah, it's. It's garbage. But to make this. This already has logic built in it because of the fact that it has to work from the UI point of view. So underneath it, the data structure and the UI structure, the application structure, support the workflow I want to do. So the logic is already there. I have the chatbot built in. I just need to say execute the command and hand it off. The work to make it in a Gentex environment after making a solid UI is almost nil now. That's really cool.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u51
+  - u52
+  - u53
+  - u54
+  text: I made. This is bespoke. I, I hand rolled this one. I hand rolled it. I described the application really well. It turns out that these node editors are a good pattern. Like if you find anything that's a good pattern, then it's easy to work with. And so what I was finding with my situation here where I'm generating all these slides, I didn't have the right patterns in place and I did like 10 apps and just quickly trying to get. Quickly. So quickly trying to get. Taking survey data and putting it into essentially slides to output to ppt. But I had the wrong metaphors in place. And if you don't have the right metaphors in place, then the. Or the right UI patterns, whatever you want to call them, then, then it's hard to. It's hard for the application, hard for The LLM to. To weave it dynamically as you build the application. But if the patterns are really solid like the playground, I stop that flashing in my face. The playground was cards. And the reason that it was easy to extend the application is I describe it the same way all the time. And so that the application was designed internally with some integrity. Turns out node editors are common pattern. Like if you want to. You want to see how quickly you want to do a comparison between LLMs, do a to do app and see how quickly it creates it. Because the to do app is now the simplest app and is given to students to build across all applications and all environments. Just like hello world. And this it turns out it's common like flow wise flume, this other node editors, they all have the same idea of inputs, outputs and then controls and then fields and that's it. And so adding, you know, changing this from right now, the data, the formats aren't correct. Like I think I have a prompt one. Yeah, it's. It's garbage. But to make this. This already has logic built in it because of the fact that it has to work from the UI point of view. So underneath it, the data structure and the UI structure, the application structure, support the workflow I want to do. So the logic is already there. I have the chatbot built in. I just need to say execute the command and hand it off. The work to make it in a Gentex environment after making a solid UI is almost nil now. That's really cool. Speaking of agents, did anyone look at that Goose package that. What's this pickle deployed? Did you see that one? No, I don't even know what you're talking about. It's. What's the guy who started Twitter? What's his name? Jack Dorsey.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: I made. This is bespoke. I, I hand rolled this one. I hand rolled it. I described the application really well. It turns out that these node editors are a good pattern. Like if you find anything that's a good pattern, then it's easy to work with. And so what I was finding with my situation here where I'm generating all these slides, I didn't have the right patterns in place and I did like 10 apps and just quickly trying to get. Quickly. So quickly trying to get. Taking survey data and putting it into essentially slides to output to ppt. But I had the wrong metaphors in place. And if you don't have the right metaphors in place, then the. Or the right UI patterns, whatever you want to call them, then, then it's hard to. It's hard for the application, hard for The LLM to. To weave it dynamically as you build the application. But if the patterns are really solid like the playground, I stop that flashing in my face. The playground was cards. And the reason that it was easy to extend the application is I describe it the same way all the time. And so that the application was designed internally with some integrity. Turns out node editors are common pattern. Like if you want to. You want to see how quickly you want to do a comparison between LLMs, do a to do app and see how quickly it creates it. Because the to do app is now the simplest app and is given to students to build across all applications and all environments. Just like hello world. And this it turns out it's common like flow wise flume, this other node editors, they all have the same idea of inputs, outputs and then controls and then fields and that's it. And so adding, you know, changing this from right now, the data, the formats aren't correct. Like I think I have a prompt one. Yeah, it's. It's garbage. But to make this. This already has logic built in it because of the fact that it has to work from the UI point of view. So underneath it, the data structure and the UI structure, the application structure, support the workflow I want to do. So the logic is already there. I have the chatbot built in. I just need to say execute the command and hand it off. The work to make it in a Gentex environment after making a solid UI is almost nil now. That's really cool. Speaking of agents, did anyone look at that Goose package that. What's this pickle deployed? Did you see that one? No, I don't even know what you're talking about. It's. What's the guy who started Twitter? What's his name? Jack Dorsey. Dorsey. Yeah. He's crazy. He's crazy. Under. Under block. His like his holding company, they deployed this Goose open source agent builder like last week. Anyway, something. I just saw it this morning, so I haven't played with it yet. But. Dave, I mean that's awesome. So can you use Node builder in the same way where you've got the LLM driving the node creation and the linkage and everything. This is all just an app right now. This is all just JavaScript. The ability to then say put a prompt in here like give me 10 primes easy. And then it. Because these are set up, it'll hand her off as the value that'll go into here. And so sequencing it as a workflow like the card metaphor was really easy to once I had the source, I could make the source the previous one and then all of a sudden our workflow built into it. This allows for other people to quickly build logic. And I do this a lot. Like, that's kind of my primary. Yeah, yeah. My primary thing. If you use, you use flow wise, right? No, I'm using like a dummy one. Like it's called hunch. Hunch. Yeah, but okay, so they're all fairly similar.
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  text: This is all just an app right now. This is all just JavaScript. The ability to then say put a prompt in here like give me 10 primes easy. And then it. Because these are set up, it'll hand her off as the value that'll go into here. And so sequencing it as a workflow like the card metaphor was really easy to once I had the source, I could make the source the previous one and then all of a sudden our workflow built into it. This allows for other people to quickly build logic. And I do this a lot. Like, that's kind of my primary. Yeah, yeah. My primary thing. If you use, you use flow wise, right? No, I'm using like a dummy one. Like it's called hunch. Hunch. Yeah, but okay, so they're all fairly similar. It's. It's just like, you know, it's like AI block, content block, you know, so it's like input or output and then it's just the daisy chain and then it just inserts the output at the bottom of the next one. And then like, you know, it's. I'm basically just going to make it easier to use the, the playground, call it a workspace and it'll be the same fundamental thing. Instead of here, like in, in this one, what I'll make it is like pull down and it'll be like all the prompts will be there, the agents will be there. So you know, there'll be probably different types of agents. Research, analysis and then whatever. And then use. The data is just a source like you say, and then the output is just a conforming to. That's where I'm spending all my time right now is building a conforming engine. I'm taking results from a survey, mapping them to the questions, and then dynamically building a chart and a table and an analysis for each of them and then exporting them as ppt. So the conforming part is a big deal turns out, because you know, you want to make it nice and. Roll. On it as I move along. But it's pretty cool. The next step is right here. I have the ability to. Then this is how I'm constructing. I don't know what to do. So I'll take my slide and then I can, I can. Oh, it's broken. Now I can. Oh, wait, no, it's because I go to IT decision makers. I can talk to the chart, the table and analyze.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  text: I'm basically just going to make it easier to use the, the playground, call it a workspace and it'll be the same fundamental thing. Instead of here, like in, in this one, what I'll make it is like pull down and it'll be like all the prompts will be there, the agents will be there. So you know, there'll be probably different types of agents. Research, analysis and then whatever. And then use. The data is just a source like you say, and then the output is just a conforming to. That's where I'm spending all my time right now is building a conforming engine. I'm taking results from a survey, mapping them to the questions, and then dynamically building a chart and a table and an analysis for each of them and then exporting them as ppt. So the conforming part is a big deal turns out, because you know, you want to make it nice and. Roll. On it as I move along. But it's pretty cool. The next step is right here. I have the ability to. Then this is how I'm constructing. I don't know what to do. So I'll take my slide and then I can, I can. Oh, it's broken. Now I can. Oh, wait, no, it's because I go to IT decision makers. I can talk to the chart, the table and analyze. They won't find any anyways. I've got the 360 going and then what I would like to be able to do is talk to the design of the page and do it dynamically so that things are moving along. Oh, there we go. Got it. We got some similar analysis. Oh, it's doing a much better job. I know that it's actually integrating it now. I didn't work this time. All right, so that was the original app. Was. I was Basically I built a chatbot that I wanted to be able to say send the data to the chatbot to the LLM and ask it a question like produce a demographic slide and, and return it in HTML. And here's the HTML and here's the. And here's the data. I asked for a table of anomalies. Gave me. It gave me everything. Everything is an anomaly. But it. The. The node editor will allow for building this kind of thing very quickly. So now see when it gets broken, it gets really broken. Supposed to show this tomorrow and I'm having panicky attacks. But Goose, code name Goose, you're on machine agent automating engineering tasks seamlessly. This is probably where I'm trying to go. Yeah, maybe can you review the code chat GPT Yesterday I saw I was doing something. I was trying to make JSON out of table data. And the nice thing about JSON is you can make relational table relational database happen really quickly. Try to work with relational database. Right. I have a relational database thing happening. I've got a search survey it needs to look up anyways.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  text: Got it. We got some similar analysis. Oh, it's doing a much better job. I know that it's actually integrating it now. I didn't work this time. All right, so that was the original app. Was. I was Basically I built a chatbot that I wanted to be able to say send the data to the chatbot to the LLM and ask it a question like produce a demographic slide and, and return it in HTML. And here's the HTML and here's the. And here's the data. I asked for a table of anomalies. Gave me. It gave me everything. Everything is an anomaly. But it. The. The node editor will allow for building this kind of thing very quickly. So now see when it gets broken, it gets really broken. Supposed to show this tomorrow and I'm having panicky attacks. But Goose, code name Goose, you're on machine agent automating engineering tasks seamlessly. This is probably where I'm trying to go. Yeah, maybe can you review the code chat GPT Yesterday I saw I was doing something. I was trying to make JSON out of table data. And the nice thing about JSON is you can make relational table relational database happen really quickly. Try to work with relational database. Right. I have a relational database thing happening. I've got a search survey it needs to look up anyways. You can just use Supabase. Dave. It's pretty slick. Yeah, I know. Yeah. But that's infrastructure. Right. And so that's the next step. I looked at it. I'm trying to figure out what this. Yeah. Got into the problem. But anyways this is the level at which I'm building inside my apps to be able to finish my apps. It's like be able to talk to the app to make it, to design it better. It needs to make sure that you, you, you have to have an, like an API in the page or it has to be really well structured. So I'm using View JS to enable this case. A well structured page. But this looks pretty slick. Runs locally and just you know, with four zero now or maybe it's other models too. In ChatGPT they have a preview of your. You can create HTML page in a preview for it. So it's a, it's an editor now for code. And you know what? That probably was about an afternoon of effort for them. But that's kind of that craziness.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  text: Yeah, I know. Yeah. But that's infrastructure. Right. And so that's the next step. I looked at it. I'm trying to figure out what this. Yeah. Got into the problem. But anyways this is the level at which I'm building inside my apps to be able to finish my apps. It's like be able to talk to the app to make it, to design it better. It needs to make sure that you, you, you have to have an, like an API in the page or it has to be really well structured. So I'm using View JS to enable this case. A well structured page. But this looks pretty slick. Runs locally and just you know, with four zero now or maybe it's other models too. In ChatGPT they have a preview of your. You can create HTML page in a preview for it. So it's a, it's an editor now for code. And you know what? That probably was about an afternoon of effort for them. But that's kind of that craziness. You're supposed to add or clone a repo. It's different man. I'm so like oh, you're getting well man. So git. Are you using the desktop app? Yeah. Yeah. So you want to. If you're creating one, you want to add a repo. And the problem with it is if you've already created the folder on your drive that's a bit of a fucked up situation where I have a clutch of a workaround. So what you want to do is create the repo first and then move into the directory and start working. But that's not often how we work. So what I've done is I will add and initialize a new and then drop my folder, my files into that directory because it has a git file in there and then you can initialize them that way. It's a super, super. Not the right way to go. But I've been coding hot the last two days. Small commits here and there and if I'm in a rush I will just do that thing I'm talking about. So yeah, your origin isn't on your desktop, it's up in the cloud and you're pushing and pulling and you got to get. I think if you do it a hundred times then it's better.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: Yeah. So you want to. If you're creating one, you want to add a repo. And the problem with it is if you've already created the folder on your drive that's a bit of a fucked up situation where I have a clutch of a workaround. So what you want to do is create the repo first and then move into the directory and start working. But that's not often how we work. So what I've done is I will add and initialize a new and then drop my folder, my files into that directory because it has a git file in there and then you can initialize them that way. It's a super, super. Not the right way to go. But I've been coding hot the last two days. Small commits here and there and if I'm in a rush I will just do that thing I'm talking about. So yeah, your origin isn't on your desktop, it's up in the cloud and you're pushing and pulling and you got to get. I think if you do it a hundred times then it's better. Yeah. So what, what are you, what are you using to develop your prototype thinking? Me, I've been mostly like around with reflux and like bulge and those kinds of things because like the, the thing is is that like I get into like cursor and everything seems to go relatively well. Yeah. But you know, like I just don't have a good like flow of like being able to like it'll like, you know, it kind of add stuff and then I, because I don't know how to code it like chokes on itself and I'm just like trying to fix things and it's just not, not, not there. So even though I have like a little deployment thing set up and that was good but like I'm like, okay, now I need to like, I need more fundamental understanding to be able to do this. Yeah. So I was wondering why Replit. Your guys are on replit, right? No, and I think I'm gonna like test out Lovable because it has like a better, has a better integration to suit the case. So it's all just like you don't have to think about anything. It's interesting to see how much of this stuff is getting abstracted away.
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  text: But you know, like I just don't have a good like flow of like being able to like it'll like, you know, it kind of add stuff and then I, because I don't know how to code it like chokes on itself and I'm just like trying to fix things and it's just not, not, not there. So even though I have like a little deployment thing set up and that was good but like I'm like, okay, now I need to like, I need more fundamental understanding to be able to do this. Yeah. So I was wondering why Replit. Your guys are on replit, right? No, and I think I'm gonna like test out Lovable because it has like a better, has a better integration to suit the case. So it's all just like you don't have to think about anything. It's interesting to see how much of this stuff is getting abstracted away. Yeah. Well, I'm liking my workflow right now. It is basically it's whatever the IDE is and then GitHub Desktop and then Netlify to. So it's all automated once I have a low in place version of all that. But it is nice to see that the deploys are quick now if they're. Yeah, my stuff isn't complicated yet and so it's going to get there in a heartbeat if this demo goes well, which it should just depending on when. Then. Yeah, the next step is considering replit or something standardizing around a tool set. And I'm just like, who is that person? Yeah, I mean, they're just different things, right? Like, I mean, like the thing is with like replit, like, I don't know, how do you even give it your own code? Like, no, I'm sure you can, but. Yeah. I was spending some time talking to Lauren yesterday. We were looking at like how to kind of do the generations and transformations into. With like. Yeah, what it's called because we were using GraphQL for everything. There's some package in there that like turns it into this like Zod schema. And then like you can. Which is basically like JSON, I guess. And then when we're instead of having to give it like an example of a schema to conform, it output to like, it just knows what it is like. And so it's like, okay, the output's always structured in like the react component structure. So the, you know, prop generates whatever the content is and then it just like frees it automatically into the. Basically picked up. But we were talking about like it did kind of get. Getting to the point where we're like, oh man, like, how can we do this almost in real time? Like, it's seemed like it was something that was a further step down the path. And we're like, that's actually not that far, not that hard.
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  text: Yeah, I mean, they're just different things, right? Like, I mean, like the thing is with like replit, like, I don't know, how do you even give it your own code? Like, no, I'm sure you can, but. Yeah. I was spending some time talking to Lauren yesterday. We were looking at like how to kind of do the generations and transformations into. With like. Yeah, what it's called because we were using GraphQL for everything. There's some package in there that like turns it into this like Zod schema. And then like you can. Which is basically like JSON, I guess. And then when we're instead of having to give it like an example of a schema to conform, it output to like, it just knows what it is like. And so it's like, okay, the output's always structured in like the react component structure. So the, you know, prop generates whatever the content is and then it just like frees it automatically into the. Basically picked up. But we were talking about like it did kind of get. Getting to the point where we're like, oh man, like, how can we do this almost in real time? Like, it's seemed like it was something that was a further step down the path. And we're like, that's actually not that far, not that hard. No, it's generally not from a sense what you've got going on. Yeah, it. I actually found that the reverse was hard for me is that as soon as it's not in real time, it was more difficult. And that was because my. My information was super clean. My. My data model was nice. I was generating it. Right. It's synthetic data. And the other thing to just reflect on what you said and this way I'm going about this is like I. It was metadata, it was JSON. And the power of buck and JSON is that it has the structure built into it and so that it can infer all kinds of creatures. Crazy meaning. So to your point, it's just like it knows. It just knows. Like if you put it in that format, it has a greater understanding of what's going on because there is this other level of information put into it. When I have a relational database, I have a bunch of values that represent. That are represented in a lookup table and I have a respondent sitting somewhere else and I have to glue it all together. It has no integrity. And so my Thing is, first thing I do is export it every every respondent as a JSON file. Question, answer and the answers are just values. The best thing would be what is the literal question? What were my options and what was my answer as the data format? And then everything has integrity and you can analyze it on its flaw, it can analyze things in context. And having adding the questions is a little too much, but adding all the options in, but at least having a question the answer, you have the context for things. Then the LLM, if you're working that way, it can effectively do better. But if you're using any of the tools, man, it just jumps up and down the stuff because it's xml. As soon as I changed my stuff from tables to JSON files, my stuff worked better. I spent three days beating my head against trying to get this lookup thing working in a bunch of different ways to see if the LLM could help in some regards. But it was all about trying to scrub the data to make it work. And once I sat there and got it after some work into a table, I was able to then say, build it into a JSON file so that the relational nature was there and it could find everything. Now I can get back to what I do well. And so I think anytime that you're looking at making things in real time, like the information structure that you're working with might not be the structure that you're got it stored in the database. Whatever you try to leverage at the execution of the page, depending on how you're working with it, and if you're working with the generation and the transformation, working at that level of metadata probably you can probably work huge chunks of data, meaning typically what you're going to send to the LLM is going to be dithered down to very specific set of calls and joins from your relational database. You might just be able to send up a high level object chunky because it would like the context of the objects above it.
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u91
+  text: I actually found that the reverse was hard for me is that as soon as it's not in real time, it was more difficult. And that was because my. My information was super clean. My. My data model was nice. I was generating it. Right. It's synthetic data. And the other thing to just reflect on what you said and this way I'm going about this is like I. It was metadata, it was JSON. And the power of buck and JSON is that it has the structure built into it and so that it can infer all kinds of creatures. Crazy meaning. So to your point, it's just like it knows. It just knows. Like if you put it in that format, it has a greater understanding of what's going on because there is this other level of information put into it. When I have a relational database, I have a bunch of values that represent. That are represented in a lookup table and I have a respondent sitting somewhere else and I have to glue it all together. It has no integrity. And so my Thing is, first thing I do is export it every every respondent as a JSON file. Question, answer and the answers are just values. The best thing would be what is the literal question? What were my options and what was my answer as the data format? And then everything has integrity and you can analyze it on its flaw, it can analyze things in context. And having adding the questions is a little too much, but adding all the options in, but at least having a question the answer, you have the context for things. Then the LLM, if you're working that way, it can effectively do better. But if you're using any of the tools, man, it just jumps up and down the stuff because it's xml. As soon as I changed my stuff from tables to JSON files, my stuff worked better. I spent three days beating my head against trying to get this lookup thing working in a bunch of different ways to see if the LLM could help in some regards. But it was all about trying to scrub the data to make it work. And once I sat there and got it after some work into a table, I was able to then say, build it into a JSON file so that the relational nature was there and it could find everything. Now I can get back to what I do well. And so I think anytime that you're looking at making things in real time, like the information structure that you're working with might not be the structure that you're got it stored in the database. Whatever you try to leverage at the execution of the page, depending on how you're working with it, and if you're working with the generation and the transformation, working at that level of metadata probably you can probably work huge chunks of data, meaning typically what you're going to send to the LLM is going to be dithered down to very specific set of calls and joins from your relational database. You might just be able to send up a high level object chunky because it would like the context of the objects above it.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  text: I actually found that the reverse was hard for me is that as soon as it's not in real time, it was more difficult. And that was because my. My information was super clean. My. My data model was nice. I was generating it. Right. It's synthetic data. And the other thing to just reflect on what you said and this way I'm going about this is like I. It was metadata, it was JSON. And the power of buck and JSON is that it has the structure built into it and so that it can infer all kinds of creatures. Crazy meaning. So to your point, it's just like it knows. It just knows. Like if you put it in that format, it has a greater understanding of what's going on because there is this other level of information put into it. When I have a relational database, I have a bunch of values that represent. That are represented in a lookup table and I have a respondent sitting somewhere else and I have to glue it all together. It has no integrity. And so my Thing is, first thing I do is export it every every respondent as a JSON file. Question, answer and the answers are just values. The best thing would be what is the literal question? What were my options and what was my answer as the data format? And then everything has integrity and you can analyze it on its flaw, it can analyze things in context. And having adding the questions is a little too much, but adding all the options in, but at least having a question the answer, you have the context for things. Then the LLM, if you're working that way, it can effectively do better. But if you're using any of the tools, man, it just jumps up and down the stuff because it's xml. As soon as I changed my stuff from tables to JSON files, my stuff worked better. I spent three days beating my head against trying to get this lookup thing working in a bunch of different ways to see if the LLM could help in some regards. But it was all about trying to scrub the data to make it work. And once I sat there and got it after some work into a table, I was able to then say, build it into a JSON file so that the relational nature was there and it could find everything. Now I can get back to what I do well. And so I think anytime that you're looking at making things in real time, like the information structure that you're working with might not be the structure that you're got it stored in the database. Whatever you try to leverage at the execution of the page, depending on how you're working with it, and if you're working with the generation and the transformation, working at that level of metadata probably you can probably work huge chunks of data, meaning typically what you're going to send to the LLM is going to be dithered down to very specific set of calls and joins from your relational database. You might just be able to send up a high level object chunky because it would like the context of the objects above it. Right? Everything likes context, man. So, you know, I think you're on the right path what you say. I don't think it's that big difference between not, you know, static and real time. I don't think it is, man. It's just everything I'm going to build moving forward is going to be in real time and then it's just going to be something, you know, it's going to be a job of trying to get it down to the number of tokens appropriately and then to the number of seconds, milliseconds appropriately, because Is easier if you start there in many ways. And if you start at understanding how the data can move more quickly through the application without having to make calls back and forth all the time. How do you maintain context of the information that you bring into the page, into its context, and how do you work with it? I'm just trying to work through the information myself right now, Jason, as I talk through this, because context is everything, right? If I send the whole page up to the LLM, it knows what's going on. It's. But it's too big and it's too complicated. If I just send the table up and I just send the table and analyze that, that's not enough. I send the table and the chart. That's great. I send the table and the chart and some contextual information about the demographics, it gives me more information, so that context. But this is me just trying with the survey data.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  text: Everything likes context, man. So, you know, I think you're on the right path what you say. I don't think it's that big difference between not, you know, static and real time. I don't think it is, man. It's just everything I'm going to build moving forward is going to be in real time and then it's just going to be something, you know, it's going to be a job of trying to get it down to the number of tokens appropriately and then to the number of seconds, milliseconds appropriately, because Is easier if you start there in many ways. And if you start at understanding how the data can move more quickly through the application without having to make calls back and forth all the time. How do you maintain context of the information that you bring into the page, into its context, and how do you work with it? I'm just trying to work through the information myself right now, Jason, as I talk through this, because context is everything, right? If I send the whole page up to the LLM, it knows what's going on. It's. But it's too big and it's too complicated. If I just send the table up and I just send the table and analyze that, that's not enough. I send the table and the chart. That's great. I send the table and the chart and some contextual information about the demographics, it gives me more information, so that context. But this is me just trying with the survey data. Yeah, I mean, I was trying to think about, like, is it, like, have we tested. Is it better to send the actual, like, code or to send the, like, content or to send, like, an image? I mean, image takes longer. So. All good questions. Yeah. Like, you have to do some testing. And then like, obviously every model is going to be a little bit different. I was reading, watching this Stanford talk about. This guy was talking about, like, compound systems and LLMs and, like, you know, how these things work. And like, just some of the earlier experimentation that was done where, you know, model to model, like, you know, prompting differences. Like, we know, like the kind of large difference, like, you know, Claude likes XML open AI likes this. But, like, you know, it's like whether there was a colon at the end of something or not a colon, you know, like. And then in this model, it likes these things. In this model, it doesn't like these things. And like, it's like, really we take for granted the things that we think that we know about these things, but we really don't know them, you know, like.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  text: Yeah, I mean, I was trying to think about, like, is it, like, have we tested. Is it better to send the actual, like, code or to send the, like, content or to send, like, an image? I mean, image takes longer. So. All good questions. Yeah. Like, you have to do some testing. And then like, obviously every model is going to be a little bit different. I was reading, watching this Stanford talk about. This guy was talking about, like, compound systems and LLMs and, like, you know, how these things work. And like, just some of the earlier experimentation that was done where, you know, model to model, like, you know, prompting differences. Like, we know, like the kind of large difference, like, you know, Claude likes XML open AI likes this. But, like, you know, it's like whether there was a colon at the end of something or not a colon, you know, like. And then in this model, it likes these things. In this model, it doesn't like these things. And like, it's like, really we take for granted the things that we think that we know about these things, but we really don't know them, you know, like. Yeah, no, it requires. The experimentation is vital and it's just really expensive and it's not how we normally want work when it comes to business. Right. Yeah, but I think learning the, the, the, like, the. We talked about this before, like, a while ago, like, the, the styling of the prompts, like the iterative, like, automated regeneration of the prompts in terms of the styling. Because I remember, like, back when you'd, like, had that, like, you know, funky, like, LLM language that was, you know, like you compressed everything into, like, you know, seemingly gibberish and it was still. Still Running super functional. I want to go back there. I thought about yesterday. Yeah. Abstraction layer. Yeah, yeah, so. So it could be that you get to a logical abstraction layer above everything, which is. You know what the, the node thing is really good at is the business logic. The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right? It's. And there's. There are ways to iterate, especially if you're going atomic. Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that. But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now. Super costly and academic is the proof is in the pudding and the output breathing of it. And I was like. Because I, I created a couple of prompting environments and created histories and then tried to compare them. That got really expensive. But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat. But what I had was control of my ship. That was like two years ago I said that. And then it was like, okay, well, that's a really integral structure. If I'm defining agents, I can define not only their characteristics, but how they function too. In that regard, I can actually embed data inside that. So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there. I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively. Just less words, you know, again, all context. But I think that this is the, the timeline is just. Is quite curious. Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application. Right? That's what the LLMs are doing. They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files. And so they're creating Python tools if they don't have them already in cursor right in front of you. They're small, but they're doing. And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at. And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation. And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis. And so that time I was sending the API up previous. In other cases, I send the data set up. So you can do both depending on how you structure the data. If it's send. If you sen
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  text: Abstraction layer. Yeah, yeah, so. So it could be that you get to a logical abstraction layer above everything, which is. You know what the, the node thing is really good at is the business logic. The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right? It's. And there's. There are ways to iterate, especially if you're going atomic. Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that. But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now. Super costly and academic is the proof is in the pudding and the output breathing of it. And I was like. Because I, I created a couple of prompting environments and created histories and then tried to compare them. That got really expensive. But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat. But what I had was control of my ship. That was like two years ago I said that. And then it was like, okay, well, that's a really integral structure. If I'm defining agents, I can define not only their characteristics, but how they function too. In that regard, I can actually embed data inside that. So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there. I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively. Just less words, you know, again, all context. But I think that this is the, the timeline is just. Is quite curious. Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application. Right? That's what the LLMs are doing. They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files. And so they're creating Python tools if they don't have them already in cursor right in front of you. They're small, but they're doing. And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at. And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation. And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis. And so that time I was sending the API up previous. In other cases, I send the data set up. So you can do both depending on how you structure the data. If it's send. If you sen
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u103
+  text: So it could be that you get to a logical abstraction layer above everything, which is. You know what the, the node thing is really good at is the business logic. The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right? It's. And there's. There are ways to iterate, especially if you're going atomic. Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that. But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now. Super costly and academic is the proof is in the pudding and the output breathing of it. And I was like. Because I, I created a couple of prompting environments and created histories and then tried to compare them. That got really expensive. But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat. But what I had was control of my ship. That was like two years ago I said that. And then it was like, okay, well, that's a really integral structure. If I'm defining agents, I can define not only their characteristics, but how they function too. In that regard, I can actually embed data inside that. So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there. I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively. Just less words, you know, again, all context. But I think that this is the, the timeline is just. Is quite curious. Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application. Right? That's what the LLMs are doing. They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files. And so they're creating Python tools if they don't have them already in cursor right in front of you. They're small, but they're doing. And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at. And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation. And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis. And so that time I was sending the API up previous. In other cases, I send the data set up. So you can do both depending on how you structure the data. If it's send. If you sen
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  text: So it could be that you get to a logical abstraction layer above everything, which is. You know what the, the node thing is really good at is the business logic. The, the layer that you're talking about where you can figure out what the best way to optimize prompts are, is super expensive, right? It's. And there's. There are ways to iterate, especially if you're going atomic. Like, like if you're having an atomic agent where it's doing a very specific granular kind of activity, I think you can get very good at that. But depending on how they work and collaborate together, the environments I've seen to iterate on prompting are ridiculous right now. Super costly and academic is the proof is in the pudding and the output breathing of it. And I was like. Because I, I created a couple of prompting environments and created histories and then tried to compare them. That got really expensive. But I think to, to minimize concern at some level, I just went to metadata with everything so that everything underneath it was going to suffer somewhat. But what I had was control of my ship. That was like two years ago I said that. And then it was like, okay, well, that's a really integral structure. If I'm defining agents, I can define not only their characteristics, but how they function too. In that regard, I can actually embed data inside that. So no matter what was going on underneath and which system it would move to, there would be a transforming of it or transposing of it as it moved in there. I did a little bit of that trying to get small, medium, large kind of agents to see what they were produced comparatively. Just less words, you know, again, all context. But I think that this is the, the timeline is just. Is quite curious. Like I'm already building applications where I'm trying to finish the application while I'm inside the application by using the LLM to poke around the application. Right? That's what the LLMs are doing. They're now building tools on the desktop and you can see them doing it to do work like make files and find files and sift through files. And so they're creating Python tools if they don't have them already in cursor right in front of you. They're small, but they're doing. And that's kind of where I need to go for this, this survey engine is it has to be able to generate charts based on a template and then modify them in the context of what I'M looking at. And to your point, earlier, when I did this cell simulation thing, I sent up the API only when I asked a question, I was like, tell me the state of the simulation. And I send up the API for the simulation and it would send me down the JavaScript to then engage with the simulation to get the data and then I would get the results and then I would send those results back and then it would give me the analysis. And so that time I was sending the API up previous. In other cases, I send the data set up. So you can do both depending on how you structure the data. If it's send. If you sen That's where like the GraphQL part comes in. Because it's basically like a database. Yeah. Yeah. GraphQL is super, super jazzy and fast, right? In terms of making those connections. Yeah. It's not like it's not real. It's not real fast. You got to be like efficient. You have to be efficient in your queries. I mean it can get like unruly, but I think it's fast if it's like focused. Yeah, yeah. You want to have a minimal data set inside each of your DBs for sure. Because you're, you're making an N dimensional conceptually. I think of it as an N dimensional array. Yeah. Or N dimensional cube. And then. And that's, that's super powerful. But if you have too many dimensions, it's. Yeah, I think that's the. I'm just trying to like figure out a way to express the way that I'm thinking about it and. Good one. Yeah, yeah, yeah.
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  text: Or N dimensional cube. And then. And that's, that's super powerful. But if you have too many dimensions, it's. Yeah, I think that's the. I'm just trying to like figure out a way to express the way that I'm thinking about it and. Good one. Yeah, yeah, yeah. I think it's. Yeah. So it's really hard when it doesn't seem like a good way to be able to express the way what you're like, I don't know, I need a substrate to be able to like label. So. I found that because of my practice, like one way to solve problems is to solve problems, meaning to build solutions is a way of understanding the problem. And in the case where discussion was, well, we don't know what the LLMs really like or do. So a lot of the cases, like we have to build it to get into the problem. And what I'm recognizing now is what that means for me As a practice in terms of if I understand the scope of the problem up front, how long it takes to solve the problem. In this new paradigm of problem solving, not the traditional waterfall approach. This is zero water. Okay. There is a tiny bit of waterfall, or we could call it base jumping where you are like, okay, this is a good spot and I've got everything ready and then you jump and then it's depending on what you've set up in terms of the framework and rails around it. Then it go really fast or go really ugly. But when I, I asked on Sunday, I asked Claude to take a really rigorous specific and it spent an hour building it.
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  text: I found that because of my practice, like one way to solve problems is to solve problems, meaning to build solutions is a way of understanding the problem. And in the case where discussion was, well, we don't know what the LLMs really like or do. So a lot of the cases, like we have to build it to get into the problem. And what I'm recognizing now is what that means for me As a practice in terms of if I understand the scope of the problem up front, how long it takes to solve the problem. In this new paradigm of problem solving, not the traditional waterfall approach. This is zero water. Okay. There is a tiny bit of waterfall, or we could call it base jumping where you are like, okay, this is a good spot and I've got everything ready and then you jump and then it's depending on what you've set up in terms of the framework and rails around it. Then it go really fast or go really ugly. But when I, I asked on Sunday, I asked Claude to take a really rigorous specific and it spent an hour building it. Like just continually, continually. I had only allowed for 20 approved pre approved actions and it was doing some file structure stuff on that I don't have pre approval for. So I had that hit approval a few times but I didn't do anything other than approve it for about an hour. Oh wow. Wow. I gave it, I gave it. You know, I spent, I spent over an hour or whatever on describing this application in very concise three sentence paragraphs. But it wasn't, I didn't. So there is an plan mode in clo. Incline. Yeah. And sorry, I've been saying the wrong thing incline. And I did allow it to do that. It's kind of okay. It's nothing special. You know, I think like sorry. And then I just acted out. You change from plan, you'll hit plan. It does a small spec and you hit act and then it just goes to down and it. So but it didn't, it produced something that was not very useful. Yeah, I think like in, in retrospect like I've been kind of like trying to like, I think bite it off like because I'm thinking about how to do this and like how I'm. Things work together and I, I think just like real fundamentally I just need to build like a really comprehensive PRD and be like, okay from this and then use the LLMs to actually help me like flush it out a little bit. And then like finally like that's what I do.
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u123
+  - u124
+  - u125
+  text: And then I just acted out. You change from plan, you'll hit plan. It does a small spec and you hit act and then it just goes to down and it. So but it didn't, it produced something that was not very useful. Yeah, I think like in, in retrospect like I've been kind of like trying to like, I think bite it off like because I'm thinking about how to do this and like how I'm. Things work together and I, I think just like real fundamentally I just need to build like a really comprehensive PRD and be like, okay from this and then use the LLMs to actually help me like flush it out a little bit. And then like finally like that's what I do. I, I start with a paragraph or page depending on how super fast it's going to be and then I work to build out a specification. I make sure that I have a specification and I will try it concurrently in different environments. But I typically will usually do one big push in, in one of the big LLMs and then get a base going and then I'll work inside cursor to then iterate on it. And again to your point, I know how to read both the code and the ability of the environment to know if it's working well. Well, and that's only through like the few hundred hours I put into it because I can tell if it's writing the wrong code just by how long it takes. And that's just an intuition thing. But. And if it starts going down that path, I'm like, well, it's too complicated. I ask for something simple. I can tell if it's going simple. I'll read all the code down. All of it. 8,000 lines of code this morning in one page. That was an accident. And then I got it down to four. But unless you have that step, Jason, there's. I wonder which environment you're working in. And I think where. I didn't know what was going on inside the LLMs. I was only working inside chatbots. I focused on the, on the metadata being a way to save my stuff and be portable and make sure I maintain my ability to learn and move through it. And it came at a price of not coding. And the tools weren't ready for me. I was trying to code and then. But so now on the converse side of things, including that other thing is available to me right now. But it's, it is super curious and it is like, I think it's weeks away. Like I can, I can confidently up to about 3,000 lines of code. I can have a really good time just riffing and making an app work if I have the right pattern in place. After that it's work even if I break it out into proper format because it's analyzing the whole code base at once and that's just not what it's good at.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u125
+  - u126
+  - u127
+  text: I, I start with a paragraph or page depending on how super fast it's going to be and then I work to build out a specification. I make sure that I have a specification and I will try it concurrently in different environments. But I typically will usually do one big push in, in one of the big LLMs and then get a base going and then I'll work inside cursor to then iterate on it. And again to your point, I know how to read both the code and the ability of the environment to know if it's working well. Well, and that's only through like the few hundred hours I put into it because I can tell if it's writing the wrong code just by how long it takes. And that's just an intuition thing. But. And if it starts going down that path, I'm like, well, it's too complicated. I ask for something simple. I can tell if it's going simple. I'll read all the code down. All of it. 8,000 lines of code this morning in one page. That was an accident. And then I got it down to four. But unless you have that step, Jason, there's. I wonder which environment you're working in. And I think where. I didn't know what was going on inside the LLMs. I was only working inside chatbots. I focused on the, on the metadata being a way to save my stuff and be portable and make sure I maintain my ability to learn and move through it. And it came at a price of not coding. And the tools weren't ready for me. I was trying to code and then. But so now on the converse side of things, including that other thing is available to me right now. But it's, it is super curious and it is like, I think it's weeks away. Like I can, I can confidently up to about 3,000 lines of code. I can have a really good time just riffing and making an app work if I have the right pattern in place. After that it's work even if I break it out into proper format because it's analyzing the whole code base at once and that's just not what it's good at. Yeah. So all my stuff has been single page apps pretty much. And that's just going to end after this week. So I need some help soon because it's going to be about structuring this properly. And that's why I'm asking you questions about Flip and like that like, okay, like what will it mean? What will it mean to be the other thing that I've, I've recognized too. And I don't think I'm instill any confidence in anyone else right now is like whatever anyone's doing right now, they should not be investing a whole ton of money in like we are to the point where whatever we can afford. But like anybody building.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  text: So all my stuff has been single page apps pretty much. And that's just going to end after this week. So I need some help soon because it's going to be about structuring this properly. And that's why I'm asking you questions about Flip and like that like, okay, like what will it mean? What will it mean to be the other thing that I've, I've recognized too. And I don't think I'm instill any confidence in anyone else right now is like whatever anyone's doing right now, they should not be investing a whole ton of money in like we are to the point where whatever we can afford. But like anybody building. Sure, one, one press release or change in the marketplace could like blow up everything you've done. Right. Yeah, that's what I mean. That's, that's exactly it. It's like, you need to be out there, like. Like we're working with this company, Pantera, and they. And luckily, I feel confident Carol's assessment of them, they need help from. From us and we're in a position, like, we need to get some work and it's really hard for me. I need a few more days. But they. They can't find any solution for them because of how they function. They've got all kinds of things that could work, but nothing. So they have to try things. In this middling space, they have to try things. And if you're not going to try things now, you're going to be looked. You're going to miss the opportunity because the next thing isn't going to be appropriate. But it is, like, any solution right now, man, I'm pretty sure in 12 months, we're tearing it apart, throwing it out the window. No matter how much effort you put into it, it'll just be so much better to build in 12 months. Yeah, just crazy. Well, and that's where, like, I've been sitting and I've been like, you know, I'm like, oh, man, I should have been able to get some of these things done further, like, a while ago. But then it's like, okay, like, by actually waiting, it's actually going to take me less time to actually build it, you know, like. And then it's like, well, how much. How long do you wait until, like, as this cooling.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  text: Yeah, that's what I mean. That's, that's exactly it. It's like, you need to be out there, like. Like we're working with this company, Pantera, and they. And luckily, I feel confident Carol's assessment of them, they need help from. From us and we're in a position, like, we need to get some work and it's really hard for me. I need a few more days. But they. They can't find any solution for them because of how they function. They've got all kinds of things that could work, but nothing. So they have to try things. In this middling space, they have to try things. And if you're not going to try things now, you're going to be looked. You're going to miss the opportunity because the next thing isn't going to be appropriate. But it is, like, any solution right now, man, I'm pretty sure in 12 months, we're tearing it apart, throwing it out the window. No matter how much effort you put into it, it'll just be so much better to build in 12 months. Yeah, just crazy. Well, and that's where, like, I've been sitting and I've been like, you know, I'm like, oh, man, I should have been able to get some of these things done further, like, a while ago. But then it's like, okay, like, by actually waiting, it's actually going to take me less time to actually build it, you know, like. And then it's like, well, how much. How long do you wait until, like, as this cooling. That's the thing I don't like too, is that mentality. How do you account for the learning that doesn't make you lazy? And. And the one thing that is so difficult to do is account for the. For the. The learning curve on this one is that it's just so radical that, you know, talking to clients is like, you know, was difficult to instill confidence because we're just basically doing yesterday's work faster. That's all I'm doing, is yesterday's work faster. As soon as they see what I can do, it'll be. It'll change some of their lights going on, but it won't change their immediate needs for sure, because their needs are all yesterday. And it's. It's quite crazy to account for something that you can't account for, because what I do account for is I don't know what I'm doing in a year now. I really. I thought it was a couple. I don't know in a year. Don't know, because what I'm. What I'm doing right now is accounting. For the LLMs, inability to do things. That's it. Yeah. You know, we'll see some other step. Function change here at some point in the next little while. Like, who knows what's going to like, roll down the pipe. I know it is wackadoo and I, I'm getting a lot of push on Copilot. It's free now inside VS code and amped up and there's a. Actually, no, it's GitHub's co pilot they're trying to push on me. Right. I haven't done my homework on it, but if there's ever anybody to watch for a tool, it might be them, man.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  text: I thought it was a couple. I don't know in a year. Don't know, because what I'm. What I'm doing right now is accounting. For the LLMs, inability to do things. That's it. Yeah. You know, we'll see some other step. Function change here at some point in the next little while. Like, who knows what's going to like, roll down the pipe. I know it is wackadoo and I, I'm getting a lot of push on Copilot. It's free now inside VS code and amped up and there's a. Actually, no, it's GitHub's co pilot they're trying to push on me. Right. I haven't done my homework on it, but if there's ever anybody to watch for a tool, it might be them, man. Yeah, well, I mean, I'm in all the boards watching all the reviews and it's a constant battle to see who's on which side. Like, like the observation is a battle because they're very emphatic. Yeah. They're never, they're never gently in a camp, if you know what I mean. Right, right. And. But I have to say it, it certainly doesn't look to me at all like, like Co pilot is winning. It seems to be. In fact, it's, it's. What I'm seeing is some frustration because of the observation you made, David, that they should be the winner. Do you know what I mean? Because. Yeah, no, it makes sense about it. Right. Like, if you think about it, they natively have all the data, everybody puts their source code there. Right. And Microsoft. Yeah. And so you'd think. But generally the consensus is no. And I think it's because. I think it's because they're slow moving that, you know, there's not a lot of changes over time and, and they don't seem to be significant or responsive and. No, there's a lot of change. Yeah, there's been various little changes. There's not a lot of changes, not a lot of improvements. You know, the one thing you can say about frankly, these smaller players, like, like Klein, like, God, they push out stuff all the freaking time and they're really, really interactive. Like the community is what drives the changes. Right. As opposed to some sort of like master plan kind of thing. So the, the people who are on the forefront are in that community and really. And then it's the, the small projects tend to follow each other that are very fast, if, if that makes any sense. In other words. No, nobody's. Nobody follows the slow guys. You know what I mean? Like, it's amazing how Rue and Klein and, and a lot of these like, small guys who move really quickly and aren't doing the work of the model itself. Like they're not. Like these guys aren't making models. Right. They don't care which model you use. Right. You basically hook up. Well, which is. Which is actually part of the problem with co pilot because they have an extreme bias, if you follow. Right. And I have to say I think that's one of the things that. That those players have gotten. Right. Those guys were like, stay out of the actual model building game. Right. And. And focus on the interface between the models and the process of building projects and software.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  text: Right. Like, if you think about it, they natively have all the data, everybody puts their source code there. Right. And Microsoft. Yeah. And so you'd think. But generally the consensus is no. And I think it's because. I think it's because they're slow moving that, you know, there's not a lot of changes over time and, and they don't seem to be significant or responsive and. No, there's a lot of change. Yeah, there's been various little changes. There's not a lot of changes, not a lot of improvements. You know, the one thing you can say about frankly, these smaller players, like, like Klein, like, God, they push out stuff all the freaking time and they're really, really interactive. Like the community is what drives the changes. Right. As opposed to some sort of like master plan kind of thing. So the, the people who are on the forefront are in that community and really. And then it's the, the small projects tend to follow each other that are very fast, if, if that makes any sense. In other words. No, nobody's. Nobody follows the slow guys. You know what I mean? Like, it's amazing how Rue and Klein and, and a lot of these like, small guys who move really quickly and aren't doing the work of the model itself. Like they're not. Like these guys aren't making models. Right. They don't care which model you use. Right. You basically hook up. Well, which is. Which is actually part of the problem with co pilot because they have an extreme bias, if you follow. Right. And I have to say I think that's one of the things that. That those players have gotten. Right. Those guys were like, stay out of the actual model building game. Right. And. And focus on the interface between the models and the process of building projects and software. It's actually at the. Driving all the innovation. Yeah, no, it's. It is pretty exciting stuff. It's just. It's a weird set of problem solving skills that are. They're transient or liminal. That's. That's. I mean, problems on the skills never. But the kind of problems I'm solving right now are curious ones. It'll be good to get back to reasoning. I'm just applying the reasoning right now.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  text: There's not a lot of changes, not a lot of improvements. You know, the one thing you can say about frankly, these smaller players, like, like Klein, like, God, they push out stuff all the freaking time and they're really, really interactive. Like the community is what drives the changes. Right. As opposed to some sort of like master plan kind of thing. So the, the people who are on the forefront are in that community and really. And then it's the, the small projects tend to follow each other that are very fast, if, if that makes any sense. In other words. No, nobody's. Nobody follows the slow guys. You know what I mean? Like, it's amazing how Rue and Klein and, and a lot of these like, small guys who move really quickly and aren't doing the work of the model itself. Like they're not. Like these guys aren't making models. Right. They don't care which model you use. Right. You basically hook up. Well, which is. Which is actually part of the problem with co pilot because they have an extreme bias, if you follow. Right. And I have to say I think that's one of the things that. That those players have gotten. Right. Those guys were like, stay out of the actual model building game. Right. And. And focus on the interface between the models and the process of building projects and software. It's actually at the. Driving all the innovation. Yeah, no, it's. It is pretty exciting stuff. It's just. It's a weird set of problem solving skills that are. They're transient or liminal. That's. That's. I mean, problems on the skills never. But the kind of problems I'm solving right now are curious ones. It'll be good to get back to reasoning. I'm just applying the reasoning right now. There's anything fun to pull up and no fun things in the last week. Hey, David, you know what? Outside of the scope. I'm just going to say I've been working on something I need you to review for the meeting this afternoon. But it's sort of outside the scope of this. Cool. Yeah. We'll chat later. All right, man. Well, it's actually one minute past 8:45. And that sounds like it's quiet and we have our eyes on other monitors. Get onto it. Yes. Let's kill it, man. Let's go. Okay. Jason, thanks for. Thanks for our lunch this last weekend. Oh, man, it was. It was great. The conversation is still going on in. My head, so I feel that they're still trying to like break it all down. Yeah. So it's good to have things to go to when the code is heavy and. Well, we'll be in touch. See you online.
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3006.42
+  utterance_ids:
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  text: We'll chat later. All right, man. Well, it's actually one minute past 8:45. And that sounds like it's quiet and we have our eyes on other monitors. Get onto it. Yes. Let's kill it, man. Let's go. Okay. Jason, thanks for. Thanks for our lunch this last weekend. Oh, man, it was. It was great. The conversation is still going on in. My head, so I feel that they're still trying to like break it all down. Yeah. So it's good to have things to go to when the code is heavy and. Well, we'll be in touch. See you online. See you guys. Thanks.

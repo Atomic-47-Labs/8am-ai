@@ -1,0 +1,28 @@
+id: IDEA-0654
+slug: dante-application-suite-and-ground-truth
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-11-05'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson identified the application suite as "Dante," which was an evolution of a tool he built with similar core functionality, based on a design by Folio (00:06:32). He explained his use of "ground truth," where he extracts text from PDFs in a separate process, ensuring the text is 100% correct to validate any subsequent inference against the PDFs (00:07:25).
+summary: Dante Application Suite and Ground Truth
+rationale: David Olsson identified the application suite as "Dante," which was an evolution of a tool he built with similar core functionality, based on a design by Folio (00:06:32). He explained his use of "ground truth," where he extracts text from PDFs in a separate process, ensuring the text is 100% correct to validate any subsequent inference against the PDFs (00:07:25).
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 56.4
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 1.2
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 288
+tier: backlog

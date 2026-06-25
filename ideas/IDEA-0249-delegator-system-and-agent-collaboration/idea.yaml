@@ -1,0 +1,28 @@
+id: IDEA-0249
+slug: delegator-system-and-agent-collaboration
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-05-14'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson demonstrated the 'delegator' system, which creates multiple agents to tackle complex tasks by dividing work and synthesizing results into a final report. Agents are dynamically created based on task complexity, with examples including HTML page generation and script writing. Current challenges include managing agent state, context windows, and report formatting for human readability.
+summary: Delegator System and Agent Collaboration
+rationale: David Olsson demonstrated the 'delegator' system, which creates multiple agents to tackle complex tasks by dividing work and synthesizing results into a final report. Agents are dynamically created based on task complexity, with examples including HTML page generation and script writing. Current challenges include managing agent state, context windows, and report formatting for human readability.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 51.9
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.2
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 405
+tier: backlog

@@ -1,0 +1,28 @@
+id: IDEA-0596
+slug: delegator-system-and-agent-interoperabil
+phase: backlog
+track: light
+source:
+  meeting: '2025-10-08'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explained that the delegator system acts as its own MCP and determines which agents to activate. They noted that agents can create workflows, which are typically linear but can also support parallel work, and function at the command line level.
+summary: Delegator System and Agent Interoperability
+rationale: David Olsson explained that the delegator system acts as its own MCP and determines which agents to activate. They noted that agents can create workflows, which are typically linear but can also support parallel work, and function at the command line level.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 53.0
+grade_breakdown:
+  evidence: 21.5
+  theme: 8.7
+  recency: 0.9
+  concretion: 7.0
+  uniqueness: 15
+  carryover: 0
+rank: 375
+tier: backlog

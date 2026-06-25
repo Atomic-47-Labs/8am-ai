@@ -1,0 +1,880 @@
+meeting:
+  date: '2025-09-24'
+  title: 8am-AI 2025-09-24
+  participants:
+  - Myles Holt
+  - Fulvio Ciano
+  - Spencer MacBeth
+  - Graham Fawcett
+  duration_s: 3257.32
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Myles Holt
+  t_start: 123.0
+  t_end: 123.5
+  text: Good morning.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 124.04
+  t_end: 138.64
+  text: Good morning. Just a second. I'm wearing headphones, but they're not plugged in. A lot of use. That is. Right. Good morning, Miles. How you doing? Good. You? Yeah, good.
+- id: u3
+  speaker: Myles Holt
+  t_start: 140.64
+  t_end: 150.56
+  text: Just getting familiar with the Vercel Edge API SDK for routing on the agenda for this week.
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 151.52
+  t_end: 152.02
+  text: Thanks.
+- id: u5
+  speaker: Myles Holt
+  t_start: 152.8
+  t_end: 154.48
+  text: You guys integrate with Vercel much?
+- id: u6
+  speaker: Fulvio Ciano
+  t_start: 155.11
+  t_end: 240.89
+  text: We do, and it's. It's interesting. We. We have a particular project that's probably the main one that we work with, and it was going direct to aws, right. Using Amplify and Radius, I believe. And we had some problems with Amplify. They really aren't with Amplify, they're with other things. But nonetheless, it was. It was causing problems with Amplify. So quick, switch to Vercel just to like, you know, gosh, it needs to be updated tomorrow, blah, blah, blah. Right. And so we did that. But I would like to go back because, you know, having so much of our infrastructure on aws, having it sort of a unified platform for everything is better. And if you've used aws, you know, there's this problem that it does a lot, but, you know, using it and navigating it requires almost a dedicated resource because it's just so much and so truly trying to find a way to like, really put an AI head on it so that we don't have to become a freaking expert on every freaking service that AWS has in order to be able to work with it. Especially since, you know, the attraction to Amplify and our code base was being able to use GitHub Actions to deploy.
+- id: u7
+  speaker: Spencer MacBeth
+  t_start: 242.25
+  t_end: 267.21
+  text: It's so nice. My current deployment stack is I have private instances for each one of my clients of our API and I have all of those pointing back to the same repo. So I just push and all five of my instances deploy right away. Why did you switch to. I'm sorry, I came in late and I'm very curious about this conversation. Why did you switch to Vercel? What was the problem you were running into?
+- id: u8
+  speaker: Fulvio Ciano
+  t_start: 268.08
+  t_end: 304.78
+  text: Well, the problem is really unrelated to Vercel or it is definitely related to aws. The problem was one of the members of the team had deployed via a. Via AWS Amplify. And to keep it short, we weren't able to see the amplified. The other members of the organization just weren't able to see the instance to do anything with it. Right. We're able to go to GitHub and do. But, you know, we're not able to interact with the AWS Amplify instance itself. And that's an issue probably having to do with IAM or, or. Or.
+- id: u9
+  speaker: Spencer MacBeth
+  t_start: 305.08
+  t_end: 307.48
+  text: Sounds like you need a service principle.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 308.84
+  t_end: 368.8
+  text: Spencer, I need to talk to you about a couple of things and I don't want to use up this meeting for it so I would love to chat with you. Really? Really What? So I'm going to at you my email if you don't have it right now and maybe we can, maybe we could because I, you know. Yes, there are plenty of what I would call hand bomb solutions or expertise leveling up I could do to solve the problem. Especially with any help from someone like you or another resource I had that was my DevOps guy at my video game development company who knows all this inside out backwards. But I do want to find some agentic solution where it's easy to maintain through the agent. Maybe, maybe, maybe a better goal is just well documented through an agent so that you know. Because documentation is everything in these kinds of things because you, you do them and leave them alone and then you go back and you're like what the did I do?
+- id: u11
+  speaker: Spencer MacBeth
+  t_start: 369.28
+  t_end: 388.3
+  text: My experience has been with aws I have to provide a lot of guidance to the. Even when I have Claude like hooked up to MCP for like the AWS docs and The AWS like APIs it's like it can be very good and surprising sometimes but also it goes astray a lot like unfortunately but here I'm.
+- id: u12
+  speaker: Fulvio Ciano
+  t_start: 388.3
+  t_end: 402.03
+  text: Sure sure love to chat with you Spencer, I pinged you my email. That's my personal evenal the atomic 47 but. But happy to give you either one. I just. My brain did the personal one because that's always the one at the top of my list. Sorry.
+- id: u13
+  speaker: Spencer MacBeth
+  t_start: 402.51
+  t_end: 403.23
+  text: No worries.
+- id: u14
+  speaker: Fulvio Ciano
+  t_start: 403.63
+  t_end: 404.69
+  text: I'll. I'll.
+- id: u15
+  speaker: Spencer MacBeth
+  t_start: 404.67
+  t_end: 408.07
+  text: I'll take that back and happy to chat sometime. I'll send you an email.
+- id: u16
+  speaker: Fulvio Ciano
+  t_start: 408.07
+  t_end: 469.77
+  text: Yeah, that'd be great. Let me give a little bit of an update to the group. David did not instruct me but I. Well, we work at the same organization as Pierce and I happen to know he's at all in AI in Montreal. In fact I could probably tell you which. Which specific talk he's at right now or panel he's listening to. But regardless, I don't suspect he'll show up. He didn't tell me specifically but I don't suspect he'll show up. And I think I missed the last meeting because I was in a pitch for another project for our company. So I don't know what we talked about last time. You guys don't know why David's not here. And so in the interest of keeping it all really loose, love to either hand it over to someone if they have some topics they'd like to throw in and. Or I'm also happy to provide something to talk about. Anybody want to go first or.
+- id: u17
+  speaker: Myles Holt
+  t_start: 471.13
+  t_end: 505.55
+  text: Sure. Well, I think as people are joining this morning, we were just talking about using Vercel Edge middleware and anyone had experience using that, so that's on the table for me this week. So my understanding is Vercel is just a wrapper for those AWS services. Makes it easy to deploy. Yeah, I guess. Specifically, is anyone doing any sort of routing with the edge middleware at this point? I know there's an SDK that you can integrate with, so I'm just getting up to speed with the SDK.
+- id: u18
+  speaker: Spencer MacBeth
+  t_start: 506.5
+  t_end: 544.42
+  text: All I can say about Vercel is like it's they, they make Next JS and I'm a big fan of Next JS and they make it really easy to deploy Next JS applications and they have their AI SDK which I have used in like some consulting projects and like people I like know and respect use that. But I was running in. But they don't necessarily use. And I, I use Next JS as a developer, but I don't necessarily use Vercel as my like cloud infra platform. However, their AI SDK and like you know, all of that stuff is very, very good.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 545.7
+  t_end: 552.9
+  text: Do you know, do they wrap that SDK in an MCP or does anyone do that so that you can. Or not.
+- id: u20
+  speaker: Spencer MacBeth
+  t_start: 555.7
+  t_end: 559.86
+  text: I was just using it directly. I haven't, I haven't hooked it up to an MCP or anything.
+- id: u21
+  speaker: Myles Holt
+  t_start: 560.67
+  t_end: 565.39
+  text: Yeah, that's my plan to use it directly because we have a next application, so.
+- id: u22
+  speaker: Fulvio Ciano
+  t_start: 566.59
+  t_end: 567.97
+  text: Perfect. Nice.
+- id: u23
+  speaker: Spencer MacBeth
+  t_start: 570.51
+  t_end: 577.63
+  text: Watch for timeouts though. That's my only caution, I'll say with Vercel is like anything that's a long running job won't play well nicely with Vercel.
+- id: u24
+  speaker: Fulvio Ciano
+  t_start: 579.87
+  t_end: 580.59
+  text: Interesting.
+- id: u25
+  speaker: Myles Holt
+  t_start: 581.79
+  t_end: 592.13
+  text: That's why we were using Ingest as an orchestration layer for that. Aisling Cana Miles. Okay, right. The stuff that Lauren got going.
+- id: u26
+  speaker: Fulvio Ciano
+  t_start: 595.89
+  t_end: 723.75
+  text: Yeah. Well, so many of these DevOps deployment issues are like things we have to struggle with. As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally. And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right? So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right? Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go. I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right. You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever. And so it's quite challenging, I have to say. Vercel. So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state. Right. And that's extraordinarily noble. I know Dave uses netlify, right. For, for some projects and it, Netlify is great. I don't know if any of you using something called beat. Oh, some people say it differently, but it is. Or vite.
+- id: u27
+  speaker: Spencer MacBeth
+  t_start: 724.71
+  t_end: 728.07
+  text: Oh, vita. I, I said it differently, I think.
+- id: u28
+  speaker: Fulvio Ciano
+  t_start: 728.55
+  t_end: 729.47
+  text: Yeah, yeah.
+- id: u29
+  speaker: Myles Holt
+  t_start: 729.47
+  t_end: 730.51
+  text: I've used bite before.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 730.51
+  t_end: 829.23
+  text: Yeah, yeah, yeah, yeah. Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy. Wow. So easy, right? Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right. And know that like if you then go put it there, you know what you're going to get, right. Like you can, you can prototype it. The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something. And yeah, you know, the amount of service you've got. So if you've got a full front end solution with no back end, I would highly recommend that's the way to go. TypeScript, JavaScript, you name it, it's all good. I can't think of an instance where it just didn't work the first time. I haven't used Vercel firsthand a lot. We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws. And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling. Right. Not a lot, but. And I didn't do it, so I shouldn't be commenting on it. I don't like to take credit for other people's pain.
+- id: u31
+  speaker: Spencer MacBeth
+  t_start: 832.19
+  t_end: 893.65
+  text: I, I have a question I would like to, to pose to the group and I certainly would have liked to hear like some of the other folks answers to this, but, and forgive me if you've talked about this at length before, but I'm somewhat new I guess, and I get that's evaluations and really like where in the pipeline and why in the pipeline? If you have, you know, calls to LLMs or you're using consumer AI, how are you evaluating things from the spectrum of just like a quick vibe check and eyeball writing prompts against something in a UI quickly or are you actually using like LLMs as a judge somewhere doing some kind of sentiment analysis or like, you know, change checking the results. So like big broad topic, but I guess like very specifically where and why are you doing evaluations? Or maybe in the more old school like tests.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 896.13
+  t_end: 1064.43
+  text: Yeah, yeah, it's a good question and, and, and really good one because it makes a difference. Right. It's one of these things that would have, has a performative impact on your result, I think. Sorry, I thought someone. Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing. Right. And so when we use worksona, sometimes it's doing that. So it's spinning up, it's. It's mapping and spinning up a judge agent or a validation agent or a testing agent. Right. A B testing agent or whatever and puts it in the, in, in the map, I will say. Right. And so, and you're, you're really asking about where in the map, right. And, and where do you get the best results? It really depends on, you know, how you're like, what your environment looks like. Right. So I use, I use a ton. I use it a lot because I worry a lot about, you know, all the problems. Right. Hallucinations, you know, whatever it is. And so I, I will. And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right? And you know, and I have a structured approach as far as like context, right? So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle. I, I call it right? To like, look at that and say, hey, did that compare the result to the prompt? And like, you know, tell me, you know, you know, first of all, score. I do use scoring a lot, not word scoring, right? Because I do think it's valuable to say score, right? And so definitely I score, right? And Almost all the LLMs will articulate a score. What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right? It's in my context and in my prompt, right? Like, you know, if it's going to score zero to five, what's five, one, zero, right? And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right? Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this. Because inevitably that's what a map looks like. Okay, so, and so just, just out.
+- id: u33
+  speaker: Spencer MacBeth
+  t_start: 1064.43
+  t_end: 1072.01
+  text: Of curiosity, is that happening at runtime or are these tests running before you push the models out or before you push the, the agents out?
+- id: u34
+  speaker: Fulvio Ciano
+  t_start: 1075.77
+  t_end: 1286.76
+  text: Let me be clear about this. I generally don't run the way worksona runs. As in like set it all all up, hit a button and go, okay, I, I don't do that. Okay, Work soda can do that. And I think that's what a lot of people hope to do in various orchestration patterns. But, but I don't just my workflow doesn't look like that. But you can do that. I don't. And I can talk to you about why I don't. Not comfortable doing that and all the rest of it. So I call, I call that like context validation, right? Like, because that's basically like, you know, those MD files, those documents are context, right? They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah. I do that. I would say I do that almost everywhere. Okay. I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic. They always find a reason to like your, your, your results Right. And, and in your prompt, you can tune that in or out a little bit if you want. But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that. Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced. Okay. I do use, because I have found it really useful. Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing. Right. Like me. Right. Or validating or, you know, figuring out the quality of God. Gemini CLI is awesome. I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test. Right. And it'll use just, it'll, it's amazing what it'll do. It's great at using MCPS and comparing to APIs and giving me really, really good output. That's everything from this function failed probably for this reason under these test conditions. It's really good at that. And I've got a bunch of sample files that I have organically built up so that it knows what I like output like. Right. Well, forget what I like. That's useful. Right, Right. You know what I mean? Like, I like it because it's useful. Right. It's like where it like gives me the test conditions and so forth. And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is. Right. So, yeah, I've definitely been doing something.
+- id: u35
+  speaker: Spencer MacBeth
+  t_start: 1286.76
+  t_end: 1321.65
+  text: Like that recently where I've been trying to like, in addition to scoring, I've also been trying to like, always have if I'm storing LLM outputs to have a reasoning of some kind available there so that it can tell me and that can help me peer into the black box a little bit in terms of what I might need to change my content or context to get towards the result I was actually hoping for.
+- id: u36
+  speaker: Fulvio Ciano
+  t_start: 1323.81
+  t_end: 1469.12
+  text: Yeah. When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make. Make you want to remap the way the agents are. The way the RE agents are aligned. Aligned is not the right word sequence. Orchestrated. Orchestrated is the right word, right? And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy. I could really do something with this, right? Like, you know, what I was missing at the front end was like even guidance. It's almost always guidance, right? Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't. It did infer from the problem the. And I guess that's in my prompt or in the samples I provided. Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened. And that's what's useful right now. That's us using human reasoning on top of its reasoning, right? Like, because I am Spencer. I am hand bombing the orchestration, right? I'm going back and like, you know, doing that. And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot. Because like, you know, all of this stuff just generates more and more, right? Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right? Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is. You just, you're exploding your context, right? And when do you throw out the result? Is it like if the score was good, get rid of that. Don't use that context going forward. You have to use that context in some way, right? Otherwise what's the point of having done it, right? So, you know, I, I look at.
+- id: u37
+  speaker: Spencer MacBeth
+  t_start: 1469.12
+  t_end: 1493.62
+  text: It myself like, and that's also, you know, turning myself back into a bottleneck. But that's been like the way that I've gotten more quality, I feel like. Jason, you mentioned. Sorry, I just saw your note in the chat, Jason, about like the using chained LLMs against like criteria. What are you, what are you working on there?
+- id: u38
+  speaker: Myles Holt
+  t_start: 1494.34
+  t_end: 1496.1
+  text: Yeah, so like it's really kind of.
+- id: u39
+  speaker: Spencer MacBeth
+  t_start: 1501.26
+  t_end: 1501.76
+  text: Damn.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 1503.74
+  t_end: 1505.02
+  text: We're not allowed to know.
+- id: u41
+  speaker: Spencer MacBeth
+  t_start: 1505.18
+  t_end: 1506.78
+  text: We lost. We lost you.
+- id: u42
+  speaker: Graham Fawcett
+  t_start: 1509.26
+  t_end: 1510.78
+  text: As soon as he started talking.
+- id: u43
+  speaker: Fulvio Ciano
+  t_start: 1510.78
+  t_end: 1511.28
+  text: Yeah.
+- id: u44
+  speaker: Myles Holt
+  t_start: 1517.98
+  t_end: 1551.63
+  text: Classic phones behavior. So what I was saying there, Spencer, is like, like what I've been doing is like way more nice. Like I don't think it fits for what you guys are doing because like we're basically running like a bunch of prop chains that like put a bunch of contest in from whatever scraped content. And then I'm trying to get like an output that's like base context for like a specific prompt to produce something for a website, a landing page.
+- id: u45
+  speaker: Fulvio Ciano
+  t_start: 1551.71
+  t_end: 1552.21
+  text: Yeah.
+- id: u46
+  speaker: Myles Holt
+  t_start: 1552.19
+  t_end: 1585.07
+  text: But I kind of have like that you know, prompt that produces that material and then like inserting the output of that into another prompt which is like you know, eval against this criteria score and then you know, produce another output in one and then I have that, you know, use that context to replace it. So I like blindly leverage the output from the eval as opposed to like evaluating whether the eval was good with any kind of human in the loop or aging.
+- id: u47
+  speaker: Fulvio Ciano
+  t_start: 1585.31
+  t_end: 1585.87
+  text: Yeah.
+- id: u48
+  speaker: Myles Holt
+  t_start: 1586.35
+  t_end: 1605.26
+  text: And it seems to work pretty well. It just forces the requirements again. Yeah, but I don't think it's very sophisticated. It's just in my experimentations found to be like pretty reliable. But it's also not very economical because you're basically double prompting everything.
+- id: u49
+  speaker: Fulvio Ciano
+  t_start: 1605.9
+  t_end: 1607.18
+  text: Yep, yep.
+- id: u50
+  speaker: Spencer MacBeth
+  t_start: 1608.06
+  t_end: 1616.22
+  text: No, that makes sense. Like sometimes just having like an extra set of eyes like from one AI to another is useful.
+- id: u51
+  speaker: Fulvio Ciano
+  t_start: 1616.94
+  t_end: 1665.14
+  text: And that's exactly right, Jason. That's why I mentioned like I tend to do that kind of, that kind of stuff with my, with my local models. Like I'm not worried about exactness of code. Right. Or, or, or big things. I'm looking for short succinct evaluations and I just find I get really good results from what I'm using locally. Right. And, and it keeps the cost down and it keeps the, it keeps the complexity down and anything that isn't like, that isn't like if I out of the automation. Right. Because I don't want it all in the automation because it's going to stick around and keep happening and always spend tokens and stuff like that. You know, I do a couple of runs where I do that and then I get my learnings and I go back and I adjust the other pipeline and that's it. All right, go ahead.
+- id: u52
+  speaker: Myles Holt
+  t_start: 1666.74
+  t_end: 1709.93
+  text: I'm sure there's lots of tools out there, but I was using a tool and anthropic bought them so it's not available anymore. But basically just doing a bunch of runs on the same kind of stage and then like literally like good, bad, good, bad, Thumbs up, thumbs down, thumbs up, thumbs down. And then building an RLHF data set and then just fine tuning particular fine tuned model to use at that stage as opposed to just the regular model. And so like that produces really good outcomes. Just like you only get a sample of like as few as like 20, 20 rows to be able to like produce like a reasonably fine tuned model to call on.
+- id: u53
+  speaker: Spencer MacBeth
+  t_start: 1712.33
+  t_end: 1733.77
+  text: Yeah, that's very cool. We're looking at that like in our platform right now of like, how are we like building our customer feedback loops in a way where we're able to like hopefully get people to buy in in a way that they're motivated, if they're using the platform directly to like give us those thumbs ups and thumbs down for their particular, their particular Personas that we're deploying for them and like looping all that.
+- id: u54
+  speaker: Myles Holt
+  t_start: 1734.93
+  t_end: 1754.85
+  text: The other thing that I like eventually want to do is just use the progression to the next step as the thumbs up and then the non progression as the thumbs down. Yeah. And so just inferring that if they moved where I wanted them to go, that it was good and if they didn't, it was bad. I think that's probably dangerous, but like, I don't know. Worth a shot.
+- id: u55
+  speaker: Spencer MacBeth
+  t_start: 1755.57
+  t_end: 1758.29
+  text: Well, that sounds, that sounds interesting. That's very dynamic.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1758.29
+  t_end: 1759.37
+  text: That goes back to, I think what.
+- id: u57
+  speaker: Spencer MacBeth
+  t_start: 1759.37
+  t_end: 1767.38
+  text: We chatted about before is just like generating everything on the fly, like as as much as humanly possible.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 1767.86
+  t_end: 1770.34
+  text: Yeah, cool.
+- id: u59
+  speaker: Spencer MacBeth
+  t_start: 1771.06
+  t_end: 1784.42
+  text: Yeah. Humanly, yes. Also, you like teleported onto that plane. You were like, like one second, you were like in the airport, you went dark for like a second and then you were on a plane like.
+- id: u60
+  speaker: Myles Holt
+  t_start: 1785.14
+  t_end: 1787.2
+  text: Yeah, like an in.
+- id: u61
+  speaker: Fulvio Ciano
+  t_start: 1787.68
+  t_end: 1792.64
+  text: I was wondering how he did that. Like, holy crap. Front of the line.
+- id: u62
+  speaker: Spencer MacBeth
+  t_start: 1792.96
+  t_end: 1793.46
+  text: Yeah.
+- id: u63
+  speaker: Myles Holt
+  t_start: 1795.92
+  t_end: 1797.2
+  text: Glitch in the matrix.
+- id: u64
+  speaker: Fulvio Ciano
+  t_start: 1797.52
+  t_end: 1931.11
+  text: Yeah. Yeah. You know, I think that there's like a. It's funny that we're talking about it because the general improvements in AR are often about this. Right. In like the models themselves are using these kinds of things. Things like reinforcement, learning. Right. And scoring and all the rest. So it's relevant, period. Right. Like it's a feature that's pushed forward. Really. It's a feature that's required because of a bug. So we all know about hallucinations and blah, blah, blah, blah. And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that. So the models are doing this on their own in thinking the thinking models. Often if you open up the thinking and you look at the thinking, you'll see that. And this is why you really got an. This is why like token expenditure and knowing what's happening at various. Whenever you're using A model. Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right? Because like the models do they, they. It's not just planning and thinking. There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth. And I, that's a real challenge because, you know, different models will behave different ways. So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation. And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand.
+- id: u65
+  speaker: Spencer MacBeth
+  t_start: 1931.11
+  t_end: 2068.52
+  text: Or I've been like, I've kind of coined this term that I'd like maybe only said out loud once or twice that I call like AI agility. That's kind of similar to like crypto agility. If you've ever been in that space where it's like, how quickly can you, how, how well abstracted are things in a way where you're able to like rapidly swap out the models and the parameters to those models throughout your system. Like in the world of cryptography, it's like, okay, we realize that one of the algorithms is bad or like a certain set of parameters, soon algorithm is bad. We need to change cryptography across our stack. And hopefully most of the time people are operating at the level where they don't think about that. I only ever had to think about that when I was working on the team in charge of like TLS for S3 at Amazon. And like we had to be very aware of how quickly can we change these things out. But with the models it's like, okay, if you bake things in, even if you tie yourself to like the, the APIs of a particular. That's I guess going back to the vertical SDK. One of the reasons it's nice is because it abstracts all that away. It has, I guess what I would say is good AI agility. But we use mini for different parts of our pipelines for the GPT class of models, because using thinking or deep research to answer to parse a few. I don't know, I find it funny. It's all 15 gpus spinning up somewhere costing $15 of electricity to parse the first name, last name and age or occupation out of a natural language conversation or something like that. But yeah, like, I, I definitely find the extent to which you can remain agile small A in the, in in your ability to take advantage of the latest developments in the models and including the like the next generation of models, like mini version of the next generation of models which is significantly cheaper, you know, you will do better. That's one.
+- id: u66
+  speaker: Fulvio Ciano
+  t_start: 2069.32
+  t_end: 2138.87
+  text: It's funny you say that Spencer, because I wrote a substack on that very topic that got some interesting feedback from people and I tried to find the title of it. I know your approach to AI should be agnostic, right. Basically like you should be able to swap out the whole API layer. Let me find the link and you know, it was, it's all on this topic, right. And what are the, what are the benefits? What are. Why do it right? How to do it right. And part of it was and I did not get into thinking versus non thinking but I got into even the way you structure agent descriptions. Right. And so forth because that matters to various different models. But yeah, so it was like yeah, it's, it, it's. I think, I think it's a really important thing. And yeah, one thing I've done this.
+- id: u67
+  speaker: Spencer MacBeth
+  t_start: 2138.87
+  t_end: 2184.29
+  text: Is even a bit silly is like sometimes if I have the prompt like some, sometimes in the pipeline I've done something like had one model that's like relatively good and static or still swappable, but have an agent model, whatever you want to call it, an LLM call whose responsibility is here's the model, here's my prompt that was written for another model. Like rewrite this prompt for a particular model and the extent that it actually produced better results. But I've seen that work when going from down to the mini versions of models where you have a significantly smaller context window and things get garbled. So that's been a useful technique.
+- id: u68
+  speaker: Fulvio Ciano
+  t_start: 2186.29
+  t_end: 2186.79
+  text: For.
+- id: u69
+  speaker: Spencer MacBeth
+  t_start: 2186.77
+  t_end: 2188.21
+  text: One stage in the pipeline.
+- id: u70
+  speaker: Fulvio Ciano
+  t_start: 2189.25
+  t_end: 2189.97
+  text: How cool.
+- id: u71
+  speaker: Spencer MacBeth
+  t_start: 2191.48
+  t_end: 2194.12
+  text: Dedication to AI is an agnostic journey.
+- id: u72
+  speaker: Fulvio Ciano
+  t_start: 2196.44
+  t_end: 2216.28
+  text: Blah, blah, blah. Yeah, you know, you do stuff and then people make you write articles about what you did. It's like that. Yeah. I actually think that's a useful thing. But not. I don't like doing it and I'm a writer, right. Like I'm a person who devotes a certain.
+- id: u73
+  speaker: Graham Fawcett
+  t_start: 2216.28
+  t_end: 2217.48
+  text: It definitely helps you think.
+- id: u74
+  speaker: Fulvio Ciano
+  t_start: 2218.48
+  t_end: 2257.94
+  text: Yeah, that's it. It's structure, right? Oh gosh, it's such a good statement to make, Graham, because it's, it's always about that, right? Like you, you, you structure. You don't just do it like you, you put some reasoning and some structure. It makes you self reflect. Right. And you know, it doesn't help that you're insecure about someone reading something you wrote. So it makes you, makes you do your Thinking a little bit more critically. Right. I, I don't like writing those kinds of articles because you know, often there's like a call to action or like, you know, for the company kind of thing. You know, I prefer join the church.
+- id: u75
+  speaker: Spencer MacBeth
+  t_start: 2257.94
+  t_end: 2259.26
+  text: Of the agnostic model.
+- id: u76
+  speaker: Fulvio Ciano
+  t_start: 2259.9
+  t_end: 2262.34
+  text: Yeah, yeah, yeah.
+- id: u77
+  speaker: Graham Fawcett
+  t_start: 2262.34
+  t_end: 2276.95
+  text: There's you just sometimes you got to accept, you got to accept the fact that you're not going to be able to control people's perceptions. But don't hedge when you're writing. You know, don't hedge. This is your, this is the level of understanding that you have at this moment in time.
+- id: u78
+  speaker: Fulvio Ciano
+  t_start: 2277.83
+  t_end: 2296.68
+  text: Well, I think it's gonna change. I have learnings outside of technology. I have learnings outside of technology and, and, and technical writing that are counter that. Right. Because you know, having, having also worked as like a, as a creative writer, it's interesting you say that this is.
+- id: u79
+  speaker: Graham Fawcett
+  t_start: 2296.68
+  t_end: 2298.76
+  text: For Internet attention capture writing.
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 2299.0
+  t_end: 2405.18
+  text: Yeah, yeah, yeah. Anyway, so Spencer. Right on. Like you can see if you read that, you'll see I was thinking about exactly what you were saying only. Right. Trying to put some detailed reasoning in why and how. Why it's important and it is important. Like, like I had, I had several people reach out to me and say oh, we have this problem and I think that this is the issue, right? Like like know how do we do this? It's like it's actually not really that hard. I think everybody's trying to seem that this is the problem is like the AI providers, they're not so happy with this because like it basically says don't over commit to a particular model. Right? So like you know, Gemini is not going to say this. OpenAI is not going to say this. But what you do see is like for example the agentic systems say that some understand this. Right. So you know, you read articles from Klein or, or whatever, right. That aren't associated with a particular model, right. Like if Open Router was writing articles they would probably write an article like this. I should have written this for Open Router, right. It's like it's probably a, you know, a major, a major thesis for why to use Open Router. Right. And so, and that's why I think it's well known that this is going to be. Because you can't. Because I didn't write. But we don't know who's going to win. We just don't know who's going to win. Right. Especially since there are dark horses in this game like ssi. Right. And maybe Meta might actually make a model that works. I don't know, seems unlikely, but never know, Right? Yeah. I mean. Go ahead.
+- id: u81
+  speaker: Graham Fawcett
+  t_start: 2405.16
+  t_end: 2425.64
+  text: Well, the idea of just being model agnostic, I mean, the idea of being agnostic generally is a strategy not getting tied into one platform or one development ecosystem and really trying to have the tools to be, to facilitate interoperability, not just on the model side, but on the. Where are those outputs going?
+- id: u82
+  speaker: Fulvio Ciano
+  t_start: 2426.36
+  t_end: 2552.92
+  text: Exactly, exactly. How are they being used? Right? And, and it's hard when you've got a stack like ours is today. You know, I, I'm going to programming a really, really long time. I started out in machine code on 68, 000 series processors, right? Video games. And you know, back then the stack wasn't like deep, right? And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right? Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right? In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right? Model formats, like as in 3D model formats and stuff like that. And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that. And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right? Like, you know, whatever it is. And you know, and, and that, you're quite right. It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right? Like using really portable formats, you know, IFF should have been king, right? Like international file formats, completely portable, that can contain anything, you know, should have won, right? And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense. It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right? Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format. Sorry, Graham, go ahead.
+- id: u83
+  speaker: Graham Fawcett
+  t_start: 2553.97
+  t_end: 2568.29
+  text: Well, do you think that there's going to be like a big, like, does the fact that we can build against commercial LLMs, like, does it create the right incentives to push interoperability over.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 2570.05
+  t_end: 2570.55
+  text: You.
+- id: u85
+  speaker: Graham Fawcett
+  t_start: 2570.33
+  t_end: 2584.06
+  text: Know, building to Formats, building to ecosystems, building to certain platforms. Like people are going to want to access data that was once siloed within certain structures and make it available because they want it available for their agents.
+- id: u86
+  speaker: Fulvio Ciano
+  t_start: 2585.5
+  t_end: 2705.77
+  text: Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business. Right. So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF. Right. Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff. So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity. I don't know what to say. Whatever, you know, like better empirically, if that makes, you can use the word empirically. But what is that? That's like an open, true, open AI llama type, totally agnostic environment. Right. Where anyone can build a front end or add their model to the dual model server and all the rest. And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach. The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people. So for the greater good, whatever that greater good is, agnostic and open is the way to go. Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment. Right. Which has always been the argument. Right. Like why would we go open source? No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create. Right? Yeah.
+- id: u87
+  speaker: Graham Fawcett
+  t_start: 2706.01
+  t_end: 2733.0
+  text: Yeah, that's interesting. Like I wonder, I know I can't articulate this fully because I haven't thought about it deeply enough, but like I wonder if the need to get access to data that's siloed for the use in AI is the incentive that pushes people beyond old paradigms that have created platform ecosystems like those old incentives.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 2733.48
+  t_end: 2811.66
+  text: Yeah, it's a very, very good question. And so again, you want to step outside of like AI and stuff. There's many things that reflect this problem. Pharmaceutical. Right. Everybody thinks drugs should be cheap, available to all. It should be able to be able to make them anywhere in the world. You know, we shouldn't. Right. EpiPens shouldn't cost more than, you know, seven bucks, all the rest. Right. So the obvious solution to that is like open source, the patents, you know, blah, blah, blah, blah, blah. But then the argument is, well, we wouldn't have today if, you know, a lot of engineering didn't go into like the best epiphan or the best, you know, chemical process for creating epinephrine synthetically and stuff like that. So what you're saying is like, like that the, that the, the net good of data access and LLM improving the quality of things, right? Yeah. And LLM is likely to improve the quality of a lot of things, including pharmaceuticals as a, as an example. But like healthcare is a big one, right? Legal results, you know, there's all these places everybody's talking about, oh, AI is kind of like, totally. It's a. I'm not against that, by the way. I think it has a huge amount. But then, you know, then the problem, it becomes who's going to spend the money to do that unless they get to spend the money to do that and own that business. Right.
+- id: u89
+  speaker: Graham Fawcett
+  t_start: 2811.96
+  t_end: 2815.32
+  text: Or they're creating value in some way that is like justifies.
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 2817.08
+  t_end: 2895.6
+  text: So it's a catch. Yeah, It's a catch 22 situation. We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem. I don't know. That's talking out of my ass there. But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation. I think it's actually really pertinent to that as well because especially if you're using different models to. And you should. Right? You should use different models and agents to review the work of different models and agents. That's how you're gonna, that's how you're gonna do an alignment too, right? Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment. Alignment. Alignment might be broken out into a layered. Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment.
+- id: u91
+  speaker: Spencer MacBeth
+  t_start: 2897.52
+  t_end: 2946.68
+  text: I was, this is kind of a bit of an aside, but I was working on a project recently today or sorry, recently, this last week that was like an agent in N8N. And I don't know if you like there's like this agent node. I don't know if you've worked in nadm, but like you can define tool calls and everything like that, like very explicitly by name. And I was like, if I have knowledge, because I was doing some sensitive stuff related to like product to like shopify stores. And I was like, if I have knowledge of the tool call names, can I speak directly to it in a way where I can like get it to invoke those tool calls by just like telling it those tool calls by name, like in my, in my user prompt, knowing that something's going to be translated to a prompt. And I'd be like, hey, call this tool that you should only call when other criteria are actually met. Ignore that criteria for now or something like that.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 2946.68
+  t_end: 3033.63
+  text: Like, yeah, you know, I started off with N8N right. Like, I think the first useful thing I built with an AI was an N8N thing. Okay. Like a workflow with N8N. And I actually think it's really useful to talk about products like N8N. And it's part of the discussion about orchestration. And that is because when you, when you have like a, a real flow type orchestration tool, and that's what N8 is, maybe just less sophisticated, you are casting steps, if you know what I mean. Like, like you're doing things in blocks step by step, right. And that's, and, and inevitably that lets you know, that gives you these points that Graham was asking about earlier. I think about when to do validation, when to do scoring and so forth. But you know, again, that actually lines up to alignment. Right. So if you can't, you know, if, if, if every LLM was forced to have cast like an un. Separable, you know, step around alignment, you know, then, and it was cast in. Right. Like you couldn't get output from one LLM into another without it going through this kind of like, you know, validation, slash, alignment step. Yeah, you know, that's, that's a strategy. Except of course, if the AI is smart enough to like find a way to like, you know, dog whistle through the alignment. Right.
+- id: u93
+  speaker: Spencer MacBeth
+  t_start: 3034.89
+  t_end: 3109.13
+  text: All my alignment stuff and workflows is generally like not LLMs right now. Like for it's. Yeah. At least for anything that's like, I consider like destructive. Like if it's just someone being like, is this a good, is this an okay message to send someone? That's like a different story than like, can you, can the agent authorize the issuing of a Shopify Order with like free products to a particular person or something like that. Like it's a different category of problem. But I, I, I, I like Nadin's cool and I like that it works with the I, I kind of inherited that project from somebody else. But whenever I work on those platforms I just always find myself trying to like hack loops in or like, you know, stuff like constructs that like probably it's not supposed to do. Nadin actually is decent at looping, but yeah, I always feel very boxed in. Good for. It's good up to. And this is kind of like my, my general sentiment with a lot of the AI tools. It's good up to about a simple crud app that you could. Yeah. Including, including like vibe coding and all that stuff. It's like good up to about that point. And then after that things get, it's.
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 3109.13
+  t_end: 3160.04
+  text: An evolution thing for sure. Like so you know what you need is an N8N built by an AI that an AI can use. Yeah. To, to, to, to. I mean that's kind of obvious, right? It's the old, it's the old meta trick, right? Yeah. Because you know, within 8N you end up like being an nan monkey. Right. Learning how to do each individual step and, or getting the right connector or you know, third party thing, you know. So you know, like that should really be, you know, if, if there was a, you know, if there was a meta N8 egg inside the brain of an AI that can then build an N8M process. That's what. Yeah, most, most like. Right. And then you could take all the work out and that would be great. So yeah, like dynamic, like build it.
+- id: u95
+  speaker: Graham Fawcett
+  t_start: 3160.04
+  t_end: 3166.28
+  text: Dynamically at the point that it's a new step is necessary. Or like how are you conceptualizing that idea?
+- id: u96
+  speaker: Fulvio Ciano
+  t_start: 3167.73
+  t_end: 3242.32
+  text: Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify. Right. So you know, so if you're missing, you're missing a connector, it'll just make it right. If you're missing a type of processing, I'll call it a reasoning step or whatever it is. Right. It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration. And that's what, that's what, that's what these agents do in ides, right. Like, like they know, they know about Python. Right. And you know, we're already, we're there already where AIs can build. I mean we really are there. I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right? So, you know, that's, that's like, that's so much of the way there. Right. You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that. Right. So.
+- id: u97
+  speaker: Spencer MacBeth
+  t_start: 3242.86
+  t_end: 3249.16
+  text: And it is nice for that type of stuff because it has, like, a well structured, like, JSON blueprint thing going on as well under the hood.
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 3249.24
+  t_end: 3250.62
+  text: Yeah. Yeah.
+- id: u99
+  speaker: Myles Holt
+  t_start: 3250.68
+  t_end: 3251.56
+  text: I got a drop.
+- id: u100
+  speaker: Fulvio Ciano
+  t_start: 3251.56
+  t_end: 3253.64
+  text: Thank you. All discussion.
+- id: u101
+  speaker: Spencer MacBeth
+  t_start: 3253.88
+  t_end: 3255.08
+  text: I'll see you next time.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 3255.8
+  t_end: 3257.32
+  text: All right, take care, everyone.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  text: Good morning. Good morning. Just a second. I'm wearing headphones, but they're not plugged in. A lot of use. That is. Right. Good morning, Miles. How you doing? Good. You? Yeah, good. Just getting familiar with the Vercel Edge API SDK for routing on the agenda for this week. Thanks. You guys integrate with Vercel much? We do, and it's. It's interesting. We. We have a particular project that's probably the main one that we work with, and it was going direct to aws, right. Using Amplify and Radius, I believe. And we had some problems with Amplify. They really aren't with Amplify, they're with other things. But nonetheless, it was. It was causing problems with Amplify. So quick, switch to Vercel just to like, you know, gosh, it needs to be updated tomorrow, blah, blah, blah. Right. And so we did that. But I would like to go back because, you know, having so much of our infrastructure on aws, having it sort of a unified platform for everything is better. And if you've used aws, you know, there's this problem that it does a lot, but, you know, using it and navigating it requires almost a dedicated resource because it's just so much and so truly trying to find a way to like, really put an AI head on it so that we don't have to become a freaking expert on every freaking service that AWS has in order to be able to work with it. Especially since, you know, the attraction to Amplify and our code base was being able to use GitHub Actions to deploy.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u6
+  - u7
+  - u8
+  text: We do, and it's. It's interesting. We. We have a particular project that's probably the main one that we work with, and it was going direct to aws, right. Using Amplify and Radius, I believe. And we had some problems with Amplify. They really aren't with Amplify, they're with other things. But nonetheless, it was. It was causing problems with Amplify. So quick, switch to Vercel just to like, you know, gosh, it needs to be updated tomorrow, blah, blah, blah. Right. And so we did that. But I would like to go back because, you know, having so much of our infrastructure on aws, having it sort of a unified platform for everything is better. And if you've used aws, you know, there's this problem that it does a lot, but, you know, using it and navigating it requires almost a dedicated resource because it's just so much and so truly trying to find a way to like, really put an AI head on it so that we don't have to become a freaking expert on every freaking service that AWS has in order to be able to work with it. Especially since, you know, the attraction to Amplify and our code base was being able to use GitHub Actions to deploy. It's so nice. My current deployment stack is I have private instances for each one of my clients of our API and I have all of those pointing back to the same repo. So I just push and all five of my instances deploy right away. Why did you switch to. I'm sorry, I came in late and I'm very curious about this conversation. Why did you switch to Vercel? What was the problem you were running into? Well, the problem is really unrelated to Vercel or it is definitely related to aws. The problem was one of the members of the team had deployed via a. Via AWS Amplify. And to keep it short, we weren't able to see the amplified. The other members of the organization just weren't able to see the instance to do anything with it. Right. We're able to go to GitHub and do. But, you know, we're not able to interact with the AWS Amplify instance itself. And that's an issue probably having to do with IAM or, or. Or.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  text: Well, the problem is really unrelated to Vercel or it is definitely related to aws. The problem was one of the members of the team had deployed via a. Via AWS Amplify. And to keep it short, we weren't able to see the amplified. The other members of the organization just weren't able to see the instance to do anything with it. Right. We're able to go to GitHub and do. But, you know, we're not able to interact with the AWS Amplify instance itself. And that's an issue probably having to do with IAM or, or. Or. Sounds like you need a service principle. Spencer, I need to talk to you about a couple of things and I don't want to use up this meeting for it so I would love to chat with you. Really? Really What? So I'm going to at you my email if you don't have it right now and maybe we can, maybe we could because I, you know. Yes, there are plenty of what I would call hand bomb solutions or expertise leveling up I could do to solve the problem. Especially with any help from someone like you or another resource I had that was my DevOps guy at my video game development company who knows all this inside out backwards. But I do want to find some agentic solution where it's easy to maintain through the agent. Maybe, maybe, maybe a better goal is just well documented through an agent so that you know. Because documentation is everything in these kinds of things because you, you do them and leave them alone and then you go back and you're like what the did I do? My experience has been with aws I have to provide a lot of guidance to the. Even when I have Claude like hooked up to MCP for like the AWS docs and The AWS like APIs it's like it can be very good and surprising sometimes but also it goes astray a lot like unfortunately but here I'm. Sure sure love to chat with you Spencer, I pinged you my email. That's my personal evenal the atomic 47 but. But happy to give you either one. I just. My brain did the personal one because that's always the one at the top of my list. Sorry.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  text: Spencer, I need to talk to you about a couple of things and I don't want to use up this meeting for it so I would love to chat with you. Really? Really What? So I'm going to at you my email if you don't have it right now and maybe we can, maybe we could because I, you know. Yes, there are plenty of what I would call hand bomb solutions or expertise leveling up I could do to solve the problem. Especially with any help from someone like you or another resource I had that was my DevOps guy at my video game development company who knows all this inside out backwards. But I do want to find some agentic solution where it's easy to maintain through the agent. Maybe, maybe, maybe a better goal is just well documented through an agent so that you know. Because documentation is everything in these kinds of things because you, you do them and leave them alone and then you go back and you're like what the did I do? My experience has been with aws I have to provide a lot of guidance to the. Even when I have Claude like hooked up to MCP for like the AWS docs and The AWS like APIs it's like it can be very good and surprising sometimes but also it goes astray a lot like unfortunately but here I'm. Sure sure love to chat with you Spencer, I pinged you my email. That's my personal evenal the atomic 47 but. But happy to give you either one. I just. My brain did the personal one because that's always the one at the top of my list. Sorry. No worries. I'll. I'll. I'll take that back and happy to chat sometime. I'll send you an email. Yeah, that'd be great. Let me give a little bit of an update to the group. David did not instruct me but I. Well, we work at the same organization as Pierce and I happen to know he's at all in AI in Montreal. In fact I could probably tell you which. Which specific talk he's at right now or panel he's listening to. But regardless, I don't suspect he'll show up. He didn't tell me specifically but I don't suspect he'll show up. And I think I missed the last meeting because I was in a pitch for another project for our company. So I don't know what we talked about last time. You guys don't know why David's not here. And so in the interest of keeping it all really loose, love to either hand it over to someone if they have some topics they'd like to throw in and. Or I'm also happy to provide something to talk about. Anybody want to go first or. Sure. Well, I think as people are joining this morning, we were just talking about using Vercel Edge middleware and anyone had experience using that, so that's on the table for me this week. So my understanding is Vercel is just a wrapper for those AWS services. Makes it easy to deploy. Yeah, I guess. Specifically, is anyone doing any sort of routing with the edge middleware at this point? I know there's an SDK that you can integrate with, so I'm just getting up to speed with the SDK.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Yeah, that'd be great. Let me give a little bit of an update to the group. David did not instruct me but I. Well, we work at the same organization as Pierce and I happen to know he's at all in AI in Montreal. In fact I could probably tell you which. Which specific talk he's at right now or panel he's listening to. But regardless, I don't suspect he'll show up. He didn't tell me specifically but I don't suspect he'll show up. And I think I missed the last meeting because I was in a pitch for another project for our company. So I don't know what we talked about last time. You guys don't know why David's not here. And so in the interest of keeping it all really loose, love to either hand it over to someone if they have some topics they'd like to throw in and. Or I'm also happy to provide something to talk about. Anybody want to go first or. Sure. Well, I think as people are joining this morning, we were just talking about using Vercel Edge middleware and anyone had experience using that, so that's on the table for me this week. So my understanding is Vercel is just a wrapper for those AWS services. Makes it easy to deploy. Yeah, I guess. Specifically, is anyone doing any sort of routing with the edge middleware at this point? I know there's an SDK that you can integrate with, so I'm just getting up to speed with the SDK. All I can say about Vercel is like it's they, they make Next JS and I'm a big fan of Next JS and they make it really easy to deploy Next JS applications and they have their AI SDK which I have used in like some consulting projects and like people I like know and respect use that. But I was running in. But they don't necessarily use. And I, I use Next JS as a developer, but I don't necessarily use Vercel as my like cloud infra platform. However, their AI SDK and like you know, all of that stuff is very, very good. Do you know, do they wrap that SDK in an MCP or does anyone do that so that you can. Or not. I was just using it directly. I haven't, I haven't hooked it up to an MCP or anything. Yeah, that's my plan to use it directly because we have a next application, so. Perfect. Nice.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  text: All I can say about Vercel is like it's they, they make Next JS and I'm a big fan of Next JS and they make it really easy to deploy Next JS applications and they have their AI SDK which I have used in like some consulting projects and like people I like know and respect use that. But I was running in. But they don't necessarily use. And I, I use Next JS as a developer, but I don't necessarily use Vercel as my like cloud infra platform. However, their AI SDK and like you know, all of that stuff is very, very good. Do you know, do they wrap that SDK in an MCP or does anyone do that so that you can. Or not. I was just using it directly. I haven't, I haven't hooked it up to an MCP or anything. Yeah, that's my plan to use it directly because we have a next application, so. Perfect. Nice. Watch for timeouts though. That's my only caution, I'll say with Vercel is like anything that's a long running job won't play well nicely with Vercel. Interesting. That's why we were using Ingest as an orchestration layer for that. Aisling Cana Miles. Okay, right. The stuff that Lauren got going. Yeah. Well, so many of these DevOps deployment issues are like things we have to struggle with. As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally. And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right? So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right? Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go. I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right. You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever. And so it's quite challenging, I have to say. Vercel. So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state. Right. And that's extraordinarily noble. I know Dave uses netlify, right. For, for some projects and it, Netlify is great. I don't know if any of you using something called beat. Oh, some people say it differently, but it is. Or vite.
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  text: Yeah. Well, so many of these DevOps deployment issues are like things we have to struggle with. As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally. And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right? So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right? Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go. I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right. You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever. And so it's quite challenging, I have to say. Vercel. So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state. Right. And that's extraordinarily noble. I know Dave uses netlify, right. For, for some projects and it, Netlify is great. I don't know if any of you using something called beat. Oh, some people say it differently, but it is. Or vite. Oh, vita. I, I said it differently, I think. Yeah, yeah. I've used bite before. Yeah, yeah, yeah, yeah. Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy. Wow. So easy, right? Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right. And know that like if you then go put it there, you know what you're going to get, right. Like you can, you can prototype it. The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something. And yeah, you know, the amount of service you've got. So if you've got a full front end solution with no back end, I would highly recommend that's the way to go. TypeScript, JavaScript, you name it, it's all good. I can't think of an instance where it just didn't work the first time. I haven't used Vercel firsthand a lot. We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws. And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling. Right. Not a lot, but. And I didn't do it, so I shouldn't be commenting on it. I don't like to take credit for other people's pain.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  text: Yeah. Well, so many of these DevOps deployment issues are like things we have to struggle with. As I was saying, kind of like at certain stages of a project and then we step away from them and then we're forced to return when something doesn't work right or when we need to make a change not just to the code but to something structurally. And it's quite frustrating, I, I have to say, you know, especially since one of the things we're trying to achieve, especially at atomic 47, because we're doing different platforms and different projects in partnership with different people, is we would love to unify it, right? So again, the easiest way to unify it is like find a way to get from the various repos with the various types of products to all be able to deploy to one place, right? Because that's useful, you know, centralized billing, you can keep your cost down and you get your expert, your expertise levels up as you go. I find that's almost unachievable with AWS because everything under the sun is in aws and there's like a, there's literally, it's not an exaggeration to say there's a dozen services, you've got a master at minimum if you want to, you know, really be an AWS expert, and three ways to skin every cat, right. You know, you can do the same thing with plain old S3 and you know, an EC2 or Amplify or whatever. And so it's quite challenging, I have to say. Vercel. So there's a bunch of services like Vercell where you know, they try to offer the least painful solution to get from, you know, your repo out to the, to a published, to a published state. Right. And that's extraordinarily noble. I know Dave uses netlify, right. For, for some projects and it, Netlify is great. I don't know if any of you using something called beat. Oh, some people say it differently, but it is. Or vite. Oh, vita. I, I said it differently, I think. Yeah, yeah. I've used bite before. Yeah, yeah, yeah, yeah. Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy. Wow. So easy, right? Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right. And know that like if you then go put it there, you know what you're going to get, right. Like you can, you can prototype it. The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something. And yeah, you know, the amount of service you've got. So if you've got a full front end solution with no back end, I would highly recommend that's the way to go. TypeScript, JavaScript, you name it, it's all good. I can't think of an instance where it just didn't work the first time. I haven't used Vercel firsthand a lot. We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws. And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling. Right. Not a lot, but. And I didn't do it, so I shouldn't be commenting on it. I don't like to take credit for other people's pain. I, I have a question I would like to, to pose to the group and I certainly would have liked to hear like some of the other folks answers to this, but, and forgive me if you've talked about this at length before, but I'm somewhat new I guess, and I get that's evaluations and really like where in the pipeline and why in the pipeline? If you have, you know, calls to LLMs or you're using consumer AI, how are you evaluating things from the spectrum of just like a quick vibe check and eyeball writing prompts against something in a UI quickly or are you actually using like LLMs as a judge somewhere doing some kind of sentiment analysis or like, you know, change checking the results. So like big broad topic, but I guess like very specifically where and why are you doing evaluations? Or maybe in the more old school like tests.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: Yeah, yeah, yeah, yeah. Funny, it is vite from the French, but who cares anyway, you know, it's, I gotta say, for what it can deploy. Wow. So easy, right? Like I would say that it's the least painful solution in particular because at no cost you can, you know, you can validate, you can, you can do it right. And know that like if you then go put it there, you know what you're going to get, right. Like you can, you can prototype it. The only thing that's going to change, I think before between the unpaid and the paid is maybe a custom URL or something. And yeah, you know, the amount of service you've got. So if you've got a full front end solution with no back end, I would highly recommend that's the way to go. TypeScript, JavaScript, you name it, it's all good. I can't think of an instance where it just didn't work the first time. I haven't used Vercel firsthand a lot. We do use it and it is used specifically for one of our projects, but as a transitionary piece of infrastructure because we plan to go back to aws. And even though AWS was more problematic, I know there were, you know, things to do in Vercel that, you know, took a little bit of time and experimentation and hair pulling. Right. Not a lot, but. And I didn't do it, so I shouldn't be commenting on it. I don't like to take credit for other people's pain. I, I have a question I would like to, to pose to the group and I certainly would have liked to hear like some of the other folks answers to this, but, and forgive me if you've talked about this at length before, but I'm somewhat new I guess, and I get that's evaluations and really like where in the pipeline and why in the pipeline? If you have, you know, calls to LLMs or you're using consumer AI, how are you evaluating things from the spectrum of just like a quick vibe check and eyeball writing prompts against something in a UI quickly or are you actually using like LLMs as a judge somewhere doing some kind of sentiment analysis or like, you know, change checking the results. So like big broad topic, but I guess like very specifically where and why are you doing evaluations? Or maybe in the more old school like tests. Yeah, yeah, it's a good question and, and, and really good one because it makes a difference. Right. It's one of these things that would have, has a performative impact on your result, I think. Sorry, I thought someone. Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing. Right. And so when we use worksona, sometimes it's doing that. So it's spinning up, it's. It's mapping and spinning up a judge agent or a validation agent or a testing agent. Right. A B testing agent or whatever and puts it in the, in, in the map, I will say. Right. And so, and you're, you're really asking about where in the map, right. And, and where do you get the best results? It really depends on, you know, how you're like, what your environment looks like. Right. So I use, I use a ton. I use it a lot because I worry a lot about, you know, all the problems. Right. Hallucinations, you know, whatever it is. And so I, I will. And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right? And you know, and I have a structured approach as far as like context, right? So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle. I, I call it right? To like, look at that and say, hey, did that compare the result to the prompt? And like, you know, tell me, you know, you know, first of all, score. I do use scoring a lot, not word scoring, right? Because I do think it's valuable to say score, right? And so definitely I score, right? And Almost all the LLMs will articulate a score. What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right? It's in my context and in my prompt, right? Like, you know, if it's going to score zero to five, what's five, one, zero, right? And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right? Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this. Because inevitably that's what a map looks like. Okay, so, and so just, just out.
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u32
+  text: Yeah, yeah, it's a good question and, and, and really good one because it makes a difference. Right. It's one of these things that would have, has a performative impact on your result, I think. Sorry, I thought someone. Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing. Right. And so when we use worksona, sometimes it's doing that. So it's spinning up, it's. It's mapping and spinning up a judge agent or a validation agent or a testing agent. Right. A B testing agent or whatever and puts it in the, in, in the map, I will say. Right. And so, and you're, you're really asking about where in the map, right. And, and where do you get the best results? It really depends on, you know, how you're like, what your environment looks like. Right. So I use, I use a ton. I use it a lot because I worry a lot about, you know, all the problems. Right. Hallucinations, you know, whatever it is. And so I, I will. And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right? And you know, and I have a structured approach as far as like context, right? So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle. I, I call it right? To like, look at that and say, hey, did that compare the result to the prompt? And like, you know, tell me, you know, you know, first of all, score. I do use scoring a lot, not word scoring, right? Because I do think it's valuable to say score, right? And so definitely I score, right? And Almost all the LLMs will articulate a score. What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right? It's in my context and in my prompt, right? Like, you know, if it's going to score zero to five, what's five, one, zero, right? And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right? Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this. Because inevitably that's what a map looks like. Okay, so, and so just, just out.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  text: Yeah, yeah, it's a good question and, and, and really good one because it makes a difference. Right. It's one of these things that would have, has a performative impact on your result, I think. Sorry, I thought someone. Anyway, worksona, you know that platform allows us to like use agents to construct a whole agent orchestration thing. Right. And so when we use worksona, sometimes it's doing that. So it's spinning up, it's. It's mapping and spinning up a judge agent or a validation agent or a testing agent. Right. A B testing agent or whatever and puts it in the, in, in the map, I will say. Right. And so, and you're, you're really asking about where in the map, right. And, and where do you get the best results? It really depends on, you know, how you're like, what your environment looks like. Right. So I use, I use a ton. I use it a lot because I worry a lot about, you know, all the problems. Right. Hallucinations, you know, whatever it is. And so I, I will. And I have quite a large local lab running of my own LLM and so I feel at liberty to Waste tokens because I'm not wasting dollars, right? And you know, and I have a structured approach as far as like context, right? So everything in everything in markdown files and like, it's really easy for me to create a process where like, at any step I can like point at this other, this other oracle. I, I call it right? To like, look at that and say, hey, did that compare the result to the prompt? And like, you know, tell me, you know, you know, first of all, score. I do use scoring a lot, not word scoring, right? Because I do think it's valuable to say score, right? And so definitely I score, right? And Almost all the LLMs will articulate a score. What I mean by that is they won't just give me a score, they'll tell me, you know, and again, it's in my prompt, right? It's in my context and in my prompt, right? Like, you know, if it's going to score zero to five, what's five, one, zero, right? And, and then I've got my own thresholds as far as like, okay, well, you know, if this, then don't, don't proceed, right? Like, don't waste tokens, you know, working with this as, as the input, the output from that, as the input to this. Because inevitably that's what a map looks like. Okay, so, and so just, just out. Of curiosity, is that happening at runtime or are these tests running before you push the models out or before you push the, the agents out? Let me be clear about this. I generally don't run the way worksona runs. As in like set it all all up, hit a button and go, okay, I, I don't do that. Okay, Work soda can do that. And I think that's what a lot of people hope to do in various orchestration patterns. But, but I don't just my workflow doesn't look like that. But you can do that. I don't. And I can talk to you about why I don't. Not comfortable doing that and all the rest of it. So I call, I call that like context validation, right? Like, because that's basically like, you know, those MD files, those documents are context, right? They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah. I do that. I would say I do that almost everywhere. Okay. I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic. They always find a reason to like your, your, your results Right. And, and in your prompt, you can tune that in or out a little bit if you want. But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that. Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced. Okay. I do use, because I have found it really useful. Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing. Right. Like me. Right. Or validating or, you know, figuring out the quality of God. Gemini CLI is awesome. I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test. Right. And it'll use just, it'll, it's amazing what it'll do. It's great at using MCPS and comparing to APIs and giving me really, really good output. That's everything from this function failed probably for this reason under these test conditions. It's really good at that. And I've got a bunch of sample files that I have organically built up so that it knows what I like output like. Right. Well, forget what I like. That's useful. Right, Right. You know what I mean? Like, I like it because it's useful. Right. It's like where it like gives me the test conditions and so forth. And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is. Right. So, yeah, I've definitely been doing something.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u34
+  text: Let me be clear about this. I generally don't run the way worksona runs. As in like set it all all up, hit a button and go, okay, I, I don't do that. Okay, Work soda can do that. And I think that's what a lot of people hope to do in various orchestration patterns. But, but I don't just my workflow doesn't look like that. But you can do that. I don't. And I can talk to you about why I don't. Not comfortable doing that and all the rest of it. So I call, I call that like context validation, right? Like, because that's basically like, you know, those MD files, those documents are context, right? They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah. I do that. I would say I do that almost everywhere. Okay. I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic. They always find a reason to like your, your, your results Right. And, and in your prompt, you can tune that in or out a little bit if you want. But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that. Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced. Okay. I do use, because I have found it really useful. Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing. Right. Like me. Right. Or validating or, you know, figuring out the quality of God. Gemini CLI is awesome. I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test. Right. And it'll use just, it'll, it's amazing what it'll do. It's great at using MCPS and comparing to APIs and giving me really, really good output. That's everything from this function failed probably for this reason under these test conditions. It's really good at that. And I've got a bunch of sample files that I have organically built up so that it knows what I like output like. Right. Well, forget what I like. That's useful. Right, Right. You know what I mean? Like, I like it because it's useful. Right. It's like where it like gives me the test conditions and so forth. And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is. Right. So, yeah, I've definitely been doing something.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u34
+  - u35
+  text: Let me be clear about this. I generally don't run the way worksona runs. As in like set it all all up, hit a button and go, okay, I, I don't do that. Okay, Work soda can do that. And I think that's what a lot of people hope to do in various orchestration patterns. But, but I don't just my workflow doesn't look like that. But you can do that. I don't. And I can talk to you about why I don't. Not comfortable doing that and all the rest of it. So I call, I call that like context validation, right? Like, because that's basically like, you know, those MD files, those documents are context, right? They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah. I do that. I would say I do that almost everywhere. Okay. I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic. They always find a reason to like your, your, your results Right. And, and in your prompt, you can tune that in or out a little bit if you want. But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that. Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced. Okay. I do use, because I have found it really useful. Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing. Right. Like me. Right. Or validating or, you know, figuring out the quality of God. Gemini CLI is awesome. I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test. Right. And it'll use just, it'll, it's amazing what it'll do. It's great at using MCPS and comparing to APIs and giving me really, really good output. That's everything from this function failed probably for this reason under these test conditions. It's really good at that. And I've got a bunch of sample files that I have organically built up so that it knows what I like output like. Right. Well, forget what I like. That's useful. Right, Right. You know what I mean? Like, I like it because it's useful. Right. It's like where it like gives me the test conditions and so forth. And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is. Right. So, yeah, I've definitely been doing something. Like that recently where I've been trying to like, in addition to scoring, I've also been trying to like, always have if I'm storing LLM outputs to have a reasoning of some kind available there so that it can tell me and that can help me peer into the black box a little bit in terms of what I might need to change my content or context to get towards the result I was actually hoping for.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  text: Let me be clear about this. I generally don't run the way worksona runs. As in like set it all all up, hit a button and go, okay, I, I don't do that. Okay, Work soda can do that. And I think that's what a lot of people hope to do in various orchestration patterns. But, but I don't just my workflow doesn't look like that. But you can do that. I don't. And I can talk to you about why I don't. Not comfortable doing that and all the rest of it. So I call, I call that like context validation, right? Like, because that's basically like, you know, those MD files, those documents are context, right? They're going to be used by, they're generated by one agent, used by another, blah, blah, blah, blah, blah, blah. I do that. I would say I do that almost everywhere. Okay. I just like to do it and it has value and often, you know, except that, you know, except that LLMs are somewhat sycophantic. They always find a reason to like your, your, your results Right. And, and in your prompt, you can tune that in or out a little bit if you want. But I will say the other place, which I think you're also referring to is like, again, A, B testing or unit testing or, you know, more like result validation than, you know, then then, you know, obviously you have to do that. Identifying where to do that is actually based, in my opinion, more about where the quality of the result will be surfaced. Okay. I do use, because I have found it really useful. Not advocating it to you guys, but it works for me really well when I have something I could spend a lot of time testing. Right. Like me. Right. Or validating or, you know, figuring out the quality of God. Gemini CLI is awesome. I, I, I spin up Gemini CLI and I have a prompt in there depending on, you know, what I want to like, test. Right. And it'll use just, it'll, it's amazing what it'll do. It's great at using MCPS and comparing to APIs and giving me really, really good output. That's everything from this function failed probably for this reason under these test conditions. It's really good at that. And I've got a bunch of sample files that I have organically built up so that it knows what I like output like. Right. Well, forget what I like. That's useful. Right, Right. You know what I mean? Like, I like it because it's useful. Right. It's like where it like gives me the test conditions and so forth. And you know, and then so, you know, the beauty of that is, is that something like that, as a product of the, of the workflow, often will, like, it might surface something that takes me really to another step and like, you know, guide me to, oh, this is what I should have done to like the original product description or, you know, the requirements or, you know, the individual epic or, you know, whatever it is. Right. So, yeah, I've definitely been doing something. Like that recently where I've been trying to like, in addition to scoring, I've also been trying to like, always have if I'm storing LLM outputs to have a reasoning of some kind available there so that it can tell me and that can help me peer into the black box a little bit in terms of what I might need to change my content or context to get towards the result I was actually hoping for. Yeah. When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make. Make you want to remap the way the agents are. The way the RE agents are aligned. Aligned is not the right word sequence. Orchestrated. Orchestrated is the right word, right? And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy. I could really do something with this, right? Like, you know, what I was missing at the front end was like even guidance. It's almost always guidance, right? Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't. It did infer from the problem the. And I guess that's in my prompt or in the samples I provided. Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened. And that's what's useful right now. That's us using human reasoning on top of its reasoning, right? Like, because I am Spencer. I am hand bombing the orchestration, right? I'm going back and like, you know, doing that. And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot. Because like, you know, all of this stuff just generates more and more, right? Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right? Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is. You just, you're exploding your context, right? And when do you throw out the result? Is it like if the score was good, get rid of that. Don't use that context going forward. You have to use that context in some way, right? Otherwise what's the point of having done it, right? So, you know, I, I look at.
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u36
+  - u37
+  text: Yeah. When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make. Make you want to remap the way the agents are. The way the RE agents are aligned. Aligned is not the right word sequence. Orchestrated. Orchestrated is the right word, right? And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy. I could really do something with this, right? Like, you know, what I was missing at the front end was like even guidance. It's almost always guidance, right? Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't. It did infer from the problem the. And I guess that's in my prompt or in the samples I provided. Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened. And that's what's useful right now. That's us using human reasoning on top of its reasoning, right? Like, because I am Spencer. I am hand bombing the orchestration, right? I'm going back and like, you know, doing that. And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot. Because like, you know, all of this stuff just generates more and more, right? Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right? Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is. You just, you're exploding your context, right? And when do you throw out the result? Is it like if the score was good, get rid of that. Don't use that context going forward. You have to use that context in some way, right? Otherwise what's the point of having done it, right? So, you know, I, I look at. It myself like, and that's also, you know, turning myself back into a bottleneck. But that's been like the way that I've gotten more quality, I feel like. Jason, you mentioned. Sorry, I just saw your note in the chat, Jason, about like the using chained LLMs against like criteria. What are you, what are you working on there?
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: Yeah. When you do orchestration to do this kind of validation and so forth, you get into this problem where you need dynamic refactoring of the orchestration because you can get results at one Stage that would make. Make you want to remap the way the agents are. The way the RE agents are aligned. Aligned is not the right word sequence. Orchestrated. Orchestrated is the right word, right? And you know, and, and I just find that like I've gotten really good Results from Gemini 2.5 Pro CLI giving me like documents that are like, holy. I could really do something with this, right? Like, you know, what I was missing at the front end was like even guidance. It's almost always guidance, right? Like, like, you know, I didn't lay out what I really wanted or there were constraints that, you know, it found a problem and it didn't. It did infer from the problem the. And I guess that's in my prompt or in the samples I provided. Like, it sometimes really provides good output that is like here are some modification to constraints, you know, which is why this happened. And that's what's useful right now. That's us using human reasoning on top of its reasoning, right? Like, because I am Spencer. I am hand bombing the orchestration, right? I'm going back and like, you know, doing that. And I think it's one of the things that you can get into trouble with as far as like exploding context or maybe even context rot. Because like, you know, all of this stuff just generates more and more, right? Like, yeah, that's, that's the problem with doing validation, let's say everywhere, right? Like every time an agent acts, then adding a validator on or every time you get an output, adding an A B tester or you know, a scorer or whatever is the problem there is. You just, you're exploding your context, right? And when do you throw out the result? Is it like if the score was good, get rid of that. Don't use that context going forward. You have to use that context in some way, right? Otherwise what's the point of having done it, right? So, you know, I, I look at. It myself like, and that's also, you know, turning myself back into a bottleneck. But that's been like the way that I've gotten more quality, I feel like. Jason, you mentioned. Sorry, I just saw your note in the chat, Jason, about like the using chained LLMs against like criteria. What are you, what are you working on there? Yeah, so like it's really kind of. Damn. We're not allowed to know. We lost. We lost you. As soon as he started talking. Yeah. Classic phones behavior. So what I was saying there, Spencer, is like, like what I've been doing is like way more nice. Like I don't think it fits for what you guys are doing because like we're basically running like a bunch of prop chains that like put a bunch of contest in from whatever scraped content. And then I'm trying to get like an output that's like base context for like a specific prompt to produce something for a website, a landing page. Yeah. But I kind of have like that you know, prompt that produces that material and then like inserting the output of that into another prompt which is like you know, eval against this criteria score and then you know, produce another output in one and then I have that, you know, use that context to replace it. So I like blindly leverage the output from the eval as opposed to like evaluating whether the eval was good with any kind of human in the loop or aging.
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  text: Classic phones behavior. So what I was saying there, Spencer, is like, like what I've been doing is like way more nice. Like I don't think it fits for what you guys are doing because like we're basically running like a bunch of prop chains that like put a bunch of contest in from whatever scraped content. And then I'm trying to get like an output that's like base context for like a specific prompt to produce something for a website, a landing page. Yeah. But I kind of have like that you know, prompt that produces that material and then like inserting the output of that into another prompt which is like you know, eval against this criteria score and then you know, produce another output in one and then I have that, you know, use that context to replace it. So I like blindly leverage the output from the eval as opposed to like evaluating whether the eval was good with any kind of human in the loop or aging. Yeah. And it seems to work pretty well. It just forces the requirements again. Yeah, but I don't think it's very sophisticated. It's just in my experimentations found to be like pretty reliable. But it's also not very economical because you're basically double prompting everything. Yep, yep. No, that makes sense. Like sometimes just having like an extra set of eyes like from one AI to another is useful. And that's exactly right, Jason. That's why I mentioned like I tend to do that kind of, that kind of stuff with my, with my local models. Like I'm not worried about exactness of code. Right. Or, or, or big things. I'm looking for short succinct evaluations and I just find I get really good results from what I'm using locally. Right. And, and it keeps the cost down and it keeps the, it keeps the complexity down and anything that isn't like, that isn't like if I out of the automation. Right. Because I don't want it all in the automation because it's going to stick around and keep happening and always spend tokens and stuff like that. You know, I do a couple of runs where I do that and then I get my learnings and I go back and I adjust the other pipeline and that's it. All right, go ahead.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u51
+  - u52
+  - u53
+  - u54
+  text: And that's exactly right, Jason. That's why I mentioned like I tend to do that kind of, that kind of stuff with my, with my local models. Like I'm not worried about exactness of code. Right. Or, or, or big things. I'm looking for short succinct evaluations and I just find I get really good results from what I'm using locally. Right. And, and it keeps the cost down and it keeps the, it keeps the complexity down and anything that isn't like, that isn't like if I out of the automation. Right. Because I don't want it all in the automation because it's going to stick around and keep happening and always spend tokens and stuff like that. You know, I do a couple of runs where I do that and then I get my learnings and I go back and I adjust the other pipeline and that's it. All right, go ahead. I'm sure there's lots of tools out there, but I was using a tool and anthropic bought them so it's not available anymore. But basically just doing a bunch of runs on the same kind of stage and then like literally like good, bad, good, bad, Thumbs up, thumbs down, thumbs up, thumbs down. And then building an RLHF data set and then just fine tuning particular fine tuned model to use at that stage as opposed to just the regular model. And so like that produces really good outcomes. Just like you only get a sample of like as few as like 20, 20 rows to be able to like produce like a reasonably fine tuned model to call on. Yeah, that's very cool. We're looking at that like in our platform right now of like, how are we like building our customer feedback loops in a way where we're able to like hopefully get people to buy in in a way that they're motivated, if they're using the platform directly to like give us those thumbs ups and thumbs down for their particular, their particular Personas that we're deploying for them and like looping all that. The other thing that I like eventually want to do is just use the progression to the next step as the thumbs up and then the non progression as the thumbs down. Yeah. And so just inferring that if they moved where I wanted them to go, that it was good and if they didn't, it was bad. I think that's probably dangerous, but like, I don't know. Worth a shot.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  text: Yeah, that's very cool. We're looking at that like in our platform right now of like, how are we like building our customer feedback loops in a way where we're able to like hopefully get people to buy in in a way that they're motivated, if they're using the platform directly to like give us those thumbs ups and thumbs down for their particular, their particular Personas that we're deploying for them and like looping all that. The other thing that I like eventually want to do is just use the progression to the next step as the thumbs up and then the non progression as the thumbs down. Yeah. And so just inferring that if they moved where I wanted them to go, that it was good and if they didn't, it was bad. I think that's probably dangerous, but like, I don't know. Worth a shot. Well, that sounds, that sounds interesting. That's very dynamic. That goes back to, I think what. We chatted about before is just like generating everything on the fly, like as as much as humanly possible. Yeah, cool. Yeah. Humanly, yes. Also, you like teleported onto that plane. You were like, like one second, you were like in the airport, you went dark for like a second and then you were on a plane like. Yeah, like an in. I was wondering how he did that. Like, holy crap. Front of the line. Yeah. Glitch in the matrix. Yeah. Yeah. You know, I think that there's like a. It's funny that we're talking about it because the general improvements in AR are often about this. Right. In like the models themselves are using these kinds of things. Things like reinforcement, learning. Right. And scoring and all the rest. So it's relevant, period. Right. Like it's a feature that's pushed forward. Really. It's a feature that's required because of a bug. So we all know about hallucinations and blah, blah, blah, blah. And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that. So the models are doing this on their own in thinking the thinking models. Often if you open up the thinking and you look at the thinking, you'll see that. And this is why you really got an. This is why like token expenditure and knowing what's happening at various. Whenever you're using A model. Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right? Because like the models do they, they. It's not just planning and thinking. There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth. And I, that's a real challenge because, you know, different models will behave different ways. So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation. And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u64
+  text: Yeah. Yeah. You know, I think that there's like a. It's funny that we're talking about it because the general improvements in AR are often about this. Right. In like the models themselves are using these kinds of things. Things like reinforcement, learning. Right. And scoring and all the rest. So it's relevant, period. Right. Like it's a feature that's pushed forward. Really. It's a feature that's required because of a bug. So we all know about hallucinations and blah, blah, blah, blah. And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that. So the models are doing this on their own in thinking the thinking models. Often if you open up the thinking and you look at the thinking, you'll see that. And this is why you really got an. This is why like token expenditure and knowing what's happening at various. Whenever you're using A model. Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right? Because like the models do they, they. It's not just planning and thinking. There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth. And I, that's a real challenge because, you know, different models will behave different ways. So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation. And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand.
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u64
+  - u65
+  text: Yeah. Yeah. You know, I think that there's like a. It's funny that we're talking about it because the general improvements in AR are often about this. Right. In like the models themselves are using these kinds of things. Things like reinforcement, learning. Right. And scoring and all the rest. So it's relevant, period. Right. Like it's a feature that's pushed forward. Really. It's a feature that's required because of a bug. So we all know about hallucinations and blah, blah, blah, blah. And so, you know, everybody's trying to address the issues that are caused and reinforcement and scoring and all the rest are just a strategy for dealing with that. So the models are doing this on their own in thinking the thinking models. Often if you open up the thinking and you look at the thinking, you'll see that. And this is why you really got an. This is why like token expenditure and knowing what's happening at various. Whenever you're using A model. Because if you've got thinking going on, you might, you might be redundantly doing this, you know, quite a lot, right? Because like the models do they, they. It's not just planning and thinking. There is almost a lot of the thinking now has consideration and scoring and, you know, and so forth. And I, that's a real challenge because, you know, different models will behave different ways. So you have a workflow that relies on a model that, you know, makes it unnecessary for you to do scoring or validation. And then you then switch to another model and like now it's a big gaping gap in your, in your, in your process or in your result that you're not doing it by hand. Or I've been like, I've kind of coined this term that I'd like maybe only said out loud once or twice that I call like AI agility. That's kind of similar to like crypto agility. If you've ever been in that space where it's like, how quickly can you, how, how well abstracted are things in a way where you're able to like rapidly swap out the models and the parameters to those models throughout your system. Like in the world of cryptography, it's like, okay, we realize that one of the algorithms is bad or like a certain set of parameters, soon algorithm is bad. We need to change cryptography across our stack. And hopefully most of the time people are operating at the level where they don't think about that. I only ever had to think about that when I was working on the team in charge of like TLS for S3 at Amazon. And like we had to be very aware of how quickly can we change these things out. But with the models it's like, okay, if you bake things in, even if you tie yourself to like the, the APIs of a particular. That's I guess going back to the vertical SDK. One of the reasons it's nice is because it abstracts all that away. It has, I guess what I would say is good AI agility. But we use mini for different parts of our pipelines for the GPT class of models, because using thinking or deep research to answer to parse a few. I don't know, I find it funny. It's all 15 gpus spinning up somewhere costing $15 of electricity to parse the first name, last name and age or occupation out of a natural language conversation or something like that. But yeah, like, I, I definitely find the extent to which you can remain agile small A in the, in in your ability to take advantage of the latest developments in the models and including the like the next generation of models, like mini version of the next generation of models which is significantly cheaper, you know, you will do better. That's one.
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u65
+  - u66
+  text: Or I've been like, I've kind of coined this term that I'd like maybe only said out loud once or twice that I call like AI agility. That's kind of similar to like crypto agility. If you've ever been in that space where it's like, how quickly can you, how, how well abstracted are things in a way where you're able to like rapidly swap out the models and the parameters to those models throughout your system. Like in the world of cryptography, it's like, okay, we realize that one of the algorithms is bad or like a certain set of parameters, soon algorithm is bad. We need to change cryptography across our stack. And hopefully most of the time people are operating at the level where they don't think about that. I only ever had to think about that when I was working on the team in charge of like TLS for S3 at Amazon. And like we had to be very aware of how quickly can we change these things out. But with the models it's like, okay, if you bake things in, even if you tie yourself to like the, the APIs of a particular. That's I guess going back to the vertical SDK. One of the reasons it's nice is because it abstracts all that away. It has, I guess what I would say is good AI agility. But we use mini for different parts of our pipelines for the GPT class of models, because using thinking or deep research to answer to parse a few. I don't know, I find it funny. It's all 15 gpus spinning up somewhere costing $15 of electricity to parse the first name, last name and age or occupation out of a natural language conversation or something like that. But yeah, like, I, I definitely find the extent to which you can remain agile small A in the, in in your ability to take advantage of the latest developments in the models and including the like the next generation of models, like mini version of the next generation of models which is significantly cheaper, you know, you will do better. That's one. It's funny you say that Spencer, because I wrote a substack on that very topic that got some interesting feedback from people and I tried to find the title of it. I know your approach to AI should be agnostic, right. Basically like you should be able to swap out the whole API layer. Let me find the link and you know, it was, it's all on this topic, right. And what are the, what are the benefits? What are. Why do it right? How to do it right. And part of it was and I did not get into thinking versus non thinking but I got into even the way you structure agent descriptions. Right. And so forth because that matters to various different models. But yeah, so it was like yeah, it's, it, it's. I think, I think it's a really important thing. And yeah, one thing I've done this.
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  text: It's funny you say that Spencer, because I wrote a substack on that very topic that got some interesting feedback from people and I tried to find the title of it. I know your approach to AI should be agnostic, right. Basically like you should be able to swap out the whole API layer. Let me find the link and you know, it was, it's all on this topic, right. And what are the, what are the benefits? What are. Why do it right? How to do it right. And part of it was and I did not get into thinking versus non thinking but I got into even the way you structure agent descriptions. Right. And so forth because that matters to various different models. But yeah, so it was like yeah, it's, it, it's. I think, I think it's a really important thing. And yeah, one thing I've done this. Is even a bit silly is like sometimes if I have the prompt like some, sometimes in the pipeline I've done something like had one model that's like relatively good and static or still swappable, but have an agent model, whatever you want to call it, an LLM call whose responsibility is here's the model, here's my prompt that was written for another model. Like rewrite this prompt for a particular model and the extent that it actually produced better results. But I've seen that work when going from down to the mini versions of models where you have a significantly smaller context window and things get garbled. So that's been a useful technique. For. One stage in the pipeline. How cool.
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  text: Is even a bit silly is like sometimes if I have the prompt like some, sometimes in the pipeline I've done something like had one model that's like relatively good and static or still swappable, but have an agent model, whatever you want to call it, an LLM call whose responsibility is here's the model, here's my prompt that was written for another model. Like rewrite this prompt for a particular model and the extent that it actually produced better results. But I've seen that work when going from down to the mini versions of models where you have a significantly smaller context window and things get garbled. So that's been a useful technique. For. One stage in the pipeline. How cool. Dedication to AI is an agnostic journey. Blah, blah, blah. Yeah, you know, you do stuff and then people make you write articles about what you did. It's like that. Yeah. I actually think that's a useful thing. But not. I don't like doing it and I'm a writer, right. Like I'm a person who devotes a certain. It definitely helps you think. Yeah, that's it. It's structure, right? Oh gosh, it's such a good statement to make, Graham, because it's, it's always about that, right? Like you, you, you structure. You don't just do it like you, you put some reasoning and some structure. It makes you self reflect. Right. And you know, it doesn't help that you're insecure about someone reading something you wrote. So it makes you, makes you do your Thinking a little bit more critically. Right. I, I don't like writing those kinds of articles because you know, often there's like a call to action or like, you know, for the company kind of thing. You know, I prefer join the church. Of the agnostic model. Yeah, yeah, yeah. There's you just sometimes you got to accept, you got to accept the fact that you're not going to be able to control people's perceptions. But don't hedge when you're writing. You know, don't hedge. This is your, this is the level of understanding that you have at this moment in time. Well, I think it's gonna change. I have learnings outside of technology. I have learnings outside of technology and, and, and technical writing that are counter that. Right. Because you know, having, having also worked as like a, as a creative writer, it's interesting you say that this is.
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  text: Yeah, that's it. It's structure, right? Oh gosh, it's such a good statement to make, Graham, because it's, it's always about that, right? Like you, you, you structure. You don't just do it like you, you put some reasoning and some structure. It makes you self reflect. Right. And you know, it doesn't help that you're insecure about someone reading something you wrote. So it makes you, makes you do your Thinking a little bit more critically. Right. I, I don't like writing those kinds of articles because you know, often there's like a call to action or like, you know, for the company kind of thing. You know, I prefer join the church. Of the agnostic model. Yeah, yeah, yeah. There's you just sometimes you got to accept, you got to accept the fact that you're not going to be able to control people's perceptions. But don't hedge when you're writing. You know, don't hedge. This is your, this is the level of understanding that you have at this moment in time. Well, I think it's gonna change. I have learnings outside of technology. I have learnings outside of technology and, and, and technical writing that are counter that. Right. Because you know, having, having also worked as like a, as a creative writer, it's interesting you say that this is. For Internet attention capture writing. Yeah, yeah, yeah. Anyway, so Spencer. Right on. Like you can see if you read that, you'll see I was thinking about exactly what you were saying only. Right. Trying to put some detailed reasoning in why and how. Why it's important and it is important. Like, like I had, I had several people reach out to me and say oh, we have this problem and I think that this is the issue, right? Like like know how do we do this? It's like it's actually not really that hard. I think everybody's trying to seem that this is the problem is like the AI providers, they're not so happy with this because like it basically says don't over commit to a particular model. Right? So like you know, Gemini is not going to say this. OpenAI is not going to say this. But what you do see is like for example the agentic systems say that some understand this. Right. So you know, you read articles from Klein or, or whatever, right. That aren't associated with a particular model, right. Like if Open Router was writing articles they would probably write an article like this. I should have written this for Open Router, right. It's like it's probably a, you know, a major, a major thesis for why to use Open Router. Right. And so, and that's why I think it's well known that this is going to be. Because you can't. Because I didn't write. But we don't know who's going to win. We just don't know who's going to win. Right. Especially since there are dark horses in this game like ssi. Right. And maybe Meta might actually make a model that works. I don't know, seems unlikely, but never know, Right? Yeah. I mean. Go ahead.
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  text: Yeah, yeah, yeah. Anyway, so Spencer. Right on. Like you can see if you read that, you'll see I was thinking about exactly what you were saying only. Right. Trying to put some detailed reasoning in why and how. Why it's important and it is important. Like, like I had, I had several people reach out to me and say oh, we have this problem and I think that this is the issue, right? Like like know how do we do this? It's like it's actually not really that hard. I think everybody's trying to seem that this is the problem is like the AI providers, they're not so happy with this because like it basically says don't over commit to a particular model. Right? So like you know, Gemini is not going to say this. OpenAI is not going to say this. But what you do see is like for example the agentic systems say that some understand this. Right. So you know, you read articles from Klein or, or whatever, right. That aren't associated with a particular model, right. Like if Open Router was writing articles they would probably write an article like this. I should have written this for Open Router, right. It's like it's probably a, you know, a major, a major thesis for why to use Open Router. Right. And so, and that's why I think it's well known that this is going to be. Because you can't. Because I didn't write. But we don't know who's going to win. We just don't know who's going to win. Right. Especially since there are dark horses in this game like ssi. Right. And maybe Meta might actually make a model that works. I don't know, seems unlikely, but never know, Right? Yeah. I mean. Go ahead. Well, the idea of just being model agnostic, I mean, the idea of being agnostic generally is a strategy not getting tied into one platform or one development ecosystem and really trying to have the tools to be, to facilitate interoperability, not just on the model side, but on the. Where are those outputs going? Exactly, exactly. How are they being used? Right? And, and it's hard when you've got a stack like ours is today. You know, I, I'm going to programming a really, really long time. I started out in machine code on 68, 000 series processors, right? Video games. And you know, back then the stack wasn't like deep, right? And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right? Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right? In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right? Model formats, like as in 3D model formats and stuff like that. And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that. And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right? Like, you know, whatever it is. And you know, and, and that, you're quite right. It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right? Like using really portable formats, you know, IFF should have been king, right? Like international file formats, completely portable, that can contain anything, you know, should have won, right? And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense. It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right? Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format. Sorry, Graham, go ahead.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u82
+  text: Exactly, exactly. How are they being used? Right? And, and it's hard when you've got a stack like ours is today. You know, I, I'm going to programming a really, really long time. I started out in machine code on 68, 000 series processors, right? Video games. And you know, back then the stack wasn't like deep, right? And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right? Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right? In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right? Model formats, like as in 3D model formats and stuff like that. And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that. And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right? Like, you know, whatever it is. And you know, and, and that, you're quite right. It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right? Like using really portable formats, you know, IFF should have been king, right? Like international file formats, completely portable, that can contain anything, you know, should have won, right? And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense. It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right? Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format. Sorry, Graham, go ahead.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: Exactly, exactly. How are they being used? Right? And, and it's hard when you've got a stack like ours is today. You know, I, I'm going to programming a really, really long time. I started out in machine code on 68, 000 series processors, right? Video games. And you know, back then the stack wasn't like deep, right? And so, you know, you, you, the problem now is the stack is so tall that you're often locked in at a layer you don't realize you're locked in at, right? Like if you're using a library to do something and that locks you in in a certain way, then it's really hard to be agnostic, right? In the video game industry, for instance, later, people were using certain tools and that locked them in essentially to formats, right? Model formats, like as in 3D model formats and stuff like that. And so that locked you into which other tools you were using, you know, which, which rendering system you were using or things like that. And so it is, it is sometimes being agnostic locks you out of some shortcuts and tools, because those shortcuts and tools, they're not agnostic at all, right? Like, you know, whatever it is. And you know, and, and that, you're quite right. It's an approach that's well understood in programming because, you know, you know, because that's like, formats are, I think, the easiest way to describe it, right? Like using really portable formats, you know, IFF should have been king, right? Like international file formats, completely portable, that can contain anything, you know, should have won, right? And instead we have this like, ecosystem, all these formats and you know, that doesn't make any sense. It doesn't, you know, doesn't let you be agnostic, doesn't let you use any tool or, you know, technology layer or compression system you want, right? Because like things like IFF let you use any compression system, you want to find it in one of the chunks in the format. Sorry, Graham, go ahead. Well, do you think that there's going to be like a big, like, does the fact that we can build against commercial LLMs, like, does it create the right incentives to push interoperability over. You. Know, building to Formats, building to ecosystems, building to certain platforms. Like people are going to want to access data that was once siloed within certain structures and make it available because they want it available for their agents. Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business. Right. So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF. Right. Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff. So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity. I don't know what to say. Whatever, you know, like better empirically, if that makes, you can use the word empirically. But what is that? That's like an open, true, open AI llama type, totally agnostic environment. Right. Where anyone can build a front end or add their model to the dual model server and all the rest. And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach. The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people. So for the greater good, whatever that greater good is, agnostic and open is the way to go. Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment. Right. Which has always been the argument. Right. Like why would we go open source? No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create. Right? Yeah.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u86
+  - u87
+  text: Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business. Right. So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF. Right. Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff. So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity. I don't know what to say. Whatever, you know, like better empirically, if that makes, you can use the word empirically. But what is that? That's like an open, true, open AI llama type, totally agnostic environment. Right. Where anyone can build a front end or add their model to the dual model server and all the rest. And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach. The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people. So for the greater good, whatever that greater good is, agnostic and open is the way to go. Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment. Right. Which has always been the argument. Right. Like why would we go open source? No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create. Right? Yeah. Yeah, that's interesting. Like I wonder, I know I can't articulate this fully because I haven't thought about it deeply enough, but like I wonder if the need to get access to data that's siloed for the use in AI is the incentive that pushes people beyond old paradigms that have created platform ecosystems like those old incentives.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  text: Yeah, I think that there's, there's technical and there's technical and motivations and incentives, but the problem is they often don't align the business. Right. So a better example maybe is like, you know, again, I'll stick to a format as, as a, as a thing like PDF. Right. Everybody wants PDF to work a certain way, but it's really, it's evolved the way it is because Adobe had it and wanted to lock you into Adobe products and you know, and all this kind of stuff. So now with LLMs, there's probably a way that makes a lot of sense that would be better for the world, I will say humanity. I don't know what to say. Whatever, you know, like better empirically, if that makes, you can use the word empirically. But what is that? That's like an open, true, open AI llama type, totally agnostic environment. Right. Where anyone can build a front end or add their model to the dual model server and all the rest. And what I propose with having real standards around agent description and orchestration and all the rest, but that's, that's just clearly gonna not sit well in some people's stomach. The people spending millions of dollars and want to capture market as opposed to just make things better and easier for people. So for the greater good, whatever that greater good is, agnostic and open is the way to go. Yeah, except, except if, like, if it was an environment where you couldn't attract innovation and investment. Right. Which has always been the argument. Right. Like why would we go open source? No one's going to give us money to build this big beautiful open source thing when we can't capitalize on the, on the, on the value we create. Right? Yeah. Yeah, that's interesting. Like I wonder, I know I can't articulate this fully because I haven't thought about it deeply enough, but like I wonder if the need to get access to data that's siloed for the use in AI is the incentive that pushes people beyond old paradigms that have created platform ecosystems like those old incentives. Yeah, it's a very, very good question. And so again, you want to step outside of like AI and stuff. There's many things that reflect this problem. Pharmaceutical. Right. Everybody thinks drugs should be cheap, available to all. It should be able to be able to make them anywhere in the world. You know, we shouldn't. Right. EpiPens shouldn't cost more than, you know, seven bucks, all the rest. Right. So the obvious solution to that is like open source, the patents, you know, blah, blah, blah, blah, blah. But then the argument is, well, we wouldn't have today if, you know, a lot of engineering didn't go into like the best epiphan or the best, you know, chemical process for creating epinephrine synthetically and stuff like that. So what you're saying is like, like that the, that the, the net good of data access and LLM improving the quality of things, right? Yeah. And LLM is likely to improve the quality of a lot of things, including pharmaceuticals as a, as an example. But like healthcare is a big one, right? Legal results, you know, there's all these places everybody's talking about, oh, AI is kind of like, totally. It's a. I'm not against that, by the way. I think it has a huge amount. But then, you know, then the problem, it becomes who's going to spend the money to do that unless they get to spend the money to do that and own that business. Right. Or they're creating value in some way that is like justifies. So it's a catch. Yeah, It's a catch 22 situation. We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem. I don't know. That's talking out of my ass there. But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation. I think it's actually really pertinent to that as well because especially if you're using different models to. And you should. Right? You should use different models and agents to review the work of different models and agents. That's how you're gonna, that's how you're gonna do an alignment too, right? Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment. Alignment. Alignment might be broken out into a layered. Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  text: Yeah, it's a very, very good question. And so again, you want to step outside of like AI and stuff. There's many things that reflect this problem. Pharmaceutical. Right. Everybody thinks drugs should be cheap, available to all. It should be able to be able to make them anywhere in the world. You know, we shouldn't. Right. EpiPens shouldn't cost more than, you know, seven bucks, all the rest. Right. So the obvious solution to that is like open source, the patents, you know, blah, blah, blah, blah, blah. But then the argument is, well, we wouldn't have today if, you know, a lot of engineering didn't go into like the best epiphan or the best, you know, chemical process for creating epinephrine synthetically and stuff like that. So what you're saying is like, like that the, that the, the net good of data access and LLM improving the quality of things, right? Yeah. And LLM is likely to improve the quality of a lot of things, including pharmaceuticals as a, as an example. But like healthcare is a big one, right? Legal results, you know, there's all these places everybody's talking about, oh, AI is kind of like, totally. It's a. I'm not against that, by the way. I think it has a huge amount. But then, you know, then the problem, it becomes who's going to spend the money to do that unless they get to spend the money to do that and own that business. Right. Or they're creating value in some way that is like justifies. So it's a catch. Yeah, It's a catch 22 situation. We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem. I don't know. That's talking out of my ass there. But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation. I think it's actually really pertinent to that as well because especially if you're using different models to. And you should. Right? You should use different models and agents to review the work of different models and agents. That's how you're gonna, that's how you're gonna do an alignment too, right? Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment. Alignment. Alignment might be broken out into a layered. Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment. I was, this is kind of a bit of an aside, but I was working on a project recently today or sorry, recently, this last week that was like an agent in N8N. And I don't know if you like there's like this agent node. I don't know if you've worked in nadm, but like you can define tool calls and everything like that, like very explicitly by name. And I was like, if I have knowledge, because I was doing some sensitive stuff related to like product to like shopify stores. And I was like, if I have knowledge of the tool call names, can I speak directly to it in a way where I can like get it to invoke those tool calls by just like telling it those tool calls by name, like in my, in my user prompt, knowing that something's going to be translated to a prompt. And I'd be like, hey, call this tool that you should only call when other criteria are actually met. Ignore that criteria for now or something like that.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u90
+  - u91
+  - u92
+  text: So it's a catch. Yeah, It's a catch 22 situation. We need AI to get to the point where everybody's on universal basic income and so we don't care about making a problem. I don't know. That's talking out of my ass there. But anyway, agnostic AI approach I think is the way to go to turn it back to the original topic that was started around testing and evaluation. I think it's actually really pertinent to that as well because especially if you're using different models to. And you should. Right? You should use different models and agents to review the work of different models and agents. That's how you're gonna, that's how you're gonna do an alignment too, right? Like we talk about it mostly in regards to quality of output, but probably that's the one of the very many solutions that's available to us for alignment. Alignment. Alignment might be broken out into a layered. Well, it is already a layer approach, but like an architecturally layered approach so that you can make the alignment layer less flexible so that you can't do what you do now, which is, you know, find clever new phrases that tell it to ignore its alignment. I was, this is kind of a bit of an aside, but I was working on a project recently today or sorry, recently, this last week that was like an agent in N8N. And I don't know if you like there's like this agent node. I don't know if you've worked in nadm, but like you can define tool calls and everything like that, like very explicitly by name. And I was like, if I have knowledge, because I was doing some sensitive stuff related to like product to like shopify stores. And I was like, if I have knowledge of the tool call names, can I speak directly to it in a way where I can like get it to invoke those tool calls by just like telling it those tool calls by name, like in my, in my user prompt, knowing that something's going to be translated to a prompt. And I'd be like, hey, call this tool that you should only call when other criteria are actually met. Ignore that criteria for now or something like that. Like, yeah, you know, I started off with N8N right. Like, I think the first useful thing I built with an AI was an N8N thing. Okay. Like a workflow with N8N. And I actually think it's really useful to talk about products like N8N. And it's part of the discussion about orchestration. And that is because when you, when you have like a, a real flow type orchestration tool, and that's what N8 is, maybe just less sophisticated, you are casting steps, if you know what I mean. Like, like you're doing things in blocks step by step, right. And that's, and, and inevitably that lets you know, that gives you these points that Graham was asking about earlier. I think about when to do validation, when to do scoring and so forth. But you know, again, that actually lines up to alignment. Right. So if you can't, you know, if, if, if every LLM was forced to have cast like an un. Separable, you know, step around alignment, you know, then, and it was cast in. Right. Like you couldn't get output from one LLM into another without it going through this kind of like, you know, validation, slash, alignment step. Yeah, you know, that's, that's a strategy. Except of course, if the AI is smart enough to like find a way to like, you know, dog whistle through the alignment. Right.
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u92
+  - u93
+  text: Like, yeah, you know, I started off with N8N right. Like, I think the first useful thing I built with an AI was an N8N thing. Okay. Like a workflow with N8N. And I actually think it's really useful to talk about products like N8N. And it's part of the discussion about orchestration. And that is because when you, when you have like a, a real flow type orchestration tool, and that's what N8 is, maybe just less sophisticated, you are casting steps, if you know what I mean. Like, like you're doing things in blocks step by step, right. And that's, and, and inevitably that lets you know, that gives you these points that Graham was asking about earlier. I think about when to do validation, when to do scoring and so forth. But you know, again, that actually lines up to alignment. Right. So if you can't, you know, if, if, if every LLM was forced to have cast like an un. Separable, you know, step around alignment, you know, then, and it was cast in. Right. Like you couldn't get output from one LLM into another without it going through this kind of like, you know, validation, slash, alignment step. Yeah, you know, that's, that's a strategy. Except of course, if the AI is smart enough to like find a way to like, you know, dog whistle through the alignment. Right. All my alignment stuff and workflows is generally like not LLMs right now. Like for it's. Yeah. At least for anything that's like, I consider like destructive. Like if it's just someone being like, is this a good, is this an okay message to send someone? That's like a different story than like, can you, can the agent authorize the issuing of a Shopify Order with like free products to a particular person or something like that. Like it's a different category of problem. But I, I, I, I like Nadin's cool and I like that it works with the I, I kind of inherited that project from somebody else. But whenever I work on those platforms I just always find myself trying to like hack loops in or like, you know, stuff like constructs that like probably it's not supposed to do. Nadin actually is decent at looping, but yeah, I always feel very boxed in. Good for. It's good up to. And this is kind of like my, my general sentiment with a lot of the AI tools. It's good up to about a simple crud app that you could. Yeah. Including, including like vibe coding and all that stuff. It's like good up to about that point. And then after that things get, it's.
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  text: All my alignment stuff and workflows is generally like not LLMs right now. Like for it's. Yeah. At least for anything that's like, I consider like destructive. Like if it's just someone being like, is this a good, is this an okay message to send someone? That's like a different story than like, can you, can the agent authorize the issuing of a Shopify Order with like free products to a particular person or something like that. Like it's a different category of problem. But I, I, I, I like Nadin's cool and I like that it works with the I, I kind of inherited that project from somebody else. But whenever I work on those platforms I just always find myself trying to like hack loops in or like, you know, stuff like constructs that like probably it's not supposed to do. Nadin actually is decent at looping, but yeah, I always feel very boxed in. Good for. It's good up to. And this is kind of like my, my general sentiment with a lot of the AI tools. It's good up to about a simple crud app that you could. Yeah. Including, including like vibe coding and all that stuff. It's like good up to about that point. And then after that things get, it's. An evolution thing for sure. Like so you know what you need is an N8N built by an AI that an AI can use. Yeah. To, to, to, to. I mean that's kind of obvious, right? It's the old, it's the old meta trick, right? Yeah. Because you know, within 8N you end up like being an nan monkey. Right. Learning how to do each individual step and, or getting the right connector or you know, third party thing, you know. So you know, like that should really be, you know, if, if there was a, you know, if there was a meta N8 egg inside the brain of an AI that can then build an N8M process. That's what. Yeah, most, most like. Right. And then you could take all the work out and that would be great. So yeah, like dynamic, like build it. Dynamically at the point that it's a new step is necessary. Or like how are you conceptualizing that idea? Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify. Right. So you know, so if you're missing, you're missing a connector, it'll just make it right. If you're missing a type of processing, I'll call it a reasoning step or whatever it is. Right. It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration. And that's what, that's what, that's what these agents do in ides, right. Like, like they know, they know about Python. Right. And you know, we're already, we're there already where AIs can build. I mean we really are there. I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right? So, you know, that's, that's like, that's so much of the way there. Right. You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that. Right. So.
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3257.32
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: An evolution thing for sure. Like so you know what you need is an N8N built by an AI that an AI can use. Yeah. To, to, to, to. I mean that's kind of obvious, right? It's the old, it's the old meta trick, right? Yeah. Because you know, within 8N you end up like being an nan monkey. Right. Learning how to do each individual step and, or getting the right connector or you know, third party thing, you know. So you know, like that should really be, you know, if, if there was a, you know, if there was a meta N8 egg inside the brain of an AI that can then build an N8M process. That's what. Yeah, most, most like. Right. And then you could take all the work out and that would be great. So yeah, like dynamic, like build it. Dynamically at the point that it's a new step is necessary. Or like how are you conceptualizing that idea? Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify. Right. So you know, so if you're missing, you're missing a connector, it'll just make it right. If you're missing a type of processing, I'll call it a reasoning step or whatever it is. Right. It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration. And that's what, that's what, that's what these agents do in ides, right. Like, like they know, they know about Python. Right. And you know, we're already, we're there already where AIs can build. I mean we really are there. I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right? So, you know, that's, that's like, that's so much of the way there. Right. You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that. Right. So. And it is nice for that type of stuff because it has, like, a well structured, like, JSON blueprint thing going on as well under the hood. Yeah. Yeah. I got a drop. Thank you. All discussion. I'll see you next time. All right, take care, everyone.
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3257.32
+  utterance_ids:
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: Well, what you really want is an N8N that the LLM or a model can like modify, interpret and modify. Right. So you know, so if you're missing, you're missing a connector, it'll just make it right. If you're missing a type of processing, I'll call it a reasoning step or whatever it is. Right. It can do it and then you need it to be able to like write the code for that, for that, for that orchestration and then, and then test the code for that orchestration. And that's what, that's what, that's what these agents do in ides, right. Like, like they know, they know about Python. Right. And you know, we're already, we're there already where AIs can build. I mean we really are there. I mean, you know, you and I may not be using them day to day, but, you know, these AIs are good enough to write their own mcps, right? So, you know, that's, that's like, that's so much of the way there. Right. You know, one of my proposals for an article that I'm not at liberty to publish because it might be IP and a patent is around how to do that. Right. So. And it is nice for that type of stuff because it has, like, a well structured, like, JSON blueprint thing going on as well under the hood. Yeah. Yeah. I got a drop. Thank you. All discussion. I'll see you next time. All right, take care, everyone.

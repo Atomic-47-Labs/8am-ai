@@ -1,0 +1,60 @@
+meeting:
+  date: '2024-07-17'
+  title: 8am-AI 2024-07-17
+  participants:
+  - Karen Olsson
+  - Fulvio Ciano
+  duration_s: 383.54
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Karen Olsson
+  t_start: 363.55
+  t_end: 369.134
+  text: Hey. So he canceled today's session, so I just wanted to jump in and catch you. I'm going to send a separate.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 369.302
+  t_end: 370.422
+  text: That's what I thought.
+- id: u3
+  speaker: Karen Olsson
+  t_start: 370.606
+  t_end: 378.302
+  text: Yeah. I'm going to send a separate one for 830, which is 1130 your time.
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 378.446
+  t_end: 379.502
+  text: Perfect. I'll be there.
+- id: u5
+  speaker: Karen Olsson
+  t_start: 379.606
+  t_end: 383.54
+  text: Okay, great. Thanks. It.
+windows:
+- id: W-0001
+  t_start: 270.0
+  t_end: 383.54
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Hey. So he canceled today's session, so I just wanted to jump in and catch you. I'm going to send a separate. That's what I thought. Yeah. I'm going to send a separate one for 830, which is 1130 your time. Perfect. I'll be there. Okay, great. Thanks. It.
+- id: W-0002
+  t_start: 360.0
+  t_end: 383.54
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Hey. So he canceled today's session, so I just wanted to jump in and catch you. I'm going to send a separate. That's what I thought. Yeah. I'm going to send a separate one for 830, which is 1130 your time. Perfect. I'll be there. Okay, great. Thanks. It.

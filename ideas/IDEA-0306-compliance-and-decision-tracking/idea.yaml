@@ -1,0 +1,28 @@
+id: IDEA-0306
+slug: compliance-and-decision-tracking
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-06-10'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Project State functions as a compliance tool using an append-only database, which allows it to track logs, decisions, and risks over time. The system is capable of re-reasoning through project milestones if significant changes, such as a shift in the Minimum Viable Product, are introduced (00:20:19).
+summary: Compliance and decision tracking
+rationale: Project State functions as a compliance tool using an append-only database, which allows it to track logs, decisions, and risks over time. The system is capable of re-reasoning through project milestones if significant changes, such as a shift in the Minimum Viable Product, are introduced (00:20:19).
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:12Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 65.5
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 14.8
+  concretion: 1.5
+  uniqueness: 15
+  carryover: 0
+rank: 89
+tier: queue

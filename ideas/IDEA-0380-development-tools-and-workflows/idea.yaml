@@ -1,0 +1,28 @@
+id: IDEA-0380
+slug: development-tools-and-workflows
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-07-02'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David demonstrates Claude Code SDK integration for automated repo analysis with four different audit perspectives Repo analysis system takes 5+ minutes to complete comprehensive audits and documentation generation Built AI delegation system using Claude Code SDK with dynamically generated agents MCP integrations available for deployment platforms (Netlify, AWS, DigitalOcean) enabling agent-driven deployments Challenge of context transfer between different development environments when team members use different tools Discussion of 'Davidify' or 'Atomicify' process - using agents to make reposi
+summary: Development Tools and Workflows
+rationale: 'David demonstrates Claude Code SDK integration for automated repo analysis with four different audit perspectives Repo analysis system takes 5+ minutes to complete comprehensive audits and documentation generation Built AI delegation system using Claude Code SDK with dynamically generated agents MCP integrations available for deployment platforms (Netlify, AWS, DigitalOcean) enabling agent-driven '
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 64.0
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.3
+  concretion: 15
+  uniqueness: 15
+  carryover: 0
+rank: 127
+tier: queue

@@ -1,0 +1,28 @@
+id: IDEA-0389
+slug: alberta-energy-regulator-aer-project-pla
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-09'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Six-week sprint plan for AER companion app development to help navigate regulations, applications, and compliance tasks. Web scraping challenge identified for downloading AER directives, memos, and ILs from public website for database integration. Database architecture planned using Supabase for regulatory document storage with progressive build approach starting with single PDF testing. Business opportunity recognized for serving multiple regulatory bodies in Alberta with potential expansion to similar organizations.
+summary: Alberta Energy Regulator (AER) Project Planning
+rationale: 'Six-week sprint plan for AER companion app development to help navigate regulations, applications, and compliance tasks. Web scraping challenge identified for downloading AER directives, memos, and ILs from public website for database integration. Database architecture planned using Supabase for regulatory document storage with progressive build approach starting with single PDF testing. Business '
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 52.5
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.3
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 384
+tier: backlog

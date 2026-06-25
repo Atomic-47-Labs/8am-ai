@@ -1,0 +1,28 @@
+id: IDEA-0314
+slug: voice-ai-and-streaming-capabilities
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-06-11'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David showcased OpenAI streaming API implementation for more responsive voice interactions Demonstrated near real-time voice communication similar to ChatGPT voice button functionality Discussion of fallback strategies when streaming capabilities aren't available Claude taught David about implementing fallback mechanisms for better user experience Addressed interruption problems in voice AI - noting 11Labs has solved this issue
+summary: Voice AI and Streaming Capabilities
+rationale: David showcased OpenAI streaming API implementation for more responsive voice interactions Demonstrated near real-time voice communication similar to ChatGPT voice button functionality Discussion of fallback strategies when streaming capabilities aren't available Claude taught David about implementing fallback mechanisms for better user experience Addressed interruption problems in voice AI - noti
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 64.4
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.2
+  concretion: 15
+  uniqueness: 15
+  carryover: 0
+rank: 112
+tier: queue

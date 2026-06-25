@@ -1,0 +1,28 @@
+id: IDEA-0267
+slug: ai-assisted-document-extraction-for-regu
+phase: backlog
+track: light
+source:
+  meeting: '2025-05-21'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Scott attempted to use AI (primarily ChatGPT 4.0/4.5) to extract and organize data from six regulatory documents for Alberta Energy Regulator (AER) compliance. AI struggled with nuanced extraction, inconsistent formatting, and providing precise references, often summarizing instead of quoting exact text. Scott plans to try Claude and provide more explicit examples in prompts to improve results. David suggested preprocessing documents into a structured corpus and using programmatic approaches or different models for better results.
+summary: AI-Assisted Document Extraction for Regulatory Compliance
+rationale: Scott attempted to use AI (primarily ChatGPT 4.0/4.5) to extract and organize data from six regulatory documents for Alberta Energy Regulator (AER) compliance. AI struggled with nuanced extraction, inconsistent formatting, and providing precise references, often summarizing instead of quoting exact text. Scott plans to try Claude and provide more explicit examples in prompts to improve results. Da
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 54.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 0.2
+  concretion: 5.5
+  uniqueness: 15
+  carryover: 0
+rank: 337
+tier: backlog

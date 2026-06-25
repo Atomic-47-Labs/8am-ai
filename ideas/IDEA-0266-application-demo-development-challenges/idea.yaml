@@ -1,0 +1,28 @@
+id: IDEA-0266
+slug: application-demo-development-challenges
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-05-21'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Scott Morton demonstrated an investor management application built using Supabase, React, and Vite, with AI-generated code. The app features login, investor data management, transaction matching, and summary tables for board reporting. Scott described a bug where editing a record requires re-entering all fields, highlighting limitations in AI-generated code and the need for manual troubleshooting. Development with AI tools significantly accelerated the process, reducing what would have taken a month to about 11 hours (plus troubleshooting).
+summary: Application Demo & Development Challenges
+rationale: Scott Morton demonstrated an investor management application built using Supabase, React, and Vite, with AI-generated code. The app features login, investor data management, transaction matching, and summary tables for board reporting. Scott described a bug where editing a record requires re-entering all fields, highlighting limitations in AI-generated code and the need for manual troubleshooting.
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 50.8
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.2
+  concretion: 1.5
+  uniqueness: 15
+  carryover: 0
+rank: 426
+tier: backlog

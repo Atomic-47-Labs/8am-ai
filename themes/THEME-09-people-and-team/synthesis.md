@@ -1,28 +1,43 @@
 # THEME-09 — People And Team
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2025-08-13 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 9
+Status: **steady** &nbsp; | &nbsp; First seen: 2024-08-14 &nbsp; | &nbsp; Last seen: 2026-06-24 &nbsp; | &nbsp; Ideas: 24
 
 ## Pattern
 
-Across 7 meetings the group keeps returning to **people and team**. The thread shows up in the following moments:
+Across 21 meetings the group keeps returning to **people and team**. The thread shows up in the following moments:
 
-- *2025-08-13* ([IDEA-0125]): David’s team is adopting lightweight scheduling methods to streamline meeting organization, optimizing time efficiency in discussions.
-- *2025-08-20* ([IDEA-0135]): AI integration is proposed with voice API collaboration, enhancing the stone personas with travel-oriented personalities and conversational capabilities.
-- *2026-04-08* ([IDEA-0010]): Jason Kryski asked if working in teams is harder now than before the shift, noting that he struggles to find a logical development cycle and product role because the established loop is fundamentally broken (00:22:05). They described an env
-- *2026-04-29* ([IDEA-0031]): David Olsson discussed the precarious position of a consultant when partnering with larger organizations, noting that the partner's ability to operationalize and consume what is offered can quickly usurp or absorb the consultant's role. The
-- *2026-05-20* ([IDEA-0062]): Juan noted that while working remotely, team members were asked to work through sickness without others noticing. Juan expressed concern over tool usage, citing an instance where a project marked as 85% complete was actually only 10% implem
-- *2026-05-20* ([IDEA-0065]): David Olsson and Juan discussed how cybersecurity, once an exclusive and lucrative field, has shifted as powerful models now allow teams to understand the landscape and perform exploitative work more effectively, which creates new dangers.
-- *2026-06-10* ([IDEA-0091]): David Olsson is preparing to migrate to new peer group software for the 8 a.m. meeting, which will automate email management and build a knowledge graph for the team (00:02:52). David Olsson plans to resolve an internal server error on the 
-- *2026-06-10* ([IDEA-0099]): David Olsson discussed the logistical challenges of managing the upcoming hardware cluster, noting that the partnership involves the Canadian government's AI Access Compute Fund (00:27:05). Operating this infrastructure requires constant sc
+- *2024-08-14* ([IDEA-0475]): Discusses plans for future collaborations on AI projects Explains the concept of using AI for public engagement Discusses the potential of AI in creating personalized experiences Introduces the concept of using AI for self-discovery and per
+- *2024-08-21* ([IDEA-0490]): Discussed creating scenarios and teams of AI agents for different tasks Explored the idea of meta-agents and how they can coordinate other AI agents Talked about the importance of logging and debugging AI processes
+- *2024-09-11* ([IDEA-0541]): David discussed a project for generating NFTs with haikus and meditations Potential collaboration with Neil Stephens's Lamina One blockchain project Exploration of AI's potential in creative content generation
+- *2024-10-02* ([IDEA-0584]): Discussion on the importance of diverse skill sets in AI projects Conversation about the rapid advancements in AI tools for various industries
+- *2025-01-29* ([IDEA-0058]): David mentions receiving more funding for MTC project Discussion on balancing multiple projects and partnerships Reflection on personal work habits and the need for regular income
+- *2025-07-02* ([IDEA-0379]): Discussed onboarding new team member and challenges of sharing context across different AI tools MCP (Model Control Protocol) implementation working successfully - David built one for delegator inside Clos Warp terminal integration using di
+- *2025-07-09* ([IDEA-0390]): PDF-to-markdown conversion process discussed using tools like Exa for web scraping and document digitization. ABSA collaboration potential identified for similar regulatory document management across Alberta organizations. Revenue model dis
+- *2025-07-18* ([IDEA-0409]): James shared multiple startup concepts spanning 2016-present: Route (peer-to-peer money transfer, 2016), Fact Coin (Q&A platform with cryptocurrency rewards, 2017-18), and AI Guides (curated AI guidance similar to TV Guide format). He empha
 
 ## Ideas attached
 
-- IDEA-0125
-- IDEA-0135
-- IDEA-0010
-- IDEA-0031
-- IDEA-0062
-- IDEA-0065
-- IDEA-0091
-- IDEA-0099
-- IDEA-0112
+- IDEA-0475
+- IDEA-0490
+- IDEA-0541
+- IDEA-0584
+- IDEA-0058
+- IDEA-0379
+- IDEA-0390
+- IDEA-0409
+- IDEA-0460
+- IDEA-0480
+- IDEA-0573
+- IDEA-0576
+- IDEA-0605
+- IDEA-0625
+- IDEA-0020
+- IDEA-0109
+- IDEA-0153
+- IDEA-0176
+- IDEA-0211
+- IDEA-0257
+- IDEA-0260
+- IDEA-0300
+- IDEA-0308
+- IDEA-0357

@@ -1,0 +1,28 @@
+id: IDEA-0426
+slug: agent-design-context-engineering
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-30'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Fictitious trainer hallucination: Agent created non-existent gym trainer, leading to customer confusion and operational issues Form-based context capture: High-intent leads filling detailed forms provide 80% of needed information for personalized agent follow-up Agent presentation strategy: Clients consistently choose not to present agents as bots, preferring human-like interaction Validation workflows: LLM-based validation systems check form completeness and continue querying via text after obtaining consent'
+summary: Agent Design & Context Engineering
+rationale: 'Fictitious trainer hallucination: Agent created non-existent gym trainer, leading to customer confusion and operational issues Form-based context capture: High-intent leads filling detailed forms provide 80% of needed information for personalized agent follow-up Agent presentation strategy: Clients consistently choose not to present agents as bots, preferring human-like interaction Validation work'
+tags: []
+theme_refs:
+- THEME-10
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 51.5
+grade_breakdown:
+  evidence: 25
+  theme: 9.1
+  recency: 0.4
+  concretion: 2.0
+  uniqueness: 15
+  carryover: 0
+rank: 416
+tier: backlog

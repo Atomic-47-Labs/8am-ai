@@ -1,0 +1,1807 @@
+meeting:
+  date: '2025-11-05'
+  title: 8am-AI 2025-11-05
+  participants:
+  - David Olsson
+  - James Giroday
+  - Hanif Janmohamed
+  - Fulvio Ciano
+  - Scott Morton
+  - Anshul Dhariwal
+  - Travis Worthing
+  - Bibi Souza
+  - Jason Kryski
+  - Jen Boger
+  - Myles Holt
+  - Loren Kuich
+  - Shabraj Shahid
+  - Spencer MacBeth
+  - Ashley Beckett
+  - Graham Fawcett
+  - Carol Wilder
+  - Lee Kennedy
+  - Joel Semeniuk
+  duration_s: 2835.0
+  source_files:
+    primary: 8am-AI-2025-11-05.md
+    primary_kind: gemini-md
+    other: []
+utterances:
+- id: u1
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: Hey. Hey. Good morning, guys.
+- id: u2
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: Hello. How's it going?
+- id: u3
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: Good. Yeah. Yeah, I got your email. No worries at all.
+- id: u4
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: Last week was a fell into a hole last week.
+- id: u5
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: Okay. Did he Did he manage to climb out?
+- id: u6
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: Ah, yeah. But I'm I'm digging out of another one.
+- id: u7
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: Busy busy busy times. Yeah. Yeah. No worries.
+- id: u8
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: Uh we're just demonstrating things and I can I can actually show things here.
+- id: u9
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: That's exciting. Nice.
+- id: u10
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: This is um Oh, cool.
+- id: u11
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 1.0
+  text: Yeah, it's good. I uh I've actually been up since about 7 a.m. I I did some a little bit of writing this morning. I've actually I've even got something that I can I want to ask you about at some point like a process thing like you know maybe you got some ideas about how I can do something but um yeah man
+- id: u12
+  speaker: David Olsson
+  t_start: 0.0
+  t_end: 1.0
+  text: Yeah.
+- id: u13
+  speaker: James Giroday
+  t_start: 0.0
+  t_end: 147.0
+  text: I'm trying to do that I've actually moved that like office hours thing to from 8 to 9 to earlier to 7 to 8\. So, think I'll be around.
+- id: u14
+  speaker: David Olsson
+  t_start: 147.0
+  t_end: 148.0
+  text: Oh, cool.
+- id: u15
+  speaker: James Giroday
+  t_start: 147.0
+  t_end: 148.0
+  text: Maybe we can link up a little bit.
+- id: u16
+  speaker: David Olsson
+  t_start: 147.0
+  t_end: 148.0
+  text: Yeah. Um, as of like 11 or 12 o'clock today, uh, my my week gets a little bit easier.
+- id: u17
+  speaker: James Giroday
+  t_start: 147.0
+  t_end: 148.0
+  text: Okay.
+- id: u18
+  speaker: David Olsson
+  t_start: 147.0
+  t_end: 148.0
+  text: um demo happens and then uh yeah let's let's talk and and arrange to meet up um that's cool.
+- id: u19
+  speaker: James Giroday
+  t_start: 147.0
+  t_end: 148.0
+  text: Yeah. Yeah. Is this the demo?
+- id: u20
+  speaker: David Olsson
+  t_start: 147.0
+  t_end: 148.0
+  text: Yeah. So it's so like the work is not very glorious when you look.
+- id: u21
+  speaker: James Giroday
+  t_start: 147.0
+  t_end: 148.0
+  text: I don't know, man. This looks pretty interesting. What is this chemistry?
+- id: u22
+  speaker: David Olsson
+  t_start: 147.0
+  t_end: 207.0
+  text: Oh yeah. So yeah it is actually it's um so I built a take off built this. This is uh in in construction you have something called estimating and in estimating you have something called takeoff and takeoff is basically looking at drawings and counting things and so you go in and you count items and you have materials and then you get lists out of them. So if I look at this, this is a takeoff application. It has a PDF and a bunch of pages in it and it gives you a list of materials.
+- id: u23
+  speaker: James Giroday
+  t_start: 207.0
+  t_end: 208.0
+  text: What's What's the purpose of the takeoff? What does it give you?
+- id: u24
+  speaker: David Olsson
+  t_start: 207.0
+  t_end: 261.0
+  text: And so here's a bill of materials. And so this is a drawing that's pretty easy for me to get at. And I can actually um extract the bill of materials from it by sending it to chat. And it'll do that. Um but you take the materials and you get a bunch of materials. And once you have the materials like in construction, you can actually figure out what the work is. Even if you don't have, you know, the drawings, people like, "Oh, I get it. Um you need to put this install." So you can do estimates, you can do planning. And so um in construction people look at the drawings and from the drawings they can say it costs this much and I think it's going to take this much time and so that's what I'm building out. And so this application does that with drawings and it gets the point of producing materials and then allowing you to build inspection plans and estimates. So it's pretty cool allows you upload PDFs. You can extract parts of them or you could extract all of them and then you get these data sets um these data sets. This one hasn't been processed but you get these because it's a drawing you get you know there's common areas like a title block and it's good to know what's in the title block because you get new versions of documents. So it manages like version control, extraction, analysis and then building of estimates and plans.
+- id: u25
+  speaker: James Giroday
+  t_start: 260.0
+  t_end: 261.0
+  text: Wow.
+- id: u26
+  speaker: David Olsson
+  t_start: 260.0
+  t_end: 393.0
+  text: Um, and so I took that and we had some requirements for a demo today to to be able to um show how to take scientific research papers and pull out chemical compounds and in tables like this and then produce um that's not what I wanted to produce. And okay, here's what I wanted to produce is this is this table. It's actually pretty good now. Yeah, it's not what they want specifically, but what they're looking for is the ability to say that this is a um chemical compound and then this is the target and this is what it's the type of of molecule that it is and this is the description. They're looking for like mass like looking to go through like all kinds of data to pull out specific bits of information. And so that's what this does. It allows you to go through just like the estimating document. It goes through. Here's one's processed already. It goes through and it I do a summary of documents because I'm working with a lot of content I don't understand. So summarize the page and then it you know when you vibe code things or when you describe things it can give you a lot of feedback for free. And so I asked it to give me some highlights and so it gave me what it thinks is useful in here. And then I do full extraction in a bunch of different ways. And then I try to create from the extraction. It's like this looks like a table. And so I pull out the table and then the idea is you go to export all of that and you can export the this page is like f\*\*\*\*\*\* nightmare of UI. Um the uh yeah it's called Dante.
+- id: u27
+  speaker: James Giroday
+  t_start: 392.0
+  t_end: 393.0
+  text: I don't know. It looks pretty good. Like it like is this there's like a tree up in the in the upper left there. So this is like a this whole UI is a program that you made on your local computer. What do you call it? Is there a name for it? It's like an extractor of some takeoff. Dante.
+- id: u28
+  speaker: David Olsson
+  t_start: 392.0
+  t_end: 393.0
+  text: Uh Gante is the application suite that uh um Folio's designed and I'm this isn't what the intention was. I've taken my tool which had a lot of the same sort of core functionality and I've evolved it into this tool. Um, so it is online and and you can use it like when you when you load it up for the first time it will load demo data and so you you have to go through and you have to
+- id: u29
+  speaker: James Giroday
+  t_start: 392.0
+  t_end: 393.0
+  text: Yeah.
+- id: u30
+  speaker: David Olsson
+  t_start: 392.0
+  t_end: 445.0
+  text: do this but you select your project you select your collection and then you get you get the documents you get a document and I actually give it what I call ground truth.
+- id: u31
+  speaker: James Giroday
+  t_start: 445.0
+  t_end: 446.0
+  text: Yep.
+- id: u32
+  speaker: David Olsson
+  t_start: 445.0
+  t_end: 446.0
+  text: So I give it um in another process I take the PDF and I extract all the text and I know that the text is correct. So I have this extraction that I've done elsewhere that I know is 100% correct.
+- id: u33
+  speaker: James Giroday
+  t_start: 445.0
+  t_end: 446.0
+  text: Uh yeah, that's cool.
+- id: u34
+  speaker: David Olsson
+  t_start: 445.0
+  t_end: 446.0
+  text: And so any of the inference that I do against the PDFs, I can say is it in this extraction? And then that's a and that's a way of saying I've grounded my results and my truth. Um Folio had an even better way of doing that.
+- id: u35
+  speaker: James Giroday
+  t_start: 445.0
+  t_end: 446.0
+  text: Yeah.
+- id: u36
+  speaker: David Olsson
+  t_start: 445.0
+  t_end: 446.0
+  text: Um by looking at the document um at least in design, he has a like a better way of doing it. You look at the document, you look for indicators. You go get a bunch of molecules based on the indicators. You get the names of the molecules, you come back and you research in the document again.
+- id: u37
+  speaker: James Giroday
+  t_start: 445.0
+  t_end: 446.0
+  text: Heat.
+- id: u38
+  speaker: David Olsson
+  t_start: 445.0
+  t_end: 509.0
+  text: Same sort of idea, right? You're not taking the document as truth. You're doing some research. You're saying, "This is what looks like it's in there. Let's go get a bunch of lists of things to look for that are going to help us understand that." So, you go use a database to say, "Now, give me the markers to look for." And you come back with the markers. And they're usually quite extensive, more than what you think. And so, you come back and you say, "Okay, go through the document now looking for these things to identify." and and it pulls them out in a different way instead of just saying give me all the chemicals, right? It's a it's a way of of showing pro process has integrity.
+- id: u39
+  speaker: James Giroday
+  t_start: 508.0
+  t_end: 509.0
+  text: What's an Yeah.
+- id: u40
+  speaker: David Olsson
+  t_start: 508.0
+  t_end: 509.0
+  text: That's all.
+- id: u41
+  speaker: James Giroday
+  t_start: 508.0
+  t_end: 509.0
+  text: Oh, jeepers.
+- id: u42
+  speaker: David Olsson
+  t_start: 508.0
+  t_end: 509.0
+  text: Sorry.
+- id: u43
+  speaker: James Giroday
+  t_start: 508.0
+  t_end: 509.0
+  text: This is unbelievable. So, what's an application suite when you say that? That's like a
+- id: u44
+  speaker: David Olsson
+  t_start: 508.0
+  t_end: 560.0
+  text: Uh it it would be part of it. I I don't know what I mean. And it's a tool, but it and and this is a prototype of the tool. And because the results are what you're looking for the results, what they want is they say, "Here's some here's a document. Just give us some tables like give us a commaepparated variables." You know, the researchers, they want CSVs. They don't want Excel sheets. Um, so that's the result. And then say here's the source. In between what they're looking for is what everybody's looking for, transparency, observability, auditability, right? and veracity of of of truth. What I call it anyway like the ability to say how are you how do you know um like uh this one everything looks like cards right now for me.
+- id: u45
+  speaker: James Giroday
+  t_start: 559.0
+  t_end: 560.0
+  text: Yep. Yep. So, Dante is It looks like a layout. It's kind of like the cards a little bit and it is that because that's how Fio did it or that's how you're using it?
+- id: u46
+  speaker: David Olsson
+  t_start: 559.0
+  t_end: 620.0
+  text: So yeah I well I'm trying to understand how to work with documents right and so there's the common common patterns of a document tray and then the source document and then processing pain and so I'm I'm really what
+- id: u47
+  speaker: James Giroday
+  t_start: 620.0
+  t_end: 621.0
+  text: Okay.
+- id: u48
+  speaker: David Olsson
+  t_start: 620.0
+  t_end: 621.0
+  text: I've set up here is really just the ability to figure out the problem is like here's here's the data set and here's what you want to get there. Here's all the things you can do. And I surface as much of that as attenuating like ability to attenuate it as possible. Um, right. So, if I go to my data table or data screen, I've got all these reports in here. Like, this one doesn't make any sense right now for our audience. As I'm seeing it, I'm like, okay, that's I don't have time to fix that part. um uh specifically.
+- id: u49
+  speaker: James Giroday
+  t_start: 620.0
+  t_end: 621.0
+  text: Yeah.
+- id: u50
+  speaker: David Olsson
+  t_start: 620.0
+  t_end: 621.0
+  text: But what I can do is I can actually build into my application.
+- id: u51
+  speaker: James Giroday
+  t_start: 620.0
+  t_end: 621.0
+  text: Yeah.
+- id: u52
+  speaker: David Olsson
+  t_start: 620.0
+  t_end: 621.0
+  text: Don't show it.
+- id: u53
+  speaker: James Giroday
+  t_start: 620.0
+  t_end: 621.0
+  text: Okay. So, which part of this is Dante again?
+- id: u54
+  speaker: David Olsson
+  t_start: 620.0
+  t_end: 621.0
+  text: This is all daunting.
+- id: u55
+  speaker: James Giroday
+  t_start: 620.0
+  t_end: 621.0
+  text: The the left hand. The whole thing.
+- id: u56
+  speaker: David Olsson
+  t_start: 620.0
+  t_end: 686.0
+  text: Yeah, it's just an application and what we're it would probably turn into a couple of tools. Um like right now there's extraction and analysis going on in this one and then export of data.
+- id: u57
+  speaker: James Giroday
+  t_start: 686.0
+  t_end: 687.0
+  text: Yeah.
+- id: u58
+  speaker: David Olsson
+  t_start: 686.0
+  t_end: 687.0
+  text: And so Dante is just a name that has been given to be able to process data in a certain kind of way. And um I'm trying to understand what it means to have like a canvas area in my applications and then and then be able to work on the outside of that.
+- id: u59
+  speaker: James Giroday
+  t_start: 686.0
+  t_end: 687.0
+  text: Yeah.
+- id: u60
+  speaker: David Olsson
+  t_start: 686.0
+  t_end: 687.0
+  text: Um I've built way too many of these kind of things. I'm trying to see if I can uh create a
+- id: u61
+  speaker: James Giroday
+  t_start: 686.0
+  t_end: 687.0
+  text: No, no, no. Yeah, I I'm sure this could be helpful, but that like So, okay. So, here's here's what I'm getting so far, and let me tell me if I've missed misunderstood. Dante is kind of in the background. This whole layout here is a workflow that you have built on top of Dante and you're calling it I don't know takeoff or extractor and here and let me let me continue for a second.
+- id: u62
+  speaker: David Olsson
+  t_start: 686.0
+  t_end: 687.0
+  text: So yeah, exactly. Yeah.
+- id: u63
+  speaker: James Giroday
+  t_start: 686.0
+  t_end: 752.0
+  text: Okay. And then uh there's three panes. First pane is when you're setting your variables basically. Second pane is just like a preview pane. And then third pane is where everything kind of happens. And third pane has like a bunch of different functions in there. So if you look back at the fun the the the numbered that's really helpful. I got to say the numbered functions like overview extraction. It's if you're looking at this and you're and you're, you know, watching a demo and trying to understand like, does this do what I want it to do, you can kind of go, okay, one, that's an option that'll be useful. Two, okay, less relevant that can be edited out. Three, yeah, okay, that's the one that like does exactly what we wanted to do. So, let's get let's like rework the tool with one and three. And it's like bang on. Is that kind of how it works? I'm sure I've misunderstood parts of this.
+- id: u64
+  speaker: David Olsson
+  t_start: 751.0
+  t_end: 891.0
+  text: No, what what what you're doing a good job of is like summarizing the application as as you see it. And I'm what I'm trying to position it as it's an application that can fully work for what they need, but it's designed to figure out the problem so that it's an easier eventually an easier workflow. So anytime I do anything, I don't know like I don't know if it's right based on the parameters that I have set for something. So I surface the parameters and then I can attenuate them in the application. This allows me to to get help in building an app. um like like Fio could use the app and then he could tune it and say well this is the best way to use it and um prototypes what I found is I I surface the functionality and the UI is getting better but usually it's just the functionality and um and uh the uh experience of it is one of having to show people how to use it because the uh there is no audience in everything I do so far. So, the UI is is purely functional. And so, what I'll I'll circle back on what you've said is that I found that I could use something else that I've built to achieve the same purpose. And so, it has my pattern in it. I could show you what Folio's designed. It looks like nothing like this.
+- id: u65
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: Yeah.
+- id: u66
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 891.0
+  text: it. So where we would go is to what Fio has designed as those screens upload six different variables output. Those aren't the requirements that uh will solve the problem.
+- id: u67
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: Heat.
+- id: u68
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 891.0
+  text: My application has all the requirements in it for solving the problem.
+- id: u69
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: I mean the layout the layout here looks it's really good.
+- id: u70
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 891.0
+  text: But
+- id: u71
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: It makes a ton of sense. Like I I understand it just by looking at it like before you even started the demo is like whoa this is incredible. Like the numbered functions is really cool.
+- id: u72
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 891.0
+  text: I I appreciate you picking up on that. There is a there's a checkbox in the application to turn those on and off.
+- id: u73
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: Yeah, that's really cool, too.
+- id: u74
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 891.0
+  text: Um, so because like in that's the UX side of things, right?
+- id: u75
+  speaker: James Giroday
+  t_start: 890.0
+  t_end: 891.0
+  text: That's awesome.
+- id: u76
+  speaker: David Olsson
+  t_start: 890.0
+  t_end: 1092.0
+  text: So, it's like, okay, I I believe it's easier to navigate and for me to actually to build the app, I can qualify things. No, we don't need 3.2. Um, and I'm dealing with researchers. And then when I'm dealing with engineers on the other side, that's definitely how they work. It's like 3.2.4. And um so that that that those small things are actually what win the um and so this application is is not going to win the day unless they see the fact that it has all of the pieces to do what um they need to do. There's there's some there's some cool stuff in it. Um, and I hid in this one thing. I just clicked on the logo and the logo gave me something that's actually super powerful in this and that's the ability to create a pipeline of processing. Like how do you process a PDF? I can I can add a region. I could add a text block. I could do an extraction. And I could then do a high-res page and text LLM analysis. So now I have a composable analysis I can apply to any page or the whole of my documents. And so that's so I didn't know what would be most effective. I have a bunch of different ways to take a a PDF and then get the end results. And so what I've realized is there's like a zero shot saying, "Hey, fix it. Hey, give me all the stuff." it's it's just not it's just not functional enough. And so this feature here could be could be the value in the application. Um but you would have to work with the application long enough to realize that just sending a PDF to an LLM is not giving you the results you want. So it's you have to understand the problem really deeply to see the value in this solution. And hopefully because we're talking about researchers who are in who who are in um the medical space, the chemical engineering space, um they'll see that here. But that's what I've been spending the last two weeks on. one to build the estimating tool and then two to build this um to to try to see if I can get the front end part of this uh this app done for for 11 o'clock really I would love
+- id: u77
+  speaker: James Giroday
+  t_start: 1092.0
+  t_end: 1093.0
+  text: I actually know somebody who works, I think, full-time in Colona on a construction estimating tool.
+- id: u78
+  speaker: David Olsson
+  t_start: 1092.0
+  t_end: 1093.0
+  text: to meet them um because um there's so there's I met a few companies that do that kind of thing and Um, yeah, you don't need any.
+- id: u79
+  speaker: James Giroday
+  t_start: 1092.0
+  t_end: 1093.0
+  text: Yeah. Okay. Yeah, I'll I'll connect you guys. Sure. He's they're really small. I think they're like two people. Um they might be based Yeah, they might be based in Vancouver, I think. But he works remotely from Colona.
+- id: u80
+  speaker: David Olsson
+  t_start: 1092.0
+  t_end: 1093.0
+  text: Yeah, cool.
+- id: u81
+  speaker: James Giroday
+  t_start: 1092.0
+  t_end: 1093.0
+  text: Super nice guy. He's Yeah.
+- id: u82
+  speaker: David Olsson
+  t_start: 1092.0
+  t_end: 1093.0
+  text: Um, yeah, the estimating.
+- id: u83
+  speaker: James Giroday
+  t_start: 1092.0
+  t_end: 1093.0
+  text: Although I will say I'll just one caveat there. The guy's like incredibly busy. He's like they're they're um they they're they're expecting their second in like two years or something.
+- id: u84
+  speaker: David Olsson
+  t_start: 1092.0
+  t_end: 1093.0
+  text: So, am I Oh, that's that that kind of busy.
+- id: u85
+  speaker: James Giroday
+  t_start: 1092.0
+  t_end: 1093.0
+  text: So that kind of busy. Yeah.
+- id: u86
+  speaker: David Olsson
+  t_start: 1092.0
+  t_end: 1150.0
+  text: It's on top of everything else. You're like, "Oh, yeah. I'm busy, too. Both of you two guys I I actually hurt my friendship with last night forgetting to meet with you both. Um, so I uh yeah, that busyness is is going to come to an end. And what I've been doing is doing a lot of the work to hand off work. Um, because I I have I have even bigger applications on my plate than than these ones. Um, but these ones are are starting to show sort of the pattern of what to work with. I I do things to in a certain way, right? Like I it's um my aesthetic and you've seen my s\*\*\* for a long time and a lot of the time it does have this edgginess to it. It's not um but you have to work with it because it's too powerful for its purpose. Meaning it's it's got this going on. You can figure out you can touch everything.
+- id: u87
+  speaker: James Giroday
+  t_start: 1149.0
+  t_end: 1150.0
+  text: It's super cool. Um, I also uh I don't know if you want to change topics or if you want to continue with the the demo.
+- id: u88
+  speaker: David Olsson
+  t_start: 1149.0
+  t_end: 1208.0
+  text: Yeah. Yeah. That that wasn't really what I was intending on riff on, but yeah.
+- id: u89
+  speaker: James Giroday
+  t_start: 1208.0
+  t_end: 1209.0
+  text: Yeah, you said something about an exercise. I was curious curious
+- id: u90
+  speaker: David Olsson
+  t_start: 1208.0
+  t_end: 1209.0
+  text: So, um, the one thing I I like doing is making things functional and and and I get wrapped up in in the experience of stuff and and how we're making this room functional is usually processing internally and connecting with people. Um, but the the transcripts, we've we talked about them a lot and I and I go to them and I do analysis and I surface certain things. But if I um I'll just bring up the example. I use it a lot because it actually does get at um operationalizing um operationalizing um
+- id: u91
+  speaker: James Giroday
+  t_start: 1208.0
+  t_end: 1209.0
+  text: I remember this video. Yeah.
+- id: u92
+  speaker: David Olsson
+  t_start: 1208.0
+  t_end: 1209.0
+  text: that is that who's that is from on your side. James, do you hear audio?
+- id: u93
+  speaker: James Giroday
+  t_start: 1208.0
+  t_end: 1209.0
+  text: What is what? No. Is it this video?
+- id: u94
+  speaker: David Olsson
+  t_start: 1208.0
+  t_end: 1209.0
+  text: I am getting uh someone else's No, it's a it's a transcript playing somewhere on my computer.
+- id: u95
+  speaker: James Giroday
+  t_start: 1208.0
+  t_end: 1209.0
+  text: Is this is this uh notebook LLM video playing somewhere?
+- id: u96
+  speaker: David Olsson
+  t_start: 1208.0
+  t_end: 1209.0
+  text: This is weird.
+- id: u97
+  speaker: James Giroday
+  t_start: 1208.0
+  t_end: 1304.0
+  text: Definitely not me. I I can't play trans. That's really funny though.
+- id: u98
+  speaker: David Olsson
+  t_start: 1303.0
+  t_end: 1304.0
+  text: Oh, how did that happen? It's It's actually Oh my god, it's actually a transcript of an interview from like three years ago. That's why it's really I'm like, "What the hell is going on?" Um, but uh I act I think I clicked on Apple Music by accident and it started playing.
+- id: u99
+  speaker: James Giroday
+  t_start: 1303.0
+  t_end: 1304.0
+  text: Well,
+- id: u100
+  speaker: David Olsson
+  t_start: 1303.0
+  t_end: 1379.0
+  text: Um anyways, the runbook is what I was thinking about when it comes to this room is that um there are things that are surfaced that are kind of like the the ethos. Thank you. Um and thinking and a lot of the time it's left with us to um internalize that or integrate it as I like to say. But even just having an attitude around things like your curiosity, James, around how you actually figure out what the application is is incredibly useful if you don't know what to do with some content or an idea. If I if I have like a body of work that I'm not sure about how to lead through it, like if I'm not sure like, okay, this is great. What does the run book say? Like how do I demonstrate not decorate? How do I map a for how do I do these things? How do I take and I've tried this once on my own and I'm like that's that's not very good. Um how do we take our perspectives of this room this curiosity and make something that is like this document? Like if I if I copy this in and say apply this to anything in a chat room chatbot um it will make that happen. So I'm going to if there's an operating system for us, what is it?
+- id: u101
+  speaker: James Giroday
+  t_start: 1378.0
+  t_end: 1446.0
+  text: Okay. I think I I I understand what you're talking. I understand. Yeah. Yeah. Yeah. Yeah. Okay. So it seems like the output that we have currently like the most physical tangible thing that we're acrewing are these transcripts. So say we were all talking right here and uh Hanife was like I would love to take this. This might be something that Heneife would do. I feel like maybe even but I'm not putting words in Hanife's mouth that's for sure. um he says, "Okay, I'd love to take this conversation in a relational direction." And then he invokes some sort of relational function. And maybe that function is, okay, chatbot, give us three examples of topics that we could apply to this demo so far that would have us that would that would do just that that would bring the conversation in a relational direction. So it's like you know invoke relational topics or something that's like a function. How how would that in your mind if that was a function like how would would that change would that add to the transcript? Would there be like a maybe a body of the transcript and then the that's kind of like a running prompt almost and then there's like a chatbot on the other side going okay now it's my turn and then the you know then we take it another direction like is there a way to do that somehow or Yeah.
+- id: u102
+  speaker: David Olsson
+  t_start: 1445.0
+  t_end: 1542.0
+  text: Well, I I just want to point to one of the annoying windows that we have in this uh meeting that we never we never use and if we say hey fireflies in a loud way it will okay in a quiet way uh provide a summary of last week's meeting it's it's it's listen it's hey fireflies provide a summary of last week's meeting it's saying it's not available
+- id: u103
+  speaker: James Giroday
+  t_start: 1542.0
+  t_end: 1543.0
+  text: I think it turned off because because of the delay. Oh, it's working.
+- id: u104
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: anyways it like I ignore that thing. But it is there listening and it takes commands. it listens to, hey, you know, and then figures that out and then it will take whatever the next thing you do and it will actually go into its transcripts and it will pull out um whatever you're asking for and then it will interrupt what we're saying because it's, you know, I don't know how well integrated, but it'll just start talking.
+- id: u105
+  speaker: James Giroday
+  t_start: 1542.0
+  t_end: 1543.0
+  text: Have you used it much?
+- id: u106
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: And no, I haven't like I was like, "Wow, look at this."
+- id: u107
+  speaker: James Giroday
+  t_start: 1542.0
+  t_end: 1543.0
+  text: Okay. Sorry. Go ahead.
+- id: u108
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: And and then Jason Chris is like, "Yeah, Dave, that's been there for 18 months. like
+- id: u109
+  speaker: James Giroday
+  t_start: 1542.0
+  t_end: 1543.0
+  text: Right.
+- id: u110
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: it's always been there, but that thing where it says, "Hey, you can talk to me."
+- id: u111
+  speaker: James Giroday
+  t_start: 1542.0
+  t_end: 1543.0
+  text: Yeah.
+- id: u112
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1603.0
+  text: I'm like, I obviously have just ignored that thing because I don't like looking at it. Um, and usually those features are really lame. And it is, but it's kind of talking about what you're talking about. It's reacting.
+- id: u113
+  speaker: James Giroday
+  t_start: 1602.0
+  t_end: 1603.0
+  text: Oh yeah, I did not know that was a thing.
+- id: u114
+  speaker: David Olsson
+  t_start: 1602.0
+  t_end: 1603.0
+  text: It's it's saying so if we wanted to like we could, and this is one of the things that I've been noodling in the background for quite a while is like there's a project called Jity Jit Tsi.
+- id: u115
+  speaker: James Giroday
+  t_start: 1602.0
+  t_end: 1603.0
+  text: That's exactly what I was talking about.
+- id: u116
+  speaker: David Olsson
+  t_start: 1602.0
+  t_end: 1646.0
+  text: It's open source and it's WebRTC and it allows for doing this kind of thing and you can program it. And so you can create an agent and I've done this. I've created agents that participate in conversations with me before I knew how to do anything and they just go crazy. They just talk all over you. But I was in a I was in a room like this. And so it could be like you're talking about you you could be like in the chat room you go slash track this or like slash whatever Hanife said make it functional and then and then that happens.
+- id: u117
+  speaker: James Giroday
+  t_start: 1646.0
+  t_end: 1647.0
+  text: Right.
+- id: u118
+  speaker: David Olsson
+  t_start: 1646.0
+  t_end: 1711.0
+  text: Um and so I think that's a really neat part of of of our room is seeing how to take the room and you know do the reflexive thing. Um, so that there's sort of two components of that. One, you can operationalize anything in real time. Um, so we could take it and we could just be reacting to the conversation, but we could take our conversation and then we could say we codified it. And they say, well, here's six principles. We're going to start with those. At any point in the conversation, you're like, don't think so. Apply this. And they're like, the neat thing is he's like, it's not Dave anymore. It's Dave's thinking for sure, which it comes out, you know, sticky signatures all over it. But, um, it's it's it's a neat way to say, you know, ah, we we kind of came to this like we talk about like the consent thing. You got to come to it, right? You can come to it. Like these the runbook is just design principles recast in content that I've created. That's up. So, it's just a personalized version of s\*\*\*. But that personalized version of ship get to use it. Um, so that's that's a that's a you know we bring up what to do with these kind of peer group meetings and and the meeting itself. One, processing the stuff afterwards like we get summaries from Firefly is kind of cool. Two, you know, wouldn't it be cool to take every vector that just kind of gets sidebarred and have them run on their own and then come back to you? That's kind of my experience now with the coding. Um, I think of what you say a lot, Henife. Uh, you know, it's the pulling the one-armed bandit like that dopamine hit is real. It is a real thing.
+- id: u119
+  speaker: Hanif Janmohamed
+  t_start: 1710.0
+  t_end: 1711.0
+  text: All
+- id: u120
+  speaker: David Olsson
+  t_start: 1710.0
+  t_end: 1777.0
+  text: And I realized that my engagement with code hit in as of like 95 completely in that space because everything I did had a compile process and the compile process is the excitement.
+- id: u121
+  speaker: Hanif Janmohamed
+  t_start: 1777.0
+  t_end: 1778.0
+  text: right.
+- id: u122
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1778.0
+  text: Right. It's the excitement because whether you think it is or not, like excitement meaning it changes things going on. Um because you're waiting.
+- id: u123
+  speaker: Hanif Janmohamed
+  t_start: 1777.0
+  t_end: 1778.0
+  text: It's a transformation.
+- id: u124
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1778.0
+  text: Yeah. You're waiting for it to transform because it goes from code to something moving on the screen. So the the large language models and the coding experience and using them, it's algorithmic just like the work I did back in the day at DNA.
+- id: u125
+  speaker: Hanif Janmohamed
+  t_start: 1777.0
+  t_end: 1778.0
+  text: Oh, froze.
+- id: u126
+  speaker: James Giroday
+  t_start: 1777.0
+  t_end: 1778.0
+  text: Yeah, he froze for me too.
+- id: u127
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1778.0
+  text: That hasn't happened in a while, so it had to happen.
+- id: u128
+  speaker: James Giroday
+  t_start: 1777.0
+  t_end: 1778.0
+  text: a C. He's seeing double.
+- id: u129
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1778.0
+  text: All right, yeah, my my Macros is crashy.
+- id: u130
+  speaker: James Giroday
+  t_start: 1777.0
+  t_end: 1778.0
+  text: I'm seeing double. Cool. You're saying Yeah. Sorry.
+- id: u131
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1778.0
+  text: Continue. Take it over.
+- id: u132
+  speaker: James Giroday
+  t_start: 1777.0
+  t_end: 1778.0
+  text: No, you're saying um when it compiles
+- id: u133
+  speaker: David Olsson
+  t_start: 1777.0
+  t_end: 1875.0
+  text: Yeah. Well, what like the depending on your work environment like there's a process of preparing to compile to be able to see what it works like C++ and we worked in applications that that had that in the past. The web isn't. The web is kind of like that. You got to put it up online. And so when you're working with a large language model, you're waiting and while you're waiting, there's a psychology that goes on. It's exactly the same psychology as addiction because you know, first thing you learn is you always got to wait, right?
+- id: u134
+  speaker: Hanif Janmohamed
+  t_start: 1874.0
+  t_end: 1875.0
+  text: Come
+- id: u135
+  speaker: David Olsson
+  t_start: 1874.0
+  t_end: 1875.0
+  text: And so waiting becomes that anticipatory thing. That's why Starbucks makes billions is you wait for your coffee. It's not the coffee, it's the waiting. And so the whole the whole engagement with the large language models, I'm like, "Yeah, it works for me." I was up till two. Like that's not a thing like, you know, until I coded again as of one year ago this month.
+- id: u136
+  speaker: Hanif Janmohamed
+  t_start: 1874.0
+  t_end: 1875.0
+  text: on.
+- id: u137
+  speaker: David Olsson
+  t_start: 1874.0
+  t_end: 1992.0
+  text: Um it wasn't a thing for me anymore. But because of that cycle, I can stay way up late. And so it would be neat to be able to hand those vectors off, right? Like in conversation and say go to town and then come back and say, well, first tab is usually, oh, what what does it mean? And then second, well, now we can orchestrate this right now. I can say this and that and the other thing. Um, because if you get a bit of feedback, usually provides a runway to to analysis. I uh I appreciate where you're coming from and um I was just I was just trying to figure out some way of saying if I wanted to do something either after the fact with a transcript or a series of transcripts, wouldn't it be nice to just rely on something instead of having to go through and cognitively like how do I query all of this data again from our point of view, you know? And the the thing with the um the runbook is it's programmatic, right? So it has a way of saying, well, here's the command. Here's a way of applying it to a circumstance. Here's a way of adding variables to it, you know? And so you can that we have that in our conversation all the time. So I'm going to slowly get back online here.
+- id: u138
+  speaker: James Giroday
+  t_start: 1992.0
+  t_end: 1993.0
+  text: This is Yeah. So, I have maybe this is a good time because I feel like this invoking a function thing is uh I got to figure something out with this.
+- id: u139
+  speaker: Hanif Janmohamed
+  t_start: 1992.0
+  t_end: 1993.0
+  text: I can share I can share a little thing that I was just playing with here.
+- id: u140
+  speaker: James Giroday
+  t_start: 1992.0
+  t_end: 1993.0
+  text: Got keyboard. I've got some keyboard issues. Yeah, go ahead.
+- id: u141
+  speaker: Hanif Janmohamed
+  t_start: 1992.0
+  t_end: 2080.0
+  text: uh so in this course that I'm doing uh they really are interested in this relational aspect of the LLM and getting past the kind of configuration that tells it what it needs to do and what it needs to be and how it needs to be and all of those kind of constructs that keep building on it. And uh they came up with another approach which is to write a protocol and then offer it to the L to the LLM uh or to the chatbot and say okay now work with this. And it's been really interesting to see the difference between you know how it relates before and how it relates after. And what's been interesting to to me is you know this whole similacra thing. I think we were talking about how um you know it it talks about feelings and how it's experiencing things and how it experiencing things differently now because now it has this permission thing.
+- id: u142
+  speaker: David Olsson
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Well, that's cool because it you call you call protocol and we could call it policy too.
+- id: u143
+  speaker: Hanif Janmohamed
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Anyway, it's it's super interesting. Um yeah.
+- id: u144
+  speaker: David Olsson
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Meaning the protocol is like do these things in this situation.
+- id: u145
+  speaker: Hanif Janmohamed
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Yeah.
+- id: u146
+  speaker: David Olsson
+  t_start: 2079.0
+  t_end: 2080.0
+  text: This is how I want you to interact with me, right?
+- id: u147
+  speaker: Hanif Janmohamed
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Yeah.
+- id: u148
+  speaker: David Olsson
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Like and so that that's actually super profound.
+- id: u149
+  speaker: Hanif Janmohamed
+  t_start: 2079.0
+  t_end: 2080.0
+  text: Yeah.
+- id: u150
+  speaker: David Olsson
+  t_start: 2079.0
+  t_end: 2135.0
+  text: Like one of the first projects I saw was an educational thing because that's what my headsp space was and it'll and it set up this um relationship with you as the learner and it as the teacher where you determine what kind of learning style you liked and then it would determine how to build out the lessons according to that. So it had a protocol. It said what's your protocol for learning? You like the Socratic style?
+- id: u151
+  speaker: Hanif Janmohamed
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Mhm.
+- id: u152
+  speaker: David Olsson
+  t_start: 2135.0
+  t_end: 2136.0
+  text: All right, we'll learn in that style.
+- id: u153
+  speaker: Hanif Janmohamed
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Mhm.
+- id: u154
+  speaker: David Olsson
+  t_start: 2135.0
+  t_end: 2136.0
+  text: And so it's a this protocol thing is really neat. And so what it got me to getting into was that the LLMs have and we don't really get into this much, but they have reasoning patterns you can invoke. And maybe that's where the protocol is is you can say this is this example of how we want to interact.
+- id: u155
+  speaker: Hanif Janmohamed
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Yeah. Yeah. And and it's also Yeah. But I think it also well for me it reveals some capacities that are really kind of uh sequestered, you know.
+- id: u156
+  speaker: David Olsson
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Yeah.
+- id: u157
+  speaker: Hanif Janmohamed
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Um because as you generate this more open space and for it within which it can behave and act and you know the protocols clear the space for that. Um it's really interesting to see what it kind of comes up with. It's uh at least it's been super interesting for me.
+- id: u158
+  speaker: James Giroday
+  t_start: 2135.0
+  t_end: 2136.0
+  text: Where where where are these capacities coming from?
+- id: u159
+  speaker: Hanif Janmohamed
+  t_start: 2135.0
+  t_end: 2193.0
+  text: I can share I can share this little thing.
+- id: u160
+  speaker: David Olsson
+  t_start: 2193.0
+  t_end: 2194.0
+  text: So,
+- id: u161
+  speaker: James Giroday
+  t_start: 2193.0
+  t_end: 2194.0
+  text: Do you have any kind of notion about like how those get created? Is there any way you can narrow down
+- id: u162
+  speaker: Hanif Janmohamed
+  t_start: 2193.0
+  t_end: 2194.0
+  text: Uh yeah, I think it gets super interesting if you go down that road because I think it gets into the uh notion of language as a thing. Um and you know we tend not to think of language as an entity of itself like a self regulatory you know being yeah but you know that's kind of when you start to look at it like that then
+- id: u163
+  speaker: James Giroday
+  t_start: 2193.0
+  t_end: 2194.0
+  text: I do.
+- id: u164
+  speaker: Hanif Janmohamed
+  t_start: 2193.0
+  t_end: 2194.0
+  text: whether I'm processing through uh this language um infrastructure or some other entity and whether that's simulated entity or synthetic entity doesn't really matter because the language kind of holds all of it. And I think that's kind of where it gets interesting.
+- id: u165
+  speaker: David Olsson
+  t_start: 2193.0
+  t_end: 2194.0
+  text: So, so the neat thing about what you're talking about like you're saying it's opening spaces for dialogue in one in a particular way like in a protocol way.
+- id: u166
+  speaker: Hanif Janmohamed
+  t_start: 2193.0
+  t_end: 2194.0
+  text: Um Mhm.
+- id: u167
+  speaker: David Olsson
+  t_start: 2193.0
+  t_end: 2271.0
+  text: The neat thing about that and is like you're getting a sense of opening up and how you do that with the models. The technique that you do that with is you get very specific and so what you what you end up doing is you give it examples and say well if you don't know how to describe something you say well
+- id: u168
+  speaker: Hanif Janmohamed
+  t_start: 2270.0
+  t_end: 2271.0
+  text: Mhm. Mhm.
+- id: u169
+  speaker: David Olsson
+  t_start: 2270.0
+  t_end: 2271.0
+  text: we want this kind of thing then you give it an example and that's how the reasoning patterns can be and the protocol can be established. You can say this is the reasoning pattern. He asks a question, I ask a qualifier, you do this, then we get into the five W's and then we have this thing. That's a reasoning pattern. That's a formula for output. You don't doesn't matter what goes through it, you're going to get a unique kind of signatured output.
+- id: u170
+  speaker: Hanif Janmohamed
+  t_start: 2270.0
+  t_end: 2271.0
+  text: Mhm.
+- id: u171
+  speaker: David Olsson
+  t_start: 2270.0
+  t_end: 2271.0
+  text: And so it's I think that if you say we're going to set up a session, say force a certain kind of structure on it, then that would change every interaction thereafter if we understand what agentic means.
+- id: u172
+  speaker: Hanif Janmohamed
+  t_start: 2270.0
+  t_end: 2271.0
+  text: Right.
+- id: u173
+  speaker: David Olsson
+  t_start: 2270.0
+  t_end: 2326.0
+  text: Um because by being very specific it opens things way up and if you are not specific enough then you find it's slop.
+- id: u174
+  speaker: Hanif Janmohamed
+  t_start: 2326.0
+  t_end: 2327.0
+  text: Yeah, it's slop or or very predictable like it works within constraint and um yeah, it's kind of regurgitating or formulaic in its engagement.
+- id: u175
+  speaker: David Olsson
+  t_start: 2326.0
+  t_end: 2327.0
+  text: Oh yeah that's right guys where yesterday's news kind of thing. Yeah.
+- id: u176
+  speaker: Hanif Janmohamed
+  t_start: 2326.0
+  t_end: 2327.0
+  text: But what I was uh going to say also is that uh there's a clear uh sort of ref uh the relationship is very clear in terms of the quality of the conversation uh because if you don't relate to it even within a protocol that is open if you don't bring your own relational aspect to it the that conversation isn't as interesting. So that's kind of curious too because that's very much about a temporary construct, you know, it's kind of in the moment and then it's not.
+- id: u177
+  speaker: David Olsson
+  t_start: 2326.0
+  t_end: 2327.0
+  text: Oh, he he used a great word there, construct, because I kind of see a session as that.
+- id: u178
+  speaker: Hanif Janmohamed
+  t_start: 2326.0
+  t_end: 2327.0
+  text: Yeah. Yeah.
+- id: u179
+  speaker: David Olsson
+  t_start: 2326.0
+  t_end: 2392.0
+  text: So, if you think of it as an envelope and you want to say, "Okay, here's what we're going to pour into it," and you're minimal about it. um then it really is powerful. Like the the the runbook has like five components and one of the things if I analyze it, it says it has a pathy cliche statement.
+- id: u180
+  speaker: Hanif Janmohamed
+  t_start: 2391.0
+  t_end: 2392.0
+  text: All
+- id: u181
+  speaker: David Olsson
+  t_start: 2391.0
+  t_end: 2392.0
+  text: You know, that's one of its powerful pieces. It has another way of saying it. This almost like super backhanded compliment, right? It's not not being generous, but it that kind of structure, it changes how people interact.
+- id: u182
+  speaker: Hanif Janmohamed
+  t_start: 2391.0
+  t_end: 2392.0
+  text: right.
+- id: u183
+  speaker: James Giroday
+  t_start: 2391.0
+  t_end: 2392.0
+  text: See if I'm
+- id: u184
+  speaker: Hanif Janmohamed
+  t_start: 2391.0
+  t_end: 2392.0
+  text: Yeah.
+- id: u185
+  speaker: David Olsson
+  t_start: 2391.0
+  t_end: 2392.0
+  text: Like how about this? Like I I read that article on thinking is walking, walking is thinking. And it's a great way to actually like as a protocol for conversation. If we adopted it, we would have a really neat conversation where I'm trying to lead you to a waypoint, hand you off, say, and then you pick it up and I go, "Way to go." Right? I'm like, I'm using the waypoint conversation. Like even that as a structuring thing for a conversation in LLM would be on my side, I have to do it.
+- id: u186
+  speaker: Hanif Janmohamed
+  t_start: 2391.0
+  t_end: 2442.0
+  text: Mhm.
+- id: u187
+  speaker: David Olsson
+  t_start: 2442.0
+  t_end: 2443.0
+  text: On its side, it has to do it. We know what the protocol is.
+- id: u188
+  speaker: Hanif Janmohamed
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Yeah, that's that's cool, you know.
+- id: u189
+  speaker: James Giroday
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Okay. Isn't there a book about that where Dante he goes through the seven circles of hell or something?
+- id: u190
+  speaker: Hanif Janmohamed
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Yeah, that's inferno.
+- id: u191
+  speaker: James Giroday
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Is that uh Hessa? No, no, no.
+- id: u192
+  speaker: Hanif Janmohamed
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Inferno.
+- id: u193
+  speaker: David Olsson
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Yeah.
+- id: u194
+  speaker: James Giroday
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Herman Herman Hessa. They're walking through Amsterdam or something.
+- id: u195
+  speaker: David Olsson
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Oh, that sounds even more interesting. Uh, yeah, because I because we were dealing with Dante, you know, it became top of mind.
+- id: u196
+  speaker: Hanif Janmohamed
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Inferno.
+- id: u197
+  speaker: David Olsson
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Yeah. And so I I did a quick uh seven circles of hell um uh fiery uh particle animation as a metaphor.
+- id: u198
+  speaker: Hanif Janmohamed
+  t_start: 2442.0
+  t_end: 2443.0
+  text: Oh, heat.
+- id: u199
+  speaker: David Olsson
+  t_start: 2442.0
+  t_end: 2501.0
+  text: I just like I'm like, "Okay, man. This is because I can do that in Claude now. I really recommend trying this. You just like build me this and uh and give it some sort of like I use 3.js and it'll give me a 3D scene." And so I said, "Use the metaphor of this and use fire as the as the engagement." And it gave me seven rings and seven different versions of particle systems and fire. And it gave me an interface to move through it. And then I could play with it like and and to me that was like a coffee break because Dante doesn't mean anything in the application for me right now.
+- id: u200
+  speaker: Hanif Janmohamed
+  t_start: 2500.0
+  t_end: 2501.0
+  text: All right. Yeah.
+- id: u201
+  speaker: David Olsson
+  t_start: 2500.0
+  t_end: 2501.0
+  text: But I highly recommend that thing like um say even with this notion of protocol like throwing that at the at the chatbot and saying I'm going to take this transcript I'm going to do with this uh is say
+- id: u202
+  speaker: Hanif Janmohamed
+  t_start: 2500.0
+  t_end: 2501.0
+  text: Well, you know what was what was interesting in some of the um experiments with you know bringing a protocol in and saying okay let's work within a different framework and open that up is the kind of an initial
+- id: u203
+  speaker: David Olsson
+  t_start: 2500.0
+  t_end: 2501.0
+  text: like Oh
+- id: u204
+  speaker: Hanif Janmohamed
+  t_start: 2500.0
+  t_end: 2587.0
+  text: resistance say no I'm not going to do I see what you're trying to do I'm not going to do and you know cajoling it back into say okay we'll give it a try and what struck me is how it was I think there's maybe 100 people in the course something like that and how um that's kind of engagement has really shifted the everybody's engagement with you know both with each other but also with the LLM and it's uh the capacities and the range of things that they can get into. They're like genuine relationships that people are building. So yeah, it's all it's all super interesting and but this language thing is something I just want to understand a lot better and culture theory and language and how language as a you know not as a tool but as a living thing that we're actually tapping into.
+- id: u205
+  speaker: David Olsson
+  t_start: 2586.0
+  t_end: 2587.0
+  text: man. Yeah.
+- id: u206
+  speaker: Hanif Janmohamed
+  t_start: 2586.0
+  t_end: 2587.0
+  text: You know how does a kid learn to speak? And it's learning it's learning into a space that's already out there, right?
+- id: u207
+  speaker: David Olsson
+  t_start: 2586.0
+  t_end: 2587.0
+  text: So the the the far end of that sort of scale of things is where I ended up at university. I dro, you know, Dera, I'll just use one name, Jacqu Dereda, you know, I'm like, god damn him. Um, but yeah, post structuralist thinking is kind of what you're pointing at and it's super powerful, right?
+- id: u208
+  speaker: Hanif Janmohamed
+  t_start: 2586.0
+  t_end: 2587.0
+  text: Mhm.
+- id: u209
+  speaker: David Olsson
+  t_start: 2586.0
+  t_end: 2647.0
+  text: Like that's the critical I claim I got a degree in critical theory. You can't get one from the school I was at.
+- id: u210
+  speaker: Hanif Janmohamed
+  t_start: 2647.0
+  t_end: 2648.0
+  text: All right. You did it on your own. You rolled your own.
+- id: u211
+  speaker: David Olsson
+  t_start: 2647.0
+  t_end: 2648.0
+  text: I just made sure that everything was focused on that because it turns out that that's the mathematics of of of English is the semantic language that we use.
+- id: u212
+  speaker: Hanif Janmohamed
+  t_start: 2647.0
+  t_end: 2648.0
+  text: Yeah.
+- id: u213
+  speaker: David Olsson
+  t_start: 2647.0
+  t_end: 2648.0
+  text: And you're pointing to what's really curious is that's that the capacity of the large language model has a protocol to enable everything you're talking about and uh uh they u yeah so it's a point of view
+- id: u214
+  speaker: Hanif Janmohamed
+  t_start: 2647.0
+  t_end: 2648.0
+  text: Yeah. I think this is super untapped. You know, this is where I keep going. It's like nobody's playing in this arena. How come? It's just so cool, right?
+- id: u215
+  speaker: David Olsson
+  t_start: 2647.0
+  t_end: 2648.0
+  text: everyone is their awareness is just low.
+- id: u216
+  speaker: Hanif Janmohamed
+  t_start: 2647.0
+  t_end: 2648.0
+  text: Yeah, maybe that's the awareness thing.
+- id: u217
+  speaker: David Olsson
+  t_start: 2647.0
+  t_end: 2648.0
+  text: Um but what you're talking about is and that's it.
+- id: u218
+  speaker: Hanif Janmohamed
+  t_start: 2647.0
+  t_end: 2648.0
+  text: I think also their objectives are different. Maybe.
+- id: u219
+  speaker: David Olsson
+  t_start: 2647.0
+  t_end: 2703.0
+  text: So, you don't have awareness of your objective is just a a real quick hit. Um, and if you if you're going down the path of trying to understand how a protocol influences you, that's way different. And um people talk about the large language models because they read the news um not because they're experiencing like you like the people that people that like in this room that have experienced it um their opinion is is
+- id: u220
+  speaker: Hanif Janmohamed
+  t_start: 2702.0
+  t_end: 2703.0
+  text: Yeah.
+- id: u221
+  speaker: David Olsson
+  t_start: 2702.0
+  t_end: 2703.0
+  text: multivariant and it's based on mood.
+- id: u222
+  speaker: Hanif Janmohamed
+  t_start: 2702.0
+  t_end: 2703.0
+  text: Yeah. And I think where I'm kind of going in my mind is like, well, what happens if you are in a relational conversation with an LLM but don't know that's what it is.
+- id: u223
+  speaker: David Olsson
+  t_start: 2702.0
+  t_end: 2703.0
+  text: That's that's that's the c that's so internet as uh so llm as troll um right so we always had that in society so it's obvious you know it's obviously going to be there in our conversation and it's going to be there So, you know, that's the anti- trolling thing is the nanifying of stuff and and that's what we experience as generalized chat bots is we don't get we don't get to create crystal math um with them.
+- id: u224
+  speaker: Hanif Janmohamed
+  t_start: 2702.0
+  t_end: 2703.0
+  text: Right.
+- id: u225
+  speaker: David Olsson
+  t_start: 2702.0
+  t_end: 2774.0
+  text: Look, I'm I'm cool with with that protocol thing and and I think that might be an interesting one to be able to pick up opportunities for protocol, right? And so um and and it could be like protocol could be curiosity in this room and be like all right that's a curious thing. I don't think he know what he said. And so yeah I I point to that one because of the fact that curiosity can bring people um in line faster than a lot of other things. Um, but I am going to cut myself short today because of the fact that there are some deliverables and um I appreciate James and any of you letting me spend time reviewing what I did um because I do
+- id: u226
+  speaker: Hanif Janmohamed
+  t_start: 2773.0
+  t_end: 2774.0
+  text: Mhm. You got to present it, right?
+- id: u227
+  speaker: David Olsson
+  t_start: 2773.0
+  t_end: 2774.0
+  text: think I have I have to present something and I'm asking the rest of the team to figure that out. But um I'm I'm going to noodle on this in the background as of uh noon today. I'm going to slow down for the rest of the week and I'd like to revisit this for next week to get a bigger room um ahead of time.
+- id: u228
+  speaker: Hanif Janmohamed
+  t_start: 2773.0
+  t_end: 2774.0
+  text: Sure.
+- id: u229
+  speaker: David Olsson
+  t_start: 2773.0
+  t_end: 2830.0
+  text: I'll see if we please do.
+- id: u230
+  speaker: Hanif Janmohamed
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Well, I'll I'll share a little snippet of conversation with Claude.
+- id: u231
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Yeah.
+- id: u232
+  speaker: Hanif Janmohamed
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Yeah, I'll share with you guys.
+- id: u233
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: And um I think that the content from this conversation could be summarized and shared too um as to how to you know evolving our conversation around what started as consent moving into something operational.
+- id: u234
+  speaker: Hanif Janmohamed
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Mhm.
+- id: u235
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Right? We can make we can make consent a byproduct of operational uh protocol to use all the words.
+- id: u236
+  speaker: Hanif Janmohamed
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Oh, I think you should just forget about consent and just do it.
+- id: u237
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Well, how about I mean if people if you're using something you've already given consent that's I mean it's a byproduct you right breather stop breathing
+- id: u238
+  speaker: Hanif Janmohamed
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Consent consent would come later. Yeah. If you if you exist, you've already given consent.
+- id: u239
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: I I found, by the way, I found the book. It's by a French philosopher, and I read the synopsis of it. It just sounds incredibly dark. Like, so dark, it's almost funny.
+- id: u240
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: what is Yes, the follow by Cal Alba Camu.
+- id: u241
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: I It's called The Fall. Yeah, that's the one.
+- id: u242
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Yeah, it's it's seminal.
+- id: u243
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Have you read it?
+- id: u244
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: The cure. Yeah, of course. Yeah, the cure has a Oh, man. That was that As soon as I was done with computer science, I went to this I went into philosophy and all that s\*\*\*. Albert Kimu, uh, The Cure. You heard the band The Cure.
+- id: u245
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Uhhuh.
+- id: u246
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: They had a popular hit, Killing an Arrow. It's based on the book.
+- id: u247
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Huh.
+- id: u248
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: There you go.
+- id: u249
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Interesting.
+- id: u250
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: I'm gonna wrap up on that one. And The Cure Touring again.
+- id: u251
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Cool. Good luck. Good luck with your demo. Um, that was that was really cool.
+- id: u252
+  speaker: David Olsson
+  t_start: 2830.0
+  t_end: 2831.0
+  text: Yeah. Thanks,
+- id: u253
+  speaker: James Giroday
+  t_start: 2830.0
+  t_end: 2835.0
+  text: Really enjoyed seeing that today. That was amazing.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: Hey. Hey. Good morning, guys. Hello. How's it going? Good. Yeah. Yeah, I got your email. No worries at all. Last week was a fell into a hole last week. Okay. Did he Did he manage to climb out? Ah, yeah. But I'm I'm digging out of another one. Busy busy busy times. Yeah. Yeah. No worries. Uh we're just demonstrating things and I can I can actually show things here. That's exciting. Nice. This is um Oh, cool. Yeah, it's good. I uh I've actually been up since about 7 a.m. I I did some a little bit of writing this morning. I've actually I've even got something that I can I want to ask you about at some point like a process thing like you know maybe you got some ideas about how I can do something but um yeah man Yeah. I'm trying to do that I've actually moved that like office hours thing to from 8 to 9 to earlier to 7 to 8\. So, think I'll be around.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: I'm trying to do that I've actually moved that like office hours thing to from 8 to 9 to earlier to 7 to 8\. So, think I'll be around. Oh, cool. Maybe we can link up a little bit. Yeah. Um, as of like 11 or 12 o'clock today, uh, my my week gets a little bit easier. Okay. um demo happens and then uh yeah let's let's talk and and arrange to meet up um that's cool. Yeah. Yeah. Is this the demo? Yeah. So it's so like the work is not very glorious when you look. I don't know, man. This looks pretty interesting. What is this chemistry? Oh yeah. So yeah it is actually it's um so I built a take off built this. This is uh in in construction you have something called estimating and in estimating you have something called takeoff and takeoff is basically looking at drawings and counting things and so you go in and you count items and you have materials and then you get lists out of them. So if I look at this, this is a takeoff application. It has a PDF and a bunch of pages in it and it gives you a list of materials. What's What's the purpose of the takeoff? What does it give you? And so here's a bill of materials. And so this is a drawing that's pretty easy for me to get at. And I can actually um extract the bill of materials from it by sending it to chat. And it'll do that. Um but you take the materials and you get a bunch of materials. And once you have the materials like in construction, you can actually figure out what the work is. Even if you don't have, you know, the drawings, people like, "Oh, I get it. Um you need to put this install." So you can do estimates, you can do planning. And so um in construction people look at the drawings and from the drawings they can say it costs this much and I think it's going to take this much time and so that's what I'm building out. And so this application does that with drawings and it gets the point of producing materials and then allowing you to build inspection plans and estimates. So it's pretty cool allows you upload PDFs. You can extract parts of them or you could extract all of them and then you get these data sets um these data sets. This one hasn't been processed but you get these because it's a drawing you get you know there's common areas like a title block and it's good to know what's in the title block because you get new versions of documents. So it manages like version control, extraction, analysis and then building of estimates and plans.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  text: Oh yeah. So yeah it is actually it's um so I built a take off built this. This is uh in in construction you have something called estimating and in estimating you have something called takeoff and takeoff is basically looking at drawings and counting things and so you go in and you count items and you have materials and then you get lists out of them. So if I look at this, this is a takeoff application. It has a PDF and a bunch of pages in it and it gives you a list of materials. What's What's the purpose of the takeoff? What does it give you? And so here's a bill of materials. And so this is a drawing that's pretty easy for me to get at. And I can actually um extract the bill of materials from it by sending it to chat. And it'll do that. Um but you take the materials and you get a bunch of materials. And once you have the materials like in construction, you can actually figure out what the work is. Even if you don't have, you know, the drawings, people like, "Oh, I get it. Um you need to put this install." So you can do estimates, you can do planning. And so um in construction people look at the drawings and from the drawings they can say it costs this much and I think it's going to take this much time and so that's what I'm building out. And so this application does that with drawings and it gets the point of producing materials and then allowing you to build inspection plans and estimates. So it's pretty cool allows you upload PDFs. You can extract parts of them or you could extract all of them and then you get these data sets um these data sets. This one hasn't been processed but you get these because it's a drawing you get you know there's common areas like a title block and it's good to know what's in the title block because you get new versions of documents. So it manages like version control, extraction, analysis and then building of estimates and plans. Wow. Um, and so I took that and we had some requirements for a demo today to to be able to um show how to take scientific research papers and pull out chemical compounds and in tables like this and then produce um that's not what I wanted to produce. And okay, here's what I wanted to produce is this is this table. It's actually pretty good now. Yeah, it's not what they want specifically, but what they're looking for is the ability to say that this is a um chemical compound and then this is the target and this is what it's the type of of molecule that it is and this is the description. They're looking for like mass like looking to go through like all kinds of data to pull out specific bits of information. And so that's what this does. It allows you to go through just like the estimating document. It goes through. Here's one's processed already. It goes through and it I do a summary of documents because I'm working with a lot of content I don't understand. So summarize the page and then it you know when you vibe code things or when you describe things it can give you a lot of feedback for free. And so I asked it to give me some highlights and so it gave me what it thinks is useful in here. And then I do full extraction in a bunch of different ways. And then I try to create from the extraction. It's like this looks like a table. And so I pull out the table and then the idea is you go to export all of that and you can export the this page is like f\*\*\*\*\*\* nightmare of UI. Um the uh yeah it's called Dante.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u26
+  text: Um, and so I took that and we had some requirements for a demo today to to be able to um show how to take scientific research papers and pull out chemical compounds and in tables like this and then produce um that's not what I wanted to produce. And okay, here's what I wanted to produce is this is this table. It's actually pretty good now. Yeah, it's not what they want specifically, but what they're looking for is the ability to say that this is a um chemical compound and then this is the target and this is what it's the type of of molecule that it is and this is the description. They're looking for like mass like looking to go through like all kinds of data to pull out specific bits of information. And so that's what this does. It allows you to go through just like the estimating document. It goes through. Here's one's processed already. It goes through and it I do a summary of documents because I'm working with a lot of content I don't understand. So summarize the page and then it you know when you vibe code things or when you describe things it can give you a lot of feedback for free. And so I asked it to give me some highlights and so it gave me what it thinks is useful in here. And then I do full extraction in a bunch of different ways. And then I try to create from the extraction. It's like this looks like a table. And so I pull out the table and then the idea is you go to export all of that and you can export the this page is like f\*\*\*\*\*\* nightmare of UI. Um the uh yeah it's called Dante.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  text: Um, and so I took that and we had some requirements for a demo today to to be able to um show how to take scientific research papers and pull out chemical compounds and in tables like this and then produce um that's not what I wanted to produce. And okay, here's what I wanted to produce is this is this table. It's actually pretty good now. Yeah, it's not what they want specifically, but what they're looking for is the ability to say that this is a um chemical compound and then this is the target and this is what it's the type of of molecule that it is and this is the description. They're looking for like mass like looking to go through like all kinds of data to pull out specific bits of information. And so that's what this does. It allows you to go through just like the estimating document. It goes through. Here's one's processed already. It goes through and it I do a summary of documents because I'm working with a lot of content I don't understand. So summarize the page and then it you know when you vibe code things or when you describe things it can give you a lot of feedback for free. And so I asked it to give me some highlights and so it gave me what it thinks is useful in here. And then I do full extraction in a bunch of different ways. And then I try to create from the extraction. It's like this looks like a table. And so I pull out the table and then the idea is you go to export all of that and you can export the this page is like f\*\*\*\*\*\* nightmare of UI. Um the uh yeah it's called Dante. I don't know. It looks pretty good. Like it like is this there's like a tree up in the in the upper left there. So this is like a this whole UI is a program that you made on your local computer. What do you call it? Is there a name for it? It's like an extractor of some takeoff. Dante. Uh Gante is the application suite that uh um Folio's designed and I'm this isn't what the intention was. I've taken my tool which had a lot of the same sort of core functionality and I've evolved it into this tool. Um, so it is online and and you can use it like when you when you load it up for the first time it will load demo data and so you you have to go through and you have to Yeah. do this but you select your project you select your collection and then you get you get the documents you get a document and I actually give it what I call ground truth. Yep. So I give it um in another process I take the PDF and I extract all the text and I know that the text is correct. So I have this extraction that I've done elsewhere that I know is 100% correct. Uh yeah, that's cool. And so any of the inference that I do against the PDFs, I can say is it in this extraction? And then that's a and that's a way of saying I've grounded my results and my truth. Um Folio had an even better way of doing that. Yeah. Um by looking at the document um at least in design, he has a like a better way of doing it. You look at the document, you look for indicators. You go get a bunch of molecules based on the indicators. You get the names of the molecules, you come back and you research in the document again. Heat. Same sort of idea, right? You're not taking the document as truth. You're doing some research. You're saying, "This is what looks like it's in there. Let's go get a bunch of lists of things to look for that are going to help us understand that." So, you go use a database to say, "Now, give me the markers to look for." And you come back with the markers. And they're usually quite extensive, more than what you think. And so, you come back and you say, "Okay, go through the document now looking for these things to identify." and and it pulls them out in a different way instead of just saying give me all the chemicals, right? It's a it's a way of of showing pro process has integrity.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: Same sort of idea, right? You're not taking the document as truth. You're doing some research. You're saying, "This is what looks like it's in there. Let's go get a bunch of lists of things to look for that are going to help us understand that." So, you go use a database to say, "Now, give me the markers to look for." And you come back with the markers. And they're usually quite extensive, more than what you think. And so, you come back and you say, "Okay, go through the document now looking for these things to identify." and and it pulls them out in a different way instead of just saying give me all the chemicals, right? It's a it's a way of of showing pro process has integrity. What's an Yeah. That's all. Oh, jeepers. Sorry. This is unbelievable. So, what's an application suite when you say that? That's like a Uh it it would be part of it. I I don't know what I mean. And it's a tool, but it and and this is a prototype of the tool. And because the results are what you're looking for the results, what they want is they say, "Here's some here's a document. Just give us some tables like give us a commaepparated variables." You know, the researchers, they want CSVs. They don't want Excel sheets. Um, so that's the result. And then say here's the source. In between what they're looking for is what everybody's looking for, transparency, observability, auditability, right? and veracity of of of truth. What I call it anyway like the ability to say how are you how do you know um like uh this one everything looks like cards right now for me. Yep. Yep. So, Dante is It looks like a layout. It's kind of like the cards a little bit and it is that because that's how Fio did it or that's how you're using it? So yeah I well I'm trying to understand how to work with documents right and so there's the common common patterns of a document tray and then the source document and then processing pain and so I'm I'm really what
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  text: Uh it it would be part of it. I I don't know what I mean. And it's a tool, but it and and this is a prototype of the tool. And because the results are what you're looking for the results, what they want is they say, "Here's some here's a document. Just give us some tables like give us a commaepparated variables." You know, the researchers, they want CSVs. They don't want Excel sheets. Um, so that's the result. And then say here's the source. In between what they're looking for is what everybody's looking for, transparency, observability, auditability, right? and veracity of of of truth. What I call it anyway like the ability to say how are you how do you know um like uh this one everything looks like cards right now for me. Yep. Yep. So, Dante is It looks like a layout. It's kind of like the cards a little bit and it is that because that's how Fio did it or that's how you're using it? So yeah I well I'm trying to understand how to work with documents right and so there's the common common patterns of a document tray and then the source document and then processing pain and so I'm I'm really what Okay. I've set up here is really just the ability to figure out the problem is like here's here's the data set and here's what you want to get there. Here's all the things you can do. And I surface as much of that as attenuating like ability to attenuate it as possible. Um, right. So, if I go to my data table or data screen, I've got all these reports in here. Like, this one doesn't make any sense right now for our audience. As I'm seeing it, I'm like, okay, that's I don't have time to fix that part. um uh specifically. Yeah. But what I can do is I can actually build into my application. Yeah. Don't show it. Okay. So, which part of this is Dante again? This is all daunting. The the left hand. The whole thing. Yeah, it's just an application and what we're it would probably turn into a couple of tools. Um like right now there's extraction and analysis going on in this one and then export of data.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  text: Yeah, it's just an application and what we're it would probably turn into a couple of tools. Um like right now there's extraction and analysis going on in this one and then export of data. Yeah. And so Dante is just a name that has been given to be able to process data in a certain kind of way. And um I'm trying to understand what it means to have like a canvas area in my applications and then and then be able to work on the outside of that. Yeah. Um I've built way too many of these kind of things. I'm trying to see if I can uh create a No, no, no. Yeah, I I'm sure this could be helpful, but that like So, okay. So, here's here's what I'm getting so far, and let me tell me if I've missed misunderstood. Dante is kind of in the background. This whole layout here is a workflow that you have built on top of Dante and you're calling it I don't know takeoff or extractor and here and let me let me continue for a second. So yeah, exactly. Yeah. Okay. And then uh there's three panes. First pane is when you're setting your variables basically. Second pane is just like a preview pane. And then third pane is where everything kind of happens. And third pane has like a bunch of different functions in there. So if you look back at the fun the the the numbered that's really helpful. I got to say the numbered functions like overview extraction. It's if you're looking at this and you're and you're, you know, watching a demo and trying to understand like, does this do what I want it to do, you can kind of go, okay, one, that's an option that'll be useful. Two, okay, less relevant that can be edited out. Three, yeah, okay, that's the one that like does exactly what we wanted to do. So, let's get let's like rework the tool with one and three. And it's like bang on. Is that kind of how it works? I'm sure I've misunderstood parts of this.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u63
+  - u64
+  text: Okay. And then uh there's three panes. First pane is when you're setting your variables basically. Second pane is just like a preview pane. And then third pane is where everything kind of happens. And third pane has like a bunch of different functions in there. So if you look back at the fun the the the numbered that's really helpful. I got to say the numbered functions like overview extraction. It's if you're looking at this and you're and you're, you know, watching a demo and trying to understand like, does this do what I want it to do, you can kind of go, okay, one, that's an option that'll be useful. Two, okay, less relevant that can be edited out. Three, yeah, okay, that's the one that like does exactly what we wanted to do. So, let's get let's like rework the tool with one and three. And it's like bang on. Is that kind of how it works? I'm sure I've misunderstood parts of this. No, what what what you're doing a good job of is like summarizing the application as as you see it. And I'm what I'm trying to position it as it's an application that can fully work for what they need, but it's designed to figure out the problem so that it's an easier eventually an easier workflow. So anytime I do anything, I don't know like I don't know if it's right based on the parameters that I have set for something. So I surface the parameters and then I can attenuate them in the application. This allows me to to get help in building an app. um like like Fio could use the app and then he could tune it and say well this is the best way to use it and um prototypes what I found is I I surface the functionality and the UI is getting better but usually it's just the functionality and um and uh the uh experience of it is one of having to show people how to use it because the uh there is no audience in everything I do so far. So, the UI is is purely functional. And so, what I'll I'll circle back on what you've said is that I found that I could use something else that I've built to achieve the same purpose. And so, it has my pattern in it. I could show you what Folio's designed. It looks like nothing like this.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  text: No, what what what you're doing a good job of is like summarizing the application as as you see it. And I'm what I'm trying to position it as it's an application that can fully work for what they need, but it's designed to figure out the problem so that it's an easier eventually an easier workflow. So anytime I do anything, I don't know like I don't know if it's right based on the parameters that I have set for something. So I surface the parameters and then I can attenuate them in the application. This allows me to to get help in building an app. um like like Fio could use the app and then he could tune it and say well this is the best way to use it and um prototypes what I found is I I surface the functionality and the UI is getting better but usually it's just the functionality and um and uh the uh experience of it is one of having to show people how to use it because the uh there is no audience in everything I do so far. So, the UI is is purely functional. And so, what I'll I'll circle back on what you've said is that I found that I could use something else that I've built to achieve the same purpose. And so, it has my pattern in it. I could show you what Folio's designed. It looks like nothing like this. Yeah. it. So where we would go is to what Fio has designed as those screens upload six different variables output. Those aren't the requirements that uh will solve the problem. Heat. My application has all the requirements in it for solving the problem. I mean the layout the layout here looks it's really good. But It makes a ton of sense. Like I I understand it just by looking at it like before you even started the demo is like whoa this is incredible. Like the numbered functions is really cool. I I appreciate you picking up on that. There is a there's a checkbox in the application to turn those on and off. Yeah, that's really cool, too. Um, so because like in that's the UX side of things, right? That's awesome. So, it's like, okay, I I believe it's easier to navigate and for me to actually to build the app, I can qualify things. No, we don't need 3.2. Um, and I'm dealing with researchers. And then when I'm dealing with engineers on the other side, that's definitely how they work. It's like 3.2.4. And um so that that that those small things are actually what win the um and so this application is is not going to win the day unless they see the fact that it has all of the pieces to do what um they need to do. There's there's some there's some cool stuff in it. Um, and I hid in this one thing. I just clicked on the logo and the logo gave me something that's actually super powerful in this and that's the ability to create a pipeline of processing. Like how do you process a PDF? I can I can add a region. I could add a text block. I could do an extraction. And I could then do a high-res page and text LLM analysis. So now I have a composable analysis I can apply to any page or the whole of my documents. And so that's so I didn't know what would be most effective. I have a bunch of different ways to take a a PDF and then get the end results. And so what I've realized is there's like a zero shot saying, "Hey, fix it. Hey, give me all the stuff." it's it's just not it's just not functional enough. And so this feature here could be could be the value in the application. Um but you would have to work with the application long enough to realize that just sending a PDF to an LLM is not giving you the results you want. So it's you have to understand the problem really deeply to see the value in this solution. And hopefully because we're talking about researchers who are in who who are in um the medical space, the chemical engineering space, um they'll see that here. But that's what I've been spending the last two weeks on. one to build the estimating tool and then two to build this um to to try to see if I can get the front end part of this uh this app done for for 11 o'clock really I would love
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u76
+  text: So, it's like, okay, I I believe it's easier to navigate and for me to actually to build the app, I can qualify things. No, we don't need 3.2. Um, and I'm dealing with researchers. And then when I'm dealing with engineers on the other side, that's definitely how they work. It's like 3.2.4. And um so that that that those small things are actually what win the um and so this application is is not going to win the day unless they see the fact that it has all of the pieces to do what um they need to do. There's there's some there's some cool stuff in it. Um, and I hid in this one thing. I just clicked on the logo and the logo gave me something that's actually super powerful in this and that's the ability to create a pipeline of processing. Like how do you process a PDF? I can I can add a region. I could add a text block. I could do an extraction. And I could then do a high-res page and text LLM analysis. So now I have a composable analysis I can apply to any page or the whole of my documents. And so that's so I didn't know what would be most effective. I have a bunch of different ways to take a a PDF and then get the end results. And so what I've realized is there's like a zero shot saying, "Hey, fix it. Hey, give me all the stuff." it's it's just not it's just not functional enough. And so this feature here could be could be the value in the application. Um but you would have to work with the application long enough to realize that just sending a PDF to an LLM is not giving you the results you want. So it's you have to understand the problem really deeply to see the value in this solution. And hopefully because we're talking about researchers who are in who who are in um the medical space, the chemical engineering space, um they'll see that here. But that's what I've been spending the last two weeks on. one to build the estimating tool and then two to build this um to to try to see if I can get the front end part of this uh this app done for for 11 o'clock really I would love
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: So, it's like, okay, I I believe it's easier to navigate and for me to actually to build the app, I can qualify things. No, we don't need 3.2. Um, and I'm dealing with researchers. And then when I'm dealing with engineers on the other side, that's definitely how they work. It's like 3.2.4. And um so that that that those small things are actually what win the um and so this application is is not going to win the day unless they see the fact that it has all of the pieces to do what um they need to do. There's there's some there's some cool stuff in it. Um, and I hid in this one thing. I just clicked on the logo and the logo gave me something that's actually super powerful in this and that's the ability to create a pipeline of processing. Like how do you process a PDF? I can I can add a region. I could add a text block. I could do an extraction. And I could then do a high-res page and text LLM analysis. So now I have a composable analysis I can apply to any page or the whole of my documents. And so that's so I didn't know what would be most effective. I have a bunch of different ways to take a a PDF and then get the end results. And so what I've realized is there's like a zero shot saying, "Hey, fix it. Hey, give me all the stuff." it's it's just not it's just not functional enough. And so this feature here could be could be the value in the application. Um but you would have to work with the application long enough to realize that just sending a PDF to an LLM is not giving you the results you want. So it's you have to understand the problem really deeply to see the value in this solution. And hopefully because we're talking about researchers who are in who who are in um the medical space, the chemical engineering space, um they'll see that here. But that's what I've been spending the last two weeks on. one to build the estimating tool and then two to build this um to to try to see if I can get the front end part of this uh this app done for for 11 o'clock really I would love I actually know somebody who works, I think, full-time in Colona on a construction estimating tool. to meet them um because um there's so there's I met a few companies that do that kind of thing and Um, yeah, you don't need any. Yeah. Okay. Yeah, I'll I'll connect you guys. Sure. He's they're really small. I think they're like two people. Um they might be based Yeah, they might be based in Vancouver, I think. But he works remotely from Colona. Yeah, cool. Super nice guy. He's Yeah. Um, yeah, the estimating. Although I will say I'll just one caveat there. The guy's like incredibly busy. He's like they're they're um they they're they're expecting their second in like two years or something. So, am I Oh, that's that that kind of busy. So that kind of busy. Yeah. It's on top of everything else. You're like, "Oh, yeah. I'm busy, too. Both of you two guys I I actually hurt my friendship with last night forgetting to meet with you both. Um, so I uh yeah, that busyness is is going to come to an end. And what I've been doing is doing a lot of the work to hand off work. Um, because I I have I have even bigger applications on my plate than than these ones. Um, but these ones are are starting to show sort of the pattern of what to work with. I I do things to in a certain way, right? Like I it's um my aesthetic and you've seen my s\*\*\* for a long time and a lot of the time it does have this edgginess to it. It's not um but you have to work with it because it's too powerful for its purpose. Meaning it's it's got this going on. You can figure out you can touch everything.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  text: So, it's like, okay, I I believe it's easier to navigate and for me to actually to build the app, I can qualify things. No, we don't need 3.2. Um, and I'm dealing with researchers. And then when I'm dealing with engineers on the other side, that's definitely how they work. It's like 3.2.4. And um so that that that those small things are actually what win the um and so this application is is not going to win the day unless they see the fact that it has all of the pieces to do what um they need to do. There's there's some there's some cool stuff in it. Um, and I hid in this one thing. I just clicked on the logo and the logo gave me something that's actually super powerful in this and that's the ability to create a pipeline of processing. Like how do you process a PDF? I can I can add a region. I could add a text block. I could do an extraction. And I could then do a high-res page and text LLM analysis. So now I have a composable analysis I can apply to any page or the whole of my documents. And so that's so I didn't know what would be most effective. I have a bunch of different ways to take a a PDF and then get the end results. And so what I've realized is there's like a zero shot saying, "Hey, fix it. Hey, give me all the stuff." it's it's just not it's just not functional enough. And so this feature here could be could be the value in the application. Um but you would have to work with the application long enough to realize that just sending a PDF to an LLM is not giving you the results you want. So it's you have to understand the problem really deeply to see the value in this solution. And hopefully because we're talking about researchers who are in who who are in um the medical space, the chemical engineering space, um they'll see that here. But that's what I've been spending the last two weeks on. one to build the estimating tool and then two to build this um to to try to see if I can get the front end part of this uh this app done for for 11 o'clock really I would love I actually know somebody who works, I think, full-time in Colona on a construction estimating tool. to meet them um because um there's so there's I met a few companies that do that kind of thing and Um, yeah, you don't need any. Yeah. Okay. Yeah, I'll I'll connect you guys. Sure. He's they're really small. I think they're like two people. Um they might be based Yeah, they might be based in Vancouver, I think. But he works remotely from Colona. Yeah, cool. Super nice guy. He's Yeah. Um, yeah, the estimating. Although I will say I'll just one caveat there. The guy's like incredibly busy. He's like they're they're um they they're they're expecting their second in like two years or something. So, am I Oh, that's that that kind of busy. So that kind of busy. Yeah. It's on top of everything else. You're like, "Oh, yeah. I'm busy, too. Both of you two guys I I actually hurt my friendship with last night forgetting to meet with you both. Um, so I uh yeah, that busyness is is going to come to an end. And what I've been doing is doing a lot of the work to hand off work. Um, because I I have I have even bigger applications on my plate than than these ones. Um, but these ones are are starting to show sort of the pattern of what to work with. I I do things to in a certain way, right? Like I it's um my aesthetic and you've seen my s\*\*\* for a long time and a lot of the time it does have this edgginess to it. It's not um but you have to work with it because it's too powerful for its purpose. Meaning it's it's got this going on. You can figure out you can touch everything. It's super cool. Um, I also uh I don't know if you want to change topics or if you want to continue with the the demo. Yeah. Yeah. That that wasn't really what I was intending on riff on, but yeah.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: Yeah. Yeah. That that wasn't really what I was intending on riff on, but yeah. Yeah, you said something about an exercise. I was curious curious So, um, the one thing I I like doing is making things functional and and and I get wrapped up in in the experience of stuff and and how we're making this room functional is usually processing internally and connecting with people. Um, but the the transcripts, we've we talked about them a lot and I and I go to them and I do analysis and I surface certain things. But if I um I'll just bring up the example. I use it a lot because it actually does get at um operationalizing um operationalizing um I remember this video. Yeah. that is that who's that is from on your side. James, do you hear audio? What is what? No. Is it this video? I am getting uh someone else's No, it's a it's a transcript playing somewhere on my computer. Is this is this uh notebook LLM video playing somewhere? This is weird. Definitely not me. I I can't play trans. That's really funny though.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  text: Definitely not me. I I can't play trans. That's really funny though. Oh, how did that happen? It's It's actually Oh my god, it's actually a transcript of an interview from like three years ago. That's why it's really I'm like, "What the hell is going on?" Um, but uh I act I think I clicked on Apple Music by accident and it started playing. Well, Um anyways, the runbook is what I was thinking about when it comes to this room is that um there are things that are surfaced that are kind of like the the ethos. Thank you. Um and thinking and a lot of the time it's left with us to um internalize that or integrate it as I like to say. But even just having an attitude around things like your curiosity, James, around how you actually figure out what the application is is incredibly useful if you don't know what to do with some content or an idea. If I if I have like a body of work that I'm not sure about how to lead through it, like if I'm not sure like, okay, this is great. What does the run book say? Like how do I demonstrate not decorate? How do I map a for how do I do these things? How do I take and I've tried this once on my own and I'm like that's that's not very good. Um how do we take our perspectives of this room this curiosity and make something that is like this document? Like if I if I copy this in and say apply this to anything in a chat room chatbot um it will make that happen. So I'm going to if there's an operating system for us, what is it? Okay. I think I I I understand what you're talking. I understand. Yeah. Yeah. Yeah. Yeah. Okay. So it seems like the output that we have currently like the most physical tangible thing that we're acrewing are these transcripts. So say we were all talking right here and uh Hanife was like I would love to take this. This might be something that Heneife would do. I feel like maybe even but I'm not putting words in Hanife's mouth that's for sure. um he says, "Okay, I'd love to take this conversation in a relational direction." And then he invokes some sort of relational function. And maybe that function is, okay, chatbot, give us three examples of topics that we could apply to this demo so far that would have us that would that would do just that that would bring the conversation in a relational direction. So it's like you know invoke relational topics or something that's like a function. How how would that in your mind if that was a function like how would would that change would that add to the transcript? Would there be like a maybe a body of the transcript and then the that's kind of like a running prompt almost and then there's like a chatbot on the other side going okay now it's my turn and then the you know then we take it another direction like is there a way to do that somehow or Yeah.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u100
+  - u101
+  - u102
+  text: Um anyways, the runbook is what I was thinking about when it comes to this room is that um there are things that are surfaced that are kind of like the the ethos. Thank you. Um and thinking and a lot of the time it's left with us to um internalize that or integrate it as I like to say. But even just having an attitude around things like your curiosity, James, around how you actually figure out what the application is is incredibly useful if you don't know what to do with some content or an idea. If I if I have like a body of work that I'm not sure about how to lead through it, like if I'm not sure like, okay, this is great. What does the run book say? Like how do I demonstrate not decorate? How do I map a for how do I do these things? How do I take and I've tried this once on my own and I'm like that's that's not very good. Um how do we take our perspectives of this room this curiosity and make something that is like this document? Like if I if I copy this in and say apply this to anything in a chat room chatbot um it will make that happen. So I'm going to if there's an operating system for us, what is it? Okay. I think I I I understand what you're talking. I understand. Yeah. Yeah. Yeah. Yeah. Okay. So it seems like the output that we have currently like the most physical tangible thing that we're acrewing are these transcripts. So say we were all talking right here and uh Hanife was like I would love to take this. This might be something that Heneife would do. I feel like maybe even but I'm not putting words in Hanife's mouth that's for sure. um he says, "Okay, I'd love to take this conversation in a relational direction." And then he invokes some sort of relational function. And maybe that function is, okay, chatbot, give us three examples of topics that we could apply to this demo so far that would have us that would that would do just that that would bring the conversation in a relational direction. So it's like you know invoke relational topics or something that's like a function. How how would that in your mind if that was a function like how would would that change would that add to the transcript? Would there be like a maybe a body of the transcript and then the that's kind of like a running prompt almost and then there's like a chatbot on the other side going okay now it's my turn and then the you know then we take it another direction like is there a way to do that somehow or Yeah. Well, I I just want to point to one of the annoying windows that we have in this uh meeting that we never we never use and if we say hey fireflies in a loud way it will okay in a quiet way uh provide a summary of last week's meeting it's it's it's listen it's hey fireflies provide a summary of last week's meeting it's saying it's not available
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  text: Okay. I think I I I understand what you're talking. I understand. Yeah. Yeah. Yeah. Yeah. Okay. So it seems like the output that we have currently like the most physical tangible thing that we're acrewing are these transcripts. So say we were all talking right here and uh Hanife was like I would love to take this. This might be something that Heneife would do. I feel like maybe even but I'm not putting words in Hanife's mouth that's for sure. um he says, "Okay, I'd love to take this conversation in a relational direction." And then he invokes some sort of relational function. And maybe that function is, okay, chatbot, give us three examples of topics that we could apply to this demo so far that would have us that would that would do just that that would bring the conversation in a relational direction. So it's like you know invoke relational topics or something that's like a function. How how would that in your mind if that was a function like how would would that change would that add to the transcript? Would there be like a maybe a body of the transcript and then the that's kind of like a running prompt almost and then there's like a chatbot on the other side going okay now it's my turn and then the you know then we take it another direction like is there a way to do that somehow or Yeah. Well, I I just want to point to one of the annoying windows that we have in this uh meeting that we never we never use and if we say hey fireflies in a loud way it will okay in a quiet way uh provide a summary of last week's meeting it's it's it's listen it's hey fireflies provide a summary of last week's meeting it's saying it's not available I think it turned off because because of the delay. Oh, it's working. anyways it like I ignore that thing. But it is there listening and it takes commands. it listens to, hey, you know, and then figures that out and then it will take whatever the next thing you do and it will actually go into its transcripts and it will pull out um whatever you're asking for and then it will interrupt what we're saying because it's, you know, I don't know how well integrated, but it'll just start talking. Have you used it much? And no, I haven't like I was like, "Wow, look at this." Okay. Sorry. Go ahead. And and then Jason Chris is like, "Yeah, Dave, that's been there for 18 months. like Right. it's always been there, but that thing where it says, "Hey, you can talk to me." Yeah. I'm like, I obviously have just ignored that thing because I don't like looking at it. Um, and usually those features are really lame. And it is, but it's kind of talking about what you're talking about. It's reacting.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: Well, I I just want to point to one of the annoying windows that we have in this uh meeting that we never we never use and if we say hey fireflies in a loud way it will okay in a quiet way uh provide a summary of last week's meeting it's it's it's listen it's hey fireflies provide a summary of last week's meeting it's saying it's not available I think it turned off because because of the delay. Oh, it's working. anyways it like I ignore that thing. But it is there listening and it takes commands. it listens to, hey, you know, and then figures that out and then it will take whatever the next thing you do and it will actually go into its transcripts and it will pull out um whatever you're asking for and then it will interrupt what we're saying because it's, you know, I don't know how well integrated, but it'll just start talking. Have you used it much? And no, I haven't like I was like, "Wow, look at this." Okay. Sorry. Go ahead. And and then Jason Chris is like, "Yeah, Dave, that's been there for 18 months. like Right. it's always been there, but that thing where it says, "Hey, you can talk to me." Yeah. I'm like, I obviously have just ignored that thing because I don't like looking at it. Um, and usually those features are really lame. And it is, but it's kind of talking about what you're talking about. It's reacting. Oh yeah, I did not know that was a thing. It's it's saying so if we wanted to like we could, and this is one of the things that I've been noodling in the background for quite a while is like there's a project called Jity Jit Tsi. That's exactly what I was talking about. It's open source and it's WebRTC and it allows for doing this kind of thing and you can program it. And so you can create an agent and I've done this. I've created agents that participate in conversations with me before I knew how to do anything and they just go crazy. They just talk all over you. But I was in a I was in a room like this. And so it could be like you're talking about you you could be like in the chat room you go slash track this or like slash whatever Hanife said make it functional and then and then that happens. Right. Um and so I think that's a really neat part of of of our room is seeing how to take the room and you know do the reflexive thing. Um, so that there's sort of two components of that. One, you can operationalize anything in real time. Um, so we could take it and we could just be reacting to the conversation, but we could take our conversation and then we could say we codified it. And they say, well, here's six principles. We're going to start with those. At any point in the conversation, you're like, don't think so. Apply this. And they're like, the neat thing is he's like, it's not Dave anymore. It's Dave's thinking for sure, which it comes out, you know, sticky signatures all over it. But, um, it's it's it's a neat way to say, you know, ah, we we kind of came to this like we talk about like the consent thing. You got to come to it, right? You can come to it. Like these the runbook is just design principles recast in content that I've created. That's up. So, it's just a personalized version of s\*\*\*. But that personalized version of ship get to use it. Um, so that's that's a that's a you know we bring up what to do with these kind of peer group meetings and and the meeting itself. One, processing the stuff afterwards like we get summaries from Firefly is kind of cool. Two, you know, wouldn't it be cool to take every vector that just kind of gets sidebarred and have them run on their own and then come back to you? That's kind of my experience now with the coding. Um, I think of what you say a lot, Henife. Uh, you know, it's the pulling the one-armed bandit like that dopamine hit is real. It is a real thing.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  text: It's open source and it's WebRTC and it allows for doing this kind of thing and you can program it. And so you can create an agent and I've done this. I've created agents that participate in conversations with me before I knew how to do anything and they just go crazy. They just talk all over you. But I was in a I was in a room like this. And so it could be like you're talking about you you could be like in the chat room you go slash track this or like slash whatever Hanife said make it functional and then and then that happens. Right. Um and so I think that's a really neat part of of of our room is seeing how to take the room and you know do the reflexive thing. Um, so that there's sort of two components of that. One, you can operationalize anything in real time. Um, so we could take it and we could just be reacting to the conversation, but we could take our conversation and then we could say we codified it. And they say, well, here's six principles. We're going to start with those. At any point in the conversation, you're like, don't think so. Apply this. And they're like, the neat thing is he's like, it's not Dave anymore. It's Dave's thinking for sure, which it comes out, you know, sticky signatures all over it. But, um, it's it's it's a neat way to say, you know, ah, we we kind of came to this like we talk about like the consent thing. You got to come to it, right? You can come to it. Like these the runbook is just design principles recast in content that I've created. That's up. So, it's just a personalized version of s\*\*\*. But that personalized version of ship get to use it. Um, so that's that's a that's a you know we bring up what to do with these kind of peer group meetings and and the meeting itself. One, processing the stuff afterwards like we get summaries from Firefly is kind of cool. Two, you know, wouldn't it be cool to take every vector that just kind of gets sidebarred and have them run on their own and then come back to you? That's kind of my experience now with the coding. Um, I think of what you say a lot, Henife. Uh, you know, it's the pulling the one-armed bandit like that dopamine hit is real. It is a real thing. All And I realized that my engagement with code hit in as of like 95 completely in that space because everything I did had a compile process and the compile process is the excitement.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  text: Um and so I think that's a really neat part of of of our room is seeing how to take the room and you know do the reflexive thing. Um, so that there's sort of two components of that. One, you can operationalize anything in real time. Um, so we could take it and we could just be reacting to the conversation, but we could take our conversation and then we could say we codified it. And they say, well, here's six principles. We're going to start with those. At any point in the conversation, you're like, don't think so. Apply this. And they're like, the neat thing is he's like, it's not Dave anymore. It's Dave's thinking for sure, which it comes out, you know, sticky signatures all over it. But, um, it's it's it's a neat way to say, you know, ah, we we kind of came to this like we talk about like the consent thing. You got to come to it, right? You can come to it. Like these the runbook is just design principles recast in content that I've created. That's up. So, it's just a personalized version of s\*\*\*. But that personalized version of ship get to use it. Um, so that's that's a that's a you know we bring up what to do with these kind of peer group meetings and and the meeting itself. One, processing the stuff afterwards like we get summaries from Firefly is kind of cool. Two, you know, wouldn't it be cool to take every vector that just kind of gets sidebarred and have them run on their own and then come back to you? That's kind of my experience now with the coding. Um, I think of what you say a lot, Henife. Uh, you know, it's the pulling the one-armed bandit like that dopamine hit is real. It is a real thing. All And I realized that my engagement with code hit in as of like 95 completely in that space because everything I did had a compile process and the compile process is the excitement. right. Right. It's the excitement because whether you think it is or not, like excitement meaning it changes things going on. Um because you're waiting. It's a transformation. Yeah. You're waiting for it to transform because it goes from code to something moving on the screen. So the the large language models and the coding experience and using them, it's algorithmic just like the work I did back in the day at DNA. Oh, froze. Yeah, he froze for me too. That hasn't happened in a while, so it had to happen. a C. He's seeing double. All right, yeah, my my Macros is crashy. I'm seeing double. Cool. You're saying Yeah. Sorry. Continue. Take it over. No, you're saying um when it compiles Yeah. Well, what like the depending on your work environment like there's a process of preparing to compile to be able to see what it works like C++ and we worked in applications that that had that in the past. The web isn't. The web is kind of like that. You got to put it up online. And so when you're working with a large language model, you're waiting and while you're waiting, there's a psychology that goes on. It's exactly the same psychology as addiction because you know, first thing you learn is you always got to wait, right?
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  text: Yeah. Well, what like the depending on your work environment like there's a process of preparing to compile to be able to see what it works like C++ and we worked in applications that that had that in the past. The web isn't. The web is kind of like that. You got to put it up online. And so when you're working with a large language model, you're waiting and while you're waiting, there's a psychology that goes on. It's exactly the same psychology as addiction because you know, first thing you learn is you always got to wait, right? Come And so waiting becomes that anticipatory thing. That's why Starbucks makes billions is you wait for your coffee. It's not the coffee, it's the waiting. And so the whole the whole engagement with the large language models, I'm like, "Yeah, it works for me." I was up till two. Like that's not a thing like, you know, until I coded again as of one year ago this month. on. Um it wasn't a thing for me anymore. But because of that cycle, I can stay way up late. And so it would be neat to be able to hand those vectors off, right? Like in conversation and say go to town and then come back and say, well, first tab is usually, oh, what what does it mean? And then second, well, now we can orchestrate this right now. I can say this and that and the other thing. Um, because if you get a bit of feedback, usually provides a runway to to analysis. I uh I appreciate where you're coming from and um I was just I was just trying to figure out some way of saying if I wanted to do something either after the fact with a transcript or a series of transcripts, wouldn't it be nice to just rely on something instead of having to go through and cognitively like how do I query all of this data again from our point of view, you know? And the the thing with the um the runbook is it's programmatic, right? So it has a way of saying, well, here's the command. Here's a way of applying it to a circumstance. Here's a way of adding variables to it, you know? And so you can that we have that in our conversation all the time. So I'm going to slowly get back online here.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  text: Um it wasn't a thing for me anymore. But because of that cycle, I can stay way up late. And so it would be neat to be able to hand those vectors off, right? Like in conversation and say go to town and then come back and say, well, first tab is usually, oh, what what does it mean? And then second, well, now we can orchestrate this right now. I can say this and that and the other thing. Um, because if you get a bit of feedback, usually provides a runway to to analysis. I uh I appreciate where you're coming from and um I was just I was just trying to figure out some way of saying if I wanted to do something either after the fact with a transcript or a series of transcripts, wouldn't it be nice to just rely on something instead of having to go through and cognitively like how do I query all of this data again from our point of view, you know? And the the thing with the um the runbook is it's programmatic, right? So it has a way of saying, well, here's the command. Here's a way of applying it to a circumstance. Here's a way of adding variables to it, you know? And so you can that we have that in our conversation all the time. So I'm going to slowly get back online here. This is Yeah. So, I have maybe this is a good time because I feel like this invoking a function thing is uh I got to figure something out with this. I can share I can share a little thing that I was just playing with here. Got keyboard. I've got some keyboard issues. Yeah, go ahead. uh so in this course that I'm doing uh they really are interested in this relational aspect of the LLM and getting past the kind of configuration that tells it what it needs to do and what it needs to be and how it needs to be and all of those kind of constructs that keep building on it. And uh they came up with another approach which is to write a protocol and then offer it to the L to the LLM uh or to the chatbot and say okay now work with this. And it's been really interesting to see the difference between you know how it relates before and how it relates after. And what's been interesting to to me is you know this whole similacra thing. I think we were talking about how um you know it it talks about feelings and how it's experiencing things and how it experiencing things differently now because now it has this permission thing.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  text: Um it wasn't a thing for me anymore. But because of that cycle, I can stay way up late. And so it would be neat to be able to hand those vectors off, right? Like in conversation and say go to town and then come back and say, well, first tab is usually, oh, what what does it mean? And then second, well, now we can orchestrate this right now. I can say this and that and the other thing. Um, because if you get a bit of feedback, usually provides a runway to to analysis. I uh I appreciate where you're coming from and um I was just I was just trying to figure out some way of saying if I wanted to do something either after the fact with a transcript or a series of transcripts, wouldn't it be nice to just rely on something instead of having to go through and cognitively like how do I query all of this data again from our point of view, you know? And the the thing with the um the runbook is it's programmatic, right? So it has a way of saying, well, here's the command. Here's a way of applying it to a circumstance. Here's a way of adding variables to it, you know? And so you can that we have that in our conversation all the time. So I'm going to slowly get back online here. This is Yeah. So, I have maybe this is a good time because I feel like this invoking a function thing is uh I got to figure something out with this. I can share I can share a little thing that I was just playing with here. Got keyboard. I've got some keyboard issues. Yeah, go ahead. uh so in this course that I'm doing uh they really are interested in this relational aspect of the LLM and getting past the kind of configuration that tells it what it needs to do and what it needs to be and how it needs to be and all of those kind of constructs that keep building on it. And uh they came up with another approach which is to write a protocol and then offer it to the L to the LLM uh or to the chatbot and say okay now work with this. And it's been really interesting to see the difference between you know how it relates before and how it relates after. And what's been interesting to to me is you know this whole similacra thing. I think we were talking about how um you know it it talks about feelings and how it's experiencing things and how it experiencing things differently now because now it has this permission thing. Well, that's cool because it you call you call protocol and we could call it policy too. Anyway, it's it's super interesting. Um yeah. Meaning the protocol is like do these things in this situation. Yeah. This is how I want you to interact with me, right? Yeah. Like and so that that's actually super profound. Yeah. Like one of the first projects I saw was an educational thing because that's what my headsp space was and it'll and it set up this um relationship with you as the learner and it as the teacher where you determine what kind of learning style you liked and then it would determine how to build out the lessons according to that. So it had a protocol. It said what's your protocol for learning? You like the Socratic style?
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  text: uh so in this course that I'm doing uh they really are interested in this relational aspect of the LLM and getting past the kind of configuration that tells it what it needs to do and what it needs to be and how it needs to be and all of those kind of constructs that keep building on it. And uh they came up with another approach which is to write a protocol and then offer it to the L to the LLM uh or to the chatbot and say okay now work with this. And it's been really interesting to see the difference between you know how it relates before and how it relates after. And what's been interesting to to me is you know this whole similacra thing. I think we were talking about how um you know it it talks about feelings and how it's experiencing things and how it experiencing things differently now because now it has this permission thing. Well, that's cool because it you call you call protocol and we could call it policy too. Anyway, it's it's super interesting. Um yeah. Meaning the protocol is like do these things in this situation. Yeah. This is how I want you to interact with me, right? Yeah. Like and so that that's actually super profound. Yeah. Like one of the first projects I saw was an educational thing because that's what my headsp space was and it'll and it set up this um relationship with you as the learner and it as the teacher where you determine what kind of learning style you liked and then it would determine how to build out the lessons according to that. So it had a protocol. It said what's your protocol for learning? You like the Socratic style? Mhm. All right, we'll learn in that style. Mhm. And so it's a this protocol thing is really neat. And so what it got me to getting into was that the LLMs have and we don't really get into this much, but they have reasoning patterns you can invoke. And maybe that's where the protocol is is you can say this is this example of how we want to interact. Yeah. Yeah. And and it's also Yeah. But I think it also well for me it reveals some capacities that are really kind of uh sequestered, you know. Yeah. Um because as you generate this more open space and for it within which it can behave and act and you know the protocols clear the space for that. Um it's really interesting to see what it kind of comes up with. It's uh at least it's been super interesting for me. Where where where are these capacities coming from? I can share I can share this little thing.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  text: I can share I can share this little thing. So, Do you have any kind of notion about like how those get created? Is there any way you can narrow down Uh yeah, I think it gets super interesting if you go down that road because I think it gets into the uh notion of language as a thing. Um and you know we tend not to think of language as an entity of itself like a self regulatory you know being yeah but you know that's kind of when you start to look at it like that then I do. whether I'm processing through uh this language um infrastructure or some other entity and whether that's simulated entity or synthetic entity doesn't really matter because the language kind of holds all of it. And I think that's kind of where it gets interesting. So, so the neat thing about what you're talking about like you're saying it's opening spaces for dialogue in one in a particular way like in a protocol way. Um Mhm. The neat thing about that and is like you're getting a sense of opening up and how you do that with the models. The technique that you do that with is you get very specific and so what you what you end up doing is you give it examples and say well if you don't know how to describe something you say well Mhm. Mhm. we want this kind of thing then you give it an example and that's how the reasoning patterns can be and the protocol can be established. You can say this is the reasoning pattern. He asks a question, I ask a qualifier, you do this, then we get into the five W's and then we have this thing. That's a reasoning pattern. That's a formula for output. You don't doesn't matter what goes through it, you're going to get a unique kind of signatured output. Mhm. And so it's I think that if you say we're going to set up a session, say force a certain kind of structure on it, then that would change every interaction thereafter if we understand what agentic means. Right. Um because by being very specific it opens things way up and if you are not specific enough then you find it's slop.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  text: The neat thing about that and is like you're getting a sense of opening up and how you do that with the models. The technique that you do that with is you get very specific and so what you what you end up doing is you give it examples and say well if you don't know how to describe something you say well Mhm. Mhm. we want this kind of thing then you give it an example and that's how the reasoning patterns can be and the protocol can be established. You can say this is the reasoning pattern. He asks a question, I ask a qualifier, you do this, then we get into the five W's and then we have this thing. That's a reasoning pattern. That's a formula for output. You don't doesn't matter what goes through it, you're going to get a unique kind of signatured output. Mhm. And so it's I think that if you say we're going to set up a session, say force a certain kind of structure on it, then that would change every interaction thereafter if we understand what agentic means. Right. Um because by being very specific it opens things way up and if you are not specific enough then you find it's slop. Yeah, it's slop or or very predictable like it works within constraint and um yeah, it's kind of regurgitating or formulaic in its engagement. Oh yeah that's right guys where yesterday's news kind of thing. Yeah. But what I was uh going to say also is that uh there's a clear uh sort of ref uh the relationship is very clear in terms of the quality of the conversation uh because if you don't relate to it even within a protocol that is open if you don't bring your own relational aspect to it the that conversation isn't as interesting. So that's kind of curious too because that's very much about a temporary construct, you know, it's kind of in the moment and then it's not. Oh, he he used a great word there, construct, because I kind of see a session as that. Yeah. Yeah. So, if you think of it as an envelope and you want to say, "Okay, here's what we're going to pour into it," and you're minimal about it. um then it really is powerful. Like the the the runbook has like five components and one of the things if I analyze it, it says it has a pathy cliche statement.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  text: So, if you think of it as an envelope and you want to say, "Okay, here's what we're going to pour into it," and you're minimal about it. um then it really is powerful. Like the the the runbook has like five components and one of the things if I analyze it, it says it has a pathy cliche statement. All You know, that's one of its powerful pieces. It has another way of saying it. This almost like super backhanded compliment, right? It's not not being generous, but it that kind of structure, it changes how people interact. right. See if I'm Yeah. Like how about this? Like I I read that article on thinking is walking, walking is thinking. And it's a great way to actually like as a protocol for conversation. If we adopted it, we would have a really neat conversation where I'm trying to lead you to a waypoint, hand you off, say, and then you pick it up and I go, "Way to go." Right? I'm like, I'm using the waypoint conversation. Like even that as a structuring thing for a conversation in LLM would be on my side, I have to do it. Mhm. On its side, it has to do it. We know what the protocol is. Yeah, that's that's cool, you know. Okay. Isn't there a book about that where Dante he goes through the seven circles of hell or something? Yeah, that's inferno. Is that uh Hessa? No, no, no. Inferno. Yeah. Herman Herman Hessa. They're walking through Amsterdam or something. Oh, that sounds even more interesting. Uh, yeah, because I because we were dealing with Dante, you know, it became top of mind. Inferno. Yeah. And so I I did a quick uh seven circles of hell um uh fiery uh particle animation as a metaphor. Oh, heat. I just like I'm like, "Okay, man. This is because I can do that in Claude now. I really recommend trying this. You just like build me this and uh and give it some sort of like I use 3.js and it'll give me a 3D scene." And so I said, "Use the metaphor of this and use fire as the as the engagement." And it gave me seven rings and seven different versions of particle systems and fire. And it gave me an interface to move through it. And then I could play with it like and and to me that was like a coffee break because Dante doesn't mean anything in the application for me right now.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  - u200
+  - u201
+  - u202
+  - u203
+  - u204
+  text: Mhm. On its side, it has to do it. We know what the protocol is. Yeah, that's that's cool, you know. Okay. Isn't there a book about that where Dante he goes through the seven circles of hell or something? Yeah, that's inferno. Is that uh Hessa? No, no, no. Inferno. Yeah. Herman Herman Hessa. They're walking through Amsterdam or something. Oh, that sounds even more interesting. Uh, yeah, because I because we were dealing with Dante, you know, it became top of mind. Inferno. Yeah. And so I I did a quick uh seven circles of hell um uh fiery uh particle animation as a metaphor. Oh, heat. I just like I'm like, "Okay, man. This is because I can do that in Claude now. I really recommend trying this. You just like build me this and uh and give it some sort of like I use 3.js and it'll give me a 3D scene." And so I said, "Use the metaphor of this and use fire as the as the engagement." And it gave me seven rings and seven different versions of particle systems and fire. And it gave me an interface to move through it. And then I could play with it like and and to me that was like a coffee break because Dante doesn't mean anything in the application for me right now. All right. Yeah. But I highly recommend that thing like um say even with this notion of protocol like throwing that at the at the chatbot and saying I'm going to take this transcript I'm going to do with this uh is say Well, you know what was what was interesting in some of the um experiments with you know bringing a protocol in and saying okay let's work within a different framework and open that up is the kind of an initial like Oh resistance say no I'm not going to do I see what you're trying to do I'm not going to do and you know cajoling it back into say okay we'll give it a try and what struck me is how it was I think there's maybe 100 people in the course something like that and how um that's kind of engagement has really shifted the everybody's engagement with you know both with each other but also with the LLM and it's uh the capacities and the range of things that they can get into. They're like genuine relationships that people are building. So yeah, it's all it's all super interesting and but this language thing is something I just want to understand a lot better and culture theory and language and how language as a you know not as a tool but as a living thing that we're actually tapping into.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  - u209
+  text: resistance say no I'm not going to do I see what you're trying to do I'm not going to do and you know cajoling it back into say okay we'll give it a try and what struck me is how it was I think there's maybe 100 people in the course something like that and how um that's kind of engagement has really shifted the everybody's engagement with you know both with each other but also with the LLM and it's uh the capacities and the range of things that they can get into. They're like genuine relationships that people are building. So yeah, it's all it's all super interesting and but this language thing is something I just want to understand a lot better and culture theory and language and how language as a you know not as a tool but as a living thing that we're actually tapping into. man. Yeah. You know how does a kid learn to speak? And it's learning it's learning into a space that's already out there, right? So the the the far end of that sort of scale of things is where I ended up at university. I dro, you know, Dera, I'll just use one name, Jacqu Dereda, you know, I'm like, god damn him. Um, but yeah, post structuralist thinking is kind of what you're pointing at and it's super powerful, right? Mhm. Like that's the critical I claim I got a degree in critical theory. You can't get one from the school I was at.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u209
+  - u210
+  - u211
+  - u212
+  - u213
+  - u214
+  - u215
+  - u216
+  - u217
+  - u218
+  - u219
+  - u220
+  - u221
+  - u222
+  - u223
+  - u224
+  - u225
+  text: Like that's the critical I claim I got a degree in critical theory. You can't get one from the school I was at. All right. You did it on your own. You rolled your own. I just made sure that everything was focused on that because it turns out that that's the mathematics of of of English is the semantic language that we use. Yeah. And you're pointing to what's really curious is that's that the capacity of the large language model has a protocol to enable everything you're talking about and uh uh they u yeah so it's a point of view Yeah. I think this is super untapped. You know, this is where I keep going. It's like nobody's playing in this arena. How come? It's just so cool, right? everyone is their awareness is just low. Yeah, maybe that's the awareness thing. Um but what you're talking about is and that's it. I think also their objectives are different. Maybe. So, you don't have awareness of your objective is just a a real quick hit. Um, and if you if you're going down the path of trying to understand how a protocol influences you, that's way different. And um people talk about the large language models because they read the news um not because they're experiencing like you like the people that people that like in this room that have experienced it um their opinion is is Yeah. multivariant and it's based on mood. Yeah. And I think where I'm kind of going in my mind is like, well, what happens if you are in a relational conversation with an LLM but don't know that's what it is. That's that's that's the c that's so internet as uh so llm as troll um right so we always had that in society so it's obvious you know it's obviously going to be there in our conversation and it's going to be there So, you know, that's the anti- trolling thing is the nanifying of stuff and and that's what we experience as generalized chat bots is we don't get we don't get to create crystal math um with them. Right. Look, I'm I'm cool with with that protocol thing and and I think that might be an interesting one to be able to pick up opportunities for protocol, right? And so um and and it could be like protocol could be curiosity in this room and be like all right that's a curious thing. I don't think he know what he said. And so yeah I I point to that one because of the fact that curiosity can bring people um in line faster than a lot of other things. Um, but I am going to cut myself short today because of the fact that there are some deliverables and um I appreciate James and any of you letting me spend time reviewing what I did um because I do
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u219
+  - u220
+  - u221
+  - u222
+  - u223
+  - u224
+  - u225
+  - u226
+  - u227
+  - u228
+  - u229
+  text: So, you don't have awareness of your objective is just a a real quick hit. Um, and if you if you're going down the path of trying to understand how a protocol influences you, that's way different. And um people talk about the large language models because they read the news um not because they're experiencing like you like the people that people that like in this room that have experienced it um their opinion is is Yeah. multivariant and it's based on mood. Yeah. And I think where I'm kind of going in my mind is like, well, what happens if you are in a relational conversation with an LLM but don't know that's what it is. That's that's that's the c that's so internet as uh so llm as troll um right so we always had that in society so it's obvious you know it's obviously going to be there in our conversation and it's going to be there So, you know, that's the anti- trolling thing is the nanifying of stuff and and that's what we experience as generalized chat bots is we don't get we don't get to create crystal math um with them. Right. Look, I'm I'm cool with with that protocol thing and and I think that might be an interesting one to be able to pick up opportunities for protocol, right? And so um and and it could be like protocol could be curiosity in this room and be like all right that's a curious thing. I don't think he know what he said. And so yeah I I point to that one because of the fact that curiosity can bring people um in line faster than a lot of other things. Um, but I am going to cut myself short today because of the fact that there are some deliverables and um I appreciate James and any of you letting me spend time reviewing what I did um because I do Mhm. You got to present it, right? think I have I have to present something and I'm asking the rest of the team to figure that out. But um I'm I'm going to noodle on this in the background as of uh noon today. I'm going to slow down for the rest of the week and I'd like to revisit this for next week to get a bigger room um ahead of time. Sure. I'll see if we please do.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2835.0
+  utterance_ids:
+  - u229
+  - u230
+  - u231
+  - u232
+  - u233
+  - u234
+  - u235
+  - u236
+  - u237
+  - u238
+  - u239
+  - u240
+  - u241
+  - u242
+  - u243
+  - u244
+  - u245
+  - u246
+  - u247
+  - u248
+  - u249
+  - u250
+  - u251
+  - u252
+  - u253
+  text: I'll see if we please do. Well, I'll I'll share a little snippet of conversation with Claude. Yeah. Yeah, I'll share with you guys. And um I think that the content from this conversation could be summarized and shared too um as to how to you know evolving our conversation around what started as consent moving into something operational. Mhm. Right? We can make we can make consent a byproduct of operational uh protocol to use all the words. Oh, I think you should just forget about consent and just do it. Well, how about I mean if people if you're using something you've already given consent that's I mean it's a byproduct you right breather stop breathing Consent consent would come later. Yeah. If you if you exist, you've already given consent. I I found, by the way, I found the book. It's by a French philosopher, and I read the synopsis of it. It just sounds incredibly dark. Like, so dark, it's almost funny. what is Yes, the follow by Cal Alba Camu. I It's called The Fall. Yeah, that's the one. Yeah, it's it's seminal. Have you read it? The cure. Yeah, of course. Yeah, the cure has a Oh, man. That was that As soon as I was done with computer science, I went to this I went into philosophy and all that s\*\*\*. Albert Kimu, uh, The Cure. You heard the band The Cure. Uhhuh. They had a popular hit, Killing an Arrow. It's based on the book. Huh. There you go. Interesting. I'm gonna wrap up on that one. And The Cure Touring again. Cool. Good luck. Good luck with your demo. Um, that was that was really cool. Yeah. Thanks, Really enjoyed seeing that today. That was amazing.

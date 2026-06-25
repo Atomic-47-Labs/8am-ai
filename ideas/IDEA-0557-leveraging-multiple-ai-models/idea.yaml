@@ -1,0 +1,28 @@
+id: IDEA-0557
+slug: leveraging-multiple-ai-models
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-09-24'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Exploration of methods for leveraging multiple AI models in pipelines to improve output quality. Discussion on local LLMs, double prompting, and reinforcement learning from human feedback (RLHF).
+summary: Leveraging Multiple AI Models
+rationale: Exploration of methods for leveraging multiple AI models in pipelines to improve output quality. Discussion on local LLMs, double prompting, and reinforcement learning from human feedback (RLHF).
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:21:30Z'
+grade: 40.9
+grade_breakdown:
+  evidence: 16.3
+  theme: 8.9
+  recency: 0.7
+  concretion: 0.0
+  uniqueness: 15
+  carryover: 0
+rank: 650
+tier: backlog

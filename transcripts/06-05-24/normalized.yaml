@@ -1,0 +1,1052 @@
+meeting:
+  date: '2024-06-05'
+  title: 8am-AI 2024-06-05
+  participants:
+  - Eric Johnson
+  - James Giroday
+  - David Olsson
+  - Hanif Janmohamed
+  duration_s: 4502.724
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Eric Johnson
+  t_start: 336.534
+  t_end: 337.074
+  text: Morning.
+- id: u2
+  speaker: James Giroday
+  t_start: 340.574
+  t_end: 341.314
+  text: Eric.
+- id: u3
+  speaker: Eric Johnson
+  t_start: 342.014
+  t_end: 347.782
+  text: Morning. Where are you James? Are you in Kelowna?
+- id: u4
+  speaker: James Giroday
+  t_start: 347.878
+  t_end: 348.662
+  text: Yes, I am.
+- id: u5
+  speaker: David Olsson
+  t_start: 348.758
+  t_end: 349.258
+  text: Yeah.
+- id: u6
+  speaker: James Giroday
+  t_start: 349.35
+  t_end: 353.154
+  text: Moved here about three years ago. Loving, loving it.
+- id: u7
+  speaker: David Olsson
+  t_start: 354.454
+  t_end: 356.782
+  text: All right, can you hear me? Yep.
+- id: u8
+  speaker: James Giroday
+  t_start: 356.878
+  t_end: 362.194
+  text: Yes. Can you hear my dog a little bit. Pretty faintly.
+- id: u9
+  speaker: David Olsson
+  t_start: 363.774
+  t_end: 378.31
+  text: I guess that's somewhat noise cancelling working for you guys and not me. I went to yoga this morning and doesn't give me a lot of time when I get home, but good for you.
+- id: u10
+  speaker: James Giroday
+  t_start: 378.342
+  t_end: 382.554
+  text: That's awesome. How long of a yoga session is it?
+- id: u11
+  speaker: David Olsson
+  t_start: 385.674
+  t_end: 393.894
+  text: It's an hour. It's at 06:00 a.m. i'm up at four.
+- id: u12
+  speaker: Eric Johnson
+  t_start: 398.034
+  t_end: 400.214
+  text: I got out of bed ten minutes ago. Does that count?
+- id: u13
+  speaker: David Olsson
+  t_start: 400.554
+  t_end: 412.974
+  text: Well, I was going to mention it is a different lifestyle. I don't push it on anybody. I do try to stay up late but that means 09:00 but we'll see what happens here today.
+- id: u14
+  speaker: David Olsson
+  t_start: 418.154
+  t_end: 425.614
+  text: I'm going to hand over stuff today in the session to you guys and it's just right now.
+- id: u15
+  speaker: Eric Johnson
+  t_start: 429.434
+  t_end: 443.114
+  text: Did you the works on the link that you sent the 08:00 a.m. aI school? Yeah, I sent you an email. Go store some weird redirect.
+- id: u16
+  speaker: David Olsson
+  t_start: 443.694
+  t_end: 458.714
+  text: Fuck man, I'm just having no good time of all this stuff. Window, you can see that?
+- id: u17
+  speaker: James Giroday
+  t_start: 460.214
+  t_end: 460.918
+  text: Yep.
+- id: u18
+  speaker: Eric Johnson
+  t_start: 461.046
+  t_end: 461.754
+  text: Yep.
+- id: u19
+  speaker: David Olsson
+  t_start: 467.234
+  t_end: 478.574
+  text: Okay, so what I've got here is a spreadsheet share. I already did that. Populate. Done. Go back to here. Find chat.
+- id: u20
+  speaker: David Olsson
+  t_start: 483.994
+  t_end: 487.534
+  text: Hello Hanif, trying to.
+- id: u21
+  speaker: David Olsson
+  t_start: 492.734
+  t_end: 494.958
+  text: Are you guys getting infinite mirrors windows?
+- id: u22
+  speaker: Eric Johnson
+  t_start: 495.126
+  t_end: 495.874
+  text: Yep.
+- id: u23
+  speaker: David Olsson
+  t_start: 496.734
+  t_end: 517.664
+  text: Awesome. It wasn't supposed to do that. Here's a spreadsheet that you should have permissions in the chat window, in the message window there's a link.
+- id: u24
+  speaker: James Giroday
+  t_start: 519.804
+  t_end: 521.18
+  text: Yep. That worked for me.
+- id: u25
+  speaker: Eric Johnson
+  t_start: 521.292
+  t_end: 522.024
+  text: Yep.
+- id: u26
+  speaker: David Olsson
+  t_start: 525.364
+  t_end: 593.274
+  text: All right, so you're looking at this kind of document here. You can see this, this shows the product development or the agent development of the product describer from a description to its output, which is a product description. Right. And then this is a, what I would call a standardized like a fairly simple agent. And I'm going to recommend that. This is kind of what I would recommend us all kind of get into the habit of using initially is something as simple as whatever it is, a name. So you can call it something and you might want to call it by like widget name or whatever or human like name. The role to create detailed, accurate product descriptions. Right. So that's very simple. The goal to write comprehensive for e commerce page. Well it could be for whatever you want there and you can genericize it so that it's just like the product. But what is interesting is if I take that and I'm gonna start sharing my window. And hopefully the infinite windows thing doesn't happen.
+- id: u27
+  speaker: Eric Johnson
+  t_start: 598.674
+  t_end: 599.934
+  text: That wasn't cool.
+- id: u28
+  speaker: David Olsson
+  t_start: 601.194
+  t_end: 939.074
+  text: The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed
+- id: u29
+  speaker: David Olsson
+  t_start: 945.754
+  t_end: 956.974
+  text: Agent use this as, hey, thanks, just help me.
+- id: u30
+  speaker: David Olsson
+  t_start: 964.354
+  t_end: 1355.124
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct
+- id: u31
+  speaker: David Olsson
+  t_start: 1360.144
+  t_end: 1369.044
+  text: Oh no. Use this template to create a new version of the agent above.
+- id: u32
+  speaker: David Olsson
+  t_start: 1376.884
+  t_end: 1450.894
+  text: Right. So, I'm sorry, I'm not. I should have a handful of these. I'm copy and pasting from somewhere. That's just not the best english grammar in the world, but it's super functional. And, you know, if it didn't work, I'd stop and then I'd go edit it. But sometimes it's just like, okay, whatever. And now you can see it's coming to us in a similar format as. As what is over here? Vulgar task with a couple bullet points or one bullet point or a number of them, and we're caught in midday traffic or mid morning traffic right here. And so things are taking a long time. And so I have now a pretty decent agent here. I can copy and paste this out. I can also do something like provide the agent above in a code block in markdown. I could also ask for it to be a word doc and provide.
+- id: u33
+  speaker: David Olsson
+  t_start: 1472.254
+  t_end: 1565.224
+  text: So there's a desktop application for chat GPT, except not for intel based machines. And I've lent out my m one anyways, so that command right there is really handy for me. I'm using Markdown a lot because it's very easy for it to transfer between different sessions. And so it took this script and then it made it into a really tight text only format. It's still cranking away. And then I just copy and paste that other, and then I have that use. Now, the next level of using this would be to create a GPT, and that is as simple as going into GPTs, hitting explore GPTs, create, and then taking my system prompt, putting it in instructions, following it, product does stuff.
+- id: u34
+  speaker: David Olsson
+  t_start: 1573.404
+  t_end: 1578.264
+  text: I kind of need this in a downloaded file.
+- id: u35
+  speaker: David Olsson
+  t_start: 1586.804
+  t_end: 1591.304
+  text: So you're seeing me, you're seeing me fly between windows or taps.
+- id: u36
+  speaker: Eric Johnson
+  t_start: 1601.684
+  t_end: 1609.984
+  text: Right now it's. Yes. Now it's just us. Nope. Frozen.
+- id: u37
+  speaker: David Olsson
+  t_start: 1619.664
+  t_end: 1621.124
+  text: Frozen. Perfect.
+- id: u38
+  speaker: Eric Johnson
+  t_start: 1623.624
+  t_end: 1625.524
+  text: All right, you're back.
+- id: u39
+  speaker: David Olsson
+  t_start: 1625.904
+  t_end: 1706.924
+  text: Okay, so I'm just putting this in a document so I can download it. I'm even leaving the system prompt in there because it doesn't. So I'm just doing this so I can download it and then upload it. The ability to make a GPT is pretty handy. And then you can share it or you can edit it or do whatever you want. Since we're kind of machine is, I turn the code interpreter on because I do a lot of stuff that I wanted to analyze and go in and out of that kind of thing. A lot of the time, I don't know what to do to start my simulation. So I've got a document. Really the best demonstration ever. This is an agent. And then I have the system prompt from that agent. You're a product designer, and I'm going to say use the agent.
+- id: u40
+  speaker: David Olsson
+  t_start: 1713.464
+  t_end: 1719.764
+  text: Create. My describer is even not well done.
+- id: u41
+  speaker: David Olsson
+  t_start: 1725.744
+  t_end: 1743.834
+  text: I will look for another product create. Okay, anyone with links?
+- id: u42
+  speaker: David Olsson
+  t_start: 1753.084
+  t_end: 1754.864
+  text: I had McDonald's for breakfast, guys.
+- id: u43
+  speaker: David Olsson
+  t_start: 1760.404
+  t_end: 1769.344
+  text: Oh, it's just painfully slow on my machine. Probably contributing to it and on the Internet as well. I'm just gonna have to stop.
+- id: u44
+  speaker: David Olsson
+  t_start: 1775.344
+  t_end: 1854.114
+  text: Okay, so that is a GPT. That is an agent that's deployed now anybody can use it. What it does is like, I don't know, begin. Let's start by creating a comprehensive product content review. I'll analyze the product structure provider in the document and use it. Let's product review. It's creating something. So it's just running around just going through building something based on not a product it has. So if I say use this product like this is not me making a very good GPT for anybody, but if I just show that you can redirect anything. So if I would have spent just a couple of minutes and changing the task so that it would start by asking me to give a product description instead of faking one out, then this becomes useful in that you can ask it a specific question. It seems I cannot directly, actually. Yeah, this is the other thing that Chatsubt sometimes says it can't do. Use this web page right now it's searching access page.
+- id: u45
+  speaker: David Olsson
+  t_start: 1868.494
+  t_end: 1910.654
+  text: I gave it a whole bunch of garbage anyways. Normally it would be able to just take an URL or you can upload a document or you could give it something and it will give you that product description. It's taking what I have provided. There's some information there that's not totally garbage. And it is now building out intended uses, specifications, key features. Oh, aha. Hanif.
+- id: u46
+  speaker: Hanif Janmohamed
+  t_start: 1916.434
+  t_end: 1917.574
+  text: Familiar.
+- id: u47
+  speaker: David Olsson
+  t_start: 1918.394
+  t_end: 1973.574
+  text: So I just uploaded one of Hanif's documents to say use this as the product and see if it will give me a product description of his project called Stonemaster. Yep. Product Overview Stone Maps is an innovative project designed to foster deep, intentional networks through physical active givings or river stones embedded with NFC chips. These stones went past from one person to another. Create a digital network that promotes collaboration, dialogue and collective wisdom. A unique aspect slow media approach rich network dynamics common base comments based model conclusion that's not bad, right? Like, it tried to make it an e commerce product, but it did pull out a lot of relevant information. Now, Hanif would be the person to recognize whether or not it just did like a super superficial job of it, or if it got out anything meaningful.
+- id: u48
+  speaker: Hanif Janmohamed
+  t_start: 1974.354
+  t_end: 1976.85
+  text: It seems to be lifting some key points.
+- id: u49
+  speaker: David Olsson
+  t_start: 1977.042
+  t_end: 1996.394
+  text: Yeah. And that's what it is trying to identify now, whether they're how you would like it, thematically linked or anything like that. We could apply what I call a low level policy, which is like at the lowest level, like make it more like this. And you could say rephrase it to capture more of the conceptual thinking.
+- id: u50
+  speaker: James Giroday
+  t_start: 1997.374
+  t_end: 1998.114
+  text: Right.
+- id: u51
+  speaker: David Olsson
+  t_start: 1999.174
+  t_end: 2000.434
+  text: Or something like that.
+- id: u52
+  speaker: Hanif Janmohamed
+  t_start: 2003.534
+  t_end: 2006.434
+  text: So direct it towards more academic.
+- id: u53
+  speaker: David Olsson
+  t_start: 2006.904
+  t_end: 2017.844
+  text: Yeah. And so that's when I, when I refer to low level policies. It's like something you can do. It's at the lowest level. It is. And sort of tidying it up. Right. It's like, okay, now let's look at how you say things.
+- id: u54
+  speaker: David Olsson
+  t_start: 2027.304
+  t_end: 2378.224
+  text: Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just
+- id: u55
+  speaker: David Olsson
+  t_start: 2390.284
+  t_end: 2394.184
+  text: I had to reorganize everything that I've got. It's just completely garbage.
+- id: u56
+  speaker: James Giroday
+  t_start: 2394.564
+  t_end: 2395.762
+  text: Can I ask a question?
+- id: u57
+  speaker: David Olsson
+  t_start: 2395.908
+  t_end: 2397.394
+  text: Yeah, yeah, please do.
+- id: u58
+  speaker: James Giroday
+  t_start: 2398.334
+  t_end: 2412.714
+  text: Excuse me. Are you ever able to like, permission chat, GPT to access something online? Like say you uploaded this somewhere onto like GitHub, or like upload it all the time?
+- id: u59
+  speaker: David Olsson
+  t_start: 2413.414
+  t_end: 2528.564
+  text: It does have the option to open up Microsoft OneDrive and Google Drive and then point to these documents, but I couldn't get it to work every time. It told me the permissions were wrong. And I tried it five or six times yesterday, and I'm like, I didn't try it ahead of time this morning, but you can point it to a web page and it will read the webpage. It's just not like why it's not doing it right now is something in how I've structured it. But normally when I point to my fidget spinner, it reads the documentation from that webpage, and you can do that, it should be the case that you can point to a document anywhere online and it would provide you access to it. There are some permissions around certain kinds of documents that will not enable you to do that. But if you put anything on Google Drive, you should be able to point to it there. And anything on Microsoft OneDrive, you should be able to point to it there. Because I want to work in this document live. I don't want to download it like I did. I was just doing that because I know it will work. Actually in chat DPT, you have no other way of doing it but in the chat session. If I go here, connect apps, OneDrive, add from Google Drive or upload, right? And so it's hooked up. I've added, gave it the permissions, and right now it'll probably freaking work if I do it. But it wasn't working before. But the idea is, anything external to the session that we have going on in this window, we want to be able to connect what we're doing to those sources or resources or whatever it is. And we can call that tooling or function calls, like calling something external, like an API. I'm getting sales agent calls all the time, or emails all the time. I finally have a decent response for them. The decent response is, do you have an API?
+- id: u60
+  speaker: David Olsson
+  t_start: 2534.094
+  t_end: 2562.164
+  text: No. There, I'll explain the humor. Everybody's reporting to be humans emailing me saying, I have this service. I can give you, I can give you 20 leads or 100 leads. And so I'm asking these humans, these entities that are reporting to be humans, if they have an API, knowing that they're all bots, but they just can't answer me honestly. Okay, I don't come up with many jokes.
+- id: u61
+  speaker: James Giroday
+  t_start: 2562.664
+  t_end: 2563.804
+  text: It's pretty good.
+- id: u62
+  speaker: David Olsson
+  t_start: 2565.064
+  t_end: 2910.686
+  text: I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I'll leave it at that. So that's kind of what I want to share. I held and I'll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I'm driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I'm not driving things. But the spreadsheet that I've given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I'm learning it. But if I'm trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that's brief and easy to understand. That's the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I'm doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they're just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that's associated with SEO, and then it'll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it's in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it's like word processing before we had computers. It's just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I'm learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It's just whackadoodle and functional. So it's, it's a, it's a neat experience to, to go through it and say, okay, well, you know, it's hard to work with that. Like, I can't, you know, I start editing thi
+- id: u63
+  speaker: James Giroday
+  t_start: 2910.87
+  t_end: 2912.754
+  text: What kind of problems have you given in?
+- id: u64
+  speaker: David Olsson
+  t_start: 2913.614
+  t_end: 3109.434
+  text: I'm focused primarily when I'm trying to do demonstrations to see if things work, I'm primarily focusing on the collaboration I'm doing with Jason Kriske, where taking a product description and then being able to create the whole of a marketing workflow and all the assets associated with how you do direct to consumer marketing, landing page, email, social, the whole side of things, and ensuring that brand and tone go through the whole thing. And so right now it does work. I start with one description. Those ten agents take that one description, create a product description, goes through, creates market research, consumer research, avatars, unique value propositions, listicles, advertorial landing page, and then it will analyze itself as well. It breaks, it's so big, it's a 17 page report. It breaks the contacts window, so it's so verbose. And I was able to do it. So I was able to with just the spreadsheet, I cycled through it like it's a loop in programming. I said, use all of the, create all of the agents in this list and then solve this problem. And that was one way. And the other time, the other way is I made it go in a specific order and it did the same thing. It went through and solved the problem completely differently. The same output at the end, but not as rich. So eventually you could take spreadsheet of, say, 20 or 30 agents that we work together, I provide and say, okay, this is a pretty good creative unit. And then you say, here's a document, figure out which agents are useful for analyzing it, coming up with summaries, and then providing it for a team that's going to go into a meeting to repurpose it for blah, blah, blah. And then it will determine which agents to do to use. And the reason I say that is because when I did do that, it actually got agents to collaborate. And then Jason Kriske and I are talking about that and we're saying, yeah, but that's not really what's going on. It's telling me all this stuff is going on. And then we're saying, well, that's not really what's going on. The output looks like that's what's going on, and it's hard to know. So right now I'm trying to figure out if that's what's going on. And by that I mean it could tell a whole story around the agents coming together, collaborating and writing a certain kind of copy, and another one's over here doing a web page, and then the other ones over here doing that, because it makes sense in terms of how it would understand an agency to work, and that that's the storytelling around how it could build that. Then underneath it, it might just be doing one complete action to do everything on its own in some way that's not associated with what we're doing. And that would be like a massive hallucination, is that I'm asserting that by setting up all of this information and structure upfront and running through what looks like to be a programmatic way of doing things, that it is indeed using all the agents that I provided it in the way that I'm suggesting it did.
+- id: u65
+  speaker: James Giroday
+  t_start: 3111.254
+  t_end: 3135.074
+  text: Yeah, it's a bit like a, I don't know, a spy novel or something. Like if you had an agency where, I don't know, one of the entities, like one of the agents wasn't going to be consulted on a certain thing, like kind of the smoke them out, sort of like when you give false information to another party to try to see if it actually filters through, like if there's a connection there.
+- id: u66
+  speaker: David Olsson
+  t_start: 3135.234
+  t_end: 3147.554
+  text: Yeah. And so that's a great strategy. So that's an adversarial strategy. Right. And so you could do that within structure, within a team, within a set of agents. But guess what, James, you're still simulating, right?
+- id: u67
+  speaker: James Giroday
+  t_start: 3151.094
+  t_end: 3152.318
+  text: It's all simulation.
+- id: u68
+  speaker: David Olsson
+  t_start: 3152.486
+  t_end: 3177.914
+  text: Right. And so how do you validate the simulation? That's the whole thing that you can rely. You can always rely on that. I will say the simulation is real because of how it impacts us. And the results are, you know, qualitatively better than what I could just run by simply doing simple questions. But is it actually setting up an agent and then communicating to another agent? Or is it just saying a bunch of stuff and then doing a bunch of stuff?
+- id: u69
+  speaker: David Olsson
+  t_start: 3185.414
+  t_end: 3300.434
+  text: It's a significant question. And right now, both Kay and myself are like, it looks better, but what's doing it? Everything that I'm doing is what other people are doing. I'm doing the most modern research. I'm looking at it, but I can also say, I don't know. I can trace it all. And I can see that an agent's created. I can see that there's output after the agents created, and it suggests that the agent creates it. But I will be confident in what I say is that it's not really an agent. I'm calling it an agent. So it thinks it's an agent, and I'm calling it a product describer. So it. So I think it's that it does some stuff that looks like a product describer, and it looks very close to what I want it to be. Now, whether it's product describer that I've described and all the work I've done, or its notion of what a product describer is and things it needs to do, that is where I have the question and where it comes up is I have all those strategies for self reflection. Then I say perform self reflection instead of apply all these strategies, and it does something. So now is time to experiment, because I have the framework, I have the way of going about it and doing it, and we can then see different kinds of outputs based on how we set these things up. Getting it to self assess and getting it to validate is tough. I can do that. It's tough in that it doesn't prove anything. It's the liars paradox. Is that the liars paradox? How do you know liar's lying.
+- id: u70
+  speaker: James Giroday
+  t_start: 3301.854
+  t_end: 3312.886
+  text: I have a question. Maybe you know the answer to this. So if you give it the exact same agency and the exact same problem twice, and is it going to come up with the same answer?
+- id: u71
+  speaker: David Olsson
+  t_start: 3313.07
+  t_end: 3344.506
+  text: No, it will come up with very similar answers. And if you force low level policy, it will be similar looking. And if you force what I have, the abstraction level, then it will be very similar as well. It could go about a whole different experience. Like I say, function like an application, a bbs like thing. Sometimes it does a beautiful job of that. Sometimes it does a scant job of like, okay, I type, proceed, and things go on. And that's great. That's not what it's showing me here, but internal to it. I can do that kind of stuff.
+- id: u72
+  speaker: James Giroday
+  t_start: 3344.61
+  t_end: 3347.434
+  text: Do you know why it does that? Why there's the randomness or.
+- id: u73
+  speaker: David Olsson
+  t_start: 3347.514
+  t_end: 3419.614
+  text: I don't know if you want to. That is the whole thing with these large language models in the general purpose transformer, the GPT, that whole structure is, there's the question as to what that is, what's going on? And the people that have employed these things and deployed them at such scale, they still don't know. And for a while there, we couldn't even get to the point where there was a citation. It would have all this inference, meaning it would summarize things or come up with things. It's like, where did you get this information? How can we trust you if we don't know where the source came from? So we can get that now. And that's where I'm looking for. Like, I need a through line from the beginning. Like, if I say bold, he's gotta be, the product's gotta be bold. I want to see bold somewhere, all the way through. If I take away bold, I want to see that it's not bold anymore. And that's something that I'm like, I'm not certain yet. And so the non, the LLMs are what's called non deterministic. You, you ask a question, it will answer the question. We can say differently both times. It will provide a different response with the same, hopefully intended answer, but differently worded.
+- id: u74
+  speaker: James Giroday
+  t_start: 3420.634
+  t_end: 3425.25
+  text: And is that because it's getting better in between the first and second time you've asked it?
+- id: u75
+  speaker: David Olsson
+  t_start: 3425.322
+  t_end: 3486.004
+  text: No, it's, it's the nature in which. So the whole of the GPT, the whole of the transformer, it's called what's called, it's what is called a probabilistic model, right? It is just like, it's got one character, it has a billion neurons firing at the same time trying to figure out what the next character should be. And it does that in chunks. So sort of like, you can say maybe words. They're not even words. They're like a number of characters, but it will have a certain number of characters. And it was going to say, well, based on the past stuff, this chunk looks like it should be part of one of 17,000 different chunks. So it assesses 17,000 different chunks with that chunk, and then it goes to the. And then it says, okay, what's the next thing that makes sense based on the last ones? And so if you talk to people that are the mathematicians behind the scenes, like, there's not, that's not a sign of intelligence. That is like a mimicry. And we're looking at it and we can see certain indicators. And by seeing these indicators, we're saying, well, it's doing things that are intelligent. And we're like, yeah, well, you're measuring it inappropriately.
+- id: u76
+  speaker: Eric Johnson
+  t_start: 3487.824
+  t_end: 3500.462
+  text: So basically your first attempt affected the second attempt. Right. Just by that. My new little. Right.
+- id: u77
+  speaker: David Olsson
+  t_start: 3500.638
+  t_end: 3508.87
+  text: Well, so, no, no, it doesn't. So that's what James was saying. Your first attempt affects your second attempt. It's not learning that quickly.
+- id: u78
+  speaker: Eric Johnson
+  t_start: 3509.062
+  t_end: 3509.966
+  text: Okay.
+- id: u79
+  speaker: David Olsson
+  t_start: 3510.15
+  t_end: 3626.04
+  text: It's. The horsepower to learn is immense. The experience. So you're learning from a canned kind of thing. You have a session going in. The session learns, right? The session percolates information, turning it into intelligence for you in a very, like, in a context mandala. But what you feed back into the chat isn't going back in there. Like you say, it's going to be slightly to the left or right or plus one or plus two. It's a separate query, even the same query. Sorry. And then it's analyzing it differently. Different neurons of fire, different. Different associations we made slightly different. And then a sort of same answer will be, you can just, you can try it. It doesn't work so well with a really simple question. But if you have a nuanced question and you're looking for it to do qualitative work, particularly if you want to ask a qualitative question, it'll give you a bunch of different types of answers. For me, that's. It's a really prohibitive thing. And until I found this level of abstraction, I was always getting different kinds of results. And I still get that when I run simulations. And that's why I want to get outside the environment. Just use it to, like, poke in and out, say, do some work. Give me a result. Now we'll do outside. Give me some here's some, here's more data. Do the same kind of work. Bring it outside, analyze the two. When you're analyzing things outside the LLM, you could say that you're not fallible to the same logic or unknowing logic behind the scenes, because outside an LLM we have applications that are very strictly logical in algorithms that work that way. We have, hey, we have no, we're not doing that. The rescue parts of the puppy are coming out. Okay. It's all the puppy stuff.
+- id: u80
+  speaker: Eric Johnson
+  t_start: 3626.192
+  t_end: 3628.484
+  text: How do you know, how do you know there's not a bear in your yard?
+- id: u81
+  speaker: David Olsson
+  t_start: 3628.904
+  t_end: 3645.12
+  text: Well, there's always deer, but that can't be thing, you can't just, it can't be okay to be all over the deer because it's all the time anyways. James, the non deterministic nature of this stuff is just wild. It is crazy.
+- id: u82
+  speaker: James Giroday
+  t_start: 3645.232
+  t_end: 3650.084
+  text: And so, so does column g help you limit how non deterministic it is?
+- id: u83
+  speaker: David Olsson
+  t_start: 3650.184
+  t_end: 3719.134
+  text: Yeah, it does. It actually sets up an abstraction. I have this long prompt, like agent prompt. It's got all these words and prepositions, like it's got all kinds of structuring of data, and a lot of, it's not really important. What I've found in this step of abstraction and compression is that it determines what are valuable words and creates really valuable structures between them in an economical way. And so important, and importance is what I focus on. Like what is important. Now when I'm looking at this workflow and I get this output of like a final description after four agents touch it, I'm like, so that was a week of work. Now it's not really four minutes, but what was important in that whole process, like did four agents need to do it? Were two words significantly more powerful than the rest of them? Because I believe that's the case. I believe that, you know, I want to be able to say, here's the brand. Make sure the brand shines through all of the rest of the generated content.
+- id: u84
+  speaker: James Giroday
+  t_start: 3720.394
+  t_end: 3737.724
+  text: So what are these other, so we've, we've gone through column D. Seems like a really tight description of an agent. Column G has some things repeated, like parameters, precondition effects. What are those? And what's question mark p?
+- id: u85
+  speaker: David Olsson
+  t_start: 3738.144
+  t_end: 4082.994
+  text: Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m
+- id: u86
+  speaker: Hanif Janmohamed
+  t_start: 4083.154
+  t_end: 4085.674
+  text: Yeah, there's a convention in there.
+- id: u87
+  speaker: David Olsson
+  t_start: 4085.834
+  t_end: 4190.174
+  text: Yeah. And so the more we understand about the convention, the more we can push it outside the convention or we can use it, you know, and I just didn't get in there. I find an hour, like, I find an hour to be tough unless I've had some enthusiasm myself prior to. And that's, that's what I recognized yesterday, is that there's a lot in there, and it's really about finding some excitement. And I just wasn't excited for myself, so, and it happened again yesterday in another conversation. So I was like, oh, you know, well, there's just a wake sleep cycle on a lot of things. I've been reading about it, and I don't, I push, I push for a lot of energy every day, and some days it doesn't work. So this was an attempt to enable you guys to take, like, James, your descriptions of your agents are enough to work with this document now. Yeah, you can, you can take your one liners about and there's, I found some information out there for you on SQL is a good place to go and play. It simulates it right inside the environment. You can run Python galore, so you can, you can play a lot once you get an angle in. So being able to say, I want an agent that kind of does this kind of thing, you know, this is the best place to do it. You go and, you go and do that with your peers and like, yeah, I'm trying to understand it. It looks a little bit like this. And I've seen this other thing over here. And I was like, can we adopt that kind of idea and bring it over here? They're like, whoa, slow down. And I'm like, no, this is slow for the chat window, man.
+- id: u88
+  speaker: James Giroday
+  t_start: 4195.674
+  t_end: 4201.282
+  text: Yeah, I'll have a gander at that. Like that agency thing, too. I'm definitely going to probably put, yeah.
+- id: u89
+  speaker: David Olsson
+  t_start: 4201.298
+  t_end: 4216.874
+  text: And so that's if I can play. I need to talk to Jason kay a bit more about what I can allow just out there. Like, there's not a lot of value in it, but we're using it to try to, to win some opportunity to get paid for doing this stuff.
+- id: u90
+  speaker: Hanif Janmohamed
+  t_start: 4216.914
+  t_end: 4217.414
+  text: Right.
+- id: u91
+  speaker: David Olsson
+  t_start: 4217.122
+  t_end: 4346.164
+  text: So, but the idea would be to have, like, the scrubs just as, like I could probably, if I find the enthusiasm right, I can take what I have and I can just make them more scrubby. And then me building this out from left to right is very quick now, because what I do, I made it up an agent factory. I uploaded a document of one line descriptions of things, and it built out agents for me because it could go through the document. It can go one line at a time through a bunch of rows in a document, and it can read one row and then create the next row like it. So once you have something in place that's similar in structure, you can make it specific and then get collaboration across it and see if things are going well. And that would be, I think I'll plan for doing that next week because I've already accidentally done it a couple of times. I just couldn't find the script for it today, and the script that I have isn't really nice. But you all know what a for loop is like a loop in programming. You loop through a list or you loop ten times and you do the same thing. Well, if you have a series of agents and you just loop and say, create agent and do their actions, like, in words, just like that, then they start collaborating. And again, are they. I wouldn't be, you know, on a broad base, I would not be a good teacher right now because I'm not sure about things. But that's it. But that's because I want to take it to not just like, okay, is it exploratory? I want to take to a very tactical, practical output kind of place. And I'm going to say some bold things like, watch me change this word and it'll ping all the way through. And it's like, how do you know? Well, yeah. Damn it. All right, well, that's 68 minutes.
+- id: u92
+  speaker: James Giroday
+  t_start: 4348.704
+  t_end: 4351.336
+  text: Nice. Thanks very much, David. That was awesome.
+- id: u93
+  speaker: David Olsson
+  t_start: 4351.48
+  t_end: 4363.304
+  text: Well, I thank you all. I woke up this morning and I was still from yesterday. I'm like, it's Wednesday, and after yoga, everything's way better.
+- id: u94
+  speaker: Eric Johnson
+  t_start: 4363.344
+  t_end: 4366.644
+  text: So after that or after the McDonald's?
+- id: u95
+  speaker: David Olsson
+  t_start: 4367.344
+  t_end: 4374.34
+  text: Well, you know, thank you, Eric. You know, I appreciate you bringing it.
+- id: u96
+  speaker: Eric Johnson
+  t_start: 4374.452
+  t_end: 4376.264
+  text: I like that balance there. Right?
+- id: u97
+  speaker: David Olsson
+  t_start: 4377.164
+  t_end: 4385.904
+  text: I strictly looked at how many calories it was, and I'm like, that's enough. I didn't think about my digestive track at all.
+- id: u98
+  speaker: Hanif Janmohamed
+  t_start: 4387.964
+  t_end: 4390.412
+  text: It's clearly combo. Combo platter.
+- id: u99
+  speaker: David Olsson
+  t_start: 4390.508
+  t_end: 4406.536
+  text: Yeah, it is like number one combo. It's like, okay, I don't do it very often, but as, like it's a Wednesday, but thank you all. And, James, if you want to, on Thursday, you can lurk 230 to 330.
+- id: u100
+  speaker: Hanif Janmohamed
+  t_start: 4406.72
+  t_end: 4407.484
+  text: Cool.
+- id: u101
+  speaker: James Giroday
+  t_start: 4407.944
+  t_end: 4409.968
+  text: Yeah, I'll see. I'll look at my schedule, see if.
+- id: u102
+  speaker: David Olsson
+  t_start: 4409.976
+  t_end: 4414.952
+  text: I can just invite you. It's already set up, so I'll just invite you in. What is that? Okay, Hanif?
+- id: u103
+  speaker: Hanif Janmohamed
+  t_start: 4415.088
+  t_end: 4416.272
+  text: Yeah, absolutely.
+- id: u104
+  speaker: David Olsson
+  t_start: 4416.368
+  t_end: 4417.084
+  text: Okay.
+- id: u105
+  speaker: Hanif Janmohamed
+  t_start: 4419.104
+  t_end: 4419.84
+  text: Listen to me.
+- id: u106
+  speaker: David Olsson
+  t_start: 4419.872
+  t_end: 4426.614
+  text: I'm like, yeah, we're just gonna rapaciously look at all of Anif's work from the last five years and see if we can make $5 off of it.
+- id: u107
+  speaker: Hanif Janmohamed
+  t_start: 4428.834
+  t_end: 4431.054
+  text: That's a buck a year. It's pretty good.
+- id: u108
+  speaker: David Olsson
+  t_start: 4432.394
+  t_end: 4438.094
+  text: Anyways, he's got really cool project and more than one, but this one is, like, super cool.
+- id: u109
+  speaker: James Giroday
+  t_start: 4438.754
+  t_end: 4439.682
+  text: I bet.
+- id: u110
+  speaker: David Olsson
+  t_start: 4439.858
+  t_end: 4444.454
+  text: It's just phenomenal. And he has somebody that's interested, so we're trying to see if we can.
+- id: u111
+  speaker: James Giroday
+  t_start: 4445.594
+  t_end: 4448.584
+  text: Again, if I lurk, I'll lurk to discreetly.
+- id: u112
+  speaker: David Olsson
+  t_start: 4449.804
+  t_end: 4453.38
+  text: Well, you've got Eric to model off after, so it's good.
+- id: u113
+  speaker: James Giroday
+  t_start: 4453.492
+  t_end: 4454.06
+  text: Cool.
+- id: u114
+  speaker: David Olsson
+  t_start: 4454.172
+  t_end: 4490.644
+  text: He's faking working right now. He's on Microsoft Teams moving his mouth. I called it three years, and none of us are working anymore. Three years. I thought it was pretty quick. Three years. I mean, not in this room. Everybody's working, but it's because we decide to do something else. There you go. From now until then, it's a. It's a pony race. So I'll see you. See you in the next sprint. Yeah.
+- id: u115
+  speaker: Hanif Janmohamed
+  t_start: 4490.764
+  t_end: 4492.868
+  text: Cool. We'll see you tomorrow.
+- id: u116
+  speaker: David Olsson
+  t_start: 4492.996
+  t_end: 4497.604
+  text: Yeah. Enjoy your day, guys. It's nice and sunny here. I'm glad. I'm gonna go out and walk the dog.
+- id: u117
+  speaker: Eric Johnson
+  t_start: 4497.724
+  t_end: 4498.384
+  text: Yep.
+- id: u118
+  speaker: Hanif Janmohamed
+  t_start: 4498.844
+  t_end: 4500.304
+  text: Cool. Thank you.
+- id: u119
+  speaker: David Olsson
+  t_start: 4500.664
+  t_end: 4502.724
+  text: Jump. Bye.
+windows:
+- id: W-0001
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  text: Morning. Eric. Morning. Where are you James? Are you in Kelowna? Yes, I am. Yeah. Moved here about three years ago. Loving, loving it. All right, can you hear me? Yep. Yes. Can you hear my dog a little bit. Pretty faintly. I guess that's somewhat noise cancelling working for you guys and not me. I went to yoga this morning and doesn't give me a lot of time when I get home, but good for you. That's awesome. How long of a yoga session is it? It's an hour. It's at 06:00 a.m. i'm up at four.
+- id: W-0002
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Yes. Can you hear my dog a little bit. Pretty faintly. I guess that's somewhat noise cancelling working for you guys and not me. I went to yoga this morning and doesn't give me a lot of time when I get home, but good for you. That's awesome. How long of a yoga session is it? It's an hour. It's at 06:00 a.m. i'm up at four. I got out of bed ten minutes ago. Does that count? Well, I was going to mention it is a different lifestyle. I don't push it on anybody. I do try to stay up late but that means 09:00 but we'll see what happens here today. I'm going to hand over stuff today in the session to you guys and it's just right now. Did you the works on the link that you sent the 08:00 a.m. aI school? Yeah, I sent you an email. Go store some weird redirect. Fuck man, I'm just having no good time of all this stuff. Window, you can see that? Yep. Yep. Okay, so what I've got here is a spreadsheet share. I already did that. Populate. Done. Go back to here. Find chat.
+- id: W-0003
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  text: Fuck man, I'm just having no good time of all this stuff. Window, you can see that? Yep. Yep. Okay, so what I've got here is a spreadsheet share. I already did that. Populate. Done. Go back to here. Find chat. Hello Hanif, trying to. Are you guys getting infinite mirrors windows? Yep. Awesome. It wasn't supposed to do that. Here's a spreadsheet that you should have permissions in the chat window, in the message window there's a link. Yep. That worked for me. Yep. All right, so you're looking at this kind of document here. You can see this, this shows the product development or the agent development of the product describer from a description to its output, which is a product description. Right. And then this is a, what I would call a standardized like a fairly simple agent. And I'm going to recommend that. This is kind of what I would recommend us all kind of get into the habit of using initially is something as simple as whatever it is, a name. So you can call it something and you might want to call it by like widget name or whatever or human like name. The role to create detailed, accurate product descriptions. Right. So that's very simple. The goal to write comprehensive for e commerce page. Well it could be for whatever you want there and you can genericize it so that it's just like the product. But what is interesting is if I take that and I'm gonna start sharing my window. And hopefully the infinite windows thing doesn't happen.
+- id: W-0004
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  text: All right, so you're looking at this kind of document here. You can see this, this shows the product development or the agent development of the product describer from a description to its output, which is a product description. Right. And then this is a, what I would call a standardized like a fairly simple agent. And I'm going to recommend that. This is kind of what I would recommend us all kind of get into the habit of using initially is something as simple as whatever it is, a name. So you can call it something and you might want to call it by like widget name or whatever or human like name. The role to create detailed, accurate product descriptions. Right. So that's very simple. The goal to write comprehensive for e commerce page. Well it could be for whatever you want there and you can genericize it so that it's just like the product. But what is interesting is if I take that and I'm gonna start sharing my window. And hopefully the infinite windows thing doesn't happen. That wasn't cool. The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed
+- id: W-0005
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u28
+  text: The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed
+- id: W-0006
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u28
+  text: The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed
+- id: W-0007
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u28
+  text: The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed
+- id: W-0008
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u28
+  - u29
+  - u30
+  text: The Internet windows thing? Yes, well, it's cool if you want it to be. I would have some sort of response for like that. This is so cool. I'm gonna do this all the time. Okay, so hopefully you're watching me in my chat window. And you know, yesterday it didn't work very well. Seemed like everybody was getting attacked or their servers or services were down or whatever. But I have copied the product designer role here and I could simply use this agent quote. And you know, I like to do things like put it in one, two, three tick marks to delineate. I'm just showing you how to do some jammy work here. And so that's the agent to work with this document or this. And I'll be really vague about things. I'll say this and then I will find my fidget spinner, Voron, copy the URL from my fidget spinner and go back in here. And since it's a product describer, it should be able to like figure stuff out, right? I'm giving it a product page on Amazon and it's doing a memory update thing, which is like it's remembering my fidget spinner again and again, which is not useful all the time. Okay, so it's doing its thing. You guys seeing how wonderful the teletype experience is here. If I go over to the page and it says it's focus anxiety relief, stress, stress relief, boredom, bearings, yadda, it's really stupid. It gets all set up for SEO optimization, very little. And then even how they've structured. This is super not human friendly, but it works for other things. So the description for the product is pretty gross. You know, if you were a marketer, you'd say some other way of describing it. But what this agent is intended to do is to review the content on the page, focus on the main product. If there's a bundle. This is from working with Jason Kriske and him having bundles of products that he would often sell. So he had some contextualizing there. I just left it in there. Include specifics on the ingredients, dimensions and unique aspects compared to competitors detail. All unique and novel aspects. Okay, so we got key features, dimensions and unique aspects. Intended use and customer reviews. Sometimes I get actually really decent customer use and I can do something very powerful thing self, just this phrasing, perform self reflection. Now I have all kinds of strategies in a document that are self reflection strategies being reflect on the content in this way. Like review it for accuracy, consistency and clarity. Three words. And so it'll go through and it'll try to find those things and find occasions where it needs to better that if it wants it to. So in terms of self reflection here, the strengths are comprehensive coverage. The description has all the essential details. It's written in engaging manner, clarity, areas for improvement, incorporating actual customer testimonies. Yeah, like I said previously, to do that. Visual appeal, adding bullet points. Right. So it's not digestible as a browsing thing. Specific comparisons. Okay, so now I can say perform feed Agent use this as, hey, thanks, just help me. Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, her
+- id: W-0009
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u30
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct
+- id: W-0010
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u30
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct
+- id: W-0011
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u30
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct
+- id: W-0012
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct Oh no. Use this template to create a new version of the agent above. Right. So, I'm sorry, I'm not. I should have a handful of these. I'm copy and pasting from somewhere. That's just not the best english grammar in the world, but it's super functional. And, you know, if it didn't work, I'd stop and then I'd go edit it. But sometimes it's just like, okay, whatever. And now you can see it's coming to us in a similar format as. As what is over here? Vulgar task with a couple bullet points or one bullet point or a number of them, and we're caught in midday traffic or mid morning traffic right here. And so things are taking a long time. And so I have now a pretty decent agent here. I can copy and paste this out. I can also do something like provide the agent above in a code block in markdown. I could also ask for it to be a word doc and provide.
+- id: W-0013
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: Okay, we're asking for something that's not too terribly hard to understand. If we appeal to what the large language model is, it's kind of like the mashup of the common understanding of the Internet, of the world through the Internet filter. So a movie script editor is going to be understood and the tasks associated with probably going to be understood and so the goals and all. But wow, we can just hit this button, the arrow, the pointing up arrow button. Right up arrow. Oh, look at that. It gave me a new agent. Tasks review concept outline script. Develop characters right through fine, fairly easy things. But once you have an agent, it has a workflow to it. And now you can say give it one line description. And so its example of a one line description is Emily is a curious ten year old girl arrives at her grandmother's old house, dragging her suitcase behind her. Something happens five pages in. So I was just trying to prove that I could take this format and I can then create something similar in a different side by side kind of vertical of tasks or skills, and then it will do some research to find out what those are. And again, this is a very simple way of doing this, but if I had a full on job description, I said I wanted to have it in this format, then I could have this full on job description or I could have even handbook and say, you know, create an agent out of the handbook in this format and it will do that kind of thing. So if I go back to the document I've shared, you shared with you, I have this now. This is a really good agent. This is pretty good. It has a system prompt right here. You are something rather like you're a describer agent. And then it breaks it down. Name role to create angle. So those are consistent there. And the tasks are consistent too. But it then starts to add subtasks to it and then it adds process steps and it looks a little bit like the tasks above, but it does add more detail to it. And then I ask it to add self reflection and that's a step that it adds and that will do that execution. The aging will actually do that on its own. Now with that, this as its workflow compared to me just saying perform self reflection as this vague concept, pretty powerful as a vague concept and then an overall scoring thing. So, like, if I want to score the content that this agent is working with, here's a way of ensuring that it reaches the content. Depth of accuracy criteria is completeness of information, accuracy, deotism, inclusion of features. These are pretty cool, right? So if I want to make another strategy, so I have all these strategies right here. If I wanted to make similar strategies, I could just copy these as my examples and go back into chat GPT and say, create five strategies for analyzing an existing script similar to the, similar to the examples provided below. Ching. And then it will give you these, this formula for a strategy, which is quite cool. It's like, here's the strategy. Ensure readability and struct Oh no. Use this template to create a new version of the agent above. Right. So, I'm sorry, I'm not. I should have a handful of these. I'm copy and pasting from somewhere. That's just not the best english grammar in the world, but it's super functional. And, you know, if it didn't work, I'd stop and then I'd go edit it. But sometimes it's just like, okay, whatever. And now you can see it's coming to us in a similar format as. As what is over here? Vulgar task with a couple bullet points or one bullet point or a number of them, and we're caught in midday traffic or mid morning traffic right here. And so things are taking a long time. And so I have now a pretty decent agent here. I can copy and paste this out. I can also do something like provide the agent above in a code block in markdown. I could also ask for it to be a word doc and provide.
+- id: W-0014
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u32
+  - u33
+  text: Right. So, I'm sorry, I'm not. I should have a handful of these. I'm copy and pasting from somewhere. That's just not the best english grammar in the world, but it's super functional. And, you know, if it didn't work, I'd stop and then I'd go edit it. But sometimes it's just like, okay, whatever. And now you can see it's coming to us in a similar format as. As what is over here? Vulgar task with a couple bullet points or one bullet point or a number of them, and we're caught in midday traffic or mid morning traffic right here. And so things are taking a long time. And so I have now a pretty decent agent here. I can copy and paste this out. I can also do something like provide the agent above in a code block in markdown. I could also ask for it to be a word doc and provide. So there's a desktop application for chat GPT, except not for intel based machines. And I've lent out my m one anyways, so that command right there is really handy for me. I'm using Markdown a lot because it's very easy for it to transfer between different sessions. And so it took this script and then it made it into a really tight text only format. It's still cranking away. And then I just copy and paste that other, and then I have that use. Now, the next level of using this would be to create a GPT, and that is as simple as going into GPTs, hitting explore GPTs, create, and then taking my system prompt, putting it in instructions, following it, product does stuff.
+- id: W-0015
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  text: So there's a desktop application for chat GPT, except not for intel based machines. And I've lent out my m one anyways, so that command right there is really handy for me. I'm using Markdown a lot because it's very easy for it to transfer between different sessions. And so it took this script and then it made it into a really tight text only format. It's still cranking away. And then I just copy and paste that other, and then I have that use. Now, the next level of using this would be to create a GPT, and that is as simple as going into GPTs, hitting explore GPTs, create, and then taking my system prompt, putting it in instructions, following it, product does stuff. I kind of need this in a downloaded file. So you're seeing me, you're seeing me fly between windows or taps. Right now it's. Yes. Now it's just us. Nope. Frozen. Frozen. Perfect. All right, you're back. Okay, so I'm just putting this in a document so I can download it. I'm even leaving the system prompt in there because it doesn't. So I'm just doing this so I can download it and then upload it. The ability to make a GPT is pretty handy. And then you can share it or you can edit it or do whatever you want. Since we're kind of machine is, I turn the code interpreter on because I do a lot of stuff that I wanted to analyze and go in and out of that kind of thing. A lot of the time, I don't know what to do to start my simulation. So I've got a document. Really the best demonstration ever. This is an agent. And then I have the system prompt from that agent. You're a product designer, and I'm going to say use the agent.
+- id: W-0016
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  text: Frozen. Perfect. All right, you're back. Okay, so I'm just putting this in a document so I can download it. I'm even leaving the system prompt in there because it doesn't. So I'm just doing this so I can download it and then upload it. The ability to make a GPT is pretty handy. And then you can share it or you can edit it or do whatever you want. Since we're kind of machine is, I turn the code interpreter on because I do a lot of stuff that I wanted to analyze and go in and out of that kind of thing. A lot of the time, I don't know what to do to start my simulation. So I've got a document. Really the best demonstration ever. This is an agent. And then I have the system prompt from that agent. You're a product designer, and I'm going to say use the agent. Create. My describer is even not well done. I will look for another product create. Okay, anyone with links?
+- id: W-0017
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  text: Create. My describer is even not well done. I will look for another product create. Okay, anyone with links? I had McDonald's for breakfast, guys. Oh, it's just painfully slow on my machine. Probably contributing to it and on the Internet as well. I'm just gonna have to stop. Okay, so that is a GPT. That is an agent that's deployed now anybody can use it. What it does is like, I don't know, begin. Let's start by creating a comprehensive product content review. I'll analyze the product structure provider in the document and use it. Let's product review. It's creating something. So it's just running around just going through building something based on not a product it has. So if I say use this product like this is not me making a very good GPT for anybody, but if I just show that you can redirect anything. So if I would have spent just a couple of minutes and changing the task so that it would start by asking me to give a product description instead of faking one out, then this becomes useful in that you can ask it a specific question. It seems I cannot directly, actually. Yeah, this is the other thing that Chatsubt sometimes says it can't do. Use this web page right now it's searching access page.
+- id: W-0018
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  text: Okay, so that is a GPT. That is an agent that's deployed now anybody can use it. What it does is like, I don't know, begin. Let's start by creating a comprehensive product content review. I'll analyze the product structure provider in the document and use it. Let's product review. It's creating something. So it's just running around just going through building something based on not a product it has. So if I say use this product like this is not me making a very good GPT for anybody, but if I just show that you can redirect anything. So if I would have spent just a couple of minutes and changing the task so that it would start by asking me to give a product description instead of faking one out, then this becomes useful in that you can ask it a specific question. It seems I cannot directly, actually. Yeah, this is the other thing that Chatsubt sometimes says it can't do. Use this web page right now it's searching access page. I gave it a whole bunch of garbage anyways. Normally it would be able to just take an URL or you can upload a document or you could give it something and it will give you that product description. It's taking what I have provided. There's some information there that's not totally garbage. And it is now building out intended uses, specifications, key features. Oh, aha. Hanif. Familiar. So I just uploaded one of Hanif's documents to say use this as the product and see if it will give me a product description of his project called Stonemaster. Yep. Product Overview Stone Maps is an innovative project designed to foster deep, intentional networks through physical active givings or river stones embedded with NFC chips. These stones went past from one person to another. Create a digital network that promotes collaboration, dialogue and collective wisdom. A unique aspect slow media approach rich network dynamics common base comments based model conclusion that's not bad, right? Like, it tried to make it an e commerce product, but it did pull out a lot of relevant information. Now, Hanif would be the person to recognize whether or not it just did like a super superficial job of it, or if it got out anything meaningful.
+- id: W-0019
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: I gave it a whole bunch of garbage anyways. Normally it would be able to just take an URL or you can upload a document or you could give it something and it will give you that product description. It's taking what I have provided. There's some information there that's not totally garbage. And it is now building out intended uses, specifications, key features. Oh, aha. Hanif. Familiar. So I just uploaded one of Hanif's documents to say use this as the product and see if it will give me a product description of his project called Stonemaster. Yep. Product Overview Stone Maps is an innovative project designed to foster deep, intentional networks through physical active givings or river stones embedded with NFC chips. These stones went past from one person to another. Create a digital network that promotes collaboration, dialogue and collective wisdom. A unique aspect slow media approach rich network dynamics common base comments based model conclusion that's not bad, right? Like, it tried to make it an e commerce product, but it did pull out a lot of relevant information. Now, Hanif would be the person to recognize whether or not it just did like a super superficial job of it, or if it got out anything meaningful. It seems to be lifting some key points. Yeah. And that's what it is trying to identify now, whether they're how you would like it, thematically linked or anything like that. We could apply what I call a low level policy, which is like at the lowest level, like make it more like this. And you could say rephrase it to capture more of the conceptual thinking. Right. Or something like that. So direct it towards more academic. Yeah. And so that's when I, when I refer to low level policies. It's like something you can do. It's at the lowest level. It is. And sort of tidying it up. Right. It's like, okay, now let's look at how you say things.
+- id: W-0020
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: Yeah. And that's what it is trying to identify now, whether they're how you would like it, thematically linked or anything like that. We could apply what I call a low level policy, which is like at the lowest level, like make it more like this. And you could say rephrase it to capture more of the conceptual thinking. Right. Or something like that. So direct it towards more academic. Yeah. And so that's when I, when I refer to low level policies. It's like something you can do. It's at the lowest level. It is. And sort of tidying it up. Right. It's like, okay, now let's look at how you say things. Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just
+- id: W-0021
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u54
+  text: Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just
+- id: W-0022
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u54
+  text: Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just
+- id: W-0023
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u54
+  text: Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just
+- id: W-0024
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  text: Yeah. It's not finding a lot, much more different. It's trying to retune it, but that is the way that you can, after the fact, do things. You can again, providing it a template of like, I like the output like this. You upload one document, say, I would like the output like another document, and you've got a lot, you've got a really good head start on yourself, right? So you can do a lot that way. So that was me just sort of, I wanted to give you how you can take something I'm giving you, and just with a couple of words, say, I have an idea for an agent. I want it to be like this one. And then it will give you a description in a format, and then it's, you know, it's relatively useful. And if you wanted to explore some of the other things that I've involved here, like turning it into action, like, you can just have like a description of a product or a link to it online and say, use this, take this product link, provide it, and apply this action, or execute this, and then just copy the action in there. And it will do that. It's just a very optimized version of this long form here. And then the self reflection is broken out. Now, if you're not sure what a self reflection is, you can ask the questions of it, right? Like, if I was like, if Dave's like giving me this, it's like I was given this, what is my dog's moving meth for evaluating, improving content. If you're not sure how to use something, you can ask questions of it. And that, to be very honest, that's how I uncovered some of the value in the sort of symbolic representation of things was by asking questions. How could it be used? Provide me some examples of this. Really come at it from a naive point of view. I overcame what I would call some of my own arrogance in the last little while when I'm working with it, to ask questions that would seem, you know, grades below my education level, to provide me different ways of looking at things. That was just as exciting as being able to, you know, mash up really conceptual stuff against tactical output or have conflicting adversarial points of view on things. So I'm going to suggest that moving forward like a scrub, this is the best kind of definition of a scrub to work with in terms of getting something really cheap and dirty done. If you want to define an agent, you can just go into a chat window and say, the purpose of this agent is to figure out something, yada, yada, yada, make it in the shape of this agent below and then that way it's broken out into tasks and into a structured format that the interface that we're working with, which is a large language model chat experience, it's expecting to see structured data. What I uncovered in this is a whole direction I can take my work. And this abstraction and compression allows for more reliability about what the expected output could be or what similar types of experiences could be. So it helps standardize some of my approaches as a middle and stuff. But no matter what I'm doing now, even if I'm just I had to reorganize everything that I've got. It's just completely garbage. Can I ask a question? Yeah, yeah, please do. Excuse me. Are you ever able to like, permission chat, GPT to access something online? Like say you uploaded this somewhere onto like GitHub, or like upload it all the time? It does have the option to open up Microsoft OneDrive and Google Drive and then point to these documents, but I couldn't get it to work every time. It told me the permissions were wrong. And I tried it five or six times yesterday, and I'm like, I didn't try it ahead of time this morning, but you can point it to a web page and it will read the webpage. It's just not like why it's not doing it right now is something in how I've structured it. But normally when I point to my fidget spinner, it reads the documentation from that webpage, and you can do that, it should be the case that you can point to a document anywhere online and it would provide you access to it. There are some permissions around certain kinds of documents that will not enable you to do that. But if you put anything on Google Drive, you should be able to point to it there. And anything on Microsoft OneDrive, you should be able to point to it there. Because I want to work in this document live. I don't want to download it like I did. I was just doing that because I know it will work. Actually in chat DPT, you have no other way of doing it but in the chat session. If I go here, connect apps, OneDrive, add from Google Drive or upload, right? And so it's hooked up. I've added, gave it the permissions, and right now it'll probably freaking work if I do it. But it wasn't working before. But the idea is, anything external to the session that we have going on in this window, we want to be able to connect what we're doing to those sources or resources or whatever it is. And we can call that tooling or function calls, like calling something external, like an API. I'm getting sales agent calls all the time, or emails all the time. I finally have a decent response for them. The decent response is, do you have an API?
+- id: W-0025
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u59
+  - u60
+  text: It does have the option to open up Microsoft OneDrive and Google Drive and then point to these documents, but I couldn't get it to work every time. It told me the permissions were wrong. And I tried it five or six times yesterday, and I'm like, I didn't try it ahead of time this morning, but you can point it to a web page and it will read the webpage. It's just not like why it's not doing it right now is something in how I've structured it. But normally when I point to my fidget spinner, it reads the documentation from that webpage, and you can do that, it should be the case that you can point to a document anywhere online and it would provide you access to it. There are some permissions around certain kinds of documents that will not enable you to do that. But if you put anything on Google Drive, you should be able to point to it there. And anything on Microsoft OneDrive, you should be able to point to it there. Because I want to work in this document live. I don't want to download it like I did. I was just doing that because I know it will work. Actually in chat DPT, you have no other way of doing it but in the chat session. If I go here, connect apps, OneDrive, add from Google Drive or upload, right? And so it's hooked up. I've added, gave it the permissions, and right now it'll probably freaking work if I do it. But it wasn't working before. But the idea is, anything external to the session that we have going on in this window, we want to be able to connect what we're doing to those sources or resources or whatever it is. And we can call that tooling or function calls, like calling something external, like an API. I'm getting sales agent calls all the time, or emails all the time. I finally have a decent response for them. The decent response is, do you have an API? No. There, I'll explain the humor. Everybody's reporting to be humans emailing me saying, I have this service. I can give you, I can give you 20 leads or 100 leads. And so I'm asking these humans, these entities that are reporting to be humans, if they have an API, knowing that they're all bots, but they just can't answer me honestly. Okay, I don't come up with many jokes.
+- id: W-0026
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  - u62
+  text: It does have the option to open up Microsoft OneDrive and Google Drive and then point to these documents, but I couldn't get it to work every time. It told me the permissions were wrong. And I tried it five or six times yesterday, and I'm like, I didn't try it ahead of time this morning, but you can point it to a web page and it will read the webpage. It's just not like why it's not doing it right now is something in how I've structured it. But normally when I point to my fidget spinner, it reads the documentation from that webpage, and you can do that, it should be the case that you can point to a document anywhere online and it would provide you access to it. There are some permissions around certain kinds of documents that will not enable you to do that. But if you put anything on Google Drive, you should be able to point to it there. And anything on Microsoft OneDrive, you should be able to point to it there. Because I want to work in this document live. I don't want to download it like I did. I was just doing that because I know it will work. Actually in chat DPT, you have no other way of doing it but in the chat session. If I go here, connect apps, OneDrive, add from Google Drive or upload, right? And so it's hooked up. I've added, gave it the permissions, and right now it'll probably freaking work if I do it. But it wasn't working before. But the idea is, anything external to the session that we have going on in this window, we want to be able to connect what we're doing to those sources or resources or whatever it is. And we can call that tooling or function calls, like calling something external, like an API. I'm getting sales agent calls all the time, or emails all the time. I finally have a decent response for them. The decent response is, do you have an API? No. There, I'll explain the humor. Everybody's reporting to be humans emailing me saying, I have this service. I can give you, I can give you 20 leads or 100 leads. And so I'm asking these humans, these entities that are reporting to be humans, if they have an API, knowing that they're all bots, but they just can't answer me honestly. Okay, I don't come up with many jokes. It's pretty good. I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I'll leave it at that. So that's kind of what I want to share. I held and I'll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I'm driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I'm not driving things. But the spreadsheet that I've given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I'm learning it. But if I'm trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that's brief and easy to understand. That's the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I'm doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they're just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that's associated with SEO, and then it'll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it's in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it's like word processing before we had computers. It's just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I'm learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It's just whackadoodle and functional. So it's, it's a, it's a neat experience to, to go through it and say, okay, well, you know, it's hard to work with that. Like, I can't, you know, I start editing thi
+- id: W-0027
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u62
+  text: I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I'll leave it at that. So that's kind of what I want to share. I held and I'll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I'm driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I'm not driving things. But the spreadsheet that I've given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I'm learning it. But if I'm trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that's brief and easy to understand. That's the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I'm doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they're just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that's associated with SEO, and then it'll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it's in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it's like word processing before we had computers. It's just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I'm learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It's just whackadoodle and functional. So it's, it's a, it's a neat experience to, to go through it and say, okay, well, you know, it's hard to work with that. Like, I can't, you know, I start editing thi
+- id: W-0028
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u62
+  text: I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I'll leave it at that. So that's kind of what I want to share. I held and I'll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I'm driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I'm not driving things. But the spreadsheet that I've given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I'm learning it. But if I'm trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that's brief and easy to understand. That's the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I'm doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they're just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that's associated with SEO, and then it'll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it's in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it's like word processing before we had computers. It's just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I'm learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It's just whackadoodle and functional. So it's, it's a, it's a neat experience to, to go through it and say, okay, well, you know, it's hard to work with that. Like, I can't, you know, I start editing thi
+- id: W-0029
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u62
+  text: I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I'll leave it at that. So that's kind of what I want to share. I held and I'll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I'm driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I'm not driving things. But the spreadsheet that I've given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I'm learning it. But if I'm trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that's brief and easy to understand. That's the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I'm doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they're just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that's associated with SEO, and then it'll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it's in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it's like word processing before we had computers. It's just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I'm learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It's just whackadoodle and functional. So it's, it's a, it's a neat experience to, to go through it and say, okay, well, you know, it's hard to work with that. Like, I can't, you know, I start editing thi
+- id: W-0030
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u62
+  - u63
+  - u64
+  text: 'I had a whole series of jokes that were just specific to AI. Only AI would get the jokes. It was fun for a while, explaining how you can get understand it. Anyhow, I''ll leave it at that. So that''s kind of what I want to share. I held and I''ll have another on Thursday, Hanif, and maybe Eric and I will be in a session from 230 to 330 where I''m driving the tools. And maybe this session, Hanif, I can poke you to drive the tools, and I can just offer you up over chat snippets to try or something like that, so that I''m not driving things. But the spreadsheet that I''ve given you, I think is the tightest resource without giving you too much, too much else to like. Oh, this seems important, right? And everything is important as I''m learning it. But if I''m trying to enable you guys, the simplest thing is from the left, that if you just name an agent, a product describer, you are a product describer. Make me a description of this product that''s brief and easy to understand. That''s the best first thing you can do compared to just describe this product. The next best thing you do is use that simple jammy scrub like definition of an agent that has five actions in a task list, and the next thing you do is provide it some rich like ability to reflect on itself, score itself, and redo some of its work based on some strategies are very specific to that role. Turns out I''m doing a lot of agents that are associated with copywriting or copy. And in a large agency, that would have been probably ten different types of people that are very specialized. It turns out they''re just ten different sentences now that are very specific to maybe SEO optimization or micro, micro texts or something. And you say that one word that''s associated with SEO, and then it''ll just go, okay, we need to go that way. So it can be very lightweight to very, very heavy, like that one. The one I call agent prompt is pretty heavy. And if it''s in natural pattern language, like in a Google Doc, it actually has a table in it. It has a lot more structure to it, but that all gets stripped out. Well, Markdown is not. Markdown is basically, we have HTML markup, and Markdown is like the simplest version of that. And the language models love markdown because it''s like word processing before we had computers. It''s just like, you indicate things with an asterisk or bold or whatever. So it eliminates all of the extraneous text in a document, like a word doc. So if you can get used to looking at sort of the ugly nature of dash, dash, or pound signs or asterisks to indicate indents and whatnot. Markdown is a really economical text format. It has structure within the text. And that is, again, the biggest thing I''m learning is like, the structured test text is so vital. It is, you know, this becomes this, right? It''s just whackadoodle and functional. So it''s, it''s a, it''s a neat experience to, to go through it and say, okay, well, you know, it''s hard to work with that. Like, I can''t, you know, I start editing thi What kind of problems have you given in? I''m focused primarily when I''m trying to do demonstrations to see if things work, I''m primarily focusing on the collaboration I''m doing with Jason Kriske, where taking a product description and then being able to create the whole of a marketing workflow and all the assets associated with how you do direct to consumer marketing, landing page, email, social, the whole side of things, and ensuring that brand and tone go through the whole thing. And so right now it does work. I start with one description. Those ten agents take that one description, create a product description, goes through, creates market research, consumer research, avatars, unique value propositions, listicles, advertorial landing page, and then it will analyze itself as well. It breaks, it''s so big, it''s a 17 page report. It breaks the contacts window, so it''s so verbose. And I was able to do it. So I was able to with just the spreadsheet, I cycled through it like it''s a loop in programming. I said, use all of the, create all of the agents in this list and then solve this problem. And that was one way. And the other time, the other way is I made it go in a specific order and it did the same thing. It went through and solved the problem completely differently. The same output at the end, but not as rich. So eventually you could take spreadsheet of, say, 20 or 30 agents that we work together, I provide and say, okay, this is a pretty good creative unit. And then you say, here''s a document, figure out which agents are useful for analyzing it, coming up with summaries, and then providing it for a team that''s going to go into a meeting to repurpose it for blah, blah, blah. And then it will determine which agents to do to use. And the reason I say that is because when I did do that, it actually got agents to collaborate. And then Jason Kriske and I are talking about that and we''re saying, yeah, but that''s not really what''s going on. It''s telling me all this stuff is going on. And then we''re saying, well, that''s not really what''s going on. The output looks like that''s what''s going on, and it''s hard to know. So right now I''m trying to figure out if that''s what''s going on. And by that I mean it could tell a whole story around the agents coming together, collaborating and writing a certain kind of copy, and another one''s over here doing a web page, and then the other ones over here doing that, because it makes sense in terms of how it would understand an agency to work, and that that''s the storytelling around how it could build that. Then underneath it, it might just be doing one complete action to do everything on its own in some way that''s not associated with what we''re doing. And that would be like a massive hallucination, is that I''m asserting that by setting up all of this information and structure upfront and running through what looks like to be a programmatic way of doing things, that it is indeed using all the agents that I provided it in '
+- id: W-0031
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u64
+  text: I'm focused primarily when I'm trying to do demonstrations to see if things work, I'm primarily focusing on the collaboration I'm doing with Jason Kriske, where taking a product description and then being able to create the whole of a marketing workflow and all the assets associated with how you do direct to consumer marketing, landing page, email, social, the whole side of things, and ensuring that brand and tone go through the whole thing. And so right now it does work. I start with one description. Those ten agents take that one description, create a product description, goes through, creates market research, consumer research, avatars, unique value propositions, listicles, advertorial landing page, and then it will analyze itself as well. It breaks, it's so big, it's a 17 page report. It breaks the contacts window, so it's so verbose. And I was able to do it. So I was able to with just the spreadsheet, I cycled through it like it's a loop in programming. I said, use all of the, create all of the agents in this list and then solve this problem. And that was one way. And the other time, the other way is I made it go in a specific order and it did the same thing. It went through and solved the problem completely differently. The same output at the end, but not as rich. So eventually you could take spreadsheet of, say, 20 or 30 agents that we work together, I provide and say, okay, this is a pretty good creative unit. And then you say, here's a document, figure out which agents are useful for analyzing it, coming up with summaries, and then providing it for a team that's going to go into a meeting to repurpose it for blah, blah, blah. And then it will determine which agents to do to use. And the reason I say that is because when I did do that, it actually got agents to collaborate. And then Jason Kriske and I are talking about that and we're saying, yeah, but that's not really what's going on. It's telling me all this stuff is going on. And then we're saying, well, that's not really what's going on. The output looks like that's what's going on, and it's hard to know. So right now I'm trying to figure out if that's what's going on. And by that I mean it could tell a whole story around the agents coming together, collaborating and writing a certain kind of copy, and another one's over here doing a web page, and then the other ones over here doing that, because it makes sense in terms of how it would understand an agency to work, and that that's the storytelling around how it could build that. Then underneath it, it might just be doing one complete action to do everything on its own in some way that's not associated with what we're doing. And that would be like a massive hallucination, is that I'm asserting that by setting up all of this information and structure upfront and running through what looks like to be a programmatic way of doing things, that it is indeed using all the agents that I provided it in the way that I'm suggesting it did.
+- id: W-0032
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  text: I'm focused primarily when I'm trying to do demonstrations to see if things work, I'm primarily focusing on the collaboration I'm doing with Jason Kriske, where taking a product description and then being able to create the whole of a marketing workflow and all the assets associated with how you do direct to consumer marketing, landing page, email, social, the whole side of things, and ensuring that brand and tone go through the whole thing. And so right now it does work. I start with one description. Those ten agents take that one description, create a product description, goes through, creates market research, consumer research, avatars, unique value propositions, listicles, advertorial landing page, and then it will analyze itself as well. It breaks, it's so big, it's a 17 page report. It breaks the contacts window, so it's so verbose. And I was able to do it. So I was able to with just the spreadsheet, I cycled through it like it's a loop in programming. I said, use all of the, create all of the agents in this list and then solve this problem. And that was one way. And the other time, the other way is I made it go in a specific order and it did the same thing. It went through and solved the problem completely differently. The same output at the end, but not as rich. So eventually you could take spreadsheet of, say, 20 or 30 agents that we work together, I provide and say, okay, this is a pretty good creative unit. And then you say, here's a document, figure out which agents are useful for analyzing it, coming up with summaries, and then providing it for a team that's going to go into a meeting to repurpose it for blah, blah, blah. And then it will determine which agents to do to use. And the reason I say that is because when I did do that, it actually got agents to collaborate. And then Jason Kriske and I are talking about that and we're saying, yeah, but that's not really what's going on. It's telling me all this stuff is going on. And then we're saying, well, that's not really what's going on. The output looks like that's what's going on, and it's hard to know. So right now I'm trying to figure out if that's what's going on. And by that I mean it could tell a whole story around the agents coming together, collaborating and writing a certain kind of copy, and another one's over here doing a web page, and then the other ones over here doing that, because it makes sense in terms of how it would understand an agency to work, and that that's the storytelling around how it could build that. Then underneath it, it might just be doing one complete action to do everything on its own in some way that's not associated with what we're doing. And that would be like a massive hallucination, is that I'm asserting that by setting up all of this information and structure upfront and running through what looks like to be a programmatic way of doing things, that it is indeed using all the agents that I provided it in the way that I'm suggesting it did. Yeah, it's a bit like a, I don't know, a spy novel or something. Like if you had an agency where, I don't know, one of the entities, like one of the agents wasn't going to be consulted on a certain thing, like kind of the smoke them out, sort of like when you give false information to another party to try to see if it actually filters through, like if there's a connection there. Yeah. And so that's a great strategy. So that's an adversarial strategy. Right. And so you could do that within structure, within a team, within a set of agents. But guess what, James, you're still simulating, right? It's all simulation. Right. And so how do you validate the simulation? That's the whole thing that you can rely. You can always rely on that. I will say the simulation is real because of how it impacts us. And the results are, you know, qualitatively better than what I could just run by simply doing simple questions. But is it actually setting up an agent and then communicating to another agent? Or is it just saying a bunch of stuff and then doing a bunch of stuff?
+- id: W-0033
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u67
+  - u68
+  - u69
+  text: It's all simulation. Right. And so how do you validate the simulation? That's the whole thing that you can rely. You can always rely on that. I will say the simulation is real because of how it impacts us. And the results are, you know, qualitatively better than what I could just run by simply doing simple questions. But is it actually setting up an agent and then communicating to another agent? Or is it just saying a bunch of stuff and then doing a bunch of stuff? It's a significant question. And right now, both Kay and myself are like, it looks better, but what's doing it? Everything that I'm doing is what other people are doing. I'm doing the most modern research. I'm looking at it, but I can also say, I don't know. I can trace it all. And I can see that an agent's created. I can see that there's output after the agents created, and it suggests that the agent creates it. But I will be confident in what I say is that it's not really an agent. I'm calling it an agent. So it thinks it's an agent, and I'm calling it a product describer. So it. So I think it's that it does some stuff that looks like a product describer, and it looks very close to what I want it to be. Now, whether it's product describer that I've described and all the work I've done, or its notion of what a product describer is and things it needs to do, that is where I have the question and where it comes up is I have all those strategies for self reflection. Then I say perform self reflection instead of apply all these strategies, and it does something. So now is time to experiment, because I have the framework, I have the way of going about it and doing it, and we can then see different kinds of outputs based on how we set these things up. Getting it to self assess and getting it to validate is tough. I can do that. It's tough in that it doesn't prove anything. It's the liars paradox. Is that the liars paradox? How do you know liar's lying.
+- id: W-0034
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  text: It's a significant question. And right now, both Kay and myself are like, it looks better, but what's doing it? Everything that I'm doing is what other people are doing. I'm doing the most modern research. I'm looking at it, but I can also say, I don't know. I can trace it all. And I can see that an agent's created. I can see that there's output after the agents created, and it suggests that the agent creates it. But I will be confident in what I say is that it's not really an agent. I'm calling it an agent. So it thinks it's an agent, and I'm calling it a product describer. So it. So I think it's that it does some stuff that looks like a product describer, and it looks very close to what I want it to be. Now, whether it's product describer that I've described and all the work I've done, or its notion of what a product describer is and things it needs to do, that is where I have the question and where it comes up is I have all those strategies for self reflection. Then I say perform self reflection instead of apply all these strategies, and it does something. So now is time to experiment, because I have the framework, I have the way of going about it and doing it, and we can then see different kinds of outputs based on how we set these things up. Getting it to self assess and getting it to validate is tough. I can do that. It's tough in that it doesn't prove anything. It's the liars paradox. Is that the liars paradox? How do you know liar's lying. I have a question. Maybe you know the answer to this. So if you give it the exact same agency and the exact same problem twice, and is it going to come up with the same answer? No, it will come up with very similar answers. And if you force low level policy, it will be similar looking. And if you force what I have, the abstraction level, then it will be very similar as well. It could go about a whole different experience. Like I say, function like an application, a bbs like thing. Sometimes it does a beautiful job of that. Sometimes it does a scant job of like, okay, I type, proceed, and things go on. And that's great. That's not what it's showing me here, but internal to it. I can do that kind of stuff. Do you know why it does that? Why there's the randomness or. I don't know if you want to. That is the whole thing with these large language models in the general purpose transformer, the GPT, that whole structure is, there's the question as to what that is, what's going on? And the people that have employed these things and deployed them at such scale, they still don't know. And for a while there, we couldn't even get to the point where there was a citation. It would have all this inference, meaning it would summarize things or come up with things. It's like, where did you get this information? How can we trust you if we don't know where the source came from? So we can get that now. And that's where I'm looking for. Like, I need a through line from the beginning. Like, if I say bold, he's gotta be, the product's gotta be bold. I want to see bold somewhere, all the way through. If I take away bold, I want to see that it's not bold anymore. And that's something that I'm like, I'm not certain yet. And so the non, the LLMs are what's called non deterministic. You, you ask a question, it will answer the question. We can say differently both times. It will provide a different response with the same, hopefully intended answer, but differently worded.
+- id: W-0035
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: No, it will come up with very similar answers. And if you force low level policy, it will be similar looking. And if you force what I have, the abstraction level, then it will be very similar as well. It could go about a whole different experience. Like I say, function like an application, a bbs like thing. Sometimes it does a beautiful job of that. Sometimes it does a scant job of like, okay, I type, proceed, and things go on. And that's great. That's not what it's showing me here, but internal to it. I can do that kind of stuff. Do you know why it does that? Why there's the randomness or. I don't know if you want to. That is the whole thing with these large language models in the general purpose transformer, the GPT, that whole structure is, there's the question as to what that is, what's going on? And the people that have employed these things and deployed them at such scale, they still don't know. And for a while there, we couldn't even get to the point where there was a citation. It would have all this inference, meaning it would summarize things or come up with things. It's like, where did you get this information? How can we trust you if we don't know where the source came from? So we can get that now. And that's where I'm looking for. Like, I need a through line from the beginning. Like, if I say bold, he's gotta be, the product's gotta be bold. I want to see bold somewhere, all the way through. If I take away bold, I want to see that it's not bold anymore. And that's something that I'm like, I'm not certain yet. And so the non, the LLMs are what's called non deterministic. You, you ask a question, it will answer the question. We can say differently both times. It will provide a different response with the same, hopefully intended answer, but differently worded. And is that because it's getting better in between the first and second time you've asked it? No, it's, it's the nature in which. So the whole of the GPT, the whole of the transformer, it's called what's called, it's what is called a probabilistic model, right? It is just like, it's got one character, it has a billion neurons firing at the same time trying to figure out what the next character should be. And it does that in chunks. So sort of like, you can say maybe words. They're not even words. They're like a number of characters, but it will have a certain number of characters. And it was going to say, well, based on the past stuff, this chunk looks like it should be part of one of 17,000 different chunks. So it assesses 17,000 different chunks with that chunk, and then it goes to the. And then it says, okay, what's the next thing that makes sense based on the last ones? And so if you talk to people that are the mathematicians behind the scenes, like, there's not, that's not a sign of intelligence. That is like a mimicry. And we're looking at it and we can see certain indicators. And by seeing these indicators, we're saying, well, it's doing things that are intelligent. And we're like, yeah, well, you're measuring it inappropriately.
+- id: W-0036
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  text: And is that because it's getting better in between the first and second time you've asked it? No, it's, it's the nature in which. So the whole of the GPT, the whole of the transformer, it's called what's called, it's what is called a probabilistic model, right? It is just like, it's got one character, it has a billion neurons firing at the same time trying to figure out what the next character should be. And it does that in chunks. So sort of like, you can say maybe words. They're not even words. They're like a number of characters, but it will have a certain number of characters. And it was going to say, well, based on the past stuff, this chunk looks like it should be part of one of 17,000 different chunks. So it assesses 17,000 different chunks with that chunk, and then it goes to the. And then it says, okay, what's the next thing that makes sense based on the last ones? And so if you talk to people that are the mathematicians behind the scenes, like, there's not, that's not a sign of intelligence. That is like a mimicry. And we're looking at it and we can see certain indicators. And by seeing these indicators, we're saying, well, it's doing things that are intelligent. And we're like, yeah, well, you're measuring it inappropriately. So basically your first attempt affected the second attempt. Right. Just by that. My new little. Right. Well, so, no, no, it doesn't. So that's what James was saying. Your first attempt affects your second attempt. It's not learning that quickly. Okay. It's. The horsepower to learn is immense. The experience. So you're learning from a canned kind of thing. You have a session going in. The session learns, right? The session percolates information, turning it into intelligence for you in a very, like, in a context mandala. But what you feed back into the chat isn't going back in there. Like you say, it's going to be slightly to the left or right or plus one or plus two. It's a separate query, even the same query. Sorry. And then it's analyzing it differently. Different neurons of fire, different. Different associations we made slightly different. And then a sort of same answer will be, you can just, you can try it. It doesn't work so well with a really simple question. But if you have a nuanced question and you're looking for it to do qualitative work, particularly if you want to ask a qualitative question, it'll give you a bunch of different types of answers. For me, that's. It's a really prohibitive thing. And until I found this level of abstraction, I was always getting different kinds of results. And I still get that when I run simulations. And that's why I want to get outside the environment. Just use it to, like, poke in and out, say, do some work. Give me a result. Now we'll do outside. Give me some here's some, here's more data. Do the same kind of work. Bring it outside, analyze the two. When you're analyzing things outside the LLM, you could say that you're not fallible to the same logic or unknowing logic behind the scenes, because outside an LLM we have applications that are very strictly logical in algorithms that work that way. We have, hey, we have no, we're not doing that. The rescue parts of the puppy are coming out. Okay. It's all the puppy stuff.
+- id: W-0037
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  text: It's. The horsepower to learn is immense. The experience. So you're learning from a canned kind of thing. You have a session going in. The session learns, right? The session percolates information, turning it into intelligence for you in a very, like, in a context mandala. But what you feed back into the chat isn't going back in there. Like you say, it's going to be slightly to the left or right or plus one or plus two. It's a separate query, even the same query. Sorry. And then it's analyzing it differently. Different neurons of fire, different. Different associations we made slightly different. And then a sort of same answer will be, you can just, you can try it. It doesn't work so well with a really simple question. But if you have a nuanced question and you're looking for it to do qualitative work, particularly if you want to ask a qualitative question, it'll give you a bunch of different types of answers. For me, that's. It's a really prohibitive thing. And until I found this level of abstraction, I was always getting different kinds of results. And I still get that when I run simulations. And that's why I want to get outside the environment. Just use it to, like, poke in and out, say, do some work. Give me a result. Now we'll do outside. Give me some here's some, here's more data. Do the same kind of work. Bring it outside, analyze the two. When you're analyzing things outside the LLM, you could say that you're not fallible to the same logic or unknowing logic behind the scenes, because outside an LLM we have applications that are very strictly logical in algorithms that work that way. We have, hey, we have no, we're not doing that. The rescue parts of the puppy are coming out. Okay. It's all the puppy stuff. How do you know, how do you know there's not a bear in your yard? Well, there's always deer, but that can't be thing, you can't just, it can't be okay to be all over the deer because it's all the time anyways. James, the non deterministic nature of this stuff is just wild. It is crazy.
+- id: W-0038
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  text: It's. The horsepower to learn is immense. The experience. So you're learning from a canned kind of thing. You have a session going in. The session learns, right? The session percolates information, turning it into intelligence for you in a very, like, in a context mandala. But what you feed back into the chat isn't going back in there. Like you say, it's going to be slightly to the left or right or plus one or plus two. It's a separate query, even the same query. Sorry. And then it's analyzing it differently. Different neurons of fire, different. Different associations we made slightly different. And then a sort of same answer will be, you can just, you can try it. It doesn't work so well with a really simple question. But if you have a nuanced question and you're looking for it to do qualitative work, particularly if you want to ask a qualitative question, it'll give you a bunch of different types of answers. For me, that's. It's a really prohibitive thing. And until I found this level of abstraction, I was always getting different kinds of results. And I still get that when I run simulations. And that's why I want to get outside the environment. Just use it to, like, poke in and out, say, do some work. Give me a result. Now we'll do outside. Give me some here's some, here's more data. Do the same kind of work. Bring it outside, analyze the two. When you're analyzing things outside the LLM, you could say that you're not fallible to the same logic or unknowing logic behind the scenes, because outside an LLM we have applications that are very strictly logical in algorithms that work that way. We have, hey, we have no, we're not doing that. The rescue parts of the puppy are coming out. Okay. It's all the puppy stuff. How do you know, how do you know there's not a bear in your yard? Well, there's always deer, but that can't be thing, you can't just, it can't be okay to be all over the deer because it's all the time anyways. James, the non deterministic nature of this stuff is just wild. It is crazy. And so, so does column g help you limit how non deterministic it is? Yeah, it does. It actually sets up an abstraction. I have this long prompt, like agent prompt. It's got all these words and prepositions, like it's got all kinds of structuring of data, and a lot of, it's not really important. What I've found in this step of abstraction and compression is that it determines what are valuable words and creates really valuable structures between them in an economical way. And so important, and importance is what I focus on. Like what is important. Now when I'm looking at this workflow and I get this output of like a final description after four agents touch it, I'm like, so that was a week of work. Now it's not really four minutes, but what was important in that whole process, like did four agents need to do it? Were two words significantly more powerful than the rest of them? Because I believe that's the case. I believe that, you know, I want to be able to say, here's the brand. Make sure the brand shines through all of the rest of the generated content.
+- id: W-0039
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u83
+  - u84
+  - u85
+  text: Yeah, it does. It actually sets up an abstraction. I have this long prompt, like agent prompt. It's got all these words and prepositions, like it's got all kinds of structuring of data, and a lot of, it's not really important. What I've found in this step of abstraction and compression is that it determines what are valuable words and creates really valuable structures between them in an economical way. And so important, and importance is what I focus on. Like what is important. Now when I'm looking at this workflow and I get this output of like a final description after four agents touch it, I'm like, so that was a week of work. Now it's not really four minutes, but what was important in that whole process, like did four agents need to do it? Were two words significantly more powerful than the rest of them? Because I believe that's the case. I believe that, you know, I want to be able to say, here's the brand. Make sure the brand shines through all of the rest of the generated content. So what are these other, so we've, we've gone through column D. Seems like a really tight description of an agent. Column G has some things repeated, like parameters, precondition effects. What are those? And what's question mark p? Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m
+- id: W-0040
+  t_start: 3780.0
+  t_end: 3900.0
+  utterance_ids:
+  - u85
+  text: Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m
+- id: W-0041
+  t_start: 3870.0
+  t_end: 3990.0
+  utterance_ids:
+  - u85
+  text: Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m
+- id: W-0042
+  t_start: 3960.0
+  t_end: 4080.0
+  utterance_ids:
+  - u85
+  text: Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m
+- id: W-0043
+  t_start: 4050.0
+  t_end: 4170.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  text: Yeah, right. So this is an interesting language. It's used in, it's a planning description, markup type language, PDDL. And it's used in various types of AI, like procedural AI for like robots or whatever, for planning how to do things. It's very, it's very much designed for, you know, pick up a pick up your cup, and what's the next step? And assess whether it's full. And the next step is, is it pointed at my mouth? And so those can be turned into robotics. So, yeah, so robotics use this all the time. And so. But you can describe any kind of action with it. And guess what? Reasoning is just a series of actions. And so you can get reasoning logic built in. So it's. It's what's called an object entity kind of format. It has objects in it, like things, and then actions, like content reviewed. It's like, we'll say there's content reviewed, so that the combined of those two is like, okay, there's content reviewed. I got to do some. Give me some content. I'll review it, I'll assess it, and then I'll grade it, and then I'll score it, and it will do those things. And so the economical sort of action that's there, it allows for less what I call left and right action, left and right movement when you're prompting or when you're talking to the LLM, it's trying to figure out what's important, to figure out what chunk to do next. Right. Like, it's a probabilistic math model. It's just trying to figure out words. If there's a whole lot of words, it's trying to figure out more words. Right. The more that you prompt, the more words it analyzes. So the less you give it, the less it has to work with. You give it less words that are really powerful in a structure that is really economical and powerful, and it performs like an application. Like, I call it an action. I talk to my programmer friends. They're saying it's just a function. I'm like, yeah, but it's not like a normal function because it actually refers to question mark p is the product. Right. And so question mark a would be the agent. It doesn't show up here because it's not done. And then question mark p, in some other cases, could be a parameter, and so they're all functions. And a function gets passed in parameters and does some operations and surfaces some intelligence. And in this case, that action, if I give it a product, like a link, it will pump out for the better part what that agent prompt does minus the self reflection, because I pulled that out. And whether it does all of it or not, I can predictably put that product through there, and it will give me the same structure. So whether the content is the same, underneath the section heading, I still have the section heading. And then if I want, if I have an example of final output, that's really the best work I've ever done in this area. And I'm like, here, this is the best example to look at. This is the final output for sure. We want it to be similar to this. And so that's a low level policy. You can say, here's my output. Now look at this and m Yeah, there's a convention in there. Yeah. And so the more we understand about the convention, the more we can push it outside the convention or we can use it, you know, and I just didn't get in there. I find an hour, like, I find an hour to be tough unless I've had some enthusiasm myself prior to. And that's, that's what I recognized yesterday, is that there's a lot in there, and it's really about finding some excitement. And I just wasn't excited for myself, so, and it happened again yesterday in another conversation. So I was like, oh, you know, well, there's just a wake sleep cycle on a lot of things. I've been reading about it, and I don't, I push, I push for a lot of energy every day, and some days it doesn't work. So this was an attempt to enable you guys to take, like, James, your descriptions of your agents are enough to work with this document now. Yeah, you can, you can take your one liners about and there's, I found some information out there for you on SQL is a good place to go and play. It simulates it right inside the environment. You can run Python galore, so you can, you can play a lot once you get an angle in. So being able to say, I want an agent that kind of does this kind of thing, you know, this is the best place to do it. You go and, you go and do that with your peers and like, yeah, I'm trying to understand it. It looks a little bit like this. And I've seen this other thing over here. And I was like, can we adopt that kind of idea and bring it over here? They're like, whoa, slow down. And I'm like, no, this is slow for the chat window, man.
+- id: W-0044
+  t_start: 4140.0
+  t_end: 4260.0
+  utterance_ids:
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  text: Yeah. And so the more we understand about the convention, the more we can push it outside the convention or we can use it, you know, and I just didn't get in there. I find an hour, like, I find an hour to be tough unless I've had some enthusiasm myself prior to. And that's, that's what I recognized yesterday, is that there's a lot in there, and it's really about finding some excitement. And I just wasn't excited for myself, so, and it happened again yesterday in another conversation. So I was like, oh, you know, well, there's just a wake sleep cycle on a lot of things. I've been reading about it, and I don't, I push, I push for a lot of energy every day, and some days it doesn't work. So this was an attempt to enable you guys to take, like, James, your descriptions of your agents are enough to work with this document now. Yeah, you can, you can take your one liners about and there's, I found some information out there for you on SQL is a good place to go and play. It simulates it right inside the environment. You can run Python galore, so you can, you can play a lot once you get an angle in. So being able to say, I want an agent that kind of does this kind of thing, you know, this is the best place to do it. You go and, you go and do that with your peers and like, yeah, I'm trying to understand it. It looks a little bit like this. And I've seen this other thing over here. And I was like, can we adopt that kind of idea and bring it over here? They're like, whoa, slow down. And I'm like, no, this is slow for the chat window, man. Yeah, I'll have a gander at that. Like that agency thing, too. I'm definitely going to probably put, yeah. And so that's if I can play. I need to talk to Jason kay a bit more about what I can allow just out there. Like, there's not a lot of value in it, but we're using it to try to, to win some opportunity to get paid for doing this stuff. Right. So, but the idea would be to have, like, the scrubs just as, like I could probably, if I find the enthusiasm right, I can take what I have and I can just make them more scrubby. And then me building this out from left to right is very quick now, because what I do, I made it up an agent factory. I uploaded a document of one line descriptions of things, and it built out agents for me because it could go through the document. It can go one line at a time through a bunch of rows in a document, and it can read one row and then create the next row like it. So once you have something in place that's similar in structure, you can make it specific and then get collaboration across it and see if things are going well. And that would be, I think I'll plan for doing that next week because I've already accidentally done it a couple of times. I just couldn't find the script for it today, and the script that I have isn't really nice. But you all know what a for loop is like a loop in programming. You loop through a list or you loop ten times and you do the same thing. Well, if you have a series of agents and you just loop and say, create agent and do their actions, like, in words, just like that, then they start collaborating. And again, are they. I wouldn't be, you know, on a broad base, I would not be a good teacher right now because I'm not sure about things. But that's it. But that's because I want to take it to not just like, okay, is it exploratory? I want to take to a very tactical, practical output kind of place. And I'm going to say some bold things like, watch me change this word and it'll ping all the way through. And it's like, how do you know? Well, yeah. Damn it. All right, well, that's 68 minutes.
+- id: W-0045
+  t_start: 4230.0
+  t_end: 4350.0
+  utterance_ids:
+  - u91
+  - u92
+  text: So, but the idea would be to have, like, the scrubs just as, like I could probably, if I find the enthusiasm right, I can take what I have and I can just make them more scrubby. And then me building this out from left to right is very quick now, because what I do, I made it up an agent factory. I uploaded a document of one line descriptions of things, and it built out agents for me because it could go through the document. It can go one line at a time through a bunch of rows in a document, and it can read one row and then create the next row like it. So once you have something in place that's similar in structure, you can make it specific and then get collaboration across it and see if things are going well. And that would be, I think I'll plan for doing that next week because I've already accidentally done it a couple of times. I just couldn't find the script for it today, and the script that I have isn't really nice. But you all know what a for loop is like a loop in programming. You loop through a list or you loop ten times and you do the same thing. Well, if you have a series of agents and you just loop and say, create agent and do their actions, like, in words, just like that, then they start collaborating. And again, are they. I wouldn't be, you know, on a broad base, I would not be a good teacher right now because I'm not sure about things. But that's it. But that's because I want to take it to not just like, okay, is it exploratory? I want to take to a very tactical, practical output kind of place. And I'm going to say some bold things like, watch me change this word and it'll ping all the way through. And it's like, how do you know? Well, yeah. Damn it. All right, well, that's 68 minutes. Nice. Thanks very much, David. That was awesome.
+- id: W-0046
+  t_start: 4320.0
+  t_end: 4440.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  text: So, but the idea would be to have, like, the scrubs just as, like I could probably, if I find the enthusiasm right, I can take what I have and I can just make them more scrubby. And then me building this out from left to right is very quick now, because what I do, I made it up an agent factory. I uploaded a document of one line descriptions of things, and it built out agents for me because it could go through the document. It can go one line at a time through a bunch of rows in a document, and it can read one row and then create the next row like it. So once you have something in place that's similar in structure, you can make it specific and then get collaboration across it and see if things are going well. And that would be, I think I'll plan for doing that next week because I've already accidentally done it a couple of times. I just couldn't find the script for it today, and the script that I have isn't really nice. But you all know what a for loop is like a loop in programming. You loop through a list or you loop ten times and you do the same thing. Well, if you have a series of agents and you just loop and say, create agent and do their actions, like, in words, just like that, then they start collaborating. And again, are they. I wouldn't be, you know, on a broad base, I would not be a good teacher right now because I'm not sure about things. But that's it. But that's because I want to take it to not just like, okay, is it exploratory? I want to take to a very tactical, practical output kind of place. And I'm going to say some bold things like, watch me change this word and it'll ping all the way through. And it's like, how do you know? Well, yeah. Damn it. All right, well, that's 68 minutes. Nice. Thanks very much, David. That was awesome. Well, I thank you all. I woke up this morning and I was still from yesterday. I'm like, it's Wednesday, and after yoga, everything's way better. So after that or after the McDonald's? Well, you know, thank you, Eric. You know, I appreciate you bringing it. I like that balance there. Right? I strictly looked at how many calories it was, and I'm like, that's enough. I didn't think about my digestive track at all. It's clearly combo. Combo platter. Yeah, it is like number one combo. It's like, okay, I don't do it very often, but as, like it's a Wednesday, but thank you all. And, James, if you want to, on Thursday, you can lurk 230 to 330. Cool. Yeah, I'll see. I'll look at my schedule, see if. I can just invite you. It's already set up, so I'll just invite you in. What is that? Okay, Hanif? Yeah, absolutely. Okay. Listen to me. I'm like, yeah, we're just gonna rapaciously look at all of Anif's work from the last five years and see if we can make $5 off of it. That's a buck a year. It's pretty good. Anyways, he's got really cool project and more than one, but this one is, like, super cool. I bet. It's just phenomenal. And he has somebody that's interested, so we're trying to see if we can.
+- id: W-0047
+  t_start: 4410.0
+  t_end: 4502.724
+  utterance_ids:
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  text: I can just invite you. It's already set up, so I'll just invite you in. What is that? Okay, Hanif? Yeah, absolutely. Okay. Listen to me. I'm like, yeah, we're just gonna rapaciously look at all of Anif's work from the last five years and see if we can make $5 off of it. That's a buck a year. It's pretty good. Anyways, he's got really cool project and more than one, but this one is, like, super cool. I bet. It's just phenomenal. And he has somebody that's interested, so we're trying to see if we can. Again, if I lurk, I'll lurk to discreetly. Well, you've got Eric to model off after, so it's good. Cool. He's faking working right now. He's on Microsoft Teams moving his mouth. I called it three years, and none of us are working anymore. Three years. I thought it was pretty quick. Three years. I mean, not in this room. Everybody's working, but it's because we decide to do something else. There you go. From now until then, it's a. It's a pony race. So I'll see you. See you in the next sprint. Yeah. Cool. We'll see you tomorrow. Yeah. Enjoy your day, guys. It's nice and sunny here. I'm glad. I'm gonna go out and walk the dog. Yep. Cool. Thank you. Jump. Bye.
+- id: W-0048
+  t_start: 4500.0
+  t_end: 4502.724
+  utterance_ids:
+  - u118
+  - u119
+  text: Cool. Thank you. Jump. Bye.

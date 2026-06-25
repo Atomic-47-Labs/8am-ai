@@ -1,0 +1,28 @@
+id: IDEA-0234
+slug: data-structure-and-automated-reporting
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Project State uses files (like YAML, Markdown, JSON) stored locally to document information such as changes, communication, decisions, milestones, and phases (00:07:06) (00:40:19). The system generates weekly reports, including scripted emails on Friday afternoons and retrospective reports, and can deliver these documents in traditional formats, such as doc files and spreadsheets, to accommodate organizations with "hexile-heavy", template-based document requirements (00:08:35). ![][image5]
+summary: Data Structure and Automated Reporting
+rationale: Project State uses files (like YAML, Markdown, JSON) stored locally to document information such as changes, communication, decisions, milestones, and phases (00:07:06) (00:40:19). The system generates weekly reports, including scripted emails on Friday afternoons and retrospective reports, and can deliver these documents in traditional formats, such as doc files and spreadsheets, to accommodate o
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 59.1
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 9.9
+  concretion: 0.0
+  uniqueness: 15
+  carryover: 0
+rank: 228
+tier: queue

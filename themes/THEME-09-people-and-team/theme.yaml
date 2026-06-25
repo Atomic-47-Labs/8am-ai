@@ -1,47 +1,71 @@
 id: THEME-09
 slug: people-and-team
 status: active
-summary: 'Recurring across 7 meetings: people and team.'
-first_seen: '2025-08-13'
+summary: 'Recurring across 21 meetings: people and team.'
+first_seen: '2024-08-14'
 last_seen: '2026-06-24'
 idea_refs:
-- IDEA-0125
-- IDEA-0135
-- IDEA-0010
-- IDEA-0031
-- IDEA-0062
-- IDEA-0065
-- IDEA-0091
-- IDEA-0099
-- IDEA-0112
+- IDEA-0475
+- IDEA-0490
+- IDEA-0541
+- IDEA-0584
+- IDEA-0058
+- IDEA-0379
+- IDEA-0390
+- IDEA-0409
+- IDEA-0460
+- IDEA-0480
+- IDEA-0573
+- IDEA-0576
+- IDEA-0605
+- IDEA-0625
+- IDEA-0020
+- IDEA-0109
+- IDEA-0153
+- IDEA-0176
+- IDEA-0211
+- IDEA-0257
+- IDEA-0260
+- IDEA-0300
+- IDEA-0308
+- IDEA-0357
 evidence:
+- meeting: '2024-08-14'
+  idea_ref: IDEA-0475
+  excerpt: Discusses plans for future collaborations on AI projects Explains the concept of using AI for public engagement Discusses the potential of AI in creating personalized experiences Introduces the concept of using AI for self-discovery and per
+- meeting: '2024-08-21'
+  idea_ref: IDEA-0490
+  excerpt: Discussed creating scenarios and teams of AI agents for different tasks Explored the idea of meta-agents and how they can coordinate other AI agents Talked about the importance of logging and debugging AI processes
+- meeting: '2024-09-11'
+  idea_ref: IDEA-0541
+  excerpt: David discussed a project for generating NFTs with haikus and meditations Potential collaboration with Neil Stephens's Lamina One blockchain project Exploration of AI's potential in creative content generation
+- meeting: '2024-10-02'
+  idea_ref: IDEA-0584
+  excerpt: Discussion on the importance of diverse skill sets in AI projects Conversation about the rapid advancements in AI tools for various industries
+- meeting: '2025-01-29'
+  idea_ref: IDEA-0058
+  excerpt: David mentions receiving more funding for MTC project Discussion on balancing multiple projects and partnerships Reflection on personal work habits and the need for regular income
+- meeting: '2025-07-02'
+  idea_ref: IDEA-0379
+  excerpt: Discussed onboarding new team member and challenges of sharing context across different AI tools MCP (Model Control Protocol) implementation working successfully - David built one for delegator inside Clos Warp terminal integration using di
+- meeting: '2025-07-09'
+  idea_ref: IDEA-0390
+  excerpt: PDF-to-markdown conversion process discussed using tools like Exa for web scraping and document digitization. ABSA collaboration potential identified for similar regulatory document management across Alberta organizations. Revenue model dis
+- meeting: '2025-07-18'
+  idea_ref: IDEA-0409
+  excerpt: 'James shared multiple startup concepts spanning 2016-present: Route (peer-to-peer money transfer, 2016), Fact Coin (Q&A platform with cryptocurrency rewards, 2017-18), and AI Guides (curated AI guidance similar to TV Guide format). He empha'
 - meeting: '2025-08-13'
-  idea_ref: IDEA-0125
+  idea_ref: IDEA-0460
   excerpt: David’s team is adopting lightweight scheduling methods to streamline meeting organization, optimizing time efficiency in discussions.
 - meeting: '2025-08-20'
-  idea_ref: IDEA-0135
+  idea_ref: IDEA-0480
   excerpt: AI integration is proposed with voice API collaboration, enhancing the stone personas with travel-oriented personalities and conversational capabilities.
-- meeting: '2026-04-08'
-  idea_ref: IDEA-0010
-  excerpt: Jason Kryski asked if working in teams is harder now than before the shift, noting that he struggles to find a logical development cycle and product role because the established loop is fundamentally broken (00:22:05). They described an env
-- meeting: '2026-04-29'
-  idea_ref: IDEA-0031
-  excerpt: David Olsson discussed the precarious position of a consultant when partnering with larger organizations, noting that the partner's ability to operationalize and consume what is offered can quickly usurp or absorb the consultant's role. The
-- meeting: '2026-05-20'
-  idea_ref: IDEA-0062
-  excerpt: Juan noted that while working remotely, team members were asked to work through sickness without others noticing. Juan expressed concern over tool usage, citing an instance where a project marked as 85% complete was actually only 10% implem
-- meeting: '2026-05-20'
-  idea_ref: IDEA-0065
-  excerpt: David Olsson and Juan discussed how cybersecurity, once an exclusive and lucrative field, has shifted as powerful models now allow teams to understand the landscape and perform exploitative work more effectively, which creates new dangers.
-- meeting: '2026-06-10'
-  idea_ref: IDEA-0091
-  excerpt: 'David Olsson is preparing to migrate to new peer group software for the 8 a.m. meeting, which will automate email management and build a knowledge graph for the team (00:02:52). David Olsson plans to resolve an internal server error on the '
-- meeting: '2026-06-10'
-  idea_ref: IDEA-0099
-  excerpt: David Olsson discussed the logistical challenges of managing the upcoming hardware cluster, noting that the partnership involves the Canadian government's AI Access Compute Fund (00:27:05). Operating this infrastructure requires constant sc
-- meeting: '2026-06-24'
-  idea_ref: IDEA-0112
-  excerpt: James shares their current professional experience acting as a bridge between investment and client service teams, using Claude as a drafting partner to synthesize technical investment information into client-ready documents (00:02:15). Dav
+- meeting: '2025-10-01'
+  idea_ref: IDEA-0573
+  excerpt: David Olsson contrasted the Canadian conference with an event in San Francisco called "All In," suggesting that major decisions in the AI space are being made at the latter. Jason Kryski confirmed awareness of the "All-In" podcast event, no
+- meeting: '2025-10-01'
+  idea_ref: IDEA-0576
+  excerpt: 'Ying shared survey results indicating Canada ranks 44th out of 47 countries in AI readiness, attributing this to cultural differences where Western societies perceive AI as a threat, unlike Eastern cultures that see it as beneficial (00:29:'
 trajectory: steady
-created: '2026-06-25T14:36:57Z'
-updated: '2026-06-25T14:36:57Z'
+created: '2026-06-25T17:20:56Z'
+updated: '2026-06-25T17:20:56Z'

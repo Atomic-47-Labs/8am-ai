@@ -1,0 +1,1242 @@
+meeting:
+  date: '2024-11-06'
+  title: 8am-AI 2024-11-06
+  participants:
+  - Jason Kryski
+  - David Olsson
+  - Fulvio Ciano
+  - James Giroday
+  - Hanif Janmohamed
+  duration_s: 3881.431
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Jason Kryski
+  t_start: 245.475
+  t_end: 246.215
+  text: Dave.
+- id: u2
+  speaker: David Olsson
+  t_start: 250.875
+  t_end: 252.099
+  text: Good morning. Can you hear me?
+- id: u3
+  speaker: Jason Kryski
+  t_start: 252.187
+  t_end: 253.895
+  text: Yeah. How can. How are you doing?
+- id: u4
+  speaker: David Olsson
+  t_start: 254.795
+  t_end: 255.775
+  text: Not too bad.
+- id: u5
+  speaker: Jason Kryski
+  t_start: 256.495
+  t_end: 261.275
+  text: Oh, not bad. It's been a kind of crazy 24 hours.
+- id: u6
+  speaker: David Olsson
+  t_start: 262.575
+  t_end: 265.487
+  text: Yeah. In your world or in the world? Both.
+- id: u7
+  speaker: Jason Kryski
+  t_start: 265.631
+  t_end: 270.703
+  text: You know, my Jamie's. Jimmy's cat got hit by a car.
+- id: u8
+  speaker: David Olsson
+  t_start: 270.759
+  t_end: 272.275
+  text: Last night, so I had to go and.
+- id: u9
+  speaker: Jason Kryski
+  t_start: 273.575
+  t_end: 295.115
+  text: Yeah. Handle that and, you know, go to the animal hospital and, you know, they're like, well, it's gonna be like 10 or 15 grand. And you're like, oh, my God. That's probably not, you know, in the budget for a cat, but, you know, whole. Whole process managing everybody's, you know, emotions and, you know.
+- id: u10
+  speaker: David Olsson
+  t_start: 295.155
+  t_end: 296.103
+  text: Oh, God. Yeah.
+- id: u11
+  speaker: Jason Kryski
+  t_start: 296.035
+  t_end: 296.815
+  text: Whole thing.
+- id: u12
+  speaker: David Olsson
+  t_start: 297.195
+  t_end: 298.071
+  text: Yeah. Yeah.
+- id: u13
+  speaker: Jason Kryski
+  t_start: 297.955
+  t_end: 310.035
+  text: So some of that and then this whole, like, kind of, you know, Trump thing overlaid on top of it. Yeah, that's pretty. I think it's great, man. Like, look at these AI stocks popping this morning. Bitcoin's up. Everybody's like, let's go.
+- id: u14
+  speaker: David Olsson
+  t_start: 311.015
+  t_end: 356.905
+  text: Yeah. So it's. It's gonna be. Oh, I saw two versions of me there for a second. Good morning. Full deal. Yeah, that. That's gonna be a thing. 2016, I went down to Boulder, Colorado, after the election to techstars, and I got a ride from Denver to Boulder in, you know, one of those scheduled minivan kind of. Or minibuses kind of experiences. And it was a old school hippie woman driving this minivan, like, her job. Right. She was finishing her PhD in Boulder University, and she literally had, like. She was, you know, could have been any decade, but she had the hippie look. And the first thing was after. After asking me who where I was coming from, she apologized.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 358.805
+  t_end: 362.165
+  text: And I'm like, isn't that the Canadian to apologize?
+- id: u16
+  speaker: David Olsson
+  t_start: 362.245
+  t_end: 362.745
+  text: Yeah.
+- id: u17
+  speaker: Jason Kryski
+  t_start: 362.597
+  t_end: 363.097
+  text: And then.
+- id: u18
+  speaker: David Olsson
+  t_start: 362.901
+  t_end: 369.185
+  text: So that was how that went. And I'm like, eventually I could just listen. And then eventually she stopped.
+- id: u19
+  speaker: Jason Kryski
+  t_start: 370.725
+  t_end: 372.397
+  text: People have strong feelings.
+- id: u20
+  speaker: David Olsson
+  t_start: 372.581
+  t_end: 378.869
+  text: Yeah. And so it's a big deal what's happening. But I remember 2016-2020, and I made more money.
+- id: u21
+  speaker: Jason Kryski
+  t_start: 378.917
+  t_end: 381.005
+  text: I made more money in those four years than I've ever made.
+- id: u22
+  speaker: David Olsson
+  t_start: 381.045
+  t_end: 386.705
+  text: I mean, I remember you making bank a few times. I heard it third hand, and how much you made was ridiculous.
+- id: u23
+  speaker: Jason Kryski
+  t_start: 387.825
+  t_end: 399.457
+  text: I mean, like, the guy's an asshole, but, like, policies seem to work out. So I think, well, everybody, as long as everybody can kind of, like, settle down, I think it'll be fine.
+- id: u24
+  speaker: David Olsson
+  t_start: 399.601
+  t_end: 414.513
+  text: Yeah. And then, you know, there's two sides to things as it hits us in this room. There's the entrepreneurial side, which, you know, could be positive, could be negative. And then there's the social side, which, you know, is for us to consume over beverages in another room.
+- id: u25
+  speaker: Jason Kryski
+  t_start: 414.609
+  t_end: 415.109
+  text: Yeah.
+- id: u26
+  speaker: David Olsson
+  t_start: 415.073
+  t_end: 423.777
+  text: If I may say, because I went away for the weekend with Eric and some friends and, and, and did 171 holes of golf.
+- id: u27
+  speaker: Jason Kryski
+  t_start: 423.961
+  t_end: 424.673
+  text: Disc golf.
+- id: u28
+  speaker: David Olsson
+  t_start: 424.729
+  t_end: 438.565
+  text: Disc golf. It was still a lot. But I, I learned two things because it's been a while since I've been in a group. And one, you know, politics and homelessness. You want to see a room divide quickly.
+- id: u29
+  speaker: Jason Kryski
+  t_start: 441.905
+  t_end: 444.645
+  text: I mean, I'm not wearing my maggot hat for a reason.
+- id: u30
+  speaker: David Olsson
+  t_start: 446.245
+  t_end: 473.255
+  text: Yeah. So it's, it was interesting. And that was, and that's going to be our appetite for a while, I think, is digesting what it means, especially to women and all kinds of other people that he doesn't have a lot of concern for. But, you know, as you say, the AI stocks are going to pop, business is going to like this, and there's two things going on. People live in America, but we live in the world and we follow their lead.
+- id: u31
+  speaker: Jason Kryski
+  t_start: 473.375
+  t_end: 500.973
+  text: So I always take solace in the data when you just to kind of like wrap this up. Like, yeah, every group moved that direction. There wasn't like anybody was like, you know, every group, like it was. It's bananas. So it's like, it's not like it didn't seem like an increase in polarization, you know, in terms of the electorate. It seemed like the entire electorate moved that, that direction. So something we said for that.
+- id: u32
+  speaker: David Olsson
+  t_start: 501.149
+  t_end: 513.621
+  text: Yeah, you don't know. We had our election in the province and it was just as silly and just as finite. So I don't know. It seemed like the last time in 2016, we had lined up with a provincial election. I'm not sure we did.
+- id: u33
+  speaker: Jason Kryski
+  t_start: 513.773
+  t_end: 571.305
+  text: So just to kind of segue this into the topic of the group looking and listening to a bunch of the kind of strategists and data people that are on the. They're like, you know, why didn't AI play a bigger factor in the election? Like, we expected, like, kind of deep stakes and a ton of like, you know, automation. And really there was like resistance in both campaigns to utilizing even like AI automated like Robo calling all these things because they're just. There's so much uncertainty around the social implications and acceptance and blowback that it kind of. Even though these technologies could have advantaged their position, there were just so much uncertainty around the utilization of it. So does that get figured out over the next four years? How does society adapt to these things becoming more commonplace and then eventually how does that change things?
+- id: u34
+  speaker: David Olsson
+  t_start: 571.685
+  t_end: 601.055
+  text: Well, that's interesting, I think, how it can change things. It'll start running the government. But the one thing that you're commenting on is our experience of AI in the collaboration of possibly bringing someone into the office. I'll just use two words, Cambridge Analytics. And if you don't think that behind the scenes, there was almost a billion dollars spent on simulating and all kinds of deep research and profiling.
+- id: u35
+  speaker: Jason Kryski
+  t_start: 601.595
+  t_end: 609.315
+  text: So actually, if you guys want to take. I'll take three minutes. Actually, I know exactly how that happened because I was kind of in the center.
+- id: u36
+  speaker: David Olsson
+  t_start: 609.475
+  t_end: 628.795
+  text: Not come back before you do that. On my way to Boulder, Colorado, I met the guy who started doing the social campaigning for back when social was starting to be a big thing for Obama, had to hand it off to somebody bigger. And back then, the social was the part that they thought that was a magic I'll hand off.
+- id: u37
+  speaker: Jason Kryski
+  t_start: 628.955
+  t_end: 678.597
+  text: So I met Alexander Nix, the CEO of Cambridge Analytica, in Thailand at an event right around this time, right after the election. And he was there because the guys that actually did all of the advertising buying for the Trump campaign in 2016 were Canadian. They're from Victoria, and so they're like good friends of mine. And how they kind of got wrapped up, and that's a whole different story. But the reality is that they tried the Cambridge Analytica data for targeting, and they found that the Facebook data itself performed significantly better. And so, like, when this all kind of broke out in the news, documentaries come out, Cambridge Analytica, Facebook's, you know, fell on its sword, and it's like, yeah, we shouldn't let this data out there. These guys are terrible. But the real reality was that it was the Facebook data, which was much more effective in targeting the kind of campaigning that they were doing and not.
+- id: u38
+  speaker: Fulvio Ciano
+  t_start: 678.621
+  t_end: 680.181
+  text: The Cambridge Analytica data.
+- id: u39
+  speaker: Jason Kryski
+  t_start: 680.293
+  t_end: 684.645
+  text: So Facebook was quick to bury that story. No one really knows the truth around what happened there.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 684.685
+  t_end: 685.269
+  text: Right.
+- id: u41
+  speaker: Jason Kryski
+  t_start: 685.437
+  t_end: 689.081
+  text: So fascinating. Just kind of like, that's a real thing. Yeah.
+- id: u42
+  speaker: David Olsson
+  t_start: 688.791
+  t_end: 715.919
+  text: How I just bring them up, because behind the scenes, if anybody hired me, the first thing I do is simulate everything that we're doing. And the next thing is you just get more granular and you get more granular. And because they have a person of interest, like systems that now we can see that in this room, we're building them. Right. Search is our biggest tool. Once we have extant search, we rule the world.
+- id: u43
+  speaker: Jason Kryski
+  t_start: 716.087
+  t_end: 716.639
+  text: Yeah.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 716.727
+  t_end: 717.227
+  text: Well, I think.
+- id: u45
+  speaker: Jason Kryski
+  t_start: 717.255
+  t_end: 738.915
+  text: And interestingly, on the Cambridge Analytica data, the place where it was effective was at the ground level, like canvassing apps that they built in order to activate doors. The model that they built didn't translate to the kind of digital world, and Facebook's like, you know, machine learning models were more effective. So I don't know what that kind of tells us, but I thought it was interesting.
+- id: u46
+  speaker: David Olsson
+  t_start: 739.255
+  t_end: 871.815
+  text: As LMS gets the opportunity to introduce AI as an administrative later, then I think we'll see the next election being completely driven by AI over the top of the covers, right? Here's our app, here's our interface. You always have an AI, you always have a chat bot, you always have. You always have an avatar that you're dealing with. And they'll deep clone themselves effectively well from now to when and start running with things, because guess what? That's what I would do, right? And my mind is very similar to theirs in the way that they can see systems and how they can go down that path. How they built these systems is just having a very simple design pattern in play and being able to build on top of that. Snowden was a genius, and. But he was a genius at the right time, in the right place, and he understood networks and network information. Not the ability to create networks and travel information over it, but the information as it traveled over it. And then being able to pipe the shit out of that and then do basically, you know, a ton of inference and summarization. We're in the space now. This is like drinking water. And everybody has the opportunity to do all this, and we're finding that the only ones making money out are the ones that are building the capacity for it. So we'll see. We'll see what happens when they have the opportunity to look at real problems like a city and say, we can monitor the shit out of this. Because I've talked to Lance about this and, you know, if I had access to the cameras here in town, I would make this city run better. But you know what? The first thing that everybody thinks of is, what are you going to do with it? And that's, you know, and that's why Trump paid $100 million or $170 million or whatever. He probably paid a quarter. He probably paid way more than he ever said he did, is so that he can overcome that question, right? He doesn't have to answer that question now. He can actually just do what he wants to do. But it still comes back to the how you going to do shit that you want to do? You know, the cusp of things changing is so fast. Foveo. I don't know how. How you see programming right now and how you see it in two years, but I would suggest it's non existent for you and I in two years yet we could probably still be in the drive.
+- id: u47
+  speaker: Fulvio Ciano
+  t_start: 871.895
+  t_end: 905.775
+  text: What people are doing now is just not what they're going to be doing in two years. I mean what I did, what I did 30 years was a little different from what I did 20 years ago and then was a little different from what I did 15 and 10. But like the difference between where we are this morning as far as you know what, what is already very different from a year ago, that's for sure. For me, it's enormous from this morning to a year ago. I cannot tell you where it's going to be.
+- id: u48
+  speaker: David Olsson
+  t_start: 905.895
+  t_end: 906.535
+  text: Right.
+- id: u49
+  speaker: Fulvio Ciano
+  t_start: 906.695
+  t_end: 909.359
+  text: I will take, I will give you a shorter time frame. Six months.
+- id: u50
+  speaker: David Olsson
+  t_start: 909.487
+  t_end: 910.783
+  text: Yeah, I know that's, that's.
+- id: u51
+  speaker: Fulvio Ciano
+  t_start: 910.919
+  t_end: 920.911
+  text: I do not know how I'm going to be. I do not know the method and process I will be using in six months. It will involve AI I think that's an easy bet.
+- id: u52
+  speaker: David Olsson
+  t_start: 920.983
+  t_end: 933.083
+  text: But yeah, that's, that's, that's the crazy thing is that I think we're sunsetting is phenomenally fast in software. Like it's crazy how fast we're sunsetting.
+- id: u53
+  speaker: Fulvio Ciano
+  t_start: 933.219
+  t_end: 968.623
+  text: And so there was an interesting, there was an interesting someone important, you know, I should say. So I should say the name, but I can't remember who said it. I wish I could. So sorry, I can't. Guys, he was trying to explain. Oh, I think it might have been Sam Altman now that I think about it. Sam Altman, you say you could take two approaches. He was talking about a dichotomy of approaches towards AI and that is you can do, you can make a bet on what a doesn't do well and do that right. That's one of the bets you can make. Did you see that interview?
+- id: u54
+  speaker: David Olsson
+  t_start: 968.759
+  t_end: 972.711
+  text: No, I just like that's a good, that's a really heavy bet, right.
+- id: u55
+  speaker: Fulvio Ciano
+  t_start: 972.783
+  t_end: 991.961
+  text: Or the better bet is bet that AI will get better and be able to do that too. And you can leverage AI and he recommends the latter. Yeah, he does not recommend you try to find a home doing what AI doesn't do well now because that's going to change.
+- id: u56
+  speaker: David Olsson
+  t_start: 992.073
+  t_end: 1021.485
+  text: How about if it's Sam Altman, I don't want to listen to anything that says and I'll just blow a hole right in the middle of that. And that's. We're doing exactly what it's not doing well right now. And that's what we'll, and that's what we'll continue to do is we'll do whatever it doesn't do well, we'll do that. That's. That's what we do. We sit on top of it. We do what it doesn't do well. And so, you know, these people are not that. Right. They're finding ways to push their shit. The guy's become who he is. He is just a power monger, right? He has been proven to be that. He is being supported as such. He is.
+- id: u57
+  speaker: Fulvio Ciano
+  t_start: 1021.565
+  t_end: 1034.573
+  text: I'm not speaking to any of that. I'm speaking to the fact that what he was really saying is that it's all going to change, right? Because that's really what that. That's really what he's saying, is that what it doesn't do well right now, it's going to do well later now.
+- id: u58
+  speaker: David Olsson
+  t_start: 1034.629
+  t_end: 1084.965
+  text: Yeah, that's great. Because it's better. And so when O1 came out, I was like, okay, that's great. I can drive the architect faster and harder. It still the rigor of whatever you throw underneath it, and that's kind of where I land with all this stuff is like, how do you know anything, right? How do you know what you're doing? Oh, you know, you can make it. You can get it to make a landing page. But how do you know it's effective? Like, what do you do? I'm asking that as a question. How do you know it's effective if you go work with an LLM and say you're inside Klein and you're like, drill. I've done it. I've built websites. I like their design. They look okay. They're funky. I did Criterion trade, you know, I showed it and then like, okay.
+- id: u59
+  speaker: Jason Kryski
+  t_start: 1089.625
+  t_end: 1098.531
+  text: How do you know you gotta get a measure, right? Yeah, obviously, yeah. And then, and then what are the dimensions that you're measuring?
+- id: u60
+  speaker: David Olsson
+  t_start: 1098.603
+  t_end: 1099.103
+  text: Right?
+- id: u61
+  speaker: Jason Kryski
+  t_start: 1098.875
+  t_end: 1113.803
+  text: Like, this is the thing that, like, you know, we've talked about this, but it like really fucks me up. It's like multidimensional in measurement. And you have to have some sort of, like, you know, Bayesian solution to be able to kind of determine that and compare that to what's happening, right?
+- id: u62
+  speaker: David Olsson
+  t_start: 1113.859
+  t_end: 1349.525
+  text: So if you start with some KPIs, then maybe you can get out the other end and measure them. Maybe, right? So what are the KPIs that we look for? And I've suggested right now everybody's not looking at the KPIs, they're looking at the result. And if you start with some sense of what the actual way of measuring things is to your point, then you can get to the end. I need a website. Up tooth suite for work Sona. That actually gets to the point of selling it for investment. And I'm like, putting up content, I'm writing all this other stuff. And then I'm like, well, what the fuck? Spending all this time with Jason and this is just selling. So we're going to go direct to consumer, direct to whomever with this. And then I have a framework to say that, well, this is the pattern to sell anything. And I can then start measuring the sections and then I can start doing the applied things to it and then see if that works, you know, and then if I go look at my, you know, who I'm studying to see what I like out there, they, you know, they're doing pretty much the same thing. They might be spicing it up a bit, but there's only so many ways to do that. So, you know, I go down the path of, you know, what is involved in a page. You got to hear a section, and Jason point me out if I'm wrong. But then you have the solution introduction, then you have the product features and benefits, and then you get into some sort of social proof or pressure, and then there's calls to action, trust builders of some sort that stray people out from there. Then you get some sort of fact or information knowledge base that allows you to be authoritative, and then you make your final decision. Now, I'm sure there's other ways of doing that, and in fact, I've done other ways of doing that with Jason. But what I got to is like, I just needed something to go with. And then I'm like, okay, so those are the sections. Great. What are the purpose of the sections? And this has been the whole question around everything that I've been doing with Jason. What is the point of any of this? You know, what are the points of all of those things? What do they do? What is the compound nature of the experience of seven sections or eight sections or nine sections on a page that build enough confidence to spend 35 bucks on something? The odds are if it's spending more than 35 bucks, then the page won't work in the same way, from what we understand. But that's just another assumption. But I can build out the message prompt so that it's doing the right thing and then give the content prompts. Then I get the question what it should do. The LLM is testing this. Tell me this. And then I can say, well, what are the answers for this? And it's a sleep solution. It keeps giving me sleep solutions because I made that. And then the output and then how to score things. And then these are of course, our heuristics that are internal to itself and don't have integrity beyond itself. And then, you know, Jason's quick to say d
+- id: u63
+  speaker: James Giroday
+  t_start: 1352.425
+  t_end: 1355.565
+  text: Fulvia, you got a question? Still.
+- id: u64
+  speaker: Fulvio Ciano
+  t_start: 1357.425
+  t_end: 1363.965
+  text: It'S a couple of topics back, so I'll let it, let it evaporate. Go ahead, James.
+- id: u65
+  speaker: James Giroday
+  t_start: 1365.185
+  t_end: 1469.445
+  text: Okay, I was just wanted to clarify the question. What are you trying to do with the site? And what I was thinking about was I've actually among my mindlessly scrolling stuff trying to cull it, but LinkedIn seems to still come up with some useful stuff like statistics and visual capitalist stuff and stuff like that. But there's a particular thing that I keep seeing, which is like products before and after they were successful. One example is RXBar. Can you picture an RXBar? It's like brown or blue. And it has like labeling on the front of the ingredients, like three egg whites, two almonds, whatever. And they show an RX bar like five or 10 years ago. And it's like, well, zero dollars of sales. And then it's like new packaging, $300 million of sales. And obviously there's a lot else that probably happened in there, but the wrapper is better for sure. And yeah, like, that was kind of what I was wondering about what you're trying to get done with your page, like, maybe. And honestly, this is a question that comes up a lot when I'm just talking with friends about what's AI going to do for us, any of us? I mean, with Fulvio and the software example, it's extremely clear. It's super valuable as like a cursor or whatever, you know, or the same. But yeah, like, I think people like, if you can boil it down to anything that it'll do for anybody, like that's. And making it really easy to understand, maybe that's a way to make it more sellable.
+- id: u66
+  speaker: David Olsson
+  t_start: 1470.225
+  t_end: 1494.075
+  text: Yeah. So on my website, the one section that I think is valuable is the use cases and I want to have five of them. And that's what I'm getting to the point where I will then have an interview that will ask me the questions as to what the value propositions are. Yeah, I like the idea of the wrapper being that's all this is. But the wrapper in this case is trying to find the value prop. Well, so I'm surface that as a.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 1496.095
+  t_end: 1596.455
+  text: So there's an anecdotal story here somewhere. Polls. A lot of people have been complaining the polls were wrong. Right. We're used to analyzing things in quantitative ways and being really kind of. We like quantitative things because we all have a basic understanding of math. So we know three is bigger than two, two is bigger than one, four is bigger than three, so forth. And like AI can clearly do that stuff. Right. And AI could have been very useful in polling, but like it's the, the qualitative analysis or the deep understanding that or insights that AI can collect that might actually be a lot more useful than numerical KPIs because a lot of people are using automation and AI to get data which they then don't understand or can't interpret because they're using automation or AI just to generate a number. Right. And so like the deeper way to anal. To use AI, which is I guess a big nod to some stuff that David's doing. And I know Jason's Doing too isn't like, just show me a chart and like, you know, plot. Right. Which. Which path is better. You need a lot more sophisticated analysis than that. It doesn't just drive, like, because KPIs often are used to describe quantitative results. Right?
+- id: u68
+  speaker: David Olsson
+  t_start: 1597.075
+  t_end: 1602.769
+  text: Yeah, Yeah, I guess so. But KPIs can be anything. And I can make them up out of qualitative. I've, you know, been part of my.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1602.857
+  t_end: 1607.033
+  text: Well, that's why I said sometimes I realize they shouldn't be the LLM.
+- id: u70
+  speaker: David Olsson
+  t_start: 1607.169
+  t_end: 1620.457
+  text: The LLM is massively. I. I just use this one word. Without this one word, I have nothing to do. Framework. You take anything, you can make a framework out of it, you can score it. I've proven that. And so everything is called everything. Qual is quant.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 1620.521
+  t_end: 1621.021
+  text: Yeah.
+- id: u72
+  speaker: David Olsson
+  t_start: 1620.793
+  t_end: 1621.445
+  text: Jace.
+- id: u73
+  speaker: Jason Kryski
+  t_start: 1622.385
+  t_end: 1632.011
+  text: Yeah. I think I can always come back to this David Ogilvy quote that talks about. Since the trouble with market research is that people don't think what they feel. They don't say what they think and they don't do what they say.
+- id: u74
+  speaker: David Olsson
+  t_start: 1632.113
+  t_end: 1632.631
+  text: Yeah.
+- id: u75
+  speaker: Jason Kryski
+  t_start: 1632.743
+  t_end: 1773.925
+  text: And so people don't have access to their behavior. That's why I've been so balls deep in this fucking French philosophy for the last two weeks. Like, I've been trying to really kind of get down to the. The nitty gritty around like, behavior, motivation and in, you know, incentive a little bit. But to kind of answer your earlier question, James, like, in terms of the value around these qualitative things, like David and Fulvia are saying, it's about the, like the generation of the hypotheses around what might matter and then the expression of those things and then the usage of other technology to be able to measure those on some dimension to create a feedback loop that is so rapid. And I can only speak to the experience in my industry that. Because this is like done with like people and Monday.com boards and, you know, synchronous meetings, like the length of time to kind of like prove anything like that, like that out. Like, the founder of RXBar actually talks about the insight that he got around that packaging was from a company in Europe that was doing something similar in a different industry that he thought was really valuable. And it was a huge unlock. And so he's got a new company called David Bar, which is like this super protein bar. And if you go to their website, you know, they like basically compare, you know, different bars and then they've got a piece of cod fish, like to be like, how much protein per gram to show that their bar. And it's kind of blown that. If you go to that page. Yeah. And you click on. And you scroll down to the bottom, it's got this comparison table that shows that their protein bar has more protein per gram than cod. And that, like, that's, like blowing up this product. And again, it's a weird. Yeah. 85% of protein from the calories there. And this illustration has kind of blown up. And so, like, in terms of, like, that key insight, the thing that, like, actually gets in people's brains to help them understand the value proposition is really ephemeral and usually takes a ton of experimentation. So, like, my hope is that we can, like, you know, work these LLM pipelines to kind of come up with these hypotheses so they can be rapidly tested.
+- id: u76
+  speaker: James Giroday
+  t_start: 1774.715
+  t_end: 1792.575
+  text: This reminds me of a post that I have in my kitchen of dollars per gram of protein for different sources, like, tofu stuff. When I tell people that, they're like, you did what? That took you how long? But honestly, it's still there. Yeah, yeah. These are. That's super interesting.
+- id: u77
+  speaker: Jason Kryski
+  t_start: 1793.035
+  t_end: 1824.605
+  text: Yeah, yeah. I think it's like speed to understanding, or at least like honing in the understanding space to understand the. Because what I've kind of arrived at is that there are only a few key things that tend to break through that make their way into people's minds. I'm trying to find what's that inroad into people's minds to be able to find those things, to drive the AI, to be able to come up with those hypotheses. But that's proven elusive thus far.
+- id: u78
+  speaker: James Giroday
+  t_start: 1825.065
+  t_end: 1840.015
+  text: I think value proposition is there, but the simplicity thing on the wrapper, too, is another. Like, knowing the ingredients is another piece. You're like, well, it's egg whites. I trust those. That's different than the other shit that I'm getting in different bars.
+- id: u79
+  speaker: David Olsson
+  t_start: 1841.795
+  t_end: 1890.225
+  text: Yeah, yeah. How far you roll back. The motivation is interesting, Right. I think there's a conflict. Like, the page is meant to increase the likelihood of being susceptible. It's all about persuasion. This one does actually follow the pattern, and it fucks with the pattern a little bit, and it overloads the pattern with doubling up and tripling up. And it really gets at a few points, right. So it's. And, you know, it's called action is really obvious. Here's a social. And then here's your cta and you identify the classic. I'm shoving it in my mouth like a something, and there's plenty more where that came from. And here, look at. She's giving it to her, it's a, her thing all about her.
+- id: u80
+  speaker: Jason Kryski
+  t_start: 1891.725
+  t_end: 1896.269
+  text: The, the, the, the, all the framing is really interesting.
+- id: u81
+  speaker: Fulvio Ciano
+  t_start: 1896.397
+  t_end: 1896.897
+  text: Yeah.
+- id: u82
+  speaker: Jason Kryski
+  t_start: 1896.893
+  t_end: 1900.905
+  text: And it's like a little bit of the medium is the message, type of.
+- id: u83
+  speaker: David Olsson
+  t_start: 1901.245
+  t_end: 1901.861
+  text: A lot of that.
+- id: u84
+  speaker: Jason Kryski
+  t_start: 1901.893
+  t_end: 1967.441
+  text: Yeah, a lot of that. Like, so this particular brand, you know, they've been very successful on TikTok. TikTok has an expectation like as a audience, that whatever is presented to them for a purchasing opportunity is somehow an exceptional deal. And maybe that's because it's, you know, got this Chinese basis and it's got like, you know, Temu and Tmall and like Alibaba kind of like built into it. But unless you're selling something on TikTok and it's like significantly discounted it, people do not buy it. So these guys, you know, put together a promotion for TikTok where it's, you know, 30% lower than you can find anywhere else. And they've been able to like explode it out that way. But if they weren't doing that and they tried it without, it just didn't work. So like this framing of like, where is the person who's consuming whatever they're consuming at? Where do they come from? Is it a Google search? Do they have demand? You know, is it a discovery thing from some, you know, social platform? And so the framing that the person's in makes them receptive to different messaging, almost more so than any other dimension that I've been able to find so far.
+- id: u85
+  speaker: David Olsson
+  t_start: 1967.553
+  t_end: 2026.365
+  text: Yeah, yeah, it's the fastest consumption of multimedia. Right. Like it hits you at all. Sensory as much as you can with a flat screen. And the narrative is like heroin. And so that's the part like if you point to the fact that people have a difficulty describing how they feel and then, you know, describing how they're aware of something, like they'll tell you about something based on you wanting to know something instead of them being honest about it. Right. So like where, where you plug into the machine is very interesting, but the context is everything. And so if you're in a very multi multimedia rich environment, then that can cover up the whole of the story or it can be the whole of the story. And now we're in the space of intelligence, so it can be very much a different kind of experience. Right. These, this, this page is, is, is brutal. It is, it is brutal in its approach.
+- id: u86
+  speaker: Jason Kryski
+  t_start: 2027.225
+  t_end: 2050.037
+  text: Yeah. I mean, that's why I've been in this into Baudrillard lately and the simulation of simulacra and this like, concept of like hyper reality and like how the representation of reality changes through. Through media and like what the application is with the LLMs through that. Because I think that's. There's something there that we haven't quite pieced together yet that I'm trying to chase down.
+- id: u87
+  speaker: David Olsson
+  t_start: 2050.181
+  t_end: 2120.315
+  text: Well, how about this? This whole page is information, right? And we're talking about the experience of intelligence. And in the case where the page is information, we're trying to create the intelligence on our own. We don't have a conversation to ask it deeper questions. We don't have any conversational way of working with it. It's just a reflection. If the reflection works really well, and this is Baudrillard for sure, and this is, you know, society, the spectacle crap all over the place. If the reflection works really well, then we identify with it and we promote it. And that's what you're trying to do is you set up a first. Does the landing page, you know, reflect the ad? That's the first reflection. And you're working primarily at the media level in a simple message. And then you're looking to expose the benefits, value and the complexity or sort of complexity of that message later. But there is a lot to this movement from information to intelligence. And what that is at a societal level is very interesting. Right. So you're. Jason, what I like what you're doing is you're not. Maybe I'll ask this question. It seems like you've moved from individual and personalization to understand society as a, as a, as an entity and recognizing that it has some value based on Baudrillard and his recognition that it moves like an organism. Right?
+- id: u88
+  speaker: Jason Kryski
+  t_start: 2121.975
+  t_end: 2194.215
+  text: Yeah, I think it was a forced constraint because of my inability to actually kind of like measure and drive that personalization, you know, like I only have. You only have so much measurement data to be able to create that feedback loop, like dwell time, you know, time on site. Like how long someone look at something and then trying to infer from that. It just kind of gets me to think about something we talked about last week too, where I think Foveo, you brought up that when these models are trained only on singular languages, they don't perform as well. And I looked into that a little bit and was looking at this comparison tables of syllables per second and information rate bits per second of different languages and the high degree of variability between different languages. It's like, well, how does that actually, is that a dimension that maybe like supports the ability of the LLM to be able to be more effective when it has different, these different information densities per language and how does that shape what its perspective or output is? That's kind of like beyond my kind of grasp, but it's something that I'm kind of pulling on.
+- id: u89
+  speaker: Fulvio Ciano
+  t_start: 2195.635
+  t_end: 2328.995
+  text: Well, everybody measures across the board. People. One of the measurements they use to talk about, you want to use a word carefully here. The size of a model is the number of tokens, right? Like we all hear, you know, this size token or that size. Sorry, this number of tokens that model, that size of the tokens of that model. The tokens are generated when digesting data. And for text models, that's words, right? That's not one to one. Right? We all know it's not one to one. It's not one word to one token. It's about. I think it's about, you know, three token, sorry, three tokens for two words, something like that, because of the average size of the word or whatever. But the very. I think when you add languages, the. There's a greater variability of concepts and things you can. Tokens, you can get out of tokens to become internally useful in the model. And. But then language, individual languages have. They're not the same, right? Some languages have a. Have a tighter coupling probably between the words in a language and the tokens and so they're going to perform differently. Grammars are very. English is my third language, so I have some personal experience with the deep variety in the way languages work. They're not all the same. There really are properties that are fundamentally different from one language to another. They just share that humans use them and some other things, of course, know all sorts of like, you know, pitch matters in some languages, doesn't matter in English, all sorts of like that. But yeah, there's. It's interesting. We can't read the tokens, right. We can't read the language internal to these models. And I think that's where a lot of the hidden understanding is. Right. But not that we're going to. We're not going to learn to speak. We're not going to learn to speak lama to better use models.
+- id: u90
+  speaker: Jason Kryski
+  t_start: 2336.655
+  t_end: 2346.035
+  text: It reminds me of like, you know, the scene in the Matrix where they're like looking at the Matrix and looking at the code and you're like, oh, this is what's happening. Blah, blah, red hat.
+- id: u91
+  speaker: Fulvio Ciano
+  t_start: 2346.855
+  t_end: 2349.591
+  text: I don't think that's ever going to happen. Do you think we'll ever be able.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 2349.623
+  t_end: 2363.903
+  text: To have you guys. Did you guys see. I don't think I shared it in the channel. But that's that vision model that generates Minecraft Through a neural network with no code.
+- id: u93
+  speaker: Fulvio Ciano
+  t_start: 2364.039
+  t_end: 2367.231
+  text: Yeah, yeah, but doom as well. There's one for doom as well.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 2367.383
+  t_end: 2377.935
+  text: Yeah, I mean that's like, it's just, you know, predicting where the next pixel should be based on the input. But like at such a low latency that you can literally play a game in real time.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 2377.975
+  t_end: 2379.847
+  text: It's terrifying in real time with no code.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 2379.871
+  t_end: 2385.555
+  text: And I'm like, oh wow. Probability of simulation happening right now just went up like, you know, 10 points.
+- id: u97
+  speaker: Fulvio Ciano
+  t_start: 2388.805
+  t_end: 2390.021
+  text: Scary. That's scary stuff.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 2390.053
+  t_end: 2390.553
+  text: I don't know.
+- id: u99
+  speaker: Hanif Janmohamed
+  t_start: 2390.389
+  t_end: 2394.021
+  text: What did you come across? Edward Bernays.
+- id: u100
+  speaker: Jason Kryski
+  t_start: 2394.093
+  t_end: 2398.461
+  text: And you're rooting around deep Bernaysian.
+- id: u101
+  speaker: Hanif Janmohamed
+  t_start: 2398.613
+  t_end: 2399.385
+  text: Okay.
+- id: u102
+  speaker: Jason Kryski
+  t_start: 2401.205
+  t_end: 2409.037
+  text: Yeah. The father of public relations. If anybody has, you know, 12 hours to watch that documentary on the BBC.
+- id: u103
+  speaker: Hanif Janmohamed
+  t_start: 2409.101
+  t_end: 2411.045
+  text: I think it's century of the self.
+- id: u104
+  speaker: Jason Kryski
+  t_start: 2411.125
+  t_end: 2443.997
+  text: Century of the self that is, you know, like in the background. For anybody who's not familiar, like can you correct me if I'm wrong? But like, you know, he was Sigmund Freud's nephew and basically took the concepts of psychoanalysis and applied that to kind of like primordial marketing and understood that you could influence. And he was a father of public relations. You know, he got women to smoke, he made bacon and breakfast food. Like the number of like cultural changes that this man shaped through understanding human behavior is, you know. Diabolical.
+- id: u105
+  speaker: Hanif Janmohamed
+  t_start: 2444.141
+  t_end: 2447.685
+  text: Yeah, I think that's the right word. It's quite diabolical.
+- id: u106
+  speaker: Fulvio Ciano
+  t_start: 2447.805
+  t_end: 2449.845
+  text: Diabolical. I vote diabolical.
+- id: u107
+  speaker: Jason Kryski
+  t_start: 2449.965
+  t_end: 2464.505
+  text: Yeah, I think, yeah. I think the first episode of that documentary series is called Happiness Machines and in terms of like what they view humans as. And so like once you understand these certain lenses to be able to view human behavior through, it's just very shapable.
+- id: u108
+  speaker: Hanif Janmohamed
+  t_start: 2465.125
+  t_end: 2486.985
+  text: Yeah. But I think it's also interesting to look at the evolution of the motivators, you know, from what kind of the American dream, you know, in Bernays time to where we are now with the outrage as the, you know, currency. So where do we sit now, you know, in terms of that. How diabolical do we get?
+- id: u109
+  speaker: Fulvio Ciano
+  t_start: 2487.885
+  t_end: 2491.885
+  text: Do we keep going turtles all the way down?
+- id: u110
+  speaker: Jason Kryski
+  t_start: 2492.045
+  t_end: 2513.561
+  text: Yeah. It does feel though like there has been and maybe with this kind of election and some of the rhetoric at least you know, on the kind of type, you know, kind of communities that the. We've kind of reached some sort of crescendo on that and we're trying to like the pendulum is maybe swinging back to like some sort of normalized discourse at least.
+- id: u111
+  speaker: David Olsson
+  t_start: 2513.713
+  t_end: 2514.305
+  text: Small pocket.
+- id: u112
+  speaker: Hanif Janmohamed
+  t_start: 2514.345
+  t_end: 2515.713
+  text: Super curious about that one.
+- id: u113
+  speaker: Jason Kryski
+  t_start: 2515.769
+  t_end: 2581.685
+  text: Yeah. If you watch like any of the kind of left leaning political commentary you know, right now there's a lot of like sober reflection on like what we thought this, but this is what we saw. So what does the data tell us? And so does that currency. And you'd want to get into some neuroscience, but does that outrage currency really affect certain subsets of people based on certain exposures? And then how does that apply through this kind of hyper reality concept of simulation in terms of how information is communicated, particularly through social media? I think that's, you know, what are the, what are the levers there? Yeah, this is like deeply confusing stuff. Honestly, it's hard to keep it all. I'm trying to. How to. My challenge is like how to keep these different threads that I'm pulling on straight to like, you know, because it can't just live in the brain effectively. I feel like I need like a wall with yarn and you know, push pit.
+- id: u114
+  speaker: Fulvio Ciano
+  t_start: 2582.065
+  t_end: 2584.685
+  text: So like get out your tin foil hat.
+- id: u115
+  speaker: David Olsson
+  t_start: 2585.145
+  t_end: 2689.021
+  text: Yeah, this, this time last year I had a room and I think I showed, shared some photos with you and I did that with works on. I needed a whole room and I unraveled the whole of it with stickies, wrapped it up. I remember seeing that and there is, there is a. It was an incredible experience and it was incredibly valuable and I'm seeking the same thing. I just don't have the capacity right now in terms of room nor the thought space. But the one thing I'll put out there is that that whole experience of you learning is one that you can put in motion while you're learning it and that's probably a relevant thing. And you know, the faster we get the feedback loop the better. But if you start in mind with the feedback loop then you get a lot farther. And that's why I went down the path of the direct to consumer because I've built a number of websites already for worksona and they all had started at various different points. But I start with some place to begin with and I move on from there where I'll just review this one thing that I'm doing and where I want to get my stuff to is being able to provide this simple view of what is your input here. And then everything happens based on what I've been doing left to right previously. And so that what I want to be able to minimize at least on the input side isn't a whole, whole lot of things so that I know what's going on there. Now the next thing that happened, I want to be able to isolate that too. And I've been able to do that because of how I get the output. And Jason, for you learning about all of this, very interesting. It was incredibly formative. Me, formative to me in the 90s because it's been around for quite a long time. And I look forward to you striking into Derrida. Man, it's, it's wonderful and, and I'll help you rise out. But can I ask a question?
+- id: u116
+  speaker: James Giroday
+  t_start: 2689.133
+  t_end: 2691.597
+  text: Sorry, I should have put the raised hand thing up.
+- id: u117
+  speaker: David Olsson
+  t_start: 2691.661
+  t_end: 2692.869
+  text: Yeah, okay.
+- id: u118
+  speaker: James Giroday
+  t_start: 2692.957
+  t_end: 2741.921
+  text: But anyways, I'm just wondering if you've either read the book by Charles Duhigg, the Power of Habit, and approach this from like a habit standpoint. In that book there's a chapter on, I think it's like Alcoa or some aluminum company where they kind of just. He just talks about how like a company changes habits. It was initially around safety, then it turned into this like really pervasive management technique I think that happened to increase profits. But yeah, like habits are very marketable. If you've seen any one of the 10 billion copies of Atomic Habits out there, maybe that might be a lens to look at it through. I don't know, just an idea.
+- id: u119
+  speaker: David Olsson
+  t_start: 2742.073
+  t_end: 2942.039
+  text: 'Okay. So to that point, the practice of learning is one of those lenses. And I think that''s a great way of framing things. And the habit of using AI is what we''ve got into now. The habit of exposing those patterns is what I want to get to. But also starting the work with the notion that you''re moving in that direction is itself a habit of stepping back. And the one thing that can happen and we can talk about Jason, going down the rabbit hole of this intelligent intelligentsia, is that it''s very appealing and you have a difficult time stepping back because it continues to feed the support for itself. I found academia quite exciting because of its baked in self integrity. And that''s an unfortunate thing. Right. But if you can pull back out and say, well, these are all theorems, how can I test them? Even in the broad sense of having just an LLM and then export some stuff, then you''re working with them in a functional way, in a habitual fashion where you''re looking to get that feedback. And so a habit, the first thing that I was trying to push out there after talking to Danny Petering here was like percentage feedback. How much feedback do you want a habit of continuously getting feedback on your work? Right. And so what I''ve gotten to is recognizing there''s new information layers that we can create that are automatically created from their habit of conversations like this that create the next platform of opportunity, which is building on that very structured information to create intelligence. And then from that platform of new intelligence, you meet over that and then you discuss that and then build the next layer of intelligence on top of that. And that is a habit of understanding how to build a cadence into your work that recognizes what humans do and what AI can do effectively. Well, and so I showed, you know, the summary of a meeting. I do 30 reports to generate all these different views on a meeting so that then I have all these knowledge blobs. And you know what, I''ve been doing this thanks to James and all of you for quite a long time. And we have all of this information right now that we can then take and push through my, through my agents to then create this new layer of information, a fabric of information that is well structured, that says, here''s all of the topics that we''ve talked about and here they are all over time, and here''s a network of information. And you can find all the things hanging off of this topic by asking, what did we talk to it? And so you create this integrity of information above your experience every time. And you can do that from the level of personal information, project information to business level information, to business level information, to then strategic level information, then to societal level information. And each of those levels of information has an opportunity called knowledge, has an opportunity for intelligence on top of that as you activate it. And so my thing is like building a habit of meetings '
+- id: u120
+  speaker: James Giroday
+  t_start: 2942.207
+  t_end: 2944.759
+  text: So what if it's that simple? Then like, what if it, this is.
+- id: u121
+  speaker: David Olsson
+  t_start: 2944.767
+  t_end: 2945.789
+  text: What it should be.
+- id: u122
+  speaker: James Giroday
+  t_start: 2945.967
+  t_end: 3003.565
+  text: What if you're, you know, like, what if the landing page for Work Zone is just like, book a meeting and see what AI can do for you. And then it's like you have the meeting or whatever and then what you could, you know, it could be filled with fun, it could be filled with work, like whatever. And then the magic comes from this. You've probably already thought of this, but like the magic comes from when you just send them the analysis of what happened, like super concisely and you're like, this is what works on it is like, it's like a really concise message. Because actually that's the first thing when I'm talking with people about AI over Beers. Like what, what can it do? What, what will it do? For sure, I'm like, well, there's this thing called Fireflies. Like it's going to be taking minutes on all your meetings. And like that's like behind software coding. Like that might be the more applicable, broader use case. If you can like clearly message that, that might be an angle too.
+- id: u123
+  speaker: David Olsson
+  t_start: 3004.025
+  t_end: 3103.545
+  text: Yeah, what, what I like is that it focuses back on why I got into this. And that's the people centric notion of being able to leverage your talent as an AI. Whether we get there or not, I don't know. But, but yeah, I think there's, there's value in that perspective and being able to figure out what that habit is for you with other people, I think is an essential part of this stuff of. So another habit that I've uncovered is that meetings should always be three people and maybe work should always be three people. And that would be defining work in a new way too. And that means that every time you're doing work you have somebody that does it with you and then you have an AI that actually does the oversight and overwatch. And one can be the consumer and one can be the producer and you flip those roles as you move through the process because of the fact that you're most likely working at a strategic or intelligent intelligence level. You're not working at the production level anymore. So there's, there's, there are that habits thing is really big. And when I've been part of a peer group a lot of the time they're just trying to introduce those habits. They bring in professionals that have their own things, like the five wisdoms, you know, like that was a good one. I'm like, okay. And then. And they, and these guys make bank and these guys are coaches to the most elite, elite people in the world that you've never heard of. Right. And there's an elitism out there that gets promoted through these habits. And so some, the people like this room should succeed in that we can build our own habits around this stuff so that no matter what the tools do, we have a place to put them and they're not tromping over us. I found out a very powerful use of co pilot changed my opinion of what it can be. And then I said, can Gemini do the same thing? And I was told yes. And at which point I'm like.
+- id: u124
+  speaker: Fulvio Ciano
+  t_start: 3107.165
+  t_end: 3107.665
+  text: We.
+- id: u125
+  speaker: David Olsson
+  t_start: 3107.533
+  t_end: 3119.065
+  text: Are going to change very quickly. It has access to every fucking thing I do on the Google sphere except for notebook at lab, apparently.
+- id: u126
+  speaker: Jason Kryski
+  t_start: 3120.325
+  t_end: 3135.497
+  text: I was thinking about habits and how it relates to the entity layer in what you were saying earlier, Dave. Like it always maps back to some like emotional state that have it seek to either improve or relieve.
+- id: u127
+  speaker: David Olsson
+  t_start: 3135.681
+  t_end: 3136.181
+  text: Yeah.
+- id: u128
+  speaker: Jason Kryski
+  t_start: 3136.161
+  t_end: 3167.465
+  text: So like in a consumer product kind of, you know, modality, like James was saying, like holy grail in that world is to have some product be integrated into some sort of habit. And that habit is almost always fulfilling an emotional need in some way. And even in a company, you know, like with maybe I suspect Alcoa, like the habits there were meeting some need that like relieved or provided some output for some the emotional, you know, whole of the company or team or department.
+- id: u129
+  speaker: David Olsson
+  t_start: 3168.605
+  t_end: 3169.285
+  text: I like that.
+- id: u130
+  speaker: Jason Kryski
+  t_start: 3169.365
+  t_end: 3194.945
+  text: And figuring and figuring out what the emotional like this is a bunch of my work is always, it always comes back to feeling because everything, everything. And like even in terms there's lots of good papers about even like motivating and getting different outputs from LLMs based on providing it like emotional tone in terms of how it's rewarded in an emotional way.
+- id: u131
+  speaker: David Olsson
+  t_start: 3195.065
+  t_end: 3195.565
+  text: Yep.
+- id: u132
+  speaker: Jason Kryski
+  t_start: 3195.593
+  t_end: 3210.561
+  text: So the, you know, trying to crack the emotional motivation component of it is like is I think super important. But I hadn't thought about it through an entity level habit lens before.
+- id: u133
+  speaker: David Olsson
+  t_start: 3210.753
+  t_end: 3307.955
+  text: Well, I like that because what it does is it offloads the impetus into a workflow and a process over time. Right. A lot of the time we're moving into an activity, knowing what we know, what the solution needs to be and grinding our way to it and recognizing the amount of work to get there. It is very difficult for a lot of people. And I've only done it a few times successfully in the last year or so where I've known I've had a fairly big problem in front of me, no idea how to solve it with success and being able to do it right because of a habit I had and the habit being able to inform a calmness within me to let things happen. And the anxiety that AI gives you is pretty subtle at times because what it can do is just make you keep going. That's the experience of coding for a lot of people was for myself is that. No, I'll just keep going. And then you know, it's like, whoa, I just fell asleep. It's like because the adrenaline stops. So there's the, the I like the emotion thing because it is very difficult to estimate. But we read books and books are just words and abstractions can produce that. A line and a dot can produce that for various, you know, people that are really schooled in art. But if you move it to the, to the feeling space, emotions can be tied to chemical release. Feelings are up, and I like that. And that they are how people describe things in a very, very loose way. But they are confident in how they describe it. We use the phrase, you hurt my feelings. Try to find your feelings that were hurt.
+- id: u134
+  speaker: Jason Kryski
+  t_start: 3309.015
+  t_end: 3337.045
+  text: A small hack on the emotional side, if anyone wants to play with the prompting, is to leverage Plutchark's wheel of Emotion. Because it's just a very definitive collection of emotions that are incrementally broken down to be more specific from the center to the outside. And providing that in a prompt when you're trying to do some of that emotional work is helpful for it to kind of get more granular. Share a link in the chat.
+- id: u135
+  speaker: David Olsson
+  t_start: 3346.345
+  t_end: 3360.735
+  text: Yeah, there's. There's a. There's a handful of different wheels of emotion trying to figure out this one. He adds.
+- id: u136
+  speaker: Jason Kryski
+  t_start: 3362.075
+  t_end: 3363.979
+  text: Blue chicks is the. Is the.
+- id: u137
+  speaker: David Olsson
+  t_start: 3364.107
+  t_end: 3457.865
+  text: Yeah, the one I was pointing to allows you to understand what the polars and the next doors are. And maybe this one says that too, which is interesting because they're related in many regards. But what the neat thing about feelings is is that it is elusive in terms of studying it in many ways, but you can experience it. Liken it to the fact that, you know, you can point to good. But identifying it ahead of time or even the process to get there is not good. Meaning things change significantly. The habit of understanding that is what I would look to, you know, when Wednesdays for. In one way, I happen to be pulling out of this thing in some regard and then be able to go back into it. And maybe there's. I have theories of motion. I think motion is everything. And if you say there's feelings involved and it happens over time, and maybe you can fuck with the emotions by fucking with time. We know that daylight savings time fucks with us in so many ways. It kills my dogs, right? They're like right on time at 4:00. Now it's supposed to be 5. So maybe there's the cadence of working that can. In the cadence of delivery of messages that is really affording more opportunity. And if you look at it that way, then maybe you can start your thinking that way and then build your feedback from your thinking to your product that way. Meaning. Jason, you have way too many variables.
+- id: u138
+  speaker: Jason Kryski
+  t_start: 3460.285
+  t_end: 3479.773
+  text: It's actually like the focus part is the hard part is the hardest issue that I'm kind of like. I feel like I've been spinning for like six months and, like, learning things, but I haven't been able to, like, make effective choices to hone in. And basically, you know, we talked about this, like, you just got to make decisions, you got to test things, you got to collect data and you got to do.
+- id: u139
+  speaker: David Olsson
+  t_start: 3479.949
+  t_end: 3541.687
+  text: Yeah, and that's. And then, you know, where do you find that aggregate API that sits about things in some way, like a feeling or emotion that's above the actual tasks that get done to figure out what that emotion is? And you're working with the quant data a lot of the time to get to it. And so the framework is the other way instead of. And so you're looking to get to the emotions from quant instead of taking the emotions and quantifying them. And that's difficult. So you're probably on one side trying to quantify them, the other side, you're trying to flip the bits this way. And the large language model is right now, I think, effectively helping on one side and the other not in the middle, because there's not a lot of confidence with that. And that's, I think, the really keen opportunity. But it requires really simplified simplifying things, really simplifying things down to use it currently. And to do that, you need a lot of output all the time. And so the experimentation is vital to isolate each of these aspects. I think you have probably 10 different businesses under your belt with what you've been prototyping. And I know that I have five or six, because that's like, if I talk about them separately, then they have a path, but if you string them together, it's a monster.
+- id: u140
+  speaker: Jason Kryski
+  t_start: 3541.871
+  t_end: 3565.955
+  text: It's the entrepreneurial dilemma, you know, like, in terms of being able to kind of see, like, the kind of, you know, final thing that you want, and then, like, understanding, like, what are the pieces to stack on top of those, to be able to release incrementally in order to be able to, you know, find success with it historically, or at least with this iteration of this business that I'm building, the challenge has been, like, not doing that effectively.
+- id: u141
+  speaker: David Olsson
+  t_start: 3566.625
+  t_end: 3625.535
+  text: Right. So that's dilemma, which is spelled dilemma. Right. That phrasing right there is probably the agent you need. You need a guardian angel agent. I said angel. Probably want one of those two. But that's the cadence thing, and maybe that's the habit thing. How about maybe you need somebody to talk to every day to pull out and summarize what you've done so that you have some context on it. You'll go down the same rabbit hole or something. I'm trying to figure that out too, in my web browser. I don't know if you can See it? Yeah, you can see it up the top right here. Plan, log, retro. I'm trying to surface myself in some regard and pull myself out. So at the beginning of the day, you start with what you know, what do you want to do, and then you log through the day. What you're doing.
+- id: u142
+  speaker: Jason Kryski
+  t_start: 3628.035
+  t_end: 3640.535
+  text: Are you trading rewind Dave? Like, maybe, like, I should try using this. It basically records everything that you're doing all day and then has that context to be able to, like, drive summarization. So rewind AI.
+- id: u143
+  speaker: David Olsson
+  t_start: 3641.715
+  t_end: 3671.745
+  text: Well, that's what that is, man. That's all that is, is me being able. Machine crashing again, is wanting to be able to do. What I'm doing with the information on the project is create this longitudinal view that gives me some perspective that I'm not getting right now. And that can be quite helpful, you know, at many different levels, which my hope is to get that help on my desktop.
+- id: u144
+  speaker: Jason Kryski
+  t_start: 3672.165
+  t_end: 3681.461
+  text: Well, this technology apparently processes everything locally, so, like, and I need to just dig into that to be able to validate it.
+- id: u145
+  speaker: David Olsson
+  t_start: 3681.493
+  t_end: 3750.125
+  text: But I'll check this out for sure because I'm having a hard time using my thing because it's not automated enough for me. And that's. I'm just pointing to it as that desire to have a habit and to be able to have one that I can get into a different mode myself. Right. The problem with the room is we can get into the modes of being doers and directors and entrepreneurs and all the other things is knowing when to do that. That's the thing I think is really quite neat, is like, if you create another layer of information, it requires you to put on that other hat to work with it. Right? And so if you're at that layer of. I got these meetings. Okay, great, you had great meetings. You come out of them, you're like, wow, okay, well, now I've got this another layer of information which I can put a different hat on to. It's like, okay, I got to get things done. It's this do hat, PM hat. Well, and then on top of that, it's like, okay, I need business intelligence. Like, things are not going well over there. And then I want to enable people like clients to have the strategic intelligence. And I can't build and work with them all at the same time. And so, you know, that alone is a cadence that would be helpful is to better schedule some sort of meta version of my week.
+- id: u146
+  speaker: David Olsson
+  t_start: 3758.905
+  t_end: 3794.425
+  text: I've learned that if it repeats in my schedule, I like it. And if I get something thrown at me right away, I'm like, pretty unhappy with it. And so there's things I know about my week at 50 that I want things to be different for the next 10 years, 20 years. And right now there's all these opportunities to create these feedbacks, just really expensive in terms of our time. So I think a Wednesday is a good one. You know, start of the week, have one with somebody. Wednesday's not a bad one for an hour. And what's a Friday one look like for anybody?
+- id: u147
+  speaker: Jason Kryski
+  t_start: 3797.725
+  t_end: 3802.795
+  text: I like the concept of an energy audit. I'll share it in the channel.
+- id: u148
+  speaker: Fulvio Ciano
+  t_start: 3805.855
+  t_end: 3806.355
+  text: Review.
+- id: u149
+  speaker: Jason Kryski
+  t_start: 3806.287
+  t_end: 3819.195
+  text: Your calendar and then just like plus one, minus one gives me energy, removes energy. There's a bit of a system for how to kind of handle that, but. Yeah. Anyways, guys, this has been great.
+- id: u150
+  speaker: David Olsson
+  t_start: 3819.695
+  t_end: 3875.645
+  text: Yeah. So what I will do is I will draw down the transcripts for the. For this and I'll put them in a folder and that'll be something we have. And I bet there's something worth saying in this stuff. I'll seriously, I'll throw the 30 things at it and I'll produce 30 reports and we'll put it in. I'll put it in a mongodb, because I can do that now and we'll see what's in here. Yeah, that's something, right? Like if you do something over time, you're not going to remember everything and even the themes change, but we're these people and, and I think it's, you know, this, this morning thing for me has been really vital and that. Thanks, Jason. That. That the value shouldn't stop at 8, 45, 9, 15, 9 o'clock, whatever it is. But I'll work on that and I'll see you next week and I'm sure I'll be talking to you, some of you before then. I appreciate seeing you all in the mornings. Your head's bobbing back on board with somebody.
+- id: u151
+  speaker: James Giroday
+  t_start: 3875.805
+  t_end: 3878.683
+  text: Sounds good. Thanks, David. Have a great Wednesday.
+- id: u152
+  speaker: David Olsson
+  t_start: 3878.819
+  t_end: 3880.787
+  text: Yeah, guys, Cheers. Peace out.
+- id: u153
+  speaker: Fulvio Ciano
+  t_start: 3880.931
+  t_end: 3881.431
+  text: Peace.
+windows:
+- id: W-0001
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: Dave. Good morning. Can you hear me? Yeah. How can. How are you doing? Not too bad. Oh, not bad. It's been a kind of crazy 24 hours. Yeah. In your world or in the world? Both. You know, my Jamie's. Jimmy's cat got hit by a car. Last night, so I had to go and. Yeah. Handle that and, you know, go to the animal hospital and, you know, they're like, well, it's gonna be like 10 or 15 grand. And you're like, oh, my God. That's probably not, you know, in the budget for a cat, but, you know, whole. Whole process managing everybody's, you know, emotions and, you know. Oh, God. Yeah. Whole thing. Yeah. Yeah. So some of that and then this whole, like, kind of, you know, Trump thing overlaid on top of it. Yeah, that's pretty. I think it's great, man. Like, look at these AI stocks popping this morning. Bitcoin's up. Everybody's like, let's go.
+- id: W-0002
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  text: You know, my Jamie's. Jimmy's cat got hit by a car. Last night, so I had to go and. Yeah. Handle that and, you know, go to the animal hospital and, you know, they're like, well, it's gonna be like 10 or 15 grand. And you're like, oh, my God. That's probably not, you know, in the budget for a cat, but, you know, whole. Whole process managing everybody's, you know, emotions and, you know. Oh, God. Yeah. Whole thing. Yeah. Yeah. So some of that and then this whole, like, kind of, you know, Trump thing overlaid on top of it. Yeah, that's pretty. I think it's great, man. Like, look at these AI stocks popping this morning. Bitcoin's up. Everybody's like, let's go. Yeah. So it's. It's gonna be. Oh, I saw two versions of me there for a second. Good morning. Full deal. Yeah, that. That's gonna be a thing. 2016, I went down to Boulder, Colorado, after the election to techstars, and I got a ride from Denver to Boulder in, you know, one of those scheduled minivan kind of. Or minibuses kind of experiences. And it was a old school hippie woman driving this minivan, like, her job. Right. She was finishing her PhD in Boulder University, and she literally had, like. She was, you know, could have been any decade, but she had the hippie look. And the first thing was after. After asking me who where I was coming from, she apologized. And I'm like, isn't that the Canadian to apologize? Yeah. And then. So that was how that went. And I'm like, eventually I could just listen. And then eventually she stopped. People have strong feelings. Yeah. And so it's a big deal what's happening. But I remember 2016-2020, and I made more money. I made more money in those four years than I've ever made. I mean, I remember you making bank a few times. I heard it third hand, and how much you made was ridiculous. I mean, like, the guy's an asshole, but, like, policies seem to work out. So I think, well, everybody, as long as everybody can kind of, like, settle down, I think it'll be fine.
+- id: W-0003
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  text: And I'm like, isn't that the Canadian to apologize? Yeah. And then. So that was how that went. And I'm like, eventually I could just listen. And then eventually she stopped. People have strong feelings. Yeah. And so it's a big deal what's happening. But I remember 2016-2020, and I made more money. I made more money in those four years than I've ever made. I mean, I remember you making bank a few times. I heard it third hand, and how much you made was ridiculous. I mean, like, the guy's an asshole, but, like, policies seem to work out. So I think, well, everybody, as long as everybody can kind of, like, settle down, I think it'll be fine. Yeah. And then, you know, there's two sides to things as it hits us in this room. There's the entrepreneurial side, which, you know, could be positive, could be negative. And then there's the social side, which, you know, is for us to consume over beverages in another room. Yeah. If I may say, because I went away for the weekend with Eric and some friends and, and, and did 171 holes of golf. Disc golf. Disc golf. It was still a lot. But I, I learned two things because it's been a while since I've been in a group. And one, you know, politics and homelessness. You want to see a room divide quickly. I mean, I'm not wearing my maggot hat for a reason. Yeah. So it's, it was interesting. And that was, and that's going to be our appetite for a while, I think, is digesting what it means, especially to women and all kinds of other people that he doesn't have a lot of concern for. But, you know, as you say, the AI stocks are going to pop, business is going to like this, and there's two things going on. People live in America, but we live in the world and we follow their lead. So I always take solace in the data when you just to kind of like wrap this up. Like, yeah, every group moved that direction. There wasn't like anybody was like, you know, every group, like it was. It's bananas. So it's like, it's not like it didn't seem like an increase in polarization, you know, in terms of the electorate. It seemed like the entire electorate moved that, that direction. So something we said for that.
+- id: W-0004
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  - u33
+  text: Yeah. So it's, it was interesting. And that was, and that's going to be our appetite for a while, I think, is digesting what it means, especially to women and all kinds of other people that he doesn't have a lot of concern for. But, you know, as you say, the AI stocks are going to pop, business is going to like this, and there's two things going on. People live in America, but we live in the world and we follow their lead. So I always take solace in the data when you just to kind of like wrap this up. Like, yeah, every group moved that direction. There wasn't like anybody was like, you know, every group, like it was. It's bananas. So it's like, it's not like it didn't seem like an increase in polarization, you know, in terms of the electorate. It seemed like the entire electorate moved that, that direction. So something we said for that. Yeah, you don't know. We had our election in the province and it was just as silly and just as finite. So I don't know. It seemed like the last time in 2016, we had lined up with a provincial election. I'm not sure we did. So just to kind of segue this into the topic of the group looking and listening to a bunch of the kind of strategists and data people that are on the. They're like, you know, why didn't AI play a bigger factor in the election? Like, we expected, like, kind of deep stakes and a ton of like, you know, automation. And really there was like resistance in both campaigns to utilizing even like AI automated like Robo calling all these things because they're just. There's so much uncertainty around the social implications and acceptance and blowback that it kind of. Even though these technologies could have advantaged their position, there were just so much uncertainty around the utilization of it. So does that get figured out over the next four years? How does society adapt to these things becoming more commonplace and then eventually how does that change things?
+- id: W-0005
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  text: So just to kind of segue this into the topic of the group looking and listening to a bunch of the kind of strategists and data people that are on the. They're like, you know, why didn't AI play a bigger factor in the election? Like, we expected, like, kind of deep stakes and a ton of like, you know, automation. And really there was like resistance in both campaigns to utilizing even like AI automated like Robo calling all these things because they're just. There's so much uncertainty around the social implications and acceptance and blowback that it kind of. Even though these technologies could have advantaged their position, there were just so much uncertainty around the utilization of it. So does that get figured out over the next four years? How does society adapt to these things becoming more commonplace and then eventually how does that change things? Well, that's interesting, I think, how it can change things. It'll start running the government. But the one thing that you're commenting on is our experience of AI in the collaboration of possibly bringing someone into the office. I'll just use two words, Cambridge Analytics. And if you don't think that behind the scenes, there was almost a billion dollars spent on simulating and all kinds of deep research and profiling. So actually, if you guys want to take. I'll take three minutes. Actually, I know exactly how that happened because I was kind of in the center. Not come back before you do that. On my way to Boulder, Colorado, I met the guy who started doing the social campaigning for back when social was starting to be a big thing for Obama, had to hand it off to somebody bigger. And back then, the social was the part that they thought that was a magic I'll hand off. So I met Alexander Nix, the CEO of Cambridge Analytica, in Thailand at an event right around this time, right after the election. And he was there because the guys that actually did all of the advertising buying for the Trump campaign in 2016 were Canadian. They're from Victoria, and so they're like good friends of mine. And how they kind of got wrapped up, and that's a whole different story. But the reality is that they tried the Cambridge Analytica data for targeting, and they found that the Facebook data itself performed significantly better. And so, like, when this all kind of broke out in the news, documentaries come out, Cambridge Analytica, Facebook's, you know, fell on its sword, and it's like, yeah, we shouldn't let this data out there. These guys are terrible. But the real reality was that it was the Facebook data, which was much more effective in targeting the kind of campaigning that they were doing and not.
+- id: W-0006
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: So I met Alexander Nix, the CEO of Cambridge Analytica, in Thailand at an event right around this time, right after the election. And he was there because the guys that actually did all of the advertising buying for the Trump campaign in 2016 were Canadian. They're from Victoria, and so they're like good friends of mine. And how they kind of got wrapped up, and that's a whole different story. But the reality is that they tried the Cambridge Analytica data for targeting, and they found that the Facebook data itself performed significantly better. And so, like, when this all kind of broke out in the news, documentaries come out, Cambridge Analytica, Facebook's, you know, fell on its sword, and it's like, yeah, we shouldn't let this data out there. These guys are terrible. But the real reality was that it was the Facebook data, which was much more effective in targeting the kind of campaigning that they were doing and not. The Cambridge Analytica data. So Facebook was quick to bury that story. No one really knows the truth around what happened there. Right. So fascinating. Just kind of like, that's a real thing. Yeah. How I just bring them up, because behind the scenes, if anybody hired me, the first thing I do is simulate everything that we're doing. And the next thing is you just get more granular and you get more granular. And because they have a person of interest, like systems that now we can see that in this room, we're building them. Right. Search is our biggest tool. Once we have extant search, we rule the world. Yeah. Well, I think. And interestingly, on the Cambridge Analytica data, the place where it was effective was at the ground level, like canvassing apps that they built in order to activate doors. The model that they built didn't translate to the kind of digital world, and Facebook's like, you know, machine learning models were more effective. So I don't know what that kind of tells us, but I thought it was interesting. As LMS gets the opportunity to introduce AI as an administrative later, then I think we'll see the next election being completely driven by AI over the top of the covers, right? Here's our app, here's our interface. You always have an AI, you always have a chat bot, you always have. You always have an avatar that you're dealing with. And they'll deep clone themselves effectively well from now to when and start running with things, because guess what? That's what I would do, right? And my mind is very similar to theirs in the way that they can see systems and how they can go down that path. How they built these systems is just having a very simple design pattern in play and being able to build on top of that. Snowden was a genius, and. But he was a genius at the right time, in the right place, and he understood networks and network information. Not the ability to create networks and travel information over it, but the information as it traveled over it. And then being able to pipe the shit out of that and then do basically, you know, a ton of inference and summarization. We're in the space now. This is like drinking water. And everybody has the opportunity to do all this, and we're finding that the only ones making money out are the ones that are building the capacity for it. So we'll see. We'll see what happens when they have the opportunity to look at real problems like a city and say, we can monitor the shit out of this. Because I've talked to Lance about this and, you know, if I had access to the cameras here in town, I would make this city run better. But you know what? The first thing that everybody thinks of is, what are you going to do with it? And that's, you know, and that's why Trump paid $100 million or $170 million or whatever. He probably paid a quarter. He probably paid way more than he ever said he did, is so that he can overcome that question, right? He doesn't have to answer that question now. He can actually just do what he wants to do. But it still comes back to the how you going to do shit that you want to do? You know, the cusp of things changing is so fast. Foveo. I don't know how. How you see programming right now and how you see it in two years, but I would suggest it's non existent for you and I in two years yet we could probably still be in the drive.
+- id: W-0007
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u45
+  - u46
+  text: And interestingly, on the Cambridge Analytica data, the place where it was effective was at the ground level, like canvassing apps that they built in order to activate doors. The model that they built didn't translate to the kind of digital world, and Facebook's like, you know, machine learning models were more effective. So I don't know what that kind of tells us, but I thought it was interesting. As LMS gets the opportunity to introduce AI as an administrative later, then I think we'll see the next election being completely driven by AI over the top of the covers, right? Here's our app, here's our interface. You always have an AI, you always have a chat bot, you always have. You always have an avatar that you're dealing with. And they'll deep clone themselves effectively well from now to when and start running with things, because guess what? That's what I would do, right? And my mind is very similar to theirs in the way that they can see systems and how they can go down that path. How they built these systems is just having a very simple design pattern in play and being able to build on top of that. Snowden was a genius, and. But he was a genius at the right time, in the right place, and he understood networks and network information. Not the ability to create networks and travel information over it, but the information as it traveled over it. And then being able to pipe the shit out of that and then do basically, you know, a ton of inference and summarization. We're in the space now. This is like drinking water. And everybody has the opportunity to do all this, and we're finding that the only ones making money out are the ones that are building the capacity for it. So we'll see. We'll see what happens when they have the opportunity to look at real problems like a city and say, we can monitor the shit out of this. Because I've talked to Lance about this and, you know, if I had access to the cameras here in town, I would make this city run better. But you know what? The first thing that everybody thinks of is, what are you going to do with it? And that's, you know, and that's why Trump paid $100 million or $170 million or whatever. He probably paid a quarter. He probably paid way more than he ever said he did, is so that he can overcome that question, right? He doesn't have to answer that question now. He can actually just do what he wants to do. But it still comes back to the how you going to do shit that you want to do? You know, the cusp of things changing is so fast. Foveo. I don't know how. How you see programming right now and how you see it in two years, but I would suggest it's non existent for you and I in two years yet we could probably still be in the drive.
+- id: W-0008
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: As LMS gets the opportunity to introduce AI as an administrative later, then I think we'll see the next election being completely driven by AI over the top of the covers, right? Here's our app, here's our interface. You always have an AI, you always have a chat bot, you always have. You always have an avatar that you're dealing with. And they'll deep clone themselves effectively well from now to when and start running with things, because guess what? That's what I would do, right? And my mind is very similar to theirs in the way that they can see systems and how they can go down that path. How they built these systems is just having a very simple design pattern in play and being able to build on top of that. Snowden was a genius, and. But he was a genius at the right time, in the right place, and he understood networks and network information. Not the ability to create networks and travel information over it, but the information as it traveled over it. And then being able to pipe the shit out of that and then do basically, you know, a ton of inference and summarization. We're in the space now. This is like drinking water. And everybody has the opportunity to do all this, and we're finding that the only ones making money out are the ones that are building the capacity for it. So we'll see. We'll see what happens when they have the opportunity to look at real problems like a city and say, we can monitor the shit out of this. Because I've talked to Lance about this and, you know, if I had access to the cameras here in town, I would make this city run better. But you know what? The first thing that everybody thinks of is, what are you going to do with it? And that's, you know, and that's why Trump paid $100 million or $170 million or whatever. He probably paid a quarter. He probably paid way more than he ever said he did, is so that he can overcome that question, right? He doesn't have to answer that question now. He can actually just do what he wants to do. But it still comes back to the how you going to do shit that you want to do? You know, the cusp of things changing is so fast. Foveo. I don't know how. How you see programming right now and how you see it in two years, but I would suggest it's non existent for you and I in two years yet we could probably still be in the drive. What people are doing now is just not what they're going to be doing in two years. I mean what I did, what I did 30 years was a little different from what I did 20 years ago and then was a little different from what I did 15 and 10. But like the difference between where we are this morning as far as you know what, what is already very different from a year ago, that's for sure. For me, it's enormous from this morning to a year ago. I cannot tell you where it's going to be. Right. I will take, I will give you a shorter time frame. Six months. Yeah, I know that's, that's. I do not know how I'm going to be. I do not know the method and process I will be using in six months. It will involve AI I think that's an easy bet. But yeah, that's, that's, that's the crazy thing is that I think we're sunsetting is phenomenally fast in software. Like it's crazy how fast we're sunsetting.
+- id: W-0009
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  text: What people are doing now is just not what they're going to be doing in two years. I mean what I did, what I did 30 years was a little different from what I did 20 years ago and then was a little different from what I did 15 and 10. But like the difference between where we are this morning as far as you know what, what is already very different from a year ago, that's for sure. For me, it's enormous from this morning to a year ago. I cannot tell you where it's going to be. Right. I will take, I will give you a shorter time frame. Six months. Yeah, I know that's, that's. I do not know how I'm going to be. I do not know the method and process I will be using in six months. It will involve AI I think that's an easy bet. But yeah, that's, that's, that's the crazy thing is that I think we're sunsetting is phenomenally fast in software. Like it's crazy how fast we're sunsetting. And so there was an interesting, there was an interesting someone important, you know, I should say. So I should say the name, but I can't remember who said it. I wish I could. So sorry, I can't. Guys, he was trying to explain. Oh, I think it might have been Sam Altman now that I think about it. Sam Altman, you say you could take two approaches. He was talking about a dichotomy of approaches towards AI and that is you can do, you can make a bet on what a doesn't do well and do that right. That's one of the bets you can make. Did you see that interview? No, I just like that's a good, that's a really heavy bet, right. Or the better bet is bet that AI will get better and be able to do that too. And you can leverage AI and he recommends the latter. Yeah, he does not recommend you try to find a home doing what AI doesn't do well now because that's going to change. How about if it's Sam Altman, I don't want to listen to anything that says and I'll just blow a hole right in the middle of that. And that's. We're doing exactly what it's not doing well right now. And that's what we'll, and that's what we'll continue to do is we'll do whatever it doesn't do well, we'll do that. That's. That's what we do. We sit on top of it. We do what it doesn't do well. And so, you know, these people are not that. Right. They're finding ways to push their shit. The guy's become who he is. He is just a power monger, right? He has been proven to be that. He is being supported as such. He is.
+- id: W-0010
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  text: Or the better bet is bet that AI will get better and be able to do that too. And you can leverage AI and he recommends the latter. Yeah, he does not recommend you try to find a home doing what AI doesn't do well now because that's going to change. How about if it's Sam Altman, I don't want to listen to anything that says and I'll just blow a hole right in the middle of that. And that's. We're doing exactly what it's not doing well right now. And that's what we'll, and that's what we'll continue to do is we'll do whatever it doesn't do well, we'll do that. That's. That's what we do. We sit on top of it. We do what it doesn't do well. And so, you know, these people are not that. Right. They're finding ways to push their shit. The guy's become who he is. He is just a power monger, right? He has been proven to be that. He is being supported as such. He is. I'm not speaking to any of that. I'm speaking to the fact that what he was really saying is that it's all going to change, right? Because that's really what that. That's really what he's saying, is that what it doesn't do well right now, it's going to do well later now. Yeah, that's great. Because it's better. And so when O1 came out, I was like, okay, that's great. I can drive the architect faster and harder. It still the rigor of whatever you throw underneath it, and that's kind of where I land with all this stuff is like, how do you know anything, right? How do you know what you're doing? Oh, you know, you can make it. You can get it to make a landing page. But how do you know it's effective? Like, what do you do? I'm asking that as a question. How do you know it's effective if you go work with an LLM and say you're inside Klein and you're like, drill. I've done it. I've built websites. I like their design. They look okay. They're funky. I did Criterion trade, you know, I showed it and then like, okay. How do you know you gotta get a measure, right? Yeah, obviously, yeah. And then, and then what are the dimensions that you're measuring? Right? Like, this is the thing that, like, you know, we've talked about this, but it like really fucks me up. It's like multidimensional in measurement. And you have to have some sort of, like, you know, Bayesian solution to be able to kind of determine that and compare that to what's happening, right?
+- id: W-0011
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  text: Yeah, that's great. Because it's better. And so when O1 came out, I was like, okay, that's great. I can drive the architect faster and harder. It still the rigor of whatever you throw underneath it, and that's kind of where I land with all this stuff is like, how do you know anything, right? How do you know what you're doing? Oh, you know, you can make it. You can get it to make a landing page. But how do you know it's effective? Like, what do you do? I'm asking that as a question. How do you know it's effective if you go work with an LLM and say you're inside Klein and you're like, drill. I've done it. I've built websites. I like their design. They look okay. They're funky. I did Criterion trade, you know, I showed it and then like, okay. How do you know you gotta get a measure, right? Yeah, obviously, yeah. And then, and then what are the dimensions that you're measuring? Right? Like, this is the thing that, like, you know, we've talked about this, but it like really fucks me up. It's like multidimensional in measurement. And you have to have some sort of, like, you know, Bayesian solution to be able to kind of determine that and compare that to what's happening, right? So if you start with some KPIs, then maybe you can get out the other end and measure them. Maybe, right? So what are the KPIs that we look for? And I've suggested right now everybody's not looking at the KPIs, they're looking at the result. And if you start with some sense of what the actual way of measuring things is to your point, then you can get to the end. I need a website. Up tooth suite for work Sona. That actually gets to the point of selling it for investment. And I'm like, putting up content, I'm writing all this other stuff. And then I'm like, well, what the fuck? Spending all this time with Jason and this is just selling. So we're going to go direct to consumer, direct to whomever with this. And then I have a framework to say that, well, this is the pattern to sell anything. And I can then start measuring the sections and then I can start doing the applied things to it and then see if that works, you know, and then if I go look at my, you know, who I'm studying to see what I like out there, they, you know, they're doing pretty much the same thing. They might be spicing it up a bit, but there's only so many ways to do that. So, you know, I go down the path of, you know, what is involved in a page. You got to hear a section, and Jason point me out if I'm wrong. But then you have the solution introduction, then you have the product features and benefits, and then you get into some sort of social proof or pressure, and then there's calls to action, trust builders of some sort that stray people out from there. Then you get some sort of fact or information knowledge base that allows you to be authoritative, and then you make your final decision. Now, I'm sure there's other ways of doing that, and in fact, I've done other ways of doing that with Jason. But what I got to is like, I just needed something to go with. And then I'm like, okay, so those are the sections. Great. What are the purpose of the sections? And this has been the whole question around everything that I've been doing with Jason. What is the point of any of this? You know, what are the points of all of those things? What do they do? What is the compound nature of the experience of seven sections or eight sections or nine sections on a page that build enough confidence to spend 35 bucks on something? The odds are if it's spending more than 35 bucks, then the page won't work in the same way, from what we understand. But that's just another assumption. But I can build out the message prompt so that it's doing the right thing and then give the content prompts. Then I get the question what it should do. The LLM is testing this. Tell me this. And then I can say, well, what are the answers for this? And it's a sleep solution. It keeps giving me sleep solutions because I made that. And then the output and then how to score things. And then these are of course, our heuristics that are internal to itself and don't have integrity beyond itself. And then, you know, Jason's quick to say d
+- id: W-0012
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u62
+  text: So if you start with some KPIs, then maybe you can get out the other end and measure them. Maybe, right? So what are the KPIs that we look for? And I've suggested right now everybody's not looking at the KPIs, they're looking at the result. And if you start with some sense of what the actual way of measuring things is to your point, then you can get to the end. I need a website. Up tooth suite for work Sona. That actually gets to the point of selling it for investment. And I'm like, putting up content, I'm writing all this other stuff. And then I'm like, well, what the fuck? Spending all this time with Jason and this is just selling. So we're going to go direct to consumer, direct to whomever with this. And then I have a framework to say that, well, this is the pattern to sell anything. And I can then start measuring the sections and then I can start doing the applied things to it and then see if that works, you know, and then if I go look at my, you know, who I'm studying to see what I like out there, they, you know, they're doing pretty much the same thing. They might be spicing it up a bit, but there's only so many ways to do that. So, you know, I go down the path of, you know, what is involved in a page. You got to hear a section, and Jason point me out if I'm wrong. But then you have the solution introduction, then you have the product features and benefits, and then you get into some sort of social proof or pressure, and then there's calls to action, trust builders of some sort that stray people out from there. Then you get some sort of fact or information knowledge base that allows you to be authoritative, and then you make your final decision. Now, I'm sure there's other ways of doing that, and in fact, I've done other ways of doing that with Jason. But what I got to is like, I just needed something to go with. And then I'm like, okay, so those are the sections. Great. What are the purpose of the sections? And this has been the whole question around everything that I've been doing with Jason. What is the point of any of this? You know, what are the points of all of those things? What do they do? What is the compound nature of the experience of seven sections or eight sections or nine sections on a page that build enough confidence to spend 35 bucks on something? The odds are if it's spending more than 35 bucks, then the page won't work in the same way, from what we understand. But that's just another assumption. But I can build out the message prompt so that it's doing the right thing and then give the content prompts. Then I get the question what it should do. The LLM is testing this. Tell me this. And then I can say, well, what are the answers for this? And it's a sleep solution. It keeps giving me sleep solutions because I made that. And then the output and then how to score things. And then these are of course, our heuristics that are internal to itself and don't have integrity beyond itself. And then, you know, Jason's quick to say d
+- id: W-0013
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u62
+  - u63
+  - u64
+  - u65
+  text: So if you start with some KPIs, then maybe you can get out the other end and measure them. Maybe, right? So what are the KPIs that we look for? And I've suggested right now everybody's not looking at the KPIs, they're looking at the result. And if you start with some sense of what the actual way of measuring things is to your point, then you can get to the end. I need a website. Up tooth suite for work Sona. That actually gets to the point of selling it for investment. And I'm like, putting up content, I'm writing all this other stuff. And then I'm like, well, what the fuck? Spending all this time with Jason and this is just selling. So we're going to go direct to consumer, direct to whomever with this. And then I have a framework to say that, well, this is the pattern to sell anything. And I can then start measuring the sections and then I can start doing the applied things to it and then see if that works, you know, and then if I go look at my, you know, who I'm studying to see what I like out there, they, you know, they're doing pretty much the same thing. They might be spicing it up a bit, but there's only so many ways to do that. So, you know, I go down the path of, you know, what is involved in a page. You got to hear a section, and Jason point me out if I'm wrong. But then you have the solution introduction, then you have the product features and benefits, and then you get into some sort of social proof or pressure, and then there's calls to action, trust builders of some sort that stray people out from there. Then you get some sort of fact or information knowledge base that allows you to be authoritative, and then you make your final decision. Now, I'm sure there's other ways of doing that, and in fact, I've done other ways of doing that with Jason. But what I got to is like, I just needed something to go with. And then I'm like, okay, so those are the sections. Great. What are the purpose of the sections? And this has been the whole question around everything that I've been doing with Jason. What is the point of any of this? You know, what are the points of all of those things? What do they do? What is the compound nature of the experience of seven sections or eight sections or nine sections on a page that build enough confidence to spend 35 bucks on something? The odds are if it's spending more than 35 bucks, then the page won't work in the same way, from what we understand. But that's just another assumption. But I can build out the message prompt so that it's doing the right thing and then give the content prompts. Then I get the question what it should do. The LLM is testing this. Tell me this. And then I can say, well, what are the answers for this? And it's a sleep solution. It keeps giving me sleep solutions because I made that. And then the output and then how to score things. And then these are of course, our heuristics that are internal to itself and don't have integrity beyond itself. And then, you know, Jason's quick to say d Fulvia, you got a question? Still. It'S a couple of topics back, so I'll let it, let it evaporate. Go ahead, James. Okay, I was just wanted to clarify the question. What are you trying to do with the site? And what I was thinking about was I've actually among my mindlessly scrolling stuff trying to cull it, but LinkedIn seems to still come up with some useful stuff like statistics and visual capitalist stuff and stuff like that. But there's a particular thing that I keep seeing, which is like products before and after they were successful. One example is RXBar. Can you picture an RXBar? It's like brown or blue. And it has like labeling on the front of the ingredients, like three egg whites, two almonds, whatever. And they show an RX bar like five or 10 years ago. And it's like, well, zero dollars of sales. And then it's like new packaging, $300 million of sales. And obviously there's a lot else that probably happened in there, but the wrapper is better for sure. And yeah, like, that was kind of what I was wondering about what you're trying to get done with your page, like, maybe. And honestly, this is a question that comes up a lot when I'm just talking with friends about what's AI going to do for us, any of us? I mean, with Fulvio and the software example, it's extremely clear. It's super valuable as like a cursor or whatever, you know, or the same. But yeah, like, I think people like, if you can boil it down to anything that it'll do for anybody, like that's. And making it really easy to understand, maybe that's a way to make it more sellable.
+- id: W-0014
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u63
+  - u64
+  - u65
+  text: Fulvia, you got a question? Still. It'S a couple of topics back, so I'll let it, let it evaporate. Go ahead, James. Okay, I was just wanted to clarify the question. What are you trying to do with the site? And what I was thinking about was I've actually among my mindlessly scrolling stuff trying to cull it, but LinkedIn seems to still come up with some useful stuff like statistics and visual capitalist stuff and stuff like that. But there's a particular thing that I keep seeing, which is like products before and after they were successful. One example is RXBar. Can you picture an RXBar? It's like brown or blue. And it has like labeling on the front of the ingredients, like three egg whites, two almonds, whatever. And they show an RX bar like five or 10 years ago. And it's like, well, zero dollars of sales. And then it's like new packaging, $300 million of sales. And obviously there's a lot else that probably happened in there, but the wrapper is better for sure. And yeah, like, that was kind of what I was wondering about what you're trying to get done with your page, like, maybe. And honestly, this is a question that comes up a lot when I'm just talking with friends about what's AI going to do for us, any of us? I mean, with Fulvio and the software example, it's extremely clear. It's super valuable as like a cursor or whatever, you know, or the same. But yeah, like, I think people like, if you can boil it down to anything that it'll do for anybody, like that's. And making it really easy to understand, maybe that's a way to make it more sellable.
+- id: W-0015
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  text: Okay, I was just wanted to clarify the question. What are you trying to do with the site? And what I was thinking about was I've actually among my mindlessly scrolling stuff trying to cull it, but LinkedIn seems to still come up with some useful stuff like statistics and visual capitalist stuff and stuff like that. But there's a particular thing that I keep seeing, which is like products before and after they were successful. One example is RXBar. Can you picture an RXBar? It's like brown or blue. And it has like labeling on the front of the ingredients, like three egg whites, two almonds, whatever. And they show an RX bar like five or 10 years ago. And it's like, well, zero dollars of sales. And then it's like new packaging, $300 million of sales. And obviously there's a lot else that probably happened in there, but the wrapper is better for sure. And yeah, like, that was kind of what I was wondering about what you're trying to get done with your page, like, maybe. And honestly, this is a question that comes up a lot when I'm just talking with friends about what's AI going to do for us, any of us? I mean, with Fulvio and the software example, it's extremely clear. It's super valuable as like a cursor or whatever, you know, or the same. But yeah, like, I think people like, if you can boil it down to anything that it'll do for anybody, like that's. And making it really easy to understand, maybe that's a way to make it more sellable. Yeah. So on my website, the one section that I think is valuable is the use cases and I want to have five of them. And that's what I'm getting to the point where I will then have an interview that will ask me the questions as to what the value propositions are. Yeah, I like the idea of the wrapper being that's all this is. But the wrapper in this case is trying to find the value prop. Well, so I'm surface that as a. So there's an anecdotal story here somewhere. Polls. A lot of people have been complaining the polls were wrong. Right. We're used to analyzing things in quantitative ways and being really kind of. We like quantitative things because we all have a basic understanding of math. So we know three is bigger than two, two is bigger than one, four is bigger than three, so forth. And like AI can clearly do that stuff. Right. And AI could have been very useful in polling, but like it's the, the qualitative analysis or the deep understanding that or insights that AI can collect that might actually be a lot more useful than numerical KPIs because a lot of people are using automation and AI to get data which they then don't understand or can't interpret because they're using automation or AI just to generate a number. Right. And so like the deeper way to anal. To use AI, which is I guess a big nod to some stuff that David's doing. And I know Jason's Doing too isn't like, just show me a chart and like, you know, plot. Right. Which. Which path is better. You need a lot more sophisticated analysis than that. It doesn't just drive, like, because KPIs often are used to describe quantitative results. Right?
+- id: W-0016
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: So there's an anecdotal story here somewhere. Polls. A lot of people have been complaining the polls were wrong. Right. We're used to analyzing things in quantitative ways and being really kind of. We like quantitative things because we all have a basic understanding of math. So we know three is bigger than two, two is bigger than one, four is bigger than three, so forth. And like AI can clearly do that stuff. Right. And AI could have been very useful in polling, but like it's the, the qualitative analysis or the deep understanding that or insights that AI can collect that might actually be a lot more useful than numerical KPIs because a lot of people are using automation and AI to get data which they then don't understand or can't interpret because they're using automation or AI just to generate a number. Right. And so like the deeper way to anal. To use AI, which is I guess a big nod to some stuff that David's doing. And I know Jason's Doing too isn't like, just show me a chart and like, you know, plot. Right. Which. Which path is better. You need a lot more sophisticated analysis than that. It doesn't just drive, like, because KPIs often are used to describe quantitative results. Right? Yeah, Yeah, I guess so. But KPIs can be anything. And I can make them up out of qualitative. I've, you know, been part of my. Well, that's why I said sometimes I realize they shouldn't be the LLM. The LLM is massively. I. I just use this one word. Without this one word, I have nothing to do. Framework. You take anything, you can make a framework out of it, you can score it. I've proven that. And so everything is called everything. Qual is quant. Yeah. Jace. Yeah. I think I can always come back to this David Ogilvy quote that talks about. Since the trouble with market research is that people don't think what they feel. They don't say what they think and they don't do what they say. Yeah. And so people don't have access to their behavior. That's why I've been so balls deep in this fucking French philosophy for the last two weeks. Like, I've been trying to really kind of get down to the. The nitty gritty around like, behavior, motivation and in, you know, incentive a little bit. But to kind of answer your earlier question, James, like, in terms of the value around these qualitative things, like David and Fulvia are saying, it's about the, like the generation of the hypotheses around what might matter and then the expression of those things and then the usage of other technology to be able to measure those on some dimension to create a feedback loop that is so rapid. And I can only speak to the experience in my industry that. Because this is like done with like people and Monday.com boards and, you know, synchronous meetings, like the length of time to kind of like prove anything like that, like that out. Like, the founder of RXBar actually talks about the insight that he got around that packaging was from a company in Europe that was doing something similar in a different industry that he thought was really valuable. And it was a huge unlock. And so he's got a new company called David Bar, which is like this super protein bar. And if you go to their website, you know, they like basically compare, you know, different bars and then they've got a piece of cod fish, like to be like, how much protein per gram to show that their bar. And it's kind of blown that. If you go to that page. Yeah. And you click on. And you scroll down to the bottom, it's got this comparison table that shows that their protein bar has more protein per gram than cod. And that, like, that's, like blowing up this product. And again, it's a weird. Yeah. 85% of protein from the calories there. And this illustration has kind of blown up. And so, like, in terms of, like, that key insight, the thing that, like, actually gets in people's brains to help them understand the value proposition is really ephemeral and usually takes a ton of experimentation. So, like, my hope is that we can, like, you know, work these LLM pipelines to kind of come up with these hypotheses so they can be rapidly tested.
+- id: W-0017
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: The LLM is massively. I. I just use this one word. Without this one word, I have nothing to do. Framework. You take anything, you can make a framework out of it, you can score it. I've proven that. And so everything is called everything. Qual is quant. Yeah. Jace. Yeah. I think I can always come back to this David Ogilvy quote that talks about. Since the trouble with market research is that people don't think what they feel. They don't say what they think and they don't do what they say. Yeah. And so people don't have access to their behavior. That's why I've been so balls deep in this fucking French philosophy for the last two weeks. Like, I've been trying to really kind of get down to the. The nitty gritty around like, behavior, motivation and in, you know, incentive a little bit. But to kind of answer your earlier question, James, like, in terms of the value around these qualitative things, like David and Fulvia are saying, it's about the, like the generation of the hypotheses around what might matter and then the expression of those things and then the usage of other technology to be able to measure those on some dimension to create a feedback loop that is so rapid. And I can only speak to the experience in my industry that. Because this is like done with like people and Monday.com boards and, you know, synchronous meetings, like the length of time to kind of like prove anything like that, like that out. Like, the founder of RXBar actually talks about the insight that he got around that packaging was from a company in Europe that was doing something similar in a different industry that he thought was really valuable. And it was a huge unlock. And so he's got a new company called David Bar, which is like this super protein bar. And if you go to their website, you know, they like basically compare, you know, different bars and then they've got a piece of cod fish, like to be like, how much protein per gram to show that their bar. And it's kind of blown that. If you go to that page. Yeah. And you click on. And you scroll down to the bottom, it's got this comparison table that shows that their protein bar has more protein per gram than cod. And that, like, that's, like blowing up this product. And again, it's a weird. Yeah. 85% of protein from the calories there. And this illustration has kind of blown up. And so, like, in terms of, like, that key insight, the thing that, like, actually gets in people's brains to help them understand the value proposition is really ephemeral and usually takes a ton of experimentation. So, like, my hope is that we can, like, you know, work these LLM pipelines to kind of come up with these hypotheses so they can be rapidly tested.
+- id: W-0018
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  text: And so people don't have access to their behavior. That's why I've been so balls deep in this fucking French philosophy for the last two weeks. Like, I've been trying to really kind of get down to the. The nitty gritty around like, behavior, motivation and in, you know, incentive a little bit. But to kind of answer your earlier question, James, like, in terms of the value around these qualitative things, like David and Fulvia are saying, it's about the, like the generation of the hypotheses around what might matter and then the expression of those things and then the usage of other technology to be able to measure those on some dimension to create a feedback loop that is so rapid. And I can only speak to the experience in my industry that. Because this is like done with like people and Monday.com boards and, you know, synchronous meetings, like the length of time to kind of like prove anything like that, like that out. Like, the founder of RXBar actually talks about the insight that he got around that packaging was from a company in Europe that was doing something similar in a different industry that he thought was really valuable. And it was a huge unlock. And so he's got a new company called David Bar, which is like this super protein bar. And if you go to their website, you know, they like basically compare, you know, different bars and then they've got a piece of cod fish, like to be like, how much protein per gram to show that their bar. And it's kind of blown that. If you go to that page. Yeah. And you click on. And you scroll down to the bottom, it's got this comparison table that shows that their protein bar has more protein per gram than cod. And that, like, that's, like blowing up this product. And again, it's a weird. Yeah. 85% of protein from the calories there. And this illustration has kind of blown up. And so, like, in terms of, like, that key insight, the thing that, like, actually gets in people's brains to help them understand the value proposition is really ephemeral and usually takes a ton of experimentation. So, like, my hope is that we can, like, you know, work these LLM pipelines to kind of come up with these hypotheses so they can be rapidly tested. This reminds me of a post that I have in my kitchen of dollars per gram of protein for different sources, like, tofu stuff. When I tell people that, they're like, you did what? That took you how long? But honestly, it's still there. Yeah, yeah. These are. That's super interesting. Yeah, yeah. I think it's like speed to understanding, or at least like honing in the understanding space to understand the. Because what I've kind of arrived at is that there are only a few key things that tend to break through that make their way into people's minds. I'm trying to find what's that inroad into people's minds to be able to find those things, to drive the AI, to be able to come up with those hypotheses. But that's proven elusive thus far. I think value proposition is there, but the simplicity thing on the wrapper, too, is another. Like, knowing the ingredients is another piece. You're like, well, it's egg whites. I trust those. That's different than the other shit that I'm getting in different bars.
+- id: W-0019
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  text: Yeah, yeah. I think it's like speed to understanding, or at least like honing in the understanding space to understand the. Because what I've kind of arrived at is that there are only a few key things that tend to break through that make their way into people's minds. I'm trying to find what's that inroad into people's minds to be able to find those things, to drive the AI, to be able to come up with those hypotheses. But that's proven elusive thus far. I think value proposition is there, but the simplicity thing on the wrapper, too, is another. Like, knowing the ingredients is another piece. You're like, well, it's egg whites. I trust those. That's different than the other shit that I'm getting in different bars. Yeah, yeah. How far you roll back. The motivation is interesting, Right. I think there's a conflict. Like, the page is meant to increase the likelihood of being susceptible. It's all about persuasion. This one does actually follow the pattern, and it fucks with the pattern a little bit, and it overloads the pattern with doubling up and tripling up. And it really gets at a few points, right. So it's. And, you know, it's called action is really obvious. Here's a social. And then here's your cta and you identify the classic. I'm shoving it in my mouth like a something, and there's plenty more where that came from. And here, look at. She's giving it to her, it's a, her thing all about her. The, the, the, the, all the framing is really interesting. Yeah. And it's like a little bit of the medium is the message, type of. A lot of that. Yeah, a lot of that. Like, so this particular brand, you know, they've been very successful on TikTok. TikTok has an expectation like as a audience, that whatever is presented to them for a purchasing opportunity is somehow an exceptional deal. And maybe that's because it's, you know, got this Chinese basis and it's got like, you know, Temu and Tmall and like Alibaba kind of like built into it. But unless you're selling something on TikTok and it's like significantly discounted it, people do not buy it. So these guys, you know, put together a promotion for TikTok where it's, you know, 30% lower than you can find anywhere else. And they've been able to like explode it out that way. But if they weren't doing that and they tried it without, it just didn't work. So like this framing of like, where is the person who's consuming whatever they're consuming at? Where do they come from? Is it a Google search? Do they have demand? You know, is it a discovery thing from some, you know, social platform? And so the framing that the person's in makes them receptive to different messaging, almost more so than any other dimension that I've been able to find so far.
+- id: W-0020
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Yeah, yeah. How far you roll back. The motivation is interesting, Right. I think there's a conflict. Like, the page is meant to increase the likelihood of being susceptible. It's all about persuasion. This one does actually follow the pattern, and it fucks with the pattern a little bit, and it overloads the pattern with doubling up and tripling up. And it really gets at a few points, right. So it's. And, you know, it's called action is really obvious. Here's a social. And then here's your cta and you identify the classic. I'm shoving it in my mouth like a something, and there's plenty more where that came from. And here, look at. She's giving it to her, it's a, her thing all about her. The, the, the, the, all the framing is really interesting. Yeah. And it's like a little bit of the medium is the message, type of. A lot of that. Yeah, a lot of that. Like, so this particular brand, you know, they've been very successful on TikTok. TikTok has an expectation like as a audience, that whatever is presented to them for a purchasing opportunity is somehow an exceptional deal. And maybe that's because it's, you know, got this Chinese basis and it's got like, you know, Temu and Tmall and like Alibaba kind of like built into it. But unless you're selling something on TikTok and it's like significantly discounted it, people do not buy it. So these guys, you know, put together a promotion for TikTok where it's, you know, 30% lower than you can find anywhere else. And they've been able to like explode it out that way. But if they weren't doing that and they tried it without, it just didn't work. So like this framing of like, where is the person who's consuming whatever they're consuming at? Where do they come from? Is it a Google search? Do they have demand? You know, is it a discovery thing from some, you know, social platform? And so the framing that the person's in makes them receptive to different messaging, almost more so than any other dimension that I've been able to find so far. Yeah, yeah, it's the fastest consumption of multimedia. Right. Like it hits you at all. Sensory as much as you can with a flat screen. And the narrative is like heroin. And so that's the part like if you point to the fact that people have a difficulty describing how they feel and then, you know, describing how they're aware of something, like they'll tell you about something based on you wanting to know something instead of them being honest about it. Right. So like where, where you plug into the machine is very interesting, but the context is everything. And so if you're in a very multi multimedia rich environment, then that can cover up the whole of the story or it can be the whole of the story. And now we're in the space of intelligence, so it can be very much a different kind of experience. Right. These, this, this page is, is, is brutal. It is, it is brutal in its approach.
+- id: W-0021
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  text: Yeah, yeah, it's the fastest consumption of multimedia. Right. Like it hits you at all. Sensory as much as you can with a flat screen. And the narrative is like heroin. And so that's the part like if you point to the fact that people have a difficulty describing how they feel and then, you know, describing how they're aware of something, like they'll tell you about something based on you wanting to know something instead of them being honest about it. Right. So like where, where you plug into the machine is very interesting, but the context is everything. And so if you're in a very multi multimedia rich environment, then that can cover up the whole of the story or it can be the whole of the story. And now we're in the space of intelligence, so it can be very much a different kind of experience. Right. These, this, this page is, is, is brutal. It is, it is brutal in its approach. Yeah. I mean, that's why I've been in this into Baudrillard lately and the simulation of simulacra and this like, concept of like hyper reality and like how the representation of reality changes through. Through media and like what the application is with the LLMs through that. Because I think that's. There's something there that we haven't quite pieced together yet that I'm trying to chase down. Well, how about this? This whole page is information, right? And we're talking about the experience of intelligence. And in the case where the page is information, we're trying to create the intelligence on our own. We don't have a conversation to ask it deeper questions. We don't have any conversational way of working with it. It's just a reflection. If the reflection works really well, and this is Baudrillard for sure, and this is, you know, society, the spectacle crap all over the place. If the reflection works really well, then we identify with it and we promote it. And that's what you're trying to do is you set up a first. Does the landing page, you know, reflect the ad? That's the first reflection. And you're working primarily at the media level in a simple message. And then you're looking to expose the benefits, value and the complexity or sort of complexity of that message later. But there is a lot to this movement from information to intelligence. And what that is at a societal level is very interesting. Right. So you're. Jason, what I like what you're doing is you're not. Maybe I'll ask this question. It seems like you've moved from individual and personalization to understand society as a, as a, as an entity and recognizing that it has some value based on Baudrillard and his recognition that it moves like an organism. Right?
+- id: W-0022
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u87
+  - u88
+  text: Well, how about this? This whole page is information, right? And we're talking about the experience of intelligence. And in the case where the page is information, we're trying to create the intelligence on our own. We don't have a conversation to ask it deeper questions. We don't have any conversational way of working with it. It's just a reflection. If the reflection works really well, and this is Baudrillard for sure, and this is, you know, society, the spectacle crap all over the place. If the reflection works really well, then we identify with it and we promote it. And that's what you're trying to do is you set up a first. Does the landing page, you know, reflect the ad? That's the first reflection. And you're working primarily at the media level in a simple message. And then you're looking to expose the benefits, value and the complexity or sort of complexity of that message later. But there is a lot to this movement from information to intelligence. And what that is at a societal level is very interesting. Right. So you're. Jason, what I like what you're doing is you're not. Maybe I'll ask this question. It seems like you've moved from individual and personalization to understand society as a, as a, as an entity and recognizing that it has some value based on Baudrillard and his recognition that it moves like an organism. Right? Yeah, I think it was a forced constraint because of my inability to actually kind of like measure and drive that personalization, you know, like I only have. You only have so much measurement data to be able to create that feedback loop, like dwell time, you know, time on site. Like how long someone look at something and then trying to infer from that. It just kind of gets me to think about something we talked about last week too, where I think Foveo, you brought up that when these models are trained only on singular languages, they don't perform as well. And I looked into that a little bit and was looking at this comparison tables of syllables per second and information rate bits per second of different languages and the high degree of variability between different languages. It's like, well, how does that actually, is that a dimension that maybe like supports the ability of the LLM to be able to be more effective when it has different, these different information densities per language and how does that shape what its perspective or output is? That's kind of like beyond my kind of grasp, but it's something that I'm kind of pulling on.
+- id: W-0023
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u88
+  - u89
+  text: Yeah, I think it was a forced constraint because of my inability to actually kind of like measure and drive that personalization, you know, like I only have. You only have so much measurement data to be able to create that feedback loop, like dwell time, you know, time on site. Like how long someone look at something and then trying to infer from that. It just kind of gets me to think about something we talked about last week too, where I think Foveo, you brought up that when these models are trained only on singular languages, they don't perform as well. And I looked into that a little bit and was looking at this comparison tables of syllables per second and information rate bits per second of different languages and the high degree of variability between different languages. It's like, well, how does that actually, is that a dimension that maybe like supports the ability of the LLM to be able to be more effective when it has different, these different information densities per language and how does that shape what its perspective or output is? That's kind of like beyond my kind of grasp, but it's something that I'm kind of pulling on. Well, everybody measures across the board. People. One of the measurements they use to talk about, you want to use a word carefully here. The size of a model is the number of tokens, right? Like we all hear, you know, this size token or that size. Sorry, this number of tokens that model, that size of the tokens of that model. The tokens are generated when digesting data. And for text models, that's words, right? That's not one to one. Right? We all know it's not one to one. It's not one word to one token. It's about. I think it's about, you know, three token, sorry, three tokens for two words, something like that, because of the average size of the word or whatever. But the very. I think when you add languages, the. There's a greater variability of concepts and things you can. Tokens, you can get out of tokens to become internally useful in the model. And. But then language, individual languages have. They're not the same, right? Some languages have a. Have a tighter coupling probably between the words in a language and the tokens and so they're going to perform differently. Grammars are very. English is my third language, so I have some personal experience with the deep variety in the way languages work. They're not all the same. There really are properties that are fundamentally different from one language to another. They just share that humans use them and some other things, of course, know all sorts of like, you know, pitch matters in some languages, doesn't matter in English, all sorts of like that. But yeah, there's. It's interesting. We can't read the tokens, right. We can't read the language internal to these models. And I think that's where a lot of the hidden understanding is. Right. But not that we're going to. We're not going to learn to speak. We're not going to learn to speak lama to better use models.
+- id: W-0024
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  text: Well, everybody measures across the board. People. One of the measurements they use to talk about, you want to use a word carefully here. The size of a model is the number of tokens, right? Like we all hear, you know, this size token or that size. Sorry, this number of tokens that model, that size of the tokens of that model. The tokens are generated when digesting data. And for text models, that's words, right? That's not one to one. Right? We all know it's not one to one. It's not one word to one token. It's about. I think it's about, you know, three token, sorry, three tokens for two words, something like that, because of the average size of the word or whatever. But the very. I think when you add languages, the. There's a greater variability of concepts and things you can. Tokens, you can get out of tokens to become internally useful in the model. And. But then language, individual languages have. They're not the same, right? Some languages have a. Have a tighter coupling probably between the words in a language and the tokens and so they're going to perform differently. Grammars are very. English is my third language, so I have some personal experience with the deep variety in the way languages work. They're not all the same. There really are properties that are fundamentally different from one language to another. They just share that humans use them and some other things, of course, know all sorts of like, you know, pitch matters in some languages, doesn't matter in English, all sorts of like that. But yeah, there's. It's interesting. We can't read the tokens, right. We can't read the language internal to these models. And I think that's where a lot of the hidden understanding is. Right. But not that we're going to. We're not going to learn to speak. We're not going to learn to speak lama to better use models. It reminds me of like, you know, the scene in the Matrix where they're like looking at the Matrix and looking at the code and you're like, oh, this is what's happening. Blah, blah, red hat. I don't think that's ever going to happen. Do you think we'll ever be able. To have you guys. Did you guys see. I don't think I shared it in the channel. But that's that vision model that generates Minecraft Through a neural network with no code. Yeah, yeah, but doom as well. There's one for doom as well. Yeah, I mean that's like, it's just, you know, predicting where the next pixel should be based on the input. But like at such a low latency that you can literally play a game in real time.
+- id: W-0025
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  text: It reminds me of like, you know, the scene in the Matrix where they're like looking at the Matrix and looking at the code and you're like, oh, this is what's happening. Blah, blah, red hat. I don't think that's ever going to happen. Do you think we'll ever be able. To have you guys. Did you guys see. I don't think I shared it in the channel. But that's that vision model that generates Minecraft Through a neural network with no code. Yeah, yeah, but doom as well. There's one for doom as well. Yeah, I mean that's like, it's just, you know, predicting where the next pixel should be based on the input. But like at such a low latency that you can literally play a game in real time. It's terrifying in real time with no code. And I'm like, oh wow. Probability of simulation happening right now just went up like, you know, 10 points. Scary. That's scary stuff. I don't know. What did you come across? Edward Bernays. And you're rooting around deep Bernaysian. Okay. Yeah. The father of public relations. If anybody has, you know, 12 hours to watch that documentary on the BBC. I think it's century of the self. Century of the self that is, you know, like in the background. For anybody who's not familiar, like can you correct me if I'm wrong? But like, you know, he was Sigmund Freud's nephew and basically took the concepts of psychoanalysis and applied that to kind of like primordial marketing and understood that you could influence. And he was a father of public relations. You know, he got women to smoke, he made bacon and breakfast food. Like the number of like cultural changes that this man shaped through understanding human behavior is, you know. Diabolical. Yeah, I think that's the right word. It's quite diabolical. Diabolical. I vote diabolical. Yeah, I think, yeah. I think the first episode of that documentary series is called Happiness Machines and in terms of like what they view humans as. And so like once you understand these certain lenses to be able to view human behavior through, it's just very shapable.
+- id: W-0026
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  text: Century of the self that is, you know, like in the background. For anybody who's not familiar, like can you correct me if I'm wrong? But like, you know, he was Sigmund Freud's nephew and basically took the concepts of psychoanalysis and applied that to kind of like primordial marketing and understood that you could influence. And he was a father of public relations. You know, he got women to smoke, he made bacon and breakfast food. Like the number of like cultural changes that this man shaped through understanding human behavior is, you know. Diabolical. Yeah, I think that's the right word. It's quite diabolical. Diabolical. I vote diabolical. Yeah, I think, yeah. I think the first episode of that documentary series is called Happiness Machines and in terms of like what they view humans as. And so like once you understand these certain lenses to be able to view human behavior through, it's just very shapable. Yeah. But I think it's also interesting to look at the evolution of the motivators, you know, from what kind of the American dream, you know, in Bernays time to where we are now with the outrage as the, you know, currency. So where do we sit now, you know, in terms of that. How diabolical do we get? Do we keep going turtles all the way down? Yeah. It does feel though like there has been and maybe with this kind of election and some of the rhetoric at least you know, on the kind of type, you know, kind of communities that the. We've kind of reached some sort of crescendo on that and we're trying to like the pendulum is maybe swinging back to like some sort of normalized discourse at least. Small pocket. Super curious about that one. Yeah. If you watch like any of the kind of left leaning political commentary you know, right now there's a lot of like sober reflection on like what we thought this, but this is what we saw. So what does the data tell us? And so does that currency. And you'd want to get into some neuroscience, but does that outrage currency really affect certain subsets of people based on certain exposures? And then how does that apply through this kind of hyper reality concept of simulation in terms of how information is communicated, particularly through social media? I think that's, you know, what are the, what are the levers there? Yeah, this is like deeply confusing stuff. Honestly, it's hard to keep it all. I'm trying to. How to. My challenge is like how to keep these different threads that I'm pulling on straight to like, you know, because it can't just live in the brain effectively. I feel like I need like a wall with yarn and you know, push pit.
+- id: W-0027
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u113
+  - u114
+  - u115
+  text: Yeah. If you watch like any of the kind of left leaning political commentary you know, right now there's a lot of like sober reflection on like what we thought this, but this is what we saw. So what does the data tell us? And so does that currency. And you'd want to get into some neuroscience, but does that outrage currency really affect certain subsets of people based on certain exposures? And then how does that apply through this kind of hyper reality concept of simulation in terms of how information is communicated, particularly through social media? I think that's, you know, what are the, what are the levers there? Yeah, this is like deeply confusing stuff. Honestly, it's hard to keep it all. I'm trying to. How to. My challenge is like how to keep these different threads that I'm pulling on straight to like, you know, because it can't just live in the brain effectively. I feel like I need like a wall with yarn and you know, push pit. So like get out your tin foil hat. Yeah, this, this time last year I had a room and I think I showed, shared some photos with you and I did that with works on. I needed a whole room and I unraveled the whole of it with stickies, wrapped it up. I remember seeing that and there is, there is a. It was an incredible experience and it was incredibly valuable and I'm seeking the same thing. I just don't have the capacity right now in terms of room nor the thought space. But the one thing I'll put out there is that that whole experience of you learning is one that you can put in motion while you're learning it and that's probably a relevant thing. And you know, the faster we get the feedback loop the better. But if you start in mind with the feedback loop then you get a lot farther. And that's why I went down the path of the direct to consumer because I've built a number of websites already for worksona and they all had started at various different points. But I start with some place to begin with and I move on from there where I'll just review this one thing that I'm doing and where I want to get my stuff to is being able to provide this simple view of what is your input here. And then everything happens based on what I've been doing left to right previously. And so that what I want to be able to minimize at least on the input side isn't a whole, whole lot of things so that I know what's going on there. Now the next thing that happened, I want to be able to isolate that too. And I've been able to do that because of how I get the output. And Jason, for you learning about all of this, very interesting. It was incredibly formative. Me, formative to me in the 90s because it's been around for quite a long time. And I look forward to you striking into Derrida. Man, it's, it's wonderful and, and I'll help you rise out. But can I ask a question?
+- id: W-0028
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u115
+  - u116
+  - u117
+  - u118
+  text: Yeah, this, this time last year I had a room and I think I showed, shared some photos with you and I did that with works on. I needed a whole room and I unraveled the whole of it with stickies, wrapped it up. I remember seeing that and there is, there is a. It was an incredible experience and it was incredibly valuable and I'm seeking the same thing. I just don't have the capacity right now in terms of room nor the thought space. But the one thing I'll put out there is that that whole experience of you learning is one that you can put in motion while you're learning it and that's probably a relevant thing. And you know, the faster we get the feedback loop the better. But if you start in mind with the feedback loop then you get a lot farther. And that's why I went down the path of the direct to consumer because I've built a number of websites already for worksona and they all had started at various different points. But I start with some place to begin with and I move on from there where I'll just review this one thing that I'm doing and where I want to get my stuff to is being able to provide this simple view of what is your input here. And then everything happens based on what I've been doing left to right previously. And so that what I want to be able to minimize at least on the input side isn't a whole, whole lot of things so that I know what's going on there. Now the next thing that happened, I want to be able to isolate that too. And I've been able to do that because of how I get the output. And Jason, for you learning about all of this, very interesting. It was incredibly formative. Me, formative to me in the 90s because it's been around for quite a long time. And I look forward to you striking into Derrida. Man, it's, it's wonderful and, and I'll help you rise out. But can I ask a question? Sorry, I should have put the raised hand thing up. Yeah, okay. But anyways, I'm just wondering if you've either read the book by Charles Duhigg, the Power of Habit, and approach this from like a habit standpoint. In that book there's a chapter on, I think it's like Alcoa or some aluminum company where they kind of just. He just talks about how like a company changes habits. It was initially around safety, then it turned into this like really pervasive management technique I think that happened to increase profits. But yeah, like habits are very marketable. If you've seen any one of the 10 billion copies of Atomic Habits out there, maybe that might be a lens to look at it through. I don't know, just an idea.
+- id: W-0029
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u118
+  - u119
+  text: 'But anyways, I''m just wondering if you''ve either read the book by Charles Duhigg, the Power of Habit, and approach this from like a habit standpoint. In that book there''s a chapter on, I think it''s like Alcoa or some aluminum company where they kind of just. He just talks about how like a company changes habits. It was initially around safety, then it turned into this like really pervasive management technique I think that happened to increase profits. But yeah, like habits are very marketable. If you''ve seen any one of the 10 billion copies of Atomic Habits out there, maybe that might be a lens to look at it through. I don''t know, just an idea. Okay. So to that point, the practice of learning is one of those lenses. And I think that''s a great way of framing things. And the habit of using AI is what we''ve got into now. The habit of exposing those patterns is what I want to get to. But also starting the work with the notion that you''re moving in that direction is itself a habit of stepping back. And the one thing that can happen and we can talk about Jason, going down the rabbit hole of this intelligent intelligentsia, is that it''s very appealing and you have a difficult time stepping back because it continues to feed the support for itself. I found academia quite exciting because of its baked in self integrity. And that''s an unfortunate thing. Right. But if you can pull back out and say, well, these are all theorems, how can I test them? Even in the broad sense of having just an LLM and then export some stuff, then you''re working with them in a functional way, in a habitual fashion where you''re looking to get that feedback. And so a habit, the first thing that I was trying to push out there after talking to Danny Petering here was like percentage feedback. How much feedback do you want a habit of continuously getting feedback on your work? Right. And so what I''ve gotten to is recognizing there''s new information layers that we can create that are automatically created from their habit of conversations like this that create the next platform of opportunity, which is building on that very structured information to create intelligence. And then from that platform of new intelligence, you meet over that and then you discuss that and then build the next layer of intelligence on top of that. And that is a habit of understanding how to build a cadence into your work that recognizes what humans do and what AI can do effectively. Well, and so I showed, you know, the summary of a meeting. I do 30 reports to generate all these different views on a meeting so that then I have all these knowledge blobs. And you know what, I''ve been doing this thanks to James and all of you for quite a long time. And we have all of this information right now that we can then take and push through my, through my agents to then create this new layer of information, a fabric of information that is well structured, that says, here''s all of the topics that we''ve talked about and here they are all over time, and here''s a network of information. And you can find all the things hanging off of this topic by asking, what did we talk to it? And so you create this integrity of information above your experience every time. And you can do that from the level of personal information, project information to business level information, to business level information, to then strategic level information, then to societal level information. And each of those levels of information has an opportunity called knowledge, has an opportunity for intelligence on top of that as you activate it. And so my thing is like building a habit of meetings '
+- id: W-0030
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u119
+  text: 'Okay. So to that point, the practice of learning is one of those lenses. And I think that''s a great way of framing things. And the habit of using AI is what we''ve got into now. The habit of exposing those patterns is what I want to get to. But also starting the work with the notion that you''re moving in that direction is itself a habit of stepping back. And the one thing that can happen and we can talk about Jason, going down the rabbit hole of this intelligent intelligentsia, is that it''s very appealing and you have a difficult time stepping back because it continues to feed the support for itself. I found academia quite exciting because of its baked in self integrity. And that''s an unfortunate thing. Right. But if you can pull back out and say, well, these are all theorems, how can I test them? Even in the broad sense of having just an LLM and then export some stuff, then you''re working with them in a functional way, in a habitual fashion where you''re looking to get that feedback. And so a habit, the first thing that I was trying to push out there after talking to Danny Petering here was like percentage feedback. How much feedback do you want a habit of continuously getting feedback on your work? Right. And so what I''ve gotten to is recognizing there''s new information layers that we can create that are automatically created from their habit of conversations like this that create the next platform of opportunity, which is building on that very structured information to create intelligence. And then from that platform of new intelligence, you meet over that and then you discuss that and then build the next layer of intelligence on top of that. And that is a habit of understanding how to build a cadence into your work that recognizes what humans do and what AI can do effectively. Well, and so I showed, you know, the summary of a meeting. I do 30 reports to generate all these different views on a meeting so that then I have all these knowledge blobs. And you know what, I''ve been doing this thanks to James and all of you for quite a long time. And we have all of this information right now that we can then take and push through my, through my agents to then create this new layer of information, a fabric of information that is well structured, that says, here''s all of the topics that we''ve talked about and here they are all over time, and here''s a network of information. And you can find all the things hanging off of this topic by asking, what did we talk to it? And so you create this integrity of information above your experience every time. And you can do that from the level of personal information, project information to business level information, to business level information, to then strategic level information, then to societal level information. And each of those levels of information has an opportunity called knowledge, has an opportunity for intelligence on top of that as you activate it. And so my thing is like building a habit of meetings '
+- id: W-0031
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u119
+  - u120
+  - u121
+  - u122
+  text: Okay. So to that point, the practice of learning is one of those lenses. And I think that's a great way of framing things. And the habit of using AI is what we've got into now. The habit of exposing those patterns is what I want to get to. But also starting the work with the notion that you're moving in that direction is itself a habit of stepping back. And the one thing that can happen and we can talk about Jason, going down the rabbit hole of this intelligent intelligentsia, is that it's very appealing and you have a difficult time stepping back because it continues to feed the support for itself. I found academia quite exciting because of its baked in self integrity. And that's an unfortunate thing. Right. But if you can pull back out and say, well, these are all theorems, how can I test them? Even in the broad sense of having just an LLM and then export some stuff, then you're working with them in a functional way, in a habitual fashion where you're looking to get that feedback. And so a habit, the first thing that I was trying to push out there after talking to Danny Petering here was like percentage feedback. How much feedback do you want a habit of continuously getting feedback on your work? Right. And so what I've gotten to is recognizing there's new information layers that we can create that are automatically created from their habit of conversations like this that create the next platform of opportunity, which is building on that very structured information to create intelligence. And then from that platform of new intelligence, you meet over that and then you discuss that and then build the next layer of intelligence on top of that. And that is a habit of understanding how to build a cadence into your work that recognizes what humans do and what AI can do effectively. Well, and so I showed, you know, the summary of a meeting. I do 30 reports to generate all these different views on a meeting so that then I have all these knowledge blobs. And you know what, I've been doing this thanks to James and all of you for quite a long time. And we have all of this information right now that we can then take and push through my, through my agents to then create this new layer of information, a fabric of information that is well structured, that says, here's all of the topics that we've talked about and here they are all over time, and here's a network of information. And you can find all the things hanging off of this topic by asking, what did we talk to it? And so you create this integrity of information above your experience every time. And you can do that from the level of personal information, project information to business level information, to business level information, to then strategic level information, then to societal level information. And each of those levels of information has an opportunity called knowledge, has an opportunity for intelligence on top of that as you activate it. And so my thing is like building a habit of meetings  So what if it's that simple? Then like, what if it, this is. What it should be. What if you're, you know, like, what if the landing page for Work Zone is just like, book a meeting and see what AI can do for you. And then it's like you have the meeting or whatever and then what you could, you know, it could be filled with fun, it could be filled with work, like whatever. And then the magic comes from this. You've probably already thought of this, but like the magic comes from when you just send them the analysis of what happened, like super concisely and you're like, this is what works on it is like, it's like a really concise message. Because actually that's the first thing when I'm talking with people about AI over Beers. Like what, what can it do? What, what will it do? For sure, I'm like, well, there's this thing called Fireflies. Like it's going to be taking minutes on all your meetings. And like that's like behind software coding. Like that might be the more applicable, broader use case. If you can like clearly message that, that might be an angle too.
+- id: W-0032
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u122
+  - u123
+  text: What if you're, you know, like, what if the landing page for Work Zone is just like, book a meeting and see what AI can do for you. And then it's like you have the meeting or whatever and then what you could, you know, it could be filled with fun, it could be filled with work, like whatever. And then the magic comes from this. You've probably already thought of this, but like the magic comes from when you just send them the analysis of what happened, like super concisely and you're like, this is what works on it is like, it's like a really concise message. Because actually that's the first thing when I'm talking with people about AI over Beers. Like what, what can it do? What, what will it do? For sure, I'm like, well, there's this thing called Fireflies. Like it's going to be taking minutes on all your meetings. And like that's like behind software coding. Like that might be the more applicable, broader use case. If you can like clearly message that, that might be an angle too. Yeah, what, what I like is that it focuses back on why I got into this. And that's the people centric notion of being able to leverage your talent as an AI. Whether we get there or not, I don't know. But, but yeah, I think there's, there's value in that perspective and being able to figure out what that habit is for you with other people, I think is an essential part of this stuff of. So another habit that I've uncovered is that meetings should always be three people and maybe work should always be three people. And that would be defining work in a new way too. And that means that every time you're doing work you have somebody that does it with you and then you have an AI that actually does the oversight and overwatch. And one can be the consumer and one can be the producer and you flip those roles as you move through the process because of the fact that you're most likely working at a strategic or intelligent intelligence level. You're not working at the production level anymore. So there's, there's, there are that habits thing is really big. And when I've been part of a peer group a lot of the time they're just trying to introduce those habits. They bring in professionals that have their own things, like the five wisdoms, you know, like that was a good one. I'm like, okay. And then. And they, and these guys make bank and these guys are coaches to the most elite, elite people in the world that you've never heard of. Right. And there's an elitism out there that gets promoted through these habits. And so some, the people like this room should succeed in that we can build our own habits around this stuff so that no matter what the tools do, we have a place to put them and they're not tromping over us. I found out a very powerful use of co pilot changed my opinion of what it can be. And then I said, can Gemini do the same thing? And I was told yes. And at which point I'm like.
+- id: W-0033
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  text: Yeah, what, what I like is that it focuses back on why I got into this. And that's the people centric notion of being able to leverage your talent as an AI. Whether we get there or not, I don't know. But, but yeah, I think there's, there's value in that perspective and being able to figure out what that habit is for you with other people, I think is an essential part of this stuff of. So another habit that I've uncovered is that meetings should always be three people and maybe work should always be three people. And that would be defining work in a new way too. And that means that every time you're doing work you have somebody that does it with you and then you have an AI that actually does the oversight and overwatch. And one can be the consumer and one can be the producer and you flip those roles as you move through the process because of the fact that you're most likely working at a strategic or intelligent intelligence level. You're not working at the production level anymore. So there's, there's, there are that habits thing is really big. And when I've been part of a peer group a lot of the time they're just trying to introduce those habits. They bring in professionals that have their own things, like the five wisdoms, you know, like that was a good one. I'm like, okay. And then. And they, and these guys make bank and these guys are coaches to the most elite, elite people in the world that you've never heard of. Right. And there's an elitism out there that gets promoted through these habits. And so some, the people like this room should succeed in that we can build our own habits around this stuff so that no matter what the tools do, we have a place to put them and they're not tromping over us. I found out a very powerful use of co pilot changed my opinion of what it can be. And then I said, can Gemini do the same thing? And I was told yes. And at which point I'm like. We. Are going to change very quickly. It has access to every fucking thing I do on the Google sphere except for notebook at lab, apparently. I was thinking about habits and how it relates to the entity layer in what you were saying earlier, Dave. Like it always maps back to some like emotional state that have it seek to either improve or relieve. Yeah. So like in a consumer product kind of, you know, modality, like James was saying, like holy grail in that world is to have some product be integrated into some sort of habit. And that habit is almost always fulfilling an emotional need in some way. And even in a company, you know, like with maybe I suspect Alcoa, like the habits there were meeting some need that like relieved or provided some output for some the emotional, you know, whole of the company or team or department. I like that. And figuring and figuring out what the emotional like this is a bunch of my work is always, it always comes back to feeling because everything, everything. And like even in terms there's lots of good papers about even like motivating and getting different outputs from LLMs based on providing it like emotional tone in terms of how it's rewarded in an emotional way.
+- id: W-0034
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  text: So like in a consumer product kind of, you know, modality, like James was saying, like holy grail in that world is to have some product be integrated into some sort of habit. And that habit is almost always fulfilling an emotional need in some way. And even in a company, you know, like with maybe I suspect Alcoa, like the habits there were meeting some need that like relieved or provided some output for some the emotional, you know, whole of the company or team or department. I like that. And figuring and figuring out what the emotional like this is a bunch of my work is always, it always comes back to feeling because everything, everything. And like even in terms there's lots of good papers about even like motivating and getting different outputs from LLMs based on providing it like emotional tone in terms of how it's rewarded in an emotional way. Yep. So the, you know, trying to crack the emotional motivation component of it is like is I think super important. But I hadn't thought about it through an entity level habit lens before. Well, I like that because what it does is it offloads the impetus into a workflow and a process over time. Right. A lot of the time we're moving into an activity, knowing what we know, what the solution needs to be and grinding our way to it and recognizing the amount of work to get there. It is very difficult for a lot of people. And I've only done it a few times successfully in the last year or so where I've known I've had a fairly big problem in front of me, no idea how to solve it with success and being able to do it right because of a habit I had and the habit being able to inform a calmness within me to let things happen. And the anxiety that AI gives you is pretty subtle at times because what it can do is just make you keep going. That's the experience of coding for a lot of people was for myself is that. No, I'll just keep going. And then you know, it's like, whoa, I just fell asleep. It's like because the adrenaline stops. So there's the, the I like the emotion thing because it is very difficult to estimate. But we read books and books are just words and abstractions can produce that. A line and a dot can produce that for various, you know, people that are really schooled in art. But if you move it to the, to the feeling space, emotions can be tied to chemical release. Feelings are up, and I like that. And that they are how people describe things in a very, very loose way. But they are confident in how they describe it. We use the phrase, you hurt my feelings. Try to find your feelings that were hurt.
+- id: W-0035
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  text: Well, I like that because what it does is it offloads the impetus into a workflow and a process over time. Right. A lot of the time we're moving into an activity, knowing what we know, what the solution needs to be and grinding our way to it and recognizing the amount of work to get there. It is very difficult for a lot of people. And I've only done it a few times successfully in the last year or so where I've known I've had a fairly big problem in front of me, no idea how to solve it with success and being able to do it right because of a habit I had and the habit being able to inform a calmness within me to let things happen. And the anxiety that AI gives you is pretty subtle at times because what it can do is just make you keep going. That's the experience of coding for a lot of people was for myself is that. No, I'll just keep going. And then you know, it's like, whoa, I just fell asleep. It's like because the adrenaline stops. So there's the, the I like the emotion thing because it is very difficult to estimate. But we read books and books are just words and abstractions can produce that. A line and a dot can produce that for various, you know, people that are really schooled in art. But if you move it to the, to the feeling space, emotions can be tied to chemical release. Feelings are up, and I like that. And that they are how people describe things in a very, very loose way. But they are confident in how they describe it. We use the phrase, you hurt my feelings. Try to find your feelings that were hurt. A small hack on the emotional side, if anyone wants to play with the prompting, is to leverage Plutchark's wheel of Emotion. Because it's just a very definitive collection of emotions that are incrementally broken down to be more specific from the center to the outside. And providing that in a prompt when you're trying to do some of that emotional work is helpful for it to kind of get more granular. Share a link in the chat. Yeah, there's. There's a. There's a handful of different wheels of emotion trying to figure out this one. He adds.
+- id: W-0036
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u134
+  - u135
+  - u136
+  - u137
+  text: A small hack on the emotional side, if anyone wants to play with the prompting, is to leverage Plutchark's wheel of Emotion. Because it's just a very definitive collection of emotions that are incrementally broken down to be more specific from the center to the outside. And providing that in a prompt when you're trying to do some of that emotional work is helpful for it to kind of get more granular. Share a link in the chat. Yeah, there's. There's a. There's a handful of different wheels of emotion trying to figure out this one. He adds. Blue chicks is the. Is the. Yeah, the one I was pointing to allows you to understand what the polars and the next doors are. And maybe this one says that too, which is interesting because they're related in many regards. But what the neat thing about feelings is is that it is elusive in terms of studying it in many ways, but you can experience it. Liken it to the fact that, you know, you can point to good. But identifying it ahead of time or even the process to get there is not good. Meaning things change significantly. The habit of understanding that is what I would look to, you know, when Wednesdays for. In one way, I happen to be pulling out of this thing in some regard and then be able to go back into it. And maybe there's. I have theories of motion. I think motion is everything. And if you say there's feelings involved and it happens over time, and maybe you can fuck with the emotions by fucking with time. We know that daylight savings time fucks with us in so many ways. It kills my dogs, right? They're like right on time at 4:00. Now it's supposed to be 5. So maybe there's the cadence of working that can. In the cadence of delivery of messages that is really affording more opportunity. And if you look at it that way, then maybe you can start your thinking that way and then build your feedback from your thinking to your product that way. Meaning. Jason, you have way too many variables.
+- id: W-0037
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u137
+  - u138
+  - u139
+  text: Yeah, the one I was pointing to allows you to understand what the polars and the next doors are. And maybe this one says that too, which is interesting because they're related in many regards. But what the neat thing about feelings is is that it is elusive in terms of studying it in many ways, but you can experience it. Liken it to the fact that, you know, you can point to good. But identifying it ahead of time or even the process to get there is not good. Meaning things change significantly. The habit of understanding that is what I would look to, you know, when Wednesdays for. In one way, I happen to be pulling out of this thing in some regard and then be able to go back into it. And maybe there's. I have theories of motion. I think motion is everything. And if you say there's feelings involved and it happens over time, and maybe you can fuck with the emotions by fucking with time. We know that daylight savings time fucks with us in so many ways. It kills my dogs, right? They're like right on time at 4:00. Now it's supposed to be 5. So maybe there's the cadence of working that can. In the cadence of delivery of messages that is really affording more opportunity. And if you look at it that way, then maybe you can start your thinking that way and then build your feedback from your thinking to your product that way. Meaning. Jason, you have way too many variables. It's actually like the focus part is the hard part is the hardest issue that I'm kind of like. I feel like I've been spinning for like six months and, like, learning things, but I haven't been able to, like, make effective choices to hone in. And basically, you know, we talked about this, like, you just got to make decisions, you got to test things, you got to collect data and you got to do. Yeah, and that's. And then, you know, where do you find that aggregate API that sits about things in some way, like a feeling or emotion that's above the actual tasks that get done to figure out what that emotion is? And you're working with the quant data a lot of the time to get to it. And so the framework is the other way instead of. And so you're looking to get to the emotions from quant instead of taking the emotions and quantifying them. And that's difficult. So you're probably on one side trying to quantify them, the other side, you're trying to flip the bits this way. And the large language model is right now, I think, effectively helping on one side and the other not in the middle, because there's not a lot of confidence with that. And that's, I think, the really keen opportunity. But it requires really simplified simplifying things, really simplifying things down to use it currently. And to do that, you need a lot of output all the time. And so the experimentation is vital to isolate each of these aspects. I think you have probably 10 different businesses under your belt with what you've been prototyping. And I know that I have five or six, because that's like, if I talk about them separately, then they have a path, but if you string them together, it's a monster.
+- id: W-0038
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u139
+  - u140
+  - u141
+  - u142
+  text: Yeah, and that's. And then, you know, where do you find that aggregate API that sits about things in some way, like a feeling or emotion that's above the actual tasks that get done to figure out what that emotion is? And you're working with the quant data a lot of the time to get to it. And so the framework is the other way instead of. And so you're looking to get to the emotions from quant instead of taking the emotions and quantifying them. And that's difficult. So you're probably on one side trying to quantify them, the other side, you're trying to flip the bits this way. And the large language model is right now, I think, effectively helping on one side and the other not in the middle, because there's not a lot of confidence with that. And that's, I think, the really keen opportunity. But it requires really simplified simplifying things, really simplifying things down to use it currently. And to do that, you need a lot of output all the time. And so the experimentation is vital to isolate each of these aspects. I think you have probably 10 different businesses under your belt with what you've been prototyping. And I know that I have five or six, because that's like, if I talk about them separately, then they have a path, but if you string them together, it's a monster. It's the entrepreneurial dilemma, you know, like, in terms of being able to kind of see, like, the kind of, you know, final thing that you want, and then, like, understanding, like, what are the pieces to stack on top of those, to be able to release incrementally in order to be able to, you know, find success with it historically, or at least with this iteration of this business that I'm building, the challenge has been, like, not doing that effectively. Right. So that's dilemma, which is spelled dilemma. Right. That phrasing right there is probably the agent you need. You need a guardian angel agent. I said angel. Probably want one of those two. But that's the cadence thing, and maybe that's the habit thing. How about maybe you need somebody to talk to every day to pull out and summarize what you've done so that you have some context on it. You'll go down the same rabbit hole or something. I'm trying to figure that out too, in my web browser. I don't know if you can See it? Yeah, you can see it up the top right here. Plan, log, retro. I'm trying to surface myself in some regard and pull myself out. So at the beginning of the day, you start with what you know, what do you want to do, and then you log through the day. What you're doing. Are you trading rewind Dave? Like, maybe, like, I should try using this. It basically records everything that you're doing all day and then has that context to be able to, like, drive summarization. So rewind AI.
+- id: W-0039
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  text: Right. So that's dilemma, which is spelled dilemma. Right. That phrasing right there is probably the agent you need. You need a guardian angel agent. I said angel. Probably want one of those two. But that's the cadence thing, and maybe that's the habit thing. How about maybe you need somebody to talk to every day to pull out and summarize what you've done so that you have some context on it. You'll go down the same rabbit hole or something. I'm trying to figure that out too, in my web browser. I don't know if you can See it? Yeah, you can see it up the top right here. Plan, log, retro. I'm trying to surface myself in some regard and pull myself out. So at the beginning of the day, you start with what you know, what do you want to do, and then you log through the day. What you're doing. Are you trading rewind Dave? Like, maybe, like, I should try using this. It basically records everything that you're doing all day and then has that context to be able to, like, drive summarization. So rewind AI. Well, that's what that is, man. That's all that is, is me being able. Machine crashing again, is wanting to be able to do. What I'm doing with the information on the project is create this longitudinal view that gives me some perspective that I'm not getting right now. And that can be quite helpful, you know, at many different levels, which my hope is to get that help on my desktop. Well, this technology apparently processes everything locally, so, like, and I need to just dig into that to be able to validate it. But I'll check this out for sure because I'm having a hard time using my thing because it's not automated enough for me. And that's. I'm just pointing to it as that desire to have a habit and to be able to have one that I can get into a different mode myself. Right. The problem with the room is we can get into the modes of being doers and directors and entrepreneurs and all the other things is knowing when to do that. That's the thing I think is really quite neat, is like, if you create another layer of information, it requires you to put on that other hat to work with it. Right? And so if you're at that layer of. I got these meetings. Okay, great, you had great meetings. You come out of them, you're like, wow, okay, well, now I've got this another layer of information which I can put a different hat on to. It's like, okay, I got to get things done. It's this do hat, PM hat. Well, and then on top of that, it's like, okay, I need business intelligence. Like, things are not going well over there. And then I want to enable people like clients to have the strategic intelligence. And I can't build and work with them all at the same time. And so, you know, that alone is a cadence that would be helpful is to better schedule some sort of meta version of my week.
+- id: W-0040
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  text: But I'll check this out for sure because I'm having a hard time using my thing because it's not automated enough for me. And that's. I'm just pointing to it as that desire to have a habit and to be able to have one that I can get into a different mode myself. Right. The problem with the room is we can get into the modes of being doers and directors and entrepreneurs and all the other things is knowing when to do that. That's the thing I think is really quite neat, is like, if you create another layer of information, it requires you to put on that other hat to work with it. Right? And so if you're at that layer of. I got these meetings. Okay, great, you had great meetings. You come out of them, you're like, wow, okay, well, now I've got this another layer of information which I can put a different hat on to. It's like, okay, I got to get things done. It's this do hat, PM hat. Well, and then on top of that, it's like, okay, I need business intelligence. Like, things are not going well over there. And then I want to enable people like clients to have the strategic intelligence. And I can't build and work with them all at the same time. And so, you know, that alone is a cadence that would be helpful is to better schedule some sort of meta version of my week. I've learned that if it repeats in my schedule, I like it. And if I get something thrown at me right away, I'm like, pretty unhappy with it. And so there's things I know about my week at 50 that I want things to be different for the next 10 years, 20 years. And right now there's all these opportunities to create these feedbacks, just really expensive in terms of our time. So I think a Wednesday is a good one. You know, start of the week, have one with somebody. Wednesday's not a bad one for an hour. And what's a Friday one look like for anybody? I like the concept of an energy audit. I'll share it in the channel. Review. Your calendar and then just like plus one, minus one gives me energy, removes energy. There's a bit of a system for how to kind of handle that, but. Yeah. Anyways, guys, this has been great.
+- id: W-0041
+  t_start: 3780.0
+  t_end: 3881.431
+  utterance_ids:
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  text: I've learned that if it repeats in my schedule, I like it. And if I get something thrown at me right away, I'm like, pretty unhappy with it. And so there's things I know about my week at 50 that I want things to be different for the next 10 years, 20 years. And right now there's all these opportunities to create these feedbacks, just really expensive in terms of our time. So I think a Wednesday is a good one. You know, start of the week, have one with somebody. Wednesday's not a bad one for an hour. And what's a Friday one look like for anybody? I like the concept of an energy audit. I'll share it in the channel. Review. Your calendar and then just like plus one, minus one gives me energy, removes energy. There's a bit of a system for how to kind of handle that, but. Yeah. Anyways, guys, this has been great. Yeah. So what I will do is I will draw down the transcripts for the. For this and I'll put them in a folder and that'll be something we have. And I bet there's something worth saying in this stuff. I'll seriously, I'll throw the 30 things at it and I'll produce 30 reports and we'll put it in. I'll put it in a mongodb, because I can do that now and we'll see what's in here. Yeah, that's something, right? Like if you do something over time, you're not going to remember everything and even the themes change, but we're these people and, and I think it's, you know, this, this morning thing for me has been really vital and that. Thanks, Jason. That. That the value shouldn't stop at 8, 45, 9, 15, 9 o'clock, whatever it is. But I'll work on that and I'll see you next week and I'm sure I'll be talking to you, some of you before then. I appreciate seeing you all in the mornings. Your head's bobbing back on board with somebody. Sounds good. Thanks, David. Have a great Wednesday. Yeah, guys, Cheers. Peace out. Peace.
+- id: W-0042
+  t_start: 3870.0
+  t_end: 3881.431
+  utterance_ids:
+  - u150
+  - u151
+  - u152
+  - u153
+  text: Yeah. So what I will do is I will draw down the transcripts for the. For this and I'll put them in a folder and that'll be something we have. And I bet there's something worth saying in this stuff. I'll seriously, I'll throw the 30 things at it and I'll produce 30 reports and we'll put it in. I'll put it in a mongodb, because I can do that now and we'll see what's in here. Yeah, that's something, right? Like if you do something over time, you're not going to remember everything and even the themes change, but we're these people and, and I think it's, you know, this, this morning thing for me has been really vital and that. Thanks, Jason. That. That the value shouldn't stop at 8, 45, 9, 15, 9 o'clock, whatever it is. But I'll work on that and I'll see you next week and I'm sure I'll be talking to you, some of you before then. I appreciate seeing you all in the mornings. Your head's bobbing back on board with somebody. Sounds good. Thanks, David. Have a great Wednesday. Yeah, guys, Cheers. Peace out. Peace.

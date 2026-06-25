@@ -1,0 +1,28 @@
+id: IDEA-0158
+slug: shifting-trends-in-prompting-style
+phase: backlog
+track: light
+source:
+  meeting: '2026-03-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson shared research suggesting that programmers are becoming less precise and more vague in their prompting because the infrastructure is more capable of handling it. This shift means people are relying on the workflow to be solid, often trying multiple things in parallel (like 1x, 4x, or 16x runners in CodeX) rather than relying on a single, detailed prompt (00:20:39) (00:24:55). They believe future prompting will be "super light" because the system will learn itself (00:21:48).
+summary: Shifting Trends in Prompting Style
+rationale: David Olsson shared research suggesting that programmers are becoming less precise and more vague in their prompting because the infrastructure is more capable of handling it. This shift means people are relying on the workflow to be solid, often trying multiple things in parallel (like 1x, 4x, or 16x runners in CodeX) rather than relying on a single, detailed prompt (00:20:39) (00:24:55). They be
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 58.0
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 6.1
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 252
+tier: backlog

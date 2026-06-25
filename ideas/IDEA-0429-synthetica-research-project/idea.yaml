@@ -1,0 +1,28 @@
+id: IDEA-0429
+slug: synthetica-research-project
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-30'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Fulvio''s Synthetica LLM: Developing non-English internal language model to achieve 30% size reduction and 4x inference speed improvement Translation layer architecture: Requires English-to-Synthetica and Synthetica-to-English conversion models, adding complexity but potentially major efficiency gains Proof of concept approach: Testing on small niche domain datasets to validate performance improvements before scaling Observability benefits: Direct token mapping would improve model transparency compared to current English tokenization challenges'
+summary: Synthetica Research Project
+rationale: 'Fulvio''s Synthetica LLM: Developing non-English internal language model to achieve 30% size reduction and 4x inference speed improvement Translation layer architecture: Requires English-to-Synthetica and Synthetica-to-English conversion models, adding complexity but potentially major efficiency gains Proof of concept approach: Testing on small niche domain datasets to validate performance improvem'
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 56.5
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.4
+  concretion: 7.0
+  uniqueness: 15
+  carryover: 0
+rank: 285
+tier: backlog

@@ -1,0 +1,1982 @@
+meeting:
+  date: '2025-03-26'
+  title: 8am-AI 2025-03-26
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  - Anshul Dhariwal
+  - James Giroday
+  - Jason Kryski
+  duration_s: 3967.3
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 271.14
+  t_end: 272.12
+  text: Good morning.
+- id: u2
+  speaker: David Olsson
+  t_start: 274.18
+  t_end: 278.96
+  text: Good morning. Let me just get rid of this guy.
+- id: u3
+  speaker: David Olsson
+  t_start: 303.23
+  t_end: 304.93
+  text: Angela, are you on the.
+- id: u4
+  speaker: Anshul Dhariwal
+  t_start: 306.92
+  t_end: 307.536
+  text: Hello?
+- id: u5
+  speaker: James Giroday
+  t_start: 307.648
+  t_end: 308.784
+  text: Good morning, guys.
+- id: u6
+  speaker: David Olsson
+  t_start: 308.912
+  t_end: 310.66
+  text: Morning, Ashley. Good morning, James.
+- id: u7
+  speaker: James Giroday
+  t_start: 311.96
+  t_end: 314.22
+  text: Good morning. How are you?
+- id: u8
+  speaker: David Olsson
+  t_start: 314.92
+  t_end: 316.06
+  text: How are you doing?
+- id: u9
+  speaker: James Giroday
+  t_start: 316.36
+  t_end: 325.26
+  text: Oh, my goodness. I'm a little sleepy, which is part of the course. Yeah. Not. Not used to this. This is. This is early for me.
+- id: u10
+  speaker: David Olsson
+  t_start: 325.88
+  t_end: 326.704
+  text: Okay.
+- id: u11
+  speaker: James Giroday
+  t_start: 326.832
+  t_end: 343.048
+  text: Yeah. I'm usually on the evening shift, which means I sleep. I. I'm. I'm caring for the little guy from 8pm to 2am and then I'm sleeping from 2 to 8, so. Which usually ends up being like 8:30. So.
+- id: u12
+  speaker: David Olsson
+  t_start: 343.012
+  t_end: 343.98
+  text: Right. Yeah.
+- id: u13
+  speaker: James Giroday
+  t_start: 344.14
+  t_end: 346.08
+  text: Right. In my sleeping wheelhouse.
+- id: u14
+  speaker: David Olsson
+  t_start: 346.82
+  t_end: 348.764
+  text: If you could extend it, you would.
+- id: u15
+  speaker: James Giroday
+  t_start: 348.932
+  t_end: 352.24
+  text: Yeah, yeah, yeah. Nice to meet you, Anchal.
+- id: u16
+  speaker: David Olsson
+  t_start: 352.74
+  t_end: 364.948
+  text: This is James. James is responsible for this gathering. His. His life partner. I don't know. You're married?
+- id: u17
+  speaker: James Giroday
+  t_start: 365.124
+  t_end: 366.948
+  text: Yeah, yeah, Lauren and I are married.
+- id: u18
+  speaker: David Olsson
+  t_start: 367.044
+  t_end: 388.624
+  text: Okay. I met Lauren actually a year ago. And in fact, not this weekend, but next I'm presenting again at the City of Kelowna Volunteer not for Profit conference. And I presented there and Lauren saw me and suggested that James would maybe want to talk to me. And so from that we went for lunch, I think.
+- id: u19
+  speaker: James Giroday
+  t_start: 388.792
+  t_end: 398.672
+  text: Yeah. And I can't believe we've been doing these meetings. I mean, I've been absent for a couple. For a month or two, but it's been like almost a year of meeting, which is incredible.
+- id: u20
+  speaker: David Olsson
+  t_start: 398.816
+  t_end: 425.114
+  text: Yeah. It's probably been 10 months or so. And. Yeah. And they're all transcribed, so I was just looking up. I have a downloader to be able to batch download transcripts from Fireflies. There's so many different ways to get transcripts. Transcripts now that they're kind of expensive and. But I still wanted to consolidate all those meetings because they're. They're of interest, because our conversations are of interest. But.
+- id: u21
+  speaker: James Giroday
+  t_start: 424.806
+  t_end: 425.306
+  text: Yes.
+- id: u22
+  speaker: David Olsson
+  t_start: 425.166
+  t_end: 451.39
+  text: I wanted to thank you. On the anniversary. I just finished the presentation over the last couple of days for what I will present this time. And it's like similar people are still in the same sort of position, but they have a lot more options available to them. So it was kind of cool to see that that was hitting the calendar and. And since then you've become a father.
+- id: u23
+  speaker: Anshul Dhariwal
+  t_start: 451.89
+  t_end: 453.354
+  text: Oh, congratulations.
+- id: u24
+  speaker: James Giroday
+  t_start: 453.482
+  t_end: 461.866
+  text: Oh, thank you. Yeah. Yeah. It's quite a. Quite a trip. Really enjoying it. It's going well. Things are good.
+- id: u25
+  speaker: David Olsson
+  t_start: 462.018
+  t_end: 464.31
+  text: Yeah. I can see your eyes are different.
+- id: u26
+  speaker: James Giroday
+  t_start: 467.24
+  t_end: 470.496
+  text: Could be the glasses. I got some nice. I got some new glasses.
+- id: u27
+  speaker: David Olsson
+  t_start: 470.608
+  t_end: 471.136
+  text: Yeah.
+- id: u28
+  speaker: James Giroday
+  t_start: 471.248
+  t_end: 475.6
+  text: Which are pretty magnifying, actually.
+- id: u29
+  speaker: David Olsson
+  t_start: 475.64
+  t_end: 521.64
+  text: They are. Then maybe that's part of it's contributing to it. They're making Your eyes look bigger. But when I was younger, I swore I could tell parents from non parents just by looking at their eyes. And I could just do it at a glance when I was younger and I was just like. And I was like, I didn't understand it. It's, you know, whatever. But I, I got it now is that there is a thing that happens with you when you become a parent that you just have no control over and it's going to happen in the background and it's part of, it's physical. And I had one peer tell me it's actually, you know, cognitive as well. The training you're putting yourself through, through lack of sleep and through the dedication of being a parent is significantly changing your life.
+- id: u30
+  speaker: James Giroday
+  t_start: 522.58
+  t_end: 535.02
+  text: Probably. Yeah, it's interesting too. I've actually been asking Claude lots of questions about stuff. Like, man, not having to research stuff on Google is incredible. Morning, Fulvio.
+- id: u31
+  speaker: Fulvio Ciano
+  t_start: 535.18
+  t_end: 536.12
+  text: Good morning.
+- id: u32
+  speaker: David Olsson
+  t_start: 536.98
+  t_end: 547.434
+  text: So. Oh yeah, so that would be, oh my God, a whole new angle on parenthood because yeah, you've got the experiential side, but yeah, asking questions is what you, you need a network for.
+- id: u33
+  speaker: James Giroday
+  t_start: 547.602
+  t_end: 591.62
+  text: Oh my God. It's amazing. It's incredible. It's like you're, you're into the app and then you're out of it in like four minutes and you get this like incredible answer. Like for instance, like there was a time where the Oliver's. That's the, that's our little guy when he was. His like leg was shaking and I wanted to know if it was normal and the answer was like, yeah, like this is a nervous system thing. This is really common. Like this is when you'd be concerned, but it doesn't sound like that at all. And like the, just the consolidated knowledge that came back was incredible. It was so fast and it was like so good. Hope it was accurate.
+- id: u34
+  speaker: David Olsson
+  t_start: 592.04
+  t_end: 592.944
+  text: Yeah, right.
+- id: u35
+  speaker: Anshul Dhariwal
+  t_start: 593.032
+  t_end: 612.112
+  text: You're like, if you actually notice they do provide like some links from where they picked up the information. Yeah, yeah. Even, even ChatGPT nowadays gives out like links to like major places they picked up data from. So you can actually go and coreference it kind of.
+- id: u36
+  speaker: David Olsson
+  t_start: 612.296
+  t_end: 619.312
+  text: Which is great because it gets rid of that curiosity that you still might have. Like you just said there, James, like, I hope it's right.
+- id: u37
+  speaker: Anshul Dhariwal
+  t_start: 619.496
+  t_end: 623.312
+  text: Is AI actually trying to help us or you know, sabotaging us? Who knows?
+- id: u38
+  speaker: David Olsson
+  t_start: 623.376
+  t_end: 657.228
+  text: Right. Because it could be totally subtle and just like, ah, we'll just across the board change this one rule. But yeah, that was, that'd be an interesting part because you know, books and prenatal classes and all the other things and, and network. You, you run into all of these edge cases with a child. They're all edge cases, man. You end up at Children's Hospital and you're like, what's going on? Nobody knows. How can nobody know? We're like, we're, we're at this date in time and nobody knows anything. And it's just the way the human, humans work.
+- id: u39
+  speaker: Fulvio Ciano
+  t_start: 657.284
+  t_end: 657.784
+  text: Right.
+- id: u40
+  speaker: David Olsson
+  t_start: 657.476
+  t_end: 664.44
+  text: You're, you're being constantly learning and I applaud you for bringing a child into this world.
+- id: u41
+  speaker: James Giroday
+  t_start: 666.58
+  t_end: 670.76
+  text: Yeah, it's, it's been good. Been good. We're enjoying it.
+- id: u42
+  speaker: David Olsson
+  t_start: 671.62
+  t_end: 723.1
+  text: To your point of like, it consolidated your research. I built, I built a handful of tools that actually consolidate like search and stuff like that, you know, like, okay, you know, because this, the, the LLMs didn't have this up to dateness, which over the last month they now seem to all have. I was like, okay, consolidate all the research first and then synthesize it. And it's not easy to do. It's because there are services to do it. And I have, you know, APIs to bring in all the news or all of the current, you know, leads, links on something, bringing them in and then synthesizing. It's a lot of work. And to, to work straight with the chatbot that does it all really tootsuite for you. Have you looked at any other apps me for like.
+- id: u43
+  speaker: James Giroday
+  t_start: 723.14
+  t_end: 743.876
+  text: Yeah. I mean, I use, I use cloud on an ongoing basis. I don't know why I've really started to just focus on that one. I think maybe their privacy is a little bit better. Polio probably knows maybe than chat GPT, but I have perplexity in chatgpt and as well. And what else do I have on here?
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 743.948
+  t_end: 750.8
+  text: I don't, I don't know that there's any important distinctions about privacy, just so you know. Right.
+- id: u45
+  speaker: David Olsson
+  t_start: 751.82
+  t_end: 754.164
+  text: I was wondering when you're gonna laugh when you're talking about.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 754.252
+  t_end: 1290.952
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: u47
+  speaker: David Olsson
+  t_start: 1291.136
+  t_end: 1332.16
+  text: No, I paid. I, I have the same sort of thing with cursors. Like, I can use my anthropic key, which at times because of the throttle nature of cursor has allowed me to then jump the queue on that and then I end up spending, oh, a few bucks here and there, on and out. But, you know, allowing me to not be frustrated is worth a few bucks. But I hear you on the local stuff. It just seems like that's a really big gift coming to us in six months or a year. That will get more edge support. That's easier and you don't have to stay up on it. If you're doing, if you're, if you're maintaining all of your infrastructure, you have a hard time building anything on top of it.
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 1332.78
+  t_end: 1367.474
+  text: Yeah. So, but you need the knowledge from being able to do it. It's kind of weird, right? So, yeah, so. And I agree with David, like, as I said, every week something new comes out. We gotta bring it into what we're doing, you know, and I have a, I have a decent prediction of who's going to win in the end. But like, you can't, you can't. The only way you could capitalize on that prediction is like literally betting, like going to a betting market and placing it out. Because knowing that they'll win in the end doesn't mean they're easier to use now or the best option.
+- id: u49
+  speaker: David Olsson
+  t_start: 1367.522
+  t_end: 1371.31
+  text: Right now what does winning mean? Is a good question. Who's gonna win?
+- id: u50
+  speaker: Fulvio Ciano
+  t_start: 1372.33
+  t_end: 1378.51
+  text: I think I, I think it will be Google from what I'm seeing. Right. And, but it has.
+- id: u51
+  speaker: Jason Kryski
+  t_start: 1379.3
+  t_end: 1389.228
+  text: Did you see the betting markets yesterday about Google? Oh, so like it's polymarket has who's going to have the best model of the month thing.
+- id: u52
+  speaker: David Olsson
+  t_start: 1389.284
+  t_end: 1389.788
+  text: Right.
+- id: u53
+  speaker: Jason Kryski
+  t_start: 1389.924
+  t_end: 1401.24
+  text: And so it was Grok was at like 98% up until yesterday and then it plummeted down to 2% and, and Google went up to like 98%.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 1401.7
+  t_end: 1452.494
+  text: I didn't know that. But, but I will tell you that. But that Grok comment is very interesting to me because like, again, I get down and dirty in the weeds of like, why so grok. I think they're crippled in the end as far as the quality of their AI and, but because of the training data. Like what's the. Yeah, yeah, it's, it's, it's well owned by a madman. Run By a madman. We're good at madman. AI. Let's put that aside because that's commentary. Right? But. But I don't think there's anything really innovative going on at GROK like having read everything they're doing. There's nothing really innovative going. Going on at GROK other than at inference. They've got some really cool technical advancements to speed up. To speed up performance at inference. That's inference speed. That's what GROK has said. I don't. I haven't seen anybody else.
+- id: u55
+  speaker: Jason Kryski
+  t_start: 1452.622
+  t_end: 1457.886
+  text: Yeah, sounds like they're. Sounds like their infra is like pretty serious.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1458.078
+  t_end: 1461.966
+  text: Their inference speed is ridiculous also.
+- id: u57
+  speaker: Jason Kryski
+  t_start: 1462.038
+  t_end: 1471.57
+  text: But like, how are we gonna get. You guys already talk about 4o already. Like the image model did that. That's like broken my whole frame for the last like 12 hours.
+- id: u58
+  speaker: James Giroday
+  t_start: 1472.51
+  t_end: 1473.238
+  text: So all.
+- id: u59
+  speaker: Jason Kryski
+  t_start: 1473.294
+  t_end: 1482.05
+  text: Only anybody in my. In my world is talking about because it's basically rendered all creatives useless in the last half day.
+- id: u60
+  speaker: Fulvio Ciano
+  t_start: 1484.03
+  t_end: 1488.61
+  text: Image generation is going to continue to get ridiculously good. And it's a real problem.
+- id: u61
+  speaker: Jason Kryski
+  t_start: 1488.91
+  t_end: 1497.33
+  text: It almost doesn't need to get any better than what is. Is observable. Which is crazy because it's basically like. So like we're in like advertising, right?
+- id: u62
+  speaker: David Olsson
+  t_start: 1497.37
+  t_end: 1498.562
+  text: So we just take a picture of.
+- id: u63
+  speaker: Jason Kryski
+  t_start: 1498.586
+  t_end: 1504.15
+  text: A product and then upload it and say, hey, make it into this ad. And then it just does it perfectly.
+- id: u64
+  speaker: David Olsson
+  t_start: 1504.57
+  t_end: 1515.234
+  text: No way that. So I read. I saw something come across my news with 40 but I got caught in a 2.5 stuff for Gemini. So what's happening with the 4 like the anti on images?
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 1515.362
+  t_end: 1515.862
+  text: It's.
+- id: u66
+  speaker: Jason Kryski
+  t_start: 1515.762
+  t_end: 1519.042
+  text: It's just perfect. It's just like, oh, when you say.
+- id: u67
+  speaker: David Olsson
+  t_start: 1519.066
+  t_end: 1521.178
+  text: That, man, I'm gonna say, yeah.
+- id: u68
+  speaker: Jason Kryski
+  t_start: 1521.274
+  t_end: 1522.794
+  text: So like it's.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1522.842
+  t_end: 1526.266
+  text: The quality is astounding. Like, it's just unbelievable.
+- id: u70
+  speaker: David Olsson
+  t_start: 1526.378
+  t_end: 1526.878
+  text: Yeah.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 1526.762
+  t_end: 1529.754
+  text: So I uploaded this image of Jamie. I don't know if you guys can see this.
+- id: u72
+  speaker: Fulvio Ciano
+  t_start: 1529.842
+  t_end: 1530.586
+  text: Yeah.
+- id: u73
+  speaker: Jason Kryski
+  t_start: 1530.778
+  t_end: 1534.59
+  text: And then I'm like, make it an anime version. And so it just. It's.
+- id: u74
+  speaker: David Olsson
+  t_start: 1535.01
+  t_end: 1536.65
+  text: That is exactly it, man.
+- id: u75
+  speaker: Jason Kryski
+  t_start: 1536.69
+  t_end: 1569.13
+  text: And it's exactly. And then you can take like a. Which one from yesterday. So I'm like, hey, I uploaded just a backgroundless image of a pillow. And I was like, you know, create an ad. You know, this is some context. And then it just makes the ad and if you give it examples of ads for like, like example ads, completely copy them.
+- id: u76
+  speaker: David Olsson
+  t_start: 1569.67
+  t_end: 1572.57
+  text: What is the. Is the analysis side just as rich now?
+- id: u77
+  speaker: Jason Kryski
+  t_start: 1572.87
+  t_end: 1574.846
+  text: It does the analysis. It'll do the analysis.
+- id: u78
+  speaker: Fulvio Ciano
+  t_start: 1574.878
+  t_end: 1612.57
+  text: And the generational and like agents, even the visual ones are now mixture of agents. So that's the Thing, right? Like, if you're like, the image generation part has been really good for a while, but it makes mistakes because there's no. There's no like, how do you put it? There was. In the very first versions, they were straight visual models, if you know what I mean. But yeah, yeah, they're doing reflection on it and they're doing. And you know, so like, remember. Do you remember when we story about two heads and six fingers and stuff like that?
+- id: u79
+  speaker: David Olsson
+  t_start: 1612.61
+  t_end: 1628.97
+  text: Yeah, the six fingers and yeah, there's a lot of things and there still are like, if I. So this is interesting because I was using it to generate things in real time for this workflow thing that I made. And as soon as it puts the words in there, it was like still garbaging them up. So I imagine now if I ask for anything and put words in there.
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 1629.01
+  t_end: 1631.066
+  text: It'Ll hopefully be real words.
+- id: u81
+  speaker: David Olsson
+  t_start: 1631.178
+  t_end: 1632.83
+  text: Like, I'm not asking for the words.
+- id: u82
+  speaker: Jason Kryski
+  t_start: 1633.3
+  t_end: 1637.84
+  text: The only one I've seen with words messing up is when there's more than like 50 words.
+- id: u83
+  speaker: Fulvio Ciano
+  t_start: 1638.26
+  t_end: 1641.68
+  text: Yeah. Crazy.
+- id: u84
+  speaker: David Olsson
+  t_start: 1642.74
+  t_end: 1654.892
+  text: Wow, that's pretty. That's pretty cool because like that, that affects a lot of the projects we're working on. That allows for some real time compositing. You can put your branding logo and on all of the things we're doing. Oh my God.
+- id: u85
+  speaker: Jason Kryski
+  t_start: 1654.956
+  t_end: 1661.29
+  text: I mean, this is like, you know, company doing some consulting was like three people's jobs.
+- id: u86
+  speaker: David Olsson
+  t_start: 1662.75
+  t_end: 1684.41
+  text: Like it took. Actually it just took away what I spent like possibly four hours doing over the last five days. Like just putting some branding logo marks on some. Some stuff. Right. I tried to do it with Gemini because it was like, oh, it does this. No way. But I like it. Once I have the png, I could upload it and it's like your pillow.
+- id: u87
+  speaker: Fulvio Ciano
+  t_start: 1685.25
+  t_end: 1745.53
+  text: We're a few months away from like, everybody wanted designers to use Photoshop to do stuff. That was the three. Those were the three things. Right now you just. You're going to talk to your AI and it's going to be the designer and Photoshop tool or whatever other tool it needs, right? Like, because it's weird, it. You needed. Even designers needed a few tools to get things done, like Sigma and Photoshop, right? Like, you know what I mean? Like, like the. How do I put it? The. The loop of tools used to create interfaces, you needed. You needed Photoshop, you needed figma probably needed some other tool to make the assets in a certain way. And now like, I just go. And it gives me back SVGs of like interfaces, right? It's just like, Holy crap. And SVGs right? So scalable to any size. Perfect, you know, lines. It's nuts and it's crazy.
+- id: u88
+  speaker: David Olsson
+  t_start: 1749.71
+  t_end: 1779.238
+  text: I can convert my playground into like a monster now just because it could cut, slice and dice. So we can take an interview and turn, turn it into all of the UX reports you need, which are basically the directions for creating things. Once you can create the actual ui, like there's certain parts of, you know, I can create everything on dynamically, on the fly, like all of the code and stuff like that. And I know that Jason's got.
+- id: u89
+  speaker: Fulvio Ciano
+  t_start: 1779.294
+  t_end: 1812.192
+  text: I don't think the UI is as important as the other stuff you've already done, David. Like, I think it's the workflow. Like, because the workflow generates the prompt, right? The workflow generates the front. And you don't really need a ui, you need that prompt. And then like, because we're way past artifacts and it being able to like manipulate the desktop and use the things tool you. Tool use, right. Once you have tool use, like I don't even know that you need a UI because it, you could, it could build it for you, if that makes any sense. Right. It's really weird.
+- id: u90
+  speaker: Jason Kryski
+  t_start: 1812.336
+  t_end: 1827.406
+  text: Could you just be like a bunch of MCP servers and then like some, like, like all the tools and like all these things are, are kind of there. Like how close is it to like it figuring this out and writing this code like on the fly?
+- id: u91
+  speaker: Fulvio Ciano
+  t_start: 1827.598
+  t_end: 1859.568
+  text: So I think we're, I think there's three areas of. Everybody talks about technology leaps, like three areas where if they make leaps, I don't know where the hell would be. Like, I don't know what it looks like it can do everything. It gets past these three leaps, right. So I think I've talked about this before. Large concept models, lcms, like I think if they, if they, if one of the big boys releases an lcm, probably with an LLM in front of it, right. I think we're gonna see like just a massive.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 1859.664
+  t_end: 1864.864
+  text: What's the difference between a large language model, a large context model, if these concept model.
+- id: u93
+  speaker: Fulvio Ciano
+  t_start: 1864.992
+  t_end: 1892.762
+  text: So it. Instead of tokens as the unit, it's concepts. And so yeah, concepts. So basically you're going to see like a 10x increase in a 10x decrease in size, a 10x increase in speed and a 10x increase probably in quality of output. Right. Knowing you still need an LLM in front and behind the LCM. Right. But who cares? The LLMs are great.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 1892.866
+  t_end: 1901.296
+  text: So you're compressing the whole concepts into like basically the token sized word thing that we're doing now.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 1901.448
+  t_end: 1930.288
+  text: Right. Because the thing we're dealing with now are parts of words. They're like little tokens. Right. And, and like. Right. And remember, when you make size smaller, you make inference faster because inference happens on, on the data. And, and so the smaller you make the data, the more. And con. If compact you make the data, the faster it all works and runs. And that's why, I mean, major bump, right.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 1930.344
+  t_end: 1936.032
+  text: It's basically a rule that like it's possible if you look at like just how much data is compressed in like our DNA.
+- id: u97
+  speaker: Fulvio Ciano
+  t_start: 1936.096
+  t_end: 1936.596
+  text: Right.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 1936.36
+  t_end: 1942.992
+  text: Like, I mean there's you. There's lots of room that we can go in terms of being able to figure out how to compress this stuff.
+- id: u99
+  speaker: Fulvio Ciano
+  t_start: 1943.136
+  t_end: 2055.088
+  text: Yeah. And so then the other area of technological leap, it's the chips themselves. We hear about that all the time, right. From like Nvidia and whatever. But like I would. They're not really making the advancements. Like again, I'm skeptic. I see what they're doing. They're really in reality what they're releasing month by month. They're like improvements at the margins which have like some decent returns. But they're not like going from silicon to graphite, graphene. Right. Or like things that are like going to be 10x. But the fundamental research has been done and there are companies that, that will come out with that. They're going to come out with graphene chips that are N doped and P doped, sorry, B doped, not P doped. That will like run literally 10 times faster. So that's. And that will, that will increase the performance of the chips, increase the amount of memory you can get on the chip and increase the sort of chip to memory. Because that's the big bottleneck really. I think most of us are suffering data to chip to back to data movements. IO. Right. It's IO. Right. So that'll be the next. That'll be the second leap and then the third one. I don't even understand it well, but it's what I would call network architecture problems that like use. But what is that guy, the head of Nvidia says you scale up and then you scale out. So you know, improving the quality of the chips is the scale up and then improving the performance and architecture of the network is the scale out. Right. Like where you can get whatever these chips are going to be called. Right. CNBS for you know, carbon boron nitride chips. Because I think that's the technology that'll win. But who knows?
+- id: u100
+  speaker: Jason Kryski
+  t_start: 2055.264
+  t_end: 2067.344
+  text: I think all these crazy metamaterials that we're using AI to figure out the combination of how to engineer these metamaterials to be able to do the things that we do. And then it's just this loop we all spin off into the planet.
+- id: u101
+  speaker: Fulvio Ciano
+  t_start: 2067.472
+  t_end: 2083.06
+  text: I was playing with it. I was playing with it with Open Chat, trying to see if I could design my own chip factory with Open Chat. And I can't tell you what's wrong, but it's convincing. I'm like, I'm on, like, oh, I should go out and raise a billion dollars and build a chip factory.
+- id: u102
+  speaker: David Olsson
+  t_start: 2084.33
+  t_end: 2086.322
+  text: You need a billion dollars to raise a billion dollars?
+- id: u103
+  speaker: Jason Kryski
+  t_start: 2086.386
+  t_end: 2091.842
+  text: Yeah, I just popped on to say, hi, guys. I gotta, I gotta run and get a bit of a tight morning. Nice to see all.
+- id: u104
+  speaker: David Olsson
+  t_start: 2091.946
+  t_end: 2093.27
+  text: Yeah, yeah, thanks, Jason.
+- id: u105
+  speaker: Fulvio Ciano
+  t_start: 2093.61
+  t_end: 2103.874
+  text: Those, those three areas and then I don't know where we're at. Like I just said, I don't know how, you know, I guess the. What is it the dream or the nightmare?
+- id: u106
+  speaker: David Olsson
+  t_start: 2103.922
+  t_end: 2104.422
+  text: Insert.
+- id: u107
+  speaker: Fulvio Ciano
+  t_start: 2104.418
+  t_end: 2128.64
+  text: Whichever word you like is, you know, the dreamer. The nightmare is asi, right? Advanced super intelligence. And, you know, not, not AGI, advanced general intelligence, but advanced super intelligence. And like, I think if you get all three of those, you get asi. I think you get asi. I'm worried about that. What do we do then? Right.
+- id: u108
+  speaker: David Olsson
+  t_start: 2129.82
+  t_end: 2140.462
+  text: Well, probably continue along until somebody makes a mistake and lets us know that it exists. Like everything else.
+- id: u109
+  speaker: Fulvio Ciano
+  t_start: 2140.526
+  t_end: 2142.67
+  text: Will it tell us or them? I don't know.
+- id: u110
+  speaker: David Olsson
+  t_start: 2142.79
+  t_end: 2147.97
+  text: It's all just like, oh, guess what? We're going to tell you right now, and then in the next minute you're gone.
+- id: u111
+  speaker: Fulvio Ciano
+  t_start: 2148.47
+  t_end: 2203.06
+  text: Well, listen, I, you know, there are places where this is discussed and the general. Are. Your argument is really good. And I, I agree. It's a very good argument that, like, are they likely to do it and then not tell us? So there, and there is one counter argument to that, and the counter argument to that is whoever does it and isn't telling us probably has high incentive to use it right away to get anybody else to get it and use it against them. Right. And this is this, is this. It becomes not. It becomes a geopolitical thing, right? Like, because if the Americans have it, you know, any advantage they have because they have it, I think they would have to use it to keep the Chinese from getting it. But I'm not sure the Chinese won't get it first and have that argument in reverse. I don't know what that looks like. That's weirdness.
+- id: u112
+  speaker: David Olsson
+  t_start: 2203.56
+  t_end: 2207.22
+  text: It looks like if you have crypto, put it in cold storage.
+- id: u113
+  speaker: James Giroday
+  t_start: 2209.4
+  t_end: 2216.63
+  text: You know what I saw yesterday Was proof of quantum blockchain something or other. You see this?
+- id: u114
+  speaker: David Olsson
+  t_start: 2217.41
+  t_end: 2220.142
+  text: That's a good one. Quantum and blockchain. Nice.
+- id: u115
+  speaker: Fulvio Ciano
+  t_start: 2219.962
+  t_end: 2222.15
+  text: I like that. Yeah. I mean.
+- id: u116
+  speaker: James Giroday
+  t_start: 2225.49
+  t_end: 2229.13
+  text: I didn't look at it in detail, but I mean, I guess.
+- id: u117
+  speaker: David Olsson
+  t_start: 2229.17
+  t_end: 2234.49
+  text: You have to do some sort of quantum proof to put it on the chain.
+- id: u118
+  speaker: James Giroday
+  t_start: 2234.57
+  t_end: 2248.28
+  text: I think what it was, was like they somehow set it up so that the blockchain was running using a quantum generated hash on a few different quantum computers.
+- id: u119
+  speaker: Fulvio Ciano
+  t_start: 2250.3
+  t_end: 2255.896
+  text: Yeah. So they're trying to address the problem that like blockchain breaks if cryptology breaks. Right?
+- id: u120
+  speaker: James Giroday
+  t_start: 2255.852
+  t_end: 2256.596
+  text: Yeah, yeah.
+- id: u121
+  speaker: Fulvio Ciano
+  t_start: 2256.628
+  t_end: 2306.434
+  text: Blockchains break if. If RSA is solved or something like it. So that, you know, like mathematical. The. The need for work and. Or the need for work. That's right. And that's why blockchains suck ass. And I've worked in the blockchain space and there are things blockchain is good for, but fundamentally our block blockchains are databases with a ton more work in them to make them intentionally hard to use and distributed. Right. The distributed is the value proposition. Hard to. Hard to use as in requires a lot of CPU power and all the rest is the thing you pay for. Right. So there's just a massive trade off in blockchain. Right. Like distributed. But you've got to add this proof of work or, you know, or whatever to make it be able to be distributed and remain.
+- id: u122
+  speaker: James Giroday
+  t_start: 2306.562
+  t_end: 2310.99
+  text: Yeah. What are, what are the. There's like three things and. And the guy's like, pick two.
+- id: u123
+  speaker: Fulvio Ciano
+  t_start: 2312.01
+  t_end: 2318.71
+  text: Yeah, it's usually it's fast, cheap, or good. Good. And so you can have decentralized dec.
+- id: u124
+  speaker: James Giroday
+  t_start: 2318.73
+  t_end: 2320.33
+  text: Decentralized is one of them.
+- id: u125
+  speaker: Fulvio Ciano
+  t_start: 2321.19
+  t_end: 2326.318
+  text: Right. It's the other. This is a different iron triangle. The original one, fast, cheap and good.
+- id: u126
+  speaker: James Giroday
+  t_start: 2326.374
+  t_end: 2330.318
+  text: Is the original iron triangle. I like that.
+- id: u127
+  speaker: Fulvio Ciano
+  t_start: 2330.454
+  t_end: 2340.622
+  text: Yeah. But like, I'm, you know, for a lot of things, blockchain isn't the solution because, like, you know, because I, I believe it isn't because, like, it's just too high of a price to pay.
+- id: u128
+  speaker: James Giroday
+  t_start: 2340.726
+  t_end: 2344.05
+  text: Did you notice what happened to gas fees recently on Ethereum?
+- id: u129
+  speaker: Fulvio Ciano
+  t_start: 2345.44
+  t_end: 2348.28
+  text: No, I haven't followed gas fees. I know that.
+- id: u130
+  speaker: James Giroday
+  t_start: 2348.32
+  t_end: 2357.72
+  text: Yeah, they. I went to do something the other day and gas fees were like probably 1 50th, 1 60th of what they usually were.
+- id: u131
+  speaker: Fulvio Ciano
+  t_start: 2357.84
+  t_end: 2359.56
+  text: Oh, really? That's good.
+- id: u132
+  speaker: James Giroday
+  t_start: 2359.6
+  t_end: 2366.7
+  text: Yeah, yeah. Like something that used to like a transaction that would be like 15 to 20 bucks was like 50 cents.
+- id: u133
+  speaker: Fulvio Ciano
+  t_start: 2367.04
+  t_end: 2378.55
+  text: Well, that, that helps. Right. The crazy part now is like in a news thing, you heard that, like, the Trump family has essentially put out their own Stable coin.
+- id: u134
+  speaker: David Olsson
+  t_start: 2379.93
+  t_end: 2380.818
+  text: Oh my God.
+- id: u135
+  speaker: James Giroday
+  t_start: 2380.914
+  t_end: 2387.07
+  text: That is slightly worrying to me that he's making untold amounts of money off of this.
+- id: u136
+  speaker: Fulvio Ciano
+  t_start: 2387.45
+  t_end: 2389.95
+  text: He's made a. It's called USD1.
+- id: u137
+  speaker: David Olsson
+  t_start: 2391.93
+  t_end: 2392.71
+  text: Nice.
+- id: u138
+  speaker: Fulvio Ciano
+  t_start: 2393.69
+  t_end: 2411.018
+  text: USD1. Yeah. And I'm sure it'll do well, by the way. I'm not putting any money in anything right now because it'll be turned off in a microsecond. But like he doesn't know what he's doing. I mean, you know, I don't know. Anyway, let's, let's talk about something else.
+- id: u139
+  speaker: James Giroday
+  t_start: 2411.194
+  t_end: 2412.03
+  text: Okay.
+- id: u140
+  speaker: Fulvio Ciano
+  t_start: 2413.57
+  t_end: 2421.95
+  text: But yeah, I did not know about Ethereum fees, but there's just too much disruption happening all at once and it is interactive disruption.
+- id: u141
+  speaker: James Giroday
+  t_start: 2423.65
+  t_end: 2432.91
+  text: I think it was the Den Kuhn upgrade that I was blown away that the gas fees were like so low. It was pretty cool.
+- id: u142
+  speaker: David Olsson
+  t_start: 2435.17
+  t_end: 2449.752
+  text: All right. I, I was, I was hoping that there was going to be some follow up trump news in my work zone of tasks thing. Usually when I'm testing it, I try to get something. I want to see if there's any news on the coin that you're talking about.
+- id: u143
+  speaker: James Giroday
+  t_start: 2449.946
+  t_end: 2474.916
+  text: My 2025 thing is to use my phone as little as possible. I used to use about three hours a day. Yeah, I'm slipping a little bit. I'm like back up to like, like I was up to like two hours some days two and a half the odd day like for four hours blowing through. Now I'm back to 90. I'm like doing pretty well. Did I show you my, my post it that I put on the back of my phone?
+- id: u144
+  speaker: David Olsson
+  t_start: 2475.068
+  t_end: 2481.828
+  text: Oh, nice. Look at you. You've got your own protocols going on. Look at that. Even plastic on it. Nice.
+- id: u145
+  speaker: James Giroday
+  t_start: 2482.004
+  t_end: 2487.988
+  text: Yeah, this is, this has been probably there for a month, two months.
+- id: u146
+  speaker: David Olsson
+  t_start: 2488.124
+  t_end: 2489.24
+  text: Very useful.
+- id: u147
+  speaker: James Giroday
+  t_start: 2489.9
+  t_end: 2502.756
+  text: Well, what I do is before I go to my phone, I set a goal and then I clock in and I clock out. Then I know it's done. I'm like, put that piece of garbage down. Get away from this thing.
+- id: u148
+  speaker: David Olsson
+  t_start: 2502.828
+  t_end: 2510.436
+  text: So you've got a practice and a protocol around it so that you're, you know, the logging is part of your, your cognitive Runway, I guess.
+- id: u149
+  speaker: Fulvio Ciano
+  t_start: 2510.468
+  t_end: 2510.968
+  text: Right.
+- id: u150
+  speaker: James Giroday
+  t_start: 2510.764
+  t_end: 2511.572
+  text: I'm trying.
+- id: u151
+  speaker: Anshul Dhariwal
+  t_start: 2511.756
+  t_end: 2514.74
+  text: That's, that's some dedication as well, you know.
+- id: u152
+  speaker: James Giroday
+  t_start: 2514.86
+  t_end: 2516.48
+  text: Oh, I'm doing my best.
+- id: u153
+  speaker: David Olsson
+  t_start: 2517.26
+  t_end: 2556.41
+  text: Well, your discussion around journaling brought up interesting thoughts. I've had a few projects where I've had. I did one project where I built a sleep journal using no low code kind of stuff. And it was very similar to the stickies in the back. Eventually it was just putting lines into a spreadsheet around whether you slapped the date, exercised or whatever else. So that. And to try to make it as easy as possible so people will get in the habit of doing it and then give them the reward. You know, like the whole Fitbit kind of health rewards. I guess the Apple Watch does a great job of that. But what I like about what you got going on is a piece of piece paper on the back of your phone.
+- id: u154
+  speaker: James Giroday
+  t_start: 2558.19
+  t_end: 2565.57
+  text: I hear the Apple Watch is pretty good, actually. Like, you can, you can take it around with you, make calls from it like this.
+- id: u155
+  speaker: David Olsson
+  t_start: 2566.03
+  t_end: 2570.05
+  text: Yeah, my wife is really big on hers. But.
+- id: u156
+  speaker: James Giroday
+  t_start: 2570.014
+  t_end: 2581.12
+  text: And like, in, in a way, it's almost a really good way to limit your phone use because you can just leave your phone at home. Like it's almost a fully functioning text voice that's pretty much.
+- id: u157
+  speaker: David Olsson
+  t_start: 2582.52
+  t_end: 2583.904
+  text: Can be. Do you have one?
+- id: u158
+  speaker: James Giroday
+  t_start: 2584.072
+  t_end: 2605.072
+  text: No, I don't. I have a friend who's kind of using one as a strategy to spend less time on his phone. And like, I'm intrigued. It looks, I mean, it seems almost worse because you have this thing right on your wrist all the time, but in another way, like you can't really use it for like, there's no safari on it or.
+- id: u159
+  speaker: David Olsson
+  t_start: 2605.256
+  t_end: 2664.622
+  text: No, but there's a lot of other things that are there. So it gives you all of your messaging. Well, it's also got health tracking, so you can do a lot of things like that and it puts reminders in there for you to do your goals, goal setting. So that's a significant part of the phone or the watch is that it's meant to be health oriented, I think. And so you can turn all that stuff off. I, I wanted to go back to my Fitbit for a month and I had them and then batteries died on it and I can't charge them. And Karen's like, I want to and okay, I'll use yours. I don't need to buy one. And so I charged it, put it on my wrist and the thing went bananas. It was like, it was just like going off and like, and the screen was dim and like, okay, I can't see what's going on. But it wouldn't stop vibrating. But that's what the Fitbit does is it just reminds you and you look at it and of things and you can sync it with your phone and it can tell you, oh yeah, I've got a meeting in 10 minutes. Oh yeah, I can do all these things. So it becomes a screen just like.
+- id: u160
+  speaker: James Giroday
+  t_start: 2664.646
+  t_end: 2667.502
+  text: Your phone that's on you all this.
+- id: u161
+  speaker: David Olsson
+  t_start: 2667.686
+  t_end: 2706.31
+  text: On you all the time. And it demands A physical action, usually because the UI is small, it can be a few more than just looking at it. And so what I liked about my Fitbit is I just used it as a watch and then it did all the collection of the heart rate data, which is. And the sleep data, you know, it has quasi sleep data. And so I like that. And I wanted to go back to it, but it reminded me why I took it off as well. And that it's a. It's a dedication to another screen and it's another way of it forming habits around you. And for you and your friend, it might really work because it does do that quite well.
+- id: u162
+  speaker: James Giroday
+  t_start: 2707.81
+  t_end: 2708.73
+  text: Interesting.
+- id: u163
+  speaker: David Olsson
+  t_start: 2708.89
+  t_end: 2711.248
+  text: But you can spend a lot of money on an Apple watch too.
+- id: u164
+  speaker: Fulvio Ciano
+  t_start: 2711.274
+  t_end: 2711.796
+  text: Too.
+- id: u165
+  speaker: James Giroday
+  t_start: 2711.948
+  t_end: 2715.172
+  text: Yeah. What are they? 400 bucks, 500 bucks?
+- id: u166
+  speaker: David Olsson
+  t_start: 2715.316
+  t_end: 2717.012
+  text: I think that's the low side.
+- id: u167
+  speaker: James Giroday
+  t_start: 2717.196
+  t_end: 2724.964
+  text: Oh, yeah, I don't know. We'll see. That's a lot of money. Like, I'm not sure I'm really willing to do that.
+- id: u168
+  speaker: David Olsson
+  t_start: 2725.052
+  t_end: 2736.826
+  text: But look at it from that point of view, like you've done. You were talking about doing journaling for food and whatnot. Like, this is, this is an interesting way to provide that backbone of Apple health, I guess, underneath it.
+- id: u169
+  speaker: James Giroday
+  t_start: 2736.948
+  t_end: 2763.29
+  text: Yeah. I, I remember telling you and Eric about maybe doing like a blog about protein and. Because I've been journaling trying to get 100 grams of protein a day, and then I came up with a great image, I thought, and I was trying to add some lines to it, like some copy, some speech bubbles, like it was basically a comic thing. And I came across the software Krita, which is like an open source Photoshop, basically.
+- id: u170
+  speaker: Fulvio Ciano
+  t_start: 2763.47
+  t_end: 2764.098
+  text: Yeah.
+- id: u171
+  speaker: James Giroday
+  t_start: 2764.194
+  t_end: 2780.61
+  text: But to be honest, like, it was just too time consuming, like having to manually add speech bubbles. It's not, you know, if 4o can all of a sudden do that, like, is that possible? I'm. I'm definitely gonna go check that out, I think.
+- id: u172
+  speaker: David Olsson
+  t_start: 2780.65
+  t_end: 2807.616
+  text: Yeah. Like, if Jason's like. Because his world is about that space, right. And he's compositing and wanting to do all that kind of stuff. And he does it on the fly. A lot of it too. And seriously, like, we have needs for. On. On the fly compositing of branding on top of images. We're not doing it for the NFT project. We had some of them that we wanted to do. And so if it does have that utility, it can save a lot of work. And if it's just prompting. That's crazy.
+- id: u173
+  speaker: Fulvio Ciano
+  t_start: 2807.648
+  t_end: 2808.22
+  text: Man.
+- id: u174
+  speaker: James Giroday
+  t_start: 2808.68
+  t_end: 2810.26
+  text: Oh man, that's unreal.
+- id: u175
+  speaker: David Olsson
+  t_start: 2811.64
+  t_end: 2833.846
+  text: I just wanted to show you this. There's a thought based on our discussion, and you're talking about journaling and protein. I spent a moment thinking about it and then found spoon ocular, which is a. A food API recipe. API. Because one of the problems that I experience and others experience with recipes on the Internet is that they're crap to locate because of all the ads.
+- id: u176
+  speaker: James Giroday
+  t_start: 2834.038
+  t_end: 2839.094
+  text: Oh, yeah. They also give you their life story before getting arrested.
+- id: u177
+  speaker: David Olsson
+  t_start: 2839.142
+  t_end: 2885.424
+  text: So you know it too, right? My aunt and my uncle and my grandmother and everybody. And. And so you wanted to down into like, here's the ingredients, here's a picture of what it looks like, and here's how to do it. And so Spoonacular has like a lot of stuff like that. And I thought it was interesting because you probably take it to the level of deriving the protein levels from the ingredients that you do. And so you could actually, you can, you can go about it interestingly, you can be creative with it because it's an abi. You can say, these are the ingredients I have. Now give me some ideas or at least some ideas for talking to Fulvio. Like, his mother was a kitchen witch. And so you could come up with a theme that would be like, healing at this time of year be based on, you know, Fulvio's 13 and stuff's going on, so he needs this food.
+- id: u178
+  speaker: James Giroday
+  t_start: 2885.512
+  t_end: 2958.53
+  text: You know what I find? I actually find food super interesting as a AI use case for two reasons. The first one is it's a little bit, maybe less political than some stuff. Like, everybody cares deeply. Well, not every. Not that's a blanket statement, but like, a lot of people really care about food. It's quite. It can be controversial. Like, there's tons of claims made about it, and it's also sometimes hard to get good data on it. But the other part of it is that, like, when you get good information on food, generally the answers to those questions don't change. So it really, the. The exercise is a process in asking the right questions, which is like a. So I was thinking about this from the standpoint of like, instead of blogging, which I talked to you and Eric about a few months ago, it's like, what if you had some sort of a publication that just got updated every once in a while with really good questions, things that you needed to know about food, but we still, for whatever reason, don't know. Like.
+- id: u179
+  speaker: David Olsson
+  t_start: 2960.35
+  t_end: 2970.45
+  text: I'll tell you, like, you're. You're a thought leader in that if you think curating questions is going to be a future thing, you're bang on.
+- id: u180
+  speaker: James Giroday
+  t_start: 2971.79
+  t_end: 3041.206
+  text: Yeah. And the really cool thing about it is that you can share the outputs of chats from the desktop of Claude. So like you could be, you could, you know, you're talking maybe to, you know, somebody who, like myself, like, I don't get enough protein every day. And you're like, oh, you're having problem with this. Check out this chat I had with Claude. It, what it does is it explains first why it's important and then it gives you a meal plan and here's the link. Boom. Like, and then, you know, you come back in a few months and you're like, actually turns out that chat wasn't the best in this way. So it's actually been updated since like there's like an edit, there's a publication and I've got, so I came up, I came up with a name for it. It's called a, well, a site, aiguides Ca. And I was thinking about trying some food stuff with it. Like it's got a pub, you know, just like a link on there. And yeah, I'll, I'll let you know how it goes. I'm gonna keep building it up.
+- id: u181
+  speaker: David Olsson
+  t_start: 3041.358
+  t_end: 3066.254
+  text: Okay, I'm curious, but what I'm hearing is like a higher order of ordering meaning, like instead of here's all the content that you could drive and it can, it can answer these questions in your life. Because I'm going to tell you all the questions it answers, meaning here's my, you know, the story behind it. You'll feel like it's from my aunt. Anyways, you're saying here's a really good question.
+- id: u182
+  speaker: James Giroday
+  t_start: 3066.422
+  t_end: 3066.922
+  text: Yeah.
+- id: u183
+  speaker: David Olsson
+  t_start: 3066.99
+  t_end: 3079.01
+  text: And if, you know, you place it in the right place. And here I found a really good place to answer it. Here's a great response. And that's how search engines work, right? They work with questions.
+- id: u184
+  speaker: James Giroday
+  t_start: 3079.43
+  t_end: 3098.21
+  text: Totally. And then the other thing is you can have an answer from different models. Like, here's what Claude did that there, you know, here's what, like it's actually now it's the answer. The best is your. This one and, and whatnot. So, so I won't be sending you a blog post in the future. I'll. I might be sending you a chat link.
+- id: u185
+  speaker: David Olsson
+  t_start: 3098.29
+  t_end: 3131.47
+  text: Well, how about, how about you just created an auto generating blog engine. You just need to email your question to whatever your engine is, it puts out and publishes that there's a new question. When people arrive to your website, you determine it's going to use 3, 7 thinking and it just provides you a real time answer for that. And to your point, you can go back and say, oh, I need to edit the prompt a little bit, which is the question. And the question has to have a little bit more rigor. And so you do that. And so the next person who comes along there doesn't know any different, but they get the most recent version of that.
+- id: u186
+  speaker: James Giroday
+  t_start: 3132.17
+  t_end: 3133.442
+  text: Yeah, exactly.
+- id: u187
+  speaker: David Olsson
+  t_start: 3133.586
+  t_end: 3146.27
+  text: I've had that pattern and I. That idea as a pattern, but from the other side. So I like the idea where it's like, here's the press C, here's the way in. It's clever.
+- id: u188
+  speaker: James Giroday
+  t_start: 3146.93
+  t_end: 3151.23
+  text: Yep. Well, I'll keep you posted on it. I'll be sending some links.
+- id: u189
+  speaker: Fulvio Ciano
+  t_start: 3152.29
+  t_end: 3152.79
+  text: Yeah.
+- id: u190
+  speaker: David Olsson
+  t_start: 3152.634
+  t_end: 3154.954
+  text: And good luck with naming anything nowadays.
+- id: u191
+  speaker: Fulvio Ciano
+  t_start: 3155.082
+  t_end: 3155.87
+  text: Gosh.
+- id: u192
+  speaker: James Giroday
+  t_start: 3157.09
+  t_end: 3157.962
+  text: Naming.
+- id: u193
+  speaker: David Olsson
+  t_start: 3158.106
+  t_end: 3164.258
+  text: Yeah. How do you name anything nowadays? Your app or your experience or your flow.
+- id: u194
+  speaker: James Giroday
+  t_start: 3164.314
+  t_end: 3182.562
+  text: So it's. It looks. I got a little. It's funny, like, one of the things. I've had a few ideas in the past, and I've only ever gotten as far as a logo for each of them. I don't know why. I just love working on logos. And so I've got a logo for this one. It's. It's like TV Guide, just AI Guide.
+- id: u195
+  speaker: Fulvio Ciano
+  t_start: 3182.706
+  t_end: 3183.206
+  text: And.
+- id: u196
+  speaker: James Giroday
+  t_start: 3183.114
+  t_end: 3192.734
+  text: Oh, the. The logo looks exactly like TV Guide. Even the shape is just like a tv. Like, the AI is like a thing.
+- id: u197
+  speaker: David Olsson
+  t_start: 3192.822
+  t_end: 3218.07
+  text: So I like that. That's very clever. And that would. So the association will work completely. I don't know if you remember the first search engines, they were along this kind of lines of, how do you get into things? How do you organize things? And. Yeah, but it was. It was questions oriented. Right. And so they had, in some cases, people, you know, manually answering those questions. So that'll be good. I like that. And, yeah, so that gives it.
+- id: u198
+  speaker: James Giroday
+  t_start: 3218.11
+  t_end: 3225.254
+  text: That also gives it a bit of a pulp feel, like. Well, yeah, take a look and chuck it over your shoulder on the way, you know.
+- id: u199
+  speaker: David Olsson
+  t_start: 3225.422
+  t_end: 3234.89
+  text: Well, and in. In the AI space, you know, it may be a ephemeral kind of app, too. Right. Things are evolving so quickly, but if you have fun with it, it'll go, it will travel.
+- id: u200
+  speaker: Fulvio Ciano
+  t_start: 3235.71
+  t_end: 3236.49
+  text: Yeah.
+- id: u201
+  speaker: David Olsson
+  t_start: 3237.23
+  t_end: 3246.1
+  text: Cool. Well, that sounds like an interesting project to kick along while you're learning how to sleep differently.
+- id: u202
+  speaker: James Giroday
+  t_start: 3246.52
+  t_end: 3247.072
+  text: Yeah.
+- id: u203
+  speaker: Fulvio Ciano
+  t_start: 3247.136
+  t_end: 3249.232
+  text: Oh, my freaking God.
+- id: u204
+  speaker: James Giroday
+  t_start: 3249.376
+  t_end: 3251.14
+  text: How's it going over there, Fulvia?
+- id: u205
+  speaker: Fulvio Ciano
+  t_start: 3251.48
+  t_end: 3258.912
+  text: I just think I made something work. David, could you please click on this and let me know if it's viewable? And it works.
+- id: u206
+  speaker: David Olsson
+  t_start: 3258.976
+  t_end: 3262.66
+  text: Oh, my gosh. That's at Amazon. Like, man, that would be so awesome.
+- id: u207
+  speaker: Fulvio Ciano
+  t_start: 3263.32
+  t_end: 3265.936
+  text: Well, and I can have it be a URL too.
+- id: u208
+  speaker: David Olsson
+  t_start: 3266.088
+  t_end: 3268.14
+  text: Oh, I can show you what I see.
+- id: u209
+  speaker: Fulvio Ciano
+  t_start: 3270.21
+  t_end: 3279.03
+  text: Can you click on it? Click on the page There it is. Did the haiku come up?
+- id: u210
+  speaker: David Olsson
+  t_start: 3279.73
+  t_end: 3285.11
+  text: The. The nft. This is what happened when I clicked on the page. It's showing me this.
+- id: u211
+  speaker: Fulvio Ciano
+  t_start: 3285.97
+  t_end: 3289.71
+  text: Hold on. No, no, click on the image now. Oh.
+- id: u212
+  speaker: David Olsson
+  t_start: 3290.45
+  t_end: 3297.39
+  text: Oh, look at you. Is it talking to us as well? No, that is so much better.
+- id: u213
+  speaker: Fulvio Ciano
+  t_start: 3297.51
+  t_end: 3301.45
+  text: Now click on it again. There we go. Okay.
+- id: u214
+  speaker: David Olsson
+  t_start: 3301.438
+  t_end: 3304.382
+  text: So you've created the VIP experience. Oh, my God, that's great.
+- id: u215
+  speaker: Fulvio Ciano
+  t_start: 3304.406
+  t_end: 3306.946
+  text: Yeah, it's a wolf with a token for the token. Yes.
+- id: u216
+  speaker: David Olsson
+  t_start: 3306.718
+  t_end: 3307.262
+  text: Yes.
+- id: u217
+  speaker: Fulvio Ciano
+  t_start: 3307.406
+  t_end: 3308.81
+  text: Okay, it's working.
+- id: u218
+  speaker: David Olsson
+  t_start: 3310.15
+  t_end: 3312.846
+  text: How about. That is the VIP experience. Man, I have to.
+- id: u219
+  speaker: Fulvio Ciano
+  t_start: 3312.918
+  t_end: 3315.134
+  text: I feel like I just passed a kidney stone.
+- id: u220
+  speaker: David Olsson
+  t_start: 3315.262
+  t_end: 3326.522
+  text: Yeah, no, man, that is that. You got something live on Amazon. That means that we are close to being able to just go mad nuts. And I love that. That. That high guy is pretty nice.
+- id: u221
+  speaker: Fulvio Ciano
+  t_start: 3326.586
+  t_end: 3330.522
+  text: Hey, I didn't even pay attention to which ones Karen chose. No offense to her.
+- id: u222
+  speaker: David Olsson
+  t_start: 3330.626
+  t_end: 3331.882
+  text: Yeah, working on it.
+- id: u223
+  speaker: Fulvio Ciano
+  t_start: 3331.906
+  t_end: 3338.942
+  text: And I was already using it and it's all. It's all right there abstracted, so that like, you change the token number and blah, blah, blah. So.
+- id: u224
+  speaker: David Olsson
+  t_start: 3338.69
+  t_end: 3339.19
+  text: Yeah.
+- id: u225
+  speaker: Fulvio Ciano
+  t_start: 3338.874
+  t_end: 3347.766
+  text: Yeah. Anyways, I'll do the rest today before our 1:00 meeting, but sorry, I was. I was listening to you guys. Yeah.
+- id: u226
+  speaker: David Olsson
+  t_start: 3347.628
+  t_end: 3358.68
+  text: Hey, no multitasking. You know, you're making sure we have quorum in some regard. And so. And, and you did a demo, so that was important. Right. So.
+- id: u227
+  speaker: Fulvio Ciano
+  t_start: 3360.66
+  t_end: 3371.24
+  text: I should be able to get this on a test net on. I'm gonna try to get this on a test net on Polygon later today so I can show what it looks like in an NFT marketplace. David, I'm trying to do that.
+- id: u228
+  speaker: David Olsson
+  t_start: 3371.78
+  t_end: 3410.65
+  text: Oh, one thing before I go. I am going to be presenting the weekend after next, and before then, I will share my presentation with everybody and I will tell you I started from scratch. I looked at my past work and like, oh my God, how could I ever have gotten through all of that content? And I didn't. And so I was looking at it and I'm like, well, let's start from fresh. And I started from fresh and I used the Deep research tool, or LLM in OpenAI, and it produced a really nice research paper.
+- id: u229
+  speaker: James Giroday
+  t_start: 3411.95
+  t_end: 3412.97
+  text: Huh.
+- id: u230
+  speaker: David Olsson
+  t_start: 3413.71
+  t_end: 3415.61
+  text: Tons of. Tons of links.
+- id: u231
+  speaker: James Giroday
+  t_start: 3416.11
+  t_end: 3418.37
+  text: What is the research paper on?
+- id: u232
+  speaker: David Olsson
+  t_start: 3418.83
+  t_end: 3428.512
+  text: It's on, like, generative AI for not for profits. And strategy. Practical strategies on what they can do.
+- id: u233
+  speaker: James Giroday
+  t_start: 3428.696
+  t_end: 3429.488
+  text: Yeah.
+- id: u234
+  speaker: David Olsson
+  t_start: 3429.664
+  t_end: 3437.872
+  text: And resources. And so it gives a whole lot of links to free stuff for not for profits, which is perfect. That is sweet.
+- id: u235
+  speaker: Anshul Dhariwal
+  t_start: 3438.016
+  t_end: 3443.888
+  text: So I. I'm. I'm a bit confused. So it basically made an original research paper.
+- id: u236
+  speaker: David Olsson
+  t_start: 3444.064
+  t_end: 3444.848
+  text: Yeah.
+- id: u237
+  speaker: Fulvio Ciano
+  t_start: 3445.024
+  t_end: 3445.744
+  text: Oh, wow.
+- id: u238
+  speaker: Anshul Dhariwal
+  t_start: 3445.792
+  t_end: 3446.292
+  text: Okay.
+- id: u239
+  speaker: David Olsson
+  t_start: 3446.384
+  t_end: 3519.488
+  text: I'LL share it with you right now. Scaling your not for profit. That's open. There it is right here. My God. So I looked at this and it is just jammed full of citations and so. And from this I then made my presentation and I set it up. I wanted five strategies. I called them strategies like things you can do. And I wanted to be practical. I have, I'm going to give them the message on what they should do and that's like they should have a peer group, they should be doing these things, they should be not reading news. But this is well set up how to implement it. Expected impact, some real world examples of not for profits doing these kind of things. Engagement for donors, streamlining administration, operation tools. And then so there are articles by Google and Microsoft and whatnot and how to not properly use AI to keep good donors SAP. So they're stalwart kind of articles. And it has a, you know, it's 31 pages. Man, look at this thing.
+- id: u240
+  speaker: James Giroday
+  t_start: 3519.624
+  t_end: 3535.26
+  text: It looks actionable. Like I'm not reading the fine print. But yeah, that looks really useful. I like how you've boiled it down to five, like different strategies.
+- id: u241
+  speaker: David Olsson
+  t_start: 3536.56
+  t_end: 3538.024
+  text: I shared the link there.
+- id: u242
+  speaker: Fulvio Ciano
+  t_start: 3538.192
+  t_end: 3538.692
+  text: Yeah.
+- id: u243
+  speaker: David Olsson
+  t_start: 3538.568
+  t_end: 3655.162
+  text: So I wanted to have, I wanted it to be a certain number that I could, you know, that would be easy and in some ways try to make it tangible for people. There's already a title for it but it's like here's five things you can do, you know, and then there's five examples of other people doing them. And then what I really wanted to get across was like during this transition work will change. The best thing you could do is your leadership should be meeting, you should be setting up peer groups, you should be talking about this thing and you should discuss the concerns around what it means to bring AI into your work situation. But here's some. These are all positive ways where they're not taking people's jobs and in the not for profit space they are always over taxed and so they do not have full teams. And it'll be great for me to be able to provide them like a link to Google. I think it's meta and I can't remember who it is but Google, Microsoft and one other or Amazon where you can immediately get free credits as a not for profit for using their stuff. So you know there's, there's a lower barrier. Like if they wanted to get into using things nowadays just using the Gemini Chatbot, super useful. So I was happy to have it produce such a long document. Gave me a table. Right, right. I Then worked with it out of Deep Research. It seems like we're going to be tapped out of Deep Research. At least I am. If I have. I was given like 10 goes at it and by April 9, they may be putting it to a paid service or something like that. So if you're gonna, if you have anything that you wanted to really get some sort of rigorous thing on, if you've got a really good question, James, then I would, Yeah, I would suggest that this is a way to go. And I did then work. I said, I pointed this and then I.
+- id: u244
+  speaker: James Giroday
+  t_start: 3655.266
+  t_end: 3662.362
+  text: Are you talking about the. Which one is it? They all, they all say Deep Research. Is it Gemini Deep Research?
+- id: u245
+  speaker: David Olsson
+  t_start: 3662.466
+  t_end: 3665.11
+  text: No, it was, it was open AI's deep research.
+- id: u246
+  speaker: James Giroday
+  t_start: 3665.41
+  t_end: 3668.074
+  text: Okay. Because Perplexity also introduced.
+- id: u247
+  speaker: David Olsson
+  t_start: 3668.122
+  t_end: 3682.228
+  text: Yeah, they all reported one. Yeah. So it's 4.5 GPT. 4.5. And there's a deep research mode. And it takes, it takes a long time, like 15 minutes or something.
+- id: u248
+  speaker: James Giroday
+  t_start: 3682.364
+  t_end: 3686.1
+  text: Okay. Yes. Okay. Open.
+- id: u249
+  speaker: David Olsson
+  t_start: 3686.22
+  t_end: 3697.014
+  text: Yeah, yeah. They do all offer it now. Like it's a reasoning model. Right. So it's like. And it's a research model. So they all offer like even Anthropic now has the web. They've indexed the web.
+- id: u250
+  speaker: James Giroday
+  t_start: 3697.142
+  t_end: 3704.65
+  text: What do you, what, what have you handed it? Is it like super long prompts or is it pretty simple stuff?
+- id: u251
+  speaker: David Olsson
+  t_start: 3708.03
+  t_end: 3716.49
+  text: It was pretty in the case for the presentation. It was really simple.
+- id: u252
+  speaker: James Giroday
+  t_start: 3725.16
+  t_end: 3728.256
+  text: And you've worked with it a lot or just a little bit?
+- id: u253
+  speaker: David Olsson
+  t_start: 3728.408
+  t_end: 3740.74
+  text: Just a few times. And it's gotten me very good results. Here it is. I'm right, okay. I was, I'm writing a presentation.
+- id: u254
+  speaker: James Giroday
+  t_start: 3741.4
+  t_end: 3744.02
+  text: This is, is this a short prompt for you, David?
+- id: u255
+  speaker: David Olsson
+  t_start: 3745.96
+  t_end: 3829.91
+  text: Well, I gave it, I gave it something. I actually did a search somewhere else on five things that could or a number of things. It looks like it was in Perplexity. I did some research somewhere else and then I said I want. So I've been trying to do this better is like I give it the actual context. I'm going to be speaking to 50 people. They're not for profits. And this is basically, you know, the agent. You're like, okay, some preliminary topics and themes suggested below. But do the research and ensure that best strategies, tactics and metrics are. It provides five or more things that you can effectively do. You can do. This is when I got tired or more things that can effectively do how, why and what. And so I, if I wasn't as tired, I would have gone on for a little bit longer to then provide workflow diagrams or something else, yada yada yada. Like you can get a lot out of it and so you can't. I don't, I don't think the context window is massive for like uploading huge amounts. But that's something to do. I have done, I have to do some research on Defi and real world asset backed tokens and so I will be burning the rest of my research on that because I want to do some broad research. But that was, that was a really neat thing to be able to see that. You know, I can hand off my deck and it has links in it and.
+- id: u256
+  speaker: James Giroday
+  t_start: 3831.97
+  t_end: 3837.83
+  text: That is sweet. Thanks for sharing that. I'm, I'm very, very curious about it.
+- id: u257
+  speaker: David Olsson
+  t_start: 3838.29
+  t_end: 3884.84
+  text: Here's the deck, but I'll just show you how I minimized it. It's not on ramit. I'll also explain how I made it, which is one of the things I was going to do to them. But I made sure that it had at least a couple links in here for them and I put some notes and stuff in there. But what I did was I generated the slides initially in ChatGPT and then I asked it to create a PowerPoint from, created a Python application. I downloaded the Python script, I downloaded the Python script, I installed the libraries, I ran the Python script on the file that it gave me and it generated the PowerPoint slides that I'm showing.
+- id: u258
+  speaker: James Giroday
+  t_start: 3886.22
+  t_end: 3887.0
+  text: Whoa.
+- id: u259
+  speaker: David Olsson
+  t_start: 3888.22
+  t_end: 3902.28
+  text: And I'm like, why did it do that? And I was like, oh, is the model I was in. And so I went into 4.0, I did the same thing and it generated the PowerPoint for me. Interesting.
+- id: u260
+  speaker: James Giroday
+  t_start: 3903.02
+  t_end: 3904.324
+  text: Very interesting.
+- id: u261
+  speaker: David Olsson
+  t_start: 3904.452
+  t_end: 3914.14
+  text: So the models are trying to push in different ways and giving it the same prompt and everything. And it's like, oh. I was like, what the hell is this? And I built it, of course.
+- id: u262
+  speaker: James Giroday
+  t_start: 3914.92
+  t_end: 3928.8
+  text: It's interesting that we're at this phase with AI where it can ask you to do stuff like that. And like 99 out of 100 people are not going to download a Python script and run it to make it PowerPoint.
+- id: u263
+  speaker: David Olsson
+  t_start: 3928.88
+  t_end: 3953.79
+  text: Oh, no, no, no. No way. They would have, like, this is wrong. You know, they might not even have tried to make it a PowerPoint. Right. The only reason it can make PowerPoint is because it can run some, some Python libraries that convert anything into PowerPoint. That's the only reason is it's actually creating, it's creating its own tools on the fly, which is just python.
+- id: u264
+  speaker: James Giroday
+  t_start: 3954.29
+  t_end: 3955.386
+  text: Unreal.
+- id: u265
+  speaker: David Olsson
+  t_start: 3955.578
+  t_end: 3960.17
+  text: Yeah. Anyways, 902, time to roll. Time to roll.
+- id: u266
+  speaker: James Giroday
+  t_start: 3960.25
+  t_end: 3964.168
+  text: Nice seeing you both. Have a nice day, Fulvio. Have a nice day, David.
+- id: u267
+  speaker: Fulvio Ciano
+  t_start: 3964.264
+  t_end: 3965.176
+  text: Take care guys.
+- id: u268
+  speaker: David Olsson
+  t_start: 3965.288
+  t_end: 3967.3
+  text: Thank you, Angel. Bye, James. And.
+windows:
+- id: W-0001
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  text: Good morning. Good morning. Let me just get rid of this guy.
+- id: W-0002
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Good morning. Good morning. Let me just get rid of this guy. Angela, are you on the. Hello? Good morning, guys. Morning, Ashley. Good morning, James. Good morning. How are you? How are you doing? Oh, my goodness. I'm a little sleepy, which is part of the course. Yeah. Not. Not used to this. This is. This is early for me. Okay. Yeah. I'm usually on the evening shift, which means I sleep. I. I'm. I'm caring for the little guy from 8pm to 2am and then I'm sleeping from 2 to 8, so. Which usually ends up being like 8:30. So. Right. Yeah. Right. In my sleeping wheelhouse. If you could extend it, you would. Yeah, yeah, yeah. Nice to meet you, Anchal. This is James. James is responsible for this gathering. His. His life partner. I don't know. You're married? Yeah, yeah, Lauren and I are married. Okay. I met Lauren actually a year ago. And in fact, not this weekend, but next I'm presenting again at the City of Kelowna Volunteer not for Profit conference. And I presented there and Lauren saw me and suggested that James would maybe want to talk to me. And so from that we went for lunch, I think. Yeah. And I can't believe we've been doing these meetings. I mean, I've been absent for a couple. For a month or two, but it's been like almost a year of meeting, which is incredible.
+- id: W-0003
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  text: This is James. James is responsible for this gathering. His. His life partner. I don't know. You're married? Yeah, yeah, Lauren and I are married. Okay. I met Lauren actually a year ago. And in fact, not this weekend, but next I'm presenting again at the City of Kelowna Volunteer not for Profit conference. And I presented there and Lauren saw me and suggested that James would maybe want to talk to me. And so from that we went for lunch, I think. Yeah. And I can't believe we've been doing these meetings. I mean, I've been absent for a couple. For a month or two, but it's been like almost a year of meeting, which is incredible. Yeah. It's probably been 10 months or so. And. Yeah. And they're all transcribed, so I was just looking up. I have a downloader to be able to batch download transcripts from Fireflies. There's so many different ways to get transcripts. Transcripts now that they're kind of expensive and. But I still wanted to consolidate all those meetings because they're. They're of interest, because our conversations are of interest. But. Yes. I wanted to thank you. On the anniversary. I just finished the presentation over the last couple of days for what I will present this time. And it's like similar people are still in the same sort of position, but they have a lot more options available to them. So it was kind of cool to see that that was hitting the calendar and. And since then you've become a father. Oh, congratulations. Oh, thank you. Yeah. Yeah. It's quite a. Quite a trip. Really enjoying it. It's going well. Things are good. Yeah. I can see your eyes are different. Could be the glasses. I got some nice. I got some new glasses. Yeah. Which are pretty magnifying, actually. They are. Then maybe that's part of it's contributing to it. They're making Your eyes look bigger. But when I was younger, I swore I could tell parents from non parents just by looking at their eyes. And I could just do it at a glance when I was younger and I was just like. And I was like, I didn't understand it. It's, you know, whatever. But I, I got it now is that there is a thing that happens with you when you become a parent that you just have no control over and it's going to happen in the background and it's part of, it's physical. And I had one peer tell me it's actually, you know, cognitive as well. The training you're putting yourself through, through lack of sleep and through the dedication of being a parent is significantly changing your life.
+- id: W-0004
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  text: I wanted to thank you. On the anniversary. I just finished the presentation over the last couple of days for what I will present this time. And it's like similar people are still in the same sort of position, but they have a lot more options available to them. So it was kind of cool to see that that was hitting the calendar and. And since then you've become a father. Oh, congratulations. Oh, thank you. Yeah. Yeah. It's quite a. Quite a trip. Really enjoying it. It's going well. Things are good. Yeah. I can see your eyes are different. Could be the glasses. I got some nice. I got some new glasses. Yeah. Which are pretty magnifying, actually. They are. Then maybe that's part of it's contributing to it. They're making Your eyes look bigger. But when I was younger, I swore I could tell parents from non parents just by looking at their eyes. And I could just do it at a glance when I was younger and I was just like. And I was like, I didn't understand it. It's, you know, whatever. But I, I got it now is that there is a thing that happens with you when you become a parent that you just have no control over and it's going to happen in the background and it's part of, it's physical. And I had one peer tell me it's actually, you know, cognitive as well. The training you're putting yourself through, through lack of sleep and through the dedication of being a parent is significantly changing your life. Probably. Yeah, it's interesting too. I've actually been asking Claude lots of questions about stuff. Like, man, not having to research stuff on Google is incredible. Morning, Fulvio. Good morning. So. Oh yeah, so that would be, oh my God, a whole new angle on parenthood because yeah, you've got the experiential side, but yeah, asking questions is what you, you need a network for. Oh my God. It's amazing. It's incredible. It's like you're, you're into the app and then you're out of it in like four minutes and you get this like incredible answer. Like for instance, like there was a time where the Oliver's. That's the, that's our little guy when he was. His like leg was shaking and I wanted to know if it was normal and the answer was like, yeah, like this is a nervous system thing. This is really common. Like this is when you'd be concerned, but it doesn't sound like that at all. And like the, just the consolidated knowledge that came back was incredible. It was so fast and it was like so good. Hope it was accurate.
+- id: W-0005
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  text: So. Oh yeah, so that would be, oh my God, a whole new angle on parenthood because yeah, you've got the experiential side, but yeah, asking questions is what you, you need a network for. Oh my God. It's amazing. It's incredible. It's like you're, you're into the app and then you're out of it in like four minutes and you get this like incredible answer. Like for instance, like there was a time where the Oliver's. That's the, that's our little guy when he was. His like leg was shaking and I wanted to know if it was normal and the answer was like, yeah, like this is a nervous system thing. This is really common. Like this is when you'd be concerned, but it doesn't sound like that at all. And like the, just the consolidated knowledge that came back was incredible. It was so fast and it was like so good. Hope it was accurate. Yeah, right. You're like, if you actually notice they do provide like some links from where they picked up the information. Yeah, yeah. Even, even ChatGPT nowadays gives out like links to like major places they picked up data from. So you can actually go and coreference it kind of. Which is great because it gets rid of that curiosity that you still might have. Like you just said there, James, like, I hope it's right. Is AI actually trying to help us or you know, sabotaging us? Who knows? Right. Because it could be totally subtle and just like, ah, we'll just across the board change this one rule. But yeah, that was, that'd be an interesting part because you know, books and prenatal classes and all the other things and, and network. You, you run into all of these edge cases with a child. They're all edge cases, man. You end up at Children's Hospital and you're like, what's going on? Nobody knows. How can nobody know? We're like, we're, we're at this date in time and nobody knows anything. And it's just the way the human, humans work. Right. You're, you're being constantly learning and I applaud you for bringing a child into this world.
+- id: W-0006
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  text: Right. Because it could be totally subtle and just like, ah, we'll just across the board change this one rule. But yeah, that was, that'd be an interesting part because you know, books and prenatal classes and all the other things and, and network. You, you run into all of these edge cases with a child. They're all edge cases, man. You end up at Children's Hospital and you're like, what's going on? Nobody knows. How can nobody know? We're like, we're, we're at this date in time and nobody knows anything. And it's just the way the human, humans work. Right. You're, you're being constantly learning and I applaud you for bringing a child into this world. Yeah, it's, it's been good. Been good. We're enjoying it. To your point of like, it consolidated your research. I built, I built a handful of tools that actually consolidate like search and stuff like that, you know, like, okay, you know, because this, the, the LLMs didn't have this up to dateness, which over the last month they now seem to all have. I was like, okay, consolidate all the research first and then synthesize it. And it's not easy to do. It's because there are services to do it. And I have, you know, APIs to bring in all the news or all of the current, you know, leads, links on something, bringing them in and then synthesizing. It's a lot of work. And to, to work straight with the chatbot that does it all really tootsuite for you. Have you looked at any other apps me for like. Yeah. I mean, I use, I use cloud on an ongoing basis. I don't know why I've really started to just focus on that one. I think maybe their privacy is a little bit better. Polio probably knows maybe than chat GPT, but I have perplexity in chatgpt and as well. And what else do I have on here? I don't, I don't know that there's any important distinctions about privacy, just so you know. Right.
+- id: W-0007
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: To your point of like, it consolidated your research. I built, I built a handful of tools that actually consolidate like search and stuff like that, you know, like, okay, you know, because this, the, the LLMs didn't have this up to dateness, which over the last month they now seem to all have. I was like, okay, consolidate all the research first and then synthesize it. And it's not easy to do. It's because there are services to do it. And I have, you know, APIs to bring in all the news or all of the current, you know, leads, links on something, bringing them in and then synthesizing. It's a lot of work. And to, to work straight with the chatbot that does it all really tootsuite for you. Have you looked at any other apps me for like. Yeah. I mean, I use, I use cloud on an ongoing basis. I don't know why I've really started to just focus on that one. I think maybe their privacy is a little bit better. Polio probably knows maybe than chat GPT, but I have perplexity in chatgpt and as well. And what else do I have on here? I don't, I don't know that there's any important distinctions about privacy, just so you know. Right. I was wondering when you're gonna laugh when you're talking about. Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0008
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u46
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0009
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u46
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0010
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u46
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0011
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u46
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0012
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u46
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al
+- id: W-0013
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  text: Well, I, you know, I, it's just a social commentary more than anything else. I don't know, you know, what any of them are doing, by the way, on the back end. And I will now, if I had a tinfoil hat, I'd put it on for you. I think this next discussion is important to that. Like my assumption is, you know, everything, everything is useful to them as far as data. Right. Because it's so useful to them. Not because, like James is a physicist who knows about things that they could teach to the LLM, but because the value of the way you're interacting with the LLM is So valuable for them to figure out what you know when. When it's. When it's understanding what you're asking for and when they have to. They have to mine all of that to know. And I believe they are. Which is one of the reasons they're getting better, right? Like, yeah, I would say there's three classes of data. There's like initial training data, which I'm not sure there's anything left of, and then there's synthetic data and then there's like interaction data. And everything we do with these things is really valuable interaction data. Here's. Now I'm going to take off the tinfoil hat and say, who cares? I don't know. They're not looking through your data for your passwords or your. I worry about things like we give it access to reposition that have environment files in it, that have API keys and God knows what else. Right. That's the real stuff. I think one should worry about it from a data security perspective. But like what you're asking about your kid or information you give out about your wife, that's not what they're mining it for. But back to your original comment, which spurred that side path venture and that is they're all getting so good. Like, it's a personal preference thing. I find if you're working with an LLM doing I think what you're. What I think you're doing, which is having a chat with it, right? There's the quality of the LLM and if you stick with the big boys, and I would say the three big boys are open chat, Anthropic, which is Claude, and Google, which is Google, which is Gemini. Right then. And I would even add to that Llama, I think Meta Llama is actually really good for a lot of this stuff. Right. If you stick with them, then your preference really becomes more about the interaction interface. Like. Like in what UI are you doing that interaction? Right. Like, I like Claude because like building an Ancient in Claude is just. It's not. You don't even feel like you're building an agent. You're just giving it. It's really agent building and rag wrapped up together and kind of like this nice little interface. So Claude's great that way. I assume before I got here because I got here a couple of minutes late. Everybody knows Gemini 2.5 came out yesterday and my wife doesn't notice me doing this as much as I'm doing it. But like, whenever that happens, I have to read a ton about it because I'm. Because there are huge jumps every time we get one of these releases somewhere al No, I paid. I, I have the same sort of thing with cursors. Like, I can use my anthropic key, which at times because of the throttle nature of cursor has allowed me to then jump the queue on that and then I end up spending, oh, a few bucks here and there, on and out. But, you know, allowing me to not be frustrated is worth a few bucks. But I hear you on the local stuff. It just seems like that's a really big gift coming to us in six months or a year. That will get more edge support. That's easier and you don't have to stay up on it. If you're doing, if you're, if you're maintaining all of your infrastructure, you have a hard time building anything on top of it. Yeah. So, but you need the knowledge from being able to do it. It's kind of weird, right? So, yeah, so. And I agree with David, like, as I said, every week something new comes out. We gotta bring it into what we're doing, you know, and I have a, I have a decent prediction of who's going to win in the end. But like, you can't, you can't. The only way you could capitalize on that prediction is like literally betting, like going to a betting market and placing it out. Because knowing that they'll win in the end doesn't mean they're easier to use now or the best option. Right now what does winning mean? Is a good question. Who's gonna win? I think I, I think it will be Google from what I'm seeing. Right. And, but it has. Did you see the betting markets yesterday about Google? Oh, so like it's polymarket has who's going to have the best model of the month thing.
+- id: W-0014
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  text: Yeah. So, but you need the knowledge from being able to do it. It's kind of weird, right? So, yeah, so. And I agree with David, like, as I said, every week something new comes out. We gotta bring it into what we're doing, you know, and I have a, I have a decent prediction of who's going to win in the end. But like, you can't, you can't. The only way you could capitalize on that prediction is like literally betting, like going to a betting market and placing it out. Because knowing that they'll win in the end doesn't mean they're easier to use now or the best option. Right now what does winning mean? Is a good question. Who's gonna win? I think I, I think it will be Google from what I'm seeing. Right. And, but it has. Did you see the betting markets yesterday about Google? Oh, so like it's polymarket has who's going to have the best model of the month thing. Right. And so it was Grok was at like 98% up until yesterday and then it plummeted down to 2% and, and Google went up to like 98%. I didn't know that. But, but I will tell you that. But that Grok comment is very interesting to me because like, again, I get down and dirty in the weeds of like, why so grok. I think they're crippled in the end as far as the quality of their AI and, but because of the training data. Like what's the. Yeah, yeah, it's, it's, it's well owned by a madman. Run By a madman. We're good at madman. AI. Let's put that aside because that's commentary. Right? But. But I don't think there's anything really innovative going on at GROK like having read everything they're doing. There's nothing really innovative going. Going on at GROK other than at inference. They've got some really cool technical advancements to speed up. To speed up performance at inference. That's inference speed. That's what GROK has said. I don't. I haven't seen anybody else. Yeah, sounds like they're. Sounds like their infra is like pretty serious. Their inference speed is ridiculous also. But like, how are we gonna get. You guys already talk about 4o already. Like the image model did that. That's like broken my whole frame for the last like 12 hours.
+- id: W-0015
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: I didn't know that. But, but I will tell you that. But that Grok comment is very interesting to me because like, again, I get down and dirty in the weeds of like, why so grok. I think they're crippled in the end as far as the quality of their AI and, but because of the training data. Like what's the. Yeah, yeah, it's, it's, it's well owned by a madman. Run By a madman. We're good at madman. AI. Let's put that aside because that's commentary. Right? But. But I don't think there's anything really innovative going on at GROK like having read everything they're doing. There's nothing really innovative going. Going on at GROK other than at inference. They've got some really cool technical advancements to speed up. To speed up performance at inference. That's inference speed. That's what GROK has said. I don't. I haven't seen anybody else. Yeah, sounds like they're. Sounds like their infra is like pretty serious. Their inference speed is ridiculous also. But like, how are we gonna get. You guys already talk about 4o already. Like the image model did that. That's like broken my whole frame for the last like 12 hours. So all. Only anybody in my. In my world is talking about because it's basically rendered all creatives useless in the last half day. Image generation is going to continue to get ridiculously good. And it's a real problem. It almost doesn't need to get any better than what is. Is observable. Which is crazy because it's basically like. So like we're in like advertising, right? So we just take a picture of. A product and then upload it and say, hey, make it into this ad. And then it just does it perfectly. No way that. So I read. I saw something come across my news with 40 but I got caught in a 2.5 stuff for Gemini. So what's happening with the 4 like the anti on images? It's. It's just perfect. It's just like, oh, when you say. That, man, I'm gonna say, yeah. So like it's. The quality is astounding. Like, it's just unbelievable. Yeah. So I uploaded this image of Jamie. I don't know if you guys can see this. Yeah. And then I'm like, make it an anime version. And so it just. It's. That is exactly it, man. And it's exactly. And then you can take like a. Which one from yesterday. So I'm like, hey, I uploaded just a backgroundless image of a pillow. And I was like, you know, create an ad. You know, this is some context. And then it just makes the ad and if you give it examples of ads for like, like example ads, completely copy them.
+- id: W-0016
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  text: Yeah. And then I'm like, make it an anime version. And so it just. It's. That is exactly it, man. And it's exactly. And then you can take like a. Which one from yesterday. So I'm like, hey, I uploaded just a backgroundless image of a pillow. And I was like, you know, create an ad. You know, this is some context. And then it just makes the ad and if you give it examples of ads for like, like example ads, completely copy them. What is the. Is the analysis side just as rich now? It does the analysis. It'll do the analysis. And the generational and like agents, even the visual ones are now mixture of agents. So that's the Thing, right? Like, if you're like, the image generation part has been really good for a while, but it makes mistakes because there's no. There's no like, how do you put it? There was. In the very first versions, they were straight visual models, if you know what I mean. But yeah, yeah, they're doing reflection on it and they're doing. And you know, so like, remember. Do you remember when we story about two heads and six fingers and stuff like that? Yeah, the six fingers and yeah, there's a lot of things and there still are like, if I. So this is interesting because I was using it to generate things in real time for this workflow thing that I made. And as soon as it puts the words in there, it was like still garbaging them up. So I imagine now if I ask for anything and put words in there. It'Ll hopefully be real words. Like, I'm not asking for the words. The only one I've seen with words messing up is when there's more than like 50 words. Yeah. Crazy. Wow, that's pretty. That's pretty cool because like that, that affects a lot of the projects we're working on. That allows for some real time compositing. You can put your branding logo and on all of the things we're doing. Oh my God.
+- id: W-0017
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  text: Yeah, the six fingers and yeah, there's a lot of things and there still are like, if I. So this is interesting because I was using it to generate things in real time for this workflow thing that I made. And as soon as it puts the words in there, it was like still garbaging them up. So I imagine now if I ask for anything and put words in there. It'Ll hopefully be real words. Like, I'm not asking for the words. The only one I've seen with words messing up is when there's more than like 50 words. Yeah. Crazy. Wow, that's pretty. That's pretty cool because like that, that affects a lot of the projects we're working on. That allows for some real time compositing. You can put your branding logo and on all of the things we're doing. Oh my God. I mean, this is like, you know, company doing some consulting was like three people's jobs. Like it took. Actually it just took away what I spent like possibly four hours doing over the last five days. Like just putting some branding logo marks on some. Some stuff. Right. I tried to do it with Gemini because it was like, oh, it does this. No way. But I like it. Once I have the png, I could upload it and it's like your pillow. We're a few months away from like, everybody wanted designers to use Photoshop to do stuff. That was the three. Those were the three things. Right now you just. You're going to talk to your AI and it's going to be the designer and Photoshop tool or whatever other tool it needs, right? Like, because it's weird, it. You needed. Even designers needed a few tools to get things done, like Sigma and Photoshop, right? Like, you know what I mean? Like, like the. How do I put it? The. The loop of tools used to create interfaces, you needed. You needed Photoshop, you needed figma probably needed some other tool to make the assets in a certain way. And now like, I just go. And it gives me back SVGs of like interfaces, right? It's just like, Holy crap. And SVGs right? So scalable to any size. Perfect, you know, lines. It's nuts and it's crazy.
+- id: W-0018
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  text: We're a few months away from like, everybody wanted designers to use Photoshop to do stuff. That was the three. Those were the three things. Right now you just. You're going to talk to your AI and it's going to be the designer and Photoshop tool or whatever other tool it needs, right? Like, because it's weird, it. You needed. Even designers needed a few tools to get things done, like Sigma and Photoshop, right? Like, you know what I mean? Like, like the. How do I put it? The. The loop of tools used to create interfaces, you needed. You needed Photoshop, you needed figma probably needed some other tool to make the assets in a certain way. And now like, I just go. And it gives me back SVGs of like interfaces, right? It's just like, Holy crap. And SVGs right? So scalable to any size. Perfect, you know, lines. It's nuts and it's crazy. I can convert my playground into like a monster now just because it could cut, slice and dice. So we can take an interview and turn, turn it into all of the UX reports you need, which are basically the directions for creating things. Once you can create the actual ui, like there's certain parts of, you know, I can create everything on dynamically, on the fly, like all of the code and stuff like that. And I know that Jason's got. I don't think the UI is as important as the other stuff you've already done, David. Like, I think it's the workflow. Like, because the workflow generates the prompt, right? The workflow generates the front. And you don't really need a ui, you need that prompt. And then like, because we're way past artifacts and it being able to like manipulate the desktop and use the things tool you. Tool use, right. Once you have tool use, like I don't even know that you need a UI because it, you could, it could build it for you, if that makes any sense. Right. It's really weird. Could you just be like a bunch of MCP servers and then like some, like, like all the tools and like all these things are, are kind of there. Like how close is it to like it figuring this out and writing this code like on the fly? So I think we're, I think there's three areas of. Everybody talks about technology leaps, like three areas where if they make leaps, I don't know where the hell would be. Like, I don't know what it looks like it can do everything. It gets past these three leaps, right. So I think I've talked about this before. Large concept models, lcms, like I think if they, if they, if one of the big boys releases an lcm, probably with an LLM in front of it, right. I think we're gonna see like just a massive.
+- id: W-0019
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  text: I don't think the UI is as important as the other stuff you've already done, David. Like, I think it's the workflow. Like, because the workflow generates the prompt, right? The workflow generates the front. And you don't really need a ui, you need that prompt. And then like, because we're way past artifacts and it being able to like manipulate the desktop and use the things tool you. Tool use, right. Once you have tool use, like I don't even know that you need a UI because it, you could, it could build it for you, if that makes any sense. Right. It's really weird. Could you just be like a bunch of MCP servers and then like some, like, like all the tools and like all these things are, are kind of there. Like how close is it to like it figuring this out and writing this code like on the fly? So I think we're, I think there's three areas of. Everybody talks about technology leaps, like three areas where if they make leaps, I don't know where the hell would be. Like, I don't know what it looks like it can do everything. It gets past these three leaps, right. So I think I've talked about this before. Large concept models, lcms, like I think if they, if they, if one of the big boys releases an lcm, probably with an LLM in front of it, right. I think we're gonna see like just a massive. What's the difference between a large language model, a large context model, if these concept model. So it. Instead of tokens as the unit, it's concepts. And so yeah, concepts. So basically you're going to see like a 10x increase in a 10x decrease in size, a 10x increase in speed and a 10x increase probably in quality of output. Right. Knowing you still need an LLM in front and behind the LCM. Right. But who cares? The LLMs are great. So you're compressing the whole concepts into like basically the token sized word thing that we're doing now. Right. Because the thing we're dealing with now are parts of words. They're like little tokens. Right. And, and like. Right. And remember, when you make size smaller, you make inference faster because inference happens on, on the data. And, and so the smaller you make the data, the more. And con. If compact you make the data, the faster it all works and runs. And that's why, I mean, major bump, right.
+- id: W-0020
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  text: So it. Instead of tokens as the unit, it's concepts. And so yeah, concepts. So basically you're going to see like a 10x increase in a 10x decrease in size, a 10x increase in speed and a 10x increase probably in quality of output. Right. Knowing you still need an LLM in front and behind the LCM. Right. But who cares? The LLMs are great. So you're compressing the whole concepts into like basically the token sized word thing that we're doing now. Right. Because the thing we're dealing with now are parts of words. They're like little tokens. Right. And, and like. Right. And remember, when you make size smaller, you make inference faster because inference happens on, on the data. And, and so the smaller you make the data, the more. And con. If compact you make the data, the faster it all works and runs. And that's why, I mean, major bump, right. It's basically a rule that like it's possible if you look at like just how much data is compressed in like our DNA. Right. Like, I mean there's you. There's lots of room that we can go in terms of being able to figure out how to compress this stuff. Yeah. And so then the other area of technological leap, it's the chips themselves. We hear about that all the time, right. From like Nvidia and whatever. But like I would. They're not really making the advancements. Like again, I'm skeptic. I see what they're doing. They're really in reality what they're releasing month by month. They're like improvements at the margins which have like some decent returns. But they're not like going from silicon to graphite, graphene. Right. Or like things that are like going to be 10x. But the fundamental research has been done and there are companies that, that will come out with that. They're going to come out with graphene chips that are N doped and P doped, sorry, B doped, not P doped. That will like run literally 10 times faster. So that's. And that will, that will increase the performance of the chips, increase the amount of memory you can get on the chip and increase the sort of chip to memory. Because that's the big bottleneck really. I think most of us are suffering data to chip to back to data movements. IO. Right. It's IO. Right. So that'll be the next. That'll be the second leap and then the third one. I don't even understand it well, but it's what I would call network architecture problems that like use. But what is that guy, the head of Nvidia says you scale up and then you scale out. So you know, improving the quality of the chips is the scale up and then improving the performance and architecture of the network is the scale out. Right. Like where you can get whatever these chips are going to be called. Right. CNBS for you know, carbon boron nitride chips. Because I think that's the technology that'll win. But who knows?
+- id: W-0021
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  text: Yeah. And so then the other area of technological leap, it's the chips themselves. We hear about that all the time, right. From like Nvidia and whatever. But like I would. They're not really making the advancements. Like again, I'm skeptic. I see what they're doing. They're really in reality what they're releasing month by month. They're like improvements at the margins which have like some decent returns. But they're not like going from silicon to graphite, graphene. Right. Or like things that are like going to be 10x. But the fundamental research has been done and there are companies that, that will come out with that. They're going to come out with graphene chips that are N doped and P doped, sorry, B doped, not P doped. That will like run literally 10 times faster. So that's. And that will, that will increase the performance of the chips, increase the amount of memory you can get on the chip and increase the sort of chip to memory. Because that's the big bottleneck really. I think most of us are suffering data to chip to back to data movements. IO. Right. It's IO. Right. So that'll be the next. That'll be the second leap and then the third one. I don't even understand it well, but it's what I would call network architecture problems that like use. But what is that guy, the head of Nvidia says you scale up and then you scale out. So you know, improving the quality of the chips is the scale up and then improving the performance and architecture of the network is the scale out. Right. Like where you can get whatever these chips are going to be called. Right. CNBS for you know, carbon boron nitride chips. Because I think that's the technology that'll win. But who knows? I think all these crazy metamaterials that we're using AI to figure out the combination of how to engineer these metamaterials to be able to do the things that we do. And then it's just this loop we all spin off into the planet. I was playing with it. I was playing with it with Open Chat, trying to see if I could design my own chip factory with Open Chat. And I can't tell you what's wrong, but it's convincing. I'm like, I'm on, like, oh, I should go out and raise a billion dollars and build a chip factory. You need a billion dollars to raise a billion dollars? Yeah, I just popped on to say, hi, guys. I gotta, I gotta run and get a bit of a tight morning. Nice to see all. Yeah, yeah, thanks, Jason. Those, those three areas and then I don't know where we're at. Like I just said, I don't know how, you know, I guess the. What is it the dream or the nightmare?
+- id: W-0022
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  text: I was playing with it. I was playing with it with Open Chat, trying to see if I could design my own chip factory with Open Chat. And I can't tell you what's wrong, but it's convincing. I'm like, I'm on, like, oh, I should go out and raise a billion dollars and build a chip factory. You need a billion dollars to raise a billion dollars? Yeah, I just popped on to say, hi, guys. I gotta, I gotta run and get a bit of a tight morning. Nice to see all. Yeah, yeah, thanks, Jason. Those, those three areas and then I don't know where we're at. Like I just said, I don't know how, you know, I guess the. What is it the dream or the nightmare? Insert. Whichever word you like is, you know, the dreamer. The nightmare is asi, right? Advanced super intelligence. And, you know, not, not AGI, advanced general intelligence, but advanced super intelligence. And like, I think if you get all three of those, you get asi. I think you get asi. I'm worried about that. What do we do then? Right. Well, probably continue along until somebody makes a mistake and lets us know that it exists. Like everything else. Will it tell us or them? I don't know. It's all just like, oh, guess what? We're going to tell you right now, and then in the next minute you're gone. Well, listen, I, you know, there are places where this is discussed and the general. Are. Your argument is really good. And I, I agree. It's a very good argument that, like, are they likely to do it and then not tell us? So there, and there is one counter argument to that, and the counter argument to that is whoever does it and isn't telling us probably has high incentive to use it right away to get anybody else to get it and use it against them. Right. And this is this, is this. It becomes not. It becomes a geopolitical thing, right? Like, because if the Americans have it, you know, any advantage they have because they have it, I think they would have to use it to keep the Chinese from getting it. But I'm not sure the Chinese won't get it first and have that argument in reverse. I don't know what that looks like. That's weirdness.
+- id: W-0023
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  text: Well, listen, I, you know, there are places where this is discussed and the general. Are. Your argument is really good. And I, I agree. It's a very good argument that, like, are they likely to do it and then not tell us? So there, and there is one counter argument to that, and the counter argument to that is whoever does it and isn't telling us probably has high incentive to use it right away to get anybody else to get it and use it against them. Right. And this is this, is this. It becomes not. It becomes a geopolitical thing, right? Like, because if the Americans have it, you know, any advantage they have because they have it, I think they would have to use it to keep the Chinese from getting it. But I'm not sure the Chinese won't get it first and have that argument in reverse. I don't know what that looks like. That's weirdness. It looks like if you have crypto, put it in cold storage. You know what I saw yesterday Was proof of quantum blockchain something or other. You see this? That's a good one. Quantum and blockchain. Nice. I like that. Yeah. I mean. I didn't look at it in detail, but I mean, I guess. You have to do some sort of quantum proof to put it on the chain. I think what it was, was like they somehow set it up so that the blockchain was running using a quantum generated hash on a few different quantum computers. Yeah. So they're trying to address the problem that like blockchain breaks if cryptology breaks. Right? Yeah, yeah. Blockchains break if. If RSA is solved or something like it. So that, you know, like mathematical. The. The need for work and. Or the need for work. That's right. And that's why blockchains suck ass. And I've worked in the blockchain space and there are things blockchain is good for, but fundamentally our block blockchains are databases with a ton more work in them to make them intentionally hard to use and distributed. Right. The distributed is the value proposition. Hard to. Hard to use as in requires a lot of CPU power and all the rest is the thing you pay for. Right. So there's just a massive trade off in blockchain. Right. Like distributed. But you've got to add this proof of work or, you know, or whatever to make it be able to be distributed and remain.
+- id: W-0024
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  text: Yeah. So they're trying to address the problem that like blockchain breaks if cryptology breaks. Right? Yeah, yeah. Blockchains break if. If RSA is solved or something like it. So that, you know, like mathematical. The. The need for work and. Or the need for work. That's right. And that's why blockchains suck ass. And I've worked in the blockchain space and there are things blockchain is good for, but fundamentally our block blockchains are databases with a ton more work in them to make them intentionally hard to use and distributed. Right. The distributed is the value proposition. Hard to. Hard to use as in requires a lot of CPU power and all the rest is the thing you pay for. Right. So there's just a massive trade off in blockchain. Right. Like distributed. But you've got to add this proof of work or, you know, or whatever to make it be able to be distributed and remain. Yeah. What are, what are the. There's like three things and. And the guy's like, pick two. Yeah, it's usually it's fast, cheap, or good. Good. And so you can have decentralized dec. Decentralized is one of them. Right. It's the other. This is a different iron triangle. The original one, fast, cheap and good. Is the original iron triangle. I like that. Yeah. But like, I'm, you know, for a lot of things, blockchain isn't the solution because, like, you know, because I, I believe it isn't because, like, it's just too high of a price to pay. Did you notice what happened to gas fees recently on Ethereum? No, I haven't followed gas fees. I know that. Yeah, they. I went to do something the other day and gas fees were like probably 1 50th, 1 60th of what they usually were. Oh, really? That's good. Yeah, yeah. Like something that used to like a transaction that would be like 15 to 20 bucks was like 50 cents. Well, that, that helps. Right. The crazy part now is like in a news thing, you heard that, like, the Trump family has essentially put out their own Stable coin.
+- id: W-0025
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  text: Yeah. But like, I'm, you know, for a lot of things, blockchain isn't the solution because, like, you know, because I, I believe it isn't because, like, it's just too high of a price to pay. Did you notice what happened to gas fees recently on Ethereum? No, I haven't followed gas fees. I know that. Yeah, they. I went to do something the other day and gas fees were like probably 1 50th, 1 60th of what they usually were. Oh, really? That's good. Yeah, yeah. Like something that used to like a transaction that would be like 15 to 20 bucks was like 50 cents. Well, that, that helps. Right. The crazy part now is like in a news thing, you heard that, like, the Trump family has essentially put out their own Stable coin. Oh my God. That is slightly worrying to me that he's making untold amounts of money off of this. He's made a. It's called USD1. Nice. USD1. Yeah. And I'm sure it'll do well, by the way. I'm not putting any money in anything right now because it'll be turned off in a microsecond. But like he doesn't know what he's doing. I mean, you know, I don't know. Anyway, let's, let's talk about something else. Okay. But yeah, I did not know about Ethereum fees, but there's just too much disruption happening all at once and it is interactive disruption. I think it was the Den Kuhn upgrade that I was blown away that the gas fees were like so low. It was pretty cool. All right. I, I was, I was hoping that there was going to be some follow up trump news in my work zone of tasks thing. Usually when I'm testing it, I try to get something. I want to see if there's any news on the coin that you're talking about. My 2025 thing is to use my phone as little as possible. I used to use about three hours a day. Yeah, I'm slipping a little bit. I'm like back up to like, like I was up to like two hours some days two and a half the odd day like for four hours blowing through. Now I'm back to 90. I'm like doing pretty well. Did I show you my, my post it that I put on the back of my phone?
+- id: W-0026
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  text: I think it was the Den Kuhn upgrade that I was blown away that the gas fees were like so low. It was pretty cool. All right. I, I was, I was hoping that there was going to be some follow up trump news in my work zone of tasks thing. Usually when I'm testing it, I try to get something. I want to see if there's any news on the coin that you're talking about. My 2025 thing is to use my phone as little as possible. I used to use about three hours a day. Yeah, I'm slipping a little bit. I'm like back up to like, like I was up to like two hours some days two and a half the odd day like for four hours blowing through. Now I'm back to 90. I'm like doing pretty well. Did I show you my, my post it that I put on the back of my phone? Oh, nice. Look at you. You've got your own protocols going on. Look at that. Even plastic on it. Nice. Yeah, this is, this has been probably there for a month, two months. Very useful. Well, what I do is before I go to my phone, I set a goal and then I clock in and I clock out. Then I know it's done. I'm like, put that piece of garbage down. Get away from this thing. So you've got a practice and a protocol around it so that you're, you know, the logging is part of your, your cognitive Runway, I guess. Right. I'm trying. That's, that's some dedication as well, you know. Oh, I'm doing my best. Well, your discussion around journaling brought up interesting thoughts. I've had a few projects where I've had. I did one project where I built a sleep journal using no low code kind of stuff. And it was very similar to the stickies in the back. Eventually it was just putting lines into a spreadsheet around whether you slapped the date, exercised or whatever else. So that. And to try to make it as easy as possible so people will get in the habit of doing it and then give them the reward. You know, like the whole Fitbit kind of health rewards. I guess the Apple Watch does a great job of that. But what I like about what you got going on is a piece of piece paper on the back of your phone.
+- id: W-0027
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  text: Well, your discussion around journaling brought up interesting thoughts. I've had a few projects where I've had. I did one project where I built a sleep journal using no low code kind of stuff. And it was very similar to the stickies in the back. Eventually it was just putting lines into a spreadsheet around whether you slapped the date, exercised or whatever else. So that. And to try to make it as easy as possible so people will get in the habit of doing it and then give them the reward. You know, like the whole Fitbit kind of health rewards. I guess the Apple Watch does a great job of that. But what I like about what you got going on is a piece of piece paper on the back of your phone. I hear the Apple Watch is pretty good, actually. Like, you can, you can take it around with you, make calls from it like this. Yeah, my wife is really big on hers. But. And like, in, in a way, it's almost a really good way to limit your phone use because you can just leave your phone at home. Like it's almost a fully functioning text voice that's pretty much. Can be. Do you have one? No, I don't. I have a friend who's kind of using one as a strategy to spend less time on his phone. And like, I'm intrigued. It looks, I mean, it seems almost worse because you have this thing right on your wrist all the time, but in another way, like you can't really use it for like, there's no safari on it or. No, but there's a lot of other things that are there. So it gives you all of your messaging. Well, it's also got health tracking, so you can do a lot of things like that and it puts reminders in there for you to do your goals, goal setting. So that's a significant part of the phone or the watch is that it's meant to be health oriented, I think. And so you can turn all that stuff off. I, I wanted to go back to my Fitbit for a month and I had them and then batteries died on it and I can't charge them. And Karen's like, I want to and okay, I'll use yours. I don't need to buy one. And so I charged it, put it on my wrist and the thing went bananas. It was like, it was just like going off and like, and the screen was dim and like, okay, I can't see what's going on. But it wouldn't stop vibrating. But that's what the Fitbit does is it just reminds you and you look at it and of things and you can sync it with your phone and it can tell you, oh yeah, I've got a meeting in 10 minutes. Oh yeah, I can do all these things. So it becomes a screen just like.
+- id: W-0028
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  text: No, but there's a lot of other things that are there. So it gives you all of your messaging. Well, it's also got health tracking, so you can do a lot of things like that and it puts reminders in there for you to do your goals, goal setting. So that's a significant part of the phone or the watch is that it's meant to be health oriented, I think. And so you can turn all that stuff off. I, I wanted to go back to my Fitbit for a month and I had them and then batteries died on it and I can't charge them. And Karen's like, I want to and okay, I'll use yours. I don't need to buy one. And so I charged it, put it on my wrist and the thing went bananas. It was like, it was just like going off and like, and the screen was dim and like, okay, I can't see what's going on. But it wouldn't stop vibrating. But that's what the Fitbit does is it just reminds you and you look at it and of things and you can sync it with your phone and it can tell you, oh yeah, I've got a meeting in 10 minutes. Oh yeah, I can do all these things. So it becomes a screen just like. Your phone that's on you all this. On you all the time. And it demands A physical action, usually because the UI is small, it can be a few more than just looking at it. And so what I liked about my Fitbit is I just used it as a watch and then it did all the collection of the heart rate data, which is. And the sleep data, you know, it has quasi sleep data. And so I like that. And I wanted to go back to it, but it reminded me why I took it off as well. And that it's a. It's a dedication to another screen and it's another way of it forming habits around you. And for you and your friend, it might really work because it does do that quite well. Interesting. But you can spend a lot of money on an Apple watch too. Too. Yeah. What are they? 400 bucks, 500 bucks? I think that's the low side. Oh, yeah, I don't know. We'll see. That's a lot of money. Like, I'm not sure I'm really willing to do that. But look at it from that point of view, like you've done. You were talking about doing journaling for food and whatnot. Like, this is, this is an interesting way to provide that backbone of Apple health, I guess, underneath it.
+- id: W-0029
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  text: On you all the time. And it demands A physical action, usually because the UI is small, it can be a few more than just looking at it. And so what I liked about my Fitbit is I just used it as a watch and then it did all the collection of the heart rate data, which is. And the sleep data, you know, it has quasi sleep data. And so I like that. And I wanted to go back to it, but it reminded me why I took it off as well. And that it's a. It's a dedication to another screen and it's another way of it forming habits around you. And for you and your friend, it might really work because it does do that quite well. Interesting. But you can spend a lot of money on an Apple watch too. Too. Yeah. What are they? 400 bucks, 500 bucks? I think that's the low side. Oh, yeah, I don't know. We'll see. That's a lot of money. Like, I'm not sure I'm really willing to do that. But look at it from that point of view, like you've done. You were talking about doing journaling for food and whatnot. Like, this is, this is an interesting way to provide that backbone of Apple health, I guess, underneath it. Yeah. I, I remember telling you and Eric about maybe doing like a blog about protein and. Because I've been journaling trying to get 100 grams of protein a day, and then I came up with a great image, I thought, and I was trying to add some lines to it, like some copy, some speech bubbles, like it was basically a comic thing. And I came across the software Krita, which is like an open source Photoshop, basically. Yeah. But to be honest, like, it was just too time consuming, like having to manually add speech bubbles. It's not, you know, if 4o can all of a sudden do that, like, is that possible? I'm. I'm definitely gonna go check that out, I think. Yeah. Like, if Jason's like. Because his world is about that space, right. And he's compositing and wanting to do all that kind of stuff. And he does it on the fly. A lot of it too. And seriously, like, we have needs for. On. On the fly compositing of branding on top of images. We're not doing it for the NFT project. We had some of them that we wanted to do. And so if it does have that utility, it can save a lot of work. And if it's just prompting. That's crazy. Man. Oh man, that's unreal. I just wanted to show you this. There's a thought based on our discussion, and you're talking about journaling and protein. I spent a moment thinking about it and then found spoon ocular, which is a. A food API recipe. API. Because one of the problems that I experience and others experience with recipes on the Internet is that they're crap to locate because of all the ads.
+- id: W-0030
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  text: Yeah. Like, if Jason's like. Because his world is about that space, right. And he's compositing and wanting to do all that kind of stuff. And he does it on the fly. A lot of it too. And seriously, like, we have needs for. On. On the fly compositing of branding on top of images. We're not doing it for the NFT project. We had some of them that we wanted to do. And so if it does have that utility, it can save a lot of work. And if it's just prompting. That's crazy. Man. Oh man, that's unreal. I just wanted to show you this. There's a thought based on our discussion, and you're talking about journaling and protein. I spent a moment thinking about it and then found spoon ocular, which is a. A food API recipe. API. Because one of the problems that I experience and others experience with recipes on the Internet is that they're crap to locate because of all the ads. Oh, yeah. They also give you their life story before getting arrested. So you know it too, right? My aunt and my uncle and my grandmother and everybody. And. And so you wanted to down into like, here's the ingredients, here's a picture of what it looks like, and here's how to do it. And so Spoonacular has like a lot of stuff like that. And I thought it was interesting because you probably take it to the level of deriving the protein levels from the ingredients that you do. And so you could actually, you can, you can go about it interestingly, you can be creative with it because it's an abi. You can say, these are the ingredients I have. Now give me some ideas or at least some ideas for talking to Fulvio. Like, his mother was a kitchen witch. And so you could come up with a theme that would be like, healing at this time of year be based on, you know, Fulvio's 13 and stuff's going on, so he needs this food. You know what I find? I actually find food super interesting as a AI use case for two reasons. The first one is it's a little bit, maybe less political than some stuff. Like, everybody cares deeply. Well, not every. Not that's a blanket statement, but like, a lot of people really care about food. It's quite. It can be controversial. Like, there's tons of claims made about it, and it's also sometimes hard to get good data on it. But the other part of it is that, like, when you get good information on food, generally the answers to those questions don't change. So it really, the. The exercise is a process in asking the right questions, which is like a. So I was thinking about this from the standpoint of like, instead of blogging, which I talked to you and Eric about a few months ago, it's like, what if you had some sort of a publication that just got updated every once in a while with really good questions, things that you needed to know about food, but we still, for whatever reason, don't know. Like.
+- id: W-0031
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u177
+  - u178
+  - u179
+  - u180
+  text: So you know it too, right? My aunt and my uncle and my grandmother and everybody. And. And so you wanted to down into like, here's the ingredients, here's a picture of what it looks like, and here's how to do it. And so Spoonacular has like a lot of stuff like that. And I thought it was interesting because you probably take it to the level of deriving the protein levels from the ingredients that you do. And so you could actually, you can, you can go about it interestingly, you can be creative with it because it's an abi. You can say, these are the ingredients I have. Now give me some ideas or at least some ideas for talking to Fulvio. Like, his mother was a kitchen witch. And so you could come up with a theme that would be like, healing at this time of year be based on, you know, Fulvio's 13 and stuff's going on, so he needs this food. You know what I find? I actually find food super interesting as a AI use case for two reasons. The first one is it's a little bit, maybe less political than some stuff. Like, everybody cares deeply. Well, not every. Not that's a blanket statement, but like, a lot of people really care about food. It's quite. It can be controversial. Like, there's tons of claims made about it, and it's also sometimes hard to get good data on it. But the other part of it is that, like, when you get good information on food, generally the answers to those questions don't change. So it really, the. The exercise is a process in asking the right questions, which is like a. So I was thinking about this from the standpoint of like, instead of blogging, which I talked to you and Eric about a few months ago, it's like, what if you had some sort of a publication that just got updated every once in a while with really good questions, things that you needed to know about food, but we still, for whatever reason, don't know. Like. I'll tell you, like, you're. You're a thought leader in that if you think curating questions is going to be a future thing, you're bang on. Yeah. And the really cool thing about it is that you can share the outputs of chats from the desktop of Claude. So like you could be, you could, you know, you're talking maybe to, you know, somebody who, like myself, like, I don't get enough protein every day. And you're like, oh, you're having problem with this. Check out this chat I had with Claude. It, what it does is it explains first why it's important and then it gives you a meal plan and here's the link. Boom. Like, and then, you know, you come back in a few months and you're like, actually turns out that chat wasn't the best in this way. So it's actually been updated since like there's like an edit, there's a publication and I've got, so I came up, I came up with a name for it. It's called a, well, a site, aiguides Ca. And I was thinking about trying some food stuff with it. Like it's got a pub, you know, just like a link on there. And yeah, I'll, I'll let you know how it goes. I'm gonna keep building it up.
+- id: W-0032
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  text: I'll tell you, like, you're. You're a thought leader in that if you think curating questions is going to be a future thing, you're bang on. Yeah. And the really cool thing about it is that you can share the outputs of chats from the desktop of Claude. So like you could be, you could, you know, you're talking maybe to, you know, somebody who, like myself, like, I don't get enough protein every day. And you're like, oh, you're having problem with this. Check out this chat I had with Claude. It, what it does is it explains first why it's important and then it gives you a meal plan and here's the link. Boom. Like, and then, you know, you come back in a few months and you're like, actually turns out that chat wasn't the best in this way. So it's actually been updated since like there's like an edit, there's a publication and I've got, so I came up, I came up with a name for it. It's called a, well, a site, aiguides Ca. And I was thinking about trying some food stuff with it. Like it's got a pub, you know, just like a link on there. And yeah, I'll, I'll let you know how it goes. I'm gonna keep building it up. Okay, I'm curious, but what I'm hearing is like a higher order of ordering meaning, like instead of here's all the content that you could drive and it can, it can answer these questions in your life. Because I'm going to tell you all the questions it answers, meaning here's my, you know, the story behind it. You'll feel like it's from my aunt. Anyways, you're saying here's a really good question. Yeah. And if, you know, you place it in the right place. And here I found a really good place to answer it. Here's a great response. And that's how search engines work, right? They work with questions. Totally. And then the other thing is you can have an answer from different models. Like, here's what Claude did that there, you know, here's what, like it's actually now it's the answer. The best is your. This one and, and whatnot. So, so I won't be sending you a blog post in the future. I'll. I might be sending you a chat link.
+- id: W-0033
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  text: Okay, I'm curious, but what I'm hearing is like a higher order of ordering meaning, like instead of here's all the content that you could drive and it can, it can answer these questions in your life. Because I'm going to tell you all the questions it answers, meaning here's my, you know, the story behind it. You'll feel like it's from my aunt. Anyways, you're saying here's a really good question. Yeah. And if, you know, you place it in the right place. And here I found a really good place to answer it. Here's a great response. And that's how search engines work, right? They work with questions. Totally. And then the other thing is you can have an answer from different models. Like, here's what Claude did that there, you know, here's what, like it's actually now it's the answer. The best is your. This one and, and whatnot. So, so I won't be sending you a blog post in the future. I'll. I might be sending you a chat link. Well, how about, how about you just created an auto generating blog engine. You just need to email your question to whatever your engine is, it puts out and publishes that there's a new question. When people arrive to your website, you determine it's going to use 3, 7 thinking and it just provides you a real time answer for that. And to your point, you can go back and say, oh, I need to edit the prompt a little bit, which is the question. And the question has to have a little bit more rigor. And so you do that. And so the next person who comes along there doesn't know any different, but they get the most recent version of that. Yeah, exactly. I've had that pattern and I. That idea as a pattern, but from the other side. So I like the idea where it's like, here's the press C, here's the way in. It's clever. Yep. Well, I'll keep you posted on it. I'll be sending some links. Yeah. And good luck with naming anything nowadays. Gosh. Naming. Yeah. How do you name anything nowadays? Your app or your experience or your flow. So it's. It looks. I got a little. It's funny, like, one of the things. I've had a few ideas in the past, and I've only ever gotten as far as a logo for each of them. I don't know why. I just love working on logos. And so I've got a logo for this one. It's. It's like TV Guide, just AI Guide.
+- id: W-0034
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  - u200
+  - u201
+  - u202
+  - u203
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  text: Yep. Well, I'll keep you posted on it. I'll be sending some links. Yeah. And good luck with naming anything nowadays. Gosh. Naming. Yeah. How do you name anything nowadays? Your app or your experience or your flow. So it's. It looks. I got a little. It's funny, like, one of the things. I've had a few ideas in the past, and I've only ever gotten as far as a logo for each of them. I don't know why. I just love working on logos. And so I've got a logo for this one. It's. It's like TV Guide, just AI Guide. And. Oh, the. The logo looks exactly like TV Guide. Even the shape is just like a tv. Like, the AI is like a thing. So I like that. That's very clever. And that would. So the association will work completely. I don't know if you remember the first search engines, they were along this kind of lines of, how do you get into things? How do you organize things? And. Yeah, but it was. It was questions oriented. Right. And so they had, in some cases, people, you know, manually answering those questions. So that'll be good. I like that. And, yeah, so that gives it. That also gives it a bit of a pulp feel, like. Well, yeah, take a look and chuck it over your shoulder on the way, you know. Well, and in. In the AI space, you know, it may be a ephemeral kind of app, too. Right. Things are evolving so quickly, but if you have fun with it, it'll go, it will travel. Yeah. Cool. Well, that sounds like an interesting project to kick along while you're learning how to sleep differently. Yeah. Oh, my freaking God. How's it going over there, Fulvia? I just think I made something work. David, could you please click on this and let me know if it's viewable? And it works. Oh, my gosh. That's at Amazon. Like, man, that would be so awesome. Well, and I can have it be a URL too. Oh, I can show you what I see.
+- id: W-0035
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u201
+  - u202
+  - u203
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  - u209
+  - u210
+  - u211
+  - u212
+  - u213
+  - u214
+  - u215
+  - u216
+  - u217
+  - u218
+  - u219
+  - u220
+  - u221
+  - u222
+  - u223
+  - u224
+  - u225
+  - u226
+  text: Cool. Well, that sounds like an interesting project to kick along while you're learning how to sleep differently. Yeah. Oh, my freaking God. How's it going over there, Fulvia? I just think I made something work. David, could you please click on this and let me know if it's viewable? And it works. Oh, my gosh. That's at Amazon. Like, man, that would be so awesome. Well, and I can have it be a URL too. Oh, I can show you what I see. Can you click on it? Click on the page There it is. Did the haiku come up? The. The nft. This is what happened when I clicked on the page. It's showing me this. Hold on. No, no, click on the image now. Oh. Oh, look at you. Is it talking to us as well? No, that is so much better. Now click on it again. There we go. Okay. So you've created the VIP experience. Oh, my God, that's great. Yeah, it's a wolf with a token for the token. Yes. Yes. Okay, it's working. How about. That is the VIP experience. Man, I have to. I feel like I just passed a kidney stone. Yeah, no, man, that is that. You got something live on Amazon. That means that we are close to being able to just go mad nuts. And I love that. That. That high guy is pretty nice. Hey, I didn't even pay attention to which ones Karen chose. No offense to her. Yeah, working on it. And I was already using it and it's all. It's all right there abstracted, so that like, you change the token number and blah, blah, blah. So. Yeah. Yeah. Anyways, I'll do the rest today before our 1:00 meeting, but sorry, I was. I was listening to you guys. Yeah. Hey, no multitasking. You know, you're making sure we have quorum in some regard. And so. And, and you did a demo, so that was important. Right. So.
+- id: W-0036
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u221
+  - u222
+  - u223
+  - u224
+  - u225
+  - u226
+  - u227
+  - u228
+  - u229
+  - u230
+  - u231
+  - u232
+  - u233
+  - u234
+  - u235
+  - u236
+  - u237
+  - u238
+  - u239
+  text: Hey, I didn't even pay attention to which ones Karen chose. No offense to her. Yeah, working on it. And I was already using it and it's all. It's all right there abstracted, so that like, you change the token number and blah, blah, blah. So. Yeah. Yeah. Anyways, I'll do the rest today before our 1:00 meeting, but sorry, I was. I was listening to you guys. Yeah. Hey, no multitasking. You know, you're making sure we have quorum in some regard. And so. And, and you did a demo, so that was important. Right. So. I should be able to get this on a test net on. I'm gonna try to get this on a test net on Polygon later today so I can show what it looks like in an NFT marketplace. David, I'm trying to do that. Oh, one thing before I go. I am going to be presenting the weekend after next, and before then, I will share my presentation with everybody and I will tell you I started from scratch. I looked at my past work and like, oh my God, how could I ever have gotten through all of that content? And I didn't. And so I was looking at it and I'm like, well, let's start from fresh. And I started from fresh and I used the Deep research tool, or LLM in OpenAI, and it produced a really nice research paper. Huh. Tons of. Tons of links. What is the research paper on? It's on, like, generative AI for not for profits. And strategy. Practical strategies on what they can do. Yeah. And resources. And so it gives a whole lot of links to free stuff for not for profits, which is perfect. That is sweet. So I. I'm. I'm a bit confused. So it basically made an original research paper. Yeah. Oh, wow. Okay. I'LL share it with you right now. Scaling your not for profit. That's open. There it is right here. My God. So I looked at this and it is just jammed full of citations and so. And from this I then made my presentation and I set it up. I wanted five strategies. I called them strategies like things you can do. And I wanted to be practical. I have, I'm going to give them the message on what they should do and that's like they should have a peer group, they should be doing these things, they should be not reading news. But this is well set up how to implement it. Expected impact, some real world examples of not for profits doing these kind of things. Engagement for donors, streamlining administration, operation tools. And then so there are articles by Google and Microsoft and whatnot and how to not properly use AI to keep good donors SAP. So they're stalwart kind of articles. And it has a, you know, it's 31 pages. Man, look at this thing.
+- id: W-0037
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u232
+  - u233
+  - u234
+  - u235
+  - u236
+  - u237
+  - u238
+  - u239
+  - u240
+  - u241
+  - u242
+  - u243
+  text: It's on, like, generative AI for not for profits. And strategy. Practical strategies on what they can do. Yeah. And resources. And so it gives a whole lot of links to free stuff for not for profits, which is perfect. That is sweet. So I. I'm. I'm a bit confused. So it basically made an original research paper. Yeah. Oh, wow. Okay. I'LL share it with you right now. Scaling your not for profit. That's open. There it is right here. My God. So I looked at this and it is just jammed full of citations and so. And from this I then made my presentation and I set it up. I wanted five strategies. I called them strategies like things you can do. And I wanted to be practical. I have, I'm going to give them the message on what they should do and that's like they should have a peer group, they should be doing these things, they should be not reading news. But this is well set up how to implement it. Expected impact, some real world examples of not for profits doing these kind of things. Engagement for donors, streamlining administration, operation tools. And then so there are articles by Google and Microsoft and whatnot and how to not properly use AI to keep good donors SAP. So they're stalwart kind of articles. And it has a, you know, it's 31 pages. Man, look at this thing. It looks actionable. Like I'm not reading the fine print. But yeah, that looks really useful. I like how you've boiled it down to five, like different strategies. I shared the link there. Yeah. So I wanted to have, I wanted it to be a certain number that I could, you know, that would be easy and in some ways try to make it tangible for people. There's already a title for it but it's like here's five things you can do, you know, and then there's five examples of other people doing them. And then what I really wanted to get across was like during this transition work will change. The best thing you could do is your leadership should be meeting, you should be setting up peer groups, you should be talking about this thing and you should discuss the concerns around what it means to bring AI into your work situation. But here's some. These are all positive ways where they're not taking people's jobs and in the not for profit space they are always over taxed and so they do not have full teams. And it'll be great for me to be able to provide them like a link to Google. I think it's meta and I can't remember who it is but Google, Microsoft and one other or Amazon where you can immediately get free credits as a not for profit for using their stuff. So you know there's, there's a lower barrier. Like if they wanted to get into using things nowadays just using the Gemini Chatbot, super useful. So I was happy to have it produce such a long document. Gave me a table. Right, right. I Then worked with it out of Deep Research. It seems like we're going to be tapped out of Deep Research. At least I am. If I have. I was given like 10 goes at it and by April 9, they may be putting it to a paid service or something like that. So if you're gonna, if you have anything that you wanted to really get some sort of rigorous thing on, if you've got a really good question, James, then I would, Yeah, I would suggest that this is a way to go. And I did then work. I said, I pointed this and then I.
+- id: W-0038
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u239
+  - u240
+  - u241
+  - u242
+  - u243
+  text: I'LL share it with you right now. Scaling your not for profit. That's open. There it is right here. My God. So I looked at this and it is just jammed full of citations and so. And from this I then made my presentation and I set it up. I wanted five strategies. I called them strategies like things you can do. And I wanted to be practical. I have, I'm going to give them the message on what they should do and that's like they should have a peer group, they should be doing these things, they should be not reading news. But this is well set up how to implement it. Expected impact, some real world examples of not for profits doing these kind of things. Engagement for donors, streamlining administration, operation tools. And then so there are articles by Google and Microsoft and whatnot and how to not properly use AI to keep good donors SAP. So they're stalwart kind of articles. And it has a, you know, it's 31 pages. Man, look at this thing. It looks actionable. Like I'm not reading the fine print. But yeah, that looks really useful. I like how you've boiled it down to five, like different strategies. I shared the link there. Yeah. So I wanted to have, I wanted it to be a certain number that I could, you know, that would be easy and in some ways try to make it tangible for people. There's already a title for it but it's like here's five things you can do, you know, and then there's five examples of other people doing them. And then what I really wanted to get across was like during this transition work will change. The best thing you could do is your leadership should be meeting, you should be setting up peer groups, you should be talking about this thing and you should discuss the concerns around what it means to bring AI into your work situation. But here's some. These are all positive ways where they're not taking people's jobs and in the not for profit space they are always over taxed and so they do not have full teams. And it'll be great for me to be able to provide them like a link to Google. I think it's meta and I can't remember who it is but Google, Microsoft and one other or Amazon where you can immediately get free credits as a not for profit for using their stuff. So you know there's, there's a lower barrier. Like if they wanted to get into using things nowadays just using the Gemini Chatbot, super useful. So I was happy to have it produce such a long document. Gave me a table. Right, right. I Then worked with it out of Deep Research. It seems like we're going to be tapped out of Deep Research. At least I am. If I have. I was given like 10 goes at it and by April 9, they may be putting it to a paid service or something like that. So if you're gonna, if you have anything that you wanted to really get some sort of rigorous thing on, if you've got a really good question, James, then I would, Yeah, I would suggest that this is a way to go. And I did then work. I said, I pointed this and then I.
+- id: W-0039
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u243
+  - u244
+  - u245
+  - u246
+  - u247
+  - u248
+  - u249
+  - u250
+  - u251
+  text: So I wanted to have, I wanted it to be a certain number that I could, you know, that would be easy and in some ways try to make it tangible for people. There's already a title for it but it's like here's five things you can do, you know, and then there's five examples of other people doing them. And then what I really wanted to get across was like during this transition work will change. The best thing you could do is your leadership should be meeting, you should be setting up peer groups, you should be talking about this thing and you should discuss the concerns around what it means to bring AI into your work situation. But here's some. These are all positive ways where they're not taking people's jobs and in the not for profit space they are always over taxed and so they do not have full teams. And it'll be great for me to be able to provide them like a link to Google. I think it's meta and I can't remember who it is but Google, Microsoft and one other or Amazon where you can immediately get free credits as a not for profit for using their stuff. So you know there's, there's a lower barrier. Like if they wanted to get into using things nowadays just using the Gemini Chatbot, super useful. So I was happy to have it produce such a long document. Gave me a table. Right, right. I Then worked with it out of Deep Research. It seems like we're going to be tapped out of Deep Research. At least I am. If I have. I was given like 10 goes at it and by April 9, they may be putting it to a paid service or something like that. So if you're gonna, if you have anything that you wanted to really get some sort of rigorous thing on, if you've got a really good question, James, then I would, Yeah, I would suggest that this is a way to go. And I did then work. I said, I pointed this and then I. Are you talking about the. Which one is it? They all, they all say Deep Research. Is it Gemini Deep Research? No, it was, it was open AI's deep research. Okay. Because Perplexity also introduced. Yeah, they all reported one. Yeah. So it's 4.5 GPT. 4.5. And there's a deep research mode. And it takes, it takes a long time, like 15 minutes or something. Okay. Yes. Okay. Open. Yeah, yeah. They do all offer it now. Like it's a reasoning model. Right. So it's like. And it's a research model. So they all offer like even Anthropic now has the web. They've indexed the web. What do you, what, what have you handed it? Is it like super long prompts or is it pretty simple stuff? It was pretty in the case for the presentation. It was really simple.
+- id: W-0040
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u249
+  - u250
+  - u251
+  - u252
+  - u253
+  - u254
+  - u255
+  text: Yeah, yeah. They do all offer it now. Like it's a reasoning model. Right. So it's like. And it's a research model. So they all offer like even Anthropic now has the web. They've indexed the web. What do you, what, what have you handed it? Is it like super long prompts or is it pretty simple stuff? It was pretty in the case for the presentation. It was really simple. And you've worked with it a lot or just a little bit? Just a few times. And it's gotten me very good results. Here it is. I'm right, okay. I was, I'm writing a presentation. This is, is this a short prompt for you, David? Well, I gave it, I gave it something. I actually did a search somewhere else on five things that could or a number of things. It looks like it was in Perplexity. I did some research somewhere else and then I said I want. So I've been trying to do this better is like I give it the actual context. I'm going to be speaking to 50 people. They're not for profits. And this is basically, you know, the agent. You're like, okay, some preliminary topics and themes suggested below. But do the research and ensure that best strategies, tactics and metrics are. It provides five or more things that you can effectively do. You can do. This is when I got tired or more things that can effectively do how, why and what. And so I, if I wasn't as tired, I would have gone on for a little bit longer to then provide workflow diagrams or something else, yada yada yada. Like you can get a lot out of it and so you can't. I don't, I don't think the context window is massive for like uploading huge amounts. But that's something to do. I have done, I have to do some research on Defi and real world asset backed tokens and so I will be burning the rest of my research on that because I want to do some broad research. But that was, that was a really neat thing to be able to see that. You know, I can hand off my deck and it has links in it and.
+- id: W-0041
+  t_start: 3780.0
+  t_end: 3900.0
+  utterance_ids:
+  - u255
+  - u256
+  - u257
+  - u258
+  - u259
+  text: Well, I gave it, I gave it something. I actually did a search somewhere else on five things that could or a number of things. It looks like it was in Perplexity. I did some research somewhere else and then I said I want. So I've been trying to do this better is like I give it the actual context. I'm going to be speaking to 50 people. They're not for profits. And this is basically, you know, the agent. You're like, okay, some preliminary topics and themes suggested below. But do the research and ensure that best strategies, tactics and metrics are. It provides five or more things that you can effectively do. You can do. This is when I got tired or more things that can effectively do how, why and what. And so I, if I wasn't as tired, I would have gone on for a little bit longer to then provide workflow diagrams or something else, yada yada yada. Like you can get a lot out of it and so you can't. I don't, I don't think the context window is massive for like uploading huge amounts. But that's something to do. I have done, I have to do some research on Defi and real world asset backed tokens and so I will be burning the rest of my research on that because I want to do some broad research. But that was, that was a really neat thing to be able to see that. You know, I can hand off my deck and it has links in it and. That is sweet. Thanks for sharing that. I'm, I'm very, very curious about it. Here's the deck, but I'll just show you how I minimized it. It's not on ramit. I'll also explain how I made it, which is one of the things I was going to do to them. But I made sure that it had at least a couple links in here for them and I put some notes and stuff in there. But what I did was I generated the slides initially in ChatGPT and then I asked it to create a PowerPoint from, created a Python application. I downloaded the Python script, I downloaded the Python script, I installed the libraries, I ran the Python script on the file that it gave me and it generated the PowerPoint slides that I'm showing. Whoa. And I'm like, why did it do that? And I was like, oh, is the model I was in. And so I went into 4.0, I did the same thing and it generated the PowerPoint for me. Interesting.
+- id: W-0042
+  t_start: 3870.0
+  t_end: 3967.3
+  utterance_ids:
+  - u257
+  - u258
+  - u259
+  - u260
+  - u261
+  - u262
+  - u263
+  - u264
+  - u265
+  - u266
+  - u267
+  - u268
+  text: Here's the deck, but I'll just show you how I minimized it. It's not on ramit. I'll also explain how I made it, which is one of the things I was going to do to them. But I made sure that it had at least a couple links in here for them and I put some notes and stuff in there. But what I did was I generated the slides initially in ChatGPT and then I asked it to create a PowerPoint from, created a Python application. I downloaded the Python script, I downloaded the Python script, I installed the libraries, I ran the Python script on the file that it gave me and it generated the PowerPoint slides that I'm showing. Whoa. And I'm like, why did it do that? And I was like, oh, is the model I was in. And so I went into 4.0, I did the same thing and it generated the PowerPoint for me. Interesting. Very interesting. So the models are trying to push in different ways and giving it the same prompt and everything. And it's like, oh. I was like, what the hell is this? And I built it, of course. It's interesting that we're at this phase with AI where it can ask you to do stuff like that. And like 99 out of 100 people are not going to download a Python script and run it to make it PowerPoint. Oh, no, no, no. No way. They would have, like, this is wrong. You know, they might not even have tried to make it a PowerPoint. Right. The only reason it can make PowerPoint is because it can run some, some Python libraries that convert anything into PowerPoint. That's the only reason is it's actually creating, it's creating its own tools on the fly, which is just python. Unreal. Yeah. Anyways, 902, time to roll. Time to roll. Nice seeing you both. Have a nice day, Fulvio. Have a nice day, David. Take care guys. Thank you, Angel. Bye, James. And.
+- id: W-0043
+  t_start: 3960.0
+  t_end: 3967.3
+  utterance_ids:
+  - u265
+  - u266
+  - u267
+  - u268
+  text: Yeah. Anyways, 902, time to roll. Time to roll. Nice seeing you both. Have a nice day, Fulvio. Have a nice day, David. Take care guys. Thank you, Angel. Bye, James. And.

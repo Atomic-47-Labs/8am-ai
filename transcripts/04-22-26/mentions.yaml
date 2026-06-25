@@ -3,9 +3,6 @@ mentions:
 - value: Anthropic
   kind: tool
   count: 1
-- value: Commodore
-  kind: tool
-  count: 1
 - value: Gmail
   kind: tool
   count: 1
@@ -19,11 +16,5 @@ mentions:
   kind: tool
   count: 1
 - value: Slack
-  kind: tool
-  count: 1
-- value: markdown
-  kind: tool
-  count: 1
-- value: wiki
   kind: tool
   count: 1

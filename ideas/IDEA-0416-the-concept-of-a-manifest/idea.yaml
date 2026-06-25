@@ -1,0 +1,28 @@
+id: IDEA-0416
+slug: the-concept-of-a-manifest
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-23'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explained that the playground's exported JSON workflow acts as a "manifest," a compact description of its contents, including patterns and piping (00:16:33). Fulvio Ciano further clarified that a manifest, unlike a simple list, includes information about what the content is for and how to use it, emphasizing its importance for portability and dynamic application within various environments (00:18:20) (00:20:33).
+summary: The Concept of a "Manifest"
+rationale: David Olsson explained that the playground's exported JSON workflow acts as a "manifest," a compact description of its contents, including patterns and piping (00:16:33). Fulvio Ciano further clarified that a manifest, unlike a simple list, includes information about what the content is for and how to use it, emphasizing its importance for portability and dynamic application within various environ
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 55.1
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.4
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 324
+tier: backlog

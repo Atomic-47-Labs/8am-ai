@@ -1,0 +1,28 @@
+id: IDEA-0696
+slug: experience-with-python-and-offline-model
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-11-26'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Spencer MacBeth concurred with the shift back to native Python libraries for tasks like OCR, noting this approach was adopted in an offline pipeline project they worked on for a client requiring sensitive workflow capture in factories. Spencer MacBeth found that using native Python libraries, which have been well-established for years, was more effective than relying on tool calls from models. David Olsson expressed interest in discussing Spencer MacBeth’s project further (00:12:03).
+summary: Experience with Python and Offline Models
+rationale: Spencer MacBeth concurred with the shift back to native Python libraries for tasks like OCR, noting this approach was adopted in an offline pipeline project they worked on for a client requiring sensitive workflow capture in factories. Spencer MacBeth found that using native Python libraries, which have been well-established for years, was more effective than relying on tool calls from models. Dav
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:20Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 62.3
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 1.5
+  concretion: 12.0
+  uniqueness: 15
+  carryover: 0
+rank: 172
+tier: queue

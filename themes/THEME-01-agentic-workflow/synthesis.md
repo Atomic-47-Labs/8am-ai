@@ -1,32 +1,162 @@
 # THEME-01 — Agentic Workflow
 
-Status: **steady** &nbsp; | &nbsp; First seen: 2025-08-13 &nbsp; | &nbsp; Last seen: 2026-06-17 &nbsp; | &nbsp; Ideas: 13
+Status: **steady** &nbsp; | &nbsp; First seen: 2024-04-17 &nbsp; | &nbsp; Last seen: 2026-06-17 &nbsp; | &nbsp; Ideas: 143
 
 ## Pattern
 
-Across 9 meetings the group keeps returning to **agentic workflow**. The thread shows up in the following moments:
+Across 68 meetings the group keeps returning to **agentic workflow**. The thread shows up in the following moments:
 
-- *2025-08-13* ([IDEA-0127]): The plan to design a GitHub repository workflow for meeting transcripts suggests a strategic move for better transcript management and accessibility.
-- *2025-08-13* ([IDEA-0129]): The potential for knowledge mining using AI agents was emphasized, illustrating the business value of integrating meeting transcripts into project management efforts.
-- *2025-08-27* ([IDEA-0141]): GitHub integration with the playground improves dynamic agent creation, as mentioned by David Olsson.
-- *2025-08-27* ([IDEA-0149]): User experience improvements suggest employing a meta-agent to assist with context engineering in client engagements.
-- *2025-09-03* ([IDEA-0154]): Jen Boger presented her workflow system utilizing separate Chrome windows for distinguishing academic, professional, and personal AI projects, improving focus and productivity.
-- *2026-04-08* ([IDEA-0001]): David Olsson described their current process of growing the company by attempting to merge with another organization, which involves a complex orchestration of many concurrent activities, reflecting the complexities of modern software devel
-- *2026-04-15* ([IDEA-0017]): The conversation touched on the high token consumption of certain non-sanctioned tools like OpenClaw, which led to account freezes (00:10:51). David Olsson explained that they are working to stay ahead of the limits, and by paying more for 
-- *2026-04-15* ([IDEA-0019]): David Olsson described running expensive slash commands, which orchestrate the execution of 10 or 11 reports from various skills and templates to perform a full orchestration after code creation, which they deem necessary as even a security
+- *2024-04-17* ([IDEA-0192]): The meeting began with **David Olsson** introducing the concept of creating functional agents known as **scrubs** for various tasks within chat GPT. These scrubs have specific purposes like research or editing, provided with detailed instru
+- *2024-05-08* ([IDEA-0238]): **David Olsson** led a discussion on AI school progress, emphasizing self-reflection for improved responses in a large language model environment. Frameworks were used to define agents, introducing concepts like scrubs and minimum viable ag
+- *2024-05-22* ([IDEA-0272]): David Olsson presented and demonstrated the development of a sophisticated AI agent based on prompts and workflows. He showcased how the agent creates detailed product descriptions, incorporates self-reflection steps, scoring evaluations, a
+- *2024-06-05* ([IDEA-0295]): David demonstrated creating a product description agent. Discussed the process of using agents to generate product descriptions. David showed how to use self-reflection strategies for agents.
+- *2024-06-05* ([IDEA-0296]): David used Hanif's project 'Stonemaster' as an example. The agent generated a product description for 'Stonemaster'. Hanif reviewed the generated description for accuracy.
+- *2024-06-05* ([IDEA-0297]): David discussed agent collaboration and simulation. Explored the concept of agents working together to solve problems. David explained the non-deterministic nature of large language models.
+- *2024-06-05* ([IDEA-0298]): David shared practical applications of agents in marketing workflows. Discussed the importance of structured data for agent effectiveness. David planned to create more agents using the provided spreadsheet.
+- *2024-06-05* ([IDEA-0299]): David scheduled a session for Thursday to explore agent creation further. Participants discussed the potential of Hanif's project. Meeting concluded with plans for the next steps.
 
 ## Ideas attached
 
-- IDEA-0127
-- IDEA-0129
-- IDEA-0141
-- IDEA-0149
-- IDEA-0154
-- IDEA-0001
-- IDEA-0017
-- IDEA-0019
+- IDEA-0192
+- IDEA-0238
+- IDEA-0272
+- IDEA-0295
+- IDEA-0296
+- IDEA-0297
+- IDEA-0298
+- IDEA-0299
+- IDEA-0321
+- IDEA-0322
+- IDEA-0323
+- IDEA-0324
+- IDEA-0326
+- IDEA-0327
+- IDEA-0328
+- IDEA-0329
+- IDEA-0352
+- IDEA-0374
+- IDEA-0376
+- IDEA-0391
+- IDEA-0392
+- IDEA-0393
+- IDEA-0394
+- IDEA-0395
+- IDEA-0437
+- IDEA-0446
+- IDEA-0447
+- IDEA-0467
+- IDEA-0488
+- IDEA-0493
+- IDEA-0497
+- IDEA-0515
+- IDEA-0540
+- IDEA-0544
+- IDEA-0564
+- IDEA-0598
+- IDEA-0600
+- IDEA-0631
+- IDEA-0646
+- IDEA-0647
+- IDEA-0665
+- IDEA-0687
+- IDEA-0689
+- IDEA-0722
+- IDEA-0738
+- IDEA-0741
+- IDEA-0756
+- IDEA-0054
+- IDEA-0098
+- IDEA-0144
+- IDEA-0145
+- IDEA-0147
+- IDEA-0189
+- IDEA-0204
+- IDEA-0206
+- IDEA-0223
+- IDEA-0224
+- IDEA-0225
+- IDEA-0249
+- IDEA-0268
+- IDEA-0270
+- IDEA-0271
+- IDEA-0312
+- IDEA-0316
+- IDEA-0367
+- IDEA-0368
+- IDEA-0380
+- IDEA-0400
+- IDEA-0416
+- IDEA-0423
+- IDEA-0424
+- IDEA-0445
+- IDEA-0462
+- IDEA-0464
+- IDEA-0500
+- IDEA-0508
+- IDEA-0522
+- IDEA-0549
+- IDEA-0550
+- IDEA-0558
+- IDEA-0560
+- IDEA-0589
+- IDEA-0590
+- IDEA-0591
+- IDEA-0592
+- IDEA-0594
+- IDEA-0595
+- IDEA-0596
+- IDEA-0597
+- IDEA-0603
+- IDEA-0622
+- IDEA-0627
+- IDEA-0635
+- IDEA-0638
+- IDEA-0655
+- IDEA-0656
+- IDEA-0659
+- IDEA-0671
+- IDEA-0696
+- IDEA-0697
+- IDEA-0698
+- IDEA-0701
+- IDEA-0728
+- IDEA-0735
+- IDEA-0748
+- IDEA-0751
+- IDEA-0002
+- IDEA-0006
+- IDEA-0025
+- IDEA-0027
+- IDEA-0028
+- IDEA-0029
 - IDEA-0030
+- IDEA-0031
 - IDEA-0034
-- IDEA-0035
-- IDEA-0052
-- IDEA-0106
+- IDEA-0041
+- IDEA-0042
+- IDEA-0043
+- IDEA-0044
+- IDEA-0059
+- IDEA-0066
+- IDEA-0067
+- IDEA-0068
+- IDEA-0076
+- IDEA-0077
+- IDEA-0079
+- IDEA-0081
+- IDEA-0096
+- IDEA-0103
+- IDEA-0121
+- IDEA-0122
+- IDEA-0123
+- IDEA-0150
+- IDEA-0156
+- IDEA-0159
+- IDEA-0167
+- IDEA-0183
+- IDEA-0185
+- IDEA-0202
+- IDEA-0214
+- IDEA-0215
+- IDEA-0240
+- IDEA-0335

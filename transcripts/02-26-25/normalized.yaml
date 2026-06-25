@@ -1,0 +1,904 @@
+meeting:
+  date: '2025-02-26'
+  title: 8am-AI 2025-02-26
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Hanif Janmohamed
+  - Jason Kryski
+  duration_s: 2700.448
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 168.7
+  t_end: 173.44
+  text: Good morning. Good morning.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 174.46
+  t_end: 175.36
+  text: Good morning.
+- id: u3
+  speaker: Hanif Janmohamed
+  t_start: 175.82
+  t_end: 176.96
+  text: Hey, morning.
+- id: u4
+  speaker: David Olsson
+  t_start: 199.75
+  t_end: 207.55
+  text: Oh, wait, there's. I think there's like a. No, I need to stop and try this again. Stop.
+- id: u5
+  speaker: David Olsson
+  t_start: 213.93
+  t_end: 223.31
+  text: Also share tab audio. Okay. See if that works. Good morning.
+- id: u6
+  speaker: David Olsson
+  t_start: 239.94
+  t_end: 241.88
+  text: No, nobody can hear wind.
+- id: u7
+  speaker: Fulvio Ciano
+  t_start: 242.74
+  t_end: 245.532
+  text: No, I can hear you. I can hear you. Can you hear me?
+- id: u8
+  speaker: David Olsson
+  t_start: 245.556
+  t_end: 248.84
+  text: Can you hear. Can you hear wind in the background right now?
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 250.34
+  t_end: 252.4
+  text: No, I can't hear wind in the background.
+- id: u10
+  speaker: David Olsson
+  t_start: 253.22
+  t_end: 254.268
+  text: Didn't work.
+- id: u11
+  speaker: Fulvio Ciano
+  t_start: 254.404
+  t_end: 265.32
+  text: I'm sorry. And you know, I remember when I finally got hearing aids like five years ago, I discovered that wind had noise. Everybody mocked me, but sorry, I can't hear you.
+- id: u12
+  speaker: David Olsson
+  t_start: 272.02
+  t_end: 291.86
+  text: So I have audio in that, in that high cue thing and it's got a narration thing. But I'm trying to figure out how to demo it live because you don't. Get any of the audio. But there's supposed to be a setting. And I just clicked the setting and it was supposed to share audio. Good morning. And it didn't. Didn't fucking work.
+- id: u13
+  speaker: Fulvio Ciano
+  t_start: 292.56
+  t_end: 305.3
+  text: David, I left you a bunch of notes on all of the stuff in that that I can correct and improve. And I have some more, but we should have a meeting about it.
+- id: u14
+  speaker: David Olsson
+  t_start: 309.36
+  t_end: 313.3
+  text: It's. It loads like a video game now.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 314.8
+  t_end: 318.89
+  text: Well, and in fact some of my comments are how to get around. Around that problem. Right?
+- id: u16
+  speaker: David Olsson
+  t_start: 324.79
+  t_end: 347.58
+  text: And on my side it's. There's the sound of wind blowing in the background. So it's like, man, that's pretty heavy. It's, you know, it's poetic, man. It's taking a long time to download and so that's kind of funky because that's, that's loading locally and it talks. Oh man, I can't. I can.
+- id: u17
+  speaker: David Olsson
+  t_start: 353.64
+  t_end: 359.02
+  text: It's talking to me right now. So it's gonna be super annoying. So I'm gonna have to restart it. But.
+- id: u18
+  speaker: David Olsson
+  t_start: 364.04
+  t_end: 367.5
+  text: So these are the models that are integrating in there now.
+- id: u19
+  speaker: Hanif Janmohamed
+  t_start: 377.25
+  t_end: 378.83
+  text: The birds and the bees.
+- id: u20
+  speaker: David Olsson
+  t_start: 387.33
+  t_end: 387.882
+  text: Aren'T in.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 387.906
+  t_end: 395.03
+  text: There, by the way. I created all of those with a multi agent AI 3D generation system.
+- id: u22
+  speaker: David Olsson
+  t_start: 405.84
+  t_end: 703.94
+  text: So I'll explain this in a second. Because it's talking to me. Okay. So there's this haiku and now it's going to create high end. Here's all good. Prompt going back and forth. So the animation, the background stops. I didn't put that animation there. I didn't put a whole lot of this stuff in here, man. So I'm getting control over it now. But the image is not. It's pretty close to my stuff that was previously generated. So it's got a little Illustrator style, but the elements are all now new compared to what I had before. So the composition is different, and so the central element, which would have been. You know, like, in some cases, mountains. In this case, it's a castle. And I'm not certain that that's working, but that's. That's the algorithm. So there it is. It's totally yelling at me right now, so I'm gonna change it. Oh, God. Okay, calm down a bit. Anyways, I'll turn that off. Cool. But, yeah, has a lot of models to load, and they're all about a mag each. And so without preloading them, then your experience is kind of manky. And right now, what I did was I had a other version of this. There's a white one. It had sort of an empty white space. And then it had models that come in from the background, come at you, and you select when they go out. Back and do this. Anyways, it was tapped out, maxed out. And I'd done a bunch of stupid things in it, and I knew I was gonna have to rebuild it, so. But I didn't have the time and. But I still needed to. So what I did was I went inside cursor and I worked with it. No, I went inside Climb and I got it to study the application I'd made to write a specification. And so it wrote a nice clean specifics so that it's even cleaner and take out all the stuff I don't want. And then I made it, asked it to make a technical design document, which. Actually got to the code level. And I'm like, okay, no, I don't. Want some of that. And then I modified that, and then I brought it in and I actually got it to build the app. And I did it twice in two different environments. And Man Klein is just the bee's knees. If you give it the best context. Really good set of documents. It actually made it look like the. Other one, except it's not black. And instead of it being in a. Row, it put them in a circle. And instead of doing some things, it made some design decisions. It put all that interactive design in it. I didn't do any of that. You know, it wanted it read some of the documentation around it, and then that interpreted that. I've been doing that. So how about this? I've been trying to add particle systems. In to make those kind of ambient experiences happen. And that one is usually the first. One it comes up with is the island. Just a really blocky particle system. And. But interestingly enough, I'm like, what files is it? Reading because it'll go recursively into folders. And look at other files and then start using them. I'm like, that's not always good, but interesting, right? So if you're in, if you have a prototype a
+- id: u23
+  speaker: Hanif Janmohamed
+  t_start: 705.44
+  t_end: 708.7
+  text: So is that technical spec somewhere?
+- id: u24
+  speaker: David Olsson
+  t_start: 710.16
+  t_end: 717.23
+  text: Yeah, I can share that. I can share. And so I also.
+- id: u25
+  speaker: Jason Kryski
+  t_start: 717.61
+  t_end: 722.61
+  text: It's also Neil Stevenson, like the author Steel Stevenson.
+- id: u26
+  speaker: Fulvio Ciano
+  t_start: 722.77
+  t_end: 725.83
+  text: Yeah, yeah, we're working with him through Lamina.
+- id: u27
+  speaker: David Olsson
+  t_start: 727.21
+  t_end: 810.34
+  text: Yeah, I know. So he, he's keen on our project. And we're launching on the coattails of his. On his network and his. Under his. He has a cryptocurrency and everything else now. And so he's manifesting his book. So, so fucking awesome, man. The shell game is wicked. Anyway, yeah, I'll show the. So I, I. What I. What you'll notice here is it's running on a local server. I don't know if you can see. I'm not sure anymore. Anyways, moving to that due to what are called CORS issues and that's domain. If you have files that sit beside. Other files or files that go across the Internet and you have APIs, you have Cors issues, you have origin cross origin something or other others. Anyways, the way around it is running. Servers all over the place. Anyways, that's what enabled me to go. Quickly with this stuff. And that means the reason I bring. It up is I have. I have this scripts for my artists, for the agents now sitting outside as external files. And so that's what I'm going to do moving forward. All the agents will sit in markdown files.
+- id: u28
+  speaker: David Olsson
+  t_start: 819.08
+  t_end: 921.75
+  text: So you can see here that here's the haiku or haga hi to prompt. It sits external in this file. Because I'm running a server, I don't have the CORS issue with it. This allows me to start making things happen and pulling them from other places. And so if I show you the technical design, I know the specifications. So where is the specification? Comprehensive, Yada yada. Version 2 overview. Here it is. An interactive web 3D visualization AI generator. Digital creation purpose immersive contemplative experience for generating poetry enthusiasts. Here's the flow. It determined this from the index HTML file. Technical architecture. Easy enough. Actually I changed it. This is the final version I've changed. Some of this stuff wasn't in here. Like this one because that's the type of file I needed. I changed things. I had all kinds of different storage going on, but it's really clean. This is what it's doing. And right now I'm doing a terrible thing. I'm putting them in the code because I'm trying to make the environmental variables work so that there's no control panels or anything anymore. Then it described the UI components. Then this was quite important. It didn't have this initially and I. Pulled this from the code. This is how the scenes are defined.
+- id: u29
+  speaker: David Olsson
+  t_start: 928.97
+  t_end: 1093.66
+  text: Something like this is seminal. You can start with a piece of. Information just like this and it'll build the application around it. It's like I have seen types and they all have a title. And then there's like. If it's a collection then it actually tells it what the collection is. And this is the narration. I gave it a narration and a subtitle engine. And then there's scene transitions. It's not doing the zoom in and out. You can see that it ignored when it's building. It doesn't do everything. It took me three really significant sessions like within an hour was fairly structural. But three goes at it like okay, keep going, you're really not fucking done. And then this is. This helps with sort of the construction, the experience somewhat. End construction of the Haikus and Haigas. And then because there's now a file structure in place, having this and. And something like this in place allows. For the whole of the glue to happen inside the building of the application. Asset load in these gets kind of technical. Some of this is just whatever. I do have this text to speech in there that gives me a link to some other part of the spec. Text to speech Ambient audio. I asked for midi. I'd see nothing in there where it's referencing midi. I just made sure that it connected properly to the audio and it's working. Working audio settings are supposed to be now all on the code other than one toggle at the very beginning. And so it did a pretty decent job of that. And then, and then I asked it to make a technical design document. And this is good. So this gave me the proof as to whether or not this was going the right direction. And typically it'll want to make like. A multi page document. In this case I want it to be one document. And so I had to make sure that I redid this and asked it to make sure that it was in both cases of the design document and the spec because it really changes how it built it. This is about 2,500 lines of code. So this will be fine in the way that it's built right now. And it gets into the scene manager. That manager I can recode really well and I know what this app does. And so I'm, you know, I've seen this and I'm confident this is the actual stuff for the previous app. So I guess I left it in the folder. Asset manager, it gets. It builds out an implementation plan. I try to get rid of that. Kind of thing because it tells. It's going to be four weeks when it's actually going to be like four hours. So.
+- id: u30
+  speaker: Hanif Janmohamed
+  t_start: 1093.688
+  t_end: 1095.536
+  text: Well, it has to be billable, right?
+- id: u31
+  speaker: David Olsson
+  t_start: 1095.688
+  t_end: 1148.124
+  text: Yeah. And so that's that. That's the kind of the. How it turned into sort of a darker app. And it has playful colors and I was trying to minimize it to be. Black and white and I didn't give it any aesthetics or any brand, any. Kind of direction that way. Right. And so did. Okay. The first time it built it, it. Simulated the Haiku building. It had an algorithm for building it and then it simulated the image generation and downloaded things from either Unsplash or placeholder.com as the. As a hygus. Like what the fuck is that? Right. Folio's had this happen at least once. It's functioning. That's not the right functioning. It was simulating.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 1148.172
+  t_end: 1149.436
+  text: It'll fake you out, right?
+- id: u33
+  speaker: David Olsson
+  t_start: 1149.508
+  t_end: 1162.28
+  text: Yeah, it was simulating all of the LLM calls. And then I'm looking at the code and it says. I'm like, oh, it actually says right in there. It comments in there. It says, yeah, you want. You want to do this, not what's up here?
+- id: u34
+  speaker: Fulvio Ciano
+  t_start: 1162.32
+  t_end: 1175.992
+  text: And it's funny, David, because it'll do that in some cases, but if you query it about what it did, it'll tell you it didn't do that. It's like, really awesome. Like, wow, what is going on here? Like, bizarre.
+- id: u35
+  speaker: David Olsson
+  t_start: 1176.056
+  t_end: 1255.8
+  text: So, yeah, when I'm in the ide. I will try to maintain the context when I'm doing a bunch of edits. But you can hit a plus sign and then it kind of gets rid of the context and you're working with your file again. And quite often I find that useful. To avoid some of those problems. But if you're doing a bunch of little edits or you're working on one piece of functionality or one component and you lose context, you kind of pooped. And it can make a lot of errors. So being able to undo things has been a really good thing. There's a new version of sonnet out 3.7. And I can tell you, I can feel the incremental value. The incremental value. For a while, I had set on. I had set the idetus 3.7 sonnet high reasoning. Things were taking time and I was using a ton of money. And I'm like, I thought. I changed it back and I went. And I actually hit some limit on Anthropic. I don't know if you're using it. Or not, but I'm like, I put. Some money in yesterday. Whoops. Somewhere, I'm really bleeding money. I've got.
+- id: u36
+  speaker: Jason Kryski
+  t_start: 1255.84
+  t_end: 1262.59
+  text: I've got a buddy who's spending $40 a day, like, vibe coding on Anthropic. And I'm like, holy.
+- id: u37
+  speaker: David Olsson
+  t_start: 1263.33
+  t_end: 1294.56
+  text: So that's a great way for talking about it. I'm like. And I looked at one day. I'm like, 20 bucks. And I'm like, oh, I was just riffing the. Out of that day, meaning I had, like multiple IDs open. And you could. Now you can. There's no ceiling to your token limits, man. You can just keep spinning. And so I'm like, wow, okay, $20. And I looked at that. I'm like, okay, well, I actually did a lot. And I'm like, nobody did the math. Like 20 times every day, every month. That's like, man, yes. Yeah.
+- id: u38
+  speaker: Fulvio Ciano
+  t_start: 1294.468
+  t_end: 1299.556
+  text: But you have to think about it in terms of acceleration and how much you're doing.
+- id: u39
+  speaker: David Olsson
+  t_start: 1299.628
+  t_end: 1304.48
+  text: Like, yeah, I just kept. I just needed to automate it so. I don't need to go in there and, like, wake up.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 1304.86
+  t_end: 1305.36
+  text: Yeah.
+- id: u41
+  speaker: David Olsson
+  t_start: 1305.332
+  t_end: 1306.48
+  text: Everyone that I'm actually.
+- id: u42
+  speaker: Fulvio Ciano
+  t_start: 1308.86
+  t_end: 1311.668
+  text: For me, it's doing the job of, like, three employees.
+- id: u43
+  speaker: David Olsson
+  t_start: 1311.844
+  t_end: 1525.33
+  text: I can never do any of this. Anyways. I thought that was funny, and it was. So you change it back. Things aren't spending as fast. And also, I went through a whole. Lot of money generating hai guys and haikus because I wanted to have a library of them because they were supposed. To be used for marketing, whatever else. I'm like, oh, I wonder how much this is costing. I found out how much it cost. So it's like 30, 40 cents each. Pending if you do HD or not. And I thought it was down to 3 cents. And I'm like, 3 cents seems really cheap. And I'm like, no, the math is not working, not with Dolly3. And so, you know, having a real price on these things is important. You know, we're. We're trying to say that they're worth. Something if they include all the development. Time, and they're definitely worth a hundred bucks each, but they got to be worth more than a buck because that's what they're going to cost to make. I'm like, okay, that's economics. But it's been interesting. I've created four different apps now, or. Three different types of apps. A new tab app that creates a new haiku and hide every time it opens up, and then a factory that creates a bunch of them. And then now this, the experience, and then every one of them. Because of the way that I'm working with AI, I have to go in and I have to cleanse it to make sure that it's using the prompts in the right way, because it will just make shit up everywhere. And it even edited my markdown, external markdown file where I gave it an. Agent and it changed the agent. And I'm like, what the hell did you do that for? And I had to go find it somewhere else on my hard drive. I'm like, you really put either. Because I didn't see it happen until later. Like, that's definitely not the high gift that it's supposed to create. It was like, you know, it looked like if you don't do it right, it looks like. It looks like, you know, really weird cut and paste. Like. Like you're tearing paper from different magazines. Can be a good Aesthetic collage. Collage, yeah. So it's collaging in a haphazard way. Instead of an illustrative fashion. Anyways, that's. That's the haiku thing in terms of. That'S gonna get out the door. And I was quite sort of anxious about it, and I thought talking about it was kind of good because there's, like, all these things moving at once. There's cursor changed at the same time. So my IDE changed at the same time. It's 3.7 coming out. And so I dicking around with settings, and then I'm like, I have no time. Do I fix the other one? Do I start a new one? And what I found with 3.7 is if you start with 3.7, it's a great. A great model for that. You got to keep going with it. And it crops out. So after about a thousand lines of code in one file, Klein crops out. It loves making 15 files for any kind of website or making it a react website. And so those are. Those aren't alternatives for me right now. But what's everyone else doing of interest?
+- id: u44
+  speaker: David Olsson
+  t_start: 1530.6
+  t_end: 1535.824
+  text: Interesting. There's a smile from Eric. I know he's like. He's faking work over there. On one. On one screen.
+- id: u45
+  speaker: Jason Kryski
+  t_start: 1535.952
+  t_end: 1538.06
+  text: Eric's got something interesting going on.
+- id: u46
+  speaker: David Olsson
+  t_start: 1539.96
+  t_end: 1542.9
+  text: Right. He's got an only. Only fans page somewhere.
+- id: u47
+  speaker: Jason Kryski
+  t_start: 1544.28
+  t_end: 1549.776
+  text: Why we all don't have, like, AI actors set hooked up to only fans right now, right?
+- id: u48
+  speaker: David Olsson
+  t_start: 1549.848
+  t_end: 1553.984
+  text: Yeah, exactly. Just, you know, we're. We're mo capping and they're doing something else, man.
+- id: u49
+  speaker: Jason Kryski
+  t_start: 1554.072
+  t_end: 1561.354
+  text: Basically, like, free. Basically free money. It's. I mean, it's. It's. It's.
+- id: u50
+  speaker: David Olsson
+  t_start: 1561.482
+  t_end: 1566.202
+  text: It's. Yeah, it's ancillary. It's like a. What is it? Derivative. Derivative Cash is good.
+- id: u51
+  speaker: Jason Kryski
+  t_start: 1566.306
+  t_end: 1568.586
+  text: I was gonna say, like, apocalypse.
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 1568.618
+  t_end: 1571.386
+  text: Well, it's almost just passive income apocalyptic.
+- id: u53
+  speaker: David Olsson
+  t_start: 1571.578
+  t_end: 1575.802
+  text: Like, I don't care. Zero values matter. This is. Well, I think it's.
+- id: u54
+  speaker: Jason Kryski
+  t_start: 1575.866
+  t_end: 1579.674
+  text: This actively accelerates our downward trajectory.
+- id: u55
+  speaker: David Olsson
+  t_start: 1579.802
+  t_end: 1583.822
+  text: Oh, right, right. The accessibility of it definitely provides that well.
+- id: u56
+  speaker: Jason Kryski
+  t_start: 1583.846
+  t_end: 1600.25
+  text: And I think, like, people are already talking about, like, Grok 3's like, voice mode, which I don't have for some reason. I don't know why, but there's like, a sexy mode that's, like, hot and. And like, it's like Scarlet Joe Hansen in her.
+- id: u57
+  speaker: David Olsson
+  t_start: 1601.75
+  t_end: 1602.702
+  text: It works.
+- id: u58
+  speaker: Jason Kryski
+  t_start: 1602.846
+  t_end: 1616.32
+  text: Let's buy all the humane pins that, like, that company went pips up. So let's buy all the humane pins. You know, put Grock 3 on it. Sell them. Let them walk around with their, like, AI partner.
+- id: u59
+  speaker: David Olsson
+  t_start: 1616.48
+  t_end: 1618.46
+  text: Yeah, just talk to that all day.
+- id: u60
+  speaker: Jason Kryski
+  t_start: 1619.56
+  t_end: 1629.74
+  text: That's like six months away. So all these things are, like, kind of coming and, you know, they're just not that far away.
+- id: u61
+  speaker: David Olsson
+  t_start: 1630.44
+  t_end: 1645.144
+  text: No, no, there's. So we're looking at different technology for cameras. And camera technology is wild and getting small and put everywhere. And people are being asked to wear surveillance now in the job site.
+- id: u62
+  speaker: Jason Kryski
+  t_start: 1645.312
+  t_end: 1671.98
+  text: Yeah, I saw that Even just a poll on Castanet that was like. I think it was like 70 of people were like, very comfortable with people in stores wearing body cameras. And then 30 or not. But it was like the. The other poll was like, what person? Like, should. Should Canada get rid of Elon's citizenship? And 70% were like yes, and 30% were no.
+- id: u63
+  speaker: David Olsson
+  t_start: 1672.1
+  t_end: 1672.76
+  text: Right.
+- id: u64
+  speaker: Jason Kryski
+  t_start: 1673.78
+  t_end: 1678.96
+  text: The overlap of like the 70% and the 30% are like almost identical.
+- id: u65
+  speaker: David Olsson
+  t_start: 1679.86
+  t_end: 1680.6
+  text: Right.
+- id: u66
+  speaker: Jason Kryski
+  t_start: 1681.38
+  t_end: 1743.546
+  text: It's interesting. But, yeah, I mean, these things are moving so quickly. I've got a buddy who's built like an AI M&A advisory so, like, automated. The whole pipeline of, like, acquired companies that want to be sold doing the actual M A work and then like, selling them. It turns out it's mostly just like a digital Rolodex problem where you're like, trying to connect certain people with other people and then create a market for it. And. Yeah, so they've built this, like, really complex system. And he's, like I said, kind of vibe coded this whole, like, a big portion of this. Like, he's was not really much of an engineer. Like, had some basic, basic, basic understanding, but then just spent the last three months, you know, with Claude and Cursor and like, plugging away and like, has built some pretty sophisticated things that really just don't exist out in the market. Because his brain, you know, being oriented around the business side allowed him to, you know, go figure product that just would never have gotten made otherwise.
+- id: u67
+  speaker: David Olsson
+  t_start: 1743.738
+  t_end: 1744.378
+  text: Right?
+- id: u68
+  speaker: Jason Kryski
+  t_start: 1744.514
+  t_end: 1745.014
+  text: Yeah.
+- id: u69
+  speaker: David Olsson
+  t_start: 1744.922
+  t_end: 1768.55
+  text: Yeah. You can if you can right now. If you are willing to work towards that threshold he's achieved somehow, which you have output that's useful as an entrepreneur. It's the most enabling thing ever because you have had to deal with a Runway of building a Runway to get to building the opportunities engine to see how it works.
+- id: u70
+  speaker: Jason Kryski
+  t_start: 1768.97
+  t_end: 1796.56
+  text: And yeah, it changes the whole dynamic because, like, I think about myself like, I'm not a software engineer. I've had to hire software engineers. I've got an idea. I'm trying to communicate that idea. I'm trying to communicate, like, how to do that. We argue with each other, you know, everyone. It's just like very inefficient very human process. And, and so you're seeing all these people like this, just solo people, like, building things. Really interesting.
+- id: u71
+  speaker: David Olsson
+  t_start: 1797.3
+  t_end: 1875.59
+  text: Yeah, you can't. You can get quite far, especially if you have unique data sets and you have unique points of view on that kind of thing. Like a guy like Lance, who has access to that, and he's trying to figure out his unique points of view. But there's. And you. You have a goal in mind. So orienting around that is helping you swim through all of your fucking information. Yeah, there's. I found that if you can figure. Out what the backbone of the information. Is you're working with or wanting out of something, that is a very insightful. Way of looking at it. And. I had a long conversation at. A wall with people talking about how we like hyperlink information together. But that is the thing that we can do now with some weird acumen and weird soft touch, where you say, here's a bunch of things correlated this way and show me some opportunity to make something causal. You know, like, that's where we want to be. And. And you can provide strategies around making, like, experiments causal or whatever. And that's. I think that's really cool because it can be very short to see if it does functionally work now.
+- id: u72
+  speaker: Jason Kryski
+  t_start: 1875.89
+  t_end: 1913.696
+  text: Yeah, that's something I was thinking about this morning. We're like, you know, looking at, like, media. These media mix models, which are like, basically you got a company that's spending a whole bunch of money on a whole bunch of different places on advertising, and then you're like, what. What's responsible for what? And they're just like. They're cut. They're like correlative models. Right. So it's not causal. It's just kind of being like, hey, there's a band here. And then it's about like, okay, well, can we. Can we figure out how to put, like, AI on top of one of these? Like, to be able to like, figure out, not deterministically, what's going on, but like, okay, like, what are some things to hone in on?
+- id: u73
+  speaker: David Olsson
+  t_start: 1913.768
+  t_end: 2013.37
+  text: Try and explain maybe heuristically instead of. Yeah, yeah. I think that's the curious part. So that was what. When we were talking to market research company, they were looking at us to say, well, no, let's see what you find. Like, I didn't get to the finding of the interesting stuff. I was trying to do the rudimentary thing. But that was his point. He said, we want to know what you know. We know what we want to look. For we want to know what's in there, though. That's, that's a lot of the cases like, okay, well, and, but from a. Point of the person you're talking about, they kind of know what's in there. And they're like, I think this is in there. And they're poking around, possibly seeing some way of exporting that kind of new contextualized information. With the survey thing, the neat thing about it is you can have one question with it's had all the answers and you just have the counts and the percentages. If you provide different context for it, even one question is super valuable. Most of the time. One question on a survey is useless as fuck. But. And so this helps in your situation, right? So you need to have the whole composition. It's like a whole narrative and you can compose it along, but each piece on its own does have integrity and. You can do that by recontextualizing that one piece. So a demographic question on its own. Not that useful maybe. But if you send, say, okay, give. It context in terms of the industry, give it context in terms of the news, give it context in terms of. The trends of AI and then you. Can impose that on it. It has nothing to do with the survey. And that's kind of how I think your stuff does and can work because you're determining what those pieces are from other systems. And the agentic stuff works really well with that and not having to figure out rag.
+- id: u74
+  speaker: Jason Kryski
+  t_start: 2014.19
+  t_end: 2025.878
+  text: Well, yeah, I think like the rag stuff I like skirted around and like, I think that's the tricky thing is like right now everything's moving so quickly. Things that seem like a good idea today can seem like.
+- id: u75
+  speaker: David Olsson
+  t_start: 2025.934
+  t_end: 2027.542
+  text: I know, yeah, yeah, yeah.
+- id: u76
+  speaker: Jason Kryski
+  t_start: 2027.686
+  t_end: 2034.15
+  text: So what if you build like a look at these guys, like raggy. They built a whole startup in rag. I'm like, jesus, like, maybe this is not a good idea.
+- id: u77
+  speaker: David Olsson
+  t_start: 2034.31
+  t_end: 2174.12
+  text: Yeah. Oh, if you're attack play right now. That'S super tough and trying to stay. Lightweight and you have a purpose. Like, so if you're an entrepreneur, you have a purpose. You're like driving the tech through that. But if you're going to be working with the technology, like being lightweight is hard to do because the data solution isn't really working well. And so I'm actually engaging with the company out of Toronto now and they're talking to the technical person and he's. Just like, yeah, you use this and we'll make our own LLM. I'm like, what? Where? I was like three weeks, I didn't talk to you. And all of a sudden you're talking. About making your own LLM. Okay, cool. And then he starts describing. I'm like, yeah, that's not what that is. I'm like, yeah, we can do that. I have other strategies around it, but we can do what you're asking, which. Is like, you know, ugly rag. And it's like a commercialized service in terms of some sort of whatever it. Is, it's, it's a different mix than he's. He's expecting. I'm like, no, I think it's a. Little bit more expensive than you can afford. You can't even afford me right now. But yeah, there's, there's ways in which we're gonna like a lot of the work that I, that I thought was really meaningful and was where I should continue to focus on these long form agents. They're just coming into focus now for me with the market research. They'll be super big. Yeah. So I mean everywhere else I'm doing these scrub like things, except for the haiku. The haiku agents are quite large and. But they're actually just a guess, whereas the other stuff isn't. So. But the, the smaller form scrub to medium sized agents, what I've been using. But when we get into the place of okay, we now need to have a longer conversation with data. That's the agents that are using previously. And so I don't know, you know, what you leave behind is hopefully if you can get value and momentum. That's the only thing I see right now. And I'm not doing it. I'm still not doing it. And so I, I try to have that moment of like, okay, step out and then. But there's no stepping out completely and not doing it anymore either. So that's kind of a poochie thing.
+- id: u78
+  speaker: Jason Kryski
+  t_start: 2176.82
+  t_end: 2179.772
+  text: Yeah, on that. I gotta run guys. I'm late for a meeting.
+- id: u79
+  speaker: David Olsson
+  t_start: 2179.876
+  t_end: 2181.02
+  text: I'll get later.
+- id: u80
+  speaker: Jason Kryski
+  t_start: 2181.06
+  t_end: 2182.012
+  text: Nice to see y'all.
+- id: u81
+  speaker: David Olsson
+  t_start: 2182.156
+  t_end: 2279.91
+  text: Ciao. Yeah, thanks, Jason. Bye. I want to start sharing things more openly. I've. I've got a. Put a video online. I'll send it around for the market research research thing that I built because. It'S so onerous to use. Like you have to have a couple data sets and you have to load them in. It's better to watch a video on that. But I did build a tool where you can just upload a spreadsheet and. Then talk to it and so you. Can talk to it as a pivot. Table if you know how to use those kind of things. Or you can just talk to it. As a table and you can do. Queries on the table and then you can do, talk to subsets of it. So it's, it's getting to be that kind of. It's better when it tells you what it. You should do. That's what, that's what, you know, I think most people want like, okay, okay. The spreadsheet's in there. What does it want me to do? I don't know. That's what the market research people want. Just like, you know, here's your questions. And so that's, that's an interesting awareness from my side is that once again, the middle piece is not what people want. That stupid Silicon Valley joke where they're just going to take out the mill. Well, just take out the analysis. You don't care how that happens. You just want it done. Okay, sounds about right for market research. But it's true across the board. As long as it looks reasonable and like something else I've had, they won't go deep under to it because no one's asked me anything ever.
+- id: u82
+  speaker: Hanif Janmohamed
+  t_start: 2281.65
+  t_end: 2282.99
+  text: About the middle.
+- id: u83
+  speaker: David Olsson
+  t_start: 2283.41
+  t_end: 2284.67
+  text: About the middle.
+- id: u84
+  speaker: Hanif Janmohamed
+  t_start: 2287.17
+  t_end: 2289.066
+  text: No one wants to know the middle.
+- id: u85
+  speaker: David Olsson
+  t_start: 2289.258
+  t_end: 2425.73
+  text: No, they just want more from the end. That's what they say. Okay, that sounds, it sounds like software to me. And so I'm in a meeting with the people from our Alberta. I'm like, this is, this is what I remember. I shall never keep up. That software. I'm like, all right, same as it ever was then. It's just different way of making it. Same game, Never keep up. Somebody's got to pay more. In the past, it was a more understood really. Like if you look at it now, it's a really slow, long roadmap to. Making a product hit the market. Now it's got to be about a year. But I was happy to see that, working with that. That damn. An existing application or website. So I'm going to meet with somebody today. She's going to try. She wants to do a PHP website. For the project called nqc. Like a Alberta one. She wants to do like build a website. And she wants to do. She's like, I need a PHP modern PHP environment. I'm like, whoa, dumping. That's the database stuff. Why would you ever need that for a website? But it's Calgary. And so they built things like it's like 10, 15 years ago in some cases 20 years ago. So I'm having a talk with her today. I'm like, man, it's just a website. You can just talk Give me a website, sketch it. Just, you could literally just sketch it. And it will be enough to build the architecture for you. And that's all PHP does. How about this? While I'm in the meeting with her. I'm like, how about I try this, you describe what it does and I'll say give me an alternative that's not PHP to what is. You know, build it for her while we're talking. But yeah, anybody that has a bit. Of a technical ability should be trying. To, to work with not doing any of that stuff touching their actual code.
+- id: u86
+  speaker: David Olsson
+  t_start: 2432.71
+  t_end: 2440.89
+  text: I'm going to Calgary in two weeks. And then I thought it would be really good to go to Vancouver because. That'S.
+- id: u87
+  speaker: David Olsson
+  t_start: 2446.03
+  t_end: 2449.19
+  text: Like almost April on the rebound.
+- id: u88
+  speaker: Hanif Janmohamed
+  t_start: 2449.27
+  t_end: 2450.61
+  text: Maybe you could do it.
+- id: u89
+  speaker: David Olsson
+  t_start: 2451.23
+  t_end: 2479.1
+  text: But yeah, we'll see. I leave on the 11th, 12th and. I'll come back four days. But yes. I might try. I might have to fly to Toronto sometime. That would be good too. And then I can see Fulvia. But we'll see.
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 2479.88
+  t_end: 2498.33
+  text: Are you right in Toronto? Nope. No, he's the opposite of right in Toronto. I'm about an hour and 15 minutes east and just a tiny little bit north of Toronto in the middle of nowhere. Like, like.
+- id: u91
+  speaker: David Olsson
+  t_start: 2498.37
+  t_end: 2501.19
+  text: So what's it, what's the nearest town or what town?
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 2501.49
+  t_end: 2522.276
+  text: Well, the nearest would be a place called Centerton. What you might know would be Coburg. So a little north of Coburg. It's like I'm on a 300 acre farm and there's equally sized farms around me and provincial park area. So it's, it's.
+- id: u93
+  speaker: David Olsson
+  t_start: 2522.308
+  t_end: 2523.0
+  text: Damn.
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 2523.34
+  t_end: 2567.51
+  text: It's not remote in the sense that, you know, it's actually kind of a really a nice area. Like it's one of the closest areas to Toronto that truly does feel remote because you know, you go north and it's Muskoka and you're on the 400 and it's nuts. And you go west and it's all industrial now. Right, right. Like everything's been industrialized west of Toronto. Whereas around here it's like really nice. And I would love to take credit for having chosen the general area, but you know, I moved out here however, a decade ago. My kids to go to Trinity College School in Port Hope and then I will never leave. I mean Maggie and I are already talking about halftime here and half time somewhere warmer.
+- id: u95
+  speaker: David Olsson
+  t_start: 2569.85
+  t_end: 2572.466
+  text: Hey, we're of the age where that makes some sense.
+- id: u96
+  speaker: Fulvio Ciano
+  t_start: 2572.658
+  t_end: 2574.674
+  text: Yeah, for me that's like after birth.
+- id: u97
+  speaker: David Olsson
+  t_start: 2574.802
+  t_end: 2580.51
+  text: But yes, I hear you. Well, that's never. All of us are fairways after birth now.
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 2581.05
+  t_end: 2591.296
+  text: Yeah, But I'm saying I needed to be somewhere warmer right after birth. I came to Canada in 74, and I'm still not adjusted to the winter year entirely.
+- id: u99
+  speaker: David Olsson
+  t_start: 2591.418
+  t_end: 2596.74
+  text: So I guess I was born in Montreal in January. That's pretty cold. Yeah.
+- id: u100
+  speaker: Fulvio Ciano
+  t_start: 2596.82
+  t_end: 2599.796
+  text: Anyway, I could scoot into Toronto, obviously. Right. You know, especially.
+- id: u101
+  speaker: David Olsson
+  t_start: 2599.868
+  t_end: 2603.476
+  text: Yeah. If I'm going that way, next time. It won't be for just like a hop skip.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 2603.508
+  t_end: 2605.412
+  text: In fact, I did last time David was here.
+- id: u103
+  speaker: David Olsson
+  t_start: 2605.516
+  t_end: 2611.92
+  text: Yeah, we had dinner. Well, dinner in a much better place next time after figuring things out. But that was good.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 2612.38
+  t_end: 2650.298
+  text: Anyway, I'm gonna. I'm gonna jump out. I'm trying to get something finished up, David, because I gave you those feedback elements and something slipped past me on some of those elements, as I noted in my commentary. And I want to fix that stuff. And I'd love to chat with you about some optimization improvements later, because you went so far so fast. I think we can get the rest of the way today or tomorrow. And then what I would love to do is, for presentations, have, like, a video of using the page more than have sending people a link to use the page that way.
+- id: u105
+  speaker: David Olsson
+  t_start: 2650.354
+  t_end: 2666.234
+  text: Yeah, Videos are the way to go with a lot of things. And yeah, with this, it's. It's functional now. It's not been tested and it hasn't been branded. And it's certainly. I want to have that opportunity later today to have that interactive kind of get into it.
+- id: u106
+  speaker: Fulvio Ciano
+  t_start: 2666.322
+  t_end: 2681.41
+  text: Interactive design, proof of 90%. Right. And so, yeah, like, the remaining 10%, we can get another 90 on. And then it's like on the margin, everything's communicated. So I'm gonna pop out, take care of everyone. Talk to you later.
+- id: u107
+  speaker: David Olsson
+  t_start: 2681.45
+  t_end: 2681.954
+  text: Bye.
+- id: u108
+  speaker: Hanif Janmohamed
+  t_start: 2682.082
+  t_end: 2687.47
+  text: Okay, I think I'll jump out, too.
+- id: u109
+  speaker: David Olsson
+  t_start: 2688.09
+  t_end: 2688.93
+  text: Yeah, man.
+- id: u110
+  speaker: Hanif Janmohamed
+  t_start: 2689.05
+  t_end: 2691.43
+  text: So talk tomorrow?
+- id: u111
+  speaker: David Olsson
+  t_start: 2691.93
+  t_end: 2697.41
+  text: Yeah, we'll see you tomorrow. See you, Eric. Good to see you.
+- id: u112
+  speaker: Hanif Janmohamed
+  t_start: 2697.45
+  t_end: 2697.95
+  text: Bye.
+- id: u113
+  speaker: David Olsson
+  t_start: 2697.866
+  t_end: 2700.448
+  text: All right, bye. Until. Thank you.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  text: Good morning. Good morning. Good morning. Hey, morning. Oh, wait, there's. I think there's like a. No, I need to stop and try this again. Stop.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: Oh, wait, there's. I think there's like a. No, I need to stop and try this again. Stop. Also share tab audio. Okay. See if that works. Good morning. No, nobody can hear wind. No, I can hear you. I can hear you. Can you hear me? Can you hear. Can you hear wind in the background right now? No, I can't hear wind in the background. Didn't work. I'm sorry. And you know, I remember when I finally got hearing aids like five years ago, I discovered that wind had noise. Everybody mocked me, but sorry, I can't hear you. So I have audio in that, in that high cue thing and it's got a narration thing. But I'm trying to figure out how to demo it live because you don't. Get any of the audio. But there's supposed to be a setting. And I just clicked the setting and it was supposed to share audio. Good morning. And it didn't. Didn't fucking work. David, I left you a bunch of notes on all of the stuff in that that I can correct and improve. And I have some more, but we should have a meeting about it.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  text: So I have audio in that, in that high cue thing and it's got a narration thing. But I'm trying to figure out how to demo it live because you don't. Get any of the audio. But there's supposed to be a setting. And I just clicked the setting and it was supposed to share audio. Good morning. And it didn't. Didn't fucking work. David, I left you a bunch of notes on all of the stuff in that that I can correct and improve. And I have some more, but we should have a meeting about it. It's. It loads like a video game now. Well, and in fact some of my comments are how to get around. Around that problem. Right? And on my side it's. There's the sound of wind blowing in the background. So it's like, man, that's pretty heavy. It's, you know, it's poetic, man. It's taking a long time to download and so that's kind of funky because that's, that's loading locally and it talks. Oh man, I can't. I can. It's talking to me right now. So it's gonna be super annoying. So I'm gonna have to restart it. But. So these are the models that are integrating in there now. The birds and the bees. Aren'T in. There, by the way. I created all of those with a multi agent AI 3D generation system.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: So these are the models that are integrating in there now. The birds and the bees. Aren'T in. There, by the way. I created all of those with a multi agent AI 3D generation system. So I'll explain this in a second. Because it's talking to me. Okay. So there's this haiku and now it's going to create high end. Here's all good. Prompt going back and forth. So the animation, the background stops. I didn't put that animation there. I didn't put a whole lot of this stuff in here, man. So I'm getting control over it now. But the image is not. It's pretty close to my stuff that was previously generated. So it's got a little Illustrator style, but the elements are all now new compared to what I had before. So the composition is different, and so the central element, which would have been. You know, like, in some cases, mountains. In this case, it's a castle. And I'm not certain that that's working, but that's. That's the algorithm. So there it is. It's totally yelling at me right now, so I'm gonna change it. Oh, God. Okay, calm down a bit. Anyways, I'll turn that off. Cool. But, yeah, has a lot of models to load, and they're all about a mag each. And so without preloading them, then your experience is kind of manky. And right now, what I did was I had a other version of this. There's a white one. It had sort of an empty white space. And then it had models that come in from the background, come at you, and you select when they go out. Back and do this. Anyways, it was tapped out, maxed out. And I'd done a bunch of stupid things in it, and I knew I was gonna have to rebuild it, so. But I didn't have the time and. But I still needed to. So what I did was I went inside cursor and I worked with it. No, I went inside Climb and I got it to study the application I'd made to write a specification. And so it wrote a nice clean specifics so that it's even cleaner and take out all the stuff I don't want. And then I made it, asked it to make a technical design document, which. Actually got to the code level. And I'm like, okay, no, I don't. Want some of that. And then I modified that, and then I brought it in and I actually got it to build the app. And I did it twice in two different environments. And Man Klein is just the bee's knees. If you give it the best context. Really good set of documents. It actually made it look like the. Other one, except it's not black. And instead of it being in a. Row, it put them in a circle. And instead of doing some things, it made some design decisions. It put all that interactive design in it. I didn't do any of that. You know, it wanted it read some of the documentation around it, and then that interpreted that. I've been doing that. So how about this? I've been trying to add particle systems. In to make those kind of ambient experiences happen. And that one is usually the first. One it comes up with is the island. Just a really blocky particle system. And. But interestingly enough, I'm like, what files is it? Reading because it'll go recursively into folders. And look at other files and then start using them. I'm like, that's not always good, but interesting, right? So if you're in, if you have a prototype a
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u22
+  text: So I'll explain this in a second. Because it's talking to me. Okay. So there's this haiku and now it's going to create high end. Here's all good. Prompt going back and forth. So the animation, the background stops. I didn't put that animation there. I didn't put a whole lot of this stuff in here, man. So I'm getting control over it now. But the image is not. It's pretty close to my stuff that was previously generated. So it's got a little Illustrator style, but the elements are all now new compared to what I had before. So the composition is different, and so the central element, which would have been. You know, like, in some cases, mountains. In this case, it's a castle. And I'm not certain that that's working, but that's. That's the algorithm. So there it is. It's totally yelling at me right now, so I'm gonna change it. Oh, God. Okay, calm down a bit. Anyways, I'll turn that off. Cool. But, yeah, has a lot of models to load, and they're all about a mag each. And so without preloading them, then your experience is kind of manky. And right now, what I did was I had a other version of this. There's a white one. It had sort of an empty white space. And then it had models that come in from the background, come at you, and you select when they go out. Back and do this. Anyways, it was tapped out, maxed out. And I'd done a bunch of stupid things in it, and I knew I was gonna have to rebuild it, so. But I didn't have the time and. But I still needed to. So what I did was I went inside cursor and I worked with it. No, I went inside Climb and I got it to study the application I'd made to write a specification. And so it wrote a nice clean specifics so that it's even cleaner and take out all the stuff I don't want. And then I made it, asked it to make a technical design document, which. Actually got to the code level. And I'm like, okay, no, I don't. Want some of that. And then I modified that, and then I brought it in and I actually got it to build the app. And I did it twice in two different environments. And Man Klein is just the bee's knees. If you give it the best context. Really good set of documents. It actually made it look like the. Other one, except it's not black. And instead of it being in a. Row, it put them in a circle. And instead of doing some things, it made some design decisions. It put all that interactive design in it. I didn't do any of that. You know, it wanted it read some of the documentation around it, and then that interpreted that. I've been doing that. So how about this? I've been trying to add particle systems. In to make those kind of ambient experiences happen. And that one is usually the first. One it comes up with is the island. Just a really blocky particle system. And. But interestingly enough, I'm like, what files is it? Reading because it'll go recursively into folders. And look at other files and then start using them. I'm like, that's not always good, but interesting, right? So if you're in, if you have a prototype a
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u22
+  text: So I'll explain this in a second. Because it's talking to me. Okay. So there's this haiku and now it's going to create high end. Here's all good. Prompt going back and forth. So the animation, the background stops. I didn't put that animation there. I didn't put a whole lot of this stuff in here, man. So I'm getting control over it now. But the image is not. It's pretty close to my stuff that was previously generated. So it's got a little Illustrator style, but the elements are all now new compared to what I had before. So the composition is different, and so the central element, which would have been. You know, like, in some cases, mountains. In this case, it's a castle. And I'm not certain that that's working, but that's. That's the algorithm. So there it is. It's totally yelling at me right now, so I'm gonna change it. Oh, God. Okay, calm down a bit. Anyways, I'll turn that off. Cool. But, yeah, has a lot of models to load, and they're all about a mag each. And so without preloading them, then your experience is kind of manky. And right now, what I did was I had a other version of this. There's a white one. It had sort of an empty white space. And then it had models that come in from the background, come at you, and you select when they go out. Back and do this. Anyways, it was tapped out, maxed out. And I'd done a bunch of stupid things in it, and I knew I was gonna have to rebuild it, so. But I didn't have the time and. But I still needed to. So what I did was I went inside cursor and I worked with it. No, I went inside Climb and I got it to study the application I'd made to write a specification. And so it wrote a nice clean specifics so that it's even cleaner and take out all the stuff I don't want. And then I made it, asked it to make a technical design document, which. Actually got to the code level. And I'm like, okay, no, I don't. Want some of that. And then I modified that, and then I brought it in and I actually got it to build the app. And I did it twice in two different environments. And Man Klein is just the bee's knees. If you give it the best context. Really good set of documents. It actually made it look like the. Other one, except it's not black. And instead of it being in a. Row, it put them in a circle. And instead of doing some things, it made some design decisions. It put all that interactive design in it. I didn't do any of that. You know, it wanted it read some of the documentation around it, and then that interpreted that. I've been doing that. So how about this? I've been trying to add particle systems. In to make those kind of ambient experiences happen. And that one is usually the first. One it comes up with is the island. Just a really blocky particle system. And. But interestingly enough, I'm like, what files is it? Reading because it'll go recursively into folders. And look at other files and then start using them. I'm like, that's not always good, but interesting, right? So if you're in, if you have a prototype a
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  text: So I'll explain this in a second. Because it's talking to me. Okay. So there's this haiku and now it's going to create high end. Here's all good. Prompt going back and forth. So the animation, the background stops. I didn't put that animation there. I didn't put a whole lot of this stuff in here, man. So I'm getting control over it now. But the image is not. It's pretty close to my stuff that was previously generated. So it's got a little Illustrator style, but the elements are all now new compared to what I had before. So the composition is different, and so the central element, which would have been. You know, like, in some cases, mountains. In this case, it's a castle. And I'm not certain that that's working, but that's. That's the algorithm. So there it is. It's totally yelling at me right now, so I'm gonna change it. Oh, God. Okay, calm down a bit. Anyways, I'll turn that off. Cool. But, yeah, has a lot of models to load, and they're all about a mag each. And so without preloading them, then your experience is kind of manky. And right now, what I did was I had a other version of this. There's a white one. It had sort of an empty white space. And then it had models that come in from the background, come at you, and you select when they go out. Back and do this. Anyways, it was tapped out, maxed out. And I'd done a bunch of stupid things in it, and I knew I was gonna have to rebuild it, so. But I didn't have the time and. But I still needed to. So what I did was I went inside cursor and I worked with it. No, I went inside Climb and I got it to study the application I'd made to write a specification. And so it wrote a nice clean specifics so that it's even cleaner and take out all the stuff I don't want. And then I made it, asked it to make a technical design document, which. Actually got to the code level. And I'm like, okay, no, I don't. Want some of that. And then I modified that, and then I brought it in and I actually got it to build the app. And I did it twice in two different environments. And Man Klein is just the bee's knees. If you give it the best context. Really good set of documents. It actually made it look like the. Other one, except it's not black. And instead of it being in a. Row, it put them in a circle. And instead of doing some things, it made some design decisions. It put all that interactive design in it. I didn't do any of that. You know, it wanted it read some of the documentation around it, and then that interpreted that. I've been doing that. So how about this? I've been trying to add particle systems. In to make those kind of ambient experiences happen. And that one is usually the first. One it comes up with is the island. Just a really blocky particle system. And. But interestingly enough, I'm like, what files is it? Reading because it'll go recursively into folders. And look at other files and then start using them. I'm like, that's not always good, but interesting, right? So if you're in, if you have a prototype a So is that technical spec somewhere? Yeah, I can share that. I can share. And so I also. It's also Neil Stevenson, like the author Steel Stevenson. Yeah, yeah, we're working with him through Lamina. Yeah, I know. So he, he's keen on our project. And we're launching on the coattails of his. On his network and his. Under his. He has a cryptocurrency and everything else now. And so he's manifesting his book. So, so fucking awesome, man. The shell game is wicked. Anyway, yeah, I'll show the. So I, I. What I. What you'll notice here is it's running on a local server. I don't know if you can see. I'm not sure anymore. Anyways, moving to that due to what are called CORS issues and that's domain. If you have files that sit beside. Other files or files that go across the Internet and you have APIs, you have Cors issues, you have origin cross origin something or other others. Anyways, the way around it is running. Servers all over the place. Anyways, that's what enabled me to go. Quickly with this stuff. And that means the reason I bring. It up is I have. I have this scripts for my artists, for the agents now sitting outside as external files. And so that's what I'm going to do moving forward. All the agents will sit in markdown files.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u25
+  - u26
+  - u27
+  - u28
+  text: It's also Neil Stevenson, like the author Steel Stevenson. Yeah, yeah, we're working with him through Lamina. Yeah, I know. So he, he's keen on our project. And we're launching on the coattails of his. On his network and his. Under his. He has a cryptocurrency and everything else now. And so he's manifesting his book. So, so fucking awesome, man. The shell game is wicked. Anyway, yeah, I'll show the. So I, I. What I. What you'll notice here is it's running on a local server. I don't know if you can see. I'm not sure anymore. Anyways, moving to that due to what are called CORS issues and that's domain. If you have files that sit beside. Other files or files that go across the Internet and you have APIs, you have Cors issues, you have origin cross origin something or other others. Anyways, the way around it is running. Servers all over the place. Anyways, that's what enabled me to go. Quickly with this stuff. And that means the reason I bring. It up is I have. I have this scripts for my artists, for the agents now sitting outside as external files. And so that's what I'm going to do moving forward. All the agents will sit in markdown files. So you can see here that here's the haiku or haga hi to prompt. It sits external in this file. Because I'm running a server, I don't have the CORS issue with it. This allows me to start making things happen and pulling them from other places. And so if I show you the technical design, I know the specifications. So where is the specification? Comprehensive, Yada yada. Version 2 overview. Here it is. An interactive web 3D visualization AI generator. Digital creation purpose immersive contemplative experience for generating poetry enthusiasts. Here's the flow. It determined this from the index HTML file. Technical architecture. Easy enough. Actually I changed it. This is the final version I've changed. Some of this stuff wasn't in here. Like this one because that's the type of file I needed. I changed things. I had all kinds of different storage going on, but it's really clean. This is what it's doing. And right now I'm doing a terrible thing. I'm putting them in the code because I'm trying to make the environmental variables work so that there's no control panels or anything anymore. Then it described the UI components. Then this was quite important. It didn't have this initially and I. Pulled this from the code. This is how the scenes are defined.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  text: Yeah, I know. So he, he's keen on our project. And we're launching on the coattails of his. On his network and his. Under his. He has a cryptocurrency and everything else now. And so he's manifesting his book. So, so fucking awesome, man. The shell game is wicked. Anyway, yeah, I'll show the. So I, I. What I. What you'll notice here is it's running on a local server. I don't know if you can see. I'm not sure anymore. Anyways, moving to that due to what are called CORS issues and that's domain. If you have files that sit beside. Other files or files that go across the Internet and you have APIs, you have Cors issues, you have origin cross origin something or other others. Anyways, the way around it is running. Servers all over the place. Anyways, that's what enabled me to go. Quickly with this stuff. And that means the reason I bring. It up is I have. I have this scripts for my artists, for the agents now sitting outside as external files. And so that's what I'm going to do moving forward. All the agents will sit in markdown files. So you can see here that here's the haiku or haga hi to prompt. It sits external in this file. Because I'm running a server, I don't have the CORS issue with it. This allows me to start making things happen and pulling them from other places. And so if I show you the technical design, I know the specifications. So where is the specification? Comprehensive, Yada yada. Version 2 overview. Here it is. An interactive web 3D visualization AI generator. Digital creation purpose immersive contemplative experience for generating poetry enthusiasts. Here's the flow. It determined this from the index HTML file. Technical architecture. Easy enough. Actually I changed it. This is the final version I've changed. Some of this stuff wasn't in here. Like this one because that's the type of file I needed. I changed things. I had all kinds of different storage going on, but it's really clean. This is what it's doing. And right now I'm doing a terrible thing. I'm putting them in the code because I'm trying to make the environmental variables work so that there's no control panels or anything anymore. Then it described the UI components. Then this was quite important. It didn't have this initially and I. Pulled this from the code. This is how the scenes are defined. Something like this is seminal. You can start with a piece of. Information just like this and it'll build the application around it. It's like I have seen types and they all have a title. And then there's like. If it's a collection then it actually tells it what the collection is. And this is the narration. I gave it a narration and a subtitle engine. And then there's scene transitions. It's not doing the zoom in and out. You can see that it ignored when it's building. It doesn't do everything. It took me three really significant sessions like within an hour was fairly structural. But three goes at it like okay, keep going, you're really not fucking done. And then this is. This helps with sort of the construction, the experience somewhat. End construction of the Haikus and Haigas. And then because there's now a file structure in place, having this and. And something like this in place allows. For the whole of the glue to happen inside the building of the application. Asset load in these gets kind of technical. Some of this is just whatever. I do have this text to speech in there that gives me a link to some other part of the spec. Text to speech Ambient audio. I asked for midi. I'd see nothing in there where it's referencing midi. I just made sure that it connected properly to the audio and it's working. Working audio settings are supposed to be now all on the code other than one toggle at the very beginning. And so it did a pretty decent job of that. And then, and then I asked it to make a technical design document. And this is good. So this gave me the proof as to whether or not this was going the right direction. And typically it'll want to make like. A multi page document. In this case I want it to be one document. And so I had to make sure that I redid this and asked it to make sure that it was in both cases of the design document and the spec because it really changes how it built it. This is about 2,500 lines of code. So this will be fine in the way that it's built right now. And it gets into the scene manager. That manager I can recode really well and I know what this app does. And so I'm, you know, I've seen this and I'm confident this is the actual stuff for the previous app. So I guess I left it in the folder. Asset manager, it gets. It builds out an implementation plan. I try to get rid of that. Kind of thing because it tells. It's going to be four weeks when it's actually going to be like four hours. So.
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u28
+  - u29
+  text: So you can see here that here's the haiku or haga hi to prompt. It sits external in this file. Because I'm running a server, I don't have the CORS issue with it. This allows me to start making things happen and pulling them from other places. And so if I show you the technical design, I know the specifications. So where is the specification? Comprehensive, Yada yada. Version 2 overview. Here it is. An interactive web 3D visualization AI generator. Digital creation purpose immersive contemplative experience for generating poetry enthusiasts. Here's the flow. It determined this from the index HTML file. Technical architecture. Easy enough. Actually I changed it. This is the final version I've changed. Some of this stuff wasn't in here. Like this one because that's the type of file I needed. I changed things. I had all kinds of different storage going on, but it's really clean. This is what it's doing. And right now I'm doing a terrible thing. I'm putting them in the code because I'm trying to make the environmental variables work so that there's no control panels or anything anymore. Then it described the UI components. Then this was quite important. It didn't have this initially and I. Pulled this from the code. This is how the scenes are defined. Something like this is seminal. You can start with a piece of. Information just like this and it'll build the application around it. It's like I have seen types and they all have a title. And then there's like. If it's a collection then it actually tells it what the collection is. And this is the narration. I gave it a narration and a subtitle engine. And then there's scene transitions. It's not doing the zoom in and out. You can see that it ignored when it's building. It doesn't do everything. It took me three really significant sessions like within an hour was fairly structural. But three goes at it like okay, keep going, you're really not fucking done. And then this is. This helps with sort of the construction, the experience somewhat. End construction of the Haikus and Haigas. And then because there's now a file structure in place, having this and. And something like this in place allows. For the whole of the glue to happen inside the building of the application. Asset load in these gets kind of technical. Some of this is just whatever. I do have this text to speech in there that gives me a link to some other part of the spec. Text to speech Ambient audio. I asked for midi. I'd see nothing in there where it's referencing midi. I just made sure that it connected properly to the audio and it's working. Working audio settings are supposed to be now all on the code other than one toggle at the very beginning. And so it did a pretty decent job of that. And then, and then I asked it to make a technical design document. And this is good. So this gave me the proof as to whether or not this was going the right direction. And typically it'll want to make like. A multi page document. In this case I want it to be one document. And so I had to make sure that I redid this and asked it to make sure that it was in both cases of the design document and the spec because it really changes how it built it. This is about 2,500 lines of code. So this will be fine in the way that it's built right now. And it gets into the scene manager. That manager I can recode really well and I know what this app does. And so I'm, you know, I've seen this and I'm confident this is the actual stuff for the previous app. So I guess I left it in the folder. Asset manager, it gets. It builds out an implementation plan. I try to get rid of that. Kind of thing because it tells. It's going to be four weeks when it's actually going to be like four hours. So.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  text: Something like this is seminal. You can start with a piece of. Information just like this and it'll build the application around it. It's like I have seen types and they all have a title. And then there's like. If it's a collection then it actually tells it what the collection is. And this is the narration. I gave it a narration and a subtitle engine. And then there's scene transitions. It's not doing the zoom in and out. You can see that it ignored when it's building. It doesn't do everything. It took me three really significant sessions like within an hour was fairly structural. But three goes at it like okay, keep going, you're really not fucking done. And then this is. This helps with sort of the construction, the experience somewhat. End construction of the Haikus and Haigas. And then because there's now a file structure in place, having this and. And something like this in place allows. For the whole of the glue to happen inside the building of the application. Asset load in these gets kind of technical. Some of this is just whatever. I do have this text to speech in there that gives me a link to some other part of the spec. Text to speech Ambient audio. I asked for midi. I'd see nothing in there where it's referencing midi. I just made sure that it connected properly to the audio and it's working. Working audio settings are supposed to be now all on the code other than one toggle at the very beginning. And so it did a pretty decent job of that. And then, and then I asked it to make a technical design document. And this is good. So this gave me the proof as to whether or not this was going the right direction. And typically it'll want to make like. A multi page document. In this case I want it to be one document. And so I had to make sure that I redid this and asked it to make sure that it was in both cases of the design document and the spec because it really changes how it built it. This is about 2,500 lines of code. So this will be fine in the way that it's built right now. And it gets into the scene manager. That manager I can recode really well and I know what this app does. And so I'm, you know, I've seen this and I'm confident this is the actual stuff for the previous app. So I guess I left it in the folder. Asset manager, it gets. It builds out an implementation plan. I try to get rid of that. Kind of thing because it tells. It's going to be four weeks when it's actually going to be like four hours. So. Well, it has to be billable, right? Yeah. And so that's that. That's the kind of the. How it turned into sort of a darker app. And it has playful colors and I was trying to minimize it to be. Black and white and I didn't give it any aesthetics or any brand, any. Kind of direction that way. Right. And so did. Okay. The first time it built it, it. Simulated the Haiku building. It had an algorithm for building it and then it simulated the image generation and downloaded things from either Unsplash or placeholder.com as the. As a hygus. Like what the fuck is that? Right. Folio's had this happen at least once. It's functioning. That's not the right functioning. It was simulating.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  text: Something like this is seminal. You can start with a piece of. Information just like this and it'll build the application around it. It's like I have seen types and they all have a title. And then there's like. If it's a collection then it actually tells it what the collection is. And this is the narration. I gave it a narration and a subtitle engine. And then there's scene transitions. It's not doing the zoom in and out. You can see that it ignored when it's building. It doesn't do everything. It took me three really significant sessions like within an hour was fairly structural. But three goes at it like okay, keep going, you're really not fucking done. And then this is. This helps with sort of the construction, the experience somewhat. End construction of the Haikus and Haigas. And then because there's now a file structure in place, having this and. And something like this in place allows. For the whole of the glue to happen inside the building of the application. Asset load in these gets kind of technical. Some of this is just whatever. I do have this text to speech in there that gives me a link to some other part of the spec. Text to speech Ambient audio. I asked for midi. I'd see nothing in there where it's referencing midi. I just made sure that it connected properly to the audio and it's working. Working audio settings are supposed to be now all on the code other than one toggle at the very beginning. And so it did a pretty decent job of that. And then, and then I asked it to make a technical design document. And this is good. So this gave me the proof as to whether or not this was going the right direction. And typically it'll want to make like. A multi page document. In this case I want it to be one document. And so I had to make sure that I redid this and asked it to make sure that it was in both cases of the design document and the spec because it really changes how it built it. This is about 2,500 lines of code. So this will be fine in the way that it's built right now. And it gets into the scene manager. That manager I can recode really well and I know what this app does. And so I'm, you know, I've seen this and I'm confident this is the actual stuff for the previous app. So I guess I left it in the folder. Asset manager, it gets. It builds out an implementation plan. I try to get rid of that. Kind of thing because it tells. It's going to be four weeks when it's actually going to be like four hours. So. Well, it has to be billable, right? Yeah. And so that's that. That's the kind of the. How it turned into sort of a darker app. And it has playful colors and I was trying to minimize it to be. Black and white and I didn't give it any aesthetics or any brand, any. Kind of direction that way. Right. And so did. Okay. The first time it built it, it. Simulated the Haiku building. It had an algorithm for building it and then it simulated the image generation and downloaded things from either Unsplash or placeholder.com as the. As a hygus. Like what the fuck is that? Right. Folio's had this happen at least once. It's functioning. That's not the right functioning. It was simulating. It'll fake you out, right? Yeah, it was simulating all of the LLM calls. And then I'm looking at the code and it says. I'm like, oh, it actually says right in there. It comments in there. It says, yeah, you want. You want to do this, not what's up here? And it's funny, David, because it'll do that in some cases, but if you query it about what it did, it'll tell you it didn't do that. It's like, really awesome. Like, wow, what is going on here? Like, bizarre. So, yeah, when I'm in the ide. I will try to maintain the context when I'm doing a bunch of edits. But you can hit a plus sign and then it kind of gets rid of the context and you're working with your file again. And quite often I find that useful. To avoid some of those problems. But if you're doing a bunch of little edits or you're working on one piece of functionality or one component and you lose context, you kind of pooped. And it can make a lot of errors. So being able to undo things has been a really good thing. There's a new version of sonnet out 3.7. And I can tell you, I can feel the incremental value. The incremental value. For a while, I had set on. I had set the idetus 3.7 sonnet high reasoning. Things were taking time and I was using a ton of money. And I'm like, I thought. I changed it back and I went. And I actually hit some limit on Anthropic. I don't know if you're using it. Or not, but I'm like, I put. Some money in yesterday. Whoops. Somewhere, I'm really bleeding money. I've got.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  - u37
+  text: And it's funny, David, because it'll do that in some cases, but if you query it about what it did, it'll tell you it didn't do that. It's like, really awesome. Like, wow, what is going on here? Like, bizarre. So, yeah, when I'm in the ide. I will try to maintain the context when I'm doing a bunch of edits. But you can hit a plus sign and then it kind of gets rid of the context and you're working with your file again. And quite often I find that useful. To avoid some of those problems. But if you're doing a bunch of little edits or you're working on one piece of functionality or one component and you lose context, you kind of pooped. And it can make a lot of errors. So being able to undo things has been a really good thing. There's a new version of sonnet out 3.7. And I can tell you, I can feel the incremental value. The incremental value. For a while, I had set on. I had set the idetus 3.7 sonnet high reasoning. Things were taking time and I was using a ton of money. And I'm like, I thought. I changed it back and I went. And I actually hit some limit on Anthropic. I don't know if you're using it. Or not, but I'm like, I put. Some money in yesterday. Whoops. Somewhere, I'm really bleeding money. I've got. I've got a buddy who's spending $40 a day, like, vibe coding on Anthropic. And I'm like, holy. So that's a great way for talking about it. I'm like. And I looked at one day. I'm like, 20 bucks. And I'm like, oh, I was just riffing the. Out of that day, meaning I had, like multiple IDs open. And you could. Now you can. There's no ceiling to your token limits, man. You can just keep spinning. And so I'm like, wow, okay, $20. And I looked at that. I'm like, okay, well, I actually did a lot. And I'm like, nobody did the math. Like 20 times every day, every month. That's like, man, yes. Yeah.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: I've got a buddy who's spending $40 a day, like, vibe coding on Anthropic. And I'm like, holy. So that's a great way for talking about it. I'm like. And I looked at one day. I'm like, 20 bucks. And I'm like, oh, I was just riffing the. Out of that day, meaning I had, like multiple IDs open. And you could. Now you can. There's no ceiling to your token limits, man. You can just keep spinning. And so I'm like, wow, okay, $20. And I looked at that. I'm like, okay, well, I actually did a lot. And I'm like, nobody did the math. Like 20 times every day, every month. That's like, man, yes. Yeah. But you have to think about it in terms of acceleration and how much you're doing. Like, yeah, I just kept. I just needed to automate it so. I don't need to go in there and, like, wake up. Yeah. Everyone that I'm actually. For me, it's doing the job of, like, three employees. I can never do any of this. Anyways. I thought that was funny, and it was. So you change it back. Things aren't spending as fast. And also, I went through a whole. Lot of money generating hai guys and haikus because I wanted to have a library of them because they were supposed. To be used for marketing, whatever else. I'm like, oh, I wonder how much this is costing. I found out how much it cost. So it's like 30, 40 cents each. Pending if you do HD or not. And I thought it was down to 3 cents. And I'm like, 3 cents seems really cheap. And I'm like, no, the math is not working, not with Dolly3. And so, you know, having a real price on these things is important. You know, we're. We're trying to say that they're worth. Something if they include all the development. Time, and they're definitely worth a hundred bucks each, but they got to be worth more than a buck because that's what they're going to cost to make. I'm like, okay, that's economics. But it's been interesting. I've created four different apps now, or. Three different types of apps. A new tab app that creates a new haiku and hide every time it opens up, and then a factory that creates a bunch of them. And then now this, the experience, and then every one of them. Because of the way that I'm working with AI, I have to go in and I have to cleanse it to make sure that it's using the prompts in the right way, because it will just make shit up everywhere. And it even edited my markdown, external markdown file where I gave it an. Agent and it changed the agent. And I'm like, what the hell did you do that for? And I had to go find it somewhere else on my hard drive. I'm like, you really put either. Because I didn't see it happen until later. Like, that's definitely not the high gift that it's supposed to create. It was like, you know, it looked like if you don't do it right, it looks like. It looks like, you know, really weird cut and paste. Like. Like you're tearing paper from different magazines. Can be a good Aesthetic collage. Collage, yeah. So it's collaging in a haphazard way. Instead of an illustrative fashion. Anyways, that's. That's the haiku thing in terms of. That'S gonna get out the door. And I was quite sort of anxious about it, and I thought talking about it was kind of good because there's, like, all these things moving at once. There's cursor changed at the same time. So my IDE changed at the same time. It's 3.7 coming out. And so I dicking around with settings, and then I'm like, I have no time. Do I fix the other one? Do I start a new one? And what I found with 3.7 is if you start with 3.7, it's a great. A great model for that. You got to keep going with it. And it crops out. So after about a thousand lines of code in one file, Klein crops out. It loves making 15 files for any kind of website or making it a react website. And so those are. Those aren't alternatives for me right now. But what's everyone else doing of interest?
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u43
+  text: I can never do any of this. Anyways. I thought that was funny, and it was. So you change it back. Things aren't spending as fast. And also, I went through a whole. Lot of money generating hai guys and haikus because I wanted to have a library of them because they were supposed. To be used for marketing, whatever else. I'm like, oh, I wonder how much this is costing. I found out how much it cost. So it's like 30, 40 cents each. Pending if you do HD or not. And I thought it was down to 3 cents. And I'm like, 3 cents seems really cheap. And I'm like, no, the math is not working, not with Dolly3. And so, you know, having a real price on these things is important. You know, we're. We're trying to say that they're worth. Something if they include all the development. Time, and they're definitely worth a hundred bucks each, but they got to be worth more than a buck because that's what they're going to cost to make. I'm like, okay, that's economics. But it's been interesting. I've created four different apps now, or. Three different types of apps. A new tab app that creates a new haiku and hide every time it opens up, and then a factory that creates a bunch of them. And then now this, the experience, and then every one of them. Because of the way that I'm working with AI, I have to go in and I have to cleanse it to make sure that it's using the prompts in the right way, because it will just make shit up everywhere. And it even edited my markdown, external markdown file where I gave it an. Agent and it changed the agent. And I'm like, what the hell did you do that for? And I had to go find it somewhere else on my hard drive. I'm like, you really put either. Because I didn't see it happen until later. Like, that's definitely not the high gift that it's supposed to create. It was like, you know, it looked like if you don't do it right, it looks like. It looks like, you know, really weird cut and paste. Like. Like you're tearing paper from different magazines. Can be a good Aesthetic collage. Collage, yeah. So it's collaging in a haphazard way. Instead of an illustrative fashion. Anyways, that's. That's the haiku thing in terms of. That'S gonna get out the door. And I was quite sort of anxious about it, and I thought talking about it was kind of good because there's, like, all these things moving at once. There's cursor changed at the same time. So my IDE changed at the same time. It's 3.7 coming out. And so I dicking around with settings, and then I'm like, I have no time. Do I fix the other one? Do I start a new one? And what I found with 3.7 is if you start with 3.7, it's a great. A great model for that. You got to keep going with it. And it crops out. So after about a thousand lines of code in one file, Klein crops out. It loves making 15 files for any kind of website or making it a react website. And so those are. Those aren't alternatives for me right now. But what's everyone else doing of interest?
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  text: I can never do any of this. Anyways. I thought that was funny, and it was. So you change it back. Things aren't spending as fast. And also, I went through a whole. Lot of money generating hai guys and haikus because I wanted to have a library of them because they were supposed. To be used for marketing, whatever else. I'm like, oh, I wonder how much this is costing. I found out how much it cost. So it's like 30, 40 cents each. Pending if you do HD or not. And I thought it was down to 3 cents. And I'm like, 3 cents seems really cheap. And I'm like, no, the math is not working, not with Dolly3. And so, you know, having a real price on these things is important. You know, we're. We're trying to say that they're worth. Something if they include all the development. Time, and they're definitely worth a hundred bucks each, but they got to be worth more than a buck because that's what they're going to cost to make. I'm like, okay, that's economics. But it's been interesting. I've created four different apps now, or. Three different types of apps. A new tab app that creates a new haiku and hide every time it opens up, and then a factory that creates a bunch of them. And then now this, the experience, and then every one of them. Because of the way that I'm working with AI, I have to go in and I have to cleanse it to make sure that it's using the prompts in the right way, because it will just make shit up everywhere. And it even edited my markdown, external markdown file where I gave it an. Agent and it changed the agent. And I'm like, what the hell did you do that for? And I had to go find it somewhere else on my hard drive. I'm like, you really put either. Because I didn't see it happen until later. Like, that's definitely not the high gift that it's supposed to create. It was like, you know, it looked like if you don't do it right, it looks like. It looks like, you know, really weird cut and paste. Like. Like you're tearing paper from different magazines. Can be a good Aesthetic collage. Collage, yeah. So it's collaging in a haphazard way. Instead of an illustrative fashion. Anyways, that's. That's the haiku thing in terms of. That'S gonna get out the door. And I was quite sort of anxious about it, and I thought talking about it was kind of good because there's, like, all these things moving at once. There's cursor changed at the same time. So my IDE changed at the same time. It's 3.7 coming out. And so I dicking around with settings, and then I'm like, I have no time. Do I fix the other one? Do I start a new one? And what I found with 3.7 is if you start with 3.7, it's a great. A great model for that. You got to keep going with it. And it crops out. So after about a thousand lines of code in one file, Klein crops out. It loves making 15 files for any kind of website or making it a react website. And so those are. Those aren't alternatives for me right now. But what's everyone else doing of interest? Interesting. There's a smile from Eric. I know he's like. He's faking work over there. On one. On one screen. Eric's got something interesting going on. Right. He's got an only. Only fans page somewhere. Why we all don't have, like, AI actors set hooked up to only fans right now, right? Yeah, exactly. Just, you know, we're. We're mo capping and they're doing something else, man. Basically, like, free. Basically free money. It's. I mean, it's. It's. It's.
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  text: Interesting. There's a smile from Eric. I know he's like. He's faking work over there. On one. On one screen. Eric's got something interesting going on. Right. He's got an only. Only fans page somewhere. Why we all don't have, like, AI actors set hooked up to only fans right now, right? Yeah, exactly. Just, you know, we're. We're mo capping and they're doing something else, man. Basically, like, free. Basically free money. It's. I mean, it's. It's. It's. It's. Yeah, it's ancillary. It's like a. What is it? Derivative. Derivative Cash is good. I was gonna say, like, apocalypse. Well, it's almost just passive income apocalyptic. Like, I don't care. Zero values matter. This is. Well, I think it's. This actively accelerates our downward trajectory. Oh, right, right. The accessibility of it definitely provides that well. And I think, like, people are already talking about, like, Grok 3's like, voice mode, which I don't have for some reason. I don't know why, but there's like, a sexy mode that's, like, hot and. And like, it's like Scarlet Joe Hansen in her. It works. Let's buy all the humane pins that, like, that company went pips up. So let's buy all the humane pins. You know, put Grock 3 on it. Sell them. Let them walk around with their, like, AI partner. Yeah, just talk to that all day. That's like six months away. So all these things are, like, kind of coming and, you know, they're just not that far away. No, no, there's. So we're looking at different technology for cameras. And camera technology is wild and getting small and put everywhere. And people are being asked to wear surveillance now in the job site. Yeah, I saw that Even just a poll on Castanet that was like. I think it was like 70 of people were like, very comfortable with people in stores wearing body cameras. And then 30 or not. But it was like the. The other poll was like, what person? Like, should. Should Canada get rid of Elon's citizenship? And 70% were like yes, and 30% were no.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: That's like six months away. So all these things are, like, kind of coming and, you know, they're just not that far away. No, no, there's. So we're looking at different technology for cameras. And camera technology is wild and getting small and put everywhere. And people are being asked to wear surveillance now in the job site. Yeah, I saw that Even just a poll on Castanet that was like. I think it was like 70 of people were like, very comfortable with people in stores wearing body cameras. And then 30 or not. But it was like the. The other poll was like, what person? Like, should. Should Canada get rid of Elon's citizenship? And 70% were like yes, and 30% were no. Right. The overlap of like the 70% and the 30% are like almost identical. Right. It's interesting. But, yeah, I mean, these things are moving so quickly. I've got a buddy who's built like an AI M&A advisory so, like, automated. The whole pipeline of, like, acquired companies that want to be sold doing the actual M A work and then like, selling them. It turns out it's mostly just like a digital Rolodex problem where you're like, trying to connect certain people with other people and then create a market for it. And. Yeah, so they've built this, like, really complex system. And he's, like I said, kind of vibe coded this whole, like, a big portion of this. Like, he's was not really much of an engineer. Like, had some basic, basic, basic understanding, but then just spent the last three months, you know, with Claude and Cursor and like, plugging away and like, has built some pretty sophisticated things that really just don't exist out in the market. Because his brain, you know, being oriented around the business side allowed him to, you know, go figure product that just would never have gotten made otherwise.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: It's interesting. But, yeah, I mean, these things are moving so quickly. I've got a buddy who's built like an AI M&A advisory so, like, automated. The whole pipeline of, like, acquired companies that want to be sold doing the actual M A work and then like, selling them. It turns out it's mostly just like a digital Rolodex problem where you're like, trying to connect certain people with other people and then create a market for it. And. Yeah, so they've built this, like, really complex system. And he's, like I said, kind of vibe coded this whole, like, a big portion of this. Like, he's was not really much of an engineer. Like, had some basic, basic, basic understanding, but then just spent the last three months, you know, with Claude and Cursor and like, plugging away and like, has built some pretty sophisticated things that really just don't exist out in the market. Because his brain, you know, being oriented around the business side allowed him to, you know, go figure product that just would never have gotten made otherwise. Right? Yeah. Yeah. You can if you can right now. If you are willing to work towards that threshold he's achieved somehow, which you have output that's useful as an entrepreneur. It's the most enabling thing ever because you have had to deal with a Runway of building a Runway to get to building the opportunities engine to see how it works. And yeah, it changes the whole dynamic because, like, I think about myself like, I'm not a software engineer. I've had to hire software engineers. I've got an idea. I'm trying to communicate that idea. I'm trying to communicate, like, how to do that. We argue with each other, you know, everyone. It's just like very inefficient very human process. And, and so you're seeing all these people like this, just solo people, like, building things. Really interesting. Yeah, you can't. You can get quite far, especially if you have unique data sets and you have unique points of view on that kind of thing. Like a guy like Lance, who has access to that, and he's trying to figure out his unique points of view. But there's. And you. You have a goal in mind. So orienting around that is helping you swim through all of your fucking information. Yeah, there's. I found that if you can figure. Out what the backbone of the information. Is you're working with or wanting out of something, that is a very insightful. Way of looking at it. And. I had a long conversation at. A wall with people talking about how we like hyperlink information together. But that is the thing that we can do now with some weird acumen and weird soft touch, where you say, here's a bunch of things correlated this way and show me some opportunity to make something causal. You know, like, that's where we want to be. And. And you can provide strategies around making, like, experiments causal or whatever. And that's. I think that's really cool because it can be very short to see if it does functionally work now.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  text: Yeah, you can't. You can get quite far, especially if you have unique data sets and you have unique points of view on that kind of thing. Like a guy like Lance, who has access to that, and he's trying to figure out his unique points of view. But there's. And you. You have a goal in mind. So orienting around that is helping you swim through all of your fucking information. Yeah, there's. I found that if you can figure. Out what the backbone of the information. Is you're working with or wanting out of something, that is a very insightful. Way of looking at it. And. I had a long conversation at. A wall with people talking about how we like hyperlink information together. But that is the thing that we can do now with some weird acumen and weird soft touch, where you say, here's a bunch of things correlated this way and show me some opportunity to make something causal. You know, like, that's where we want to be. And. And you can provide strategies around making, like, experiments causal or whatever. And that's. I think that's really cool because it can be very short to see if it does functionally work now. Yeah, that's something I was thinking about this morning. We're like, you know, looking at, like, media. These media mix models, which are like, basically you got a company that's spending a whole bunch of money on a whole bunch of different places on advertising, and then you're like, what. What's responsible for what? And they're just like. They're cut. They're like correlative models. Right. So it's not causal. It's just kind of being like, hey, there's a band here. And then it's about like, okay, well, can we. Can we figure out how to put, like, AI on top of one of these? Like, to be able to like, figure out, not deterministically, what's going on, but like, okay, like, what are some things to hone in on? Try and explain maybe heuristically instead of. Yeah, yeah. I think that's the curious part. So that was what. When we were talking to market research company, they were looking at us to say, well, no, let's see what you find. Like, I didn't get to the finding of the interesting stuff. I was trying to do the rudimentary thing. But that was his point. He said, we want to know what you know. We know what we want to look. For we want to know what's in there, though. That's, that's a lot of the cases like, okay, well, and, but from a. Point of the person you're talking about, they kind of know what's in there. And they're like, I think this is in there. And they're poking around, possibly seeing some way of exporting that kind of new contextualized information. With the survey thing, the neat thing about it is you can have one question with it's had all the answers and you just have the counts and the percentages. If you provide different context for it, even one question is super valuable. Most of the time. One question on a survey is useless as fuck. But. And so this helps in your situation, right? So you need to have the whole composition. It's like a whole narrative and you can compose it along, but each piece on its own does have integrity and. You can do that by recontextualizing that one piece. So a demographic question on its own. Not that useful maybe. But if you send, say, okay, give. It context in terms of the industry, give it context in terms of the news, give it context in terms of. The trends of AI and then you. Can impose that on it. It has nothing to do with the survey. And that's kind of how I think your stuff does and can work because you're determining what those pieces are from other systems. And the agentic stuff works really well with that and not having to figure out rag.
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u72
+  - u73
+  text: Yeah, that's something I was thinking about this morning. We're like, you know, looking at, like, media. These media mix models, which are like, basically you got a company that's spending a whole bunch of money on a whole bunch of different places on advertising, and then you're like, what. What's responsible for what? And they're just like. They're cut. They're like correlative models. Right. So it's not causal. It's just kind of being like, hey, there's a band here. And then it's about like, okay, well, can we. Can we figure out how to put, like, AI on top of one of these? Like, to be able to like, figure out, not deterministically, what's going on, but like, okay, like, what are some things to hone in on? Try and explain maybe heuristically instead of. Yeah, yeah. I think that's the curious part. So that was what. When we were talking to market research company, they were looking at us to say, well, no, let's see what you find. Like, I didn't get to the finding of the interesting stuff. I was trying to do the rudimentary thing. But that was his point. He said, we want to know what you know. We know what we want to look. For we want to know what's in there, though. That's, that's a lot of the cases like, okay, well, and, but from a. Point of the person you're talking about, they kind of know what's in there. And they're like, I think this is in there. And they're poking around, possibly seeing some way of exporting that kind of new contextualized information. With the survey thing, the neat thing about it is you can have one question with it's had all the answers and you just have the counts and the percentages. If you provide different context for it, even one question is super valuable. Most of the time. One question on a survey is useless as fuck. But. And so this helps in your situation, right? So you need to have the whole composition. It's like a whole narrative and you can compose it along, but each piece on its own does have integrity and. You can do that by recontextualizing that one piece. So a demographic question on its own. Not that useful maybe. But if you send, say, okay, give. It context in terms of the industry, give it context in terms of the news, give it context in terms of. The trends of AI and then you. Can impose that on it. It has nothing to do with the survey. And that's kind of how I think your stuff does and can work because you're determining what those pieces are from other systems. And the agentic stuff works really well with that and not having to figure out rag.
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  text: Try and explain maybe heuristically instead of. Yeah, yeah. I think that's the curious part. So that was what. When we were talking to market research company, they were looking at us to say, well, no, let's see what you find. Like, I didn't get to the finding of the interesting stuff. I was trying to do the rudimentary thing. But that was his point. He said, we want to know what you know. We know what we want to look. For we want to know what's in there, though. That's, that's a lot of the cases like, okay, well, and, but from a. Point of the person you're talking about, they kind of know what's in there. And they're like, I think this is in there. And they're poking around, possibly seeing some way of exporting that kind of new contextualized information. With the survey thing, the neat thing about it is you can have one question with it's had all the answers and you just have the counts and the percentages. If you provide different context for it, even one question is super valuable. Most of the time. One question on a survey is useless as fuck. But. And so this helps in your situation, right? So you need to have the whole composition. It's like a whole narrative and you can compose it along, but each piece on its own does have integrity and. You can do that by recontextualizing that one piece. So a demographic question on its own. Not that useful maybe. But if you send, say, okay, give. It context in terms of the industry, give it context in terms of the news, give it context in terms of. The trends of AI and then you. Can impose that on it. It has nothing to do with the survey. And that's kind of how I think your stuff does and can work because you're determining what those pieces are from other systems. And the agentic stuff works really well with that and not having to figure out rag. Well, yeah, I think like the rag stuff I like skirted around and like, I think that's the tricky thing is like right now everything's moving so quickly. Things that seem like a good idea today can seem like. I know, yeah, yeah, yeah. So what if you build like a look at these guys, like raggy. They built a whole startup in rag. I'm like, jesus, like, maybe this is not a good idea. Yeah. Oh, if you're attack play right now. That'S super tough and trying to stay. Lightweight and you have a purpose. Like, so if you're an entrepreneur, you have a purpose. You're like driving the tech through that. But if you're going to be working with the technology, like being lightweight is hard to do because the data solution isn't really working well. And so I'm actually engaging with the company out of Toronto now and they're talking to the technical person and he's. Just like, yeah, you use this and we'll make our own LLM. I'm like, what? Where? I was like three weeks, I didn't talk to you. And all of a sudden you're talking. About making your own LLM. Okay, cool. And then he starts describing. I'm like, yeah, that's not what that is. I'm like, yeah, we can do that. I have other strategies around it, but we can do what you're asking, which. Is like, you know, ugly rag. And it's like a commercialized service in terms of some sort of whatever it. Is, it's, it's a different mix than he's. He's expecting. I'm like, no, I think it's a. Little bit more expensive than you can afford. You can't even afford me right now. But yeah, there's, there's ways in which we're gonna like a lot of the work that I, that I thought was really meaningful and was where I should continue to focus on these long form agents. They're just coming into focus now for me with the market research. They'll be super big. Yeah. So I mean everywhere else I'm doing these scrub like things, except for the haiku. The haiku agents are quite large and. But they're actually just a guess, whereas the other stuff isn't. So. But the, the smaller form scrub to medium sized agents, what I've been using. But when we get into the place of okay, we now need to have a longer conversation with data. That's the agents that are using previously. And so I don't know, you know, what you leave behind is hopefully if you can get value and momentum. That's the only thing I see right now. And I'm not doing it. I'm still not doing it. And so I, I try to have that moment of like, okay, step out and then. But there's no stepping out completely and not doing it anymore either. So that's kind of a poochie thing.
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  text: Yeah. Oh, if you're attack play right now. That'S super tough and trying to stay. Lightweight and you have a purpose. Like, so if you're an entrepreneur, you have a purpose. You're like driving the tech through that. But if you're going to be working with the technology, like being lightweight is hard to do because the data solution isn't really working well. And so I'm actually engaging with the company out of Toronto now and they're talking to the technical person and he's. Just like, yeah, you use this and we'll make our own LLM. I'm like, what? Where? I was like three weeks, I didn't talk to you. And all of a sudden you're talking. About making your own LLM. Okay, cool. And then he starts describing. I'm like, yeah, that's not what that is. I'm like, yeah, we can do that. I have other strategies around it, but we can do what you're asking, which. Is like, you know, ugly rag. And it's like a commercialized service in terms of some sort of whatever it. Is, it's, it's a different mix than he's. He's expecting. I'm like, no, I think it's a. Little bit more expensive than you can afford. You can't even afford me right now. But yeah, there's, there's ways in which we're gonna like a lot of the work that I, that I thought was really meaningful and was where I should continue to focus on these long form agents. They're just coming into focus now for me with the market research. They'll be super big. Yeah. So I mean everywhere else I'm doing these scrub like things, except for the haiku. The haiku agents are quite large and. But they're actually just a guess, whereas the other stuff isn't. So. But the, the smaller form scrub to medium sized agents, what I've been using. But when we get into the place of okay, we now need to have a longer conversation with data. That's the agents that are using previously. And so I don't know, you know, what you leave behind is hopefully if you can get value and momentum. That's the only thing I see right now. And I'm not doing it. I'm still not doing it. And so I, I try to have that moment of like, okay, step out and then. But there's no stepping out completely and not doing it anymore either. So that's kind of a poochie thing. Yeah, on that. I gotta run guys. I'm late for a meeting. I'll get later. Nice to see y'all. Ciao. Yeah, thanks, Jason. Bye. I want to start sharing things more openly. I've. I've got a. Put a video online. I'll send it around for the market research research thing that I built because. It'S so onerous to use. Like you have to have a couple data sets and you have to load them in. It's better to watch a video on that. But I did build a tool where you can just upload a spreadsheet and. Then talk to it and so you. Can talk to it as a pivot. Table if you know how to use those kind of things. Or you can just talk to it. As a table and you can do. Queries on the table and then you can do, talk to subsets of it. So it's, it's getting to be that kind of. It's better when it tells you what it. You should do. That's what, that's what, you know, I think most people want like, okay, okay. The spreadsheet's in there. What does it want me to do? I don't know. That's what the market research people want. Just like, you know, here's your questions. And so that's, that's an interesting awareness from my side is that once again, the middle piece is not what people want. That stupid Silicon Valley joke where they're just going to take out the mill. Well, just take out the analysis. You don't care how that happens. You just want it done. Okay, sounds about right for market research. But it's true across the board. As long as it looks reasonable and like something else I've had, they won't go deep under to it because no one's asked me anything ever.
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  text: Yeah. Oh, if you're attack play right now. That'S super tough and trying to stay. Lightweight and you have a purpose. Like, so if you're an entrepreneur, you have a purpose. You're like driving the tech through that. But if you're going to be working with the technology, like being lightweight is hard to do because the data solution isn't really working well. And so I'm actually engaging with the company out of Toronto now and they're talking to the technical person and he's. Just like, yeah, you use this and we'll make our own LLM. I'm like, what? Where? I was like three weeks, I didn't talk to you. And all of a sudden you're talking. About making your own LLM. Okay, cool. And then he starts describing. I'm like, yeah, that's not what that is. I'm like, yeah, we can do that. I have other strategies around it, but we can do what you're asking, which. Is like, you know, ugly rag. And it's like a commercialized service in terms of some sort of whatever it. Is, it's, it's a different mix than he's. He's expecting. I'm like, no, I think it's a. Little bit more expensive than you can afford. You can't even afford me right now. But yeah, there's, there's ways in which we're gonna like a lot of the work that I, that I thought was really meaningful and was where I should continue to focus on these long form agents. They're just coming into focus now for me with the market research. They'll be super big. Yeah. So I mean everywhere else I'm doing these scrub like things, except for the haiku. The haiku agents are quite large and. But they're actually just a guess, whereas the other stuff isn't. So. But the, the smaller form scrub to medium sized agents, what I've been using. But when we get into the place of okay, we now need to have a longer conversation with data. That's the agents that are using previously. And so I don't know, you know, what you leave behind is hopefully if you can get value and momentum. That's the only thing I see right now. And I'm not doing it. I'm still not doing it. And so I, I try to have that moment of like, okay, step out and then. But there's no stepping out completely and not doing it anymore either. So that's kind of a poochie thing. Yeah, on that. I gotta run guys. I'm late for a meeting. I'll get later. Nice to see y'all. Ciao. Yeah, thanks, Jason. Bye. I want to start sharing things more openly. I've. I've got a. Put a video online. I'll send it around for the market research research thing that I built because. It'S so onerous to use. Like you have to have a couple data sets and you have to load them in. It's better to watch a video on that. But I did build a tool where you can just upload a spreadsheet and. Then talk to it and so you. Can talk to it as a pivot. Table if you know how to use those kind of things. Or you can just talk to it. As a table and you can do. Queries on the table and then you can do, talk to subsets of it. So it's, it's getting to be that kind of. It's better when it tells you what it. You should do. That's what, that's what, you know, I think most people want like, okay, okay. The spreadsheet's in there. What does it want me to do? I don't know. That's what the market research people want. Just like, you know, here's your questions. And so that's, that's an interesting awareness from my side is that once again, the middle piece is not what people want. That stupid Silicon Valley joke where they're just going to take out the mill. Well, just take out the analysis. You don't care how that happens. You just want it done. Okay, sounds about right for market research. But it's true across the board. As long as it looks reasonable and like something else I've had, they won't go deep under to it because no one's asked me anything ever.
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Ciao. Yeah, thanks, Jason. Bye. I want to start sharing things more openly. I've. I've got a. Put a video online. I'll send it around for the market research research thing that I built because. It'S so onerous to use. Like you have to have a couple data sets and you have to load them in. It's better to watch a video on that. But I did build a tool where you can just upload a spreadsheet and. Then talk to it and so you. Can talk to it as a pivot. Table if you know how to use those kind of things. Or you can just talk to it. As a table and you can do. Queries on the table and then you can do, talk to subsets of it. So it's, it's getting to be that kind of. It's better when it tells you what it. You should do. That's what, that's what, you know, I think most people want like, okay, okay. The spreadsheet's in there. What does it want me to do? I don't know. That's what the market research people want. Just like, you know, here's your questions. And so that's, that's an interesting awareness from my side is that once again, the middle piece is not what people want. That stupid Silicon Valley joke where they're just going to take out the mill. Well, just take out the analysis. You don't care how that happens. You just want it done. Okay, sounds about right for market research. But it's true across the board. As long as it looks reasonable and like something else I've had, they won't go deep under to it because no one's asked me anything ever. About the middle. About the middle. No one wants to know the middle. No, they just want more from the end. That's what they say. Okay, that sounds, it sounds like software to me. And so I'm in a meeting with the people from our Alberta. I'm like, this is, this is what I remember. I shall never keep up. That software. I'm like, all right, same as it ever was then. It's just different way of making it. Same game, Never keep up. Somebody's got to pay more. In the past, it was a more understood really. Like if you look at it now, it's a really slow, long roadmap to. Making a product hit the market. Now it's got to be about a year. But I was happy to see that, working with that. That damn. An existing application or website. So I'm going to meet with somebody today. She's going to try. She wants to do a PHP website. For the project called nqc. Like a Alberta one. She wants to do like build a website. And she wants to do. She's like, I need a PHP modern PHP environment. I'm like, whoa, dumping. That's the database stuff. Why would you ever need that for a website? But it's Calgary. And so they built things like it's like 10, 15 years ago in some cases 20 years ago. So I'm having a talk with her today. I'm like, man, it's just a website. You can just talk Give me a website, sketch it. Just, you could literally just sketch it. And it will be enough to build the architecture for you. And that's all PHP does. How about this? While I'm in the meeting with her. I'm like, how about I try this, you describe what it does and I'll say give me an alternative that's not PHP to what is. You know, build it for her while we're talking. But yeah, anybody that has a bit. Of a technical ability should be trying. To, to work with not doing any of that stuff touching their actual code.
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  text: No, they just want more from the end. That's what they say. Okay, that sounds, it sounds like software to me. And so I'm in a meeting with the people from our Alberta. I'm like, this is, this is what I remember. I shall never keep up. That software. I'm like, all right, same as it ever was then. It's just different way of making it. Same game, Never keep up. Somebody's got to pay more. In the past, it was a more understood really. Like if you look at it now, it's a really slow, long roadmap to. Making a product hit the market. Now it's got to be about a year. But I was happy to see that, working with that. That damn. An existing application or website. So I'm going to meet with somebody today. She's going to try. She wants to do a PHP website. For the project called nqc. Like a Alberta one. She wants to do like build a website. And she wants to do. She's like, I need a PHP modern PHP environment. I'm like, whoa, dumping. That's the database stuff. Why would you ever need that for a website? But it's Calgary. And so they built things like it's like 10, 15 years ago in some cases 20 years ago. So I'm having a talk with her today. I'm like, man, it's just a website. You can just talk Give me a website, sketch it. Just, you could literally just sketch it. And it will be enough to build the architecture for you. And that's all PHP does. How about this? While I'm in the meeting with her. I'm like, how about I try this, you describe what it does and I'll say give me an alternative that's not PHP to what is. You know, build it for her while we're talking. But yeah, anybody that has a bit. Of a technical ability should be trying. To, to work with not doing any of that stuff touching their actual code. I'm going to Calgary in two weeks. And then I thought it would be really good to go to Vancouver because. That'S. Like almost April on the rebound. Maybe you could do it. But yeah, we'll see. I leave on the 11th, 12th and. I'll come back four days. But yes. I might try. I might have to fly to Toronto sometime. That would be good too. And then I can see Fulvia. But we'll see.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  text: I'm going to Calgary in two weeks. And then I thought it would be really good to go to Vancouver because. That'S. Like almost April on the rebound. Maybe you could do it. But yeah, we'll see. I leave on the 11th, 12th and. I'll come back four days. But yes. I might try. I might have to fly to Toronto sometime. That would be good too. And then I can see Fulvia. But we'll see. Are you right in Toronto? Nope. No, he's the opposite of right in Toronto. I'm about an hour and 15 minutes east and just a tiny little bit north of Toronto in the middle of nowhere. Like, like. So what's it, what's the nearest town or what town? Well, the nearest would be a place called Centerton. What you might know would be Coburg. So a little north of Coburg. It's like I'm on a 300 acre farm and there's equally sized farms around me and provincial park area. So it's, it's. Damn. It's not remote in the sense that, you know, it's actually kind of a really a nice area. Like it's one of the closest areas to Toronto that truly does feel remote because you know, you go north and it's Muskoka and you're on the 400 and it's nuts. And you go west and it's all industrial now. Right, right. Like everything's been industrialized west of Toronto. Whereas around here it's like really nice. And I would love to take credit for having chosen the general area, but you know, I moved out here however, a decade ago. My kids to go to Trinity College School in Port Hope and then I will never leave. I mean Maggie and I are already talking about halftime here and half time somewhere warmer.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  text: Well, the nearest would be a place called Centerton. What you might know would be Coburg. So a little north of Coburg. It's like I'm on a 300 acre farm and there's equally sized farms around me and provincial park area. So it's, it's. Damn. It's not remote in the sense that, you know, it's actually kind of a really a nice area. Like it's one of the closest areas to Toronto that truly does feel remote because you know, you go north and it's Muskoka and you're on the 400 and it's nuts. And you go west and it's all industrial now. Right, right. Like everything's been industrialized west of Toronto. Whereas around here it's like really nice. And I would love to take credit for having chosen the general area, but you know, I moved out here however, a decade ago. My kids to go to Trinity College School in Port Hope and then I will never leave. I mean Maggie and I are already talking about halftime here and half time somewhere warmer. Hey, we're of the age where that makes some sense. Yeah, for me that's like after birth. But yes, I hear you. Well, that's never. All of us are fairways after birth now. Yeah, But I'm saying I needed to be somewhere warmer right after birth. I came to Canada in 74, and I'm still not adjusted to the winter year entirely. So I guess I was born in Montreal in January. That's pretty cold. Yeah. Anyway, I could scoot into Toronto, obviously. Right. You know, especially. Yeah. If I'm going that way, next time. It won't be for just like a hop skip. In fact, I did last time David was here. Yeah, we had dinner. Well, dinner in a much better place next time after figuring things out. But that was good. Anyway, I'm gonna. I'm gonna jump out. I'm trying to get something finished up, David, because I gave you those feedback elements and something slipped past me on some of those elements, as I noted in my commentary. And I want to fix that stuff. And I'd love to chat with you about some optimization improvements later, because you went so far so fast. I think we can get the rest of the way today or tomorrow. And then what I would love to do is, for presentations, have, like, a video of using the page more than have sending people a link to use the page that way.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2700.448
+  utterance_ids:
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  text: Yeah, we had dinner. Well, dinner in a much better place next time after figuring things out. But that was good. Anyway, I'm gonna. I'm gonna jump out. I'm trying to get something finished up, David, because I gave you those feedback elements and something slipped past me on some of those elements, as I noted in my commentary. And I want to fix that stuff. And I'd love to chat with you about some optimization improvements later, because you went so far so fast. I think we can get the rest of the way today or tomorrow. And then what I would love to do is, for presentations, have, like, a video of using the page more than have sending people a link to use the page that way. Yeah, Videos are the way to go with a lot of things. And yeah, with this, it's. It's functional now. It's not been tested and it hasn't been branded. And it's certainly. I want to have that opportunity later today to have that interactive kind of get into it. Interactive design, proof of 90%. Right. And so, yeah, like, the remaining 10%, we can get another 90 on. And then it's like on the margin, everything's communicated. So I'm gonna pop out, take care of everyone. Talk to you later. Bye. Okay, I think I'll jump out, too. Yeah, man. So talk tomorrow? Yeah, we'll see you tomorrow. See you, Eric. Good to see you. Bye. All right, bye. Until. Thank you.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2700.448
+  utterance_ids:
+  - u113
+  text: All right, bye. Until. Thank you.

@@ -3,6 +3,9 @@ mentions:
 - value: Claude
   kind: tool
   count: 1
+- value: Emily
+  kind: tool
+  count: 1
 - value: GPT
   kind: tool
   count: 1
@@ -21,9 +24,15 @@ mentions:
 - value: Notion
   kind: tool
   count: 1
+- value: Open Claw
+  kind: tool
+  count: 1
 - value: RAG
   kind: tool
   count: 1
-- value: wiki
+- value: Stone Maps
+  kind: tool
+  count: 1
+- value: Work Sona
   kind: tool
   count: 1

@@ -1,0 +1,28 @@
+id: IDEA-0278
+slug: optimizing-llm-output-quality
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-05-27'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'The speakers examined the variance in output quality between three operational states: the base model, the model with context, and the model with both context and guidance. Fulvio argued that providing guidance through context creates the most effective results, as it allows the model to align with the user''s implicit goals and move beyond simple data retrieval.'
+summary: Optimizing LLM Output Quality
+rationale: 'The speakers examined the variance in output quality between three operational states: the base model, the model with context, and the model with both context and guidance. Fulvio argued that providing guidance through context creates the most effective results, as it allows the model to align with the user''s implicit goals and move beyond simple data retrieval.'
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 64.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 12.6
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 109
+tier: queue

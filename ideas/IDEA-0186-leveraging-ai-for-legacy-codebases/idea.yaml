@@ -1,0 +1,28 @@
+id: IDEA-0186
+slug: leveraging-ai-for-legacy-codebases
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-04-15'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan explained that their current work involves building scaffolding around a mature, existing codebase, and they are increasingly relying on Claude for better code production, following the structure that Claude suggests for managing repositories and documentation (00:22:40). Juan noted a transition toward using Claude for complex tasks like transforming Jira tickets into Statements of Work and drafting architecture decisions, moving toward a preference for the Claude ecosystem (00:23:52).
+summary: Leveraging AI for Legacy Codebases
+rationale: Juan explained that their current work involves building scaffolding around a mature, existing codebase, and they are increasingly relying on Claude for better code production, following the structure that Claude suggests for managing repositories and documentation (00:22:40). Juan noted a transition toward using Claude for complex tasks like transforming Jira tickets into Statements of Work and d
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 71.9
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 7.8
+  concretion: 15
+  uniqueness: 15
+  carryover: 0
+rank: 27
+tier: queue

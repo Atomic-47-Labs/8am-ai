@@ -1,0 +1,1255 @@
+meeting:
+  date: '2025-05-21'
+  title: 8am-AI 2025-05-21
+  participants:
+  - David Olsson
+  - Hanif Janmohamed
+  - Scott Morton
+  duration_s: 3244.46
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 0.16
+  t_end: 2.24
+  text: Some. Right. So I'm like, okay, where the is that?
+- id: u2
+  speaker: David Olsson
+  t_start: 8.56
+  t_end: 15.2
+  text: So I'll find them later. My trucker. How you been?
+- id: u3
+  speaker: Hanif Janmohamed
+  t_start: 15.36
+  t_end: 16.56
+  text: In some pocket.
+- id: u4
+  speaker: David Olsson
+  t_start: 17.28
+  t_end: 19.28
+  text: In some pocket somewhere. That's right.
+- id: u5
+  speaker: Hanif Janmohamed
+  t_start: 19.84
+  t_end: 28.21
+  text: Probably where they are lurking. How's your visit? How's your. How's the DNPs?
+- id: u6
+  speaker: David Olsson
+  t_start: 29.25
+  t_end: 32.61
+  text: Hey, so I. I think I'm next week.
+- id: u7
+  speaker: Hanif Janmohamed
+  t_start: 33.25
+  t_end: 34.45
+  text: Oh, you're next week?
+- id: u8
+  speaker: David Olsson
+  t_start: 34.77
+  t_end: 35.27
+  text: Yes.
+- id: u9
+  speaker: Hanif Janmohamed
+  t_start: 37.97
+  t_end: 39.49
+  text: What's the week here? A week there?
+- id: u10
+  speaker: David Olsson
+  t_start: 39.49
+  t_end: 62.33
+  text: Yeah, it's a week. Hey, good morning, Scott. Yeah, so this time next week, I'll. I'll be probably. I've seen you almost. I'll be in Vancouver sometime Monday, I guess, driving there and. And then we'll be there until Friday and then it'll be like four of us.
+- id: u11
+  speaker: Hanif Janmohamed
+  t_start: 62.73
+  t_end: 65.61
+  text: Okay, well, let me know what looks and then.
+- id: u12
+  speaker: David Olsson
+  t_start: 65.85
+  t_end: 72.97
+  text: Yeah, I'll have to figure that out in the next couple days because. Involves doing things and committing to, like being a booth babe.
+- id: u13
+  speaker: Hanif Janmohamed
+  t_start: 73.21
+  t_end: 73.93
+  text: Yeah, I know.
+- id: u14
+  speaker: David Olsson
+  t_start: 75.13
+  t_end: 78.49
+  text: Yeah. And having something to show, but.
+- id: u15
+  speaker: Hanif Janmohamed
+  t_start: 79.05
+  t_end: 79.55
+  text: Very cool.
+- id: u16
+  speaker: David Olsson
+  t_start: 79.53
+  t_end: 83.15
+  text: Yeah, that'll be very cool. Hey, Scott. It's been a while. Good to see you.
+- id: u17
+  speaker: Scott Morton
+  t_start: 86.35
+  t_end: 91.15
+  text: Yeah, nice. Nice to see you too, David. Yeah, just busy.
+- id: u18
+  speaker: David Olsson
+  t_start: 91.55
+  t_end: 92.27
+  text: Oh, yeah.
+- id: u19
+  speaker: Scott Morton
+  t_start: 92.51
+  t_end: 102.03
+  text: And then I opened up my project and super base said, put it in the archives because I hadn't used it for 30 days or whatever it was.
+- id: u20
+  speaker: David Olsson
+  t_start: 102.43
+  t_end: 103.29
+  text: Right. Right.
+- id: u21
+  speaker: Hanif Janmohamed
+  t_start: 104.59
+  t_end: 105.31
+  text: Seven days.
+- id: u22
+  speaker: Scott Morton
+  t_start: 106.43
+  t_end: 107.79
+  text: I'd love to show you.
+- id: u23
+  speaker: David Olsson
+  t_start: 108.76
+  t_end: 109.26
+  text: Oh, yeah.
+- id: u24
+  speaker: Scott Morton
+  t_start: 109.32
+  t_end: 137.7
+  text: What I was doing because it's all finished and polished without data. Yeah. Because I, I just, I just didn't. Like, I clicked on 10 minutes ago and I'm like, oh, yeah. And I'm like, this is not a problem I can solve in 10 minutes. So I'm happy to share with you what I've done and like the features and everything that I've done. And this was all done with, with AI. Like, I didn't do, like, it wrote all the code, everything.
+- id: u25
+  speaker: David Olsson
+  t_start: 138.26
+  t_end: 142.58
+  text: So. Yeah, that's a great man.
+- id: u26
+  speaker: Scott Morton
+  t_start: 142.9
+  t_end: 145.18
+  text: You guys can, you know, I, I.
+- id: u27
+  speaker: Hanif Janmohamed
+  t_start: 145.18
+  t_end: 150.1
+  text: Had the same issue with Supabase, but it's really quick. It restores it very fast.
+- id: u28
+  speaker: David Olsson
+  t_start: 150.74
+  t_end: 151.34
+  text: It did.
+- id: u29
+  speaker: Scott Morton
+  t_start: 151.34
+  t_end: 173.05
+  text: It was. And I'll show you, like, everything. It just. What happened was the, the back end is not communicating with the, with the database anymore. So I think it's like a key or something or, you know, I'll troubleshoot it later. It won't happen right now. I'm not gonna live troubleshoot it.
+- id: u30
+  speaker: David Olsson
+  t_start: 173.05
+  t_end: 175.05
+  text: So that's a good one.
+- id: u31
+  speaker: Scott Morton
+  t_start: 175.69
+  t_end: 178.81
+  text: Yeah, I'm just not, not, not doing that.
+- id: u32
+  speaker: David Olsson
+  t_start: 181.45
+  t_end: 181.95
+  text: So.
+- id: u33
+  speaker: Scott Morton
+  t_start: 182.01
+  t_end: 270.87
+  text: Login page. This is secret data for investors. So I have to have a login page. And it's just Me right now. It's not secret data. It's just the investor data. Like, how much. So right here I had the list of investors, Their names, their holders, total shares, percent owners, cost per share, phone number, email, just like a. Just like a thing for me to. To. I'm gonna have to pay for super base if I want this available all the time, which I kind of do. And then what happens is, you know, you can refresh the table in case I've made any backend changes or anything like that. This cool moto. I don't know if it's going to work or not. Oh, yeah, it will. So what happens is, you know, I buy shares. So each time I buy shares, it's a transaction. So they don't. They don't add my shares together in the trust company. They're just like, it's a transaction. It's logged as a transaction. But that's not what I want. I want to understand how much my investors own and, you know, all that sort of stuff. So I want them together. So I made this matching modal where you could just take the name and say, Scott Morton transaction 62175 is also transaction Scott Morton 72565, whatever it is.
+- id: u34
+  speaker: David Olsson
+  t_start: 270.87
+  t_end: 271.37
+  text: And.
+- id: u35
+  speaker: Scott Morton
+  t_start: 271.22
+  t_end: 471.84
+  text: And you match those, and then it just adds the percentage own together so that you get a complete understanding of your investors and how much they own in your company. Then I ran into a problem. You'll say add to existing match. You might wonder why that's there, because I was trying to add, and then I was like, oh, I forgot this one. But then it wouldn't let me add to it. So I had to make a whole new section where I could pull out existing matches and add onto those. I mean, this stuff is problem solving and super fun for me. That's just one of the features that I put in there. Then you can see that you can sort them. There's sorting arrows. This summary table. What happens is it takes everything and compiles it. All those matches that I made on the original table, it then just compiles those and makes a really nice clean table so that I have the shareholder, their name, the total shares, their ownership, and then the status of them. And it's just like, that's the table that I would use and print and use for the board and, you know, that sort of thing. And. And so, I mean, it took me 11 hours to make this, basically. So I broke it. It took me. I spent about 11 hours. And then, remember I told you I broke it and I walked away from it. And I just didn't do anything for probably a week. And then what I did was I came back and it took me 11 hours to recreate this. And honestly, when I was developing, and if I was doing a project like this, it would have taken me a month. And I'm a slow developer. I know that maybe faster developers could have done it quicker. But I'm comparing myself to what I did with, with the AI. And so the tools that I used were super base. I used a react JavaScript. And what was the other? It was the I can't remember V vite V I T E. Yeah, so I used, I used that as well too. And then, and it was a full stack, so it's front and back end, supported by a database. And it was just kind of fun to do the development with the computer. Somewhat frustrating sometimes it wasn't doing exactly what I wanted and it would kind of anticipate what I wanted. And I was like, shut that shit down. Do what I tell you. And I had to tell it, I think six times before it, before it really locked in. Which I find that with a lot of AI work that I do now is you gotta tell it not to sort of go off on a tangent and just do exactly what you want it to do. So unfortunately, I don't. Like, I can show you that I do actually have the Supabase table opened up because I was like, well, this is what I wanted to display. But this is the super. Like, I have a database and yeah, you just got to connect it, right. And then here are the matches that I made. I just did some matches.
+- id: u36
+  speaker: David Olsson
+  t_start: 472.88
+  t_end: 473.76
+  text: It's all functional.
+- id: u37
+  speaker: Scott Morton
+  t_start: 474.56
+  t_end: 533.62
+  text: Yeah, it all works. And it like, I tested it and like there's a couple little inconsistencies. Like when you go to, when you go back to the main table, this table right here, when you're back here and you want to edit something, I found an error that the AI didn't pick up is like when I go in and I say, okay, I want to edit the share, say the database is wrong, but I will live edit this table. It allows me to do that because I'm the database administrator. And so I gave myself those powers. Um, I, I, I edited the, the shares and then it came back blank. And that's because I had to edit every single field. They want me to edit every single field. I don't know where that artifact comes from, but that's just something that I'll have to figure out. Like, it was super weird and I tested it Twice. And I was like, oh, this is, this is annoying.
+- id: u38
+  speaker: David Olsson
+  t_start: 533.86
+  t_end: 534.36
+  text: Right?
+- id: u39
+  speaker: Scott Morton
+  t_start: 534.18
+  t_end: 544.75
+  text: Because you have to recopy everything and then it saves it as a whole block. And I'm just like, that's not what I want. Anyways, that was the only thing that's left to do.
+- id: u40
+  speaker: David Olsson
+  t_start: 545.79
+  t_end: 570.75
+  text: One of the things that I've found. With the tools is that if you. Could describe your conundrum well and you've. Got it running locally, then it will do the log thing and it will dig deep into it and generally it'll find some way to help you. But I love what you've done, man. This is, this is awesome. So you, when you say a month. You say like a full time kind of month of doing this kind of work.
+- id: u41
+  speaker: Scott Morton
+  t_start: 570.75
+  t_end: 765.74
+  text: Yeah, well, it was the trouble. Yeah, yeah, it's easy to get the structure and the concepts ready. Like, I know James and I were talking about it earlier. Like, we're not, you know, I haven't coded for six, seven years. Like, it's not something that I do on a daily basis, but I have enough knowledge to like, guide the computer to what I want it to see. Like, I'm the artist and it's the, it's the painter. Do you know what I mean? Like, I'm the creative portion and it does the heavy lifting. And that's, that's really what I appreciate it for. Now, I've tried a couple of other tests, like to use AI differently and, and sorry, I'm kind of dominating the conversation, but, but I tried to write, it's called a, a concurrent table for the aer. And so what that does is that the AER is the regulator here in Alberta and they hate diving into other documents to pull out information. And so I've just, I tried to construct a table with the AI based on those documents. And so I had six documents that I was pulling information from. And I thought this would be a very simple, easy task for the AI because it's like reading documents and text and everything. It turns out it's not easy at all and it makes a ton of mistakes. So I just, I'm working my way through that and I should have something to show you guys maybe next week or the week after. But it was a frustrating exercise because I'm like, the AER is asking for specific items. I know I've provided those specific items, but not in the order that they asked for. So I'm using the documents where I've provided this information to pull those items out. And I want them to be listed in the order that The AER wants. I thought that would be a very straightforward task for the AI for some reason. Either it's my prompting or it's, you know, I'll probably talk to you, David, after separately just on what it is. But it. It was. It's been, I would say 15 to 16 hours working with the computer on this and three or four different restarts on. Just on. On how to get this done. And it's. It's not. I have not figured it out quite yet but I'm open to ideas and I'm happy to share more if you guys are interested in what I'm doing. But it was very difficult for it to handle those six docs because they're all formatted differently. They're all similar information but nuanced and different information like groundwater monitoring plan versus groundwater monitoring program. You know, there are differences to those. Those nuanced and so it just. The computer is not. It's not where I would want it to be. But it did help me a little bit.
+- id: u42
+  speaker: David Olsson
+  t_start: 765.82
+  t_end: 766.32
+  text: Right.
+- id: u43
+  speaker: Scott Morton
+  t_start: 766.46
+  t_end: 795.62
+  text: So I'm kind of doing it because I have to get it done for this week. I have to do it a little bit. I'm going to have to do most of it manually. Right. Which is unfortunate. So I spent the last couple of weeks trying to get it done with the computer and get a good workflow, but it just wasn't successful. Which I mean we're all going to find those things every now and again. So where it can't really help you. Which is unfortunate because I feel like it's a task it should be able to do.
+- id: u44
+  speaker: David Olsson
+  t_start: 797.54
+  t_end: 821.15
+  text: Yeah. And I think I to call it. And it should do a better job than you're experiencing. But what you're experiencing is what it offers for sure. And that's the ability to try things out a lot and then not get to where you want to, but maybe see the path. And a lot of it can be the model that you select can be better than others.
+- id: u45
+  speaker: Scott Morton
+  t_start: 822.43
+  t_end: 824.75
+  text: I tried two models I tried.
+- id: u46
+  speaker: David Olsson
+  t_start: 824.75
+  t_end: 825.25
+  text: I.
+- id: u47
+  speaker: Scott Morton
+  t_start: 826.03
+  t_end: 846.77
+  text: So guys, I exclusively use chat GPT for this type of work. Like when I'm comparing documents and grabbing summaries, I just feel like it's the best one that I've experienced. Gemini doesn't work as well. Co pilot's not as good. You know, that sort of stuff. I haven't tried Cloud or anything but I feel like those are different models for different tasks.
+- id: u48
+  speaker: David Olsson
+  t_start: 847.57
+  t_end: 848.07
+  text: So.
+- id: u49
+  speaker: Scott Morton
+  t_start: 849.73
+  t_end: 864.14
+  text: Yeah, I tried the 4:4:0 and then the newer model. The. The most updated. The most updated model. What one was was the. Whatever the.
+- id: u50
+  speaker: David Olsson
+  t_start: 864.7
+  t_end: 868.5
+  text: Yeah. The research? Yeah, yeah.
+- id: u51
+  speaker: Scott Morton
+  t_start: 868.5
+  t_end: 878.38
+  text: So I use 4.4.0 and 4.5 and I tried to do the same thing on both models and I got similar results.
+- id: u52
+  speaker: David Olsson
+  t_start: 879.18
+  t_end: 890.81
+  text: So, okay. Do you have a finalized template, like a final, do you have like a final form that you could. Point to and say that's what it needs to look like?
+- id: u53
+  speaker: Scott Morton
+  t_start: 894.81
+  t_end: 940.4
+  text: I described it, David. I do have a document. I do have a document that I could say, you know, this is the format that I'm looking for. It wasn't formatting issues. It was like going into the document and giving me poor results on my. So I'm asking for a reference, right? I'm saying, okay, here's what the AER wants. Scan these six documents, give me all the references from these documents in this order that you find associated with this question, and I can give you an example, you know, description of groundwater monitoring well development protocols. Right. Where have I described that before and what document?
+- id: u54
+  speaker: Hanif Janmohamed
+  t_start: 940.69
+  t_end: 941.19
+  text: Right?
+- id: u55
+  speaker: Scott Morton
+  t_start: 941.01
+  t_end: 988.11
+  text: And I said, go fetch that information and give me all the references and then give me the exact quoted text from that document. It struggled to do that in both models. It just could not handle that, that level of, of, of, of what my request was. Right. I mean, I mean, I can go and find and search and I know what I'm looking for. You know what I mean? And it would always come close. It would be within like a, two or three pages of what I would want. Like, it's close, but it doesn't get, it doesn't get the exact text. And then it would summarize everything, which is not, which is not what I'm looking for. Right?
+- id: u56
+  speaker: David Olsson
+  t_start: 987.93
+  t_end: 991.05
+  text: Yeah. You have to be very, very exact in terms of what you.
+- id: u57
+  speaker: Scott Morton
+  t_start: 991.53
+  t_end: 992.09
+  text: I did.
+- id: u58
+  speaker: David Olsson
+  t_start: 992.33
+  t_end: 1082.11
+  text: It tends to, you know, it tends to summarize. And so you have to go a fair distance to tell it to be comprehensive and not to summarize. And you'll still get it to summarize. So your experience is consistent. And I'm not saying you didn't do. Everything that's available, it's just what you're. Asking it to do may be better in different models. And I would suggest that my experience in Claude, creating a project of all your documents and then working it in that regard will probably provide you a better experience of creating human readable documents and having a conversational experience with your data. If you have, if you have a. Template of what needs to be conformed to, that's great. And so that's an example of how it can look, and that'll help you out in many regards. But if you also have Say descriptions, like examples of what you're looking for in the document. You say, I need descriptions of brown. Water in this situation. It's like, and here's an example of it, quote. Yeah. And then it knows, it sort of. Knows what to look for. And then so you, you can do. What, you can build it sort of. A Runway of the prompt and say, okay, that's working fairly well. Go find another one yourself. It's like this and like that. And so what you're doing is you're giving it ways to learn how to. Go through your content. And so all I'm pointing out is how we do it programmatically is that we'll give it, we'll give it a system prompt saying this is what your. Role is and this is how you think about things. And then here's your steps. You go through it this way and then here's examples of what that looks like. Yeah.
+- id: u59
+  speaker: Scott Morton
+  t_start: 1082.33
+  t_end: 1104.57
+  text: So the only thing that I didn't do, David, and, and I can, and I can honestly say that is the last part. I didn't give an example because though I guess what I thought the text in the question that I'm looking for the information for, I thought that was going to be enough for an example, but clearly not, right?
+- id: u60
+  speaker: David Olsson
+  t_start: 1104.57
+  t_end: 1167.52
+  text: Yeah. And the more expert you get to. The, the more that it's not likely to do that. But I, I have my experience with. The oil and gas stuff. It has a great deal of knowledge. It's just not, it is generalized in. How you talk to it. And that's the problem. But what you're asking for, I would. Have had the same sort of assumptions around and I would have spent, you know, probably a considerable amount of time because I'm doing the same thing, processing sort of a handoff package in oil and gas, which has a lot of unstructured data. I'll put a bookend on my side of this. The way that I'm dealing with that. Is I'm like, okay, what I have is inadequate. I need to pre process the information and put it into a structured format. And so moving forward, what I would suggest is you have a lot of information. If you put that together and call what I call it like a corpus. Of really organized information, what you're asking. To do can be done effectively well in the near future, if not now. Just in a different way. But if you start with here's all of my information in a data, really. Really succinct data structure like you already have. Yeah.
+- id: u61
+  speaker: Scott Morton
+  t_start: 1167.26
+  t_end: 1170.54
+  text: Like it's reports, it's six Reports. That's what it is, right?
+- id: u62
+  speaker: David Olsson
+  t_start: 1170.62
+  t_end: 1217.27
+  text: Yeah. I'm just telling you the strategies use. At a programmatic level and, and you're doing some of those, and I'm just saying you can go a little farther. With them, but it's not any different. Than what you're doing. It's just, there is a way of being more precise with it. It just takes longer and it's still. You could still be peeing up the wrong wall. Yeah, yeah, yeah. But what you did with your, with your first experiment, you can take it a lot farther in terms of you, you can get it where you're finding the problems in the SQL. You could just, you could just put. An AI layer over top of that. I'll leave that, I'll leave that with you. Just like, I want to be able to just ask IT questions. And there are already projects out there that will do the natural pattern language to SQL so that you don't have to.
+- id: u63
+  speaker: Scott Morton
+  t_start: 1217.92
+  t_end: 1225.28
+  text: Yeah, yeah. And, and I mean, I just, I just asked the, I just asked the AI for the SQL stuff.
+- id: u64
+  speaker: David Olsson
+  t_start: 1225.68
+  t_end: 1227.44
+  text: Yeah, I know. And what I'm saying is, like, it.
+- id: u65
+  speaker: Scott Morton
+  t_start: 1227.44
+  t_end: 1242.08
+  text: Just tells me I, I don't even have to get an overlay. And I just, I know because I've worked with SQL before, so I kind of know the pattern, so I'm just like, I just. Yeah, that's fine. And I just plug it into super base. Done. Immediate.
+- id: u66
+  speaker: David Olsson
+  t_start: 1242.32
+  t_end: 1242.96
+  text: Immediate.
+- id: u67
+  speaker: Scott Morton
+  t_start: 1243.37
+  t_end: 1247.85
+  text: Yeah, it was awesome. It was so quick. I've never developed anything so fast.
+- id: u68
+  speaker: David Olsson
+  t_start: 1248.25
+  t_end: 1255.61
+  text: What I'm getting at is you can put the AI layer on top of. It just as fast without knowing, because. You know the layer underneath the SQL. And you'll know if it's working.
+- id: u69
+  speaker: Scott Morton
+  t_start: 1256.09
+  t_end: 1257.69
+  text: Oh, right. Yeah, you're right.
+- id: u70
+  speaker: David Olsson
+  t_start: 1257.69
+  t_end: 1271.85
+  text: Yeah. Okay, so because your UI is a kludge, right? You know that where you're trying to do the matching thing, you're actually. Because I know SQL, I can solve the problem. But what I'm getting at is you're very close to. You just let the AI make a whole. Your program.
+- id: u71
+  speaker: Scott Morton
+  t_start: 1273.22
+  t_end: 1294.26
+  text: I tried doing that. I tried doing that. And so unfortunately, like, some of the names are like David S. Morton or David Scott Morton. Like, it wasn't, it wasn't exact matching names. And so I gave it a little bit of leeway. I gave it a little bit of parameters. I did, I really did try this. David, like, I know, yeah, I'm just.
+- id: u72
+  speaker: David Olsson
+  t_start: 1294.26
+  t_end: 1294.98
+  text: Trying to push you.
+- id: u73
+  speaker: Scott Morton
+  t_start: 1295.22
+  t_end: 1321.89
+  text: No, no, I did. And, but I, I came back to the modal only because I spent about two hours trying to. Two hours of the 11, trying to get it to match the names properly and, and like, get a good match. And then I was asking it to check, like, I, I was like, well, if I'm asking it to check the matches, I might as well just make the matches myself because I couldn't trust. I couldn't trust the matches that they were making.
+- id: u74
+  speaker: David Olsson
+  t_start: 1321.89
+  t_end: 1349.89
+  text: No, no, I hear you. Yeah, we usually. And so what, what I find is where the AI falls off, you get more ui. Yeah. And so the UI is kludgy, but it will often work. And that's just, that's. And so what you can do is you can supersede that or you can jump the shark tank by. After you've played around with this for a while, pursue the idea of like, because how's that. You get that AI layer on top of that, man. And I'll, I'll, I'll give you a hundred bucks for that system. How's that?
+- id: u75
+  speaker: Scott Morton
+  t_start: 1350.21
+  t_end: 1351.99
+  text: Yeah, yeah, exactly. Right?
+- id: u76
+  speaker: David Olsson
+  t_start: 1352.4
+  t_end: 1362.32
+  text: Yeah, yeah. Because every, everybody that we talk to. Has investors and everybody has a cap table and everybody doesn't want to talk about it. They would like to talk to it.
+- id: u77
+  speaker: Scott Morton
+  t_start: 1362.64
+  t_end: 1366.56
+  text: Right. Like, everybody hates it. So I will, I will.
+- id: u78
+  speaker: David Olsson
+  t_start: 1366.8
+  t_end: 1367.3
+  text: I'll.
+- id: u79
+  speaker: Scott Morton
+  t_start: 1367.44
+  t_end: 1372.4
+  text: I'll see if I can get the AI layer on top of it, and then they can just upload their super cool.
+- id: u80
+  speaker: David Olsson
+  t_start: 1372.96
+  t_end: 1373.52
+  text: Yeah.
+- id: u81
+  speaker: Scott Morton
+  t_start: 1373.76
+  t_end: 1384.89
+  text: And then that's just what it is. It's just you automatically have a cap table and you can adjust it and whatever. Right. Like, I'll spend years updating this for people who want stuff.
+- id: u82
+  speaker: David Olsson
+  t_start: 1386.17
+  t_end: 1427.91
+  text: Yeah. So I have this theory on how there's, you know, there should be consistent liquidity from the idea. From the idea to, you know, whatever it reaches as a commodity. And if you have a data room that you begin with that's fairly organized and straightforward like you do, this is the beginning of a data room, then maybe you can get out of valuation at any point in your life instead of at the critical points where you know that there's a transaction going on. That's usually the only time you can have a critical investment opportunity is when you know that there's impending transactions. And so what you got is what. I've been looking for to build upon. In terms of the simulations that I. Do, because it's a really reasonable thing.
+- id: u83
+  speaker: Scott Morton
+  t_start: 1428.31
+  t_end: 1456.12
+  text: Yeah, no, it's. I'm very practical guy, David. Like, this was one of the, Like, I've gotten this question all the time and like, I don't know if you noticed, but on my summary table, I actually have an investor count, so it only Counts the records that are on the summary table. Like if it's a combined record, it's one record. So I know like because when you have the other table you have 75 investors. But I know that's not true.
+- id: u84
+  speaker: David Olsson
+  t_start: 1456.36
+  t_end: 1456.86
+  text: No much.
+- id: u85
+  speaker: Scott Morton
+  t_start: 1456.81
+  t_end: 1485.78
+  text: I know I'm over 50, but I know I'm not 75. So what is the actual real. Because of all the, all the extra transactions that multiple people have made over, over the years, it just, it was easy and then I can report out on, on number of investors and yeah, it's, it was very practical solution and it was something that I needed because I am going out to, I am going out to investors and they want to know this information and then I just pull up my laptop and show them.
+- id: u86
+  speaker: David Olsson
+  t_start: 1486.18
+  t_end: 1613.7
+  text: Right? Yeah. So a reason I engage you on this is because I'm in the space. Of taking documents that are oil and gas that are unstructured from the point of view that there's a bunch of them and that they all have some form of data. And then I'm building a tool to then be able to create functional text of it as a step towards making their documentation functional. And the next step that I will take with the data is labeling it. And the LLMs are quite good at that if you set it up in a way that has been tested and true. And so we will be doing that. Extensively with this, which is somewhat of what you're describing is like you have these two different people but they can get the same label. Yep. Right. And so yeah, there are, there are strategies around that. And what's interesting about it is a. Lot of the time if you can. Send the data set, you can't send your data set to the LLM necessarily. But if you can send your data set to the LLM, it'll figure it out for you. Yeah, but what we're going to do. Here is go through just like you are in some ways. I'm going to go find everything that's. Cross referenced across all of these documents. Right. All these documents refer to each other. All these documents have cross tabulated data. And what we want to do is flatten all that shit out. And so we're going to go through the exact same thing you are at a granular level and then build it up. So I applaud you for what you've got in terms of what you're building out and note that we are working on solutions like this and what I'm suggesting, it may not get you 100% there, but it's the best strategies that we can suggest. Yeah. So, but a tool like this has different agents in it. So this is worksona. And so all these agents are slightly. Different in their prompting. These ones, some of these aren't. But this image analyzer is very specific to how I wanted it to go. I had spent hours on this agent and it says return only extracted.
+- id: u87
+  speaker: Scott Morton
+  t_start: 1613.86
+  t_end: 1616.34
+  text: Yeah, yeah, yeah.
+- id: u88
+  speaker: David Olsson
+  t_start: 1617.06
+  t_end: 1665.41
+  text: After. After how many times? And I repeat myself almost three times in that prompt. And it does a great job of only extracted text now. But what you can do is you. Can ask it to have highly formatted text on the other side and you can give the template which you would like to conform that text to, and then you're more likely to get it back. And where we're going with things, that more likely piece, it's going away. So even though I'm ending up in wanting with the same thing over here, different document types require different kinds of kind of agents. And then they might have different specific tooling. But it is the case that the LLMs are good at picking apart documents if you have the right model and the way that you process it, which. Is usually multi step.
+- id: u89
+  speaker: Scott Morton
+  t_start: 1666.21
+  t_end: 1666.71
+  text: Yes.
+- id: u90
+  speaker: David Olsson
+  t_start: 1667.41
+  t_end: 1668.65
+  text: Yeah, yeah.
+- id: u91
+  speaker: Scott Morton
+  t_start: 1668.65
+  t_end: 1755.76
+  text: I've. I've come to realize that unfortunately is, is that like, for example, I went through just. And if, you know, the aer, they, they have a list. So they'll always have a checklist for themselves, which makes it really easy for me because I just. They have their checkbox and I respond under their checkbox. So they want, for example, description of the groundwater monitoring well development protocols. Well, I know that I've done that protocol in three different, separate documents. I have three different references and then I have the quoted text underneath. That's literally what I wanted. But it was, it's not there yet. And it's, it's just like you said, I got to, I got to dig deeper and work on it a little bit more and be a little bit more specific with the prompting and, and maybe given an example of how I want it. And you know, and the. I did give it that structure, but it just, it seemed to seem to go off on tangents for some reason. Yeah, summarizing and giving me poor references. Like it was pulling the reference out of it and I was like, I'm looking at that exact page and I would send the image and I'm like, nothing is on that page with reference to groundwater development protocols. It's like, it's just not even close. Right.
+- id: u92
+  speaker: David Olsson
+  t_start: 1755.66
+  t_end: 1756.16
+  text: So.
+- id: u93
+  speaker: Scott Morton
+  t_start: 1756.22
+  t_end: 1781.46
+  text: So there's something that I'm doing wrong. Like I really believe that Computers just do what they tell us, what we tell them to do, and I'm telling it to do something wrong and that's really how I feel. So it's, I feel like it's on my end that I have to sort it out. It might not be, but I'll exhaust as much as I can on my end to be as specific. And then, and then I'll have to take a. I, I did mark down that Claude did this better, so I might test clone.
+- id: u94
+  speaker: David Olsson
+  t_start: 1781.94
+  t_end: 1934.15
+  text: Yeah. So what I'm thinking about this right now is this might be a better. Because you're a nerd. You can go down to your ide. I use my IDE to do word. Processing and to work across documents, to move stuff on my computer and re. Rename them. Yes, it will build Python tools. Now. So what, what, you know, what we would normally do with your stuff isn't using LLM, we would use data analytics. Tools to go through and you would give it examples and it would still be able to do that for the most part. And so what I'm getting at is. If you just tried the same thing. And you just try prompting the same shit inside your IDE with your documents in a folder saying, this is a project now can you output this for me? You can even point it to the website to say, here's the form. Yeah, yeah. So I've done that. I've gone to a lower level where I can see the tools being created for me. Because if you go into like the high reasoning models and you say show. Me this shit, usually it'll show you that it's creating Python tools. Yeah. And so. You'Ve got basically a really good regex problem at one side and. Then embeddings problem too. Like there's technologies that can help you. The reason I'm again talking to this, because that's where my headspace is and learning all this shit. Yeah, yeah, no, I do. The place where the LLMs show the. Most value right now is inside the IDE. Nowhere else in the world at all. Unless you are at scale of billions. Of dollars and you have data centers. The place to experience a thousand X. Where you can do more than you can in a chatbot is inside your idea. Because you can copy and paste any agent in there. Because I know that because I can run my worksona agents inside there. You can copy paste any agent in there and it's using work, it's using. An agent over top of it, but. You can still get your work done. And so there's there's ways of integrating. At the level of the IDE so that it can overcome a lot of the what we have as limitations right now for using the large language models. And since you're already making applications in there, show your documents and give them a whirl. Give it, give it a half an. Hour, let it turn on it and ask it to either build an app to do it or to just do it building tools. Okay. Because there you will get the combination. Of the AI and the fact that it could build you an application to do the problem.
+- id: u95
+  speaker: Scott Morton
+  t_start: 1935.75
+  t_end: 1946.29
+  text: Yeah. And so for the, for the development environment you're suggesting Worksona, is that like. No, no, no, no.
+- id: u96
+  speaker: David Olsson
+  t_start: 1946.45
+  t_end: 1961.31
+  text: Just, just the development environment like cursor or. No Surf or our VS code or whatever you want to build it. Actually, I think OpenAI has a. They all have cleaves, but they all have. I think you can code right inside Chat GPT now. Yeah.
+- id: u97
+  speaker: Scott Morton
+  t_start: 1961.13
+  t_end: 1962.05
+  text: Oh yeah, you can.
+- id: u98
+  speaker: David Olsson
+  t_start: 1962.13
+  t_end: 1967.51
+  text: Yeah. But inside like I have cursor so.
+- id: u99
+  speaker: Scott Morton
+  t_start: 1967.51
+  t_end: 1968.11
+  text: I'll just do it there.
+- id: u100
+  speaker: David Olsson
+  t_start: 1968.11
+  t_end: 1968.83
+  text: You got cursor.
+- id: u101
+  speaker: Scott Morton
+  t_start: 1968.83
+  t_end: 1980.07
+  text: Yeah, yeah, I, I bought that one. It was good. I tested it and then in a day I had 500 prompts. So I was like, I guess I have to upgrade.
+- id: u102
+  speaker: David Olsson
+  t_start: 1980.95
+  t_end: 1996.0
+  text: Yeah. So I, I use cursor quite a. Bit that's going on here. No, I can't up what I got going on but no, no, don't worry. About it, it's fine. I can do.
+- id: u103
+  speaker: David Olsson
+  t_start: 2022.33
+  t_end: 2033.45
+  text: The other thing you can do in the IDEs is go into ask mode. Or chat mode and yeah, if you. Have the whole of your content there. I don't. So it's gonna give me some answer.
+- id: u104
+  speaker: Scott Morton
+  t_start: 2033.85
+  t_end: 2034.49
+  text: Yeah, sure.
+- id: u105
+  speaker: David Olsson
+  t_start: 2034.81
+  t_end: 2075.899
+  text: If you have the whole of your. Content, then it'll read your content and then it will actually try to provide you an answer. And so it's building me something inside. This application to do things based on the code base. See what I said? Document process, there's already a document operations. Module and then it's going on and telling me how to do that kind of shit. So I want to get out of that and go back to my schedule. But again I'm pointing to some new place for you to play because you're. Already comfortable there and that. How many hours you think it's going to take for you to hand bomb. Your six documents into their format?
+- id: u106
+  speaker: Scott Morton
+  t_start: 2077.739
+  t_end: 2091.659
+  text: Oh, it's going to be a while. It's going to take a while because I'm cutting and pasting and searching and control and find. So you know, if there's, it's. It's not an insignificant amount of time.
+- id: u107
+  speaker: David Olsson
+  t_start: 2091.979
+  t_end: 2092.479
+  text: Right.
+- id: u108
+  speaker: Scott Morton
+  t_start: 2092.459
+  t_end: 2096.059
+  text: That's why I was willing to spend quite a bit of time with the AI.
+- id: u109
+  speaker: David Olsson
+  t_start: 2096.77
+  t_end: 2097.27
+  text: Yeah.
+- id: u110
+  speaker: Scott Morton
+  t_start: 2097.17
+  t_end: 2109.17
+  text: Because I felt like that was time well spent on learning how to do this task, which is a very normal task that you have to do on a regular basis. For the aer.
+- id: u111
+  speaker: David Olsson
+  t_start: 2111.25
+  t_end: 2122.29
+  text: We'Re in quality control, Right. It's the same problem with the app side and everything. Right. So like I say, we're in the same problem space. And so, yeah, yeah, let me know how things.
+- id: u112
+  speaker: Scott Morton
+  t_start: 2122.93
+  t_end: 2152.96
+  text: I'll try it in cursor, I'll upload my documents to cursor, I'll open a new thing, I'll see if they can write me some Python scripts and, and I'll give it an example of how I want it done and, you know, that sort of thing. And I'll. I'll work it out and I'll see what I can get done. I mean, I have the. Till the end of this week to get it done. So if I spend another couple of hours on it today, testing it in cursor, I feel comfortable doing that, that I can get it done by Friday, you know?
+- id: u113
+  speaker: David Olsson
+  t_start: 2153.03
+  t_end: 2166.87
+  text: Yeah, that was, that was my thought. If you'd send like 10 or 5%. Of your time, you know, you can get that back, but pulling harder somewhere. But yeah, just to see because it's a. It's a grinder, man.
+- id: u114
+  speaker: Scott Morton
+  t_start: 2167.59
+  t_end: 2192.38
+  text: It's terrible because they want, they have. I. I think it's like 45 things on the checklist that I have to go and it's like search and retrieve and I already know that I've written shit on it and I'm like, why do I have to do. Redo it again and cut and paste and it's just a. It's a nightmare, right, the way that they want this done. So what, easy for them, hard for me.
+- id: u115
+  speaker: David Olsson
+  t_start: 2192.7
+  t_end: 2203.26
+  text: Yeah, I know, I know. They can ask anything. That's what I realized. They just ask whatever they want and they get it because of the position and the environmental is just like safety.
+- id: u116
+  speaker: Scott Morton
+  t_start: 2203.26
+  t_end: 2206.46
+  text: The religion. Just don't kid yourself, it's a religion.
+- id: u117
+  speaker: David Olsson
+  t_start: 2207.21
+  t_end: 2296.9
+  text: Well, yeah, we're studying cults right now. Because they do have good tax break to save us. No, I mean churches. Sorry. Same sort of stuff of language there. What we're doing right now is using. The IDEs to document our code. We're not documenting any of our code and we document our code in a way that we want to be able to read, rebuild our code. We're looking at the specification being quite rigorous. It's looking at all kinds of stuff and I still want it to be a readme that you can follow Travis. He's building the back end out for our quality control project and the home Office application and he delivered it as a GitHub repo. I went into my IDE, I created a folder, I went into my IDE, I said, here's the git. And it went, downloaded it and then installed it. And then I said, help me run this application. And I dragged the readme into the chat window. It would have found it. It just takes a while to find files. The readme has enough info to then start building out the whole of the project for me within 15 minutes. It's really quite something. Within 15 minutes, I went from zero to having a fully running development environment from the time I found the link and I was able to get the. Right authority to download the repo.
+- id: u118
+  speaker: Scott Morton
+  t_start: 2297.7
+  t_end: 2318.75
+  text: I truly believe that, David. I truly believe that because when I did my application, I set up my get. I set up everything. It didn't take me 15 minutes, it took me more like an hour. But I was up and running and testing code within an hour, which is insane.
+- id: u119
+  speaker: David Olsson
+  t_start: 2319.87
+  t_end: 2368.2
+  text: Yeah, I use lovable.dev for stuff that. I want to get a view of a UI on development environment. It's mostly UX. Then I can just attach it to my GitHub and bring it into my desktop and it does a better job. Of fixing it, taking the rest of the way. And so there's this really neat thing. Going on where the IDE is super powerful. It can then because it's attached to. GitHub repo, I go back to the. Lovable.Gov, it reloads what I've done on my desktop and I can work with it there. So if you get a workflow with. The IDE that's pretty jazzy and since you're nerdy, it can be super powerful tool. I, I discovered that it could publish. To websites for me to netlify and.
+- id: u120
+  speaker: Scott Morton
+  t_start: 2368.2
+  t_end: 2372.64
+  text: Railway like publishes to websites. You don't have to do it manually.
+- id: u121
+  speaker: David Olsson
+  t_start: 2372.64
+  t_end: 2437.81
+  text: Yeah, it'll like. Yeah, so it, it'll, it'll, it'll do all the GitHub management, of course, and then it will actually, then with your credentials, you add your credentials. Everything goes directly to netlify now. And if it doesn't work there, then. I can go to another service called Railway which will build me the database. That's the only requirement is like I can't have a database effectively. Well with netlify. But yes, right in There I just. Like publish to netlify. I said that, and then it walked me through the process of getting the credentials set up in the IDE to then be able to do that. It taught me. And so now I ask it to. Teach me because my peers know a lot more about the back end than I do. And when they do things, I'm like, okay, cool. And so I. I was like feeling pretty hooped yesterday when I saw that. The repo was pretty extensive until I realized what I had in front of me. And that was the ability to figure. Out how to do it. Yeah. And I didn't even need to. I didn't even need to figure out how to do it. I just asked it to do it. And then it explains it to me as it's going. Yeah.
+- id: u122
+  speaker: Scott Morton
+  t_start: 2437.75
+  t_end: 2440.91
+  text: And that's what I really like. I do get it to explain stuff to me.
+- id: u123
+  speaker: David Olsson
+  t_start: 2441.4
+  t_end: 2487.08
+  text: Yeah. It's pretty cool. Yeah. So thank you for bringing that. That's because I think that's really neat to be able to see where you are and see that you've hit walls and you went down the rabbit hole and you counted the hours. That's a really important thing. And that, because that's for me, I think going to be a measure of how to pull myself out is through timers is because it becomes fascinating. But it's not the right thing for a business all the time. I. I met with Jason Kriskey last week and her on the weekend and I said, been. We've been talking about this stuff and. And I came up with the phrase shadow boxing. And in the context of what I feel like the work is a lot of the time. Yeah.
+- id: u124
+  speaker: Scott Morton
+  t_start: 2488.18
+  t_end: 2553.77
+  text: And so then you're getting ready for the big one. Like, and that's right what it is. Right. Like, obviously this little tool that I've made is. Is really helpful for founders and for people. You know, it'd be great. You just kind of upload your cap table and. And boom. It's. It's all. It's all there. The database is there and everything is there and it's all set up for you. I definitely could do that. Like, that is something that I could do. Is that profitable? I don't know. Maybe you would get 150 clients or something like that. You know what I mean? Like, it's not going to take the world by storm. But solving these small little problems allows you to move on to larger, sort of more complicated problems, which then that may be the one. Like, you just never know what the idea is. This was just a Practical problem that I needed to solve for my own business. And then you're like, oh hey Scott, that looks pretty good. Put an AI wrap on top of it so I can upload my stuff and then, you know, whatever and then we're done, right?
+- id: u125
+  speaker: David Olsson
+  t_start: 2553.85
+  t_end: 2565.09
+  text: Yeah. Startups don't require like integrated tools across the board, but if they had a. View for like their board members, they would everybody be super happy. And if it's not a spreadsheet then everybody's really happy.
+- id: u126
+  speaker: Scott Morton
+  t_start: 2565.09
+  t_end: 2569.05
+  text: But oh God, if you could just pull that up on the Internet and just be like, bam, bam, bam.
+- id: u127
+  speaker: David Olsson
+  t_start: 2569.13
+  t_end: 2611.22
+  text: Can you imagine that it's all secure? I, you know who saw it too, right? You have all this like. So there's a real benefit to it. Again, one thing that we're very aware. Of is the difference between building something and then supporting it is, is that's different. Yeah. And so building it for yourself and. Your mates and everything else is, is what I would suggest is a real term, you know, with all of the tools right now is a near term opportunity. Does it affect your workflow? Invest in it. And then like what's happening with the models right now is pretty crazy and it can feel super encroaching but you. You know, it can. The problems they will solve for us in the future aren't the ones that. We have right now.
+- id: u128
+  speaker: Scott Morton
+  t_start: 2611.46
+  t_end: 2619.22
+  text: No. And, and so I've seen, I've seen the potential, like I've asked it to do a couple of things that I, it just can't do.
+- id: u129
+  speaker: David Olsson
+  t_start: 2619.62
+  t_end: 2620.12
+  text: Right.
+- id: u130
+  speaker: Scott Morton
+  t_start: 2619.94
+  t_end: 2628.43
+  text: But I'm like, it's close. Like the answers were close. Do you know what I mean? And, and I just, I'll wait a month and I'll retest it.
+- id: u131
+  speaker: David Olsson
+  t_start: 2630.19
+  t_end: 2650.11
+  text: Yeah. I, so I thought with this delegator. Pattern that I, I really, I'm, I'm. Super happy with it because there's a. Lot of, a lot of Runway to be had with it. See, because it's the first case where you give a problem to something.
+- id: u132
+  speaker: David Olsson
+  t_start: 2701.85
+  t_end: 2788.16
+  text: Watch. It'll probably just fucking not work. After typing all that, making you look at me like that. That, that is the kind of problem. That you're probably looking at asking at a chat. GPT is like a sophisticated problem. Like take these documents, I've got this, I want to put them in there. Here's that. And so what the delegator does is it's created all these different agents and it's decomposed the problem I've given it and it's saying all these agents are. Now failing because of. We'll See what's failing from. With that many agents, everything is going crappy. The task is completely. With limited results due to API constraints. Oh, I throttled. Oh, I sent way too many all at once. You're not allowed to do that. I. I make an. I made an async. I think that's what happened. I made an async application. Anyways. This is the first time I thought I would actually be able to scale myself because I can give it a problem. It's super sophisticated and it will go through all this process. It's still going through it. Even though a lot of them are not going to complete their journey, they're still going to have summarized reports about the fact that they didn't complete their journey. I can't stop them. But I've had it Take Travis's migration plan and it built out 13 agents that seem very appropriate for it to. Decompose the task and start building out the application. Okay. And it had no domain knowledge.
+- id: u133
+  speaker: Scott Morton
+  t_start: 2790.88
+  t_end: 2791.38
+  text: Really.
+- id: u134
+  speaker: David Olsson
+  t_start: 2791.92
+  t_end: 2795.28
+  text: Is there like, I didn't give it any context. I just gave the document.
+- id: u135
+  speaker: Scott Morton
+  t_start: 2796.16
+  t_end: 2796.88
+  text: That's it.
+- id: u136
+  speaker: David Olsson
+  t_start: 2799.12
+  t_end: 2813.53
+  text: What it did is it built out all the agents and their obligations into. How to take that plan and then make it work. And so it decomposed the problem and said it needed 13 different points of view, 13 different actors who would all contribute to making a solution happen.
+- id: u137
+  speaker: Scott Morton
+  t_start: 2814.33
+  t_end: 2824.33
+  text: I might use. I might use this technique in, in my development environment, like to use, like to ask it how I would solve this problem.
+- id: u138
+  speaker: David Olsson
+  t_start: 2825.05
+  t_end: 2826.57
+  text: Yeah, yeah, yeah, yeah.
+- id: u139
+  speaker: Scott Morton
+  t_start: 2827.45
+  t_end: 2839.01
+  text: I did try that. I. I solved it. I like, because I know, right? Yeah, yeah, but that's interesting. That's an interesting approach. Like I know how I would solve it, but like, let's. Let's see how it would solve it.
+- id: u140
+  speaker: David Olsson
+  t_start: 2839.25
+  t_end: 2918.59
+  text: And so that's the first time where this is actually superseded. Like, or it's exceeded my capacity to be able to have different points of view and synthesize it in a meaningful way. I'm sorry it cacked out. I gave it to. It was a really jammy question. And unfortunately I think it just showed. Me that if it does like that many, which is like 12 or 15, I hit a limit. And it's so hard to tell other than going in here and seeing. So you can see that it did stuff. It's got shit going on and a lot of it. Right? Yeah. But it didn't make the final report because it had issues. Usually there's another task item here too, so it's way easier if I give it something like, yeah, I got a wiener dog. If you. So I. If I've started asking certain models how. I would do things. Okay, four. That should be okay there.
+- id: u141
+  speaker: David Olsson
+  t_start: 2924.51
+  t_end: 2931.07
+  text: Yeah, it's failing. Oh, it's failing. But it is giving me answers, so it's on my side.
+- id: u142
+  speaker: David Olsson
+  t_start: 2937.15
+  t_end: 2970.57
+  text: Yeah. Okay. Anyways, that's a significant thing. And then I put that in. So I was like, okay, that's how we're going to do all of our. Agents from now on, is that they create their own agents and they solve the problem. The problem is they need to have tooling. But if you do this kind of thing inside your ide, it has all the tooling that we're actually loving and. Wanting to have inside ChatGPT. And so it will then do things. Like, okay, I'll go onto the Internet and I'll research that. If you point it to. If you. If you point to like a GitHub repo that's successful, say, I want to build this, it'll build it.
+- id: u143
+  speaker: Scott Morton
+  t_start: 2971.37
+  t_end: 2972.25
+  text: That's crazy.
+- id: u144
+  speaker: David Olsson
+  t_start: 2973.61
+  t_end: 3001.89
+  text: You can then say, analyze this and tell me how to build an MVP version of it. And then you can then go into. A long process of building a spec. Out and then say, follow the spec and build me it out. You can really extend the ide. And this pattern, despite it being broken right now, is what the IDE effectively does. It has the ability to delegate the problem into a handful of different, very specialized agents.
+- id: u145
+  speaker: Scott Morton
+  t_start: 3002.69
+  t_end: 3012.77
+  text: Well, yeah, I mean, in Cursor, I think there's five agents that they use. Right. They use cloud, they use. I forget the list. They listed them when I looked at the docs.
+- id: u146
+  speaker: David Olsson
+  t_start: 3013.01
+  t_end: 3051.81
+  text: Right. So those are the models. And then on top of those, Cursor. Has its own agent. Yeah. Its agent would have a whole lot of tooling associated, but it might create agents to do those toolings and stuff like that. But it is a really neat place. That I discovered because I'm trying to solve problems all the time and I'm. Like hitting the walls that you hit for like a week. And then I'm like, what do I do? I don't know. And so with the advancing of the. Latest models, O3 particularly, and 3.7, asking. Them how to build code. Yeah, yeah.
+- id: u147
+  speaker: Scott Morton
+  t_start: 3051.81
+  t_end: 3056.57
+  text: Like, that's what I did with my application. I did not write one line of code.
+- id: u148
+  speaker: David Olsson
+  t_start: 3057.53
+  t_end: 3062.38
+  text: But even asking them how to do things and saying, like, how can I solve this problem?
+- id: u149
+  speaker: Scott Morton
+  t_start: 3062.46
+  t_end: 3062.96
+  text: Yes.
+- id: u150
+  speaker: David Olsson
+  t_start: 3063.02
+  t_end: 3063.52
+  text: Yep.
+- id: u151
+  speaker: Scott Morton
+  t_start: 3063.42
+  t_end: 3063.92
+  text: I have.
+- id: u152
+  speaker: David Olsson
+  t_start: 3064.7
+  t_end: 3111.61
+  text: With your documents. Go in there and just like, how. I want to solve this problem and then. And report back and then say. And see how many people get IDs. No, not many more. But, yeah, I gotta get this out. So I'm going to be in Winnipeg, Vancouver next week, and by Wednesday next. Week, this delegator thing is going to be firmly demoable. I've got a version of those images and so we'll probably be demoing this with some AIM QC stuff for a big conference and. Which means that I'm not going to. I'm going to today cancel next week's. Meeting because it's just going to be unreasonable. Yeah, okay. All right.
+- id: u153
+  speaker: Scott Morton
+  t_start: 3111.86
+  t_end: 3116.68
+  text: But I'll report back in a couple weeks and. And let you know how it goes with the documents. So.
+- id: u154
+  speaker: David Olsson
+  t_start: 3116.82
+  t_end: 3141.98
+  text: Yeah, do let me know if you run into any. Anything this week and you have some issue. I'll be grinding away on this for. MQC right now, because I am. Okay, documents. And if you just ping me, then. Then we can chat through something for 10 minutes. Yeah. For Hanif and Eric, who are on. The call, I will see you sometime. Between probably Monday night and Thursday.
+- id: u155
+  speaker: Scott Morton
+  t_start: 3142.62
+  t_end: 3144.78
+  text: Okay, see you guys. Thanks for everything.
+- id: u156
+  speaker: David Olsson
+  t_start: 3145.42
+  t_end: 3153.5
+  text: Yeah, bye. But I will be in touch with you both before Friday.
+- id: u157
+  speaker: Hanif Janmohamed
+  t_start: 3155.5
+  t_end: 3156.54
+  text: Sounds like a plan.
+- id: u158
+  speaker: David Olsson
+  t_start: 3157.5
+  t_end: 3166.86
+  text: Is that your detective voice? I don't know, I just wanted. I just like looking for you both. And all I see is like four different colored rectangles. And then me.
+- id: u159
+  speaker: Hanif Janmohamed
+  t_start: 3168.67
+  t_end: 3171.07
+  text: Well, for my end, it's because I'm just blurred.
+- id: u160
+  speaker: David Olsson
+  t_start: 3171.95
+  t_end: 3244.46
+  text: There you go. I haven't done my hair yet this morning, so there's all kinds of reasons. Not to have your camera on. So I. I'm not like, working with Toronto anymore, but those guys never turn their camera on. I'm like, I don't even know who you guys are, man. Could you just turn on for once? And then I went to Toronto. I'm like, okay, now I know you're. Human. But, yeah, busy between now and I gotta get back. I gotta get on to, like a morning of development. Quality control work. So I. I wish you both well on your stones. Throw away work and you're making people drive. Well, is that what you do, Eric? I don't do much of anything, David. You know that. Yeah, but you're getting paid. That's good. You're the one that's getting paid. But that's. That's a talent these days, and. That'S a good one. Yeah, I've got a commitment to my. Team members here and I think an hour, let's see. Oh, yes. So I'm gonna get on that work. And I will chat with you both soon. All right, thank you.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: Some. Right. So I'm like, okay, where the is that? So I'll find them later. My trucker. How you been? In some pocket. In some pocket somewhere. That's right. Probably where they are lurking. How's your visit? How's your. How's the DNPs? Hey, so I. I think I'm next week. Oh, you're next week? Yes. What's the week here? A week there? Yeah, it's a week. Hey, good morning, Scott. Yeah, so this time next week, I'll. I'll be probably. I've seen you almost. I'll be in Vancouver sometime Monday, I guess, driving there and. And then we'll be there until Friday and then it'll be like four of us. Okay, well, let me know what looks and then. Yeah, I'll have to figure that out in the next couple days because. Involves doing things and committing to, like being a booth babe. Yeah, I know. Yeah. And having something to show, but. Very cool. Yeah, that'll be very cool. Hey, Scott. It's been a while. Good to see you. Yeah, nice. Nice to see you too, David. Yeah, just busy. Oh, yeah. And then I opened up my project and super base said, put it in the archives because I hadn't used it for 30 days or whatever it was. Right. Right. Seven days. I'd love to show you. Oh, yeah. What I was doing because it's all finished and polished without data. Yeah. Because I, I just, I just didn't. Like, I clicked on 10 minutes ago and I'm like, oh, yeah. And I'm like, this is not a problem I can solve in 10 minutes. So I'm happy to share with you what I've done and like the features and everything that I've done. And this was all done with, with AI. Like, I didn't do, like, it wrote all the code, everything.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  text: Yeah, nice. Nice to see you too, David. Yeah, just busy. Oh, yeah. And then I opened up my project and super base said, put it in the archives because I hadn't used it for 30 days or whatever it was. Right. Right. Seven days. I'd love to show you. Oh, yeah. What I was doing because it's all finished and polished without data. Yeah. Because I, I just, I just didn't. Like, I clicked on 10 minutes ago and I'm like, oh, yeah. And I'm like, this is not a problem I can solve in 10 minutes. So I'm happy to share with you what I've done and like the features and everything that I've done. And this was all done with, with AI. Like, I didn't do, like, it wrote all the code, everything. So. Yeah, that's a great man. You guys can, you know, I, I. Had the same issue with Supabase, but it's really quick. It restores it very fast. It did. It was. And I'll show you, like, everything. It just. What happened was the, the back end is not communicating with the, with the database anymore. So I think it's like a key or something or, you know, I'll troubleshoot it later. It won't happen right now. I'm not gonna live troubleshoot it. So that's a good one. Yeah, I'm just not, not, not doing that. So. Login page. This is secret data for investors. So I have to have a login page. And it's just Me right now. It's not secret data. It's just the investor data. Like, how much. So right here I had the list of investors, Their names, their holders, total shares, percent owners, cost per share, phone number, email, just like a. Just like a thing for me to. To. I'm gonna have to pay for super base if I want this available all the time, which I kind of do. And then what happens is, you know, you can refresh the table in case I've made any backend changes or anything like that. This cool moto. I don't know if it's going to work or not. Oh, yeah, it will. So what happens is, you know, I buy shares. So each time I buy shares, it's a transaction. So they don't. They don't add my shares together in the trust company. They're just like, it's a transaction. It's logged as a transaction. But that's not what I want. I want to understand how much my investors own and, you know, all that sort of stuff. So I want them together. So I made this matching modal where you could just take the name and say, Scott Morton transaction 62175 is also transaction Scott Morton 72565, whatever it is.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  - u35
+  text: So. Login page. This is secret data for investors. So I have to have a login page. And it's just Me right now. It's not secret data. It's just the investor data. Like, how much. So right here I had the list of investors, Their names, their holders, total shares, percent owners, cost per share, phone number, email, just like a. Just like a thing for me to. To. I'm gonna have to pay for super base if I want this available all the time, which I kind of do. And then what happens is, you know, you can refresh the table in case I've made any backend changes or anything like that. This cool moto. I don't know if it's going to work or not. Oh, yeah, it will. So what happens is, you know, I buy shares. So each time I buy shares, it's a transaction. So they don't. They don't add my shares together in the trust company. They're just like, it's a transaction. It's logged as a transaction. But that's not what I want. I want to understand how much my investors own and, you know, all that sort of stuff. So I want them together. So I made this matching modal where you could just take the name and say, Scott Morton transaction 62175 is also transaction Scott Morton 72565, whatever it is. And. And you match those, and then it just adds the percentage own together so that you get a complete understanding of your investors and how much they own in your company. Then I ran into a problem. You'll say add to existing match. You might wonder why that's there, because I was trying to add, and then I was like, oh, I forgot this one. But then it wouldn't let me add to it. So I had to make a whole new section where I could pull out existing matches and add onto those. I mean, this stuff is problem solving and super fun for me. That's just one of the features that I put in there. Then you can see that you can sort them. There's sorting arrows. This summary table. What happens is it takes everything and compiles it. All those matches that I made on the original table, it then just compiles those and makes a really nice clean table so that I have the shareholder, their name, the total shares, their ownership, and then the status of them. And it's just like, that's the table that I would use and print and use for the board and, you know, that sort of thing. And. And so, I mean, it took me 11 hours to make this, basically. So I broke it. It took me. I spent about 11 hours. And then, remember I told you I broke it and I walked away from it. And I just didn't do anything for probably a week. And then what I did was I came back and it took me 11 hours to recreate this. And honestly, when I was developing, and if I was doing a project like this, it would have taken me a month. And I'm a slow developer. I know that maybe faster developers could have done it quicker. But I'm comparing myself to what I did with, with the AI. And so the tools that I used were super base. I used a react JavaScript. And what was the other? It was the I can't remember V vite V I T E. Yeah, so I used, I used that as well too. And then, and it was a full stack, so it's front and back end, supported by a database. And it was just kind of fun to do the development with the computer. Somewhat frustrating sometimes it wasn't doing exactly what I wanted and it would kind of anticipate what I wanted. And I was like, shut that shit down. Do what I tell you. And I had to tell it, I think six times before it, before it really locked in. Which I find that with a lot of AI work that I do now is you gotta tell it not to sort of go off on a tangent and just do exactly what you want it to do. So unfortunately, I don't. Like, I can show you that I do actually have the Supabase table opened up because I was like, well, this is what I wanted to display. But this is the super. Like, I have a database and yeah, you just got to connect it, right. And then here are the matches that I made. I just did some matches.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  text: Login page. This is secret data for investors. So I have to have a login page. And it's just Me right now. It's not secret data. It's just the investor data. Like, how much. So right here I had the list of investors, Their names, their holders, total shares, percent owners, cost per share, phone number, email, just like a. Just like a thing for me to. To. I'm gonna have to pay for super base if I want this available all the time, which I kind of do. And then what happens is, you know, you can refresh the table in case I've made any backend changes or anything like that. This cool moto. I don't know if it's going to work or not. Oh, yeah, it will. So what happens is, you know, I buy shares. So each time I buy shares, it's a transaction. So they don't. They don't add my shares together in the trust company. They're just like, it's a transaction. It's logged as a transaction. But that's not what I want. I want to understand how much my investors own and, you know, all that sort of stuff. So I want them together. So I made this matching modal where you could just take the name and say, Scott Morton transaction 62175 is also transaction Scott Morton 72565, whatever it is. And. And you match those, and then it just adds the percentage own together so that you get a complete understanding of your investors and how much they own in your company. Then I ran into a problem. You'll say add to existing match. You might wonder why that's there, because I was trying to add, and then I was like, oh, I forgot this one. But then it wouldn't let me add to it. So I had to make a whole new section where I could pull out existing matches and add onto those. I mean, this stuff is problem solving and super fun for me. That's just one of the features that I put in there. Then you can see that you can sort them. There's sorting arrows. This summary table. What happens is it takes everything and compiles it. All those matches that I made on the original table, it then just compiles those and makes a really nice clean table so that I have the shareholder, their name, the total shares, their ownership, and then the status of them. And it's just like, that's the table that I would use and print and use for the board and, you know, that sort of thing. And. And so, I mean, it took me 11 hours to make this, basically. So I broke it. It took me. I spent about 11 hours. And then, remember I told you I broke it and I walked away from it. And I just didn't do anything for probably a week. And then what I did was I came back and it took me 11 hours to recreate this. And honestly, when I was developing, and if I was doing a project like this, it would have taken me a month. And I'm a slow developer. I know that maybe faster developers could have done it quicker. But I'm comparing myself to what I did with, with the AI. And so the tools that I used were super base. I used a react JavaScript. And what was the other? It was the I can't remember V vite V I T E. Yeah, so I used, I used that as well too. And then, and it was a full stack, so it's front and back end, supported by a database. And it was just kind of fun to do the development with the computer. Somewhat frustrating sometimes it wasn't doing exactly what I wanted and it would kind of anticipate what I wanted. And I was like, shut that shit down. Do what I tell you. And I had to tell it, I think six times before it, before it really locked in. Which I find that with a lot of AI work that I do now is you gotta tell it not to sort of go off on a tangent and just do exactly what you want it to do. So unfortunately, I don't. Like, I can show you that I do actually have the Supabase table opened up because I was like, well, this is what I wanted to display. But this is the super. Like, I have a database and yeah, you just got to connect it, right. And then here are the matches that I made. I just did some matches.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  text: And you match those, and then it just adds the percentage own together so that you get a complete understanding of your investors and how much they own in your company. Then I ran into a problem. You'll say add to existing match. You might wonder why that's there, because I was trying to add, and then I was like, oh, I forgot this one. But then it wouldn't let me add to it. So I had to make a whole new section where I could pull out existing matches and add onto those. I mean, this stuff is problem solving and super fun for me. That's just one of the features that I put in there. Then you can see that you can sort them. There's sorting arrows. This summary table. What happens is it takes everything and compiles it. All those matches that I made on the original table, it then just compiles those and makes a really nice clean table so that I have the shareholder, their name, the total shares, their ownership, and then the status of them. And it's just like, that's the table that I would use and print and use for the board and, you know, that sort of thing. And. And so, I mean, it took me 11 hours to make this, basically. So I broke it. It took me. I spent about 11 hours. And then, remember I told you I broke it and I walked away from it. And I just didn't do anything for probably a week. And then what I did was I came back and it took me 11 hours to recreate this. And honestly, when I was developing, and if I was doing a project like this, it would have taken me a month. And I'm a slow developer. I know that maybe faster developers could have done it quicker. But I'm comparing myself to what I did with, with the AI. And so the tools that I used were super base. I used a react JavaScript. And what was the other? It was the I can't remember V vite V I T E. Yeah, so I used, I used that as well too. And then, and it was a full stack, so it's front and back end, supported by a database. And it was just kind of fun to do the development with the computer. Somewhat frustrating sometimes it wasn't doing exactly what I wanted and it would kind of anticipate what I wanted. And I was like, shut that shit down. Do what I tell you. And I had to tell it, I think six times before it, before it really locked in. Which I find that with a lot of AI work that I do now is you gotta tell it not to sort of go off on a tangent and just do exactly what you want it to do. So unfortunately, I don't. Like, I can show you that I do actually have the Supabase table opened up because I was like, well, this is what I wanted to display. But this is the super. Like, I have a database and yeah, you just got to connect it, right. And then here are the matches that I made. I just did some matches. It's all functional. Yeah, it all works. And it like, I tested it and like there's a couple little inconsistencies. Like when you go to, when you go back to the main table, this table right here, when you're back here and you want to edit something, I found an error that the AI didn't pick up is like when I go in and I say, okay, I want to edit the share, say the database is wrong, but I will live edit this table. It allows me to do that because I'm the database administrator. And so I gave myself those powers. Um, I, I, I edited the, the shares and then it came back blank. And that's because I had to edit every single field. They want me to edit every single field. I don't know where that artifact comes from, but that's just something that I'll have to figure out. Like, it was super weird and I tested it Twice. And I was like, oh, this is, this is annoying.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  text: And you match those, and then it just adds the percentage own together so that you get a complete understanding of your investors and how much they own in your company. Then I ran into a problem. You'll say add to existing match. You might wonder why that's there, because I was trying to add, and then I was like, oh, I forgot this one. But then it wouldn't let me add to it. So I had to make a whole new section where I could pull out existing matches and add onto those. I mean, this stuff is problem solving and super fun for me. That's just one of the features that I put in there. Then you can see that you can sort them. There's sorting arrows. This summary table. What happens is it takes everything and compiles it. All those matches that I made on the original table, it then just compiles those and makes a really nice clean table so that I have the shareholder, their name, the total shares, their ownership, and then the status of them. And it's just like, that's the table that I would use and print and use for the board and, you know, that sort of thing. And. And so, I mean, it took me 11 hours to make this, basically. So I broke it. It took me. I spent about 11 hours. And then, remember I told you I broke it and I walked away from it. And I just didn't do anything for probably a week. And then what I did was I came back and it took me 11 hours to recreate this. And honestly, when I was developing, and if I was doing a project like this, it would have taken me a month. And I'm a slow developer. I know that maybe faster developers could have done it quicker. But I'm comparing myself to what I did with, with the AI. And so the tools that I used were super base. I used a react JavaScript. And what was the other? It was the I can't remember V vite V I T E. Yeah, so I used, I used that as well too. And then, and it was a full stack, so it's front and back end, supported by a database. And it was just kind of fun to do the development with the computer. Somewhat frustrating sometimes it wasn't doing exactly what I wanted and it would kind of anticipate what I wanted. And I was like, shut that shit down. Do what I tell you. And I had to tell it, I think six times before it, before it really locked in. Which I find that with a lot of AI work that I do now is you gotta tell it not to sort of go off on a tangent and just do exactly what you want it to do. So unfortunately, I don't. Like, I can show you that I do actually have the Supabase table opened up because I was like, well, this is what I wanted to display. But this is the super. Like, I have a database and yeah, you just got to connect it, right. And then here are the matches that I made. I just did some matches. It's all functional. Yeah, it all works. And it like, I tested it and like there's a couple little inconsistencies. Like when you go to, when you go back to the main table, this table right here, when you're back here and you want to edit something, I found an error that the AI didn't pick up is like when I go in and I say, okay, I want to edit the share, say the database is wrong, but I will live edit this table. It allows me to do that because I'm the database administrator. And so I gave myself those powers. Um, I, I, I edited the, the shares and then it came back blank. And that's because I had to edit every single field. They want me to edit every single field. I don't know where that artifact comes from, but that's just something that I'll have to figure out. Like, it was super weird and I tested it Twice. And I was like, oh, this is, this is annoying. Right? Because you have to recopy everything and then it saves it as a whole block. And I'm just like, that's not what I want. Anyways, that was the only thing that's left to do. One of the things that I've found. With the tools is that if you. Could describe your conundrum well and you've. Got it running locally, then it will do the log thing and it will dig deep into it and generally it'll find some way to help you. But I love what you've done, man. This is, this is awesome. So you, when you say a month. You say like a full time kind of month of doing this kind of work.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u39
+  - u40
+  - u41
+  text: Because you have to recopy everything and then it saves it as a whole block. And I'm just like, that's not what I want. Anyways, that was the only thing that's left to do. One of the things that I've found. With the tools is that if you. Could describe your conundrum well and you've. Got it running locally, then it will do the log thing and it will dig deep into it and generally it'll find some way to help you. But I love what you've done, man. This is, this is awesome. So you, when you say a month. You say like a full time kind of month of doing this kind of work. Yeah, well, it was the trouble. Yeah, yeah, it's easy to get the structure and the concepts ready. Like, I know James and I were talking about it earlier. Like, we're not, you know, I haven't coded for six, seven years. Like, it's not something that I do on a daily basis, but I have enough knowledge to like, guide the computer to what I want it to see. Like, I'm the artist and it's the, it's the painter. Do you know what I mean? Like, I'm the creative portion and it does the heavy lifting. And that's, that's really what I appreciate it for. Now, I've tried a couple of other tests, like to use AI differently and, and sorry, I'm kind of dominating the conversation, but, but I tried to write, it's called a, a concurrent table for the aer. And so what that does is that the AER is the regulator here in Alberta and they hate diving into other documents to pull out information. And so I've just, I tried to construct a table with the AI based on those documents. And so I had six documents that I was pulling information from. And I thought this would be a very simple, easy task for the AI because it's like reading documents and text and everything. It turns out it's not easy at all and it makes a ton of mistakes. So I just, I'm working my way through that and I should have something to show you guys maybe next week or the week after. But it was a frustrating exercise because I'm like, the AER is asking for specific items. I know I've provided those specific items, but not in the order that they asked for. So I'm using the documents where I've provided this information to pull those items out. And I want them to be listed in the order that The AER wants. I thought that would be a very straightforward task for the AI for some reason. Either it's my prompting or it's, you know, I'll probably talk to you, David, after separately just on what it is. But it. It was. It's been, I would say 15 to 16 hours working with the computer on this and three or four different restarts on. Just on. On how to get this done. And it's. It's not. I have not figured it out quite yet but I'm open to ideas and I'm happy to share more if you guys are interested in what I'm doing. But it was very difficult for it to handle those six docs because they're all formatted differently. They're all similar information but nuanced and different information like groundwater monitoring plan versus groundwater monitoring program. You know, there are differences to those. Those nuanced and so it just. The computer is not. It's not where I would want it to be. But it did help me a little bit.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u41
+  text: Yeah, well, it was the trouble. Yeah, yeah, it's easy to get the structure and the concepts ready. Like, I know James and I were talking about it earlier. Like, we're not, you know, I haven't coded for six, seven years. Like, it's not something that I do on a daily basis, but I have enough knowledge to like, guide the computer to what I want it to see. Like, I'm the artist and it's the, it's the painter. Do you know what I mean? Like, I'm the creative portion and it does the heavy lifting. And that's, that's really what I appreciate it for. Now, I've tried a couple of other tests, like to use AI differently and, and sorry, I'm kind of dominating the conversation, but, but I tried to write, it's called a, a concurrent table for the aer. And so what that does is that the AER is the regulator here in Alberta and they hate diving into other documents to pull out information. And so I've just, I tried to construct a table with the AI based on those documents. And so I had six documents that I was pulling information from. And I thought this would be a very simple, easy task for the AI because it's like reading documents and text and everything. It turns out it's not easy at all and it makes a ton of mistakes. So I just, I'm working my way through that and I should have something to show you guys maybe next week or the week after. But it was a frustrating exercise because I'm like, the AER is asking for specific items. I know I've provided those specific items, but not in the order that they asked for. So I'm using the documents where I've provided this information to pull those items out. And I want them to be listed in the order that The AER wants. I thought that would be a very straightforward task for the AI for some reason. Either it's my prompting or it's, you know, I'll probably talk to you, David, after separately just on what it is. But it. It was. It's been, I would say 15 to 16 hours working with the computer on this and three or four different restarts on. Just on. On how to get this done. And it's. It's not. I have not figured it out quite yet but I'm open to ideas and I'm happy to share more if you guys are interested in what I'm doing. But it was very difficult for it to handle those six docs because they're all formatted differently. They're all similar information but nuanced and different information like groundwater monitoring plan versus groundwater monitoring program. You know, there are differences to those. Those nuanced and so it just. The computer is not. It's not where I would want it to be. But it did help me a little bit.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: Yeah, well, it was the trouble. Yeah, yeah, it's easy to get the structure and the concepts ready. Like, I know James and I were talking about it earlier. Like, we're not, you know, I haven't coded for six, seven years. Like, it's not something that I do on a daily basis, but I have enough knowledge to like, guide the computer to what I want it to see. Like, I'm the artist and it's the, it's the painter. Do you know what I mean? Like, I'm the creative portion and it does the heavy lifting. And that's, that's really what I appreciate it for. Now, I've tried a couple of other tests, like to use AI differently and, and sorry, I'm kind of dominating the conversation, but, but I tried to write, it's called a, a concurrent table for the aer. And so what that does is that the AER is the regulator here in Alberta and they hate diving into other documents to pull out information. And so I've just, I tried to construct a table with the AI based on those documents. And so I had six documents that I was pulling information from. And I thought this would be a very simple, easy task for the AI because it's like reading documents and text and everything. It turns out it's not easy at all and it makes a ton of mistakes. So I just, I'm working my way through that and I should have something to show you guys maybe next week or the week after. But it was a frustrating exercise because I'm like, the AER is asking for specific items. I know I've provided those specific items, but not in the order that they asked for. So I'm using the documents where I've provided this information to pull those items out. And I want them to be listed in the order that The AER wants. I thought that would be a very straightforward task for the AI for some reason. Either it's my prompting or it's, you know, I'll probably talk to you, David, after separately just on what it is. But it. It was. It's been, I would say 15 to 16 hours working with the computer on this and three or four different restarts on. Just on. On how to get this done. And it's. It's not. I have not figured it out quite yet but I'm open to ideas and I'm happy to share more if you guys are interested in what I'm doing. But it was very difficult for it to handle those six docs because they're all formatted differently. They're all similar information but nuanced and different information like groundwater monitoring plan versus groundwater monitoring program. You know, there are differences to those. Those nuanced and so it just. The computer is not. It's not where I would want it to be. But it did help me a little bit. Right. So I'm kind of doing it because I have to get it done for this week. I have to do it a little bit. I'm going to have to do most of it manually. Right. Which is unfortunate. So I spent the last couple of weeks trying to get it done with the computer and get a good workflow, but it just wasn't successful. Which I mean we're all going to find those things every now and again. So where it can't really help you. Which is unfortunate because I feel like it's a task it should be able to do. Yeah. And I think I to call it. And it should do a better job than you're experiencing. But what you're experiencing is what it offers for sure. And that's the ability to try things out a lot and then not get to where you want to, but maybe see the path. And a lot of it can be the model that you select can be better than others. I tried two models I tried. I. So guys, I exclusively use chat GPT for this type of work. Like when I'm comparing documents and grabbing summaries, I just feel like it's the best one that I've experienced. Gemini doesn't work as well. Co pilot's not as good. You know, that sort of stuff. I haven't tried Cloud or anything but I feel like those are different models for different tasks.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: Yeah. And I think I to call it. And it should do a better job than you're experiencing. But what you're experiencing is what it offers for sure. And that's the ability to try things out a lot and then not get to where you want to, but maybe see the path. And a lot of it can be the model that you select can be better than others. I tried two models I tried. I. So guys, I exclusively use chat GPT for this type of work. Like when I'm comparing documents and grabbing summaries, I just feel like it's the best one that I've experienced. Gemini doesn't work as well. Co pilot's not as good. You know, that sort of stuff. I haven't tried Cloud or anything but I feel like those are different models for different tasks. So. Yeah, I tried the 4:4:0 and then the newer model. The. The most updated. The most updated model. What one was was the. Whatever the. Yeah. The research? Yeah, yeah. So I use 4.4.0 and 4.5 and I tried to do the same thing on both models and I got similar results. So, okay. Do you have a finalized template, like a final, do you have like a final form that you could. Point to and say that's what it needs to look like? I described it, David. I do have a document. I do have a document that I could say, you know, this is the format that I'm looking for. It wasn't formatting issues. It was like going into the document and giving me poor results on my. So I'm asking for a reference, right? I'm saying, okay, here's what the AER wants. Scan these six documents, give me all the references from these documents in this order that you find associated with this question, and I can give you an example, you know, description of groundwater monitoring well development protocols. Right. Where have I described that before and what document?
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  text: I described it, David. I do have a document. I do have a document that I could say, you know, this is the format that I'm looking for. It wasn't formatting issues. It was like going into the document and giving me poor results on my. So I'm asking for a reference, right? I'm saying, okay, here's what the AER wants. Scan these six documents, give me all the references from these documents in this order that you find associated with this question, and I can give you an example, you know, description of groundwater monitoring well development protocols. Right. Where have I described that before and what document? Right? And I said, go fetch that information and give me all the references and then give me the exact quoted text from that document. It struggled to do that in both models. It just could not handle that, that level of, of, of, of what my request was. Right. I mean, I mean, I can go and find and search and I know what I'm looking for. You know what I mean? And it would always come close. It would be within like a, two or three pages of what I would want. Like, it's close, but it doesn't get, it doesn't get the exact text. And then it would summarize everything, which is not, which is not what I'm looking for. Right? Yeah. You have to be very, very exact in terms of what you. I did. It tends to, you know, it tends to summarize. And so you have to go a fair distance to tell it to be comprehensive and not to summarize. And you'll still get it to summarize. So your experience is consistent. And I'm not saying you didn't do. Everything that's available, it's just what you're. Asking it to do may be better in different models. And I would suggest that my experience in Claude, creating a project of all your documents and then working it in that regard will probably provide you a better experience of creating human readable documents and having a conversational experience with your data. If you have, if you have a. Template of what needs to be conformed to, that's great. And so that's an example of how it can look, and that'll help you out in many regards. But if you also have Say descriptions, like examples of what you're looking for in the document. You say, I need descriptions of brown. Water in this situation. It's like, and here's an example of it, quote. Yeah. And then it knows, it sort of. Knows what to look for. And then so you, you can do. What, you can build it sort of. A Runway of the prompt and say, okay, that's working fairly well. Go find another one yourself. It's like this and like that. And so what you're doing is you're giving it ways to learn how to. Go through your content. And so all I'm pointing out is how we do it programmatically is that we'll give it, we'll give it a system prompt saying this is what your. Role is and this is how you think about things. And then here's your steps. You go through it this way and then here's examples of what that looks like. Yeah.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  text: Yeah. You have to be very, very exact in terms of what you. I did. It tends to, you know, it tends to summarize. And so you have to go a fair distance to tell it to be comprehensive and not to summarize. And you'll still get it to summarize. So your experience is consistent. And I'm not saying you didn't do. Everything that's available, it's just what you're. Asking it to do may be better in different models. And I would suggest that my experience in Claude, creating a project of all your documents and then working it in that regard will probably provide you a better experience of creating human readable documents and having a conversational experience with your data. If you have, if you have a. Template of what needs to be conformed to, that's great. And so that's an example of how it can look, and that'll help you out in many regards. But if you also have Say descriptions, like examples of what you're looking for in the document. You say, I need descriptions of brown. Water in this situation. It's like, and here's an example of it, quote. Yeah. And then it knows, it sort of. Knows what to look for. And then so you, you can do. What, you can build it sort of. A Runway of the prompt and say, okay, that's working fairly well. Go find another one yourself. It's like this and like that. And so what you're doing is you're giving it ways to learn how to. Go through your content. And so all I'm pointing out is how we do it programmatically is that we'll give it, we'll give it a system prompt saying this is what your. Role is and this is how you think about things. And then here's your steps. You go through it this way and then here's examples of what that looks like. Yeah. So the only thing that I didn't do, David, and, and I can, and I can honestly say that is the last part. I didn't give an example because though I guess what I thought the text in the question that I'm looking for the information for, I thought that was going to be enough for an example, but clearly not, right? Yeah. And the more expert you get to. The, the more that it's not likely to do that. But I, I have my experience with. The oil and gas stuff. It has a great deal of knowledge. It's just not, it is generalized in. How you talk to it. And that's the problem. But what you're asking for, I would. Have had the same sort of assumptions around and I would have spent, you know, probably a considerable amount of time because I'm doing the same thing, processing sort of a handoff package in oil and gas, which has a lot of unstructured data. I'll put a bookend on my side of this. The way that I'm dealing with that. Is I'm like, okay, what I have is inadequate. I need to pre process the information and put it into a structured format. And so moving forward, what I would suggest is you have a lot of information. If you put that together and call what I call it like a corpus. Of really organized information, what you're asking. To do can be done effectively well in the near future, if not now. Just in a different way. But if you start with here's all of my information in a data, really. Really succinct data structure like you already have. Yeah.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  text: It tends to, you know, it tends to summarize. And so you have to go a fair distance to tell it to be comprehensive and not to summarize. And you'll still get it to summarize. So your experience is consistent. And I'm not saying you didn't do. Everything that's available, it's just what you're. Asking it to do may be better in different models. And I would suggest that my experience in Claude, creating a project of all your documents and then working it in that regard will probably provide you a better experience of creating human readable documents and having a conversational experience with your data. If you have, if you have a. Template of what needs to be conformed to, that's great. And so that's an example of how it can look, and that'll help you out in many regards. But if you also have Say descriptions, like examples of what you're looking for in the document. You say, I need descriptions of brown. Water in this situation. It's like, and here's an example of it, quote. Yeah. And then it knows, it sort of. Knows what to look for. And then so you, you can do. What, you can build it sort of. A Runway of the prompt and say, okay, that's working fairly well. Go find another one yourself. It's like this and like that. And so what you're doing is you're giving it ways to learn how to. Go through your content. And so all I'm pointing out is how we do it programmatically is that we'll give it, we'll give it a system prompt saying this is what your. Role is and this is how you think about things. And then here's your steps. You go through it this way and then here's examples of what that looks like. Yeah. So the only thing that I didn't do, David, and, and I can, and I can honestly say that is the last part. I didn't give an example because though I guess what I thought the text in the question that I'm looking for the information for, I thought that was going to be enough for an example, but clearly not, right? Yeah. And the more expert you get to. The, the more that it's not likely to do that. But I, I have my experience with. The oil and gas stuff. It has a great deal of knowledge. It's just not, it is generalized in. How you talk to it. And that's the problem. But what you're asking for, I would. Have had the same sort of assumptions around and I would have spent, you know, probably a considerable amount of time because I'm doing the same thing, processing sort of a handoff package in oil and gas, which has a lot of unstructured data. I'll put a bookend on my side of this. The way that I'm dealing with that. Is I'm like, okay, what I have is inadequate. I need to pre process the information and put it into a structured format. And so moving forward, what I would suggest is you have a lot of information. If you put that together and call what I call it like a corpus. Of really organized information, what you're asking. To do can be done effectively well in the near future, if not now. Just in a different way. But if you start with here's all of my information in a data, really. Really succinct data structure like you already have. Yeah. Like it's reports, it's six Reports. That's what it is, right? Yeah. I'm just telling you the strategies use. At a programmatic level and, and you're doing some of those, and I'm just saying you can go a little farther. With them, but it's not any different. Than what you're doing. It's just, there is a way of being more precise with it. It just takes longer and it's still. You could still be peeing up the wrong wall. Yeah, yeah, yeah. But what you did with your, with your first experiment, you can take it a lot farther in terms of you, you can get it where you're finding the problems in the SQL. You could just, you could just put. An AI layer over top of that. I'll leave that, I'll leave that with you. Just like, I want to be able to just ask IT questions. And there are already projects out there that will do the natural pattern language to SQL so that you don't have to.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: Like it's reports, it's six Reports. That's what it is, right? Yeah. I'm just telling you the strategies use. At a programmatic level and, and you're doing some of those, and I'm just saying you can go a little farther. With them, but it's not any different. Than what you're doing. It's just, there is a way of being more precise with it. It just takes longer and it's still. You could still be peeing up the wrong wall. Yeah, yeah, yeah. But what you did with your, with your first experiment, you can take it a lot farther in terms of you, you can get it where you're finding the problems in the SQL. You could just, you could just put. An AI layer over top of that. I'll leave that, I'll leave that with you. Just like, I want to be able to just ask IT questions. And there are already projects out there that will do the natural pattern language to SQL so that you don't have to. Yeah, yeah. And, and I mean, I just, I just asked the, I just asked the AI for the SQL stuff. Yeah, I know. And what I'm saying is, like, it. Just tells me I, I don't even have to get an overlay. And I just, I know because I've worked with SQL before, so I kind of know the pattern, so I'm just like, I just. Yeah, that's fine. And I just plug it into super base. Done. Immediate. Immediate. Yeah, it was awesome. It was so quick. I've never developed anything so fast. What I'm getting at is you can put the AI layer on top of. It just as fast without knowing, because. You know the layer underneath the SQL. And you'll know if it's working. Oh, right. Yeah, you're right. Yeah. Okay, so because your UI is a kludge, right? You know that where you're trying to do the matching thing, you're actually. Because I know SQL, I can solve the problem. But what I'm getting at is you're very close to. You just let the AI make a whole. Your program. I tried doing that. I tried doing that. And so unfortunately, like, some of the names are like David S. Morton or David Scott Morton. Like, it wasn't, it wasn't exact matching names. And so I gave it a little bit of leeway. I gave it a little bit of parameters. I did, I really did try this. David, like, I know, yeah, I'm just.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  text: Yeah. Okay, so because your UI is a kludge, right? You know that where you're trying to do the matching thing, you're actually. Because I know SQL, I can solve the problem. But what I'm getting at is you're very close to. You just let the AI make a whole. Your program. I tried doing that. I tried doing that. And so unfortunately, like, some of the names are like David S. Morton or David Scott Morton. Like, it wasn't, it wasn't exact matching names. And so I gave it a little bit of leeway. I gave it a little bit of parameters. I did, I really did try this. David, like, I know, yeah, I'm just. Trying to push you. No, no, I did. And, but I, I came back to the modal only because I spent about two hours trying to. Two hours of the 11, trying to get it to match the names properly and, and like, get a good match. And then I was asking it to check, like, I, I was like, well, if I'm asking it to check the matches, I might as well just make the matches myself because I couldn't trust. I couldn't trust the matches that they were making. No, no, I hear you. Yeah, we usually. And so what, what I find is where the AI falls off, you get more ui. Yeah. And so the UI is kludgy, but it will often work. And that's just, that's. And so what you can do is you can supersede that or you can jump the shark tank by. After you've played around with this for a while, pursue the idea of like, because how's that. You get that AI layer on top of that, man. And I'll, I'll, I'll give you a hundred bucks for that system. How's that? Yeah, yeah, exactly. Right? Yeah, yeah. Because every, everybody that we talk to. Has investors and everybody has a cap table and everybody doesn't want to talk about it. They would like to talk to it. Right. Like, everybody hates it. So I will, I will. I'll. I'll see if I can get the AI layer on top of it, and then they can just upload their super cool. Yeah. And then that's just what it is. It's just you automatically have a cap table and you can adjust it and whatever. Right. Like, I'll spend years updating this for people who want stuff.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Yeah, yeah, exactly. Right? Yeah, yeah. Because every, everybody that we talk to. Has investors and everybody has a cap table and everybody doesn't want to talk about it. They would like to talk to it. Right. Like, everybody hates it. So I will, I will. I'll. I'll see if I can get the AI layer on top of it, and then they can just upload their super cool. Yeah. And then that's just what it is. It's just you automatically have a cap table and you can adjust it and whatever. Right. Like, I'll spend years updating this for people who want stuff. Yeah. So I have this theory on how there's, you know, there should be consistent liquidity from the idea. From the idea to, you know, whatever it reaches as a commodity. And if you have a data room that you begin with that's fairly organized and straightforward like you do, this is the beginning of a data room, then maybe you can get out of valuation at any point in your life instead of at the critical points where you know that there's a transaction going on. That's usually the only time you can have a critical investment opportunity is when you know that there's impending transactions. And so what you got is what. I've been looking for to build upon. In terms of the simulations that I. Do, because it's a really reasonable thing. Yeah, no, it's. I'm very practical guy, David. Like, this was one of the, Like, I've gotten this question all the time and like, I don't know if you noticed, but on my summary table, I actually have an investor count, so it only Counts the records that are on the summary table. Like if it's a combined record, it's one record. So I know like because when you have the other table you have 75 investors. But I know that's not true. No much. I know I'm over 50, but I know I'm not 75. So what is the actual real. Because of all the, all the extra transactions that multiple people have made over, over the years, it just, it was easy and then I can report out on, on number of investors and yeah, it's, it was very practical solution and it was something that I needed because I am going out to, I am going out to investors and they want to know this information and then I just pull up my laptop and show them.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u83
+  - u84
+  - u85
+  - u86
+  text: Yeah, no, it's. I'm very practical guy, David. Like, this was one of the, Like, I've gotten this question all the time and like, I don't know if you noticed, but on my summary table, I actually have an investor count, so it only Counts the records that are on the summary table. Like if it's a combined record, it's one record. So I know like because when you have the other table you have 75 investors. But I know that's not true. No much. I know I'm over 50, but I know I'm not 75. So what is the actual real. Because of all the, all the extra transactions that multiple people have made over, over the years, it just, it was easy and then I can report out on, on number of investors and yeah, it's, it was very practical solution and it was something that I needed because I am going out to, I am going out to investors and they want to know this information and then I just pull up my laptop and show them. Right? Yeah. So a reason I engage you on this is because I'm in the space. Of taking documents that are oil and gas that are unstructured from the point of view that there's a bunch of them and that they all have some form of data. And then I'm building a tool to then be able to create functional text of it as a step towards making their documentation functional. And the next step that I will take with the data is labeling it. And the LLMs are quite good at that if you set it up in a way that has been tested and true. And so we will be doing that. Extensively with this, which is somewhat of what you're describing is like you have these two different people but they can get the same label. Yep. Right. And so yeah, there are, there are strategies around that. And what's interesting about it is a. Lot of the time if you can. Send the data set, you can't send your data set to the LLM necessarily. But if you can send your data set to the LLM, it'll figure it out for you. Yeah, but what we're going to do. Here is go through just like you are in some ways. I'm going to go find everything that's. Cross referenced across all of these documents. Right. All these documents refer to each other. All these documents have cross tabulated data. And what we want to do is flatten all that shit out. And so we're going to go through the exact same thing you are at a granular level and then build it up. So I applaud you for what you've got in terms of what you're building out and note that we are working on solutions like this and what I'm suggesting, it may not get you 100% there, but it's the best strategies that we can suggest. Yeah. So, but a tool like this has different agents in it. So this is worksona. And so all these agents are slightly. Different in their prompting. These ones, some of these aren't. But this image analyzer is very specific to how I wanted it to go. I had spent hours on this agent and it says return only extracted.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  text: Right? Yeah. So a reason I engage you on this is because I'm in the space. Of taking documents that are oil and gas that are unstructured from the point of view that there's a bunch of them and that they all have some form of data. And then I'm building a tool to then be able to create functional text of it as a step towards making their documentation functional. And the next step that I will take with the data is labeling it. And the LLMs are quite good at that if you set it up in a way that has been tested and true. And so we will be doing that. Extensively with this, which is somewhat of what you're describing is like you have these two different people but they can get the same label. Yep. Right. And so yeah, there are, there are strategies around that. And what's interesting about it is a. Lot of the time if you can. Send the data set, you can't send your data set to the LLM necessarily. But if you can send your data set to the LLM, it'll figure it out for you. Yeah, but what we're going to do. Here is go through just like you are in some ways. I'm going to go find everything that's. Cross referenced across all of these documents. Right. All these documents refer to each other. All these documents have cross tabulated data. And what we want to do is flatten all that shit out. And so we're going to go through the exact same thing you are at a granular level and then build it up. So I applaud you for what you've got in terms of what you're building out and note that we are working on solutions like this and what I'm suggesting, it may not get you 100% there, but it's the best strategies that we can suggest. Yeah. So, but a tool like this has different agents in it. So this is worksona. And so all these agents are slightly. Different in their prompting. These ones, some of these aren't. But this image analyzer is very specific to how I wanted it to go. I had spent hours on this agent and it says return only extracted. Yeah, yeah, yeah. After. After how many times? And I repeat myself almost three times in that prompt. And it does a great job of only extracted text now. But what you can do is you. Can ask it to have highly formatted text on the other side and you can give the template which you would like to conform that text to, and then you're more likely to get it back. And where we're going with things, that more likely piece, it's going away. So even though I'm ending up in wanting with the same thing over here, different document types require different kinds of kind of agents. And then they might have different specific tooling. But it is the case that the LLMs are good at picking apart documents if you have the right model and the way that you process it, which. Is usually multi step.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  text: After. After how many times? And I repeat myself almost three times in that prompt. And it does a great job of only extracted text now. But what you can do is you. Can ask it to have highly formatted text on the other side and you can give the template which you would like to conform that text to, and then you're more likely to get it back. And where we're going with things, that more likely piece, it's going away. So even though I'm ending up in wanting with the same thing over here, different document types require different kinds of kind of agents. And then they might have different specific tooling. But it is the case that the LLMs are good at picking apart documents if you have the right model and the way that you process it, which. Is usually multi step. Yes. Yeah, yeah. I've. I've come to realize that unfortunately is, is that like, for example, I went through just. And if, you know, the aer, they, they have a list. So they'll always have a checklist for themselves, which makes it really easy for me because I just. They have their checkbox and I respond under their checkbox. So they want, for example, description of the groundwater monitoring well development protocols. Well, I know that I've done that protocol in three different, separate documents. I have three different references and then I have the quoted text underneath. That's literally what I wanted. But it was, it's not there yet. And it's, it's just like you said, I got to, I got to dig deeper and work on it a little bit more and be a little bit more specific with the prompting and, and maybe given an example of how I want it. And you know, and the. I did give it that structure, but it just, it seemed to seem to go off on tangents for some reason. Yeah, summarizing and giving me poor references. Like it was pulling the reference out of it and I was like, I'm looking at that exact page and I would send the image and I'm like, nothing is on that page with reference to groundwater development protocols. It's like, it's just not even close. Right.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  text: I've. I've come to realize that unfortunately is, is that like, for example, I went through just. And if, you know, the aer, they, they have a list. So they'll always have a checklist for themselves, which makes it really easy for me because I just. They have their checkbox and I respond under their checkbox. So they want, for example, description of the groundwater monitoring well development protocols. Well, I know that I've done that protocol in three different, separate documents. I have three different references and then I have the quoted text underneath. That's literally what I wanted. But it was, it's not there yet. And it's, it's just like you said, I got to, I got to dig deeper and work on it a little bit more and be a little bit more specific with the prompting and, and maybe given an example of how I want it. And you know, and the. I did give it that structure, but it just, it seemed to seem to go off on tangents for some reason. Yeah, summarizing and giving me poor references. Like it was pulling the reference out of it and I was like, I'm looking at that exact page and I would send the image and I'm like, nothing is on that page with reference to groundwater development protocols. It's like, it's just not even close. Right. So. So there's something that I'm doing wrong. Like I really believe that Computers just do what they tell us, what we tell them to do, and I'm telling it to do something wrong and that's really how I feel. So it's, I feel like it's on my end that I have to sort it out. It might not be, but I'll exhaust as much as I can on my end to be as specific. And then, and then I'll have to take a. I, I did mark down that Claude did this better, so I might test clone. Yeah. So what I'm thinking about this right now is this might be a better. Because you're a nerd. You can go down to your ide. I use my IDE to do word. Processing and to work across documents, to move stuff on my computer and re. Rename them. Yes, it will build Python tools. Now. So what, what, you know, what we would normally do with your stuff isn't using LLM, we would use data analytics. Tools to go through and you would give it examples and it would still be able to do that for the most part. And so what I'm getting at is. If you just tried the same thing. And you just try prompting the same shit inside your IDE with your documents in a folder saying, this is a project now can you output this for me? You can even point it to the website to say, here's the form. Yeah, yeah. So I've done that. I've gone to a lower level where I can see the tools being created for me. Because if you go into like the high reasoning models and you say show. Me this shit, usually it'll show you that it's creating Python tools. Yeah. And so. You'Ve got basically a really good regex problem at one side and. Then embeddings problem too. Like there's technologies that can help you. The reason I'm again talking to this, because that's where my headspace is and learning all this shit. Yeah, yeah, no, I do. The place where the LLMs show the. Most value right now is inside the IDE. Nowhere else in the world at all. Unless you are at scale of billions. Of dollars and you have data centers. The place to experience a thousand X. Where you can do more than you can in a chatbot is inside your idea. Because you can copy and paste any agent in there. Because I know that because I can run my worksona agents inside there. You can copy paste any agent in there and it's using work, it's using. An agent over top of it, but. You can still get your work done. And so there's there's ways of integrating. At the level of the IDE so that it can overcome a lot of the what we have as limitations right now for using the large language models. And since you're already making applications in there, show your documents and give them a whirl. Give it, give it a half an. Hour, let it turn on it and ask it to either build an app to do it or to just do it building tools. Okay. Because there you will get the combination. Of the AI and the fact that it could build you an application to do the problem.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u94
+  text: Yeah. So what I'm thinking about this right now is this might be a better. Because you're a nerd. You can go down to your ide. I use my IDE to do word. Processing and to work across documents, to move stuff on my computer and re. Rename them. Yes, it will build Python tools. Now. So what, what, you know, what we would normally do with your stuff isn't using LLM, we would use data analytics. Tools to go through and you would give it examples and it would still be able to do that for the most part. And so what I'm getting at is. If you just tried the same thing. And you just try prompting the same shit inside your IDE with your documents in a folder saying, this is a project now can you output this for me? You can even point it to the website to say, here's the form. Yeah, yeah. So I've done that. I've gone to a lower level where I can see the tools being created for me. Because if you go into like the high reasoning models and you say show. Me this shit, usually it'll show you that it's creating Python tools. Yeah. And so. You'Ve got basically a really good regex problem at one side and. Then embeddings problem too. Like there's technologies that can help you. The reason I'm again talking to this, because that's where my headspace is and learning all this shit. Yeah, yeah, no, I do. The place where the LLMs show the. Most value right now is inside the IDE. Nowhere else in the world at all. Unless you are at scale of billions. Of dollars and you have data centers. The place to experience a thousand X. Where you can do more than you can in a chatbot is inside your idea. Because you can copy and paste any agent in there. Because I know that because I can run my worksona agents inside there. You can copy paste any agent in there and it's using work, it's using. An agent over top of it, but. You can still get your work done. And so there's there's ways of integrating. At the level of the IDE so that it can overcome a lot of the what we have as limitations right now for using the large language models. And since you're already making applications in there, show your documents and give them a whirl. Give it, give it a half an. Hour, let it turn on it and ask it to either build an app to do it or to just do it building tools. Okay. Because there you will get the combination. Of the AI and the fact that it could build you an application to do the problem.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: Yeah. So what I'm thinking about this right now is this might be a better. Because you're a nerd. You can go down to your ide. I use my IDE to do word. Processing and to work across documents, to move stuff on my computer and re. Rename them. Yes, it will build Python tools. Now. So what, what, you know, what we would normally do with your stuff isn't using LLM, we would use data analytics. Tools to go through and you would give it examples and it would still be able to do that for the most part. And so what I'm getting at is. If you just tried the same thing. And you just try prompting the same shit inside your IDE with your documents in a folder saying, this is a project now can you output this for me? You can even point it to the website to say, here's the form. Yeah, yeah. So I've done that. I've gone to a lower level where I can see the tools being created for me. Because if you go into like the high reasoning models and you say show. Me this shit, usually it'll show you that it's creating Python tools. Yeah. And so. You'Ve got basically a really good regex problem at one side and. Then embeddings problem too. Like there's technologies that can help you. The reason I'm again talking to this, because that's where my headspace is and learning all this shit. Yeah, yeah, no, I do. The place where the LLMs show the. Most value right now is inside the IDE. Nowhere else in the world at all. Unless you are at scale of billions. Of dollars and you have data centers. The place to experience a thousand X. Where you can do more than you can in a chatbot is inside your idea. Because you can copy and paste any agent in there. Because I know that because I can run my worksona agents inside there. You can copy paste any agent in there and it's using work, it's using. An agent over top of it, but. You can still get your work done. And so there's there's ways of integrating. At the level of the IDE so that it can overcome a lot of the what we have as limitations right now for using the large language models. And since you're already making applications in there, show your documents and give them a whirl. Give it, give it a half an. Hour, let it turn on it and ask it to either build an app to do it or to just do it building tools. Okay. Because there you will get the combination. Of the AI and the fact that it could build you an application to do the problem. Yeah. And so for the, for the development environment you're suggesting Worksona, is that like. No, no, no, no. Just, just the development environment like cursor or. No Surf or our VS code or whatever you want to build it. Actually, I think OpenAI has a. They all have cleaves, but they all have. I think you can code right inside Chat GPT now. Yeah. Oh yeah, you can. Yeah. But inside like I have cursor so. I'll just do it there. You got cursor. Yeah, yeah, I, I bought that one. It was good. I tested it and then in a day I had 500 prompts. So I was like, I guess I have to upgrade. Yeah. So I, I use cursor quite a. Bit that's going on here. No, I can't up what I got going on but no, no, don't worry. About it, it's fine. I can do.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  text: Yeah, yeah, I, I bought that one. It was good. I tested it and then in a day I had 500 prompts. So I was like, I guess I have to upgrade. Yeah. So I, I use cursor quite a. Bit that's going on here. No, I can't up what I got going on but no, no, don't worry. About it, it's fine. I can do. The other thing you can do in the IDEs is go into ask mode. Or chat mode and yeah, if you. Have the whole of your content there. I don't. So it's gonna give me some answer. Yeah, sure. If you have the whole of your. Content, then it'll read your content and then it will actually try to provide you an answer. And so it's building me something inside. This application to do things based on the code base. See what I said? Document process, there's already a document operations. Module and then it's going on and telling me how to do that kind of shit. So I want to get out of that and go back to my schedule. But again I'm pointing to some new place for you to play because you're. Already comfortable there and that. How many hours you think it's going to take for you to hand bomb. Your six documents into their format? Oh, it's going to be a while. It's going to take a while because I'm cutting and pasting and searching and control and find. So you know, if there's, it's. It's not an insignificant amount of time. Right. That's why I was willing to spend quite a bit of time with the AI. Yeah. Because I felt like that was time well spent on learning how to do this task, which is a very normal task that you have to do on a regular basis. For the aer.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  text: If you have the whole of your. Content, then it'll read your content and then it will actually try to provide you an answer. And so it's building me something inside. This application to do things based on the code base. See what I said? Document process, there's already a document operations. Module and then it's going on and telling me how to do that kind of shit. So I want to get out of that and go back to my schedule. But again I'm pointing to some new place for you to play because you're. Already comfortable there and that. How many hours you think it's going to take for you to hand bomb. Your six documents into their format? Oh, it's going to be a while. It's going to take a while because I'm cutting and pasting and searching and control and find. So you know, if there's, it's. It's not an insignificant amount of time. Right. That's why I was willing to spend quite a bit of time with the AI. Yeah. Because I felt like that was time well spent on learning how to do this task, which is a very normal task that you have to do on a regular basis. For the aer. We'Re in quality control, Right. It's the same problem with the app side and everything. Right. So like I say, we're in the same problem space. And so, yeah, yeah, let me know how things. I'll try it in cursor, I'll upload my documents to cursor, I'll open a new thing, I'll see if they can write me some Python scripts and, and I'll give it an example of how I want it done and, you know, that sort of thing. And I'll. I'll work it out and I'll see what I can get done. I mean, I have the. Till the end of this week to get it done. So if I spend another couple of hours on it today, testing it in cursor, I feel comfortable doing that, that I can get it done by Friday, you know? Yeah, that was, that was my thought. If you'd send like 10 or 5%. Of your time, you know, you can get that back, but pulling harder somewhere. But yeah, just to see because it's a. It's a grinder, man. It's terrible because they want, they have. I. I think it's like 45 things on the checklist that I have to go and it's like search and retrieve and I already know that I've written shit on it and I'm like, why do I have to do. Redo it again and cut and paste and it's just a. It's a nightmare, right, the way that they want this done. So what, easy for them, hard for me.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  text: Yeah, that was, that was my thought. If you'd send like 10 or 5%. Of your time, you know, you can get that back, but pulling harder somewhere. But yeah, just to see because it's a. It's a grinder, man. It's terrible because they want, they have. I. I think it's like 45 things on the checklist that I have to go and it's like search and retrieve and I already know that I've written shit on it and I'm like, why do I have to do. Redo it again and cut and paste and it's just a. It's a nightmare, right, the way that they want this done. So what, easy for them, hard for me. Yeah, I know, I know. They can ask anything. That's what I realized. They just ask whatever they want and they get it because of the position and the environmental is just like safety. The religion. Just don't kid yourself, it's a religion. Well, yeah, we're studying cults right now. Because they do have good tax break to save us. No, I mean churches. Sorry. Same sort of stuff of language there. What we're doing right now is using. The IDEs to document our code. We're not documenting any of our code and we document our code in a way that we want to be able to read, rebuild our code. We're looking at the specification being quite rigorous. It's looking at all kinds of stuff and I still want it to be a readme that you can follow Travis. He's building the back end out for our quality control project and the home Office application and he delivered it as a GitHub repo. I went into my IDE, I created a folder, I went into my IDE, I said, here's the git. And it went, downloaded it and then installed it. And then I said, help me run this application. And I dragged the readme into the chat window. It would have found it. It just takes a while to find files. The readme has enough info to then start building out the whole of the project for me within 15 minutes. It's really quite something. Within 15 minutes, I went from zero to having a fully running development environment from the time I found the link and I was able to get the. Right authority to download the repo.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u117
+  - u118
+  - u119
+  - u120
+  text: Well, yeah, we're studying cults right now. Because they do have good tax break to save us. No, I mean churches. Sorry. Same sort of stuff of language there. What we're doing right now is using. The IDEs to document our code. We're not documenting any of our code and we document our code in a way that we want to be able to read, rebuild our code. We're looking at the specification being quite rigorous. It's looking at all kinds of stuff and I still want it to be a readme that you can follow Travis. He's building the back end out for our quality control project and the home Office application and he delivered it as a GitHub repo. I went into my IDE, I created a folder, I went into my IDE, I said, here's the git. And it went, downloaded it and then installed it. And then I said, help me run this application. And I dragged the readme into the chat window. It would have found it. It just takes a while to find files. The readme has enough info to then start building out the whole of the project for me within 15 minutes. It's really quite something. Within 15 minutes, I went from zero to having a fully running development environment from the time I found the link and I was able to get the. Right authority to download the repo. I truly believe that, David. I truly believe that because when I did my application, I set up my get. I set up everything. It didn't take me 15 minutes, it took me more like an hour. But I was up and running and testing code within an hour, which is insane. Yeah, I use lovable.dev for stuff that. I want to get a view of a UI on development environment. It's mostly UX. Then I can just attach it to my GitHub and bring it into my desktop and it does a better job. Of fixing it, taking the rest of the way. And so there's this really neat thing. Going on where the IDE is super powerful. It can then because it's attached to. GitHub repo, I go back to the. Lovable.Gov, it reloads what I've done on my desktop and I can work with it there. So if you get a workflow with. The IDE that's pretty jazzy and since you're nerdy, it can be super powerful tool. I, I discovered that it could publish. To websites for me to netlify and. Railway like publishes to websites. You don't have to do it manually.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  text: Yeah, I use lovable.dev for stuff that. I want to get a view of a UI on development environment. It's mostly UX. Then I can just attach it to my GitHub and bring it into my desktop and it does a better job. Of fixing it, taking the rest of the way. And so there's this really neat thing. Going on where the IDE is super powerful. It can then because it's attached to. GitHub repo, I go back to the. Lovable.Gov, it reloads what I've done on my desktop and I can work with it there. So if you get a workflow with. The IDE that's pretty jazzy and since you're nerdy, it can be super powerful tool. I, I discovered that it could publish. To websites for me to netlify and. Railway like publishes to websites. You don't have to do it manually. Yeah, it'll like. Yeah, so it, it'll, it'll, it'll do all the GitHub management, of course, and then it will actually, then with your credentials, you add your credentials. Everything goes directly to netlify now. And if it doesn't work there, then. I can go to another service called Railway which will build me the database. That's the only requirement is like I can't have a database effectively. Well with netlify. But yes, right in There I just. Like publish to netlify. I said that, and then it walked me through the process of getting the credentials set up in the IDE to then be able to do that. It taught me. And so now I ask it to. Teach me because my peers know a lot more about the back end than I do. And when they do things, I'm like, okay, cool. And so I. I was like feeling pretty hooped yesterday when I saw that. The repo was pretty extensive until I realized what I had in front of me. And that was the ability to figure. Out how to do it. Yeah. And I didn't even need to. I didn't even need to figure out how to do it. I just asked it to do it. And then it explains it to me as it's going. Yeah. And that's what I really like. I do get it to explain stuff to me. Yeah. It's pretty cool. Yeah. So thank you for bringing that. That's because I think that's really neat to be able to see where you are and see that you've hit walls and you went down the rabbit hole and you counted the hours. That's a really important thing. And that, because that's for me, I think going to be a measure of how to pull myself out is through timers is because it becomes fascinating. But it's not the right thing for a business all the time. I. I met with Jason Kriskey last week and her on the weekend and I said, been. We've been talking about this stuff and. And I came up with the phrase shadow boxing. And in the context of what I feel like the work is a lot of the time. Yeah.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u121
+  - u122
+  - u123
+  - u124
+  text: Yeah, it'll like. Yeah, so it, it'll, it'll, it'll do all the GitHub management, of course, and then it will actually, then with your credentials, you add your credentials. Everything goes directly to netlify now. And if it doesn't work there, then. I can go to another service called Railway which will build me the database. That's the only requirement is like I can't have a database effectively. Well with netlify. But yes, right in There I just. Like publish to netlify. I said that, and then it walked me through the process of getting the credentials set up in the IDE to then be able to do that. It taught me. And so now I ask it to. Teach me because my peers know a lot more about the back end than I do. And when they do things, I'm like, okay, cool. And so I. I was like feeling pretty hooped yesterday when I saw that. The repo was pretty extensive until I realized what I had in front of me. And that was the ability to figure. Out how to do it. Yeah. And I didn't even need to. I didn't even need to figure out how to do it. I just asked it to do it. And then it explains it to me as it's going. Yeah. And that's what I really like. I do get it to explain stuff to me. Yeah. It's pretty cool. Yeah. So thank you for bringing that. That's because I think that's really neat to be able to see where you are and see that you've hit walls and you went down the rabbit hole and you counted the hours. That's a really important thing. And that, because that's for me, I think going to be a measure of how to pull myself out is through timers is because it becomes fascinating. But it's not the right thing for a business all the time. I. I met with Jason Kriskey last week and her on the weekend and I said, been. We've been talking about this stuff and. And I came up with the phrase shadow boxing. And in the context of what I feel like the work is a lot of the time. Yeah. And so then you're getting ready for the big one. Like, and that's right what it is. Right. Like, obviously this little tool that I've made is. Is really helpful for founders and for people. You know, it'd be great. You just kind of upload your cap table and. And boom. It's. It's all. It's all there. The database is there and everything is there and it's all set up for you. I definitely could do that. Like, that is something that I could do. Is that profitable? I don't know. Maybe you would get 150 clients or something like that. You know what I mean? Like, it's not going to take the world by storm. But solving these small little problems allows you to move on to larger, sort of more complicated problems, which then that may be the one. Like, you just never know what the idea is. This was just a Practical problem that I needed to solve for my own business. And then you're like, oh hey Scott, that looks pretty good. Put an AI wrap on top of it so I can upload my stuff and then, you know, whatever and then we're done, right?
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  text: And so then you're getting ready for the big one. Like, and that's right what it is. Right. Like, obviously this little tool that I've made is. Is really helpful for founders and for people. You know, it'd be great. You just kind of upload your cap table and. And boom. It's. It's all. It's all there. The database is there and everything is there and it's all set up for you. I definitely could do that. Like, that is something that I could do. Is that profitable? I don't know. Maybe you would get 150 clients or something like that. You know what I mean? Like, it's not going to take the world by storm. But solving these small little problems allows you to move on to larger, sort of more complicated problems, which then that may be the one. Like, you just never know what the idea is. This was just a Practical problem that I needed to solve for my own business. And then you're like, oh hey Scott, that looks pretty good. Put an AI wrap on top of it so I can upload my stuff and then, you know, whatever and then we're done, right? Yeah. Startups don't require like integrated tools across the board, but if they had a. View for like their board members, they would everybody be super happy. And if it's not a spreadsheet then everybody's really happy. But oh God, if you could just pull that up on the Internet and just be like, bam, bam, bam. Can you imagine that it's all secure? I, you know who saw it too, right? You have all this like. So there's a real benefit to it. Again, one thing that we're very aware. Of is the difference between building something and then supporting it is, is that's different. Yeah. And so building it for yourself and. Your mates and everything else is, is what I would suggest is a real term, you know, with all of the tools right now is a near term opportunity. Does it affect your workflow? Invest in it. And then like what's happening with the models right now is pretty crazy and it can feel super encroaching but you. You know, it can. The problems they will solve for us in the future aren't the ones that. We have right now. No. And, and so I've seen, I've seen the potential, like I've asked it to do a couple of things that I, it just can't do. Right. But I'm like, it's close. Like the answers were close. Do you know what I mean? And, and I just, I'll wait a month and I'll retest it. Yeah. I, so I thought with this delegator. Pattern that I, I really, I'm, I'm. Super happy with it because there's a. Lot of, a lot of Runway to be had with it. See, because it's the first case where you give a problem to something.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  text: Can you imagine that it's all secure? I, you know who saw it too, right? You have all this like. So there's a real benefit to it. Again, one thing that we're very aware. Of is the difference between building something and then supporting it is, is that's different. Yeah. And so building it for yourself and. Your mates and everything else is, is what I would suggest is a real term, you know, with all of the tools right now is a near term opportunity. Does it affect your workflow? Invest in it. And then like what's happening with the models right now is pretty crazy and it can feel super encroaching but you. You know, it can. The problems they will solve for us in the future aren't the ones that. We have right now. No. And, and so I've seen, I've seen the potential, like I've asked it to do a couple of things that I, it just can't do. Right. But I'm like, it's close. Like the answers were close. Do you know what I mean? And, and I just, I'll wait a month and I'll retest it. Yeah. I, so I thought with this delegator. Pattern that I, I really, I'm, I'm. Super happy with it because there's a. Lot of, a lot of Runway to be had with it. See, because it's the first case where you give a problem to something. Watch. It'll probably just fucking not work. After typing all that, making you look at me like that. That, that is the kind of problem. That you're probably looking at asking at a chat. GPT is like a sophisticated problem. Like take these documents, I've got this, I want to put them in there. Here's that. And so what the delegator does is it's created all these different agents and it's decomposed the problem I've given it and it's saying all these agents are. Now failing because of. We'll See what's failing from. With that many agents, everything is going crappy. The task is completely. With limited results due to API constraints. Oh, I throttled. Oh, I sent way too many all at once. You're not allowed to do that. I. I make an. I made an async. I think that's what happened. I made an async application. Anyways. This is the first time I thought I would actually be able to scale myself because I can give it a problem. It's super sophisticated and it will go through all this process. It's still going through it. Even though a lot of them are not going to complete their journey, they're still going to have summarized reports about the fact that they didn't complete their journey. I can't stop them. But I've had it Take Travis's migration plan and it built out 13 agents that seem very appropriate for it to. Decompose the task and start building out the application. Okay. And it had no domain knowledge.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  text: Watch. It'll probably just fucking not work. After typing all that, making you look at me like that. That, that is the kind of problem. That you're probably looking at asking at a chat. GPT is like a sophisticated problem. Like take these documents, I've got this, I want to put them in there. Here's that. And so what the delegator does is it's created all these different agents and it's decomposed the problem I've given it and it's saying all these agents are. Now failing because of. We'll See what's failing from. With that many agents, everything is going crappy. The task is completely. With limited results due to API constraints. Oh, I throttled. Oh, I sent way too many all at once. You're not allowed to do that. I. I make an. I made an async. I think that's what happened. I made an async application. Anyways. This is the first time I thought I would actually be able to scale myself because I can give it a problem. It's super sophisticated and it will go through all this process. It's still going through it. Even though a lot of them are not going to complete their journey, they're still going to have summarized reports about the fact that they didn't complete their journey. I can't stop them. But I've had it Take Travis's migration plan and it built out 13 agents that seem very appropriate for it to. Decompose the task and start building out the application. Okay. And it had no domain knowledge. Really. Is there like, I didn't give it any context. I just gave the document. That's it. What it did is it built out all the agents and their obligations into. How to take that plan and then make it work. And so it decomposed the problem and said it needed 13 different points of view, 13 different actors who would all contribute to making a solution happen. I might use. I might use this technique in, in my development environment, like to use, like to ask it how I would solve this problem.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  text: Really. Is there like, I didn't give it any context. I just gave the document. That's it. What it did is it built out all the agents and their obligations into. How to take that plan and then make it work. And so it decomposed the problem and said it needed 13 different points of view, 13 different actors who would all contribute to making a solution happen. I might use. I might use this technique in, in my development environment, like to use, like to ask it how I would solve this problem. Yeah, yeah, yeah, yeah. I did try that. I. I solved it. I like, because I know, right? Yeah, yeah, but that's interesting. That's an interesting approach. Like I know how I would solve it, but like, let's. Let's see how it would solve it. And so that's the first time where this is actually superseded. Like, or it's exceeded my capacity to be able to have different points of view and synthesize it in a meaningful way. I'm sorry it cacked out. I gave it to. It was a really jammy question. And unfortunately I think it just showed. Me that if it does like that many, which is like 12 or 15, I hit a limit. And it's so hard to tell other than going in here and seeing. So you can see that it did stuff. It's got shit going on and a lot of it. Right? Yeah. But it didn't make the final report because it had issues. Usually there's another task item here too, so it's way easier if I give it something like, yeah, I got a wiener dog. If you. So I. If I've started asking certain models how. I would do things. Okay, four. That should be okay there.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  text: And so that's the first time where this is actually superseded. Like, or it's exceeded my capacity to be able to have different points of view and synthesize it in a meaningful way. I'm sorry it cacked out. I gave it to. It was a really jammy question. And unfortunately I think it just showed. Me that if it does like that many, which is like 12 or 15, I hit a limit. And it's so hard to tell other than going in here and seeing. So you can see that it did stuff. It's got shit going on and a lot of it. Right? Yeah. But it didn't make the final report because it had issues. Usually there's another task item here too, so it's way easier if I give it something like, yeah, I got a wiener dog. If you. So I. If I've started asking certain models how. I would do things. Okay, four. That should be okay there. Yeah, it's failing. Oh, it's failing. But it is giving me answers, so it's on my side. Yeah. Okay. Anyways, that's a significant thing. And then I put that in. So I was like, okay, that's how we're going to do all of our. Agents from now on, is that they create their own agents and they solve the problem. The problem is they need to have tooling. But if you do this kind of thing inside your ide, it has all the tooling that we're actually loving and. Wanting to have inside ChatGPT. And so it will then do things. Like, okay, I'll go onto the Internet and I'll research that. If you point it to. If you. If you point to like a GitHub repo that's successful, say, I want to build this, it'll build it. That's crazy. You can then say, analyze this and tell me how to build an MVP version of it. And then you can then go into. A long process of building a spec. Out and then say, follow the spec and build me it out. You can really extend the ide. And this pattern, despite it being broken right now, is what the IDE effectively does. It has the ability to delegate the problem into a handful of different, very specialized agents.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  text: Yeah. Okay. Anyways, that's a significant thing. And then I put that in. So I was like, okay, that's how we're going to do all of our. Agents from now on, is that they create their own agents and they solve the problem. The problem is they need to have tooling. But if you do this kind of thing inside your ide, it has all the tooling that we're actually loving and. Wanting to have inside ChatGPT. And so it will then do things. Like, okay, I'll go onto the Internet and I'll research that. If you point it to. If you. If you point to like a GitHub repo that's successful, say, I want to build this, it'll build it. That's crazy. You can then say, analyze this and tell me how to build an MVP version of it. And then you can then go into. A long process of building a spec. Out and then say, follow the spec and build me it out. You can really extend the ide. And this pattern, despite it being broken right now, is what the IDE effectively does. It has the ability to delegate the problem into a handful of different, very specialized agents. Well, yeah, I mean, in Cursor, I think there's five agents that they use. Right. They use cloud, they use. I forget the list. They listed them when I looked at the docs. Right. So those are the models. And then on top of those, Cursor. Has its own agent. Yeah. Its agent would have a whole lot of tooling associated, but it might create agents to do those toolings and stuff like that. But it is a really neat place. That I discovered because I'm trying to solve problems all the time and I'm. Like hitting the walls that you hit for like a week. And then I'm like, what do I do? I don't know. And so with the advancing of the. Latest models, O3 particularly, and 3.7, asking. Them how to build code. Yeah, yeah. Like, that's what I did with my application. I did not write one line of code. But even asking them how to do things and saying, like, how can I solve this problem? Yes. Yep. I have. With your documents. Go in there and just like, how. I want to solve this problem and then. And report back and then say. And see how many people get IDs. No, not many more. But, yeah, I gotta get this out. So I'm going to be in Winnipeg, Vancouver next week, and by Wednesday next. Week, this delegator thing is going to be firmly demoable. I've got a version of those images and so we'll probably be demoing this with some AIM QC stuff for a big conference and. Which means that I'm not going to. I'm going to today cancel next week's. Meeting because it's just going to be unreasonable. Yeah, okay. All right.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  text: But even asking them how to do things and saying, like, how can I solve this problem? Yes. Yep. I have. With your documents. Go in there and just like, how. I want to solve this problem and then. And report back and then say. And see how many people get IDs. No, not many more. But, yeah, I gotta get this out. So I'm going to be in Winnipeg, Vancouver next week, and by Wednesday next. Week, this delegator thing is going to be firmly demoable. I've got a version of those images and so we'll probably be demoing this with some AIM QC stuff for a big conference and. Which means that I'm not going to. I'm going to today cancel next week's. Meeting because it's just going to be unreasonable. Yeah, okay. All right. But I'll report back in a couple weeks and. And let you know how it goes with the documents. So. Yeah, do let me know if you run into any. Anything this week and you have some issue. I'll be grinding away on this for. MQC right now, because I am. Okay, documents. And if you just ping me, then. Then we can chat through something for 10 minutes. Yeah. For Hanif and Eric, who are on. The call, I will see you sometime. Between probably Monday night and Thursday. Okay, see you guys. Thanks for everything. Yeah, bye. But I will be in touch with you both before Friday. Sounds like a plan. Is that your detective voice? I don't know, I just wanted. I just like looking for you both. And all I see is like four different colored rectangles. And then me. Well, for my end, it's because I'm just blurred. There you go. I haven't done my hair yet this morning, so there's all kinds of reasons. Not to have your camera on. So I. I'm not like, working with Toronto anymore, but those guys never turn their camera on. I'm like, I don't even know who you guys are, man. Could you just turn on for once? And then I went to Toronto. I'm like, okay, now I know you're. Human. But, yeah, busy between now and I gotta get back. I gotta get on to, like a morning of development. Quality control work. So I. I wish you both well on your stones. Throw away work and you're making people drive. Well, is that what you do, Eric? I don't do much of anything, David. You know that. Yeah, but you're getting paid. That's good. You're the one that's getting paid. But that's. That's a talent these days, and. That'S a good one. Yeah, I've got a commitment to my. Team members here and I think an hour, let's see. Oh, yes. So I'm gonna get on that work. And I will chat with you both soon. All right, thank you.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3244.46
+  utterance_ids:
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  text: Yeah, bye. But I will be in touch with you both before Friday. Sounds like a plan. Is that your detective voice? I don't know, I just wanted. I just like looking for you both. And all I see is like four different colored rectangles. And then me. Well, for my end, it's because I'm just blurred. There you go. I haven't done my hair yet this morning, so there's all kinds of reasons. Not to have your camera on. So I. I'm not like, working with Toronto anymore, but those guys never turn their camera on. I'm like, I don't even know who you guys are, man. Could you just turn on for once? And then I went to Toronto. I'm like, okay, now I know you're. Human. But, yeah, busy between now and I gotta get back. I gotta get on to, like a morning of development. Quality control work. So I. I wish you both well on your stones. Throw away work and you're making people drive. Well, is that what you do, Eric? I don't do much of anything, David. You know that. Yeah, but you're getting paid. That's good. You're the one that's getting paid. But that's. That's a talent these days, and. That'S a good one. Yeah, I've got a commitment to my. Team members here and I think an hour, let's see. Oh, yes. So I'm gonna get on that work. And I will chat with you both soon. All right, thank you.
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3244.46
+  utterance_ids:
+  - u160
+  text: There you go. I haven't done my hair yet this morning, so there's all kinds of reasons. Not to have your camera on. So I. I'm not like, working with Toronto anymore, but those guys never turn their camera on. I'm like, I don't even know who you guys are, man. Could you just turn on for once? And then I went to Toronto. I'm like, okay, now I know you're. Human. But, yeah, busy between now and I gotta get back. I gotta get on to, like a morning of development. Quality control work. So I. I wish you both well on your stones. Throw away work and you're making people drive. Well, is that what you do, Eric? I don't do much of anything, David. You know that. Yeah, but you're getting paid. That's good. You're the one that's getting paid. But that's. That's a talent these days, and. That'S a good one. Yeah, I've got a commitment to my. Team members here and I think an hour, let's see. Oh, yes. So I'm gonna get on that work. And I will chat with you both soon. All right, thank you.

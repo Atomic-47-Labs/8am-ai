@@ -1,0 +1,1125 @@
+meeting:
+  date: '2025-07-23'
+  title: 8am-AI 2025-07-23
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Jason Kryski
+  - James Giroday
+  - Hanif Janmohamed
+  - Spencer MacBeth
+  duration_s: 3649.82
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - 8am-AI-2025-07-23.md
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 0.24
+  t_end: 2.64
+  text: Get started with the note takers. We're gonna have five.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 4.72
+  t_end: 7.6
+  text: David, we have to. We have to sort out the note takers.
+- id: u3
+  speaker: David Olsson
+  t_start: 9.28
+  t_end: 17.28
+  text: They need their own room, right? Like it's. They're a class of citizen and everybody comes with one nowadays.
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 17.68
+  t_end: 30.65
+  text: And I think there should be an octagon type situation where you get all the note takers in and. And, you know, eight enter, one leaves and that's the winner. Right? Like we get to figure out which.
+- id: u5
+  speaker: David Olsson
+  t_start: 30.73
+  t_end: 158.38
+  text: Yeah. Or how about. How about this is like, everybody's invited, but it's my room, so everyone's not. You do that too. So actually I was thinking about this earlier is that the rooms are inadequate. Good morning, Ashley. Welcome to 8:00am AI Thing. We'll get introduction as soon as we. Have some sort of forum. But I was thinking about this room. And so we use MEAD meetings and. Hey, Jason. And we could use other technology. A couple years ago I looked into Jitsi. It's a open platform that uses WebRTC, basically. WebRTC to do the same thing. And it's an open source project. It allows you to have just as many kind of people in the room. And the nice thing is it's software that you can run and build yourself. And you can run the server quite easily nowadays. And then you could have to get rid of. The problem that Fulvio is just mentioning is that there's so many note takers. You could actually run your own room. So you could have an agent that's permanently attached to your software or something like that. So it's not that far off to. Figure out how to get Jitsi driving. This room because the development would probably be a day. That's the stupid thing. It's like a development time on some of these things because Jitsi has been around for a while and they've actually, the people that started it, they started a business around it as to. Well, I think that you could take. That because I've built WebRTC projects from. The ground up in a few hours and they function. You have to have a signal server. But once you get them up and going, it's kind of cool. All right, that's me blabbing about nothing this morning, but we have some new people coming joining us. And on my team, Bob, you know. I have a growing team. We have some. Somebody called Jen, their name is Jennifer, Jen Boger. And she might be joining us today. You. You laugh. You got that, Jason? That's pretty good. There. She is a mother. And BB is joining us too. BB is on the team as well at Atomic. And it looks like we have some Jason's team, Ashley's join from the team.
+- id: u6
+  speaker: Jason Kryski
+  t_start: 158.38
+  t_end: 164.45
+  text: And then I added Spencer here, who I was just chatting with yesterday, who's working on some AI stuff.
+- id: u7
+  speaker: David Olsson
+  t_start: 164.69
+  t_end: 167.97
+  text: Cool. That's how the room goes.
+- id: u8
+  speaker: Jason Kryski
+  t_start: 168.13
+  t_end: 171.81
+  text: Haven't worked with Spencer in like eight years. It's been like a lifetime.
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 172.13
+  t_end: 172.77
+  text: Crazy.
+- id: u10
+  speaker: David Olsson
+  t_start: 174.13
+  t_end: 514.87
+  text: Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co
+- id: u11
+  speaker: James Giroday
+  t_start: 517.11
+  t_end: 519.65
+  text: So what's layer one? What's the first layer?
+- id: u12
+  speaker: David Olsson
+  t_start: 519.89
+  t_end: 565.86
+  text: Layer one is you do it, and then layer two is you tell it what to do layers. Okay? So these are stages. Stage one is you do it. You build something. It's static. Stage two is you figure out how. To get it to guide you to do it. Stage three is you're building it, so. It determines how to play itself. Stage. Next stage is you work with it. So it determines what to build. The stage I figured out is the stage above that, getting it to describe itself, then sit on top of itself to figure out what that description is in a deployable fashion elsewhere.
+- id: u13
+  speaker: James Giroday
+  t_start: 566.5
+  t_end: 592.8
+  text: Dave, you're operating on a level that I aspire to, that's for sure. Read the most fascinating conversation on Thursday, I think it was. And I. I think it took me like about 20, at least 24 hours to unpack it and realize what you were suggesting. And I think 24 hours later, I mean, I was excited on Thursday, and then on Friday, I was like, holy, this is unbelievable. I was pretty excited.
+- id: u14
+  speaker: David Olsson
+  t_start: 593.2
+  t_end: 714.4
+  text: Okay, so it simplifies there. Okay, so that's just. Okay, whatever that is. So instead of being on top of so on, you're in the ide. You're prompting it, you're telling it what. To do, and so you're telling it. Exactly to do, and you're telling it. Okay, I need this problem to unsolve it. And you're like, I don't even have a problem. I just got this scenario. I need you to tell me how to solve any problem in this scenario. That's the how of the how of how. And that's not that difficult because it's just you have to work through the. Other problem sets to get to it. But what it Is, is a manifest. And it's a manifest because it just envelops itself in the ability to lay down all the other tracks. It can unravel itself like a strategy, can unravel itself into criteria, which can. Unravel itself into a means of scoring. Which can unravel itself into a plan. Which then unravels itself into, into tasks, which then unravels itself into a means of execution. So if you find a higher level understanding of something, everything else underneath it can reflect and play out. And so it's a stupid recursive play for sure, but it's how we think. So it's, it's not that bad. It's. It's not that bad. But what I, I discovered it more than once. And the experience this morning was at a practical level. How's that? You're working inside the id. I don't know what's wrong, right? I have no idea what's wrong. So I'm working at the level of okay, everything below me, I don't know what it is, man, it's functional. And so I'm like, okay, how do. I go about that? And so now the tools are really good at that. And so back in the day we used to do one thing. If you're a programmer, you didn't understand something, you would do a lot of asking of questions of yourself. And then you're like, okay, maybe the Internet. And then you're like, oh, Google.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 714.64
+  t_end: 715.16
+  text: Oh fuck.
+- id: u16
+  speaker: David Olsson
+  t_start: 715.16
+  t_end: 793.04
+  text: Error codes. Oh my God. And then you figure things out. And so that's basically the same thing here. And so Travis, who isn't in the. Meeting because he's usually busy, he, he's the best to watch this. He will, he will do this to. The whole of like aws. He will just like, okay, we'll just deploy it and then. And then what? And nothing works. And so you just start, you just. Start somewhere and you start your application. You're like, okay, the application works. Okay, the deployment to the server works. Okay. The next thing. Does this work? No, there's an error code and you just keep going and the error codes just lead you up the ladder. And so that's my. We'll get this in the transcript. So that would be a transcript will unravel this for us. That's the thing, is that it's not describing it. It's basically the how of the how, the how, but how to get there. Stupid how. I showed you the path. But the reasoning isn't that stupid. It's very short sighted. The reasoning is very Very short sighted. So it's just what's in front of you. And if you can figure out a framework for putting, for building integrity to your thinking around that, and that's great. And the tools are the way to do that. So this, the error code in here, where is it?
+- id: u17
+  speaker: James Giroday
+  t_start: 794.64
+  t_end: 795.76
+  text: Steve, can I ask a question?
+- id: u18
+  speaker: Fulvio Ciano
+  t_start: 796.24
+  t_end: 796.8
+  text: Yep.
+- id: u19
+  speaker: James Giroday
+  t_start: 798.48
+  t_end: 849.33
+  text: And I feel like it might help other people understand as well, because if, if I can understand it, anyone can understand it. Is this real? Is this kind of this similar to the, the idea that you had of something that you could, I, I feel, still trying to understand a little bit. Basically an app that you can invite to meetings and like Fireflies or Fathom, which I think, I think Fathom actually does a better job of coming up with minutes and stuff like that. So some sort of an app that you invite to a meeting like this, it creates not only minutes but also on a website, something like an app that you discussed it like mocks it up. Is this similar to the playground?
+- id: u20
+  speaker: David Olsson
+  t_start: 850.37
+  t_end: 855.69
+  text: Yeah. Oh, the playground does that? Yeah. So that's exactly what the playground could do. So that's why it's like.
+- id: u21
+  speaker: James Giroday
+  t_start: 855.69
+  t_end: 856.45
+  text: Okay, okay.
+- id: u22
+  speaker: David Olsson
+  t_start: 856.93
+  t_end: 966.92
+  text: So you put a transcript into it and then you say. So you put a transcript into. Now you would chat it, you'd say, okay, chat. This is what I'm going to do. I'm going to put a transcript into you. I want you to do this, I want you to break it and I've. Got an agency that does that. You put in your project plan and it will break it up and then it will do the brief and then it will build you a one pager. And then you can get to the. Point where it will produce HTML and it will show up like shit in my app. It will be there, it'll be functional HTML. So you can get to the point. Where it will do all the derivative. Work and it does serial and parallel piping. And so that's the thing, right? So when you just think about a. Team, like so it's easy for me. But from if you have a production. Team, usually you've got a manager and you hand off separate tasks, each of them and they come together and they share. So you might have a peer to. Peer, you might have a hierarchical. So you can do all those kinds of patterns inside here I have one contract right now on the table for Worksona licensing agreement, a licensing agreement for a delegation pattern for a series of delegation patterns for just a web page, not even anything that works on it does a licensing agreement for the documentation around some flowcharts around how something works. That's what the licensing agreement is for. Nothing that we've built. And so the delegation patterns which I. Surfaced recently as a delegator application, they're inside. They were inside the playground from day one. From day one, you could do everything that you could do in all of. The patterns I've built and all of the stuff I've built since November.
+- id: u23
+  speaker: James Giroday
+  t_start: 969.24
+  t_end: 977.47
+  text: So the playground is the. Is the agent that you invite along to a meeting or design.
+- id: u24
+  speaker: David Olsson
+  t_start: 977.47
+  t_end: 979.55
+  text: The agent, yeah.
+- id: u25
+  speaker: James Giroday
+  t_start: 979.55
+  t_end: 981.55
+  text: The platform for the agent to live on.
+- id: u26
+  speaker: David Olsson
+  t_start: 982.11
+  t_end: 987.31
+  text: It would. It's most likely the platform to build. The agent that would live on something.
+- id: u27
+  speaker: James Giroday
+  t_start: 988.51
+  t_end: 990.59
+  text: Okay, so that helps.
+- id: u28
+  speaker: David Olsson
+  t_start: 990.99
+  t_end: 1023.52
+  text: So what I'm getting, is it allowed. For all the piping that you could do? Like you can hand off work, you. Can synthesize it, you can do all. That kind of stuff. Right. Which is, which is great. I designed it after market research, survey making, which is. Just piping. But where I was going earlier with things is this. So I realized, okay, that's great. In this playground app, what I realized when I was making is like, oh, it makes workflows. And then I'm like, if I export. The workflows, a JSON file that's basically the application, right? That's a manifest.
+- id: u29
+  speaker: James Giroday
+  t_start: 1023.52
+  t_end: 1024.56
+  text: So that's the pattern.
+- id: u30
+  speaker: David Olsson
+  t_start: 1025.12
+  t_end: 1031.68
+  text: That's the pattern. That's the pattern and the piping all in the JSON file. And that's a manifest and that's a higher level.
+- id: u31
+  speaker: James Giroday
+  t_start: 1032.0
+  t_end: 1035.2
+  text: And so that's what's a manifest. Sorry, it's.
+- id: u32
+  speaker: David Olsson
+  t_start: 1035.2
+  t_end: 1126.46
+  text: It's like, it's like, it's like a. Description of what is inside it, but. In a really compact form. Say like a bill of lading or. A bill of materials is a manifest. Yeah, there's a TV series called Manifest. So it's JSON. I don't know. It's not like Lost, man. Lost was shit too, but it was entertaining. But the manifest, so what it does is it exports this big JSON file, describes everything. And that if I take that now into an ID and say build an app with it, it'll do that because it's a huge. It's a well structured data set. And I had that intuition back then. I'm like, man, this thing is. And I never touched anything. What's interesting is that thing contains everything that you could take out of it. Now to build apps or to build the portability of this idea. So we're talking about. I'm going to roll back. We're talking about being in this meeting and having all these note takers and. If we could consolidate that thinking and have one thing in here that was. An agent that kind of got our intuition on stuff, it would take notes and do things in a specific way. We want to have some presence in here that does that. Well, it's maybe the same presence we. Need inside the workplace, inside the playground. And so maybe the manifest manifests itself differently inside. In this side, in this environment, and it manifests itself differently inside another environment. And so the manifest is its way. To get into an environment.
+- id: u33
+  speaker: Fulvio Ciano
+  t_start: 1129.82
+  t_end: 1185.46
+  text: Generally. James, the nomenclature difference between, let's say, a bill of lading or a checklist or contents, list of contents and a manifestation is that manifest will include information about what it's for and how to use it. That's the difference, right? So, like, bill of lading is kind of weak in the sense that a bill of lading is just a list of stuff, right? Like, here's what's in here. It doesn't give you the view on what to use it for or how to apply it. Whereas a manifest will do that. Right? Manifest will say, you know, here's what it's for. Right? And. And conceptually, here it goes further, right? Here it goes a little further because here there's, there's. There's workflow about what's in the list as well. So that's the difference, right?
+- id: u34
+  speaker: David Olsson
+  t_start: 1185.94
+  t_end: 1209.95
+  text: So, so you can, you can wrap up, say, a data set, and you can say, well, here's an agent that works on the data set. And then you say, well, here's the. Tools the agent needs to work on the data set. And then you say, well, here's the technology I want you to deploy to build out those tools. And then here's the configuration for the server. And then here's my accreditation. And here's my. Here's my. Here's my.
+- id: u35
+  speaker: James Giroday
+  t_start: 1210.27
+  t_end: 1251.07
+  text: You may hate this comparison, but I, I feel like we're really overlooking the manifesting connection here. And honestly, it's actually not that different. Like, no, a group of people just like, thinking, oh, like, what's AI? An AI app. We could, you know, and then this manifest app comes along and you're just manifesting this app into existence. Meanwhile, there's actually a manifest app that's doing the work to create the app and, like, deploy it. I mean, this is not a bit. I'm just. I feel like there's an actual. There's something there. There's a kernel of something. Anyways, I understood Fulvio on the, on what a manifest actually is. That makes sense.
+- id: u36
+  speaker: David Olsson
+  t_start: 1251.47
+  t_end: 1383.7
+  text: So it enables something to be portable. So XML did this in a great way. It's portable, allows it to describe itself. You can have an accompanying document, xml, do this too. So you can have a. Here's my data. Here's a document that's in exactly the same format that describes the data on. How to use it. And then the two are exactly the same shape. Those pair. That's generally what you need. That those two documents allow you to. Then say, no matter what. My thinking is it's portable and here's the data to work with. My thinking. And if you have these sources for information, I don't care what the environment is, because I got a way of figuring that out. And I had that shown to me. I had that shown to me by giving myself some work and having the problem to solve it and then recognizing I was getting fed something I didn't understand. And then I pursued that thinking and it took more than a few days for it to land in terms of. It was basically revisiting the writing of. Viruses and recognizing that's what I was being told. BB is is that. And where this is going is it just takes that idea of whatever you can to build your own loop back. Into yourself is where we're at. And then that loop will then drive its own innovation wheel. So it's shy crazy, man. Like, it's, it's, it's. It's like so fast that as soon as you conceive of it, like, it can be. It can be deployed pretty quickly. It's just hard to realize what the value in some of this stuff is. That's seriously where some of my work is going. And that is the most exciting thing. I felt in the last two weeks. Welcome. Is in Mexico, I think. Are you in Mexico?
+- id: u37
+  speaker: Hanif Janmohamed
+  t_start: 1384.5
+  t_end: 1388.74
+  text: I am in Mexico, yeah. Hey, Dave.
+- id: u38
+  speaker: David Olsson
+  t_start: 1388.9
+  t_end: 1389.46
+  text: Hey, man.
+- id: u39
+  speaker: Hanif Janmohamed
+  t_start: 1390.26
+  t_end: 1396.86
+  text: So I, I have a question. I tried. I did try playing with the playground in this earlier iteration.
+- id: u40
+  speaker: David Olsson
+  t_start: 1396.86
+  t_end: 1397.36
+  text: Yeah.
+- id: u41
+  speaker: Fulvio Ciano
+  t_start: 1397.14
+  t_end: 1397.64
+  text: Yeah.
+- id: u42
+  speaker: Hanif Janmohamed
+  t_start: 1397.54
+  t_end: 1408.65
+  text: And I kind of ran aground pretty quick. But I'm curious about, you know, what's. Who's the target audience? Are we talking. Is this a developer's tool? Is this for developers?
+- id: u43
+  speaker: David Olsson
+  t_start: 1409.13
+  t_end: 1517.02
+  text: So that's. That is the curiosity. Right. So I had needs. And so they fit needs somewhere between power user and developer. And. And now it's surfaced as a metaphor that is UI driven. And it's still complex. Right. And so the ability to chat your. Way through it is what I'm adding on top to understand where the middle ground is in all of this stuff. There's a distance between UI and AI. Right. Chatbot is just Purely like in your. Head sort of thing. And a lot of time spent on workflow where UI is meaningful. It allowed for building out of reports. So 67 interviews had to do a lot of the same type of reporting. Really hard for humans to synthesize that kind of stuff. So I have one of these playgrounds. That does 27 reports. You take, you took one long form interview and you get 27 reports out. Of it, five or six of them, super valuable. No human could make that many reports. Right. And so ux, UX design is filled with all kinds of reports. It's just gross work. It says the guys have three UX companies. So it's. So it was, it was an immediate. Need and then it was like, okay, can process things. And it allowed for the surfacing of. The experience where the power was. And that's at the prompt. And so I've had to add all. Kinds of complexity into it. And so that's where things get difficult because. But then again, so like you want. To have each of the agents have their own model selection, their own temperature selection and their own token selections. That's a formula for how to get a certain kind of output. And so adding that is a level of complexity most people don't want to do. So adding a chatbot was great.
+- id: u44
+  speaker: Hanif Janmohamed
+  t_start: 1518.54
+  t_end: 1529.02
+  text: Yeah, I noticed, I noticed that in lovable that when, when they added the chatbot and then the agent, that made the whole process a lot better.
+- id: u45
+  speaker: David Olsson
+  t_start: 1529.34
+  t_end: 1529.84
+  text: Yeah.
+- id: u46
+  speaker: Hanif Janmohamed
+  t_start: 1529.82
+  t_end: 1540.46
+  text: So being able to start at a meta level about what you intend and then break that down, you know, you ended up with a better result with less churn and less complexity.
+- id: u47
+  speaker: David Olsson
+  t_start: 1541.5
+  t_end: 1601.61
+  text: So yeah, a lot of the, so how we're doing this professionally is have. Very articulate expert level interfaces that are, you know, crud, create, read like all the stuff you'd normally see in an interface. Very articulate, API driven. So everything is API driven so that you could then have a chatbot to at the same time. But if you go far on one end where you normally would have to. Have that sophistication, then you can go API driven at another level. You can start at a higher level and say we're just going to go agent first. But right now the user base is just, it's just curious. This app here or any of the 80, 180 apps I've built 10 years ago, any one of them after a week's worth of work would have been. Worth a quarter million dollars worth of. Work, of investment would have been worth track record per year, couple team of five, whatever. Like things are so radically different, right?
+- id: u48
+  speaker: Hanif Janmohamed
+  t_start: 1601.61
+  t_end: 1603.05
+  text: Yeah, it's very radical, too.
+- id: u49
+  speaker: David Olsson
+  t_start: 1603.05
+  t_end: 1677.63
+  text: And so what your experience is, is like just in time development, and that's a thing. And we're trying to enable that too, because I want to work that way. I just have too much to do. And so the lower I get, the longer things take. And our. Our audiences want something easier, but they want the articulation of Exactly. Other spreadsheets, but they don't want to work at the level of spreadsheets anymore. So it is a. It is a curious thing. So my stuff looks like it does. Like when you and I were working, it's just like a thousand times more powerful. So it does have more arms and. Legs on it, but it is meant to eventually service just the chat experience as the primary thing, and then we'll figure out what the next step is. But seriously, I don't know. I don't know. But what I'm doing is I'm trying to figure out the pattern of having an agent in the app as the core of the app so that it can help us. In the same way that I'm being taught new things about development, it will. Teach us new things about the data and all the other things that exist that we can't ask questions about if we start with agents first as the core of an app.
+- id: u50
+  speaker: Hanif Janmohamed
+  t_start: 1678.11
+  t_end: 1678.61
+  text: Right.
+- id: u51
+  speaker: David Olsson
+  t_start: 1679.23
+  t_end: 1723.52
+  text: Because what we're seeing in our development. Team as we start to grow is. That the one place we may not agree on anything, but one place we can agree on is that we got to be able to share. And if we learn things, the best. Thing to do is share those in a functional way. And so that means providing some understanding of the context in which we work. So the most powerful thing that we. Do isn't even the work we do anymore. It's the description. It isn't even the. It isn't the output of. Of our work. It isn't the work we do. It is how we describe the work we do. And what I described earlier was how. To describe the how of the work. We do so that it figures itself. Out in any context.
+- id: u52
+  speaker: Hanif Janmohamed
+  t_start: 1724.4
+  t_end: 1727.96
+  text: Yeah, I'm curious to play with it. So looking forward.
+- id: u53
+  speaker: David Olsson
+  t_start: 1727.96
+  t_end: 1814.24
+  text: Yeah, so I'll surface it here so that it. You just. You'll just have to hit the run all button in the bottom left, and then it will slowly play out and it'll give you the results. And it will, you know, I have added an agent, and I will add more agents that are special agents. One of them is a mermaid diagram. Agent, and it will provide you a. Mermaid diagram of the actual playout because I'm now going to put my delegation. Patterns in here and surface them as. Delegation patterns because we're getting paid to license them elsewhere. And this damn thing does it overnight, man. So I'm like, yeah, no, we own these delegation patterns. That said, I have built an MCP that sits inside clock now and delegation works in there. And I have built a command line. Interface and it does that too. And the client that we have, I have taken their agents and our agents sit over top of them and create. Their agents and so works on it right now is, is IP and meta software. It's like five removes away from any. Experience of any human touching anything, man. It sits. It's weird. So I'm like, okay, that makes sense in this world, that makes sense. And, and we're trying to figure out a license on it, and everybody agrees that the license doesn't have very much length. So we're trying to say, is the license worth six months or a year?
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 1815.84
+  t_end: 1895.68
+  text: It's funny, the experience we're having with licensing the patterns is indicative of a thing that's going on that created the patterns and that is that David's talking about. Like, we're sharing stuff across the team to make the team work together, be more productive. Like we're. Because you're not just sharing the output or like a finished thing or, or even a workflow or a set of rules. We have another project where like these things are the output of what we're doing, right? We like everything from instructions for the LLM to workflows to context and all sorts of things. But there's in the process, you get learnings, right? You have learnings and it's being able to share the learnings, not just the thing you do with the learnings. Do you know what I mean? And that's, that's what the pattern thing is kind of exposing, right? It's like, because, like what the person, what the client wants, in my opinion. Yeah, they want to be able to implement what the learnings lead to, but they need the learnings too to sort of confirm how they're getting where they're going, if you know what I mean. Right?
+- id: u55
+  speaker: David Olsson
+  t_start: 1895.54
+  t_end: 1906.859
+  text: Yeah. Folio I I, I, I. As a fun analogy, I said we're, we're figuring out what the prompt is and our applications are the result, right? And we don't care about results. We want the prompt.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1907.18
+  t_end: 1976.36
+  text: And so it's weird, if that's the weird jeopardy thing is it's like it's, it's, it's strangely not interesting. The result, if you know what I mean? It's like and, and that's, that's. And I started to learn that or started to get inklings of that because you, some of you that have been in this group a little longer know I ranted a lot about context. Context. Context, right. It's like context was often not about the result. Right. You think of the code or the executable as the result and the context is like what you use to build the code and the executable and stuff. Right. But it's, it is, it's, it's that starts, that started me down the path of the value bit isn't even the end result. Like the learning's more important almost than what you learned because you can learn it again. You know what I mean? And, and, and, and that's what the process kind of shows and work. Soda isn't just like deriving an answer. You're in the process of coming to the learnings. Right. Like you said. See, like you're able to self reflect in the, in the thing itself. It's very interesting. Sorry.
+- id: u57
+  speaker: David Olsson
+  t_start: 1976.76
+  t_end: 2000.9
+  text: I'm surprised that it has the observability that others don't. But that's right now that's because I put so many levels of observability and. You don't want them. But that's. It keeps being brought up and the side by side analysis is there and. What is interesting is just having a. Project keeps you in the game and you find the differentiation is ultimate. We'll probably never release works on them. That's just never gonna happen.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 2000.98
+  t_end: 2003.54
+  text: Yeah, I'm a huge advocate for that. As you know, David.
+- id: u59
+  speaker: David Olsson
+  t_start: 2003.54
+  t_end: 2015.78
+  text: I think it's just in the marketplace. It makes a lot more sense to just keep comparing ourselves to people and just showing the end results and, and then to be able to work deftly because we're talking about entering all kinds of crazy fields.
+- id: u60
+  speaker: Hanif Janmohamed
+  t_start: 2015.86
+  t_end: 2016.36
+  text: Right.
+- id: u61
+  speaker: David Olsson
+  t_start: 2016.34
+  t_end: 2029.09
+  text: So, so the one thing that I fulvio, that I just hate about some of the things that I say is that if we get one licensing agreement, apparently we need to use our own. Tools to then amplify ourselves because that's about it.
+- id: u62
+  speaker: Fulvio Ciano
+  t_start: 2029.09
+  t_end: 2079.61
+  text: Hey Jason, I think you're seeing this across the board in the ecosystem too, right? Like people are like early on, right. Like people didn't want to show you what models were thinking because it gave them clue about how they were doing stuff. And you know, all of these agents, they, they're hiding things now in way that they're instructing the agent. It's fun thing to see in all the Reddits is when someone exposes the instructions and so forth. And, and it's a very push pull thing. Right. Because a lot of us are very like, oh, we want to know how, because that's important to what we're only doing and so forth. But I do think it's interesting. It's interesting what will happen to the ecosystem, what will get exposed and what won't get exposed and because that will affect what people are, where they're able to wedge themselves into the process.
+- id: u63
+  speaker: David Olsson
+  t_start: 2079.77
+  t_end: 2080.27
+  text: Right.
+- id: u64
+  speaker: Fulvio Ciano
+  t_start: 2080.49
+  t_end: 2105.95
+  text: There's a lot of talk about people using lovables. There was an article that came out yesterday or the day before about how the better app developers will not come from having been developers. Did any of you see that article? There was a guy who wrote a big long article about the best app developers were people who never developed before the agentic universe came along. Because they won't be burdened by all of that. I find that emotionally very troubling.
+- id: u65
+  speaker: David Olsson
+  t_start: 2111.71
+  t_end: 2112.93
+  text: In. Some of this room. Yeah.
+- id: u66
+  speaker: Hanif Janmohamed
+  t_start: 2114.909
+  t_end: 2120.99
+  text: It makes sense that bringing an old paradigm to a new one is actually handicapped.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 2122.03
+  t_end: 2143.81
+  text: Yeah, I don't agree, but I don't agree for a bunch of intellectual reasons as opposed to just my emotional response. Right. You know. Yeah. Anyway, let's move off that topic. But it is incredibly interesting and it exposes this issue. Right. Like this, this, this. Where is this, where is this stuff actually happening? Right. Where is it actually happening?
+- id: u68
+  speaker: David Olsson
+  t_start: 2144.45
+  t_end: 2144.95
+  text: Right.
+- id: u69
+  speaker: Jason Kryski
+  t_start: 2145.09
+  t_end: 2153.5
+  text: So I know Spencer was working through a problem with observability and eval and maybe Spencer want to share? Maybe everybody's got some ideas for you.
+- id: u70
+  speaker: David Olsson
+  t_start: 2155.42
+  t_end: 2156.3
+  text: Sure. Thank you.
+- id: u71
+  speaker: Spencer MacBeth
+  t_start: 2156.94
+  t_end: 2253.42
+  text: Yeah. So what I've been working on lately is I do a lot of consulting on implementing customer facing agents like for mostly B2C sales use cases, also some like Shopify workflow automations and stuff. And when you start to run into the tens or twenty thousands of like generations across our clients, we do see things going wrong, going off the rails eventually. People hallucinating offers, people, people are agents, our agents, careful now, spending too much time with them, hallucinating offers and things like this. And so I've been working on a quality control framework for this that we use inside the business and I'm looking to sort of productize it in some way potentially. And yeah, we, you know the, the heart of that is helping scale evals before you go out. But I guess on the subject of, you know, what we were just talking about of I'm a software engineer with like, you know, 10 years development pre AI and I'm trying to bring this concept of monitorability for non deterministic natural language results that we used and how can we alert on things when you know, the. If the agent's hallucinating an offer, that's a bit of a different type of problem than, you know, some other number being above a threshold. So yeah, I guess, you know, one question for the group would be are you all using customer facing or conversational AI in some way? And what sort of quality problems have you run into and what are you guys doing about it?
+- id: u72
+  speaker: David Olsson
+  t_start: 2254.7
+  t_end: 2339.16
+  text: Wow, man. We'll have to talk of subsequent conversation because we have a whole project in quality control, but it's specifically to oil. And gas and how it gets employed there. And they just have zero idea on what to do about it. But I think the discussion is fairly deep and interesting around that because what. You'Re talking about is eval and I've heard Jason bring it up previously and. How we dealt with that in worksonas. Or how dealt with it is to. Have frameworks on frameworks and, and you within, to your point, thresholds of being. Able to measure what is acceptable. You can do that. Most of what I've been dealing with. Has been natural pattern language. But you framework it out, right? So it's all frameworked out and you either get to a scoring component or. You have something below that which allows you to bucket things. And so that's the way that I've been treating things. And so you can call it like. Multivariate thinking one way up the chain or down, but it has allowed for. Strategic work, it has allowed for processing. It has allowed for even data processing. And spreadsheet work to be able to be confident in that you can run subsequent processes on top of it. So the error check in has been agentically internal, it hasn't been any judging external. And so I'd be very curious to do that because that seems the ultimate necessary sort of step. But that component and memory are two things that are still not blind spots, but wish we had more time spots.
+- id: u73
+  speaker: Spencer MacBeth
+  t_start: 2339.71
+  t_end: 2340.21
+  text: Yep.
+- id: u74
+  speaker: Fulvio Ciano
+  t_start: 2340.83
+  t_end: 2452.36
+  text: Yeah, totally agree. There's a, there's a, you know, the LLMs do this qualitative thing as opposed to this quantitative thing. And sometimes you can cheat the, the error proneness of qualitative assessment by casting it quantitatively. A lot of words there. I hope I'm communicating what I want to say and that is that you use an LLM to create, create a quantitative thing and then you cast that quantitative thing right. So you don't worry about it. It drifting because qualitative, Qualitative is highly suspect. And it's highly suspect not just because qualitative is highly suspect, but because it's based on context and it drifts. The context drifts, right? And when you cast stuff drop to be, when you cast something to be quantitative, right Then, then it won't drift. Do you know what I mean? Like, like because it's not based on context. And so you know, using the LLM at a certain stage to write a validation test and then use the validation test, that's the way to go. That's what, that's what, that's what like cut off your, your, your qualitative and context to a drift. David brought up memory too. I think memory is part of the, is part of the context drift problem because memory sucks right now. LLM memory sucks. It's just, it's, it's affected by everything from context window size to something called context rot. And, and the LLM and, and the LLM makers are lying like crazy about how they, how, how, how model memory performs.
+- id: u75
+  speaker: James Giroday
+  t_start: 2454.12
+  t_end: 2458.12
+  text: I think I've seen, I think I've seen a lot of context. Rod, can you describe that on that.
+- id: u76
+  speaker: Fulvio Ciano
+  t_start: 2458.76
+  t_end: 2621.55
+  text: Context Rod is, is look it up. There's a few people who've been writing articles about this context rot problem. And I mean it. I actually wrote a paper about this before LLMs and that is in some situations you get a M theory, you get the degradation of quality as the set becomes larger. Okay, that's. And so there. In, in nlms, it happens differently than it happens in other systems. It happens in numerical systems and information theory, but it happens in LMS too. And essentially context rot is, it's caused by the fact that a small amount of error won't influence you won't influence the quality of the result. But a small amount of error that keeps comment compounding over time can definitely affect the result in a negative way. And so context rot is this, is that your context has little bits of errors in it. Maybe it says at one point in somewhere in your code it says this thing is a string. And then somewhere like 10 places it says this thing is a string. And then in one place it says this thing is an int. I'm using not a very good example. It doesn't affect you because there's only in one place it says that thing is an int and it, it sees it. But then like it creeps in and the rot gets worse. You know what I mean? Because like it, it goes from 1 to 2 and then somehow 2 compared to 20 is worse than 1 compared to 10 in LLM terms. Right? In, in this whole qualitative analysis term, especially when you get into context windows and the way memory is used and so forth. So you should, you should be aware about this context rot problem. There are much better discussions about it. It's just a, it's a very complicated topic, to be honest. And you will note it is. Context rot is also incredibly affected by the right way of saying this. Do you guys know the haystack needle in a haystack measure? Right? They measure, they measure LLMs very. One of the main measurements of an LLM's performance is the needle in the haystack thing. And that is to find a piece of information in a long amount of context. That's the needle in the haystack test.
+- id: u77
+  speaker: David Olsson
+  t_start: 2621.55
+  t_end: 2622.05
+  text: Right?
+- id: u78
+  speaker: Fulvio Ciano
+  t_start: 2621.87
+  t_end: 2681.04
+  text: You're looking for a needle. So you want to know Dave's, Dave's last name. And you've got a whole bunch of documents and in one place, in one document it's says his last name is Olsen. Everywhere else first to him as Dave the Great Dave, the author of worksona, blah blah, blah, blah, blah and so forth, right? So they measure the performance of, of LLMs to be able to find that piece of information in one context. They do very consistently well on this and that scales. There's this other problem where it never says that Dave's last name is Olson, but it says, let's say the author of worksona last name is Olson. And somewhere else it says Dave is the author of worksona. Right? So you follow what I'm saying? You have to conjoin off of two, two facts, right? Contacts Rot is incredibly effective by the more you have to do that to find the needle, the more likely it is that contacts.
+- id: u79
+  speaker: James Giroday
+  t_start: 2683.45
+  t_end: 2763.54
+  text: Can I, can I follow up, can I ask a follow up here? Okay, so with Spencer's example here, where you have, I don't know, somebody talking about, you know, maybe they're on a bank website and they're, they want to know if there's any promotions for like free iPads or something. And along the way they start, you know, the context window grows. They're talking with this bank chatbot about the offers. They somehow convince the chat bot that it's not an iPad that they're offering. There's actually a free car if you do a couple different things and is that would like. So describe, can you describe to me like what are the inputs to the bot are there. There's the context window. That's something that kind of grows there's also maybe a manifest or something like that. Like an initial kind of configuration with temperature and stuff like that that the developer is giving to the bot. And then there's like, I don't know, operating system configurations that are, you know, maybe anthropic is putting in there. Do you mind just like running over the different inputs that there are and which ones degrade and which ones don't?
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 2764.74
+  t_end: 2906.64
+  text: Well, I think the issue is that, you know, the problem is that the way context is used. Again, this is the complicated part, the way context is used. It's not. The context is getting corrupted in the sense that suddenly the stuff you fed into it says something different. It's the interpretive process, which is why context rot happens so much more aggressively and quickly. When it's a composite, when it's a composite needle you're looking for, I think it's a better word for this, the difference between the two types of needle in the haystack test, right. And so what's happening is, is that the, the models will get really confused when there is a problem in the context that is conflicting with the rest of the conflict con context. And they are focusing on that because they, but they do do that. They do focus on context, right? Like if you look at what all the models work and what they do, they're not looking, they're not really interpreting everything all at once. Even when they say they have a million token context window. And so they, they do in a way we do the same thing, right? Like how to describe what we do it. Like, you know, mix up people's name, right? Often it's like there's a reason we mix up the name. We don't mix up the name Mary with Rupric. We mix up the name Mary with Mabel. Like they're close together. Do you know what I mean? And like there are clues that lead us the wrong way. And so when, now it's just that once you get. So to speak up, you get up. Do you know what I mean? Like the context gets increasingly up because it. These things feed. They can see what they did, right? And now that becomes part of the context. And so now, now there's two things that are conflicting, you know, you know, you were also talking about temperature and stuff. And you know, they, they do try to be creative in all sorts of things. So I mean, I don't know absolutely everything that's going on. I, I argue that no one knows exactly.
+- id: u81
+  speaker: James Giroday
+  t_start: 2907.36
+  t_end: 2917.44
+  text: Well, I think where I'm just a little bit murky still is like the Terminology around what the context can entails.
+- id: u82
+  speaker: Spencer MacBeth
+  t_start: 2917.92
+  t_end: 2989.25
+  text: If I can quickly jump in and I think I have an example of this exactly right here is why I pulled this up on my screen is this is a conversation, this is a test case that I have to validate these like monitoring systems that I have where the, the conversation. Basically there's a financial consult, a financial management client that I have and I built these test cases around like they have two separate agents deployed, one for like a term insurance flow, one, one for a wealth management flow. Someone's been talking to both the agents. Those agents are not supposed to cross their wires. They're not supposed to share context. But what one person said, oh hey, I was talking to so and so which is actually the other agent that I've deployed for that person about the, the term insurance. And then this agent starts talking about the term insurance in a way that it shouldn't be allowed to. I don't know if this like exactly qualifies as context prompt, but they kept asking about it and the agent started talking to this, this person about things that it wasn't authorized to do. So and luckily didn't hallucinate anything like out of the bounds of it yet. But yeah, this is the natural way.
+- id: u83
+  speaker: Fulvio Ciano
+  t_start: 2989.81
+  t_end: 3089.26
+  text: Yeah, certainly could have. Right. I mean it's making, it's. Yeah. The problem is it's all, it's all context, right? That's the problem. Like you know, James is saying what's, what's context? That it's all context, right? Like, like if it, if it, if it got fed in it's context and that's you know, you look at a lot of these systems we all using agents where there's like, you know, they have a system prompt and then they have a project prompt and then they have like Klein rules. Like the LLMs generally get all that as inbound part of the context, right. And, and then output tokens which in an orcas, in an orchestration or an agentic, you know, interaction environment becomes all becomes context for another agent. Right? Because like you know, and so, and, and I will add another if you want another thing to consider James, and that is that there's fundamental, there's fundamental context brought to, that's caused by. I'm not trying to steer off topic, but this is because this is a pet project of mine just around language, right? In the sense that like the, the, the, the. The output LLMs produce so much, so much text and it's in English generally. Right. And English is ambiguous that the context rock can build and it all becomes confusing because, like, the output is in fact confused. Confusing. Right. Like, like, you know, I got on the streetcar with a knife. A classic example in English. Did the streetcar have the knife or did I have the knife? Either one is completely valid. Right.
+- id: u84
+  speaker: James Giroday
+  t_start: 3089.72
+  t_end: 3119.55
+  text: You know, from the context, it just seems to me like, I mean, there's particular things I think that are inherent to working with these bots. I feel like this is such a central core piece of it, which is like, how do you control the context? And just to. I feel like bringing a little bit of a memorable word here. It seems to me like a lot of the time, if you want high performance out of a bot, you kind of want to give it like a lobotomy each time and just start fresh.
+- id: u85
+  speaker: Fulvio Ciano
+  t_start: 3121.31
+  t_end: 3121.81
+  text: Yeah.
+- id: u86
+  speaker: James Giroday
+  t_start: 3123.23
+  t_end: 3124.43
+  text: You're a big fan of that.
+- id: u87
+  speaker: Fulvio Ciano
+  t_start: 3124.75
+  t_end: 3129.07
+  text: Yeah. Context groom all the time. Context grooming all the time.
+- id: u88
+  speaker: Jason Kryski
+  t_start: 3129.95
+  t_end: 3136.7
+  text: It's funny, over the last few weeks, I was seeing like everybody talking about context engineering as opposed to prompt engineering.
+- id: u89
+  speaker: Fulvio Ciano
+  t_start: 3136.7
+  t_end: 3141.7
+  text: Yeah, I love that term versus vibe coding. I love context engineering.
+- id: u90
+  speaker: David Olsson
+  t_start: 3142.02
+  t_end: 3142.52
+  text: Yeah.
+- id: u91
+  speaker: Jason Kryski
+  t_start: 3142.9
+  t_end: 3173.19
+  text: But I think, to your point, James, like, it's interesting, like, I've tried so many different ways, like generating tons of different valuable related contexts and then trying to. You need to kind of. I feel like I need to like, synthesize and compare, compress it into like better sensed understanding before I try and give it to go and do something. Because we try and run all of that just like, here's everything, you know, it's just. It needs to be synthesized. But like.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 3175.27
+  t_end: 3233.87
+  text: It'S a dual thing because less is more, right? So the problem is, is like, the problem is less can be more. So, you know, if, if the answer is, you know, a dog is a mammal, having a whole bunch of different ways of saying that doesn't always help. If you want the answer, a dog is a mammal. You know what I mean? Like, and that's. And so definitely context grooming is as I like, a little bit more than the more context the better. Because more isn't better. Right? Like, more because more gives you a more opportunity for confusion, for running out of tokens from all sorts of other problems. So I like context grooming a lot because I'm not only making sure my context is up to date, but that it's not like, you know, in the wrong place and redundant. And yeah, yeah, I like to worry about is too many tokens. Right. Because that's the other problem I run into is I run out of context.
+- id: u93
+  speaker: Jason Kryski
+  t_start: 3234.43
+  t_end: 3247.76
+  text: It's multifactorial too, right? Because I mean, you get like Token compression. And there's all these things. So like, which I guess some people try to do to fit more in there, and then some people try not to do because they find that everything in the middle just gets lost.
+- id: u94
+  speaker: David Olsson
+  t_start: 3249.36
+  t_end: 3381.66
+  text: Taking the middle out, man. So the one thing that. The one thing that all this context talk is interesting for is it just feels like. It feels like onion skinning or it feels like some sort of really, really complex codex. But I look at different data structures. As solving these problems inherently just by them being smart. And, you know, the LLM is one of those and knowledge graphs are another. And so I think there's how we. Access and how we set context up now and how we work with these things. And I'm curious to see how the memory and the context thing play out, because they're one and two hand in hand as a data structure. The context we provide the LLMs for working with a code base is basically a whole bunch of markdown files. That's context. So it understands shit. It's just a knowledge base. And so what I've heard. And I'll circle back because we've got four minutes. The notion of being able to groom. One'S context is an interesting set of words. But if we were, say, to curate that and then be able to compress that so that it is meaningful within a different context, to make it portable. So that sounds like a manifest idea. And so if we are manifesting appropriately within an environment, and then that would be having the appropriate context, and then we can say, then we're ready for our query, which could be optimized within the context that we bring in our manifest, which then gets understood through manifesting inside a new context. So there may be a procedural way. Of understanding all this, sort of like what I was talking about in the. How of the how of the how. That things are breadcrumbed in front of you in that. I'm going to be copying and pasting some very large system. Prompts that I put in underneath my very simple one shots and zero shots. And that's a way of seeing, hey, there's a lot of context there now what's useful? And the MCPs do this, and maybe. We have our own MCP, right? You just log into yours and then. Says, every time I do a query, just like, what's happening inside my id, it asks me if I want to. Create a memory of something because I've said something twice.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 3382.22
+  t_end: 3382.72
+  text: Yeah.
+- id: u96
+  speaker: David Olsson
+  t_start: 3384.86
+  t_end: 3413.14
+  text: It still doesn't listen into your point folio and to Spencer's point. And everyone Else's. It still doesn't listen 100% of the time because I have something in there just for. Just for Folio's benefit in the apps that I built, because the tools just love emojis and they're really grinding on it. And so I have made sure that I have that in my documentation everywhere. I don't put for Fulvio anymore because it asks questions about that, but I do put my documentation, and it still puts them in there. Damn it.
+- id: u97
+  speaker: Fulvio Ciano
+  t_start: 3414.98
+  t_end: 3418.58
+  text: I can't get it to stop giving me emojis. Oh, my God.
+- id: u98
+  speaker: David Olsson
+  t_start: 3419.14
+  t_end: 3430.94
+  text: I've hooked up. I've hooked up, hooked up Dice Bear. So I got all kinds of avatars and all this other. And so I can do and diagrams and everything. But the emojis, man, I love emojis.
+- id: u99
+  speaker: Fulvio Ciano
+  t_start: 3431.26
+  t_end: 3433.82
+  text: They're from the devil. Loves emojis.
+- id: u100
+  speaker: David Olsson
+  t_start: 3433.9
+  t_end: 3440.14
+  text: Oh. Anyway, so where's the one? It's like, we won't be. I won't use it anymore. Okay. I'm sorry. And then one message later.
+- id: u101
+  speaker: James Giroday
+  t_start: 3440.22
+  t_end: 3441.34
+  text: But exactly.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 3442.06
+  t_end: 3447.18
+  text: It'll say. It'll say I'm sorry with an emoji. The emoji will be I'm sorry.
+- id: u103
+  speaker: David Olsson
+  t_start: 3447.58
+  t_end: 3452.14
+  text: Right? That's just the finger with the twist at the end. You're like, no, thanks. I didn't ask for that, you damn thing.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 3452.14
+  t_end: 3467.26
+  text: Yeah, there's. There's an interesting. I, I, I, I. Like I said, I would love to go down this rabbit hole because I have a huge theory that part of the limitations of these LLMs is the language they're using. English, right? It's all done for the English language.
+- id: u105
+  speaker: David Olsson
+  t_start: 3467.66
+  t_end: 3468.7
+  text: He's Italian.
+- id: u106
+  speaker: Fulvio Ciano
+  t_start: 3469.1
+  t_end: 3470.5
+  text: Oh, yeah.
+- id: u107
+  speaker: Jason Kryski
+  t_start: 3470.5
+  t_end: 3474.89
+  text: But like, to that end, like, have you guys read this AI 2027 paper?
+- id: u108
+  speaker: David Olsson
+  t_start: 3475.05
+  t_end: 3475.55
+  text: Or.
+- id: u109
+  speaker: Fulvio Ciano
+  t_start: 3476.57
+  t_end: 3477.37
+  text: Oh, God.
+- id: u110
+  speaker: Jason Kryski
+  t_start: 3478.57
+  t_end: 3482.01
+  text: You want to go and sit in a ball and rock back and forth.
+- id: u111
+  speaker: Fulvio Ciano
+  t_start: 3483.37
+  t_end: 3488.53
+  text: The rest of the day? I have an hour dedicated to that this afternoon already.
+- id: u112
+  speaker: David Olsson
+  t_start: 3488.53
+  t_end: 3489.13
+  text: Don't worry.
+- id: u113
+  speaker: Fulvio Ciano
+  t_start: 3489.93
+  t_end: 3491.29
+  text: Part of my daily ritual.
+- id: u114
+  speaker: Jason Kryski
+  t_start: 3492.09
+  t_end: 3498.41
+  text: I've got a. I've got a good YouTube video that explains it, but you can read the paper AI 2027.
+- id: u115
+  speaker: David Olsson
+  t_start: 3498.9
+  t_end: 3499.8
+  text: Okay. All right.
+- id: u116
+  speaker: Jason Kryski
+  t_start: 3499.78
+  t_end: 3506.74
+  text: It's basically like, you know, where do things end up? Neither are good. Shockingly fast.
+- id: u117
+  speaker: David Olsson
+  t_start: 3508.58
+  t_end: 3511.22
+  text: Just like. And you won't know. You won't see it coming.
+- id: u118
+  speaker: Fulvio Ciano
+  t_start: 3515.3
+  t_end: 3516.1
+  text: Yet, have you?
+- id: u119
+  speaker: Jason Kryski
+  t_start: 3517.14
+  t_end: 3518.02
+  text: Sorry, what's that?
+- id: u120
+  speaker: Fulvio Ciano
+  t_start: 3518.1
+  t_end: 3520.98
+  text: You haven't found the YouTube channel P. Doom, have you?
+- id: u121
+  speaker: Jason Kryski
+  t_start: 3521.14
+  t_end: 3521.86
+  text: No, I have.
+- id: u122
+  speaker: David Olsson
+  t_start: 3522.02
+  t_end: 3523.76
+  text: No, don't, don't. No, no.
+- id: u123
+  speaker: Fulvio Ciano
+  t_start: 3523.5
+  t_end: 3524.42
+  text: I never mentioned it.
+- id: u124
+  speaker: David Olsson
+  t_start: 3524.74
+  t_end: 3530.58
+  text: I had employees that told me about 4chan, and I just changed. Just stop that. Stop that.
+- id: u125
+  speaker: Fulvio Ciano
+  t_start: 3531.54
+  t_end: 3532.1
+  text: This is.
+- id: u126
+  speaker: Jason Kryski
+  t_start: 3532.58
+  t_end: 3574.93
+  text: It's basically like, you know, like, it goes through like all of the kind of game theoretical incentives as to like, you know, as these things get better then like what are the incentives of like open a, they call it open brain or whatever, open AI to like actually disclose the really significant models or you retain those models for yourself to be able to do the research, to be able to further accelerate your velocity, to be able to out compete the Chinese. I mean, it's just, I, I, I listened to it yesterday in the car and I was like, holy. And I think it's like, it's not like a, you know, lockdown foregone conclusion, but it is like pretty fascinating the, the relative speed which is like a couple of years. So that's kind of fascinating.
+- id: u127
+  speaker: David Olsson
+  t_start: 3576.46
+  t_end: 3597.98
+  text: Yeah, I, I seriously think that by. The end of this year there's agents core in our apps. We are handing off full code bases. We own the agents. That's it. We own the agents that somehow maintain your code. I'm gonna, I'm gonna remember that one and I'm gonna hold on to it. I got a deliverable for tomorrow.
+- id: u128
+  speaker: Fulvio Ciano
+  t_start: 3600.94
+  t_end: 3603.09
+  text: Dave and I both have a meeting to run to.
+- id: u129
+  speaker: David Olsson
+  t_start: 3604.21
+  t_end: 3615.33
+  text: He's like, come into that one. I'll do. Hey man, we don't need to watch this. Yeah, but it's been a lively conversation. And I know that people have to go to meetings and I have another.
+- id: u130
+  speaker: Fulvio Ciano
+  t_start: 3615.33
+  t_end: 3616.13
+  text: One coming up here.
+- id: u131
+  speaker: David Olsson
+  t_start: 3618.21
+  t_end: 3618.77
+  text: Right away.
+- id: u132
+  speaker: Jason Kryski
+  t_start: 3618.93
+  t_end: 3619.81
+  text: Cheers everybody.
+- id: u133
+  speaker: James Giroday
+  t_start: 3619.89
+  t_end: 3620.61
+  text: Thanks guys.
+- id: u134
+  speaker: David Olsson
+  t_start: 3620.61
+  t_end: 3629.02
+  text: Right away. So thank you so much and we'll be in touch. Enjoy Hanif, enjoy your time, man. Ch. Yeah.
+- id: u135
+  speaker: Fulvio Ciano
+  t_start: 3640.54
+  t_end: 3642.06
+  text: Let me get slack open.
+- id: u136
+  speaker: Fulvio Ciano
+  t_start: 3647.42
+  t_end: 3649.82
+  text: Why is slack not open? Why did you do that?
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Get started with the note takers. We're gonna have five. David, we have to. We have to sort out the note takers. They need their own room, right? Like it's. They're a class of citizen and everybody comes with one nowadays. And I think there should be an octagon type situation where you get all the note takers in and. And, you know, eight enter, one leaves and that's the winner. Right? Like we get to figure out which. Yeah. Or how about. How about this is like, everybody's invited, but it's my room, so everyone's not. You do that too. So actually I was thinking about this earlier is that the rooms are inadequate. Good morning, Ashley. Welcome to 8:00am AI Thing. We'll get introduction as soon as we. Have some sort of forum. But I was thinking about this room. And so we use MEAD meetings and. Hey, Jason. And we could use other technology. A couple years ago I looked into Jitsi. It's a open platform that uses WebRTC, basically. WebRTC to do the same thing. And it's an open source project. It allows you to have just as many kind of people in the room. And the nice thing is it's software that you can run and build yourself. And you can run the server quite easily nowadays. And then you could have to get rid of. The problem that Fulvio is just mentioning is that there's so many note takers. You could actually run your own room. So you could have an agent that's permanently attached to your software or something like that. So it's not that far off to. Figure out how to get Jitsi driving. This room because the development would probably be a day. That's the stupid thing. It's like a development time on some of these things because Jitsi has been around for a while and they've actually, the people that started it, they started a business around it as to. Well, I think that you could take. That because I've built WebRTC projects from. The ground up in a few hours and they function. You have to have a signal server. But once you get them up and going, it's kind of cool. All right, that's me blabbing about nothing this morning, but we have some new people coming joining us. And on my team, Bob, you know. I have a growing team. We have some. Somebody called Jen, their name is Jennifer, Jen Boger. And she might be joining us today. You. You laugh. You got that, Jason? That's pretty good. There. She is a mother. And BB is joining us too. BB is on the team as well at Atomic. And it looks like we have some Jason's team, Ashley's join from the team.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  text: Yeah. Or how about. How about this is like, everybody's invited, but it's my room, so everyone's not. You do that too. So actually I was thinking about this earlier is that the rooms are inadequate. Good morning, Ashley. Welcome to 8:00am AI Thing. We'll get introduction as soon as we. Have some sort of forum. But I was thinking about this room. And so we use MEAD meetings and. Hey, Jason. And we could use other technology. A couple years ago I looked into Jitsi. It's a open platform that uses WebRTC, basically. WebRTC to do the same thing. And it's an open source project. It allows you to have just as many kind of people in the room. And the nice thing is it's software that you can run and build yourself. And you can run the server quite easily nowadays. And then you could have to get rid of. The problem that Fulvio is just mentioning is that there's so many note takers. You could actually run your own room. So you could have an agent that's permanently attached to your software or something like that. So it's not that far off to. Figure out how to get Jitsi driving. This room because the development would probably be a day. That's the stupid thing. It's like a development time on some of these things because Jitsi has been around for a while and they've actually, the people that started it, they started a business around it as to. Well, I think that you could take. That because I've built WebRTC projects from. The ground up in a few hours and they function. You have to have a signal server. But once you get them up and going, it's kind of cool. All right, that's me blabbing about nothing this morning, but we have some new people coming joining us. And on my team, Bob, you know. I have a growing team. We have some. Somebody called Jen, their name is Jennifer, Jen Boger. And she might be joining us today. You. You laugh. You got that, Jason? That's pretty good. There. She is a mother. And BB is joining us too. BB is on the team as well at Atomic. And it looks like we have some Jason's team, Ashley's join from the team. And then I added Spencer here, who I was just chatting with yesterday, who's working on some AI stuff. Cool. That's how the room goes. Haven't worked with Spencer in like eight years. It's been like a lifetime. Crazy. Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u10
+  text: Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u10
+  text: Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u10
+  text: Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u10
+  - u11
+  - u12
+  - u13
+  text: Cool. Well, we. We kind of do this and there's usually things that go on and that. Are around us in terms of what we talk about. But I was. I said I'd get something up and going this morning that I would share. With everybody because I was going to let everybody use it. And then it didn't because I slept in. But I built something. The very first thing that I built was called a playground in terms of works on a product. I went from just doing GPTs and using the chatbots to build these crazy spreadsheets and workflows and all these other. Things to building this, which allowed for the concept. What's interesting is there's a whole feature missing in the UI right now. In the last deployment, I'm like, what? But anyways, it takes the idea of power prompting, where you have agents in. A orchestrated fashion doing work. And so you can have a scenario. You can have a scenario card that's based on cards. So a scenario card, you can have Personas that are your audience and then you have agents and the agents do work and the agents are all stuck inside cards. And here's a feature overview specialist. So what I've done is I've created a. You can give it any content you like. You can upload images, you can upload. Documents, or you can just put a. Bunch of content into the field here and then it will use that as the source. And so if I go into my settings on this, I can see that I'm using anthropic. I don't have an audience selected. My source is this source here. I could select a previous prompt. If you look at these guys, these guys have sources from anybody doing anything. With anybody else's work. Oh, yeah. Okay. So the complete user manual is taking all of these people's work and putting. It into one result. So what I've done is I've taken my complete user guide manual for the work zonal playground, and I've created a. Playground that exhibits how to use the playground. So you run the playground, which is. Running all the scripts one after the other. If I get run all, it probably break. Oh yeah, it'll break. Then it will go through and it will execute the prompt in here. It'll execute the prompt using these settings and it will conform it to this audience. If you pick an audience, then the. Result will show up here. But I just put it to netlify because I was going to give it everybody in the room so that they use it so that it could store the environmental variables in the netlify server system. That's not just as easy as me setting those variables on my side. Nice thing about it, because I'm working in an IDE that has AI in it. Nice thing about it is that I. Told it I was having this problem. And I don't have the command line. Interface hooked up to this project, but I could. But I told I was having this. Problem with netlify, saying it wouldn't publish it properly. It added some debugging to my app and as I commit to GitHub, it. Has the CIBC pipeline it automatically publishes to. Nope. Then I run it again and it says, well, here's the problem. Not co So what's layer one? What's the first layer? Layer one is you do it, and then layer two is you tell it what to do layers. Okay? So these are stages. Stage one is you do it. You build something. It's static. Stage two is you figure out how. To get it to guide you to do it. Stage three is you're building it, so. It determines how to play itself. Stage. Next stage is you work with it. So it determines what to build. The stage I figured out is the stage above that, getting it to describe itself, then sit on top of itself to figure out what that description is in a deployable fashion elsewhere. Dave, you're operating on a level that I aspire to, that's for sure. Read the most fascinating conversation on Thursday, I think it was. And I. I think it took me like about 20, at least 24 hours to unpack it and realize what you were suggesting. And I think 24 hours later, I mean, I was excited on Thursday, and then on Friday, I was like, holy, this is unbelievable. I was pretty excited.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u12
+  - u13
+  - u14
+  text: Layer one is you do it, and then layer two is you tell it what to do layers. Okay? So these are stages. Stage one is you do it. You build something. It's static. Stage two is you figure out how. To get it to guide you to do it. Stage three is you're building it, so. It determines how to play itself. Stage. Next stage is you work with it. So it determines what to build. The stage I figured out is the stage above that, getting it to describe itself, then sit on top of itself to figure out what that description is in a deployable fashion elsewhere. Dave, you're operating on a level that I aspire to, that's for sure. Read the most fascinating conversation on Thursday, I think it was. And I. I think it took me like about 20, at least 24 hours to unpack it and realize what you were suggesting. And I think 24 hours later, I mean, I was excited on Thursday, and then on Friday, I was like, holy, this is unbelievable. I was pretty excited. Okay, so it simplifies there. Okay, so that's just. Okay, whatever that is. So instead of being on top of so on, you're in the ide. You're prompting it, you're telling it what. To do, and so you're telling it. Exactly to do, and you're telling it. Okay, I need this problem to unsolve it. And you're like, I don't even have a problem. I just got this scenario. I need you to tell me how to solve any problem in this scenario. That's the how of the how of how. And that's not that difficult because it's just you have to work through the. Other problem sets to get to it. But what it Is, is a manifest. And it's a manifest because it just envelops itself in the ability to lay down all the other tracks. It can unravel itself like a strategy, can unravel itself into criteria, which can. Unravel itself into a means of scoring. Which can unravel itself into a plan. Which then unravels itself into, into tasks, which then unravels itself into a means of execution. So if you find a higher level understanding of something, everything else underneath it can reflect and play out. And so it's a stupid recursive play for sure, but it's how we think. So it's, it's not that bad. It's. It's not that bad. But what I, I discovered it more than once. And the experience this morning was at a practical level. How's that? You're working inside the id. I don't know what's wrong, right? I have no idea what's wrong. So I'm working at the level of okay, everything below me, I don't know what it is, man, it's functional. And so I'm like, okay, how do. I go about that? And so now the tools are really good at that. And so back in the day we used to do one thing. If you're a programmer, you didn't understand something, you would do a lot of asking of questions of yourself. And then you're like, okay, maybe the Internet. And then you're like, oh, Google.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u14
+  - u15
+  - u16
+  text: Okay, so it simplifies there. Okay, so that's just. Okay, whatever that is. So instead of being on top of so on, you're in the ide. You're prompting it, you're telling it what. To do, and so you're telling it. Exactly to do, and you're telling it. Okay, I need this problem to unsolve it. And you're like, I don't even have a problem. I just got this scenario. I need you to tell me how to solve any problem in this scenario. That's the how of the how of how. And that's not that difficult because it's just you have to work through the. Other problem sets to get to it. But what it Is, is a manifest. And it's a manifest because it just envelops itself in the ability to lay down all the other tracks. It can unravel itself like a strategy, can unravel itself into criteria, which can. Unravel itself into a means of scoring. Which can unravel itself into a plan. Which then unravels itself into, into tasks, which then unravels itself into a means of execution. So if you find a higher level understanding of something, everything else underneath it can reflect and play out. And so it's a stupid recursive play for sure, but it's how we think. So it's, it's not that bad. It's. It's not that bad. But what I, I discovered it more than once. And the experience this morning was at a practical level. How's that? You're working inside the id. I don't know what's wrong, right? I have no idea what's wrong. So I'm working at the level of okay, everything below me, I don't know what it is, man, it's functional. And so I'm like, okay, how do. I go about that? And so now the tools are really good at that. And so back in the day we used to do one thing. If you're a programmer, you didn't understand something, you would do a lot of asking of questions of yourself. And then you're like, okay, maybe the Internet. And then you're like, oh, Google. Oh fuck. Error codes. Oh my God. And then you figure things out. And so that's basically the same thing here. And so Travis, who isn't in the. Meeting because he's usually busy, he, he's the best to watch this. He will, he will do this to. The whole of like aws. He will just like, okay, we'll just deploy it and then. And then what? And nothing works. And so you just start, you just. Start somewhere and you start your application. You're like, okay, the application works. Okay, the deployment to the server works. Okay. The next thing. Does this work? No, there's an error code and you just keep going and the error codes just lead you up the ladder. And so that's my. We'll get this in the transcript. So that would be a transcript will unravel this for us. That's the thing, is that it's not describing it. It's basically the how of the how, the how, but how to get there. Stupid how. I showed you the path. But the reasoning isn't that stupid. It's very short sighted. The reasoning is very Very short sighted. So it's just what's in front of you. And if you can figure out a framework for putting, for building integrity to your thinking around that, and that's great. And the tools are the way to do that. So this, the error code in here, where is it?
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Error codes. Oh my God. And then you figure things out. And so that's basically the same thing here. And so Travis, who isn't in the. Meeting because he's usually busy, he, he's the best to watch this. He will, he will do this to. The whole of like aws. He will just like, okay, we'll just deploy it and then. And then what? And nothing works. And so you just start, you just. Start somewhere and you start your application. You're like, okay, the application works. Okay, the deployment to the server works. Okay. The next thing. Does this work? No, there's an error code and you just keep going and the error codes just lead you up the ladder. And so that's my. We'll get this in the transcript. So that would be a transcript will unravel this for us. That's the thing, is that it's not describing it. It's basically the how of the how, the how, but how to get there. Stupid how. I showed you the path. But the reasoning isn't that stupid. It's very short sighted. The reasoning is very Very short sighted. So it's just what's in front of you. And if you can figure out a framework for putting, for building integrity to your thinking around that, and that's great. And the tools are the way to do that. So this, the error code in here, where is it? Steve, can I ask a question? Yep. And I feel like it might help other people understand as well, because if, if I can understand it, anyone can understand it. Is this real? Is this kind of this similar to the, the idea that you had of something that you could, I, I feel, still trying to understand a little bit. Basically an app that you can invite to meetings and like Fireflies or Fathom, which I think, I think Fathom actually does a better job of coming up with minutes and stuff like that. So some sort of an app that you invite to a meeting like this, it creates not only minutes but also on a website, something like an app that you discussed it like mocks it up. Is this similar to the playground?
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  text: And I feel like it might help other people understand as well, because if, if I can understand it, anyone can understand it. Is this real? Is this kind of this similar to the, the idea that you had of something that you could, I, I feel, still trying to understand a little bit. Basically an app that you can invite to meetings and like Fireflies or Fathom, which I think, I think Fathom actually does a better job of coming up with minutes and stuff like that. So some sort of an app that you invite to a meeting like this, it creates not only minutes but also on a website, something like an app that you discussed it like mocks it up. Is this similar to the playground? Yeah. Oh, the playground does that? Yeah. So that's exactly what the playground could do. So that's why it's like. Okay, okay. So you put a transcript into it and then you say. So you put a transcript into. Now you would chat it, you'd say, okay, chat. This is what I'm going to do. I'm going to put a transcript into you. I want you to do this, I want you to break it and I've. Got an agency that does that. You put in your project plan and it will break it up and then it will do the brief and then it will build you a one pager. And then you can get to the. Point where it will produce HTML and it will show up like shit in my app. It will be there, it'll be functional HTML. So you can get to the point. Where it will do all the derivative. Work and it does serial and parallel piping. And so that's the thing, right? So when you just think about a. Team, like so it's easy for me. But from if you have a production. Team, usually you've got a manager and you hand off separate tasks, each of them and they come together and they share. So you might have a peer to. Peer, you might have a hierarchical. So you can do all those kinds of patterns inside here I have one contract right now on the table for Worksona licensing agreement, a licensing agreement for a delegation pattern for a series of delegation patterns for just a web page, not even anything that works on it does a licensing agreement for the documentation around some flowcharts around how something works. That's what the licensing agreement is for. Nothing that we've built. And so the delegation patterns which I. Surfaced recently as a delegator application, they're inside. They were inside the playground from day one. From day one, you could do everything that you could do in all of. The patterns I've built and all of the stuff I've built since November.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  text: So you put a transcript into it and then you say. So you put a transcript into. Now you would chat it, you'd say, okay, chat. This is what I'm going to do. I'm going to put a transcript into you. I want you to do this, I want you to break it and I've. Got an agency that does that. You put in your project plan and it will break it up and then it will do the brief and then it will build you a one pager. And then you can get to the. Point where it will produce HTML and it will show up like shit in my app. It will be there, it'll be functional HTML. So you can get to the point. Where it will do all the derivative. Work and it does serial and parallel piping. And so that's the thing, right? So when you just think about a. Team, like so it's easy for me. But from if you have a production. Team, usually you've got a manager and you hand off separate tasks, each of them and they come together and they share. So you might have a peer to. Peer, you might have a hierarchical. So you can do all those kinds of patterns inside here I have one contract right now on the table for Worksona licensing agreement, a licensing agreement for a delegation pattern for a series of delegation patterns for just a web page, not even anything that works on it does a licensing agreement for the documentation around some flowcharts around how something works. That's what the licensing agreement is for. Nothing that we've built. And so the delegation patterns which I. Surfaced recently as a delegator application, they're inside. They were inside the playground from day one. From day one, you could do everything that you could do in all of. The patterns I've built and all of the stuff I've built since November. So the playground is the. Is the agent that you invite along to a meeting or design. The agent, yeah. The platform for the agent to live on. It would. It's most likely the platform to build. The agent that would live on something. Okay, so that helps. So what I'm getting, is it allowed. For all the piping that you could do? Like you can hand off work, you. Can synthesize it, you can do all. That kind of stuff. Right. Which is, which is great. I designed it after market research, survey making, which is. Just piping. But where I was going earlier with things is this. So I realized, okay, that's great. In this playground app, what I realized when I was making is like, oh, it makes workflows. And then I'm like, if I export. The workflows, a JSON file that's basically the application, right? That's a manifest.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  text: Okay, so that helps. So what I'm getting, is it allowed. For all the piping that you could do? Like you can hand off work, you. Can synthesize it, you can do all. That kind of stuff. Right. Which is, which is great. I designed it after market research, survey making, which is. Just piping. But where I was going earlier with things is this. So I realized, okay, that's great. In this playground app, what I realized when I was making is like, oh, it makes workflows. And then I'm like, if I export. The workflows, a JSON file that's basically the application, right? That's a manifest. So that's the pattern. That's the pattern. That's the pattern and the piping all in the JSON file. And that's a manifest and that's a higher level. And so that's what's a manifest. Sorry, it's. It's like, it's like, it's like a. Description of what is inside it, but. In a really compact form. Say like a bill of lading or. A bill of materials is a manifest. Yeah, there's a TV series called Manifest. So it's JSON. I don't know. It's not like Lost, man. Lost was shit too, but it was entertaining. But the manifest, so what it does is it exports this big JSON file, describes everything. And that if I take that now into an ID and say build an app with it, it'll do that because it's a huge. It's a well structured data set. And I had that intuition back then. I'm like, man, this thing is. And I never touched anything. What's interesting is that thing contains everything that you could take out of it. Now to build apps or to build the portability of this idea. So we're talking about. I'm going to roll back. We're talking about being in this meeting and having all these note takers and. If we could consolidate that thinking and have one thing in here that was. An agent that kind of got our intuition on stuff, it would take notes and do things in a specific way. We want to have some presence in here that does that. Well, it's maybe the same presence we. Need inside the workplace, inside the playground. And so maybe the manifest manifests itself differently inside. In this side, in this environment, and it manifests itself differently inside another environment. And so the manifest is its way. To get into an environment.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  text: It's like, it's like, it's like a. Description of what is inside it, but. In a really compact form. Say like a bill of lading or. A bill of materials is a manifest. Yeah, there's a TV series called Manifest. So it's JSON. I don't know. It's not like Lost, man. Lost was shit too, but it was entertaining. But the manifest, so what it does is it exports this big JSON file, describes everything. And that if I take that now into an ID and say build an app with it, it'll do that because it's a huge. It's a well structured data set. And I had that intuition back then. I'm like, man, this thing is. And I never touched anything. What's interesting is that thing contains everything that you could take out of it. Now to build apps or to build the portability of this idea. So we're talking about. I'm going to roll back. We're talking about being in this meeting and having all these note takers and. If we could consolidate that thinking and have one thing in here that was. An agent that kind of got our intuition on stuff, it would take notes and do things in a specific way. We want to have some presence in here that does that. Well, it's maybe the same presence we. Need inside the workplace, inside the playground. And so maybe the manifest manifests itself differently inside. In this side, in this environment, and it manifests itself differently inside another environment. And so the manifest is its way. To get into an environment. Generally. James, the nomenclature difference between, let's say, a bill of lading or a checklist or contents, list of contents and a manifestation is that manifest will include information about what it's for and how to use it. That's the difference, right? So, like, bill of lading is kind of weak in the sense that a bill of lading is just a list of stuff, right? Like, here's what's in here. It doesn't give you the view on what to use it for or how to apply it. Whereas a manifest will do that. Right? Manifest will say, you know, here's what it's for. Right? And. And conceptually, here it goes further, right? Here it goes a little further because here there's, there's. There's workflow about what's in the list as well. So that's the difference, right? So, so you can, you can wrap up, say, a data set, and you can say, well, here's an agent that works on the data set. And then you say, well, here's the. Tools the agent needs to work on the data set. And then you say, well, here's the technology I want you to deploy to build out those tools. And then here's the configuration for the server. And then here's my accreditation. And here's my. Here's my. Here's my.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  - u36
+  text: Generally. James, the nomenclature difference between, let's say, a bill of lading or a checklist or contents, list of contents and a manifestation is that manifest will include information about what it's for and how to use it. That's the difference, right? So, like, bill of lading is kind of weak in the sense that a bill of lading is just a list of stuff, right? Like, here's what's in here. It doesn't give you the view on what to use it for or how to apply it. Whereas a manifest will do that. Right? Manifest will say, you know, here's what it's for. Right? And. And conceptually, here it goes further, right? Here it goes a little further because here there's, there's. There's workflow about what's in the list as well. So that's the difference, right? So, so you can, you can wrap up, say, a data set, and you can say, well, here's an agent that works on the data set. And then you say, well, here's the. Tools the agent needs to work on the data set. And then you say, well, here's the technology I want you to deploy to build out those tools. And then here's the configuration for the server. And then here's my accreditation. And here's my. Here's my. Here's my. You may hate this comparison, but I, I feel like we're really overlooking the manifesting connection here. And honestly, it's actually not that different. Like, no, a group of people just like, thinking, oh, like, what's AI? An AI app. We could, you know, and then this manifest app comes along and you're just manifesting this app into existence. Meanwhile, there's actually a manifest app that's doing the work to create the app and, like, deploy it. I mean, this is not a bit. I'm just. I feel like there's an actual. There's something there. There's a kernel of something. Anyways, I understood Fulvio on the, on what a manifest actually is. That makes sense. So it enables something to be portable. So XML did this in a great way. It's portable, allows it to describe itself. You can have an accompanying document, xml, do this too. So you can have a. Here's my data. Here's a document that's in exactly the same format that describes the data on. How to use it. And then the two are exactly the same shape. Those pair. That's generally what you need. That those two documents allow you to. Then say, no matter what. My thinking is it's portable and here's the data to work with. My thinking. And if you have these sources for information, I don't care what the environment is, because I got a way of figuring that out. And I had that shown to me. I had that shown to me by giving myself some work and having the problem to solve it and then recognizing I was getting fed something I didn't understand. And then I pursued that thinking and it took more than a few days for it to land in terms of. It was basically revisiting the writing of. Viruses and recognizing that's what I was being told. BB is is that. And where this is going is it just takes that idea of whatever you can to build your own loop back. Into yourself is where we're at. And then that loop will then drive its own innovation wheel. So it's shy crazy, man. Like, it's, it's, it's. It's like so fast that as soon as you conceive of it, like, it can be. It can be deployed pretty quickly. It's just hard to realize what the value in some of this stuff is. That's seriously where some of my work is going. And that is the most exciting thing. I felt in the last two weeks. Welcome. Is in Mexico, I think. Are you in Mexico?
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u36
+  text: So it enables something to be portable. So XML did this in a great way. It's portable, allows it to describe itself. You can have an accompanying document, xml, do this too. So you can have a. Here's my data. Here's a document that's in exactly the same format that describes the data on. How to use it. And then the two are exactly the same shape. Those pair. That's generally what you need. That those two documents allow you to. Then say, no matter what. My thinking is it's portable and here's the data to work with. My thinking. And if you have these sources for information, I don't care what the environment is, because I got a way of figuring that out. And I had that shown to me. I had that shown to me by giving myself some work and having the problem to solve it and then recognizing I was getting fed something I didn't understand. And then I pursued that thinking and it took more than a few days for it to land in terms of. It was basically revisiting the writing of. Viruses and recognizing that's what I was being told. BB is is that. And where this is going is it just takes that idea of whatever you can to build your own loop back. Into yourself is where we're at. And then that loop will then drive its own innovation wheel. So it's shy crazy, man. Like, it's, it's, it's. It's like so fast that as soon as you conceive of it, like, it can be. It can be deployed pretty quickly. It's just hard to realize what the value in some of this stuff is. That's seriously where some of my work is going. And that is the most exciting thing. I felt in the last two weeks. Welcome. Is in Mexico, I think. Are you in Mexico?
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: So it enables something to be portable. So XML did this in a great way. It's portable, allows it to describe itself. You can have an accompanying document, xml, do this too. So you can have a. Here's my data. Here's a document that's in exactly the same format that describes the data on. How to use it. And then the two are exactly the same shape. Those pair. That's generally what you need. That those two documents allow you to. Then say, no matter what. My thinking is it's portable and here's the data to work with. My thinking. And if you have these sources for information, I don't care what the environment is, because I got a way of figuring that out. And I had that shown to me. I had that shown to me by giving myself some work and having the problem to solve it and then recognizing I was getting fed something I didn't understand. And then I pursued that thinking and it took more than a few days for it to land in terms of. It was basically revisiting the writing of. Viruses and recognizing that's what I was being told. BB is is that. And where this is going is it just takes that idea of whatever you can to build your own loop back. Into yourself is where we're at. And then that loop will then drive its own innovation wheel. So it's shy crazy, man. Like, it's, it's, it's. It's like so fast that as soon as you conceive of it, like, it can be. It can be deployed pretty quickly. It's just hard to realize what the value in some of this stuff is. That's seriously where some of my work is going. And that is the most exciting thing. I felt in the last two weeks. Welcome. Is in Mexico, I think. Are you in Mexico? I am in Mexico, yeah. Hey, Dave. Hey, man. So I, I have a question. I tried. I did try playing with the playground in this earlier iteration. Yeah. Yeah. And I kind of ran aground pretty quick. But I'm curious about, you know, what's. Who's the target audience? Are we talking. Is this a developer's tool? Is this for developers? So that's. That is the curiosity. Right. So I had needs. And so they fit needs somewhere between power user and developer. And. And now it's surfaced as a metaphor that is UI driven. And it's still complex. Right. And so the ability to chat your. Way through it is what I'm adding on top to understand where the middle ground is in all of this stuff. There's a distance between UI and AI. Right. Chatbot is just Purely like in your. Head sort of thing. And a lot of time spent on workflow where UI is meaningful. It allowed for building out of reports. So 67 interviews had to do a lot of the same type of reporting. Really hard for humans to synthesize that kind of stuff. So I have one of these playgrounds. That does 27 reports. You take, you took one long form interview and you get 27 reports out. Of it, five or six of them, super valuable. No human could make that many reports. Right. And so ux, UX design is filled with all kinds of reports. It's just gross work. It says the guys have three UX companies. So it's. So it was, it was an immediate. Need and then it was like, okay, can process things. And it allowed for the surfacing of. The experience where the power was. And that's at the prompt. And so I've had to add all. Kinds of complexity into it. And so that's where things get difficult because. But then again, so like you want. To have each of the agents have their own model selection, their own temperature selection and their own token selections. That's a formula for how to get a certain kind of output. And so adding that is a level of complexity most people don't want to do. So adding a chatbot was great.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: So that's. That is the curiosity. Right. So I had needs. And so they fit needs somewhere between power user and developer. And. And now it's surfaced as a metaphor that is UI driven. And it's still complex. Right. And so the ability to chat your. Way through it is what I'm adding on top to understand where the middle ground is in all of this stuff. There's a distance between UI and AI. Right. Chatbot is just Purely like in your. Head sort of thing. And a lot of time spent on workflow where UI is meaningful. It allowed for building out of reports. So 67 interviews had to do a lot of the same type of reporting. Really hard for humans to synthesize that kind of stuff. So I have one of these playgrounds. That does 27 reports. You take, you took one long form interview and you get 27 reports out. Of it, five or six of them, super valuable. No human could make that many reports. Right. And so ux, UX design is filled with all kinds of reports. It's just gross work. It says the guys have three UX companies. So it's. So it was, it was an immediate. Need and then it was like, okay, can process things. And it allowed for the surfacing of. The experience where the power was. And that's at the prompt. And so I've had to add all. Kinds of complexity into it. And so that's where things get difficult because. But then again, so like you want. To have each of the agents have their own model selection, their own temperature selection and their own token selections. That's a formula for how to get a certain kind of output. And so adding that is a level of complexity most people don't want to do. So adding a chatbot was great. Yeah, I noticed, I noticed that in lovable that when, when they added the chatbot and then the agent, that made the whole process a lot better. Yeah. So being able to start at a meta level about what you intend and then break that down, you know, you ended up with a better result with less churn and less complexity. So yeah, a lot of the, so how we're doing this professionally is have. Very articulate expert level interfaces that are, you know, crud, create, read like all the stuff you'd normally see in an interface. Very articulate, API driven. So everything is API driven so that you could then have a chatbot to at the same time. But if you go far on one end where you normally would have to. Have that sophistication, then you can go API driven at another level. You can start at a higher level and say we're just going to go agent first. But right now the user base is just, it's just curious. This app here or any of the 80, 180 apps I've built 10 years ago, any one of them after a week's worth of work would have been. Worth a quarter million dollars worth of. Work, of investment would have been worth track record per year, couple team of five, whatever. Like things are so radically different, right?
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  text: So being able to start at a meta level about what you intend and then break that down, you know, you ended up with a better result with less churn and less complexity. So yeah, a lot of the, so how we're doing this professionally is have. Very articulate expert level interfaces that are, you know, crud, create, read like all the stuff you'd normally see in an interface. Very articulate, API driven. So everything is API driven so that you could then have a chatbot to at the same time. But if you go far on one end where you normally would have to. Have that sophistication, then you can go API driven at another level. You can start at a higher level and say we're just going to go agent first. But right now the user base is just, it's just curious. This app here or any of the 80, 180 apps I've built 10 years ago, any one of them after a week's worth of work would have been. Worth a quarter million dollars worth of. Work, of investment would have been worth track record per year, couple team of five, whatever. Like things are so radically different, right? Yeah, it's very radical, too. And so what your experience is, is like just in time development, and that's a thing. And we're trying to enable that too, because I want to work that way. I just have too much to do. And so the lower I get, the longer things take. And our. Our audiences want something easier, but they want the articulation of Exactly. Other spreadsheets, but they don't want to work at the level of spreadsheets anymore. So it is a. It is a curious thing. So my stuff looks like it does. Like when you and I were working, it's just like a thousand times more powerful. So it does have more arms and. Legs on it, but it is meant to eventually service just the chat experience as the primary thing, and then we'll figure out what the next step is. But seriously, I don't know. I don't know. But what I'm doing is I'm trying to figure out the pattern of having an agent in the app as the core of the app so that it can help us. In the same way that I'm being taught new things about development, it will. Teach us new things about the data and all the other things that exist that we can't ask questions about if we start with agents first as the core of an app.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: And so what your experience is, is like just in time development, and that's a thing. And we're trying to enable that too, because I want to work that way. I just have too much to do. And so the lower I get, the longer things take. And our. Our audiences want something easier, but they want the articulation of Exactly. Other spreadsheets, but they don't want to work at the level of spreadsheets anymore. So it is a. It is a curious thing. So my stuff looks like it does. Like when you and I were working, it's just like a thousand times more powerful. So it does have more arms and. Legs on it, but it is meant to eventually service just the chat experience as the primary thing, and then we'll figure out what the next step is. But seriously, I don't know. I don't know. But what I'm doing is I'm trying to figure out the pattern of having an agent in the app as the core of the app so that it can help us. In the same way that I'm being taught new things about development, it will. Teach us new things about the data and all the other things that exist that we can't ask questions about if we start with agents first as the core of an app. Right. Because what we're seeing in our development. Team as we start to grow is. That the one place we may not agree on anything, but one place we can agree on is that we got to be able to share. And if we learn things, the best. Thing to do is share those in a functional way. And so that means providing some understanding of the context in which we work. So the most powerful thing that we. Do isn't even the work we do anymore. It's the description. It isn't even the. It isn't the output of. Of our work. It isn't the work we do. It is how we describe the work we do. And what I described earlier was how. To describe the how of the work. We do so that it figures itself. Out in any context. Yeah, I'm curious to play with it. So looking forward. Yeah, so I'll surface it here so that it. You just. You'll just have to hit the run all button in the bottom left, and then it will slowly play out and it'll give you the results. And it will, you know, I have added an agent, and I will add more agents that are special agents. One of them is a mermaid diagram. Agent, and it will provide you a. Mermaid diagram of the actual playout because I'm now going to put my delegation. Patterns in here and surface them as. Delegation patterns because we're getting paid to license them elsewhere. And this damn thing does it overnight, man. So I'm like, yeah, no, we own these delegation patterns. That said, I have built an MCP that sits inside clock now and delegation works in there. And I have built a command line. Interface and it does that too. And the client that we have, I have taken their agents and our agents sit over top of them and create. Their agents and so works on it right now is, is IP and meta software. It's like five removes away from any. Experience of any human touching anything, man. It sits. It's weird. So I'm like, okay, that makes sense in this world, that makes sense. And, and we're trying to figure out a license on it, and everybody agrees that the license doesn't have very much length. So we're trying to say, is the license worth six months or a year?
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u51
+  - u52
+  - u53
+  - u54
+  text: Because what we're seeing in our development. Team as we start to grow is. That the one place we may not agree on anything, but one place we can agree on is that we got to be able to share. And if we learn things, the best. Thing to do is share those in a functional way. And so that means providing some understanding of the context in which we work. So the most powerful thing that we. Do isn't even the work we do anymore. It's the description. It isn't even the. It isn't the output of. Of our work. It isn't the work we do. It is how we describe the work we do. And what I described earlier was how. To describe the how of the work. We do so that it figures itself. Out in any context. Yeah, I'm curious to play with it. So looking forward. Yeah, so I'll surface it here so that it. You just. You'll just have to hit the run all button in the bottom left, and then it will slowly play out and it'll give you the results. And it will, you know, I have added an agent, and I will add more agents that are special agents. One of them is a mermaid diagram. Agent, and it will provide you a. Mermaid diagram of the actual playout because I'm now going to put my delegation. Patterns in here and surface them as. Delegation patterns because we're getting paid to license them elsewhere. And this damn thing does it overnight, man. So I'm like, yeah, no, we own these delegation patterns. That said, I have built an MCP that sits inside clock now and delegation works in there. And I have built a command line. Interface and it does that too. And the client that we have, I have taken their agents and our agents sit over top of them and create. Their agents and so works on it right now is, is IP and meta software. It's like five removes away from any. Experience of any human touching anything, man. It sits. It's weird. So I'm like, okay, that makes sense in this world, that makes sense. And, and we're trying to figure out a license on it, and everybody agrees that the license doesn't have very much length. So we're trying to say, is the license worth six months or a year? It's funny, the experience we're having with licensing the patterns is indicative of a thing that's going on that created the patterns and that is that David's talking about. Like, we're sharing stuff across the team to make the team work together, be more productive. Like we're. Because you're not just sharing the output or like a finished thing or, or even a workflow or a set of rules. We have another project where like these things are the output of what we're doing, right? We like everything from instructions for the LLM to workflows to context and all sorts of things. But there's in the process, you get learnings, right? You have learnings and it's being able to share the learnings, not just the thing you do with the learnings. Do you know what I mean? And that's, that's what the pattern thing is kind of exposing, right? It's like, because, like what the person, what the client wants, in my opinion. Yeah, they want to be able to implement what the learnings lead to, but they need the learnings too to sort of confirm how they're getting where they're going, if you know what I mean. Right?
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  - u56
+  text: Yeah, so I'll surface it here so that it. You just. You'll just have to hit the run all button in the bottom left, and then it will slowly play out and it'll give you the results. And it will, you know, I have added an agent, and I will add more agents that are special agents. One of them is a mermaid diagram. Agent, and it will provide you a. Mermaid diagram of the actual playout because I'm now going to put my delegation. Patterns in here and surface them as. Delegation patterns because we're getting paid to license them elsewhere. And this damn thing does it overnight, man. So I'm like, yeah, no, we own these delegation patterns. That said, I have built an MCP that sits inside clock now and delegation works in there. And I have built a command line. Interface and it does that too. And the client that we have, I have taken their agents and our agents sit over top of them and create. Their agents and so works on it right now is, is IP and meta software. It's like five removes away from any. Experience of any human touching anything, man. It sits. It's weird. So I'm like, okay, that makes sense in this world, that makes sense. And, and we're trying to figure out a license on it, and everybody agrees that the license doesn't have very much length. So we're trying to say, is the license worth six months or a year? It's funny, the experience we're having with licensing the patterns is indicative of a thing that's going on that created the patterns and that is that David's talking about. Like, we're sharing stuff across the team to make the team work together, be more productive. Like we're. Because you're not just sharing the output or like a finished thing or, or even a workflow or a set of rules. We have another project where like these things are the output of what we're doing, right? We like everything from instructions for the LLM to workflows to context and all sorts of things. But there's in the process, you get learnings, right? You have learnings and it's being able to share the learnings, not just the thing you do with the learnings. Do you know what I mean? And that's, that's what the pattern thing is kind of exposing, right? It's like, because, like what the person, what the client wants, in my opinion. Yeah, they want to be able to implement what the learnings lead to, but they need the learnings too to sort of confirm how they're getting where they're going, if you know what I mean. Right? Yeah. Folio I I, I, I. As a fun analogy, I said we're, we're figuring out what the prompt is and our applications are the result, right? And we don't care about results. We want the prompt. And so it's weird, if that's the weird jeopardy thing is it's like it's, it's, it's strangely not interesting. The result, if you know what I mean? It's like and, and that's, that's. And I started to learn that or started to get inklings of that because you, some of you that have been in this group a little longer know I ranted a lot about context. Context. Context, right. It's like context was often not about the result. Right. You think of the code or the executable as the result and the context is like what you use to build the code and the executable and stuff. Right. But it's, it is, it's, it's that starts, that started me down the path of the value bit isn't even the end result. Like the learning's more important almost than what you learned because you can learn it again. You know what I mean? And, and, and, and that's what the process kind of shows and work. Soda isn't just like deriving an answer. You're in the process of coming to the learnings. Right. Like you said. See, like you're able to self reflect in the, in the thing itself. It's very interesting. Sorry.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  text: It's funny, the experience we're having with licensing the patterns is indicative of a thing that's going on that created the patterns and that is that David's talking about. Like, we're sharing stuff across the team to make the team work together, be more productive. Like we're. Because you're not just sharing the output or like a finished thing or, or even a workflow or a set of rules. We have another project where like these things are the output of what we're doing, right? We like everything from instructions for the LLM to workflows to context and all sorts of things. But there's in the process, you get learnings, right? You have learnings and it's being able to share the learnings, not just the thing you do with the learnings. Do you know what I mean? And that's, that's what the pattern thing is kind of exposing, right? It's like, because, like what the person, what the client wants, in my opinion. Yeah, they want to be able to implement what the learnings lead to, but they need the learnings too to sort of confirm how they're getting where they're going, if you know what I mean. Right? Yeah. Folio I I, I, I. As a fun analogy, I said we're, we're figuring out what the prompt is and our applications are the result, right? And we don't care about results. We want the prompt. And so it's weird, if that's the weird jeopardy thing is it's like it's, it's, it's strangely not interesting. The result, if you know what I mean? It's like and, and that's, that's. And I started to learn that or started to get inklings of that because you, some of you that have been in this group a little longer know I ranted a lot about context. Context. Context, right. It's like context was often not about the result. Right. You think of the code or the executable as the result and the context is like what you use to build the code and the executable and stuff. Right. But it's, it is, it's, it's that starts, that started me down the path of the value bit isn't even the end result. Like the learning's more important almost than what you learned because you can learn it again. You know what I mean? And, and, and, and that's what the process kind of shows and work. Soda isn't just like deriving an answer. You're in the process of coming to the learnings. Right. Like you said. See, like you're able to self reflect in the, in the thing itself. It's very interesting. Sorry. I'm surprised that it has the observability that others don't. But that's right now that's because I put so many levels of observability and. You don't want them. But that's. It keeps being brought up and the side by side analysis is there and. What is interesting is just having a. Project keeps you in the game and you find the differentiation is ultimate. We'll probably never release works on them. That's just never gonna happen. Yeah, I'm a huge advocate for that. As you know, David. I think it's just in the marketplace. It makes a lot more sense to just keep comparing ourselves to people and just showing the end results and, and then to be able to work deftly because we're talking about entering all kinds of crazy fields.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  text: I'm surprised that it has the observability that others don't. But that's right now that's because I put so many levels of observability and. You don't want them. But that's. It keeps being brought up and the side by side analysis is there and. What is interesting is just having a. Project keeps you in the game and you find the differentiation is ultimate. We'll probably never release works on them. That's just never gonna happen. Yeah, I'm a huge advocate for that. As you know, David. I think it's just in the marketplace. It makes a lot more sense to just keep comparing ourselves to people and just showing the end results and, and then to be able to work deftly because we're talking about entering all kinds of crazy fields. Right. So, so the one thing that I fulvio, that I just hate about some of the things that I say is that if we get one licensing agreement, apparently we need to use our own. Tools to then amplify ourselves because that's about it. Hey Jason, I think you're seeing this across the board in the ecosystem too, right? Like people are like early on, right. Like people didn't want to show you what models were thinking because it gave them clue about how they were doing stuff. And you know, all of these agents, they, they're hiding things now in way that they're instructing the agent. It's fun thing to see in all the Reddits is when someone exposes the instructions and so forth. And, and it's a very push pull thing. Right. Because a lot of us are very like, oh, we want to know how, because that's important to what we're only doing and so forth. But I do think it's interesting. It's interesting what will happen to the ecosystem, what will get exposed and what won't get exposed and because that will affect what people are, where they're able to wedge themselves into the process. Right. There's a lot of talk about people using lovables. There was an article that came out yesterday or the day before about how the better app developers will not come from having been developers. Did any of you see that article? There was a guy who wrote a big long article about the best app developers were people who never developed before the agentic universe came along. Because they won't be burdened by all of that. I find that emotionally very troubling.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: Hey Jason, I think you're seeing this across the board in the ecosystem too, right? Like people are like early on, right. Like people didn't want to show you what models were thinking because it gave them clue about how they were doing stuff. And you know, all of these agents, they, they're hiding things now in way that they're instructing the agent. It's fun thing to see in all the Reddits is when someone exposes the instructions and so forth. And, and it's a very push pull thing. Right. Because a lot of us are very like, oh, we want to know how, because that's important to what we're only doing and so forth. But I do think it's interesting. It's interesting what will happen to the ecosystem, what will get exposed and what won't get exposed and because that will affect what people are, where they're able to wedge themselves into the process. Right. There's a lot of talk about people using lovables. There was an article that came out yesterday or the day before about how the better app developers will not come from having been developers. Did any of you see that article? There was a guy who wrote a big long article about the best app developers were people who never developed before the agentic universe came along. Because they won't be burdened by all of that. I find that emotionally very troubling. In. Some of this room. Yeah. It makes sense that bringing an old paradigm to a new one is actually handicapped. Yeah, I don't agree, but I don't agree for a bunch of intellectual reasons as opposed to just my emotional response. Right. You know. Yeah. Anyway, let's move off that topic. But it is incredibly interesting and it exposes this issue. Right. Like this, this, this. Where is this, where is this stuff actually happening? Right. Where is it actually happening? Right. So I know Spencer was working through a problem with observability and eval and maybe Spencer want to share? Maybe everybody's got some ideas for you. Sure. Thank you. Yeah. So what I've been working on lately is I do a lot of consulting on implementing customer facing agents like for mostly B2C sales use cases, also some like Shopify workflow automations and stuff. And when you start to run into the tens or twenty thousands of like generations across our clients, we do see things going wrong, going off the rails eventually. People hallucinating offers, people, people are agents, our agents, careful now, spending too much time with them, hallucinating offers and things like this. And so I've been working on a quality control framework for this that we use inside the business and I'm looking to sort of productize it in some way potentially. And yeah, we, you know the, the heart of that is helping scale evals before you go out. But I guess on the subject of, you know, what we were just talking about of I'm a software engineer with like, you know, 10 years development pre AI and I'm trying to bring this concept of monitorability for non deterministic natural language results that we used and how can we alert on things when you know, the. If the agent's hallucinating an offer, that's a bit of a different type of problem than, you know, some other number being above a threshold. So yeah, I guess, you know, one question for the group would be are you all using customer facing or conversational AI in some way? And what sort of quality problems have you run into and what are you guys doing about it?
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u71
+  - u72
+  text: Yeah. So what I've been working on lately is I do a lot of consulting on implementing customer facing agents like for mostly B2C sales use cases, also some like Shopify workflow automations and stuff. And when you start to run into the tens or twenty thousands of like generations across our clients, we do see things going wrong, going off the rails eventually. People hallucinating offers, people, people are agents, our agents, careful now, spending too much time with them, hallucinating offers and things like this. And so I've been working on a quality control framework for this that we use inside the business and I'm looking to sort of productize it in some way potentially. And yeah, we, you know the, the heart of that is helping scale evals before you go out. But I guess on the subject of, you know, what we were just talking about of I'm a software engineer with like, you know, 10 years development pre AI and I'm trying to bring this concept of monitorability for non deterministic natural language results that we used and how can we alert on things when you know, the. If the agent's hallucinating an offer, that's a bit of a different type of problem than, you know, some other number being above a threshold. So yeah, I guess, you know, one question for the group would be are you all using customer facing or conversational AI in some way? And what sort of quality problems have you run into and what are you guys doing about it? Wow, man. We'll have to talk of subsequent conversation because we have a whole project in quality control, but it's specifically to oil. And gas and how it gets employed there. And they just have zero idea on what to do about it. But I think the discussion is fairly deep and interesting around that because what. You'Re talking about is eval and I've heard Jason bring it up previously and. How we dealt with that in worksonas. Or how dealt with it is to. Have frameworks on frameworks and, and you within, to your point, thresholds of being. Able to measure what is acceptable. You can do that. Most of what I've been dealing with. Has been natural pattern language. But you framework it out, right? So it's all frameworked out and you either get to a scoring component or. You have something below that which allows you to bucket things. And so that's the way that I've been treating things. And so you can call it like. Multivariate thinking one way up the chain or down, but it has allowed for. Strategic work, it has allowed for processing. It has allowed for even data processing. And spreadsheet work to be able to be confident in that you can run subsequent processes on top of it. So the error check in has been agentically internal, it hasn't been any judging external. And so I'd be very curious to do that because that seems the ultimate necessary sort of step. But that component and memory are two things that are still not blind spots, but wish we had more time spots.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  - u74
+  text: Yeah. So what I've been working on lately is I do a lot of consulting on implementing customer facing agents like for mostly B2C sales use cases, also some like Shopify workflow automations and stuff. And when you start to run into the tens or twenty thousands of like generations across our clients, we do see things going wrong, going off the rails eventually. People hallucinating offers, people, people are agents, our agents, careful now, spending too much time with them, hallucinating offers and things like this. And so I've been working on a quality control framework for this that we use inside the business and I'm looking to sort of productize it in some way potentially. And yeah, we, you know the, the heart of that is helping scale evals before you go out. But I guess on the subject of, you know, what we were just talking about of I'm a software engineer with like, you know, 10 years development pre AI and I'm trying to bring this concept of monitorability for non deterministic natural language results that we used and how can we alert on things when you know, the. If the agent's hallucinating an offer, that's a bit of a different type of problem than, you know, some other number being above a threshold. So yeah, I guess, you know, one question for the group would be are you all using customer facing or conversational AI in some way? And what sort of quality problems have you run into and what are you guys doing about it? Wow, man. We'll have to talk of subsequent conversation because we have a whole project in quality control, but it's specifically to oil. And gas and how it gets employed there. And they just have zero idea on what to do about it. But I think the discussion is fairly deep and interesting around that because what. You'Re talking about is eval and I've heard Jason bring it up previously and. How we dealt with that in worksonas. Or how dealt with it is to. Have frameworks on frameworks and, and you within, to your point, thresholds of being. Able to measure what is acceptable. You can do that. Most of what I've been dealing with. Has been natural pattern language. But you framework it out, right? So it's all frameworked out and you either get to a scoring component or. You have something below that which allows you to bucket things. And so that's the way that I've been treating things. And so you can call it like. Multivariate thinking one way up the chain or down, but it has allowed for. Strategic work, it has allowed for processing. It has allowed for even data processing. And spreadsheet work to be able to be confident in that you can run subsequent processes on top of it. So the error check in has been agentically internal, it hasn't been any judging external. And so I'd be very curious to do that because that seems the ultimate necessary sort of step. But that component and memory are two things that are still not blind spots, but wish we had more time spots. Yep. Yeah, totally agree. There's a, there's a, you know, the LLMs do this qualitative thing as opposed to this quantitative thing. And sometimes you can cheat the, the error proneness of qualitative assessment by casting it quantitatively. A lot of words there. I hope I'm communicating what I want to say and that is that you use an LLM to create, create a quantitative thing and then you cast that quantitative thing right. So you don't worry about it. It drifting because qualitative, Qualitative is highly suspect. And it's highly suspect not just because qualitative is highly suspect, but because it's based on context and it drifts. The context drifts, right? And when you cast stuff drop to be, when you cast something to be quantitative, right Then, then it won't drift. Do you know what I mean? Like, like because it's not based on context. And so you know, using the LLM at a certain stage to write a validation test and then use the validation test, that's the way to go. That's what, that's what, that's what like cut off your, your, your qualitative and context to a drift. David brought up memory too. I think memory is part of the, is part of the context drift problem because memory sucks right now. LLM memory sucks. It's just, it's, it's affected by everything from context window size to something called context rot. And, and the LLM and, and the LLM makers are lying like crazy about how they, how, how, how model memory performs.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  - u76
+  text: Yep. Yeah, totally agree. There's a, there's a, you know, the LLMs do this qualitative thing as opposed to this quantitative thing. And sometimes you can cheat the, the error proneness of qualitative assessment by casting it quantitatively. A lot of words there. I hope I'm communicating what I want to say and that is that you use an LLM to create, create a quantitative thing and then you cast that quantitative thing right. So you don't worry about it. It drifting because qualitative, Qualitative is highly suspect. And it's highly suspect not just because qualitative is highly suspect, but because it's based on context and it drifts. The context drifts, right? And when you cast stuff drop to be, when you cast something to be quantitative, right Then, then it won't drift. Do you know what I mean? Like, like because it's not based on context. And so you know, using the LLM at a certain stage to write a validation test and then use the validation test, that's the way to go. That's what, that's what, that's what like cut off your, your, your qualitative and context to a drift. David brought up memory too. I think memory is part of the, is part of the context drift problem because memory sucks right now. LLM memory sucks. It's just, it's, it's affected by everything from context window size to something called context rot. And, and the LLM and, and the LLM makers are lying like crazy about how they, how, how, how model memory performs. I think I've seen, I think I've seen a lot of context. Rod, can you describe that on that. Context Rod is, is look it up. There's a few people who've been writing articles about this context rot problem. And I mean it. I actually wrote a paper about this before LLMs and that is in some situations you get a M theory, you get the degradation of quality as the set becomes larger. Okay, that's. And so there. In, in nlms, it happens differently than it happens in other systems. It happens in numerical systems and information theory, but it happens in LMS too. And essentially context rot is, it's caused by the fact that a small amount of error won't influence you won't influence the quality of the result. But a small amount of error that keeps comment compounding over time can definitely affect the result in a negative way. And so context rot is this, is that your context has little bits of errors in it. Maybe it says at one point in somewhere in your code it says this thing is a string. And then somewhere like 10 places it says this thing is a string. And then in one place it says this thing is an int. I'm using not a very good example. It doesn't affect you because there's only in one place it says that thing is an int and it, it sees it. But then like it creeps in and the rot gets worse. You know what I mean? Because like it, it goes from 1 to 2 and then somehow 2 compared to 20 is worse than 1 compared to 10 in LLM terms. Right? In, in this whole qualitative analysis term, especially when you get into context windows and the way memory is used and so forth. So you should, you should be aware about this context rot problem. There are much better discussions about it. It's just a, it's a very complicated topic, to be honest. And you will note it is. Context rot is also incredibly affected by the right way of saying this. Do you guys know the haystack needle in a haystack measure? Right? They measure, they measure LLMs very. One of the main measurements of an LLM's performance is the needle in the haystack thing. And that is to find a piece of information in a long amount of context. That's the needle in the haystack test.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  text: Yeah, totally agree. There's a, there's a, you know, the LLMs do this qualitative thing as opposed to this quantitative thing. And sometimes you can cheat the, the error proneness of qualitative assessment by casting it quantitatively. A lot of words there. I hope I'm communicating what I want to say and that is that you use an LLM to create, create a quantitative thing and then you cast that quantitative thing right. So you don't worry about it. It drifting because qualitative, Qualitative is highly suspect. And it's highly suspect not just because qualitative is highly suspect, but because it's based on context and it drifts. The context drifts, right? And when you cast stuff drop to be, when you cast something to be quantitative, right Then, then it won't drift. Do you know what I mean? Like, like because it's not based on context. And so you know, using the LLM at a certain stage to write a validation test and then use the validation test, that's the way to go. That's what, that's what, that's what like cut off your, your, your qualitative and context to a drift. David brought up memory too. I think memory is part of the, is part of the context drift problem because memory sucks right now. LLM memory sucks. It's just, it's, it's affected by everything from context window size to something called context rot. And, and the LLM and, and the LLM makers are lying like crazy about how they, how, how, how model memory performs. I think I've seen, I think I've seen a lot of context. Rod, can you describe that on that. Context Rod is, is look it up. There's a few people who've been writing articles about this context rot problem. And I mean it. I actually wrote a paper about this before LLMs and that is in some situations you get a M theory, you get the degradation of quality as the set becomes larger. Okay, that's. And so there. In, in nlms, it happens differently than it happens in other systems. It happens in numerical systems and information theory, but it happens in LMS too. And essentially context rot is, it's caused by the fact that a small amount of error won't influence you won't influence the quality of the result. But a small amount of error that keeps comment compounding over time can definitely affect the result in a negative way. And so context rot is this, is that your context has little bits of errors in it. Maybe it says at one point in somewhere in your code it says this thing is a string. And then somewhere like 10 places it says this thing is a string. And then in one place it says this thing is an int. I'm using not a very good example. It doesn't affect you because there's only in one place it says that thing is an int and it, it sees it. But then like it creeps in and the rot gets worse. You know what I mean? Because like it, it goes from 1 to 2 and then somehow 2 compared to 20 is worse than 1 compared to 10 in LLM terms. Right? In, in this whole qualitative analysis term, especially when you get into context windows and the way memory is used and so forth. So you should, you should be aware about this context rot problem. There are much better discussions about it. It's just a, it's a very complicated topic, to be honest. And you will note it is. Context rot is also incredibly affected by the right way of saying this. Do you guys know the haystack needle in a haystack measure? Right? They measure, they measure LLMs very. One of the main measurements of an LLM's performance is the needle in the haystack thing. And that is to find a piece of information in a long amount of context. That's the needle in the haystack test.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  text: Context Rod is, is look it up. There's a few people who've been writing articles about this context rot problem. And I mean it. I actually wrote a paper about this before LLMs and that is in some situations you get a M theory, you get the degradation of quality as the set becomes larger. Okay, that's. And so there. In, in nlms, it happens differently than it happens in other systems. It happens in numerical systems and information theory, but it happens in LMS too. And essentially context rot is, it's caused by the fact that a small amount of error won't influence you won't influence the quality of the result. But a small amount of error that keeps comment compounding over time can definitely affect the result in a negative way. And so context rot is this, is that your context has little bits of errors in it. Maybe it says at one point in somewhere in your code it says this thing is a string. And then somewhere like 10 places it says this thing is a string. And then in one place it says this thing is an int. I'm using not a very good example. It doesn't affect you because there's only in one place it says that thing is an int and it, it sees it. But then like it creeps in and the rot gets worse. You know what I mean? Because like it, it goes from 1 to 2 and then somehow 2 compared to 20 is worse than 1 compared to 10 in LLM terms. Right? In, in this whole qualitative analysis term, especially when you get into context windows and the way memory is used and so forth. So you should, you should be aware about this context rot problem. There are much better discussions about it. It's just a, it's a very complicated topic, to be honest. And you will note it is. Context rot is also incredibly affected by the right way of saying this. Do you guys know the haystack needle in a haystack measure? Right? They measure, they measure LLMs very. One of the main measurements of an LLM's performance is the needle in the haystack thing. And that is to find a piece of information in a long amount of context. That's the needle in the haystack test. Right? You're looking for a needle. So you want to know Dave's, Dave's last name. And you've got a whole bunch of documents and in one place, in one document it's says his last name is Olsen. Everywhere else first to him as Dave the Great Dave, the author of worksona, blah blah, blah, blah, blah and so forth, right? So they measure the performance of, of LLMs to be able to find that piece of information in one context. They do very consistently well on this and that scales. There's this other problem where it never says that Dave's last name is Olson, but it says, let's say the author of worksona last name is Olson. And somewhere else it says Dave is the author of worksona. Right? So you follow what I'm saying? You have to conjoin off of two, two facts, right? Contacts Rot is incredibly effective by the more you have to do that to find the needle, the more likely it is that contacts.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  - u79
+  text: Context Rod is, is look it up. There's a few people who've been writing articles about this context rot problem. And I mean it. I actually wrote a paper about this before LLMs and that is in some situations you get a M theory, you get the degradation of quality as the set becomes larger. Okay, that's. And so there. In, in nlms, it happens differently than it happens in other systems. It happens in numerical systems and information theory, but it happens in LMS too. And essentially context rot is, it's caused by the fact that a small amount of error won't influence you won't influence the quality of the result. But a small amount of error that keeps comment compounding over time can definitely affect the result in a negative way. And so context rot is this, is that your context has little bits of errors in it. Maybe it says at one point in somewhere in your code it says this thing is a string. And then somewhere like 10 places it says this thing is a string. And then in one place it says this thing is an int. I'm using not a very good example. It doesn't affect you because there's only in one place it says that thing is an int and it, it sees it. But then like it creeps in and the rot gets worse. You know what I mean? Because like it, it goes from 1 to 2 and then somehow 2 compared to 20 is worse than 1 compared to 10 in LLM terms. Right? In, in this whole qualitative analysis term, especially when you get into context windows and the way memory is used and so forth. So you should, you should be aware about this context rot problem. There are much better discussions about it. It's just a, it's a very complicated topic, to be honest. And you will note it is. Context rot is also incredibly affected by the right way of saying this. Do you guys know the haystack needle in a haystack measure? Right? They measure, they measure LLMs very. One of the main measurements of an LLM's performance is the needle in the haystack thing. And that is to find a piece of information in a long amount of context. That's the needle in the haystack test. Right? You're looking for a needle. So you want to know Dave's, Dave's last name. And you've got a whole bunch of documents and in one place, in one document it's says his last name is Olsen. Everywhere else first to him as Dave the Great Dave, the author of worksona, blah blah, blah, blah, blah and so forth, right? So they measure the performance of, of LLMs to be able to find that piece of information in one context. They do very consistently well on this and that scales. There's this other problem where it never says that Dave's last name is Olson, but it says, let's say the author of worksona last name is Olson. And somewhere else it says Dave is the author of worksona. Right? So you follow what I'm saying? You have to conjoin off of two, two facts, right? Contacts Rot is incredibly effective by the more you have to do that to find the needle, the more likely it is that contacts. Can I, can I follow up, can I ask a follow up here? Okay, so with Spencer's example here, where you have, I don't know, somebody talking about, you know, maybe they're on a bank website and they're, they want to know if there's any promotions for like free iPads or something. And along the way they start, you know, the context window grows. They're talking with this bank chatbot about the offers. They somehow convince the chat bot that it's not an iPad that they're offering. There's actually a free car if you do a couple different things and is that would like. So describe, can you describe to me like what are the inputs to the bot are there. There's the context window. That's something that kind of grows there's also maybe a manifest or something like that. Like an initial kind of configuration with temperature and stuff like that that the developer is giving to the bot. And then there's like, I don't know, operating system configurations that are, you know, maybe anthropic is putting in there. Do you mind just like running over the different inputs that there are and which ones degrade and which ones don't?
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u79
+  - u80
+  text: Can I, can I follow up, can I ask a follow up here? Okay, so with Spencer's example here, where you have, I don't know, somebody talking about, you know, maybe they're on a bank website and they're, they want to know if there's any promotions for like free iPads or something. And along the way they start, you know, the context window grows. They're talking with this bank chatbot about the offers. They somehow convince the chat bot that it's not an iPad that they're offering. There's actually a free car if you do a couple different things and is that would like. So describe, can you describe to me like what are the inputs to the bot are there. There's the context window. That's something that kind of grows there's also maybe a manifest or something like that. Like an initial kind of configuration with temperature and stuff like that that the developer is giving to the bot. And then there's like, I don't know, operating system configurations that are, you know, maybe anthropic is putting in there. Do you mind just like running over the different inputs that there are and which ones degrade and which ones don't? Well, I think the issue is that, you know, the problem is that the way context is used. Again, this is the complicated part, the way context is used. It's not. The context is getting corrupted in the sense that suddenly the stuff you fed into it says something different. It's the interpretive process, which is why context rot happens so much more aggressively and quickly. When it's a composite, when it's a composite needle you're looking for, I think it's a better word for this, the difference between the two types of needle in the haystack test, right. And so what's happening is, is that the, the models will get really confused when there is a problem in the context that is conflicting with the rest of the conflict con context. And they are focusing on that because they, but they do do that. They do focus on context, right? Like if you look at what all the models work and what they do, they're not looking, they're not really interpreting everything all at once. Even when they say they have a million token context window. And so they, they do in a way we do the same thing, right? Like how to describe what we do it. Like, you know, mix up people's name, right? Often it's like there's a reason we mix up the name. We don't mix up the name Mary with Rupric. We mix up the name Mary with Mabel. Like they're close together. Do you know what I mean? And like there are clues that lead us the wrong way. And so when, now it's just that once you get. So to speak up, you get up. Do you know what I mean? Like the context gets increasingly up because it. These things feed. They can see what they did, right? And now that becomes part of the context. And so now, now there's two things that are conflicting, you know, you know, you were also talking about temperature and stuff. And you know, they, they do try to be creative in all sorts of things. So I mean, I don't know absolutely everything that's going on. I, I argue that no one knows exactly.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u80
+  - u81
+  text: Well, I think the issue is that, you know, the problem is that the way context is used. Again, this is the complicated part, the way context is used. It's not. The context is getting corrupted in the sense that suddenly the stuff you fed into it says something different. It's the interpretive process, which is why context rot happens so much more aggressively and quickly. When it's a composite, when it's a composite needle you're looking for, I think it's a better word for this, the difference between the two types of needle in the haystack test, right. And so what's happening is, is that the, the models will get really confused when there is a problem in the context that is conflicting with the rest of the conflict con context. And they are focusing on that because they, but they do do that. They do focus on context, right? Like if you look at what all the models work and what they do, they're not looking, they're not really interpreting everything all at once. Even when they say they have a million token context window. And so they, they do in a way we do the same thing, right? Like how to describe what we do it. Like, you know, mix up people's name, right? Often it's like there's a reason we mix up the name. We don't mix up the name Mary with Rupric. We mix up the name Mary with Mabel. Like they're close together. Do you know what I mean? And like there are clues that lead us the wrong way. And so when, now it's just that once you get. So to speak up, you get up. Do you know what I mean? Like the context gets increasingly up because it. These things feed. They can see what they did, right? And now that becomes part of the context. And so now, now there's two things that are conflicting, you know, you know, you were also talking about temperature and stuff. And you know, they, they do try to be creative in all sorts of things. So I mean, I don't know absolutely everything that's going on. I, I argue that no one knows exactly. Well, I think where I'm just a little bit murky still is like the Terminology around what the context can entails.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  - u83
+  text: Well, I think the issue is that, you know, the problem is that the way context is used. Again, this is the complicated part, the way context is used. It's not. The context is getting corrupted in the sense that suddenly the stuff you fed into it says something different. It's the interpretive process, which is why context rot happens so much more aggressively and quickly. When it's a composite, when it's a composite needle you're looking for, I think it's a better word for this, the difference between the two types of needle in the haystack test, right. And so what's happening is, is that the, the models will get really confused when there is a problem in the context that is conflicting with the rest of the conflict con context. And they are focusing on that because they, but they do do that. They do focus on context, right? Like if you look at what all the models work and what they do, they're not looking, they're not really interpreting everything all at once. Even when they say they have a million token context window. And so they, they do in a way we do the same thing, right? Like how to describe what we do it. Like, you know, mix up people's name, right? Often it's like there's a reason we mix up the name. We don't mix up the name Mary with Rupric. We mix up the name Mary with Mabel. Like they're close together. Do you know what I mean? And like there are clues that lead us the wrong way. And so when, now it's just that once you get. So to speak up, you get up. Do you know what I mean? Like the context gets increasingly up because it. These things feed. They can see what they did, right? And now that becomes part of the context. And so now, now there's two things that are conflicting, you know, you know, you were also talking about temperature and stuff. And you know, they, they do try to be creative in all sorts of things. So I mean, I don't know absolutely everything that's going on. I, I argue that no one knows exactly. Well, I think where I'm just a little bit murky still is like the Terminology around what the context can entails. If I can quickly jump in and I think I have an example of this exactly right here is why I pulled this up on my screen is this is a conversation, this is a test case that I have to validate these like monitoring systems that I have where the, the conversation. Basically there's a financial consult, a financial management client that I have and I built these test cases around like they have two separate agents deployed, one for like a term insurance flow, one, one for a wealth management flow. Someone's been talking to both the agents. Those agents are not supposed to cross their wires. They're not supposed to share context. But what one person said, oh hey, I was talking to so and so which is actually the other agent that I've deployed for that person about the, the term insurance. And then this agent starts talking about the term insurance in a way that it shouldn't be allowed to. I don't know if this like exactly qualifies as context prompt, but they kept asking about it and the agent started talking to this, this person about things that it wasn't authorized to do. So and luckily didn't hallucinate anything like out of the bounds of it yet. But yeah, this is the natural way. Yeah, certainly could have. Right. I mean it's making, it's. Yeah. The problem is it's all, it's all context, right? That's the problem. Like you know, James is saying what's, what's context? That it's all context, right? Like, like if it, if it, if it got fed in it's context and that's you know, you look at a lot of these systems we all using agents where there's like, you know, they have a system prompt and then they have a project prompt and then they have like Klein rules. Like the LLMs generally get all that as inbound part of the context, right. And, and then output tokens which in an orcas, in an orchestration or an agentic, you know, interaction environment becomes all becomes context for another agent. Right? Because like you know, and so, and, and I will add another if you want another thing to consider James, and that is that there's fundamental, there's fundamental context brought to, that's caused by. I'm not trying to steer off topic, but this is because this is a pet project of mine just around language, right? In the sense that like the, the, the, the. The output LLMs produce so much, so much text and it's in English generally. Right. And English is ambiguous that the context rock can build and it all becomes confusing because, like, the output is in fact confused. Confusing. Right. Like, like, you know, I got on the streetcar with a knife. A classic example in English. Did the streetcar have the knife or did I have the knife? Either one is completely valid. Right.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  text: If I can quickly jump in and I think I have an example of this exactly right here is why I pulled this up on my screen is this is a conversation, this is a test case that I have to validate these like monitoring systems that I have where the, the conversation. Basically there's a financial consult, a financial management client that I have and I built these test cases around like they have two separate agents deployed, one for like a term insurance flow, one, one for a wealth management flow. Someone's been talking to both the agents. Those agents are not supposed to cross their wires. They're not supposed to share context. But what one person said, oh hey, I was talking to so and so which is actually the other agent that I've deployed for that person about the, the term insurance. And then this agent starts talking about the term insurance in a way that it shouldn't be allowed to. I don't know if this like exactly qualifies as context prompt, but they kept asking about it and the agent started talking to this, this person about things that it wasn't authorized to do. So and luckily didn't hallucinate anything like out of the bounds of it yet. But yeah, this is the natural way. Yeah, certainly could have. Right. I mean it's making, it's. Yeah. The problem is it's all, it's all context, right? That's the problem. Like you know, James is saying what's, what's context? That it's all context, right? Like, like if it, if it, if it got fed in it's context and that's you know, you look at a lot of these systems we all using agents where there's like, you know, they have a system prompt and then they have a project prompt and then they have like Klein rules. Like the LLMs generally get all that as inbound part of the context, right. And, and then output tokens which in an orcas, in an orchestration or an agentic, you know, interaction environment becomes all becomes context for another agent. Right? Because like you know, and so, and, and I will add another if you want another thing to consider James, and that is that there's fundamental, there's fundamental context brought to, that's caused by. I'm not trying to steer off topic, but this is because this is a pet project of mine just around language, right? In the sense that like the, the, the, the. The output LLMs produce so much, so much text and it's in English generally. Right. And English is ambiguous that the context rock can build and it all becomes confusing because, like, the output is in fact confused. Confusing. Right. Like, like, you know, I got on the streetcar with a knife. A classic example in English. Did the streetcar have the knife or did I have the knife? Either one is completely valid. Right. You know, from the context, it just seems to me like, I mean, there's particular things I think that are inherent to working with these bots. I feel like this is such a central core piece of it, which is like, how do you control the context? And just to. I feel like bringing a little bit of a memorable word here. It seems to me like a lot of the time, if you want high performance out of a bot, you kind of want to give it like a lobotomy each time and just start fresh.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  text: Yeah, certainly could have. Right. I mean it's making, it's. Yeah. The problem is it's all, it's all context, right? That's the problem. Like you know, James is saying what's, what's context? That it's all context, right? Like, like if it, if it, if it got fed in it's context and that's you know, you look at a lot of these systems we all using agents where there's like, you know, they have a system prompt and then they have a project prompt and then they have like Klein rules. Like the LLMs generally get all that as inbound part of the context, right. And, and then output tokens which in an orcas, in an orchestration or an agentic, you know, interaction environment becomes all becomes context for another agent. Right? Because like you know, and so, and, and I will add another if you want another thing to consider James, and that is that there's fundamental, there's fundamental context brought to, that's caused by. I'm not trying to steer off topic, but this is because this is a pet project of mine just around language, right? In the sense that like the, the, the, the. The output LLMs produce so much, so much text and it's in English generally. Right. And English is ambiguous that the context rock can build and it all becomes confusing because, like, the output is in fact confused. Confusing. Right. Like, like, you know, I got on the streetcar with a knife. A classic example in English. Did the streetcar have the knife or did I have the knife? Either one is completely valid. Right. You know, from the context, it just seems to me like, I mean, there's particular things I think that are inherent to working with these bots. I feel like this is such a central core piece of it, which is like, how do you control the context? And just to. I feel like bringing a little bit of a memorable word here. It seems to me like a lot of the time, if you want high performance out of a bot, you kind of want to give it like a lobotomy each time and just start fresh. Yeah. You're a big fan of that. Yeah. Context groom all the time. Context grooming all the time. It's funny, over the last few weeks, I was seeing like everybody talking about context engineering as opposed to prompt engineering. Yeah, I love that term versus vibe coding. I love context engineering. Yeah. But I think, to your point, James, like, it's interesting, like, I've tried so many different ways, like generating tons of different valuable related contexts and then trying to. You need to kind of. I feel like I need to like, synthesize and compare, compress it into like better sensed understanding before I try and give it to go and do something. Because we try and run all of that just like, here's everything, you know, it's just. It needs to be synthesized. But like. It'S a dual thing because less is more, right? So the problem is, is like, the problem is less can be more. So, you know, if, if the answer is, you know, a dog is a mammal, having a whole bunch of different ways of saying that doesn't always help. If you want the answer, a dog is a mammal. You know what I mean? Like, and that's. And so definitely context grooming is as I like, a little bit more than the more context the better. Because more isn't better. Right? Like, more because more gives you a more opportunity for confusion, for running out of tokens from all sorts of other problems. So I like context grooming a lot because I'm not only making sure my context is up to date, but that it's not like, you know, in the wrong place and redundant. And yeah, yeah, I like to worry about is too many tokens. Right. Because that's the other problem I run into is I run out of context.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  text: But I think, to your point, James, like, it's interesting, like, I've tried so many different ways, like generating tons of different valuable related contexts and then trying to. You need to kind of. I feel like I need to like, synthesize and compare, compress it into like better sensed understanding before I try and give it to go and do something. Because we try and run all of that just like, here's everything, you know, it's just. It needs to be synthesized. But like. It'S a dual thing because less is more, right? So the problem is, is like, the problem is less can be more. So, you know, if, if the answer is, you know, a dog is a mammal, having a whole bunch of different ways of saying that doesn't always help. If you want the answer, a dog is a mammal. You know what I mean? Like, and that's. And so definitely context grooming is as I like, a little bit more than the more context the better. Because more isn't better. Right? Like, more because more gives you a more opportunity for confusion, for running out of tokens from all sorts of other problems. So I like context grooming a lot because I'm not only making sure my context is up to date, but that it's not like, you know, in the wrong place and redundant. And yeah, yeah, I like to worry about is too many tokens. Right. Because that's the other problem I run into is I run out of context. It's multifactorial too, right? Because I mean, you get like Token compression. And there's all these things. So like, which I guess some people try to do to fit more in there, and then some people try not to do because they find that everything in the middle just gets lost. Taking the middle out, man. So the one thing that. The one thing that all this context talk is interesting for is it just feels like. It feels like onion skinning or it feels like some sort of really, really complex codex. But I look at different data structures. As solving these problems inherently just by them being smart. And, you know, the LLM is one of those and knowledge graphs are another. And so I think there's how we. Access and how we set context up now and how we work with these things. And I'm curious to see how the memory and the context thing play out, because they're one and two hand in hand as a data structure. The context we provide the LLMs for working with a code base is basically a whole bunch of markdown files. That's context. So it understands shit. It's just a knowledge base. And so what I've heard. And I'll circle back because we've got four minutes. The notion of being able to groom. One'S context is an interesting set of words. But if we were, say, to curate that and then be able to compress that so that it is meaningful within a different context, to make it portable. So that sounds like a manifest idea. And so if we are manifesting appropriately within an environment, and then that would be having the appropriate context, and then we can say, then we're ready for our query, which could be optimized within the context that we bring in our manifest, which then gets understood through manifesting inside a new context. So there may be a procedural way. Of understanding all this, sort of like what I was talking about in the. How of the how of the how. That things are breadcrumbed in front of you in that. I'm going to be copying and pasting some very large system. Prompts that I put in underneath my very simple one shots and zero shots. And that's a way of seeing, hey, there's a lot of context there now what's useful? And the MCPs do this, and maybe. We have our own MCP, right? You just log into yours and then. Says, every time I do a query, just like, what's happening inside my id, it asks me if I want to. Create a memory of something because I've said something twice.
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u93
+  - u94
+  text: It's multifactorial too, right? Because I mean, you get like Token compression. And there's all these things. So like, which I guess some people try to do to fit more in there, and then some people try not to do because they find that everything in the middle just gets lost. Taking the middle out, man. So the one thing that. The one thing that all this context talk is interesting for is it just feels like. It feels like onion skinning or it feels like some sort of really, really complex codex. But I look at different data structures. As solving these problems inherently just by them being smart. And, you know, the LLM is one of those and knowledge graphs are another. And so I think there's how we. Access and how we set context up now and how we work with these things. And I'm curious to see how the memory and the context thing play out, because they're one and two hand in hand as a data structure. The context we provide the LLMs for working with a code base is basically a whole bunch of markdown files. That's context. So it understands shit. It's just a knowledge base. And so what I've heard. And I'll circle back because we've got four minutes. The notion of being able to groom. One'S context is an interesting set of words. But if we were, say, to curate that and then be able to compress that so that it is meaningful within a different context, to make it portable. So that sounds like a manifest idea. And so if we are manifesting appropriately within an environment, and then that would be having the appropriate context, and then we can say, then we're ready for our query, which could be optimized within the context that we bring in our manifest, which then gets understood through manifesting inside a new context. So there may be a procedural way. Of understanding all this, sort of like what I was talking about in the. How of the how of the how. That things are breadcrumbed in front of you in that. I'm going to be copying and pasting some very large system. Prompts that I put in underneath my very simple one shots and zero shots. And that's a way of seeing, hey, there's a lot of context there now what's useful? And the MCPs do this, and maybe. We have our own MCP, right? You just log into yours and then. Says, every time I do a query, just like, what's happening inside my id, it asks me if I want to. Create a memory of something because I've said something twice.
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  text: Taking the middle out, man. So the one thing that. The one thing that all this context talk is interesting for is it just feels like. It feels like onion skinning or it feels like some sort of really, really complex codex. But I look at different data structures. As solving these problems inherently just by them being smart. And, you know, the LLM is one of those and knowledge graphs are another. And so I think there's how we. Access and how we set context up now and how we work with these things. And I'm curious to see how the memory and the context thing play out, because they're one and two hand in hand as a data structure. The context we provide the LLMs for working with a code base is basically a whole bunch of markdown files. That's context. So it understands shit. It's just a knowledge base. And so what I've heard. And I'll circle back because we've got four minutes. The notion of being able to groom. One'S context is an interesting set of words. But if we were, say, to curate that and then be able to compress that so that it is meaningful within a different context, to make it portable. So that sounds like a manifest idea. And so if we are manifesting appropriately within an environment, and then that would be having the appropriate context, and then we can say, then we're ready for our query, which could be optimized within the context that we bring in our manifest, which then gets understood through manifesting inside a new context. So there may be a procedural way. Of understanding all this, sort of like what I was talking about in the. How of the how of the how. That things are breadcrumbed in front of you in that. I'm going to be copying and pasting some very large system. Prompts that I put in underneath my very simple one shots and zero shots. And that's a way of seeing, hey, there's a lot of context there now what's useful? And the MCPs do this, and maybe. We have our own MCP, right? You just log into yours and then. Says, every time I do a query, just like, what's happening inside my id, it asks me if I want to. Create a memory of something because I've said something twice. Yeah. It still doesn't listen into your point folio and to Spencer's point. And everyone Else's. It still doesn't listen 100% of the time because I have something in there just for. Just for Folio's benefit in the apps that I built, because the tools just love emojis and they're really grinding on it. And so I have made sure that I have that in my documentation everywhere. I don't put for Fulvio anymore because it asks questions about that, but I do put my documentation, and it still puts them in there. Damn it. I can't get it to stop giving me emojis. Oh, my God. I've hooked up. I've hooked up, hooked up Dice Bear. So I got all kinds of avatars and all this other. And so I can do and diagrams and everything. But the emojis, man, I love emojis. They're from the devil. Loves emojis. Oh. Anyway, so where's the one? It's like, we won't be. I won't use it anymore. Okay. I'm sorry. And then one message later. But exactly. It'll say. It'll say I'm sorry with an emoji. The emoji will be I'm sorry. Right? That's just the finger with the twist at the end. You're like, no, thanks. I didn't ask for that, you damn thing.
+- id: W-0039
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  text: I've hooked up. I've hooked up, hooked up Dice Bear. So I got all kinds of avatars and all this other. And so I can do and diagrams and everything. But the emojis, man, I love emojis. They're from the devil. Loves emojis. Oh. Anyway, so where's the one? It's like, we won't be. I won't use it anymore. Okay. I'm sorry. And then one message later. But exactly. It'll say. It'll say I'm sorry with an emoji. The emoji will be I'm sorry. Right? That's just the finger with the twist at the end. You're like, no, thanks. I didn't ask for that, you damn thing. Yeah, there's. There's an interesting. I, I, I, I. Like I said, I would love to go down this rabbit hole because I have a huge theory that part of the limitations of these LLMs is the language they're using. English, right? It's all done for the English language. He's Italian. Oh, yeah. But like, to that end, like, have you guys read this AI 2027 paper? Or. Oh, God. You want to go and sit in a ball and rock back and forth. The rest of the day? I have an hour dedicated to that this afternoon already. Don't worry. Part of my daily ritual. I've got a. I've got a good YouTube video that explains it, but you can read the paper AI 2027. Okay. All right. It's basically like, you know, where do things end up? Neither are good. Shockingly fast. Just like. And you won't know. You won't see it coming. Yet, have you? Sorry, what's that? You haven't found the YouTube channel P. Doom, have you? No, I have. No, don't, don't. No, no. I never mentioned it. I had employees that told me about 4chan, and I just changed. Just stop that. Stop that. This is. It's basically like, you know, like, it goes through like all of the kind of game theoretical incentives as to like, you know, as these things get better then like what are the incentives of like open a, they call it open brain or whatever, open AI to like actually disclose the really significant models or you retain those models for yourself to be able to do the research, to be able to further accelerate your velocity, to be able to out compete the Chinese. I mean, it's just, I, I, I listened to it yesterday in the car and I was like, holy. And I think it's like, it's not like a, you know, lockdown foregone conclusion, but it is like pretty fascinating the, the relative speed which is like a couple of years. So that's kind of fascinating.
+- id: W-0040
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  text: Just like. And you won't know. You won't see it coming. Yet, have you? Sorry, what's that? You haven't found the YouTube channel P. Doom, have you? No, I have. No, don't, don't. No, no. I never mentioned it. I had employees that told me about 4chan, and I just changed. Just stop that. Stop that. This is. It's basically like, you know, like, it goes through like all of the kind of game theoretical incentives as to like, you know, as these things get better then like what are the incentives of like open a, they call it open brain or whatever, open AI to like actually disclose the really significant models or you retain those models for yourself to be able to do the research, to be able to further accelerate your velocity, to be able to out compete the Chinese. I mean, it's just, I, I, I listened to it yesterday in the car and I was like, holy. And I think it's like, it's not like a, you know, lockdown foregone conclusion, but it is like pretty fascinating the, the relative speed which is like a couple of years. So that's kind of fascinating. Yeah, I, I seriously think that by. The end of this year there's agents core in our apps. We are handing off full code bases. We own the agents. That's it. We own the agents that somehow maintain your code. I'm gonna, I'm gonna remember that one and I'm gonna hold on to it. I got a deliverable for tomorrow. Dave and I both have a meeting to run to. He's like, come into that one. I'll do. Hey man, we don't need to watch this. Yeah, but it's been a lively conversation. And I know that people have to go to meetings and I have another. One coming up here. Right away. Cheers everybody. Thanks guys. Right away. So thank you so much and we'll be in touch. Enjoy Hanif, enjoy your time, man. Ch. Yeah.
+- id: W-0041
+  t_start: 3600.0
+  t_end: 3649.82
+  utterance_ids:
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  text: Dave and I both have a meeting to run to. He's like, come into that one. I'll do. Hey man, we don't need to watch this. Yeah, but it's been a lively conversation. And I know that people have to go to meetings and I have another. One coming up here. Right away. Cheers everybody. Thanks guys. Right away. So thank you so much and we'll be in touch. Enjoy Hanif, enjoy your time, man. Ch. Yeah. Let me get slack open. Why is slack not open? Why did you do that?

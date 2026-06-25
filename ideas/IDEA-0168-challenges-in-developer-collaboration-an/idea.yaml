@@ -1,0 +1,28 @@
+id: IDEA-0168
+slug: challenges-in-developer-collaboration-an
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-04-08'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan Rojas identified people as a major blocker, particularly in getting team members up to speed and thinking differently about new tools (00:04:21). They explained that developers struggle to grasp the value of having a "meta repository" and the complexity of retrieving information, often lacking the experience to know what questions to ask when troubleshooting (00:05:40). This lack of understanding of underlying concepts like asynchronous queues means they cannot identify where issues are broken within microservices (00:06:48).
+summary: Challenges in Developer Collaboration and Upskilling
+rationale: Juan Rojas identified people as a major blocker, particularly in getting team members up to speed and thinking differently about new tools (00:04:21). They explained that developers struggle to grasp the value of having a "meta repository" and the complexity of retrieving information, often lacking the experience to know what questions to ask when troubleshooting (00:05:40). This lack of understan
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 59.3
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 7.2
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 226
+tier: queue

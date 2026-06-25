@@ -1,0 +1,28 @@
+id: IDEA-0258
+slug: security-vulnerabilities-and-ai-coding
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-20'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan discussed the presence of outdated libraries dating back to 2013 and widespread vulnerabilities within their code. David Olsson shared their experience with AI coding tools, emphasizing the need for agents to review code to identify weaknesses and poor-quality work, which provides helpful feedback.
+summary: Security Vulnerabilities and AI Coding
+rationale: Juan discussed the presence of outdated libraries dating back to 2013 and widespread vulnerabilities within their code. David Olsson shared their experience with AI coding tools, emphasizing the need for agents to review code to identify weaknesses and poor-quality work, which provides helpful feedback.
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 66.8
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 11.6
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 71
+tier: queue

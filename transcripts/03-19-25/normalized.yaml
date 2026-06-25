@@ -1,0 +1,1653 @@
+meeting:
+  date: '2025-03-19'
+  title: 8am-AI 2025-03-19
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  - Hanif Janmohamed
+  duration_s: 3768.97
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 75.48
+  t_end: 80.86
+  text: Shoulder. Especially if you're wearing a shirt dirty and you're going to shower. Yeah, yeah.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 107.21
+  t_end: 108.71
+  text: Good girl, Luca.
+- id: u3
+  speaker: Fulvio Ciano
+  t_start: 116.57
+  t_end: 117.762
+  text: Good morning, my friend.
+- id: u4
+  speaker: David Olsson
+  t_start: 117.866
+  t_end: 118.75
+  text: Good morning.
+- id: u5
+  speaker: Fulvio Ciano
+  t_start: 162.03
+  t_end: 174.57
+  text: Thank you. I mean, I could make it so it looks a little less psychotic. I know, but if you want to have a call with someone, I can make it not weird. Okay. But I could make it ovio.
+- id: u6
+  speaker: David Olsson
+  t_start: 175.55
+  t_end: 176.678
+  text: I just overheard.
+- id: u7
+  speaker: Fulvio Ciano
+  t_start: 176.774
+  t_end: 177.81
+  text: Don't do it.
+- id: u8
+  speaker: David Olsson
+  t_start: 178.11
+  t_end: 188.3
+  text: If you like, I could make it look less psychotic. The best overheard lately in a professional conversation.
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 188.96
+  t_end: 192.04
+  text: Yes, exactly. It's mom and daughter.
+- id: u10
+  speaker: David Olsson
+  t_start: 192.12
+  t_end: 195.14
+  text: Yes. Good morning.
+- id: u11
+  speaker: Fulvio Ciano
+  t_start: 197.04
+  t_end: 197.78
+  text: All.
+- id: u12
+  speaker: David Olsson
+  t_start: 200.0
+  t_end: 203.54
+  text: Yes, My daughter's getting ready to go to Australia.
+- id: u13
+  speaker: Hanif Janmohamed
+  t_start: 206.49
+  t_end: 207.986
+  text: A long way from here.
+- id: u14
+  speaker: David Olsson
+  t_start: 208.138
+  t_end: 215.234
+  text: It's a long way. Yeah. She has a friend that's there. So that's going to make that a. Little bit easier and then also more challenging.
+- id: u15
+  speaker: Hanif Janmohamed
+  t_start: 215.282
+  t_end: 219.91
+  text: Two 18 year olds travel together, bound to become friction.
+- id: u16
+  speaker: David Olsson
+  t_start: 220.33
+  t_end: 238.076
+  text: Some friction, yeah. The voices inside the browser can be terrible for text to speech. They can sound like the Amiga or. You know, Apple and it first had that and then, then they can sound.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 238.108
+  t_end: 240.6
+  text: Terribly insulting thing for you to say, by the way.
+- id: u18
+  speaker: David Olsson
+  t_start: 241.06
+  t_end: 243.5
+  text: I was just trying to dig it. Because you, you know, you might be.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 243.54
+  t_end: 247.944
+  text: Listening but really they sound awful. And why is that? Like.
+- id: u20
+  speaker: David Olsson
+  t_start: 247.892
+  t_end: 249.96
+  text: Oh no, they can. They just like.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 250.66
+  t_end: 251.756
+  text: Oh, I see.
+- id: u22
+  speaker: David Olsson
+  t_start: 251.908
+  t_end: 252.572
+  text: They just like.
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 252.596
+  t_end: 254.956
+  text: They're really right. Very brutal.
+- id: u24
+  speaker: David Olsson
+  t_start: 254.988
+  t_end: 299.16
+  text: Like they're like four bit audio, you know, instead of like using more spectrum. But there are some good ones and, and some really good ones and I found that the Google voices. I don't know if you can hear. You probably can't hear. No, no. Anyways, it's really quite good. It's. It's a British voice and it sounds like the 11 lab stuff and it's right out of the browser. I'm like, oh, that's pretty good. So you can go like text to speech in the browser where it doesn't. Sound like a crap. My previous demos it was a woman. Sounding like a computer. But I was able to get this, this talk through. Workflow thing kind of working pretty cool.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 300.06
+  t_end: 312.228
+  text: Where David in relatively real time in the sense that like what's the response time to the, you know, to submit text and then it starts speaking. Is it almost.
+- id: u26
+  speaker: David Olsson
+  t_start: 312.364
+  t_end: 315.96
+  text: Well, so it's all in browser, so it's instantaneous.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 316.54
+  t_end: 322.868
+  text: So where's the processing occurring? Like in browser. In browser. All in browser.
+- id: u28
+  speaker: David Olsson
+  t_start: 322.964
+  t_end: 376.2
+  text: Yeah, this is the TTS and the S speech to text. TTS and std, they're both in browser tech. So everything that I'm, you know, the gps, it all used to be accessible. When I was teaching phone gap back in the day through tricks and whatever. But now it's all accessible in the browser and. And all the tools that you have on your phone are there. So this workflow thing, it's actually. If I turn on the audio and I turn on the text, it listens to me. And if I say next stop, because the audio is going into my. Not going into that page because I'm talking to you guys, I should be able to make it work though, then it will actually proceed to the next slide. But regardless, when I go to the next slide, it does start talking to me immediately.
+- id: u29
+  speaker: Hanif Janmohamed
+  t_start: 377.18
+  t_end: 378.68
+  text: Wow. Amazing.
+- id: u30
+  speaker: David Olsson
+  t_start: 381.9
+  t_end: 452.358
+  text: It's two seconds. But it's the page rendering and the thing that takes the longest time is I'm actually creating these images. I got it when I constructed. I'm just like, I know that there's. Going to be latency and I know things are going to be whatever they are. And so I just built it such that. That's an engineering problem. So it's all in real time. And these are. Turn the audio off because I can hear it. Okay. So it's generating an image. There's no image for this step in the workflow. And so it's a. It's a workflow assistant where it gives you the instructions and then it gives you an image as to what you're supposed to be doing. And so this is a meditation workflow. And it's now talking to me. Bring your attention to your breathing, notice. Yada yada. And if I was to use Grok or something like that, then I would get. Or if I was to use other inference engines that are instantaneous, I would. Get the images, you know, within the same time frame as it talking to. Me, which would be acceptable, meaning that I could put a workflow into my system without any media, without any support, and it would build it on the fly.
+- id: u31
+  speaker: Hanif Janmohamed
+  t_start: 452.534
+  t_end: 453.29
+  text: Wow.
+- id: u32
+  speaker: David Olsson
+  t_start: 453.63
+  t_end: 655.09
+  text: And so to get to that point, if I go back to this, there's. A bunch of workflows. Some of them are in the app, but I created an editor editor, and in the editor you can create your own workflows. So if I load this one up, this one's actually for aimqc. This is a. This is a report that they have. To actually fill out. And so it's entity, boil number, entry, seal number. These are all steps in terms of filling out a report. Routine maintenance on an oil rig. Ensure that you're wearing yada, yada, yada, yada, yada, yada. And so I can create these here in an automated way. I can paste any steps in here. Like step one, go to the post love. Step two, buy a stamp. Step three and we'll create the workflow. Or I can. This one was like, maybe it'll do all the work for me. And so like random oil and gas. So if I create a random oil and gas workflow, what will it do? It doesn't, it doesn't do a terrible job. It'll pick up something that's like routine oriented. Anyways, this was me seeing what I. Could like how much of this workflow I can automate. And to the point where you see. Over here I have PDF to workflow. So first it's a manual editor where. You create the steps. Second one is you can just put in a copy and paste your steps from instructional manual. Third one is I got a theme. The theme is safety. And here's one. Routine maintenance and safety of checking an oil rig. Right? Super vague, but it will then now I can save that workflow and it's saved. And if I go to here, you can see it's right here and now. That's not it. This one, there's no images for this one. You can see here. This is the workflow guide. Introduction, Begin. And then I can generate images. So what it does is it sends. Up the context of whatever the task is, then the step and then the instructions are the content and then it will generate an image. And so just in time, training, just in time. Inspection, just in time, anything, right? Like, so here, you know, whatever imagery. What it is, it's not the best. It's not, you know, there's not a great prompt saying turn this into instructional. But also gets at the fact that. The stuff just makes up shit everywhere. And so it's kind of hilarious because. The instructions are very straightforward, but you. Can generate them all. You can generate missing ones and then. You can save them. And then the app is what people would experience. I'll go to the app. Oh, oops. Workflow save. I put in way too many things. And here's. Here's the app and then you can see my. Where's my new maintenance? Right here we can begin the workflow. And then here's that one image that I made. But if there's no image, it will. Make it on the fly. And so it will.
+- id: u33
+  speaker: Hanif Janmohamed
+  t_start: 656.67
+  t_end: 657.67
+  text: Amazing.
+- id: u34
+  speaker: David Olsson
+  t_start: 657.83
+  t_end: 703.61
+  text: It will actually create its own supporting media. So this is, this is actually a. Really good workflow for training for building voice assistants because you can just. In the editor, you can set up different types of workflows. So the PDF workflow is. It converts the forms, this form into which tab was it? Oh God.
+- id: u35
+  speaker: David Olsson
+  t_start: 710.59
+  t_end: 1088.732
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod
+- id: u36
+  speaker: Fulvio Ciano
+  t_start: 1088.756
+  t_end: 1089.324
+  text: Look at that?
+- id: u37
+  speaker: David Olsson
+  t_start: 1089.412
+  t_end: 1135.988
+  text: Look at that. Like, watch the Nvidia kind of announcement yesterday. Both Kamloops. What? Sorry? With Kamloops. Kamloops? Yeah, Talis and Kamloops. Oh no. Nvidia. Nvidia is putting in an AI farm in, in Quebec and, and backing one up in Cameloops. Oh no, no. Like Nvidia's like product launch, like their new ships and they're just talking about like, sorry, I got these cats coming from trying to climb my leg. They're, you know, they're kind of describing this like new architecture and like they're, they're kind of new laying it out. And it was interesting because it was like decidedly like not on the edge. I mean like some of it for sure.
+- id: u38
+  speaker: Fulvio Ciano
+  t_start: 1136.044
+  t_end: 1139.844
+  text: But you mean like digits? Are you talking about digits?
+- id: u39
+  speaker: David Olsson
+  t_start: 1139.892
+  t_end: 1141.52
+  text: Oh, digits. Yeah, sort of.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 1142.7
+  t_end: 1164.026
+  text: Nvidia has let me. Sorry guys, let me first mute and then see what. That's nothing. Gidgets is Nvidia's sort of like AI box for you, right? Like your personal AI box. And it's, it's talking about the new chip architectures.
+- id: u41
+  speaker: David Olsson
+  t_start: 1164.138
+  t_end: 1167.642
+  text: Is the ship architectures from yesterday or like what is it?
+- id: u42
+  speaker: Fulvio Ciano
+  t_start: 1167.666
+  t_end: 1168.762
+  text: I'm trying to remember you guys.
+- id: u43
+  speaker: David Olsson
+  t_start: 1168.786
+  t_end: 1170.682
+  text: I should have thought about it a little bit more before I brought it.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 1170.706
+  t_end: 1173.99
+  text: Up, but I'll probably not mention it.
+- id: u45
+  speaker: David Olsson
+  t_start: 1175.58
+  t_end: 1202.02
+  text: I did see the digits thing and that's basically, you know, that is like. Your own, your own AI processor, you know, high powered so that you can have that localized machine learning or AI right with you. I saw that that's coming with, with. Some small form factor like in a. Like a Mac Mini. It looked like. That's the news that I saw.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 1202.96
+  t_end: 1210.52
+  text: Well, they renamed the digits architecture to DGX because they're just so good at naming.
+- id: u47
+  speaker: David Olsson
+  t_start: 1210.68
+  t_end: 1211.38
+  text: Right?
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 1214.16
+  t_end: 1305.678
+  text: But yeah, I mean I have to tell you, I. It's interesting every, there's so much going on like every day you can go out and you can find like new company. AMD is doing a lot of stuff lately because they have this new rise in AI Max architecture. Again, naming convention is driving people mad because it doesn't mean anything really. But I mean, it's funny, I don't. They're not really in my opinion doing nobody's really in my opinion doing anything really revolutionary. They're just, you know, they're scaling right, like more memory access, more cores and all the rest. I actually haven't heard anything on the hardware side that's really new and revolutionary. And so much of this stuff you can't even like. It's all just speculative anyway. They're announcing now for when it will come out, you know, for so many quarters ahead kind of thing. And inevitably when you get there the benchmark tests that people do are more relevant than anything else. I actually think the biggest gains are, aren't even going to come from hardware anyway. They're going to come from software optimizations. I really do, I really believe that it seems that way. Most of these architecture have like an enormous amount of actual processor.
+- id: u49
+  speaker: David Olsson
+  t_start: 1305.854
+  t_end: 1339.54
+  text: I read something this morning that was similarly or yesterday similarly toned in that the MAD race is mad. And it's like the way that they're. Scaling is like everybody knows it's a. Wall and you know, somebody will traverse. It but not in the way that they're spending the billions. So but this is the same thing that happens in these hype cycles. It's like it's, it's, it's fair leading. I think this is my third or fourth one. And so like yeah, they do. People spend their own billions at the same thing and then they race each other and then at the end of. It it's not what they thought.
+- id: u50
+  speaker: Fulvio Ciano
+  t_start: 1341.2
+  t_end: 1407.102
+  text: So yeah, in particular because like the, the current, the current. When I say architecture I don't probably mean what Jason's saying. I mean like architecture as in like the basic technology, right? Like silicon and copper. Right. The whole chip making process. None of them are innovating that, none of them are innovating like you know, the TSMC manufacturing facilities that make these things. So these next, these next generation chips are not going to be like, you know, made out of graphene and boron nitride the way they should be in the sense that like that's where the real leaps in technology are going to come from, right? Because like you know, moving but that requires like abandoning you know, billions and billions of dollars of infrastructure to go to these next generation chips which, which that's exciting because like those chips are like we're talking about you know, 10x to 100x performance, you know, in one jump.
+- id: u51
+  speaker: David Olsson
+  t_start: 1407.166
+  t_end: 1407.666
+  text: Right?
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 1407.558
+  t_end: 1444.924
+  text: Because things, because there's no real resistance on chip and there's no real heat and the, there's no real, you know, all that kind of stuff but you know, that stuff that's not. I don't. That's not. That's stuff that's being done in universities to prove before they can build the new proof of concept, production pipelines, never mind actual chips. And what's really going to happen, in my opinion, is these, these chips that are around. Right. Like regardless of who they're from, Nvidia, intel, amd, whatever.
+- id: u53
+  speaker: David Olsson
+  t_start: 1444.972
+  t_end: 1445.472
+  text: Right.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 1445.156
+  t_end: 1495.46
+  text: And there are a bunch of other fringe producers, although it seems like they're all being made at the same facility in Taiwan, which is hilarious. They're going to come down in price because they're going to come down in price and people are just going to like Lego, block them together and get more performance by. By doing that. And like I said, the real performance, real performance jumps are going to come from software architecture innovations that are like, you know, that really have not been. Like, we haven't seen those. Like when we see. They're amazing. And I think I just haven't seen a lot of. But we've seen a couple of them. I don't think I'm connected in any way.
+- id: u55
+  speaker: David Olsson
+  t_start: 1496.24
+  t_end: 1500.932
+  text: Yeah, you are. Can you hear me? Sorry.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1500.744
+  t_end: 1508.1
+  text: I keep getting flashes on my screen that my Internet is paused due to connection problems. So I don't know what's going on.
+- id: u57
+  speaker: David Olsson
+  t_start: 1508.88
+  t_end: 1511.62
+  text: I'm multitasking. That's what Neef's looking at, I think.
+- id: u58
+  speaker: Hanif Janmohamed
+  t_start: 1513.92
+  t_end: 1516.9
+  text: Cool. What you're. I just looked it up too.
+- id: u59
+  speaker: David Olsson
+  t_start: 1519.21
+  t_end: 1769.37
+  text: 'Yeah. So to your point, that''s why I brought this up. It''s like we move in the other direction where we sit on top of. The algorithms and on top of the. Technology, on top of the tech. And it certainly gives us the whammy. And the throw around. And you know, 3.7 has been around. Sonnet 3.7 has been around for a little while. So there''s different talk around it from. The programmers and it''s interesting to hear. Hear them talk about what it means and how nuanced some of this stuff gets. And then Jason points to lovable.dev and. Basically I''m hoping it takes away a good 80% of my debugging. Welcome to my version of programming. This is what actually I do, but it''s more, I would call it sophisticated. Because I''m doing a bunch of things at once. But it''s not any different. It''s like giving it direction and then hoping it makes some of the faithful leaps that I know it can. And the more that I document, the more that I know it''s not making the wrong leaps. But what people have been saying is like the Models if they don''t know how to solve the problem, if you. Haven''T set up the good context for it, meaning here''s how I would like. You to think about things. And it keeps trying to solve problem. It''ll solve it really differently now. It will undo your work. It will unravel your work and make a mess of it. And I can feel it. I''ve felt it in the past. I''m like, oh man. Yeah. And I''m like, and. But people are like, okay, I''m. I took a heartbeat and I read some articles and it was their experience too. It was like, yeah, you. If you. If it. If it does too much, if it''s thinking too hard, it''s probably gonna be wrong. But what they are good at now. Is if first three, seven especially and. Inside cursor you can. They''ve got something called Claude Max or Max Claude or whatever. I don''t know something Max mode where you pay per. You''re paying a premium to use their models on top of models. So they didn''t describe it well, but. They''Ve got some different infrastructure with their agents doing different things on top of cloud to create much more rigorous code and to make it to use the whole of the 200k context window, which is basically an application. And so that''s what it''s saying is like if you do a good documentation up front and you have that set up up front and you use this. Mode, it''ll cost you 10 bucks probably. To build an app, but it will. Go on it for like 200, 200. Tool searchings and uses and then you can keep going with it. So it''s an expensive mode on top of their $20 a month. But if you''re doing like a massive. Retooling or a massive starting out of. A project, this mode apparently will set it up based on how. How good 3.7 is at that kind of work and the fact that the context window is larger and they''re just figuring out how to take advantage of it. This is pretty damn column common. We got unsuccessful build try to fix that''s a button that''s inside cloud as well. It''s building react apps. And so they''re not web pages, they''re components. And '
+- id: u60
+  speaker: Hanif Janmohamed
+  t_start: 1769.79
+  t_end: 1771.798
+  text: What do you mean? Pretty pithy.
+- id: u61
+  speaker: David Olsson
+  t_start: 1771.974
+  t_end: 1775.81
+  text: Yes. So I think that's. That's what I'll get paid for in the future.
+- id: u62
+  speaker: Fulvio Ciano
+  t_start: 1778.59
+  t_end: 1780.054
+  text: I could have prompts.
+- id: u63
+  speaker: David Olsson
+  t_start: 1780.182
+  t_end: 1828.46
+  text: Yeah. So he'll be like, okay, what does that mean? I don't know. But watch this, man. It's gonna take a time and it's gonna give us something. Because those words are just crazy. But that is, that is the kind of thing. I don't know at this point. I didn't give it enough guardrails to understand how to guide it. But I fixed this error. Try to fix it. I'm just learning how to do this right now. But it does look like. And so it's got super base. Okay, here's what it said. So from my appreciation, I think we're supposed to be able to.
+- id: u64
+  speaker: David Olsson
+  t_start: 1835.4
+  t_end: 1841.54
+  text: Well. Let'S.
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 1842.13
+  t_end: 1843.35
+  text: What's that one do?
+- id: u66
+  speaker: David Olsson
+  t_start: 1846.69
+  t_end: 1853.114
+  text: Cool. It's got the. A doodle.
+- id: u67
+  speaker: Hanif Janmohamed
+  t_start: 1853.162
+  t_end: 1855.91
+  text: Man, look at this thing.
+- id: u68
+  speaker: Hanif Janmohamed
+  t_start: 1867.9
+  t_end: 1869.08
+  text: Holy crap.
+- id: u69
+  speaker: David Olsson
+  t_start: 1870.38
+  t_end: 1883.68
+  text: Okay. Yeah, so it'll put in. It'll probably put in a lot of stuff that's going to be like placeholders, how it works. Let's. Let's see how it works. Because that's a curious one. Crap.
+- id: u70
+  speaker: Hanif Janmohamed
+  t_start: 1883.716
+  t_end: 1885.28
+  text: I'm blown away.
+- id: u71
+  speaker: David Olsson
+  t_start: 1885.66
+  t_end: 1893.926
+  text: Right? Those words in your picture was something. But it's, it's. It's the pictures. Like, if you put enough direction around your pictures.
+- id: u72
+  speaker: Hanif Janmohamed
+  t_start: 1894.108
+  t_end: 1896.946
+  text: Yeah. You can put a whole pathway.
+- id: u73
+  speaker: David Olsson
+  t_start: 1897.058
+  t_end: 1912.002
+  text: So that's why I was like, maybe I can grab like a. Grab a quick definition or like something. I was like me finding that right. Now is not going to work. But that would be the way to. Go, is like take one of your. Take some of your documentation. Give it a.
+- id: u74
+  speaker: Hanif Janmohamed
+  t_start: 1912.026
+  t_end: 1912.526
+  text: Like.
+- id: u75
+  speaker: David Olsson
+  t_start: 1912.57
+  t_end: 1914.786
+  text: Or give it a use case workflow kind of thing.
+- id: u76
+  speaker: Hanif Janmohamed
+  t_start: 1914.858
+  t_end: 1919.074
+  text: Yeah, yeah. I think like a user journey would be released.
+- id: u77
+  speaker: David Olsson
+  t_start: 1919.122
+  t_end: 1922.804
+  text: Yeah, they'll probably bang on. Right. Here's the user journey support.
+- id: u78
+  speaker: Hanif Janmohamed
+  t_start: 1922.892
+  t_end: 1924.12
+  text: This is what happens.
+- id: u79
+  speaker: David Olsson
+  t_start: 1926.14
+  t_end: 2017.67
+  text: In other ones too. This is not anything new. It's using everything else. If you have a diagram and then you describe the components, that's really good too. So you have the whole thing but ABCD and then you A, B, C, D. It's a really good spec doc like on the fly. So let's go back to the memory stack thing. It'll put in filters like three. Yeah. So the neat thing about modern apps that are built with React and stuff like that, they have all this filtering. And all this search capabilities built into it. So you see if I put bench, it picks up the bench. And then. If I want to go. Going walking. Yeah, going to walk. It picks up that. And so you can do without any function. Additional functionality. You get a lot of bonus work inside React. It is super bloated and complicated. So when it builds it for you that's great. But if you're, you know, if you're debugging it it can be, it can be onerous. And the. Let's see what it says. Memory profile. Yeah it's not going to have anything. All here but if we go back and we say like okay, make the. Oh, it showed up. Bust. Enable inputting of memories first. Welcome to AI programming.
+- id: u80
+  speaker: Hanif Janmohamed
+  t_start: 2018.01
+  t_end: 2019.03
+  text: Amazing.
+- id: u81
+  speaker: David Olsson
+  t_start: 2020.81
+  t_end: 2054.09
+  text: So I think it was showing code. Usually there's a way to show the code or show the app. Spinning up sandbox. What I quite love is actually seeing. The app while it's building. It's not as radical as it once. It was pretty fun when I first started. It does a lot less of the twitchiness but it's like.
+- id: u82
+  speaker: David Olsson
+  t_start: 2060.87
+  t_end: 2066.718
+  text: Yeah, it's gonna, it's gonna crank away at this. So I don't know Hanif. I think I would just like it's a Google account.
+- id: u83
+  speaker: Hanif Janmohamed
+  t_start: 2066.854
+  t_end: 2067.998
+  text: Go to town in this.
+- id: u84
+  speaker: David Olsson
+  t_start: 2068.054
+  t_end: 2097.98
+  text: Go to town on it, man. You gotta adapt this stuff. You can create analysis engines quite easily. Right. Like the simulator stuff that I've built like if you, if you put in handful your parameters say build a simulator around this where I can affect these things that it allows me to do. I don't know something. Okay, so let's see what that inputs.
+- id: u85
+  speaker: David Olsson
+  t_start: 2103.76
+  t_end: 2104.972
+  text: There we go.
+- id: u86
+  speaker: Hanif Janmohamed
+  t_start: 2105.136
+  t_end: 2106.24
+  text: There you go.
+- id: u87
+  speaker: David Olsson
+  t_start: 2108.14
+  t_end: 2119.32
+  text: It's not there. So I was wondering about that. But it might be there when I go to the web page.
+- id: u88
+  speaker: Hanif Janmohamed
+  t_start: 2120.62
+  t_end: 2132.33
+  text: Well I think what's interesting about it is that you can also build out the experience itself. Working with that's very different than the product.
+- id: u89
+  speaker: David Olsson
+  t_start: 2133.11
+  t_end: 2175.85
+  text: Yeah. So we used to be able like. In Figma and stuff you can make high fidelity walkthroughs we call them like. Click throughs and all that stuff. You can do much more with this. You can show the show it working in a. Not in a full like it has Supabase which allows you to have database. And all kinds of backend capabilities. So that's what it's using. It's using aws, it looks like, to. To launch all this shit. So it could be that you could. Create, you know, full login capabilities and database capabilities, like the safe stuff profiles and whatnot. Across the community, I could say like. Add index DB and dexi js.
+- id: u90
+  speaker: David Olsson
+  t_start: 2193.08
+  t_end: 2246.67
+  text: I'm just trying. So indexeddb is like the database underneath the browser and you can create any. Any number of them. That's what for me is like a great way to create a database for like using my stuff. It doesn't share. Right. Because it's in my browser. But it's still like if you're doing videos and demos or you're enabling somebody to do research and build their own, it works. Right. It really puts it in their own sandbox too. It's like you create this. It's like it's yours, no one else. So it can have its benefits. And when I'm doing the market research, it's a benefit. It's like, no, it's actually completely portable. There's no issues with where it's stored. But rarely does it come up as a huge benefit. It's just a. An easy way of things. Yeah. Okay. It says it'll do it, so.
+- id: u91
+  speaker: Hanif Janmohamed
+  t_start: 2249.37
+  t_end: 2249.87
+  text: I'd.
+- id: u92
+  speaker: David Olsson
+  t_start: 2249.794
+  t_end: 2250.83
+  text: Give this a go, man.
+- id: u93
+  speaker: Hanif Janmohamed
+  t_start: 2251.21
+  t_end: 2254.31
+  text: Yeah. Interesting.
+- id: u94
+  speaker: David Olsson
+  t_start: 2256.33
+  t_end: 2281.276
+  text: It's when I was talking to Jason Krisky, he was. He built something with it over the weekend. Looks super cool too. But he said it doesn't quite work. But he built it using this and he says it's replit. So it's a. It's built on top of another IDE or whole. Like it's not just an id, it's. A whole environment for building applications.
+- id: u95
+  speaker: Hanif Janmohamed
+  t_start: 2281.468
+  t_end: 2281.98
+  text: Wow.
+- id: u96
+  speaker: David Olsson
+  t_start: 2282.06
+  t_end: 2290.96
+  text: And so this is a. This is like the chat version of it. Just like simple it down make it. So people just talk to it. They don't have to. They don't have to do the under tooling.
+- id: u97
+  speaker: Hanif Janmohamed
+  t_start: 2291.62
+  t_end: 2293.492
+  text: But you can also do that.
+- id: u98
+  speaker: David Olsson
+  t_start: 2293.636
+  t_end: 2311.16
+  text: You can also do that. Like I got more direct with it. Right. It's like put this kind of tech in it. Meanwhile you can say I want it. To store this information this way and. Then it'll figure itself out is usually how it works. Let's see. New memory.
+- id: u99
+  speaker: David Olsson
+  t_start: 2319.19
+  t_end: 2323.89
+  text: Oh, I hit refresh. Oh, okay. It's gonna take forever.
+- id: u100
+  speaker: Hanif Janmohamed
+  t_start: 2326.47
+  t_end: 2327.25
+  text: Yeah.
+- id: u101
+  speaker: David Olsson
+  t_start: 2330.15
+  t_end: 2363.94
+  text: I don't think it's going build unsuccessful save memory. It shows up. Yeah. It hasn't been added to your stack, but if I go anywhere else. Oh, it did great. So, yeah. It's now got its database in the background saving now, so that's cool. There's problems with it, but. Again, you. Got to fix it button. Why not use it?
+- id: u102
+  speaker: Hanif Janmohamed
+  t_start: 2365.92
+  t_end: 2376.59
+  text: Well, maybe the way to do this for me is to play with it from an experiential place. You know what would be interesting or not?
+- id: u103
+  speaker: David Olsson
+  t_start: 2377.53
+  t_end: 2382.002
+  text: And I would even be like, I would have. I would go about it with conjecture too.
+- id: u104
+  speaker: Hanif Janmohamed
+  t_start: 2382.186
+  t_end: 2382.866
+  text: Yeah.
+- id: u105
+  speaker: David Olsson
+  t_start: 2382.978
+  t_end: 2393.87
+  text: How would you build this? Like. Or you know. You know, given that this is the situation, build this to support it. You know, like, I, I like that kind of thing. Given this.
+- id: u106
+  speaker: Hanif Janmohamed
+  t_start: 2394.25
+  t_end: 2398.922
+  text: I can see, I can see you're wandering down the road here.
+- id: u107
+  speaker: David Olsson
+  t_start: 2399.106
+  t_end: 2411.27
+  text: Yeah. So given that this is the project and that I would like the community to have this kind of interaction, build an app to support that. It's kind of what I did, but it was really small. Yeah.
+- id: u108
+  speaker: Hanif Janmohamed
+  t_start: 2411.226
+  t_end: 2417.95
+  text: I think you could give it some bigger parameters to include personality testing.
+- id: u109
+  speaker: David Olsson
+  t_start: 2419.81
+  t_end: 2444.39
+  text: You saw what it did, right? It picked one thing. And so my experience with it, you. Can, you can be. You can give it the whole thing and it'll frame it all out. And then you have to drive it, complete it. Or you start with, okay, this is the overall project. Do this part first. And then you like, oh, and guess what? Everything's throw away ball.
+- id: u110
+  speaker: Hanif Janmohamed
+  t_start: 2445.25
+  t_end: 2446.266
+  text: Yeah, I guess that's.
+- id: u111
+  speaker: David Olsson
+  t_start: 2446.298
+  t_end: 2480.046
+  text: Hey, so start again. Yeah, these are the best rules. I'm like, don't. Hey, don't the rules. Just let them explore, man. Yeah, to be efficient is. Is not a problem with this stuff. Because if it doesn't work, you can. Just say, build a specification of this. Application so I can build a new. Like, you can say just that and it will build a specification. And then you can just say, start a new session. Use this specification so you can get into trouble. And then you can throw it all away. And you wouldn't be starting from zero, you'd be starting from where you were.
+- id: u112
+  speaker: Hanif Janmohamed
+  t_start: 2480.118
+  t_end: 2481.534
+  text: Still extract the.
+- id: u113
+  speaker: David Olsson
+  t_start: 2481.702
+  t_end: 2527.1
+  text: You can still extract all of the good work. And so I get into like all of my apps. They all get it to a place where I won't go any farther with them right until I start again. And that's a pattern that isn't just mine. And you know, we talked about it yesterday with Travis in the room too. Is that saving the state of the application? And read me some sort. It's like, okay, document this application, whatever. And so that at least there's an application, a document that isn't the application that you can then bring into another, like lovable, Claude, whatever else. And it's Your IP is the. Basically the prompt to build it is what you get.
+- id: u114
+  speaker: Hanif Janmohamed
+  t_start: 2528.28
+  t_end: 2562.134
+  text: Well, you know, we did a. One of the forays we did was kind of multimedia piece. So that was more segmented and you had modules, you know, so yeah, like you had here. Each one had a little interactive and a little. It was a little, you know, multimedia piece that was the actual result. So it could be an interesting way to do it.
+- id: u115
+  speaker: David Olsson
+  t_start: 2562.302
+  t_end: 2627.37
+  text: This. This is my. This is my formula right now, right. For absolutely, absolutely everything as setting a. Context, having some input of information, piece of it, anything. And then figuring out how to put. That vector of intention as. As the query. And that is. That is the job. In a year, the rest from now till then, it's building applications. But it is this thing of okay, how do we set. That's why I have this notion of strategic streaming context that might play out for us on some of my projects. But it's just like how do I. Apply context if I need it? Right, right. So and you can say that's a person. You can say the person adds context or the person needs context and then you can say okay, what's their input? Are they going to fill out a form or do. Then what's the intention of anything going on? The inner self is a really good. One for all three of them. Anyways.
+- id: u116
+  speaker: Hanif Janmohamed
+  t_start: 2627.71
+  t_end: 2631.414
+  text: Well, I will check out lovable.dev oh.
+- id: u117
+  speaker: David Olsson
+  t_start: 2631.462
+  t_end: 2633.616
+  text: Hey, let me see if I can share this with you. That would be.
+- id: u118
+  speaker: Hanif Janmohamed
+  t_start: 2633.688
+  t_end: 2635.38
+  text: Oh yeah, that would be cool.
+- id: u119
+  speaker: David Olsson
+  t_start: 2640.68
+  t_end: 2648.896
+  text: Anyone can view and remix public project. I'm gonna give you this in the chat here.
+- id: u120
+  speaker: Hanif Janmohamed
+  t_start: 2649.048
+  t_end: 2649.74
+  text: Right.
+- id: u121
+  speaker: David Olsson
+  t_start: 2654.92
+  t_end: 2656.62
+  text: And that's what it is.
+- id: u122
+  speaker: Hanif Janmohamed
+  t_start: 2657.08
+  t_end: 2657.86
+  text: Nice.
+- id: u123
+  speaker: David Olsson
+  t_start: 2662.13
+  t_end: 2699.914
+  text: Oh yeah. So, okay, so this is. This does. I figured out how to not to do these things, but it's hooked up. It has a repository on GitHub. It allows you to publish on AWS and it's. And if you want a database underneath. It, it's got Supabase. So it allows you to scale from this too. So it does all the good crappy stuff that no one wants to do. Actually, I shouldn't say that it's the. The most fundamental stuff getting things out there. But if for prototyping, whatever else that gets in the way of things in a big way. So hopefully that link worked no matter what. You can ping me and I can figure out how to do something more.
+- id: u124
+  speaker: Hanif Janmohamed
+  t_start: 2700.002
+  t_end: 2707.19
+  text: Yeah, yeah, yeah. I'll set up an account there. Go and see what it is.
+- id: u125
+  speaker: David Olsson
+  t_start: 2710.05
+  t_end: 2715.29
+  text: My projects. Right. This is the interface now.
+- id: u126
+  speaker: Hanif Janmohamed
+  t_start: 2716.47
+  t_end: 2718.69
+  text: This is the new. The new window.
+- id: u127
+  speaker: David Olsson
+  t_start: 2720.55
+  t_end: 2747.608
+  text: All right. So it's showing up the inner man I think that's just so crazy. Like two sentences and I didn't even study your photo. Like to point it. Use this text here. And didn't do any of that stuff. So I want to. I want to try it. Not with the MQCs up, but with some of the other things that I'm doing to. Because you just set it off on its own in a browser and then you can work somewhere else, you know.
+- id: u128
+  speaker: Hanif Janmohamed
+  t_start: 2747.664
+  t_end: 2748.216
+  text: Yeah.
+- id: u129
+  speaker: David Olsson
+  t_start: 2748.328
+  t_end: 2752.328
+  text: You could get it to do something simple for you. It's like. Okay. You know.
+- id: u130
+  speaker: Hanif Janmohamed
+  t_start: 2752.384
+  t_end: 2761.396
+  text: Yeah. I'm also super interested in what you were showing me about the Google Talk in the browser that I. Oh, yeah.
+- id: u131
+  speaker: David Olsson
+  t_start: 2761.304
+  t_end: 2762.06
+  text: Yeah.
+- id: u132
+  speaker: Hanif Janmohamed
+  t_start: 2763.15
+  t_end: 2766.246
+  text: It's interesting for Stone Maps, I think. Is it? Yeah.
+- id: u133
+  speaker: David Olsson
+  t_start: 2766.438
+  t_end: 2795.98
+  text: Yeah. The. Maybe I can stop presenting. Oh, Start. Also share audio. Chrome tab. Okay. Okay. This should share the audio. And so here are the settings. Can you hear.
+- id: u134
+  speaker: Hanif Janmohamed
+  t_start: 2798.36
+  t_end: 2799.1
+  text: No.
+- id: u135
+  speaker: David Olsson
+  t_start: 2800.28
+  t_end: 2803.104
+  text: No. You didn't hear that?
+- id: u136
+  speaker: Hanif Janmohamed
+  t_start: 2803.272
+  t_end: 2803.98
+  text: No.
+- id: u137
+  speaker: David Olsson
+  t_start: 2810.36
+  t_end: 2811.984
+  text: No, nothing.
+- id: u138
+  speaker: Hanif Janmohamed
+  t_start: 2812.032
+  t_end: 2813.62
+  text: I'm hearing any. Nothing.
+- id: u139
+  speaker: David Olsson
+  t_start: 2816.77
+  t_end: 2819.914
+  text: It lied. It's not giving. You.
+- id: u140
+  speaker: Hanif Janmohamed
+  t_start: 2820.082
+  t_end: 2827.418
+  text: Just throw the link in. In the chat and I can poke around too.
+- id: u141
+  speaker: David Olsson
+  t_start: 2827.554
+  t_end: 2830.47
+  text: You're gonna. You're gonna need a key.
+- id: u142
+  speaker: Hanif Janmohamed
+  t_start: 2831.17
+  t_end: 2832.03
+  text: Okay.
+- id: u143
+  speaker: David Olsson
+  t_start: 2836.21
+  t_end: 2909.68
+  text: Open. And when you arrive, it will have. It won't have. You'll have to input your name. You'll have to input your name and it will only have five examples that. Are hard coded in. And then you can create your own. But you'll arrive on a page and. Then you'll put your name in. You'll arrive here and then you'll see these five, I think. And these were the ones I created. And then down here is where you like. The DB viewer is just kind of my thing, but you can see all of the different workflows. But yeah, the editor is where you. Can have some fun. And I think this one is neat where you can give it a description. And you can say what kind of granularity you want. Right. In your audience. But. This is. This gives you the steps like I. Worked in Claud and give me this workflow steps for making something. And then I paste it in here. And then I was testing my system that way because manually creating them is super laborious.
+- id: u144
+  speaker: Hanif Janmohamed
+  t_start: 2910.18
+  t_end: 2916.56
+  text: Right. That's curious. Super interesting.
+- id: u145
+  speaker: David Olsson
+  t_start: 2916.91
+  t_end: 2932.09
+  text: I think there's. There's a mode somewhere in here. There's a couple modes somewhere in here. That are really cool. This is me just trying to explore what it means to. I. It didn't really work out that well. I want. I should just have like number of lines. Number of words.
+- id: u146
+  speaker: Fulvio Ciano
+  t_start: 2932.67
+  t_end: 2933.45
+  text: Yeah.
+- id: u147
+  speaker: David Olsson
+  t_start: 2934.11
+  t_end: 2959.71
+  text: For what I'm looking for. Because just being descriptive doesn't always Work. With an LLM, you know, like be detailed. It's like, yeah, I used two adjectives. I'm like, yeah, that's great. Like, that's not detailed, man. But I, I, I quite like this. One because like giving a cat a haircut.
+- id: u148
+  speaker: Hanif Janmohamed
+  t_start: 2964.05
+  t_end: 2965.71
+  text: It's a private conversation.
+- id: u149
+  speaker: David Olsson
+  t_start: 2969.09
+  t_end: 2977.642
+  text: Yeah. You're like, I don't know, kind of detail I need on that one. But this would be the fun thing is you put it through here and then you generate the images, man.
+- id: u150
+  speaker: Hanif Janmohamed
+  t_start: 2977.826
+  t_end: 2978.59
+  text: Yeah.
+- id: u151
+  speaker: David Olsson
+  t_start: 2979.17
+  t_end: 2987.87
+  text: And so I just, I haven't tried. To be fun with it, but if. You try to be fun with it, you find the guard rails on image generation.
+- id: u152
+  speaker: Hanif Janmohamed
+  t_start: 2988.29
+  t_end: 2989.242
+  text: Of course.
+- id: u153
+  speaker: David Olsson
+  t_start: 2989.426
+  t_end: 2994.31
+  text: Because I. You just use some language around healthcare and wellness and all of a sudden that looks like sex.
+- id: u154
+  speaker: Hanif Janmohamed
+  t_start: 2994.69
+  t_end: 2996.014
+  text: Yep. That's.
+- id: u155
+  speaker: David Olsson
+  t_start: 2995.962
+  t_end: 2997.22
+  text: I'm like, what?
+- id: u156
+  speaker: Hanif Janmohamed
+  t_start: 2997.68
+  t_end: 2999.272
+  text: That's a thing unto itself.
+- id: u157
+  speaker: David Olsson
+  t_start: 2999.336
+  t_end: 3030.256
+  text: Those guys, the language was just, it. Was around healthy and doing some steps. I don't know. But it was like picked up on your what? I'm like, I'm not fixing that problem. Anyways, so it goes. Okay, this is a bit longer. Yeah. Giving me a haircut can be a daunting task. My thought was putting like, for the. Oil and gas is putting like a really good personality around this and making all the images just fucking janky and. Not work so they pay attention. But this is good until you can save the workflow again.
+- id: u158
+  speaker: Hanif Janmohamed
+  t_start: 3030.328
+  t_end: 3030.828
+  text: Right.
+- id: u159
+  speaker: David Olsson
+  t_start: 3030.792
+  t_end: 3059.24
+  text: It's not fast, but it shows up here, stupid emoji of its own. And then, you know, you can generate them. Here it says generate missing generate all. Add steps if you want, or generate. I am adding UI everywhere to see what makes sense. Or you could just go into the. App and it will generate them on the fly, which is super long. And. Oh, it's being okay with it. It's actually making it look like a. Reasonable thing you would do.
+- id: u160
+  speaker: Hanif Janmohamed
+  t_start: 3059.54
+  t_end: 3066.04
+  text: Yeah. Well, that is amazing. I'm amazed. All of this.
+- id: u161
+  speaker: David Olsson
+  t_start: 3067.86
+  t_end: 3078.84
+  text: I thought this was a pretty cool tool. And then I did some work with it to document it. Like I was saying, like to.
+- id: u162
+  speaker: David Olsson
+  t_start: 3084.37
+  t_end: 3297.85
+  text: Why won't it let me show that. I'm trying to show. I documented what it. I documented what the app was in a bunch of markdown files and then added it, asked it to stop presenting. I want to present something else. This is what I was talking about. I built the app and it's kind of three pages and it. You gotta go to start in the middle and go back and forth. It's not the best. It's certainly. Yeah, but it had enough in it that I was like, okay, what could future innovations be. And I did some common ones and they're not that great, but augmented reality. Virtual reality training, which, okay, that's, that's one thing. But then I did a marketing document and asked it to come up with benefits industries, what it, you know, it comes up with fake shit all over the place. How it could work and then use case and workflow diagrams and then product document benefits, efficiency, what it does, target audiences, enterprise earnings, healthcare providers. Here we go. Look at that. It says quality control right there. Right. So if you want to validate your thinking, you can build more documentation around. What it thinks it is and has utility for. If you want to know if it makes sense, it's just like, okay, given the workflow, who would use it, you know? And so this is it. It's a shotgun. Right. Like approach of things. But the documents that I have, I even like the prompts were good, right. So. And I wanted to pull them out. And make them centralized because I'm, I built this a while back and so. I was like, okay, bring the prompts out. I should be doing this anyways. And so it gave me the prompts and then even gave me the code on how to do it and then how to store it. And so great documentation, like super good. Documentation that allows you to share. Bring in another guy like Travis, bring in another AI and then a tactical spec. It wasn't very big, so it's like there's not enough there. But it kind of get at things. I wanted user workflows, I don't know if I got there. Yeah, but if you, if you export everything as Markdown MD, then it renders pretty well. And the. All the LLMs really like it and it's compact and it doesn't have. You don't get to interpret it because it's just clear text. But so that's what these kind of files are. Instead of markup language HTML mark down. It'S marked down language md. And where HTML came from was a markdown language. In word processors you see these like. Square rocket B square bracket. And you put a word in and then you go square bracket, slash B square bracket. And that would make that word word bold. So that's how we got HTML. And so HTML is too lengthy. And so we have markdown. We've gone the other direction.
+- id: u163
+  speaker: Hanif Janmohamed
+  t_start: 3299.63
+  t_end: 3303.094
+  text: Back and forth. Too big, too small, too big.
+- id: u164
+  speaker: David Olsson
+  t_start: 3303.182
+  t_end: 3330.32
+  text: But, but it is pretty handy. I've been using it for 10 or 12 years now because it converts really well to HTML and to Word Docs and Google Bucks and Stuff but and now the LLMs. So these like I, you know, I would never write this kind of documentation. When I wrote documentation and I did it well, I was so proud of it. Nobody looks at it right but now it's functional. It's functional documentation. It will build new apps.
+- id: u165
+  speaker: Hanif Janmohamed
+  t_start: 3330.48
+  t_end: 3331.184
+  text: Yeah.
+- id: u166
+  speaker: David Olsson
+  t_start: 3331.312
+  t_end: 3338.14
+  text: You know like the marketing thing, the marketing thing would build a website. And.
+- id: u167
+  speaker: Hanif Janmohamed
+  t_start: 3337.976
+  t_end: 3345.58
+  text: So that's good to think like that. I, I can see how it provides the framework of.
+- id: u168
+  speaker: David Olsson
+  t_start: 3346.6
+  t_end: 3365.36
+  text: For you. Like you could build a micro website like a len. Like a one pager. So like okay, so now that we got this where it is, we want to have a marketing plan. Build a website for the landing page for people of interest now build a website that demonstrates it. You know, stuff that you would normally. Not want to do. Like I said, you, I need me.
+- id: u169
+  speaker: Hanif Janmohamed
+  t_start: 3365.4
+  t_end: 3372.0
+  text: Yeah. I've been reading a little bit, a little bit more about the rise of the solopreneur.
+- id: u170
+  speaker: David Olsson
+  t_start: 3372.5
+  t_end: 3389.32
+  text: Yeah yeah. This was, this is what it allows. That was basically what I said on LinkedIn was like if you can like. If you can get into the hand. If you get into tooling of lovable.dev. Or if you're have some programming experiences then very quickly it's just about the. Where your focus is.
+- id: u171
+  speaker: Hanif Janmohamed
+  t_start: 3390.26
+  t_end: 3397.744
+  text: Yeah. So it requires more clarity around project concept and yeah yeah you get to.
+- id: u172
+  speaker: David Olsson
+  t_start: 3397.752
+  t_end: 3403.12
+  text: Get to, you get back to the. Like building it isn't enough. It's built with purpose now.
+- id: u173
+  speaker: Hanif Janmohamed
+  t_start: 3403.16
+  t_end: 3427.19
+  text: And yes, purposing becomes more. Well either you go to the, you know, lots of rubbish, poorly thought out which is kind of where we go or you put some attention into the soft rationale about things.
+- id: u174
+  speaker: David Olsson
+  t_start: 3427.81
+  t_end: 3457.146
+  text: The experience of working with it right. Now can be one of those two experiences too. When you start with okay, I have a concept, I will rigor it out and, and we'll approach it that way. Or two I have an inkling I can follow it and the inkling can lead to garbage. But you will learn a lot from. The top down view. The what the opportunity is to have it help organize the top down view so that it is more organized for the app to be made. And so when you get around maybe.
+- id: u175
+  speaker: Hanif Janmohamed
+  t_start: 3457.178
+  t_end: 3463.738
+  text: I, I will spend a little time in ChatGPT just working on the concept a little.
+- id: u176
+  speaker: David Olsson
+  t_start: 3463.794
+  t_end: 3502.356
+  text: And yeah, with the new, with the. New models too that are quite crazy and worth trying because they spend a. Lot of time on, on very little context. And so if you give it some decent context then you use one of the new models you get like for the deep research you get Tangos I think or whatever just try with you. With the. Because they do do different things and at the conceptualizing phase, it makes sense. To use them and it will give. You, it will give you that garbage. But in that garbage, you're looking for a through line or something to anchor. And I found it's, it's the fastest. Way to collaborate with yourself.
+- id: u177
+  speaker: Hanif Janmohamed
+  t_start: 3502.548
+  t_end: 3503.252
+  text: Yeah.
+- id: u178
+  speaker: David Olsson
+  t_start: 3503.396
+  t_end: 3506.9
+  text: Is to just open the dialogue and say, okay, yeah, sure. None of it needs to happen.
+- id: u179
+  speaker: Hanif Janmohamed
+  t_start: 3506.94
+  t_end: 3510.56
+  text: Yeah, Yeah, I can see how that plays out.
+- id: u180
+  speaker: David Olsson
+  t_start: 3511.66
+  t_end: 3516.708
+  text: But that was pretty cool. The inner selfie website in five minutes.
+- id: u181
+  speaker: Hanif Janmohamed
+  t_start: 3516.884
+  t_end: 3519.892
+  text: 22 minutes. Yeah, 22 seconds.
+- id: u182
+  speaker: David Olsson
+  t_start: 3519.956
+  t_end: 3528.638
+  text: Yeah, it's like, it was like. And you know, it doesn't look terrible. It doesn't look terrible.
+- id: u183
+  speaker: Hanif Janmohamed
+  t_start: 3528.654
+  t_end: 3530.238
+  text: No, it looks convincing.
+- id: u184
+  speaker: David Olsson
+  t_start: 3530.414
+  t_end: 3533.246
+  text: That's like I say, convincing.
+- id: u185
+  speaker: Hanif Janmohamed
+  t_start: 3533.438
+  t_end: 3547.93
+  text: Yeah, it's convincing. And, and I think does open up the consideration of the experience of creating the selfie, which is also important.
+- id: u186
+  speaker: David Olsson
+  t_start: 3548.47
+  t_end: 3579.762
+  text: Right. That's the thing. You can create these derivative experiences that are going to be small with this kind of thing. You're just like, I need to market this today. Back in the day, you'd have one go at things. You know, you would try it and you're like, put a lot of effort into it. And you're like, this has got to work. And your, you know, your job's online. Most likely things don't work. Right. They're like, oh, yeah. This is why never, you never get a second chance at things. Usually. Well, that's not the space anymore, especially for, for art and for prototyping.
+- id: u187
+  speaker: Hanif Janmohamed
+  t_start: 3579.826
+  t_end: 3580.498
+  text: It's.
+- id: u188
+  speaker: David Olsson
+  t_start: 3580.674
+  t_end: 3585.266
+  text: You don't need to be holding to too much if, if you're not investing deeply.
+- id: u189
+  speaker: Hanif Janmohamed
+  t_start: 3585.458
+  t_end: 3586.802
+  text: Yeah, true.
+- id: u190
+  speaker: David Olsson
+  t_start: 3586.946
+  t_end: 3590.31
+  text: Even if it's, even if it's convincing, it has, has high fidelity.
+- id: u191
+  speaker: Hanif Janmohamed
+  t_start: 3591.53
+  t_end: 3592.05
+  text: Yeah.
+- id: u192
+  speaker: David Olsson
+  t_start: 3592.13
+  t_end: 3596.898
+  text: That's the part I'm like, it's good. No one's looking at it. I'm like, okay, whatever.
+- id: u193
+  speaker: Hanif Janmohamed
+  t_start: 3597.074
+  t_end: 3597.91
+  text: Yeah.
+- id: u194
+  speaker: David Olsson
+  t_start: 3599.53
+  t_end: 3624.962
+  text: So I, I want to push that. That talk through survey thing or that talk through workflow thing out today to my team and then to LinkedIn. People won't use it, but I'll create a video of it because it points in the direction of where our stuff is going. But I found that, that, that video thing is a great way to communicate to most people.
+- id: u195
+  speaker: Hanif Janmohamed
+  t_start: 3625.146
+  t_end: 3625.91
+  text: Yeah.
+- id: u196
+  speaker: David Olsson
+  t_start: 3626.73
+  t_end: 3657.09
+  text: They won't, they won't spend the time and effort to use anything. So I rewrite my posts with Claude for LinkedIn so that they, they're not. As me, you know, I like to. Talk like me and, and then I like, I haven't been doing it as much, but I'll provide videos. Yeah. And then if people Have a real interest, then I'll know because they'll ask me. Because they can't use anything without keys.
+- id: u197
+  speaker: Hanif Janmohamed
+  t_start: 3657.23
+  t_end: 3658.346
+  text: Yeah, exactly.
+- id: u198
+  speaker: David Olsson
+  t_start: 3658.458
+  t_end: 3660.806
+  text: Right. And I'm like. I'm not. Get.
+- id: u199
+  speaker: Fulvio Ciano
+  t_start: 3660.594
+  t_end: 3661.338
+  text: Like it.
+- id: u200
+  speaker: David Olsson
+  t_start: 3661.474
+  t_end: 3667.866
+  text: You go use this workflow thing. It'll cost a few bucks, right? Yeah, I'm fine with that. But if, say I get 200 impressions for.
+- id: u201
+  speaker: Hanif Janmohamed
+  t_start: 3667.938
+  t_end: 3669.546
+  text: Yeah, I know. If you're getting a lot of.
+- id: u202
+  speaker: Fulvio Ciano
+  t_start: 3669.618
+  t_end: 3670.118
+  text: For.
+- id: u203
+  speaker: David Olsson
+  t_start: 3669.954
+  t_end: 3704.89
+  text: For a posting, easily get two impressions. 200 impressions times 2 bucks that you're supporting somebody else's. Yeah. As soon as people see you can generate images, they're gonna do all the. Stuff that, you know, people do at. Work when they're bored. They're going to create a workflow for the dog, and then they're going to start, you know, you know, metaphorically and literally. And then so I. I have to figure it out. And it seems like a middleware piece. Where I can afford like 5 goes at things or 5 tokens or something. And then people. I have to figure that front end. Up because the apps that I'm building, I want to publish most of them.
+- id: u204
+  speaker: Hanif Janmohamed
+  t_start: 3705.67
+  t_end: 3706.17
+  text: Yeah.
+- id: u205
+  speaker: David Olsson
+  t_start: 3706.206
+  t_end: 3713.288
+  text: For experience, not for the video. But it would have been nice to. Have a whole lot of video of. Our work back in the 90s.
+- id: u206
+  speaker: Hanif Janmohamed
+  t_start: 3713.464
+  t_end: 3714.776
+  text: Yeah. Yeah, for sure.
+- id: u207
+  speaker: David Olsson
+  t_start: 3714.928
+  t_end: 3719.076
+  text: Because it didn't. Didn't. It didn't. It didn't stand up. Yeah.
+- id: u208
+  speaker: Hanif Janmohamed
+  t_start: 3719.096
+  t_end: 3721.672
+  text: It didn't translate into any kind of.
+- id: u209
+  speaker: David Olsson
+  t_start: 3721.776
+  t_end: 3743.396
+  text: No, it's how you can't. I can make it work, man, but it's a cognitive break in who I. Am, and I have to spend a weekend on it. I have. I have a computer and the whole thing set up. And I kept two laptops so that. I could show things moving from that time frame. But just having videos about using our. Own stuff would have been great.
+- id: u210
+  speaker: Hanif Janmohamed
+  t_start: 3743.548
+  t_end: 3746.4
+  text: Yeah. Yeah, I will.
+- id: u211
+  speaker: David Olsson
+  t_start: 3747.74
+  t_end: 3748.24
+  text: Thanks.
+- id: u212
+  speaker: Hanif Janmohamed
+  t_start: 3748.148
+  t_end: 3749.076
+  text: To do, man.
+- id: u213
+  speaker: David Olsson
+  t_start: 3749.228
+  t_end: 3753.52
+  text: One more media. Yep. All right, man, I'm gonna get going.
+- id: u214
+  speaker: Hanif Janmohamed
+  t_start: 3753.9
+  t_end: 3756.72
+  text: Thank you for that. Yeah. Good luck with your.
+- id: u215
+  speaker: David Olsson
+  t_start: 3759.1
+  t_end: 3761.258
+  text: Yeah, we'll be tomorrow.
+- id: u216
+  speaker: Hanif Janmohamed
+  t_start: 3761.434
+  t_end: 3762.122
+  text: Yeah.
+- id: u217
+  speaker: Fulvio Ciano
+  t_start: 3762.266
+  t_end: 3762.766
+  text: Okay.
+- id: u218
+  speaker: Hanif Janmohamed
+  t_start: 3762.762
+  t_end: 3765.03
+  text: Cool. Enlightening as always.
+- id: u219
+  speaker: David Olsson
+  t_start: 3768.29
+  t_end: 3768.97
+  text: Bye, angel.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  text: Shoulder. Especially if you're wearing a shirt dirty and you're going to shower. Yeah, yeah. Good girl, Luca. Good morning, my friend. Good morning.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  text: Good girl, Luca. Good morning, my friend. Good morning. Thank you. I mean, I could make it so it looks a little less psychotic. I know, but if you want to have a call with someone, I can make it not weird. Okay. But I could make it ovio. I just overheard. Don't do it. If you like, I could make it look less psychotic. The best overheard lately in a professional conversation. Yes, exactly. It's mom and daughter. Yes. Good morning. All. Yes, My daughter's getting ready to go to Australia. A long way from here. It's a long way. Yeah. She has a friend that's there. So that's going to make that a. Little bit easier and then also more challenging.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: If you like, I could make it look less psychotic. The best overheard lately in a professional conversation. Yes, exactly. It's mom and daughter. Yes. Good morning. All. Yes, My daughter's getting ready to go to Australia. A long way from here. It's a long way. Yeah. She has a friend that's there. So that's going to make that a. Little bit easier and then also more challenging. Two 18 year olds travel together, bound to become friction. Some friction, yeah. The voices inside the browser can be terrible for text to speech. They can sound like the Amiga or. You know, Apple and it first had that and then, then they can sound. Terribly insulting thing for you to say, by the way. I was just trying to dig it. Because you, you know, you might be. Listening but really they sound awful. And why is that? Like. Oh no, they can. They just like. Oh, I see. They just like. They're really right. Very brutal. Like they're like four bit audio, you know, instead of like using more spectrum. But there are some good ones and, and some really good ones and I found that the Google voices. I don't know if you can hear. You probably can't hear. No, no. Anyways, it's really quite good. It's. It's a British voice and it sounds like the 11 lab stuff and it's right out of the browser. I'm like, oh, that's pretty good. So you can go like text to speech in the browser where it doesn't. Sound like a crap. My previous demos it was a woman. Sounding like a computer. But I was able to get this, this talk through. Workflow thing kind of working pretty cool.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  text: Like they're like four bit audio, you know, instead of like using more spectrum. But there are some good ones and, and some really good ones and I found that the Google voices. I don't know if you can hear. You probably can't hear. No, no. Anyways, it's really quite good. It's. It's a British voice and it sounds like the 11 lab stuff and it's right out of the browser. I'm like, oh, that's pretty good. So you can go like text to speech in the browser where it doesn't. Sound like a crap. My previous demos it was a woman. Sounding like a computer. But I was able to get this, this talk through. Workflow thing kind of working pretty cool. Where David in relatively real time in the sense that like what's the response time to the, you know, to submit text and then it starts speaking. Is it almost. Well, so it's all in browser, so it's instantaneous. So where's the processing occurring? Like in browser. In browser. All in browser. Yeah, this is the TTS and the S speech to text. TTS and std, they're both in browser tech. So everything that I'm, you know, the gps, it all used to be accessible. When I was teaching phone gap back in the day through tricks and whatever. But now it's all accessible in the browser and. And all the tools that you have on your phone are there. So this workflow thing, it's actually. If I turn on the audio and I turn on the text, it listens to me. And if I say next stop, because the audio is going into my. Not going into that page because I'm talking to you guys, I should be able to make it work though, then it will actually proceed to the next slide. But regardless, when I go to the next slide, it does start talking to me immediately. Wow. Amazing. It's two seconds. But it's the page rendering and the thing that takes the longest time is I'm actually creating these images. I got it when I constructed. I'm just like, I know that there's. Going to be latency and I know things are going to be whatever they are. And so I just built it such that. That's an engineering problem. So it's all in real time. And these are. Turn the audio off because I can hear it. Okay. So it's generating an image. There's no image for this step in the workflow. And so it's a. It's a workflow assistant where it gives you the instructions and then it gives you an image as to what you're supposed to be doing. And so this is a meditation workflow. And it's now talking to me. Bring your attention to your breathing, notice. Yada yada. And if I was to use Grok or something like that, then I would get. Or if I was to use other inference engines that are instantaneous, I would. Get the images, you know, within the same time frame as it talking to. Me, which would be acceptable, meaning that I could put a workflow into my system without any media, without any support, and it would build it on the fly.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  text: Yeah, this is the TTS and the S speech to text. TTS and std, they're both in browser tech. So everything that I'm, you know, the gps, it all used to be accessible. When I was teaching phone gap back in the day through tricks and whatever. But now it's all accessible in the browser and. And all the tools that you have on your phone are there. So this workflow thing, it's actually. If I turn on the audio and I turn on the text, it listens to me. And if I say next stop, because the audio is going into my. Not going into that page because I'm talking to you guys, I should be able to make it work though, then it will actually proceed to the next slide. But regardless, when I go to the next slide, it does start talking to me immediately. Wow. Amazing. It's two seconds. But it's the page rendering and the thing that takes the longest time is I'm actually creating these images. I got it when I constructed. I'm just like, I know that there's. Going to be latency and I know things are going to be whatever they are. And so I just built it such that. That's an engineering problem. So it's all in real time. And these are. Turn the audio off because I can hear it. Okay. So it's generating an image. There's no image for this step in the workflow. And so it's a. It's a workflow assistant where it gives you the instructions and then it gives you an image as to what you're supposed to be doing. And so this is a meditation workflow. And it's now talking to me. Bring your attention to your breathing, notice. Yada yada. And if I was to use Grok or something like that, then I would get. Or if I was to use other inference engines that are instantaneous, I would. Get the images, you know, within the same time frame as it talking to. Me, which would be acceptable, meaning that I could put a workflow into my system without any media, without any support, and it would build it on the fly. Wow. And so to get to that point, if I go back to this, there's. A bunch of workflows. Some of them are in the app, but I created an editor editor, and in the editor you can create your own workflows. So if I load this one up, this one's actually for aimqc. This is a. This is a report that they have. To actually fill out. And so it's entity, boil number, entry, seal number. These are all steps in terms of filling out a report. Routine maintenance on an oil rig. Ensure that you're wearing yada, yada, yada, yada, yada, yada. And so I can create these here in an automated way. I can paste any steps in here. Like step one, go to the post love. Step two, buy a stamp. Step three and we'll create the workflow. Or I can. This one was like, maybe it'll do all the work for me. And so like random oil and gas. So if I create a random oil and gas workflow, what will it do? It doesn't, it doesn't do a terrible job. It'll pick up something that's like routine oriented. Anyways, this was me seeing what I. Could like how much of this workflow I can automate. And to the point where you see. Over here I have PDF to workflow. So first it's a manual editor where. You create the steps. Second one is you can just put in a copy and paste your steps from instructional manual. Third one is I got a theme. The theme is safety. And here's one. Routine maintenance and safety of checking an oil rig. Right? Super vague, but it will then now I can save that workflow and it's saved. And if I go to here, you can see it's right here and now. That's not it. This one, there's no images for this one. You can see here. This is the workflow guide. Introduction, Begin. And then I can generate images. So what it does is it sends. Up the context of whatever the task is, then the step and then the instructions are the content and then it will generate an image. And so just in time, training, just in time. Inspection, just in time, anything, right? Like, so here, you know, whatever imagery. What it is, it's not the best. It's not, you know, there's not a great prompt saying turn this into instructional. But also gets at the fact that. The stuff just makes up shit everywhere. And so it's kind of hilarious because. The instructions are very straightforward, but you. Can generate them all. You can generate missing ones and then. You can save them. And then the app is what people would experience. I'll go to the app. Oh, oops. Workflow save. I put in way too many things. And here's. Here's the app and then you can see my. Where's my new maintenance? Right here we can begin the workflow. And then here's that one image that I made. But if there's no image, it will. Make it on the fly. And so it will.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: It's two seconds. But it's the page rendering and the thing that takes the longest time is I'm actually creating these images. I got it when I constructed. I'm just like, I know that there's. Going to be latency and I know things are going to be whatever they are. And so I just built it such that. That's an engineering problem. So it's all in real time. And these are. Turn the audio off because I can hear it. Okay. So it's generating an image. There's no image for this step in the workflow. And so it's a. It's a workflow assistant where it gives you the instructions and then it gives you an image as to what you're supposed to be doing. And so this is a meditation workflow. And it's now talking to me. Bring your attention to your breathing, notice. Yada yada. And if I was to use Grok or something like that, then I would get. Or if I was to use other inference engines that are instantaneous, I would. Get the images, you know, within the same time frame as it talking to. Me, which would be acceptable, meaning that I could put a workflow into my system without any media, without any support, and it would build it on the fly. Wow. And so to get to that point, if I go back to this, there's. A bunch of workflows. Some of them are in the app, but I created an editor editor, and in the editor you can create your own workflows. So if I load this one up, this one's actually for aimqc. This is a. This is a report that they have. To actually fill out. And so it's entity, boil number, entry, seal number. These are all steps in terms of filling out a report. Routine maintenance on an oil rig. Ensure that you're wearing yada, yada, yada, yada, yada, yada. And so I can create these here in an automated way. I can paste any steps in here. Like step one, go to the post love. Step two, buy a stamp. Step three and we'll create the workflow. Or I can. This one was like, maybe it'll do all the work for me. And so like random oil and gas. So if I create a random oil and gas workflow, what will it do? It doesn't, it doesn't do a terrible job. It'll pick up something that's like routine oriented. Anyways, this was me seeing what I. Could like how much of this workflow I can automate. And to the point where you see. Over here I have PDF to workflow. So first it's a manual editor where. You create the steps. Second one is you can just put in a copy and paste your steps from instructional manual. Third one is I got a theme. The theme is safety. And here's one. Routine maintenance and safety of checking an oil rig. Right? Super vague, but it will then now I can save that workflow and it's saved. And if I go to here, you can see it's right here and now. That's not it. This one, there's no images for this one. You can see here. This is the workflow guide. Introduction, Begin. And then I can generate images. So what it does is it sends. Up the context of whatever the task is, then the step and then the instructions are the content and then it will generate an image. And so just in time, training, just in time. Inspection, just in time, anything, right? Like, so here, you know, whatever imagery. What it is, it's not the best. It's not, you know, there's not a great prompt saying turn this into instructional. But also gets at the fact that. The stuff just makes up shit everywhere. And so it's kind of hilarious because. The instructions are very straightforward, but you. Can generate them all. You can generate missing ones and then. You can save them. And then the app is what people would experience. I'll go to the app. Oh, oops. Workflow save. I put in way too many things. And here's. Here's the app and then you can see my. Where's my new maintenance? Right here we can begin the workflow. And then here's that one image that I made. But if there's no image, it will. Make it on the fly. And so it will.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  text: And so to get to that point, if I go back to this, there's. A bunch of workflows. Some of them are in the app, but I created an editor editor, and in the editor you can create your own workflows. So if I load this one up, this one's actually for aimqc. This is a. This is a report that they have. To actually fill out. And so it's entity, boil number, entry, seal number. These are all steps in terms of filling out a report. Routine maintenance on an oil rig. Ensure that you're wearing yada, yada, yada, yada, yada, yada. And so I can create these here in an automated way. I can paste any steps in here. Like step one, go to the post love. Step two, buy a stamp. Step three and we'll create the workflow. Or I can. This one was like, maybe it'll do all the work for me. And so like random oil and gas. So if I create a random oil and gas workflow, what will it do? It doesn't, it doesn't do a terrible job. It'll pick up something that's like routine oriented. Anyways, this was me seeing what I. Could like how much of this workflow I can automate. And to the point where you see. Over here I have PDF to workflow. So first it's a manual editor where. You create the steps. Second one is you can just put in a copy and paste your steps from instructional manual. Third one is I got a theme. The theme is safety. And here's one. Routine maintenance and safety of checking an oil rig. Right? Super vague, but it will then now I can save that workflow and it's saved. And if I go to here, you can see it's right here and now. That's not it. This one, there's no images for this one. You can see here. This is the workflow guide. Introduction, Begin. And then I can generate images. So what it does is it sends. Up the context of whatever the task is, then the step and then the instructions are the content and then it will generate an image. And so just in time, training, just in time. Inspection, just in time, anything, right? Like, so here, you know, whatever imagery. What it is, it's not the best. It's not, you know, there's not a great prompt saying turn this into instructional. But also gets at the fact that. The stuff just makes up shit everywhere. And so it's kind of hilarious because. The instructions are very straightforward, but you. Can generate them all. You can generate missing ones and then. You can save them. And then the app is what people would experience. I'll go to the app. Oh, oops. Workflow save. I put in way too many things. And here's. Here's the app and then you can see my. Where's my new maintenance? Right here we can begin the workflow. And then here's that one image that I made. But if there's no image, it will. Make it on the fly. And so it will. Amazing. It will actually create its own supporting media. So this is, this is actually a. Really good workflow for training for building voice assistants because you can just. In the editor, you can set up different types of workflows. So the PDF workflow is. It converts the forms, this form into which tab was it? Oh God.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  - u35
+  text: 'And so to get to that point, if I go back to this, there''s. A bunch of workflows. Some of them are in the app, but I created an editor editor, and in the editor you can create your own workflows. So if I load this one up, this one''s actually for aimqc. This is a. This is a report that they have. To actually fill out. And so it''s entity, boil number, entry, seal number. These are all steps in terms of filling out a report. Routine maintenance on an oil rig. Ensure that you''re wearing yada, yada, yada, yada, yada, yada. And so I can create these here in an automated way. I can paste any steps in here. Like step one, go to the post love. Step two, buy a stamp. Step three and we''ll create the workflow. Or I can. This one was like, maybe it''ll do all the work for me. And so like random oil and gas. So if I create a random oil and gas workflow, what will it do? It doesn''t, it doesn''t do a terrible job. It''ll pick up something that''s like routine oriented. Anyways, this was me seeing what I. Could like how much of this workflow I can automate. And to the point where you see. Over here I have PDF to workflow. So first it''s a manual editor where. You create the steps. Second one is you can just put in a copy and paste your steps from instructional manual. Third one is I got a theme. The theme is safety. And here''s one. Routine maintenance and safety of checking an oil rig. Right? Super vague, but it will then now I can save that workflow and it''s saved. And if I go to here, you can see it''s right here and now. That''s not it. This one, there''s no images for this one. You can see here. This is the workflow guide. Introduction, Begin. And then I can generate images. So what it does is it sends. Up the context of whatever the task is, then the step and then the instructions are the content and then it will generate an image. And so just in time, training, just in time. Inspection, just in time, anything, right? Like, so here, you know, whatever imagery. What it is, it''s not the best. It''s not, you know, there''s not a great prompt saying turn this into instructional. But also gets at the fact that. The stuff just makes up shit everywhere. And so it''s kind of hilarious because. The instructions are very straightforward, but you. Can generate them all. You can generate missing ones and then. You can save them. And then the app is what people would experience. I''ll go to the app. Oh, oops. Workflow save. I put in way too many things. And here''s. Here''s the app and then you can see my. Where''s my new maintenance? Right here we can begin the workflow. And then here''s that one image that I made. But if there''s no image, it will. Make it on the fly. And so it will. Amazing. It will actually create its own supporting media. So this is, this is actually a. Really good workflow for training for building voice assistants because you can just. In the editor, you can set up different types of workflows. So the PDF workflow is. It converts the forms, this form into which tab was it? Oh God. It breaks it out into form elements. And then it enables voice input. And so here''s the workflow that it. Would provide and then here''s the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It''s not working because I''m not activated. Because I''m talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I''m showing right here, they run the oil and gas industry. And it''s literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I''m involved with all two, three of them anyways. So that''s, that''s where that is interesting. Where you can then say, okay, if I don''t know what kind of inspection we''re doing, we''re doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it''s actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it''s not dolled up and it''s not cool, it''s not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here''S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I''ll just go through it in the app. It''s all live, so you can play with this. Where it''s interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it''s a narrated experience. So it''s going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I''m. Using, wasting money on. Take time. And so I''ve, I''VE worked with other, other models and you know, it''s a race that I''m not running. So I, I''m okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you''re using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my '
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u35
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u35
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u35
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod Look at that? Look at that. Like, watch the Nvidia kind of announcement yesterday. Both Kamloops. What? Sorry? With Kamloops. Kamloops? Yeah, Talis and Kamloops. Oh no. Nvidia. Nvidia is putting in an AI farm in, in Quebec and, and backing one up in Cameloops. Oh no, no. Like Nvidia's like product launch, like their new ships and they're just talking about like, sorry, I got these cats coming from trying to climb my leg. They're, you know, they're kind of describing this like new architecture and like they're, they're kind of new laying it out. And it was interesting because it was like decidedly like not on the edge. I mean like some of it for sure.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  text: It breaks it out into form elements. And then it enables voice input. And so here's the workflow that it. Would provide and then here's the fields that it would put in the workflow. And then I can just do voice input, which allows for the speech to. Text and go, hey, put a bunch of stuff in here. It's not working because I'm not activated. Because I'm talking to you guys. It says it was, but that allows for people to do then in the field inputting of forms by voice instead of having to type everything in. And so these forms that I'm showing right here, they run the oil and gas industry. And it's literally these PDFs not, not. Like a website that has all kinds. Of cool janky on it that broke. So now they use this, huh? Right. The largest industry in the world, energy, runs off of PDF printed documents. Second. Only to finance for the closest. I'm involved with all two, three of them anyways. So that's, that's where that is interesting. Where you can then say, okay, if I don't know what kind of inspection we're doing, we're doing electrical inspection. I got a new form. This is a new kind of place. I take a photo of the form. I can then upload the form. Actually, it's actually processed in the page. With JavaScript, I process the PDF page. In the PDF form in the page. I then create the workflow around collecting that information. Now the workflow that I have is it's not dolled up and it's not cool, it's not jammy, but I can save it. And now it will show up here. The report for the cast iron and. Here'S the workout breakout of it. And then I can then generate the images or supporting media for it. And I would have the workflow that I just showed you. I'll just go through it in the app. It's all live, so you can play with this. Where it's interesting is you can put anything in there, right? You put any kind of thing and it will create you a slideshow workflow and it's a narrated experience. So it's going to generate all my images for me on the fly, meaning that this was a real time engine for building out an experience and seeing what kind of inputs I could create on one side and then quickly create a workflow assistant. And the Dall E3 images that I'm. Using, wasting money on. Take time. And so I've, I'VE worked with other, other models and you know, it's a race that I'm not running. So I, I'm okay with that weight improving the concept. I could attach stability and I would get faster and I could, you know, I could attach other engines like Groq and I would get even faster. Just gets way more jangy. Underneath you got five LLMs you're using for specific types of work. And in this case I am using different types of LLMs. Within OpenAI. One of the things that this assistant. Uses is, I mentioned earlier is just the in browser tech protective speech and does a great job, but the, the, the voice assistance. So the real time API that you can invoke with OpenAI and use that. Assistant, I finally got one working with. My own code, not my code, OpenAI's cod Look at that? Look at that. Like, watch the Nvidia kind of announcement yesterday. Both Kamloops. What? Sorry? With Kamloops. Kamloops? Yeah, Talis and Kamloops. Oh no. Nvidia. Nvidia is putting in an AI farm in, in Quebec and, and backing one up in Cameloops. Oh no, no. Like Nvidia's like product launch, like their new ships and they're just talking about like, sorry, I got these cats coming from trying to climb my leg. They're, you know, they're kind of describing this like new architecture and like they're, they're kind of new laying it out. And it was interesting because it was like decidedly like not on the edge. I mean like some of it for sure. But you mean like digits? Are you talking about digits? Oh, digits. Yeah, sort of. Nvidia has let me. Sorry guys, let me first mute and then see what. That's nothing. Gidgets is Nvidia's sort of like AI box for you, right? Like your personal AI box. And it's, it's talking about the new chip architectures. Is the ship architectures from yesterday or like what is it? I'm trying to remember you guys. I should have thought about it a little bit more before I brought it. Up, but I'll probably not mention it. I did see the digits thing and that's basically, you know, that is like. Your own, your own AI processor, you know, high powered so that you can have that localized machine learning or AI right with you. I saw that that's coming with, with. Some small form factor like in a. Like a Mac Mini. It looked like. That's the news that I saw.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  text: I should have thought about it a little bit more before I brought it. Up, but I'll probably not mention it. I did see the digits thing and that's basically, you know, that is like. Your own, your own AI processor, you know, high powered so that you can have that localized machine learning or AI right with you. I saw that that's coming with, with. Some small form factor like in a. Like a Mac Mini. It looked like. That's the news that I saw. Well, they renamed the digits architecture to DGX because they're just so good at naming. Right? But yeah, I mean I have to tell you, I. It's interesting every, there's so much going on like every day you can go out and you can find like new company. AMD is doing a lot of stuff lately because they have this new rise in AI Max architecture. Again, naming convention is driving people mad because it doesn't mean anything really. But I mean, it's funny, I don't. They're not really in my opinion doing nobody's really in my opinion doing anything really revolutionary. They're just, you know, they're scaling right, like more memory access, more cores and all the rest. I actually haven't heard anything on the hardware side that's really new and revolutionary. And so much of this stuff you can't even like. It's all just speculative anyway. They're announcing now for when it will come out, you know, for so many quarters ahead kind of thing. And inevitably when you get there the benchmark tests that people do are more relevant than anything else. I actually think the biggest gains are, aren't even going to come from hardware anyway. They're going to come from software optimizations. I really do, I really believe that it seems that way. Most of these architecture have like an enormous amount of actual processor.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u48
+  - u49
+  - u50
+  text: But yeah, I mean I have to tell you, I. It's interesting every, there's so much going on like every day you can go out and you can find like new company. AMD is doing a lot of stuff lately because they have this new rise in AI Max architecture. Again, naming convention is driving people mad because it doesn't mean anything really. But I mean, it's funny, I don't. They're not really in my opinion doing nobody's really in my opinion doing anything really revolutionary. They're just, you know, they're scaling right, like more memory access, more cores and all the rest. I actually haven't heard anything on the hardware side that's really new and revolutionary. And so much of this stuff you can't even like. It's all just speculative anyway. They're announcing now for when it will come out, you know, for so many quarters ahead kind of thing. And inevitably when you get there the benchmark tests that people do are more relevant than anything else. I actually think the biggest gains are, aren't even going to come from hardware anyway. They're going to come from software optimizations. I really do, I really believe that it seems that way. Most of these architecture have like an enormous amount of actual processor. I read something this morning that was similarly or yesterday similarly toned in that the MAD race is mad. And it's like the way that they're. Scaling is like everybody knows it's a. Wall and you know, somebody will traverse. It but not in the way that they're spending the billions. So but this is the same thing that happens in these hype cycles. It's like it's, it's, it's fair leading. I think this is my third or fourth one. And so like yeah, they do. People spend their own billions at the same thing and then they race each other and then at the end of. It it's not what they thought. So yeah, in particular because like the, the current, the current. When I say architecture I don't probably mean what Jason's saying. I mean like architecture as in like the basic technology, right? Like silicon and copper. Right. The whole chip making process. None of them are innovating that, none of them are innovating like you know, the TSMC manufacturing facilities that make these things. So these next, these next generation chips are not going to be like, you know, made out of graphene and boron nitride the way they should be in the sense that like that's where the real leaps in technology are going to come from, right? Because like you know, moving but that requires like abandoning you know, billions and billions of dollars of infrastructure to go to these next generation chips which, which that's exciting because like those chips are like we're talking about you know, 10x to 100x performance, you know, in one jump.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: So yeah, in particular because like the, the current, the current. When I say architecture I don't probably mean what Jason's saying. I mean like architecture as in like the basic technology, right? Like silicon and copper. Right. The whole chip making process. None of them are innovating that, none of them are innovating like you know, the TSMC manufacturing facilities that make these things. So these next, these next generation chips are not going to be like, you know, made out of graphene and boron nitride the way they should be in the sense that like that's where the real leaps in technology are going to come from, right? Because like you know, moving but that requires like abandoning you know, billions and billions of dollars of infrastructure to go to these next generation chips which, which that's exciting because like those chips are like we're talking about you know, 10x to 100x performance, you know, in one jump. Right? Because things, because there's no real resistance on chip and there's no real heat and the, there's no real, you know, all that kind of stuff but you know, that stuff that's not. I don't. That's not. That's stuff that's being done in universities to prove before they can build the new proof of concept, production pipelines, never mind actual chips. And what's really going to happen, in my opinion, is these, these chips that are around. Right. Like regardless of who they're from, Nvidia, intel, amd, whatever. Right. And there are a bunch of other fringe producers, although it seems like they're all being made at the same facility in Taiwan, which is hilarious. They're going to come down in price because they're going to come down in price and people are just going to like Lego, block them together and get more performance by. By doing that. And like I said, the real performance, real performance jumps are going to come from software architecture innovations that are like, you know, that really have not been. Like, we haven't seen those. Like when we see. They're amazing. And I think I just haven't seen a lot of. But we've seen a couple of them. I don't think I'm connected in any way.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  text: 'Because things, because there''s no real resistance on chip and there''s no real heat and the, there''s no real, you know, all that kind of stuff but you know, that stuff that''s not. I don''t. That''s not. That''s stuff that''s being done in universities to prove before they can build the new proof of concept, production pipelines, never mind actual chips. And what''s really going to happen, in my opinion, is these, these chips that are around. Right. Like regardless of who they''re from, Nvidia, intel, amd, whatever. Right. And there are a bunch of other fringe producers, although it seems like they''re all being made at the same facility in Taiwan, which is hilarious. They''re going to come down in price because they''re going to come down in price and people are just going to like Lego, block them together and get more performance by. By doing that. And like I said, the real performance, real performance jumps are going to come from software architecture innovations that are like, you know, that really have not been. Like, we haven''t seen those. Like when we see. They''re amazing. And I think I just haven''t seen a lot of. But we''ve seen a couple of them. I don''t think I''m connected in any way. Yeah, you are. Can you hear me? Sorry. I keep getting flashes on my screen that my Internet is paused due to connection problems. So I don''t know what''s going on. I''m multitasking. That''s what Neef''s looking at, I think. Cool. What you''re. I just looked it up too. Yeah. So to your point, that''s why I brought this up. It''s like we move in the other direction where we sit on top of. The algorithms and on top of the. Technology, on top of the tech. And it certainly gives us the whammy. And the throw around. And you know, 3.7 has been around. Sonnet 3.7 has been around for a little while. So there''s different talk around it from. The programmers and it''s interesting to hear. Hear them talk about what it means and how nuanced some of this stuff gets. And then Jason points to lovable.dev and. Basically I''m hoping it takes away a good 80% of my debugging. Welcome to my version of programming. This is what actually I do, but it''s more, I would call it sophisticated. Because I''m doing a bunch of things at once. But it''s not any different. It''s like giving it direction and then hoping it makes some of the faithful leaps that I know it can. And the more that I document, the more that I know it''s not making the wrong leaps. But what people have been saying is like the Models if they don''t know how to solve the problem, if you. Haven''T set up the good context for it, meaning here''s how I would like. You to think about things. And it keeps trying to solve problem. It''ll solve it really differently now. It will undo your work. It will unravel your work and make a mess of it. And I can feel it. I''ve felt it in the past. I''m like, oh man. Yeah. And I''m like, and. But people are like, okay, I''m. I took a heartbeat and I read some articles and it was their experience too. It was like, yeah, you. If you. If it. If it does too much, if it''s thinking too hard, it''s probably gonna be wrong. But what they are good at now. Is if first three, seven especially and. Inside cursor you can. They''ve got something called Claude Max or Max Claude or whatever. I don''t know something Max mode where you pay per. You''re paying a premium to use their models on top of models. So they didn''t describe it well, but. They''Ve got some different infrastructure with their agents doing different things on top of cloud to create much more rigorous code and to make it to use the whole of the 200k context window, which is basically an application. And so that''s what it''s saying is like if you do a good documentation up front and you have that set up up front and you use this. Mode, it''ll cost you 10 bucks probably. To build an app, but it will. Go on it for like 200, 200. Tool searchings and uses and then you can keep going with it. So it''s an expensive mode on top of their $20 a month. But if you''re doing like a massive. Retooling or a massive starting out of. A project, this mode apparently will set it up based on how. How good 3.7 is at that kind of work and the fact that the context window is larger and they''re just figuring out how to take advantage of it. This is pretty damn column common. We got unsuccessful build try to fix that''s a button that''s inside cloud as well. It''s building react apps. And so they''re not web pages, they''re components. And '
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u59
+  text: 'Yeah. So to your point, that''s why I brought this up. It''s like we move in the other direction where we sit on top of. The algorithms and on top of the. Technology, on top of the tech. And it certainly gives us the whammy. And the throw around. And you know, 3.7 has been around. Sonnet 3.7 has been around for a little while. So there''s different talk around it from. The programmers and it''s interesting to hear. Hear them talk about what it means and how nuanced some of this stuff gets. And then Jason points to lovable.dev and. Basically I''m hoping it takes away a good 80% of my debugging. Welcome to my version of programming. This is what actually I do, but it''s more, I would call it sophisticated. Because I''m doing a bunch of things at once. But it''s not any different. It''s like giving it direction and then hoping it makes some of the faithful leaps that I know it can. And the more that I document, the more that I know it''s not making the wrong leaps. But what people have been saying is like the Models if they don''t know how to solve the problem, if you. Haven''T set up the good context for it, meaning here''s how I would like. You to think about things. And it keeps trying to solve problem. It''ll solve it really differently now. It will undo your work. It will unravel your work and make a mess of it. And I can feel it. I''ve felt it in the past. I''m like, oh man. Yeah. And I''m like, and. But people are like, okay, I''m. I took a heartbeat and I read some articles and it was their experience too. It was like, yeah, you. If you. If it. If it does too much, if it''s thinking too hard, it''s probably gonna be wrong. But what they are good at now. Is if first three, seven especially and. Inside cursor you can. They''ve got something called Claude Max or Max Claude or whatever. I don''t know something Max mode where you pay per. You''re paying a premium to use their models on top of models. So they didn''t describe it well, but. They''Ve got some different infrastructure with their agents doing different things on top of cloud to create much more rigorous code and to make it to use the whole of the 200k context window, which is basically an application. And so that''s what it''s saying is like if you do a good documentation up front and you have that set up up front and you use this. Mode, it''ll cost you 10 bucks probably. To build an app, but it will. Go on it for like 200, 200. Tool searchings and uses and then you can keep going with it. So it''s an expensive mode on top of their $20 a month. But if you''re doing like a massive. Retooling or a massive starting out of. A project, this mode apparently will set it up based on how. How good 3.7 is at that kind of work and the fact that the context window is larger and they''re just figuring out how to take advantage of it. This is pretty damn column common. We got unsuccessful build try to fix that''s a button that''s inside cloud as well. It''s building react apps. And so they''re not web pages, they''re components. And '
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u59
+  text: 'Yeah. So to your point, that''s why I brought this up. It''s like we move in the other direction where we sit on top of. The algorithms and on top of the. Technology, on top of the tech. And it certainly gives us the whammy. And the throw around. And you know, 3.7 has been around. Sonnet 3.7 has been around for a little while. So there''s different talk around it from. The programmers and it''s interesting to hear. Hear them talk about what it means and how nuanced some of this stuff gets. And then Jason points to lovable.dev and. Basically I''m hoping it takes away a good 80% of my debugging. Welcome to my version of programming. This is what actually I do, but it''s more, I would call it sophisticated. Because I''m doing a bunch of things at once. But it''s not any different. It''s like giving it direction and then hoping it makes some of the faithful leaps that I know it can. And the more that I document, the more that I know it''s not making the wrong leaps. But what people have been saying is like the Models if they don''t know how to solve the problem, if you. Haven''T set up the good context for it, meaning here''s how I would like. You to think about things. And it keeps trying to solve problem. It''ll solve it really differently now. It will undo your work. It will unravel your work and make a mess of it. And I can feel it. I''ve felt it in the past. I''m like, oh man. Yeah. And I''m like, and. But people are like, okay, I''m. I took a heartbeat and I read some articles and it was their experience too. It was like, yeah, you. If you. If it. If it does too much, if it''s thinking too hard, it''s probably gonna be wrong. But what they are good at now. Is if first three, seven especially and. Inside cursor you can. They''ve got something called Claude Max or Max Claude or whatever. I don''t know something Max mode where you pay per. You''re paying a premium to use their models on top of models. So they didn''t describe it well, but. They''Ve got some different infrastructure with their agents doing different things on top of cloud to create much more rigorous code and to make it to use the whole of the 200k context window, which is basically an application. And so that''s what it''s saying is like if you do a good documentation up front and you have that set up up front and you use this. Mode, it''ll cost you 10 bucks probably. To build an app, but it will. Go on it for like 200, 200. Tool searchings and uses and then you can keep going with it. So it''s an expensive mode on top of their $20 a month. But if you''re doing like a massive. Retooling or a massive starting out of. A project, this mode apparently will set it up based on how. How good 3.7 is at that kind of work and the fact that the context window is larger and they''re just figuring out how to take advantage of it. This is pretty damn column common. We got unsuccessful build try to fix that''s a button that''s inside cloud as well. It''s building react apps. And so they''re not web pages, they''re components. And '
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  text: Yeah. So to your point, that's why I brought this up. It's like we move in the other direction where we sit on top of. The algorithms and on top of the. Technology, on top of the tech. And it certainly gives us the whammy. And the throw around. And you know, 3.7 has been around. Sonnet 3.7 has been around for a little while. So there's different talk around it from. The programmers and it's interesting to hear. Hear them talk about what it means and how nuanced some of this stuff gets. And then Jason points to lovable.dev and. Basically I'm hoping it takes away a good 80% of my debugging. Welcome to my version of programming. This is what actually I do, but it's more, I would call it sophisticated. Because I'm doing a bunch of things at once. But it's not any different. It's like giving it direction and then hoping it makes some of the faithful leaps that I know it can. And the more that I document, the more that I know it's not making the wrong leaps. But what people have been saying is like the Models if they don't know how to solve the problem, if you. Haven'T set up the good context for it, meaning here's how I would like. You to think about things. And it keeps trying to solve problem. It'll solve it really differently now. It will undo your work. It will unravel your work and make a mess of it. And I can feel it. I've felt it in the past. I'm like, oh man. Yeah. And I'm like, and. But people are like, okay, I'm. I took a heartbeat and I read some articles and it was their experience too. It was like, yeah, you. If you. If it. If it does too much, if it's thinking too hard, it's probably gonna be wrong. But what they are good at now. Is if first three, seven especially and. Inside cursor you can. They've got something called Claude Max or Max Claude or whatever. I don't know something Max mode where you pay per. You're paying a premium to use their models on top of models. So they didn't describe it well, but. They'Ve got some different infrastructure with their agents doing different things on top of cloud to create much more rigorous code and to make it to use the whole of the 200k context window, which is basically an application. And so that's what it's saying is like if you do a good documentation up front and you have that set up up front and you use this. Mode, it'll cost you 10 bucks probably. To build an app, but it will. Go on it for like 200, 200. Tool searchings and uses and then you can keep going with it. So it's an expensive mode on top of their $20 a month. But if you're doing like a massive. Retooling or a massive starting out of. A project, this mode apparently will set it up based on how. How good 3.7 is at that kind of work and the fact that the context window is larger and they're just figuring out how to take advantage of it. This is pretty damn column common. We got unsuccessful build try to fix that's a button that's inside cloud as well. It's building react apps. And so they're not web pages, they're components. And  What do you mean? Pretty pithy. Yes. So I think that's. That's what I'll get paid for in the future. I could have prompts. Yeah. So he'll be like, okay, what does that mean? I don't know. But watch this, man. It's gonna take a time and it's gonna give us something. Because those words are just crazy. But that is, that is the kind of thing. I don't know at this point. I didn't give it enough guardrails to understand how to guide it. But I fixed this error. Try to fix it. I'm just learning how to do this right now. But it does look like. And so it's got super base. Okay, here's what it said. So from my appreciation, I think we're supposed to be able to.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  text: Yeah. So he'll be like, okay, what does that mean? I don't know. But watch this, man. It's gonna take a time and it's gonna give us something. Because those words are just crazy. But that is, that is the kind of thing. I don't know at this point. I didn't give it enough guardrails to understand how to guide it. But I fixed this error. Try to fix it. I'm just learning how to do this right now. But it does look like. And so it's got super base. Okay, here's what it said. So from my appreciation, I think we're supposed to be able to. Well. Let'S. What's that one do? Cool. It's got the. A doodle. Man, look at this thing. Holy crap. Okay. Yeah, so it'll put in. It'll probably put in a lot of stuff that's going to be like placeholders, how it works. Let's. Let's see how it works. Because that's a curious one. Crap. I'm blown away. Right? Those words in your picture was something. But it's, it's. It's the pictures. Like, if you put enough direction around your pictures. Yeah. You can put a whole pathway. So that's why I was like, maybe I can grab like a. Grab a quick definition or like something. I was like me finding that right. Now is not going to work. But that would be the way to. Go, is like take one of your. Take some of your documentation. Give it a. Like. Or give it a use case workflow kind of thing. Yeah, yeah. I think like a user journey would be released. Yeah, they'll probably bang on. Right. Here's the user journey support.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  text: Right? Those words in your picture was something. But it's, it's. It's the pictures. Like, if you put enough direction around your pictures. Yeah. You can put a whole pathway. So that's why I was like, maybe I can grab like a. Grab a quick definition or like something. I was like me finding that right. Now is not going to work. But that would be the way to. Go, is like take one of your. Take some of your documentation. Give it a. Like. Or give it a use case workflow kind of thing. Yeah, yeah. I think like a user journey would be released. Yeah, they'll probably bang on. Right. Here's the user journey support. This is what happens. In other ones too. This is not anything new. It's using everything else. If you have a diagram and then you describe the components, that's really good too. So you have the whole thing but ABCD and then you A, B, C, D. It's a really good spec doc like on the fly. So let's go back to the memory stack thing. It'll put in filters like three. Yeah. So the neat thing about modern apps that are built with React and stuff like that, they have all this filtering. And all this search capabilities built into it. So you see if I put bench, it picks up the bench. And then. If I want to go. Going walking. Yeah, going to walk. It picks up that. And so you can do without any function. Additional functionality. You get a lot of bonus work inside React. It is super bloated and complicated. So when it builds it for you that's great. But if you're, you know, if you're debugging it it can be, it can be onerous. And the. Let's see what it says. Memory profile. Yeah it's not going to have anything. All here but if we go back and we say like okay, make the. Oh, it showed up. Bust. Enable inputting of memories first. Welcome to AI programming.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  text: In other ones too. This is not anything new. It's using everything else. If you have a diagram and then you describe the components, that's really good too. So you have the whole thing but ABCD and then you A, B, C, D. It's a really good spec doc like on the fly. So let's go back to the memory stack thing. It'll put in filters like three. Yeah. So the neat thing about modern apps that are built with React and stuff like that, they have all this filtering. And all this search capabilities built into it. So you see if I put bench, it picks up the bench. And then. If I want to go. Going walking. Yeah, going to walk. It picks up that. And so you can do without any function. Additional functionality. You get a lot of bonus work inside React. It is super bloated and complicated. So when it builds it for you that's great. But if you're, you know, if you're debugging it it can be, it can be onerous. And the. Let's see what it says. Memory profile. Yeah it's not going to have anything. All here but if we go back and we say like okay, make the. Oh, it showed up. Bust. Enable inputting of memories first. Welcome to AI programming. Amazing. So I think it was showing code. Usually there's a way to show the code or show the app. Spinning up sandbox. What I quite love is actually seeing. The app while it's building. It's not as radical as it once. It was pretty fun when I first started. It does a lot less of the twitchiness but it's like. Yeah, it's gonna, it's gonna crank away at this. So I don't know Hanif. I think I would just like it's a Google account. Go to town in this. Go to town on it, man. You gotta adapt this stuff. You can create analysis engines quite easily. Right. Like the simulator stuff that I've built like if you, if you put in handful your parameters say build a simulator around this where I can affect these things that it allows me to do. I don't know something. Okay, so let's see what that inputs.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  text: Go to town on it, man. You gotta adapt this stuff. You can create analysis engines quite easily. Right. Like the simulator stuff that I've built like if you, if you put in handful your parameters say build a simulator around this where I can affect these things that it allows me to do. I don't know something. Okay, so let's see what that inputs. There we go. There you go. It's not there. So I was wondering about that. But it might be there when I go to the web page. Well I think what's interesting about it is that you can also build out the experience itself. Working with that's very different than the product. Yeah. So we used to be able like. In Figma and stuff you can make high fidelity walkthroughs we call them like. Click throughs and all that stuff. You can do much more with this. You can show the show it working in a. Not in a full like it has Supabase which allows you to have database. And all kinds of backend capabilities. So that's what it's using. It's using aws, it looks like, to. To launch all this shit. So it could be that you could. Create, you know, full login capabilities and database capabilities, like the safe stuff profiles and whatnot. Across the community, I could say like. Add index DB and dexi js.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  text: Yeah. So we used to be able like. In Figma and stuff you can make high fidelity walkthroughs we call them like. Click throughs and all that stuff. You can do much more with this. You can show the show it working in a. Not in a full like it has Supabase which allows you to have database. And all kinds of backend capabilities. So that's what it's using. It's using aws, it looks like, to. To launch all this shit. So it could be that you could. Create, you know, full login capabilities and database capabilities, like the safe stuff profiles and whatnot. Across the community, I could say like. Add index DB and dexi js. I'm just trying. So indexeddb is like the database underneath the browser and you can create any. Any number of them. That's what for me is like a great way to create a database for like using my stuff. It doesn't share. Right. Because it's in my browser. But it's still like if you're doing videos and demos or you're enabling somebody to do research and build their own, it works. Right. It really puts it in their own sandbox too. It's like you create this. It's like it's yours, no one else. So it can have its benefits. And when I'm doing the market research, it's a benefit. It's like, no, it's actually completely portable. There's no issues with where it's stored. But rarely does it come up as a huge benefit. It's just a. An easy way of things. Yeah. Okay. It says it'll do it, so. I'd. Give this a go, man. Yeah. Interesting. It's when I was talking to Jason Krisky, he was. He built something with it over the weekend. Looks super cool too. But he said it doesn't quite work. But he built it using this and he says it's replit. So it's a. It's built on top of another IDE or whole. Like it's not just an id, it's. A whole environment for building applications.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: Give this a go, man. Yeah. Interesting. It's when I was talking to Jason Krisky, he was. He built something with it over the weekend. Looks super cool too. But he said it doesn't quite work. But he built it using this and he says it's replit. So it's a. It's built on top of another IDE or whole. Like it's not just an id, it's. A whole environment for building applications. Wow. And so this is a. This is like the chat version of it. Just like simple it down make it. So people just talk to it. They don't have to. They don't have to do the under tooling. But you can also do that. You can also do that. Like I got more direct with it. Right. It's like put this kind of tech in it. Meanwhile you can say I want it. To store this information this way and. Then it'll figure itself out is usually how it works. Let's see. New memory. Oh, I hit refresh. Oh, okay. It's gonna take forever. Yeah. I don't think it's going build unsuccessful save memory. It shows up. Yeah. It hasn't been added to your stack, but if I go anywhere else. Oh, it did great. So, yeah. It's now got its database in the background saving now, so that's cool. There's problems with it, but. Again, you. Got to fix it button. Why not use it? Well, maybe the way to do this for me is to play with it from an experiential place. You know what would be interesting or not?
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  text: I don't think it's going build unsuccessful save memory. It shows up. Yeah. It hasn't been added to your stack, but if I go anywhere else. Oh, it did great. So, yeah. It's now got its database in the background saving now, so that's cool. There's problems with it, but. Again, you. Got to fix it button. Why not use it? Well, maybe the way to do this for me is to play with it from an experiential place. You know what would be interesting or not? And I would even be like, I would have. I would go about it with conjecture too. Yeah. How would you build this? Like. Or you know. You know, given that this is the situation, build this to support it. You know, like, I, I like that kind of thing. Given this. I can see, I can see you're wandering down the road here. Yeah. So given that this is the project and that I would like the community to have this kind of interaction, build an app to support that. It's kind of what I did, but it was really small. Yeah. I think you could give it some bigger parameters to include personality testing. You saw what it did, right? It picked one thing. And so my experience with it, you. Can, you can be. You can give it the whole thing and it'll frame it all out. And then you have to drive it, complete it. Or you start with, okay, this is the overall project. Do this part first. And then you like, oh, and guess what? Everything's throw away ball. Yeah, I guess that's. Hey, so start again. Yeah, these are the best rules. I'm like, don't. Hey, don't the rules. Just let them explore, man. Yeah, to be efficient is. Is not a problem with this stuff. Because if it doesn't work, you can. Just say, build a specification of this. Application so I can build a new. Like, you can say just that and it will build a specification. And then you can just say, start a new session. Use this specification so you can get into trouble. And then you can throw it all away. And you wouldn't be starting from zero, you'd be starting from where you were.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  text: You saw what it did, right? It picked one thing. And so my experience with it, you. Can, you can be. You can give it the whole thing and it'll frame it all out. And then you have to drive it, complete it. Or you start with, okay, this is the overall project. Do this part first. And then you like, oh, and guess what? Everything's throw away ball. Yeah, I guess that's. Hey, so start again. Yeah, these are the best rules. I'm like, don't. Hey, don't the rules. Just let them explore, man. Yeah, to be efficient is. Is not a problem with this stuff. Because if it doesn't work, you can. Just say, build a specification of this. Application so I can build a new. Like, you can say just that and it will build a specification. And then you can just say, start a new session. Use this specification so you can get into trouble. And then you can throw it all away. And you wouldn't be starting from zero, you'd be starting from where you were. Still extract the. You can still extract all of the good work. And so I get into like all of my apps. They all get it to a place where I won't go any farther with them right until I start again. And that's a pattern that isn't just mine. And you know, we talked about it yesterday with Travis in the room too. Is that saving the state of the application? And read me some sort. It's like, okay, document this application, whatever. And so that at least there's an application, a document that isn't the application that you can then bring into another, like lovable, Claude, whatever else. And it's Your IP is the. Basically the prompt to build it is what you get. Well, you know, we did a. One of the forays we did was kind of multimedia piece. So that was more segmented and you had modules, you know, so yeah, like you had here. Each one had a little interactive and a little. It was a little, you know, multimedia piece that was the actual result. So it could be an interesting way to do it.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: You can still extract all of the good work. And so I get into like all of my apps. They all get it to a place where I won't go any farther with them right until I start again. And that's a pattern that isn't just mine. And you know, we talked about it yesterday with Travis in the room too. Is that saving the state of the application? And read me some sort. It's like, okay, document this application, whatever. And so that at least there's an application, a document that isn't the application that you can then bring into another, like lovable, Claude, whatever else. And it's Your IP is the. Basically the prompt to build it is what you get. Well, you know, we did a. One of the forays we did was kind of multimedia piece. So that was more segmented and you had modules, you know, so yeah, like you had here. Each one had a little interactive and a little. It was a little, you know, multimedia piece that was the actual result. So it could be an interesting way to do it. This. This is my. This is my formula right now, right. For absolutely, absolutely everything as setting a. Context, having some input of information, piece of it, anything. And then figuring out how to put. That vector of intention as. As the query. And that is. That is the job. In a year, the rest from now till then, it's building applications. But it is this thing of okay, how do we set. That's why I have this notion of strategic streaming context that might play out for us on some of my projects. But it's just like how do I. Apply context if I need it? Right, right. So and you can say that's a person. You can say the person adds context or the person needs context and then you can say okay, what's their input? Are they going to fill out a form or do. Then what's the intention of anything going on? The inner self is a really good. One for all three of them. Anyways. Well, I will check out lovable.dev oh. Hey, let me see if I can share this with you. That would be. Oh yeah, that would be cool.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  text: This. This is my. This is my formula right now, right. For absolutely, absolutely everything as setting a. Context, having some input of information, piece of it, anything. And then figuring out how to put. That vector of intention as. As the query. And that is. That is the job. In a year, the rest from now till then, it's building applications. But it is this thing of okay, how do we set. That's why I have this notion of strategic streaming context that might play out for us on some of my projects. But it's just like how do I. Apply context if I need it? Right, right. So and you can say that's a person. You can say the person adds context or the person needs context and then you can say okay, what's their input? Are they going to fill out a form or do. Then what's the intention of anything going on? The inner self is a really good. One for all three of them. Anyways. Well, I will check out lovable.dev oh. Hey, let me see if I can share this with you. That would be. Oh yeah, that would be cool. Anyone can view and remix public project. I'm gonna give you this in the chat here. Right. And that's what it is. Nice. Oh yeah. So, okay, so this is. This does. I figured out how to not to do these things, but it's hooked up. It has a repository on GitHub. It allows you to publish on AWS and it's. And if you want a database underneath. It, it's got Supabase. So it allows you to scale from this too. So it does all the good crappy stuff that no one wants to do. Actually, I shouldn't say that it's the. The most fundamental stuff getting things out there. But if for prototyping, whatever else that gets in the way of things in a big way. So hopefully that link worked no matter what. You can ping me and I can figure out how to do something more. Yeah, yeah, yeah. I'll set up an account there. Go and see what it is. My projects. Right. This is the interface now. This is the new. The new window. All right. So it's showing up the inner man I think that's just so crazy. Like two sentences and I didn't even study your photo. Like to point it. Use this text here. And didn't do any of that stuff. So I want to. I want to try it. Not with the MQCs up, but with some of the other things that I'm doing to. Because you just set it off on its own in a browser and then you can work somewhere else, you know.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  text: Yeah, yeah, yeah. I'll set up an account there. Go and see what it is. My projects. Right. This is the interface now. This is the new. The new window. All right. So it's showing up the inner man I think that's just so crazy. Like two sentences and I didn't even study your photo. Like to point it. Use this text here. And didn't do any of that stuff. So I want to. I want to try it. Not with the MQCs up, but with some of the other things that I'm doing to. Because you just set it off on its own in a browser and then you can work somewhere else, you know. Yeah. You could get it to do something simple for you. It's like. Okay. You know. Yeah. I'm also super interested in what you were showing me about the Google Talk in the browser that I. Oh, yeah. Yeah. It's interesting for Stone Maps, I think. Is it? Yeah. Yeah. The. Maybe I can stop presenting. Oh, Start. Also share audio. Chrome tab. Okay. Okay. This should share the audio. And so here are the settings. Can you hear. No. No. You didn't hear that? No. No, nothing. I'm hearing any. Nothing. It lied. It's not giving. You.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  text: Yeah. The. Maybe I can stop presenting. Oh, Start. Also share audio. Chrome tab. Okay. Okay. This should share the audio. And so here are the settings. Can you hear. No. No. You didn't hear that? No. No, nothing. I'm hearing any. Nothing. It lied. It's not giving. You. Just throw the link in. In the chat and I can poke around too. You're gonna. You're gonna need a key. Okay. Open. And when you arrive, it will have. It won't have. You'll have to input your name. You'll have to input your name and it will only have five examples that. Are hard coded in. And then you can create your own. But you'll arrive on a page and. Then you'll put your name in. You'll arrive here and then you'll see these five, I think. And these were the ones I created. And then down here is where you like. The DB viewer is just kind of my thing, but you can see all of the different workflows. But yeah, the editor is where you. Can have some fun. And I think this one is neat where you can give it a description. And you can say what kind of granularity you want. Right. In your audience. But. This is. This gives you the steps like I. Worked in Claud and give me this workflow steps for making something. And then I paste it in here. And then I was testing my system that way because manually creating them is super laborious.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  text: Open. And when you arrive, it will have. It won't have. You'll have to input your name. You'll have to input your name and it will only have five examples that. Are hard coded in. And then you can create your own. But you'll arrive on a page and. Then you'll put your name in. You'll arrive here and then you'll see these five, I think. And these were the ones I created. And then down here is where you like. The DB viewer is just kind of my thing, but you can see all of the different workflows. But yeah, the editor is where you. Can have some fun. And I think this one is neat where you can give it a description. And you can say what kind of granularity you want. Right. In your audience. But. This is. This gives you the steps like I. Worked in Claud and give me this workflow steps for making something. And then I paste it in here. And then I was testing my system that way because manually creating them is super laborious. Right. That's curious. Super interesting. I think there's. There's a mode somewhere in here. There's a couple modes somewhere in here. That are really cool. This is me just trying to explore what it means to. I. It didn't really work out that well. I want. I should just have like number of lines. Number of words. Yeah. For what I'm looking for. Because just being descriptive doesn't always Work. With an LLM, you know, like be detailed. It's like, yeah, I used two adjectives. I'm like, yeah, that's great. Like, that's not detailed, man. But I, I, I quite like this. One because like giving a cat a haircut. It's a private conversation. Yeah. You're like, I don't know, kind of detail I need on that one. But this would be the fun thing is you put it through here and then you generate the images, man. Yeah. And so I just, I haven't tried. To be fun with it, but if. You try to be fun with it, you find the guard rails on image generation. Of course. Because I. You just use some language around healthcare and wellness and all of a sudden that looks like sex. Yep. That's. I'm like, what? That's a thing unto itself. Those guys, the language was just, it. Was around healthy and doing some steps. I don't know. But it was like picked up on your what? I'm like, I'm not fixing that problem. Anyways, so it goes. Okay, this is a bit longer. Yeah. Giving me a haircut can be a daunting task. My thought was putting like, for the. Oil and gas is putting like a really good personality around this and making all the images just fucking janky and. Not work so they pay attention. But this is good until you can save the workflow again.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  text: Yeah. You're like, I don't know, kind of detail I need on that one. But this would be the fun thing is you put it through here and then you generate the images, man. Yeah. And so I just, I haven't tried. To be fun with it, but if. You try to be fun with it, you find the guard rails on image generation. Of course. Because I. You just use some language around healthcare and wellness and all of a sudden that looks like sex. Yep. That's. I'm like, what? That's a thing unto itself. Those guys, the language was just, it. Was around healthy and doing some steps. I don't know. But it was like picked up on your what? I'm like, I'm not fixing that problem. Anyways, so it goes. Okay, this is a bit longer. Yeah. Giving me a haircut can be a daunting task. My thought was putting like, for the. Oil and gas is putting like a really good personality around this and making all the images just fucking janky and. Not work so they pay attention. But this is good until you can save the workflow again. Right. It's not fast, but it shows up here, stupid emoji of its own. And then, you know, you can generate them. Here it says generate missing generate all. Add steps if you want, or generate. I am adding UI everywhere to see what makes sense. Or you could just go into the. App and it will generate them on the fly, which is super long. And. Oh, it's being okay with it. It's actually making it look like a. Reasonable thing you would do. Yeah. Well, that is amazing. I'm amazed. All of this. I thought this was a pretty cool tool. And then I did some work with it to document it. Like I was saying, like to. Why won't it let me show that. I'm trying to show. I documented what it. I documented what the app was in a bunch of markdown files and then added it, asked it to stop presenting. I want to present something else. This is what I was talking about. I built the app and it's kind of three pages and it. You gotta go to start in the middle and go back and forth. It's not the best. It's certainly. Yeah, but it had enough in it that I was like, okay, what could future innovations be. And I did some common ones and they're not that great, but augmented reality. Virtual reality training, which, okay, that's, that's one thing. But then I did a marketing document and asked it to come up with benefits industries, what it, you know, it comes up with fake shit all over the place. How it could work and then use case and workflow diagrams and then product document benefits, efficiency, what it does, target audiences, enterprise earnings, healthcare providers. Here we go. Look at that. It says quality control right there. Right. So if you want to validate your thinking, you can build more documentation around. What it thinks it is and has utility for. If you want to know if it makes sense, it's just like, okay, given the workflow, who would use it, you know? And so this is it. It's a shotgun. Right. Like approach of things. But the documents that I have, I even like the prompts were good, right. So. And I wanted to pull them out. And make them centralized because I'm, I built this a while back and so. I was like, okay, bring the prompts out. I should be doing this anyways. And so it gave me the prompts and then even gave me the code on how to do it and then how to store it. And so great documentation, like super good. Documentation that allows you to share. Bring in another guy like Travis, bring in another AI and then a tactical spec. It wasn't very big, so it's like there's not enough there. But it kind of get at things. I wanted user workflows, I don't know if I got there. Yeah, but if you, if you export everything as Markdown MD, then it renders pretty well. And the. All the LLMs really like it and it's compact and it doesn't have. You don't get to interpret it because it's just clear text. But so that's what these kind of files are. Instead of markup language HTML mark down. It'S marked down language md. And where HTML came from was a markdown language. In word processors you see these like. Square rocket B square bracket. And you put a word in and then you go square bracket, slash B square bracket. And that would make that word word bold. So that's how we got HTML. And so HTML is too lengthy. And so we have markdown. We've gone the other direction.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u160
+  - u161
+  - u162
+  text: Yeah. Well, that is amazing. I'm amazed. All of this. I thought this was a pretty cool tool. And then I did some work with it to document it. Like I was saying, like to. Why won't it let me show that. I'm trying to show. I documented what it. I documented what the app was in a bunch of markdown files and then added it, asked it to stop presenting. I want to present something else. This is what I was talking about. I built the app and it's kind of three pages and it. You gotta go to start in the middle and go back and forth. It's not the best. It's certainly. Yeah, but it had enough in it that I was like, okay, what could future innovations be. And I did some common ones and they're not that great, but augmented reality. Virtual reality training, which, okay, that's, that's one thing. But then I did a marketing document and asked it to come up with benefits industries, what it, you know, it comes up with fake shit all over the place. How it could work and then use case and workflow diagrams and then product document benefits, efficiency, what it does, target audiences, enterprise earnings, healthcare providers. Here we go. Look at that. It says quality control right there. Right. So if you want to validate your thinking, you can build more documentation around. What it thinks it is and has utility for. If you want to know if it makes sense, it's just like, okay, given the workflow, who would use it, you know? And so this is it. It's a shotgun. Right. Like approach of things. But the documents that I have, I even like the prompts were good, right. So. And I wanted to pull them out. And make them centralized because I'm, I built this a while back and so. I was like, okay, bring the prompts out. I should be doing this anyways. And so it gave me the prompts and then even gave me the code on how to do it and then how to store it. And so great documentation, like super good. Documentation that allows you to share. Bring in another guy like Travis, bring in another AI and then a tactical spec. It wasn't very big, so it's like there's not enough there. But it kind of get at things. I wanted user workflows, I don't know if I got there. Yeah, but if you, if you export everything as Markdown MD, then it renders pretty well. And the. All the LLMs really like it and it's compact and it doesn't have. You don't get to interpret it because it's just clear text. But so that's what these kind of files are. Instead of markup language HTML mark down. It'S marked down language md. And where HTML came from was a markdown language. In word processors you see these like. Square rocket B square bracket. And you put a word in and then you go square bracket, slash B square bracket. And that would make that word word bold. So that's how we got HTML. And so HTML is too lengthy. And so we have markdown. We've gone the other direction.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u162
+  text: Why won't it let me show that. I'm trying to show. I documented what it. I documented what the app was in a bunch of markdown files and then added it, asked it to stop presenting. I want to present something else. This is what I was talking about. I built the app and it's kind of three pages and it. You gotta go to start in the middle and go back and forth. It's not the best. It's certainly. Yeah, but it had enough in it that I was like, okay, what could future innovations be. And I did some common ones and they're not that great, but augmented reality. Virtual reality training, which, okay, that's, that's one thing. But then I did a marketing document and asked it to come up with benefits industries, what it, you know, it comes up with fake shit all over the place. How it could work and then use case and workflow diagrams and then product document benefits, efficiency, what it does, target audiences, enterprise earnings, healthcare providers. Here we go. Look at that. It says quality control right there. Right. So if you want to validate your thinking, you can build more documentation around. What it thinks it is and has utility for. If you want to know if it makes sense, it's just like, okay, given the workflow, who would use it, you know? And so this is it. It's a shotgun. Right. Like approach of things. But the documents that I have, I even like the prompts were good, right. So. And I wanted to pull them out. And make them centralized because I'm, I built this a while back and so. I was like, okay, bring the prompts out. I should be doing this anyways. And so it gave me the prompts and then even gave me the code on how to do it and then how to store it. And so great documentation, like super good. Documentation that allows you to share. Bring in another guy like Travis, bring in another AI and then a tactical spec. It wasn't very big, so it's like there's not enough there. But it kind of get at things. I wanted user workflows, I don't know if I got there. Yeah, but if you, if you export everything as Markdown MD, then it renders pretty well. And the. All the LLMs really like it and it's compact and it doesn't have. You don't get to interpret it because it's just clear text. But so that's what these kind of files are. Instead of markup language HTML mark down. It'S marked down language md. And where HTML came from was a markdown language. In word processors you see these like. Square rocket B square bracket. And you put a word in and then you go square bracket, slash B square bracket. And that would make that word word bold. So that's how we got HTML. And so HTML is too lengthy. And so we have markdown. We've gone the other direction.
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  text: Why won't it let me show that. I'm trying to show. I documented what it. I documented what the app was in a bunch of markdown files and then added it, asked it to stop presenting. I want to present something else. This is what I was talking about. I built the app and it's kind of three pages and it. You gotta go to start in the middle and go back and forth. It's not the best. It's certainly. Yeah, but it had enough in it that I was like, okay, what could future innovations be. And I did some common ones and they're not that great, but augmented reality. Virtual reality training, which, okay, that's, that's one thing. But then I did a marketing document and asked it to come up with benefits industries, what it, you know, it comes up with fake shit all over the place. How it could work and then use case and workflow diagrams and then product document benefits, efficiency, what it does, target audiences, enterprise earnings, healthcare providers. Here we go. Look at that. It says quality control right there. Right. So if you want to validate your thinking, you can build more documentation around. What it thinks it is and has utility for. If you want to know if it makes sense, it's just like, okay, given the workflow, who would use it, you know? And so this is it. It's a shotgun. Right. Like approach of things. But the documents that I have, I even like the prompts were good, right. So. And I wanted to pull them out. And make them centralized because I'm, I built this a while back and so. I was like, okay, bring the prompts out. I should be doing this anyways. And so it gave me the prompts and then even gave me the code on how to do it and then how to store it. And so great documentation, like super good. Documentation that allows you to share. Bring in another guy like Travis, bring in another AI and then a tactical spec. It wasn't very big, so it's like there's not enough there. But it kind of get at things. I wanted user workflows, I don't know if I got there. Yeah, but if you, if you export everything as Markdown MD, then it renders pretty well. And the. All the LLMs really like it and it's compact and it doesn't have. You don't get to interpret it because it's just clear text. But so that's what these kind of files are. Instead of markup language HTML mark down. It'S marked down language md. And where HTML came from was a markdown language. In word processors you see these like. Square rocket B square bracket. And you put a word in and then you go square bracket, slash B square bracket. And that would make that word word bold. So that's how we got HTML. And so HTML is too lengthy. And so we have markdown. We've gone the other direction. Back and forth. Too big, too small, too big. But, but it is pretty handy. I've been using it for 10 or 12 years now because it converts really well to HTML and to Word Docs and Google Bucks and Stuff but and now the LLMs. So these like I, you know, I would never write this kind of documentation. When I wrote documentation and I did it well, I was so proud of it. Nobody looks at it right but now it's functional. It's functional documentation. It will build new apps. Yeah. You know like the marketing thing, the marketing thing would build a website. And. So that's good to think like that. I, I can see how it provides the framework of. For you. Like you could build a micro website like a len. Like a one pager. So like okay, so now that we got this where it is, we want to have a marketing plan. Build a website for the landing page for people of interest now build a website that demonstrates it. You know, stuff that you would normally. Not want to do. Like I said, you, I need me.
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  text: But, but it is pretty handy. I've been using it for 10 or 12 years now because it converts really well to HTML and to Word Docs and Google Bucks and Stuff but and now the LLMs. So these like I, you know, I would never write this kind of documentation. When I wrote documentation and I did it well, I was so proud of it. Nobody looks at it right but now it's functional. It's functional documentation. It will build new apps. Yeah. You know like the marketing thing, the marketing thing would build a website. And. So that's good to think like that. I, I can see how it provides the framework of. For you. Like you could build a micro website like a len. Like a one pager. So like okay, so now that we got this where it is, we want to have a marketing plan. Build a website for the landing page for people of interest now build a website that demonstrates it. You know, stuff that you would normally. Not want to do. Like I said, you, I need me. Yeah. I've been reading a little bit, a little bit more about the rise of the solopreneur. Yeah yeah. This was, this is what it allows. That was basically what I said on LinkedIn was like if you can like. If you can get into the hand. If you get into tooling of lovable.dev. Or if you're have some programming experiences then very quickly it's just about the. Where your focus is. Yeah. So it requires more clarity around project concept and yeah yeah you get to. Get to, you get back to the. Like building it isn't enough. It's built with purpose now. And yes, purposing becomes more. Well either you go to the, you know, lots of rubbish, poorly thought out which is kind of where we go or you put some attention into the soft rationale about things. The experience of working with it right. Now can be one of those two experiences too. When you start with okay, I have a concept, I will rigor it out and, and we'll approach it that way. Or two I have an inkling I can follow it and the inkling can lead to garbage. But you will learn a lot from. The top down view. The what the opportunity is to have it help organize the top down view so that it is more organized for the app to be made. And so when you get around maybe.
+- id: W-0039
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  text: And yes, purposing becomes more. Well either you go to the, you know, lots of rubbish, poorly thought out which is kind of where we go or you put some attention into the soft rationale about things. The experience of working with it right. Now can be one of those two experiences too. When you start with okay, I have a concept, I will rigor it out and, and we'll approach it that way. Or two I have an inkling I can follow it and the inkling can lead to garbage. But you will learn a lot from. The top down view. The what the opportunity is to have it help organize the top down view so that it is more organized for the app to be made. And so when you get around maybe. I, I will spend a little time in ChatGPT just working on the concept a little. And yeah, with the new, with the. New models too that are quite crazy and worth trying because they spend a. Lot of time on, on very little context. And so if you give it some decent context then you use one of the new models you get like for the deep research you get Tangos I think or whatever just try with you. With the. Because they do do different things and at the conceptualizing phase, it makes sense. To use them and it will give. You, it will give you that garbage. But in that garbage, you're looking for a through line or something to anchor. And I found it's, it's the fastest. Way to collaborate with yourself. Yeah. Is to just open the dialogue and say, okay, yeah, sure. None of it needs to happen. Yeah, Yeah, I can see how that plays out. But that was pretty cool. The inner selfie website in five minutes. 22 minutes. Yeah, 22 seconds. Yeah, it's like, it was like. And you know, it doesn't look terrible. It doesn't look terrible. No, it looks convincing. That's like I say, convincing. Yeah, it's convincing. And, and I think does open up the consideration of the experience of creating the selfie, which is also important.
+- id: W-0040
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  text: Yeah, Yeah, I can see how that plays out. But that was pretty cool. The inner selfie website in five minutes. 22 minutes. Yeah, 22 seconds. Yeah, it's like, it was like. And you know, it doesn't look terrible. It doesn't look terrible. No, it looks convincing. That's like I say, convincing. Yeah, it's convincing. And, and I think does open up the consideration of the experience of creating the selfie, which is also important. Right. That's the thing. You can create these derivative experiences that are going to be small with this kind of thing. You're just like, I need to market this today. Back in the day, you'd have one go at things. You know, you would try it and you're like, put a lot of effort into it. And you're like, this has got to work. And your, you know, your job's online. Most likely things don't work. Right. They're like, oh, yeah. This is why never, you never get a second chance at things. Usually. Well, that's not the space anymore, especially for, for art and for prototyping. It's. You don't need to be holding to too much if, if you're not investing deeply. Yeah, true. Even if it's, even if it's convincing, it has, has high fidelity. Yeah. That's the part I'm like, it's good. No one's looking at it. I'm like, okay, whatever. Yeah. So I, I want to push that. That talk through survey thing or that talk through workflow thing out today to my team and then to LinkedIn. People won't use it, but I'll create a video of it because it points in the direction of where our stuff is going. But I found that, that, that video thing is a great way to communicate to most people. Yeah. They won't, they won't spend the time and effort to use anything. So I rewrite my posts with Claude for LinkedIn so that they, they're not. As me, you know, I like to. Talk like me and, and then I like, I haven't been doing it as much, but I'll provide videos. Yeah. And then if people Have a real interest, then I'll know because they'll ask me. Because they can't use anything without keys.
+- id: W-0041
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u194
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  - u200
+  - u201
+  - u202
+  - u203
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  text: So I, I want to push that. That talk through survey thing or that talk through workflow thing out today to my team and then to LinkedIn. People won't use it, but I'll create a video of it because it points in the direction of where our stuff is going. But I found that, that, that video thing is a great way to communicate to most people. Yeah. They won't, they won't spend the time and effort to use anything. So I rewrite my posts with Claude for LinkedIn so that they, they're not. As me, you know, I like to. Talk like me and, and then I like, I haven't been doing it as much, but I'll provide videos. Yeah. And then if people Have a real interest, then I'll know because they'll ask me. Because they can't use anything without keys. Yeah, exactly. Right. And I'm like. I'm not. Get. Like it. You go use this workflow thing. It'll cost a few bucks, right? Yeah, I'm fine with that. But if, say I get 200 impressions for. Yeah, I know. If you're getting a lot of. For. For a posting, easily get two impressions. 200 impressions times 2 bucks that you're supporting somebody else's. Yeah. As soon as people see you can generate images, they're gonna do all the. Stuff that, you know, people do at. Work when they're bored. They're going to create a workflow for the dog, and then they're going to start, you know, you know, metaphorically and literally. And then so I. I have to figure it out. And it seems like a middleware piece. Where I can afford like 5 goes at things or 5 tokens or something. And then people. I have to figure that front end. Up because the apps that I'm building, I want to publish most of them. Yeah. For experience, not for the video. But it would have been nice to. Have a whole lot of video of. Our work back in the 90s. Yeah. Yeah, for sure. Because it didn't. Didn't. It didn't. It didn't stand up. Yeah. It didn't translate into any kind of.
+- id: W-0042
+  t_start: 3690.0
+  t_end: 3768.97
+  utterance_ids:
+  - u203
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  - u209
+  - u210
+  - u211
+  - u212
+  - u213
+  - u214
+  - u215
+  - u216
+  - u217
+  - u218
+  - u219
+  text: For a posting, easily get two impressions. 200 impressions times 2 bucks that you're supporting somebody else's. Yeah. As soon as people see you can generate images, they're gonna do all the. Stuff that, you know, people do at. Work when they're bored. They're going to create a workflow for the dog, and then they're going to start, you know, you know, metaphorically and literally. And then so I. I have to figure it out. And it seems like a middleware piece. Where I can afford like 5 goes at things or 5 tokens or something. And then people. I have to figure that front end. Up because the apps that I'm building, I want to publish most of them. Yeah. For experience, not for the video. But it would have been nice to. Have a whole lot of video of. Our work back in the 90s. Yeah. Yeah, for sure. Because it didn't. Didn't. It didn't. It didn't stand up. Yeah. It didn't translate into any kind of. No, it's how you can't. I can make it work, man, but it's a cognitive break in who I. Am, and I have to spend a weekend on it. I have. I have a computer and the whole thing set up. And I kept two laptops so that. I could show things moving from that time frame. But just having videos about using our. Own stuff would have been great. Yeah. Yeah, I will. Thanks. To do, man. One more media. Yep. All right, man, I'm gonna get going. Thank you for that. Yeah. Good luck with your. Yeah, we'll be tomorrow. Yeah. Okay. Cool. Enlightening as always. Bye, angel.

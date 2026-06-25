@@ -1,0 +1,28 @@
+id: IDEA-0276
+slug: bypassing-safeguards-via-conditioning
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-05-27'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Fulvio shared an experience from penetration testing where they successfully bypassed LLM safety filters by altering the prompting strategy. By presenting assertions for the model to evaluate rather than directly requesting an action, Fulvio was able to circumvent safeguards that typically activate when asked to facilitate specific tasks. David noted that this conditioning technique effectively shifts the model's modality, compelling it to prioritize the user's authority and context.
+summary: Bypassing Safeguards via Conditioning
+rationale: Fulvio shared an experience from penetration testing where they successfully bypassed LLM safety filters by altering the prompting strategy. By presenting assertions for the model to evaluate rather than directly requesting an action, Fulvio was able to circumvent safeguards that typically activate when asked to facilitate specific tasks. David noted that this conditioning technique effectively sh
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:11Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 74.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 12.6
+  concretion: 13.0
+  uniqueness: 15
+  carryover: 0
+rank: 13
+tier: queue

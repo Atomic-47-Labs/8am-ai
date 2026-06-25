@@ -1,0 +1,28 @@
+id: IDEA-0028
+slug: agent-management-and-workflow-design
+phase: backlog
+track: light
+source:
+  meeting: '2026-01-21'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson described the ease of creating new agents by simply giving the LLM a format for the agent, placing a JSON file in a folder, and having it instantly accessible within the system.
+summary: Agent Management and Workflow Design
+rationale: David Olsson described the ease of creating new agents by simply giving the LLM a format for the agent, placing a JSON file in a folder, and having it instantly accessible within the system.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 49.5
+grade_breakdown:
+  evidence: 15.9
+  theme: 8.7
+  recency: 2.9
+  concretion: 7.0
+  uniqueness: 15
+  carryover: 0
+rank: 457
+tier: backlog

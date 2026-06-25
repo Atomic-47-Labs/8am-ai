@@ -1,0 +1,28 @@
+id: IDEA-0428
+slug: data-structure-language-challenges
+phase: backlog
+track: light
+source:
+  meeting: '2025-07-30'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'English as problematic storage medium: Natural language creates contextual leakage and inaccuracy compared to structured formats Token efficiency issues: English-based tokenizers are inefficient, with names like ''Fulvio'' requiring three tokens while ''James'' uses one Natural language to SQL translation: Valuable capability for database querying through conversational interface Knowledge graphs utility: More structured data representation reduces hallucination risks in agent systems'
+summary: Data Structure & Language Challenges
+rationale: 'English as problematic storage medium: Natural language creates contextual leakage and inaccuracy compared to structured formats Token efficiency issues: English-based tokenizers are inefficient, with names like ''Fulvio'' requiring three tokens while ''James'' uses one Natural language to SQL translation: Valuable capability for database querying through conversational interface Knowledge graphs util'
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 55.3
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 0.4
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 315
+tier: backlog

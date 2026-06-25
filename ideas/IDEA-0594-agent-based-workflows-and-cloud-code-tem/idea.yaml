@@ -1,0 +1,28 @@
+id: IDEA-0594
+slug: agent-based-workflows-and-cloud-code-tem
+phase: backlog
+track: light
+source:
+  meeting: '2025-10-08'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson detailed how different MCPs function within the LLM framework, supporting workflows and ideation. They mentioned the use of Cloud Code Templates, a project that allows agents to be placed in directories and markdown files, providing hooks for MCPs and supporting both command-line interface and UI.
+summary: Agent-based Workflows and Cloud Code Templates
+rationale: David Olsson detailed how different MCPs function within the LLM framework, supporting workflows and ideation. They mentioned the use of Cloud Code Templates, a project that allows agents to be placed in directories and markdown files, providing hooks for MCPs and supporting both command-line interface and UI.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 56.6
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.9
+  concretion: 7.0
+  uniqueness: 15
+  carryover: 0
+rank: 284
+tier: backlog

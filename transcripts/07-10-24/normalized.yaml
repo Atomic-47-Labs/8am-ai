@@ -1,0 +1,1155 @@
+meeting:
+  date: '2024-07-10'
+  title: 8am-AI 2024-07-10
+  participants:
+  - David Olsson
+  - Hanif Janmohamed
+  - Eric Johnson
+  duration_s: 3877.98
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 357.45
+  t_end: 357.99
+  text: It.
+- id: u2
+  speaker: David Olsson
+  t_start: 390.14
+  t_end: 395.676
+  text: Can you hear me? I can't. That's something weird going on here.
+- id: u3
+  speaker: Hanif Janmohamed
+  t_start: 395.868
+  t_end: 397.64
+  text: Well, that's nothing new.
+- id: u4
+  speaker: David Olsson
+  t_start: 398.46
+  t_end: 399.2
+  text: No.
+- id: u5
+  speaker: Hanif Janmohamed
+  t_start: 402.54
+  t_end: 403.8
+  text: I'll be right back.
+- id: u6
+  speaker: David Olsson
+  t_start: 404.22
+  t_end: 405.4
+  text: Oh, there we go.
+- id: u7
+  speaker: Hanif Janmohamed
+  t_start: 408.33
+  t_end: 409.07
+  text: It.
+- id: u8
+  speaker: Eric Johnson
+  t_start: 460.54
+  t_end: 464.6
+  text: Hani, where's your place again?
+- id: u9
+  speaker: Hanif Janmohamed
+  t_start: 465.26
+  t_end: 466.84
+  text: It's in Vancouver.
+- id: u10
+  speaker: Eric Johnson
+  t_start: 467.9
+  t_end: 468.62
+  text: Where?
+- id: u11
+  speaker: Hanif Janmohamed
+  t_start: 468.78
+  t_end: 471.24
+  text: 16Th and oak kind of thing.
+- id: u12
+  speaker: David Olsson
+  t_start: 471.82
+  t_end: 472.72
+  text: Okay.
+- id: u13
+  speaker: Eric Johnson
+  t_start: 473.3
+  t_end: 476.56
+  text: Have you been getting that funky sewage smell?
+- id: u14
+  speaker: Hanif Janmohamed
+  t_start: 477.46
+  t_end: 484.28
+  text: It was down kits, right? Yeah, Jericho somewhere. Yesterday I was, like, smelling it.
+- id: u15
+  speaker: Eric Johnson
+  t_start: 485.38
+  t_end: 486.13
+  text: Yeah?
+- id: u16
+  speaker: Hanif Janmohamed
+  t_start: 486.3
+  t_end: 488.69
+  text: Yeah. Is it a thing?
+- id: u17
+  speaker: Eric Johnson
+  t_start: 491.27
+  t_end: 493.77
+  text: Yeah, it's been going on for two nights, actually.
+- id: u18
+  speaker: David Olsson
+  t_start: 501.79
+  t_end: 511.7
+  text: Hello. Okay, can you see this? I spelt travelers wrong with the purpose, Eriche.
+- id: u19
+  speaker: Eric Johnson
+  t_start: 511.77
+  t_end: 512.62
+  text: I know that.
+- id: u20
+  speaker: David Olsson
+  t_start: 513.4
+  t_end: 533.3
+  text: Just so I can't get rid of the underline, if I add it to my dictionary, it's just going to dicker with things. So, actually, if I present something else and I go back into this one. Did you guys look at this spreadsheet or this?
+- id: u21
+  speaker: Hanif Janmohamed
+  t_start: 535.04
+  t_end: 537.272
+  text: Yeah. You sent this before, right?
+- id: u22
+  speaker: David Olsson
+  t_start: 537.336
+  t_end: 966.95
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: u23
+  speaker: Hanif Janmohamed
+  t_start: 967.81
+  t_end: 969.71
+  text: Excels. There. Trouble?
+- id: u24
+  speaker: David Olsson
+  t_start: 970.17
+  t_end: 994.39
+  text: Yeah, so I've got enough in there that I think it would do something, but I want to trace things too. So create each of these agents, share there communication.
+- id: u25
+  speaker: David Olsson
+  t_start: 1031.46
+  t_end: 1054.61
+  text: Okay, so I'm going to run this with like a full tracing kind of thing going on. You are to create the following. So a map, a scenario, maps and agents on that, and a scenario. No better time than the present team.
+- id: u26
+  speaker: David Olsson
+  t_start: 1060.87
+  t_end: 1088.39
+  text: I have too many other things open, otherwise I do this. So if I go in here and. And say I want to use spreadsheet, I am going to have to download file.
+- id: u27
+  speaker: David Olsson
+  t_start: 1115.95
+  t_end: 1174.05
+  text: So one thing I have noticed is that chat GP is really fucking cranky right now. Okay, so those are just the way I've got it broken out is not going to be super functional. Um, but I will add the eight, add the agents, see what happens. Since I don't have the actions, since it's not allowing me to link to the excel, to the Google Doc. I'm not going to be able to address the separate sheets. It appears CSV contains agents, but it needs some cleaning to be more useful. Let's clean it. Well, the first two rows were full of crap. Yeah.
+- id: u28
+  speaker: David Olsson
+  t_start: 1182.11
+  t_end: 1203.94
+  text: So a data frame is basically a spreadsheet in python. So it's actually doing that in memory. It's initializing the agents. We'll randomly place these agents on the map. Let's first define a function of randomly placing them, initializing the agents. So it's doing a fairly decent job of keeping us going. So it's like a map with agents.
+- id: u29
+  speaker: David Olsson
+  t_start: 1211.88
+  t_end: 1229.026
+  text: Run your simulation, any mover. Let's implement the movement logic and run the simulation. Fire rounds. We'll define movement function for each type of movement. We'll run the simulation. Is that not sharing?
+- id: u30
+  speaker: Hanif Janmohamed
+  t_start: 1229.138
+  t_end: 1232.39
+  text: No, we're looking at something else, Agent Fox.
+- id: u31
+  speaker: David Olsson
+  t_start: 1234.65
+  t_end: 1237.87
+  text: That's useless. I'm looking at the one. Stop sharing.
+- id: u32
+  speaker: David Olsson
+  t_start: 1251.14
+  t_end: 1288.07
+  text: So it loads it up, creates the map. It runs the simulation, initializes the agents in the map here, and then it defines what those can do, and it implements that logic, creates it, and we'll run the simulation. Look, like standardization with the logic. New position is always defined. Final map movements meet. Can you display the agent's actions? That would be a good one. Right, so final positions. It's jumped and done everything, but it.
+- id: u33
+  speaker: David Olsson
+  t_start: 1293.41
+  t_end: 1319.84
+  text: It hasn't, I haven't defined all what those actions are, like the broadcast, the ping and all that stuff. So it hasn't really done anything more than the movements. It did teleport. Okay, so there we go. So it is, it's performing each of the moves. And if I look at this, it's moving into its own positions.
+- id: u34
+  speaker: David Olsson
+  t_start: 1326.74
+  t_end: 1394.92
+  text: So it's doing. Absolutely bobcus. So at this point, I would suggest that it's doing things that are along the lines of what I want, but the iterative nature of this is such a, you know, starting on paper would be great, because then I could actually flow this out and then I could read it in and I could have done that, but I wanted to, I didn't have that luxury, so I wanted to work within what I could. So if I go back to what I've got here, and I actually go into this and just say, copy. These are the actions that are. So with each of the agents, define actions based on simulation here.
+- id: u35
+  speaker: David Olsson
+  t_start: 1410.27
+  t_end: 1535.99
+  text: Okay. So it is now looking and is actually doing that. So we now know that the library of actions is flowing through to the simulation. So I jammed it in there. And so the thing would be to have a couple of steps in the scenario. Loading one would be load the agents, load the map, load the agents, load the actions. So they're all different types of libraries. You can start to see how this could be, you know, a system, and it can sit outside and it's fairly game like and how it works. But if it was to be a traveler moving around, then they could meet and greethouse somebody, and they could have a standard greet. Maybe in one language, they could pick up another language, they could carry those around, they could have a history. And then you could create this very interesting overlap of their movement and their connections. And that overlap of movements and connections can then create iterations of story or meaning that we have no access to or ability to work with unless we build the structure to serve surface that opportunity. That is, we cannot think strategically or directionally in that way. What we can do is we can think structurally around the components and how they can interact. And then provided a scenario or situation or even a question that would be sort of the meta. Meta around this is like, how do we provide a question each in terms of its seeking capability? And then how do we tool it, like in the real world with stones? We can tool it with humans to do great deal of stuff. Show an updated map. Sure. I don't know what it, I didn't know what I asked at the store of significance. Nothing. Oh, hey, look at, hey. Okay, so there's its path. Okay.
+- id: u36
+  speaker: David Olsson
+  t_start: 1541.93
+  t_end: 1553.28
+  text: Hdd. What the hell's h? What the hell's h? B h?
+- id: u37
+  speaker: David Olsson
+  t_start: 1559.18
+  t_end: 1561.76
+  text: What did I say h was it?
+- id: u38
+  speaker: David Olsson
+  t_start: 1568.1
+  t_end: 1616.85
+  text: It made up a move or something? Download table. So that's kind of what if agents have more moves? So what ifs it gives. You are now kind of curious and you can see where you can start moving with things. I'm looking at this. Ah hh, baby. It looks like, it looks like my friend that teleported sent the message teleport or random, which teleported them a lot of times. That's curious. If agent has more weave, we extend the simulation for a greater number of rounds.
+- id: u39
+  speaker: David Olsson
+  t_start: 1623.36
+  t_end: 1648.41
+  text: The map is looking very similar. Teleport four one. Let's see where's they've moved to different places. So extend I can.
+- id: u40
+  speaker: David Olsson
+  t_start: 1685.76
+  t_end: 1711.51
+  text: Okay, extend that simulation, enable the agents to communicate their moves and to end a random message to other agents and enable a history log that stores each message. Yada, yada, yada, yada, bangdan. Okay, so we're gonna run on a context window here soon and might do more hallucinations like introducing the letter h. I'm trying to figure out that one.
+- id: u41
+  speaker: Hanif Janmohamed
+  t_start: 1713.37
+  t_end: 1714.99
+  text: H is for hallucination.
+- id: u42
+  speaker: David Olsson
+  t_start: 1715.41
+  t_end: 1838.52
+  text: Right? Maybe that's it. Maybe it's an inside joke. Like, it's, it's, it's gotten such a keen sense of strategic awareness that it's like, well, I'll just joke at them until they get it and I'll bury the joke, and I'll bury the joke inside other jokes until it's all a joke. Initiate the map, place the agents, run for ten rounds, enable communication, and maintain history, logic. Hey, so I call it like, priming the engine, right? You can do a whole lot of work before you get into the prompting session. And that's what people would like of me in terms of, like, creating apps and stuff, or the experience would be more contained. But what you can do is if you have more pre work upfront, like, if I do some work to create the spreadsheet and it has integrity, it's got a lot of, you know, effort put into it, then it does a lot of work for me. Or I could start with what I did, the bits and pieces, and then I can iterate through my session to try different strategies. And I can see that, you know, it's starting to, let's collaborate. Hello. Okay. But she's stuck. She is stuck. Annie is stuck. But she is, like, saying things and they're saying the same dumb things over and over again. So it shows me that I can get them to do that kind of component. Can agents leave markers on the map? Beautiful, right? Because that's exactly why you have a map. And so the agents were already on the mark, the markers were on the map. And so it's a question, that's what's it going to do now? That's different, other than explain that that's what's going on. But you can see that all those capabilities are accessible to us during the session. So we'll call from Ireland, guys. Jeez. It's a new one. Um.
+- id: u43
+  speaker: Eric Johnson
+  t_start: 1840.74
+  t_end: 1842.676
+  text: Sorry, you're not going to get that.
+- id: u44
+  speaker: David Olsson
+  t_start: 1842.788
+  t_end: 1865.69
+  text: I'm not going to get that this time. Turn left. To move forward. Turn left. So it's like executing the same round every time. Um, so I'll stop if it's not worth going through. Um, there seems to be a problem.
+- id: u45
+  speaker: David Olsson
+  t_start: 1879.91
+  t_end: 1992.55
+  text: This is something I've not tried before. So this is the direction that these agents are going in. Is that okay? So can you figure out what's going wrong and fix it? And I have very, very, I call them sophisticated because they take a long time to figure out ways of dealing with this and prompting where I have strategies and it does some work and it comes back and does a self reflection. But this is what's, you know, referred to as like a zero shot. I'm like, like, can you just do this without me putting a framework around the solution? Because there seems to be something wrong going on here and I want them to move and they're just stuck in the same position all the time. So it would then, you know, presumably analyze the fact that they're in the same position. And Siri treat is a new cell, so there's a new revised plan. And so I asked it in the beginning to come up with a strategy and a plan and then execute it. So I guess it's in the disposition right now because I did that to go back and revise its and go about doing everything again. So there's a step called ensure my position. So what chat GPT just came up with this last little while is what it calls critic GPT, and it's predominantly set up for coding, but I think I can pro, I think I should be able to use it for the work I did, but it is set up to do this type of work. And I again do that same kind of thing with my work. And what I call reflection and low level policy is like, here's the output. Is it good? Is it good enough? Can we make it better? So there's this effort of labeling it as good, better, or whatever, and then having a strategy to look at, making it concise more to the point or brief, and then it will then try to do that, and then it will assess it again, and it should assess it against the original, too. And that's kind of the best strategy around, doing all that. And it's still not moving. Look at that. Damn.
+- id: u46
+  speaker: David Olsson
+  t_start: 2003.81
+  t_end: 2252.47
+  text: This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and
+- id: u47
+  speaker: David Olsson
+  t_start: 2258.39
+  t_end: 2261.81
+  text: So it's very similar to a stone rolling across the world.
+- id: u48
+  speaker: Hanif Janmohamed
+  t_start: 2262.31
+  t_end: 2264.53
+  text: It sounds very similar to that.
+- id: u49
+  speaker: David Olsson
+  t_start: 2265.67
+  t_end: 2270.75
+  text: And it doesn't step on your project. And it sets up a framework for exactly how you could use nfts.
+- id: u50
+  speaker: Hanif Janmohamed
+  t_start: 2270.91
+  t_end: 2271.61
+  text: Right.
+- id: u51
+  speaker: David Olsson
+  t_start: 2272.31
+  t_end: 2272.926
+  text: Okay.
+- id: u52
+  speaker: Hanif Janmohamed
+  t_start: 2273.038
+  t_end: 2273.95
+  text: Very cool.
+- id: u53
+  speaker: David Olsson
+  t_start: 2274.11
+  t_end: 2369.776
+  text: So his artwork would be the NFTs, and his artwork would be the components that would be drawn together to create a visual representation of the NFT. The NFT would be an agent. It would have a visage, and the visage would be what he would create, and the movement would be what I would create. And the blockchain would be its map, or it's its world, and it would map that world in a very unique way. And so the network provides it the structure to create connections. And that. And then you can then say, well, I have an abstraction of that. Right. And I can take that abstraction, apply it to any narrative, or the narrative can then float down onto that abstraction. Because what is a story? But if, you know, we know there's five stories, and you know that you're going somewhere and you're coming back or you're not, and you're coming back with something or you're not. And then with the fifth one, everybody comes back and no one comes back. I don't know. I can't remember. But there's whatever that pattern is, it's a. You can call it the zero shot. I want this pattern to be this, you know, I want all agents to be super greedy. What does it mean? And they can tell you because they will go and do things, and you abstract the. Make them greedy from their capabilities. It's like they can move around and.
+- id: u54
+  speaker: Hanif Janmohamed
+  t_start: 2369.808
+  t_end: 2371.648
+  text: They can say hi things, right?
+- id: u55
+  speaker: David Olsson
+  t_start: 2371.704
+  t_end: 2383.192
+  text: Yeah. And the greedy thing would be they never give anything away. They only take things and say, maybe some are only greedy, but they're greedy to a purpose. As soon as they get ten things, they have a potlatch.
+- id: u56
+  speaker: Hanif Janmohamed
+  t_start: 2383.336
+  t_end: 2384.096
+  text: Right.
+- id: u57
+  speaker: David Olsson
+  t_start: 2384.288
+  t_end: 2582.94
+  text: Right. So that's where you can just add these like rules at some level. And the thing is, well, maybe the goal is figure out what a potlatch means as a network, you know, so you can do that at the high level. If you put this structure in place of how they can possibly work together and communicate, and then the rules as to how they communicate, and then what is it that does that stuff and then where do they live? So it's a layered cake. And it is very much along the lines of the sun tzu sort of approach. Like you've got a landscape, there is a way of traversing it. There are other entities and they are agents or people or stones, and they create connections, which is value and meaning or curiosity. And you can have an uber story, which is a campaign, or you can have sort of a day to day experience, which is a campaign. You can have an uber story, which is a battle, and then you can have a war, right? Which is the one shot question of why. So if you structuralize that, then you have a bunch of different ways people can come in as an assertion point and a bunch of different ways you can control it and also be loosely associated with it. So I found the spreadsheet an empowering way to work without a database, right? In a structured way that it understands things because columns and rows are rank and file and it does something to how we think. And so if you structure a bunch of things in that regard, then you can say it's like a relational database, and none of us in this room are that kind of person. But how about this as an exercise and this will be what I leave with. And this is a really simple one. Take a spreadsheet and put in one column a list of URL's to publicly accessible images. And then in the next column put a description that you'd like as an overlay on top of those images. And then in the next column write a transition you'd like to have between that in the previous or next image, load up that and then ask it to use a JavaScript framework to create a slideshow of all of those images and give you the HTML file for that. Download the HTML file, put it in the same directory as your images and see what the fuck happens because it will make what you want it to do. Right now I can confidently make landing pages that are absent of visual design like I like it, but structurally there. And I can apply a high level command like make it time sensitive. And then that high level command which I applied unfortunately as a low level policy afterwards it will then say it'll add a sticker, only ten available, two minutes left over top of the whole other thing that it created. So if I add it at the beginning, then maybe it salts it all the way through at the end. I can test if it's not there, then add a strike. That's what cheap advertising is, is they can't figure things out. They add a stripe or a strike or a sun or whatever, you know, badge.
+- id: u58
+  speaker: Hanif Janmohamed
+  t_start: 2583.06
+  t_end: 2583.98
+  text: Yeah, badge.
+- id: u59
+  speaker: David Olsson
+  t_start: 2584.1
+  t_end: 2747.4
+  text: Then those all can be added afterwards if you can't figure out how to bake them in. Right. And so that strategy is there, you know, in a spreadsheet, it's like, okay, add that column that says, do something funky, and it'll like, okay, cool, right? And you're like, okay, now make a narrative of it. Or I, you can actually have a column of images and do strategic, or do very pointed analysis in each column, right? Analyze it for color, analyze it for tone, analyze it for blocking, analyze it for this, analyze it for that. Come up with a directive that would give me that if I prompted it in this or in mid journey. So you're deconstructing something from a semiotic or symbolic point of view and then reconstructing it. It'll come out different, but you can then get the components of what you want to be able to direct. Maybe you only want to be able to direct the palette in a page or an image and say, I just want to filter it. I don't want to change the image itself. I want it to just be noir. And you can do that in a column by affecting the tone of something. So just have it. If you want to do something mixed media, there's like slideshow js or slides JSDEm. It's just a framework for putting slides together, and you basically have, you would have an external file, like a YAML file or something that would describe them all. And so that's what it can do really well. Create a very minimal technology set that is just a simple HTML page, and give it like a spreadsheet of like, here's ten simple. Or better yet, start with one of your documents. Say, here, create slides out of this, then put it into the spreadsheet and say, here's my content for my slideshow. Here's the framework to put that into, because it won't do a great job if you do it all at once. There are slideshow generators, but I'm just using slideshows as an example. But if you wanted to, you can just have anything in there, anything you can reference as a link on the Internet or any kind of content in those cells. And then you can, say, function on them, iterate and create a new one. You can't repopulate the spreadsheet, but you can download, and then you can re input it, download and create a new one. It's not a 360 yet, so. But the value of being able to just, say, load up the spreadsheet and figure out a way of presenting it right is an exercise that's quite valuable.
+- id: u60
+  speaker: Hanif Janmohamed
+  t_start: 2748.26
+  t_end: 2763.92
+  text: Well, I'm just thinking also of connecting images through other content area. So descriptions or tags, traversing the tags and finding connections.
+- id: u61
+  speaker: David Olsson
+  t_start: 2764.82
+  t_end: 3088.37
+  text: So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m
+- id: u62
+  speaker: Hanif Janmohamed
+  t_start: 3090.35
+  t_end: 3092.406
+  text: Monetized and quantified.
+- id: u63
+  speaker: David Olsson
+  t_start: 3092.598
+  t_end: 3112.25
+  text: Right. It's like, take that animation out right now. So the bias is significant across industry and the tools themselves are massively biased. Right. But when weren't they true advertising just got so subliminal you just don't even see it.
+- id: u64
+  speaker: Hanif Janmohamed
+  t_start: 3113.07
+  t_end: 3113.59
+  text: Yeah.
+- id: u65
+  speaker: David Olsson
+  t_start: 3113.67
+  t_end: 3182.79
+  text: So there's a great deal of a really cool opportunity to, once you can get into the thinking of a network, right, like an ad network is just the messiest kind of network. It's the messiest kind of thinking out there. It doesn't care. It doesn't care to fix itself. And Makda's research is born on making sure things are broken. Like whole industries are like that. And so to expose it in a cascading format is like it used to be. Like if you did one thing, you had to service that one thing forever to keep that relevant. Not anymore. You service one intelligence, it can actually maintain itself and its relevance and it can cascade down and up. And that's why like there's a, the race in BC, whoever I wanted, whoever I want to support will win, guaranteed. If they'll listen to me, if they'll listen to me because I'll simulate the whole province because then they will go out and they will talk to one in every three homes and they will have data on it. On all of them.
+- id: u66
+  speaker: Hanif Janmohamed
+  t_start: 3183.25
+  t_end: 3186.09
+  text: Well, you'll have a lot of resistance as well.
+- id: u67
+  speaker: David Olsson
+  t_start: 3186.25
+  t_end: 3192.194
+  text: Oh, no, I will have no resistance from parties that aren't, have, have actually zero established base.
+- id: u68
+  speaker: Hanif Janmohamed
+  t_start: 3192.242
+  t_end: 3202.79
+  text: Yeah, but you have all of this, you know, the established market research and you know, everybody's on there.
+- id: u69
+  speaker: David Olsson
+  t_start: 3203.09
+  t_end: 3297.85
+  text: Yeah, yeah, no, yeah, for sure. And that, that's the thing. So you, when, so me going after politics, I actually going to enable them to do better debates so that they can better themselves as speakers instead of what, what I could do, which would be show them, one, that every, everyone in caucus debating everyone. Right. Powerful unto itself. But not only that, showing the distance between the, the electorate and the caucus is quite evident. So there's all kinds of things there. But it, it, it would be more interesting to go after a whole sector that supports poor decision making processes. And I've been asked to really apply, like, how, where does work, Sona work? Like, where is it? Where's it going to come up? And it's hard. It's hard for me to find a place where at scale, it functions. But personally, I'm getting there quite well with these notions of spreadsheets and simulations, like this notion of leet. You know, it could. It'll. It'll get. It'll bank six figures high, six figures easy without effort, and could go higher based on just nfts and trading. Right. You put agents underneath all that, and it just goes insane. So there are very few examples out there that are showing what this stuff does more than just creating content. The experience isn't there. Did you ever play cryptokitties?
+- id: u70
+  speaker: Hanif Janmohamed
+  t_start: 3298.63
+  t_end: 3301.046
+  text: I didn't play it. I looked at it, though, okay?
+- id: u71
+  speaker: David Olsson
+  t_start: 3301.118
+  t_end: 3319.24
+  text: It was the only experience of the blockchain for a while. It was like. And underneath it, it's exactly this. It's exactly this kind of thing you're talking about. And I'm talking about. It was a well done experience, but throwing agents underneath it. So you have the experience of intelligence, communication and human touch instead of just.
+- id: u72
+  speaker: Hanif Janmohamed
+  t_start: 3320.3
+  t_end: 3322.924
+  text: Yeah, exactly. Which takes it out of the realm.
+- id: u73
+  speaker: David Olsson
+  t_start: 3322.972
+  t_end: 3357.91
+  text: Of realm. It gives it collectible in this weird way. Right. And that's what I know. It'll be like, super successful even as just a toe in the water, because I can already figure out how to generate these agents so they're unique. Already figure out how to put them on the blockchain and already figure out how to give them history and. And make money out of each step without me doing the tech, because it already exists. So, like, that's. That's where things are getting very interesting. And like, it's not the how can I make an agent? It's like the agents are like, yeah.
+- id: u74
+  speaker: Hanif Janmohamed
+  t_start: 3359.17
+  t_end: 3361.138
+  text: Those are made there many.
+- id: u75
+  speaker: David Olsson
+  t_start: 3361.194
+  t_end: 3399.144
+  text: And how I make them is fairly unique almost every time. And so I'm like, well, you know, my best practices I can't follow because I can't afford building the system to pump it out. It's so expensive in terms of my time, but it works really well. Like, and so I, you know, late meeting with Jason Christie this afternoon, hopefully continue with that work. But this is. It's a good time to be. To hack in there. And it's like you're at the point, honey, for. You're trying to figure out, you know, why in a meaningful, a meaningful way of why, why, why really go hard at.
+- id: u76
+  speaker: Hanif Janmohamed
+  t_start: 3399.312
+  t_end: 3405.74
+  text: Yeah, but also the why. But also this kind of systemic why? You know.
+- id: u77
+  speaker: David Olsson
+  t_start: 3405.648
+  t_end: 3413.008
+  text: Yeah. The why. So the two whys, the why of purpose, which is the hanif why and then the why of movement, which is the how.
+- id: u78
+  speaker: Hanif Janmohamed
+  t_start: 3413.144
+  t_end: 3413.84
+  text: Yeah, yeah.
+- id: u79
+  speaker: David Olsson
+  t_start: 3413.92
+  t_end: 3419.348
+  text: What motivates the interaction and the. Yeah. What.
+- id: u80
+  speaker: Hanif Janmohamed
+  t_start: 3419.08
+  t_end: 3421.448
+  text: Where does it get its momentum and movement.
+- id: u81
+  speaker: David Olsson
+  t_start: 3421.504
+  t_end: 3435.29
+  text: Yeah. What's the. What's the hood spa underneath? And so that's the entity kind of analysis. Right. It's like it's recognizing everything is influential and users are just the same as a rock.
+- id: u82
+  speaker: Hanif Janmohamed
+  t_start: 3435.41
+  t_end: 3440.402
+  text: Yeah, yeah, absolutely. And that interaction is actually the key.
+- id: u83
+  speaker: David Olsson
+  t_start: 3440.586
+  t_end: 3445.658
+  text: Yeah, yeah. If it gets you to think about, you know, everything always all at once.
+- id: u84
+  speaker: Hanif Janmohamed
+  t_start: 3445.714
+  t_end: 3448.11
+  text: Like, so that's the residual purpose.
+- id: u85
+  speaker: David Olsson
+  t_start: 3449.81
+  t_end: 3462.66
+  text: The best scene is like the one of curiosity is like, okay. It's like the curiosity is, why is this doing that? And my God, it's doing it really well.
+- id: u86
+  speaker: Hanif Janmohamed
+  t_start: 3464.28
+  t_end: 3484.41
+  text: So I know it's so super exciting. And, you know, this, the notion of the enterprise that wants to know itself is pretty interesting. I shared it a little bit last time. But yeah, I think that's, again, it's about that emergent nature.
+- id: u87
+  speaker: David Olsson
+  t_start: 3484.49
+  t_end: 3484.99
+  text: Right.
+- id: u88
+  speaker: Hanif Janmohamed
+  t_start: 3484.738
+  t_end: 3487.79
+  text: The emergence is super cool.
+- id: u89
+  speaker: David Olsson
+  t_start: 3488.45
+  t_end: 3492.03
+  text: Yeah. I'll just give you the spreadsheet.
+- id: u90
+  speaker: Hanif Janmohamed
+  t_start: 3502.49
+  t_end: 3504.51
+  text: Yeah, very cool.
+- id: u91
+  speaker: David Olsson
+  t_start: 3508.02
+  t_end: 3520.932
+  text: And then the prompting process, um, so that, you know, gives you something to work with.
+- id: u92
+  speaker: Hanif Janmohamed
+  t_start: 3521.036
+  t_end: 3523.828
+  text: You saw how I just think about it. Yeah, I saw how, you saw how.
+- id: u93
+  speaker: David Olsson
+  t_start: 3523.844
+  t_end: 3560.612
+  text: It just copied and pasted that second sheet in there. Hey. Like, I didn't what the actions. Yeah. I just caught and it got it because it had enough structure. Like, um, it wasn't even comma separated. It just figured out that it was kind of a table. And, um, that's what I call jamming. Like, like if you, that wasn't finesse, but it got it right. And so my thing is like, there's a, to draw back on what you've taught me. The weak thought idea is really, really in here is like, what's the least I can do new to get some feedback that shows me I'm moving in the right direction.
+- id: u94
+  speaker: Hanif Janmohamed
+  t_start: 3560.756
+  t_end: 3561.44
+  text: Right.
+- id: u95
+  speaker: David Olsson
+  t_start: 3561.86
+  t_end: 3581.28
+  text: And that would be what I would suggest is a paradigm for this whole kind of enterprise. It's like, what is the minimum that I require to add to juice the system to motivate it to then function? All right, then I'm going to move on to building a cryptocurrency network.
+- id: u96
+  speaker: Hanif Janmohamed
+  t_start: 3582.37
+  t_end: 3583.042
+  text: That's different.
+- id: u97
+  speaker: David Olsson
+  t_start: 3583.106
+  t_end: 3598.802
+  text: The same idea, but, you know, asset backed tokens, nodes on a network, you know, and there's sub networks within them and their value chains there. And I'm trying to get at the real value and meaning of them.
+- id: u98
+  speaker: Hanif Janmohamed
+  t_start: 3598.986
+  t_end: 3599.57
+  text: Right.
+- id: u99
+  speaker: David Olsson
+  t_start: 3599.69
+  t_end: 3604.306
+  text: And they are. They're, like, focused on. Which is neat. A spreadsheet.
+- id: u100
+  speaker: Hanif Janmohamed
+  t_start: 3604.458
+  t_end: 3605.702
+  text: Yeah. Right.
+- id: u101
+  speaker: David Olsson
+  t_start: 3605.53
+  t_end: 3619.764
+  text: Because that's where they crunch their numbers and they say, well, now we need some traffic transactions and interactions around how that model works to support the model. So it's the same space. And if it's figuring out that motivational jam.
+- id: u102
+  speaker: Hanif Janmohamed
+  t_start: 3619.932
+  t_end: 3620.64
+  text: Right.
+- id: u103
+  speaker: David Olsson
+  t_start: 3621.06
+  t_end: 3629.24
+  text: And it's got to be super light, and it can't be expensive because people are tired and busy and don't like to think. They like to be overwhelmed.
+- id: u104
+  speaker: Hanif Janmohamed
+  t_start: 3631.54
+  t_end: 3641.254
+  text: Well, cool. I'm excited by all of it, and we'll think about this. And. And I'm going to Toronto next week.
+- id: u105
+  speaker: David Olsson
+  t_start: 3641.422
+  t_end: 3642.198
+  text: Yes.
+- id: u106
+  speaker: Hanif Janmohamed
+  t_start: 3642.374
+  t_end: 3643.994
+  text: Install. Yeah.
+- id: u107
+  speaker: David Olsson
+  t_start: 3644.038
+  t_end: 3644.69
+  text: Yes.
+- id: u108
+  speaker: Hanif Janmohamed
+  t_start: 3645.15
+  t_end: 3649.77
+  text: I saw the panels on Monday, and they're like, really cool.
+- id: u109
+  speaker: David Olsson
+  t_start: 3650.43
+  t_end: 3651.854
+  text: You're smiling like that.
+- id: u110
+  speaker: Hanif Janmohamed
+  t_start: 3651.942
+  t_end: 3655.486
+  text: I was like, holy crap, those are good.
+- id: u111
+  speaker: David Olsson
+  t_start: 3655.678
+  t_end: 3659.654
+  text: Oh, so I want to. I want to be chatting with you when you. When you're there.
+- id: u112
+  speaker: Hanif Janmohamed
+  t_start: 3659.782
+  t_end: 3665.832
+  text: Yeah. I got these made, these deck of cards.
+- id: u113
+  speaker: David Olsson
+  t_start: 3666.016
+  t_end: 3667.06
+  text: Oh, cool.
+- id: u114
+  speaker: Hanif Janmohamed
+  t_start: 3667.88
+  t_end: 3668.9
+  text: Leave behind.
+- id: u115
+  speaker: David Olsson
+  t_start: 3671.76
+  t_end: 3673.224
+  text: I love when you do it, man.
+- id: u116
+  speaker: Eric Johnson
+  t_start: 3673.312
+  t_end: 3676.18
+  text: I love when you do it. What is this project?
+- id: u117
+  speaker: Hanif Janmohamed
+  t_start: 3676.64
+  t_end: 3706.11
+  text: It's an install, installation at Deloitte in Toronto. And so I did this multi panel thing in there, acrylic face mounted panels. I'll share more about it if you like. But, yeah, it's going on Monday, and then the vinyl goes up on Tuesday. Panels go out on Wednesday, so. Looking forward to it.
+- id: u118
+  speaker: David Olsson
+  t_start: 3706.27
+  t_end: 3709.822
+  text: Yeah, the big stink. That's a few days in. The big stink is good.
+- id: u119
+  speaker: Hanif Janmohamed
+  t_start: 3710.006
+  t_end: 3722.74
+  text: Yeah. And then I think I can take a little break from there so I'll have time to reflect on all of this. And this is the next thing on the horizon.
+- id: u120
+  speaker: David Olsson
+  t_start: 3723.04
+  t_end: 3726.18
+  text: Hey, Eric. He should go see our past girlfriend.
+- id: u121
+  speaker: Hanif Janmohamed
+  t_start: 3728.44
+  t_end: 3729.54
+  text: In Toronto.
+- id: u122
+  speaker: Eric Johnson
+  t_start: 3733.0
+  t_end: 3734.62
+  text: Just had to get that in there, didn't you?
+- id: u123
+  speaker: David Olsson
+  t_start: 3734.96
+  t_end: 3736.088
+  text: Yeah, I did, Eric.
+- id: u124
+  speaker: Eric Johnson
+  t_start: 3736.144
+  t_end: 3737.5
+  text: Yeah, you did.
+- id: u125
+  speaker: Hanif Janmohamed
+  t_start: 3741.17
+  t_end: 3742.47
+  text: Some shared history.
+- id: u126
+  speaker: David Olsson
+  t_start: 3743.01
+  t_end: 3751.242
+  text: Anyways. Yeah. Jennifer Papararo is at an art gallery in Toronto. She is incredibly connected to the art scene in Toronto.
+- id: u127
+  speaker: Hanif Janmohamed
+  t_start: 3751.346
+  t_end: 3753.81
+  text: What's. What's the art gallery?
+- id: u128
+  speaker: David Olsson
+  t_start: 3753.97
+  t_end: 3757.25
+  text: I have no idea. I'm not incredibly connected to her anymore.
+- id: u129
+  speaker: Eric Johnson
+  t_start: 3757.41
+  t_end: 3762.27
+  text: I think she's got the ago or. No, the power plant, PowerPoint.
+- id: u130
+  speaker: David Olsson
+  t_start: 3763.57
+  t_end: 3771.28
+  text: I don't think she's. Oh, hey, LinkedIn. I don't even. People in the art world don't use LinkedIn.
+- id: u131
+  speaker: Hanif Janmohamed
+  t_start: 3772.06
+  t_end: 3772.84
+  text: Yeah.
+- id: u132
+  speaker: David Olsson
+  t_start: 3774.58
+  t_end: 3779.16
+  text: It's funny, like, how LinkedIn is just not even a thing for so many industries.
+- id: u133
+  speaker: Hanif Janmohamed
+  t_start: 3779.74
+  t_end: 3784.72
+  text: I barely look at it. But that's not saying much.
+- id: u134
+  speaker: Eric Johnson
+  t_start: 3785.34
+  t_end: 3786.76
+  text: It's got a spammy.
+- id: u135
+  speaker: David Olsson
+  t_start: 3788.1
+  t_end: 3794.04
+  text: It's awful. Yeah, she has nothing. She has zero on LinkedIn.
+- id: u136
+  speaker: David Olsson
+  t_start: 3803.3
+  t_end: 3817.596
+  text: Anyhow, I'll go and I'll be in touch and you'll be in touch. While you're in Toronto. What day do you go? Say, Monday? Okay, so yeah, we'll be in touch. Enjoy your weekend.
+- id: u137
+  speaker: Hanif Janmohamed
+  t_start: 3817.698
+  t_end: 3818.48
+  text: Yeah, you too.
+- id: u138
+  speaker: David Olsson
+  t_start: 3818.52
+  t_end: 3821.512
+  text: Men. I'm sure. I'll be in touch.
+- id: u139
+  speaker: Hanif Janmohamed
+  t_start: 3821.656
+  t_end: 3824.14
+  text: Thanks for the download. That was great.
+- id: u140
+  speaker: David Olsson
+  t_start: 3824.68
+  t_end: 3855.87
+  text: Yeah, I didn't get a little further, but it was a. I think it's a good, good exercise. And you can, you can. In the same way you can get it to iterate, you know, like on the traits of a stone. Like if you want it to be passive aggressive, roll, rock, you know, you could give it all gradients and then it can be very specific. And that's what nfts do. Like digital nfts. That's. It's just a generator of numbers that are associated with the trait.
+- id: u141
+  speaker: Hanif Janmohamed
+  t_start: 3857.09
+  t_end: 3857.946
+  text: Cool.
+- id: u142
+  speaker: David Olsson
+  t_start: 3858.138
+  t_end: 3860.63
+  text: And in this case, add a story tell.
+- id: u143
+  speaker: Hanif Janmohamed
+  t_start: 3862.25
+  t_end: 3877.98
+  text: All right, thank you. It's.
+windows:
+- id: W-0001
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u1
+  text: It.
+- id: W-0002
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  text: Can you hear me? I can't. That's something weird going on here. Well, that's nothing new. No. I'll be right back. Oh, there we go. It. Hani, where's your place again? It's in Vancouver. Where? 16Th and oak kind of thing. Okay. Have you been getting that funky sewage smell? It was down kits, right? Yeah, Jericho somewhere. Yesterday I was, like, smelling it.
+- id: W-0003
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Hani, where's your place again? It's in Vancouver. Where? 16Th and oak kind of thing. Okay. Have you been getting that funky sewage smell? It was down kits, right? Yeah, Jericho somewhere. Yesterday I was, like, smelling it. Yeah? Yeah. Is it a thing? Yeah, it's been going on for two nights, actually. Hello. Okay, can you see this? I spelt travelers wrong with the purpose, Eriche. I know that. Just so I can't get rid of the underline, if I add it to my dictionary, it's just going to dicker with things. So, actually, if I present something else and I go back into this one. Did you guys look at this spreadsheet or this? Yeah. You sent this before, right? Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: W-0004
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u22
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: W-0005
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u22
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: W-0006
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u22
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: W-0007
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u22
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But
+- id: W-0008
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  text: Yeah, this is just like a four x, four columns. And then it did this storytelling thing where. And then it traced its moves. Kind of cool. Hey. Like, yeah, there's really not a lot like, that's basically kind of the poop right there. I just did it. Stream of consciousness in terms of, like, I didn't plan it out on paper and then say, here are the steps and all that other stuff. I just wanted to see what kind of thing it would do. That's why it has, like, these really base, archetypal craft things in it. Um, but, you know, it. It proved that you can make this compositing experience. You can use words like blending, and, you know, you can drop clues into these cells. You can do all kinds of interesting things, um, you know, merge stories, right. And then you could, uh, merge all segments, right. And do something like, whether you like or not. And then you can cast it into, uh, into a format that enables direction. And anything that can, you know, anything can be cast into a directive. And as soon as it's a directive, then it works well in the space to create an experience. And so a script like this is, you know, mostly dialogue, but you can see that it has provided some direction around. Stop sharing that now. Go to what I wanted to get today. In terms of building on that. I'm whipping together a prompt that will take 20 by 20 cells. That was, I am actually going to use a spreadsheet, but we can just create one in memory as well. So there's two things that can occur during this phase of development. One is that there's a data structure that I'm looking to create, and then two, that there's some interaction with it. Sometimes you go through a process of creating what they would refer to as synthetic data, because you're synthesizing it inside the LLM, creating that data. And now that data is very foundational and that it can determine a lot of what the LLM or whatever would want to do. So I've started working in spreadsheets as the base of things. And here, if I show you this tab, you can see that I'm starting to develop some agents here that are going to be similar in structure. And you can see they're kind of similar to the crew AI, where there's a name, role, and backstory. I said location, because they're going to be travelers. And the history, well, they move from one place to the next. And then their actions, well, they have a few things that they can do. They can move left, they can ping, or they can listen. And then I would go into my tab and I say, well, here's some, here's some things that can do. Like, you could call it move left as a command. And then, well, its purpose is to. So I put this purpose in here because you can use the purpose to create the directive. And so if you want, another step is the purpose, is a goal right, or goal in there? And you can define the goal, and the directive would be much more specific about how the goal would be attained. There's something called task decomposition that is very important in all work. But Excels. There. Trouble? Yeah, so I've got enough in there that I think it would do something, but I want to trace things too. So create each of these agents, share there communication.
+- id: W-0009
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  text: Yeah, so I've got enough in there that I think it would do something, but I want to trace things too. So create each of these agents, share there communication. Okay, so I'm going to run this with like a full tracing kind of thing going on. You are to create the following. So a map, a scenario, maps and agents on that, and a scenario. No better time than the present team. I have too many other things open, otherwise I do this. So if I go in here and. And say I want to use spreadsheet, I am going to have to download file.
+- id: W-0010
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  text: I have too many other things open, otherwise I do this. So if I go in here and. And say I want to use spreadsheet, I am going to have to download file. So one thing I have noticed is that chat GP is really fucking cranky right now. Okay, so those are just the way I've got it broken out is not going to be super functional. Um, but I will add the eight, add the agents, see what happens. Since I don't have the actions, since it's not allowing me to link to the excel, to the Google Doc. I'm not going to be able to address the separate sheets. It appears CSV contains agents, but it needs some cleaning to be more useful. Let's clean it. Well, the first two rows were full of crap. Yeah. So a data frame is basically a spreadsheet in python. So it's actually doing that in memory. It's initializing the agents. We'll randomly place these agents on the map. Let's first define a function of randomly placing them, initializing the agents. So it's doing a fairly decent job of keeping us going. So it's like a map with agents.
+- id: W-0011
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  text: So one thing I have noticed is that chat GP is really fucking cranky right now. Okay, so those are just the way I've got it broken out is not going to be super functional. Um, but I will add the eight, add the agents, see what happens. Since I don't have the actions, since it's not allowing me to link to the excel, to the Google Doc. I'm not going to be able to address the separate sheets. It appears CSV contains agents, but it needs some cleaning to be more useful. Let's clean it. Well, the first two rows were full of crap. Yeah. So a data frame is basically a spreadsheet in python. So it's actually doing that in memory. It's initializing the agents. We'll randomly place these agents on the map. Let's first define a function of randomly placing them, initializing the agents. So it's doing a fairly decent job of keeping us going. So it's like a map with agents. Run your simulation, any mover. Let's implement the movement logic and run the simulation. Fire rounds. We'll define movement function for each type of movement. We'll run the simulation. Is that not sharing? No, we're looking at something else, Agent Fox. That's useless. I'm looking at the one. Stop sharing. So it loads it up, creates the map. It runs the simulation, initializes the agents in the map here, and then it defines what those can do, and it implements that logic, creates it, and we'll run the simulation. Look, like standardization with the logic. New position is always defined. Final map movements meet. Can you display the agent's actions? That would be a good one. Right, so final positions. It's jumped and done everything, but it.
+- id: W-0012
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  text: So it loads it up, creates the map. It runs the simulation, initializes the agents in the map here, and then it defines what those can do, and it implements that logic, creates it, and we'll run the simulation. Look, like standardization with the logic. New position is always defined. Final map movements meet. Can you display the agent's actions? That would be a good one. Right, so final positions. It's jumped and done everything, but it. It hasn't, I haven't defined all what those actions are, like the broadcast, the ping and all that stuff. So it hasn't really done anything more than the movements. It did teleport. Okay, so there we go. So it is, it's performing each of the moves. And if I look at this, it's moving into its own positions. So it's doing. Absolutely bobcus. So at this point, I would suggest that it's doing things that are along the lines of what I want, but the iterative nature of this is such a, you know, starting on paper would be great, because then I could actually flow this out and then I could read it in and I could have done that, but I wanted to, I didn't have that luxury, so I wanted to work within what I could. So if I go back to what I've got here, and I actually go into this and just say, copy. These are the actions that are. So with each of the agents, define actions based on simulation here.
+- id: W-0013
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u34
+  - u35
+  text: So it's doing. Absolutely bobcus. So at this point, I would suggest that it's doing things that are along the lines of what I want, but the iterative nature of this is such a, you know, starting on paper would be great, because then I could actually flow this out and then I could read it in and I could have done that, but I wanted to, I didn't have that luxury, so I wanted to work within what I could. So if I go back to what I've got here, and I actually go into this and just say, copy. These are the actions that are. So with each of the agents, define actions based on simulation here. Okay. So it is now looking and is actually doing that. So we now know that the library of actions is flowing through to the simulation. So I jammed it in there. And so the thing would be to have a couple of steps in the scenario. Loading one would be load the agents, load the map, load the agents, load the actions. So they're all different types of libraries. You can start to see how this could be, you know, a system, and it can sit outside and it's fairly game like and how it works. But if it was to be a traveler moving around, then they could meet and greethouse somebody, and they could have a standard greet. Maybe in one language, they could pick up another language, they could carry those around, they could have a history. And then you could create this very interesting overlap of their movement and their connections. And that overlap of movements and connections can then create iterations of story or meaning that we have no access to or ability to work with unless we build the structure to serve surface that opportunity. That is, we cannot think strategically or directionally in that way. What we can do is we can think structurally around the components and how they can interact. And then provided a scenario or situation or even a question that would be sort of the meta. Meta around this is like, how do we provide a question each in terms of its seeking capability? And then how do we tool it, like in the real world with stones? We can tool it with humans to do great deal of stuff. Show an updated map. Sure. I don't know what it, I didn't know what I asked at the store of significance. Nothing. Oh, hey, look at, hey. Okay, so there's its path. Okay.
+- id: W-0014
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  text: Okay. So it is now looking and is actually doing that. So we now know that the library of actions is flowing through to the simulation. So I jammed it in there. And so the thing would be to have a couple of steps in the scenario. Loading one would be load the agents, load the map, load the agents, load the actions. So they're all different types of libraries. You can start to see how this could be, you know, a system, and it can sit outside and it's fairly game like and how it works. But if it was to be a traveler moving around, then they could meet and greethouse somebody, and they could have a standard greet. Maybe in one language, they could pick up another language, they could carry those around, they could have a history. And then you could create this very interesting overlap of their movement and their connections. And that overlap of movements and connections can then create iterations of story or meaning that we have no access to or ability to work with unless we build the structure to serve surface that opportunity. That is, we cannot think strategically or directionally in that way. What we can do is we can think structurally around the components and how they can interact. And then provided a scenario or situation or even a question that would be sort of the meta. Meta around this is like, how do we provide a question each in terms of its seeking capability? And then how do we tool it, like in the real world with stones? We can tool it with humans to do great deal of stuff. Show an updated map. Sure. I don't know what it, I didn't know what I asked at the store of significance. Nothing. Oh, hey, look at, hey. Okay, so there's its path. Okay. Hdd. What the hell's h? What the hell's h? B h? What did I say h was it?
+- id: W-0015
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  text: Okay. So it is now looking and is actually doing that. So we now know that the library of actions is flowing through to the simulation. So I jammed it in there. And so the thing would be to have a couple of steps in the scenario. Loading one would be load the agents, load the map, load the agents, load the actions. So they're all different types of libraries. You can start to see how this could be, you know, a system, and it can sit outside and it's fairly game like and how it works. But if it was to be a traveler moving around, then they could meet and greethouse somebody, and they could have a standard greet. Maybe in one language, they could pick up another language, they could carry those around, they could have a history. And then you could create this very interesting overlap of their movement and their connections. And that overlap of movements and connections can then create iterations of story or meaning that we have no access to or ability to work with unless we build the structure to serve surface that opportunity. That is, we cannot think strategically or directionally in that way. What we can do is we can think structurally around the components and how they can interact. And then provided a scenario or situation or even a question that would be sort of the meta. Meta around this is like, how do we provide a question each in terms of its seeking capability? And then how do we tool it, like in the real world with stones? We can tool it with humans to do great deal of stuff. Show an updated map. Sure. I don't know what it, I didn't know what I asked at the store of significance. Nothing. Oh, hey, look at, hey. Okay, so there's its path. Okay. Hdd. What the hell's h? What the hell's h? B h? What did I say h was it? It made up a move or something? Download table. So that's kind of what if agents have more moves? So what ifs it gives. You are now kind of curious and you can see where you can start moving with things. I'm looking at this. Ah hh, baby. It looks like, it looks like my friend that teleported sent the message teleport or random, which teleported them a lot of times. That's curious. If agent has more weave, we extend the simulation for a greater number of rounds. The map is looking very similar. Teleport four one. Let's see where's they've moved to different places. So extend I can.
+- id: W-0016
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u39
+  - u40
+  - u41
+  - u42
+  text: The map is looking very similar. Teleport four one. Let's see where's they've moved to different places. So extend I can. Okay, extend that simulation, enable the agents to communicate their moves and to end a random message to other agents and enable a history log that stores each message. Yada, yada, yada, yada, bangdan. Okay, so we're gonna run on a context window here soon and might do more hallucinations like introducing the letter h. I'm trying to figure out that one. H is for hallucination. Right? Maybe that's it. Maybe it's an inside joke. Like, it's, it's, it's gotten such a keen sense of strategic awareness that it's like, well, I'll just joke at them until they get it and I'll bury the joke, and I'll bury the joke inside other jokes until it's all a joke. Initiate the map, place the agents, run for ten rounds, enable communication, and maintain history, logic. Hey, so I call it like, priming the engine, right? You can do a whole lot of work before you get into the prompting session. And that's what people would like of me in terms of, like, creating apps and stuff, or the experience would be more contained. But what you can do is if you have more pre work upfront, like, if I do some work to create the spreadsheet and it has integrity, it's got a lot of, you know, effort put into it, then it does a lot of work for me. Or I could start with what I did, the bits and pieces, and then I can iterate through my session to try different strategies. And I can see that, you know, it's starting to, let's collaborate. Hello. Okay. But she's stuck. She is stuck. Annie is stuck. But she is, like, saying things and they're saying the same dumb things over and over again. So it shows me that I can get them to do that kind of component. Can agents leave markers on the map? Beautiful, right? Because that's exactly why you have a map. And so the agents were already on the mark, the markers were on the map. And so it's a question, that's what's it going to do now? That's different, other than explain that that's what's going on. But you can see that all those capabilities are accessible to us during the session. So we'll call from Ireland, guys. Jeez. It's a new one. Um.
+- id: W-0017
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u40
+  - u41
+  - u42
+  text: Okay, extend that simulation, enable the agents to communicate their moves and to end a random message to other agents and enable a history log that stores each message. Yada, yada, yada, yada, bangdan. Okay, so we're gonna run on a context window here soon and might do more hallucinations like introducing the letter h. I'm trying to figure out that one. H is for hallucination. Right? Maybe that's it. Maybe it's an inside joke. Like, it's, it's, it's gotten such a keen sense of strategic awareness that it's like, well, I'll just joke at them until they get it and I'll bury the joke, and I'll bury the joke inside other jokes until it's all a joke. Initiate the map, place the agents, run for ten rounds, enable communication, and maintain history, logic. Hey, so I call it like, priming the engine, right? You can do a whole lot of work before you get into the prompting session. And that's what people would like of me in terms of, like, creating apps and stuff, or the experience would be more contained. But what you can do is if you have more pre work upfront, like, if I do some work to create the spreadsheet and it has integrity, it's got a lot of, you know, effort put into it, then it does a lot of work for me. Or I could start with what I did, the bits and pieces, and then I can iterate through my session to try different strategies. And I can see that, you know, it's starting to, let's collaborate. Hello. Okay. But she's stuck. She is stuck. Annie is stuck. But she is, like, saying things and they're saying the same dumb things over and over again. So it shows me that I can get them to do that kind of component. Can agents leave markers on the map? Beautiful, right? Because that's exactly why you have a map. And so the agents were already on the mark, the markers were on the map. And so it's a question, that's what's it going to do now? That's different, other than explain that that's what's going on. But you can see that all those capabilities are accessible to us during the session. So we'll call from Ireland, guys. Jeez. It's a new one. Um.
+- id: W-0018
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u42
+  - u43
+  - u44
+  - u45
+  text: Right? Maybe that's it. Maybe it's an inside joke. Like, it's, it's, it's gotten such a keen sense of strategic awareness that it's like, well, I'll just joke at them until they get it and I'll bury the joke, and I'll bury the joke inside other jokes until it's all a joke. Initiate the map, place the agents, run for ten rounds, enable communication, and maintain history, logic. Hey, so I call it like, priming the engine, right? You can do a whole lot of work before you get into the prompting session. And that's what people would like of me in terms of, like, creating apps and stuff, or the experience would be more contained. But what you can do is if you have more pre work upfront, like, if I do some work to create the spreadsheet and it has integrity, it's got a lot of, you know, effort put into it, then it does a lot of work for me. Or I could start with what I did, the bits and pieces, and then I can iterate through my session to try different strategies. And I can see that, you know, it's starting to, let's collaborate. Hello. Okay. But she's stuck. She is stuck. Annie is stuck. But she is, like, saying things and they're saying the same dumb things over and over again. So it shows me that I can get them to do that kind of component. Can agents leave markers on the map? Beautiful, right? Because that's exactly why you have a map. And so the agents were already on the mark, the markers were on the map. And so it's a question, that's what's it going to do now? That's different, other than explain that that's what's going on. But you can see that all those capabilities are accessible to us during the session. So we'll call from Ireland, guys. Jeez. It's a new one. Um. Sorry, you're not going to get that. I'm not going to get that this time. Turn left. To move forward. Turn left. So it's like executing the same round every time. Um, so I'll stop if it's not worth going through. Um, there seems to be a problem. This is something I've not tried before. So this is the direction that these agents are going in. Is that okay? So can you figure out what's going wrong and fix it? And I have very, very, I call them sophisticated because they take a long time to figure out ways of dealing with this and prompting where I have strategies and it does some work and it comes back and does a self reflection. But this is what's, you know, referred to as like a zero shot. I'm like, like, can you just do this without me putting a framework around the solution? Because there seems to be something wrong going on here and I want them to move and they're just stuck in the same position all the time. So it would then, you know, presumably analyze the fact that they're in the same position. And Siri treat is a new cell, so there's a new revised plan. And so I asked it in the beginning to come up with a strategy and a plan and then execute it. So I guess it's in the disposition right now because I did that to go back and revise its and go about doing everything again. So there's a step called ensure my position. So what chat GPT just came up with this last little while is what it calls critic GPT, and it's predominantly set up for coding, but I think I can pro, I think I should be able to use it for the work I did, but it is set up to do this type of work. And I again do that same kind of thing with my work. And what I call reflection and low level policy is like, here's the output. Is it good? Is it good enough? Can we make it better? So there's this effort of labeling it as good, better, or whatever, and then having a strategy to look at, making it concise more to the point or brief, and then it will then try to do that, and then it will assess it again, and it should assess it against the original, too. And that's kind of the best strategy around, doing all that. And it's still not moving. Look at that. Damn.
+- id: W-0019
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u45
+  - u46
+  text: This is something I've not tried before. So this is the direction that these agents are going in. Is that okay? So can you figure out what's going wrong and fix it? And I have very, very, I call them sophisticated because they take a long time to figure out ways of dealing with this and prompting where I have strategies and it does some work and it comes back and does a self reflection. But this is what's, you know, referred to as like a zero shot. I'm like, like, can you just do this without me putting a framework around the solution? Because there seems to be something wrong going on here and I want them to move and they're just stuck in the same position all the time. So it would then, you know, presumably analyze the fact that they're in the same position. And Siri treat is a new cell, so there's a new revised plan. And so I asked it in the beginning to come up with a strategy and a plan and then execute it. So I guess it's in the disposition right now because I did that to go back and revise its and go about doing everything again. So there's a step called ensure my position. So what chat GPT just came up with this last little while is what it calls critic GPT, and it's predominantly set up for coding, but I think I can pro, I think I should be able to use it for the work I did, but it is set up to do this type of work. And I again do that same kind of thing with my work. And what I call reflection and low level policy is like, here's the output. Is it good? Is it good enough? Can we make it better? So there's this effort of labeling it as good, better, or whatever, and then having a strategy to look at, making it concise more to the point or brief, and then it will then try to do that, and then it will assess it again, and it should assess it against the original, too. And that's kind of the best strategy around, doing all that. And it's still not moving. Look at that. Damn. This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and
+- id: W-0020
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u45
+  - u46
+  text: This is something I've not tried before. So this is the direction that these agents are going in. Is that okay? So can you figure out what's going wrong and fix it? And I have very, very, I call them sophisticated because they take a long time to figure out ways of dealing with this and prompting where I have strategies and it does some work and it comes back and does a self reflection. But this is what's, you know, referred to as like a zero shot. I'm like, like, can you just do this without me putting a framework around the solution? Because there seems to be something wrong going on here and I want them to move and they're just stuck in the same position all the time. So it would then, you know, presumably analyze the fact that they're in the same position. And Siri treat is a new cell, so there's a new revised plan. And so I asked it in the beginning to come up with a strategy and a plan and then execute it. So I guess it's in the disposition right now because I did that to go back and revise its and go about doing everything again. So there's a step called ensure my position. So what chat GPT just came up with this last little while is what it calls critic GPT, and it's predominantly set up for coding, but I think I can pro, I think I should be able to use it for the work I did, but it is set up to do this type of work. And I again do that same kind of thing with my work. And what I call reflection and low level policy is like, here's the output. Is it good? Is it good enough? Can we make it better? So there's this effort of labeling it as good, better, or whatever, and then having a strategy to look at, making it concise more to the point or brief, and then it will then try to do that, and then it will assess it again, and it should assess it against the original, too. And that's kind of the best strategy around, doing all that. And it's still not moving. Look at that. Damn. This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and
+- id: W-0021
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u46
+  text: This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and
+- id: W-0022
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and So it's very similar to a stone rolling across the world. It sounds very similar to that. And it doesn't step on your project. And it sets up a framework for exactly how you could use nfts. Right. Okay. Very cool. So his artwork would be the NFTs, and his artwork would be the components that would be drawn together to create a visual representation of the NFT. The NFT would be an agent. It would have a visage, and the visage would be what he would create, and the movement would be what I would create. And the blockchain would be its map, or it's its world, and it would map that world in a very unique way. And so the network provides it the structure to create connections. And that. And then you can then say, well, I have an abstraction of that. Right. And I can take that abstraction, apply it to any narrative, or the narrative can then float down onto that abstraction. Because what is a story? But if, you know, we know there's five stories, and you know that you're going somewhere and you're coming back or you're not, and you're coming back with something or you're not. And then with the fifth one, everybody comes back and no one comes back. I don't know. I can't remember. But there's whatever that pattern is, it's a. You can call it the zero shot. I want this pattern to be this, you know, I want all agents to be super greedy. What does it mean? And they can tell you because they will go and do things, and you abstract the. Make them greedy from their capabilities. It's like they can move around and.
+- id: W-0023
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: This is one of the things that Jatgpt sucks at quite a bit, is this procedural understanding of things, and I've asked it to manage it all without having a more strict plan in place. One of the things I've surfaced earlier in my work is this notion of symbolic actions, and it uses a planning language, PDDL, and that planning language doesn't allow, which is interesting. It doesn't allow for, like, is it better or best or good or whatever. It just says, do this. And that would be much more appropriate here. So if I did something like the next step of this, I would do some, you know, proper task descriptions and maybe even do a step of decomposition, saying, and I have an agent for that, if you know that I shared, and you just put your prompt in or put something in there, like a task, and it'll then analyze to see if there's a bunch of substeps that you can include. And so say, like, do research, and then it'll, like, figure out KPI's or figure out key trends, analyze the trends, prioritize the trends, weight the trends, and then provide a strategic map of the trends or something like that. Instead of just give me a report, that's kind of what I got. I'm not going to push that demo anymore because it's falling apart. And by that, I mean the same output is happening, right? And, like, as soon as that happens three times, I'm like, yeah, that means I'm going to go back and I'm going to look at the spreadsheet. I like what I had set up there. It's, it's a framework for any kind of thing. And so I'll step back and I'll explain what I'm going to do with it, you know, knowing that it has some representative value for you. But way back in the day, when I was doing, like, one of my, I was doing my own demo scene, man. While I was working during the day, at night, I would make demos, and I was just like, they were just those interactive things. They were like toys and bobbles. And sometimes they would, you know, work with Lawson. They go to music, or I bring them in together. And so I had all these, like, interactive animals like, that would, you know, follow each other and do stuff. And one of them I called leaked, and it was just basically, it worked with easing, which I think people understand, like, how you slowly speed up and slow down, right? And if you have a bunch of them in a row and they're tracking on their previous position, it kind of looks like an accordion, similar to, like, a caterpillar moving. So the movement of a caterpillar was essentially the verb litanous. And there's something called Leet code and everything else. But this notion of Leet is moving, right? It's like lurching forward to a new cell, and then what do you leave behind? Well, in my leet code, if somebody's behind you, you lead some momentum, and it draws a magnetism, and it draws you into the next cell. And I'm like, well, that's enough of an interaction right there. Magnetism. And so a cell can have magnetism, and so you can be drawn into it, and it can capture things, and So it's very similar to a stone rolling across the world. It sounds very similar to that. And it doesn't step on your project. And it sets up a framework for exactly how you could use nfts. Right. Okay. Very cool. So his artwork would be the NFTs, and his artwork would be the components that would be drawn together to create a visual representation of the NFT. The NFT would be an agent. It would have a visage, and the visage would be what he would create, and the movement would be what I would create. And the blockchain would be its map, or it's its world, and it would map that world in a very unique way. And so the network provides it the structure to create connections. And that. And then you can then say, well, I have an abstraction of that. Right. And I can take that abstraction, apply it to any narrative, or the narrative can then float down onto that abstraction. Because what is a story? But if, you know, we know there's five stories, and you know that you're going somewhere and you're coming back or you're not, and you're coming back with something or you're not. And then with the fifth one, everybody comes back and no one comes back. I don't know. I can't remember. But there's whatever that pattern is, it's a. You can call it the zero shot. I want this pattern to be this, you know, I want all agents to be super greedy. What does it mean? And they can tell you because they will go and do things, and you abstract the. Make them greedy from their capabilities. It's like they can move around and. They can say hi things, right?
+- id: W-0024
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  text: So his artwork would be the NFTs, and his artwork would be the components that would be drawn together to create a visual representation of the NFT. The NFT would be an agent. It would have a visage, and the visage would be what he would create, and the movement would be what I would create. And the blockchain would be its map, or it's its world, and it would map that world in a very unique way. And so the network provides it the structure to create connections. And that. And then you can then say, well, I have an abstraction of that. Right. And I can take that abstraction, apply it to any narrative, or the narrative can then float down onto that abstraction. Because what is a story? But if, you know, we know there's five stories, and you know that you're going somewhere and you're coming back or you're not, and you're coming back with something or you're not. And then with the fifth one, everybody comes back and no one comes back. I don't know. I can't remember. But there's whatever that pattern is, it's a. You can call it the zero shot. I want this pattern to be this, you know, I want all agents to be super greedy. What does it mean? And they can tell you because they will go and do things, and you abstract the. Make them greedy from their capabilities. It's like they can move around and. They can say hi things, right? Yeah. And the greedy thing would be they never give anything away. They only take things and say, maybe some are only greedy, but they're greedy to a purpose. As soon as they get ten things, they have a potlatch. Right. Right. So that's where you can just add these like rules at some level. And the thing is, well, maybe the goal is figure out what a potlatch means as a network, you know, so you can do that at the high level. If you put this structure in place of how they can possibly work together and communicate, and then the rules as to how they communicate, and then what is it that does that stuff and then where do they live? So it's a layered cake. And it is very much along the lines of the sun tzu sort of approach. Like you've got a landscape, there is a way of traversing it. There are other entities and they are agents or people or stones, and they create connections, which is value and meaning or curiosity. And you can have an uber story, which is a campaign, or you can have sort of a day to day experience, which is a campaign. You can have an uber story, which is a battle, and then you can have a war, right? Which is the one shot question of why. So if you structuralize that, then you have a bunch of different ways people can come in as an assertion point and a bunch of different ways you can control it and also be loosely associated with it. So I found the spreadsheet an empowering way to work without a database, right? In a structured way that it understands things because columns and rows are rank and file and it does something to how we think. And so if you structure a bunch of things in that regard, then you can say it's like a relational database, and none of us in this room are that kind of person. But how about this as an exercise and this will be what I leave with. And this is a really simple one. Take a spreadsheet and put in one column a list of URL's to publicly accessible images. And then in the next column put a description that you'd like as an overlay on top of those images. And then in the next column write a transition you'd like to have between that in the previous or next image, load up that and then ask it to use a JavaScript framework to create a slideshow of all of those images and give you the HTML file for that. Download the HTML file, put it in the same directory as your images and see what the fuck happens because it will make what you want it to do. Right now I can confidently make landing pages that are absent of visual design like I like it, but structurally there. And I can apply a high level command like make it time sensitive. And then that high level command which I applied unfortunately as a low level policy afterwards it will then say it'll add a sticker, only ten available, two minutes left over top of the whole other thing that it created. So if I add it at the beginning, then maybe it salts it all the way through at the end. I can test if it's not there, then add a strike. That's what cheap advertising is, is they can't figure things out. They add a stripe or a strike or a sun or whatever, you know, badge.
+- id: W-0025
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u57
+  text: Right. So that's where you can just add these like rules at some level. And the thing is, well, maybe the goal is figure out what a potlatch means as a network, you know, so you can do that at the high level. If you put this structure in place of how they can possibly work together and communicate, and then the rules as to how they communicate, and then what is it that does that stuff and then where do they live? So it's a layered cake. And it is very much along the lines of the sun tzu sort of approach. Like you've got a landscape, there is a way of traversing it. There are other entities and they are agents or people or stones, and they create connections, which is value and meaning or curiosity. And you can have an uber story, which is a campaign, or you can have sort of a day to day experience, which is a campaign. You can have an uber story, which is a battle, and then you can have a war, right? Which is the one shot question of why. So if you structuralize that, then you have a bunch of different ways people can come in as an assertion point and a bunch of different ways you can control it and also be loosely associated with it. So I found the spreadsheet an empowering way to work without a database, right? In a structured way that it understands things because columns and rows are rank and file and it does something to how we think. And so if you structure a bunch of things in that regard, then you can say it's like a relational database, and none of us in this room are that kind of person. But how about this as an exercise and this will be what I leave with. And this is a really simple one. Take a spreadsheet and put in one column a list of URL's to publicly accessible images. And then in the next column put a description that you'd like as an overlay on top of those images. And then in the next column write a transition you'd like to have between that in the previous or next image, load up that and then ask it to use a JavaScript framework to create a slideshow of all of those images and give you the HTML file for that. Download the HTML file, put it in the same directory as your images and see what the fuck happens because it will make what you want it to do. Right now I can confidently make landing pages that are absent of visual design like I like it, but structurally there. And I can apply a high level command like make it time sensitive. And then that high level command which I applied unfortunately as a low level policy afterwards it will then say it'll add a sticker, only ten available, two minutes left over top of the whole other thing that it created. So if I add it at the beginning, then maybe it salts it all the way through at the end. I can test if it's not there, then add a strike. That's what cheap advertising is, is they can't figure things out. They add a stripe or a strike or a sun or whatever, you know, badge.
+- id: W-0026
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u57
+  - u58
+  - u59
+  text: Right. So that's where you can just add these like rules at some level. And the thing is, well, maybe the goal is figure out what a potlatch means as a network, you know, so you can do that at the high level. If you put this structure in place of how they can possibly work together and communicate, and then the rules as to how they communicate, and then what is it that does that stuff and then where do they live? So it's a layered cake. And it is very much along the lines of the sun tzu sort of approach. Like you've got a landscape, there is a way of traversing it. There are other entities and they are agents or people or stones, and they create connections, which is value and meaning or curiosity. And you can have an uber story, which is a campaign, or you can have sort of a day to day experience, which is a campaign. You can have an uber story, which is a battle, and then you can have a war, right? Which is the one shot question of why. So if you structuralize that, then you have a bunch of different ways people can come in as an assertion point and a bunch of different ways you can control it and also be loosely associated with it. So I found the spreadsheet an empowering way to work without a database, right? In a structured way that it understands things because columns and rows are rank and file and it does something to how we think. And so if you structure a bunch of things in that regard, then you can say it's like a relational database, and none of us in this room are that kind of person. But how about this as an exercise and this will be what I leave with. And this is a really simple one. Take a spreadsheet and put in one column a list of URL's to publicly accessible images. And then in the next column put a description that you'd like as an overlay on top of those images. And then in the next column write a transition you'd like to have between that in the previous or next image, load up that and then ask it to use a JavaScript framework to create a slideshow of all of those images and give you the HTML file for that. Download the HTML file, put it in the same directory as your images and see what the fuck happens because it will make what you want it to do. Right now I can confidently make landing pages that are absent of visual design like I like it, but structurally there. And I can apply a high level command like make it time sensitive. And then that high level command which I applied unfortunately as a low level policy afterwards it will then say it'll add a sticker, only ten available, two minutes left over top of the whole other thing that it created. So if I add it at the beginning, then maybe it salts it all the way through at the end. I can test if it's not there, then add a strike. That's what cheap advertising is, is they can't figure things out. They add a stripe or a strike or a sun or whatever, you know, badge. Yeah, badge. Then those all can be added afterwards if you can't figure out how to bake them in. Right. And so that strategy is there, you know, in a spreadsheet, it's like, okay, add that column that says, do something funky, and it'll like, okay, cool, right? And you're like, okay, now make a narrative of it. Or I, you can actually have a column of images and do strategic, or do very pointed analysis in each column, right? Analyze it for color, analyze it for tone, analyze it for blocking, analyze it for this, analyze it for that. Come up with a directive that would give me that if I prompted it in this or in mid journey. So you're deconstructing something from a semiotic or symbolic point of view and then reconstructing it. It'll come out different, but you can then get the components of what you want to be able to direct. Maybe you only want to be able to direct the palette in a page or an image and say, I just want to filter it. I don't want to change the image itself. I want it to just be noir. And you can do that in a column by affecting the tone of something. So just have it. If you want to do something mixed media, there's like slideshow js or slides JSDEm. It's just a framework for putting slides together, and you basically have, you would have an external file, like a YAML file or something that would describe them all. And so that's what it can do really well. Create a very minimal technology set that is just a simple HTML page, and give it like a spreadsheet of like, here's ten simple. Or better yet, start with one of your documents. Say, here, create slides out of this, then put it into the spreadsheet and say, here's my content for my slideshow. Here's the framework to put that into, because it won't do a great job if you do it all at once. There are slideshow generators, but I'm just using slideshows as an example. But if you wanted to, you can just have anything in there, anything you can reference as a link on the Internet or any kind of content in those cells. And then you can, say, function on them, iterate and create a new one. You can't repopulate the spreadsheet, but you can download, and then you can re input it, download and create a new one. It's not a 360 yet, so. But the value of being able to just, say, load up the spreadsheet and figure out a way of presenting it right is an exercise that's quite valuable.
+- id: W-0027
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u59
+  text: Then those all can be added afterwards if you can't figure out how to bake them in. Right. And so that strategy is there, you know, in a spreadsheet, it's like, okay, add that column that says, do something funky, and it'll like, okay, cool, right? And you're like, okay, now make a narrative of it. Or I, you can actually have a column of images and do strategic, or do very pointed analysis in each column, right? Analyze it for color, analyze it for tone, analyze it for blocking, analyze it for this, analyze it for that. Come up with a directive that would give me that if I prompted it in this or in mid journey. So you're deconstructing something from a semiotic or symbolic point of view and then reconstructing it. It'll come out different, but you can then get the components of what you want to be able to direct. Maybe you only want to be able to direct the palette in a page or an image and say, I just want to filter it. I don't want to change the image itself. I want it to just be noir. And you can do that in a column by affecting the tone of something. So just have it. If you want to do something mixed media, there's like slideshow js or slides JSDEm. It's just a framework for putting slides together, and you basically have, you would have an external file, like a YAML file or something that would describe them all. And so that's what it can do really well. Create a very minimal technology set that is just a simple HTML page, and give it like a spreadsheet of like, here's ten simple. Or better yet, start with one of your documents. Say, here, create slides out of this, then put it into the spreadsheet and say, here's my content for my slideshow. Here's the framework to put that into, because it won't do a great job if you do it all at once. There are slideshow generators, but I'm just using slideshows as an example. But if you wanted to, you can just have anything in there, anything you can reference as a link on the Internet or any kind of content in those cells. And then you can, say, function on them, iterate and create a new one. You can't repopulate the spreadsheet, but you can download, and then you can re input it, download and create a new one. It's not a 360 yet, so. But the value of being able to just, say, load up the spreadsheet and figure out a way of presenting it right is an exercise that's quite valuable.
+- id: W-0028
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  text: Then those all can be added afterwards if you can't figure out how to bake them in. Right. And so that strategy is there, you know, in a spreadsheet, it's like, okay, add that column that says, do something funky, and it'll like, okay, cool, right? And you're like, okay, now make a narrative of it. Or I, you can actually have a column of images and do strategic, or do very pointed analysis in each column, right? Analyze it for color, analyze it for tone, analyze it for blocking, analyze it for this, analyze it for that. Come up with a directive that would give me that if I prompted it in this or in mid journey. So you're deconstructing something from a semiotic or symbolic point of view and then reconstructing it. It'll come out different, but you can then get the components of what you want to be able to direct. Maybe you only want to be able to direct the palette in a page or an image and say, I just want to filter it. I don't want to change the image itself. I want it to just be noir. And you can do that in a column by affecting the tone of something. So just have it. If you want to do something mixed media, there's like slideshow js or slides JSDEm. It's just a framework for putting slides together, and you basically have, you would have an external file, like a YAML file or something that would describe them all. And so that's what it can do really well. Create a very minimal technology set that is just a simple HTML page, and give it like a spreadsheet of like, here's ten simple. Or better yet, start with one of your documents. Say, here, create slides out of this, then put it into the spreadsheet and say, here's my content for my slideshow. Here's the framework to put that into, because it won't do a great job if you do it all at once. There are slideshow generators, but I'm just using slideshows as an example. But if you wanted to, you can just have anything in there, anything you can reference as a link on the Internet or any kind of content in those cells. And then you can, say, function on them, iterate and create a new one. You can't repopulate the spreadsheet, but you can download, and then you can re input it, download and create a new one. It's not a 360 yet, so. But the value of being able to just, say, load up the spreadsheet and figure out a way of presenting it right is an exercise that's quite valuable. Well, I'm just thinking also of connecting images through other content area. So descriptions or tags, traversing the tags and finding connections. So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m
+- id: W-0029
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u61
+  text: So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m
+- id: W-0030
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u61
+  text: So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m
+- id: W-0031
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u61
+  text: So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m
+- id: W-0032
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  text: So soon as the agents are out there, they should be creating metadata. Right, metadata. Then you have the opportunity, because it's highly structured, you have the opportunity to then create networks of understanding. And so, you know, the simple ask of, oh, contribute a story and we'll see what we get. That's just not good enough. You can get down to the point of understanding why people are crying. You get at the understanding fundamentals. It can be completely off. Most artists aren't very smart that way. Right? And I'm one of them in that we don't close the loop on things because we're like, I don't know, it's messy. Well, this is the opportunity to dial it down whether it's right or not. You dial it down to the bits and pixels and you can be that articulate about it. And it comes on premises. Right? Like everything has a. I call it now to deceit. Everything has at least one deceit. It is that first thing, a faith. Do you believe? And if you believe, then all things flow. But if you don't, then there's no point. So there's, you know, there's value into this stuff, even if the integrity is unto its own, because as an artist, that's all you are. This is a great way of reaffirming that your stuff has internal integrity. Even if it's bullshit. Even if it's. And I would suggest that almost all art is wanking, so it is bullshit. It is an excessive, excessive sport. It's all about waste. So, you know, there's all kinds of ways of being adversarial against what you do in a really positive light because it gets you to think about things. And everybody can think in a spreadsheet, that I know, except for one person, and he's still in business. And I just can't believe that. So whatever, you know, like, you know, you don't even have to do math, but now you can do math and be like, take what's in column a in cell a and add it to what's in cell b and merge the two. You can do that with language now, man. You can do that shit. Blend it, blend it to be more a than b. What hooked me on language was critical thinking, right? Like, I did a degree in English, and what hooked me is that I could understand story from this wild point of view of society and understand that what people were doing in the story was not really what was going on, right. It's like it's allegorical at the simplest level. And so this is very stick figured. Like, in its approach, it's pretty cool stuff. It's just being able to expose it in a way that people can actually access it. Experiencing it is super wild. And I know that I'm fairly alone in that right now, but you can understand, I think, what I'm expressing and what I'm showing you. And I've had a propensity for this kind of thinking. So it's taking me a long time to feel where I am at with it right now. I want to take down, and I'll use that language, take down the market research industry for its lies and deceits. And my participation in it was enough. And it's still continuing to recognize that there's so little value and so much m Monetized and quantified. Right. It's like, take that animation out right now. So the bias is significant across industry and the tools themselves are massively biased. Right. But when weren't they true advertising just got so subliminal you just don't even see it. Yeah. So there's a great deal of a really cool opportunity to, once you can get into the thinking of a network, right, like an ad network is just the messiest kind of network. It's the messiest kind of thinking out there. It doesn't care. It doesn't care to fix itself. And Makda's research is born on making sure things are broken. Like whole industries are like that. And so to expose it in a cascading format is like it used to be. Like if you did one thing, you had to service that one thing forever to keep that relevant. Not anymore. You service one intelligence, it can actually maintain itself and its relevance and it can cascade down and up. And that's why like there's a, the race in BC, whoever I wanted, whoever I want to support will win, guaranteed. If they'll listen to me, if they'll listen to me because I'll simulate the whole province because then they will go out and they will talk to one in every three homes and they will have data on it. On all of them.
+- id: W-0033
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  text: So there's a great deal of a really cool opportunity to, once you can get into the thinking of a network, right, like an ad network is just the messiest kind of network. It's the messiest kind of thinking out there. It doesn't care. It doesn't care to fix itself. And Makda's research is born on making sure things are broken. Like whole industries are like that. And so to expose it in a cascading format is like it used to be. Like if you did one thing, you had to service that one thing forever to keep that relevant. Not anymore. You service one intelligence, it can actually maintain itself and its relevance and it can cascade down and up. And that's why like there's a, the race in BC, whoever I wanted, whoever I want to support will win, guaranteed. If they'll listen to me, if they'll listen to me because I'll simulate the whole province because then they will go out and they will talk to one in every three homes and they will have data on it. On all of them. Well, you'll have a lot of resistance as well. Oh, no, I will have no resistance from parties that aren't, have, have actually zero established base. Yeah, but you have all of this, you know, the established market research and you know, everybody's on there. Yeah, yeah, no, yeah, for sure. And that, that's the thing. So you, when, so me going after politics, I actually going to enable them to do better debates so that they can better themselves as speakers instead of what, what I could do, which would be show them, one, that every, everyone in caucus debating everyone. Right. Powerful unto itself. But not only that, showing the distance between the, the electorate and the caucus is quite evident. So there's all kinds of things there. But it, it, it would be more interesting to go after a whole sector that supports poor decision making processes. And I've been asked to really apply, like, how, where does work, Sona work? Like, where is it? Where's it going to come up? And it's hard. It's hard for me to find a place where at scale, it functions. But personally, I'm getting there quite well with these notions of spreadsheets and simulations, like this notion of leet. You know, it could. It'll. It'll get. It'll bank six figures high, six figures easy without effort, and could go higher based on just nfts and trading. Right. You put agents underneath all that, and it just goes insane. So there are very few examples out there that are showing what this stuff does more than just creating content. The experience isn't there. Did you ever play cryptokitties?
+- id: W-0034
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  text: Yeah, yeah, no, yeah, for sure. And that, that's the thing. So you, when, so me going after politics, I actually going to enable them to do better debates so that they can better themselves as speakers instead of what, what I could do, which would be show them, one, that every, everyone in caucus debating everyone. Right. Powerful unto itself. But not only that, showing the distance between the, the electorate and the caucus is quite evident. So there's all kinds of things there. But it, it, it would be more interesting to go after a whole sector that supports poor decision making processes. And I've been asked to really apply, like, how, where does work, Sona work? Like, where is it? Where's it going to come up? And it's hard. It's hard for me to find a place where at scale, it functions. But personally, I'm getting there quite well with these notions of spreadsheets and simulations, like this notion of leet. You know, it could. It'll. It'll get. It'll bank six figures high, six figures easy without effort, and could go higher based on just nfts and trading. Right. You put agents underneath all that, and it just goes insane. So there are very few examples out there that are showing what this stuff does more than just creating content. The experience isn't there. Did you ever play cryptokitties? I didn't play it. I looked at it, though, okay? It was the only experience of the blockchain for a while. It was like. And underneath it, it's exactly this. It's exactly this kind of thing you're talking about. And I'm talking about. It was a well done experience, but throwing agents underneath it. So you have the experience of intelligence, communication and human touch instead of just. Yeah, exactly. Which takes it out of the realm. Of realm. It gives it collectible in this weird way. Right. And that's what I know. It'll be like, super successful even as just a toe in the water, because I can already figure out how to generate these agents so they're unique. Already figure out how to put them on the blockchain and already figure out how to give them history and. And make money out of each step without me doing the tech, because it already exists. So, like, that's. That's where things are getting very interesting. And like, it's not the how can I make an agent? It's like the agents are like, yeah. Those are made there many.
+- id: W-0035
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Of realm. It gives it collectible in this weird way. Right. And that's what I know. It'll be like, super successful even as just a toe in the water, because I can already figure out how to generate these agents so they're unique. Already figure out how to put them on the blockchain and already figure out how to give them history and. And make money out of each step without me doing the tech, because it already exists. So, like, that's. That's where things are getting very interesting. And like, it's not the how can I make an agent? It's like the agents are like, yeah. Those are made there many. And how I make them is fairly unique almost every time. And so I'm like, well, you know, my best practices I can't follow because I can't afford building the system to pump it out. It's so expensive in terms of my time, but it works really well. Like, and so I, you know, late meeting with Jason Christie this afternoon, hopefully continue with that work. But this is. It's a good time to be. To hack in there. And it's like you're at the point, honey, for. You're trying to figure out, you know, why in a meaningful, a meaningful way of why, why, why really go hard at. Yeah, but also the why. But also this kind of systemic why? You know. Yeah. The why. So the two whys, the why of purpose, which is the hanif why and then the why of movement, which is the how. Yeah, yeah. What motivates the interaction and the. Yeah. What. Where does it get its momentum and movement. Yeah. What's the. What's the hood spa underneath? And so that's the entity kind of analysis. Right. It's like it's recognizing everything is influential and users are just the same as a rock. Yeah, yeah, absolutely. And that interaction is actually the key. Yeah, yeah. If it gets you to think about, you know, everything always all at once. Like, so that's the residual purpose. The best scene is like the one of curiosity is like, okay. It's like the curiosity is, why is this doing that? And my God, it's doing it really well.
+- id: W-0036
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  text: Where does it get its momentum and movement. Yeah. What's the. What's the hood spa underneath? And so that's the entity kind of analysis. Right. It's like it's recognizing everything is influential and users are just the same as a rock. Yeah, yeah, absolutely. And that interaction is actually the key. Yeah, yeah. If it gets you to think about, you know, everything always all at once. Like, so that's the residual purpose. The best scene is like the one of curiosity is like, okay. It's like the curiosity is, why is this doing that? And my God, it's doing it really well. So I know it's so super exciting. And, you know, this, the notion of the enterprise that wants to know itself is pretty interesting. I shared it a little bit last time. But yeah, I think that's, again, it's about that emergent nature. Right. The emergence is super cool. Yeah. I'll just give you the spreadsheet. Yeah, very cool. And then the prompting process, um, so that, you know, gives you something to work with. You saw how I just think about it. Yeah, I saw how, you saw how. It just copied and pasted that second sheet in there. Hey. Like, I didn't what the actions. Yeah. I just caught and it got it because it had enough structure. Like, um, it wasn't even comma separated. It just figured out that it was kind of a table. And, um, that's what I call jamming. Like, like if you, that wasn't finesse, but it got it right. And so my thing is like, there's a, to draw back on what you've taught me. The weak thought idea is really, really in here is like, what's the least I can do new to get some feedback that shows me I'm moving in the right direction.
+- id: W-0037
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  text: And then the prompting process, um, so that, you know, gives you something to work with. You saw how I just think about it. Yeah, I saw how, you saw how. It just copied and pasted that second sheet in there. Hey. Like, I didn't what the actions. Yeah. I just caught and it got it because it had enough structure. Like, um, it wasn't even comma separated. It just figured out that it was kind of a table. And, um, that's what I call jamming. Like, like if you, that wasn't finesse, but it got it right. And so my thing is like, there's a, to draw back on what you've taught me. The weak thought idea is really, really in here is like, what's the least I can do new to get some feedback that shows me I'm moving in the right direction. Right. And that would be what I would suggest is a paradigm for this whole kind of enterprise. It's like, what is the minimum that I require to add to juice the system to motivate it to then function? All right, then I'm going to move on to building a cryptocurrency network. That's different. The same idea, but, you know, asset backed tokens, nodes on a network, you know, and there's sub networks within them and their value chains there. And I'm trying to get at the real value and meaning of them. Right. And they are. They're, like, focused on. Which is neat. A spreadsheet. Yeah. Right. Because that's where they crunch their numbers and they say, well, now we need some traffic transactions and interactions around how that model works to support the model. So it's the same space. And if it's figuring out that motivational jam. Right. And it's got to be super light, and it can't be expensive because people are tired and busy and don't like to think. They like to be overwhelmed.
+- id: W-0038
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  text: And they are. They're, like, focused on. Which is neat. A spreadsheet. Yeah. Right. Because that's where they crunch their numbers and they say, well, now we need some traffic transactions and interactions around how that model works to support the model. So it's the same space. And if it's figuring out that motivational jam. Right. And it's got to be super light, and it can't be expensive because people are tired and busy and don't like to think. They like to be overwhelmed. Well, cool. I'm excited by all of it, and we'll think about this. And. And I'm going to Toronto next week. Yes. Install. Yeah. Yes. I saw the panels on Monday, and they're like, really cool. You're smiling like that. I was like, holy crap, those are good. Oh, so I want to. I want to be chatting with you when you. When you're there. Yeah. I got these made, these deck of cards. Oh, cool. Leave behind. I love when you do it, man. I love when you do it. What is this project? It's an install, installation at Deloitte in Toronto. And so I did this multi panel thing in there, acrylic face mounted panels. I'll share more about it if you like. But, yeah, it's going on Monday, and then the vinyl goes up on Tuesday. Panels go out on Wednesday, so. Looking forward to it. Yeah, the big stink. That's a few days in. The big stink is good. Yeah. And then I think I can take a little break from there so I'll have time to reflect on all of this. And this is the next thing on the horizon.
+- id: W-0039
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  text: It's an install, installation at Deloitte in Toronto. And so I did this multi panel thing in there, acrylic face mounted panels. I'll share more about it if you like. But, yeah, it's going on Monday, and then the vinyl goes up on Tuesday. Panels go out on Wednesday, so. Looking forward to it. Yeah, the big stink. That's a few days in. The big stink is good. Yeah. And then I think I can take a little break from there so I'll have time to reflect on all of this. And this is the next thing on the horizon. Hey, Eric. He should go see our past girlfriend. In Toronto. Just had to get that in there, didn't you? Yeah, I did, Eric. Yeah, you did. Some shared history. Anyways. Yeah. Jennifer Papararo is at an art gallery in Toronto. She is incredibly connected to the art scene in Toronto. What's. What's the art gallery? I have no idea. I'm not incredibly connected to her anymore. I think she's got the ago or. No, the power plant, PowerPoint. I don't think she's. Oh, hey, LinkedIn. I don't even. People in the art world don't use LinkedIn. Yeah. It's funny, like, how LinkedIn is just not even a thing for so many industries. I barely look at it. But that's not saying much. It's got a spammy. It's awful. Yeah, she has nothing. She has zero on LinkedIn. Anyhow, I'll go and I'll be in touch and you'll be in touch. While you're in Toronto. What day do you go? Say, Monday? Okay, so yeah, we'll be in touch. Enjoy your weekend.
+- id: W-0040
+  t_start: 3780.0
+  t_end: 3877.98
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  text: I barely look at it. But that's not saying much. It's got a spammy. It's awful. Yeah, she has nothing. She has zero on LinkedIn. Anyhow, I'll go and I'll be in touch and you'll be in touch. While you're in Toronto. What day do you go? Say, Monday? Okay, so yeah, we'll be in touch. Enjoy your weekend. Yeah, you too. Men. I'm sure. I'll be in touch. Thanks for the download. That was great. Yeah, I didn't get a little further, but it was a. I think it's a good, good exercise. And you can, you can. In the same way you can get it to iterate, you know, like on the traits of a stone. Like if you want it to be passive aggressive, roll, rock, you know, you could give it all gradients and then it can be very specific. And that's what nfts do. Like digital nfts. That's. It's just a generator of numbers that are associated with the trait. Cool. And in this case, add a story tell. All right, thank you. It's.
+- id: W-0041
+  t_start: 3870.0
+  t_end: 3877.98
+  utterance_ids:
+  - u143
+  text: All right, thank you. It's.

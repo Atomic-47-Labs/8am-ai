@@ -1,0 +1,28 @@
+id: IDEA-0312
+slug: ai-integration-strategies-and-technical
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-06-11'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'David explained two approaches for AI integration: sending API calls vs sending datasets directly to LLM Introduction to Model Control Protocols (MCPs) for standardized agent-to-database communication Discussion of agent-to-agent protocols using JSON for structured information exchange Explanation of how LLMs can determine appropriate tools to use through MCP framework David recommended using Claude 4.0 for reasoning and implementation guidance Emphasis on providing reasoning context (''why'') to improve LLM performance in IDEs'
+summary: AI Integration Strategies and Technical Implementation
+rationale: 'David explained two approaches for AI integration: sending API calls vs sending datasets directly to LLM Introduction to Model Control Protocols (MCPs) for standardized agent-to-database communication Discussion of agent-to-agent protocols using JSON for structured information exchange Explanation of how LLMs can determine appropriate tools to use through MCP framework David recommended using Clau'
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 63.9
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.2
+  concretion: 15
+  uniqueness: 15
+  carryover: 0
+rank: 131
+tier: queue

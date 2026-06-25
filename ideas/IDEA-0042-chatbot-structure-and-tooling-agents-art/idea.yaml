@@ -1,0 +1,28 @@
+id: IDEA-0042
+slug: chatbot-structure-and-tooling-agents-art
+phase: backlog
+track: heavy
+source:
+  meeting: '2026-01-28'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson detailed the internal structure of their demonstrated chatbot, explaining that it relies on the LLM as a system to determine which tools to use, with underlying MCPs and agents.
+summary: Chatbot Structure and Tooling (Agents, Artifacts, Skills)
+rationale: David Olsson detailed the internal structure of their demonstrated chatbot, explaining that it relies on the LLM as a system to determine which tools to use, with underlying MCPs and agents.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:05Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 49.8
+grade_breakdown:
+  evidence: 15.9
+  theme: 8.7
+  recency: 3.2
+  concretion: 7.0
+  uniqueness: 15
+  carryover: 0
+rank: 450
+tier: backlog

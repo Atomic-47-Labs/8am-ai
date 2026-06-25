@@ -1,0 +1,28 @@
+id: IDEA-0382
+slug: context-management-and-documentation
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-02'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Importance of leveraging functional code examples rather than just understanding for documentation Proposal for shared rules repository where all team members contribute standardized rules Global and project-specific rule sets concept - rules applied across all projects vs. project-specific rules Discussion of MCP for context management - programmatically injecting and sharing context across projects Fulvio''s commit rules example: commit when feature complete or when taking breaks, with automatic documentation updates'
+summary: Context Management and Documentation
+rationale: Importance of leveraging functional code examples rather than just understanding for documentation Proposal for shared rules repository where all team members contribute standardized rules Global and project-specific rule sets concept - rules applied across all projects vs. project-specific rules Discussion of MCP for context management - programmatically injecting and sharing context across proje
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 54.6
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 0.3
+  concretion: 5.5
+  uniqueness: 15
+  carryover: 0
+rank: 334
+tier: backlog

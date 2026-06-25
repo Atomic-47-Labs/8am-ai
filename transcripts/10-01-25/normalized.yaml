@@ -1,0 +1,938 @@
+meeting:
+  date: '2025-10-01'
+  title: 8am-AI 2025-10-01
+  participants:
+  - David Olsson
+  - Spencer MacBeth
+  - Jason Kryski
+  - Graham Fawcett
+  - Ying
+  duration_s: 3474.29
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - 8am-AI-2025-10-01.md
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 25.69
+  t_end: 26.19
+  text: It.
+- id: u2
+  speaker: David Olsson
+  t_start: 127.16
+  t_end: 131.06
+  text: Hello, hello, hello.
+- id: u3
+  speaker: David Olsson
+  t_start: 138.42
+  t_end: 157.87
+  text: My machine right when I was doing it on. That's cool. How was the conference? It was good in a bunch of ways. Let's see here. In terms of not takers. Let's kick one of these guys up.
+- id: u4
+  speaker: David Olsson
+  t_start: 163.23
+  t_end: 244.64
+  text: It was an interesting conference. It's kind of important for that area, I guess where there's government is interfacing with research and industry because the organizers were part of something called scale A.I. they have like three research facilities across Canada and what's called the A.I. super cluster. Super cluster. So they, they have these set up in different places like Montreal, Toronto or slash Waterloo and then Edmonton. So this one was put on by Melia and they spent $200,000 on their booth. Man, I'm just like, you guys are just. Because it's government money. And so they're there to stimulate industry from research point of view. And then Scalia does it from a financing point of view and they're the key part of there. Evan Solomon was there. He spoke about what the Canadian government was going to do and then he announced that he has 30 people that he's going to bring to council and they have something like 26 or 30 people to, to. They have 30 days to provide their feedback or input into the process as to what should happen with funding AI in Canada from a sovereignty point of view.
+- id: u5
+  speaker: Spencer MacBeth
+  t_start: 245.84
+  t_end: 247.36
+  text: That should only take 30 days.
+- id: u6
+  speaker: David Olsson
+  t_start: 248.32
+  t_end: 433.49
+  text: Yeah, and it's, it's interesting. So you know, people are critiquing the list and all that too. So that's, you know, there's a lot of that from us. We got to present. We had four hours where we had a booth and we talked to a bunch of people and we had three people there as a cohort for atomic and that there was a lot of learning going on. I met, I met some good companies for AMQC that do document processing and there's a lot of, A lot of people that have agentic projects with similar tech and infrastructure that rely on all the other infrastructure that are all steaming ahead with, you know, a few clients and test cases and similar techniques and approaches. And I would say that the, the, the enterprise field is toe to toe as to what they say they do and how they do it. And everybody has kind of forgiven themselves about the billions of dollars they, everyone over with particularly cohere. You know, they're, they're, they're on top of the game. The big message was infrastructure. Like not infrastructure. The infrastructure we use in the infrastructure to do reinforce learning training and building models and data centers that kind of infrastructure and then to enable enterprise. And so there's a big focus on that because it's switches and gears and machinery and things you point to. But it is still more of the same type of investment that we see, see in the broader global market. Right. There's like billions going into data centers and then there's brilliance going into energy by virtue of that. And so the same sort of systematic thinking is going on here. They're trying to get a cross section of the industry and this council of people that they have for the government to then assign monies. But when they assign monies it's in, it's in the buckets of like, you know, it'll be like a billion dollars or $2 billion. And that's, that's one fifth of a data of a data center. Yes, it's, it's like. And so the trickle down effect is unknown, if not zero. And how to get people to use the infrastructure is like not really the focus right now other than enterprise getting more involved. And I would say that there's a huge gap of learning in enterprise. Like they're now, now everybody has stuff, they got at least a chat bot going. They have access to Claude or GPT or Copilot, one of them at enterprise level. And then they just do A lot of the companies that do service, those enterprises recognize that enterprises themselves are like doing a bunch of skunk works and then they'll have, they'll have a problem. They don't know what's going on. It's kind of like if I've had, I've known some people in network security that are hired by like RBC to, to tell them what apps do we have?
+- id: u7
+  speaker: Spencer MacBeth
+  t_start: 434.29
+  t_end: 434.85
+  text: Yeah.
+- id: u8
+  speaker: David Olsson
+  t_start: 435.25
+  t_end: 479.62
+  text: And they're like, you've got 10,000 apps. And they're like what? Yeah, yeah man, you've got 10,000 apps running on your network. And I think that's the problem is that there's not a cohesive way to understand that everybody's got a, some level of observability and they have all the check boxes for things, especially if they're on the bigger stages giving presentations. Yeah, saw a couple of really good ones. And you know, I came by way with an understanding that people aren't really solving anything any differently and that the speed of things is pretty crazy and it's, it's already leaving in this enterprise behind. Meaning that there's tools being afforded but not knowing what to do. Yeah, people believe this stuff works now.
+- id: u9
+  speaker: Spencer MacBeth
+  t_start: 480.42
+  t_end: 510.2
+  text: Yeah, yeah, lots of stuff flying around about like, you know, in House projects versus like external, like specialist teams and like something around, I think like a 65 to 70 success rate for like small pilots with like particular use cases partnered when partnering with an out. An external company. But like less than one third of that when people are like trying to build like in house directly. Like, yeah, yeah.
+- id: u10
+  speaker: David Olsson
+  t_start: 510.2
+  t_end: 537.59
+  text: There's some interesting ways of positioning it. And Jen and I have been talking, especially some insider knowledge about how one organization is adopting AI in a weird way because they don't know what to do. And as a result, you know, leaders implicitly surface. Right. And as a result of that, they share their shit. And as a result of that, that leader's bias is baked into the whole organization's use of prompting.
+- id: u11
+  speaker: Jason Kryski
+  t_start: 538.07
+  t_end: 538.63
+  text: Yep.
+- id: u12
+  speaker: David Olsson
+  t_start: 539.67
+  t_end: 675.92
+  text: And just. It's a. It's like I laugh because I'm like, oh man, that guy's signature is all over the company or the girl. But it's, it's worse than that. It's like people are just using it expensively, you know, like on their time producing slop and then getting disappointed and so. And then distributing it and then, and then, and then causing chaos and I think. So that was one of the things about having a lot of skunk works internally. Interesting to find the stats behind that kind of thing. As a service organization like myself, it did produce leads and Jen was very good at figuring out how to do that and how to, how to get in and be able to get some intelligence so that when we're talking to somebody in a demonstrative way that we're working within their problem set. So that was a big step up in terms of what we got going on and was neat to be part of the BC cohort. I say that was probably the biggest success is that learning about the other companies from B.C. and having time spent with them because they're all eager to talk and they were there early and all that other thing. But 70 companies, 170 people or something like that, that. So it allowed for having a peer group there. And I've done this previously where I went to Austin and it's really cool that you can actually just like, oh, hang out with somebody and then recognize they're actually in Kelowna and they've been doing machine learning for 12 years. And you're like, what the hell, man? It's a company called Data Data Speckle. Anyways, so there's all kinds of interesting people that got cherry picked from a provincial point of view that are here in town that just don't surface because of certain inefficiencies. In our ecosystem. So that was another one. So, you know, there's a lot of learnings as to what it means to have a government infused and funded ecosystem that can stay relevant in this space. Because I would suggest that any accelerator that's government funded right now is useless unless it embraces this stuff wholeheartedly because they're not moving fast enough.
+- id: u13
+  speaker: Graham Fawcett
+  t_start: 675.92
+  t_end: 677.88
+  text: What do you think the limitations are?
+- id: u14
+  speaker: David Olsson
+  t_start: 678.76
+  t_end: 772.11
+  text: How are you training the next round of entrepreneurs if you're not training them with these tools? And if you're not training and how do you train with them if you're not using them? And if you're using them, then they're baked into your curriculum. That's Dave's rationale. As an instructor or university teacher, you find evidence of it happening or you don't. And then if you bake it in, then the value. So they have all the right values, these organizations, but they have to be motivated in a different way now. And I would suggest companies have the same problem. It would be difficult for us to say that we have a niche perspective on rag and then we're going to really be good with this one kind of document and that somebody should ignore listening to Cohere on this one stream, you know, this one thin slice and then just won't work with us even if we can prove that we're twice as efficient. It would be very, very, very, very, very difficult right now to get any ear, you know, ear on that because it's, there's just too many question marks. So there's a big advantage for people that were already working within enterprise to, to earn that and to figure out where there's, where there's gaps in what they're doing and their ability to really motivate it. So there's lots of cool stuff. It was better than Web Summit. I went to Web Summit and you'd think that would be rock and rolly, but not so much.
+- id: u15
+  speaker: Graham Fawcett
+  t_start: 772.83
+  t_end: 776.27
+  text: What did you learn about Cohere? Because they're like the biggest player in Canada, right?
+- id: u16
+  speaker: David Olsson
+  t_start: 776.59
+  t_end: 859.31
+  text: Yeah, you know they were, they were brought up through the scale AI system so darlings and they have the big relationships. They were there at the formative level like Bell announced. Well, everybody's announcing fabric AI or AI factories, you know, like this combination of services specific to Geni and then infrastructure underneath it. Bell and then Telus both announced them. So they were major players here. The cohere is, is, is in that space and because they are brought up in the ecosystem and showing success and have science and, and then you know, they're working on the models they were. It was easy for them to convince people to use them in this specificity they have in their secure way, in their way that they do things. And now they have learned a lot and they're, they're the player in Toronto East, I would suggest, that has a lot of people wanting them to succeed. And he's all about not moving our CEO. He didn't show up, at least in on stage, and so he sent other people. So there's, there's like, it was, it was all about how the ecosystem can generate opportunity up to the point of commercialization. And then they're like, that's the problem we have. And I'm like, man, I've been wrong for like 30 years.
+- id: u17
+  speaker: Jason Kryski
+  t_start: 861.23
+  t_end: 875.37
+  text: The thing is, like, this is not a new approach or new problem and it hasn't worked before and it's kind of a bummer. I, I think like the Cohere CEO probably already has his meaty hooks into all that government money, so what does.
+- id: u18
+  speaker: David Olsson
+  t_start: 875.37
+  t_end: 897.24
+  text: He need to show up for? He does, He's. Yeah. So I think that's really telling. Right. And so there's other people there that were, I would suggest that was what's going on. Interestingly enough, a week before, down in San Francisco, there's another event called all in. And when I was like booked to go to this one, I found that one. And you look at the name plates on that one, you're like, oh, that's where the decisions are being made.
+- id: u19
+  speaker: Jason Kryski
+  t_start: 898.28
+  t_end: 900.44
+  text: Oh, you mean looks like the All In POD event.
+- id: u20
+  speaker: David Olsson
+  t_start: 901.08
+  t_end: 903.66
+  text: Yeah, like they're pretty significant people. Yeah.
+- id: u21
+  speaker: Jason Kryski
+  t_start: 903.52
+  t_end: 906.44
+  text: Jamie went to the one in LA last year. It was good.
+- id: u22
+  speaker: David Olsson
+  t_start: 906.76
+  t_end: 941.69
+  text: Yeah. So this one was about interfacing at three levels, like the PPP thing and then figuring out how to make that more successful. And the notion of sovereign was really a new one for everybody. And you know, when they were applauding themselves about how much they, how much they're allocating, I'm like, man, that's just admitting we're, you know, we're Senior B instead of senior A. We're not like $200 million doesn't do anything for health care, you know, I.
+- id: u23
+  speaker: Jason Kryski
+  t_start: 941.69
+  t_end: 944.13
+  text: Mean, you might as well just flush it down the toilet. What is it going to do?
+- id: u24
+  speaker: David Olsson
+  t_start: 944.13
+  t_end: 1013.05
+  text: It's not just going to add more a layer of complexity on top of things that isn't rudimentary. And, and so that's, that's the thing that's really curious is to, to understand how they can do things differently at the level that you're talking. Jason. I'll shut up in a second. But the level you're talking, like, they brought more people into a council for 30 days and asked them what their opinions are. Bring 30 people into the room and get them to build you something in 30 days. Like, for Christ's sake, all these people have the billions of dollars invested in them, them, and they're the ones that are the thought leaders. Don't get their bloody opinions on. Do what you should probably do, Set pods everywhere, in every ecosystem that you generate grassroots and go all the way to the bottom line. But no, they've got these people in there. I don't know what IP they're generating, but they should be generating some of the most significant IP the government can actually muster for free. And I bet you they get an opinion list that we could pull up next meeting and prioritize it just like they would. What's. What. What.
+- id: u25
+  speaker: Jason Kryski
+  t_start: 1012.75
+  t_end: 1098.78
+  text: What was the name of that thing that kind of popped up during the election that, like, Toby and Harley were. Were behind there was. It's like a Canada thing. You guys remember what that was? It's like, build Canada. Yeah, that's the one. You guys familiar with that? You guys see that at all? Know, anyway, it's like, that's kind of like grassroots. Like, hey, like, let's get some of these things fixed. Let's, like, actually fix shreds, so it's not like you don't want to blow your brains out doing that. And then, like, let's, like, fix some of the capital gains things and like, let's incentivize some entrepreneurship and like, let's, you know, make it easy for angel investors and for, like, venture funds to work in this country. Like, let's fix some of the structural stuff that, like, support this other thing. Because, like, what happens is they get, like, kind of down the road and then they're kind of like right at this end point where they've got a bunch of companies, but none of these, like, fundamental things have been fixed. And it's like a wholesale. Like, let's just fix the ecosystem. But they're kind of like, oh, like, well, let's just do the AI thing. Here's some companies. You guys are doing some stuff. But these companies are all, like, not all, but, like, not as strong as they could be because of all the kind of fundamental stuff that they had to go through. There's just not the access to capital privately. And so we all suck on the teeth of daddy government to kind of like, give us a hey, Penny. And it's just not enough to make anything work.
+- id: u26
+  speaker: David Olsson
+  t_start: 1099.58
+  t_end: 1341.66
+  text: And you can get on, you can get underfunded, right? You can even be underemployed. You can, you can do that. You can get, you can get just enough funding to skew yourselves. Anybody in research and academia probably understands that one really well. Jen built a research team of 20 people at Waterloo. That's incredible, a whole lab. And so you end up doing nothing but paperwork because that's how the government sets you up. So you don't do any research. So you end up in this place where if you're underfunded then all you do is just keep things going. And you know, that's kind of how if you're in a space and you can't afford to eat your own dog food enough, then you're just servicing your clients and you know, and everybody says, oh my website sucks. And you're like, yeah, you got no sales opportunities then, do you? Right, like, so there's all kinds of weird repercussions that happen because of the fact that people have to be super busy in an ecosystem that's not properly built out. And I would suggest that Canada has been like that for quite a long time. It's been as Jason says, so they have all the opportunity now with this AI kind of undercurrent. Like if they're going to throw billions of dollars at it, it's like, it's not like it doesn't take the data center money to fix that problem. It's a lot about awareness and funding and incentives. BC already has some pretty good incentives for investing in BC companies, but the BC cohort was promoting bc talking to BC too. And I'll just say this startups working with startups, we can empathize, but building a house of cards really. You know, we want to work with companies that have traction and have problems and we're working to solve those problems. You know, empathizing at the level of building each other up and sharing capabilities, intelligence and awareness at a level of startup ecosystem is great, but it's, that's one of the team BC kind of themes. It was good to know them and meet them all and see what their problematic themes are. And now I've got some intake coming and happening and we'll have some great relationships with different people and sovereignty is a kind of a weird one because I have some concerns for the edge and you can consider that a sovereign space. So I, technically speaking, some of the providers there were actually, well on my bailiwick. But the themes, they were difficult at times for me, but I did garner some respect for Evan Solomon, more than I had before. But the numbers that came out in the press releases were really disappointing. So it's, it's a really important thing and they're going to have more of them and so we'll go to it. And we're already being asked to present and do workshops in Vancouver. There's another summit coming up. And so there's a ladder of opportunity that if you participate in conferences at the level that my peers, executives can get access to, then there's opportunity that does happen for us. But it's a training ground for building relationshi
+- id: u27
+  speaker: Graham Fawcett
+  t_start: 1345.58
+  t_end: 1357.63
+  text: What do you think the underlying incentives are that remove capital from this country or make it very difficult or large scale venture capital and startup ecosystem building?
+- id: u28
+  speaker: David Olsson
+  t_start: 1361.31
+  t_end: 1365.15
+  text: You got it. Anybody got an answer? Does anyone?
+- id: u29
+  speaker: Graham Fawcett
+  t_start: 1365.55
+  t_end: 1366.91
+  text: Does Jason have an answer?
+- id: u30
+  speaker: Jason Kryski
+  t_start: 1367.15
+  t_end: 1374.27
+  text: Yeah, man, Probably a bunch of opinions anyway. I mean, what are the challenges? I think like we have cultural challenges.
+- id: u31
+  speaker: David Olsson
+  t_start: 1374.59
+  t_end: 1375.39
+  text: That was what I was.
+- id: u32
+  speaker: Jason Kryski
+  t_start: 1375.95
+  t_end: 1426.43
+  text: Yeah, I think that's like the underlying primary problem. So like when you have an entrepreneur who starts something who, you know, raises some money from like angels or something, the angels expect that investment to work. Like, despite having been trained that like they need to have like a cohort of like 10 to 20 investments in order to produce a return on all of their investments. And that being like a well established, you know, model, there's still like a oh, you lost my money, you kind of attitude. And so, I mean, I think I just learned yesterday another one of my investments folded. So I think I'm down 4 right now in terms of angel investments. And I'm kind of like, oh, one more closer to whichever one lasts, you know, and actually works. And I don't hold it against those people. Like they tried as hard.
+- id: u33
+  speaker: David Olsson
+  t_start: 1426.83
+  t_end: 1428.67
+  text: 5%, right? It's a 5%.
+- id: u34
+  speaker: Jason Kryski
+  t_start: 1429.15
+  t_end: 1579.55
+  text: Is it 1 in 20? Yeah, I thought, I was hoping it's 1 in 10 that I gotta do. It's got to be 1 in 10 for me because I only made 10. So I need a, you know, 50% better than the background anyway. But you know, like culturally we have this issue and then like we've got people who do exit and like have, have money. Don't typically get really engaged. We don't have like a strong community of all of these people. It's not the access isn't ready. Like the venture funds say that they're early stage. Don't really invest in early stage things at the risk tolerance that like US based early stage funds do. Yeah, I mean we got a bunch of DEI stuff on top of that right now, I guess. Saw that AI chair at Dalhousie job posting. But you have to be like a disabled woman in order to be able to get the job. And I'm like, this isn't say this isn't meritocratic. Like you know, like are we going to get the best person? I mean like it should be open to anybody, but we shouldn't be specifying characteristics of the individual that we need to hire anyway. I think there's, I think cultural is the biggest issue that I've seen. And then just no one's written pulling their checkbook out in any way and the investors are generally pretty unsophisticated. And then we've got like weak networks. Once those founders have that money. One of the strengths that the US has, look, look at why Y Combinator works so well is because they have this ridiculous network that once you're plugged into that system, there's a tacit. You could have an introduction to anyone in that network. It's like how a lot of ethnic groups actually operate, you know, successfully, you know, where like if you're in that ethnic group, you can get like an intro to anyone else inside that ethnic group. They'll take your call because you know, like it's in, in group kind of orientation. And so we don't really have those kinds of like structures in Canada in terms of like social or professional structures. So it's very loose. Yeah, I watch a lot of people struggle. It's kind of nuts. Anyway, that's my little rant. But anyway, I just looked at the all in thing, Dave, and I realized that it's actually an AI conference called all in. And it's not like the all in AI conference or like the all in conference which everybody in tech is aware of, like, which is a totally different thing. And why they picked that name blows my mind.
+- id: u35
+  speaker: David Olsson
+  t_start: 1579.71
+  t_end: 1640.53
+  text: I, I, as soon as I knew that there was a, it was a really big deal calling it all in. If you were from California or part of tech, it was like, wow, how naive were they in naming it and then making it a really big deal. Right. So it's, it's a weird one, but inside the community, especially if you're one of the partners and organizers, they all got what was going on. And I would suggest, I, I firmly would agree with you that it's cultural and that it's an attitudinal thing. Having been involved with some US businesses and seeing how quickly we could do business, man, I was like, this is not possible. You know, it was, it was actually easier and it was really quite cool. And so there's a really big problem with us in the US right now in terms of how things potentially operate. But there was a, there is a different ethos of business in the US and there's a really, just as you said, there's even a harder proving ground for the investment. It's not the right level of investment. That's probably what they call it.
+- id: u36
+  speaker: Jason Kryski
+  t_start: 1641.09
+  t_end: 1667.23
+  text: Yeah, I mean, I don't know, I feel like you guys probably knew about this conference because like Karen's pretty plugged into the government side of things and like that's how you need to know about things. It's like, it's kind of like what's peripheral to like government funded something and if you're not like paying attention to that world or like peripheral to academia and you're just a startup like working away like you have no idea these things are happening.
+- id: u37
+  speaker: David Olsson
+  t_start: 1667.55
+  t_end: 1731.86
+  text: Yeah, we're, we're involved in Alberta and then and we have the project there and we've approached Amy there. So that's how we got into it and recognized how silly that organization can be. It actually creates competition with the ecosystem he said how they fund. I'm like, oh man, you guys got it all weirded up. But that, that was how we got brought into it. And now because of my team members, they're, yeah, Karen and Carol and now Jen, Jen's part of Waterloo and ubc. So there's a good connection that we have at the research level to the infrastructure level, but still trying to shake down opportunities for an organization that's a consultancy that has their own ability to build products and has product. If you want to Call it that is still tough positioning. I'm in a lot of talks with Jen right now trying to fold in learnings and build strategies such that we can track on it. So it was a really neat one to just focus on how do we deal the sales on this one. And we came up with people and that's kind of what the goal is and then an understanding of things. Again.
+- id: u38
+  speaker: Ying
+  t_start: 1733.36
+  t_end: 1745.2
+  text: Sorry I'm coming late. Maybe I missed this. In your email you said there's update from the conference. Where can I find update? Or you just shared it.
+- id: u39
+  speaker: David Olsson
+  t_start: 1746.48
+  t_end: 1748.08
+  text: You'll get in your transcript now.
+- id: u40
+  speaker: Ying
+  t_start: 1748.96
+  t_end: 1757.92
+  text: Okay. Okay. Do you know whether there's access to their conference material? Do they share anything?
+- id: u41
+  speaker: David Olsson
+  t_start: 1760.02
+  t_end: 1822.08
+  text: I would suspect that it would be just as easy to find it through search and perplexity and Google all in event. If you do that, you'll find the website and they have the list of the. Like you can. Everything's publicly accessible pretty much. So you can see what the speakers, what the sessions were, what the themes were. If you'd like some analysis, I've done that. But that was all pre event. And so I think what's really neat to do is to just get a sense of the event which was this confluence of government, industry and institutions. See what the press releases are because they're usually quite telling because if they're the same thing you've heard before, then that's where the conference was. But you know there's supposed to be billions of dollars flowing and that's the biggest thing. Um, and I don't have any inside source. Like the promoters don't do that kind of thing. I read their blog posts and it's just, it's just sales. Right. They just care.
+- id: u42
+  speaker: Ying
+  t_start: 1822.96
+  t_end: 1832.96
+  text: Yeah. What is the three main takeaway? If you can summarize. But if not, that's okay. What surprised you?
+- id: u43
+  speaker: David Olsson
+  t_start: 1833.52
+  t_end: 1879.21
+  text: The government is still. The government functions like a government and so they have council coming together to gather opinions and then they're going to allocate based on opinions. There's a lot of people that all have the same solutions either at enterprise or mid level. There's a lot of people with agentic solutions. There's not a lot of people buying these. Everyone's selling and the state of the art is pretty much understood to be that you will have agentic workflows and agents doing a lot of the work in that space. There wasn't fear of losing jobs, but there wasn't anybody making sales. Um, so in terms of an entrepreneur, you might not last long. But yeah, there's probably More I would ask what are the themes of this? I would just ask that of the transcript. It's probably better.
+- id: u44
+  speaker: Ying
+  t_start: 1880.17
+  t_end: 1881.45
+  text: Okay, great. Thank you.
+- id: u45
+  speaker: David Olsson
+  t_start: 1883.45
+  t_end: 1938.49
+  text: Yeah, I will probably go back. So that. And I was in old Montreal. I didn't mention that. So I was in Montreal. So I was like 15 minutes or 10 minutes away from the conference center and. And old Montreal is hundreds and hundreds of years old. And we were end up building those in an Airbnb. And so that was kind of cool. And we went to Schwartz's, if anybody knows that that's age old institution there for smoked meat sandwiches. And so we had Carol, who'd never been, and that was kind of cool. So another reason to go to a conference is to go to a new city. And I haven't been to Montreal but three times in my life. Once to be born there and live there and then another time and then this time. So it was really cool. But yeah, it's also expensive. So you have to track on things. Expensive time and focus. Jason, anything else?
+- id: u46
+  speaker: Ying
+  t_start: 1939.85
+  t_end: 1942.55
+  text: Oh, I quick. Sorry.
+- id: u47
+  speaker: David Olsson
+  t_start: 1943.37
+  t_end: 1943.87
+  text: After you.
+- id: u48
+  speaker: Jason Kryski
+  t_start: 1943.85
+  t_end: 1944.57
+  text: You can go for it.
+- id: u49
+  speaker: Ying
+  t_start: 1945.3
+  t_end: 1956.98
+  text: Okay. So they have done this survey about AI readiness in the workplace. So they surveyed 47 countries and guess where Canada ranked 44.
+- id: u50
+  speaker: Jason Kryski
+  t_start: 1958.34
+  t_end: 1961.54
+  text: Wait, wait, they ranked 27 countries and we ranked 44th.
+- id: u51
+  speaker: Ying
+  t_start: 1961.7
+  t_end: 1963.06
+  text: There are seven countries.
+- id: u52
+  speaker: David Olsson
+  t_start: 1963.7
+  t_end: 1966.26
+  text: That's good. Sounds like an AI story.
+- id: u53
+  speaker: Ying
+  t_start: 1967.3
+  t_end: 2061.819
+  text: So yeah, 47. We rank 44 and it's country kind of interesting. There's culture differences. Like for instance, AI and the robots in western cultures being perceived as threat through popular media, movies and all this destroy human humanities there bad guys. The evils I think that influence overall population's perception towards AI and robot. Robot is. It's like this resistance. But if you're looking at eastern culture, especially Japan, robot is part of their. I know, like culture. Yeah, yeah. Part of the society. They can help, they can do a lot of things. They're efficient. So I think that explains a lot in terms of culture. They're more acceptable and they see the positive things, like positive lens words. Western cultures like oh, they're. They're bad, they're awful. They're gonna take our jobs and they're gonna destroy society. And funny enough, I was talking to one of my friend's daughter, she's in grade eight. So I said, have you guys ever heard about AI? So yeah, yeah, we know. What's AI? I said, what's your perception towards AI? She said, AI is eating. I'm like, what? That's how public schools teaching kids AI equals to cheating. It's crazy.
+- id: u54
+  speaker: Jason Kryski
+  t_start: 2062.539
+  t_end: 2086.639
+  text: Yeah, I Think CIA psyop. You know, I don't know. You should watch the south park episode on AI Ing because it does a really good job at skew. Skewering what the feelings of society are and like what the impacts are. It's like, it's like a year or two old, but it's basically like they do a really good job.
+- id: u55
+  speaker: David Olsson
+  t_start: 2086.719
+  t_end: 2089.999
+  text: You should see this year's episode on Chat GPT. Oh my God.
+- id: u56
+  speaker: Jason Kryski
+  t_start: 2090.399
+  t_end: 2140.24
+  text: They're very, very poignant, those guys. It's very good, like social commentary. But you know, it's funny because like I trained my son how to use AI and he got a job like pretty readily, like from a US based company. And he's 18, but he would never have done it or thought that he could do it, you know, save for his like dad understanding it and then being like, spend some time on this, get good at this, pay attention to these sources, channel this information. And now he's like quite confident and so. But there is no, you know, like, what would be alternative? Go to school for four years, no offense, go to school for four years, come out at 22 with a degree. And now it's like four years from now and like things are, things are changing. On the weekly, like, you need to pull out. I know.
+- id: u57
+  speaker: David Olsson
+  t_start: 2140.18
+  t_end: 2140.74
+  text: Spencer.
+- id: u58
+  speaker: Jason Kryski
+  t_start: 2140.74
+  t_end: 2143.98
+  text: Crazy, right? Time flies, buddy.
+- id: u59
+  speaker: Ying
+  t_start: 2144.06
+  t_end: 2195.45
+  text: I think university, like I, I had conversation with our associate provost. I told her, I said, look, we have to pivot what we're valuing in education. It's not the knowledge, it's about this human skills. Like if your son come to universities now for just learning the facts, actually it's engaging in different communities and build interpersonal skills, learn the team learning skills and you know, have fun in his life because if he missed out, he will feel missing out because majority of the top performers, they went to university. And in her psychology, she, he will have this hole because I've never been to university. So that actually eats into his confidence.
+- id: u60
+  speaker: Jason Kryski
+  t_start: 2196.41
+  t_end: 2251.79
+  text: Yeah, I think that's true. I mean I never, I dropped out of university after my first semester and I had the same kind of issue where I feel like, is there things that I think I should know that I don't know? And as a result I'm not making the right kind of choices or decisions. And so I had to be additionally vigilant, you know, in like consuming more information in order to kind of backfill what I thought was a deficiency in my education. But you learn other things, I guess. I don't know. But there is, it's, it's a tricky thing. Because, like, the, you know, academic university system isn't able to change at the rate that it may need to change in order to not just survive, but thrive, you know, kind of in this, in this world. I mean, like, have you guys, like, played with Sora too, yet? Like, this has been like, I spent like three hours last night. I was addicted to this. Like, have you guys seen this? Let me show, let me show you.
+- id: u61
+  speaker: Ying
+  t_start: 2251.95
+  t_end: 2252.59
+  text: Okay.
+- id: u62
+  speaker: Jason Kryski
+  t_start: 2253.07
+  t_end: 2257.39
+  text: It's like the, It's Chad GPT. It's a separate app.
+- id: u63
+  speaker: Ying
+  t_start: 2259.8
+  t_end: 2265.0
+  text: I knew Sora. It was really bad before. Okay.
+- id: u64
+  speaker: David Olsson
+  t_start: 2267.24
+  t_end: 2268.54
+  text: Yes, man. Yes.
+- id: u65
+  speaker: Ying
+  t_start: 2269.64
+  t_end: 2274.92
+  text: Oh, that's pretty good. Now, how long is the video you can create now?
+- id: u66
+  speaker: David Olsson
+  t_start: 2275.32
+  t_end: 2277.4
+  text: Oh, my gosh. Wait here.
+- id: u67
+  speaker: David Olsson
+  t_start: 2283.08
+  t_end: 2286.42
+  text: I love it. Dr. Strange.
+- id: u68
+  speaker: Spencer MacBeth
+  t_start: 2287.46
+  t_end: 2290.02
+  text: Oh, man, things are getting scary fast.
+- id: u69
+  speaker: Jason Kryski
+  t_start: 2291.62
+  t_end: 2341.78
+  text: It's, it's, it's bananas. I don't know. It's, it's, it's like the Chat GPT moment, but for creativity, because you can prompt it with whatever and, you know, it's, it's, you know, takes maybe 30 seconds to kind of generate these things, but it's like completely unbridled creativity. So you can, basically, it works. You can take like an, an avatar of yourself, and then you can insert yourself into anything or you can tag other people that allow you to use their likeness to insert them into things. So the whole platform right now is just Sam Altman doing the stupidest, and you can't upload pictures of other people. Here, let me show you. I'll just show you quickly.
+- id: u70
+  speaker: David Olsson
+  t_start: 2342.66
+  t_end: 2344.02
+  text: Of course, man. Of course.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 2344.02
+  t_end: 2347.3
+  text: You guys, you guys can't hear, but if we go.
+- id: u72
+  speaker: Ying
+  t_start: 2377.31
+  t_end: 2381.23
+  text: Oh, my God, he's ready for this. Especially for kids.
+- id: u73
+  speaker: David Olsson
+  t_start: 2381.87
+  t_end: 2382.67
+  text: Oh, man.
+- id: u74
+  speaker: Ying
+  t_start: 2383.31
+  t_end: 2386.83
+  text: In rush, why they study, why they do anything hard.
+- id: u75
+  speaker: David Olsson
+  t_start: 2387.23
+  t_end: 2393.52
+  text: That is just wild, man. That is, that is, that is the most immersive kind of ying.
+- id: u76
+  speaker: Jason Kryski
+  t_start: 2393.52
+  t_end: 2430.0
+  text: I think your point is, like, the issue, like, my reflection on my experience and what I've kind of seen in the world is that, like, suffering and challenge is necessary to produce the capabilities and character in order to, like, succeed and properly, you know, think through things. Like, if you, if you lack the experience of suffering in some capacity, you're going to have a much harder time time, and you're going to end up generating your own suffering from your own mind. And if we continue to make things really easy for people, like, then we're going to have a really dysfunctional society.
+- id: u77
+  speaker: Ying
+  t_start: 2430.64
+  t_end: 2461.37
+  text: Well, it seems like muscles, right? I, I, I taught my students, if you want to build your physical muscle, you go to the gym, you suffer, you have pain. Yeah, you basically went through the things You. You don't want to do to build the muscle. It's the same thing for your mental muscle. And think about, like, the things you just showed. It's the. It's a candy. They're gonna just keep eating it to. They become like, no mental muscle. Like.
+- id: u78
+  speaker: Jason Kryski
+  t_start: 2461.43
+  t_end: 2516.02
+  text: Yeah, no, I think it's. And I think the thing is, is I don't think Sam Altman's like, a good player, you know, Like, I think he's like, effective, but I don't think he's like, you know, altruistic in the sense where, like, he's like, oh, I think we can kill TikTok with this thing, you know, And I think, like, they've released it as an app, like a social app to rival TikTok or Instagram. And so like, OpenAI's commercializing products as a foray into being able to capture attention, not just develop models that are useful for utilization in AI. So like, they're. They're fighting a war on, like, multiple fronts, which I think is strategically smart, but, like, you know, potentially challenging due to like a focus issue. But they're big enough that they can, they can achieve that. But yeah, I mean, I think it's really, really interesting.
+- id: u79
+  speaker: Graham Fawcett
+  t_start: 2516.02
+  t_end: 2533.71
+  text: They want to be. Do they want to be a universal application? Like, I think maybe the parallel is something like WeChat in China, where you have like all these different functions within that one chat platform, and this is like that on steroids.
+- id: u80
+  speaker: Ying
+  t_start: 2535.31
+  t_end: 2586.47
+  text: From government perspective, they would never be able to achieve the WeChat because the governments pretty much allow them to integrate all the functions like their health care, transportation, entertainment, like anything you can think of. Banking, everything. Like one app. Well, if you don't have that app, you cannot navigate the society. But in North America, either Canada or us, they don't want to have that kind of monopoly. And the government cannot be bundled with any commercial things, I think. So I, Yeah, it's. For me, I don't think it's coming. I can see and they competing on some sectors, but yeah, some sectors, like.
+- id: u81
+  speaker: Graham Fawcett
+  t_start: 2587.19
+  t_end: 2595.27
+  text: Entertainment, especially the sec, the sectors that capture the most attention, for sure, the entertainment, social media, not good.
+- id: u82
+  speaker: David Olsson
+  t_start: 2597.35
+  t_end: 2718.42
+  text: How do I get rid of that? I don't know. I've only gotten rid of them before. I would believe you if I thought you had to integrate, but you don't. So you could do. What they're doing right now is, I think is relatively easy. It's the creative stuff. It is our entertainment is our cultural valences that they're going after. It is Right. But My experience with Claude lately is that because of the platform it can now just everything and it can now go into basically the whole of my work ecosystem and start doing things. And, and if that doesn't work, I'm on the wait list for their Chrome extension. And so the chrome extension is whatever you got going on right side, you got your chat window and your chat window takes over your browser and basically is you doing things. And so there's more than one way to enable AI to provide coverage on a whole ecosystem that an individual has that would be unique to them and you wouldn't have to go after the infrastructure underneath it to get that value. And so in China it really does well to have a centralized opportunity there. In other companies in other countries we do it. In Canada we have a very strong ecosystem of collecting information from citizens. It's just super laggy, not useful anymore. And so the real time nature of which you would want to do that is pretty cool. So things like mass and, and what we're seeing with the Chrome extensions and I, I've built one, it's really lame but it was able to do that. It was able to actually talk to the pages in a chat like way. As soon as you can do that you can start clicking buttons and you start navigating things and you can go into applications into, into whole healthcare systems that you have no understanding of and be effective. That's the future of some of these AIs.
+- id: u83
+  speaker: Spencer MacBeth
+  t_start: 2720.1
+  t_end: 2741.47
+  text: I, I just want to follow up and I think Ying actually raised, I mean like I don't know if I agree or disagree with, with what you said there David. I think I understand like that to a level but like I do think just based on what Ying said and that there is almost a competitive advantage for some of those countries that already have that level of top down stuff.
+- id: u84
+  speaker: David Olsson
+  t_start: 2741.55
+  t_end: 2743.35
+  text: For oh, huge advantage.
+- id: u85
+  speaker: Spencer MacBeth
+  t_start: 2743.35
+  t_end: 2779.09
+  text: Yeah, at Amazon we had to, when I was working at aws we had to spin up whole basically different stacks of the entire AWS ecosystem with all the services in them. In countries where they had laws that basically said the government is able to have like physical access to the, the cables and anything that's running through them. And just like I'd never really connected those two dots in my head about how that, what that really implies for like the world of AI, but I think it does imply something pretty big. That being said, I do give clot access to everything on my computer.
+- id: u86
+  speaker: David Olsson
+  t_start: 2780.77
+  t_end: 2830.82
+  text: So. But what I'm getting at is like there's, there's web cameras everywhere and they, they have doors built into them. And no, some of them have no doors built into them. But certain types of intelligence organization get into anything. And so when we're talking commercial opportunities, it's different than an intelligent intelligence at a government level where they don't have a budget, they just don't. They can spend as whatever they like and they have all the pressure in the world to do whatever they can. And so in our country they do this, hey, let's get a circle and hold hands and we'll come up with some opinions and then we'll move it through the system. And there's another level of government in which I have some peers that operate in and, and they still do some of the stuff that I, I'm talking about. We just don't ever see it and hear it. It's just not used for the social engineering at the level that we could use it at.
+- id: u87
+  speaker: Spencer MacBeth
+  t_start: 2831.14
+  t_end: 2887.46
+  text: I get going back to like, and I'm sure this is probably going on inside some of these companies right now, but like going back to like my time at AWS when we would. Sometimes the Chinese government would issue a statement that like this version of this protocol. This happened to me in a big way one time because I was on the team, like in charge of TLS, for, for or S3 and they said this version of HTTPs is no longer valid and you have to change now or you're going to lose your business license in China. Like if you. And so it would force us to like scramble and like make these sweeping changes, like very, very quickly in a relatively dangerous way. And like, I'm sure that story is probably going to play out if, if it isn't already, like with AI models and maybe he already has. I haven't really connected those two dots. So thanks for mentioning that, Ying. I'm gonna go like look into that. I'm sure that's like happening right now.
+- id: u88
+  speaker: Ying
+  t_start: 2890.9
+  t_end: 2917.45
+  text: Actually. They have, they can come up with a regulation in a week. Like they do whatever they think is supposed to be done, like for the teenagers. The government actually have put the hour restrictions on all the game playing. Like I can't remember specific hours. Yeah, that's the things we hope society can do. But that will never happen in Western culture because of that.
+- id: u89
+  speaker: David Olsson
+  t_start: 2917.45
+  t_end: 2921.05
+  text: No, it always does. It always does. It's just the lag on. It isn't the same.
+- id: u90
+  speaker: Ying
+  t_start: 2922.01
+  t_end: 2927.05
+  text: No, the government would never come up with a regulation to limit the game playing hours.
+- id: u91
+  speaker: Graham Fawcett
+  t_start: 2927.29
+  t_end: 2929.13
+  text: They just can't enforce it effectively.
+- id: u92
+  speaker: Ying
+  t_start: 2929.74
+  t_end: 2930.24
+  text: Right?
+- id: u93
+  speaker: David Olsson
+  t_start: 2930.3
+  t_end: 2999.19
+  text: Yeah, no, they can, they can, they can do a lot of things they do other Things to promote what they would like to be as the regulated number of hours. And that's how that works. I'm not saying it's any less or more of effective and regard saying if you say some kid you can only have two hours, the first thing they learn how to do is get three hours. So anywhere these rules are in effect, they're, they're there for a reason and they do have some measurable impact. And what I'm getting at is how things work in our industry and this is what's going on in North America and globally. Because unless you're in a country like China, the industries are leading and the regulations come afterwards. And I work in oil and gas and the same thing happened there. You work through things and people die and then you make some regulations happen and then people get hurt and then you make more regulations happen and then it's just a productivity loss. Right. It goes from risk to just a matter of people having a competitive advantage. And that's unfortunately the remedial effort that you see going on. If things get drastic, all of a sudden kids are going through security checks to go into schools. In the United States.
+- id: u94
+  speaker: Ying
+  t_start: 2999.99
+  t_end: 3074.95
+  text: I think it's the society structure structured in a different way because of historical reason, because I think democratic, democratic society in western culture it's bottom up, right? Everything's decided by, you know, the voters, everything goes up then that's why it takes longer time. But in China it's top down society because it's elite leading the crowds and that's been running for the past 5,000 years and people who used to it, there's culture, the power distance in China is really big. But power distance in North America is really small. So there's a cons on either side. Like if you have democratic mind elite, they can make good decisions. But if you have Terrence and you know, not good character, then you subject to a huge risk. So I think there's a pros and cons. I just feel Canadian government is not ready yet. In a sense they will be very behind. Just think about the politicians, how much training they have in technology.
+- id: u95
+  speaker: David Olsson
+  t_start: 3076.87
+  t_end: 3122.24
+  text: Well, you're in a really good position to be able to influence how much training your peers have and to be able to influence the organization and all your students have so that you can in a practical and applied way really raise the dew point. The neat thing that's really the big opportunity with what you suggest. The implicit, the down, the bottom up thing is that implicit leadership is recognized. And it is one of the tenets of a Meritocracy. And, you know, you're given a role to give the opportunity to succeed. And with that success, then comes more power and more opportunity. And whether it's, you know, by mandate and title or through some sort of implicit leadership that you offer, you're in a really good position to change things.
+- id: u96
+  speaker: Ying
+  t_start: 3124.16
+  t_end: 3155.309
+  text: I'm doing my best. But back to Jason's early point, this university system really set up in 1700, like, they didn't change, they just trained the trade like people with trade skills. To this day, it has not changed a bit. It's the textbook, it's the exams, it's you sitting in the classroom. And most of professors lecture the whole way. Like, who can keep that long attention in the classroom in a lecture style?
+- id: u97
+  speaker: David Olsson
+  t_start: 3157.71
+  t_end: 3233.65
+  text: Most. Nobody. Unless you're taking notes. That's how, that's how I. That's the only reason you take notes, is to stay engaged. Now you have note takers. And most, most of my daughter's lectures are recorded and they can see them afterwards. And so it's a really weird combination of things. And they use applications like GoodNotes now to be able to take lecture notes, turn them into flashcards, turn them into audiobooks, turn them into different kinds of learning material. So there's this thing going on where the lectures are the same and they are very static. But what the students are doing and what I'm seeing and I didn't teach my daughter, she taught me this. I super want to. And I'm like, oh, she's on top of it. She's figured it out. She's got, she's talking with her peers. They're all doing this. I can show her stuff, but at the same time, they're figuring out how to use this stuff. And UVIX mandate is they're allowed to. And what they're, what they're doing is they're saying, here's where we are as an institution. Here's where they're functioning as a protocol and practice. And that's what I think you have the opportunity for. And I've heard you because I've talked to you at length. And you're doing this with your students is you're, you're giving them these real applied skills in the context of an institution that has been conceptually focused.
+- id: u98
+  speaker: Ying
+  t_start: 3234.29
+  t_end: 3291.12
+  text: Yeah, I make the last point. I have to go to another meeting. What really concerns me is the society gonna be divided even further along. Because for the motivated top 20 students, they get help and they use AI to increase their intellectual capability versus what Jason just showed us. Those Gonna be used for the remaining of the crowds who have the mental candy distract them. And they were not even be as good as previous generations average. So that's gonna be a huge gap. You have like phenomenally, phenomenally like successful and. And outstanding group on the top. And you will have much, much dumber rest compared to last generation at the bottom. Like what gonna look like?
+- id: u99
+  speaker: David Olsson
+  t_start: 3291.36
+  t_end: 3314.87
+  text: Well, maybe, maybe we can look at what we call intelligence and then really understand what you're referring to. And then understand that what you've actually put forward is what the schools really need to do is provide that context for socializing, learning how to work as a team and understand the human component of things. And our intelligence around that could be much, much greater. And we could do far greater things with a lot less technology.
+- id: u100
+  speaker: Ying
+  t_start: 3315.75
+  t_end: 3394.26
+  text: Well, there's different dimensions of intelligence. There's what we call this kind of academic intelligence. There's must like physical intelligence, there's a musical intelligence, there's a different dimensions of intelligence. But the school actually only developing this kind of academic related intelligence and hopefully incorporate some emotional and social intelligence into the component which we should amplify in the next couple of years. Because academic intelligence can be achieved much easier using AI. But other intelligence, there's no way you can achieve a lot. Yes, you can talk to AI, you can have agent play as, you know, team players, but that's not real. It's so fake. And I don't think AI is good at the current state. It's not as good as humans. The unpredictability among a group of people. I don't think AI can simulate yet. Well, obviously probably can do it 10 years down the road. But I currently I think they should send kids into the university not for the purpose of academic intelligence, but social intelligence.
+- id: u101
+  speaker: Spencer MacBeth
+  t_start: 3395.06
+  t_end: 3412.81
+  text: I definitely feel I learned like maybe even more important social intelligence and like grit skills at university than I did like the actual content of what I was learning in my classes. But that definitely happens more organically. It was never like called upon to do that.
+- id: u102
+  speaker: David Olsson
+  t_start: 3412.81
+  t_end: 3413.33
+  text: It was just.
+- id: u103
+  speaker: Spencer MacBeth
+  t_start: 3413.33
+  t_end: 3436.74
+  text: That's just the setup. You're there in person, you're there with people, you have these tests, you have deadlines. But yeah, I mean like thank goodness I was there like just before. Well, not just before, but like five years before COVID So like I, I don't. I'm sure it's. The landscape has just totally changed and. Yeah, I don't know.
+- id: u104
+  speaker: Ying
+  t_start: 3437.46
+  t_end: 3440.94
+  text: Okay, thank you so much for the meeting. I hope to see you guys next week.
+- id: u105
+  speaker: David Olsson
+  t_start: 3440.94
+  t_end: 3441.54
+  text: Have a good day.
+- id: u106
+  speaker: Ying
+  t_start: 3441.86
+  t_end: 3442.74
+  text: Yeah, thanks.
+- id: u107
+  speaker: David Olsson
+  t_start: 3443.54
+  t_end: 3450.28
+  text: Bye. Bye. Cool beans. Okay.
+- id: u108
+  speaker: Graham Fawcett
+  t_start: 3450.18
+  t_end: 3450.82
+  text: I guess we're done.
+- id: u109
+  speaker: David Olsson
+  t_start: 3451.22
+  t_end: 3474.29
+  text: Yeah. Peace. Have a good week, man. See you guys. Dave. Oh.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  text: It.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  text: Hello, hello, hello. My machine right when I was doing it on. That's cool. How was the conference? It was good in a bunch of ways. Let's see here. In terms of not takers. Let's kick one of these guys up. It was an interesting conference. It's kind of important for that area, I guess where there's government is interfacing with research and industry because the organizers were part of something called scale A.I. they have like three research facilities across Canada and what's called the A.I. super cluster. Super cluster. So they, they have these set up in different places like Montreal, Toronto or slash Waterloo and then Edmonton. So this one was put on by Melia and they spent $200,000 on their booth. Man, I'm just like, you guys are just. Because it's government money. And so they're there to stimulate industry from research point of view. And then Scalia does it from a financing point of view and they're the key part of there. Evan Solomon was there. He spoke about what the Canadian government was going to do and then he announced that he has 30 people that he's going to bring to council and they have something like 26 or 30 people to, to. They have 30 days to provide their feedback or input into the process as to what should happen with funding AI in Canada from a sovereignty point of view.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u4
+  - u5
+  - u6
+  text: It was an interesting conference. It's kind of important for that area, I guess where there's government is interfacing with research and industry because the organizers were part of something called scale A.I. they have like three research facilities across Canada and what's called the A.I. super cluster. Super cluster. So they, they have these set up in different places like Montreal, Toronto or slash Waterloo and then Edmonton. So this one was put on by Melia and they spent $200,000 on their booth. Man, I'm just like, you guys are just. Because it's government money. And so they're there to stimulate industry from research point of view. And then Scalia does it from a financing point of view and they're the key part of there. Evan Solomon was there. He spoke about what the Canadian government was going to do and then he announced that he has 30 people that he's going to bring to council and they have something like 26 or 30 people to, to. They have 30 days to provide their feedback or input into the process as to what should happen with funding AI in Canada from a sovereignty point of view. That should only take 30 days. Yeah, and it's, it's interesting. So you know, people are critiquing the list and all that too. So that's, you know, there's a lot of that from us. We got to present. We had four hours where we had a booth and we talked to a bunch of people and we had three people there as a cohort for atomic and that there was a lot of learning going on. I met, I met some good companies for AMQC that do document processing and there's a lot of, A lot of people that have agentic projects with similar tech and infrastructure that rely on all the other infrastructure that are all steaming ahead with, you know, a few clients and test cases and similar techniques and approaches. And I would say that the, the, the enterprise field is toe to toe as to what they say they do and how they do it. And everybody has kind of forgiven themselves about the billions of dollars they, everyone over with particularly cohere. You know, they're, they're, they're on top of the game. The big message was infrastructure. Like not infrastructure. The infrastructure we use in the infrastructure to do reinforce learning training and building models and data centers that kind of infrastructure and then to enable enterprise. And so there's a big focus on that because it's switches and gears and machinery and things you point to. But it is still more of the same type of investment that we see, see in the broader global market. Right. There's like billions going into data centers and then there's brilliance going into energy by virtue of that. And so the same sort of systematic thinking is going on here. They're trying to get a cross section of the industry and this council of people that they have for the government to then assign monies. But when they assign monies it's in, it's in the buckets of like, you know, it'll be like a billion dollars or $2 billion. And that's, that's one fifth of a data of a data center. Yes, it's, it's like. And so the trickle down effect is unknown, if not zero. And how to get people to use the infrastructure is like not really the focus right now other than enterprise getting more involved. And I would say that there's a huge gap of learning in enterprise. Like they're now, now everybody has stuff, they got at least a chat bot going. They have access to Claude or GPT or Copilot, one of them at enterprise level. And then they just do A lot of the companies that do service, those enterprises recognize that enterprises themselves are like doing a bunch of skunk works and then they'll have, they'll have a problem. They don't know what's going on. It's kind of like if I've had, I've known some people in network security that are hired by like RBC to, to tell them what apps do we have?
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u6
+  text: Yeah, and it's, it's interesting. So you know, people are critiquing the list and all that too. So that's, you know, there's a lot of that from us. We got to present. We had four hours where we had a booth and we talked to a bunch of people and we had three people there as a cohort for atomic and that there was a lot of learning going on. I met, I met some good companies for AMQC that do document processing and there's a lot of, A lot of people that have agentic projects with similar tech and infrastructure that rely on all the other infrastructure that are all steaming ahead with, you know, a few clients and test cases and similar techniques and approaches. And I would say that the, the, the enterprise field is toe to toe as to what they say they do and how they do it. And everybody has kind of forgiven themselves about the billions of dollars they, everyone over with particularly cohere. You know, they're, they're, they're on top of the game. The big message was infrastructure. Like not infrastructure. The infrastructure we use in the infrastructure to do reinforce learning training and building models and data centers that kind of infrastructure and then to enable enterprise. And so there's a big focus on that because it's switches and gears and machinery and things you point to. But it is still more of the same type of investment that we see, see in the broader global market. Right. There's like billions going into data centers and then there's brilliance going into energy by virtue of that. And so the same sort of systematic thinking is going on here. They're trying to get a cross section of the industry and this council of people that they have for the government to then assign monies. But when they assign monies it's in, it's in the buckets of like, you know, it'll be like a billion dollars or $2 billion. And that's, that's one fifth of a data of a data center. Yes, it's, it's like. And so the trickle down effect is unknown, if not zero. And how to get people to use the infrastructure is like not really the focus right now other than enterprise getting more involved. And I would say that there's a huge gap of learning in enterprise. Like they're now, now everybody has stuff, they got at least a chat bot going. They have access to Claude or GPT or Copilot, one of them at enterprise level. And then they just do A lot of the companies that do service, those enterprises recognize that enterprises themselves are like doing a bunch of skunk works and then they'll have, they'll have a problem. They don't know what's going on. It's kind of like if I've had, I've known some people in network security that are hired by like RBC to, to tell them what apps do we have?
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u6
+  - u7
+  - u8
+  text: Yeah, and it's, it's interesting. So you know, people are critiquing the list and all that too. So that's, you know, there's a lot of that from us. We got to present. We had four hours where we had a booth and we talked to a bunch of people and we had three people there as a cohort for atomic and that there was a lot of learning going on. I met, I met some good companies for AMQC that do document processing and there's a lot of, A lot of people that have agentic projects with similar tech and infrastructure that rely on all the other infrastructure that are all steaming ahead with, you know, a few clients and test cases and similar techniques and approaches. And I would say that the, the, the enterprise field is toe to toe as to what they say they do and how they do it. And everybody has kind of forgiven themselves about the billions of dollars they, everyone over with particularly cohere. You know, they're, they're, they're on top of the game. The big message was infrastructure. Like not infrastructure. The infrastructure we use in the infrastructure to do reinforce learning training and building models and data centers that kind of infrastructure and then to enable enterprise. And so there's a big focus on that because it's switches and gears and machinery and things you point to. But it is still more of the same type of investment that we see, see in the broader global market. Right. There's like billions going into data centers and then there's brilliance going into energy by virtue of that. And so the same sort of systematic thinking is going on here. They're trying to get a cross section of the industry and this council of people that they have for the government to then assign monies. But when they assign monies it's in, it's in the buckets of like, you know, it'll be like a billion dollars or $2 billion. And that's, that's one fifth of a data of a data center. Yes, it's, it's like. And so the trickle down effect is unknown, if not zero. And how to get people to use the infrastructure is like not really the focus right now other than enterprise getting more involved. And I would say that there's a huge gap of learning in enterprise. Like they're now, now everybody has stuff, they got at least a chat bot going. They have access to Claude or GPT or Copilot, one of them at enterprise level. And then they just do A lot of the companies that do service, those enterprises recognize that enterprises themselves are like doing a bunch of skunk works and then they'll have, they'll have a problem. They don't know what's going on. It's kind of like if I've had, I've known some people in network security that are hired by like RBC to, to tell them what apps do we have? Yeah. And they're like, you've got 10,000 apps. And they're like what? Yeah, yeah man, you've got 10,000 apps running on your network. And I think that's the problem is that there's not a cohesive way to understand that everybody's got a, some level of observability and they have all the check boxes for things, especially if they're on the bigger stages giving presentations. Yeah, saw a couple of really good ones. And you know, I came by way with an understanding that people aren't really solving anything any differently and that the speed of things is pretty crazy and it's, it's already leaving in this enterprise behind. Meaning that there's tools being afforded but not knowing what to do. Yeah, people believe this stuff works now.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  text: And they're like, you've got 10,000 apps. And they're like what? Yeah, yeah man, you've got 10,000 apps running on your network. And I think that's the problem is that there's not a cohesive way to understand that everybody's got a, some level of observability and they have all the check boxes for things, especially if they're on the bigger stages giving presentations. Yeah, saw a couple of really good ones. And you know, I came by way with an understanding that people aren't really solving anything any differently and that the speed of things is pretty crazy and it's, it's already leaving in this enterprise behind. Meaning that there's tools being afforded but not knowing what to do. Yeah, people believe this stuff works now. Yeah, yeah, lots of stuff flying around about like, you know, in House projects versus like external, like specialist teams and like something around, I think like a 65 to 70 success rate for like small pilots with like particular use cases partnered when partnering with an out. An external company. But like less than one third of that when people are like trying to build like in house directly. Like, yeah, yeah. There's some interesting ways of positioning it. And Jen and I have been talking, especially some insider knowledge about how one organization is adopting AI in a weird way because they don't know what to do. And as a result, you know, leaders implicitly surface. Right. And as a result of that, they share their shit. And as a result of that, that leader's bias is baked into the whole organization's use of prompting. Yep. And just. It's a. It's like I laugh because I'm like, oh man, that guy's signature is all over the company or the girl. But it's, it's worse than that. It's like people are just using it expensively, you know, like on their time producing slop and then getting disappointed and so. And then distributing it and then, and then, and then causing chaos and I think. So that was one of the things about having a lot of skunk works internally. Interesting to find the stats behind that kind of thing. As a service organization like myself, it did produce leads and Jen was very good at figuring out how to do that and how to, how to get in and be able to get some intelligence so that when we're talking to somebody in a demonstrative way that we're working within their problem set. So that was a big step up in terms of what we got going on and was neat to be part of the BC cohort. I say that was probably the biggest success is that learning about the other companies from B.C. and having time spent with them because they're all eager to talk and they were there early and all that other thing. But 70 companies, 170 people or something like that, that. So it allowed for having a peer group there. And I've done this previously where I went to Austin and it's really cool that you can actually just like, oh, hang out with somebody and then recognize they're actually in Kelowna and they've been doing machine learning for 12 years. And you're like, what the hell, man? It's a company called Data Data Speckle. Anyways, so there's all kinds of interesting people that got cherry picked from a provincial point of view that are here in town that just don't surface because of certain inefficiencies. In our ecosystem. So that was another one. So, you know, there's a lot of learnings as to what it means to have a government infused and funded ecosystem that can stay relevant in this space. Because I would suggest that any accelerator that's government funded right now is useless unless it embraces this stuff wholeheartedly because they're not moving fast enough.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u12
+  text: And just. It's a. It's like I laugh because I'm like, oh man, that guy's signature is all over the company or the girl. But it's, it's worse than that. It's like people are just using it expensively, you know, like on their time producing slop and then getting disappointed and so. And then distributing it and then, and then, and then causing chaos and I think. So that was one of the things about having a lot of skunk works internally. Interesting to find the stats behind that kind of thing. As a service organization like myself, it did produce leads and Jen was very good at figuring out how to do that and how to, how to get in and be able to get some intelligence so that when we're talking to somebody in a demonstrative way that we're working within their problem set. So that was a big step up in terms of what we got going on and was neat to be part of the BC cohort. I say that was probably the biggest success is that learning about the other companies from B.C. and having time spent with them because they're all eager to talk and they were there early and all that other thing. But 70 companies, 170 people or something like that, that. So it allowed for having a peer group there. And I've done this previously where I went to Austin and it's really cool that you can actually just like, oh, hang out with somebody and then recognize they're actually in Kelowna and they've been doing machine learning for 12 years. And you're like, what the hell, man? It's a company called Data Data Speckle. Anyways, so there's all kinds of interesting people that got cherry picked from a provincial point of view that are here in town that just don't surface because of certain inefficiencies. In our ecosystem. So that was another one. So, you know, there's a lot of learnings as to what it means to have a government infused and funded ecosystem that can stay relevant in this space. Because I would suggest that any accelerator that's government funded right now is useless unless it embraces this stuff wholeheartedly because they're not moving fast enough.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u12
+  - u13
+  - u14
+  text: And just. It's a. It's like I laugh because I'm like, oh man, that guy's signature is all over the company or the girl. But it's, it's worse than that. It's like people are just using it expensively, you know, like on their time producing slop and then getting disappointed and so. And then distributing it and then, and then, and then causing chaos and I think. So that was one of the things about having a lot of skunk works internally. Interesting to find the stats behind that kind of thing. As a service organization like myself, it did produce leads and Jen was very good at figuring out how to do that and how to, how to get in and be able to get some intelligence so that when we're talking to somebody in a demonstrative way that we're working within their problem set. So that was a big step up in terms of what we got going on and was neat to be part of the BC cohort. I say that was probably the biggest success is that learning about the other companies from B.C. and having time spent with them because they're all eager to talk and they were there early and all that other thing. But 70 companies, 170 people or something like that, that. So it allowed for having a peer group there. And I've done this previously where I went to Austin and it's really cool that you can actually just like, oh, hang out with somebody and then recognize they're actually in Kelowna and they've been doing machine learning for 12 years. And you're like, what the hell, man? It's a company called Data Data Speckle. Anyways, so there's all kinds of interesting people that got cherry picked from a provincial point of view that are here in town that just don't surface because of certain inefficiencies. In our ecosystem. So that was another one. So, you know, there's a lot of learnings as to what it means to have a government infused and funded ecosystem that can stay relevant in this space. Because I would suggest that any accelerator that's government funded right now is useless unless it embraces this stuff wholeheartedly because they're not moving fast enough. What do you think the limitations are? How are you training the next round of entrepreneurs if you're not training them with these tools? And if you're not training and how do you train with them if you're not using them? And if you're using them, then they're baked into your curriculum. That's Dave's rationale. As an instructor or university teacher, you find evidence of it happening or you don't. And then if you bake it in, then the value. So they have all the right values, these organizations, but they have to be motivated in a different way now. And I would suggest companies have the same problem. It would be difficult for us to say that we have a niche perspective on rag and then we're going to really be good with this one kind of document and that somebody should ignore listening to Cohere on this one stream, you know, this one thin slice and then just won't work with us even if we can prove that we're twice as efficient. It would be very, very, very, very, very difficult right now to get any ear, you know, ear on that because it's, there's just too many question marks. So there's a big advantage for people that were already working within enterprise to, to earn that and to figure out where there's, where there's gaps in what they're doing and their ability to really motivate it. So there's lots of cool stuff. It was better than Web Summit. I went to Web Summit and you'd think that would be rock and rolly, but not so much.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u14
+  - u15
+  - u16
+  text: How are you training the next round of entrepreneurs if you're not training them with these tools? And if you're not training and how do you train with them if you're not using them? And if you're using them, then they're baked into your curriculum. That's Dave's rationale. As an instructor or university teacher, you find evidence of it happening or you don't. And then if you bake it in, then the value. So they have all the right values, these organizations, but they have to be motivated in a different way now. And I would suggest companies have the same problem. It would be difficult for us to say that we have a niche perspective on rag and then we're going to really be good with this one kind of document and that somebody should ignore listening to Cohere on this one stream, you know, this one thin slice and then just won't work with us even if we can prove that we're twice as efficient. It would be very, very, very, very, very difficult right now to get any ear, you know, ear on that because it's, there's just too many question marks. So there's a big advantage for people that were already working within enterprise to, to earn that and to figure out where there's, where there's gaps in what they're doing and their ability to really motivate it. So there's lots of cool stuff. It was better than Web Summit. I went to Web Summit and you'd think that would be rock and rolly, but not so much. What did you learn about Cohere? Because they're like the biggest player in Canada, right? Yeah, you know they were, they were brought up through the scale AI system so darlings and they have the big relationships. They were there at the formative level like Bell announced. Well, everybody's announcing fabric AI or AI factories, you know, like this combination of services specific to Geni and then infrastructure underneath it. Bell and then Telus both announced them. So they were major players here. The cohere is, is, is in that space and because they are brought up in the ecosystem and showing success and have science and, and then you know, they're working on the models they were. It was easy for them to convince people to use them in this specificity they have in their secure way, in their way that they do things. And now they have learned a lot and they're, they're the player in Toronto East, I would suggest, that has a lot of people wanting them to succeed. And he's all about not moving our CEO. He didn't show up, at least in on stage, and so he sent other people. So there's, there's like, it was, it was all about how the ecosystem can generate opportunity up to the point of commercialization. And then they're like, that's the problem we have. And I'm like, man, I've been wrong for like 30 years.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Yeah, you know they were, they were brought up through the scale AI system so darlings and they have the big relationships. They were there at the formative level like Bell announced. Well, everybody's announcing fabric AI or AI factories, you know, like this combination of services specific to Geni and then infrastructure underneath it. Bell and then Telus both announced them. So they were major players here. The cohere is, is, is in that space and because they are brought up in the ecosystem and showing success and have science and, and then you know, they're working on the models they were. It was easy for them to convince people to use them in this specificity they have in their secure way, in their way that they do things. And now they have learned a lot and they're, they're the player in Toronto East, I would suggest, that has a lot of people wanting them to succeed. And he's all about not moving our CEO. He didn't show up, at least in on stage, and so he sent other people. So there's, there's like, it was, it was all about how the ecosystem can generate opportunity up to the point of commercialization. And then they're like, that's the problem we have. And I'm like, man, I've been wrong for like 30 years. The thing is, like, this is not a new approach or new problem and it hasn't worked before and it's kind of a bummer. I, I think like the Cohere CEO probably already has his meaty hooks into all that government money, so what does. He need to show up for? He does, He's. Yeah. So I think that's really telling. Right. And so there's other people there that were, I would suggest that was what's going on. Interestingly enough, a week before, down in San Francisco, there's another event called all in. And when I was like booked to go to this one, I found that one. And you look at the name plates on that one, you're like, oh, that's where the decisions are being made. Oh, you mean looks like the All In POD event. Yeah, like they're pretty significant people. Yeah. Jamie went to the one in LA last year. It was good. Yeah. So this one was about interfacing at three levels, like the PPP thing and then figuring out how to make that more successful. And the notion of sovereign was really a new one for everybody. And you know, when they were applauding themselves about how much they, how much they're allocating, I'm like, man, that's just admitting we're, you know, we're Senior B instead of senior A. We're not like $200 million doesn't do anything for health care, you know, I.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  text: Oh, you mean looks like the All In POD event. Yeah, like they're pretty significant people. Yeah. Jamie went to the one in LA last year. It was good. Yeah. So this one was about interfacing at three levels, like the PPP thing and then figuring out how to make that more successful. And the notion of sovereign was really a new one for everybody. And you know, when they were applauding themselves about how much they, how much they're allocating, I'm like, man, that's just admitting we're, you know, we're Senior B instead of senior A. We're not like $200 million doesn't do anything for health care, you know, I. Mean, you might as well just flush it down the toilet. What is it going to do? It's not just going to add more a layer of complexity on top of things that isn't rudimentary. And, and so that's, that's the thing that's really curious is to, to understand how they can do things differently at the level that you're talking. Jason. I'll shut up in a second. But the level you're talking, like, they brought more people into a council for 30 days and asked them what their opinions are. Bring 30 people into the room and get them to build you something in 30 days. Like, for Christ's sake, all these people have the billions of dollars invested in them, them, and they're the ones that are the thought leaders. Don't get their bloody opinions on. Do what you should probably do, Set pods everywhere, in every ecosystem that you generate grassroots and go all the way to the bottom line. But no, they've got these people in there. I don't know what IP they're generating, but they should be generating some of the most significant IP the government can actually muster for free. And I bet you they get an opinion list that we could pull up next meeting and prioritize it just like they would. What's. What. What. What was the name of that thing that kind of popped up during the election that, like, Toby and Harley were. Were behind there was. It's like a Canada thing. You guys remember what that was? It's like, build Canada. Yeah, that's the one. You guys familiar with that? You guys see that at all? Know, anyway, it's like, that's kind of like grassroots. Like, hey, like, let's get some of these things fixed. Let's, like, actually fix shreds, so it's not like you don't want to blow your brains out doing that. And then, like, let's, like, fix some of the capital gains things and like, let's incentivize some entrepreneurship and like, let's, you know, make it easy for angel investors and for, like, venture funds to work in this country. Like, let's fix some of the structural stuff that, like, support this other thing. Because, like, what happens is they get, like, kind of down the road and then they're kind of like right at this end point where they've got a bunch of companies, but none of these, like, fundamental things have been fixed. And it's like a wholesale. Like, let's just fix the ecosystem. But they're kind of like, oh, like, well, let's just do the AI thing. Here's some companies. You guys are doing some stuff. But these companies are all, like, not all, but, like, not as strong as they could be because of all the kind of fundamental stuff that they had to go through. There's just not the access to capital privately. And so we all suck on the teeth of daddy government to kind of like, give us a hey, Penny. And it's just not enough to make anything work.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  text: It's not just going to add more a layer of complexity on top of things that isn't rudimentary. And, and so that's, that's the thing that's really curious is to, to understand how they can do things differently at the level that you're talking. Jason. I'll shut up in a second. But the level you're talking, like, they brought more people into a council for 30 days and asked them what their opinions are. Bring 30 people into the room and get them to build you something in 30 days. Like, for Christ's sake, all these people have the billions of dollars invested in them, them, and they're the ones that are the thought leaders. Don't get their bloody opinions on. Do what you should probably do, Set pods everywhere, in every ecosystem that you generate grassroots and go all the way to the bottom line. But no, they've got these people in there. I don't know what IP they're generating, but they should be generating some of the most significant IP the government can actually muster for free. And I bet you they get an opinion list that we could pull up next meeting and prioritize it just like they would. What's. What. What. What was the name of that thing that kind of popped up during the election that, like, Toby and Harley were. Were behind there was. It's like a Canada thing. You guys remember what that was? It's like, build Canada. Yeah, that's the one. You guys familiar with that? You guys see that at all? Know, anyway, it's like, that's kind of like grassroots. Like, hey, like, let's get some of these things fixed. Let's, like, actually fix shreds, so it's not like you don't want to blow your brains out doing that. And then, like, let's, like, fix some of the capital gains things and like, let's incentivize some entrepreneurship and like, let's, you know, make it easy for angel investors and for, like, venture funds to work in this country. Like, let's fix some of the structural stuff that, like, support this other thing. Because, like, what happens is they get, like, kind of down the road and then they're kind of like right at this end point where they've got a bunch of companies, but none of these, like, fundamental things have been fixed. And it's like a wholesale. Like, let's just fix the ecosystem. But they're kind of like, oh, like, well, let's just do the AI thing. Here's some companies. You guys are doing some stuff. But these companies are all, like, not all, but, like, not as strong as they could be because of all the kind of fundamental stuff that they had to go through. There's just not the access to capital privately. And so we all suck on the teeth of daddy government to kind of like, give us a hey, Penny. And it's just not enough to make anything work. And you can get on, you can get underfunded, right? You can even be underemployed. You can, you can do that. You can get, you can get just enough funding to skew yourselves. Anybody in research and academia probably understands that one really well. Jen built a research team of 20 people at Waterloo. That's incredible, a whole lab. And so you end up doing nothing but paperwork because that's how the government sets you up. So you don't do any research. So you end up in this place where if you're underfunded then all you do is just keep things going. And you know, that's kind of how if you're in a space and you can't afford to eat your own dog food enough, then you're just servicing your clients and you know, and everybody says, oh my website sucks. And you're like, yeah, you got no sales opportunities then, do you? Right, like, so there's all kinds of weird repercussions that happen because of the fact that people have to be super busy in an ecosystem that's not properly built out. And I would suggest that Canada has been like that for quite a long time. It's been as Jason says, so they have all the opportunity now with this AI kind of undercurrent. Like if they're going to throw billions of dollars at it, it's like, it's not like it doesn't take the data center money to fix that problem. It's a lot about awareness and funding and incentives. BC already has some pretty good incentives for investing in BC companies, but the BC cohort was promoting bc talking to BC too. And I'll just say this startups working with startups, we can empathize, but building a house of cards really. You know, we want to work with companies that have traction and have problems and we're working to solve those problems. You know, empathizing at the level of building each other up and sharing capabilities, intelligence and awareness at a level of startup ecosystem is great, but it's, that's one of the team BC kind of themes. It was good to know them and meet them all and see what their problematic themes are. And now I've got some intake coming and happening and we'll have some great relationships with different people and sovereignty is a kind of a weird one because I have some concerns for the edge and you can consider that a sovereign space. So I, technically speaking, some of the providers there were actually, well on my bailiwick. But the themes, they were difficult at times for me, but I did garner some respect for Evan Solomon, more than I had before. But the numbers that came out in the press releases were really disappointing. So it's, it's a really important thing and they're going to have more of them and so we'll go to it. And we're already being asked to present and do workshops in Vancouver. There's another summit coming up. And so there's a ladder of opportunity that if you participate in conferences at the level that my peers, executives can get access to, then there's opportunity that does happen for us. But it's a training ground for building relationshi
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u25
+  - u26
+  text: What was the name of that thing that kind of popped up during the election that, like, Toby and Harley were. Were behind there was. It's like a Canada thing. You guys remember what that was? It's like, build Canada. Yeah, that's the one. You guys familiar with that? You guys see that at all? Know, anyway, it's like, that's kind of like grassroots. Like, hey, like, let's get some of these things fixed. Let's, like, actually fix shreds, so it's not like you don't want to blow your brains out doing that. And then, like, let's, like, fix some of the capital gains things and like, let's incentivize some entrepreneurship and like, let's, you know, make it easy for angel investors and for, like, venture funds to work in this country. Like, let's fix some of the structural stuff that, like, support this other thing. Because, like, what happens is they get, like, kind of down the road and then they're kind of like right at this end point where they've got a bunch of companies, but none of these, like, fundamental things have been fixed. And it's like a wholesale. Like, let's just fix the ecosystem. But they're kind of like, oh, like, well, let's just do the AI thing. Here's some companies. You guys are doing some stuff. But these companies are all, like, not all, but, like, not as strong as they could be because of all the kind of fundamental stuff that they had to go through. There's just not the access to capital privately. And so we all suck on the teeth of daddy government to kind of like, give us a hey, Penny. And it's just not enough to make anything work. And you can get on, you can get underfunded, right? You can even be underemployed. You can, you can do that. You can get, you can get just enough funding to skew yourselves. Anybody in research and academia probably understands that one really well. Jen built a research team of 20 people at Waterloo. That's incredible, a whole lab. And so you end up doing nothing but paperwork because that's how the government sets you up. So you don't do any research. So you end up in this place where if you're underfunded then all you do is just keep things going. And you know, that's kind of how if you're in a space and you can't afford to eat your own dog food enough, then you're just servicing your clients and you know, and everybody says, oh my website sucks. And you're like, yeah, you got no sales opportunities then, do you? Right, like, so there's all kinds of weird repercussions that happen because of the fact that people have to be super busy in an ecosystem that's not properly built out. And I would suggest that Canada has been like that for quite a long time. It's been as Jason says, so they have all the opportunity now with this AI kind of undercurrent. Like if they're going to throw billions of dollars at it, it's like, it's not like it doesn't take the data center money to fix that problem. It's a lot about awareness and funding and incentives. BC already has some pretty good incentives for investing in BC companies, but the BC cohort was promoting bc talking to BC too. And I'll just say this startups working with startups, we can empathize, but building a house of cards really. You know, we want to work with companies that have traction and have problems and we're working to solve those problems. You know, empathizing at the level of building each other up and sharing capabilities, intelligence and awareness at a level of startup ecosystem is great, but it's, that's one of the team BC kind of themes. It was good to know them and meet them all and see what their problematic themes are. And now I've got some intake coming and happening and we'll have some great relationships with different people and sovereignty is a kind of a weird one because I have some concerns for the edge and you can consider that a sovereign space. So I, technically speaking, some of the providers there were actually, well on my bailiwick. But the themes, they were difficult at times for me, but I did garner some respect for Evan Solomon, more than I had before. But the numbers that came out in the press releases were really disappointing. So it's, it's a really important thing and they're going to have more of them and so we'll go to it. And we're already being asked to present and do workshops in Vancouver. There's another summit coming up. And so there's a ladder of opportunity that if you participate in conferences at the level that my peers, executives can get access to, then there's opportunity that does happen for us. But it's a training ground for building relationshi
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u26
+  text: And you can get on, you can get underfunded, right? You can even be underemployed. You can, you can do that. You can get, you can get just enough funding to skew yourselves. Anybody in research and academia probably understands that one really well. Jen built a research team of 20 people at Waterloo. That's incredible, a whole lab. And so you end up doing nothing but paperwork because that's how the government sets you up. So you don't do any research. So you end up in this place where if you're underfunded then all you do is just keep things going. And you know, that's kind of how if you're in a space and you can't afford to eat your own dog food enough, then you're just servicing your clients and you know, and everybody says, oh my website sucks. And you're like, yeah, you got no sales opportunities then, do you? Right, like, so there's all kinds of weird repercussions that happen because of the fact that people have to be super busy in an ecosystem that's not properly built out. And I would suggest that Canada has been like that for quite a long time. It's been as Jason says, so they have all the opportunity now with this AI kind of undercurrent. Like if they're going to throw billions of dollars at it, it's like, it's not like it doesn't take the data center money to fix that problem. It's a lot about awareness and funding and incentives. BC already has some pretty good incentives for investing in BC companies, but the BC cohort was promoting bc talking to BC too. And I'll just say this startups working with startups, we can empathize, but building a house of cards really. You know, we want to work with companies that have traction and have problems and we're working to solve those problems. You know, empathizing at the level of building each other up and sharing capabilities, intelligence and awareness at a level of startup ecosystem is great, but it's, that's one of the team BC kind of themes. It was good to know them and meet them all and see what their problematic themes are. And now I've got some intake coming and happening and we'll have some great relationships with different people and sovereignty is a kind of a weird one because I have some concerns for the edge and you can consider that a sovereign space. So I, technically speaking, some of the providers there were actually, well on my bailiwick. But the themes, they were difficult at times for me, but I did garner some respect for Evan Solomon, more than I had before. But the numbers that came out in the press releases were really disappointing. So it's, it's a really important thing and they're going to have more of them and so we'll go to it. And we're already being asked to present and do workshops in Vancouver. There's another summit coming up. And so there's a ladder of opportunity that if you participate in conferences at the level that my peers, executives can get access to, then there's opportunity that does happen for us. But it's a training ground for building relationshi
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  text: And you can get on, you can get underfunded, right? You can even be underemployed. You can, you can do that. You can get, you can get just enough funding to skew yourselves. Anybody in research and academia probably understands that one really well. Jen built a research team of 20 people at Waterloo. That's incredible, a whole lab. And so you end up doing nothing but paperwork because that's how the government sets you up. So you don't do any research. So you end up in this place where if you're underfunded then all you do is just keep things going. And you know, that's kind of how if you're in a space and you can't afford to eat your own dog food enough, then you're just servicing your clients and you know, and everybody says, oh my website sucks. And you're like, yeah, you got no sales opportunities then, do you? Right, like, so there's all kinds of weird repercussions that happen because of the fact that people have to be super busy in an ecosystem that's not properly built out. And I would suggest that Canada has been like that for quite a long time. It's been as Jason says, so they have all the opportunity now with this AI kind of undercurrent. Like if they're going to throw billions of dollars at it, it's like, it's not like it doesn't take the data center money to fix that problem. It's a lot about awareness and funding and incentives. BC already has some pretty good incentives for investing in BC companies, but the BC cohort was promoting bc talking to BC too. And I'll just say this startups working with startups, we can empathize, but building a house of cards really. You know, we want to work with companies that have traction and have problems and we're working to solve those problems. You know, empathizing at the level of building each other up and sharing capabilities, intelligence and awareness at a level of startup ecosystem is great, but it's, that's one of the team BC kind of themes. It was good to know them and meet them all and see what their problematic themes are. And now I've got some intake coming and happening and we'll have some great relationships with different people and sovereignty is a kind of a weird one because I have some concerns for the edge and you can consider that a sovereign space. So I, technically speaking, some of the providers there were actually, well on my bailiwick. But the themes, they were difficult at times for me, but I did garner some respect for Evan Solomon, more than I had before. But the numbers that came out in the press releases were really disappointing. So it's, it's a really important thing and they're going to have more of them and so we'll go to it. And we're already being asked to present and do workshops in Vancouver. There's another summit coming up. And so there's a ladder of opportunity that if you participate in conferences at the level that my peers, executives can get access to, then there's opportunity that does happen for us. But it's a training ground for building relationshi What do you think the underlying incentives are that remove capital from this country or make it very difficult or large scale venture capital and startup ecosystem building? You got it. Anybody got an answer? Does anyone? Does Jason have an answer? Yeah, man, Probably a bunch of opinions anyway. I mean, what are the challenges? I think like we have cultural challenges. That was what I was. Yeah, I think that's like the underlying primary problem. So like when you have an entrepreneur who starts something who, you know, raises some money from like angels or something, the angels expect that investment to work. Like, despite having been trained that like they need to have like a cohort of like 10 to 20 investments in order to produce a return on all of their investments. And that being like a well established, you know, model, there's still like a oh, you lost my money, you kind of attitude. And so, I mean, I think I just learned yesterday another one of my investments folded. So I think I'm down 4 right now in terms of angel investments. And I'm kind of like, oh, one more closer to whichever one lasts, you know, and actually works. And I don't hold it against those people. Like they tried as hard.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  text: What do you think the underlying incentives are that remove capital from this country or make it very difficult or large scale venture capital and startup ecosystem building? You got it. Anybody got an answer? Does anyone? Does Jason have an answer? Yeah, man, Probably a bunch of opinions anyway. I mean, what are the challenges? I think like we have cultural challenges. That was what I was. Yeah, I think that's like the underlying primary problem. So like when you have an entrepreneur who starts something who, you know, raises some money from like angels or something, the angels expect that investment to work. Like, despite having been trained that like they need to have like a cohort of like 10 to 20 investments in order to produce a return on all of their investments. And that being like a well established, you know, model, there's still like a oh, you lost my money, you kind of attitude. And so, I mean, I think I just learned yesterday another one of my investments folded. So I think I'm down 4 right now in terms of angel investments. And I'm kind of like, oh, one more closer to whichever one lasts, you know, and actually works. And I don't hold it against those people. Like they tried as hard. 5%, right? It's a 5%. Is it 1 in 20? Yeah, I thought, I was hoping it's 1 in 10 that I gotta do. It's got to be 1 in 10 for me because I only made 10. So I need a, you know, 50% better than the background anyway. But you know, like culturally we have this issue and then like we've got people who do exit and like have, have money. Don't typically get really engaged. We don't have like a strong community of all of these people. It's not the access isn't ready. Like the venture funds say that they're early stage. Don't really invest in early stage things at the risk tolerance that like US based early stage funds do. Yeah, I mean we got a bunch of DEI stuff on top of that right now, I guess. Saw that AI chair at Dalhousie job posting. But you have to be like a disabled woman in order to be able to get the job. And I'm like, this isn't say this isn't meritocratic. Like you know, like are we going to get the best person? I mean like it should be open to anybody, but we shouldn't be specifying characteristics of the individual that we need to hire anyway. I think there's, I think cultural is the biggest issue that I've seen. And then just no one's written pulling their checkbook out in any way and the investors are generally pretty unsophisticated. And then we've got like weak networks. Once those founders have that money. One of the strengths that the US has, look, look at why Y Combinator works so well is because they have this ridiculous network that once you're plugged into that system, there's a tacit. You could have an introduction to anyone in that network. It's like how a lot of ethnic groups actually operate, you know, successfully, you know, where like if you're in that ethnic group, you can get like an intro to anyone else inside that ethnic group. They'll take your call because you know, like it's in, in group kind of orientation. And so we don't really have those kinds of like structures in Canada in terms of like social or professional structures. So it's very loose. Yeah, I watch a lot of people struggle. It's kind of nuts. Anyway, that's my little rant. But anyway, I just looked at the all in thing, Dave, and I realized that it's actually an AI conference called all in. And it's not like the all in AI conference or like the all in conference which everybody in tech is aware of, like, which is a totally different thing. And why they picked that name blows my mind.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u34
+  text: Is it 1 in 20? Yeah, I thought, I was hoping it's 1 in 10 that I gotta do. It's got to be 1 in 10 for me because I only made 10. So I need a, you know, 50% better than the background anyway. But you know, like culturally we have this issue and then like we've got people who do exit and like have, have money. Don't typically get really engaged. We don't have like a strong community of all of these people. It's not the access isn't ready. Like the venture funds say that they're early stage. Don't really invest in early stage things at the risk tolerance that like US based early stage funds do. Yeah, I mean we got a bunch of DEI stuff on top of that right now, I guess. Saw that AI chair at Dalhousie job posting. But you have to be like a disabled woman in order to be able to get the job. And I'm like, this isn't say this isn't meritocratic. Like you know, like are we going to get the best person? I mean like it should be open to anybody, but we shouldn't be specifying characteristics of the individual that we need to hire anyway. I think there's, I think cultural is the biggest issue that I've seen. And then just no one's written pulling their checkbook out in any way and the investors are generally pretty unsophisticated. And then we've got like weak networks. Once those founders have that money. One of the strengths that the US has, look, look at why Y Combinator works so well is because they have this ridiculous network that once you're plugged into that system, there's a tacit. You could have an introduction to anyone in that network. It's like how a lot of ethnic groups actually operate, you know, successfully, you know, where like if you're in that ethnic group, you can get like an intro to anyone else inside that ethnic group. They'll take your call because you know, like it's in, in group kind of orientation. And so we don't really have those kinds of like structures in Canada in terms of like social or professional structures. So it's very loose. Yeah, I watch a lot of people struggle. It's kind of nuts. Anyway, that's my little rant. But anyway, I just looked at the all in thing, Dave, and I realized that it's actually an AI conference called all in. And it's not like the all in AI conference or like the all in conference which everybody in tech is aware of, like, which is a totally different thing. And why they picked that name blows my mind.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  text: Is it 1 in 20? Yeah, I thought, I was hoping it's 1 in 10 that I gotta do. It's got to be 1 in 10 for me because I only made 10. So I need a, you know, 50% better than the background anyway. But you know, like culturally we have this issue and then like we've got people who do exit and like have, have money. Don't typically get really engaged. We don't have like a strong community of all of these people. It's not the access isn't ready. Like the venture funds say that they're early stage. Don't really invest in early stage things at the risk tolerance that like US based early stage funds do. Yeah, I mean we got a bunch of DEI stuff on top of that right now, I guess. Saw that AI chair at Dalhousie job posting. But you have to be like a disabled woman in order to be able to get the job. And I'm like, this isn't say this isn't meritocratic. Like you know, like are we going to get the best person? I mean like it should be open to anybody, but we shouldn't be specifying characteristics of the individual that we need to hire anyway. I think there's, I think cultural is the biggest issue that I've seen. And then just no one's written pulling their checkbook out in any way and the investors are generally pretty unsophisticated. And then we've got like weak networks. Once those founders have that money. One of the strengths that the US has, look, look at why Y Combinator works so well is because they have this ridiculous network that once you're plugged into that system, there's a tacit. You could have an introduction to anyone in that network. It's like how a lot of ethnic groups actually operate, you know, successfully, you know, where like if you're in that ethnic group, you can get like an intro to anyone else inside that ethnic group. They'll take your call because you know, like it's in, in group kind of orientation. And so we don't really have those kinds of like structures in Canada in terms of like social or professional structures. So it's very loose. Yeah, I watch a lot of people struggle. It's kind of nuts. Anyway, that's my little rant. But anyway, I just looked at the all in thing, Dave, and I realized that it's actually an AI conference called all in. And it's not like the all in AI conference or like the all in conference which everybody in tech is aware of, like, which is a totally different thing. And why they picked that name blows my mind. I, I, as soon as I knew that there was a, it was a really big deal calling it all in. If you were from California or part of tech, it was like, wow, how naive were they in naming it and then making it a really big deal. Right. So it's, it's a weird one, but inside the community, especially if you're one of the partners and organizers, they all got what was going on. And I would suggest, I, I firmly would agree with you that it's cultural and that it's an attitudinal thing. Having been involved with some US businesses and seeing how quickly we could do business, man, I was like, this is not possible. You know, it was, it was actually easier and it was really quite cool. And so there's a really big problem with us in the US right now in terms of how things potentially operate. But there was a, there is a different ethos of business in the US and there's a really, just as you said, there's even a harder proving ground for the investment. It's not the right level of investment. That's probably what they call it. Yeah, I mean, I don't know, I feel like you guys probably knew about this conference because like Karen's pretty plugged into the government side of things and like that's how you need to know about things. It's like, it's kind of like what's peripheral to like government funded something and if you're not like paying attention to that world or like peripheral to academia and you're just a startup like working away like you have no idea these things are happening.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  text: I, I, as soon as I knew that there was a, it was a really big deal calling it all in. If you were from California or part of tech, it was like, wow, how naive were they in naming it and then making it a really big deal. Right. So it's, it's a weird one, but inside the community, especially if you're one of the partners and organizers, they all got what was going on. And I would suggest, I, I firmly would agree with you that it's cultural and that it's an attitudinal thing. Having been involved with some US businesses and seeing how quickly we could do business, man, I was like, this is not possible. You know, it was, it was actually easier and it was really quite cool. And so there's a really big problem with us in the US right now in terms of how things potentially operate. But there was a, there is a different ethos of business in the US and there's a really, just as you said, there's even a harder proving ground for the investment. It's not the right level of investment. That's probably what they call it. Yeah, I mean, I don't know, I feel like you guys probably knew about this conference because like Karen's pretty plugged into the government side of things and like that's how you need to know about things. It's like, it's kind of like what's peripheral to like government funded something and if you're not like paying attention to that world or like peripheral to academia and you're just a startup like working away like you have no idea these things are happening. Yeah, we're, we're involved in Alberta and then and we have the project there and we've approached Amy there. So that's how we got into it and recognized how silly that organization can be. It actually creates competition with the ecosystem he said how they fund. I'm like, oh man, you guys got it all weirded up. But that, that was how we got brought into it. And now because of my team members, they're, yeah, Karen and Carol and now Jen, Jen's part of Waterloo and ubc. So there's a good connection that we have at the research level to the infrastructure level, but still trying to shake down opportunities for an organization that's a consultancy that has their own ability to build products and has product. If you want to Call it that is still tough positioning. I'm in a lot of talks with Jen right now trying to fold in learnings and build strategies such that we can track on it. So it was a really neat one to just focus on how do we deal the sales on this one. And we came up with people and that's kind of what the goal is and then an understanding of things. Again. Sorry I'm coming late. Maybe I missed this. In your email you said there's update from the conference. Where can I find update? Or you just shared it.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  text: Yeah, we're, we're involved in Alberta and then and we have the project there and we've approached Amy there. So that's how we got into it and recognized how silly that organization can be. It actually creates competition with the ecosystem he said how they fund. I'm like, oh man, you guys got it all weirded up. But that, that was how we got brought into it. And now because of my team members, they're, yeah, Karen and Carol and now Jen, Jen's part of Waterloo and ubc. So there's a good connection that we have at the research level to the infrastructure level, but still trying to shake down opportunities for an organization that's a consultancy that has their own ability to build products and has product. If you want to Call it that is still tough positioning. I'm in a lot of talks with Jen right now trying to fold in learnings and build strategies such that we can track on it. So it was a really neat one to just focus on how do we deal the sales on this one. And we came up with people and that's kind of what the goal is and then an understanding of things. Again. Sorry I'm coming late. Maybe I missed this. In your email you said there's update from the conference. Where can I find update? Or you just shared it. You'll get in your transcript now. Okay. Okay. Do you know whether there's access to their conference material? Do they share anything? I would suspect that it would be just as easy to find it through search and perplexity and Google all in event. If you do that, you'll find the website and they have the list of the. Like you can. Everything's publicly accessible pretty much. So you can see what the speakers, what the sessions were, what the themes were. If you'd like some analysis, I've done that. But that was all pre event. And so I think what's really neat to do is to just get a sense of the event which was this confluence of government, industry and institutions. See what the press releases are because they're usually quite telling because if they're the same thing you've heard before, then that's where the conference was. But you know there's supposed to be billions of dollars flowing and that's the biggest thing. Um, and I don't have any inside source. Like the promoters don't do that kind of thing. I read their blog posts and it's just, it's just sales. Right. They just care. Yeah. What is the three main takeaway? If you can summarize. But if not, that's okay. What surprised you?
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  text: I would suspect that it would be just as easy to find it through search and perplexity and Google all in event. If you do that, you'll find the website and they have the list of the. Like you can. Everything's publicly accessible pretty much. So you can see what the speakers, what the sessions were, what the themes were. If you'd like some analysis, I've done that. But that was all pre event. And so I think what's really neat to do is to just get a sense of the event which was this confluence of government, industry and institutions. See what the press releases are because they're usually quite telling because if they're the same thing you've heard before, then that's where the conference was. But you know there's supposed to be billions of dollars flowing and that's the biggest thing. Um, and I don't have any inside source. Like the promoters don't do that kind of thing. I read their blog posts and it's just, it's just sales. Right. They just care. Yeah. What is the three main takeaway? If you can summarize. But if not, that's okay. What surprised you? The government is still. The government functions like a government and so they have council coming together to gather opinions and then they're going to allocate based on opinions. There's a lot of people that all have the same solutions either at enterprise or mid level. There's a lot of people with agentic solutions. There's not a lot of people buying these. Everyone's selling and the state of the art is pretty much understood to be that you will have agentic workflows and agents doing a lot of the work in that space. There wasn't fear of losing jobs, but there wasn't anybody making sales. Um, so in terms of an entrepreneur, you might not last long. But yeah, there's probably More I would ask what are the themes of this? I would just ask that of the transcript. It's probably better. Okay, great. Thank you. Yeah, I will probably go back. So that. And I was in old Montreal. I didn't mention that. So I was in Montreal. So I was like 15 minutes or 10 minutes away from the conference center and. And old Montreal is hundreds and hundreds of years old. And we were end up building those in an Airbnb. And so that was kind of cool. And we went to Schwartz's, if anybody knows that that's age old institution there for smoked meat sandwiches. And so we had Carol, who'd never been, and that was kind of cool. So another reason to go to a conference is to go to a new city. And I haven't been to Montreal but three times in my life. Once to be born there and live there and then another time and then this time. So it was really cool. But yeah, it's also expensive. So you have to track on things. Expensive time and focus. Jason, anything else?
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: Yeah, I will probably go back. So that. And I was in old Montreal. I didn't mention that. So I was in Montreal. So I was like 15 minutes or 10 minutes away from the conference center and. And old Montreal is hundreds and hundreds of years old. And we were end up building those in an Airbnb. And so that was kind of cool. And we went to Schwartz's, if anybody knows that that's age old institution there for smoked meat sandwiches. And so we had Carol, who'd never been, and that was kind of cool. So another reason to go to a conference is to go to a new city. And I haven't been to Montreal but three times in my life. Once to be born there and live there and then another time and then this time. So it was really cool. But yeah, it's also expensive. So you have to track on things. Expensive time and focus. Jason, anything else? Oh, I quick. Sorry. After you. You can go for it. Okay. So they have done this survey about AI readiness in the workplace. So they surveyed 47 countries and guess where Canada ranked 44. Wait, wait, they ranked 27 countries and we ranked 44th. There are seven countries. That's good. Sounds like an AI story. So yeah, 47. We rank 44 and it's country kind of interesting. There's culture differences. Like for instance, AI and the robots in western cultures being perceived as threat through popular media, movies and all this destroy human humanities there bad guys. The evils I think that influence overall population's perception towards AI and robot. Robot is. It's like this resistance. But if you're looking at eastern culture, especially Japan, robot is part of their. I know, like culture. Yeah, yeah. Part of the society. They can help, they can do a lot of things. They're efficient. So I think that explains a lot in terms of culture. They're more acceptable and they see the positive things, like positive lens words. Western cultures like oh, they're. They're bad, they're awful. They're gonna take our jobs and they're gonna destroy society. And funny enough, I was talking to one of my friend's daughter, she's in grade eight. So I said, have you guys ever heard about AI? So yeah, yeah, we know. What's AI? I said, what's your perception towards AI? She said, AI is eating. I'm like, what? That's how public schools teaching kids AI equals to cheating. It's crazy.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u53
+  - u54
+  - u55
+  - u56
+  text: So yeah, 47. We rank 44 and it's country kind of interesting. There's culture differences. Like for instance, AI and the robots in western cultures being perceived as threat through popular media, movies and all this destroy human humanities there bad guys. The evils I think that influence overall population's perception towards AI and robot. Robot is. It's like this resistance. But if you're looking at eastern culture, especially Japan, robot is part of their. I know, like culture. Yeah, yeah. Part of the society. They can help, they can do a lot of things. They're efficient. So I think that explains a lot in terms of culture. They're more acceptable and they see the positive things, like positive lens words. Western cultures like oh, they're. They're bad, they're awful. They're gonna take our jobs and they're gonna destroy society. And funny enough, I was talking to one of my friend's daughter, she's in grade eight. So I said, have you guys ever heard about AI? So yeah, yeah, we know. What's AI? I said, what's your perception towards AI? She said, AI is eating. I'm like, what? That's how public schools teaching kids AI equals to cheating. It's crazy. Yeah, I Think CIA psyop. You know, I don't know. You should watch the south park episode on AI Ing because it does a really good job at skew. Skewering what the feelings of society are and like what the impacts are. It's like, it's like a year or two old, but it's basically like they do a really good job. You should see this year's episode on Chat GPT. Oh my God. They're very, very poignant, those guys. It's very good, like social commentary. But you know, it's funny because like I trained my son how to use AI and he got a job like pretty readily, like from a US based company. And he's 18, but he would never have done it or thought that he could do it, you know, save for his like dad understanding it and then being like, spend some time on this, get good at this, pay attention to these sources, channel this information. And now he's like quite confident and so. But there is no, you know, like, what would be alternative? Go to school for four years, no offense, go to school for four years, come out at 22 with a degree. And now it's like four years from now and like things are, things are changing. On the weekly, like, you need to pull out. I know.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  text: Yeah, I Think CIA psyop. You know, I don't know. You should watch the south park episode on AI Ing because it does a really good job at skew. Skewering what the feelings of society are and like what the impacts are. It's like, it's like a year or two old, but it's basically like they do a really good job. You should see this year's episode on Chat GPT. Oh my God. They're very, very poignant, those guys. It's very good, like social commentary. But you know, it's funny because like I trained my son how to use AI and he got a job like pretty readily, like from a US based company. And he's 18, but he would never have done it or thought that he could do it, you know, save for his like dad understanding it and then being like, spend some time on this, get good at this, pay attention to these sources, channel this information. And now he's like quite confident and so. But there is no, you know, like, what would be alternative? Go to school for four years, no offense, go to school for four years, come out at 22 with a degree. And now it's like four years from now and like things are, things are changing. On the weekly, like, you need to pull out. I know. Spencer. Crazy, right? Time flies, buddy. I think university, like I, I had conversation with our associate provost. I told her, I said, look, we have to pivot what we're valuing in education. It's not the knowledge, it's about this human skills. Like if your son come to universities now for just learning the facts, actually it's engaging in different communities and build interpersonal skills, learn the team learning skills and you know, have fun in his life because if he missed out, he will feel missing out because majority of the top performers, they went to university. And in her psychology, she, he will have this hole because I've never been to university. So that actually eats into his confidence.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: I think university, like I, I had conversation with our associate provost. I told her, I said, look, we have to pivot what we're valuing in education. It's not the knowledge, it's about this human skills. Like if your son come to universities now for just learning the facts, actually it's engaging in different communities and build interpersonal skills, learn the team learning skills and you know, have fun in his life because if he missed out, he will feel missing out because majority of the top performers, they went to university. And in her psychology, she, he will have this hole because I've never been to university. So that actually eats into his confidence. Yeah, I think that's true. I mean I never, I dropped out of university after my first semester and I had the same kind of issue where I feel like, is there things that I think I should know that I don't know? And as a result I'm not making the right kind of choices or decisions. And so I had to be additionally vigilant, you know, in like consuming more information in order to kind of backfill what I thought was a deficiency in my education. But you learn other things, I guess. I don't know. But there is, it's, it's a tricky thing. Because, like, the, you know, academic university system isn't able to change at the rate that it may need to change in order to not just survive, but thrive, you know, kind of in this, in this world. I mean, like, have you guys, like, played with Sora too, yet? Like, this has been like, I spent like three hours last night. I was addicted to this. Like, have you guys seen this? Let me show, let me show you. Okay. It's like the, It's Chad GPT. It's a separate app. I knew Sora. It was really bad before. Okay. Yes, man. Yes. Oh, that's pretty good. Now, how long is the video you can create now? Oh, my gosh. Wait here.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: Yeah, I think that's true. I mean I never, I dropped out of university after my first semester and I had the same kind of issue where I feel like, is there things that I think I should know that I don't know? And as a result I'm not making the right kind of choices or decisions. And so I had to be additionally vigilant, you know, in like consuming more information in order to kind of backfill what I thought was a deficiency in my education. But you learn other things, I guess. I don't know. But there is, it's, it's a tricky thing. Because, like, the, you know, academic university system isn't able to change at the rate that it may need to change in order to not just survive, but thrive, you know, kind of in this, in this world. I mean, like, have you guys, like, played with Sora too, yet? Like, this has been like, I spent like three hours last night. I was addicted to this. Like, have you guys seen this? Let me show, let me show you. Okay. It's like the, It's Chad GPT. It's a separate app. I knew Sora. It was really bad before. Okay. Yes, man. Yes. Oh, that's pretty good. Now, how long is the video you can create now? Oh, my gosh. Wait here. I love it. Dr. Strange. Oh, man, things are getting scary fast. It's, it's, it's bananas. I don't know. It's, it's, it's like the Chat GPT moment, but for creativity, because you can prompt it with whatever and, you know, it's, it's, you know, takes maybe 30 seconds to kind of generate these things, but it's like completely unbridled creativity. So you can, basically, it works. You can take like an, an avatar of yourself, and then you can insert yourself into anything or you can tag other people that allow you to use their likeness to insert them into things. So the whole platform right now is just Sam Altman doing the stupidest, and you can't upload pictures of other people. Here, let me show you. I'll just show you quickly. Of course, man. Of course. You guys, you guys can't hear, but if we go.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  text: It's, it's, it's bananas. I don't know. It's, it's, it's like the Chat GPT moment, but for creativity, because you can prompt it with whatever and, you know, it's, it's, you know, takes maybe 30 seconds to kind of generate these things, but it's like completely unbridled creativity. So you can, basically, it works. You can take like an, an avatar of yourself, and then you can insert yourself into anything or you can tag other people that allow you to use their likeness to insert them into things. So the whole platform right now is just Sam Altman doing the stupidest, and you can't upload pictures of other people. Here, let me show you. I'll just show you quickly. Of course, man. Of course. You guys, you guys can't hear, but if we go. Oh, my God, he's ready for this. Especially for kids. Oh, man. In rush, why they study, why they do anything hard. That is just wild, man. That is, that is, that is the most immersive kind of ying. I think your point is, like, the issue, like, my reflection on my experience and what I've kind of seen in the world is that, like, suffering and challenge is necessary to produce the capabilities and character in order to, like, succeed and properly, you know, think through things. Like, if you, if you lack the experience of suffering in some capacity, you're going to have a much harder time time, and you're going to end up generating your own suffering from your own mind. And if we continue to make things really easy for people, like, then we're going to have a really dysfunctional society. Well, it seems like muscles, right? I, I, I taught my students, if you want to build your physical muscle, you go to the gym, you suffer, you have pain. Yeah, you basically went through the things You. You don't want to do to build the muscle. It's the same thing for your mental muscle. And think about, like, the things you just showed. It's the. It's a candy. They're gonna just keep eating it to. They become like, no mental muscle. Like.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  text: Well, it seems like muscles, right? I, I, I taught my students, if you want to build your physical muscle, you go to the gym, you suffer, you have pain. Yeah, you basically went through the things You. You don't want to do to build the muscle. It's the same thing for your mental muscle. And think about, like, the things you just showed. It's the. It's a candy. They're gonna just keep eating it to. They become like, no mental muscle. Like. Yeah, no, I think it's. And I think the thing is, is I don't think Sam Altman's like, a good player, you know, Like, I think he's like, effective, but I don't think he's like, you know, altruistic in the sense where, like, he's like, oh, I think we can kill TikTok with this thing, you know, And I think, like, they've released it as an app, like a social app to rival TikTok or Instagram. And so like, OpenAI's commercializing products as a foray into being able to capture attention, not just develop models that are useful for utilization in AI. So like, they're. They're fighting a war on, like, multiple fronts, which I think is strategically smart, but, like, you know, potentially challenging due to like a focus issue. But they're big enough that they can, they can achieve that. But yeah, I mean, I think it's really, really interesting. They want to be. Do they want to be a universal application? Like, I think maybe the parallel is something like WeChat in China, where you have like all these different functions within that one chat platform, and this is like that on steroids. From government perspective, they would never be able to achieve the WeChat because the governments pretty much allow them to integrate all the functions like their health care, transportation, entertainment, like anything you can think of. Banking, everything. Like one app. Well, if you don't have that app, you cannot navigate the society. But in North America, either Canada or us, they don't want to have that kind of monopoly. And the government cannot be bundled with any commercial things, I think. So I, Yeah, it's. For me, I don't think it's coming. I can see and they competing on some sectors, but yeah, some sectors, like.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  text: They want to be. Do they want to be a universal application? Like, I think maybe the parallel is something like WeChat in China, where you have like all these different functions within that one chat platform, and this is like that on steroids. From government perspective, they would never be able to achieve the WeChat because the governments pretty much allow them to integrate all the functions like their health care, transportation, entertainment, like anything you can think of. Banking, everything. Like one app. Well, if you don't have that app, you cannot navigate the society. But in North America, either Canada or us, they don't want to have that kind of monopoly. And the government cannot be bundled with any commercial things, I think. So I, Yeah, it's. For me, I don't think it's coming. I can see and they competing on some sectors, but yeah, some sectors, like. Entertainment, especially the sec, the sectors that capture the most attention, for sure, the entertainment, social media, not good. How do I get rid of that? I don't know. I've only gotten rid of them before. I would believe you if I thought you had to integrate, but you don't. So you could do. What they're doing right now is, I think is relatively easy. It's the creative stuff. It is our entertainment is our cultural valences that they're going after. It is Right. But My experience with Claude lately is that because of the platform it can now just everything and it can now go into basically the whole of my work ecosystem and start doing things. And, and if that doesn't work, I'm on the wait list for their Chrome extension. And so the chrome extension is whatever you got going on right side, you got your chat window and your chat window takes over your browser and basically is you doing things. And so there's more than one way to enable AI to provide coverage on a whole ecosystem that an individual has that would be unique to them and you wouldn't have to go after the infrastructure underneath it to get that value. And so in China it really does well to have a centralized opportunity there. In other companies in other countries we do it. In Canada we have a very strong ecosystem of collecting information from citizens. It's just super laggy, not useful anymore. And so the real time nature of which you would want to do that is pretty cool. So things like mass and, and what we're seeing with the Chrome extensions and I, I've built one, it's really lame but it was able to do that. It was able to actually talk to the pages in a chat like way. As soon as you can do that you can start clicking buttons and you start navigating things and you can go into applications into, into whole healthcare systems that you have no understanding of and be effective. That's the future of some of these AIs.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u82
+  - u83
+  text: How do I get rid of that? I don't know. I've only gotten rid of them before. I would believe you if I thought you had to integrate, but you don't. So you could do. What they're doing right now is, I think is relatively easy. It's the creative stuff. It is our entertainment is our cultural valences that they're going after. It is Right. But My experience with Claude lately is that because of the platform it can now just everything and it can now go into basically the whole of my work ecosystem and start doing things. And, and if that doesn't work, I'm on the wait list for their Chrome extension. And so the chrome extension is whatever you got going on right side, you got your chat window and your chat window takes over your browser and basically is you doing things. And so there's more than one way to enable AI to provide coverage on a whole ecosystem that an individual has that would be unique to them and you wouldn't have to go after the infrastructure underneath it to get that value. And so in China it really does well to have a centralized opportunity there. In other companies in other countries we do it. In Canada we have a very strong ecosystem of collecting information from citizens. It's just super laggy, not useful anymore. And so the real time nature of which you would want to do that is pretty cool. So things like mass and, and what we're seeing with the Chrome extensions and I, I've built one, it's really lame but it was able to do that. It was able to actually talk to the pages in a chat like way. As soon as you can do that you can start clicking buttons and you start navigating things and you can go into applications into, into whole healthcare systems that you have no understanding of and be effective. That's the future of some of these AIs. I, I just want to follow up and I think Ying actually raised, I mean like I don't know if I agree or disagree with, with what you said there David. I think I understand like that to a level but like I do think just based on what Ying said and that there is almost a competitive advantage for some of those countries that already have that level of top down stuff.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: How do I get rid of that? I don't know. I've only gotten rid of them before. I would believe you if I thought you had to integrate, but you don't. So you could do. What they're doing right now is, I think is relatively easy. It's the creative stuff. It is our entertainment is our cultural valences that they're going after. It is Right. But My experience with Claude lately is that because of the platform it can now just everything and it can now go into basically the whole of my work ecosystem and start doing things. And, and if that doesn't work, I'm on the wait list for their Chrome extension. And so the chrome extension is whatever you got going on right side, you got your chat window and your chat window takes over your browser and basically is you doing things. And so there's more than one way to enable AI to provide coverage on a whole ecosystem that an individual has that would be unique to them and you wouldn't have to go after the infrastructure underneath it to get that value. And so in China it really does well to have a centralized opportunity there. In other companies in other countries we do it. In Canada we have a very strong ecosystem of collecting information from citizens. It's just super laggy, not useful anymore. And so the real time nature of which you would want to do that is pretty cool. So things like mass and, and what we're seeing with the Chrome extensions and I, I've built one, it's really lame but it was able to do that. It was able to actually talk to the pages in a chat like way. As soon as you can do that you can start clicking buttons and you start navigating things and you can go into applications into, into whole healthcare systems that you have no understanding of and be effective. That's the future of some of these AIs. I, I just want to follow up and I think Ying actually raised, I mean like I don't know if I agree or disagree with, with what you said there David. I think I understand like that to a level but like I do think just based on what Ying said and that there is almost a competitive advantage for some of those countries that already have that level of top down stuff. For oh, huge advantage. Yeah, at Amazon we had to, when I was working at aws we had to spin up whole basically different stacks of the entire AWS ecosystem with all the services in them. In countries where they had laws that basically said the government is able to have like physical access to the, the cables and anything that's running through them. And just like I'd never really connected those two dots in my head about how that, what that really implies for like the world of AI, but I think it does imply something pretty big. That being said, I do give clot access to everything on my computer. So. But what I'm getting at is like there's, there's web cameras everywhere and they, they have doors built into them. And no, some of them have no doors built into them. But certain types of intelligence organization get into anything. And so when we're talking commercial opportunities, it's different than an intelligent intelligence at a government level where they don't have a budget, they just don't. They can spend as whatever they like and they have all the pressure in the world to do whatever they can. And so in our country they do this, hey, let's get a circle and hold hands and we'll come up with some opinions and then we'll move it through the system. And there's another level of government in which I have some peers that operate in and, and they still do some of the stuff that I, I'm talking about. We just don't ever see it and hear it. It's just not used for the social engineering at the level that we could use it at.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  text: So. But what I'm getting at is like there's, there's web cameras everywhere and they, they have doors built into them. And no, some of them have no doors built into them. But certain types of intelligence organization get into anything. And so when we're talking commercial opportunities, it's different than an intelligent intelligence at a government level where they don't have a budget, they just don't. They can spend as whatever they like and they have all the pressure in the world to do whatever they can. And so in our country they do this, hey, let's get a circle and hold hands and we'll come up with some opinions and then we'll move it through the system. And there's another level of government in which I have some peers that operate in and, and they still do some of the stuff that I, I'm talking about. We just don't ever see it and hear it. It's just not used for the social engineering at the level that we could use it at. I get going back to like, and I'm sure this is probably going on inside some of these companies right now, but like going back to like my time at AWS when we would. Sometimes the Chinese government would issue a statement that like this version of this protocol. This happened to me in a big way one time because I was on the team, like in charge of TLS, for, for or S3 and they said this version of HTTPs is no longer valid and you have to change now or you're going to lose your business license in China. Like if you. And so it would force us to like scramble and like make these sweeping changes, like very, very quickly in a relatively dangerous way. And like, I'm sure that story is probably going to play out if, if it isn't already, like with AI models and maybe he already has. I haven't really connected those two dots. So thanks for mentioning that, Ying. I'm gonna go like look into that. I'm sure that's like happening right now. Actually. They have, they can come up with a regulation in a week. Like they do whatever they think is supposed to be done, like for the teenagers. The government actually have put the hour restrictions on all the game playing. Like I can't remember specific hours. Yeah, that's the things we hope society can do. But that will never happen in Western culture because of that.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  text: I get going back to like, and I'm sure this is probably going on inside some of these companies right now, but like going back to like my time at AWS when we would. Sometimes the Chinese government would issue a statement that like this version of this protocol. This happened to me in a big way one time because I was on the team, like in charge of TLS, for, for or S3 and they said this version of HTTPs is no longer valid and you have to change now or you're going to lose your business license in China. Like if you. And so it would force us to like scramble and like make these sweeping changes, like very, very quickly in a relatively dangerous way. And like, I'm sure that story is probably going to play out if, if it isn't already, like with AI models and maybe he already has. I haven't really connected those two dots. So thanks for mentioning that, Ying. I'm gonna go like look into that. I'm sure that's like happening right now. Actually. They have, they can come up with a regulation in a week. Like they do whatever they think is supposed to be done, like for the teenagers. The government actually have put the hour restrictions on all the game playing. Like I can't remember specific hours. Yeah, that's the things we hope society can do. But that will never happen in Western culture because of that. No, it always does. It always does. It's just the lag on. It isn't the same. No, the government would never come up with a regulation to limit the game playing hours. They just can't enforce it effectively. Right? Yeah, no, they can, they can, they can do a lot of things they do other Things to promote what they would like to be as the regulated number of hours. And that's how that works. I'm not saying it's any less or more of effective and regard saying if you say some kid you can only have two hours, the first thing they learn how to do is get three hours. So anywhere these rules are in effect, they're, they're there for a reason and they do have some measurable impact. And what I'm getting at is how things work in our industry and this is what's going on in North America and globally. Because unless you're in a country like China, the industries are leading and the regulations come afterwards. And I work in oil and gas and the same thing happened there. You work through things and people die and then you make some regulations happen and then people get hurt and then you make more regulations happen and then it's just a productivity loss. Right. It goes from risk to just a matter of people having a competitive advantage. And that's unfortunately the remedial effort that you see going on. If things get drastic, all of a sudden kids are going through security checks to go into schools. In the United States. I think it's the society structure structured in a different way because of historical reason, because I think democratic, democratic society in western culture it's bottom up, right? Everything's decided by, you know, the voters, everything goes up then that's why it takes longer time. But in China it's top down society because it's elite leading the crowds and that's been running for the past 5,000 years and people who used to it, there's culture, the power distance in China is really big. But power distance in North America is really small. So there's a cons on either side. Like if you have democratic mind elite, they can make good decisions. But if you have Terrence and you know, not good character, then you subject to a huge risk. So I think there's a pros and cons. I just feel Canadian government is not ready yet. In a sense they will be very behind. Just think about the politicians, how much training they have in technology.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  text: Yeah, no, they can, they can, they can do a lot of things they do other Things to promote what they would like to be as the regulated number of hours. And that's how that works. I'm not saying it's any less or more of effective and regard saying if you say some kid you can only have two hours, the first thing they learn how to do is get three hours. So anywhere these rules are in effect, they're, they're there for a reason and they do have some measurable impact. And what I'm getting at is how things work in our industry and this is what's going on in North America and globally. Because unless you're in a country like China, the industries are leading and the regulations come afterwards. And I work in oil and gas and the same thing happened there. You work through things and people die and then you make some regulations happen and then people get hurt and then you make more regulations happen and then it's just a productivity loss. Right. It goes from risk to just a matter of people having a competitive advantage. And that's unfortunately the remedial effort that you see going on. If things get drastic, all of a sudden kids are going through security checks to go into schools. In the United States. I think it's the society structure structured in a different way because of historical reason, because I think democratic, democratic society in western culture it's bottom up, right? Everything's decided by, you know, the voters, everything goes up then that's why it takes longer time. But in China it's top down society because it's elite leading the crowds and that's been running for the past 5,000 years and people who used to it, there's culture, the power distance in China is really big. But power distance in North America is really small. So there's a cons on either side. Like if you have democratic mind elite, they can make good decisions. But if you have Terrence and you know, not good character, then you subject to a huge risk. So I think there's a pros and cons. I just feel Canadian government is not ready yet. In a sense they will be very behind. Just think about the politicians, how much training they have in technology. Well, you're in a really good position to be able to influence how much training your peers have and to be able to influence the organization and all your students have so that you can in a practical and applied way really raise the dew point. The neat thing that's really the big opportunity with what you suggest. The implicit, the down, the bottom up thing is that implicit leadership is recognized. And it is one of the tenets of a Meritocracy. And, you know, you're given a role to give the opportunity to succeed. And with that success, then comes more power and more opportunity. And whether it's, you know, by mandate and title or through some sort of implicit leadership that you offer, you're in a really good position to change things.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  text: I think it's the society structure structured in a different way because of historical reason, because I think democratic, democratic society in western culture it's bottom up, right? Everything's decided by, you know, the voters, everything goes up then that's why it takes longer time. But in China it's top down society because it's elite leading the crowds and that's been running for the past 5,000 years and people who used to it, there's culture, the power distance in China is really big. But power distance in North America is really small. So there's a cons on either side. Like if you have democratic mind elite, they can make good decisions. But if you have Terrence and you know, not good character, then you subject to a huge risk. So I think there's a pros and cons. I just feel Canadian government is not ready yet. In a sense they will be very behind. Just think about the politicians, how much training they have in technology. Well, you're in a really good position to be able to influence how much training your peers have and to be able to influence the organization and all your students have so that you can in a practical and applied way really raise the dew point. The neat thing that's really the big opportunity with what you suggest. The implicit, the down, the bottom up thing is that implicit leadership is recognized. And it is one of the tenets of a Meritocracy. And, you know, you're given a role to give the opportunity to succeed. And with that success, then comes more power and more opportunity. And whether it's, you know, by mandate and title or through some sort of implicit leadership that you offer, you're in a really good position to change things. I'm doing my best. But back to Jason's early point, this university system really set up in 1700, like, they didn't change, they just trained the trade like people with trade skills. To this day, it has not changed a bit. It's the textbook, it's the exams, it's you sitting in the classroom. And most of professors lecture the whole way. Like, who can keep that long attention in the classroom in a lecture style? Most. Nobody. Unless you're taking notes. That's how, that's how I. That's the only reason you take notes, is to stay engaged. Now you have note takers. And most, most of my daughter's lectures are recorded and they can see them afterwards. And so it's a really weird combination of things. And they use applications like GoodNotes now to be able to take lecture notes, turn them into flashcards, turn them into audiobooks, turn them into different kinds of learning material. So there's this thing going on where the lectures are the same and they are very static. But what the students are doing and what I'm seeing and I didn't teach my daughter, she taught me this. I super want to. And I'm like, oh, she's on top of it. She's figured it out. She's got, she's talking with her peers. They're all doing this. I can show her stuff, but at the same time, they're figuring out how to use this stuff. And UVIX mandate is they're allowed to. And what they're, what they're doing is they're saying, here's where we are as an institution. Here's where they're functioning as a protocol and practice. And that's what I think you have the opportunity for. And I've heard you because I've talked to you at length. And you're doing this with your students is you're, you're giving them these real applied skills in the context of an institution that has been conceptually focused.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u96
+  - u97
+  - u98
+  text: I'm doing my best. But back to Jason's early point, this university system really set up in 1700, like, they didn't change, they just trained the trade like people with trade skills. To this day, it has not changed a bit. It's the textbook, it's the exams, it's you sitting in the classroom. And most of professors lecture the whole way. Like, who can keep that long attention in the classroom in a lecture style? Most. Nobody. Unless you're taking notes. That's how, that's how I. That's the only reason you take notes, is to stay engaged. Now you have note takers. And most, most of my daughter's lectures are recorded and they can see them afterwards. And so it's a really weird combination of things. And they use applications like GoodNotes now to be able to take lecture notes, turn them into flashcards, turn them into audiobooks, turn them into different kinds of learning material. So there's this thing going on where the lectures are the same and they are very static. But what the students are doing and what I'm seeing and I didn't teach my daughter, she taught me this. I super want to. And I'm like, oh, she's on top of it. She's figured it out. She's got, she's talking with her peers. They're all doing this. I can show her stuff, but at the same time, they're figuring out how to use this stuff. And UVIX mandate is they're allowed to. And what they're, what they're doing is they're saying, here's where we are as an institution. Here's where they're functioning as a protocol and practice. And that's what I think you have the opportunity for. And I've heard you because I've talked to you at length. And you're doing this with your students is you're, you're giving them these real applied skills in the context of an institution that has been conceptually focused. Yeah, I make the last point. I have to go to another meeting. What really concerns me is the society gonna be divided even further along. Because for the motivated top 20 students, they get help and they use AI to increase their intellectual capability versus what Jason just showed us. Those Gonna be used for the remaining of the crowds who have the mental candy distract them. And they were not even be as good as previous generations average. So that's gonna be a huge gap. You have like phenomenally, phenomenally like successful and. And outstanding group on the top. And you will have much, much dumber rest compared to last generation at the bottom. Like what gonna look like?
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u98
+  - u99
+  - u100
+  text: Yeah, I make the last point. I have to go to another meeting. What really concerns me is the society gonna be divided even further along. Because for the motivated top 20 students, they get help and they use AI to increase their intellectual capability versus what Jason just showed us. Those Gonna be used for the remaining of the crowds who have the mental candy distract them. And they were not even be as good as previous generations average. So that's gonna be a huge gap. You have like phenomenally, phenomenally like successful and. And outstanding group on the top. And you will have much, much dumber rest compared to last generation at the bottom. Like what gonna look like? Well, maybe, maybe we can look at what we call intelligence and then really understand what you're referring to. And then understand that what you've actually put forward is what the schools really need to do is provide that context for socializing, learning how to work as a team and understand the human component of things. And our intelligence around that could be much, much greater. And we could do far greater things with a lot less technology. Well, there's different dimensions of intelligence. There's what we call this kind of academic intelligence. There's must like physical intelligence, there's a musical intelligence, there's a different dimensions of intelligence. But the school actually only developing this kind of academic related intelligence and hopefully incorporate some emotional and social intelligence into the component which we should amplify in the next couple of years. Because academic intelligence can be achieved much easier using AI. But other intelligence, there's no way you can achieve a lot. Yes, you can talk to AI, you can have agent play as, you know, team players, but that's not real. It's so fake. And I don't think AI is good at the current state. It's not as good as humans. The unpredictability among a group of people. I don't think AI can simulate yet. Well, obviously probably can do it 10 years down the road. But I currently I think they should send kids into the university not for the purpose of academic intelligence, but social intelligence.
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  text: Well, there's different dimensions of intelligence. There's what we call this kind of academic intelligence. There's must like physical intelligence, there's a musical intelligence, there's a different dimensions of intelligence. But the school actually only developing this kind of academic related intelligence and hopefully incorporate some emotional and social intelligence into the component which we should amplify in the next couple of years. Because academic intelligence can be achieved much easier using AI. But other intelligence, there's no way you can achieve a lot. Yes, you can talk to AI, you can have agent play as, you know, team players, but that's not real. It's so fake. And I don't think AI is good at the current state. It's not as good as humans. The unpredictability among a group of people. I don't think AI can simulate yet. Well, obviously probably can do it 10 years down the road. But I currently I think they should send kids into the university not for the purpose of academic intelligence, but social intelligence. I definitely feel I learned like maybe even more important social intelligence and like grit skills at university than I did like the actual content of what I was learning in my classes. But that definitely happens more organically. It was never like called upon to do that. It was just. That's just the setup. You're there in person, you're there with people, you have these tests, you have deadlines. But yeah, I mean like thank goodness I was there like just before. Well, not just before, but like five years before COVID So like I, I don't. I'm sure it's. The landscape has just totally changed and. Yeah, I don't know. Okay, thank you so much for the meeting. I hope to see you guys next week. Have a good day. Yeah, thanks. Bye. Bye. Cool beans. Okay.
+- id: W-0039
+  t_start: 3420.0
+  t_end: 3474.29
+  utterance_ids:
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  text: That's just the setup. You're there in person, you're there with people, you have these tests, you have deadlines. But yeah, I mean like thank goodness I was there like just before. Well, not just before, but like five years before COVID So like I, I don't. I'm sure it's. The landscape has just totally changed and. Yeah, I don't know. Okay, thank you so much for the meeting. I hope to see you guys next week. Have a good day. Yeah, thanks. Bye. Bye. Cool beans. Okay. I guess we're done. Yeah. Peace. Have a good week, man. See you guys. Dave. Oh.

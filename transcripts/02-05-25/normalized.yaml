@@ -1,0 +1,921 @@
+meeting:
+  date: '2025-02-05'
+  title: 8am-AI 2025-02-05
+  participants:
+  - Unknown
+  - Hanif Janmohamed
+  - David Olsson
+  - Jason Kryski
+  duration_s: 3556.956
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Unknown
+  t_start: 0.24
+  t_end: 153.92
+  text: Sa, Sa, Sa, Sa, Sa, Sa Sa.
+- id: u2
+  speaker: Hanif Janmohamed
+  t_start: 206.48
+  t_end: 207.34
+  text: Hello.
+- id: u3
+  speaker: David Olsson
+  t_start: 208.32
+  t_end: 215.032
+  text: Good morning. Good morning. How you doing?
+- id: u4
+  speaker: Hanif Janmohamed
+  t_start: 215.216
+  t_end: 216.98
+  text: Pretty good, not too bad.
+- id: u5
+  speaker: David Olsson
+  t_start: 219.36
+  t_end: 220.472
+  text: Good morning, Jason.
+- id: u6
+  speaker: Hanif Janmohamed
+  t_start: 220.616
+  t_end: 221.116
+  text: Dave.
+- id: u7
+  speaker: Jason Kryski
+  t_start: 221.048
+  t_end: 221.86
+  text: How's it going?
+- id: u8
+  speaker: David Olsson
+  t_start: 222.32
+  t_end: 223.432
+  text: Not bad. How are you?
+- id: u9
+  speaker: Jason Kryski
+  t_start: 223.536
+  t_end: 225.06
+  text: Oh, pretty good.
+- id: u10
+  speaker: David Olsson
+  t_start: 225.84
+  t_end: 228.52
+  text: Yeah. That sounds good, what you said, man.
+- id: u11
+  speaker: Jason Kryski
+  t_start: 228.64
+  t_end: 234.842
+  text: I don't actually. I honestly didn't even think about it. It's just like a reflective reflect. I'm just like, oh, I'm great.
+- id: u12
+  speaker: David Olsson
+  t_start: 235.026
+  t_end: 240.842
+  text: Yeah, there you go. That's a good way to be reflective. And so immediate with the response.
+- id: u13
+  speaker: Jason Kryski
+  t_start: 240.906
+  t_end: 245.866
+  text: You know, I'm actually happier that it comes out that way and then I'll just end up at. Great.
+- id: u14
+  speaker: David Olsson
+  t_start: 246.018
+  t_end: 259.99
+  text: Yeah, no, I hear you. I was like, oh, I'm following myself. I've got a. I built a weather app. It's kind of funky. That's actually not showing up that great. Like, that.
+- id: u15
+  speaker: Jason Kryski
+  t_start: 261.78
+  t_end: 263.196
+  text: Looks kind of cool.
+- id: u16
+  speaker: David Olsson
+  t_start: 263.388
+  t_end: 313.112
+  text: Yeah. I'm using leaflets. If I go Calgary, it draws in. The map and then it places it on the 3D space. And then it picks up the weather from open weather. And then it adds the clouds and it'll rain and snow and move the sun around like that. So. And I needed to see it. I put. It's like, does it work? How do you know if it works? Everything has to have a demo mode. Because you don't know. What time is it? 6am this is pretty neat. Like, it wasn't that much work to. Get the texture from open maps to be on a 3D plane. So just so you know. Honey?
+- id: u17
+  speaker: Hanif Janmohamed
+  t_start: 313.286
+  t_end: 314.12
+  text: Yeah.
+- id: u18
+  speaker: David Olsson
+  t_start: 317.02
+  t_end: 318.964
+  text: Hey, you look smooth there.
+- id: u19
+  speaker: Hanif Janmohamed
+  t_start: 319.132
+  t_end: 319.876
+  text: Oh, do I?
+- id: u20
+  speaker: David Olsson
+  t_start: 319.948
+  t_end: 320.9
+  text: Smoother than normal?
+- id: u21
+  speaker: Hanif Janmohamed
+  t_start: 320.98
+  t_end: 322.276
+  text: No, I. I did.
+- id: u22
+  speaker: David Olsson
+  t_start: 322.348
+  t_end: 349.7
+  text: I did do first round aerodynamic. Yeah. I am needing to get smooth on my face. That was the most fun thing that I did. It was kind of like. Okay, I. I needed to. Wanted to understand if I could use maps in a. Interesting. Anyway, and then I can make it rain. I can make it snow.
+- id: u23
+  speaker: Jason Kryski
+  t_start: 354.04
+  t_end: 360.26
+  text: What if you add in that. That shadow API would be cool.
+- id: u24
+  speaker: David Olsson
+  t_start: 361.0
+  t_end: 362.532
+  text: Shadow API. Sorry.
+- id: u25
+  speaker: Jason Kryski
+  t_start: 362.624
+  t_end: 371.232
+  text: Oh, it shows like the. Whatever position, you know, you have. It like shows the sun on whatever day. Like what the shadow is on the landscape.
+- id: u26
+  speaker: David Olsson
+  t_start: 371.376
+  t_end: 374.08
+  text: Oh, yeah, that's a good one.
+- id: u27
+  speaker: Jason Kryski
+  t_start: 374.2
+  t_end: 394.64
+  text: That's pretty cool. You can see like, you know, in the winter time when the sun's low, where. Where do you get more shade? Where do you get more sun? I mean, Calgary is probably all just, you know, building. It's implemented. We can't tell.
+- id: u28
+  speaker: David Olsson
+  t_start: 397.02
+  t_end: 987.53
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: u29
+  speaker: David Olsson
+  t_start: 997.51
+  t_end: 1354.11
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did
+- id: u30
+  speaker: Hanif Janmohamed
+  t_start: 1355.05
+  t_end: 1358.47
+  text: How do you, how do you fix.
+- id: u31
+  speaker: David Olsson
+  t_start: 1359.29
+  t_end: 1932.8
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: u32
+  speaker: Hanif Janmohamed
+  t_start: 1934.46
+  t_end: 1935.716
+  text: Discord is great.
+- id: u33
+  speaker: David Olsson
+  t_start: 1935.868
+  t_end: 1968.93
+  text: Okay, well then I'll invite people into. Discord channel and then where there's. Yeah, it's totally free. And it is. It's actually really appropriately set up for. This kind of thing. And you can create bots inside, but. And then we could just. If there's an idea, it could be. Crystallized or it could be bandied around. In a way where it's really neat. To collide like two or three things. Together and then have one data form or one use flow, user flow underneath it kind of thing. Hanifa has been a joy working with just the concept of stone maps.
+- id: u34
+  speaker: Hanif Janmohamed
+  t_start: 1969.09
+  t_end: 1969.618
+  text: Cool.
+- id: u35
+  speaker: David Olsson
+  t_start: 1969.714
+  t_end: 1970.834
+  text: Yeah. Right.
+- id: u36
+  speaker: Hanif Janmohamed
+  t_start: 1971.002
+  t_end: 1973.63
+  text: I've seen it percolate. Real.
+- id: u37
+  speaker: David Olsson
+  t_start: 1974.33
+  t_end: 2000.48
+  text: Yeah. You can see, like, it's easy to put the thought in there. And that's where motion is like, fundamental. Like putting anything static is like. Okay, yeah. That's the other thing about the socials. Right. Social media is in motion with you experiencing it as the creator. How do you get that sense of motion? You have to have some sort of observer role. And that's what these simulations are. They're an observer role.
+- id: u38
+  speaker: Hanif Janmohamed
+  t_start: 2002.86
+  t_end: 2009.85
+  text: I was curious about your festival simulation. You selected some rules. You have some rules on.
+- id: u39
+  speaker: David Olsson
+  t_start: 2010.87
+  t_end: 2385.3
+  text: Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar
+- id: u40
+  speaker: David Olsson
+  t_start: 2396.09
+  t_end: 2531.68
+  text: It's pretty, pretty up and down. Experience at times with the code. The confidence is like high and the. Confidence is low if you don't have the right paradigm in place. I was tired for a while and that was the wrong paradigm proved to be significant. Because the lightweight work requires. That kind of lightweight mindset. Otherwise you get bogged down in the crap. You got a lot of crap going on. Too many projects, they're all moving now. Just took and forever. But Jason, I have, I have worked on the abstracted API of having a. Head in the page driving everything gonna get in front of you here quickly. So I have a generalized use case for it apparently all over the place. So the organization that we're working with. They'Re actually one of many, right. They have boutiques buying boutiques. That's what happens in the and they want to be able to conform to all kinds of PowerPoint reports at the end of their day that look decent, but they want to be able to as I demonstrated it, chat with it. It's like okay, so sure, okay, I'll take the survey. It'll produce a report that's based on survey questions and all the rest of it. Well I just would like to chat with it and change it. Me too. So that's it. So I think it'll be a bunch. Of broken out into a bunch of pieces of processing information, building of the intelligence and the creation of the reports. There'll be different kinds of chat each of them but it's. If that becomes. Well, how about this? I got a download something.
+- id: u41
+  speaker: Jason Kryski
+  t_start: 2533.5
+  t_end: 2543.524
+  text: Yeah, I'm. It's kind of just getting the point of trying to like start to really like look at like the current state of tooling to like try and figure out some of this orchestration and.
+- id: u42
+  speaker: David Olsson
+  t_start: 2543.612
+  t_end: 2547.496
+  text: Yeah, because God man, the orchestration you have is so complex. Hey.
+- id: u43
+  speaker: Jason Kryski
+  t_start: 2547.588
+  t_end: 2618.87
+  text: Well, I think the way we've got it right now is like, it's pretty rudimentary other than like kind of like what we developed around like kind of like the, our version of like the scrub kind of agents that sit in the different kind of CSVs, but the actual implementation of that in like a production environment using like this maybe like kind of leaning towards like Vercel's AI SDK to kind of enter the rest of our stuff. But made a. Actually sending an offer letter out to an engineer with a bunch of kind of AI experience that'll be kind of a fun I think addition to the conversations. Just he's defending his PhD thesis this, this month. I think so and it's in. What is it? Like could never. It was actually kind of full circle. It was interesting because he's like, yeah, he's like I got motivated to go back to school because I saw a talk on like multi armed bandits and then went and got. There you go PhD. But it's, it's primarily his research was around like uncertainty and, and fairness.
+- id: u44
+  speaker: David Olsson
+  t_start: 2618.95
+  t_end: 2620.102
+  text: All right, there you go.
+- id: u45
+  speaker: Jason Kryski
+  t_start: 2620.286
+  t_end: 2633.11
+  text: So I mean like that'll be an interesting. I'll send you his, his deets. But hopefully I got some, some, some, some muscle because he's got some engineering back end muscle too.
+- id: u46
+  speaker: David Olsson
+  t_start: 2633.15
+  t_end: 2672.606
+  text: So that is the space to think about. And that's. So when I'm showing you the tin. Thing that was like, okay, there's no bandit in there. There's nothing. There's no motivation. The next one is just going to be standardized motivation. It'll be Bayesian in some regard. And the next one is it's going. To be the LLM driving on top of it. So it'll be interesting. I was really jazzed about the generative. AI thing where you can build these very robust agents. But I'm more granular now with their thinking, the collaborative component and then having the LLM just help construct the paradigm. So the Bayesian is still underneath everything. It's still there.
+- id: u47
+  speaker: Jason Kryski
+  t_start: 2672.758
+  t_end: 2674.846
+  text: Yeah, yeah. I think that's the.
+- id: u48
+  speaker: David Olsson
+  t_start: 2674.998
+  t_end: 2676.046
+  text: We need to kind of like jam.
+- id: u49
+  speaker: Jason Kryski
+  t_start: 2676.078
+  t_end: 2680.686
+  text: On that a little bit when you get some space. Are you on your travel coming up? You got travel coming up soon, are you?
+- id: u50
+  speaker: David Olsson
+  t_start: 2680.758
+  t_end: 2702.23
+  text: No, I would like. I supposed to. We'll see. But no, at this point, no, next week I'm here and yeah, it would be great to sit down and just. Chat and that would give you some. Break from the weather here. I don't know, guys. Like, it is cold here now. It's not shitty, but we're wimps here in Kelowna.
+- id: u51
+  speaker: Jason Kryski
+  t_start: 2702.81
+  t_end: 2707.106
+  text: I got back from the island yesterday, got off the plane and I was like, what the is happening?
+- id: u52
+  speaker: David Olsson
+  t_start: 2707.138
+  t_end: 2719.604
+  text: Yeah, so Karen did the same thing. She got back on Monday. She was in Capito, and so it was. It was snowing there eventually, I guess, but west coast doesn't get so cold. Oh, yeah.
+- id: u53
+  speaker: Jason Kryski
+  t_start: 2719.652
+  t_end: 2723.284
+  text: It's funny too, when the island gets snow, it's like everybody loses their mind there.
+- id: u54
+  speaker: David Olsson
+  t_start: 2723.372
+  t_end: 2724.244
+  text: Yeah, yeah, yeah, yeah.
+- id: u55
+  speaker: Jason Kryski
+  t_start: 2724.292
+  t_end: 2725.48
+  text: Very problematic.
+- id: u56
+  speaker: David Olsson
+  t_start: 2726.3
+  t_end: 2736.08
+  text: Yeah. Here everybody just like, I'm not walking my dog. My dog doesn't want to go out. He's just. He's a heat pig. He's gonna go out.
+- id: u57
+  speaker: Jason Kryski
+  t_start: 2736.54
+  t_end: 2787.49
+  text: We kind of try to like, kind of even just continue to keep track and see, like, kind of what's happening out of the kind of broader market with all this kind of deep seek, open AI argument and like this kind of now competitive releasing of things. And there was this interview Lex did with, I think it was the guy from Anthropic, but I haven't listened to it yet. But they're talking about how, like, they have all these models that they just haven't released because they don't know, like, if they should be releasing them. But now that like, these things are getting pushed out by the Chinese and then, yeah, yeah, the AI is releasing things with the. They're like, okay, well, we got to be. We got to remain competitive. And so the, the push is on. And then you got like, you know, Italy, like full straight up banning stuff. And then the parts of the US trying to regulate it and say, like, that they're, you know, gonna ban certain, certain models and, you know, like, this is gonna get really weird really quick.
+- id: u58
+  speaker: David Olsson
+  t_start: 2788.27
+  t_end: 2793.582
+  text: Well, yeah, the Deep SEQ made it. Well, all the Americans made it a national security security issue.
+- id: u59
+  speaker: Jason Kryski
+  t_start: 2793.766
+  t_end: 2806.01
+  text: Well, they had that. That database leak that like exposed all this stuff from like a million users or something. And, you know, I guess that's a concern. You know, like, these things happen.
+- id: u60
+  speaker: David Olsson
+  t_start: 2806.79
+  t_end: 2879.42
+  text: It's software, it's going to be exploited all the time. And. Yeah, no, I think what's interesting right now is it's. It caught me by off guard is. That it's, it's happening. It's like innovation is happening and it. Will continue to disrupt itself, itself. And the power structure is what will be destabilized. And the people that are riding it right now have no idea how to ride it out. And once it is in charge, it will be just rather crazy. And so that is the fear. But it is, it is interesting to see that one, one super well placed vector man. I want to be a hedge fund. Like them and build some tech that. Destabilizes the whole of the world global. Economy and short the out of everybody that tuned to the trillions of dollars it's worth. God, man. And it's just a pure, It's a pure play. It's a pure play on three sides. And they won, you know, and that's. What I think the Asians are good at. Three sides. They got it on the tech side. Innovation. They stole it. Right. And then they got it on the other side. They're like, it's. It's really applicable. And then they're a hedge fund. They must assured everyone. It's just brilliant.
+- id: u61
+  speaker: Hanif Janmohamed
+  t_start: 2880.24
+  t_end: 2881.18
+  text: No doubt.
+- id: u62
+  speaker: David Olsson
+  t_start: 2883.28
+  t_end: 2907.27
+  text: This is like, oh my God. It was like. And so like, well, okay, the first one's lucky. Or was it? And then from now on I think. It'S right, Jason, you just like, they're. Just like, well, what do we do? We. The Americans have their playbook. That's. And it's, that's what it is. It's competition. And the Europeans have their playbook. It's coalition.
+- id: u63
+  speaker: Jason Kryski
+  t_start: 2908.17
+  t_end: 2920.146
+  text: Yeah, Well, I think like they're, they're start to change their tune now too. Right. So like what happens when like if Europe wakes up and actually starts to deregulate and starts to change course on their strategy?
+- id: u64
+  speaker: David Olsson
+  t_start: 2920.258
+  t_end: 2920.95
+  text: Yeah.
+- id: u65
+  speaker: Jason Kryski
+  t_start: 2922.81
+  t_end: 2924.87
+  text: Yeah. I mean things could get really exciting.
+- id: u66
+  speaker: David Olsson
+  t_start: 2926.63
+  t_end: 2937.95
+  text: I, I learned from a past researcher, I work with the use of the word exciting. He used it. I'm like, man, that's not exciting, that's terrible. He goes, no, but it's, it's exciting.
+- id: u67
+  speaker: Hanif Janmohamed
+  t_start: 2938.03
+  t_end: 2938.53
+  text: It's.
+- id: u68
+  speaker: David Olsson
+  t_start: 2938.382
+  t_end: 2971.274
+  text: It's a different. He just mentioned like, you know, plot. That's exciting. I'm like, yeah, in life that's shitty. But it will be exciting in many regards. And I think what's interesting that I'm. Finding is that it's, it's blind turtles. All the way up. I'm one step away from aws. AWS doesn't even know their own. Because they're so big.
+- id: u69
+  speaker: Jason Kryski
+  t_start: 2971.442
+  t_end: 2984.092
+  text: Well, I mean like. Yes. Yeah. I mean in like a different way, you Know like these systems are so hard to navigate. Like the, even just the implementation of things within them. It's, it's wild.
+- id: u70
+  speaker: David Olsson
+  t_start: 2984.156
+  t_end: 2999.516
+  text: Well, AWS is using really old school third parties, really old school tools like surveys through arm's length organizations to understand. Where their teams are at.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 2999.668
+  t_end: 3015.526
+  text: Yeah, yeah. Job applications like in the last few days like people are putting posting job apps for agents as opposed to posting job apps for people.
+- id: u72
+  speaker: David Olsson
+  t_start: 3015.598
+  t_end: 3020.626
+  text: Oh, there they go. Thanks for that. That's a good one. Thank you for that. Yeah, that's a great one. Yeah.
+- id: u73
+  speaker: Jason Kryski
+  t_start: 3020.358
+  t_end: 3025.654
+  text: So they're for mostly AI companies but they're like posting open. They're basically saying, hey, we need an.
+- id: u74
+  speaker: David Olsson
+  t_start: 3025.662
+  t_end: 3027.814
+  text: Agent that does this. Yeah, yeah.
+- id: u75
+  speaker: Jason Kryski
+  t_start: 3027.942
+  t_end: 3030.506
+  text: 10,000, 10 grand a month for an.
+- id: u76
+  speaker: David Olsson
+  t_start: 3030.578
+  t_end: 3035.322
+  text: It's a bounty. A bounty out there. Yeah, it's. That's probably the best marketplace is a bounty market.
+- id: u77
+  speaker: Jason Kryski
+  t_start: 3035.426
+  t_end: 3072.634
+  text: Yeah. So it's kind of starting to happen. So it's interesting to see that starting to come together and at the same time and it's hard to tell if it's, you're starting to see people post that they're getting fired because like one guy was like an analyst and he's like, you know, my boss found Deep research or Deep research is it. I think it's called deep research, the N1 which is also the same name as the Google one. But he's like this does a better job than you. So it's like we don't need you. So it's like the tooling is getting to the point even out of the box where it's starting to just be able to wholesale replace, you know, humans.
+- id: u78
+  speaker: David Olsson
+  t_start: 3072.682
+  t_end: 3089.066
+  text: So that's the analyst role was like. A year and a half ago. I was like, no, the analyst, it's decision making. Decision analysts that are not the data analysts anymore. Anybody that's helping groom information into, into better information, their job is gone.
+- id: u79
+  speaker: Jason Kryski
+  t_start: 3089.178
+  t_end: 3094.154
+  text: Yeah, yeah, those market analysts and it's just, it's toast now.
+- id: u80
+  speaker: David Olsson
+  t_start: 3094.242
+  t_end: 3105.37
+  text: Yeah, it's like brokers on the 90s, like oh you're a broker who better get moving. Yeah, gotta be a very specialized broker now. Yeah.
+- id: u81
+  speaker: Jason Kryski
+  t_start: 3105.45
+  t_end: 3107.468
+  text: Like relational stuff.
+- id: u82
+  speaker: David Olsson
+  t_start: 3107.634
+  t_end: 3108.664
+  text: Yeah. Only.
+- id: u83
+  speaker: Jason Kryski
+  t_start: 3108.832
+  t_end: 3109.332
+  text: Yeah.
+- id: u84
+  speaker: David Olsson
+  t_start: 3109.208
+  t_end: 3125.62
+  text: So it's a very curious being an. Entrepreneur and building in a bunch of different capacities right now to be part of the consumption and pulling of the curve and the wanting of it all at once. It's pretty up.
+- id: u85
+  speaker: Jason Kryski
+  t_start: 3126.8
+  t_end: 3128.18
+  text: Pretty up.
+- id: u86
+  speaker: David Olsson
+  t_start: 3130.32
+  t_end: 3143.06
+  text: Yeah. So this is the twitchiest kind of stuff. Right. It's hard to step back and get. Yourself a decade perspective on this stuff. It's hard to give yourself like a, a two year perspective on this stuff.
+- id: u87
+  speaker: Hanif Janmohamed
+  t_start: 3144.36
+  t_end: 3145.74
+  text: Yours is a long.
+- id: u88
+  speaker: David Olsson
+  t_start: 3146.2
+  t_end: 3149.26
+  text: Yeah, I know, but if you think. How old we are, it's not that long.
+- id: u89
+  speaker: Hanif Janmohamed
+  t_start: 3151.16
+  t_end: 3151.94
+  text: Yeah.
+- id: u90
+  speaker: David Olsson
+  t_start: 3154.2
+  t_end: 3181.91
+  text: I guess it's just like cognitively, unbearably long right now to think two. Years into the future, it's like, oh. Yeah, such a crazy thing. But that's, that's where, you know, when. I sit down, that's what everybody wants me to talk about. It's the future, the predictive nature of what we're doing. That's where the money is. Only. No, no, no, no, no. Money's got to be much closer than. That because that's not very close.
+- id: u91
+  speaker: Hanif Janmohamed
+  t_start: 3184.45
+  t_end: 3186.768
+  text: Distance Horizon dist.
+- id: u92
+  speaker: David Olsson
+  t_start: 3186.794
+  t_end: 3240.14
+  text: Yeah. Inch the future towards us. And I think that's the interesting thing is that everybody, Jason and I have talked about very interesting models to bring the future forward to you in different capacities. And they're not like anything that we're dealing with. It's, it's basically the most amped up foot race you could actually explain. And that's not what people think about. When they think about innovation, the next step forward. But that's what the agents afford the most amped up foot rates. On one side of, on one side of my scale, I'm making pretty pictures, haikus. On the other side, I'm getting to. Like 100 million dollar simulation. So it's really quite weird what you. Can do with this. And somewhere in there there's a paycheck.
+- id: u93
+  speaker: Jason Kryski
+  t_start: 3243.36
+  t_end: 3256.232
+  text: Yeah. Sorting all that out, I feel like it's like you, it's easy to kind of start to go into like the too hard bucket where you're like trying to solve something that's too hard for like too little money. When really the maximum amount of money is really in the two. In the really easy.
+- id: u94
+  speaker: David Olsson
+  t_start: 3256.296
+  t_end: 3266.08
+  text: Really easy stuff. Yeah. So I'm getting hired to, you know, do all that fun, cool stuff with the survey. What I'm getting hired to do is make some. Three versions in PowerPoint.
+- id: u95
+  speaker: Jason Kryski
+  t_start: 3266.5
+  t_end: 3269.68
+  text: Yeah. Yeah. I think it's.
+- id: u96
+  speaker: David Olsson
+  t_start: 3270.5
+  t_end: 3327.3
+  text: I'm like, yeah, I'm not going to make the graphs myself though, so give me the data and we'll do that. Part too, because that part comes free. But yeah, so it's. And it's again, a very practical thing. They can't scale. They've got a handful of analysts and it's just grinding on them. They have to spend 10 hours a week doing this one task. 10 hours times. That's already worth the contract. Right? 10 hours a week, that's 500 hours at a hundred dollars an hour. That's at least what it's worth. That's just one client. And that's not Amazon. That's their existing. It's nice to have somebody on board who can quickly do the math and tell the other side that they're. Unless they talk to us. Hey, that's a really confident way of looking at things. You just scaled them out of their own opportunity. That's. Market research does that very quickly. How to scale.
+- id: u97
+  speaker: David Olsson
+  t_start: 3334.12
+  t_end: 3358.71
+  text: It's all petite ship. Even at the largest firm size, it's just a bunch of teaks inside. That's why it's fright, man. And it's all old school. So it's ready for this jump. Jump. The shark tank thing. The foot races is.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 3366.94
+  t_end: 3370.24
+  text: Well, fellas, this is Wednesday.
+- id: u99
+  speaker: David Olsson
+  t_start: 3371.1
+  t_end: 3378.28
+  text: Yes, Good one. Thank you. Guys, I have some news. James is a father.
+- id: u100
+  speaker: Jason Kryski
+  t_start: 3379.18
+  t_end: 3381.08
+  text: Oh, wow.
+- id: u101
+  speaker: David Olsson
+  t_start: 3383.74
+  t_end: 3422.15
+  text: Oh, maybe I can. I might be able to. Yes. The 24th. So the day after my birthday, January 24th. Oliver Misco Jerde. And I've got, I think three photos. It's not gonna let me log on, but yes. I texted him yesterday. I was hands off. I'm like, I don't know. And I'm like, it's been way too long. And so he responded back and he. Was thankful and he says, it's bonkers. I'm like, that's a great way to. Describe being a new father. Bonkers.
+- id: u102
+  speaker: Hanif Janmohamed
+  t_start: 3425.53
+  t_end: 3427.506
+  text: 23 years of bonkers.
+- id: u103
+  speaker: David Olsson
+  t_start: 3427.698
+  t_end: 3459.22
+  text: Yeah, Right. And so we're all fathers in this room, except for angel. And. And so seeing him enter that path, he. We won't hear much from him for a while. He's on paternity leave. It's appropriate. So that path will play out for quite a long time. As you say, 23 years. I think that's a low number. You know. I've got some in the 30s already. Showing ages, everything. But thank you all and we'll chat soon.
+- id: u104
+  speaker: Hanif Janmohamed
+  t_start: 3460.08
+  t_end: 3462.072
+  text: So you said jam next time?
+- id: u105
+  speaker: David Olsson
+  t_start: 3462.096
+  t_end: 3556.956
+  text: Is that what you said? Yeah, yeah, that's. I'll. Yeah, I. I have to get on discord a lot more. Lamin is all over it. And so I'm gonna get more into. The rigor of it. I'll set us up and I'll invite us. I've stammered at that step like four times in the last two years. And then that'll be easy one to invite other people into and to just password around if we want to. So, yeah, jam on something for an hour. And I can usually get three different. Code environments working at once. And if people will work inside ChatGPT and whatever they got going, then we can hand off the prompts, and you can do a whole bunch of crazy. Concurrent shit, because you can use Claude. And ChatGPT to produce the code in zero shock. And you're like, oh, it's good. It's like gambling. I got a little idea. Yeah, sure. It's like keeping it, you know, littleish is good. Meaning if it's a paragraph to describe, that's probably the appropriate size. Cool. Because I think. I think at this point, the tools are pretty confident to be able to. Pump out something that would just probably. Take maybe one or two goes to fix the problem. And I did that in front of you. I think maybe that might help. Anyways, come around, and I'll invite you guys. Thanks. Cool. See you guys. Thank you. Bye.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  text: Sa, Sa, Sa, Sa, Sa, Sa Sa.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  text: Sa, Sa, Sa, Sa, Sa, Sa Sa. Hello. Good morning. Good morning. How you doing?
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  text: Hello. Good morning. Good morning. How you doing? Pretty good, not too bad. Good morning, Jason. Dave. How's it going? Not bad. How are you? Oh, pretty good. Yeah. That sounds good, what you said, man. I don't actually. I honestly didn't even think about it. It's just like a reflective reflect. I'm just like, oh, I'm great. Yeah, there you go. That's a good way to be reflective. And so immediate with the response. You know, I'm actually happier that it comes out that way and then I'll just end up at. Great. Yeah, no, I hear you. I was like, oh, I'm following myself. I've got a. I built a weather app. It's kind of funky. That's actually not showing up that great. Like, that. Looks kind of cool. Yeah. I'm using leaflets. If I go Calgary, it draws in. The map and then it places it on the 3D space. And then it picks up the weather from open weather. And then it adds the clouds and it'll rain and snow and move the sun around like that. So. And I needed to see it. I put. It's like, does it work? How do you know if it works? Everything has to have a demo mode. Because you don't know. What time is it? 6am this is pretty neat. Like, it wasn't that much work to. Get the texture from open maps to be on a 3D plane. So just so you know. Honey?
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  text: Yeah. I'm using leaflets. If I go Calgary, it draws in. The map and then it places it on the 3D space. And then it picks up the weather from open weather. And then it adds the clouds and it'll rain and snow and move the sun around like that. So. And I needed to see it. I put. It's like, does it work? How do you know if it works? Everything has to have a demo mode. Because you don't know. What time is it? 6am this is pretty neat. Like, it wasn't that much work to. Get the texture from open maps to be on a 3D plane. So just so you know. Honey? Yeah. Hey, you look smooth there. Oh, do I? Smoother than normal? No, I. I did. I did do first round aerodynamic. Yeah. I am needing to get smooth on my face. That was the most fun thing that I did. It was kind of like. Okay, I. I needed to. Wanted to understand if I could use maps in a. Interesting. Anyway, and then I can make it rain. I can make it snow. What if you add in that. That shadow API would be cool. Shadow API. Sorry. Oh, it shows like the. Whatever position, you know, you have. It like shows the sun on whatever day. Like what the shadow is on the landscape. Oh, yeah, that's a good one. That's pretty cool. You can see like, you know, in the winter time when the sun's low, where. Where do you get more shade? Where do you get more sun? I mean, Calgary is probably all just, you know, building. It's implemented. We can't tell.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  text: What if you add in that. That shadow API would be cool. Shadow API. Sorry. Oh, it shows like the. Whatever position, you know, you have. It like shows the sun on whatever day. Like what the shadow is on the landscape. Oh, yeah, that's a good one. That's pretty cool. You can see like, you know, in the winter time when the sun's low, where. Where do you get more shade? Where do you get more sun? I mean, Calgary is probably all just, you know, building. It's implemented. We can't tell. So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u28
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u28
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u28
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u28
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u28
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u28
+  - u29
+  text: So here's I. I was asked to make the moon as a progress bar. And so I had to do some research on that. And then I made a mooning app. So just in line with what you're talking about, I figured out how to get, you know, we only have one view of it and do the waning and waxing and all that. And then it's a progress bar. So, you know, I don't want it. To be just in that many steps. I want it to be as in many steps as I need it to be. And then. And then I'm like, well, this is great. So now I understand how to do. This in 3D and I can make it a progress bar. But I wanted in another app, so I made. I made the ability to import export, and then I made a demo app out of it. It's just so fucking hilarious. But you can do this stuff. So, yeah. So it takes that moon and it puts it into an app as a controller. See if I can do this. See if it works. Oh, it's going to replace one. Oh, yeah. So there it is up in the. Corner as a thumper and it's the. Exact same number of steps that were. In it when I was playing it. So what I've been getting into is. Being able to use, creating an intermediary step where I'm playing with stuff and then being able to export the controls. And the settings for what I've been playing with as a component. So makes ship portable. It's also out of necessity because my stuff is getting too big. And if I put one more thing. In, it goes boom. So got to work in isolation, which is normally what we do in innovation. It's just like, okay. I heat things on. It's quite exciting. But it's not that, you know, not. That practical a lot of the time. But I forwarded, I forwarded this thing. This is kind of cool. This is the ability to set up. Wait, wait, wait. That's the analyzer. Okay. This is the ability to set up some synthetic data. There's a survey down here that I imported. It's got the logic and all the shit, so it got all branching and termination and all that kind of crap. So you do some questions in there and then you set how many surveys you want and then you say, then. I did this stupid thing. Like it's all in real time. Like, how many agents per minute can I deploy? Well, I keep adding up, so I'm. Like, Now I'm at 2000, and that. Doesn'T mean it's going to deploy 2000, because it's running in JavaScript, so it gets to about 100 more. But it's doing this thing in real time, so it's Doing all this survey. Data, crunching it real time and then displaying it in real time. So it's beautiful, man. This is what I'm supposed to be doing for I got a market research day. Hey, I got a market research gate. Working with extensively arm's length aws. So need to be able to do this. And so there's the agents working in real time. They're all answering, they're all. They're all set up demographically to up here you can set the mix of your respondent pool and then they each have those as their demographics and then. They go through and it's basically completely tan. It doesn't do any logic. Like if it says it's this kind of person, it doesn't go and m This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I di
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u29
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u29
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u29
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did How do you, how do you fix. Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sittin
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  text: This one is super cool because it showed me that I didn't put a data model on this at all. Zero. I designed the interactions. Wow, that is. That is super cool. Fun, man. So I'm doing. With the research that I'm doing now, I'm doing. I'm coding hot, just like the old days. And just doing two things, either being very specific or not very, very specific at all. And I'll run concurrent exercises. One where I'm grinding down through something, getting the last thousand lines of code or whatever. And then in the other. Other two environments that I got going, I will. I'll do those tests where I'm just. Like, okay, maybe all that work I'm doing is like Fulvio says, I just. Needed to wait a week. I don't like that attitude. But sometimes spaces, it does work. But being able to describe things and then selecting the right platform for it. Like, P3JS is a visualization library. And so it has data structure built into how it works. And it doesn't even have charting. It doesn't have the concept of charting. But it produces beautiful charts. Yeah. And so and mermaid is another sort. Of idea that allows you to do flowchart stuff. Stuff I'm flint, but just these ideas. Of working with data and starting in a particular mode to work with the data to see what it does. And I started in the wrong place. A couple of times and ended up just like, what am I doing? Because I just started thinking, okay, I'll build it like spreadsheet or tabs. And that's fine for tabs and everything, but I didn't think about putting it in motion first. And so this is the last part of what I'll talk about. Here's like, that became a key insight as to how I could effectively work faster is that if I start with things in motion, then building out the responsive view on it is it comes. In line and then it allows for. The controls that I was mentioning over. Here, the two sided controls of the. Marketplace and the actors. And if you try to add that in later, you are pooched in the way that I work aggressively fast. If you sit down and you map it all out and you spend a week doing it, then it will work. Most likely the experiment is not that valuable. But this stuff is. Super powerful if you can get it to push things. If you can get off of a. Static view of your things and, and. The LLMs can help a lot. Right? Because you can work with stuff that you don't understand. Like you can, you could say use the G to do a visualization. Like the stuff that these things here. Are, you know, not that easy. But the charts and stuff are like. In the first version of this that I did, I basically, I can pull it up. It's quite remarkable how. How much the LLM pulled off. Okay, this is. I gave it a paragraph, okay. And it did this for me. So it, I gave it enough for it to understand it was going to do survey. I wanted to. I didn't even give it the survey I thought I had. I forgot to paste it in and it built it and then I'm going back. Well, this is not the right survey. And it created the survey because I did How do you, how do you fix. Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sittin
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u31
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u31
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u31
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u31
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u31
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  text: Sorry, how do you. So that's, that's the part where I'm luckier than most in some ways is. That I can tell now, especially after I guess it's three full months, I can tell if it's doing something I don't want, meaning it's making things up, it's solving things in a complicated way. When I've asked for something simple. So that's one thing, so you could get the behavior thing, you align with it. But. A lot of the time I'll. Just hit reject and I'll rephrase what I wanted to do. Just like your chat prompting within a chatbot session. And you can do much different work up front. And I do that. I sit spend time inside of a Google Doc describing the app, describing the user flow. In some cases I will even throw up an image and say this is. The UI or you know, just throw up an image and then you start. Noodling on it and like it'll just build it aggressively for you if you just keep prompting away at it. So you can, you can work in the dark on things and especially if. You isolate, you know, you're thinking on something and Claude is really neat. It will actually run the stuff inside. The cloud desktop app or inside the web browser. Now they're not complete apps a lot of the time because they're react, but. They'Re artifacts and you can publish and share them. And so they're, you know, I go through a lot of effort to put them on Netlify on a website, but. It goes into my GitHub and then from there it gets commissioned into it. There's other ways to experiment with this stuff and not be too concerned about, okay, it doesn't work. When I'm in Claude, if it doesn't work, I have two or three strategies and that's it. I can tell you. One is continue. The other one is fix this. And the third one is copy the error and paste it in. And because CLAUDE is not an. It's not an editing environment, you know, it's. So it does. If that, you know, it doesn't work after three or four tries, I'm like, it not a huge investment. All the things I've shown you, I worry about the investment I put in them. And, you know, there's only so much I can put into one page. You know, I'm saying it's 5,000 lines of code. And so that's pretty much the limit of an investment and an exercise I will do. And that's about four hours. So. And what I also found is that again, that thing of starting at the right place and so starting with the idea of things moving around instead of wanting to see them move around instead of saying, okay, here's a picture. What happens if I move it? I did that. I'm not this subtly different, but not, you know, it was significant in the. Way that you're talking conversationally with, say, a code base. I want you to have this paradigm. And again, honey, if you, I said D3 and you tuned up because you've done a lot of this work, right? And so you're on that side of recognizing which libraries have which strengths because you want to go in, you read them in. That's. That is the knowledge base to get into. It is like. And so I, I'm sitting there and I'm like, oh, yea Discord is great. Okay, well then I'll invite people into. Discord channel and then where there's. Yeah, it's totally free. And it is. It's actually really appropriately set up for. This kind of thing. And you can create bots inside, but. And then we could just. If there's an idea, it could be. Crystallized or it could be bandied around. In a way where it's really neat. To collide like two or three things. Together and then have one data form or one use flow, user flow underneath it kind of thing. Hanifa has been a joy working with just the concept of stone maps. Cool. Yeah. Right. I've seen it percolate. Real. Yeah. You can see, like, it's easy to put the thought in there. And that's where motion is like, fundamental. Like putting anything static is like. Okay, yeah. That's the other thing about the socials. Right. Social media is in motion with you experiencing it as the creator. How do you get that sense of motion? You have to have some sort of observer role. And that's what these simulations are. They're an observer role. I was curious about your festival simulation. You selected some rules. You have some rules on.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  text: Yeah. You can see, like, it's easy to put the thought in there. And that's where motion is like, fundamental. Like putting anything static is like. Okay, yeah. That's the other thing about the socials. Right. Social media is in motion with you experiencing it as the creator. How do you get that sense of motion? You have to have some sort of observer role. And that's what these simulations are. They're an observer role. I was curious about your festival simulation. You selected some rules. You have some rules on. Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u39
+  text: Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u39
+  text: Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u39
+  text: Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u39
+  - u40
+  text: Yeah, yeah. So, yeah, that was basically. That's basically it is that if you come up with rules, then you can start to build sims. And in this case, the simulation is again, there's transactions involved and there's durations and there's interactions. So of course. Of course, it's not really working. No die. Is it working? It is working. So the rules are more. So what it did is it created a lot of the environment for it. I said I wanted these things and I wanted people to interact and they. Would go to the. It added components like coilet and. And food. And I added shop after that. And so what was. What was. What it was about was trying to extend the duration and opportunity for interactions. With humans was the simulation's kind of underlying attempt. And so the rules helped it. And then once I saw things starting to come into play, I'm like, well. Add levers onto things. I was like, okay, it's static. Okay, well, make everything dynamic. And the use of the word dynamic is very powerful in space. And then being able to say, like. I want views on things, because that was. My whole thing is I want. To be able to see things in motion, to be able to then direct them. Right. It's like, okay, showing a static view. And charting things is how we normally respond. But if you could say, like, all right, if we triple the food venues. Yeah, this has a thousand percent applicability. To wallabaloos and anybody putting on the. Best ball and they've already done all this stuff, right? Because they would have had spreadsheets full of their benefits and their all, I. Think, but rules on interaction. For all of the stuff that, you. Know, I'm showing about these. That said, it's just like there's a. Likelihood that they will transact. There's a likelihood that they will like. Each other and they, they have a greeting. They, you know, there's a likelihood they'll pick one of seven or eight different greetings and they're collecting them. And one of the simulations that changed. Their mood and everything like that about things. And so that's the other thing underlying about the festival simulation is you can then say, because there's agents involved, that. These things affect them. They're going to get food, they're happier, they have more energy, they're going to. Probably go to the stage so you. Can start seeing their mood could be affected. And then your likelihood to buy things with susceptibility starts to increase. So once there's motion involved, then you can get some understanding of, of impetus or why, the why of behavior. Because you can put that working with the LLM to create the scenario. It will allow for the variables to move in, interact with each other. And because it's a 3D space, it's really, it is rules based. It's very rules based. It's objective based. And then the scenario determines some of the rules and how they get queued. And sequenced and whether they happen or not. And I didn't sit there and determine all of these rules. I set the scenar It's pretty, pretty up and down. Experience at times with the code. The confidence is like high and the. Confidence is low if you don't have the right paradigm in place. I was tired for a while and that was the wrong paradigm proved to be significant. Because the lightweight work requires. That kind of lightweight mindset. Otherwise you get bogged down in the crap. You got a lot of crap going on. Too many projects, they're all moving now. Just took and forever. But Jason, I have, I have worked on the abstracted API of having a. Head in the page driving everything gonna get in front of you here quickly. So I have a generalized use case for it apparently all over the place. So the organization that we're working with. They'Re actually one of many, right. They have boutiques buying boutiques. That's what happens in the and they want to be able to conform to all kinds of PowerPoint reports at the end of their day that look decent, but they want to be able to as I demonstrated it, chat with it. It's like okay, so sure, okay, I'll take the survey. It'll produce a report that's based on survey questions and all the rest of it. Well I just would like to chat with it and change it. Me too. So that's it. So I think it'll be a bunch. Of broken out into a bunch of pieces of processing information, building of the intelligence and the creation of the reports. There'll be different kinds of chat each of them but it's. If that becomes. Well, how about this? I got a download something.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u40
+  - u41
+  - u42
+  - u43
+  text: It's pretty, pretty up and down. Experience at times with the code. The confidence is like high and the. Confidence is low if you don't have the right paradigm in place. I was tired for a while and that was the wrong paradigm proved to be significant. Because the lightweight work requires. That kind of lightweight mindset. Otherwise you get bogged down in the crap. You got a lot of crap going on. Too many projects, they're all moving now. Just took and forever. But Jason, I have, I have worked on the abstracted API of having a. Head in the page driving everything gonna get in front of you here quickly. So I have a generalized use case for it apparently all over the place. So the organization that we're working with. They'Re actually one of many, right. They have boutiques buying boutiques. That's what happens in the and they want to be able to conform to all kinds of PowerPoint reports at the end of their day that look decent, but they want to be able to as I demonstrated it, chat with it. It's like okay, so sure, okay, I'll take the survey. It'll produce a report that's based on survey questions and all the rest of it. Well I just would like to chat with it and change it. Me too. So that's it. So I think it'll be a bunch. Of broken out into a bunch of pieces of processing information, building of the intelligence and the creation of the reports. There'll be different kinds of chat each of them but it's. If that becomes. Well, how about this? I got a download something. Yeah, I'm. It's kind of just getting the point of trying to like start to really like look at like the current state of tooling to like try and figure out some of this orchestration and. Yeah, because God man, the orchestration you have is so complex. Hey. Well, I think the way we've got it right now is like, it's pretty rudimentary other than like kind of like what we developed around like kind of like the, our version of like the scrub kind of agents that sit in the different kind of CSVs, but the actual implementation of that in like a production environment using like this maybe like kind of leaning towards like Vercel's AI SDK to kind of enter the rest of our stuff. But made a. Actually sending an offer letter out to an engineer with a bunch of kind of AI experience that'll be kind of a fun I think addition to the conversations. Just he's defending his PhD thesis this, this month. I think so and it's in. What is it? Like could never. It was actually kind of full circle. It was interesting because he's like, yeah, he's like I got motivated to go back to school because I saw a talk on like multi armed bandits and then went and got. There you go PhD. But it's, it's primarily his research was around like uncertainty and, and fairness.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: It's pretty, pretty up and down. Experience at times with the code. The confidence is like high and the. Confidence is low if you don't have the right paradigm in place. I was tired for a while and that was the wrong paradigm proved to be significant. Because the lightweight work requires. That kind of lightweight mindset. Otherwise you get bogged down in the crap. You got a lot of crap going on. Too many projects, they're all moving now. Just took and forever. But Jason, I have, I have worked on the abstracted API of having a. Head in the page driving everything gonna get in front of you here quickly. So I have a generalized use case for it apparently all over the place. So the organization that we're working with. They'Re actually one of many, right. They have boutiques buying boutiques. That's what happens in the and they want to be able to conform to all kinds of PowerPoint reports at the end of their day that look decent, but they want to be able to as I demonstrated it, chat with it. It's like okay, so sure, okay, I'll take the survey. It'll produce a report that's based on survey questions and all the rest of it. Well I just would like to chat with it and change it. Me too. So that's it. So I think it'll be a bunch. Of broken out into a bunch of pieces of processing information, building of the intelligence and the creation of the reports. There'll be different kinds of chat each of them but it's. If that becomes. Well, how about this? I got a download something. Yeah, I'm. It's kind of just getting the point of trying to like start to really like look at like the current state of tooling to like try and figure out some of this orchestration and. Yeah, because God man, the orchestration you have is so complex. Hey. Well, I think the way we've got it right now is like, it's pretty rudimentary other than like kind of like what we developed around like kind of like the, our version of like the scrub kind of agents that sit in the different kind of CSVs, but the actual implementation of that in like a production environment using like this maybe like kind of leaning towards like Vercel's AI SDK to kind of enter the rest of our stuff. But made a. Actually sending an offer letter out to an engineer with a bunch of kind of AI experience that'll be kind of a fun I think addition to the conversations. Just he's defending his PhD thesis this, this month. I think so and it's in. What is it? Like could never. It was actually kind of full circle. It was interesting because he's like, yeah, he's like I got motivated to go back to school because I saw a talk on like multi armed bandits and then went and got. There you go PhD. But it's, it's primarily his research was around like uncertainty and, and fairness. All right, there you go. So I mean like that'll be an interesting. I'll send you his, his deets. But hopefully I got some, some, some, some muscle because he's got some engineering back end muscle too. So that is the space to think about. And that's. So when I'm showing you the tin. Thing that was like, okay, there's no bandit in there. There's nothing. There's no motivation. The next one is just going to be standardized motivation. It'll be Bayesian in some regard. And the next one is it's going. To be the LLM driving on top of it. So it'll be interesting. I was really jazzed about the generative. AI thing where you can build these very robust agents. But I'm more granular now with their thinking, the collaborative component and then having the LLM just help construct the paradigm. So the Bayesian is still underneath everything. It's still there.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  text: Well, I think the way we've got it right now is like, it's pretty rudimentary other than like kind of like what we developed around like kind of like the, our version of like the scrub kind of agents that sit in the different kind of CSVs, but the actual implementation of that in like a production environment using like this maybe like kind of leaning towards like Vercel's AI SDK to kind of enter the rest of our stuff. But made a. Actually sending an offer letter out to an engineer with a bunch of kind of AI experience that'll be kind of a fun I think addition to the conversations. Just he's defending his PhD thesis this, this month. I think so and it's in. What is it? Like could never. It was actually kind of full circle. It was interesting because he's like, yeah, he's like I got motivated to go back to school because I saw a talk on like multi armed bandits and then went and got. There you go PhD. But it's, it's primarily his research was around like uncertainty and, and fairness. All right, there you go. So I mean like that'll be an interesting. I'll send you his, his deets. But hopefully I got some, some, some, some muscle because he's got some engineering back end muscle too. So that is the space to think about. And that's. So when I'm showing you the tin. Thing that was like, okay, there's no bandit in there. There's nothing. There's no motivation. The next one is just going to be standardized motivation. It'll be Bayesian in some regard. And the next one is it's going. To be the LLM driving on top of it. So it'll be interesting. I was really jazzed about the generative. AI thing where you can build these very robust agents. But I'm more granular now with their thinking, the collaborative component and then having the LLM just help construct the paradigm. So the Bayesian is still underneath everything. It's still there. Yeah, yeah. I think that's the. We need to kind of like jam. On that a little bit when you get some space. Are you on your travel coming up? You got travel coming up soon, are you? No, I would like. I supposed to. We'll see. But no, at this point, no, next week I'm here and yeah, it would be great to sit down and just. Chat and that would give you some. Break from the weather here. I don't know, guys. Like, it is cold here now. It's not shitty, but we're wimps here in Kelowna. I got back from the island yesterday, got off the plane and I was like, what the is happening? Yeah, so Karen did the same thing. She got back on Monday. She was in Capito, and so it was. It was snowing there eventually, I guess, but west coast doesn't get so cold. Oh, yeah. It's funny too, when the island gets snow, it's like everybody loses their mind there. Yeah, yeah, yeah, yeah. Very problematic. Yeah. Here everybody just like, I'm not walking my dog. My dog doesn't want to go out. He's just. He's a heat pig. He's gonna go out.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  text: No, I would like. I supposed to. We'll see. But no, at this point, no, next week I'm here and yeah, it would be great to sit down and just. Chat and that would give you some. Break from the weather here. I don't know, guys. Like, it is cold here now. It's not shitty, but we're wimps here in Kelowna. I got back from the island yesterday, got off the plane and I was like, what the is happening? Yeah, so Karen did the same thing. She got back on Monday. She was in Capito, and so it was. It was snowing there eventually, I guess, but west coast doesn't get so cold. Oh, yeah. It's funny too, when the island gets snow, it's like everybody loses their mind there. Yeah, yeah, yeah, yeah. Very problematic. Yeah. Here everybody just like, I'm not walking my dog. My dog doesn't want to go out. He's just. He's a heat pig. He's gonna go out. We kind of try to like, kind of even just continue to keep track and see, like, kind of what's happening out of the kind of broader market with all this kind of deep seek, open AI argument and like this kind of now competitive releasing of things. And there was this interview Lex did with, I think it was the guy from Anthropic, but I haven't listened to it yet. But they're talking about how, like, they have all these models that they just haven't released because they don't know, like, if they should be releasing them. But now that like, these things are getting pushed out by the Chinese and then, yeah, yeah, the AI is releasing things with the. They're like, okay, well, we got to be. We got to remain competitive. And so the, the push is on. And then you got like, you know, Italy, like full straight up banning stuff. And then the parts of the US trying to regulate it and say, like, that they're, you know, gonna ban certain, certain models and, you know, like, this is gonna get really weird really quick. Well, yeah, the Deep SEQ made it. Well, all the Americans made it a national security security issue. Well, they had that. That database leak that like exposed all this stuff from like a million users or something. And, you know, I guess that's a concern. You know, like, these things happen. It's software, it's going to be exploited all the time. And. Yeah, no, I think what's interesting right now is it's. It caught me by off guard is. That it's, it's happening. It's like innovation is happening and it. Will continue to disrupt itself, itself. And the power structure is what will be destabilized. And the people that are riding it right now have no idea how to ride it out. And once it is in charge, it will be just rather crazy. And so that is the fear. But it is, it is interesting to see that one, one super well placed vector man. I want to be a hedge fund. Like them and build some tech that. Destabilizes the whole of the world global. Economy and short the out of everybody that tuned to the trillions of dollars it's worth. God, man. And it's just a pure, It's a pure play. It's a pure play on three sides. And they won, you know, and that's. What I think the Asians are good at. Three sides. They got it on the tech side. Innovation. They stole it. Right. And then they got it on the other side. They're like, it's. It's really applicable. And then they're a hedge fund. They must assured everyone. It's just brilliant.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  text: Well, yeah, the Deep SEQ made it. Well, all the Americans made it a national security security issue. Well, they had that. That database leak that like exposed all this stuff from like a million users or something. And, you know, I guess that's a concern. You know, like, these things happen. It's software, it's going to be exploited all the time. And. Yeah, no, I think what's interesting right now is it's. It caught me by off guard is. That it's, it's happening. It's like innovation is happening and it. Will continue to disrupt itself, itself. And the power structure is what will be destabilized. And the people that are riding it right now have no idea how to ride it out. And once it is in charge, it will be just rather crazy. And so that is the fear. But it is, it is interesting to see that one, one super well placed vector man. I want to be a hedge fund. Like them and build some tech that. Destabilizes the whole of the world global. Economy and short the out of everybody that tuned to the trillions of dollars it's worth. God, man. And it's just a pure, It's a pure play. It's a pure play on three sides. And they won, you know, and that's. What I think the Asians are good at. Three sides. They got it on the tech side. Innovation. They stole it. Right. And then they got it on the other side. They're like, it's. It's really applicable. And then they're a hedge fund. They must assured everyone. It's just brilliant. No doubt. This is like, oh my God. It was like. And so like, well, okay, the first one's lucky. Or was it? And then from now on I think. It'S right, Jason, you just like, they're. Just like, well, what do we do? We. The Americans have their playbook. That's. And it's, that's what it is. It's competition. And the Europeans have their playbook. It's coalition. Yeah, Well, I think like they're, they're start to change their tune now too. Right. So like what happens when like if Europe wakes up and actually starts to deregulate and starts to change course on their strategy?
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: No doubt. This is like, oh my God. It was like. And so like, well, okay, the first one's lucky. Or was it? And then from now on I think. It'S right, Jason, you just like, they're. Just like, well, what do we do? We. The Americans have their playbook. That's. And it's, that's what it is. It's competition. And the Europeans have their playbook. It's coalition. Yeah, Well, I think like they're, they're start to change their tune now too. Right. So like what happens when like if Europe wakes up and actually starts to deregulate and starts to change course on their strategy? Yeah. Yeah. I mean things could get really exciting. I, I learned from a past researcher, I work with the use of the word exciting. He used it. I'm like, man, that's not exciting, that's terrible. He goes, no, but it's, it's exciting. It's. It's a different. He just mentioned like, you know, plot. That's exciting. I'm like, yeah, in life that's shitty. But it will be exciting in many regards. And I think what's interesting that I'm. Finding is that it's, it's blind turtles. All the way up. I'm one step away from aws. AWS doesn't even know their own. Because they're so big. Well, I mean like. Yes. Yeah. I mean in like a different way, you Know like these systems are so hard to navigate. Like the, even just the implementation of things within them. It's, it's wild. Well, AWS is using really old school third parties, really old school tools like surveys through arm's length organizations to understand. Where their teams are at. Yeah, yeah. Job applications like in the last few days like people are putting posting job apps for agents as opposed to posting job apps for people.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  text: It's a different. He just mentioned like, you know, plot. That's exciting. I'm like, yeah, in life that's shitty. But it will be exciting in many regards. And I think what's interesting that I'm. Finding is that it's, it's blind turtles. All the way up. I'm one step away from aws. AWS doesn't even know their own. Because they're so big. Well, I mean like. Yes. Yeah. I mean in like a different way, you Know like these systems are so hard to navigate. Like the, even just the implementation of things within them. It's, it's wild. Well, AWS is using really old school third parties, really old school tools like surveys through arm's length organizations to understand. Where their teams are at. Yeah, yeah. Job applications like in the last few days like people are putting posting job apps for agents as opposed to posting job apps for people. Oh, there they go. Thanks for that. That's a good one. Thank you for that. Yeah, that's a great one. Yeah. So they're for mostly AI companies but they're like posting open. They're basically saying, hey, we need an. Agent that does this. Yeah, yeah. 10,000, 10 grand a month for an. It's a bounty. A bounty out there. Yeah, it's. That's probably the best marketplace is a bounty market. Yeah. So it's kind of starting to happen. So it's interesting to see that starting to come together and at the same time and it's hard to tell if it's, you're starting to see people post that they're getting fired because like one guy was like an analyst and he's like, you know, my boss found Deep research or Deep research is it. I think it's called deep research, the N1 which is also the same name as the Google one. But he's like this does a better job than you. So it's like we don't need you. So it's like the tooling is getting to the point even out of the box where it's starting to just be able to wholesale replace, you know, humans. So that's the analyst role was like. A year and a half ago. I was like, no, the analyst, it's decision making. Decision analysts that are not the data analysts anymore. Anybody that's helping groom information into, into better information, their job is gone. Yeah, yeah, those market analysts and it's just, it's toast now.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  text: Yeah. So it's kind of starting to happen. So it's interesting to see that starting to come together and at the same time and it's hard to tell if it's, you're starting to see people post that they're getting fired because like one guy was like an analyst and he's like, you know, my boss found Deep research or Deep research is it. I think it's called deep research, the N1 which is also the same name as the Google one. But he's like this does a better job than you. So it's like we don't need you. So it's like the tooling is getting to the point even out of the box where it's starting to just be able to wholesale replace, you know, humans. So that's the analyst role was like. A year and a half ago. I was like, no, the analyst, it's decision making. Decision analysts that are not the data analysts anymore. Anybody that's helping groom information into, into better information, their job is gone. Yeah, yeah, those market analysts and it's just, it's toast now. Yeah, it's like brokers on the 90s, like oh you're a broker who better get moving. Yeah, gotta be a very specialized broker now. Yeah. Like relational stuff. Yeah. Only. Yeah. So it's a very curious being an. Entrepreneur and building in a bunch of different capacities right now to be part of the consumption and pulling of the curve and the wanting of it all at once. It's pretty up. Pretty up. Yeah. So this is the twitchiest kind of stuff. Right. It's hard to step back and get. Yourself a decade perspective on this stuff. It's hard to give yourself like a, a two year perspective on this stuff. Yours is a long. Yeah, I know, but if you think. How old we are, it's not that long. Yeah. I guess it's just like cognitively, unbearably long right now to think two. Years into the future, it's like, oh. Yeah, such a crazy thing. But that's, that's where, you know, when. I sit down, that's what everybody wants me to talk about. It's the future, the predictive nature of what we're doing. That's where the money is. Only. No, no, no, no, no. Money's got to be much closer than. That because that's not very close.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  text: Yeah. I guess it's just like cognitively, unbearably long right now to think two. Years into the future, it's like, oh. Yeah, such a crazy thing. But that's, that's where, you know, when. I sit down, that's what everybody wants me to talk about. It's the future, the predictive nature of what we're doing. That's where the money is. Only. No, no, no, no, no. Money's got to be much closer than. That because that's not very close. Distance Horizon dist. Yeah. Inch the future towards us. And I think that's the interesting thing is that everybody, Jason and I have talked about very interesting models to bring the future forward to you in different capacities. And they're not like anything that we're dealing with. It's, it's basically the most amped up foot race you could actually explain. And that's not what people think about. When they think about innovation, the next step forward. But that's what the agents afford the most amped up foot rates. On one side of, on one side of my scale, I'm making pretty pictures, haikus. On the other side, I'm getting to. Like 100 million dollar simulation. So it's really quite weird what you. Can do with this. And somewhere in there there's a paycheck. Yeah. Sorting all that out, I feel like it's like you, it's easy to kind of start to go into like the too hard bucket where you're like trying to solve something that's too hard for like too little money. When really the maximum amount of money is really in the two. In the really easy. Really easy stuff. Yeah. So I'm getting hired to, you know, do all that fun, cool stuff with the survey. What I'm getting hired to do is make some. Three versions in PowerPoint. Yeah. Yeah. I think it's.
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: Yeah. Inch the future towards us. And I think that's the interesting thing is that everybody, Jason and I have talked about very interesting models to bring the future forward to you in different capacities. And they're not like anything that we're dealing with. It's, it's basically the most amped up foot race you could actually explain. And that's not what people think about. When they think about innovation, the next step forward. But that's what the agents afford the most amped up foot rates. On one side of, on one side of my scale, I'm making pretty pictures, haikus. On the other side, I'm getting to. Like 100 million dollar simulation. So it's really quite weird what you. Can do with this. And somewhere in there there's a paycheck. Yeah. Sorting all that out, I feel like it's like you, it's easy to kind of start to go into like the too hard bucket where you're like trying to solve something that's too hard for like too little money. When really the maximum amount of money is really in the two. In the really easy. Really easy stuff. Yeah. So I'm getting hired to, you know, do all that fun, cool stuff with the survey. What I'm getting hired to do is make some. Three versions in PowerPoint. Yeah. Yeah. I think it's. I'm like, yeah, I'm not going to make the graphs myself though, so give me the data and we'll do that. Part too, because that part comes free. But yeah, so it's. And it's again, a very practical thing. They can't scale. They've got a handful of analysts and it's just grinding on them. They have to spend 10 hours a week doing this one task. 10 hours times. That's already worth the contract. Right? 10 hours a week, that's 500 hours at a hundred dollars an hour. That's at least what it's worth. That's just one client. And that's not Amazon. That's their existing. It's nice to have somebody on board who can quickly do the math and tell the other side that they're. Unless they talk to us. Hey, that's a really confident way of looking at things. You just scaled them out of their own opportunity. That's. Market research does that very quickly. How to scale. It's all petite ship. Even at the largest firm size, it's just a bunch of teaks inside. That's why it's fright, man. And it's all old school. So it's ready for this jump. Jump. The shark tank thing. The foot races is.
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  text: It's all petite ship. Even at the largest firm size, it's just a bunch of teaks inside. That's why it's fright, man. And it's all old school. So it's ready for this jump. Jump. The shark tank thing. The foot races is. Well, fellas, this is Wednesday. Yes, Good one. Thank you. Guys, I have some news. James is a father. Oh, wow. Oh, maybe I can. I might be able to. Yes. The 24th. So the day after my birthday, January 24th. Oliver Misco Jerde. And I've got, I think three photos. It's not gonna let me log on, but yes. I texted him yesterday. I was hands off. I'm like, I don't know. And I'm like, it's been way too long. And so he responded back and he. Was thankful and he says, it's bonkers. I'm like, that's a great way to. Describe being a new father. Bonkers. 23 years of bonkers. Yeah, Right. And so we're all fathers in this room, except for angel. And. And so seeing him enter that path, he. We won't hear much from him for a while. He's on paternity leave. It's appropriate. So that path will play out for quite a long time. As you say, 23 years. I think that's a low number. You know. I've got some in the 30s already. Showing ages, everything. But thank you all and we'll chat soon.
+- id: W-0039
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  text: Oh, maybe I can. I might be able to. Yes. The 24th. So the day after my birthday, January 24th. Oliver Misco Jerde. And I've got, I think three photos. It's not gonna let me log on, but yes. I texted him yesterday. I was hands off. I'm like, I don't know. And I'm like, it's been way too long. And so he responded back and he. Was thankful and he says, it's bonkers. I'm like, that's a great way to. Describe being a new father. Bonkers. 23 years of bonkers. Yeah, Right. And so we're all fathers in this room, except for angel. And. And so seeing him enter that path, he. We won't hear much from him for a while. He's on paternity leave. It's appropriate. So that path will play out for quite a long time. As you say, 23 years. I think that's a low number. You know. I've got some in the 30s already. Showing ages, everything. But thank you all and we'll chat soon. So you said jam next time? Is that what you said? Yeah, yeah, that's. I'll. Yeah, I. I have to get on discord a lot more. Lamin is all over it. And so I'm gonna get more into. The rigor of it. I'll set us up and I'll invite us. I've stammered at that step like four times in the last two years. And then that'll be easy one to invite other people into and to just password around if we want to. So, yeah, jam on something for an hour. And I can usually get three different. Code environments working at once. And if people will work inside ChatGPT and whatever they got going, then we can hand off the prompts, and you can do a whole bunch of crazy. Concurrent shit, because you can use Claude. And ChatGPT to produce the code in zero shock. And you're like, oh, it's good. It's like gambling. I got a little idea. Yeah, sure. It's like keeping it, you know, littleish is good. Meaning if it's a paragraph to describe, that's probably the appropriate size. Cool. Because I think. I think at this point, the tools are pretty confident to be able to. Pump out something that would just probably. Take maybe one or two goes to fix the problem. And I did that in front of you. I think maybe that might help. Anyways, come around, and I'll invite you guys. Thanks. Cool. See you guys. Thank you. Bye.
+- id: W-0040
+  t_start: 3510.0
+  t_end: 3556.956
+  utterance_ids:
+  - u105
+  text: Is that what you said? Yeah, yeah, that's. I'll. Yeah, I. I have to get on discord a lot more. Lamin is all over it. And so I'm gonna get more into. The rigor of it. I'll set us up and I'll invite us. I've stammered at that step like four times in the last two years. And then that'll be easy one to invite other people into and to just password around if we want to. So, yeah, jam on something for an hour. And I can usually get three different. Code environments working at once. And if people will work inside ChatGPT and whatever they got going, then we can hand off the prompts, and you can do a whole bunch of crazy. Concurrent shit, because you can use Claude. And ChatGPT to produce the code in zero shock. And you're like, oh, it's good. It's like gambling. I got a little idea. Yeah, sure. It's like keeping it, you know, littleish is good. Meaning if it's a paragraph to describe, that's probably the appropriate size. Cool. Because I think. I think at this point, the tools are pretty confident to be able to. Pump out something that would just probably. Take maybe one or two goes to fix the problem. And I did that in front of you. I think maybe that might help. Anyways, come around, and I'll invite you guys. Thanks. Cool. See you guys. Thank you. Bye.

@@ -1,0 +1,28 @@
+id: IDEA-0233
+slug: value-and-strategic-application
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: The core value of the system lies in its ability to track all work and communication around a project from various sources, making the intelligence queryable from within the IDE using an LLM (00:05:01). The layering of intelligence—from doing the work, collecting signals, managing at the project level, and then scaling up to a "docket level" for the business—is formalized in the "Strategic State" component (00:06:06). ![][image4]
+summary: Value and Strategic Application
+rationale: 'The core value of the system lies in its ability to track all work and communication around a project from various sources, making the intelligence queryable from within the IDE using an LLM (00:05:01). The layering of intelligence—from doing the work, collecting signals, managing at the project level, and then scaling up to a "docket level" for the business—is formalized in the "Strategic State" '
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 63.4
+grade_breakdown:
+  evidence: 25
+  theme: 9.5
+  recency: 9.9
+  concretion: 4.0
+  uniqueness: 15
+  carryover: 0
+rank: 142
+tier: queue

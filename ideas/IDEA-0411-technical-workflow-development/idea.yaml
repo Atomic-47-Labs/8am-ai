@@ -1,0 +1,28 @@
+id: IDEA-0411
+slug: technical-workflow-development
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-18'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'David demonstrated technical capability by creating a Fireflies API integration that can automatically download meeting transcripts to Google Drive for processing. Proposed workflow: automated transcript processing → custom summary generation → multimodal output (text, images, potentially video) based on group-defined prompts. Plan to use Worksonal playground for hands-on experimentation with transcript analysis and prompt engineering.'
+summary: Technical Workflow Development
+rationale: 'David demonstrated technical capability by creating a Fireflies API integration that can automatically download meeting transcripts to Google Drive for processing. Proposed workflow: automated transcript processing → custom summary generation → multimodal output (text, images, potentially video) based on group-defined prompts. Plan to use Worksonal playground for hands-on experimentation with tran'
+tags: []
+theme_refs:
+- THEME-08
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 58.1
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.3
+  concretion: 8.5
+  uniqueness: 15
+  carryover: 0
+rank: 251
+tier: backlog

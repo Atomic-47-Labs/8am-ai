@@ -1,0 +1,1098 @@
+meeting:
+  date: '2024-08-22'
+  title: 8am-AI 2024-08-22
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  duration_s: 3399.4
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 21.76
+  t_end: 22.656
+  text: Hello, David.
+- id: u2
+  speaker: David Olsson
+  t_start: 22.79
+  t_end: 23.57
+  text: Hello.
+- id: u3
+  speaker: Fulvio Ciano
+  t_start: 24.03
+  t_end: 25.61
+  text: Good morning. How are you?
+- id: u4
+  speaker: David Olsson
+  t_start: 25.92
+  t_end: 35.94
+  text: Oh, good. I distracted by email. I'm like, oh, I'll just hit this one. It's a really quick one. And it's like 08:01. I'm like, I'm writing my computer, man.
+- id: u5
+  speaker: Fulvio Ciano
+  t_start: 36.28
+  t_end: 37.624
+  text: Yeah, I know how that is.
+- id: u6
+  speaker: David Olsson
+  t_start: 37.672
+  t_end: 49.928
+  text: Believe you me, I don't. Email is a tough one for me now because it's a big investment in terms of time and it's very, it doesn't often get the impact, you know.
+- id: u7
+  speaker: Fulvio Ciano
+  t_start: 50.104
+  t_end: 50.784
+  text: Yep.
+- id: u8
+  speaker: David Olsson
+  t_start: 50.912
+  t_end: 67.14
+  text: It doesn't get the focus. And so I try to be brief, but somebody was actually showing me some, one of this, James, actually, I can show it because that's what we're talking about. We're talking about this.
+- id: u9
+  speaker: David Olsson
+  t_start: 82.09
+  t_end: 159.37
+  text: So we've been talking about trying to, you know, so my workflow is one of building some integrity of information that allows for prompting to be an iterative thing that you can get better and better at. And so James has figured out how to adopt one of the patterns, which is, you know, you do something and then you get there until it's closer and then you ask for it to replicate it for later and then you feed that back. Right. So he gave the example of in this style, do this. Here's an image. You know, we want it now have it look over the shoulder so you can see he's directing it. Now reverse it in horizontal and then add environment and background. So he's got maybe what he wants as one of his panels. Here's the updated first image above his. Perfect. How would you like to get a future? There you go. And then his next section of his, he copies it in and boom, he gets it. It's not the same. But if I was to take my metadata cam and point it at it, it would say it's pretty close.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 160.23
+  t_end: 161.478
+  text: Oh, yeah, for sure.
+- id: u11
+  speaker: David Olsson
+  t_start: 161.614
+  t_end: 188.8
+  text: Because of the. If you describe it as metadata, it's fairly similar. And, you know, there are systems like, you know, the ones that you use in mid journey and whatnot that allow for very specific direction. But I thought it was interesting. He's actually getting to. He's adopting the pattern. He's adopting the pattern of. It's going to be good at giving me a more direct version of what I, you know, path finded my way to if I just ask it.
+- id: u12
+  speaker: Fulvio Ciano
+  t_start: 189.9
+  t_end: 198.956
+  text: Yeah, it's interesting because, gosh, if you'd seen how many generations I've done, you know, to try to get exactly what I want.
+- id: u13
+  speaker: David Olsson
+  t_start: 199.108
+  t_end: 204.8
+  text: Yeah. Once you get into it. Hey, like, once you realize that, oh, I'm close.
+- id: u14
+  speaker: Fulvio Ciano
+  t_start: 205.34
+  t_end: 206.12
+  text: Yes.
+- id: u15
+  speaker: David Olsson
+  t_start: 206.7
+  t_end: 242.26
+  text: So that was one of the things that I uncovered quite early on is that I could get a lot of value. I'm like, oh, my God. Out of the prompting that I was doing to be able to take an idea, model it just on paper, then be able to describe it, and it would move around and poke around at it. And it's like, oh, as a hallucination, it's fairly full and detailed. I'm like, this is great. And then to the point of handing it off, I'm like, okay, and I'll get it all ready. Then I figure out how to do, like, an application experience and all that other stuff. And then I had, and then I'm ready to hand it off. And the thing is brittle as hell.
+- id: u16
+  speaker: Fulvio Ciano
+  t_start: 242.68
+  t_end: 243.18
+  text: Yeah.
+- id: u17
+  speaker: David Olsson
+  t_start: 243.216
+  t_end: 257.968
+  text: You know, like, even the core experience comes out different sometimes. I'm like, man, like, I had, like, a very good experience the first five times, and then all of a sudden it's going sideways. I'm like, and I'm not doing anything different.
+- id: u18
+  speaker: Fulvio Ciano
+  t_start: 258.024
+  t_end: 267.82
+  text: I'm like, oh, my, this is, no, I have to tell you, David, it's getting better and better day by day. Like, I cannot keep up.
+- id: u19
+  speaker: David Olsson
+  t_start: 268.42
+  t_end: 361.048
+  text: Oh, yeah, that is the thing. And also what it forced me to do is that also I was collaborating with Jason Kriskey, who I'll be meeting with today, and I'll describe some of that because I'll be showing what I've been doing because I want to get it out the door. And if he uses it, man, then things are a lot easier as well. Consider another project completed and already in. But I had to get good at, well, what's brittle? And I point to that important thing again. And so I've studied, you know, some really great papers and gleaned a lot, seen some examples. A lot of the time these guys are working for, like, meta and whoever else, they'll just, they'll just publish their paper and they won't, they will never follow up with their code. So a lot of the time you have to do the experiments yourself. But what it's enabled me to do is build a, a process to minimize the concern that I was talking about, get to the point of very tight predictability on almost all of the prompting. It requires a progressive and comprehensive prompting practice, from the point of distilling the question to decomposing the tasks and assigning it and all this other stuff that happens in the background to make it as optimal as possible based on the predominant paradigm of agents.
+- id: u20
+  speaker: Fulvio Ciano
+  t_start: 361.224
+  t_end: 374.648
+  text: So what I've observed is that two completely unrelated things. Okay? One is that image prompting, you cannot get exactly what you want.
+- id: u21
+  speaker: David Olsson
+  t_start: 374.704
+  t_end: 382.022
+  text: Well, that, I think, is so true. I don't think you can get. You can get, again, at the metadata level, I think you can get that. That's right.
+- id: u22
+  speaker: Fulvio Ciano
+  t_start: 382.126
+  t_end: 393.366
+  text: Because. Because, frankly, an image is too precise and rich, if you know what I mean. Right. Like, where.
+- id: u23
+  speaker: David Olsson
+  t_start: 393.438
+  t_end: 397.81
+  text: Where I think it could be wrong is with Sora because it is a model behind it.
+- id: u24
+  speaker: Fulvio Ciano
+  t_start: 398.91
+  t_end: 400.386
+  text: Right. Yeah.
+- id: u25
+  speaker: David Olsson
+  t_start: 400.374
+  t_end: 407.81
+  text: A 3d model. So at that point, you can control it. Yeah. But. Yeah. How it aggregates the image, I don't even understand it, how it does.
+- id: u26
+  speaker: Fulvio Ciano
+  t_start: 408.58
+  t_end: 455.33
+  text: Yeah. So with. With image generation, it's challenging because. How do I put this? With image generation, it's easy to fail the Turing test. It's easy to see that it was created by a computer because it's never perfect, it's never right. Whereas with text, the opposite. It's almost impossible to tell because it's not, as the words are, by nature, less representative of the real world than an image. Right. Like, if you say dog, it means dog. Right. Like, in a way, it's more representative but less detail. There's less detail in the walls.
+- id: u27
+  speaker: David Olsson
+  t_start: 456.31
+  t_end: 457.286
+  text: It's symbolic.
+- id: u28
+  speaker: Fulvio Ciano
+  t_start: 457.358
+  t_end: 458.702
+  text: So it's symbolic.
+- id: u29
+  speaker: David Olsson
+  t_start: 458.806
+  t_end: 474.096
+  text: Yeah. We can call visual as more referential or something. And it's the way that we can consume it is very different than symbolic information. And we consume symbolic information in a linear fashion.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 474.248
+  t_end: 483.78
+  text: Yeah. It's just terribly interesting to me how, first of all, I don't fucking have no clue where we're going to be in six months, David. Oh, my God. It's just.
+- id: u31
+  speaker: David Olsson
+  t_start: 483.752
+  t_end: 521.638
+  text: I know. This is, like, the thing is to get, you know, always be doing it is my thing is, like, I said it, like, a few times. One to myself is like, first thing, because I said it to somebody else in my meeting today. It's like, first thing is to just keep doing it, and the second thing is to network that you keep doing it. And because of the. This is almost like. It is in many ways, my experience and has. My practice has been first principles through my career. And this is. There's no. There's no other way with this stuff. You have to experiment to understand the response because they don't understand what they're building.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 521.824
+  t_end: 532.914
+  text: Right. That's right. There's an extraordinary amount of Newton's method iteration going on here.
+- id: u33
+  speaker: David Olsson
+  t_start: 533.042
+  t_end: 595.408
+  text: Oh, yeah. It's highly responsive on both sides, which is an incredible thing. And the tool allows for that. And that's what one. One of the things that, you know, I want to get into the more, you know, put us in the habit of and you know the phrase of eating your own dog breakfast or dog sorry is appropriate. And if we put ourselves on top of the stack and we're starting to think like the stack, and that is a different position than we currently are in, and it will take time to get there, and you say six months, and I think that's probably the right time frame for the team to adopt new working pattern, new working patterns based on the awareness of what they need to now do. And that gets us to like, what can we do with all this stuff? And it's not necessarily what we would we currently do right now. Like if I, all my agents are sort of built around the idea of completing reports that we'd normally require in the process of executing a task.
+- id: u34
+  speaker: Fulvio Ciano
+  t_start: 595.584
+  t_end: 596.376
+  text: Right?
+- id: u35
+  speaker: David Olsson
+  t_start: 596.568
+  t_end: 644.41
+  text: They're designed on that, right. It reads the corporate, it's got Internet zip behind the scenes and the Internet zip says these how all these documents work together and that they've done a lot, and because it has all this knowledge of how it all works together, then it can make it all work together. So that's fine, but what's going on is not that. So it's saying this is the structure, it's understood that this is how the information goes, and here's how the agents work. And so it can put that all together. And what I'm finding is that if we add more information, more structure to the information that gets processed, and more structure to how you can look at an agent, then you can do stuff that, that is completely divorced from all the concern of management, of assigning work tasks, of even looking at it from a point of view. I don't even know what the fucking KPI's are.
+- id: u36
+  speaker: Fulvio Ciano
+  t_start: 645.51
+  t_end: 647.05
+  text: Yeah, yeah.
+- id: u37
+  speaker: David Olsson
+  t_start: 647.47
+  t_end: 753.44
+  text: And this is valid from a consultant's point of view. They do it all the time. And we have practices, we call it phase zero. Now Karen's calling phase zero. It's just discovery. And you have your framework. You go in, I do these seven questions, and I come out with magic. And whatever it is, we can now have a series of these frameworks that we attach to ourselves and put them in between, say, a question and say, here's a series of frameworks that attach to this question in a significant way. And then on the other side is a template of results that you can get out of it. And what I'm moving towards is not connecting the dots as tightly because of what I have as intuition, and I can and I love to be able to spend some time on that trajectory of who I am. But last Friday I had a very significant awareness around what I'm doing. And it reinforced the fact that these structures are significant, these metadata structures. And this, this simple comma and tab delimited format is really powerful. Just like an XML feed or a JSON file is because of the way the LLM can appreciate what they are and because of the fact that there is integrity between the cells that we make happen and because of the fact that there is two things. Let's just say there's two things right now. There's the content and the structure of the content.
+- id: u38
+  speaker: Fulvio Ciano
+  t_start: 754.02
+  t_end: 754.92
+  text: Okay.
+- id: u39
+  speaker: David Olsson
+  t_start: 755.22
+  t_end: 761.24
+  text: And then there's the presentation of the structured content within the structure of a spreadsheet.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 762.38
+  t_end: 764.48
+  text: Within the structure of a spreadsheet, yes.
+- id: u41
+  speaker: David Olsson
+  t_start: 764.86
+  t_end: 768.932
+  text: So that's three. That's a matrix right there, generally how.
+- id: u42
+  speaker: Fulvio Ciano
+  t_start: 768.956
+  t_end: 780.66
+  text: We want to finally present it. But that's the best place to sort of keep it and use it, if you know what I mean, because it's interoperable in the end. We want to pour it into rich documents. But yes.
+- id: u43
+  speaker: David Olsson
+  t_start: 780.78
+  t_end: 942.82
+  text: Yeah. And so this follows my understanding of my intuition around metadata and then finding some structure for it in that this is again a way of stepping outside of all the systems as not only an intermediary step, but possibly a way of delivering this intentions and data all wrapped up in some sort of structure. And so what I'm currently doing, I've got a spreadsheet in front of you right now is I've done some research on, I've done some research into the direct to consumer experience and what it takes to sell. And I typically the roles associated with a team, a marketing team that will take a product and then build landing pages and do all the associative marketing around it. And that's what Jason Kriske has done. He used to have a studio that did that and then he's built a studio that does that with software for the most part automating it. And he's looking to generate the content based on having very good descriptions of a product. Right now there's not very good descriptions of the product. And so that's one of the weaknesses is having a good source. But I've taken his sort of theory. I mean, I don't believe it's valid anymore. It's like he would build a corpus of corpus of intelligence. And I think that notion is still strong, but how that gets structured is different. But a corpus of information or intelligence around a product and say, here's a product description from that. Then you can add dimension, you can call it dimensionality to it. You can start discussing its USP's, its benefits, its use cases, what its users look like based on some information, primary information you have, or some inferences based on other patterns it picks up. You can build this dimensionality that then is a whole lot of information for which you can build landing pages, social media, whatever else. There is an intelligence blob to which it knows what pieces it would then attach to. And I'm like, and there's a workflow of a product describer, copywriter, researcher, market researcher, and I've got all those agents building, they're fucking killer. And they're distilled down and they operate in a very symbolic language called PDDL. And they do a great deal of the work. So I've been very specific about the tasks and the output and the format, and they do that, but they don't do it as well as they could in the way that they pick up the brand and they sell.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 943.84
+  t_end: 948.296
+  text: They don't say, so where's the failure point? Not the failure point, but the failure.
+- id: u45
+  speaker: David Olsson
+  t_start: 948.328
+  t_end: 1078.762
+  text: Point is in the content delivery component of it being the right type of content and whatnot. Type the right type of content in the right. So the right style, tone, spin on cell. So features that are fairly high level but are baked into a lot of these dimensionality that you build. And so what I've done is I've gone around researching the dimensionality of what it takes to describe a product because I was actually looking at one thing and then it said, well, I need all these things to get at it. I'm like, oh, okay, that looks like all of the different types of sections in various reports I make from all the agents I have. And so it's like product details. These are the key attributes and these are all separate reports, right? And then, you know, target audiences. Well, this is like a very detailed view on what to look at them. Competitive landscape. Well, here's a great deal of, you know, ways of looking at that. And if I look at this, this is fairly good at saying what, know, you kind of need to look at from the aspects. It was only a handful of these, and I built it out to, you know, those 16, you know, different dimensions have a whole lot of attributes. And if I go down to defining the attributes, there's even sub attributes, you know, core features, advanced features under unique things, patents, innovations, sustainable. Like, there's a great deal of way of building granularity around this and associative meaning and it builds like a relational database. And so what I've got here is a killer almost done. You know, not really. He's 16. I've got one, two, three. I'm building them by hand because it's just failing me on figuring out the pattern, but I guess figuring out the pattern. Okay. Yeah. In terms of the spreadsheet, you know. Yes. Here's the spreadsheet, here's the format, here's the content. No, and it's still, you know, still like, so I might get there with James's.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 1078.786
+  t_end: 1082.138
+  text: Like, it works the way there, but you have to massage it the rest of the way there.
+- id: u47
+  speaker: David Olsson
+  t_start: 1082.234
+  t_end: 1206.07
+  text: Yeah. So I'm still, you know, I'm still prompting, but as soon as I get close, then hopefully I'll be able to, because it's 16 and there's a lot of dimensions and yada yada yada. But what it is, is it's getting at breaking down each one of these, you know, targets, audience, what kind of information can I get that will be deterministic and building reports, that is, marketing documents or whatever else you fucking need? And so again, this is a metadata structure that sits above the actual agents that do the work. Right. This is like getting at the core of what it means to talk about a product. And so these are again, very valuable structures that sit outside all of the systems that are themselves becoming subsystems. Because the fact that if we engage with a spreadsheet, like, if I just upload this spreadsheet and say, analyze it, it'll, and say, show me the intention of it, it'll start thinking about that kind of stuff and say, I think it can do this. And I say, well, execute it sometimes. And it, like, you know, like do things. And I'm like, oh, this is good. And from a prompting point of view, you can get a meta agent half thought you can get a meta agent that kind of manages a whole bunch of agents that then builds like a whole bunch of reports from a bunch of different situation scenarios, build, landing, and then it could go through. And if it had a corpus of intelligence built in a similar structure, then it would then be able to figure out what agents would be then assigned to do, you know, what report that would then feed the agent's overall scenario of building a plan that would reach these KPI's.
+- id: u48
+  speaker: David Olsson
+  t_start: 1211.25
+  t_end: 1228.68
+  text: So I'm building software in a spreadsheet, right? Based on the fact that there's a whole lot of inferred meaning in the commas and tabs.
+- id: u49
+  speaker: Fulvio Ciano
+  t_start: 1232.9
+  t_end: 1242.64
+  text: The spreadsheet isn't quite software. It's direction, isn't it? I mean, it's direction.
+- id: u50
+  speaker: David Olsson
+  t_start: 1243.02
+  t_end: 1249.688
+  text: No, it's. Okay. How about this. Yeah, it's the programming language and the content.
+- id: u51
+  speaker: Fulvio Ciano
+  t_start: 1249.864
+  t_end: 1250.58
+  text: Right.
+- id: u52
+  speaker: David Olsson
+  t_start: 1250.96
+  t_end: 1256.064
+  text: And the reporting mechanism, if you. Most of the time, because it outputs that thing.
+- id: u53
+  speaker: Fulvio Ciano
+  t_start: 1256.152
+  t_end: 1263.296
+  text: So it's a bit, it's a bit. It's a bit academic because you know, in the same way that software can need a compiler.
+- id: u54
+  speaker: David Olsson
+  t_start: 1263.448
+  t_end: 1434.01
+  text: Yeah, that's right. The LLM is the compiler. And the whole of the intention can be put into that scenario line right here by just describing it. And my integrity to these spreadsheets is a left to right integrity. It's like you can describe something to an LLM as launch the product, build a campaign, do it, it'll do that. But my description of the Internet, of an LLM as a lake or Internet zip, you want to focus where you're fishing, right, so that you can actually assess and get it to use a particular language. And so by going as we do that, we get a description of it. We see some of the outcomes associated with it. Here's the situation in which this is being applied. The work products associated with understanding that kind of space, some of the challenges, these are getting to be ancillary, maybe not as important towards tertiary, but then the audience is kind of important. So maybe these need to be rearranged if my theory is going to hold some value. Because at the beginning of things I could say when you're processing these spreadsheets, I can give it a meta, meta, meta like. Yeah, you know, here's how your brain's wired. And when you see a spreadsheet, it has integrity from left to right. You know, do that kind of thing. Because again, that can be part of the instructions that go before the scenario that then load the meta scrubs, that the meta agent that loads the scrubs, that then built the reports. This is my working sheet. So this thing here is kind of the other side of the coin is like I knew I was suffering from not having good source. And if I have good source, then I can make better reports. It just makes sense. And if I have better final reports and I have good source, then it's a home run because you're just conforming data and forming style and tone. Except for style and tone needs to be kind of shimmed in because it's part of the brand, part of the product description, and you need to be able to provide those as what in, you know, what I, what I rephrase as low level policies you have. You build some intel or some information and then you want to apply tone or style to it, right? That's kind of how we in terms of how we build things in each email, we, you know, we style after we have some integrity, the information community communicates things. And so I think that's how that progressive works. So it is fairly close to being a deployable system without having any need for external programming to do things that you could say, wildly hallucinate.
+- id: u55
+  speaker: Fulvio Ciano
+  t_start: 1434.67
+  t_end: 1438.29
+  text: Wildly hallucinate that are off the mark, right?
+- id: u56
+  speaker: David Olsson
+  t_start: 1438.92
+  t_end: 1567.73
+  text: Because it's like, okay, great, Dave makes rational sense. How do you know? And so the proof is in the pudding. And so there's a whole, just like I've learned about prompting in terms of breaking it down, defining the tasks, having this reflection, like just the fact that you could say self reflect, you know, and then being very specific about it later, but just reflect on the fact that you've got an answer. Could the answer be better? And it goes, and it makes it better. If you tell it how to make it better, it makes it better along those lines. Just knowing that was a huge thing and then knowing that you can conform it to output fairly easily and that you can, you could apply symbol, you know, within it, within the symbolic language of English. You can apply another symbolic language of another programming language inside it, because it can interpret anything, one as a programming language, and it can use any existing programming language as structured for whatever you want to use it for. By virtue of that, I mean, I've used something called PDDL, which is a programming meta language maybe, or language for describing process in planning. And what's interesting about that is there's no judgment in planning, there's just process. And so it's really good for describing tasks or steps in an abstracted format where you, and so my big thing is what's important and what's not. You know, when you're tokenizing, you know, using tokens and a lot of shit, you know, you're paying for all kinds of extraneous bullshit. And so this PDDL thing allowed me to take these massive fucking scripts that are written in English, and then it'll abstract the hell out of them. And it gets very similar. Well, the structured output is the same. The timbre of the content, let's say, is different. But if I do the same script twice with the same content, it comes out very, very similar, meaning that it performs the same consistently, whereas the same natural pattern language prompt will not perform the same consistently.
+- id: u57
+  speaker: Fulvio Ciano
+  t_start: 1568.03
+  t_end: 1569.07
+  text: Oh, interesting.
+- id: u58
+  speaker: David Olsson
+  t_start: 1569.19
+  t_end: 1571.742
+  text: Yeah, so the, that step I was.
+- id: u59
+  speaker: Fulvio Ciano
+  t_start: 1571.766
+  t_end: 1577.85
+  text: Also understand why, why the two have divergence in that way.
+- id: u60
+  speaker: David Olsson
+  t_start: 1578.01
+  t_end: 1622.354
+  text: Yeah, well, it understand, it more readily understands the abstracted PDD, PDDL as, as steps and then it does a lot of. And so it, instead of having you walk down the road and you do these volunteers it says walk, road, question mark, couple of variables and then it can deal with every situation as, as the minimal set of words in an actionable like a vector. Like for a while I was just studying English I'm like maybe we just need verbs and because you can infer the object and the subject with just a question mark.
+- id: u61
+  speaker: Fulvio Ciano
+  t_start: 1622.482
+  t_end: 1637.76
+  text: Yeah it's interesting. It's very interesting to me because the big success that AI has had is in understanding our language. Right, but.
+- id: u62
+  speaker: David Olsson
+  t_start: 1638.78
+  t_end: 1641.316
+  text: Right, understanding languages.
+- id: u63
+  speaker: Fulvio Ciano
+  t_start: 1641.468
+  t_end: 1665.114
+  text: Understanding languages, yes. Right. But there still might be terrible advantage to having the right common language, so to speak for interacting with AI. Right? And so because this PD DL isn't even its internal language.
+- id: u64
+  speaker: David Olsson
+  t_start: 1665.282
+  t_end: 1666.61
+  text: No, nothing is.
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 1666.65
+  t_end: 1669.554
+  text: Yeah, nothing is. That's right. That's right.
+- id: u66
+  speaker: David Olsson
+  t_start: 1669.682
+  t_end: 1761.87
+  text: And so, well so here's, how about this. I believe that I've uncovered I'm actively working with that and that maybe, maybe you're just helping me with this right now to voice that is that I've seriously had a serious moment where I was like metadata, metadata, like not just oh it's a metadata. I've known fucking using metadata for 20 years actively. No, it was a fundamental understanding of it. It's like the invisible layers are just wild, right? And so now we're getting to the point where people are just like the blockchain yet to be able to traverse them and have some visibility on them, right? Because that's where all the stuff's happening is the invisible layers that aren't in the language that we speak. And so what I'm coming to right now is that as minimal as I am, I'm integrally working with the minimal set of invisible layers that have impressive structural form for all languages and that is the comma in the tab because it gets used in fundamental ways and is the fundamental relationship in spreadsheets that drives so much of our reasoning. So there's in, you know, JSON the same thing. Like it just, you want to consume a transcript, better give it to JSON, man. Just give it to JSON.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 1762.29
+  t_end: 1763.03
+  text: Right.
+- id: u68
+  speaker: David Olsson
+  t_start: 1763.81
+  t_end: 1768.35
+  text: Because then it's in a format that it will just jump up and down all over it, right?
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1768.93
+  t_end: 1779.19
+  text: Highly structured, exact but flexible. Right. The thing about JSON is it's flexible in the sense that you know what the data elements are can expand and contract.
+- id: u70
+  speaker: David Olsson
+  t_start: 1779.57
+  t_end: 1792.38
+  text: Right? And so that's the same thing here. And there's no formulas going on but you could add them. But what it's doing is it's inferring, because I'm working at the natural pattern language and saying that it has some, this format has some of that invisible integrity.
+- id: u71
+  speaker: Fulvio Ciano
+  t_start: 1792.42
+  t_end: 1796.64
+  text: But what I do is easy to go from a spreadsheet to chase on.
+- id: u72
+  speaker: David Olsson
+  t_start: 1797.34
+  t_end: 1801.964
+  text: This is one of the most transportable formats ever, and it's human readable.
+- id: u73
+  speaker: Fulvio Ciano
+  t_start: 1802.052
+  t_end: 1809.396
+  text: Spreadsheets are human readable and JSON is infinitely machine readable. Right? Like that's, that's, that's, that's.
+- id: u74
+  speaker: David Olsson
+  t_start: 1809.468
+  t_end: 2408.9
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: u75
+  speaker: Fulvio Ciano
+  t_start: 2410.04
+  t_end: 2411.272
+  text: You don't even use.
+- id: u76
+  speaker: David Olsson
+  t_start: 2411.456
+  t_end: 2421.02
+  text: Well, I don't optimize for production where I can because I'm still working at the nuanced level of trying to get certain types of what I call through.
+- id: u77
+  speaker: Fulvio Ciano
+  t_start: 2421.44
+  t_end: 2429.19
+  text: In a way, if you're optimizing for production, it's more static than you want it, isn't it?
+- id: u78
+  speaker: David Olsson
+  t_start: 2429.77
+  t_end: 2528.52
+  text: It's not what I call 360. Once I symbolize it into PDDL, it's garbage, right? I can see it there, I can read it and I can change a little bit of it, but I'm like, I can't optimize that. And so just the efficiency isn't there and so the predictability isn't there. But that a lot of the time right now, I'm not working at that, right. I have highly efficient agents, and we'll be, especially in the narrow view that we'll be deploying them for this project, they'll work excessively well, especially with this symbolizing. But when they're working in a space that is generalized like product and there's a whole broad spectrum of what it means to market. Now I have the metadata layer of those roles, those tasks, the ways of grading them, the KPI's, the types of reports, the outlines for the report. Like, it's like it's extensive. And that that's what the value of working, you know, that I can provide as work. Sonos, too, is like nothing. Like we capture that as this metadata that has integrity unto itself. So it's, it's, it's like, what is it? Yeah, it is. It's just like, it is the formative metadata structures around all product, right? And all of the actors involved with product. Maybe that's it. It's like every entity and actor described as interoperable actions with results.
+- id: u79
+  speaker: David Olsson
+  t_start: 2533.71
+  t_end: 2726.34
+  text: That sounds wrong. Anyways, it's easier to break it down than it is to describe it all as one thing. And breaking it down is the point of it having a great deal of value. And then being able to see which ones of these make some sense based on what kind of reports might be needed is why it's kind of broken up like this. I get to the point where it can provide following through on the notion of Persona based prompting. You're like, what do you require if you're going to build this report? It's like, oh, I need these things. Okay, yeah, I know you do, but do you know you do? And so, like, well, now I got it documented. At the end of the day, that's what I have. It's like, yeah, now I got to document it. It doesn't matter what anything believes anymore. I have it documented in a metadata structure. It is both formative in terms of providing the value descriptively, but also then saying actionably what to do with that description. So it's directive. And that's the end goal of these. Each of these lines is for them to be directive. And once we have directive language, we have functional language, and KPI seem to be. So there's certain things that have incredible, what I call compression in LLMs, and they are like parts of our language. The word KPI is one of them. And the other word is strategy. Because they roll, the intention is that things roll up into them. And because things roll up into them means that they decompress into a whole lot of different tangible things as a result of that KPI being measurable and then not only measurable, but directional. So I started putting KPI's in. I'm like, no, you capture the KPI, you almost be able to get rid of the tasks, right? You got objectives and KPI's and you might not, they might be able to get rid of the team, you know, like get rid of reports, right? Because you can just say, well, I need this report to meet this KPI. Because in strategy, criteria are ultimately necessary, at least in my view, and because I can say that they're necessary. It's the one that taught me that it's functionally useful. And then to get things done, you need to do tasks, right, to meet the criteria and all the other things. And then you need to be able to measure your work. So that structure itself is super powerful. And it captures, like, if you capture a word like a strategy and a phrase, it unrolls all the way down to what kind of emails need to be sent or if emails need to be sent, if, you know, and it, what it, you know, I'll rephrase that. Maybe it affords what can happen at that level, right. It's the, it's the permutation coming. It's the permutations on it. And then once you have a well defined strategy, it's just the combinations. And once you have the, once you have the right strategy, it's one combination.
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 2727.4
+  t_end: 2728.14
+  text: Right.
+- id: u81
+  speaker: David Olsson
+  t_start: 2729.04
+  t_end: 2747.76
+  text: And so that was an interesting recognition for me too, is that that's the difference between, you know, one side of the coin, the other is that AI does the permutations incredibly well. But what we are good at, what we need we can help with, is the pathfinding to that one determination. You know, we can, we can path find ourselves forever and we know what that looks like.
+- id: u82
+  speaker: Fulvio Ciano
+  t_start: 2747.88
+  t_end: 2754.44
+  text: It's essentially human reflection on correctness, isn't it?
+- id: u83
+  speaker: David Olsson
+  t_start: 2754.48
+  t_end: 2791.05
+  text: Yes. Yeah, yeah, yeah. And so we can do that. We can't. Like, the neat thing about the spreadsheet and curves are just the best distillation of any spreadsheet, you know, mostly is that we can identify quickly by, you know, a lot more information. We can browse, like, or not, we can interpret. But I can say a lot more information all at once. And like, oh, I think I understand what this means, or that doesn't, look, why is that? There you know, that's, those are the common responses when people see a spreadsheet that if they're a professional in space, they'll either say, that looks okay or this is wrong.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 2791.47
+  t_end: 2791.97
+  text: Right.
+- id: u85
+  speaker: David Olsson
+  t_start: 2791.966
+  t_end: 2834.0
+  text: And that's an incredible thing. Right. There's something there to that framing of information and the way that it presents itself. And so there's value. Like the readability has value. The fact that it has, I don't know, it gets at most of what you would describe as the functional workflow, assets and or workflows. It builds on top of the meta idea and on top of the fact that this could pop into anything as a structure, probably.
+- id: u86
+  speaker: Fulvio Ciano
+  t_start: 2837.46
+  t_end: 2838.36
+  text: Okay.
+- id: u87
+  speaker: David Olsson
+  t_start: 2839.34
+  t_end: 2857.18
+  text: So I don't know what that was. That was, I wanted to show both sides of this and say, this is almost ready for me to then bring into the prompting environment and then to say, to show some results on. And once that's the case, then this is the kind of pattern that I want to be able to work with us internally. That's why I want to present.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 2860.16
+  t_end: 2876.26
+  text: When the prompting is ready to show some results, it'll be ready at a particular stage in a particular evolution to show some results on specific outputs on specific targets.
+- id: u89
+  speaker: David Olsson
+  t_start: 2878.76
+  t_end: 2885.81
+  text: What it's doing right now is a bunch of banal stuff, and I believe. How about comment?
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 2886.67
+  t_end: 2890.654
+  text: It's. Yeah, banal is not the right word, is it? What is the right word?
+- id: u91
+  speaker: David Olsson
+  t_start: 2890.742
+  t_end: 3021.74
+  text: It's predictable. And the reason that it is chosen because it's accessible and it's predictable is that the results will be predictable. And what I could use more appropriately is that the results will be banal because they will be drawing on probably, unless I have a corpus, which I'm testing it on, it'll be, the results will be very non like. It won't be stellar because they don't have the examples beforehand and afterwards. But where this, if this works and it just pumps out results and it pumps out a variety of results and it continuously does that, then it shows me that these are the right, this is the right strategy for presenting this kind of thing, and it's just the ingredients. And so my thing with turning things into a strategy and then saying you can grade it and then come back and redo it, that has played out incredibly well. Whether the strategy in there is right, that has been my problem or that has been my question is like, I don't believe I have the right strategies for editing the copy properly. The right direction, meaning here's some of the best examples of our good work with our tone and our style to push through it, I just say, be more concise, be better organized, be this or that. And I looked at, I look at them, and they're, you know, good style sheet style guides that it comes from, but they're, they are banal, you know what I mean? And if you get into branding or you get into any specific technical language that is supposed to shine through, and that is one of the challenges that I'm still trying to solve with this. And, but if this works systematically, the content right now is super generalized. And that's another one of the patterns that I guess I'll finish on is like, have this notion of zero knowledge strategy, of coming into any situation, be able to figure it all out. It is a deceit in that there is always a strategy and there is always knowledge, and it is of a generalized nature, in generalized patterns, but they are common, and there are ways to work into a problem from not understanding anything. And this stuff, um, losing my thought.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 3021.78
+  t_end: 3022.36
+  text: Now.
+- id: u93
+  speaker: David Olsson
+  t_start: 3025.94
+  t_end: 3041.572
+  text: The value of this right here is intermediary somewhere between nonspecific understanding of a generalized pattern and generalized response to the structure itself works. The content is kind of. But not the best.
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 3041.756
+  t_end: 3042.482
+  text: Yeah.
+- id: u95
+  speaker: David Olsson
+  t_start: 3042.636
+  t_end: 3049.366
+  text: If you have better content, then it will then temper the rigor of the structure. And so that's where with more content.
+- id: u96
+  speaker: Fulvio Ciano
+  t_start: 3049.438
+  t_end: 3055.45
+  text: Being the data about the specific, not just the data, but the specific case.
+- id: u97
+  speaker: David Olsson
+  t_start: 3056.63
+  t_end: 3057.822
+  text: The focus of it.
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 3057.926
+  t_end: 3061.91
+  text: The focus. Thank you. Focus is exactly the right word. Focus is the right word.
+- id: u99
+  speaker: David Olsson
+  t_start: 3061.99
+  t_end: 3074.19
+  text: And to that word, I've been using that word. It's very powerful. And I can say, and I can say, focus on this, refocus the table on this.
+- id: u100
+  speaker: Fulvio Ciano
+  t_start: 3074.53
+  t_end: 3075.418
+  text: Interesting.
+- id: u101
+  speaker: David Olsson
+  t_start: 3075.554
+  t_end: 3079.79
+  text: And it does, and it does really neat things, and I'm not giving the best.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 3080.73
+  t_end: 3083.47
+  text: I wish we knew what was going on inside. Right.
+- id: u103
+  speaker: David Olsson
+  t_start: 3084.01
+  t_end: 3102.25
+  text: These are the inferences that I can one, you intuit them, then you play with them, and then, you know, you get some directionality against them. And that's what I'm doing right now with this spreadsheets. And I mean, like, it's not a big deal to say, oh, okay, the spreadsheets are cool, but because they're performing in this way, that is ambiguous but beneficial.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 3102.63
+  t_end: 3103.37
+  text: Right.
+- id: u105
+  speaker: David Olsson
+  t_start: 3103.79
+  t_end: 3112.81
+  text: It's like, okay, there's still value to the spreadsheet, no matter what, because I give these to, you know, whoever's going to be our developers, and they're just like, yeah, I'll just put it in a database. I'm like, yes, you will.
+- id: u106
+  speaker: Fulvio Ciano
+  t_start: 3114.27
+  t_end: 3123.95
+  text: There's like a very metal, logical conversation about the power of the magic word.
+- id: u107
+  speaker: David Olsson
+  t_start: 3124.03
+  t_end: 3124.53
+  text: I.
+- id: u108
+  speaker: Fulvio Ciano
+  t_start: 3124.614
+  t_end: 3128.112
+  text: Whether it's in the word or in its meaning. Right?
+- id: u109
+  speaker: David Olsson
+  t_start: 3128.076
+  t_end: 3148.82
+  text: Oh, wow. That's. That's what I found in this LLM stuff is, like, just, again, important. Like that. What is important? And I get. I will get stuck on a word and like a blake. Oh, man. When I've discovered how powerful the word ablate is just as a concept, I embodied it for quite a while in this work.
+- id: u110
+  speaker: Fulvio Ciano
+  t_start: 3148.98
+  t_end: 3149.968
+  text: What work?
+- id: u111
+  speaker: David Olsson
+  t_start: 3150.164
+  t_end: 3156.0
+  text: Ablate. Ablate. And it's the act of. It's, again, pulling away with some not important.
+- id: u112
+  speaker: Fulvio Ciano
+  t_start: 3156.08
+  t_end: 3159.896
+  text: Yeah. Like, as in ablative materials that fall away or.
+- id: u113
+  speaker: David Olsson
+  t_start: 3160.008
+  t_end: 3181.02
+  text: Yeah, yeah. But there's a process to it in. In the machine learning space. And also, I was like, wow, okay, I've got all this. When my first success was something that just. I filled the context window until it wouldn't have anymore. I'm like, it's gonna do something. And then I'm like, what? Useful? I'm like, I don't know.
+- id: u114
+  speaker: Fulvio Ciano
+  t_start: 3181.68
+  t_end: 3195.676
+  text: There's a lot of hallucinations, a lot of bad results, whether they're visual or literal. Right. They. They seem to come when it focuses on exactly the wrong thing. Right.
+- id: u115
+  speaker: David Olsson
+  t_start: 3195.608
+  t_end: 3197.26
+  text: Well, yeah, excitement.
+- id: u116
+  speaker: Fulvio Ciano
+  t_start: 3197.88
+  t_end: 3222.456
+  text: Like, for example, you know, I say something like. Or focus on it in the wrong way more than right. So, for example, it's easy to talk about an image thing. I'll say something like, create me a vector art logo with the text, blah, blah, blah, blah, blah, blah, blah. And then it puts word vector art in the image. Do you know what I mean?
+- id: u117
+  speaker: David Olsson
+  t_start: 3222.528
+  t_end: 3223.584
+  text: Yeah, yeah.
+- id: u118
+  speaker: Fulvio Ciano
+  t_start: 3223.712
+  t_end: 3235.62
+  text: And you're like, oh, I did pay attention to that, but not in that way. Right. And, like, there's this process of, like, peeling away.
+- id: u119
+  speaker: David Olsson
+  t_start: 3237.52
+  t_end: 3238.248
+  text: Yeah, yeah.
+- id: u120
+  speaker: Fulvio Ciano
+  t_start: 3238.304
+  t_end: 3285.52
+  text: After you've inferred the meaning. Peeling away, something's important. Right? Like, yeah. Like, like, like, take that as direction, but then don't over focus. Focus. There comes that word, focus. Don't over focus or refocus. Right. You know what I find about these image systems as opposed to the chats? The chat systems are very good at being iterative and contextual. Right? You can say they're way better. Like, you can say, write me a poem, and then you can say, we'll change this poem in the slight way, and it does the image stuff. It's horrible at that. Horrible, right. You get a whole new image. Right?
+- id: u121
+  speaker: David Olsson
+  t_start: 3285.428
+  t_end: 3289.6
+  text: Yeah, no, yeah, it's not like it, like, oh, it iterated completely.
+- id: u122
+  speaker: Fulvio Ciano
+  t_start: 3290.3
+  t_end: 3292.864
+  text: Yeah, it's. It's. It's. It's.
+- id: u123
+  speaker: David Olsson
+  t_start: 3292.812
+  t_end: 3296.28
+  text: I think it changed. I got rid of. Oh, my God.
+- id: u124
+  speaker: Fulvio Ciano
+  t_start: 3298.18
+  t_end: 3298.94
+  text: Yeah.
+- id: u125
+  speaker: David Olsson
+  t_start: 3299.1
+  t_end: 3323.13
+  text: Sometimes it's just ridiculous. But the word of Blake was like, yeah, it was like, that thing is like, okay, now I know I said too much. What do I take away? Well, it was neat. Uncovering a lot of things all at once was like, I just decided to apply it as a function. I just described it as a function, and I said, ablate this agent, and it minimized the goddamn agent.
+- id: u126
+  speaker: Fulvio Ciano
+  t_start: 3323.59
+  t_end: 3324.462
+  text: Oh, really?
+- id: u127
+  speaker: David Olsson
+  t_start: 3324.606
+  t_end: 3361.65
+  text: Yeah. And that was what it's intended to do. And so. And it didn't perform as well. But what it told me was like, oh, it just. It inferred the meaning of. And then it just said, well, I guess based on what I understand of that meaning, is like, I better do that to this thing. And so that's the greater pool of the, you know, of the LLM. And if you get more descriptive around what a blade is, then it will do that kind of ablating. Right? It'll say, okay, get rid of all the of's and the articles and all the other things. Or if you use PdDl, it's a really interesting kind of ablation. Hello? Karen?
+- id: u128
+  speaker: Fulvio Ciano
+  t_start: 3362.39
+  t_end: 3363.742
+  text: Good morning, Karen.
+- id: u129
+  speaker: David Olsson
+  t_start: 3363.926
+  t_end: 3366.438
+  text: She can't hear you because I've got my headphones on.
+- id: u130
+  speaker: Fulvio Ciano
+  t_start: 3366.574
+  t_end: 3367.37
+  text: Uh.
+- id: u131
+  speaker: David Olsson
+  t_start: 3369.35
+  t_end: 3377.018
+  text: I could change that. It's okay. I need it. Bye, Folvia. I'm going for a walk. I'll talk to you.
+- id: u132
+  speaker: Fulvio Ciano
+  t_start: 3377.024
+  t_end: 3378.278
+  text: Okay. Enjoy your walk.
+- id: u133
+  speaker: David Olsson
+  t_start: 3378.454
+  t_end: 3383.69
+  text: Oh, enjoy your walk. You can hear that? Thank you. Thank you.
+- id: u134
+  speaker: Fulvio Ciano
+  t_start: 3384.79
+  t_end: 3393.06
+  text: So, um, tomorrow, let's go off AI for a moment. Right. Let's chat about other things.
+- id: u135
+  speaker: David Olsson
+  t_start: 3393.44
+  t_end: 3396.1
+  text: Hold on. Do we want this recorded?
+- id: u136
+  speaker: Fulvio Ciano
+  t_start: 3396.4
+  t_end: 3398.632
+  text: No, you can turn off the recording.
+- id: u137
+  speaker: David Olsson
+  t_start: 3398.816
+  t_end: 3399.4
+  text: Let's see.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  text: Hello, David. Hello. Good morning. How are you? Oh, good. I distracted by email. I'm like, oh, I'll just hit this one. It's a really quick one. And it's like 08:01. I'm like, I'm writing my computer, man. Yeah, I know how that is. Believe you me, I don't. Email is a tough one for me now because it's a big investment in terms of time and it's very, it doesn't often get the impact, you know. Yep. It doesn't get the focus. And so I try to be brief, but somebody was actually showing me some, one of this, James, actually, I can show it because that's what we're talking about. We're talking about this. So we've been talking about trying to, you know, so my workflow is one of building some integrity of information that allows for prompting to be an iterative thing that you can get better and better at. And so James has figured out how to adopt one of the patterns, which is, you know, you do something and then you get there until it's closer and then you ask for it to replicate it for later and then you feed that back. Right. So he gave the example of in this style, do this. Here's an image. You know, we want it now have it look over the shoulder so you can see he's directing it. Now reverse it in horizontal and then add environment and background. So he's got maybe what he wants as one of his panels. Here's the updated first image above his. Perfect. How would you like to get a future? There you go. And then his next section of his, he copies it in and boom, he gets it. It's not the same. But if I was to take my metadata cam and point it at it, it would say it's pretty close.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  text: So we've been talking about trying to, you know, so my workflow is one of building some integrity of information that allows for prompting to be an iterative thing that you can get better and better at. And so James has figured out how to adopt one of the patterns, which is, you know, you do something and then you get there until it's closer and then you ask for it to replicate it for later and then you feed that back. Right. So he gave the example of in this style, do this. Here's an image. You know, we want it now have it look over the shoulder so you can see he's directing it. Now reverse it in horizontal and then add environment and background. So he's got maybe what he wants as one of his panels. Here's the updated first image above his. Perfect. How would you like to get a future? There you go. And then his next section of his, he copies it in and boom, he gets it. It's not the same. But if I was to take my metadata cam and point it at it, it would say it's pretty close. Oh, yeah, for sure. Because of the. If you describe it as metadata, it's fairly similar. And, you know, there are systems like, you know, the ones that you use in mid journey and whatnot that allow for very specific direction. But I thought it was interesting. He's actually getting to. He's adopting the pattern. He's adopting the pattern of. It's going to be good at giving me a more direct version of what I, you know, path finded my way to if I just ask it. Yeah, it's interesting because, gosh, if you'd seen how many generations I've done, you know, to try to get exactly what I want. Yeah. Once you get into it. Hey, like, once you realize that, oh, I'm close. Yes. So that was one of the things that I uncovered quite early on is that I could get a lot of value. I'm like, oh, my God. Out of the prompting that I was doing to be able to take an idea, model it just on paper, then be able to describe it, and it would move around and poke around at it. And it's like, oh, as a hallucination, it's fairly full and detailed. I'm like, this is great. And then to the point of handing it off, I'm like, okay, and I'll get it all ready. Then I figure out how to do, like, an application experience and all that other stuff. And then I had, and then I'm ready to hand it off. And the thing is brittle as hell.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Because of the. If you describe it as metadata, it's fairly similar. And, you know, there are systems like, you know, the ones that you use in mid journey and whatnot that allow for very specific direction. But I thought it was interesting. He's actually getting to. He's adopting the pattern. He's adopting the pattern of. It's going to be good at giving me a more direct version of what I, you know, path finded my way to if I just ask it. Yeah, it's interesting because, gosh, if you'd seen how many generations I've done, you know, to try to get exactly what I want. Yeah. Once you get into it. Hey, like, once you realize that, oh, I'm close. Yes. So that was one of the things that I uncovered quite early on is that I could get a lot of value. I'm like, oh, my God. Out of the prompting that I was doing to be able to take an idea, model it just on paper, then be able to describe it, and it would move around and poke around at it. And it's like, oh, as a hallucination, it's fairly full and detailed. I'm like, this is great. And then to the point of handing it off, I'm like, okay, and I'll get it all ready. Then I figure out how to do, like, an application experience and all that other stuff. And then I had, and then I'm ready to hand it off. And the thing is brittle as hell. Yeah. You know, like, even the core experience comes out different sometimes. I'm like, man, like, I had, like, a very good experience the first five times, and then all of a sudden it's going sideways. I'm like, and I'm not doing anything different. I'm like, oh, my, this is, no, I have to tell you, David, it's getting better and better day by day. Like, I cannot keep up. Oh, yeah, that is the thing. And also what it forced me to do is that also I was collaborating with Jason Kriskey, who I'll be meeting with today, and I'll describe some of that because I'll be showing what I've been doing because I want to get it out the door. And if he uses it, man, then things are a lot easier as well. Consider another project completed and already in. But I had to get good at, well, what's brittle? And I point to that important thing again. And so I've studied, you know, some really great papers and gleaned a lot, seen some examples. A lot of the time these guys are working for, like, meta and whoever else, they'll just, they'll just publish their paper and they won't, they will never follow up with their code. So a lot of the time you have to do the experiments yourself. But what it's enabled me to do is build a, a process to minimize the concern that I was talking about, get to the point of very tight predictability on almost all of the prompting. It requires a progressive and comprehensive prompting practice, from the point of distilling the question to decomposing the tasks and assigning it and all this other stuff that happens in the background to make it as optimal as possible based on the predominant paradigm of agents.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Oh, yeah, that is the thing. And also what it forced me to do is that also I was collaborating with Jason Kriskey, who I'll be meeting with today, and I'll describe some of that because I'll be showing what I've been doing because I want to get it out the door. And if he uses it, man, then things are a lot easier as well. Consider another project completed and already in. But I had to get good at, well, what's brittle? And I point to that important thing again. And so I've studied, you know, some really great papers and gleaned a lot, seen some examples. A lot of the time these guys are working for, like, meta and whoever else, they'll just, they'll just publish their paper and they won't, they will never follow up with their code. So a lot of the time you have to do the experiments yourself. But what it's enabled me to do is build a, a process to minimize the concern that I was talking about, get to the point of very tight predictability on almost all of the prompting. It requires a progressive and comprehensive prompting practice, from the point of distilling the question to decomposing the tasks and assigning it and all this other stuff that happens in the background to make it as optimal as possible based on the predominant paradigm of agents. So what I've observed is that two completely unrelated things. Okay? One is that image prompting, you cannot get exactly what you want. Well, that, I think, is so true. I don't think you can get. You can get, again, at the metadata level, I think you can get that. That's right. Because. Because, frankly, an image is too precise and rich, if you know what I mean. Right. Like, where.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  text: Oh, yeah, that is the thing. And also what it forced me to do is that also I was collaborating with Jason Kriskey, who I'll be meeting with today, and I'll describe some of that because I'll be showing what I've been doing because I want to get it out the door. And if he uses it, man, then things are a lot easier as well. Consider another project completed and already in. But I had to get good at, well, what's brittle? And I point to that important thing again. And so I've studied, you know, some really great papers and gleaned a lot, seen some examples. A lot of the time these guys are working for, like, meta and whoever else, they'll just, they'll just publish their paper and they won't, they will never follow up with their code. So a lot of the time you have to do the experiments yourself. But what it's enabled me to do is build a, a process to minimize the concern that I was talking about, get to the point of very tight predictability on almost all of the prompting. It requires a progressive and comprehensive prompting practice, from the point of distilling the question to decomposing the tasks and assigning it and all this other stuff that happens in the background to make it as optimal as possible based on the predominant paradigm of agents. So what I've observed is that two completely unrelated things. Okay? One is that image prompting, you cannot get exactly what you want. Well, that, I think, is so true. I don't think you can get. You can get, again, at the metadata level, I think you can get that. That's right. Because. Because, frankly, an image is too precise and rich, if you know what I mean. Right. Like, where. Where I think it could be wrong is with Sora because it is a model behind it. Right. Yeah. A 3d model. So at that point, you can control it. Yeah. But. Yeah. How it aggregates the image, I don't even understand it, how it does. Yeah. So with. With image generation, it's challenging because. How do I put this? With image generation, it's easy to fail the Turing test. It's easy to see that it was created by a computer because it's never perfect, it's never right. Whereas with text, the opposite. It's almost impossible to tell because it's not, as the words are, by nature, less representative of the real world than an image. Right. Like, if you say dog, it means dog. Right. Like, in a way, it's more representative but less detail. There's less detail in the walls. It's symbolic. So it's symbolic. Yeah. We can call visual as more referential or something. And it's the way that we can consume it is very different than symbolic information. And we consume symbolic information in a linear fashion. Yeah. It's just terribly interesting to me how, first of all, I don't fucking have no clue where we're going to be in six months, David. Oh, my God. It's just.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  text: Yeah. So with. With image generation, it's challenging because. How do I put this? With image generation, it's easy to fail the Turing test. It's easy to see that it was created by a computer because it's never perfect, it's never right. Whereas with text, the opposite. It's almost impossible to tell because it's not, as the words are, by nature, less representative of the real world than an image. Right. Like, if you say dog, it means dog. Right. Like, in a way, it's more representative but less detail. There's less detail in the walls. It's symbolic. So it's symbolic. Yeah. We can call visual as more referential or something. And it's the way that we can consume it is very different than symbolic information. And we consume symbolic information in a linear fashion. Yeah. It's just terribly interesting to me how, first of all, I don't fucking have no clue where we're going to be in six months, David. Oh, my God. It's just. I know. This is, like, the thing is to get, you know, always be doing it is my thing is, like, I said it, like, a few times. One to myself is like, first thing, because I said it to somebody else in my meeting today. It's like, first thing is to just keep doing it, and the second thing is to network that you keep doing it. And because of the. This is almost like. It is in many ways, my experience and has. My practice has been first principles through my career. And this is. There's no. There's no other way with this stuff. You have to experiment to understand the response because they don't understand what they're building. Right. That's right. There's an extraordinary amount of Newton's method iteration going on here. Oh, yeah. It's highly responsive on both sides, which is an incredible thing. And the tool allows for that. And that's what one. One of the things that, you know, I want to get into the more, you know, put us in the habit of and you know the phrase of eating your own dog breakfast or dog sorry is appropriate. And if we put ourselves on top of the stack and we're starting to think like the stack, and that is a different position than we currently are in, and it will take time to get there, and you say six months, and I think that's probably the right time frame for the team to adopt new working pattern, new working patterns based on the awareness of what they need to now do. And that gets us to like, what can we do with all this stuff? And it's not necessarily what we would we currently do right now. Like if I, all my agents are sort of built around the idea of completing reports that we'd normally require in the process of executing a task.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  text: Oh, yeah. It's highly responsive on both sides, which is an incredible thing. And the tool allows for that. And that's what one. One of the things that, you know, I want to get into the more, you know, put us in the habit of and you know the phrase of eating your own dog breakfast or dog sorry is appropriate. And if we put ourselves on top of the stack and we're starting to think like the stack, and that is a different position than we currently are in, and it will take time to get there, and you say six months, and I think that's probably the right time frame for the team to adopt new working pattern, new working patterns based on the awareness of what they need to now do. And that gets us to like, what can we do with all this stuff? And it's not necessarily what we would we currently do right now. Like if I, all my agents are sort of built around the idea of completing reports that we'd normally require in the process of executing a task. Right? They're designed on that, right. It reads the corporate, it's got Internet zip behind the scenes and the Internet zip says these how all these documents work together and that they've done a lot, and because it has all this knowledge of how it all works together, then it can make it all work together. So that's fine, but what's going on is not that. So it's saying this is the structure, it's understood that this is how the information goes, and here's how the agents work. And so it can put that all together. And what I'm finding is that if we add more information, more structure to the information that gets processed, and more structure to how you can look at an agent, then you can do stuff that, that is completely divorced from all the concern of management, of assigning work tasks, of even looking at it from a point of view. I don't even know what the fucking KPI's are. Yeah, yeah. And this is valid from a consultant's point of view. They do it all the time. And we have practices, we call it phase zero. Now Karen's calling phase zero. It's just discovery. And you have your framework. You go in, I do these seven questions, and I come out with magic. And whatever it is, we can now have a series of these frameworks that we attach to ourselves and put them in between, say, a question and say, here's a series of frameworks that attach to this question in a significant way. And then on the other side is a template of results that you can get out of it. And what I'm moving towards is not connecting the dots as tightly because of what I have as intuition, and I can and I love to be able to spend some time on that trajectory of who I am. But last Friday I had a very significant awareness around what I'm doing. And it reinforced the fact that these structures are significant, these metadata structures. And this, this simple comma and tab delimited format is really powerful. Just like an XML feed or a JSON file is because of the way the LLM can appreciate what they are and because of the fact that there is integrity between the cells that we make happen and because of the fact that there is two things. Let's just say there's two things right now. There's the content and the structure of the content.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  text: They're designed on that, right. It reads the corporate, it's got Internet zip behind the scenes and the Internet zip says these how all these documents work together and that they've done a lot, and because it has all this knowledge of how it all works together, then it can make it all work together. So that's fine, but what's going on is not that. So it's saying this is the structure, it's understood that this is how the information goes, and here's how the agents work. And so it can put that all together. And what I'm finding is that if we add more information, more structure to the information that gets processed, and more structure to how you can look at an agent, then you can do stuff that, that is completely divorced from all the concern of management, of assigning work tasks, of even looking at it from a point of view. I don't even know what the fucking KPI's are. Yeah, yeah. And this is valid from a consultant's point of view. They do it all the time. And we have practices, we call it phase zero. Now Karen's calling phase zero. It's just discovery. And you have your framework. You go in, I do these seven questions, and I come out with magic. And whatever it is, we can now have a series of these frameworks that we attach to ourselves and put them in between, say, a question and say, here's a series of frameworks that attach to this question in a significant way. And then on the other side is a template of results that you can get out of it. And what I'm moving towards is not connecting the dots as tightly because of what I have as intuition, and I can and I love to be able to spend some time on that trajectory of who I am. But last Friday I had a very significant awareness around what I'm doing. And it reinforced the fact that these structures are significant, these metadata structures. And this, this simple comma and tab delimited format is really powerful. Just like an XML feed or a JSON file is because of the way the LLM can appreciate what they are and because of the fact that there is integrity between the cells that we make happen and because of the fact that there is two things. Let's just say there's two things right now. There's the content and the structure of the content.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: And this is valid from a consultant's point of view. They do it all the time. And we have practices, we call it phase zero. Now Karen's calling phase zero. It's just discovery. And you have your framework. You go in, I do these seven questions, and I come out with magic. And whatever it is, we can now have a series of these frameworks that we attach to ourselves and put them in between, say, a question and say, here's a series of frameworks that attach to this question in a significant way. And then on the other side is a template of results that you can get out of it. And what I'm moving towards is not connecting the dots as tightly because of what I have as intuition, and I can and I love to be able to spend some time on that trajectory of who I am. But last Friday I had a very significant awareness around what I'm doing. And it reinforced the fact that these structures are significant, these metadata structures. And this, this simple comma and tab delimited format is really powerful. Just like an XML feed or a JSON file is because of the way the LLM can appreciate what they are and because of the fact that there is integrity between the cells that we make happen and because of the fact that there is two things. Let's just say there's two things right now. There's the content and the structure of the content. Okay. And then there's the presentation of the structured content within the structure of a spreadsheet. Within the structure of a spreadsheet, yes. So that's three. That's a matrix right there, generally how. We want to finally present it. But that's the best place to sort of keep it and use it, if you know what I mean, because it's interoperable in the end. We want to pour it into rich documents. But yes. Yeah. And so this follows my understanding of my intuition around metadata and then finding some structure for it in that this is again a way of stepping outside of all the systems as not only an intermediary step, but possibly a way of delivering this intentions and data all wrapped up in some sort of structure. And so what I'm currently doing, I've got a spreadsheet in front of you right now is I've done some research on, I've done some research into the direct to consumer experience and what it takes to sell. And I typically the roles associated with a team, a marketing team that will take a product and then build landing pages and do all the associative marketing around it. And that's what Jason Kriske has done. He used to have a studio that did that and then he's built a studio that does that with software for the most part automating it. And he's looking to generate the content based on having very good descriptions of a product. Right now there's not very good descriptions of the product. And so that's one of the weaknesses is having a good source. But I've taken his sort of theory. I mean, I don't believe it's valid anymore. It's like he would build a corpus of corpus of intelligence. And I think that notion is still strong, but how that gets structured is different. But a corpus of information or intelligence around a product and say, here's a product description from that. Then you can add dimension, you can call it dimensionality to it. You can start discussing its USP's, its benefits, its use cases, what its users look like based on some information, primary information you have, or some inferences based on other patterns it picks up. You can build this dimensionality that then is a whole lot of information for which you can build landing pages, social media, whatever else. There is an intelligence blob to which it knows what pieces it would then attach to. And I'm like, and there's a workflow of a product describer, copywriter, researcher, market researcher, and I've got all those agents building, they're fucking killer. And they're distilled down and they operate in a very symbolic language called PDDL. And they do a great deal of the work. So I've been very specific about the tasks and the output and the format, and they do that, but they don't do it as well as they could in the way that they pick up the brand and they sell.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u43
+  text: Yeah. And so this follows my understanding of my intuition around metadata and then finding some structure for it in that this is again a way of stepping outside of all the systems as not only an intermediary step, but possibly a way of delivering this intentions and data all wrapped up in some sort of structure. And so what I'm currently doing, I've got a spreadsheet in front of you right now is I've done some research on, I've done some research into the direct to consumer experience and what it takes to sell. And I typically the roles associated with a team, a marketing team that will take a product and then build landing pages and do all the associative marketing around it. And that's what Jason Kriske has done. He used to have a studio that did that and then he's built a studio that does that with software for the most part automating it. And he's looking to generate the content based on having very good descriptions of a product. Right now there's not very good descriptions of the product. And so that's one of the weaknesses is having a good source. But I've taken his sort of theory. I mean, I don't believe it's valid anymore. It's like he would build a corpus of corpus of intelligence. And I think that notion is still strong, but how that gets structured is different. But a corpus of information or intelligence around a product and say, here's a product description from that. Then you can add dimension, you can call it dimensionality to it. You can start discussing its USP's, its benefits, its use cases, what its users look like based on some information, primary information you have, or some inferences based on other patterns it picks up. You can build this dimensionality that then is a whole lot of information for which you can build landing pages, social media, whatever else. There is an intelligence blob to which it knows what pieces it would then attach to. And I'm like, and there's a workflow of a product describer, copywriter, researcher, market researcher, and I've got all those agents building, they're fucking killer. And they're distilled down and they operate in a very symbolic language called PDDL. And they do a great deal of the work. So I've been very specific about the tasks and the output and the format, and they do that, but they don't do it as well as they could in the way that they pick up the brand and they sell.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  text: Yeah. And so this follows my understanding of my intuition around metadata and then finding some structure for it in that this is again a way of stepping outside of all the systems as not only an intermediary step, but possibly a way of delivering this intentions and data all wrapped up in some sort of structure. And so what I'm currently doing, I've got a spreadsheet in front of you right now is I've done some research on, I've done some research into the direct to consumer experience and what it takes to sell. And I typically the roles associated with a team, a marketing team that will take a product and then build landing pages and do all the associative marketing around it. And that's what Jason Kriske has done. He used to have a studio that did that and then he's built a studio that does that with software for the most part automating it. And he's looking to generate the content based on having very good descriptions of a product. Right now there's not very good descriptions of the product. And so that's one of the weaknesses is having a good source. But I've taken his sort of theory. I mean, I don't believe it's valid anymore. It's like he would build a corpus of corpus of intelligence. And I think that notion is still strong, but how that gets structured is different. But a corpus of information or intelligence around a product and say, here's a product description from that. Then you can add dimension, you can call it dimensionality to it. You can start discussing its USP's, its benefits, its use cases, what its users look like based on some information, primary information you have, or some inferences based on other patterns it picks up. You can build this dimensionality that then is a whole lot of information for which you can build landing pages, social media, whatever else. There is an intelligence blob to which it knows what pieces it would then attach to. And I'm like, and there's a workflow of a product describer, copywriter, researcher, market researcher, and I've got all those agents building, they're fucking killer. And they're distilled down and they operate in a very symbolic language called PDDL. And they do a great deal of the work. So I've been very specific about the tasks and the output and the format, and they do that, but they don't do it as well as they could in the way that they pick up the brand and they sell. They don't say, so where's the failure point? Not the failure point, but the failure. Point is in the content delivery component of it being the right type of content and whatnot. Type the right type of content in the right. So the right style, tone, spin on cell. So features that are fairly high level but are baked into a lot of these dimensionality that you build. And so what I've done is I've gone around researching the dimensionality of what it takes to describe a product because I was actually looking at one thing and then it said, well, I need all these things to get at it. I'm like, oh, okay, that looks like all of the different types of sections in various reports I make from all the agents I have. And so it's like product details. These are the key attributes and these are all separate reports, right? And then, you know, target audiences. Well, this is like a very detailed view on what to look at them. Competitive landscape. Well, here's a great deal of, you know, ways of looking at that. And if I look at this, this is fairly good at saying what, know, you kind of need to look at from the aspects. It was only a handful of these, and I built it out to, you know, those 16, you know, different dimensions have a whole lot of attributes. And if I go down to defining the attributes, there's even sub attributes, you know, core features, advanced features under unique things, patents, innovations, sustainable. Like, there's a great deal of way of building granularity around this and associative meaning and it builds like a relational database. And so what I've got here is a killer almost done. You know, not really. He's 16. I've got one, two, three. I'm building them by hand because it's just failing me on figuring out the pattern, but I guess figuring out the pattern. Okay. Yeah. In terms of the spreadsheet, you know. Yes. Here's the spreadsheet, here's the format, here's the content. No, and it's still, you know, still like, so I might get there with James's.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u45
+  - u46
+  - u47
+  text: Point is in the content delivery component of it being the right type of content and whatnot. Type the right type of content in the right. So the right style, tone, spin on cell. So features that are fairly high level but are baked into a lot of these dimensionality that you build. And so what I've done is I've gone around researching the dimensionality of what it takes to describe a product because I was actually looking at one thing and then it said, well, I need all these things to get at it. I'm like, oh, okay, that looks like all of the different types of sections in various reports I make from all the agents I have. And so it's like product details. These are the key attributes and these are all separate reports, right? And then, you know, target audiences. Well, this is like a very detailed view on what to look at them. Competitive landscape. Well, here's a great deal of, you know, ways of looking at that. And if I look at this, this is fairly good at saying what, know, you kind of need to look at from the aspects. It was only a handful of these, and I built it out to, you know, those 16, you know, different dimensions have a whole lot of attributes. And if I go down to defining the attributes, there's even sub attributes, you know, core features, advanced features under unique things, patents, innovations, sustainable. Like, there's a great deal of way of building granularity around this and associative meaning and it builds like a relational database. And so what I've got here is a killer almost done. You know, not really. He's 16. I've got one, two, three. I'm building them by hand because it's just failing me on figuring out the pattern, but I guess figuring out the pattern. Okay. Yeah. In terms of the spreadsheet, you know. Yes. Here's the spreadsheet, here's the format, here's the content. No, and it's still, you know, still like, so I might get there with James's. Like, it works the way there, but you have to massage it the rest of the way there. Yeah. So I'm still, you know, I'm still prompting, but as soon as I get close, then hopefully I'll be able to, because it's 16 and there's a lot of dimensions and yada yada yada. But what it is, is it's getting at breaking down each one of these, you know, targets, audience, what kind of information can I get that will be deterministic and building reports, that is, marketing documents or whatever else you fucking need? And so again, this is a metadata structure that sits above the actual agents that do the work. Right. This is like getting at the core of what it means to talk about a product. And so these are again, very valuable structures that sit outside all of the systems that are themselves becoming subsystems. Because the fact that if we engage with a spreadsheet, like, if I just upload this spreadsheet and say, analyze it, it'll, and say, show me the intention of it, it'll start thinking about that kind of stuff and say, I think it can do this. And I say, well, execute it sometimes. And it, like, you know, like do things. And I'm like, oh, this is good. And from a prompting point of view, you can get a meta agent half thought you can get a meta agent that kind of manages a whole bunch of agents that then builds like a whole bunch of reports from a bunch of different situation scenarios, build, landing, and then it could go through. And if it had a corpus of intelligence built in a similar structure, then it would then be able to figure out what agents would be then assigned to do, you know, what report that would then feed the agent's overall scenario of building a plan that would reach these KPI's.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u46
+  - u47
+  text: Like, it works the way there, but you have to massage it the rest of the way there. Yeah. So I'm still, you know, I'm still prompting, but as soon as I get close, then hopefully I'll be able to, because it's 16 and there's a lot of dimensions and yada yada yada. But what it is, is it's getting at breaking down each one of these, you know, targets, audience, what kind of information can I get that will be deterministic and building reports, that is, marketing documents or whatever else you fucking need? And so again, this is a metadata structure that sits above the actual agents that do the work. Right. This is like getting at the core of what it means to talk about a product. And so these are again, very valuable structures that sit outside all of the systems that are themselves becoming subsystems. Because the fact that if we engage with a spreadsheet, like, if I just upload this spreadsheet and say, analyze it, it'll, and say, show me the intention of it, it'll start thinking about that kind of stuff and say, I think it can do this. And I say, well, execute it sometimes. And it, like, you know, like do things. And I'm like, oh, this is good. And from a prompting point of view, you can get a meta agent half thought you can get a meta agent that kind of manages a whole bunch of agents that then builds like a whole bunch of reports from a bunch of different situation scenarios, build, landing, and then it could go through. And if it had a corpus of intelligence built in a similar structure, then it would then be able to figure out what agents would be then assigned to do, you know, what report that would then feed the agent's overall scenario of building a plan that would reach these KPI's.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: Yeah. So I'm still, you know, I'm still prompting, but as soon as I get close, then hopefully I'll be able to, because it's 16 and there's a lot of dimensions and yada yada yada. But what it is, is it's getting at breaking down each one of these, you know, targets, audience, what kind of information can I get that will be deterministic and building reports, that is, marketing documents or whatever else you fucking need? And so again, this is a metadata structure that sits above the actual agents that do the work. Right. This is like getting at the core of what it means to talk about a product. And so these are again, very valuable structures that sit outside all of the systems that are themselves becoming subsystems. Because the fact that if we engage with a spreadsheet, like, if I just upload this spreadsheet and say, analyze it, it'll, and say, show me the intention of it, it'll start thinking about that kind of stuff and say, I think it can do this. And I say, well, execute it sometimes. And it, like, you know, like do things. And I'm like, oh, this is good. And from a prompting point of view, you can get a meta agent half thought you can get a meta agent that kind of manages a whole bunch of agents that then builds like a whole bunch of reports from a bunch of different situation scenarios, build, landing, and then it could go through. And if it had a corpus of intelligence built in a similar structure, then it would then be able to figure out what agents would be then assigned to do, you know, what report that would then feed the agent's overall scenario of building a plan that would reach these KPI's. So I'm building software in a spreadsheet, right? Based on the fact that there's a whole lot of inferred meaning in the commas and tabs. The spreadsheet isn't quite software. It's direction, isn't it? I mean, it's direction. No, it's. Okay. How about this. Yeah, it's the programming language and the content. Right. And the reporting mechanism, if you. Most of the time, because it outputs that thing. So it's a bit, it's a bit. It's a bit academic because you know, in the same way that software can need a compiler. Yeah, that's right. The LLM is the compiler. And the whole of the intention can be put into that scenario line right here by just describing it. And my integrity to these spreadsheets is a left to right integrity. It's like you can describe something to an LLM as launch the product, build a campaign, do it, it'll do that. But my description of the Internet, of an LLM as a lake or Internet zip, you want to focus where you're fishing, right, so that you can actually assess and get it to use a particular language. And so by going as we do that, we get a description of it. We see some of the outcomes associated with it. Here's the situation in which this is being applied. The work products associated with understanding that kind of space, some of the challenges, these are getting to be ancillary, maybe not as important towards tertiary, but then the audience is kind of important. So maybe these need to be rearranged if my theory is going to hold some value. Because at the beginning of things I could say when you're processing these spreadsheets, I can give it a meta, meta, meta like. Yeah, you know, here's how your brain's wired. And when you see a spreadsheet, it has integrity from left to right. You know, do that kind of thing. Because again, that can be part of the instructions that go before the scenario that then load the meta scrubs, that the meta agent that loads the scrubs, that then built the reports. This is my working sheet. So this thing here is kind of the other side of the coin is like I knew I was suffering from not having good source. And if I have good source, then I can make better reports. It just makes sense. And if I have better final reports and I have good source, then it's a home run because you're just conforming data and forming style and tone. Except for style and tone needs to be kind of shimmed in because it's part of the brand, part of the product description, and you need to be able to provide those as what in, you know, what I, what I rephrase as low level policies you have. You build some intel or some information and then you want to apply tone or style to it, right? That's kind of how we in terms of how we build things in each email, we, you know, we style after we have some integrity, the information community communicates things. And so I think that's how that progressive works. So it is fairly close to being a deployable system without having any need for external programming to do things that you could say, wildly hallucinate.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u53
+  - u54
+  text: So it's a bit, it's a bit. It's a bit academic because you know, in the same way that software can need a compiler. Yeah, that's right. The LLM is the compiler. And the whole of the intention can be put into that scenario line right here by just describing it. And my integrity to these spreadsheets is a left to right integrity. It's like you can describe something to an LLM as launch the product, build a campaign, do it, it'll do that. But my description of the Internet, of an LLM as a lake or Internet zip, you want to focus where you're fishing, right, so that you can actually assess and get it to use a particular language. And so by going as we do that, we get a description of it. We see some of the outcomes associated with it. Here's the situation in which this is being applied. The work products associated with understanding that kind of space, some of the challenges, these are getting to be ancillary, maybe not as important towards tertiary, but then the audience is kind of important. So maybe these need to be rearranged if my theory is going to hold some value. Because at the beginning of things I could say when you're processing these spreadsheets, I can give it a meta, meta, meta like. Yeah, you know, here's how your brain's wired. And when you see a spreadsheet, it has integrity from left to right. You know, do that kind of thing. Because again, that can be part of the instructions that go before the scenario that then load the meta scrubs, that the meta agent that loads the scrubs, that then built the reports. This is my working sheet. So this thing here is kind of the other side of the coin is like I knew I was suffering from not having good source. And if I have good source, then I can make better reports. It just makes sense. And if I have better final reports and I have good source, then it's a home run because you're just conforming data and forming style and tone. Except for style and tone needs to be kind of shimmed in because it's part of the brand, part of the product description, and you need to be able to provide those as what in, you know, what I, what I rephrase as low level policies you have. You build some intel or some information and then you want to apply tone or style to it, right? That's kind of how we in terms of how we build things in each email, we, you know, we style after we have some integrity, the information community communicates things. And so I think that's how that progressive works. So it is fairly close to being a deployable system without having any need for external programming to do things that you could say, wildly hallucinate.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  text: Yeah, that's right. The LLM is the compiler. And the whole of the intention can be put into that scenario line right here by just describing it. And my integrity to these spreadsheets is a left to right integrity. It's like you can describe something to an LLM as launch the product, build a campaign, do it, it'll do that. But my description of the Internet, of an LLM as a lake or Internet zip, you want to focus where you're fishing, right, so that you can actually assess and get it to use a particular language. And so by going as we do that, we get a description of it. We see some of the outcomes associated with it. Here's the situation in which this is being applied. The work products associated with understanding that kind of space, some of the challenges, these are getting to be ancillary, maybe not as important towards tertiary, but then the audience is kind of important. So maybe these need to be rearranged if my theory is going to hold some value. Because at the beginning of things I could say when you're processing these spreadsheets, I can give it a meta, meta, meta like. Yeah, you know, here's how your brain's wired. And when you see a spreadsheet, it has integrity from left to right. You know, do that kind of thing. Because again, that can be part of the instructions that go before the scenario that then load the meta scrubs, that the meta agent that loads the scrubs, that then built the reports. This is my working sheet. So this thing here is kind of the other side of the coin is like I knew I was suffering from not having good source. And if I have good source, then I can make better reports. It just makes sense. And if I have better final reports and I have good source, then it's a home run because you're just conforming data and forming style and tone. Except for style and tone needs to be kind of shimmed in because it's part of the brand, part of the product description, and you need to be able to provide those as what in, you know, what I, what I rephrase as low level policies you have. You build some intel or some information and then you want to apply tone or style to it, right? That's kind of how we in terms of how we build things in each email, we, you know, we style after we have some integrity, the information community communicates things. And so I think that's how that progressive works. So it is fairly close to being a deployable system without having any need for external programming to do things that you could say, wildly hallucinate. Wildly hallucinate that are off the mark, right? Because it's like, okay, great, Dave makes rational sense. How do you know? And so the proof is in the pudding. And so there's a whole, just like I've learned about prompting in terms of breaking it down, defining the tasks, having this reflection, like just the fact that you could say self reflect, you know, and then being very specific about it later, but just reflect on the fact that you've got an answer. Could the answer be better? And it goes, and it makes it better. If you tell it how to make it better, it makes it better along those lines. Just knowing that was a huge thing and then knowing that you can conform it to output fairly easily and that you can, you could apply symbol, you know, within it, within the symbolic language of English. You can apply another symbolic language of another programming language inside it, because it can interpret anything, one as a programming language, and it can use any existing programming language as structured for whatever you want to use it for. By virtue of that, I mean, I've used something called PDDL, which is a programming meta language maybe, or language for describing process in planning. And what's interesting about that is there's no judgment in planning, there's just process. And so it's really good for describing tasks or steps in an abstracted format where you, and so my big thing is what's important and what's not. You know, when you're tokenizing, you know, using tokens and a lot of shit, you know, you're paying for all kinds of extraneous bullshit. And so this PDDL thing allowed me to take these massive fucking scripts that are written in English, and then it'll abstract the hell out of them. And it gets very similar. Well, the structured output is the same. The timbre of the content, let's say, is different. But if I do the same script twice with the same content, it comes out very, very similar, meaning that it performs the same consistently, whereas the same natural pattern language prompt will not perform the same consistently.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u56
+  text: Because it's like, okay, great, Dave makes rational sense. How do you know? And so the proof is in the pudding. And so there's a whole, just like I've learned about prompting in terms of breaking it down, defining the tasks, having this reflection, like just the fact that you could say self reflect, you know, and then being very specific about it later, but just reflect on the fact that you've got an answer. Could the answer be better? And it goes, and it makes it better. If you tell it how to make it better, it makes it better along those lines. Just knowing that was a huge thing and then knowing that you can conform it to output fairly easily and that you can, you could apply symbol, you know, within it, within the symbolic language of English. You can apply another symbolic language of another programming language inside it, because it can interpret anything, one as a programming language, and it can use any existing programming language as structured for whatever you want to use it for. By virtue of that, I mean, I've used something called PDDL, which is a programming meta language maybe, or language for describing process in planning. And what's interesting about that is there's no judgment in planning, there's just process. And so it's really good for describing tasks or steps in an abstracted format where you, and so my big thing is what's important and what's not. You know, when you're tokenizing, you know, using tokens and a lot of shit, you know, you're paying for all kinds of extraneous bullshit. And so this PDDL thing allowed me to take these massive fucking scripts that are written in English, and then it'll abstract the hell out of them. And it gets very similar. Well, the structured output is the same. The timbre of the content, let's say, is different. But if I do the same script twice with the same content, it comes out very, very similar, meaning that it performs the same consistently, whereas the same natural pattern language prompt will not perform the same consistently.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  text: Because it's like, okay, great, Dave makes rational sense. How do you know? And so the proof is in the pudding. And so there's a whole, just like I've learned about prompting in terms of breaking it down, defining the tasks, having this reflection, like just the fact that you could say self reflect, you know, and then being very specific about it later, but just reflect on the fact that you've got an answer. Could the answer be better? And it goes, and it makes it better. If you tell it how to make it better, it makes it better along those lines. Just knowing that was a huge thing and then knowing that you can conform it to output fairly easily and that you can, you could apply symbol, you know, within it, within the symbolic language of English. You can apply another symbolic language of another programming language inside it, because it can interpret anything, one as a programming language, and it can use any existing programming language as structured for whatever you want to use it for. By virtue of that, I mean, I've used something called PDDL, which is a programming meta language maybe, or language for describing process in planning. And what's interesting about that is there's no judgment in planning, there's just process. And so it's really good for describing tasks or steps in an abstracted format where you, and so my big thing is what's important and what's not. You know, when you're tokenizing, you know, using tokens and a lot of shit, you know, you're paying for all kinds of extraneous bullshit. And so this PDDL thing allowed me to take these massive fucking scripts that are written in English, and then it'll abstract the hell out of them. And it gets very similar. Well, the structured output is the same. The timbre of the content, let's say, is different. But if I do the same script twice with the same content, it comes out very, very similar, meaning that it performs the same consistently, whereas the same natural pattern language prompt will not perform the same consistently. Oh, interesting. Yeah, so the, that step I was. Also understand why, why the two have divergence in that way. Yeah, well, it understand, it more readily understands the abstracted PDD, PDDL as, as steps and then it does a lot of. And so it, instead of having you walk down the road and you do these volunteers it says walk, road, question mark, couple of variables and then it can deal with every situation as, as the minimal set of words in an actionable like a vector. Like for a while I was just studying English I'm like maybe we just need verbs and because you can infer the object and the subject with just a question mark. Yeah it's interesting. It's very interesting to me because the big success that AI has had is in understanding our language. Right, but. Right, understanding languages. Understanding languages, yes. Right. But there still might be terrible advantage to having the right common language, so to speak for interacting with AI. Right? And so because this PD DL isn't even its internal language.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: Yeah, well, it understand, it more readily understands the abstracted PDD, PDDL as, as steps and then it does a lot of. And so it, instead of having you walk down the road and you do these volunteers it says walk, road, question mark, couple of variables and then it can deal with every situation as, as the minimal set of words in an actionable like a vector. Like for a while I was just studying English I'm like maybe we just need verbs and because you can infer the object and the subject with just a question mark. Yeah it's interesting. It's very interesting to me because the big success that AI has had is in understanding our language. Right, but. Right, understanding languages. Understanding languages, yes. Right. But there still might be terrible advantage to having the right common language, so to speak for interacting with AI. Right? And so because this PD DL isn't even its internal language. No, nothing is. Yeah, nothing is. That's right. That's right. And so, well so here's, how about this. I believe that I've uncovered I'm actively working with that and that maybe, maybe you're just helping me with this right now to voice that is that I've seriously had a serious moment where I was like metadata, metadata, like not just oh it's a metadata. I've known fucking using metadata for 20 years actively. No, it was a fundamental understanding of it. It's like the invisible layers are just wild, right? And so now we're getting to the point where people are just like the blockchain yet to be able to traverse them and have some visibility on them, right? Because that's where all the stuff's happening is the invisible layers that aren't in the language that we speak. And so what I'm coming to right now is that as minimal as I am, I'm integrally working with the minimal set of invisible layers that have impressive structural form for all languages and that is the comma in the tab because it gets used in fundamental ways and is the fundamental relationship in spreadsheets that drives so much of our reasoning. So there's in, you know, JSON the same thing. Like it just, you want to consume a transcript, better give it to JSON, man. Just give it to JSON.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  text: And so, well so here's, how about this. I believe that I've uncovered I'm actively working with that and that maybe, maybe you're just helping me with this right now to voice that is that I've seriously had a serious moment where I was like metadata, metadata, like not just oh it's a metadata. I've known fucking using metadata for 20 years actively. No, it was a fundamental understanding of it. It's like the invisible layers are just wild, right? And so now we're getting to the point where people are just like the blockchain yet to be able to traverse them and have some visibility on them, right? Because that's where all the stuff's happening is the invisible layers that aren't in the language that we speak. And so what I'm coming to right now is that as minimal as I am, I'm integrally working with the minimal set of invisible layers that have impressive structural form for all languages and that is the comma in the tab because it gets used in fundamental ways and is the fundamental relationship in spreadsheets that drives so much of our reasoning. So there's in, you know, JSON the same thing. Like it just, you want to consume a transcript, better give it to JSON, man. Just give it to JSON. Right. Because then it's in a format that it will just jump up and down all over it, right? Highly structured, exact but flexible. Right. The thing about JSON is it's flexible in the sense that you know what the data elements are can expand and contract. Right? And so that's the same thing here. And there's no formulas going on but you could add them. But what it's doing is it's inferring, because I'm working at the natural pattern language and saying that it has some, this format has some of that invisible integrity. But what I do is easy to go from a spreadsheet to chase on. This is one of the most transportable formats ever, and it's human readable. Spreadsheets are human readable and JSON is infinitely machine readable. Right? Like that's, that's, that's, that's. And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u72
+  - u73
+  - u74
+  text: This is one of the most transportable formats ever, and it's human readable. Spreadsheets are human readable and JSON is infinitely machine readable. Right? Like that's, that's, that's, that's. And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u74
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u74
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u74
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u74
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u74
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  text: And as a system, it affords everything in terms of a system. It affords a relational database, and it affords, you know, with min, like, because of the LLM on being able to plop it into the LLM. Like the programming language around it is almost nil because like, considering you would use hundreds of thousands of lines of code to produce a, you know, fully functioning application right here, the, like in this one, this is being, this, this. No programming in here, let's say, other than the fact that there's some significant programming in terms of understanding the difference between relationships between them. And here you've got a meta agent that will have, you know, minimum. Like that could be its programming, right? And then it can be like, here's these guys, and it could just be, here's your agents. That could be its programming. It could be very minimal, and it could be. The instruction set is like, read the scenario, which is one line here, and it's just like, launch a product for whatever the product looks like over here, and send that to the meta agent. And so you can have just 100 lines of code inside the spreadsheet itself. So my first job was making macro Lotus 123 B an application. So it's the same thing, but we rely on the fact that we can. Then once we're in the LLM, we can push it around and do what James did at the end of it, just like give me a prompt so I can do this without all the work. So this is kind of where, where I was at the other day. And what I've been able to recognize is that almost everything I'm doing, there's that data set of, we have some data, either we infer it or we don't. We have some sort of actors and entities in the space. And there's a scenario, and we can define the scenario. And, you know, we're pretty good at doing this level kind of inference on things like off the top of our head. And then we can just use the LLM. Okay, help me fill it out a little bit, and then you can define a strategy. Like, I have my own thing. I want to just. I want to work on this, like, give myself one afternoon where I just break this notion of what I think this. The value of this is as an experience, to break it out. But just saying that these are the. If you add those things together in a config file, this part, this part, and then you say, analyze it comes out with stuff, man. It's. It's pretty neat. And that would be super thin information, right? So. But say I have you in one other person for a week. We just build this out in python, and it becomes, this is the entity, this is the relational entities, and they just kind of bang together. And we can do this outside the LLM, almost all of it, or we just make simple, simple calls and populate data. But it's so close, man. So what I do inside the simulations and the workflows that I do, I then bring it out, and I'm like, okay, so what does it work? What does it look like fully blown out, because it's not that much more work. So when we look at this stuff for, you know, in QC You don't even use. Well, I don't optimize for production where I can because I'm still working at the nuanced level of trying to get certain types of what I call through. In a way, if you're optimizing for production, it's more static than you want it, isn't it? It's not what I call 360. Once I symbolize it into PDDL, it's garbage, right? I can see it there, I can read it and I can change a little bit of it, but I'm like, I can't optimize that. And so just the efficiency isn't there and so the predictability isn't there. But that a lot of the time right now, I'm not working at that, right. I have highly efficient agents, and we'll be, especially in the narrow view that we'll be deploying them for this project, they'll work excessively well, especially with this symbolizing. But when they're working in a space that is generalized like product and there's a whole broad spectrum of what it means to market. Now I have the metadata layer of those roles, those tasks, the ways of grading them, the KPI's, the types of reports, the outlines for the report. Like, it's like it's extensive. And that that's what the value of working, you know, that I can provide as work. Sonos, too, is like nothing. Like we capture that as this metadata that has integrity unto itself. So it's, it's, it's like, what is it? Yeah, it is. It's just like, it is the formative metadata structures around all product, right? And all of the actors involved with product. Maybe that's it. It's like every entity and actor described as interoperable actions with results.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u78
+  - u79
+  text: It's not what I call 360. Once I symbolize it into PDDL, it's garbage, right? I can see it there, I can read it and I can change a little bit of it, but I'm like, I can't optimize that. And so just the efficiency isn't there and so the predictability isn't there. But that a lot of the time right now, I'm not working at that, right. I have highly efficient agents, and we'll be, especially in the narrow view that we'll be deploying them for this project, they'll work excessively well, especially with this symbolizing. But when they're working in a space that is generalized like product and there's a whole broad spectrum of what it means to market. Now I have the metadata layer of those roles, those tasks, the ways of grading them, the KPI's, the types of reports, the outlines for the report. Like, it's like it's extensive. And that that's what the value of working, you know, that I can provide as work. Sonos, too, is like nothing. Like we capture that as this metadata that has integrity unto itself. So it's, it's, it's like, what is it? Yeah, it is. It's just like, it is the formative metadata structures around all product, right? And all of the actors involved with product. Maybe that's it. It's like every entity and actor described as interoperable actions with results. That sounds wrong. Anyways, it's easier to break it down than it is to describe it all as one thing. And breaking it down is the point of it having a great deal of value. And then being able to see which ones of these make some sense based on what kind of reports might be needed is why it's kind of broken up like this. I get to the point where it can provide following through on the notion of Persona based prompting. You're like, what do you require if you're going to build this report? It's like, oh, I need these things. Okay, yeah, I know you do, but do you know you do? And so, like, well, now I got it documented. At the end of the day, that's what I have. It's like, yeah, now I got to document it. It doesn't matter what anything believes anymore. I have it documented in a metadata structure. It is both formative in terms of providing the value descriptively, but also then saying actionably what to do with that description. So it's directive. And that's the end goal of these. Each of these lines is for them to be directive. And once we have directive language, we have functional language, and KPI seem to be. So there's certain things that have incredible, what I call compression in LLMs, and they are like parts of our language. The word KPI is one of them. And the other word is strategy. Because they roll, the intention is that things roll up into them. And because things roll up into them means that they decompress into a whole lot of different tangible things as a result of that KPI being measurable and then not only measurable, but directional. So I started putting KPI's in. I'm like, no, you capture the KPI, you almost be able to get rid of the tasks, right? You got objectives and KPI's and you might not, they might be able to get rid of the team, you know, like get rid of reports, right? Because you can just say, well, I need this report to meet this KPI. Because in strategy, criteria are ultimately necessary, at least in my view, and because I can say that they're necessary. It's the one that taught me that it's functionally useful. And then to get things done, you need to do tasks, right, to meet the criteria and all the other things. And then you need to be able to measure your work. So that structure itself is super powerful. And it captures, like, if you capture a word like a strategy and a phrase, it unrolls all the way down to what kind of emails need to be sent or if emails need to be sent, if, you know, and it, what it, you know, I'll rephrase that. Maybe it affords what can happen at that level, right. It's the, it's the permutation coming. It's the permutations on it. And then once you have a well defined strategy, it's just the combinations. And once you have the, once you have the right strategy, it's one combination.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u78
+  - u79
+  text: It's not what I call 360. Once I symbolize it into PDDL, it's garbage, right? I can see it there, I can read it and I can change a little bit of it, but I'm like, I can't optimize that. And so just the efficiency isn't there and so the predictability isn't there. But that a lot of the time right now, I'm not working at that, right. I have highly efficient agents, and we'll be, especially in the narrow view that we'll be deploying them for this project, they'll work excessively well, especially with this symbolizing. But when they're working in a space that is generalized like product and there's a whole broad spectrum of what it means to market. Now I have the metadata layer of those roles, those tasks, the ways of grading them, the KPI's, the types of reports, the outlines for the report. Like, it's like it's extensive. And that that's what the value of working, you know, that I can provide as work. Sonos, too, is like nothing. Like we capture that as this metadata that has integrity unto itself. So it's, it's, it's like, what is it? Yeah, it is. It's just like, it is the formative metadata structures around all product, right? And all of the actors involved with product. Maybe that's it. It's like every entity and actor described as interoperable actions with results. That sounds wrong. Anyways, it's easier to break it down than it is to describe it all as one thing. And breaking it down is the point of it having a great deal of value. And then being able to see which ones of these make some sense based on what kind of reports might be needed is why it's kind of broken up like this. I get to the point where it can provide following through on the notion of Persona based prompting. You're like, what do you require if you're going to build this report? It's like, oh, I need these things. Okay, yeah, I know you do, but do you know you do? And so, like, well, now I got it documented. At the end of the day, that's what I have. It's like, yeah, now I got to document it. It doesn't matter what anything believes anymore. I have it documented in a metadata structure. It is both formative in terms of providing the value descriptively, but also then saying actionably what to do with that description. So it's directive. And that's the end goal of these. Each of these lines is for them to be directive. And once we have directive language, we have functional language, and KPI seem to be. So there's certain things that have incredible, what I call compression in LLMs, and they are like parts of our language. The word KPI is one of them. And the other word is strategy. Because they roll, the intention is that things roll up into them. And because things roll up into them means that they decompress into a whole lot of different tangible things as a result of that KPI being measurable and then not only measurable, but directional. So I started putting KPI's in. I'm like, no, you capture the KPI, you almost be able to get rid of the tasks, right? You got objectives and KPI's and you might not, they might be able to get rid of the team, you know, like get rid of reports, right? Because you can just say, well, I need this report to meet this KPI. Because in strategy, criteria are ultimately necessary, at least in my view, and because I can say that they're necessary. It's the one that taught me that it's functionally useful. And then to get things done, you need to do tasks, right, to meet the criteria and all the other things. And then you need to be able to measure your work. So that structure itself is super powerful. And it captures, like, if you capture a word like a strategy and a phrase, it unrolls all the way down to what kind of emails need to be sent or if emails need to be sent, if, you know, and it, what it, you know, I'll rephrase that. Maybe it affords what can happen at that level, right. It's the, it's the permutation coming. It's the permutations on it. And then once you have a well defined strategy, it's just the combinations. And once you have the, once you have the right strategy, it's one combination.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  text: That sounds wrong. Anyways, it's easier to break it down than it is to describe it all as one thing. And breaking it down is the point of it having a great deal of value. And then being able to see which ones of these make some sense based on what kind of reports might be needed is why it's kind of broken up like this. I get to the point where it can provide following through on the notion of Persona based prompting. You're like, what do you require if you're going to build this report? It's like, oh, I need these things. Okay, yeah, I know you do, but do you know you do? And so, like, well, now I got it documented. At the end of the day, that's what I have. It's like, yeah, now I got to document it. It doesn't matter what anything believes anymore. I have it documented in a metadata structure. It is both formative in terms of providing the value descriptively, but also then saying actionably what to do with that description. So it's directive. And that's the end goal of these. Each of these lines is for them to be directive. And once we have directive language, we have functional language, and KPI seem to be. So there's certain things that have incredible, what I call compression in LLMs, and they are like parts of our language. The word KPI is one of them. And the other word is strategy. Because they roll, the intention is that things roll up into them. And because things roll up into them means that they decompress into a whole lot of different tangible things as a result of that KPI being measurable and then not only measurable, but directional. So I started putting KPI's in. I'm like, no, you capture the KPI, you almost be able to get rid of the tasks, right? You got objectives and KPI's and you might not, they might be able to get rid of the team, you know, like get rid of reports, right? Because you can just say, well, I need this report to meet this KPI. Because in strategy, criteria are ultimately necessary, at least in my view, and because I can say that they're necessary. It's the one that taught me that it's functionally useful. And then to get things done, you need to do tasks, right, to meet the criteria and all the other things. And then you need to be able to measure your work. So that structure itself is super powerful. And it captures, like, if you capture a word like a strategy and a phrase, it unrolls all the way down to what kind of emails need to be sent or if emails need to be sent, if, you know, and it, what it, you know, I'll rephrase that. Maybe it affords what can happen at that level, right. It's the, it's the permutation coming. It's the permutations on it. And then once you have a well defined strategy, it's just the combinations. And once you have the, once you have the right strategy, it's one combination. Right. And so that was an interesting recognition for me too, is that that's the difference between, you know, one side of the coin, the other is that AI does the permutations incredibly well. But what we are good at, what we need we can help with, is the pathfinding to that one determination. You know, we can, we can path find ourselves forever and we know what that looks like.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: That sounds wrong. Anyways, it's easier to break it down than it is to describe it all as one thing. And breaking it down is the point of it having a great deal of value. And then being able to see which ones of these make some sense based on what kind of reports might be needed is why it's kind of broken up like this. I get to the point where it can provide following through on the notion of Persona based prompting. You're like, what do you require if you're going to build this report? It's like, oh, I need these things. Okay, yeah, I know you do, but do you know you do? And so, like, well, now I got it documented. At the end of the day, that's what I have. It's like, yeah, now I got to document it. It doesn't matter what anything believes anymore. I have it documented in a metadata structure. It is both formative in terms of providing the value descriptively, but also then saying actionably what to do with that description. So it's directive. And that's the end goal of these. Each of these lines is for them to be directive. And once we have directive language, we have functional language, and KPI seem to be. So there's certain things that have incredible, what I call compression in LLMs, and they are like parts of our language. The word KPI is one of them. And the other word is strategy. Because they roll, the intention is that things roll up into them. And because things roll up into them means that they decompress into a whole lot of different tangible things as a result of that KPI being measurable and then not only measurable, but directional. So I started putting KPI's in. I'm like, no, you capture the KPI, you almost be able to get rid of the tasks, right? You got objectives and KPI's and you might not, they might be able to get rid of the team, you know, like get rid of reports, right? Because you can just say, well, I need this report to meet this KPI. Because in strategy, criteria are ultimately necessary, at least in my view, and because I can say that they're necessary. It's the one that taught me that it's functionally useful. And then to get things done, you need to do tasks, right, to meet the criteria and all the other things. And then you need to be able to measure your work. So that structure itself is super powerful. And it captures, like, if you capture a word like a strategy and a phrase, it unrolls all the way down to what kind of emails need to be sent or if emails need to be sent, if, you know, and it, what it, you know, I'll rephrase that. Maybe it affords what can happen at that level, right. It's the, it's the permutation coming. It's the permutations on it. And then once you have a well defined strategy, it's just the combinations. And once you have the, once you have the right strategy, it's one combination. Right. And so that was an interesting recognition for me too, is that that's the difference between, you know, one side of the coin, the other is that AI does the permutations incredibly well. But what we are good at, what we need we can help with, is the pathfinding to that one determination. You know, we can, we can path find ourselves forever and we know what that looks like. It's essentially human reflection on correctness, isn't it? Yes. Yeah, yeah, yeah. And so we can do that. We can't. Like, the neat thing about the spreadsheet and curves are just the best distillation of any spreadsheet, you know, mostly is that we can identify quickly by, you know, a lot more information. We can browse, like, or not, we can interpret. But I can say a lot more information all at once. And like, oh, I think I understand what this means, or that doesn't, look, why is that? There you know, that's, those are the common responses when people see a spreadsheet that if they're a professional in space, they'll either say, that looks okay or this is wrong. Right. And that's an incredible thing. Right. There's something there to that framing of information and the way that it presents itself. And so there's value. Like the readability has value. The fact that it has, I don't know, it gets at most of what you would describe as the functional workflow, assets and or workflows. It builds on top of the meta idea and on top of the fact that this could pop into anything as a structure, probably.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  text: Yes. Yeah, yeah, yeah. And so we can do that. We can't. Like, the neat thing about the spreadsheet and curves are just the best distillation of any spreadsheet, you know, mostly is that we can identify quickly by, you know, a lot more information. We can browse, like, or not, we can interpret. But I can say a lot more information all at once. And like, oh, I think I understand what this means, or that doesn't, look, why is that? There you know, that's, those are the common responses when people see a spreadsheet that if they're a professional in space, they'll either say, that looks okay or this is wrong. Right. And that's an incredible thing. Right. There's something there to that framing of information and the way that it presents itself. And so there's value. Like the readability has value. The fact that it has, I don't know, it gets at most of what you would describe as the functional workflow, assets and or workflows. It builds on top of the meta idea and on top of the fact that this could pop into anything as a structure, probably. Okay. So I don't know what that was. That was, I wanted to show both sides of this and say, this is almost ready for me to then bring into the prompting environment and then to say, to show some results on. And once that's the case, then this is the kind of pattern that I want to be able to work with us internally. That's why I want to present. When the prompting is ready to show some results, it'll be ready at a particular stage in a particular evolution to show some results on specific outputs on specific targets. What it's doing right now is a bunch of banal stuff, and I believe. How about comment? It's. Yeah, banal is not the right word, is it? What is the right word? It's predictable. And the reason that it is chosen because it's accessible and it's predictable is that the results will be predictable. And what I could use more appropriately is that the results will be banal because they will be drawing on probably, unless I have a corpus, which I'm testing it on, it'll be, the results will be very non like. It won't be stellar because they don't have the examples beforehand and afterwards. But where this, if this works and it just pumps out results and it pumps out a variety of results and it continuously does that, then it shows me that these are the right, this is the right strategy for presenting this kind of thing, and it's just the ingredients. And so my thing with turning things into a strategy and then saying you can grade it and then come back and redo it, that has played out incredibly well. Whether the strategy in there is right, that has been my problem or that has been my question is like, I don't believe I have the right strategies for editing the copy properly. The right direction, meaning here's some of the best examples of our good work with our tone and our style to push through it, I just say, be more concise, be better organized, be this or that. And I looked at, I look at them, and they're, you know, good style sheet style guides that it comes from, but they're, they are banal, you know what I mean? And if you get into branding or you get into any specific technical language that is supposed to shine through, and that is one of the challenges that I'm still trying to solve with this. And, but if this works systematically, the content right now is super generalized. And that's another one of the patterns that I guess I'll finish on is like, have this notion of zero knowledge strategy, of coming into any situation, be able to figure it all out. It is a deceit in that there is always a strategy and there is always knowledge, and it is of a generalized nature, in generalized patterns, but they are common, and there are ways to work into a problem from not understanding anything. And this stuff, um, losing my thought.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  text: What it's doing right now is a bunch of banal stuff, and I believe. How about comment? It's. Yeah, banal is not the right word, is it? What is the right word? It's predictable. And the reason that it is chosen because it's accessible and it's predictable is that the results will be predictable. And what I could use more appropriately is that the results will be banal because they will be drawing on probably, unless I have a corpus, which I'm testing it on, it'll be, the results will be very non like. It won't be stellar because they don't have the examples beforehand and afterwards. But where this, if this works and it just pumps out results and it pumps out a variety of results and it continuously does that, then it shows me that these are the right, this is the right strategy for presenting this kind of thing, and it's just the ingredients. And so my thing with turning things into a strategy and then saying you can grade it and then come back and redo it, that has played out incredibly well. Whether the strategy in there is right, that has been my problem or that has been my question is like, I don't believe I have the right strategies for editing the copy properly. The right direction, meaning here's some of the best examples of our good work with our tone and our style to push through it, I just say, be more concise, be better organized, be this or that. And I looked at, I look at them, and they're, you know, good style sheet style guides that it comes from, but they're, they are banal, you know what I mean? And if you get into branding or you get into any specific technical language that is supposed to shine through, and that is one of the challenges that I'm still trying to solve with this. And, but if this works systematically, the content right now is super generalized. And that's another one of the patterns that I guess I'll finish on is like, have this notion of zero knowledge strategy, of coming into any situation, be able to figure it all out. It is a deceit in that there is always a strategy and there is always knowledge, and it is of a generalized nature, in generalized patterns, but they are common, and there are ways to work into a problem from not understanding anything. And this stuff, um, losing my thought.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  text: It's predictable. And the reason that it is chosen because it's accessible and it's predictable is that the results will be predictable. And what I could use more appropriately is that the results will be banal because they will be drawing on probably, unless I have a corpus, which I'm testing it on, it'll be, the results will be very non like. It won't be stellar because they don't have the examples beforehand and afterwards. But where this, if this works and it just pumps out results and it pumps out a variety of results and it continuously does that, then it shows me that these are the right, this is the right strategy for presenting this kind of thing, and it's just the ingredients. And so my thing with turning things into a strategy and then saying you can grade it and then come back and redo it, that has played out incredibly well. Whether the strategy in there is right, that has been my problem or that has been my question is like, I don't believe I have the right strategies for editing the copy properly. The right direction, meaning here's some of the best examples of our good work with our tone and our style to push through it, I just say, be more concise, be better organized, be this or that. And I looked at, I look at them, and they're, you know, good style sheet style guides that it comes from, but they're, they are banal, you know what I mean? And if you get into branding or you get into any specific technical language that is supposed to shine through, and that is one of the challenges that I'm still trying to solve with this. And, but if this works systematically, the content right now is super generalized. And that's another one of the patterns that I guess I'll finish on is like, have this notion of zero knowledge strategy, of coming into any situation, be able to figure it all out. It is a deceit in that there is always a strategy and there is always knowledge, and it is of a generalized nature, in generalized patterns, but they are common, and there are ways to work into a problem from not understanding anything. And this stuff, um, losing my thought. Now. The value of this right here is intermediary somewhere between nonspecific understanding of a generalized pattern and generalized response to the structure itself works. The content is kind of. But not the best. Yeah. If you have better content, then it will then temper the rigor of the structure. And so that's where with more content. Being the data about the specific, not just the data, but the specific case. The focus of it. The focus. Thank you. Focus is exactly the right word. Focus is the right word. And to that word, I've been using that word. It's very powerful. And I can say, and I can say, focus on this, refocus the table on this. Interesting. And it does, and it does really neat things, and I'm not giving the best. I wish we knew what was going on inside. Right. These are the inferences that I can one, you intuit them, then you play with them, and then, you know, you get some directionality against them. And that's what I'm doing right now with this spreadsheets. And I mean, like, it's not a big deal to say, oh, okay, the spreadsheets are cool, but because they're performing in this way, that is ambiguous but beneficial.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  text: The focus. Thank you. Focus is exactly the right word. Focus is the right word. And to that word, I've been using that word. It's very powerful. And I can say, and I can say, focus on this, refocus the table on this. Interesting. And it does, and it does really neat things, and I'm not giving the best. I wish we knew what was going on inside. Right. These are the inferences that I can one, you intuit them, then you play with them, and then, you know, you get some directionality against them. And that's what I'm doing right now with this spreadsheets. And I mean, like, it's not a big deal to say, oh, okay, the spreadsheets are cool, but because they're performing in this way, that is ambiguous but beneficial. Right. It's like, okay, there's still value to the spreadsheet, no matter what, because I give these to, you know, whoever's going to be our developers, and they're just like, yeah, I'll just put it in a database. I'm like, yes, you will. There's like a very metal, logical conversation about the power of the magic word. I. Whether it's in the word or in its meaning. Right? Oh, wow. That's. That's what I found in this LLM stuff is, like, just, again, important. Like that. What is important? And I get. I will get stuck on a word and like a blake. Oh, man. When I've discovered how powerful the word ablate is just as a concept, I embodied it for quite a while in this work. What work? Ablate. Ablate. And it's the act of. It's, again, pulling away with some not important. Yeah. Like, as in ablative materials that fall away or. Yeah, yeah. But there's a process to it in. In the machine learning space. And also, I was like, wow, okay, I've got all this. When my first success was something that just. I filled the context window until it wouldn't have anymore. I'm like, it's gonna do something. And then I'm like, what? Useful? I'm like, I don't know.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  text: Ablate. Ablate. And it's the act of. It's, again, pulling away with some not important. Yeah. Like, as in ablative materials that fall away or. Yeah, yeah. But there's a process to it in. In the machine learning space. And also, I was like, wow, okay, I've got all this. When my first success was something that just. I filled the context window until it wouldn't have anymore. I'm like, it's gonna do something. And then I'm like, what? Useful? I'm like, I don't know. There's a lot of hallucinations, a lot of bad results, whether they're visual or literal. Right. They. They seem to come when it focuses on exactly the wrong thing. Right. Well, yeah, excitement. Like, for example, you know, I say something like. Or focus on it in the wrong way more than right. So, for example, it's easy to talk about an image thing. I'll say something like, create me a vector art logo with the text, blah, blah, blah, blah, blah, blah, blah. And then it puts word vector art in the image. Do you know what I mean? Yeah, yeah. And you're like, oh, I did pay attention to that, but not in that way. Right. And, like, there's this process of, like, peeling away. Yeah, yeah. After you've inferred the meaning. Peeling away, something's important. Right? Like, yeah. Like, like, like, take that as direction, but then don't over focus. Focus. There comes that word, focus. Don't over focus or refocus. Right. You know what I find about these image systems as opposed to the chats? The chat systems are very good at being iterative and contextual. Right? You can say they're way better. Like, you can say, write me a poem, and then you can say, we'll change this poem in the slight way, and it does the image stuff. It's horrible at that. Horrible, right. You get a whole new image. Right?
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  text: After you've inferred the meaning. Peeling away, something's important. Right? Like, yeah. Like, like, like, take that as direction, but then don't over focus. Focus. There comes that word, focus. Don't over focus or refocus. Right. You know what I find about these image systems as opposed to the chats? The chat systems are very good at being iterative and contextual. Right? You can say they're way better. Like, you can say, write me a poem, and then you can say, we'll change this poem in the slight way, and it does the image stuff. It's horrible at that. Horrible, right. You get a whole new image. Right? Yeah, no, yeah, it's not like it, like, oh, it iterated completely. Yeah, it's. It's. It's. It's. I think it changed. I got rid of. Oh, my God. Yeah. Sometimes it's just ridiculous. But the word of Blake was like, yeah, it was like, that thing is like, okay, now I know I said too much. What do I take away? Well, it was neat. Uncovering a lot of things all at once was like, I just decided to apply it as a function. I just described it as a function, and I said, ablate this agent, and it minimized the goddamn agent. Oh, really? Yeah. And that was what it's intended to do. And so. And it didn't perform as well. But what it told me was like, oh, it just. It inferred the meaning of. And then it just said, well, I guess based on what I understand of that meaning, is like, I better do that to this thing. And so that's the greater pool of the, you know, of the LLM. And if you get more descriptive around what a blade is, then it will do that kind of ablating. Right? It'll say, okay, get rid of all the of's and the articles and all the other things. Or if you use PdDl, it's a really interesting kind of ablation. Hello? Karen?
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3399.4
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  text: Yeah. And that was what it's intended to do. And so. And it didn't perform as well. But what it told me was like, oh, it just. It inferred the meaning of. And then it just said, well, I guess based on what I understand of that meaning, is like, I better do that to this thing. And so that's the greater pool of the, you know, of the LLM. And if you get more descriptive around what a blade is, then it will do that kind of ablating. Right? It'll say, okay, get rid of all the of's and the articles and all the other things. Or if you use PdDl, it's a really interesting kind of ablation. Hello? Karen? Good morning, Karen. She can't hear you because I've got my headphones on. Uh. I could change that. It's okay. I need it. Bye, Folvia. I'm going for a walk. I'll talk to you. Okay. Enjoy your walk. Oh, enjoy your walk. You can hear that? Thank you. Thank you. So, um, tomorrow, let's go off AI for a moment. Right. Let's chat about other things. Hold on. Do we want this recorded? No, you can turn off the recording. Let's see.

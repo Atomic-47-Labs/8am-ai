@@ -1,0 +1,28 @@
+id: IDEA-0383
+slug: cascading-context-strategy
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-07-02'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Introduction of 'Cascading Context' concept - hierarchical context management system similar to CSS Fulvio's .client rules structure in Klein - uses Custom Instructions.md in .client directory Progress documentation challenges - distinguishing between personal and project progress tracking Need for convention-based system that normalizes context across different development environments Context as the biggest issue in compute for 20+ years, now becoming addressable through AI tools
+summary: Cascading Context Strategy
+rationale: Introduction of 'Cascading Context' concept - hierarchical context management system similar to CSS Fulvio's .client rules structure in Klein - uses Custom Instructions.md in .client directory Progress documentation challenges - distinguishing between personal and project progress tracking Need for convention-based system that normalizes context across different development environments Context as
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 52.1
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 0.3
+  concretion: 3.0
+  uniqueness: 15
+  carryover: 0
+rank: 401
+tier: backlog

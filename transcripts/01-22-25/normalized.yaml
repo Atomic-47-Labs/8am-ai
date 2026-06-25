@@ -1,0 +1,928 @@
+meeting:
+  date: '2025-01-22'
+  title: 8am-AI 2025-01-22
+  participants:
+  - David Olsson
+  - Unknown
+  - Hanif Janmohamed
+  - Eric Johnson
+  - James Giroday
+  duration_s: 2791.9
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 0.24
+  t_end: 256.04
+  text: Sa, sa sa sa sa sa sa sa sa.
+- id: u2
+  speaker: Unknown
+  t_start: 306.28
+  t_end: 307.02
+  text: It.
+- id: u3
+  speaker: Unknown
+  t_start: 331.81
+  t_end: 332.55
+  text: It.
+- id: u4
+  speaker: Unknown
+  t_start: 357.34
+  t_end: 358.08
+  text: It.
+- id: u5
+  speaker: David Olsson
+  t_start: 423.92
+  t_end: 426.42
+  text: Dude. Good morning.
+- id: u6
+  speaker: Hanif Janmohamed
+  t_start: 427.36
+  t_end: 428.5
+  text: How are you doing?
+- id: u7
+  speaker: David Olsson
+  t_start: 429.36
+  t_end: 432.62
+  text: I'm doing okay. I'm just getting going though. I don't have anything organized.
+- id: u8
+  speaker: Hanif Janmohamed
+  t_start: 435.22
+  t_end: 437.4
+  text: No time like the present to get going.
+- id: u9
+  speaker: David Olsson
+  t_start: 438.34
+  t_end: 439.6
+  text: How are you feeling?
+- id: u10
+  speaker: Hanif Janmohamed
+  t_start: 440.42
+  t_end: 447.92
+  text: Man, it totally knocked me out. I'm just starting to come around slowly.
+- id: u11
+  speaker: David Olsson
+  t_start: 448.98
+  t_end: 452.86
+  text: Oh, you still have a pretty deep voice. Yeah, I know.
+- id: u12
+  speaker: Hanif Janmohamed
+  t_start: 452.9
+  t_end: 454.84
+  text: I'm still in the thick of it.
+- id: u13
+  speaker: Hanif Janmohamed
+  t_start: 461.47
+  t_end: 462.49
+  text: Hey, Eric.
+- id: u14
+  speaker: Eric Johnson
+  t_start: 470.99
+  t_end: 472.822
+  text: Hello. Can you hear me?
+- id: u15
+  speaker: David Olsson
+  t_start: 473.006
+  t_end: 477.69
+  text: Yeah. Okay. Hello? Hello.
+- id: u16
+  speaker: Eric Johnson
+  t_start: 478.19
+  t_end: 482.89
+  text: Hello. How's Cowtown?
+- id: u17
+  speaker: Eric Johnson
+  t_start: 488.12
+  t_end: 490.82
+  text: And being raised in a place called Cowtown.
+- id: u18
+  speaker: Hanif Janmohamed
+  t_start: 492.52
+  t_end: 494.86
+  text: I'm sure people love me, love that.
+- id: u19
+  speaker: David Olsson
+  t_start: 496.84
+  t_end: 534.55
+  text: I don't know, I still call it Cowtown. It's interesting. So it's been 10 years since I've been here to do business or that kind of thing. And we became members of something called Platform Calgary, which. Which is like Accelerate Okanagan. It's an accelerator kind of environment. They got a great building, great facilities. It's right two blocks away from. So it's kind of neat to see the community as the tech community has grown up a bit. But it's still cold and windy. A chin up came through and so there's big winds, a common thing.
+- id: u20
+  speaker: Eric Johnson
+  t_start: 536.78
+  t_end: 538.08
+  text: Sorry, go ahead.
+- id: u21
+  speaker: Hanif Janmohamed
+  t_start: 538.38
+  t_end: 542.04
+  text: No, I was just saying probably flying cows. Yeah, flying cows.
+- id: u22
+  speaker: David Olsson
+  t_start: 543.9
+  t_end: 544.68
+  text: Sorry.
+- id: u23
+  speaker: Eric Johnson
+  t_start: 545.1
+  t_end: 546.324
+  text: Flying cows.
+- id: u24
+  speaker: David Olsson
+  t_start: 546.452
+  t_end: 550.4
+  text: Flying cows. Well, look to this switch here.
+- id: u25
+  speaker: David Olsson
+  t_start: 557.1
+  t_end: 675.16
+  text: Fairly smooth. Yeah. So we're meeting with people that we've not met that are part of our team, both for Atomic 47 and then also for the. We call AIM QC. So it's the quality control project here in Alberta. So met as a team for the first time and we'll do that quarterly and I'll be coming back here fairly often, see how things are going. But while I was here, I made a tool because I'm that kind of person and like this will probably have some value for us eventually. But OpenAI came up with tasks as a feature so you can schedule things and that has a lot of value. Right. So like being able to schedule yourself things that happen and recurring events. And so I, I created something while I'm sitting in meetings and. And it was, it was interesting to see like the features that the companies are building. They're using their tools to build them. That's where I got to. Because I described the feature that I wanted, which is build the task and enable, you know, there's only a few things you need to do is like name it, describe it, or instructions, and then recurring or whatever. It designed exactly the same interface until I add one more feature exactly the same interface as OpenAI. I didn't give it a screenshot, I didn't give it anything. And so I was discussing that this morning. Like, they use their own tools, they didn't even code their own features, man. They just relied on the deep patterns inside the machine. And I did too. That's all I'm doing is like, I know that I can tweak these patterns and make it happen. And in this case it was kind of neat. I might be able to show it it is super fragile, but it was no, it's going to crash my machine.
+- id: u26
+  speaker: James Giroday
+  t_start: 676.78
+  t_end: 677.284
+  text: Yeah.
+- id: u27
+  speaker: David Olsson
+  t_start: 677.332
+  t_end: 764.4
+  text: So I'm looking at that and also building with the notion of maybe some other projects might want to have things like tasks or, you know, they might need to do things in the future or maybe they want to set something up in the future. And so. Good morning, James. Just describing a thing that I built over the last few days of being here in Calgary while spending a lot of time focusing on our team. But also the AI programming happens in the background because it tick a tick a ticket compile and it just spends two or three minutes and then it presents something. But I guess what I'm getting is I'm starting to clone all the features of, of the current big players because their features are really simple. They don't take a lot of work, which to me says they're not working on that side at all. They're not working on the user experience side at all. They're working on the intelligence side. And then, you know, adding things in that will have tasks will build into AI managing your calendar. Right. That's the Runway to it. So like I can set a task and a timer. I'll try to get it running. Oh yeah, there it is.
+- id: u28
+  speaker: Eric Johnson
+  t_start: 772.15
+  t_end: 775.694
+  text: And so what, to what extent? Like what sort of tasks, David?
+- id: u29
+  speaker: David Olsson
+  t_start: 775.742
+  t_end: 786.25
+  text: Like, well, that's a good question. So I was like, okay, what task does OpenAI do that you need a large language model for? I'm like, well, I don't know.
+- id: u30
+  speaker: David Olsson
+  t_start: 804.18
+  t_end: 905.752
+  text: But I just initially hooked up the OpenAI and then I allowed you to say add an instruction and I'll go to the demo here. Hopefully it'll work without crapping out. Here you can see I have some tasks running. I have a search running for provide me a summary of Trump's executive orders. And then I have another one for give me the latest news items on Canadian election. And then I guess I had this one. What are some data debatable points of discussion in the media about the truth value of information about. So you can set two different kinds of tasks right now, it's not working anyway. One of them right here, it uses SERP to do web search. Then this one right here, it uses the LLM to do work within it. Say, give me 20 prime numbers, what I've been able to do. And unfortunately it's not working right now. My thing is that it allowed me to extend the functionality to say, maybe I need to know something more timely. Use the web search to be able to search the news and then bring that back. And then my pattern is I will send that up to the large language model to provide a summary. And what I noticed that OpenAI does is they're just sending stuff in the email, man. You set a task, it knows your email, it sends you an alert based on the task. So my inbox is inundated with crap. So they really have not thought much about that. But what is interesting is that we're moving into the space of, okay, it's not predictive, but it is the future. So.
+- id: u31
+  speaker: Eric Johnson
+  t_start: 905.936
+  t_end: 909.38
+  text: So where would you surface that normally then? Not email.
+- id: u32
+  speaker: David Olsson
+  t_start: 909.92
+  t_end: 1040.13
+  text: So that's a good question. So what I've done is I've built a browser application that will surface desktop notifications and say there's a. There's an event that happened right now. Here's the news, Click it, and it'll take you to the web page, and the web page will show you the latest search. And so I built, because my pattern right now is building in the browser and building apps in the browser, I've enabled it to work for an individual to set their own. Say you could just set a timer, just alert me at this hour, and it will alert you. Or you could say, search the web for new large language models. That's pretty lame, but it will come back with that either every minute, every 15 minutes, or every half an hour, or at a certain date at a certain time, it all goes into a database in the browser, and then you can search it for later. So it's kind of like the work zone of miners, where you could have a query and you. You wanted to measure. A good one would be Twitter or a news API where things change over time. And you want to measure that and you say, every 15 minutes I need to get a. What's the latest stupid thing in the American news? And then you could, you can anthologize that. Where it gets interesting is we go into the financial space and you want to start doing that kind of thing based on API triggers for certain instruments happening in the background. If you have your own project going on, somebody does something you could tie it into that. You could set a whole series of alerts and notifications based on time or conditions. I don't have conditions yet, but since I got time I can add conditions to then be able to do things like summarize all the articles on Trump that you can find. Know 20 articles, tell me what the theme is of them. You could get that kind of summarizing. So one, you go search for all of them. Two, you bring them down. Three, you send them back up, summarize them before you bring them back down. That's kind of the pattern I have right now. It's like work with a source. Wherever your source is, send it up to summarize and then that's what you can use. Am I going to crash right now? I might crash.
+- id: u33
+  speaker: David Olsson
+  t_start: 1046.87
+  t_end: 1048.014
+  text: I'm at a hotel.
+- id: u34
+  speaker: Eric Johnson
+  t_start: 1048.142
+  t_end: 1051.05
+  text: Once you've summarized all that, then you sell everything, right?
+- id: u35
+  speaker: David Olsson
+  t_start: 1051.51
+  t_end: 1052.814
+  text: Sorry, sell everything.
+- id: u36
+  speaker: Eric Johnson
+  t_start: 1052.982
+  t_end: 1053.518
+  text: Yes.
+- id: u37
+  speaker: David Olsson
+  t_start: 1053.614
+  t_end: 1258.612
+  text: 'Well, interesting. I have a lot of people around me right now that are very concerned about their stocks and, and are into the crypto space and they''re doing all kinds of twitchy stuff. And I''m like, yeah, I understand all this. I don''t have anything in that space, so I''m not worried. But they could really use something a bit more sophisticated that doesn''t just tell them to sell at the drop of a hat. It would be something more strategic. And Folio, actually he is here in Calgary and I''ve had the chance to meet with him in person and yesterday he started riffing on how he''s been spending some time building algorithmic trading sort of strategies. And I''m like, okay, so how are you building yours? But some people that have had bitcoin in the past right now are fairly active. And anybody that''s looking at holding stocks for a long period of time is probably setting new conditions for outing based on fear. And so the fear factor is easy to measure. The secondary thing is, okay, is it fear would be a really good thing to measure because if it''s just fear you want to hold, but if it''s really something bad you don''t. And so this kind of task based thing underneath it is I didn''t think much about, I was like, oh, that''s nothing, I''ll just make it. And then I''m like, okay, it''s good for me. I can set my own triggers and timers and stuff like that. And I realized you put it underneath an application and it''s really valuable because for stones moving around the world, they might just be dropping bombs every now and then, and just like, ah, I''m gonna tell people in two days from now that I need to be moved or something, you know, or this is boring, you guys need to help me, you know, whatever. But right now it all works in the browser, works on your desktop, works within the clock that you have. The next step is to build web services to make it a proper, you know, I could make this a service. I can make this a, a thing. It will probably be just under the covers thing but the next step would be I''ll formalize it so that we can use it individually. You can just, it''s just a web app and you put in your key and then you can use it. Or as I move through the same QC project, I''m going to have to get more handy with databases. And then it could be something that could be my, you know, it could be interesting and that. How does that work when you share tasks with a large language model and a group of humans? But that''s, that''s where my head is at and I, I have to tap out early today at 9:30 because we''re going to go to the platform Calgary and, and continue conversations today. And then I''m, I''m heading on my way back partway today and then the rest of the day tomorrow. But I wanted to just keep the continuity going and since I had time and I remember I wanted to be here for this and open up most of the conversation to us to see where you guys are. I know Hani''s not feeling well, so it''s probably been hard to move into the creative space of stones moving around the '
+- id: u38
+  speaker: Eric Johnson
+  t_start: 1258.636
+  t_end: 1261.38
+  text: Have you got that nasty cold that's been going around everywhere?
+- id: u39
+  speaker: Hanif Janmohamed
+  t_start: 1261.46
+  t_end: 1263.652
+  text: Yeah, I, it's a doozy.
+- id: u40
+  speaker: Eric Johnson
+  t_start: 1263.796
+  t_end: 1264.296
+  text: Yeah.
+- id: u41
+  speaker: Hanif Janmohamed
+  t_start: 1264.276
+  t_end: 1273.716
+  text: And for me, wow. I've been out of it for, for a week solid.
+- id: u42
+  speaker: David Olsson
+  t_start: 1273.828
+  t_end: 1274.548
+  text: Yeah.
+- id: u43
+  speaker: Eric Johnson
+  t_start: 1274.724
+  t_end: 1279.88
+  text: There's just a cold that's going around. Our flui thing that's going around here. I don't know. Everyone's getting it.
+- id: u44
+  speaker: David Olsson
+  t_start: 1280.58
+  t_end: 1303.212
+  text: You were, you were. Yeah. Hanif and I chatted last week and sort of. It didn't sound like Hanif and you're starting to sound like a little bit. Yeah, yeah, we're, we're. Some people are sick here too. We're trying to make sure we don't get that because I can't afford that kind of thing right now. Neither can anybody.
+- id: u45
+  speaker: Eric Johnson
+  t_start: 1303.276
+  t_end: 1307.77
+  text: But did you see your brothers?
+- id: u46
+  speaker: David Olsson
+  t_start: 1308.11
+  t_end: 1315.014
+  text: I did last night. We went out for a birthday dinner because Jeremy's birthday was two days ago and mine's tomorrow and Christopher's is in three weeks.
+- id: u47
+  speaker: Eric Johnson
+  t_start: 1315.102
+  t_end: 1318.25
+  text: Oh, that's right, your birthday is tomorrow.
+- id: u48
+  speaker: David Olsson
+  t_start: 1318.99
+  t_end: 1367.878
+  text: So for, for three weeks. Four weeks. Jeremy and Krista are at the same age and so we had steak dinner at a place that we'd had dinner I guess four years ago before Jeremy had a strut and so let's get that way. But yeah, it's complicated. That complicates the trip here. Trying to find time to do that when there's good timeline of events for keeping the quality control project on rails. It's been good Drive was nice. Looking forward to seeing BAMF tomorrow or today. Tomorrow. And Karen has done an absolutely fabulous job of. Of doing everything to make this happen. There she is. Hi. There's James and Hanif and I didn't.
+- id: u49
+  speaker: Eric Johnson
+  t_start: 1367.894
+  t_end: 1370.01
+  text: Know you traveled with your own personal secretary.
+- id: u50
+  speaker: David Olsson
+  t_start: 1370.67
+  t_end: 1382.57
+  text: No, she thinks me along just for that purpose all the time. I'm a driver and wingman or like I traveled with my driver.
+- id: u51
+  speaker: James Giroday
+  t_start: 1384.85
+  t_end: 1386.666
+  text: Well, happy early birthday, David.
+- id: u52
+  speaker: David Olsson
+  t_start: 1386.778
+  t_end: 1389.39
+  text: Well, thank you. And how are you doing, James?
+- id: u53
+  speaker: James Giroday
+  t_start: 1390.21
+  t_end: 1397.866
+  text: Good. Yeah. You, you're. Maybe you're. We're. We're waiting on some stuff to happen, so nothing yet, but.
+- id: u54
+  speaker: David Olsson
+  t_start: 1398.018
+  t_end: 1398.746
+  text: Okay.
+- id: u55
+  speaker: James Giroday
+  t_start: 1398.858
+  t_end: 1402.07
+  text: Eric. Yeah, we're expecting our first kid, so.
+- id: u56
+  speaker: Eric Johnson
+  t_start: 1402.61
+  t_end: 1404.186
+  text: Oh, nice. Congratulations.
+- id: u57
+  speaker: James Giroday
+  t_start: 1404.298
+  t_end: 1452.51
+  text: Thanks. Yeah, so yeah, that's. That's top of mind. But I don't know, I've got this, I've got this handy, nice little eight and a half by 11 legal pad. So I'm continuing to kind of like just hash out some ideas about I don't know, maybe like basically blogging. I don't know, I'm trying to figure out what my skill set would be useful for and I'm continuing to maybe like. I'm kind of like reevaluating a little bit. I was talking. Hanif and I actually talked a fair bit last week and Eve was talking about. He said follow your bliss. Which really stuck with me. I liked that one. Yeah.
+- id: u58
+  speaker: Hanif Janmohamed
+  t_start: 1452.418
+  t_end: 1453.858
+  text: Or Joseph Campbell.
+- id: u59
+  speaker: James Giroday
+  t_start: 1454.034
+  t_end: 1454.578
+  text: Yeah.
+- id: u60
+  speaker: David Olsson
+  t_start: 1454.674
+  t_end: 1455.842
+  text: Oh, Joseph Campbell.
+- id: u61
+  speaker: Eric Johnson
+  t_start: 1455.906
+  t_end: 1456.406
+  text: Yeah.
+- id: u62
+  speaker: David Olsson
+  t_start: 1456.178
+  t_end: 1457.67
+  text: What a gift. He was, eh.
+- id: u63
+  speaker: James Giroday
+  t_start: 1458.89
+  t_end: 1460.066
+  text: Who was he?
+- id: u64
+  speaker: David Olsson
+  t_start: 1460.218
+  t_end: 1477.416
+  text: Oh, he wrote some seminal work on the, on the storytelling and yeah, he did a, I think a 20 hour series with Bill Meyer of interviews and I think it's probably the best way to learn about Joseph Campbell. But he influenced Star Wars. He influenced everything.
+- id: u65
+  speaker: Hanif Janmohamed
+  t_start: 1477.568
+  t_end: 1482.248
+  text: Everything. He, he's really into mythology.
+- id: u66
+  speaker: David Olsson
+  t_start: 1482.424
+  t_end: 1488.856
+  text: That's it. Mythology. He wrote strictly like that's where he came from. But he figured out we have a few stories that we tell. That's it.
+- id: u67
+  speaker: Hanif Janmohamed
+  t_start: 1489.008
+  t_end: 1490.18
+  text: The human story.
+- id: u68
+  speaker: James Giroday
+  t_start: 1490.83
+  t_end: 1494.854
+  text: Is this Joseph Campbell and the power of Myth, a 1988 documentary.
+- id: u69
+  speaker: David Olsson
+  t_start: 1494.982
+  t_end: 1497.83
+  text: That is it. Huh.
+- id: u70
+  speaker: James Giroday
+  t_start: 1497.91
+  t_end: 1546.79
+  text: Gotta check that out. So, any. Yeah, I'm kind of thinking about that sort of stuff. My new year's resolution has been spending less time on my phone and I'm continuing to kind of. I'm doing a lot of journaling these days, like on this autonomic app, which is like this brain optimization app. And yeah, I'm trying to spend a lot less time on my phone. I. Last year I. I realized that I'm spending like, was spending three hours a day on my phone, which you added up. That's like 10 years of your life depending on, you know. So, yeah, I'm trying to set some. Set some. It's amazing. Like I'm down to about an hour to an hour and a half now. It's amazing like, what else. The time that you have left if you're not like wasting it on your phone.
+- id: u71
+  speaker: David Olsson
+  t_start: 1547.77
+  t_end: 1552.67
+  text: Right. And so being optimal in what you do is a hard thing for us to be on top of all the time.
+- id: u72
+  speaker: James Giroday
+  t_start: 1553.53
+  t_end: 1578.414
+  text: Yeah, there's so many angles to it. Like, I feel like it's a kind of interesting tool. Like when I tell friends about it, they're always like, how are you spending less time on your phone? Like, tell me the secret. Like, what are you doing? I even came. This is, this is probably not going to happen, but I, I've got, I've. If I do ever do a Netflix, a stand up special, which title would have to be fuck your phone, I.
+- id: u73
+  speaker: David Olsson
+  t_start: 1578.422
+  t_end: 1582.77
+  text: Think, and you're sitting there trying to fuck it physically.
+- id: u74
+  speaker: James Giroday
+  t_start: 1583.83
+  t_end: 1602.042
+  text: Yeah, a little bit of slapstick. Nothing, nothing wrong with a little bit of slapstick. But yeah, yeah, maybe if I. Well, no, I don't want to give a TED talk, but. But man, there's a lot of material on phones, I feel like. So, you know, to your point of.
+- id: u75
+  speaker: David Olsson
+  t_start: 1602.066
+  t_end: 1624.948
+  text: Blogging, your experience of your phone is different than everyone else, but you'll find that everyone will empathize. And if you're trying to work through something, I'll just reflect on that. My way of working through things is often diving in to build them to make them work for me. And there's no harm in jumping in the middle of an empty blog and just starting to write for yourself for sure. It's a little daunting when it's empty. Believe me, I know that because I have.
+- id: u76
+  speaker: Eric Johnson
+  t_start: 1625.004
+  t_end: 1631.84
+  text: So, so James, do you find. Are you like, is it more analog? Are you trying to stay off screens in general?
+- id: u77
+  speaker: James Giroday
+  t_start: 1632.46
+  t_end: 1673.53
+  text: If I can, yeah. I think that's part of the journaling thing. Like I've got, you know, food journal, like an actual journal, and this kind of just scratch pad. I'm hashing out some ideas for, like, um, I don't know, like if. Yeah, just kind of. I don't know where to start. But I mean, like a big analysis on protein was kind of an interesting one. Um, you know, like everybody has. I think, actually, David, you and I talked about this. Like, what's the easiest way to get protein? Yeah, this is a bit of an analysis on protein. Oh, you can't see it. Can't see it because my background is off.
+- id: u78
+  speaker: Eric Johnson
+  t_start: 1673.57
+  t_end: 1680.268
+  text: I'd be, I'd be interested in what you figure out because my wife and I are on that journey right now as well.
+- id: u79
+  speaker: James Giroday
+  t_start: 1680.404
+  t_end: 1685.788
+  text: Oh, my goodness. Health. I could go on health stuff all day. What journey are you on?
+- id: u80
+  speaker: Eric Johnson
+  t_start: 1685.924
+  t_end: 1688.36
+  text: Well, just the protein thing and trying to.
+- id: u81
+  speaker: David Olsson
+  t_start: 1690.02
+  t_end: 1700.604
+  text: Yeah, where I went with it is I tried to. So one gram per pound. One gram protein per your weights and weight? Yeah, imperial.
+- id: u82
+  speaker: James Giroday
+  t_start: 1700.732
+  t_end: 1701.548
+  text: That's a lot.
+- id: u83
+  speaker: David Olsson
+  t_start: 1701.684
+  t_end: 1705.896
+  text: It is. It's very hard, but it's a good one if you're trying to gain weight.
+- id: u84
+  speaker: Eric Johnson
+  t_start: 1706.008
+  t_end: 1707.416
+  text: On a daily basis.
+- id: u85
+  speaker: David Olsson
+  t_start: 1707.528
+  t_end: 1738.55
+  text: Yeah, every day. And. And to reflect on that, I might have been down to 20 or 30 normally just by not eating enough protein. But what I have recognized is that that'll carry me through a lot of conversation. I don't get what I call gapping. I can gap. I can lose my concentration if I don't eat, eat enough. And if I have 150 grams of protein in a day or more than I know, I'm okay.
+- id: u86
+  speaker: James Giroday
+  t_start: 1739.53
+  t_end: 1740.354
+  text: Interesting.
+- id: u87
+  speaker: David Olsson
+  t_start: 1740.482
+  t_end: 1749.65
+  text: Yeah. Hey, I think there's, I think if you were to just. How about. You're already doing the journaling, you might just want to surface a tiny little bit.
+- id: u88
+  speaker: James Giroday
+  t_start: 1749.77
+  t_end: 1767.23
+  text: There it is. It's, it's. It's basically the headers are, you know, how big is a package? What percentage of it is protein? So tofu, for instance, is like 20% protein. Didn't know that to get a hundred grams of protein, it's $9 if you're using tofu.
+- id: u89
+  speaker: David Olsson
+  t_start: 1767.39
+  t_end: 1773.134
+  text: So that's an interesting way of looking at things. Right? Like you're doing the dollar value per benefit to your system.
+- id: u90
+  speaker: James Giroday
+  t_start: 1773.302
+  t_end: 1800.702
+  text: Totally. There's like, there's other things, like tinned, tinned mackerel. Like, I never tried tin mackerel until about a year ago. It does have BPA concerns, which only came on my radar like a couple, A couple weeks ago. But it's also a really cheap and good source of protein. I mean, it's just a great matrix to have. There's like 30 of them here, like tofu, tempeh, halloumi, you know, yogurt.
+- id: u91
+  speaker: Eric Johnson
+  t_start: 1800.766
+  t_end: 1806.084
+  text: And so you're, you're trying to do this outside of the powders and the drinks and stuff?
+- id: u92
+  speaker: James Giroday
+  t_start: 1806.182
+  t_end: 1875.276
+  text: No, no, powders are totally fair game too. Um, you know, there's. Among the pro powders, there might be some that you wouldn't have even thought of. Like, you can get a bone broth powder. Like, it's. You drop it into boiling water and it's like soup with some veggies or something. So that's, that's like a kind of a basis piece of research that I think, honestly, people are generally like, what protein? Like, what's the easiest way to get it? That's pain in the ass. But the general skill that I was, like, trying, that I'm trying to get to with the food journaling is like, how do you eyeball stuff? Like, that's a real skill. Like, you look down at your plate, you don't have to measure stuff, but you're like, okay, that pork chop's got 30 grams. That's a third of what I need for today. Or, you know, like, maybe just like condensing a lot of this sort of baseline knowledge would be a. Interesting post. So stuff like that, kind of workshopping it. I don't know. I'm really interested in like, product. Product information, but in food is a product. So that's. This is kind of part of that.
+- id: u93
+  speaker: David Olsson
+  t_start: 1875.428
+  t_end: 1896.52
+  text: So if you were to take what you have and went one step further and took the QR code or got the SKU from that, you might be able to look up, and I know you will. You'll be able to look up online for the ingredients and for what you get in terms of caloric value or the breakdown that they put in terms of nutritional value. And at that point, man, your spreadsheet is killer.
+- id: u94
+  speaker: James Giroday
+  t_start: 1897.26
+  t_end: 1902.068
+  text: Yeah. Oh, man. QR codes, I'm, I'm really keen on.
+- id: u95
+  speaker: Hanif Janmohamed
+  t_start: 1902.204
+  t_end: 1903.0
+  text: They're.
+- id: u96
+  speaker: James Giroday
+  t_start: 1903.42
+  t_end: 2006.31
+  text: They're really cool. I think they would be a big part of, like, I, I've got some ideas about QR codes and you can do a lot of fun stuff with them. Like, just for getting information to somebody, like, to a consumer, there's no easier way than they just like pull out their phone and point it at something, and then it takes them through to a site that tells them, you know, kind of like makes things simple, like, like being consumer. And this goes on and on. Especially with, for example, my partner going through pregnancy is always researching, like, stuff. And from reading that Charles Duhigg book on habit, the Power of Habit, they talk about, like, the. The advertising value that new parents are worth to companies because their expected expenditure over, like, five to 10 years is, like, 50. I don't know if it's like $50,000 or something, but you want those customers because they're about to buy a ton of new shit, and they have to figure out, like, they have to figure it all out. And right now we're figuring it all out for the first time. And the amount of research is, like, a lot of people just won't do it. They'll just buy the first thing and not the best thing. And I could go all day on this, but God damn, is research ever, like, taxing? Like, there's definitely a feeling. It's. You know that picture that I drew of the graphic of the woman standing in the aisle with, like, a thousand coffee cans in front of her? That's it to a T. It's just. It's so overwhelming buying that stuff.
+- id: u97
+  speaker: David Olsson
+  t_start: 2007.45
+  t_end: 2022.61
+  text: Well, I would. I have to get going here, but what I would applaud you to do. My camera doesn't want to work. I applaud you to do is take that spreadsheet and put it in and start doing some inference on it. Ask it to extend your spreadsheet.
+- id: u98
+  speaker: James Giroday
+  t_start: 2022.69
+  t_end: 2023.266
+  text: Yeah.
+- id: u99
+  speaker: David Olsson
+  t_start: 2023.378
+  t_end: 2027.458
+  text: Ask it to tell you how you could turn it into something.
+- id: u100
+  speaker: James Giroday
+  t_start: 2027.594
+  t_end: 2028.722
+  text: Yeah, for sure.
+- id: u101
+  speaker: David Olsson
+  t_start: 2028.826
+  t_end: 2033.31
+  text: Because how you're analyzing things is very valuable to this room.
+- id: u102
+  speaker: James Giroday
+  t_start: 2033.77
+  t_end: 2051.36
+  text: Yeah, I'll. I do. I do want to get in the habit of generating, like, if. If not anything, like maybe blog posts, something like that, just so that you're making stuff. Like, just getting in the practice of making stuff and Is a good thing. But I hope you have a safe drive to Banff.
+- id: u103
+  speaker: David Olsson
+  t_start: 2051.52
+  t_end: 2071.456
+  text: Thank you guys. And thank you, Jim. James. I'll do that. And I appreciate the time this morning. And seriously, like, I think it's our job to help James over that hurdle. So maybe next week we'll get you there.
+- id: u104
+  speaker: Hanif Janmohamed
+  t_start: 2071.608
+  t_end: 2072.512
+  text: Good luck.
+- id: u105
+  speaker: David Olsson
+  t_start: 2072.656
+  t_end: 2080.602
+  text: Hey, and good luck this week. Not good luck in your life. And thank you. You bring to this world.
+- id: u106
+  speaker: Hanif Janmohamed
+  t_start: 2080.786
+  t_end: 2081.562
+  text: Thank you.
+- id: u107
+  speaker: James Giroday
+  t_start: 2081.666
+  t_end: 2089.79
+  text: Thanks, David. I had a lot of fun with David at. At lunch a couple weeks ago. What a. What a great guy. Thanks for all the encouragement, David.
+- id: u108
+  speaker: David Olsson
+  t_start: 2090.13
+  t_end: 2094.23
+  text: I'm really happy for you and I look forward to hearing from you and have your child.
+- id: u109
+  speaker: James Giroday
+  t_start: 2094.61
+  t_end: 2102.55
+  text: Thanks. I'll keep you guys. Keep you guys posted. Thanks, guys. Hope you feel better soon. Hope you both are feeling well.
+- id: u110
+  speaker: Hanif Janmohamed
+  t_start: 2103.15
+  t_end: 2105.446
+  text: Thank you. Good luck with all of it.
+- id: u111
+  speaker: James Giroday
+  t_start: 2105.518
+  t_end: 2106.826
+  text: Travels, guys. Bye.
+- id: u112
+  speaker: Hanif Janmohamed
+  t_start: 2106.662
+  t_end: 2108.01
+  text: Okay. Bye.
+- id: u113
+  speaker: Unknown
+  t_start: 2127.88
+  t_end: 2791.9
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  text: Sa, sa sa sa sa sa sa sa sa.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  text: Sa, sa sa sa sa sa sa sa sa.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  text: Sa, sa sa sa sa sa sa sa sa.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  text: It. It. It.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  text: Dude. Good morning. How are you doing? I'm doing okay. I'm just getting going though. I don't have anything organized. No time like the present to get going. How are you feeling? Man, it totally knocked me out. I'm just starting to come around slowly. Oh, you still have a pretty deep voice. Yeah, I know. I'm still in the thick of it. Hey, Eric. Hello. Can you hear me? Yeah. Okay. Hello? Hello. Hello. How's Cowtown?
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  text: Oh, you still have a pretty deep voice. Yeah, I know. I'm still in the thick of it. Hey, Eric. Hello. Can you hear me? Yeah. Okay. Hello? Hello. Hello. How's Cowtown? And being raised in a place called Cowtown. I'm sure people love me, love that. I don't know, I still call it Cowtown. It's interesting. So it's been 10 years since I've been here to do business or that kind of thing. And we became members of something called Platform Calgary, which. Which is like Accelerate Okanagan. It's an accelerator kind of environment. They got a great building, great facilities. It's right two blocks away from. So it's kind of neat to see the community as the tech community has grown up a bit. But it's still cold and windy. A chin up came through and so there's big winds, a common thing. Sorry, go ahead. No, I was just saying probably flying cows. Yeah, flying cows. Sorry. Flying cows. Flying cows. Well, look to this switch here. Fairly smooth. Yeah. So we're meeting with people that we've not met that are part of our team, both for Atomic 47 and then also for the. We call AIM QC. So it's the quality control project here in Alberta. So met as a team for the first time and we'll do that quarterly and I'll be coming back here fairly often, see how things are going. But while I was here, I made a tool because I'm that kind of person and like this will probably have some value for us eventually. But OpenAI came up with tasks as a feature so you can schedule things and that has a lot of value. Right. So like being able to schedule yourself things that happen and recurring events. And so I, I created something while I'm sitting in meetings and. And it was, it was interesting to see like the features that the companies are building. They're using their tools to build them. That's where I got to. Because I described the feature that I wanted, which is build the task and enable, you know, there's only a few things you need to do is like name it, describe it, or instructions, and then recurring or whatever. It designed exactly the same interface until I add one more feature exactly the same interface as OpenAI. I didn't give it a screenshot, I didn't give it anything. And so I was discussing that this morning. Like, they use their own tools, they didn't even code their own features, man. They just relied on the deep patterns inside the machine. And I did too. That's all I'm doing is like, I know that I can tweak these patterns and make it happen. And in this case it was kind of neat. I might be able to show it it is super fragile, but it was no, it's going to crash my machine.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  text: No, I was just saying probably flying cows. Yeah, flying cows. Sorry. Flying cows. Flying cows. Well, look to this switch here. Fairly smooth. Yeah. So we're meeting with people that we've not met that are part of our team, both for Atomic 47 and then also for the. We call AIM QC. So it's the quality control project here in Alberta. So met as a team for the first time and we'll do that quarterly and I'll be coming back here fairly often, see how things are going. But while I was here, I made a tool because I'm that kind of person and like this will probably have some value for us eventually. But OpenAI came up with tasks as a feature so you can schedule things and that has a lot of value. Right. So like being able to schedule yourself things that happen and recurring events. And so I, I created something while I'm sitting in meetings and. And it was, it was interesting to see like the features that the companies are building. They're using their tools to build them. That's where I got to. Because I described the feature that I wanted, which is build the task and enable, you know, there's only a few things you need to do is like name it, describe it, or instructions, and then recurring or whatever. It designed exactly the same interface until I add one more feature exactly the same interface as OpenAI. I didn't give it a screenshot, I didn't give it anything. And so I was discussing that this morning. Like, they use their own tools, they didn't even code their own features, man. They just relied on the deep patterns inside the machine. And I did too. That's all I'm doing is like, I know that I can tweak these patterns and make it happen. And in this case it was kind of neat. I might be able to show it it is super fragile, but it was no, it's going to crash my machine.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u25
+  - u26
+  - u27
+  text: Fairly smooth. Yeah. So we're meeting with people that we've not met that are part of our team, both for Atomic 47 and then also for the. We call AIM QC. So it's the quality control project here in Alberta. So met as a team for the first time and we'll do that quarterly and I'll be coming back here fairly often, see how things are going. But while I was here, I made a tool because I'm that kind of person and like this will probably have some value for us eventually. But OpenAI came up with tasks as a feature so you can schedule things and that has a lot of value. Right. So like being able to schedule yourself things that happen and recurring events. And so I, I created something while I'm sitting in meetings and. And it was, it was interesting to see like the features that the companies are building. They're using their tools to build them. That's where I got to. Because I described the feature that I wanted, which is build the task and enable, you know, there's only a few things you need to do is like name it, describe it, or instructions, and then recurring or whatever. It designed exactly the same interface until I add one more feature exactly the same interface as OpenAI. I didn't give it a screenshot, I didn't give it anything. And so I was discussing that this morning. Like, they use their own tools, they didn't even code their own features, man. They just relied on the deep patterns inside the machine. And I did too. That's all I'm doing is like, I know that I can tweak these patterns and make it happen. And in this case it was kind of neat. I might be able to show it it is super fragile, but it was no, it's going to crash my machine. Yeah. So I'm looking at that and also building with the notion of maybe some other projects might want to have things like tasks or, you know, they might need to do things in the future or maybe they want to set something up in the future. And so. Good morning, James. Just describing a thing that I built over the last few days of being here in Calgary while spending a lot of time focusing on our team. But also the AI programming happens in the background because it tick a tick a ticket compile and it just spends two or three minutes and then it presents something. But I guess what I'm getting is I'm starting to clone all the features of, of the current big players because their features are really simple. They don't take a lot of work, which to me says they're not working on that side at all. They're not working on the user experience side at all. They're working on the intelligence side. And then, you know, adding things in that will have tasks will build into AI managing your calendar. Right. That's the Runway to it. So like I can set a task and a timer. I'll try to get it running. Oh yeah, there it is.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  - u30
+  text: So I'm looking at that and also building with the notion of maybe some other projects might want to have things like tasks or, you know, they might need to do things in the future or maybe they want to set something up in the future. And so. Good morning, James. Just describing a thing that I built over the last few days of being here in Calgary while spending a lot of time focusing on our team. But also the AI programming happens in the background because it tick a tick a ticket compile and it just spends two or three minutes and then it presents something. But I guess what I'm getting is I'm starting to clone all the features of, of the current big players because their features are really simple. They don't take a lot of work, which to me says they're not working on that side at all. They're not working on the user experience side at all. They're working on the intelligence side. And then, you know, adding things in that will have tasks will build into AI managing your calendar. Right. That's the Runway to it. So like I can set a task and a timer. I'll try to get it running. Oh yeah, there it is. And so what, to what extent? Like what sort of tasks, David? Like, well, that's a good question. So I was like, okay, what task does OpenAI do that you need a large language model for? I'm like, well, I don't know. But I just initially hooked up the OpenAI and then I allowed you to say add an instruction and I'll go to the demo here. Hopefully it'll work without crapping out. Here you can see I have some tasks running. I have a search running for provide me a summary of Trump's executive orders. And then I have another one for give me the latest news items on Canadian election. And then I guess I had this one. What are some data debatable points of discussion in the media about the truth value of information about. So you can set two different kinds of tasks right now, it's not working anyway. One of them right here, it uses SERP to do web search. Then this one right here, it uses the LLM to do work within it. Say, give me 20 prime numbers, what I've been able to do. And unfortunately it's not working right now. My thing is that it allowed me to extend the functionality to say, maybe I need to know something more timely. Use the web search to be able to search the news and then bring that back. And then my pattern is I will send that up to the large language model to provide a summary. And what I noticed that OpenAI does is they're just sending stuff in the email, man. You set a task, it knows your email, it sends you an alert based on the task. So my inbox is inundated with crap. So they really have not thought much about that. But what is interesting is that we're moving into the space of, okay, it's not predictive, but it is the future. So.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: But I just initially hooked up the OpenAI and then I allowed you to say add an instruction and I'll go to the demo here. Hopefully it'll work without crapping out. Here you can see I have some tasks running. I have a search running for provide me a summary of Trump's executive orders. And then I have another one for give me the latest news items on Canadian election. And then I guess I had this one. What are some data debatable points of discussion in the media about the truth value of information about. So you can set two different kinds of tasks right now, it's not working anyway. One of them right here, it uses SERP to do web search. Then this one right here, it uses the LLM to do work within it. Say, give me 20 prime numbers, what I've been able to do. And unfortunately it's not working right now. My thing is that it allowed me to extend the functionality to say, maybe I need to know something more timely. Use the web search to be able to search the news and then bring that back. And then my pattern is I will send that up to the large language model to provide a summary. And what I noticed that OpenAI does is they're just sending stuff in the email, man. You set a task, it knows your email, it sends you an alert based on the task. So my inbox is inundated with crap. So they really have not thought much about that. But what is interesting is that we're moving into the space of, okay, it's not predictive, but it is the future. So. So where would you surface that normally then? Not email. So that's a good question. So what I've done is I've built a browser application that will surface desktop notifications and say there's a. There's an event that happened right now. Here's the news, Click it, and it'll take you to the web page, and the web page will show you the latest search. And so I built, because my pattern right now is building in the browser and building apps in the browser, I've enabled it to work for an individual to set their own. Say you could just set a timer, just alert me at this hour, and it will alert you. Or you could say, search the web for new large language models. That's pretty lame, but it will come back with that either every minute, every 15 minutes, or every half an hour, or at a certain date at a certain time, it all goes into a database in the browser, and then you can search it for later. So it's kind of like the work zone of miners, where you could have a query and you. You wanted to measure. A good one would be Twitter or a news API where things change over time. And you want to measure that and you say, every 15 minutes I need to get a. What's the latest stupid thing in the American news? And then you could, you can anthologize that. Where it gets interesting is we go into the financial space and you want to start doing that kind of thing based on API triggers for certain instruments happening in the background. If you have your own project going on, somebody does something you could tie it into that. You could set a whole series of alerts and notifications based on time or conditions. I don't have conditions yet, but since I got time I can add conditions to then be able to do things like summarize all the articles on Trump that you can find. Know 20 articles, tell me what the theme is of them. You could get that kind of summarizing. So one, you go search for all of them. Two, you bring them down. Three, you send them back up, summarize them before you bring them back down. That's kind of the pattern I have right now. It's like work with a source. Wherever your source is, send it up to summarize and then that's what you can use. Am I going to crash right now? I might crash.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  text: But I just initially hooked up the OpenAI and then I allowed you to say add an instruction and I'll go to the demo here. Hopefully it'll work without crapping out. Here you can see I have some tasks running. I have a search running for provide me a summary of Trump's executive orders. And then I have another one for give me the latest news items on Canadian election. And then I guess I had this one. What are some data debatable points of discussion in the media about the truth value of information about. So you can set two different kinds of tasks right now, it's not working anyway. One of them right here, it uses SERP to do web search. Then this one right here, it uses the LLM to do work within it. Say, give me 20 prime numbers, what I've been able to do. And unfortunately it's not working right now. My thing is that it allowed me to extend the functionality to say, maybe I need to know something more timely. Use the web search to be able to search the news and then bring that back. And then my pattern is I will send that up to the large language model to provide a summary. And what I noticed that OpenAI does is they're just sending stuff in the email, man. You set a task, it knows your email, it sends you an alert based on the task. So my inbox is inundated with crap. So they really have not thought much about that. But what is interesting is that we're moving into the space of, okay, it's not predictive, but it is the future. So. So where would you surface that normally then? Not email. So that's a good question. So what I've done is I've built a browser application that will surface desktop notifications and say there's a. There's an event that happened right now. Here's the news, Click it, and it'll take you to the web page, and the web page will show you the latest search. And so I built, because my pattern right now is building in the browser and building apps in the browser, I've enabled it to work for an individual to set their own. Say you could just set a timer, just alert me at this hour, and it will alert you. Or you could say, search the web for new large language models. That's pretty lame, but it will come back with that either every minute, every 15 minutes, or every half an hour, or at a certain date at a certain time, it all goes into a database in the browser, and then you can search it for later. So it's kind of like the work zone of miners, where you could have a query and you. You wanted to measure. A good one would be Twitter or a news API where things change over time. And you want to measure that and you say, every 15 minutes I need to get a. What's the latest stupid thing in the American news? And then you could, you can anthologize that. Where it gets interesting is we go into the financial space and you want to start doing that kind of thing based on API triggers for certain instruments happening in the background. If you have your own project going on, somebody does something you could tie it into that. You could set a whole series of alerts and notifications based on time or conditions. I don't have conditions yet, but since I got time I can add conditions to then be able to do things like summarize all the articles on Trump that you can find. Know 20 articles, tell me what the theme is of them. You could get that kind of summarizing. So one, you go search for all of them. Two, you bring them down. Three, you send them back up, summarize them before you bring them back down. That's kind of the pattern I have right now. It's like work with a source. Wherever your source is, send it up to summarize and then that's what you can use. Am I going to crash right now? I might crash.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  text: 'So that''s a good question. So what I''ve done is I''ve built a browser application that will surface desktop notifications and say there''s a. There''s an event that happened right now. Here''s the news, Click it, and it''ll take you to the web page, and the web page will show you the latest search. And so I built, because my pattern right now is building in the browser and building apps in the browser, I''ve enabled it to work for an individual to set their own. Say you could just set a timer, just alert me at this hour, and it will alert you. Or you could say, search the web for new large language models. That''s pretty lame, but it will come back with that either every minute, every 15 minutes, or every half an hour, or at a certain date at a certain time, it all goes into a database in the browser, and then you can search it for later. So it''s kind of like the work zone of miners, where you could have a query and you. You wanted to measure. A good one would be Twitter or a news API where things change over time. And you want to measure that and you say, every 15 minutes I need to get a. What''s the latest stupid thing in the American news? And then you could, you can anthologize that. Where it gets interesting is we go into the financial space and you want to start doing that kind of thing based on API triggers for certain instruments happening in the background. If you have your own project going on, somebody does something you could tie it into that. You could set a whole series of alerts and notifications based on time or conditions. I don''t have conditions yet, but since I got time I can add conditions to then be able to do things like summarize all the articles on Trump that you can find. Know 20 articles, tell me what the theme is of them. You could get that kind of summarizing. So one, you go search for all of them. Two, you bring them down. Three, you send them back up, summarize them before you bring them back down. That''s kind of the pattern I have right now. It''s like work with a source. Wherever your source is, send it up to summarize and then that''s what you can use. Am I going to crash right now? I might crash. I''m at a hotel. Once you''ve summarized all that, then you sell everything, right? Sorry, sell everything. Yes. Well, interesting. I have a lot of people around me right now that are very concerned about their stocks and, and are into the crypto space and they''re doing all kinds of twitchy stuff. And I''m like, yeah, I understand all this. I don''t have anything in that space, so I''m not worried. But they could really use something a bit more sophisticated that doesn''t just tell them to sell at the drop of a hat. It would be something more strategic. And Folio, actually he is here in Calgary and I''ve had the chance to meet with him in person and yesterday he started riffing on how he''s been spending some time building algorithmic trading sort of strategies. And I''m like, okay, so how are you building yours? But some people that have had bitcoin in the past right now are fairly active. And anybody that''s looking at holding stocks for a long period of time is probably setting new conditions for outing based on fear. And so the fear factor is easy to measure. The secondary thing is, okay, is it fear would be a really good thing to measure because if it''s just fear you want to hold, but if it''s really something bad you don''t. And so this kind of task based thing underneath it is I didn''t think much about, I was like, oh, that''s nothing, I''ll just make it. And then I''m like, okay, it''s good for me. I can set my own triggers and timers and stuff like that. And I realized you put it underneath an application and it''s really valuable because for stones moving around the world, they might just be dropping bombs every now and then, and just like, ah, I''m gonna tell people in two days from now that I need to be moved or something, you know, or this is boring, you guys need to help me, you know, whatever. But right now it all works in the browser, works on your desktop, works within the clock that you have. The next step is to build web services to make it a proper, you know, I could make this a service. I can make this a, a thing. It will probably be just under the covers thing but the next step would be I''ll formalize it so that we can use it individually. You can just, it''s just a web app and you put in your key and then you can use it. Or as I move through the same QC project, I''m going to have to get more handy with databases. And then it could be something that could be my, you know, it could be interesting and that. How does that work when you share tasks with a large language model and a group of humans? But that''s, that''s where my head is at and I, I have to tap out early today at 9:30 because we''re going to go to the platform Calgary and, and continue conversations today. And then I''m, I''m heading on my way back partway today and then the rest of the day tomorrow. But I wanted to just keep the continuity going and since I had time and I remember I wanted to be here for this and open up most of the conversation to us to see where you guys are. I know Hani''s not feeling well, so it''s probably been hard to move into the creative space of stones moving around the '
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u37
+  text: 'Well, interesting. I have a lot of people around me right now that are very concerned about their stocks and, and are into the crypto space and they''re doing all kinds of twitchy stuff. And I''m like, yeah, I understand all this. I don''t have anything in that space, so I''m not worried. But they could really use something a bit more sophisticated that doesn''t just tell them to sell at the drop of a hat. It would be something more strategic. And Folio, actually he is here in Calgary and I''ve had the chance to meet with him in person and yesterday he started riffing on how he''s been spending some time building algorithmic trading sort of strategies. And I''m like, okay, so how are you building yours? But some people that have had bitcoin in the past right now are fairly active. And anybody that''s looking at holding stocks for a long period of time is probably setting new conditions for outing based on fear. And so the fear factor is easy to measure. The secondary thing is, okay, is it fear would be a really good thing to measure because if it''s just fear you want to hold, but if it''s really something bad you don''t. And so this kind of task based thing underneath it is I didn''t think much about, I was like, oh, that''s nothing, I''ll just make it. And then I''m like, okay, it''s good for me. I can set my own triggers and timers and stuff like that. And I realized you put it underneath an application and it''s really valuable because for stones moving around the world, they might just be dropping bombs every now and then, and just like, ah, I''m gonna tell people in two days from now that I need to be moved or something, you know, or this is boring, you guys need to help me, you know, whatever. But right now it all works in the browser, works on your desktop, works within the clock that you have. The next step is to build web services to make it a proper, you know, I could make this a service. I can make this a, a thing. It will probably be just under the covers thing but the next step would be I''ll formalize it so that we can use it individually. You can just, it''s just a web app and you put in your key and then you can use it. Or as I move through the same QC project, I''m going to have to get more handy with databases. And then it could be something that could be my, you know, it could be interesting and that. How does that work when you share tasks with a large language model and a group of humans? But that''s, that''s where my head is at and I, I have to tap out early today at 9:30 because we''re going to go to the platform Calgary and, and continue conversations today. And then I''m, I''m heading on my way back partway today and then the rest of the day tomorrow. But I wanted to just keep the continuity going and since I had time and I remember I wanted to be here for this and open up most of the conversation to us to see where you guys are. I know Hani''s not feeling well, so it''s probably been hard to move into the creative space of stones moving around the '
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  text: Well, interesting. I have a lot of people around me right now that are very concerned about their stocks and, and are into the crypto space and they're doing all kinds of twitchy stuff. And I'm like, yeah, I understand all this. I don't have anything in that space, so I'm not worried. But they could really use something a bit more sophisticated that doesn't just tell them to sell at the drop of a hat. It would be something more strategic. And Folio, actually he is here in Calgary and I've had the chance to meet with him in person and yesterday he started riffing on how he's been spending some time building algorithmic trading sort of strategies. And I'm like, okay, so how are you building yours? But some people that have had bitcoin in the past right now are fairly active. And anybody that's looking at holding stocks for a long period of time is probably setting new conditions for outing based on fear. And so the fear factor is easy to measure. The secondary thing is, okay, is it fear would be a really good thing to measure because if it's just fear you want to hold, but if it's really something bad you don't. And so this kind of task based thing underneath it is I didn't think much about, I was like, oh, that's nothing, I'll just make it. And then I'm like, okay, it's good for me. I can set my own triggers and timers and stuff like that. And I realized you put it underneath an application and it's really valuable because for stones moving around the world, they might just be dropping bombs every now and then, and just like, ah, I'm gonna tell people in two days from now that I need to be moved or something, you know, or this is boring, you guys need to help me, you know, whatever. But right now it all works in the browser, works on your desktop, works within the clock that you have. The next step is to build web services to make it a proper, you know, I could make this a service. I can make this a, a thing. It will probably be just under the covers thing but the next step would be I'll formalize it so that we can use it individually. You can just, it's just a web app and you put in your key and then you can use it. Or as I move through the same QC project, I'm going to have to get more handy with databases. And then it could be something that could be my, you know, it could be interesting and that. How does that work when you share tasks with a large language model and a group of humans? But that's, that's where my head is at and I, I have to tap out early today at 9:30 because we're going to go to the platform Calgary and, and continue conversations today. And then I'm, I'm heading on my way back partway today and then the rest of the day tomorrow. But I wanted to just keep the continuity going and since I had time and I remember I wanted to be here for this and open up most of the conversation to us to see where you guys are. I know Hani's not feeling well, so it's probably been hard to move into the creative space of stones moving around the  Have you got that nasty cold that's been going around everywhere? Yeah, I, it's a doozy. Yeah. And for me, wow. I've been out of it for, for a week solid. Yeah. There's just a cold that's going around. Our flui thing that's going around here. I don't know. Everyone's getting it. You were, you were. Yeah. Hanif and I chatted last week and sort of. It didn't sound like Hanif and you're starting to sound like a little bit. Yeah, yeah, we're, we're. Some people are sick here too. We're trying to make sure we don't get that because I can't afford that kind of thing right now. Neither can anybody.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  text: Have you got that nasty cold that's been going around everywhere? Yeah, I, it's a doozy. Yeah. And for me, wow. I've been out of it for, for a week solid. Yeah. There's just a cold that's going around. Our flui thing that's going around here. I don't know. Everyone's getting it. You were, you were. Yeah. Hanif and I chatted last week and sort of. It didn't sound like Hanif and you're starting to sound like a little bit. Yeah, yeah, we're, we're. Some people are sick here too. We're trying to make sure we don't get that because I can't afford that kind of thing right now. Neither can anybody. But did you see your brothers? I did last night. We went out for a birthday dinner because Jeremy's birthday was two days ago and mine's tomorrow and Christopher's is in three weeks. Oh, that's right, your birthday is tomorrow. So for, for three weeks. Four weeks. Jeremy and Krista are at the same age and so we had steak dinner at a place that we'd had dinner I guess four years ago before Jeremy had a strut and so let's get that way. But yeah, it's complicated. That complicates the trip here. Trying to find time to do that when there's good timeline of events for keeping the quality control project on rails. It's been good Drive was nice. Looking forward to seeing BAMF tomorrow or today. Tomorrow. And Karen has done an absolutely fabulous job of. Of doing everything to make this happen. There she is. Hi. There's James and Hanif and I didn't. Know you traveled with your own personal secretary. No, she thinks me along just for that purpose all the time. I'm a driver and wingman or like I traveled with my driver.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  text: So for, for three weeks. Four weeks. Jeremy and Krista are at the same age and so we had steak dinner at a place that we'd had dinner I guess four years ago before Jeremy had a strut and so let's get that way. But yeah, it's complicated. That complicates the trip here. Trying to find time to do that when there's good timeline of events for keeping the quality control project on rails. It's been good Drive was nice. Looking forward to seeing BAMF tomorrow or today. Tomorrow. And Karen has done an absolutely fabulous job of. Of doing everything to make this happen. There she is. Hi. There's James and Hanif and I didn't. Know you traveled with your own personal secretary. No, she thinks me along just for that purpose all the time. I'm a driver and wingman or like I traveled with my driver. Well, happy early birthday, David. Well, thank you. And how are you doing, James? Good. Yeah. You, you're. Maybe you're. We're. We're waiting on some stuff to happen, so nothing yet, but. Okay. Eric. Yeah, we're expecting our first kid, so. Oh, nice. Congratulations. Thanks. Yeah, so yeah, that's. That's top of mind. But I don't know, I've got this, I've got this handy, nice little eight and a half by 11 legal pad. So I'm continuing to kind of like just hash out some ideas about I don't know, maybe like basically blogging. I don't know, I'm trying to figure out what my skill set would be useful for and I'm continuing to maybe like. I'm kind of like reevaluating a little bit. I was talking. Hanif and I actually talked a fair bit last week and Eve was talking about. He said follow your bliss. Which really stuck with me. I liked that one. Yeah. Or Joseph Campbell. Yeah. Oh, Joseph Campbell. Yeah. What a gift. He was, eh. Who was he? Oh, he wrote some seminal work on the, on the storytelling and yeah, he did a, I think a 20 hour series with Bill Meyer of interviews and I think it's probably the best way to learn about Joseph Campbell. But he influenced Star Wars. He influenced everything.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  text: Thanks. Yeah, so yeah, that's. That's top of mind. But I don't know, I've got this, I've got this handy, nice little eight and a half by 11 legal pad. So I'm continuing to kind of like just hash out some ideas about I don't know, maybe like basically blogging. I don't know, I'm trying to figure out what my skill set would be useful for and I'm continuing to maybe like. I'm kind of like reevaluating a little bit. I was talking. Hanif and I actually talked a fair bit last week and Eve was talking about. He said follow your bliss. Which really stuck with me. I liked that one. Yeah. Or Joseph Campbell. Yeah. Oh, Joseph Campbell. Yeah. What a gift. He was, eh. Who was he? Oh, he wrote some seminal work on the, on the storytelling and yeah, he did a, I think a 20 hour series with Bill Meyer of interviews and I think it's probably the best way to learn about Joseph Campbell. But he influenced Star Wars. He influenced everything. Everything. He, he's really into mythology. That's it. Mythology. He wrote strictly like that's where he came from. But he figured out we have a few stories that we tell. That's it. The human story. Is this Joseph Campbell and the power of Myth, a 1988 documentary. That is it. Huh. Gotta check that out. So, any. Yeah, I'm kind of thinking about that sort of stuff. My new year's resolution has been spending less time on my phone and I'm continuing to kind of. I'm doing a lot of journaling these days, like on this autonomic app, which is like this brain optimization app. And yeah, I'm trying to spend a lot less time on my phone. I. Last year I. I realized that I'm spending like, was spending three hours a day on my phone, which you added up. That's like 10 years of your life depending on, you know. So, yeah, I'm trying to set some. Set some. It's amazing. Like I'm down to about an hour to an hour and a half now. It's amazing like, what else. The time that you have left if you're not like wasting it on your phone. Right. And so being optimal in what you do is a hard thing for us to be on top of all the time. Yeah, there's so many angles to it. Like, I feel like it's a kind of interesting tool. Like when I tell friends about it, they're always like, how are you spending less time on your phone? Like, tell me the secret. Like, what are you doing? I even came. This is, this is probably not going to happen, but I, I've got, I've. If I do ever do a Netflix, a stand up special, which title would have to be fuck your phone, I.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  text: Gotta check that out. So, any. Yeah, I'm kind of thinking about that sort of stuff. My new year's resolution has been spending less time on my phone and I'm continuing to kind of. I'm doing a lot of journaling these days, like on this autonomic app, which is like this brain optimization app. And yeah, I'm trying to spend a lot less time on my phone. I. Last year I. I realized that I'm spending like, was spending three hours a day on my phone, which you added up. That's like 10 years of your life depending on, you know. So, yeah, I'm trying to set some. Set some. It's amazing. Like I'm down to about an hour to an hour and a half now. It's amazing like, what else. The time that you have left if you're not like wasting it on your phone. Right. And so being optimal in what you do is a hard thing for us to be on top of all the time. Yeah, there's so many angles to it. Like, I feel like it's a kind of interesting tool. Like when I tell friends about it, they're always like, how are you spending less time on your phone? Like, tell me the secret. Like, what are you doing? I even came. This is, this is probably not going to happen, but I, I've got, I've. If I do ever do a Netflix, a stand up special, which title would have to be fuck your phone, I. Think, and you're sitting there trying to fuck it physically. Yeah, a little bit of slapstick. Nothing, nothing wrong with a little bit of slapstick. But yeah, yeah, maybe if I. Well, no, I don't want to give a TED talk, but. But man, there's a lot of material on phones, I feel like. So, you know, to your point of. Blogging, your experience of your phone is different than everyone else, but you'll find that everyone will empathize. And if you're trying to work through something, I'll just reflect on that. My way of working through things is often diving in to build them to make them work for me. And there's no harm in jumping in the middle of an empty blog and just starting to write for yourself for sure. It's a little daunting when it's empty. Believe me, I know that because I have. So, so James, do you find. Are you like, is it more analog? Are you trying to stay off screens in general? If I can, yeah. I think that's part of the journaling thing. Like I've got, you know, food journal, like an actual journal, and this kind of just scratch pad. I'm hashing out some ideas for, like, um, I don't know, like if. Yeah, just kind of. I don't know where to start. But I mean, like a big analysis on protein was kind of an interesting one. Um, you know, like everybody has. I think, actually, David, you and I talked about this. Like, what's the easiest way to get protein? Yeah, this is a bit of an analysis on protein. Oh, you can't see it. Can't see it because my background is off.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: Blogging, your experience of your phone is different than everyone else, but you'll find that everyone will empathize. And if you're trying to work through something, I'll just reflect on that. My way of working through things is often diving in to build them to make them work for me. And there's no harm in jumping in the middle of an empty blog and just starting to write for yourself for sure. It's a little daunting when it's empty. Believe me, I know that because I have. So, so James, do you find. Are you like, is it more analog? Are you trying to stay off screens in general? If I can, yeah. I think that's part of the journaling thing. Like I've got, you know, food journal, like an actual journal, and this kind of just scratch pad. I'm hashing out some ideas for, like, um, I don't know, like if. Yeah, just kind of. I don't know where to start. But I mean, like a big analysis on protein was kind of an interesting one. Um, you know, like everybody has. I think, actually, David, you and I talked about this. Like, what's the easiest way to get protein? Yeah, this is a bit of an analysis on protein. Oh, you can't see it. Can't see it because my background is off. I'd be, I'd be interested in what you figure out because my wife and I are on that journey right now as well. Oh, my goodness. Health. I could go on health stuff all day. What journey are you on? Well, just the protein thing and trying to. Yeah, where I went with it is I tried to. So one gram per pound. One gram protein per your weights and weight? Yeah, imperial. That's a lot. It is. It's very hard, but it's a good one if you're trying to gain weight. On a daily basis. Yeah, every day. And. And to reflect on that, I might have been down to 20 or 30 normally just by not eating enough protein. But what I have recognized is that that'll carry me through a lot of conversation. I don't get what I call gapping. I can gap. I can lose my concentration if I don't eat, eat enough. And if I have 150 grams of protein in a day or more than I know, I'm okay. Interesting.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  text: Yeah, every day. And. And to reflect on that, I might have been down to 20 or 30 normally just by not eating enough protein. But what I have recognized is that that'll carry me through a lot of conversation. I don't get what I call gapping. I can gap. I can lose my concentration if I don't eat, eat enough. And if I have 150 grams of protein in a day or more than I know, I'm okay. Interesting. Yeah. Hey, I think there's, I think if you were to just. How about. You're already doing the journaling, you might just want to surface a tiny little bit. There it is. It's, it's. It's basically the headers are, you know, how big is a package? What percentage of it is protein? So tofu, for instance, is like 20% protein. Didn't know that to get a hundred grams of protein, it's $9 if you're using tofu. So that's an interesting way of looking at things. Right? Like you're doing the dollar value per benefit to your system. Totally. There's like, there's other things, like tinned, tinned mackerel. Like, I never tried tin mackerel until about a year ago. It does have BPA concerns, which only came on my radar like a couple, A couple weeks ago. But it's also a really cheap and good source of protein. I mean, it's just a great matrix to have. There's like 30 of them here, like tofu, tempeh, halloumi, you know, yogurt. And so you're, you're trying to do this outside of the powders and the drinks and stuff? No, no, powders are totally fair game too. Um, you know, there's. Among the pro powders, there might be some that you wouldn't have even thought of. Like, you can get a bone broth powder. Like, it's. You drop it into boiling water and it's like soup with some veggies or something. So that's, that's like a kind of a basis piece of research that I think, honestly, people are generally like, what protein? Like, what's the easiest way to get it? That's pain in the ass. But the general skill that I was, like, trying, that I'm trying to get to with the food journaling is like, how do you eyeball stuff? Like, that's a real skill. Like, you look down at your plate, you don't have to measure stuff, but you're like, okay, that pork chop's got 30 grams. That's a third of what I need for today. Or, you know, like, maybe just like condensing a lot of this sort of baseline knowledge would be a. Interesting post. So stuff like that, kind of workshopping it. I don't know. I'm really interested in like, product. Product information, but in food is a product. So that's. This is kind of part of that.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  text: Totally. There's like, there's other things, like tinned, tinned mackerel. Like, I never tried tin mackerel until about a year ago. It does have BPA concerns, which only came on my radar like a couple, A couple weeks ago. But it's also a really cheap and good source of protein. I mean, it's just a great matrix to have. There's like 30 of them here, like tofu, tempeh, halloumi, you know, yogurt. And so you're, you're trying to do this outside of the powders and the drinks and stuff? No, no, powders are totally fair game too. Um, you know, there's. Among the pro powders, there might be some that you wouldn't have even thought of. Like, you can get a bone broth powder. Like, it's. You drop it into boiling water and it's like soup with some veggies or something. So that's, that's like a kind of a basis piece of research that I think, honestly, people are generally like, what protein? Like, what's the easiest way to get it? That's pain in the ass. But the general skill that I was, like, trying, that I'm trying to get to with the food journaling is like, how do you eyeball stuff? Like, that's a real skill. Like, you look down at your plate, you don't have to measure stuff, but you're like, okay, that pork chop's got 30 grams. That's a third of what I need for today. Or, you know, like, maybe just like condensing a lot of this sort of baseline knowledge would be a. Interesting post. So stuff like that, kind of workshopping it. I don't know. I'm really interested in like, product. Product information, but in food is a product. So that's. This is kind of part of that. So if you were to take what you have and went one step further and took the QR code or got the SKU from that, you might be able to look up, and I know you will. You'll be able to look up online for the ingredients and for what you get in terms of caloric value or the breakdown that they put in terms of nutritional value. And at that point, man, your spreadsheet is killer. Yeah. Oh, man. QR codes, I'm, I'm really keen on. They're. They're really cool. I think they would be a big part of, like, I, I've got some ideas about QR codes and you can do a lot of fun stuff with them. Like, just for getting information to somebody, like, to a consumer, there's no easier way than they just like pull out their phone and point it at something, and then it takes them through to a site that tells them, you know, kind of like makes things simple, like, like being consumer. And this goes on and on. Especially with, for example, my partner going through pregnancy is always researching, like, stuff. And from reading that Charles Duhigg book on habit, the Power of Habit, they talk about, like, the. The advertising value that new parents are worth to companies because their expected expenditure over, like, five to 10 years is, like, 50. I don't know if it's like $50,000 or something, but you want those customers because they're about to buy a ton of new shit, and they have to figure out, like, they have to figure it all out. And right now we're figuring it all out for the first time. And the amount of research is, like, a lot of people just won't do it. They'll just buy the first thing and not the best thing. And I could go all day on this, but God damn, is research ever, like, taxing? Like, there's definitely a feeling. It's. You know that picture that I drew of the graphic of the woman standing in the aisle with, like, a thousand coffee cans in front of her? That's it to a T. It's just. It's so overwhelming buying that stuff.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: So if you were to take what you have and went one step further and took the QR code or got the SKU from that, you might be able to look up, and I know you will. You'll be able to look up online for the ingredients and for what you get in terms of caloric value or the breakdown that they put in terms of nutritional value. And at that point, man, your spreadsheet is killer. Yeah. Oh, man. QR codes, I'm, I'm really keen on. They're. They're really cool. I think they would be a big part of, like, I, I've got some ideas about QR codes and you can do a lot of fun stuff with them. Like, just for getting information to somebody, like, to a consumer, there's no easier way than they just like pull out their phone and point it at something, and then it takes them through to a site that tells them, you know, kind of like makes things simple, like, like being consumer. And this goes on and on. Especially with, for example, my partner going through pregnancy is always researching, like, stuff. And from reading that Charles Duhigg book on habit, the Power of Habit, they talk about, like, the. The advertising value that new parents are worth to companies because their expected expenditure over, like, five to 10 years is, like, 50. I don't know if it's like $50,000 or something, but you want those customers because they're about to buy a ton of new shit, and they have to figure out, like, they have to figure it all out. And right now we're figuring it all out for the first time. And the amount of research is, like, a lot of people just won't do it. They'll just buy the first thing and not the best thing. And I could go all day on this, but God damn, is research ever, like, taxing? Like, there's definitely a feeling. It's. You know that picture that I drew of the graphic of the woman standing in the aisle with, like, a thousand coffee cans in front of her? That's it to a T. It's just. It's so overwhelming buying that stuff. Well, I would. I have to get going here, but what I would applaud you to do. My camera doesn't want to work. I applaud you to do is take that spreadsheet and put it in and start doing some inference on it. Ask it to extend your spreadsheet.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  text: They're really cool. I think they would be a big part of, like, I, I've got some ideas about QR codes and you can do a lot of fun stuff with them. Like, just for getting information to somebody, like, to a consumer, there's no easier way than they just like pull out their phone and point it at something, and then it takes them through to a site that tells them, you know, kind of like makes things simple, like, like being consumer. And this goes on and on. Especially with, for example, my partner going through pregnancy is always researching, like, stuff. And from reading that Charles Duhigg book on habit, the Power of Habit, they talk about, like, the. The advertising value that new parents are worth to companies because their expected expenditure over, like, five to 10 years is, like, 50. I don't know if it's like $50,000 or something, but you want those customers because they're about to buy a ton of new shit, and they have to figure out, like, they have to figure it all out. And right now we're figuring it all out for the first time. And the amount of research is, like, a lot of people just won't do it. They'll just buy the first thing and not the best thing. And I could go all day on this, but God damn, is research ever, like, taxing? Like, there's definitely a feeling. It's. You know that picture that I drew of the graphic of the woman standing in the aisle with, like, a thousand coffee cans in front of her? That's it to a T. It's just. It's so overwhelming buying that stuff. Well, I would. I have to get going here, but what I would applaud you to do. My camera doesn't want to work. I applaud you to do is take that spreadsheet and put it in and start doing some inference on it. Ask it to extend your spreadsheet. Yeah. Ask it to tell you how you could turn it into something. Yeah, for sure. Because how you're analyzing things is very valuable to this room. Yeah, I'll. I do. I do want to get in the habit of generating, like, if. If not anything, like maybe blog posts, something like that, just so that you're making stuff. Like, just getting in the practice of making stuff and Is a good thing. But I hope you have a safe drive to Banff. Thank you guys. And thank you, Jim. James. I'll do that. And I appreciate the time this morning. And seriously, like, I think it's our job to help James over that hurdle. So maybe next week we'll get you there. Good luck. Hey, and good luck this week. Not good luck in your life. And thank you. You bring to this world. Thank you. Thanks, David. I had a lot of fun with David at. At lunch a couple weeks ago. What a. What a great guy. Thanks for all the encouragement, David. I'm really happy for you and I look forward to hearing from you and have your child. Thanks. I'll keep you guys. Keep you guys posted. Thanks, guys. Hope you feel better soon. Hope you both are feeling well.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  text: Thank you guys. And thank you, Jim. James. I'll do that. And I appreciate the time this morning. And seriously, like, I think it's our job to help James over that hurdle. So maybe next week we'll get you there. Good luck. Hey, and good luck this week. Not good luck in your life. And thank you. You bring to this world. Thank you. Thanks, David. I had a lot of fun with David at. At lunch a couple weeks ago. What a. What a great guy. Thanks for all the encouragement, David. I'm really happy for you and I look forward to hearing from you and have your child. Thanks. I'll keep you guys. Keep you guys posted. Thanks, guys. Hope you feel better soon. Hope you both are feeling well. Thank you. Good luck with all of it. Travels, guys. Bye. Okay. Bye. It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2791.9
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2791.9
+  utterance_ids:
+  - u113
+  text: It, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it, it.

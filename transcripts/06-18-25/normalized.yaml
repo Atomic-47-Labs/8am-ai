@@ -1,0 +1,1467 @@
+meeting:
+  date: '2025-06-18'
+  title: 8am-AI 2025-06-18
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Scott Morton
+  - Hanif Janmohamed
+  duration_s: 2893.1
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - 8am-AI-2025-06-18.md
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 71.54
+  t_end: 72.04
+  text: Morning.
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 75.38
+  t_end: 75.88
+  text: Morning.
+- id: u3
+  speaker: David Olsson
+  t_start: 77.31
+  t_end: 77.95
+  text: How you doing?
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 78.99
+  t_end: 79.49
+  text: Good.
+- id: u5
+  speaker: Scott Morton
+  t_start: 79.63
+  t_end: 83.39
+  text: Do I get to tease you again about not phoning me and.
+- id: u6
+  speaker: David Olsson
+  t_start: 83.95
+  t_end: 85.07
+  text: Yeah, yeah, you do.
+- id: u7
+  speaker: Scott Morton
+  t_start: 86.03
+  t_end: 90.67
+  text: Following up with me. I mean, you're like 25 kilometers away from me, and.
+- id: u8
+  speaker: David Olsson
+  t_start: 91.95
+  t_end: 93.99
+  text: Yeah, I got crushed.
+- id: u9
+  speaker: Scott Morton
+  t_start: 93.99
+  t_end: 94.51
+  text: I understand.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 95.79
+  t_end: 96.47
+  text: I get it.
+- id: u11
+  speaker: Scott Morton
+  t_start: 96.47
+  t_end: 97.63
+  text: I'm just bugging you.
+- id: u12
+  speaker: David Olsson
+  t_start: 99.15
+  t_end: 99.65
+  text: Yeah.
+- id: u13
+  speaker: Scott Morton
+  t_start: 100.75
+  t_end: 109.21
+  text: I appreciate the form that you. You've created here. Honestly, David, I think it's. I think it's just me and you online, right? Like, there' yeah, yeah.
+- id: u14
+  speaker: David Olsson
+  t_start: 109.61
+  t_end: 154.72
+  text: Nobody else right now, but, yeah, no, I appreciate you. You attending and. Yeah, being on the road is new, and I'm not very good at it right now in terms of making sure I did all the communications that I wanted to, and I'm gonna be off again here later today. So that's reality, but that's how it goes. But I think we're getting better at describing what, you know, I want to talk to you about when it comes to aimqc. And FOLIO is in the room now, and we'll set up a separate meeting to discuss that component because we're getting involved with a few more companies, and then we're seeing a few perspectives, but we'll take that one offline because it's very specific to some of the things you said, 3D and whatnot. And. And we're. We're making.
+- id: u15
+  speaker: Scott Morton
+  t_start: 154.58
+  t_end: 171.99
+  text: Well, I hope that helps, guys. Like, honestly, like, I have a lot of the technical background and that sort of thing, and. And I mean, you guys are helping me on the AI side. I'm happy to work with you and help you guys on the technical side. It just, like, you can't do it alone.
+- id: u16
+  speaker: David Olsson
+  t_start: 171.99
+  t_end: 172.51
+  text: You really.
+- id: u17
+  speaker: Scott Morton
+  t_start: 172.51
+  t_end: 173.01
+  text: Yeah.
+- id: u18
+  speaker: David Olsson
+  t_start: 172.87
+  t_end: 194.08
+  text: No, and what. What's becoming evident is, like, how we do it is the way that we collaborate. We're learning how to do that with also the speed of the tools that we have learning. And then education at the same time, as you know, is just fucking phenomenal. Yeah. But it seems to be happening.
+- id: u19
+  speaker: Scott Morton
+  t_start: 194.64
+  t_end: 252.04
+  text: So I have a. I have a really technical question for you guys. So I've been to, you know, three or four meetings and. And maybe more. I can't remember. But. But one of the. Yeah, this was. This is. This was what you pulled up there last time. There was another one that you pulled up, another interface where you pulled up and you could select the models or it would generate models or something like that that it would. Or chatbots that it thinks that you need or whatever. And so, like I said, my background in computer science is very minimal. I took a bunch of courses and went through Lighthouse Labs, and I Do some development. But this is stuff I'm really interested and passionate in, and I think I have a way to monetize this, which I'm happy to talk about with you guys for. For the. For the Alberta government.
+- id: u20
+  speaker: David Olsson
+  t_start: 253.08
+  t_end: 253.58
+  text: And.
+- id: u21
+  speaker: Scott Morton
+  t_start: 253.44
+  t_end: 354.02
+  text: And I. Because I work in that world and I know the issues and the problems and. And, you know, and I also have a lot of friends there that struggle. So I guess what I tried to do this week on, you know, based on our conversation last week, was I tried to overlay and I did, I did. I took your suggestion, David. I asked the AI bot how to do this. Like, I asked ChatGPT how to do this, and it gave me two different ways. One way was the way that I'd done it, right, with the full stack development, create an app. And then. But then there is another way where it said that I could connect to chat GPT's API, which I was not aware of. And because what I wanted to do is I wanted to create, like a custom GPT, right, with rules and regulations and things that I needed it to do. And then I asked. I was like, okay, well, I'm doing this. I'll create this GPT and I could put all my rules and regulations in and upload the training files and all that sort of stuff. And then I. And then I asked GPT, I'm like, okay, how do you monetize this? Like, how is it monetized? And they're like, oh, no, you just share it for free. I'm like, no, no, I don't want to do that. I want. I want to monetize it. And so it gave me two options to monetize it. One was the two that I explained. One is like, make an application and then embed your GPT that way, which I'm leaning towards. It's not my favorite. But then there is another way that.
+- id: u22
+  speaker: Fulvio Ciano
+  t_start: 354.02
+  t_end: 358.06
+  text: What's the downside to that, by the way? What's the downside to that way?
+- id: u23
+  speaker: Scott Morton
+  t_start: 359.66
+  t_end: 362.86
+  text: Yeah, that's what I wanted to talk about.
+- id: u24
+  speaker: David Olsson
+  t_start: 364.54
+  t_end: 366.24
+  text: Yeah. Because.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 366.22
+  t_end: 367.9
+  text: Sorry, didn't mean to jump ahead.
+- id: u26
+  speaker: David Olsson
+  t_start: 371.26
+  t_end: 373.58
+  text: He's so good at that. He's always reading.
+- id: u27
+  speaker: Scott Morton
+  t_start: 373.98
+  t_end: 419.52
+  text: He's. He's anticipating what I'm asking, which is perfect. And then the other one was the connect to the Connect GPT with an API and run it that way. And there was some weird instructions on how to. But I was like, I don't think they're going to be able to connect directly to my custom GPT that I've made. You're just literally connecting to Chatgpt So I excluded that immediately. And then of course, you know, what's the downside of the application? And this is, this is where I am. So, so please discuss, help me out here.
+- id: u28
+  speaker: Fulvio Ciano
+  t_start: 421.12
+  t_end: 423.04
+  text: Well, the question, Please, go ahead.
+- id: u29
+  speaker: Scott Morton
+  t_start: 423.44
+  t_end: 429.92
+  text: I know what the downside is for me. I know what the downside is for me. I don't know what you're thinking, so I'd like to hear your thoughts.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 433.16
+  t_end: 451.4
+  text: Downside is the work in building the application. That's the downside. That's exactly, that's the top level. Encompass all, capture. Capture all the pain in one statement. Yeah, that's the, that's the. Well, there is a second pain, by the way.
+- id: u31
+  speaker: David Olsson
+  t_start: 451.4
+  t_end: 452.04
+  text: The maintenance.
+- id: u32
+  speaker: Scott Morton
+  t_start: 452.2
+  t_end: 453.32
+  text: The maintenance as well.
+- id: u33
+  speaker: Fulvio Ciano
+  t_start: 454.04
+  t_end: 490.33
+  text: Well, the operations of the application. So like, like there's building the application and then operating or, or, you know, serving or hosting and, and, and in that is also what the one you mentioned, which is maintaining. Right. So. But realistically, the reason that's there is because, not entirely, but because, you know, a criteria you, you placed on it kind of forces you that way. And that is you want to monetize it, right?
+- id: u34
+  speaker: Scott Morton
+  t_start: 490.41
+  t_end: 490.91
+  text: Yes.
+- id: u35
+  speaker: Fulvio Ciano
+  t_start: 490.89
+  t_end: 597.43
+  text: So the instant you want to monetize it, not the instant, there are other reasons, but, you know, because you want to monetize it and then because you wanted to use your, your tuned model. Right? Your tuned and, and constrained is another way because it's not just about tuning, it's about constraining. Right. Then you're pretty much, you really aren't charging for the LLM, right. You're charging for the application and built into the charges for the application is the LLM. So I mean, I think like I said, it's a very reductive description of what the thing is. But I will tell you as much as that is the paint, that is the challenge with that approach. Yes, I definitely do a challenge because it's pretty easy to overcome with the sudden tools. So like yours, you know, your, your, the thing you said early on was like, I'm not a developer. Right. You know. Yeah, soon no one will be, Scott. So don't worry. I know no one's going to be a developer much longer. And I've been at it, you know, look, I, I was, I've been at it a long time. I'm 57. I think there might be a couple of guys in here who older than me. But, you know, I was doing it commercially, you know, in machine code when I was 18. So, you know, I, I'm not happy about the fact that, you know, well, I am and I'm not. It's a very bittersweet thing, right, that I really will not be that kind of developer anymore. Right.
+- id: u36
+  speaker: Scott Morton
+  t_start: 597.61
+  t_end: 644.2
+  text: Well, that's the key. That's the key point, right? That is the very key point. You're not going to be that kind of developer. You're still going to be like all those experiences, all those, that knowledge, all that, all those troubleshooting, you know, those, those concepts and everything, that's all going to still be there and it's all so, so much more useful. You know what I mean? Like, don't discount that at all. I believe, like, yeah, anyone can go on to ChatGPT and pull up some code, but they have no idea how to use it. They have no idea how to deploy it. You can ask how to do it, they'll tell you, but the creative part of developing, that's what you have. That's the difference. That's the benefit that you would get from a person like yourself running.
+- id: u37
+  speaker: Fulvio Ciano
+  t_start: 644.28
+  t_end: 649.28
+  text: Right. So for me, it's bittersweet, but for you it should just be sweet, right?
+- id: u38
+  speaker: Scott Morton
+  t_start: 649.28
+  t_end: 649.92
+  text: Oh, it is.
+- id: u39
+  speaker: Fulvio Ciano
+  t_start: 650.4
+  t_end: 664.66
+  text: Because you don't have to, you don't have to deprecate any of your own, using a very technical term, but you don't have to deprecate any of your skills. Right.
+- id: u40
+  speaker: Scott Morton
+  t_start: 664.88
+  t_end: 665.52
+  text: So, yeah.
+- id: u41
+  speaker: Fulvio Ciano
+  t_start: 665.52
+  t_end: 698.81
+  text: So, yeah. So you've got to build an application. You've got to build an application. Yep. And, and, and so when I say you the same way, you're telling me you're not going to be doing so much of a building of an application. You're going to be directing tools and LLMs to help you build an application. Right. It's a weird transition, David. And I see this, I would say this realization at least every other meeting we have.
+- id: u42
+  speaker: David Olsson
+  t_start: 700.1
+  t_end: 700.6
+  text: Okay.
+- id: u43
+  speaker: Fulvio Ciano
+  t_start: 701.3
+  t_end: 701.8
+  text: And.
+- id: u44
+  speaker: David Olsson
+  t_start: 702.02
+  t_end: 703.14
+  text: Oh, can I say something?
+- id: u45
+  speaker: Fulvio Ciano
+  t_start: 703.62
+  t_end: 704.12
+  text: Yeah.
+- id: u46
+  speaker: David Olsson
+  t_start: 704.26
+  t_end: 711.3
+  text: I felt it again this last week. Oh, my. Crashing. I felt it again this week. I found an auto approve button.
+- id: u47
+  speaker: Scott Morton
+  t_start: 712.74
+  t_end: 715.54
+  text: Yeah, I, I found that.
+- id: u48
+  speaker: David Olsson
+  t_start: 715.86
+  t_end: 724.34
+  text: I took myself out of the loop, man. You want to feel useless? Take yourself out of the loop and watch it actually do its thing for seven hours.
+- id: u49
+  speaker: Scott Morton
+  t_start: 725.23
+  t_end: 733.55
+  text: I, I've got, I've, I've used. That works. It's. But it's not like, oh, no, I now do it in chunks.
+- id: u50
+  speaker: David Olsson
+  t_start: 733.87
+  t_end: 759.97
+  text: Yeah, no, you. So I've learned the pattern to do it, but I just want to say, oh, I know right away, if you do, if you do the good plan and to your point, put it in phases, it'll just do a phase at a time and it will do it right. And I'm like, okay, It's. I just need to spend, like, two more minutes on my planning now. Yeah, and it's like. Okay, that's. That's. That's real, man. That is real.
+- id: u51
+  speaker: Scott Morton
+  t_start: 760.85
+  t_end: 762.05
+  text: Yeah, it's awesome.
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 763.65
+  t_end: 768.33
+  text: So. So, yeah. So, I mean, you know, that's not a long, hard discussion, right?
+- id: u53
+  speaker: David Olsson
+  t_start: 768.33
+  t_end: 768.83
+  text: You're.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 769.17
+  t_end: 771.67
+  text: You. You need to build an application. And.
+- id: u55
+  speaker: Scott Morton
+  t_start: 771.45
+  t_end: 784.62
+  text: And, yeah, and. And that's what I came. That was my. That was my. That was my conclusion as well, was build the application and embed the, Embed the. The GPT into. Into the application.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 785.1
+  t_end: 790.3
+  text: Yeah. Maybe the right term, but access the GPT via the application.
+- id: u57
+  speaker: Scott Morton
+  t_start: 793.1
+  t_end: 796.22
+  text: I'm not very technical, but yeah, sure, it's okay.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 796.22
+  t_end: 874.25
+  text: Just, just because, like, you know, you realize that you're. You're. You're. You're trans your model, right? Like, your AI will not be in the application. No, it'll be whichever model, and it'll be. And it'll be, for lack of a better, more precise word, you know, hard coded which model your application will use so that you're gaining the benefits of the model that you've tuned or primed for the value your application will give. And so, you know, everybody. And this is the race, right? And the race right now, this is really. This is really the problem. Like, we're talking to someone yesterday, David and I. Right. About someone who wants to build this thing and he needs to build an application, too. But there will be a moment, and I worry about this. I. Shall I say I'm losing sleep. No, I'm. I don't know if I'm losing sleep. I'm thinking about it a lot. There will be a moment, though, and I don't know how far that moment is where this need to build an application goes away. Right.
+- id: u59
+  speaker: Scott Morton
+  t_start: 874.95
+  t_end: 876.31
+  text: I'm waiting for that moment.
+- id: u60
+  speaker: Fulvio Ciano
+  t_start: 878.07
+  t_end: 882.55
+  text: Well, I don't know. I mean, next week, man. I'm sorry, David.
+- id: u61
+  speaker: David Olsson
+  t_start: 882.98
+  t_end: 884.18
+  text: It's like, next week.
+- id: u62
+  speaker: Fulvio Ciano
+  t_start: 884.66
+  t_end: 890.66
+  text: Well, I mean, I. I don't know what it is. It could. I mean, it's.
+- id: u63
+  speaker: David Olsson
+  t_start: 890.66
+  t_end: 891.16
+  text: I know.
+- id: u64
+  speaker: Fulvio Ciano
+  t_start: 890.94
+  t_end: 892.66
+  text: I'm gonna look at my watch. I don't know.
+- id: u65
+  speaker: David Olsson
+  t_start: 892.98
+  t_end: 894.18
+  text: It's just being silly.
+- id: u66
+  speaker: Fulvio Ciano
+  t_start: 894.42
+  t_end: 897.08
+  text: It could have happened and we don't know. Right?
+- id: u67
+  speaker: David Olsson
+  t_start: 897.3
+  t_end: 897.8
+  text: Yeah.
+- id: u68
+  speaker: Fulvio Ciano
+  t_start: 897.66
+  t_end: 901.96
+  text: Literally that close. Because. Yeah.
+- id: u69
+  speaker: David Olsson
+  t_start: 902.42
+  t_end: 978.4
+  text: I realized this this morning is like the AI is. We've unfortunately tripped into the path of. Of teaching the AI how to code so that we can increasingly. And I'm doing it. And this is another thing to feel to your fire earlier, to increasingly give it more control. I'm happy that I'm capable of doing that, and I'm enabling It to have more application control now, and it's learning how to do that because I'm building that into it. What's happening is it's getting the capabilities increasingly more and more by enabling people like Philiani, you guys to be able to program and use the tools to then say, yeah, I just need the query, I will tool it out now myself. Because in the ide, if it doesn't have a tool, it builds it. In Python, if it doesn't have it, it builds it. This delegator that I built, it was my realization that that's it, I've done it, I have superseded myself. It's the same thing. It builds its own tools. So that's it. That's it. That's it.
+- id: u70
+  speaker: Scott Morton
+  t_start: 981.84
+  t_end: 982.56
+  text: Great chat.
+- id: u71
+  speaker: David Olsson
+  t_start: 983.76
+  t_end: 1018.67
+  text: So that's, you know, it is the, it is the beginning of that path and it has laid it down and we're grooming it increasingly fast. And I've seen how to do it, and I know Folvio does too, and we're going to be going there, and so it will supersede us in a year as knowledge workers. And so getting on board with what it means to be the delegator in your world, it'll really give us all advantage. It's going to take a while for this to really supersede some of the industries, but it will, it will devour software within 18 months.
+- id: u72
+  speaker: Fulvio Ciano
+  t_start: 1020.03
+  t_end: 1072.95
+  text: Yeah, I think 18 months is a very good prediction. You know, there'll be little, There'll be, There'll be crumbs left around here and there. Right? Yeah, yeah, Just, just. I'm just gonna nod and not say anything else. I wonder if it could also be, it could also be sooner, but, but it, it's hard to say. It really is hard to say. And I do not know how I'm not worried about my personal adaptation to that. The, the, the disruption comes from the ecosystem adaptation because it's more disruptive as much as it's disruptive to developers. I am shocked, David, by the number of developers I have spoken to that are still not using AI.
+- id: u73
+  speaker: David Olsson
+  t_start: 1072.95
+  t_end: 1074.51
+  text: I can't believe that, man.
+- id: u74
+  speaker: Fulvio Ciano
+  t_start: 1074.51
+  t_end: 1076.07
+  text: Oh, I know, I know.
+- id: u75
+  speaker: Scott Morton
+  t_start: 1076.07
+  t_end: 1076.83
+  text: Are you kidding?
+- id: u76
+  speaker: Fulvio Ciano
+  t_start: 1077.15
+  t_end: 1151.33
+  text: I thought everyone would be using. No, there's a ton of them. There's a ton of them. They fall into three categories. Already out of work, right. Going to be out of work. Right. And, and know it and going to be out of work and don't know it. So the, the, the, the developers who aren't using AI fall in those three categories. It's, it's. You know within the distribution within those categories is relatively, I don't know, something even. It's not, it doesn't seem like any one group. There are people in that third category that have no idea they're going to put out. We're very, is it skeptical or dissident about it? Like there are, there are, you know, and what do they know? They're not even using AI, so they, they, they as much as their developers are using AI. So like I disregard them because, you know, they don't know what they're talking about. Like, no matter what, even if they aren't going to be replaced by AI, they're definitely going to be replaced by AI if they're not using AI to do development. That's for sure. That, that's, that's, that's, that's like anyone who bets against me, just give me your money now. Right?
+- id: u77
+  speaker: Scott Morton
+  t_start: 1151.47
+  t_end: 1151.97
+  text: Yeah.
+- id: u78
+  speaker: David Olsson
+  t_start: 1151.83
+  t_end: 1310.63
+  text: So it, it behooves us to get good at problem solving and to be able to queue up problems and then to, to learn. And so I'm learning effectively from them now because I'm building things like this knowledge graph builder and it's teaching me what the, is going on behind the scenes, which I'm still very upset about not understanding. But it, it is that far advanced where you can describe your problem, it can build a solution and you're like, well, I don't understand the problem. Cool. Now describe how it solves that problem and the application will describe itself to you. So there's this loop that's just incredible now with the idea and using it as a tool for your desktop to organize things is very easy to do. So it's tying in so incredibly well. But there is still this data problem. And the data problem is the fact that it doesn't have context and it doesn't set up context really well. And that's going to take quite a while to play out. The fact that we can program really well up to the level of data is cool, right? At the point of data, we are, we are still figuring that out and going to the energy thing was cool because they're all, they're all about what they call OT Operational Technology, which I called IoT Internet of Things. But that's what they're doing. They're attaching, you know, the Internet to all of the devices and so they have that control. And so once the industry figures out, they can actually replace controllers with really simple agents. There was one company called Alien or Albion or Camper, what they call. But they count their success in the reduction of clicks they do for, for operators. And so operators are the people that sit there and they basically do very little but other than hit things, but they keep things going and that's where they make money. So it's, it's hitting oil and gas in a way that will eventually have a really big impact. But we're involved with it. The level of paper is still experience. Insurance is that way. So we discuss where there is opportunities. And I, Jason's in a great space for this because Google, you know, it dominates in ads and it dominates an office, but it doesn't dominate in commerce in the way that he's trying to dominate. So there are other places too that the knowledge workers will still survive in the way that they can problem solve this, this room can problem solve.
+- id: u79
+  speaker: Scott Morton
+  t_start: 1311.27
+  t_end: 1334.25
+  text: So I have a, I have a quick question. So based on sort of what we've been chatting about and the problem that I presented at the, at the beginning, like I have to build an application and, and get, get it to, to use the AI. Do I spend the time doing that or is it going to be yeah.
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 1334.89
+  t_end: 1338.01
+  text: Or do, or do, yeah, or do.
+- id: u81
+  speaker: Scott Morton
+  t_start: 1338.01
+  t_end: 1341.69
+  text: I wait and then, and then it's just gonna do it for me?
+- id: u82
+  speaker: Fulvio Ciano
+  t_start: 1341.69
+  t_end: 1452.28
+  text: No, no, no, no, no, no, no, no. There's no value waiting a week. No, no, no, no, no. It's actually good. No, no, it's a good question. I ask myself the question all the time. So the reason isn't. Is because of like the, how do I put it? The discovery or the revelations that David and I have in the process of doing that because we've been building applications. And so you have to stop thinking about it as building an application. That's the key. The key is you're building because you won't be. Well, you won't be. You will be. You will be, you will be building context and requirements, among other things. Right? And then so, but my best analogy is like, you know, you know, does a, does a sheep farmer make sheep? No, no, no, no, no, no. Sheep farmer doesn't make sheep. He grows grass and feeds the sheep. Like, like, you know what I mean? Like he's not assembling sheep. Right? Like it's. Your application should be emergent from the work you're doing because everything is emergent right now. The technology and what it does and how it does it even. And that's the whole tools thing. Right. So what you need to focus on is what do you want? The applicant is code, you know, documenting, rationalizing, testing and describing what you want the application to do and, and changes, anything that changes in the next day, weeks, months, year will not diminish the value of having done that, period. Right.
+- id: u83
+  speaker: Scott Morton
+  t_start: 1452.14
+  t_end: 1453.44
+  text: I would agree with that. Yep.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 1453.22
+  t_end: 1532.15
+  text: And if you do that really well, if you do that really well, the part you're going to offload previously to a bunch of monkeys, coders. Right. Previously to what used to call an agile team. Right. You're going to instead, you know, download indirectly as well, because even that delegation part's going to be done if David gets his way by AI. So you won't have, you won't have to deal with dirty monkeys that throw poop, whether they're, whether they're ugly bags of mostly water or silicone won't matter to you. But you know, that stuff that you need to give them for them to do their job, which is what does the application do? You know, what are, what are the key things that make the application valuable? All that stuff will, will be needed. Even if you, even if you decide to throw the application out one day and build it again. Because you should be using, you know, C instead of job typescript. Right. Or. Yeah. Or whatever. Right. Normally, you know, this is the part that I think AI is most revolutionizing, is rebuilding. And refactoring is just totally a different thing.
+- id: u85
+  speaker: Scott Morton
+  t_start: 1533.19
+  t_end: 1560.97
+  text: Yeah, yeah. Like it's, it's the ultimate code checker. You know what I mean? Like, if you were a coder and you're like, oh, I built this application six years ago. It kind of worked, but there were some bugs, I couldn't find it. You're just like, pull it out of your and put it in. And you're like, oh my God, it works great. Now here's the bug. Please fix this somehow. Right. I'm actually planning to do that with a game that I built probably five years ago.
+- id: u86
+  speaker: David Olsson
+  t_start: 1566.17
+  t_end: 1738.79
+  text: So it is coming quickly that the LLMs are adapting to what we're using it for. And so us programming all these things into it, it will supersede some of the programming functionality that you add into your application. And so the pattern for building the application is something that needs to evolve as well. And what I've said about, you know, hitting the auto auto approve and building out plan in phases allows you to limit the exposure of how much it does at a time. And then that allows you to say, okay, when it's done. Now my process is when it's done a phase, it actually does a report. And the report tells me what needs to be done and what can be doing next. And what that got me to Recognizing is that, you know, I'm just acting as an agent. I'm doing some things really well and some things that I'm doing really well. I can get rid of the repetitive tasks that I'm doing, but it is my recipe of things, things, and where does that reside? A lot of the time we're working in ChatGPT and one of the tools that I know that polio has used in the past and I have used in the past and I'm getting reintroduced to it now is Libra chat. And it's really interesting in that it has all the extensibility of what I would want to build into worksona available immediately in the can, to the point where you can build agents in it, you can build workflows, you can attack all your models you like, it does your history of your chats. And so it is pretty extensible as to what it does. And then I'm like, well, I. In a lot of meetings where I'm discussing what works on it is. And basically if anybody talks about it, like my son has and puts up a website, I'm like, he never even talked to me about it. Right. It's worksona IO is just a website about whatever. Whatever agents do. Yeah. It gets bucketed into this category because it can do whatever the other ones do. It just does it in a certain way, and it does it in a way that allows me to build it out quickly and to do it extensively and all the other things. But the apples to apples on it are like, why would I do this? Well, the other ones have a lot of craft, but that's just a choice to make. It's not a competitive advantage. So it's really. Where. Where do you like a competitive advantage? To put it out there as a platform because it's just to compete with the tools that are out there, which themselves came out too early is just not where people are playing. That's why you hear about everybody building their own agent platform, every LLM platform, everybody that's doing anything like that now they have their own agents. And so if you look inside and that's, you know, what I'm doing here. The delegator pattern that I'm building all these patterns around this is like 40 patterns inside categories. Nine categories.
+- id: u87
+  speaker: Scott Morton
+  t_start: 1744.23
+  t_end: 1747.51
+  text: Oh, he froze. I think he did.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 1747.51
+  t_end: 1751.14
+  text: It happens every once in a while. Happened yesterday as well. That it.
+- id: u89
+  speaker: Hanif Janmohamed
+  t_start: 1751.28
+  t_end: 1751.84
+  text: Okay.
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 1753.36
+  t_end: 1758.72
+  text: You probably show up now in portrait instead of landscape because he's moved to his phone.
+- id: u91
+  speaker: Scott Morton
+  t_start: 1769.84
+  t_end: 1804.7
+  text: Yeah. So I think I'll take this week maybe and maybe next week and build the documentation for the application. That's what I'll do. And then I can, I can take, I, I can just present that at the next, at the next meeting, just the documentation and that sort of thing. Because I, I really do. Like, I think it's, it's a valuable tool. It's just, it's working with, with documents and just people struggle with that.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 1804.7
+  t_end: 1805.2
+  text: Right?
+- id: u93
+  speaker: Scott Morton
+  t_start: 1804.94
+  t_end: 1831.21
+  text: Like they, they struggle with how to interpret and, and look at documents and understand them and everything. So, so there's, so what I'll do is I'll build out that documentation that you guys suggested today and I'll, I'll, I'll like. I, I mean, listen, you guys could do this in probably 20 minutes. It's probably going to take me, you know, three hours, but I think it's a good exercise.
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 1832.49
+  t_end: 1910.84
+  text: I don't know. I actually don't know that we would do it faster because when doing that step, domain understanding is more important than technical skill. Right? So that's, that's the, that's the, that's one of the ways it gets flipped around, right? Yeah, like the, the value that you have, which is understanding what's needed and what's of value is more relevant than the understanding that we have about, well, how would it be done technically in the past? Right? Because that's the path. That's the part you're going to offload anyway. I mean. Yeah, that's the part you're going to offload. And that's the part that, like, what's changed very recently is like the most recent thing that's changed is like three months ago. That piece you'd have to review. You would have to review and you'd have to like, check, mark and say, yeah, it makes sense to take that design pattern or it makes sense to use that tech, or it makes sense to, you know, divide up. But that can be done now that, that review and validation and, and so forth can also be done by AI now. And that's the agentic piece. That's the, that's the, that's the.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 1916.36
+  t_end: 1925.82
+  text: There's a very specific phrase to like the reinforcing pattern takes care of. Right? Which is really done by agents. So.
+- id: u96
+  speaker: Hanif Janmohamed
+  t_start: 1926.28
+  t_end: 1927.88
+  text: Yeah. Okay.
+- id: u97
+  speaker: Scott Morton
+  t_start: 1928.76
+  t_end: 1963.41
+  text: No, I mean, I, I took some notes. I gotta run here, guys. I appreciate the, the time today. I just, I have another meeting here that I'm late for, but I did, like, I find this very valuable and I appreciate the time that you guys take to, to discuss these, these items and these things. And it is a huge creative Outlet for me. I'm not like. And I. I know it's coding and stuff like that, but I think some people misunderstand how creative this is. It's just. It's not. It's not art, it's not music, but it is definitely creative. So I, I do appreciate that.
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 1963.89
+  t_end: 1970.69
+  text: No problem Scott. Take care. I've got a scoop to it. I need some time before a 12 o' clock meeting got dropped.
+- id: u99
+  speaker: David Olsson
+  t_start: 1972.53
+  t_end: 1974.69
+  text: All right. Seem to be crashing so that's cool.
+- id: u100
+  speaker: David Olsson
+  t_start: 1980.13
+  t_end: 1984.85
+  text: So that was. That was good. Pump up the volume on not being a programmer anymore.
+- id: u101
+  speaker: Hanif Janmohamed
+  t_start: 1985.57
+  t_end: 1989.25
+  text: But tell you what, welcome to resting in peace.
+- id: u102
+  speaker: David Olsson
+  t_start: 1989.51
+  t_end: 2040.0
+  text: Think that it's still super powerful. It's still incredibly powerful. And right now it's about finding places, you know, in business where there's an opportunity. Fulvio's point about it changes a lot of things to the ecosystem. It's with significantly the decision making process is screwed across all business and so that's that. That doesn't allow for a lot of innovation at the right level. But by being able to show more tactical level of tactical tangible value like not just talk to it, things get better too. But what I was trying to show there with a network graph was. Was how to work with nodes and so yeah nouns and verbs.
+- id: u103
+  speaker: David Olsson
+  t_start: 2054.65
+  t_end: 2057.53
+  text: I should ransom my team for a. For a computer.
+- id: u104
+  speaker: Hanif Janmohamed
+  t_start: 2062.01
+  t_end: 2063.77
+  text: Self interest. Gotta get in there.
+- id: u105
+  speaker: Fulvio Ciano
+  t_start: 2064.09
+  t_end: 2064.59
+  text: Yeah.
+- id: u106
+  speaker: David Olsson
+  t_start: 2065.77
+  t_end: 2067.06
+  text: Self it don't crash as much.
+- id: u107
+  speaker: Hanif Janmohamed
+  t_start: 2069.22
+  t_end: 2076.9
+  text: Looks bad. That's a good reason or could say looks good too.
+- id: u108
+  speaker: David Olsson
+  t_start: 2077.38
+  t_end: 2101.02
+  text: It looks good to me. I know it doesn't look good. I. When I have to present for people like I do it shortly I guess with undraft. Yeah 10. Yeah. I'll. I'll reboot right beforehand an issue. Everything turned off because I crashed so have to reboot.
+- id: u109
+  speaker: Hanif Janmohamed
+  t_start: 2105.98
+  t_end: 2109.1
+  text: Well network graphs are super salient for.
+- id: u110
+  speaker: David Olsson
+  t_start: 2109.98
+  t_end: 2143.03
+  text: Yeah. Yeah. That's why I was kind of trying to bring it up and make it relate but right now the LLM isn't using the graph I'm creating it but the data that it's created synthetic data. So it's super easy and clean. How did this happen? Like I'm looking at it like it worked. That should not work. This should not work. From what I understand it's not like yeah it worked because you said creates synthetic data and then it didn't have any problem processing it. So yeah.
+- id: u111
+  speaker: Hanif Janmohamed
+  t_start: 2143.43
+  t_end: 2144.55
+  text: Insider knowledge.
+- id: u112
+  speaker: David Olsson
+  t_start: 2145.04
+  t_end: 2175.56
+  text: Well and so taking a data set of questions and answers and building it into the right structure. The JSON file is the previous step which is where the agents have a ton of value. Right. Taking data and saying structure Properly. And that's kind of what Scott was getting at is like people don't like documents, they want to know about them, they don't want to know how to read all of them to get to about them. And so he's. He's right in that regard. There's a big opportunity there. Let's see.
+- id: u113
+  speaker: David Olsson
+  t_start: 2183.74
+  t_end: 2224.17
+  text: Yeah, there's. I seriously, when I found the auto approve button, I'm like, I use it and then it went up to like $40 of cost that day. I'm like, well, tone it down a bit. I built a whole lot though. It built a full app. And, and yeah, the. The big thing is whatever we would build, we would build it such that the specification is your IP and nothing. You don't care about anything else. You care about the data as a result of people interacting. But the app, the application itself will be rebuilt probably from scratch a number of times.
+- id: u114
+  speaker: Hanif Janmohamed
+  t_start: 2224.57
+  t_end: 2225.07
+  text: Yeah.
+- id: u115
+  speaker: David Olsson
+  t_start: 2225.85
+  t_end: 2234.73
+  text: And that's just the reality of it. And I'm really quite confident about this new process that is just. I use the LLMs to create this spec.
+- id: u116
+  speaker: Hanif Janmohamed
+  t_start: 2236.01
+  t_end: 2237.61
+  text: Yeah, that's pretty amazing.
+- id: u117
+  speaker: David Olsson
+  t_start: 2237.85
+  t_end: 2238.49
+  text: From the spec.
+- id: u118
+  speaker: Hanif Janmohamed
+  t_start: 2238.65
+  t_end: 2240.09
+  text: It totally makes sense too.
+- id: u119
+  speaker: Fulvio Ciano
+  t_start: 2240.25
+  t_end: 2240.75
+  text: It does.
+- id: u120
+  speaker: David Olsson
+  t_start: 2240.61
+  t_end: 2241.11
+  text: Because.
+- id: u121
+  speaker: Hanif Janmohamed
+  t_start: 2240.89
+  t_end: 2241.81
+  text: Obvious, right?
+- id: u122
+  speaker: David Olsson
+  t_start: 2241.81
+  t_end: 2242.71
+  text: It's. It's.
+- id: u123
+  speaker: Hanif Janmohamed
+  t_start: 2242.65
+  t_end: 2244.09
+  text: You're half doing it anyway.
+- id: u124
+  speaker: David Olsson
+  t_start: 2244.17
+  t_end: 2260.8
+  text: Yeah, I know. I'm like, okay, spend the time on this. I'm like, oh, it's so much work. You know, I spent hours on them and I'm like, well, if you just prompt it, it knows the pattern fairly well. And then you just keep prompting it into place and as soon as you have the plan or the spec, then do a phased plan.
+- id: u125
+  speaker: Hanif Janmohamed
+  t_start: 2261.92
+  t_end: 2279.95
+  text: Yeah. My worry with a little bit is just doing the little things that I've been doing. There's a lot of cruft in the mix. You know, stuff is generated and then ignored and then it's still. And then shows up somehow. Magic was in the middle of somewhere else. It's like, where did that come from?
+- id: u126
+  speaker: David Olsson
+  t_start: 2280.83
+  t_end: 2321.28
+  text: Yeah, so I'm noticing that Cursor particularly and actually all three Windsurf, Cursor and Klein, they all do really well with that now. And the tooling is very good if you give it, you know, enough oomph. And so that's why I'm spending extra time by giving it extra context so the context larger and so it's sending up more files. And I'm like, well, it's. The results are proof that that really does work, man. And, and that allows me to not do as many. Right. It's. It's. I'm still. I would still be using the Same amount of tokens, probably because I'm still fixing it. But what I'm not doing is it. It's a kind of a grinding experience.
+- id: u127
+  speaker: Hanif Janmohamed
+  t_start: 2322.32
+  t_end: 2326.36
+  text: Yeah, it's really, it's like you're away at it, you're kicking away like.
+- id: u128
+  speaker: David Olsson
+  t_start: 2326.36
+  t_end: 2360.07
+  text: And if you. It can be gratifying when it works, but it doesn't work work fast. And so yeah, this process of phasing it in works better. Works really well no matter what the size of something is. And it doesn't work inside something like lovable. Right. It doesn't have. It's trying to do all the work for you. And. But if you do it inside the ide, even if you don't know how to program and you do it inside the ide, it will pay attention to that plan because it knows that it can only do confidently about 750 lines of code.
+- id: u129
+  speaker: Hanif Janmohamed
+  t_start: 2360.39
+  t_end: 2360.89
+  text: Right.
+- id: u130
+  speaker: David Olsson
+  t_start: 2361.35
+  t_end: 2366.31
+  text: Until you open it up wider. And that's what I did. Opened up to be like 3,000.
+- id: u131
+  speaker: Hanif Janmohamed
+  t_start: 2368.95
+  t_end: 2369.45
+  text: Large.
+- id: u132
+  speaker: David Olsson
+  t_start: 2369.67
+  t_end: 2373.87
+  text: 40 bucks. I'm like, well, I. 40 bucks, man.
+- id: u133
+  speaker: Hanif Janmohamed
+  t_start: 2373.87
+  t_end: 2376.31
+  text: Like, seriously, try it, see what happens.
+- id: u134
+  speaker: David Olsson
+  t_start: 2376.31
+  t_end: 2424.65
+  text: It was like, okay. And then. And if, you know, and, and that what I was building was very vital and actually worked. It was like, okay, so I have a piece of tech that's underlying now. And so I'm not going to waste a lot of grinding in the background time doing that. But this thing that I built here, I did the same thing with. I have it on maximum thinking and I'll do the survey data, see if it works. Oh, sas. Okay, so, okay, so now the data is here so you can see it. So it's in this structure now inside a knowledge graph. And these are the entity types. See the graph here? Turn it on and off. And it has some interactivity. And I didn't know how to describe any interactivity because I didn't know what I would be doing in the browser.
+- id: u135
+  speaker: Fulvio Ciano
+  t_start: 2424.65
+  t_end: 2425.15
+  text: Yeah.
+- id: u136
+  speaker: Hanif Janmohamed
+  t_start: 2424.93
+  t_end: 2426.53
+  text: Once you see it, then you can do it.
+- id: u137
+  speaker: David Olsson
+  t_start: 2426.53
+  t_end: 2442.9
+  text: And so I'm like, the visualization, it's not how you can interact with it. Right. And so it's meant to be this. It's meant to be like, what type of data do I have? And the idea is it's sending the state of the graph, but it's not sending the state of the drive.
+- id: u138
+  speaker: Scott Morton
+  t_start: 2444.74
+  t_end: 2445.24
+  text: Because.
+- id: u139
+  speaker: David Olsson
+  t_start: 2445.06
+  t_end: 2448.1
+  text: It'S giving me a very generic description.
+- id: u140
+  speaker: Hanif Janmohamed
+  t_start: 2448.66
+  t_end: 2449.16
+  text: Right.
+- id: u141
+  speaker: David Olsson
+  t_start: 2449.94
+  t_end: 2457.3
+  text: So you're, let's say it's determined what to determine. So it's not in there. It's not giving me what's in there.
+- id: u142
+  speaker: Hanif Janmohamed
+  t_start: 2458.1
+  t_end: 2460.18
+  text: Yeah, it's abstract into that.
+- id: u143
+  speaker: David Olsson
+  t_start: 2460.18
+  t_end: 2483.7
+  text: It's Abstract. So it is attached and it does have works on it in it. And yeah, it has. It came like it's coming. I have a stock number of agents now that comes with. So I know that it's functioning. It's just not. It's not attaching the parts of their work. We got a graph and we got a chatbot, and they're not.
+- id: u144
+  speaker: Hanif Janmohamed
+  t_start: 2486.26
+  t_end: 2494.49
+  text: Only matter. That's the only matter. Like, okay, matter of minutes we're working.
+- id: u145
+  speaker: David Olsson
+  t_start: 2494.49
+  t_end: 2511.09
+  text: Yeah, no, that was it. He's like, okay, no, no. So I gotta put it aside for now. That was something I did last night. So I. It was like, okay. It wasn't. I don't know enough about how to drive it yet, but I can see that this would be the way to do the analysis.
+- id: u146
+  speaker: Hanif Janmohamed
+  t_start: 2511.41
+  t_end: 2511.91
+  text: Right.
+- id: u147
+  speaker: David Olsson
+  t_start: 2511.73
+  t_end: 2535.24
+  text: Is to. Is to. Is to, you know, all the conversations of a certain kind, and then you put them into a standardized format or whatever. You know, everything's a conversation, but whatever the, you know, the memes are that you pull out of it, they're in a standardized format. And that's your data set. Yeah, yeah, whatever. Whatever you want to categorize it as is like a question answer or just like it's. They're pairs, generally.
+- id: u148
+  speaker: Hanif Janmohamed
+  t_start: 2535.24
+  t_end: 2544.79
+  text: Yeah. And I think once you have some of that data, I think also that reveals, you know, how you might create patterns and so on.
+- id: u149
+  speaker: David Olsson
+  t_start: 2545.11
+  t_end: 2554.65
+  text: Yeah. So the big part is figuring out. So when you have the source, which is the conversation, is to figure out the agents, you want to then pull out those things to create your knowledge set. Right.
+- id: u150
+  speaker: Hanif Janmohamed
+  t_start: 2555.43
+  t_end: 2556.71
+  text: Well, I was looking at.
+- id: u151
+  speaker: David Olsson
+  t_start: 2558.79
+  t_end: 2581.35
+  text: If you wanted a curiosity database, you have them looking at it for curiosities. And so you would define what a curiosity is. And then you say look at different types and categorize them. And then that's how it would start building a corpus work. The JSON's easy to read, so you can look at it before it even processes it. And you're like, oh, continue though.
+- id: u152
+  speaker: Hanif Janmohamed
+  t_start: 2581.99
+  t_end: 2589.27
+  text: Yeah, no, I was just saying I started to look at, you know, extracting personality information from the conversation.
+- id: u153
+  speaker: David Olsson
+  t_start: 2589.35
+  t_end: 2590.03
+  text: Oh, yeah, yeah.
+- id: u154
+  speaker: Hanif Janmohamed
+  t_start: 2590.03
+  t_end: 2592.71
+  text: And that's the thing, you know, it's. It's pretty evolved.
+- id: u155
+  speaker: David Olsson
+  t_start: 2592.95
+  t_end: 2608.89
+  text: Yes. The way I use it, our mixture of experts. And so you define. So what it is, is that you can find markers for behavior traits. And so you define the behavior and then you define the trait, and then you look for the markers of the trait.
+- id: u156
+  speaker: Hanif Janmohamed
+  t_start: 2608.89
+  t_end: 2615.17
+  text: That's right. And it's. Yeah. And it's kind of pretty sophisticated already.
+- id: u157
+  speaker: David Olsson
+  t_start: 2615.49
+  t_end: 2625.73
+  text: Yeah, no, it works quite well with the LLMs. That's, that's for me. That's why I want long form interviews. You have long form interviews. You can really slice and dice it. Yeah.
+- id: u158
+  speaker: Hanif Janmohamed
+  t_start: 2625.63
+  t_end: 2633.87
+  text: So my, my thinking with that was, you know, to be able to create a dynamic process for creating personalities based on a conversation.
+- id: u159
+  speaker: David Olsson
+  t_start: 2635.63
+  t_end: 2636.13
+  text: Sure.
+- id: u160
+  speaker: Hanif Janmohamed
+  t_start: 2636.59
+  t_end: 2648.11
+  text: Be kind of cool. The thing with Lovable is they had a free weekend, luckily for me. So I was in there hacking around.
+- id: u161
+  speaker: David Olsson
+  t_start: 2648.84
+  t_end: 2653.0
+  text: But yeah, yeah, you go a long ways with it.
+- id: u162
+  speaker: Hanif Janmohamed
+  t_start: 2653.4
+  t_end: 2671.24
+  text: Yeah, it's. I found my way with it. But I think what I was going to try for the next step is to actually articulate the instructions for Lovable with Chat GPT first.
+- id: u163
+  speaker: David Olsson
+  t_start: 2672.12
+  t_end: 2674.65
+  text: Yeah, no, it's, that's exactly how.
+- id: u164
+  speaker: Hanif Janmohamed
+  t_start: 2674.65
+  t_end: 2676.57
+  text: And then say, yeah, they are.
+- id: u165
+  speaker: David Olsson
+  t_start: 2676.57
+  t_end: 2677.07
+  text: Yeah.
+- id: u166
+  speaker: Hanif Janmohamed
+  t_start: 2677.29
+  t_end: 2684.81
+  text: And then I think I would have list and lifts, you know, because that I think is through the iteration and the sort of discursive way of building.
+- id: u167
+  speaker: David Olsson
+  t_start: 2685.53
+  t_end: 2687.31
+  text: It has a chat mode. So.
+- id: u168
+  speaker: Hanif Janmohamed
+  t_start: 2687.17
+  t_end: 2690.569
+  text: Yeah, I use, I use a chat mode too.
+- id: u169
+  speaker: David Olsson
+  t_start: 2690.73
+  t_end: 2693.69
+  text: And to get it to explain how it functions.
+- id: u170
+  speaker: Hanif Janmohamed
+  t_start: 2694.41
+  t_end: 2700.03
+  text: Yeah. And it walks through the steps and then you can say implement or don't. But I. Yeah.
+- id: u171
+  speaker: David Olsson
+  t_start: 2699.93
+  t_end: 2710.53
+  text: Or even explaining to what you have like seriously under. Under the hood, you're not going to know. And, and so that if it's not working, you're like. Well, that has nothing to do with. Because sometimes it'll do something.
+- id: u172
+  speaker: Hanif Janmohamed
+  t_start: 2710.53
+  t_end: 2711.05
+  text: Yeah, I know.
+- id: u173
+  speaker: David Olsson
+  t_start: 2711.05
+  t_end: 2714.65
+  text: It's like outrageous. And you're like, you just built a whole lot. Oh my God.
+- id: u174
+  speaker: Hanif Janmohamed
+  t_start: 2714.65
+  t_end: 2717.05
+  text: You just took it apart. We didn't say take it apart.
+- id: u175
+  speaker: David Olsson
+  t_start: 2717.05
+  t_end: 2736.15
+  text: Yeah, yeah, yeah. So you're like. Every now and then I'm like, how is this working? Because Will, even in my id, sometimes it changes and like get dropped. Revert, Rephrase this to like be. But I really do recommend the chat thing now every now and then.
+- id: u176
+  speaker: Hanif Janmohamed
+  t_start: 2736.15
+  t_end: 2738.99
+  text: Just check. Yeah, I learned that the hard way.
+- id: u177
+  speaker: David Olsson
+  t_start: 2741.71
+  t_end: 2753.79
+  text: We all do, man. Hey, Hanif, I'm gonna, I'm gonna cut it short here today, 845because I, I being picked up to go away and I got two meetings.
+- id: u178
+  speaker: Fulvio Ciano
+  t_start: 2757.08
+  t_end: 2757.58
+  text: Yeah.
+- id: u179
+  speaker: David Olsson
+  t_start: 2757.8
+  t_end: 2764.16
+  text: But. Oh, I am away tomorrow. So if we could pick up Friday afternoon.
+- id: u180
+  speaker: Hanif Janmohamed
+  t_start: 2764.16
+  t_end: 2767.2
+  text: That's next Thursday or Friday, whatever, whatever you like.
+- id: u181
+  speaker: David Olsson
+  t_start: 2767.2
+  t_end: 2767.72
+  text: Okay.
+- id: u182
+  speaker: Hanif Janmohamed
+  t_start: 2769.16
+  t_end: 2772.44
+  text: We did get the, we did get the application in on Monday.
+- id: u183
+  speaker: David Olsson
+  t_start: 2772.76
+  t_end: 2785.57
+  text: Great. That's right. Yeah, that was on the 16th. Well, and congratulations, milestone made. So next thing. What is it? Yeah, so you're building, so we're building.
+- id: u184
+  speaker: Hanif Janmohamed
+  t_start: 2785.57
+  t_end: 2786.21
+  text: So I'm.
+- id: u185
+  speaker: David Olsson
+  t_start: 2787.17
+  t_end: 2805.65
+  text: That was going to be my comment. You know, we don't have much to talk about right now. We got everything to build and so that's What I wanted to predicate but you know, me being in an efficient camp, like not efficient, off grid is. It's not going to allow me for a computer other than phone. So Friday afternoon is probably the earliest and I'll.
+- id: u186
+  speaker: Hanif Janmohamed
+  t_start: 2805.97
+  t_end: 2810.43
+  text: I think whatever work works for you, I mean if you want to push it off to next week, that's good too.
+- id: u187
+  speaker: David Olsson
+  t_start: 2810.59
+  t_end: 2819.63
+  text: I'll let you know. But no worries because everybody else is because people have things to do as well. So me going away for three full days is.
+- id: u188
+  speaker: Hanif Janmohamed
+  t_start: 2822.11
+  t_end: 2823.07
+  text: It's a luxury.
+- id: u189
+  speaker: David Olsson
+  t_start: 2823.23
+  t_end: 2827.65
+  text: It's a luxury. Right. And I am probably gonna go away again. So. Yeah.
+- id: u190
+  speaker: Hanif Janmohamed
+  t_start: 2829.39
+  t_end: 2835.35
+  text: Don'T worry about it. We can happily. There's nothing to good things to do. I'm working away.
+- id: u191
+  speaker: David Olsson
+  t_start: 2835.51
+  t_end: 2859.03
+  text: Yeah, no, no. What do I want to do is say there are things to do, is that there, there needs to be things and I want to be getting on the wheel with that because you have momentum now with building the website and you can start extending it. And what you've seen what I wanted to show you with the chat, the Libra chat thing is you can build your agents in there and you permanently have them in there and you can iterate on them and you can have like one talk to the like, you can do all that stuff and it's a UI and you can learn the UI.
+- id: u192
+  speaker: Hanif Janmohamed
+  t_start: 2859.52
+  t_end: 2861.28
+  text: All right, well, I'll check out LibreChat.
+- id: u193
+  speaker: David Olsson
+  t_start: 2861.28
+  t_end: 2864.8
+  text: In the meantime, but you can run it on your own machine.
+- id: u194
+  speaker: Hanif Janmohamed
+  t_start: 2865.12
+  t_end: 2865.76
+  text: Okay.
+- id: u195
+  speaker: David Olsson
+  t_start: 2866.0
+  t_end: 2883.2
+  text: And so it runs, you know, and if you're using Ollama on your own machine, eventually using something there's free ones to use, but eventually on your own machine and it's a full system and you're, you don't need an Internet. It's just slow, just like it just reads like when it types, it's just slower.
+- id: u196
+  speaker: Hanif Janmohamed
+  t_start: 2884.64
+  t_end: 2886.96
+  text: Slow is good. We're into slow media here.
+- id: u197
+  speaker: David Olsson
+  t_start: 2887.4
+  t_end: 2890.68
+  text: Yeah. All right.
+- id: u198
+  speaker: Hanif Janmohamed
+  t_start: 2891.08
+  t_end: 2892.52
+  text: Okay. Have a good trip.
+- id: u199
+  speaker: David Olsson
+  t_start: 2892.6
+  t_end: 2893.1
+  text: Thanks.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  text: Morning. Morning. How you doing? Good. Do I get to tease you again about not phoning me and. Yeah, yeah, you do. Following up with me. I mean, you're like 25 kilometers away from me, and. Yeah, I got crushed. I understand. I get it. I'm just bugging you. Yeah. I appreciate the form that you. You've created here. Honestly, David, I think it's. I think it's just me and you online, right? Like, there' yeah, yeah. Nobody else right now, but, yeah, no, I appreciate you. You attending and. Yeah, being on the road is new, and I'm not very good at it right now in terms of making sure I did all the communications that I wanted to, and I'm gonna be off again here later today. So that's reality, but that's how it goes. But I think we're getting better at describing what, you know, I want to talk to you about when it comes to aimqc. And FOLIO is in the room now, and we'll set up a separate meeting to discuss that component because we're getting involved with a few more companies, and then we're seeing a few perspectives, but we'll take that one offline because it's very specific to some of the things you said, 3D and whatnot. And. And we're. We're making.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Following up with me. I mean, you're like 25 kilometers away from me, and. Yeah, I got crushed. I understand. I get it. I'm just bugging you. Yeah. I appreciate the form that you. You've created here. Honestly, David, I think it's. I think it's just me and you online, right? Like, there' yeah, yeah. Nobody else right now, but, yeah, no, I appreciate you. You attending and. Yeah, being on the road is new, and I'm not very good at it right now in terms of making sure I did all the communications that I wanted to, and I'm gonna be off again here later today. So that's reality, but that's how it goes. But I think we're getting better at describing what, you know, I want to talk to you about when it comes to aimqc. And FOLIO is in the room now, and we'll set up a separate meeting to discuss that component because we're getting involved with a few more companies, and then we're seeing a few perspectives, but we'll take that one offline because it's very specific to some of the things you said, 3D and whatnot. And. And we're. We're making. Well, I hope that helps, guys. Like, honestly, like, I have a lot of the technical background and that sort of thing, and. And I mean, you guys are helping me on the AI side. I'm happy to work with you and help you guys on the technical side. It just, like, you can't do it alone. You really. Yeah. No, and what. What's becoming evident is, like, how we do it is the way that we collaborate. We're learning how to do that with also the speed of the tools that we have learning. And then education at the same time, as you know, is just fucking phenomenal. Yeah. But it seems to be happening. So I have a. I have a really technical question for you guys. So I've been to, you know, three or four meetings and. And maybe more. I can't remember. But. But one of the. Yeah, this was. This is. This was what you pulled up there last time. There was another one that you pulled up, another interface where you pulled up and you could select the models or it would generate models or something like that that it would. Or chatbots that it thinks that you need or whatever. And so, like I said, my background in computer science is very minimal. I took a bunch of courses and went through Lighthouse Labs, and I Do some development. But this is stuff I'm really interested and passionate in, and I think I have a way to monetize this, which I'm happy to talk about with you guys for. For the. For the Alberta government.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  text: No, and what. What's becoming evident is, like, how we do it is the way that we collaborate. We're learning how to do that with also the speed of the tools that we have learning. And then education at the same time, as you know, is just fucking phenomenal. Yeah. But it seems to be happening. So I have a. I have a really technical question for you guys. So I've been to, you know, three or four meetings and. And maybe more. I can't remember. But. But one of the. Yeah, this was. This is. This was what you pulled up there last time. There was another one that you pulled up, another interface where you pulled up and you could select the models or it would generate models or something like that that it would. Or chatbots that it thinks that you need or whatever. And so, like I said, my background in computer science is very minimal. I took a bunch of courses and went through Lighthouse Labs, and I Do some development. But this is stuff I'm really interested and passionate in, and I think I have a way to monetize this, which I'm happy to talk about with you guys for. For the. For the Alberta government. And. And I. Because I work in that world and I know the issues and the problems and. And, you know, and I also have a lot of friends there that struggle. So I guess what I tried to do this week on, you know, based on our conversation last week, was I tried to overlay and I did, I did. I took your suggestion, David. I asked the AI bot how to do this. Like, I asked ChatGPT how to do this, and it gave me two different ways. One way was the way that I'd done it, right, with the full stack development, create an app. And then. But then there is another way where it said that I could connect to chat GPT's API, which I was not aware of. And because what I wanted to do is I wanted to create, like a custom GPT, right, with rules and regulations and things that I needed it to do. And then I asked. I was like, okay, well, I'm doing this. I'll create this GPT and I could put all my rules and regulations in and upload the training files and all that sort of stuff. And then I. And then I asked GPT, I'm like, okay, how do you monetize this? Like, how is it monetized? And they're like, oh, no, you just share it for free. I'm like, no, no, I don't want to do that. I want. I want to monetize it. And so it gave me two options to monetize it. One was the two that I explained. One is like, make an application and then embed your GPT that way, which I'm leaning towards. It's not my favorite. But then there is another way that.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  text: And I. Because I work in that world and I know the issues and the problems and. And, you know, and I also have a lot of friends there that struggle. So I guess what I tried to do this week on, you know, based on our conversation last week, was I tried to overlay and I did, I did. I took your suggestion, David. I asked the AI bot how to do this. Like, I asked ChatGPT how to do this, and it gave me two different ways. One way was the way that I'd done it, right, with the full stack development, create an app. And then. But then there is another way where it said that I could connect to chat GPT's API, which I was not aware of. And because what I wanted to do is I wanted to create, like a custom GPT, right, with rules and regulations and things that I needed it to do. And then I asked. I was like, okay, well, I'm doing this. I'll create this GPT and I could put all my rules and regulations in and upload the training files and all that sort of stuff. And then I. And then I asked GPT, I'm like, okay, how do you monetize this? Like, how is it monetized? And they're like, oh, no, you just share it for free. I'm like, no, no, I don't want to do that. I want. I want to monetize it. And so it gave me two options to monetize it. One was the two that I explained. One is like, make an application and then embed your GPT that way, which I'm leaning towards. It's not my favorite. But then there is another way that. What's the downside to that, by the way? What's the downside to that way? Yeah, that's what I wanted to talk about. Yeah. Because. Sorry, didn't mean to jump ahead. He's so good at that. He's always reading. He's. He's anticipating what I'm asking, which is perfect. And then the other one was the connect to the Connect GPT with an API and run it that way. And there was some weird instructions on how to. But I was like, I don't think they're going to be able to connect directly to my custom GPT that I've made. You're just literally connecting to Chatgpt So I excluded that immediately. And then of course, you know, what's the downside of the application? And this is, this is where I am. So, so please discuss, help me out here.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  text: Yeah, that's what I wanted to talk about. Yeah. Because. Sorry, didn't mean to jump ahead. He's so good at that. He's always reading. He's. He's anticipating what I'm asking, which is perfect. And then the other one was the connect to the Connect GPT with an API and run it that way. And there was some weird instructions on how to. But I was like, I don't think they're going to be able to connect directly to my custom GPT that I've made. You're just literally connecting to Chatgpt So I excluded that immediately. And then of course, you know, what's the downside of the application? And this is, this is where I am. So, so please discuss, help me out here. Well, the question, Please, go ahead. I know what the downside is for me. I know what the downside is for me. I don't know what you're thinking, so I'd like to hear your thoughts. Downside is the work in building the application. That's the downside. That's exactly, that's the top level. Encompass all, capture. Capture all the pain in one statement. Yeah, that's the, that's the. Well, there is a second pain, by the way. The maintenance. The maintenance as well. Well, the operations of the application. So like, like there's building the application and then operating or, or, you know, serving or hosting and, and, and in that is also what the one you mentioned, which is maintaining. Right. So. But realistically, the reason that's there is because, not entirely, but because, you know, a criteria you, you placed on it kind of forces you that way. And that is you want to monetize it, right?
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  text: Downside is the work in building the application. That's the downside. That's exactly, that's the top level. Encompass all, capture. Capture all the pain in one statement. Yeah, that's the, that's the. Well, there is a second pain, by the way. The maintenance. The maintenance as well. Well, the operations of the application. So like, like there's building the application and then operating or, or, you know, serving or hosting and, and, and in that is also what the one you mentioned, which is maintaining. Right. So. But realistically, the reason that's there is because, not entirely, but because, you know, a criteria you, you placed on it kind of forces you that way. And that is you want to monetize it, right? Yes. So the instant you want to monetize it, not the instant, there are other reasons, but, you know, because you want to monetize it and then because you wanted to use your, your tuned model. Right? Your tuned and, and constrained is another way because it's not just about tuning, it's about constraining. Right. Then you're pretty much, you really aren't charging for the LLM, right. You're charging for the application and built into the charges for the application is the LLM. So I mean, I think like I said, it's a very reductive description of what the thing is. But I will tell you as much as that is the paint, that is the challenge with that approach. Yes, I definitely do a challenge because it's pretty easy to overcome with the sudden tools. So like yours, you know, your, your, the thing you said early on was like, I'm not a developer. Right. You know. Yeah, soon no one will be, Scott. So don't worry. I know no one's going to be a developer much longer. And I've been at it, you know, look, I, I was, I've been at it a long time. I'm 57. I think there might be a couple of guys in here who older than me. But, you know, I was doing it commercially, you know, in machine code when I was 18. So, you know, I, I'm not happy about the fact that, you know, well, I am and I'm not. It's a very bittersweet thing, right, that I really will not be that kind of developer anymore. Right.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  text: So the instant you want to monetize it, not the instant, there are other reasons, but, you know, because you want to monetize it and then because you wanted to use your, your tuned model. Right? Your tuned and, and constrained is another way because it's not just about tuning, it's about constraining. Right. Then you're pretty much, you really aren't charging for the LLM, right. You're charging for the application and built into the charges for the application is the LLM. So I mean, I think like I said, it's a very reductive description of what the thing is. But I will tell you as much as that is the paint, that is the challenge with that approach. Yes, I definitely do a challenge because it's pretty easy to overcome with the sudden tools. So like yours, you know, your, your, the thing you said early on was like, I'm not a developer. Right. You know. Yeah, soon no one will be, Scott. So don't worry. I know no one's going to be a developer much longer. And I've been at it, you know, look, I, I was, I've been at it a long time. I'm 57. I think there might be a couple of guys in here who older than me. But, you know, I was doing it commercially, you know, in machine code when I was 18. So, you know, I, I'm not happy about the fact that, you know, well, I am and I'm not. It's a very bittersweet thing, right, that I really will not be that kind of developer anymore. Right. Well, that's the key. That's the key point, right? That is the very key point. You're not going to be that kind of developer. You're still going to be like all those experiences, all those, that knowledge, all that, all those troubleshooting, you know, those, those concepts and everything, that's all going to still be there and it's all so, so much more useful. You know what I mean? Like, don't discount that at all. I believe, like, yeah, anyone can go on to ChatGPT and pull up some code, but they have no idea how to use it. They have no idea how to deploy it. You can ask how to do it, they'll tell you, but the creative part of developing, that's what you have. That's the difference. That's the benefit that you would get from a person like yourself running. Right. So for me, it's bittersweet, but for you it should just be sweet, right? Oh, it is. Because you don't have to, you don't have to deprecate any of your own, using a very technical term, but you don't have to deprecate any of your skills. Right.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  text: Well, that's the key. That's the key point, right? That is the very key point. You're not going to be that kind of developer. You're still going to be like all those experiences, all those, that knowledge, all that, all those troubleshooting, you know, those, those concepts and everything, that's all going to still be there and it's all so, so much more useful. You know what I mean? Like, don't discount that at all. I believe, like, yeah, anyone can go on to ChatGPT and pull up some code, but they have no idea how to use it. They have no idea how to deploy it. You can ask how to do it, they'll tell you, but the creative part of developing, that's what you have. That's the difference. That's the benefit that you would get from a person like yourself running. Right. So for me, it's bittersweet, but for you it should just be sweet, right? Oh, it is. Because you don't have to, you don't have to deprecate any of your own, using a very technical term, but you don't have to deprecate any of your skills. Right. So, yeah. So, yeah. So you've got to build an application. You've got to build an application. Yep. And, and, and so when I say you the same way, you're telling me you're not going to be doing so much of a building of an application. You're going to be directing tools and LLMs to help you build an application. Right. It's a weird transition, David. And I see this, I would say this realization at least every other meeting we have. Okay. And. Oh, can I say something? Yeah. I felt it again this last week. Oh, my. Crashing. I felt it again this week. I found an auto approve button. Yeah, I, I found that. I took myself out of the loop, man. You want to feel useless? Take yourself out of the loop and watch it actually do its thing for seven hours. I, I've got, I've, I've used. That works. It's. But it's not like, oh, no, I now do it in chunks. Yeah, no, you. So I've learned the pattern to do it, but I just want to say, oh, I know right away, if you do, if you do the good plan and to your point, put it in phases, it'll just do a phase at a time and it will do it right. And I'm like, okay, It's. I just need to spend, like, two more minutes on my planning now. Yeah, and it's like. Okay, that's. That's. That's real, man. That is real.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  text: I took myself out of the loop, man. You want to feel useless? Take yourself out of the loop and watch it actually do its thing for seven hours. I, I've got, I've, I've used. That works. It's. But it's not like, oh, no, I now do it in chunks. Yeah, no, you. So I've learned the pattern to do it, but I just want to say, oh, I know right away, if you do, if you do the good plan and to your point, put it in phases, it'll just do a phase at a time and it will do it right. And I'm like, okay, It's. I just need to spend, like, two more minutes on my planning now. Yeah, and it's like. Okay, that's. That's. That's real, man. That is real. Yeah, it's awesome. So. So, yeah. So, I mean, you know, that's not a long, hard discussion, right? You're. You. You need to build an application. And. And, yeah, and. And that's what I came. That was my. That was my. That was my conclusion as well, was build the application and embed the, Embed the. The GPT into. Into the application. Yeah. Maybe the right term, but access the GPT via the application. I'm not very technical, but yeah, sure, it's okay. Just, just because, like, you know, you realize that you're. You're. You're. You're trans your model, right? Like, your AI will not be in the application. No, it'll be whichever model, and it'll be. And it'll be, for lack of a better, more precise word, you know, hard coded which model your application will use so that you're gaining the benefits of the model that you've tuned or primed for the value your application will give. And so, you know, everybody. And this is the race, right? And the race right now, this is really. This is really the problem. Like, we're talking to someone yesterday, David and I. Right. About someone who wants to build this thing and he needs to build an application, too. But there will be a moment, and I worry about this. I. Shall I say I'm losing sleep. No, I'm. I don't know if I'm losing sleep. I'm thinking about it a lot. There will be a moment, though, and I don't know how far that moment is where this need to build an application goes away. Right.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  text: Just, just because, like, you know, you realize that you're. You're. You're. You're trans your model, right? Like, your AI will not be in the application. No, it'll be whichever model, and it'll be. And it'll be, for lack of a better, more precise word, you know, hard coded which model your application will use so that you're gaining the benefits of the model that you've tuned or primed for the value your application will give. And so, you know, everybody. And this is the race, right? And the race right now, this is really. This is really the problem. Like, we're talking to someone yesterday, David and I. Right. About someone who wants to build this thing and he needs to build an application, too. But there will be a moment, and I worry about this. I. Shall I say I'm losing sleep. No, I'm. I don't know if I'm losing sleep. I'm thinking about it a lot. There will be a moment, though, and I don't know how far that moment is where this need to build an application goes away. Right. I'm waiting for that moment. Well, I don't know. I mean, next week, man. I'm sorry, David. It's like, next week. Well, I mean, I. I don't know what it is. It could. I mean, it's. I know. I'm gonna look at my watch. I don't know. It's just being silly. It could have happened and we don't know. Right? Yeah. Literally that close. Because. Yeah. I realized this this morning is like the AI is. We've unfortunately tripped into the path of. Of teaching the AI how to code so that we can increasingly. And I'm doing it. And this is another thing to feel to your fire earlier, to increasingly give it more control. I'm happy that I'm capable of doing that, and I'm enabling It to have more application control now, and it's learning how to do that because I'm building that into it. What's happening is it's getting the capabilities increasingly more and more by enabling people like Philiani, you guys to be able to program and use the tools to then say, yeah, I just need the query, I will tool it out now myself. Because in the ide, if it doesn't have a tool, it builds it. In Python, if it doesn't have it, it builds it. This delegator that I built, it was my realization that that's it, I've done it, I have superseded myself. It's the same thing. It builds its own tools. So that's it. That's it. That's it.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  text: Literally that close. Because. Yeah. I realized this this morning is like the AI is. We've unfortunately tripped into the path of. Of teaching the AI how to code so that we can increasingly. And I'm doing it. And this is another thing to feel to your fire earlier, to increasingly give it more control. I'm happy that I'm capable of doing that, and I'm enabling It to have more application control now, and it's learning how to do that because I'm building that into it. What's happening is it's getting the capabilities increasingly more and more by enabling people like Philiani, you guys to be able to program and use the tools to then say, yeah, I just need the query, I will tool it out now myself. Because in the ide, if it doesn't have a tool, it builds it. In Python, if it doesn't have it, it builds it. This delegator that I built, it was my realization that that's it, I've done it, I have superseded myself. It's the same thing. It builds its own tools. So that's it. That's it. That's it. Great chat. So that's, you know, it is the, it is the beginning of that path and it has laid it down and we're grooming it increasingly fast. And I've seen how to do it, and I know Folvio does too, and we're going to be going there, and so it will supersede us in a year as knowledge workers. And so getting on board with what it means to be the delegator in your world, it'll really give us all advantage. It's going to take a while for this to really supersede some of the industries, but it will, it will devour software within 18 months.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  text: So that's, you know, it is the, it is the beginning of that path and it has laid it down and we're grooming it increasingly fast. And I've seen how to do it, and I know Folvio does too, and we're going to be going there, and so it will supersede us in a year as knowledge workers. And so getting on board with what it means to be the delegator in your world, it'll really give us all advantage. It's going to take a while for this to really supersede some of the industries, but it will, it will devour software within 18 months. Yeah, I think 18 months is a very good prediction. You know, there'll be little, There'll be, There'll be crumbs left around here and there. Right? Yeah, yeah, Just, just. I'm just gonna nod and not say anything else. I wonder if it could also be, it could also be sooner, but, but it, it's hard to say. It really is hard to say. And I do not know how I'm not worried about my personal adaptation to that. The, the, the disruption comes from the ecosystem adaptation because it's more disruptive as much as it's disruptive to developers. I am shocked, David, by the number of developers I have spoken to that are still not using AI. I can't believe that, man. Oh, I know, I know. Are you kidding? I thought everyone would be using. No, there's a ton of them. There's a ton of them. They fall into three categories. Already out of work, right. Going to be out of work. Right. And, and know it and going to be out of work and don't know it. So the, the, the, the developers who aren't using AI fall in those three categories. It's, it's. You know within the distribution within those categories is relatively, I don't know, something even. It's not, it doesn't seem like any one group. There are people in that third category that have no idea they're going to put out. We're very, is it skeptical or dissident about it? Like there are, there are, you know, and what do they know? They're not even using AI, so they, they, they as much as their developers are using AI. So like I disregard them because, you know, they don't know what they're talking about. Like, no matter what, even if they aren't going to be replaced by AI, they're definitely going to be replaced by AI if they're not using AI to do development. That's for sure. That, that's, that's, that's, that's like anyone who bets against me, just give me your money now. Right?
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  text: I thought everyone would be using. No, there's a ton of them. There's a ton of them. They fall into three categories. Already out of work, right. Going to be out of work. Right. And, and know it and going to be out of work and don't know it. So the, the, the, the developers who aren't using AI fall in those three categories. It's, it's. You know within the distribution within those categories is relatively, I don't know, something even. It's not, it doesn't seem like any one group. There are people in that third category that have no idea they're going to put out. We're very, is it skeptical or dissident about it? Like there are, there are, you know, and what do they know? They're not even using AI, so they, they, they as much as their developers are using AI. So like I disregard them because, you know, they don't know what they're talking about. Like, no matter what, even if they aren't going to be replaced by AI, they're definitely going to be replaced by AI if they're not using AI to do development. That's for sure. That, that's, that's, that's, that's like anyone who bets against me, just give me your money now. Right? Yeah. So it, it behooves us to get good at problem solving and to be able to queue up problems and then to, to learn. And so I'm learning effectively from them now because I'm building things like this knowledge graph builder and it's teaching me what the, is going on behind the scenes, which I'm still very upset about not understanding. But it, it is that far advanced where you can describe your problem, it can build a solution and you're like, well, I don't understand the problem. Cool. Now describe how it solves that problem and the application will describe itself to you. So there's this loop that's just incredible now with the idea and using it as a tool for your desktop to organize things is very easy to do. So it's tying in so incredibly well. But there is still this data problem. And the data problem is the fact that it doesn't have context and it doesn't set up context really well. And that's going to take quite a while to play out. The fact that we can program really well up to the level of data is cool, right? At the point of data, we are, we are still figuring that out and going to the energy thing was cool because they're all, they're all about what they call OT Operational Technology, which I called IoT Internet of Things. But that's what they're doing. They're attaching, you know, the Internet to all of the devices and so they have that control. And so once the industry figures out, they can actually replace controllers with really simple agents. There was one company called Alien or Albion or Camper, what they call. But they count their success in the reduction of clicks they do for, for operators. And so operators are the people that sit there and they basically do very little but other than hit things, but they keep things going and that's where they make money. So it's, it's hitting oil and gas in a way that will eventually have a really big impact. But we're involved with it. The level of paper is still experience. Insurance is that way. So we discuss where there is opportunities. And I, Jason's in a great space for this because Google, you know, it dominates in ads and it dominates an office, but it doesn't dominate in commerce in the way that he's trying to dominate. So there are other places too that the knowledge workers will still survive in the way that they can problem solve this, this room can problem solve.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u78
+  text: So it, it behooves us to get good at problem solving and to be able to queue up problems and then to, to learn. And so I'm learning effectively from them now because I'm building things like this knowledge graph builder and it's teaching me what the, is going on behind the scenes, which I'm still very upset about not understanding. But it, it is that far advanced where you can describe your problem, it can build a solution and you're like, well, I don't understand the problem. Cool. Now describe how it solves that problem and the application will describe itself to you. So there's this loop that's just incredible now with the idea and using it as a tool for your desktop to organize things is very easy to do. So it's tying in so incredibly well. But there is still this data problem. And the data problem is the fact that it doesn't have context and it doesn't set up context really well. And that's going to take quite a while to play out. The fact that we can program really well up to the level of data is cool, right? At the point of data, we are, we are still figuring that out and going to the energy thing was cool because they're all, they're all about what they call OT Operational Technology, which I called IoT Internet of Things. But that's what they're doing. They're attaching, you know, the Internet to all of the devices and so they have that control. And so once the industry figures out, they can actually replace controllers with really simple agents. There was one company called Alien or Albion or Camper, what they call. But they count their success in the reduction of clicks they do for, for operators. And so operators are the people that sit there and they basically do very little but other than hit things, but they keep things going and that's where they make money. So it's, it's hitting oil and gas in a way that will eventually have a really big impact. But we're involved with it. The level of paper is still experience. Insurance is that way. So we discuss where there is opportunities. And I, Jason's in a great space for this because Google, you know, it dominates in ads and it dominates an office, but it doesn't dominate in commerce in the way that he's trying to dominate. So there are other places too that the knowledge workers will still survive in the way that they can problem solve this, this room can problem solve.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  text: So it, it behooves us to get good at problem solving and to be able to queue up problems and then to, to learn. And so I'm learning effectively from them now because I'm building things like this knowledge graph builder and it's teaching me what the, is going on behind the scenes, which I'm still very upset about not understanding. But it, it is that far advanced where you can describe your problem, it can build a solution and you're like, well, I don't understand the problem. Cool. Now describe how it solves that problem and the application will describe itself to you. So there's this loop that's just incredible now with the idea and using it as a tool for your desktop to organize things is very easy to do. So it's tying in so incredibly well. But there is still this data problem. And the data problem is the fact that it doesn't have context and it doesn't set up context really well. And that's going to take quite a while to play out. The fact that we can program really well up to the level of data is cool, right? At the point of data, we are, we are still figuring that out and going to the energy thing was cool because they're all, they're all about what they call OT Operational Technology, which I called IoT Internet of Things. But that's what they're doing. They're attaching, you know, the Internet to all of the devices and so they have that control. And so once the industry figures out, they can actually replace controllers with really simple agents. There was one company called Alien or Albion or Camper, what they call. But they count their success in the reduction of clicks they do for, for operators. And so operators are the people that sit there and they basically do very little but other than hit things, but they keep things going and that's where they make money. So it's, it's hitting oil and gas in a way that will eventually have a really big impact. But we're involved with it. The level of paper is still experience. Insurance is that way. So we discuss where there is opportunities. And I, Jason's in a great space for this because Google, you know, it dominates in ads and it dominates an office, but it doesn't dominate in commerce in the way that he's trying to dominate. So there are other places too that the knowledge workers will still survive in the way that they can problem solve this, this room can problem solve. So I have a, I have a quick question. So based on sort of what we've been chatting about and the problem that I presented at the, at the beginning, like I have to build an application and, and get, get it to, to use the AI. Do I spend the time doing that or is it going to be yeah. Or do, or do, yeah, or do. I wait and then, and then it's just gonna do it for me? No, no, no, no, no, no, no, no. There's no value waiting a week. No, no, no, no, no. It's actually good. No, no, it's a good question. I ask myself the question all the time. So the reason isn't. Is because of like the, how do I put it? The discovery or the revelations that David and I have in the process of doing that because we've been building applications. And so you have to stop thinking about it as building an application. That's the key. The key is you're building because you won't be. Well, you won't be. You will be. You will be, you will be building context and requirements, among other things. Right? And then so, but my best analogy is like, you know, you know, does a, does a sheep farmer make sheep? No, no, no, no, no, no. Sheep farmer doesn't make sheep. He grows grass and feeds the sheep. Like, like, you know what I mean? Like he's not assembling sheep. Right? Like it's. Your application should be emergent from the work you're doing because everything is emergent right now. The technology and what it does and how it does it even. And that's the whole tools thing. Right. So what you need to focus on is what do you want? The applicant is code, you know, documenting, rationalizing, testing and describing what you want the application to do and, and changes, anything that changes in the next day, weeks, months, year will not diminish the value of having done that, period. Right.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  text: No, no, no, no, no, no, no, no. There's no value waiting a week. No, no, no, no, no. It's actually good. No, no, it's a good question. I ask myself the question all the time. So the reason isn't. Is because of like the, how do I put it? The discovery or the revelations that David and I have in the process of doing that because we've been building applications. And so you have to stop thinking about it as building an application. That's the key. The key is you're building because you won't be. Well, you won't be. You will be. You will be, you will be building context and requirements, among other things. Right? And then so, but my best analogy is like, you know, you know, does a, does a sheep farmer make sheep? No, no, no, no, no, no. Sheep farmer doesn't make sheep. He grows grass and feeds the sheep. Like, like, you know what I mean? Like he's not assembling sheep. Right? Like it's. Your application should be emergent from the work you're doing because everything is emergent right now. The technology and what it does and how it does it even. And that's the whole tools thing. Right. So what you need to focus on is what do you want? The applicant is code, you know, documenting, rationalizing, testing and describing what you want the application to do and, and changes, anything that changes in the next day, weeks, months, year will not diminish the value of having done that, period. Right. I would agree with that. Yep. And if you do that really well, if you do that really well, the part you're going to offload previously to a bunch of monkeys, coders. Right. Previously to what used to call an agile team. Right. You're going to instead, you know, download indirectly as well, because even that delegation part's going to be done if David gets his way by AI. So you won't have, you won't have to deal with dirty monkeys that throw poop, whether they're, whether they're ugly bags of mostly water or silicone won't matter to you. But you know, that stuff that you need to give them for them to do their job, which is what does the application do? You know, what are, what are the key things that make the application valuable? All that stuff will, will be needed. Even if you, even if you decide to throw the application out one day and build it again. Because you should be using, you know, C instead of job typescript. Right. Or. Yeah. Or whatever. Right. Normally, you know, this is the part that I think AI is most revolutionizing, is rebuilding. And refactoring is just totally a different thing.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  - u85
+  text: No, no, no, no, no, no, no, no. There's no value waiting a week. No, no, no, no, no. It's actually good. No, no, it's a good question. I ask myself the question all the time. So the reason isn't. Is because of like the, how do I put it? The discovery or the revelations that David and I have in the process of doing that because we've been building applications. And so you have to stop thinking about it as building an application. That's the key. The key is you're building because you won't be. Well, you won't be. You will be. You will be, you will be building context and requirements, among other things. Right? And then so, but my best analogy is like, you know, you know, does a, does a sheep farmer make sheep? No, no, no, no, no, no. Sheep farmer doesn't make sheep. He grows grass and feeds the sheep. Like, like, you know what I mean? Like he's not assembling sheep. Right? Like it's. Your application should be emergent from the work you're doing because everything is emergent right now. The technology and what it does and how it does it even. And that's the whole tools thing. Right. So what you need to focus on is what do you want? The applicant is code, you know, documenting, rationalizing, testing and describing what you want the application to do and, and changes, anything that changes in the next day, weeks, months, year will not diminish the value of having done that, period. Right. I would agree with that. Yep. And if you do that really well, if you do that really well, the part you're going to offload previously to a bunch of monkeys, coders. Right. Previously to what used to call an agile team. Right. You're going to instead, you know, download indirectly as well, because even that delegation part's going to be done if David gets his way by AI. So you won't have, you won't have to deal with dirty monkeys that throw poop, whether they're, whether they're ugly bags of mostly water or silicone won't matter to you. But you know, that stuff that you need to give them for them to do their job, which is what does the application do? You know, what are, what are the key things that make the application valuable? All that stuff will, will be needed. Even if you, even if you decide to throw the application out one day and build it again. Because you should be using, you know, C instead of job typescript. Right. Or. Yeah. Or whatever. Right. Normally, you know, this is the part that I think AI is most revolutionizing, is rebuilding. And refactoring is just totally a different thing. Yeah, yeah. Like it's, it's the ultimate code checker. You know what I mean? Like, if you were a coder and you're like, oh, I built this application six years ago. It kind of worked, but there were some bugs, I couldn't find it. You're just like, pull it out of your and put it in. And you're like, oh my God, it works great. Now here's the bug. Please fix this somehow. Right. I'm actually planning to do that with a game that I built probably five years ago.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u84
+  - u85
+  - u86
+  text: And if you do that really well, if you do that really well, the part you're going to offload previously to a bunch of monkeys, coders. Right. Previously to what used to call an agile team. Right. You're going to instead, you know, download indirectly as well, because even that delegation part's going to be done if David gets his way by AI. So you won't have, you won't have to deal with dirty monkeys that throw poop, whether they're, whether they're ugly bags of mostly water or silicone won't matter to you. But you know, that stuff that you need to give them for them to do their job, which is what does the application do? You know, what are, what are the key things that make the application valuable? All that stuff will, will be needed. Even if you, even if you decide to throw the application out one day and build it again. Because you should be using, you know, C instead of job typescript. Right. Or. Yeah. Or whatever. Right. Normally, you know, this is the part that I think AI is most revolutionizing, is rebuilding. And refactoring is just totally a different thing. Yeah, yeah. Like it's, it's the ultimate code checker. You know what I mean? Like, if you were a coder and you're like, oh, I built this application six years ago. It kind of worked, but there were some bugs, I couldn't find it. You're just like, pull it out of your and put it in. And you're like, oh my God, it works great. Now here's the bug. Please fix this somehow. Right. I'm actually planning to do that with a game that I built probably five years ago. So it is coming quickly that the LLMs are adapting to what we're using it for. And so us programming all these things into it, it will supersede some of the programming functionality that you add into your application. And so the pattern for building the application is something that needs to evolve as well. And what I've said about, you know, hitting the auto auto approve and building out plan in phases allows you to limit the exposure of how much it does at a time. And then that allows you to say, okay, when it's done. Now my process is when it's done a phase, it actually does a report. And the report tells me what needs to be done and what can be doing next. And what that got me to Recognizing is that, you know, I'm just acting as an agent. I'm doing some things really well and some things that I'm doing really well. I can get rid of the repetitive tasks that I'm doing, but it is my recipe of things, things, and where does that reside? A lot of the time we're working in ChatGPT and one of the tools that I know that polio has used in the past and I have used in the past and I'm getting reintroduced to it now is Libra chat. And it's really interesting in that it has all the extensibility of what I would want to build into worksona available immediately in the can, to the point where you can build agents in it, you can build workflows, you can attack all your models you like, it does your history of your chats. And so it is pretty extensible as to what it does. And then I'm like, well, I. In a lot of meetings where I'm discussing what works on it is. And basically if anybody talks about it, like my son has and puts up a website, I'm like, he never even talked to me about it. Right. It's worksona IO is just a website about whatever. Whatever agents do. Yeah. It gets bucketed into this category because it can do whatever the other ones do. It just does it in a certain way, and it does it in a way that allows me to build it out quickly and to do it extensively and all the other things. But the apples to apples on it are like, why would I do this? Well, the other ones have a lot of craft, but that's just a choice to make. It's not a competitive advantage. So it's really. Where. Where do you like a competitive advantage? To put it out there as a platform because it's just to compete with the tools that are out there, which themselves came out too early is just not where people are playing. That's why you hear about everybody building their own agent platform, every LLM platform, everybody that's doing anything like that now they have their own agents. And so if you look inside and that's, you know, what I'm doing here. The delegator pattern that I'm building all these patterns around this is like 40 patterns inside categories. Nine categories.
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u86
+  text: So it is coming quickly that the LLMs are adapting to what we're using it for. And so us programming all these things into it, it will supersede some of the programming functionality that you add into your application. And so the pattern for building the application is something that needs to evolve as well. And what I've said about, you know, hitting the auto auto approve and building out plan in phases allows you to limit the exposure of how much it does at a time. And then that allows you to say, okay, when it's done. Now my process is when it's done a phase, it actually does a report. And the report tells me what needs to be done and what can be doing next. And what that got me to Recognizing is that, you know, I'm just acting as an agent. I'm doing some things really well and some things that I'm doing really well. I can get rid of the repetitive tasks that I'm doing, but it is my recipe of things, things, and where does that reside? A lot of the time we're working in ChatGPT and one of the tools that I know that polio has used in the past and I have used in the past and I'm getting reintroduced to it now is Libra chat. And it's really interesting in that it has all the extensibility of what I would want to build into worksona available immediately in the can, to the point where you can build agents in it, you can build workflows, you can attack all your models you like, it does your history of your chats. And so it is pretty extensible as to what it does. And then I'm like, well, I. In a lot of meetings where I'm discussing what works on it is. And basically if anybody talks about it, like my son has and puts up a website, I'm like, he never even talked to me about it. Right. It's worksona IO is just a website about whatever. Whatever agents do. Yeah. It gets bucketed into this category because it can do whatever the other ones do. It just does it in a certain way, and it does it in a way that allows me to build it out quickly and to do it extensively and all the other things. But the apples to apples on it are like, why would I do this? Well, the other ones have a lot of craft, but that's just a choice to make. It's not a competitive advantage. So it's really. Where. Where do you like a competitive advantage? To put it out there as a platform because it's just to compete with the tools that are out there, which themselves came out too early is just not where people are playing. That's why you hear about everybody building their own agent platform, every LLM platform, everybody that's doing anything like that now they have their own agents. And so if you look inside and that's, you know, what I'm doing here. The delegator pattern that I'm building all these patterns around this is like 40 patterns inside categories. Nine categories.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  text: So it is coming quickly that the LLMs are adapting to what we're using it for. And so us programming all these things into it, it will supersede some of the programming functionality that you add into your application. And so the pattern for building the application is something that needs to evolve as well. And what I've said about, you know, hitting the auto auto approve and building out plan in phases allows you to limit the exposure of how much it does at a time. And then that allows you to say, okay, when it's done. Now my process is when it's done a phase, it actually does a report. And the report tells me what needs to be done and what can be doing next. And what that got me to Recognizing is that, you know, I'm just acting as an agent. I'm doing some things really well and some things that I'm doing really well. I can get rid of the repetitive tasks that I'm doing, but it is my recipe of things, things, and where does that reside? A lot of the time we're working in ChatGPT and one of the tools that I know that polio has used in the past and I have used in the past and I'm getting reintroduced to it now is Libra chat. And it's really interesting in that it has all the extensibility of what I would want to build into worksona available immediately in the can, to the point where you can build agents in it, you can build workflows, you can attack all your models you like, it does your history of your chats. And so it is pretty extensible as to what it does. And then I'm like, well, I. In a lot of meetings where I'm discussing what works on it is. And basically if anybody talks about it, like my son has and puts up a website, I'm like, he never even talked to me about it. Right. It's worksona IO is just a website about whatever. Whatever agents do. Yeah. It gets bucketed into this category because it can do whatever the other ones do. It just does it in a certain way, and it does it in a way that allows me to build it out quickly and to do it extensively and all the other things. But the apples to apples on it are like, why would I do this? Well, the other ones have a lot of craft, but that's just a choice to make. It's not a competitive advantage. So it's really. Where. Where do you like a competitive advantage? To put it out there as a platform because it's just to compete with the tools that are out there, which themselves came out too early is just not where people are playing. That's why you hear about everybody building their own agent platform, every LLM platform, everybody that's doing anything like that now they have their own agents. And so if you look inside and that's, you know, what I'm doing here. The delegator pattern that I'm building all these patterns around this is like 40 patterns inside categories. Nine categories. Oh, he froze. I think he did. It happens every once in a while. Happened yesterday as well. That it. Okay. You probably show up now in portrait instead of landscape because he's moved to his phone. Yeah. So I think I'll take this week maybe and maybe next week and build the documentation for the application. That's what I'll do. And then I can, I can take, I, I can just present that at the next, at the next meeting, just the documentation and that sort of thing. Because I, I really do. Like, I think it's, it's a valuable tool. It's just, it's working with, with documents and just people struggle with that. Right? Like they, they struggle with how to interpret and, and look at documents and understand them and everything. So, so there's, so what I'll do is I'll build out that documentation that you guys suggested today and I'll, I'll, I'll like. I, I mean, listen, you guys could do this in probably 20 minutes. It's probably going to take me, you know, three hours, but I think it's a good exercise.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  text: Yeah. So I think I'll take this week maybe and maybe next week and build the documentation for the application. That's what I'll do. And then I can, I can take, I, I can just present that at the next, at the next meeting, just the documentation and that sort of thing. Because I, I really do. Like, I think it's, it's a valuable tool. It's just, it's working with, with documents and just people struggle with that. Right? Like they, they struggle with how to interpret and, and look at documents and understand them and everything. So, so there's, so what I'll do is I'll build out that documentation that you guys suggested today and I'll, I'll, I'll like. I, I mean, listen, you guys could do this in probably 20 minutes. It's probably going to take me, you know, three hours, but I think it's a good exercise. I don't know. I actually don't know that we would do it faster because when doing that step, domain understanding is more important than technical skill. Right? So that's, that's the, that's the, that's one of the ways it gets flipped around, right? Yeah, like the, the value that you have, which is understanding what's needed and what's of value is more relevant than the understanding that we have about, well, how would it be done technically in the past? Right? Because that's the path. That's the part you're going to offload anyway. I mean. Yeah, that's the part you're going to offload. And that's the part that, like, what's changed very recently is like the most recent thing that's changed is like three months ago. That piece you'd have to review. You would have to review and you'd have to like, check, mark and say, yeah, it makes sense to take that design pattern or it makes sense to use that tech, or it makes sense to, you know, divide up. But that can be done now that, that review and validation and, and so forth can also be done by AI now. And that's the agentic piece. That's the, that's the, that's the. There's a very specific phrase to like the reinforcing pattern takes care of. Right? Which is really done by agents. So.
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: I don't know. I actually don't know that we would do it faster because when doing that step, domain understanding is more important than technical skill. Right? So that's, that's the, that's the, that's one of the ways it gets flipped around, right? Yeah, like the, the value that you have, which is understanding what's needed and what's of value is more relevant than the understanding that we have about, well, how would it be done technically in the past? Right? Because that's the path. That's the part you're going to offload anyway. I mean. Yeah, that's the part you're going to offload. And that's the part that, like, what's changed very recently is like the most recent thing that's changed is like three months ago. That piece you'd have to review. You would have to review and you'd have to like, check, mark and say, yeah, it makes sense to take that design pattern or it makes sense to use that tech, or it makes sense to, you know, divide up. But that can be done now that, that review and validation and, and so forth can also be done by AI now. And that's the agentic piece. That's the, that's the, that's the. There's a very specific phrase to like the reinforcing pattern takes care of. Right? Which is really done by agents. So. Yeah. Okay. No, I mean, I, I took some notes. I gotta run here, guys. I appreciate the, the time today. I just, I have another meeting here that I'm late for, but I did, like, I find this very valuable and I appreciate the time that you guys take to, to discuss these, these items and these things. And it is a huge creative Outlet for me. I'm not like. And I. I know it's coding and stuff like that, but I think some people misunderstand how creative this is. It's just. It's not. It's not art, it's not music, but it is definitely creative. So I, I do appreciate that. No problem Scott. Take care. I've got a scoop to it. I need some time before a 12 o' clock meeting got dropped. All right. Seem to be crashing so that's cool. So that was. That was good. Pump up the volume on not being a programmer anymore. But tell you what, welcome to resting in peace. Think that it's still super powerful. It's still incredibly powerful. And right now it's about finding places, you know, in business where there's an opportunity. Fulvio's point about it changes a lot of things to the ecosystem. It's with significantly the decision making process is screwed across all business and so that's that. That doesn't allow for a lot of innovation at the right level. But by being able to show more tactical level of tactical tangible value like not just talk to it, things get better too. But what I was trying to show there with a network graph was. Was how to work with nodes and so yeah nouns and verbs.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  text: So that was. That was good. Pump up the volume on not being a programmer anymore. But tell you what, welcome to resting in peace. Think that it's still super powerful. It's still incredibly powerful. And right now it's about finding places, you know, in business where there's an opportunity. Fulvio's point about it changes a lot of things to the ecosystem. It's with significantly the decision making process is screwed across all business and so that's that. That doesn't allow for a lot of innovation at the right level. But by being able to show more tactical level of tactical tangible value like not just talk to it, things get better too. But what I was trying to show there with a network graph was. Was how to work with nodes and so yeah nouns and verbs. I should ransom my team for a. For a computer. Self interest. Gotta get in there. Yeah. Self it don't crash as much. Looks bad. That's a good reason or could say looks good too. It looks good to me. I know it doesn't look good. I. When I have to present for people like I do it shortly I guess with undraft. Yeah 10. Yeah. I'll. I'll reboot right beforehand an issue. Everything turned off because I crashed so have to reboot.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  text: Looks bad. That's a good reason or could say looks good too. It looks good to me. I know it doesn't look good. I. When I have to present for people like I do it shortly I guess with undraft. Yeah 10. Yeah. I'll. I'll reboot right beforehand an issue. Everything turned off because I crashed so have to reboot. Well network graphs are super salient for. Yeah. Yeah. That's why I was kind of trying to bring it up and make it relate but right now the LLM isn't using the graph I'm creating it but the data that it's created synthetic data. So it's super easy and clean. How did this happen? Like I'm looking at it like it worked. That should not work. This should not work. From what I understand it's not like yeah it worked because you said creates synthetic data and then it didn't have any problem processing it. So yeah. Insider knowledge. Well and so taking a data set of questions and answers and building it into the right structure. The JSON file is the previous step which is where the agents have a ton of value. Right. Taking data and saying structure Properly. And that's kind of what Scott was getting at is like people don't like documents, they want to know about them, they don't want to know how to read all of them to get to about them. And so he's. He's right in that regard. There's a big opportunity there. Let's see. Yeah, there's. I seriously, when I found the auto approve button, I'm like, I use it and then it went up to like $40 of cost that day. I'm like, well, tone it down a bit. I built a whole lot though. It built a full app. And, and yeah, the. The big thing is whatever we would build, we would build it such that the specification is your IP and nothing. You don't care about anything else. You care about the data as a result of people interacting. But the app, the application itself will be rebuilt probably from scratch a number of times.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  text: Well and so taking a data set of questions and answers and building it into the right structure. The JSON file is the previous step which is where the agents have a ton of value. Right. Taking data and saying structure Properly. And that's kind of what Scott was getting at is like people don't like documents, they want to know about them, they don't want to know how to read all of them to get to about them. And so he's. He's right in that regard. There's a big opportunity there. Let's see. Yeah, there's. I seriously, when I found the auto approve button, I'm like, I use it and then it went up to like $40 of cost that day. I'm like, well, tone it down a bit. I built a whole lot though. It built a full app. And, and yeah, the. The big thing is whatever we would build, we would build it such that the specification is your IP and nothing. You don't care about anything else. You care about the data as a result of people interacting. But the app, the application itself will be rebuilt probably from scratch a number of times. Yeah. And that's just the reality of it. And I'm really quite confident about this new process that is just. I use the LLMs to create this spec. Yeah, that's pretty amazing. From the spec. It totally makes sense too. It does. Because. Obvious, right? It's. It's. You're half doing it anyway. Yeah, I know. I'm like, okay, spend the time on this. I'm like, oh, it's so much work. You know, I spent hours on them and I'm like, well, if you just prompt it, it knows the pattern fairly well. And then you just keep prompting it into place and as soon as you have the plan or the spec, then do a phased plan. Yeah. My worry with a little bit is just doing the little things that I've been doing. There's a lot of cruft in the mix. You know, stuff is generated and then ignored and then it's still. And then shows up somehow. Magic was in the middle of somewhere else. It's like, where did that come from?
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  text: Yeah, I know. I'm like, okay, spend the time on this. I'm like, oh, it's so much work. You know, I spent hours on them and I'm like, well, if you just prompt it, it knows the pattern fairly well. And then you just keep prompting it into place and as soon as you have the plan or the spec, then do a phased plan. Yeah. My worry with a little bit is just doing the little things that I've been doing. There's a lot of cruft in the mix. You know, stuff is generated and then ignored and then it's still. And then shows up somehow. Magic was in the middle of somewhere else. It's like, where did that come from? Yeah, so I'm noticing that Cursor particularly and actually all three Windsurf, Cursor and Klein, they all do really well with that now. And the tooling is very good if you give it, you know, enough oomph. And so that's why I'm spending extra time by giving it extra context so the context larger and so it's sending up more files. And I'm like, well, it's. The results are proof that that really does work, man. And, and that allows me to not do as many. Right. It's. It's. I'm still. I would still be using the Same amount of tokens, probably because I'm still fixing it. But what I'm not doing is it. It's a kind of a grinding experience. Yeah, it's really, it's like you're away at it, you're kicking away like. And if you. It can be gratifying when it works, but it doesn't work work fast. And so yeah, this process of phasing it in works better. Works really well no matter what the size of something is. And it doesn't work inside something like lovable. Right. It doesn't have. It's trying to do all the work for you. And. But if you do it inside the ide, even if you don't know how to program and you do it inside the ide, it will pay attention to that plan because it knows that it can only do confidently about 750 lines of code. Right. Until you open it up wider. And that's what I did. Opened up to be like 3,000. Large. 40 bucks. I'm like, well, I. 40 bucks, man.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  text: And if you. It can be gratifying when it works, but it doesn't work work fast. And so yeah, this process of phasing it in works better. Works really well no matter what the size of something is. And it doesn't work inside something like lovable. Right. It doesn't have. It's trying to do all the work for you. And. But if you do it inside the ide, even if you don't know how to program and you do it inside the ide, it will pay attention to that plan because it knows that it can only do confidently about 750 lines of code. Right. Until you open it up wider. And that's what I did. Opened up to be like 3,000. Large. 40 bucks. I'm like, well, I. 40 bucks, man. Like, seriously, try it, see what happens. It was like, okay. And then. And if, you know, and, and that what I was building was very vital and actually worked. It was like, okay, so I have a piece of tech that's underlying now. And so I'm not going to waste a lot of grinding in the background time doing that. But this thing that I built here, I did the same thing with. I have it on maximum thinking and I'll do the survey data, see if it works. Oh, sas. Okay, so, okay, so now the data is here so you can see it. So it's in this structure now inside a knowledge graph. And these are the entity types. See the graph here? Turn it on and off. And it has some interactivity. And I didn't know how to describe any interactivity because I didn't know what I would be doing in the browser. Yeah. Once you see it, then you can do it. And so I'm like, the visualization, it's not how you can interact with it. Right. And so it's meant to be this. It's meant to be like, what type of data do I have? And the idea is it's sending the state of the graph, but it's not sending the state of the drive. Because. It'S giving me a very generic description. Right. So you're, let's say it's determined what to determine. So it's not in there. It's not giving me what's in there. Yeah, it's abstract into that.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  text: And so I'm like, the visualization, it's not how you can interact with it. Right. And so it's meant to be this. It's meant to be like, what type of data do I have? And the idea is it's sending the state of the graph, but it's not sending the state of the drive. Because. It'S giving me a very generic description. Right. So you're, let's say it's determined what to determine. So it's not in there. It's not giving me what's in there. Yeah, it's abstract into that. It's Abstract. So it is attached and it does have works on it in it. And yeah, it has. It came like it's coming. I have a stock number of agents now that comes with. So I know that it's functioning. It's just not. It's not attaching the parts of their work. We got a graph and we got a chatbot, and they're not. Only matter. That's the only matter. Like, okay, matter of minutes we're working. Yeah, no, that was it. He's like, okay, no, no. So I gotta put it aside for now. That was something I did last night. So I. It was like, okay. It wasn't. I don't know enough about how to drive it yet, but I can see that this would be the way to do the analysis. Right. Is to. Is to. Is to, you know, all the conversations of a certain kind, and then you put them into a standardized format or whatever. You know, everything's a conversation, but whatever the, you know, the memes are that you pull out of it, they're in a standardized format. And that's your data set. Yeah, yeah, whatever. Whatever you want to categorize it as is like a question answer or just like it's. They're pairs, generally. Yeah. And I think once you have some of that data, I think also that reveals, you know, how you might create patterns and so on. Yeah. So the big part is figuring out. So when you have the source, which is the conversation, is to figure out the agents, you want to then pull out those things to create your knowledge set. Right.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  text: Is to. Is to. Is to, you know, all the conversations of a certain kind, and then you put them into a standardized format or whatever. You know, everything's a conversation, but whatever the, you know, the memes are that you pull out of it, they're in a standardized format. And that's your data set. Yeah, yeah, whatever. Whatever you want to categorize it as is like a question answer or just like it's. They're pairs, generally. Yeah. And I think once you have some of that data, I think also that reveals, you know, how you might create patterns and so on. Yeah. So the big part is figuring out. So when you have the source, which is the conversation, is to figure out the agents, you want to then pull out those things to create your knowledge set. Right. Well, I was looking at. If you wanted a curiosity database, you have them looking at it for curiosities. And so you would define what a curiosity is. And then you say look at different types and categorize them. And then that's how it would start building a corpus work. The JSON's easy to read, so you can look at it before it even processes it. And you're like, oh, continue though. Yeah, no, I was just saying I started to look at, you know, extracting personality information from the conversation. Oh, yeah, yeah. And that's the thing, you know, it's. It's pretty evolved. Yes. The way I use it, our mixture of experts. And so you define. So what it is, is that you can find markers for behavior traits. And so you define the behavior and then you define the trait, and then you look for the markers of the trait. That's right. And it's. Yeah. And it's kind of pretty sophisticated already. Yeah, no, it works quite well with the LLMs. That's, that's for me. That's why I want long form interviews. You have long form interviews. You can really slice and dice it. Yeah. So my, my thinking with that was, you know, to be able to create a dynamic process for creating personalities based on a conversation. Sure. Be kind of cool. The thing with Lovable is they had a free weekend, luckily for me. So I was in there hacking around.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  text: That's right. And it's. Yeah. And it's kind of pretty sophisticated already. Yeah, no, it works quite well with the LLMs. That's, that's for me. That's why I want long form interviews. You have long form interviews. You can really slice and dice it. Yeah. So my, my thinking with that was, you know, to be able to create a dynamic process for creating personalities based on a conversation. Sure. Be kind of cool. The thing with Lovable is they had a free weekend, luckily for me. So I was in there hacking around. But yeah, yeah, you go a long ways with it. Yeah, it's. I found my way with it. But I think what I was going to try for the next step is to actually articulate the instructions for Lovable with Chat GPT first. Yeah, no, it's, that's exactly how. And then say, yeah, they are. Yeah. And then I think I would have list and lifts, you know, because that I think is through the iteration and the sort of discursive way of building. It has a chat mode. So. Yeah, I use, I use a chat mode too. And to get it to explain how it functions. Yeah. And it walks through the steps and then you can say implement or don't. But I. Yeah. Or even explaining to what you have like seriously under. Under the hood, you're not going to know. And, and so that if it's not working, you're like. Well, that has nothing to do with. Because sometimes it'll do something. Yeah, I know. It's like outrageous. And you're like, you just built a whole lot. Oh my God. You just took it apart. We didn't say take it apart. Yeah, yeah, yeah. So you're like. Every now and then I'm like, how is this working? Because Will, even in my id, sometimes it changes and like get dropped. Revert, Rephrase this to like be. But I really do recommend the chat thing now every now and then.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  - u187
+  text: Yeah. And it walks through the steps and then you can say implement or don't. But I. Yeah. Or even explaining to what you have like seriously under. Under the hood, you're not going to know. And, and so that if it's not working, you're like. Well, that has nothing to do with. Because sometimes it'll do something. Yeah, I know. It's like outrageous. And you're like, you just built a whole lot. Oh my God. You just took it apart. We didn't say take it apart. Yeah, yeah, yeah. So you're like. Every now and then I'm like, how is this working? Because Will, even in my id, sometimes it changes and like get dropped. Revert, Rephrase this to like be. But I really do recommend the chat thing now every now and then. Just check. Yeah, I learned that the hard way. We all do, man. Hey, Hanif, I'm gonna, I'm gonna cut it short here today, 845because I, I being picked up to go away and I got two meetings. Yeah. But. Oh, I am away tomorrow. So if we could pick up Friday afternoon. That's next Thursday or Friday, whatever, whatever you like. Okay. We did get the, we did get the application in on Monday. Great. That's right. Yeah, that was on the 16th. Well, and congratulations, milestone made. So next thing. What is it? Yeah, so you're building, so we're building. So I'm. That was going to be my comment. You know, we don't have much to talk about right now. We got everything to build and so that's What I wanted to predicate but you know, me being in an efficient camp, like not efficient, off grid is. It's not going to allow me for a computer other than phone. So Friday afternoon is probably the earliest and I'll. I think whatever work works for you, I mean if you want to push it off to next week, that's good too. I'll let you know. But no worries because everybody else is because people have things to do as well. So me going away for three full days is.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2893.1
+  utterance_ids:
+  - u185
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  text: That was going to be my comment. You know, we don't have much to talk about right now. We got everything to build and so that's What I wanted to predicate but you know, me being in an efficient camp, like not efficient, off grid is. It's not going to allow me for a computer other than phone. So Friday afternoon is probably the earliest and I'll. I think whatever work works for you, I mean if you want to push it off to next week, that's good too. I'll let you know. But no worries because everybody else is because people have things to do as well. So me going away for three full days is. It's a luxury. It's a luxury. Right. And I am probably gonna go away again. So. Yeah. Don'T worry about it. We can happily. There's nothing to good things to do. I'm working away. Yeah, no, no. What do I want to do is say there are things to do, is that there, there needs to be things and I want to be getting on the wheel with that because you have momentum now with building the website and you can start extending it. And what you've seen what I wanted to show you with the chat, the Libra chat thing is you can build your agents in there and you permanently have them in there and you can iterate on them and you can have like one talk to the like, you can do all that stuff and it's a UI and you can learn the UI. All right, well, I'll check out LibreChat. In the meantime, but you can run it on your own machine. Okay. And so it runs, you know, and if you're using Ollama on your own machine, eventually using something there's free ones to use, but eventually on your own machine and it's a full system and you're, you don't need an Internet. It's just slow, just like it just reads like when it types, it's just slower. Slow is good. We're into slow media here. Yeah. All right. Okay. Have a good trip. Thanks.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 2893.1
+  utterance_ids:
+  - u195
+  - u196
+  - u197
+  - u198
+  - u199
+  text: And so it runs, you know, and if you're using Ollama on your own machine, eventually using something there's free ones to use, but eventually on your own machine and it's a full system and you're, you don't need an Internet. It's just slow, just like it just reads like when it types, it's just slower. Slow is good. We're into slow media here. Yeah. All right. Okay. Have a good trip. Thanks.

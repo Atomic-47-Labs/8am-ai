@@ -1,0 +1,28 @@
+id: IDEA-0643
+slug: inference-and-data-separation-in-ai-syst
+phase: backlog
+track: light
+source:
+  meeting: '2025-10-29'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: James Giroday questioned whether data sovereignty requires a Canadian AI model for inference (00:16:29). Carol Wilder clarified that inferencing can be done locally and that systems can be designed to separate data from compute, only sending insights, which is crucial for sensitive data like defense information (00:18:43). David Olsson added that this pattern of separating data from insights has been used in market research for decades, but the underlying business practices for monetizing metadata often remain obscured (00:19:41).
+summary: Inference and Data Separation in AI Systems
+rationale: James Giroday questioned whether data sovereignty requires a Canadian AI model for inference (00:16:29). Carol Wilder clarified that inferencing can be done locally and that systems can be designed to separate data from compute, only sending insights, which is crucial for sensitive data like defense information (00:18:43). David Olsson added that this pattern of separating data from insights has b
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 56.3
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 1.1
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 292
+tier: backlog

@@ -1,0 +1,43 @@
+id: THEME-14
+slug: tool-stack
+status: active
+summary: 'Recurring across 7 meetings: tool stack.'
+first_seen: '2024-09-11'
+last_seen: '2025-10-22'
+idea_refs:
+- IDEA-0545
+- IDEA-0568
+- IDEA-0581
+- IDEA-0546
+- IDEA-0553
+- IDEA-0555
+- IDEA-0588
+- IDEA-0623
+evidence:
+- meeting: '2024-09-11'
+  idea_ref: IDEA-0545
+  excerpt: Group decided to set up a Slack channel for easier communication Discussion on the pros and cons of different platforms (Discord vs. Slack) Agreement to share contact information for setting up the channel
+- meeting: '2024-09-25'
+  idea_ref: IDEA-0568
+  excerpt: Discussion on potential regulations for AI-generated content Plans to create a Slack channel for collaboration Reflection on rapid changes in AI tools and technologies
+- meeting: '2024-10-02'
+  idea_ref: IDEA-0581
+  excerpt: Jason discusses progress and challenges in his project Conversation about image and video processing capabilities Discussion on the use of LLMs and API integration Exploration of various AI tools and platforms (e.g., Vercel, Pythagora)
+- meeting: '2025-09-17'
+  idea_ref: IDEA-0546
+  excerpt: David demonstrated Fireflies MCP integration with Claude Desktop, providing access to all transcripts and summaries for enhanced AI-assisted analysis. Required Claude Pro licenses for team implementation, adding cost considerations. Enabled
+- meeting: '2025-09-24'
+  idea_ref: IDEA-0553
+  excerpt: Discussion on practical experiences and challenges with AWS Amplify and Vercel for deployment. Highlighting a switch to Vercel due to AWS Amplify access and management issues related to IAM and organizational visibility.
+- meeting: '2025-09-24'
+  idea_ref: IDEA-0555
+  excerpt: Positive remarks on Vercel and related tools (Netlify, Vite) for ease of deployment, especially for front-end projects. Acknowledgments of limitations like timeouts in Vercel for long-running jobs.
+- meeting: '2025-10-08'
+  idea_ref: IDEA-0588
+  excerpt: David Olsson demonstrated how Fireflies, integrated with their MCP Firefly account, can generate summaries from meeting transcripts. This system processes around 800 transcripts to provide strategic insights and simulate organizational chan
+- meeting: '2025-10-22'
+  idea_ref: IDEA-0623
+  excerpt: 'David Olsson highlighted a significant challenge with AI tools: integrating them without increasing user workload. They explained that while Fireflies.ai allows users to create agents for various tasks, this often leads to an influx of docu'
+trajectory: fading
+created: '2026-06-25T17:20:56Z'
+updated: '2026-06-25T17:20:56Z'

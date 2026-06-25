@@ -1,0 +1,28 @@
+id: IDEA-0235
+slug: intelligence-storage-and-llm-usage
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: A significant revelation was the use of YAML files for data storage, which offers greater value for AI consumption and organizational data capture. The design ensures that intelligence is not exclusively captured within the LLM itself, which keeps the data within the project context and aligns with the flat file model (00:03:57) (00:10:12).
+summary: Intelligence Storage and LLM Usage
+rationale: A significant revelation was the use of YAML files for data storage, which offers greater value for AI consumption and organizational data capture. The design ensures that intelligence is not exclusively captured within the LLM itself, which keeps the data within the project context and aligns with the flat file model (00:03:57) (00:10:12).
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T17:20:08Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 64.9
+grade_breakdown:
+  evidence: 25
+  theme: 9.5
+  recency: 9.9
+  concretion: 5.5
+  uniqueness: 15
+  carryover: 0
+rank: 99
+tier: queue

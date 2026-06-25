@@ -1,0 +1,28 @@
+id: IDEA-0415
+slug: multi-layered-system-design
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-07-23'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson described a multi-layered approach to system development, where Stage one involves manual building, Stage two guides the user in building, and Stage three enables the system to determine how to play itself (00:07:35). The ultimate stage, which David has achieved, involves the system describing itself and then using that description to figure out deployable solutions. James Giroday expressed admiration for David's advanced level of operation (00:08:42).
+summary: Multi-layered System Design
+rationale: David Olsson described a multi-layered approach to system development, where Stage one involves manual building, Stage two guides the user in building, and Stage three enables the system to determine how to play itself (00:07:35). The ultimate stage, which David has achieved, involves the system describing itself and then using that description to figure out deployable solutions. James Giroday exp
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 60.0
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.4
+  concretion: 10.5
+  uniqueness: 15
+  carryover: 0
+rank: 210
+tier: queue

@@ -1,0 +1,28 @@
+id: IDEA-0591
+slug: agent-workflow-and-specifications
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-10-08'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explained that the system can build a specification from a conversation, which then runs inside their IDE. This workflow allows for the creation of rigorous specifications that are then distilled into an MVP plan, and the system can build it based on a requested text stack.
+summary: Agent Workflow and Specifications
+rationale: David Olsson explained that the system can build a specification from a conversation, which then runs inside their IDE. This workflow allows for the creation of rigorous specifications that are then distilled into an MVP plan, and the system can build it based on a requested text stack.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 53.0
+grade_breakdown:
+  evidence: 24.0
+  theme: 8.7
+  recency: 0.9
+  concretion: 4.5
+  uniqueness: 15
+  carryover: 0
+rank: 374
+tier: backlog

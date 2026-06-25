@@ -1,0 +1,28 @@
+id: IDEA-0153
+slug: connecting-workflow-breakage-to-external
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-03-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Hanif Janmohamed and David Olsson discussed how isolated work and the reliance on LLMs to internalize team collaboration can make a workflow fragile. The breakage of Fulvio Ciano's expensive local setup, which was doing necessary inference work, highlights the vulnerability when such a personalized process breaks (00:06:19). Fulvio Ciano noted that they feel like making improvements now causes the documents to break instead of self-maintaining (00:05:35).
+summary: Connecting Workflow Breakage to External Factors
+rationale: Hanif Janmohamed and David Olsson discussed how isolated work and the reliance on LLMs to internalize team collaboration can make a workflow fragile. The breakage of Fulvio Ciano's expensive local setup, which was doing necessary inference work, highlights the vulnerability when such a personalized process breaks (00:06:19). Fulvio Ciano noted that they feel like making improvements now causes the
+tags: []
+theme_refs:
+- THEME-09
+directive_refs: []
+created: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 68.4
+grade_breakdown:
+  evidence: 25
+  theme: 10.3
+  recency: 6.1
+  concretion: 12.0
+  uniqueness: 15
+  carryover: 0
+rank: 54
+tier: queue

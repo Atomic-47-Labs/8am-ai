@@ -1,0 +1,28 @@
+id: IDEA-0330
+slug: ollama-and-model-interconnection
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-06-17'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Fulvio Ciano and David Olsson discuss technical challenges regarding the interconnection between local models, specifically Ollama, and cloud models, noting that a recent software update resolved a previous breakage. David Olsson mentions being unable to run the Hermes model on their Intel-based Mac but expresses interest in the pattern of enabling local models with cloud integration (00:01:02).
+summary: Ollama and Model Interconnection
+rationale: Fulvio Ciano and David Olsson discuss technical challenges regarding the interconnection between local models, specifically Ollama, and cloud models, noting that a recent software update resolved a previous breakage. David Olsson mentions being unable to run the Hermes model on their Intel-based Mac but expresses interest in the pattern of enabling local models with cloud integration (00:01:02).
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 75.0
+grade_breakdown:
+  evidence: 25
+  theme: 9.5
+  recency: 15
+  concretion: 10.5
+  uniqueness: 15
+  carryover: 0
+rank: 11
+tier: queue

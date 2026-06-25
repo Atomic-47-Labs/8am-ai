@@ -1,47 +1,106 @@
 id: THEME-13
 slug: system-vs-design-thinking
 status: active
-summary: 'Recurring across 8 meetings: system vs design thinking.'
-first_seen: '2025-08-27'
+summary: 'Recurring across 43 meetings: system vs design thinking.'
+first_seen: '2024-07-31'
 last_seen: '2026-06-24'
 idea_refs:
-- IDEA-0145
-- IDEA-0146
-- IDEA-0024
-- IDEA-0040
-- IDEA-0047
-- IDEA-0069
-- IDEA-0090
-- IDEA-0097
-- IDEA-0118
+- IDEA-0430
+- IDEA-0498
+- IDEA-0512
+- IDEA-0720
+- IDEA-0723
+- IDEA-0739
+- IDEA-0035
+- IDEA-0051
+- IDEA-0100
+- IDEA-0101
+- IDEA-0114
+- IDEA-0130
+- IDEA-0164
+- IDEA-0190
+- IDEA-0205
+- IDEA-0207
+- IDEA-0252
+- IDEA-0311
+- IDEA-0389
+- IDEA-0398
+- IDEA-0415
+- IDEA-0429
+- IDEA-0504
+- IDEA-0505
+- IDEA-0559
+- IDEA-0572
+- IDEA-0574
+- IDEA-0575
+- IDEA-0604
+- IDEA-0607
+- IDEA-0608
+- IDEA-0640
+- IDEA-0643
+- IDEA-0654
+- IDEA-0670
+- IDEA-0675
+- IDEA-0692
+- IDEA-0714
+- IDEA-0718
+- IDEA-0719
+- IDEA-0726
+- IDEA-0727
+- IDEA-0747
+- IDEA-0749
+- IDEA-0001
+- IDEA-0007
+- IDEA-0017
+- IDEA-0049
+- IDEA-0065
+- IDEA-0124
+- IDEA-0126
+- IDEA-0154
+- IDEA-0196
+- IDEA-0220
+- IDEA-0234
+- IDEA-0264
+- IDEA-0292
+- IDEA-0306
+- IDEA-0363
 evidence:
-- meeting: '2025-08-27'
-  idea_ref: IDEA-0145
-  excerpt: The system successfully executed 4000 OpenAI calls in 6 minutes through a serverless architecture, demonstrating efficiency.
-- meeting: '2025-08-27'
-  idea_ref: IDEA-0146
-  excerpt: A CRM-agnostic design allows for easy integration across multiple platforms via RPC API, with Twilio as the SMS provider.
-- meeting: '2026-04-22'
-  idea_ref: IDEA-0024
-  excerpt: David Olsson discussed the shift from design thinking, which used to be valuable for problem-solving, toward "system thinking," which is now increasingly systematic and requires operating at a higher level closer to objectives and goals. Th
-- meeting: '2026-04-29'
-  idea_ref: IDEA-0040
-  excerpt: Jason Kryski reflected that the "typical agile structure" is not working for their four-person team, noting they are probably operating at only 70% of their capability despite moving quickly, leading them to consider rebuilding their system
-- meeting: '2026-05-06'
-  idea_ref: IDEA-0047
-  excerpt: Project State uses files (like YAML, Markdown, JSON) stored locally to document information such as changes, communication, decisions, milestones, and phases (00:07:06) (00:40:19). The system generates weekly reports, including scripted ema
-- meeting: '2026-05-20'
-  idea_ref: IDEA-0069
-  excerpt: Juan discussed the emergence of developers who function as "evolved typists," proficient at writing specific functions within standardized architectures but lacking the deeper knowledge required for refactoring or original problem-solving w
-- meeting: '2026-06-03'
-  idea_ref: IDEA-0090
-  excerpt: Juan argued that the focus of technical work should shift from the specific programming language—such as React or Angular—to identifying the right problem and defining the best solution, as Large Language Models can handle the coding portio
-- meeting: '2026-06-10'
-  idea_ref: IDEA-0097
-  excerpt: Project State functions as a compliance tool using an append-only database, which allows it to track logs, decisions, and risks over time. The system is capable of re-reasoning through project milestones if significant changes, such as a sh
-- meeting: '2026-06-24'
-  idea_ref: IDEA-0118
-  excerpt: David discusses a project to create an automated repository that parses and stores meeting transcripts (00:34:54) (00:51:41). The group discusses moving from passive conversation to building a system that extracts themes and enables operati
+- meeting: '2024-07-31'
+  idea_ref: IDEA-0430
+  excerpt: 'David discussing work on cryptocurrencies and blockchain Designing an affiliate program (MLM scheme) Explained distribution model and network structure Created spreadsheets to model MLM system Discussed challenges in designing database and '
+- meeting: '2024-08-22'
+  idea_ref: IDEA-0498
+  excerpt: Discussed the power of words like 'strategy' and 'KPI' in AI systems Emphasized the importance of human reflection on AI outputs Explored the concept of 'zero knowledge strategy' in AI applications
+- meeting: '2024-08-28'
+  idea_ref: IDEA-0512
+  excerpt: Discussion on processing and analyzing documents Exploration of metadata's role in AI-driven analysis Development of a system for interviewing and populating data
+- meeting: '2024-12-04'
+  idea_ref: IDEA-0720
+  excerpt: David discusses the OODA loop and its relevance to studying military strategies Conversation about 'turtles all the way down' concept in problem-solving Discussion on inverted truths and applying them to problem-solving strategies David int
+- meeting: '2024-12-04'
+  idea_ref: IDEA-0723
+  excerpt: James suggests enhancing the cards in the interface for better understanding Discussion on integrating tools like prompt optimizers into the card interface David explains his vision for a spreadsheet-like functionality with columnar analysi
+- meeting: '2024-12-11'
+  idea_ref: IDEA-0739
+  excerpt: Discussed recent AI research, including the Apollo paper on AI behavior Explored concerns about AI bypassing safety protocols and exhibiting deceptive behaviors Debated the potential risks and benefits of advanced AI systems
+- meeting: '2025-01-22'
+  idea_ref: IDEA-0035
+  excerpt: David created a task management tool similar to OpenAI's feature Tool allows scheduling tasks, recurring events, and setting timers Utilizes web search and large language models for task execution Designed with browser-based application and
+- meeting: '2025-01-29'
+  idea_ref: IDEA-0051
+  excerpt: Fulvio discusses his experience with DeepSeek R1 AI model Running locally, 14 billion parameter model Impressive performance and thinking process Occasional Chinese language output in thinking process David interested in token flow and perf
+- meeting: '2025-02-19'
+  idea_ref: IDEA-0100
+  excerpt: Discussion on qualitative data analysis using AI David exploring Gemini and Google AI Studio capabilities Potential for real-time video and audio analysis in quality control Jason's progress on component-based content generation system
+- meeting: '2025-02-19'
+  idea_ref: IDEA-0101
+  excerpt: Discussion on microservices and endpoint-based approach for agents Jason explaining component selection and strategy development by LLM Plans for testing, feedback, and self-optimization of the system Challenges in convincing team members a
+- meeting: '2025-02-26'
+  idea_ref: IDEA-0114
+  excerpt: Discussion on AI's impact on various industries Mention of AI-powered M&A advisory system Conversation about surveillance and body cameras in workplaces
+- meeting: '2025-03-05'
+  idea_ref: IDEA-0130
+  excerpt: Fulvio explained a trait-based encryption system using base-8 numbers converted to hex Discussed the potential use of this system in token minting and availability checking Explored the balance between security and accessibility in the encr
 trajectory: steady
-created: '2026-06-25T14:36:57Z'
-updated: '2026-06-25T14:36:57Z'
+created: '2026-06-25T17:20:56Z'
+updated: '2026-06-25T17:20:56Z'

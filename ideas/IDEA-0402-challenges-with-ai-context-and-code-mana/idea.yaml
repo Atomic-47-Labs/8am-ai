@@ -1,0 +1,28 @@
+id: IDEA-0402
+slug: challenges-with-ai-context-and-code-mana
+phase: backlog
+track: light
+source:
+  meeting: '2025-07-16'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Fulvio Ciano expressed frustration with managing AI context, particularly when dealing with complex code and documentation updates. They noted that incorrect information in the AI's context can propagate and worsen issues. Fulvio suggested keeping code and context in separate repositories to avoid issues where code advances but context is corrupted, and proposed the idea of an agent to alert users when these two are out of sync.
+summary: Challenges with AI Context and Code Management
+rationale: Fulvio Ciano expressed frustration with managing AI context, particularly when dealing with complex code and documentation updates. They noted that incorrect information in the AI's context can propagate and worsen issues. Fulvio suggested keeping code and context in separate repositories to avoid issues where code advances but context is corrupted, and proposed the idea of an agent to alert users
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 55.2
+grade_breakdown:
+  evidence: 25
+  theme: 8.9
+  recency: 0.3
+  concretion: 6.0
+  uniqueness: 15
+  carryover: 0
+rank: 316
+tier: backlog

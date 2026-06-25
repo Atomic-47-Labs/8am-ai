@@ -1,0 +1,28 @@
+id: IDEA-0206
+slug: worksona-js-api
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-04-23'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Dave revealed his development of Worksona JS, an API for programmatic creation and management of AI agents The API allows for tracking agent history and utilities in a standardized format with minimal code He demonstrated how the API enables quickly building applications with integrated agents Dave showed a control panel that provides visibility into all agents in applications, with prompt history and conversation details The API separates agent functionality from application code, allowing developers to focus on specific processes Dave emphasized finding stable architectural elements amid rap
+summary: Worksona JS API
+rationale: Dave revealed his development of Worksona JS, an API for programmatic creation and management of AI agents The API allows for tracking agent history and utilities in a standardized format with minimal code He demonstrated how the API enables quickly building applications with integrated agents Dave showed a control panel that provides visibility into all agents in applications, with prompt history
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:07Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 50.3
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.1
+  concretion: 1.5
+  uniqueness: 15
+  carryover: 0
+rank: 437
+tier: backlog

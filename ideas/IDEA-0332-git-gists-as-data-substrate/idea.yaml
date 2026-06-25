@@ -1,0 +1,28 @@
+id: IDEA-0332
+slug: git-gists-as-data-substrate
+phase: researched-queued
+track: light
+source:
+  meeting: '2026-06-17'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explores using GitHub gists to emulate blockchain-like functionality, creating a system for verifying and hashing data (00:05:09). Fulvio Ciano and David Olsson discuss that while it is not a distributed ledger in the traditional sense, using Gists as a storage substrate allows for securing data, fingerprinting, and manual verification (00:06:28) (00:09:27). ![][image2]
+summary: Git Gists as Data Substrate
+rationale: David Olsson explores using GitHub gists to emulate blockchain-like functionality, creating a system for verifying and hashing data (00:05:09). Fulvio Ciano and David Olsson discuss that while it is not a distributed ledger in the traditional sense, using Gists as a storage substrate allows for securing data, fingerprinting, and manual verification (00:06:28) (00:09:27). ![][image2]
+tags: []
+theme_refs:
+- THEME-07
+directive_refs: []
+created: '2026-06-25T17:20:13Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 79.6
+grade_breakdown:
+  evidence: 25
+  theme: 11.6
+  recency: 15
+  concretion: 13.0
+  uniqueness: 15
+  carryover: 0
+rank: 2
+tier: queue

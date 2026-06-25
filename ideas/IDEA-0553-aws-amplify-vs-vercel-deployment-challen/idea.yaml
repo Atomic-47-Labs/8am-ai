@@ -1,0 +1,28 @@
+id: IDEA-0553
+slug: aws-amplify-vs-vercel-deployment-challen
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-09-24'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Discussion on practical experiences and challenges with AWS Amplify and Vercel for deployment. Highlighting a switch to Vercel due to AWS Amplify access and management issues related to IAM and organizational visibility.
+summary: AWS Amplify vs. Vercel Deployment Challenges
+rationale: Discussion on practical experiences and challenges with AWS Amplify and Vercel for deployment. Highlighting a switch to Vercel due to AWS Amplify access and management issues related to IAM and organizational visibility.
+tags: []
+theme_refs:
+- THEME-14
+directive_refs: []
+created: '2026-06-25T17:20:18Z'
+updated: '2026-06-25T17:21:29Z'
+grade: 48.1
+grade_breakdown:
+  evidence: 18.4
+  theme: 6.0
+  recency: 0.7
+  concretion: 8.0
+  uniqueness: 15
+  carryover: 0
+rank: 489
+tier: backlog

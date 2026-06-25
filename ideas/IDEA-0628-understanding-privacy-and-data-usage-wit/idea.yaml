@@ -1,0 +1,28 @@
+id: IDEA-0628
+slug: understanding-privacy-and-data-usage-wit
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-10-22'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson and Jason Kryski explained the nuances of privacy with AI models. They clarified that while some paid plans or API usage might prevent data from being used for training, it does not guarantee "zero privacy" as companies still analyze user data for business insights and profiling (00:37:17). They emphasized that cloud services, despite privacy agreements, still utilize data in ways they deem permissible, often owning "derivative data" or "insights" generated from user data (00:41:25).
+summary: Understanding Privacy and Data Usage with AI Models
+rationale: David Olsson and Jason Kryski explained the nuances of privacy with AI models. They clarified that while some paid plans or API usage might prevent data from being used for training, it does not guarantee "zero privacy" as companies still analyze user data for business insights and profiling (00:37:17). They emphasized that cloud services, despite privacy agreements, still utilize data in ways the
+tags: []
+theme_refs:
+- THEME-10
+directive_refs: []
+created: '2026-06-25T17:20:19Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 57.7
+grade_breakdown:
+  evidence: 25
+  theme: 9.1
+  recency: 1.0
+  concretion: 7.5
+  uniqueness: 15
+  carryover: 0
+rank: 258
+tier: backlog

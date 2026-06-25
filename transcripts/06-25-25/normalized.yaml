@@ -1,0 +1,1282 @@
+meeting:
+  date: '2025-06-25'
+  title: 8am-AI 2025-06-25
+  participants:
+  - Fulvio Ciano
+  - David Olsson
+  - Jason Kryski
+  duration_s: 3613.54
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Fulvio Ciano
+  t_start: 182.31
+  t_end: 185.67
+  text: Good morning. You're in outer space.
+- id: u2
+  speaker: David Olsson
+  t_start: 187.35
+  t_end: 188.47
+  text: I am in outer space.
+- id: u3
+  speaker: David Olsson
+  t_start: 194.55
+  t_end: 204.71
+  text: Solar system. There's a moon view of what we got going on. It's a satellite solar system simulator.
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 207.55
+  t_end: 208.43
+  text: What everybody needs.
+- id: u5
+  speaker: David Olsson
+  t_start: 209.47
+  t_end: 212.31
+  text: Yeah, you can't see the stars so.
+- id: u6
+  speaker: Fulvio Ciano
+  t_start: 212.31
+  t_end: 213.87
+  text: This is the next best thing.
+- id: u7
+  speaker: David Olsson
+  t_start: 214.19
+  t_end: 214.69
+  text: It's.
+- id: u8
+  speaker: Fulvio Ciano
+  t_start: 214.55
+  t_end: 215.39
+  text: It's asteroids.
+- id: u9
+  speaker: David Olsson
+  t_start: 216.91
+  t_end: 252.43
+  text: So you know what? It was born out of a photo. I saw of the. What the Starlink low earth orbit satellites do for photography at night or just being able to see the stars they create. Basically they weave, I don't know, a. Cell around the earth. And so that's, that's where this simulation started was looking at the satellites around the earth and then from there learning about the satellites and simulating.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 254.43
+  t_end: 254.93
+  text: Right.
+- id: u11
+  speaker: David Olsson
+  t_start: 257.07
+  t_end: 310.27
+  text: But that was, that was, that was just all cannon fodder for me being. Able to figure out how to create node package managers packages and use the ecosystem to then distribute things open widely. So it comes with API and everything else. But that's what I've done with worksona. Same thing. Worksona is now at. It's one line of code to include and then you can do a bunch. Of things and it's API works on. It IO now and it hasn't changed. Much although it does imaging and handles images and stuff. What is it of interest And I think this is funny is. Well, last night I took down all the delegators.
+- id: u12
+  speaker: David Olsson
+  t_start: 326.44
+  t_end: 327.56
+  text: I think I sent this one.
+- id: u13
+  speaker: Fulvio Ciano
+  t_start: 328.28
+  t_end: 329.72
+  text: Hey, David, can you hear me now?
+- id: u14
+  speaker: David Olsson
+  t_start: 329.88
+  t_end: 330.6
+  text: Yeah, yeah.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 330.92
+  t_end: 333.16
+  text: You took them down? Why did you take them down?
+- id: u16
+  speaker: David Olsson
+  t_start: 333.64
+  t_end: 339.16
+  text: I just made them not accessible because. When I was demonstrating that they got the video, they got the earls, they can actually use all the stuff.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 339.23
+  t_end: 342.13
+  text: Stuff, Right, okay. Yeah.
+- id: u18
+  speaker: David Olsson
+  t_start: 342.91
+  t_end: 400.11
+  text: We demonstrated the delegator yesterday and to a company that does infrastructure level business and they saw using it to leverage their agentic system. So take Worksona out, add Akka Akka. And their super zany fast agents. But they're, they have a completely different sort of ecosystem. They manage like networks and sensors and interesting things like that. So they do up to a billion transactions. I think a minute, a second. They can burst infinitely. And so they would. They're putting. They're all agents they want to burst with. Anyways, I went fishing and then when. I came back I couldn't sleep. I built a fishing simulator.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 401.15
+  t_end: 402.99
+  text: Now you don't fishing ever again.
+- id: u20
+  speaker: David Olsson
+  t_start: 405.87
+  t_end: 411.47
+  text: I. I can catch way more fish. This way virtually but I have a lot better time the other way.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 411.79
+  t_end: 412.51
+  text: Yeah, sure.
+- id: u22
+  speaker: David Olsson
+  t_start: 413.87
+  t_end: 453.66
+  text: But that's, that's the cool kind of stuff. Stuff that I sometimes do when I'm wanting to see something else. Other than work move around. Is use. Claude to build 3D experiences. It's pretty good outside in the stage part and then the ID runs away with it. One topic that I wanted to bring up, Fulvio, do you use librechat on your machine locally? Is that how you engage with chat?
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 455.02
+  t_end: 457.5
+  text: No, I use Open Web ui.
+- id: u24
+  speaker: David Olsson
+  t_start: 457.98
+  t_end: 459.099
+  text: Open Web ui.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 460.46
+  t_end: 463.1
+  text: Just one second. I gotta find out what my web was.
+- id: u26
+  speaker: David Olsson
+  t_start: 463.1
+  t_end: 473.51
+  text: Just one second. Yeah, you won't hear me.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 473.51
+  t_end: 502.72
+  text: Yeah, David, I use Open Web UI primarily because. For a lot of reasons, but it's very easy to hook it up to my Olava server for my. It's very easy to maintain. It's getting really powerful. I can do almost everything in it and I don't know, is there any downside, really? No, not really.
+- id: u28
+  speaker: David Olsson
+  t_start: 503.52
+  t_end: 506.08
+  text: When you say everything in it, what does that mean?
+- id: u29
+  speaker: Fulvio Ciano
+  t_start: 509.52
+  t_end: 555.81
+  text: Can generate images in it, I can talk to it and it can talk back. I can, you know, save, depending on. The terminology. Workspaces and so forth. Right. I can futz with model parameters, you can install tools, you can install mcp, you can, you know, it's. I don't know, trying to think if there's anything I can't do right now in Open Web ui. There has been in the past things that. But, you know, they keep updating it and improving it. So there's.
+- id: u30
+  speaker: David Olsson
+  t_start: 557.97
+  t_end: 565.89
+  text: Do you use it. Does it have this type of facility for building and using your own agents. On top of, you know, the models?
+- id: u31
+  speaker: Fulvio Ciano
+  t_start: 566.61
+  t_end: 582.78
+  text: Not directly, not. Not the way I suspect you. An agent, certainly, because you can make a workspace. Right. But. But multiple agents. No, no.
+- id: u32
+  speaker: David Olsson
+  t_start: 583.5
+  t_end: 584.14
+  text: Okay.
+- id: u33
+  speaker: Fulvio Ciano
+  t_start: 584.54
+  t_end: 612.46
+  text: But I think I've seen people discussing that in the Open Web UI discord. And so I think other people might be doing that. I think there are. I just. It's not sort of rolled into the, you know, the main deployable, if you.
+- id: u34
+  speaker: David Olsson
+  t_start: 612.46
+  t_end: 613.02
+  text: Know what I mean.
+- id: u35
+  speaker: Fulvio Ciano
+  t_start: 613.02
+  t_end: 613.52
+  text: Right.
+- id: u36
+  speaker: David Olsson
+  t_start: 613.58
+  t_end: 697.74
+  text: Yeah, yeah. No, you're a user and. Yeah, So I was just looking at this as it's quite. As you're talking about Web ui, this. Has, I don't know, a lot of. Stuff in it that I'm a lot of the time tooling around, building in whatever else it allows it within the. UI of your sort of prompting environment, if you want to say. And then it transfers across all of the language models, of course, because you're just plugging them in, but it does. Allow for the breakdown of what we. Would normally want with agents and for the. From the ability to build them, you know, which is common crap that you just. Like you said, that's tooling MCP and all the other things to. To memory, to whatever else. And I thought it was an interesting way to be able to share or build out teams with the specificity of specific agents. And then, you know, integrating with Google Docs or local files and saying that that's a, like, it's a. It's a Runway to building your. Your own Chat gbt. Like, experience with proprietary agents, running certain components of your workflow. And.
+- id: u37
+  speaker: Fulvio Ciano
+  t_start: 697.64
+  t_end: 705.06
+  text: Yeah, I have. I haven't tried. It looks terribly interesting. All of them look so familiar now. Right? That's.
+- id: u38
+  speaker: David Olsson
+  t_start: 705.0
+  t_end: 709.43
+  text: That's what. That's why I'm asking these questions, man. Because I'm like, it's probably apples to. Apples under the hood, right?
+- id: u39
+  speaker: Fulvio Ciano
+  t_start: 709.75
+  t_end: 727.11
+  text: Everything is so familiar because everybody's like, yeah, left bar, right bar. Chat window. Good morning, David. You know, even the paperclip, the search, the code interpreter, the mic, it all looks so freaking familiar, right?
+- id: u40
+  speaker: David Olsson
+  t_start: 727.51
+  t_end: 730.39
+  text: Yeah. So they even have their own agent.
+- id: u41
+  speaker: Fulvio Ciano
+  t_start: 731.03
+  t_end: 743.56
+  text: I have found Chat GPT is frustrating the last couple of days because the. I guess it's the Canvas tool. It's not working or just.
+- id: u42
+  speaker: David Olsson
+  t_start: 743.56
+  t_end: 747.84
+  text: Oh, man, broken. I tried it twice. I'm like, pooch out of this. Back to Cloud.
+- id: u43
+  speaker: Fulvio Ciano
+  t_start: 748.4
+  t_end: 758.24
+  text: Yeah. And you. You're doing that in Claude. You're using a Canvas type tool in CLAUDE to actually generate views and stuff. I just haven't done what.
+- id: u44
+  speaker: David Olsson
+  t_start: 758.8
+  t_end: 763.89
+  text: No, I'm using the generate code, right? Is that what you mean?
+- id: u45
+  speaker: Fulvio Ciano
+  t_start: 763.89
+  t_end: 767.13
+  text: Yeah. No, but then you bring the code into your own ide.
+- id: u46
+  speaker: David Olsson
+  t_start: 767.77
+  t_end: 796.53
+  text: Yeah, yeah. It craps out at a certain point, man. It's a good stub. It's a good. Really good stuff. And most of the time, if I'm actually doing something really like, it has. Depth, I'll just spend the time in cloud or hopefully inside Chat GPT doing the spec like you do. Like. And Travis, our developer, he's the same way. He's like, spend. He spends a lot of time on that and then tests it a bunch in different ways and then uses it. And then probably does it three times. It's kind of like.
+- id: u47
+  speaker: Fulvio Ciano
+  t_start: 796.53
+  t_end: 874.82
+  text: Right. And as you know, that's my. It's not my preference, as in, I'm frustrated by the fact that I work with the context a lot in Chat GPT because Chat GPT is so good. Okay. From a model quality perspective. Right. But. But the tools sometimes don't work and, you know, it doesn't integrate, you know, everything from their artifact system to integrating to their Canvas tool, which is really an ide. Right. Like, it's. That's really what it is I'm off. Terminologies really have to come together. I think over the next short period of time, you know, we're going to see better and better integration of these, of these. This is the problem. The problem is there's quality LLMs and then there's the work we're doing, David, or you're doing on, on agents. They're not really integrated into the, into these interfaces, into these front ends. Libra is what you just showed me is very interesting. Like, I'm worried I'm gonna get, I'm gonna lose two games now playing with.
+- id: u48
+  speaker: David Olsson
+  t_start: 874.82
+  t_end: 892.2
+  text: It because I just, I, I couldn't remember what I saw at one point because you were like, no, this is all hooked up. When you'd actually done it, you all hooked up. And sometimes it'd be brittle. And I'm like, I think this is it. And then I downloaded it and it runs, you know, it runs pretty good. Yeah.
+- id: u49
+  speaker: Fulvio Ciano
+  t_start: 892.14
+  t_end: 894.1
+  text: Can you run it locally? Are you running Libra?
+- id: u50
+  speaker: David Olsson
+  t_start: 894.1
+  t_end: 915.39
+  text: Yeah, no, I ran, I'm running it locally. I, I, Right now it's running as servers, so I have to be my. ID to run it up. I haven't spun it up as its. Own instance all the time, but I think you can quickly wrap it to. Do that with just a startup script and then it can work with a centralized server, which would then allow people to share across the team.
+- id: u51
+  speaker: Fulvio Ciano
+  t_start: 917.07
+  t_end: 918.99
+  text: I think that's what we need to get to.
+- id: u52
+  speaker: David Olsson
+  t_start: 918.99
+  t_end: 924.89
+  text: Right, yeah, that's why I'm pointing to it. I'm like, the amount of right now, it's like somebody's going to figure that piece out.
+- id: u53
+  speaker: Fulvio Ciano
+  t_start: 924.89
+  t_end: 925.41
+  text: Yeah.
+- id: u54
+  speaker: David Olsson
+  t_start: 925.65
+  t_end: 933.09
+  text: This bit is, this bit is open source. And so building that piece on top. Of it seems like it's, it's doable because it's repository new Reliant.
+- id: u55
+  speaker: Fulvio Ciano
+  t_start: 934.13
+  t_end: 944.13
+  text: Yeah, yeah, exactly. And you know, there are a ton of tools for quickly getting and deploying these things locally, like Pinocchio and so forth. All these things.
+- id: u56
+  speaker: David Olsson
+  t_start: 944.13
+  t_end: 944.63
+  text: Right.
+- id: u57
+  speaker: Fulvio Ciano
+  t_start: 946.85
+  t_end: 982.62
+  text: Which in fact is what I use to maintain my Open Web ui. Right. Because I have Pinocchio on my machine and so there's a script for Open Web UI and it does all the work of updating Open Web UI and so forth. And I find that works really well. Right. Like, and, and Open Web UI is already set up for a team environment. Like I could share my Open Web UI across anybody in my network, and if I set up data ip, I could share it to you, David.
+- id: u58
+  speaker: David Olsson
+  t_start: 982.62
+  t_end: 984.02
+  text: Right, right. Yeah, yeah, yeah.
+- id: u59
+  speaker: Fulvio Ciano
+  t_start: 985.3
+  t_end: 992.5
+  text: And the interesting thing about that is you'd be using Open Web UI on my Machine remotely.
+- id: u60
+  speaker: David Olsson
+  t_start: 992.82
+  t_end: 993.7
+  text: Right, right.
+- id: u61
+  speaker: Fulvio Ciano
+  t_start: 994.02
+  t_end: 999.06
+  text: And the beauty of that is. And then therefore it would have access to my local.
+- id: u62
+  speaker: David Olsson
+  t_start: 999.54
+  t_end: 1001.3
+  text: Yeah, be centralized through you.
+- id: u63
+  speaker: Fulvio Ciano
+  t_start: 1001.38
+  t_end: 1006.67
+  text: Right, yeah. Right. It shouldn't be. It really should be. We should have.
+- id: u64
+  speaker: David Olsson
+  t_start: 1008.75
+  t_end: 1035.579
+  text: Any step towards sharing that's happening automatically and then having version control on things. And it's a big deal. It's a really big deal to have version control on stuff. And then if you want to get to the quality control, it's even bigger deal. So you have to have it sitting. Somewhere where, like, if somebody's using one agent, it probably has to go through a bunch of rigor.
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 1036.939
+  t_end: 1081.86
+  text: Yeah, I would. I would love to get there. There's so many building blocks out there. There's so many. Right. I don't care about the models. The models for me are like. Yeah, just like I. Well, I do care in the sense that I. I personally have a philosophical preference for the ones I can host on a llama and serve myself. Right. Because it makes experimentation cheap and painless. But the rest, I kind of do feel like the whole stack should be on like a common team infrastructure, if you know what I mean. Anyway, definitely want to look at this Libra thing.
+- id: u66
+  speaker: David Olsson
+  t_start: 1083.3
+  t_end: 1140.33
+  text: Yeah, the. The Libra thing is sort of. So that's the UI GUI kind of shared experience. Then underneath the covers and the black screens is CLAUDE code, which is getting a lot of focus too now. And in my conversation yesterday, I was talking about the CLI and how the. CLI is so powerful and in the AI enabled space. Because if you have an AI enabled. IDE and there's a command line interface. For say, a service like AWS's Amplify. Then your IDE can do the work. Of logging you in and doing all of the DevOps. It's beautiful. It's super beautiful. And I uncovered that by accident by using Windsurf and it started doing and publishing to netlify on its own. I'm like, what did you just do? And then there's other services that. The same thing to Railway and they'll spin up Supabases as others.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 1141.41
+  t_end: 1155.33
+  text: Interestingly, the Libra logo looks like the old. I think if I remember correctly, there used to be an Open Office clone, another Open Office called Libra.
+- id: u68
+  speaker: David Olsson
+  t_start: 1155.65
+  t_end: 1157.05
+  text: Libra Office or something like that.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1157.05
+  t_end: 1165.27
+  text: Yeah, yeah. And I think this might. I think the logo's similar. So this might be descended from that group, if not that project. Right.
+- id: u70
+  speaker: David Olsson
+  t_start: 1168.42
+  t_end: 1253.86
+  text: That's an. That's an interesting step to take towards. Being somewhat autonomous and you're like being able to keep your stuff as your Stuff, you know, you keep your queries and all your history and your own ID on your own machine or it's, you know, hosted, but it's your own. It's not like going and using quad and going and using chat GBT and going and using something else. So as an organization, it makes a lot of sense to have sort of some place where that stuff has things going on. And in terms of its extensibility, it looks like it's pretty cool. But yeah, that's. That's the stuff I wanted to bring to the table today is like the. Libra chat being kind of a way. Of people being able to build their own agents and within permanence in a simple chat environment. Then to build them in the chat environment like that, and then you can see them work, then you can change them and iterate on them without having. To do any of the work that I've shown or do. Being able to just. Instead of copying and paste it from. Somewhere else, it's right inside that IDE and you can just say, okay. One of my favorite agents right now is extract only the text. Only the text, exclamation mark. Just the text. Give me only the text, exclamation mark. I'm only looking for the text. Text, text. That's fine. That's my favorite prompt right now.
+- id: u71
+  speaker: Fulvio Ciano
+  t_start: 1255.7
+  t_end: 1264.9
+  text: Well, I must say, I'm sure I would love everybody's opinion on this. All of the models really love emoticons way too much, right?
+- id: u72
+  speaker: David Olsson
+  t_start: 1266.5
+  t_end: 1270.18
+  text: All this stuff has more. All the HTML has emoticons in it now.
+- id: u73
+  speaker: Fulvio Ciano
+  t_start: 1270.74
+  t_end: 1294.52
+  text: Everything, everything. Oh, just. I don't want the emoticons. I feel like writing that prompt constantly. Strip emoticons from my plan. Strip emoticons from my. You know, whatever. It's just. Is that. Is that because there's a generation that really does live on emoticons. Is that. Is that what that is? Or is something wrong with me or it.
+- id: u74
+  speaker: David Olsson
+  t_start: 1294.76
+  t_end: 1296.36
+  text: It's just a over.
+- id: u75
+  speaker: Fulvio Ciano
+  t_start: 1299.08
+  t_end: 1301.48
+  text: It's already integrated. But folks, how.
+- id: u76
+  speaker: Jason Kryski
+  t_start: 1301.48
+  t_end: 1303.08
+  text: How are you going to shrug otherwise?
+- id: u77
+  speaker: David Olsson
+  t_start: 1306.68
+  t_end: 1317.97
+  text: It took me forever to figure out what Hugging Face was, man. I'm just like. Because I ignore branding for a long time sometimes apparently. And I just like, what are you. I don't care. Your name is Hugging Face.
+- id: u78
+  speaker: Fulvio Ciano
+  t_start: 1318.21
+  t_end: 1321.01
+  text: Now that actually runs on Hugging Face.
+- id: u79
+  speaker: David Olsson
+  t_start: 1322.53
+  t_end: 1568.49
+  text: Hugging Face is doing all kinds of. Crazy things now too. Since they've been. I guess I got a relationship with Dell, stuff like that going on wherever else. But everybody's moving around. But the open web ui. I think I'll take a pass on it for now. And probably even take a pass on Libra chapter because I've got way too much going on. But I thought it. So what I have been able to do in working inside like a proper. Workflow where you're going into the design phase and you're like, oh, think about. Things for more than a second. I'm using 3O or O3 as a. You can even get pronoun whatever the highest, most expensive model is you can get. Put your I need a specification around. This idea or I need a product. Description and whatever else and you begin. Building out the specification document Inside either Cloud Sonnet 4 or some high end version of whatever is working inside ChatGPT. 4o is okay, but the 3.0 or 03 was way better. And you build that out in one of those tools in a conversational way. And you're like, well, it's saying all this stuff and then you can tell. It to not do things, which is always good. And if you're technical like me, then you'll probably try to suggest certain technologies. And if you're somebody else, you've got. A template and say use this technology stack template and then it will go along those lines. You build it there and you spend all your time there and you say, here's my specific. Now if you hand that off to an IDE or even to lovable, it will build something, it'll lose its way, it'll lose its way significantly. So the next step is building a phased plan. And it really is. You take that spec, you go into say Klein clients, really good, go into. Client and say here's my spec, build. Out a phased plan for executing this and in the plan mode and then it will go through and read it all and ask it to make sure that if it's missing anything to add it in, ask questions, whatever. And the planning mode in there is great. So it will then consume that. Other IDs will do the same thing and create memories around it. You do that and create the plan. And the phase plan is wonderful. And if you've got the IDE set up on automatic like I just figured out how to do it, then it will complete each phase of the plan with you kicking back and not doing anything. It's just stupid, man. So you know it, it will complete it. And, and now if the phase plan is done well, it's building test scenarios after each phase to see if the phase is effective. And so at each phase, if you got 10 phases, it's building test phase one, test phase two, HTML such and such and such. And it was like, I mean, this is playing out for me while I'm. Building out this back to plan to then, you know, continue go to the next phase. And I did that and I. And I was able to just intermittently. Come in and build an app throughout. The day because it takes. Or throughout an afternoon, because it takes about 10 to 15 minutes for a phase sometimes. Sometimes it took nothin
+- id: u80
+  speaker: Fulvio Ciano
+  t_start: 1568.39
+  t_end: 1693.51
+  text: Philvio, let me ask you a question because I hope everybody can indulge me for five minutes. I'll try to get this out quickly. When I was in high school, when I was being educated because I had school and so forth, you know, they're very big, very good educators. And one of the things they kind of, they, they push on you. And it's not, it's not accidental. It's not like one or two Jesuits do it. It's kind of part of the whole thing is that if you don't, if you don't know how to do something already, if you don't have the intelligence or, or the know how to do something already, you can, you can supplement that or you can, you can supplement. You can. Rather than have that pre knowledge and intelligence, you can add process, process, process. Will, will. Will get over the hump that you can't, you might not be able to do something with because you don't have the intelligence. And, and it's, it's interesting, David, because on the worksona side you have these patterns. And patterns aren't process. Right? Patterns are. Patterns are. The patterns are trying to be as clear as possible. Patterns are the way the agents communicate. Each. There is a process part to it all too. Right? The process kind of like planning. Review your plan, try your plan, test your plan. You know what I mean? That's process, right? Yep. You haven't done something before and you don't have intelligence or, you know, the model just doesn't know. By predicting right away what the right answer is, process can keep you from going astray because process will force you to plan and test and validate and consider and all the rest. Right.
+- id: u81
+  speaker: David Olsson
+  t_start: 1695.17
+  t_end: 1704.65
+  text: Yeah, no, that's what we rely. On as professionals is we have. I, you know, we eventually, I call them frameworks, eventually. Sometimes they get very granular, but we. Have process that will.
+- id: u82
+  speaker: Fulvio Ciano
+  t_start: 1704.65
+  t_end: 1710.29
+  text: Yeah. It's funny, I think of pro. I think of frameworks as a combination of pattern and process.
+- id: u83
+  speaker: David Olsson
+  t_start: 1710.85
+  t_end: 1712.05
+  text: Yeah, yeah, yeah, yeah.
+- id: u84
+  speaker: Fulvio Ciano
+  t_start: 1712.29
+  t_end: 1713.01
+  text: They're employing.
+- id: u85
+  speaker: David Olsson
+  t_start: 1713.01
+  t_end: 1722.3
+  text: They're employing a pattern with a certain. Conveyance, which is a nomenclature or experience path. And so. Yeah, I get what you're saying. Yeah, I get it.
+- id: u86
+  speaker: Fulvio Ciano
+  t_start: 1722.7
+  t_end: 1742.54
+  text: Yeah. It's just. What. I don't see it a lot, which I think would be terribly useful would be like templates of process. You know what I mean? Not just template, like your templates of pattern are really good, but this template. I think there's a missing.
+- id: u87
+  speaker: David Olsson
+  t_start: 1743.36
+  t_end: 1799.19
+  text: Yeah, no, it is the next step. It is that. So it's a strategy as to what the best pattern is for. For doing. Reaching a goal. Right. To employ the. Under underlying interaction or communication pattern. Yeah. So what happens is like, I. So you get the one. You've got the orchestration, you've got the delegation and the orchestration, you got strategies for how to do that. And then you're talking about, okay, now we can actually, instead of having some of it loose, we can actually apply framing all around that. And I love that. And that's. That is the next step. And it is. Some of it can be completely dynamic, but some of it will be very much studied and specific because of the. Nature of what you want to be in the can. You want it to analyze on a framework and you know, what the inputs and outputs are. Even though. And I'm learning that from what we. Talked about yesterday with our conversations. But Jason, you were going to say. Something.
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 1807.83
+  t_end: 1810.31
+  text: Been muted the whole time. Jason, it was fun to watch.
+- id: u89
+  speaker: Jason Kryski
+  t_start: 1810.31
+  t_end: 1812.67
+  text: Yeah, yeah, I got there, I got there.
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 1812.67
+  t_end: 1814.15
+  text: Now it's all.
+- id: u91
+  speaker: Jason Kryski
+  t_start: 1814.55
+  t_end: 1816.55
+  text: I gotta reproduce that, which is.
+- id: u92
+  speaker: Fulvio Ciano
+  t_start: 1816.71
+  t_end: 1818.41
+  text: I know, I hate that. Go ahead.
+- id: u93
+  speaker: David Olsson
+  t_start: 1818.55
+  t_end: 1819.67
+  text: I couldn't live through.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 1820.47
+  t_end: 1822.39
+  text: Yeah, I was just saying that.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 1825.44
+  t_end: 1825.94
+  text: It.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 1825.56
+  t_end: 1856.35
+  text: Was insightful and it's something that I've been thinking a lot about, like how to like, provide the, like the, the frameworks, like for usage when it comes to, you know, addressing some sort of problem. And I haven't put any effort behind that yet. But something that's been. I've been thinking about so when. When Dave mentioned it, I was like. Or when you guys were talking about.
+- id: u97
+  speaker: David Olsson
+  t_start: 1856.35
+  t_end: 1857.35
+  text: This, I was like, yes.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 1859.27
+  t_end: 1860.55
+  text: It'S an exciting piece.
+- id: u99
+  speaker: David Olsson
+  t_start: 1861.11
+  t_end: 1910.18
+  text: So I can bring up the visual of what will help provide some context to what he's saying. The delegator has patterns that it can. Employ, and they're common to how we work. It won't function as I have it. On my desktop, I don't think. No, it won't. Yeah. So this is just visual. Oh, maybe it is. Jesus Christ. Let's see if it loaded them up. No, it didn't load up anything. But. So you can. So the level at what you're talking about, folio, is like. So here's the patterns hierarchical. These are good tasks that the pattern is. That is a. Is applicable for. Right. And so the level up from there is like, here's a use case. That is strategic planning.
+- id: u100
+  speaker: Fulvio Ciano
+  t_start: 1912.42
+  t_end: 1984.22
+  text: I know. And the thing is, it's like, often what you do is part of a process. Right. And you almost need a pattern at each step of the process. But then. But the problem is you can have a pattern above the process as well. Right? Like. Well, you want decomposition more than one layer. Right. And you need process. It's this connection between process and that. Is very. Hard to define because I think they. There is intermingled. Like, sometimes you're using a pattern within a process, within a step of a process, and sometimes you're using a pattern above the steps of the process or for the steps of the page. So it's, you know, stepping back and stepping in. I'm very comfortable doing. It's what I'm doing both at the same time in more than one direction that I get. I get confused. Right. About where to put it, where to. And it is how to. How to control process.
+- id: u101
+  speaker: David Olsson
+  t_start: 1985.1
+  t_end: 1986.64
+  text: It's a mind. Yeah.
+- id: u102
+  speaker: Fulvio Ciano
+  t_start: 1987.01
+  t_end: 1987.97
+  text: How to what? I'm sorry?
+- id: u103
+  speaker: David Olsson
+  t_start: 1988.05
+  t_end: 2009.33
+  text: It's a mind. It's like recursive math. It's like. So it's. I call it the amnesiacic wall thing, where it doesn't make any goddamn sense. Until it doesn't. You're like, okay, it makes sense now. I don't know what was wrong before. But it was a big problem. Right. It's a conceptual leap of some sort. Right. Like you're talking about.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 2009.73
+  t_end: 2055.67
+  text: Yeah. And you know how I keep harping on. And I am harping on it even with myself. The context thing is because I find I have to step back and change the pattern or step back and change the process. But if the result of either of those two steps changing the Pattern or changing the process can be documented in the context. Then I win somehow, right, you follow? Then somehow there's a, there's a win condition because it's captured in the context what that exercise did of changing the. Pattern or changing the process. That's it.
+- id: u105
+  speaker: David Olsson
+  t_start: 2055.91
+  t_end: 2105.89
+  text: Yeah, yeah, yeah. So the coolest way to, so, yeah, strategy is really neat that way. Things roll up as they move up into higher order systems into the point. Where you turn a light switch on and off and then I think everything gets very granular down at the bottom of that. But I think there's, I think there's a way of cascading all that stuff from, from the point of setting goals and being able to then arbitrate what it means to reach them and measure them. And so it kind of sounds like what you're talking about is like the, the context that you set for which you move forward and then the context at which you end your result or your journey, those are more powerful than the process. We know that because we, I'm describing my process right now. It's like I build, I build some specification, I build the first version of it, then whatever that the spec is for, that is, that's my piece of, that's my asset.
+- id: u106
+  speaker: Fulvio Ciano
+  t_start: 2106.45
+  t_end: 2132.51
+  text: That's right, exactly. Because that's, that's what I always mean by context, right? It's like. Yeah, and because, and so I find the LLMs are actually not very good at keeping documents clean. Right? Like that's where I intervene, right? Like they're, I don't understand why they're not good at that, by the way. Because you'd think with the right pattern and agents they could, like how, how about this?
+- id: u107
+  speaker: David Olsson
+  t_start: 2132.51
+  t_end: 2151.71
+  text: The people that are building these LLMs, they are not UI people. These are not application development people. These aren't, this is not Apple and Microsoft. They're not used to databases in the way that we're talking about. It works to what, one algorithm? So the whole thing, it's amazing, right? The whole thing, it, it rolls up into one algorithm.
+- id: u108
+  speaker: Fulvio Ciano
+  t_start: 2152.35
+  t_end: 2199.06
+  text: Well, I think, I think, I think the problem is around what's called trimming and memory. So. Because the problem is I don't mind that they make mistakes, okay? I don't mind that they hallucinate because my process finds it and cleans it out. And my process, I will clean it out of the context. You know what I mean? But it's terrible at that. It is terrible at that if it, if it gets, if it gets confused and even if I tell it where it got confused and to forget that I'm generally. And I've got to take my context and go and show up again. I literally got to start a new chapter. You know what I mean? With.
+- id: u109
+  speaker: David Olsson
+  t_start: 2198.96
+  t_end: 2201.28
+  text: Oh yeah, no, yeah, I, I abandoned ship.
+- id: u110
+  speaker: Fulvio Ciano
+  t_start: 2201.28
+  t_end: 2241.76
+  text: Yeah, yeah. It's, it's. It's like that's. And this is the part that I find because that is, I find. Don't you find that that's like where you're wasting the most time like, like taking your context away, starting again and importing it back in. And like I don't. I feel like these models and the technology are smart enough. Memory should certainly work well enough so that you can keep what you want to keep and get rid of what you don't. But that seems to be the hard part. Trimming seems to be really hard.
+- id: u111
+  speaker: David Olsson
+  t_start: 2242.64
+  t_end: 2352.9
+  text: So inside Windsurf there are messages coming through. The IDE when you're working is. It's. It's telling me when it's doing memories and I'm not sure cursor is right now, but it does them at vital points where it's doing a checkpoint so that you can restore sometimes and sometimes it's not. But it's creating memories in the way that I'm showing like Worksona Agent Designer kind of 2.0 where you go through and you're talking about that you're pruning memories and you have these sort of different concentric circles of scale of memory and gets really, really sophisticated. Right. Like it's super sophisticated how you're going. To use that and manage that. But the ides are doing that. They're doing it on a project by project basis as a sorry, but not very well, unfortunately. But they're doing it the best. What I'm saying is like what their techniques are, is, is. Is. Is I'm just describing their techniques because of the most obvious thing about how to move forward. And the IDE to me is the sort of the maybe cloud code is. But the best experience so far is the IDE and how it's figuring out how to delegate tasks, build tools on the fly, allow you to integrate whatever you want. It'll manage all your git, it'll do. Some of your cidc for you. It's all starting to be able to. Tool up and be able to do these things. And so I think memory it already has long term memory is git and commits. And so it has these mechanisms in place that I think it's going to. Be one of the places where there's. A lot of advancement. It's also getting the most feedback, right? 25% of all coding now in the. US is AI great stat. Probably not, right?
+- id: u112
+  speaker: Fulvio Ciano
+  t_start: 2355.06
+  t_end: 2358.34
+  text: And you're using Claude code more than Klein now, David.
+- id: u113
+  speaker: David Olsson
+  t_start: 2358.67
+  t_end: 2376.37
+  text: No, I'm using Klein. I brought up cloud code because I think it's an interesting next step. Is like, it's just the black screen. You're going in and you're not. You're just, you're you, you. You really don't have gui, right? Like, you don't have the comfort of. Some of the GUI of your ide, which is itself just a bare text editor. So.
+- id: u114
+  speaker: Fulvio Ciano
+  t_start: 2377.95
+  t_end: 2380.27
+  text: Sorry. So I'm just trying to understand what you're saying.
+- id: u115
+  speaker: David Olsson
+  t_start: 2380.51
+  t_end: 2393.44
+  text: I'm just bringing it up as a topic to discuss. I think it's an interesting next step because my experience inside the IDE is the most powerful thing is when I. Can integrate other organizations. Cleese.
+- id: u116
+  speaker: Fulvio Ciano
+  t_start: 2393.84
+  t_end: 2408.1
+  text: Yeah. Because I think, I think what I like about client versus Claude is by being in the IDE with Clyde, I have observability and transparency about what it's actually doing. Right?
+- id: u117
+  speaker: David Olsson
+  t_start: 2408.0
+  t_end: 2409.52
+  text: That's what, that's.
+- id: u118
+  speaker: Fulvio Ciano
+  t_start: 2409.52
+  t_end: 2468.71
+  text: That's what I like, right? Because I see things happen in the terminal window. I see files get opened, I see the file structure change. You know what I'm talking about? It's like, yeah, I feel more like I can intervene and fix things and so forth, but as I said, it's between memory and. Between memory and caching and stored tokens. Once it gets confused, I will turn off client, hand, edit the context, close up Visual Studio, reopen up Visual Studio, and then prompt client again in a new session. That's my Chase the gremlins out of my. Out of my kitchen.
+- id: u119
+  speaker: David Olsson
+  t_start: 2469.03
+  t_end: 2509.36
+  text: I just jumped the shark tank and. Open up a new ID and start using another agent. Like, I'll go inside cursor. Yeah, yeah, man, I will, I'll get. I will jump outside of client if it starts to be like, it's better now, it's sonic and four like. So I'm bringing up this, the black, you know, the command line, the terminal window, which, you know, you can't say you don't see much, but you can see a lot of text. You bring it up. Because I've automated by making this phased plan for my builds, I've automated, I've turned on automatically approve everything. So even at the file level structure. And even at the deploy structure, once it has my credentials, it'll deploy automatically.
+- id: u120
+  speaker: Fulvio Ciano
+  t_start: 2509.6
+  t_end: 2512.08
+  text: You turned it on? No auto approve.
+- id: u121
+  speaker: David Olsson
+  t_start: 2512.24
+  t_end: 2521.09
+  text: No, no auto approve. I said all auto approved. And so it's like the command line you don't see happening.
+- id: u122
+  speaker: Fulvio Ciano
+  t_start: 2521.65
+  t_end: 2524.45
+  text: You can read whatever it wants is changing anything, right?
+- id: u123
+  speaker: David Olsson
+  t_start: 2524.53
+  t_end: 2566.2
+  text: Oh, yeah, no, I read it all. I can undo it and I can go change it. But what I'm saying is I've gone to the point where I will let. It do its thing and then it will only debug just as we normally would, is I'll only go back and look at it if need be. But I bring up the black window because it's, it's where the automation's all happening. And, and that's, that's where I'm asking. For, like when we're talking to other. People as potential clients. Like, do you have a clean? They're like, we have an SDK. I'm like, you sure you don't have a cleat? No, no, we don't got one. Okay, well, you're gonna need one because.
+- id: u124
+  speaker: Fulvio Ciano
+  t_start: 2566.84
+  t_end: 2568.88
+  text: Totally agree at that point.
+- id: u125
+  speaker: David Olsson
+  t_start: 2568.88
+  t_end: 2595.07
+  text: The LLM can drive like your ide, the agent in your IDE can drive the clean. And we're seeing WAVE right now is. Getting a lot of attention. I think it's wave. Yeah. Wave is the new AI enabled terminal. And my thing with terminal is remembering the nomenclature for Python and shit. And so I love being able to pull up command K and saying yada. Yada, yada in that terminal window and it will actually tell me what I want.
+- id: u126
+  speaker: Fulvio Ciano
+  t_start: 2596.27
+  t_end: 2686.0
+  text: I had an epiphany I want to share now that I had the other day when I was deep thinking about a whole bunch of this stuff and how what's gotten better is what's gotten worse with AI. The main frustration feeling we don't have. The main frustration feeling we have right now is I my opinion, it's my opinion. Nothing like that. Is that AI, you don't understand what I want. Right? And I feel like if these models keep getting smarter and they figure out pattern and process, the main problem will be the AI's feeling that we don't know what we want. AI feeling that we don't know what we want, as opposed to the feeling that we're currently having, which is we're having the feeling that it doesn't know what I want. You follow what I'm saying? Like, it's a. Like as the models get smaller, the problem would not be that it doesn't understand what we want. It's that we don't know what we want. And that's, and that's why it'll be. It's not, it's not its level of understanding. It's that we don't know what we want from it. And I do run into that. Right. Like that's how. That's how, David, that's how we've been building what I would call emergent things. Right? Because like, we didn't know what we wanted when we started building. You know what I mean? Like, what we want to build comes out as we're building. It's much more of a emergence from a. From the process than arriving at a destination.
+- id: u127
+  speaker: David Olsson
+  t_start: 2688.4
+  t_end: 2887.22
+  text: Yeah, yeah. There's. I guess even if you stand above. That, then there's a mindset and then. There'S standing above that there's a habit and standing above that, hopefully there's a cohort. And so I think there are ways in which the. There are ways of capturing the power that we're talking about at different layers. And different levels in it. And it's about surfacing something from my desire all along. Surfacing something that I can take some ownership over. Not to. To grab the eggs and run, but to be able to say I can move it around better. And to be able to. Because of the fact that I work. As a programmer most of my life. I want to be able to be able to think about how things can be done instead of just using them. And the tools have come so far. That I rely less on my ability to set up what the spec is and more of my ability to react. To set up the conversation for the spec and then react to the spec with more specificity. And so that's the pattern I set up. I would like to set up for people. It's not the delegation you pick this, it's you go through and you give it a goddamn query and then it asks a few questions which will then. Determine possibly its pattern, possibly the solution path, or possibly a racing situation where you're doing a few of them at once. So that there's a similar pattern to. Our feeling of participation and control and. How it's doing some heavy lifting, but doesn't know the real direction. So you're trim tapping the whole thing. And what I'm speaking to today is like my experience is one of stepping. Back more, knowing that every day I'm still going and I'm like, God damn. And then having to go way deep, meaning it helps to know why things work. But it is to your point, Folio more about the process of curiosity and. Being able to pen that in some. Way, saying, here's a really good query. And like when I was starting early. With this stuff and working with Jason. And Communicating in a really big black way. It was like one word would sometimes be super powerful because I could use. It in a bunch of different ways in chat. And we're getting to the thing now where some things are going to be pivotal and I'm just not sure where. They sit in the stack. So far, this notion of delegation is. The most important thing. It seems to be portable across even technologies. It's definitely portable to any scenario in software. It's just whether or not it's really portable within the software tech stacks. So as quickly as possible, which is interesting. But there's, there's always something at some level that you can take a lot of leadership with. The people were talking to yesterday, a billion transactions a second, a second they. Can spin up to. It's like hyper scaling of the transaction with an agent hitting an LLM. Like, what the man? So it's pretty crazy. That's where they are going to win and they're going to do that at $11 a month.
+- id: u128
+  speaker: Jason Kryski
+  t_start: 2890.74
+  t_end: 2894.42
+  text: Do you say $11 a month or $11 million a month?
+- id: u129
+  speaker: David Olsson
+  t_start: 2893.7
+  t_end: 2909.86
+  text: $11 a month. It's just some ridiculously low pay scale on the transaction costs. That doesn't make any sense. Well, they're going to attach to a. Whole lot of sensors and servers and everything. So it's going to be billions and billions of transactions every day because that's what server wants to.
+- id: u130
+  speaker: Jason Kryski
+  t_start: 2910.18
+  t_end: 2927.28
+  text: So there's something you said, Dave, there like was about curiosity and something actually I haven't spent much time doing is the models to be curious to explore. Because I, I'm. Because we're kind of, I'm kind of like, no, I want you to do this thing narrow.
+- id: u131
+  speaker: Fulvio Ciano
+  t_start: 2927.28
+  t_end: 2930.2
+  text: Yeah, like I've never gone, like, I've.
+- id: u132
+  speaker: Jason Kryski
+  t_start: 2930.2
+  t_end: 2935.84
+  text: Never spent time really exploring the other direction. Have any of you guys kind of spent time going the other direction?
+- id: u133
+  speaker: Fulvio Ciano
+  t_start: 2936.8
+  t_end: 2956.64
+  text: Well, it's exactly what you say, Jason. We spend so much of our time cudgeling it down the wrong path. I'm emotionally in a place where I, I often tell you, don't wander off the path as opposed to, oh, it might be nice to see what's wandering off the path. You know what I mean? So. Well, because then you can use like.
+- id: u134
+  speaker: Jason Kryski
+  t_start: 2956.64
+  t_end: 2978.1
+  text: Evals on the other side of it. But I'm just wondering if I'm not appropriately harnessing like the diversity of whatever it can get to because I can always put an eval on the other side. Like, am I, am I. Like, is that constraint useful or does it just feel productive?
+- id: u135
+  speaker: Fulvio Ciano
+  t_start: 2978.58
+  t_end: 3030.47
+  text: I think, I think, I think it's Like a timing thing in the sense that, like, you need to be making, like there's a moment where walking, like curiosity and walking off the path, you're ready to do that. You know what I mean? Things have to be working enough or. Or you have to be, you know, I'm not sure I'm communicating. I think you get the idea. Right. In the sense that doing it from the beginning sounds too dangerous because at the beginning you're too much trying to focus the right way to go. Right. And so to start. To start giving it freedom to, like, seems. Seems like it's not necessarily that it's wrong. I think you're right. I think there's value in it, but it's just where and when, if you know what I mean. Yeah.
+- id: u136
+  speaker: Jason Kryski
+  t_start: 3030.33
+  t_end: 3036.45
+  text: Then obviously with the amount of complexity and if you guys are talking about code particularly, probably not the place to go.
+- id: u137
+  speaker: David Olsson
+  t_start: 3037.009
+  t_end: 3039.57
+  text: Oh, code's actually the easiest.
+- id: u138
+  speaker: Jason Kryski
+  t_start: 3040.05
+  t_end: 3050.7
+  text: But like, with curiosity, like, like, I. I think I feel like it's like that's a place that you don't want it to be. Trying to.
+- id: u139
+  speaker: Fulvio Ciano
+  t_start: 3053.58
+  t_end: 3058.62
+  text: So I don't know that he's wrong because, like, there's so many ways to skin the cat in code.
+- id: u140
+  speaker: David Olsson
+  t_start: 3058.78
+  t_end: 3059.34
+  text: Yeah.
+- id: u141
+  speaker: Fulvio Ciano
+  t_start: 3059.42
+  t_end: 3087.72
+  text: And like, it often is. It's often giving me a choice of, like, should I use this, this or that? Which would you like me to choose? And that's when I, like, give it freedom. And that's when it's like, you should let it be curious and you should use evals. The answer should be about 1, 2, or 3. Let's try all three and figure out a way to test which one's better. That's the moment.
+- id: u142
+  speaker: David Olsson
+  t_start: 3089.88
+  t_end: 3187.91
+  text: If I describe the delegator, if I go back to this right now, the original delegator took a query and then decomposed it and created agents on the fly. So decomposed it on the fly, created its subtasks, and then handed off agents. That it created on the fly. All that dynamic traceable and with. With observability so that you can see that. And to your point, you could do an eval. You can say, we got. We came here, we saw the path. We can actually find markers of truth through the path through process of analyzing it. We can do that kind of thing. It's an eval, and we can say we got there, or we go down this path of saying, I need more articulation. Here's a hierarchical pattern. Okay. I know it's going to be handing off in this sort of way. We can see that we can trace. It we can actually see it play out. Okay, so that's one piece. We have more control there, strategic planning. We're going to put them in a particular version of that strategic pattern. Now we have more articulate control, we. Know what the communication pattern will be even more. And then we can get up about above that. Fulvia was saying, move past the pattern to the workflow, which is a specificity to what's going on and say this is exactly the kind of information we're. Going to move along the pipeline. And by doing that, that's what we're talking to yesterday. By doing that, they know they've hardened. The situation and basically they've typescripted it from JavaScript. That's what you're looking for, is a typescripting of types is to be able. To be confident at the other end. That it's within the parameters of what's supposed to go on. So I'm sitting there whiz, banging, showing them how everything can be crazy dynamic across everything and they're like that, man, we're Java.
+- id: u143
+  speaker: Fulvio Ciano
+  t_start: 3188.47
+  t_end: 3189.59
+  text: Right, right.
+- id: u144
+  speaker: David Olsson
+  t_start: 3189.99
+  t_end: 3194.47
+  text: And it's like, oh right, Java, it's all pre compiled, it's all about safety and it's all about.
+- id: u145
+  speaker: Fulvio Ciano
+  t_start: 3194.71
+  t_end: 3200.97
+  text: I kept wanting to, nothing's dynamic on the fly, that's fine, just tell us, tell us that. Right?
+- id: u146
+  speaker: David Olsson
+  t_start: 3201.19
+  t_end: 3226.08
+  text: And so they told us that and we're like, okay, so that's all, that's fine and dandy. But the delegator can stand above that, figure out what the agents need to be, design them, deploy them in their stub as Java and then it can. Go into the compile process and be ready to deliver. So the delegator doesn't act in real time, it acts in design time for. Them, applying all those layers of patterns and.
+- id: u147
+  speaker: Fulvio Ciano
+  t_start: 3226.08
+  t_end: 3235.2
+  text: Well put, David, write that down. Design time. The delegator acts in design time and then the user sort of makes some choices and then it gets, so to speak, cast.
+- id: u148
+  speaker: David Olsson
+  t_start: 3236.8
+  t_end: 3269.21
+  text: There's a spectrum, Jason, to what you're talking about and we experienced it yesterday, having to drill through that where they. Were just like on the other end of the spectrum. They were like, they needed to know exactly what the results were going to be from their agent queries. And we're like, man, I can't tell you that ahead of time until I. Go down the path of this thing. Here to the point of this one. Where now I know you know, and then it'll be a higher level to what Phil Beal was talking about previously. And then they're asking, so where's the. IP and all this tech and it's. A good question, right?
+- id: u149
+  speaker: Jason Kryski
+  t_start: 3270.25
+  t_end: 3272.25
+  text: Yeah, I think that's the question everybody's asking.
+- id: u150
+  speaker: Fulvio Ciano
+  t_start: 3273.45
+  t_end: 3282.63
+  text: Well, you know what? You know what the problem here is? Is that in my opinion, dangerous to say there's no ip.
+- id: u151
+  speaker: Jason Kryski
+  t_start: 3283.83
+  t_end: 3285.63
+  text: There's like all trade secrets.
+- id: u152
+  speaker: Fulvio Ciano
+  t_start: 3285.63
+  t_end: 3292.63
+  text: There's understanding we have as to. Yeah, but yeah, yeah, sure, that's ip. Do you know what I mean?
+- id: u153
+  speaker: David Olsson
+  t_start: 3293.03
+  t_end: 3318.37
+  text: I know, but how about like SEO is the simplest thing in terms of ads at the beginning of the ad industry online. And so the thinness of ideas. I. Hey man, I'm there too. I'm just like, you know, I could whisper this up in a weekend. So I got it. I gotcha. But at the same time it's been whispered up and it has traction and it's moving in a direction and this. Is the direction, man. This is, this is agent spanning agents.
+- id: u154
+  speaker: Fulvio Ciano
+  t_start: 3318.77
+  t_end: 3331.25
+  text: But I think, I think the focus on do we have IP Is wrong. The focus on do we have IP is wrong. The focus should be do we have understanding? Do we have utility? Because we can make.
+- id: u155
+  speaker: David Olsson
+  t_start: 3332.77
+  t_end: 3337.12
+  text: Yeah, yeah, yeah. No, that's the application of it. It's the application of the ip.
+- id: u156
+  speaker: Fulvio Ciano
+  t_start: 3337.12
+  t_end: 3338.56
+  text: Exactly. Exactly.
+- id: u157
+  speaker: Jason Kryski
+  t_start: 3338.8
+  t_end: 3378.6
+  text: Yeah. I don't know, like that's a very, you know, Hamilton Helmer, 7. 7 Powers. Like, you know, like when you're trying to evaluate from a business perspective, like where your leverage is or what's going on or like even now, like if I look at like the seven powers, I'm like, are these still accurate? Like are these still things that are, you know, the kind of power laws for companies or has like AI like totally unseated these things? I don't know. I just feel like everything now is trade secret. Like your, your, your prompts and your evals and like some of your patterning and that's like what everybody's like holding like this.
+- id: u158
+  speaker: Fulvio Ciano
+  t_start: 3380.6
+  t_end: 3449.7
+  text: And I think it's useless because the problem with this is like got approach maybe broken now by AI because they will jump the ip, if you know what I mean, they'll figure out how to do it without using the ip. Like that's what the like, like the, the a. Everybody who's building IP at a certain level and like focusing, oh, that IP will protect me. And I'm like, I don't know. These AIs are going to get smart and then there isn't even going to be an API. There isn't even going to be software. There's going to be streaming service. Like it will be dynamically building inter. You understand what I'm saying like, I guess it's a little bit like the paradigm is going to change so that the idea of what IP is, is going to be really hard going forward with AI. Because if like what's the point of owning IP if you owned an AI or have an AI that can generate the IP dynamically for the job you need?
+- id: u159
+  speaker: David Olsson
+  t_start: 3450.5
+  t_end: 3463.3
+  text: Well, there's a whole, there's a whole. Business side of things that you know that software services and that's the ability to build a product is, is different than the ability to service it.
+- id: u160
+  speaker: Fulvio Ciano
+  t_start: 3463.78
+  t_end: 3464.28
+  text: Right.
+- id: u161
+  speaker: David Olsson
+  t_start: 3464.14
+  t_end: 3593.53
+  text: And, and that's the difference is like. Can you build it from the beginning? Yeah, you can take and reverse engineer it. Have you had the momentum of understanding all along? We actually did it in the conversation the other day and we got to stem this pretty quickly, but conversation the other day we repinned the same notion that we're talking about that was underneath this idea of the delegator in the, in the spreadsheets we were building and we already had multi hop back then, you know, without any working in a pure chat situation. And we had framing around things to be able to eval them and to a certain confidence that things were going on in a particular pattern. And now we have the ability to. Do, instead of maintaining context, we break context down. We managed at a software level, at the app level. And so it's, there's different places where. The confidence is earned. But in terms of this pattern being useful, it's the most useful thing that is occurring in the ide. And the IDE is the most useful piece of AI enabled technology that we have. It is emergent at the same time as useful. Now all the software that's creating can probably go into a used bin software probably right away. So I'm trying to build that, I'm. Trying to build that marketplace right now, fill it full of my software. But the, the idea is like you'll win business and then like you're saying the software would have won you the business to begin with, but you win the business and the software can then follow. Now how it follows will hopefully be in a proven track where the software has been used and it's not on the fly. And you're having to do all this, how do you know it works? Because it's still going to have ui. And so you look at anything that I do that I don't care about sharing widely to make money on, the UI suffers because it doesn't have the iterations of use. And sure the software will get better at doing all that stuff, too, but, man, it ain't right. Now, we got jobs to do to be able to attach the business to the fact that we don't have to build software in the future. I'm gonna keep telling myself that, guys, because I have to build some software to make some money. Thank you all.
+- id: u162
+  speaker: Fulvio Ciano
+  t_start: 3594.89
+  t_end: 3613.54
+  text: Take care, guys. Sam.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Good morning. You're in outer space. I am in outer space. Solar system. There's a moon view of what we got going on. It's a satellite solar system simulator. What everybody needs. Yeah, you can't see the stars so.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  text: Good morning. You're in outer space. I am in outer space. Solar system. There's a moon view of what we got going on. It's a satellite solar system simulator. What everybody needs. Yeah, you can't see the stars so. This is the next best thing. It's. It's asteroids. So you know what? It was born out of a photo. I saw of the. What the Starlink low earth orbit satellites do for photography at night or just being able to see the stars they create. Basically they weave, I don't know, a. Cell around the earth. And so that's, that's where this simulation started was looking at the satellites around the earth and then from there learning about the satellites and simulating. Right. But that was, that was, that was just all cannon fodder for me being. Able to figure out how to create node package managers packages and use the ecosystem to then distribute things open widely. So it comes with API and everything else. But that's what I've done with worksona. Same thing. Worksona is now at. It's one line of code to include and then you can do a bunch. Of things and it's API works on. It IO now and it hasn't changed. Much although it does imaging and handles images and stuff. What is it of interest And I think this is funny is. Well, last night I took down all the delegators.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  text: But that was, that was, that was just all cannon fodder for me being. Able to figure out how to create node package managers packages and use the ecosystem to then distribute things open widely. So it comes with API and everything else. But that's what I've done with worksona. Same thing. Worksona is now at. It's one line of code to include and then you can do a bunch. Of things and it's API works on. It IO now and it hasn't changed. Much although it does imaging and handles images and stuff. What is it of interest And I think this is funny is. Well, last night I took down all the delegators. I think I sent this one. Hey, David, can you hear me now? Yeah, yeah. You took them down? Why did you take them down? I just made them not accessible because. When I was demonstrating that they got the video, they got the earls, they can actually use all the stuff. Stuff, Right, okay. Yeah. We demonstrated the delegator yesterday and to a company that does infrastructure level business and they saw using it to leverage their agentic system. So take Worksona out, add Akka Akka. And their super zany fast agents. But they're, they have a completely different sort of ecosystem. They manage like networks and sensors and interesting things like that. So they do up to a billion transactions. I think a minute, a second. They can burst infinitely. And so they would. They're putting. They're all agents they want to burst with. Anyways, I went fishing and then when. I came back I couldn't sleep. I built a fishing simulator.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  text: We demonstrated the delegator yesterday and to a company that does infrastructure level business and they saw using it to leverage their agentic system. So take Worksona out, add Akka Akka. And their super zany fast agents. But they're, they have a completely different sort of ecosystem. They manage like networks and sensors and interesting things like that. So they do up to a billion transactions. I think a minute, a second. They can burst infinitely. And so they would. They're putting. They're all agents they want to burst with. Anyways, I went fishing and then when. I came back I couldn't sleep. I built a fishing simulator. Now you don't fishing ever again. I. I can catch way more fish. This way virtually but I have a lot better time the other way. Yeah, sure. But that's, that's the cool kind of stuff. Stuff that I sometimes do when I'm wanting to see something else. Other than work move around. Is use. Claude to build 3D experiences. It's pretty good outside in the stage part and then the ID runs away with it. One topic that I wanted to bring up, Fulvio, do you use librechat on your machine locally? Is that how you engage with chat? No, I use Open Web ui. Open Web ui. Just one second. I gotta find out what my web was. Just one second. Yeah, you won't hear me. Yeah, David, I use Open Web UI primarily because. For a lot of reasons, but it's very easy to hook it up to my Olava server for my. It's very easy to maintain. It's getting really powerful. I can do almost everything in it and I don't know, is there any downside, really? No, not really.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  text: But that's, that's the cool kind of stuff. Stuff that I sometimes do when I'm wanting to see something else. Other than work move around. Is use. Claude to build 3D experiences. It's pretty good outside in the stage part and then the ID runs away with it. One topic that I wanted to bring up, Fulvio, do you use librechat on your machine locally? Is that how you engage with chat? No, I use Open Web ui. Open Web ui. Just one second. I gotta find out what my web was. Just one second. Yeah, you won't hear me. Yeah, David, I use Open Web UI primarily because. For a lot of reasons, but it's very easy to hook it up to my Olava server for my. It's very easy to maintain. It's getting really powerful. I can do almost everything in it and I don't know, is there any downside, really? No, not really. When you say everything in it, what does that mean? Can generate images in it, I can talk to it and it can talk back. I can, you know, save, depending on. The terminology. Workspaces and so forth. Right. I can futz with model parameters, you can install tools, you can install mcp, you can, you know, it's. I don't know, trying to think if there's anything I can't do right now in Open Web ui. There has been in the past things that. But, you know, they keep updating it and improving it. So there's. Do you use it. Does it have this type of facility for building and using your own agents. On top of, you know, the models? Not directly, not. Not the way I suspect you. An agent, certainly, because you can make a workspace. Right. But. But multiple agents. No, no.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  text: Can generate images in it, I can talk to it and it can talk back. I can, you know, save, depending on. The terminology. Workspaces and so forth. Right. I can futz with model parameters, you can install tools, you can install mcp, you can, you know, it's. I don't know, trying to think if there's anything I can't do right now in Open Web ui. There has been in the past things that. But, you know, they keep updating it and improving it. So there's. Do you use it. Does it have this type of facility for building and using your own agents. On top of, you know, the models? Not directly, not. Not the way I suspect you. An agent, certainly, because you can make a workspace. Right. But. But multiple agents. No, no. Okay. But I think I've seen people discussing that in the Open Web UI discord. And so I think other people might be doing that. I think there are. I just. It's not sort of rolled into the, you know, the main deployable, if you. Know what I mean. Right. Yeah, yeah. No, you're a user and. Yeah, So I was just looking at this as it's quite. As you're talking about Web ui, this. Has, I don't know, a lot of. Stuff in it that I'm a lot of the time tooling around, building in whatever else it allows it within the. UI of your sort of prompting environment, if you want to say. And then it transfers across all of the language models, of course, because you're just plugging them in, but it does. Allow for the breakdown of what we. Would normally want with agents and for the. From the ability to build them, you know, which is common crap that you just. Like you said, that's tooling MCP and all the other things to. To memory, to whatever else. And I thought it was an interesting way to be able to share or build out teams with the specificity of specific agents. And then, you know, integrating with Google Docs or local files and saying that that's a, like, it's a. It's a Runway to building your. Your own Chat gbt. Like, experience with proprietary agents, running certain components of your workflow. And.
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: Yeah, yeah. No, you're a user and. Yeah, So I was just looking at this as it's quite. As you're talking about Web ui, this. Has, I don't know, a lot of. Stuff in it that I'm a lot of the time tooling around, building in whatever else it allows it within the. UI of your sort of prompting environment, if you want to say. And then it transfers across all of the language models, of course, because you're just plugging them in, but it does. Allow for the breakdown of what we. Would normally want with agents and for the. From the ability to build them, you know, which is common crap that you just. Like you said, that's tooling MCP and all the other things to. To memory, to whatever else. And I thought it was an interesting way to be able to share or build out teams with the specificity of specific agents. And then, you know, integrating with Google Docs or local files and saying that that's a, like, it's a. It's a Runway to building your. Your own Chat gbt. Like, experience with proprietary agents, running certain components of your workflow. And. Yeah, I have. I haven't tried. It looks terribly interesting. All of them look so familiar now. Right? That's. That's what. That's why I'm asking these questions, man. Because I'm like, it's probably apples to. Apples under the hood, right? Everything is so familiar because everybody's like, yeah, left bar, right bar. Chat window. Good morning, David. You know, even the paperclip, the search, the code interpreter, the mic, it all looks so freaking familiar, right? Yeah. So they even have their own agent. I have found Chat GPT is frustrating the last couple of days because the. I guess it's the Canvas tool. It's not working or just. Oh, man, broken. I tried it twice. I'm like, pooch out of this. Back to Cloud. Yeah. And you. You're doing that in Claude. You're using a Canvas type tool in CLAUDE to actually generate views and stuff. I just haven't done what.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: Everything is so familiar because everybody's like, yeah, left bar, right bar. Chat window. Good morning, David. You know, even the paperclip, the search, the code interpreter, the mic, it all looks so freaking familiar, right? Yeah. So they even have their own agent. I have found Chat GPT is frustrating the last couple of days because the. I guess it's the Canvas tool. It's not working or just. Oh, man, broken. I tried it twice. I'm like, pooch out of this. Back to Cloud. Yeah. And you. You're doing that in Claude. You're using a Canvas type tool in CLAUDE to actually generate views and stuff. I just haven't done what. No, I'm using the generate code, right? Is that what you mean? Yeah. No, but then you bring the code into your own ide. Yeah, yeah. It craps out at a certain point, man. It's a good stub. It's a good. Really good stuff. And most of the time, if I'm actually doing something really like, it has. Depth, I'll just spend the time in cloud or hopefully inside Chat GPT doing the spec like you do. Like. And Travis, our developer, he's the same way. He's like, spend. He spends a lot of time on that and then tests it a bunch in different ways and then uses it. And then probably does it three times. It's kind of like. Right. And as you know, that's my. It's not my preference, as in, I'm frustrated by the fact that I work with the context a lot in Chat GPT because Chat GPT is so good. Okay. From a model quality perspective. Right. But. But the tools sometimes don't work and, you know, it doesn't integrate, you know, everything from their artifact system to integrating to their Canvas tool, which is really an ide. Right. Like, it's. That's really what it is I'm off. Terminologies really have to come together. I think over the next short period of time, you know, we're going to see better and better integration of these, of these. This is the problem. The problem is there's quality LLMs and then there's the work we're doing, David, or you're doing on, on agents. They're not really integrated into the, into these interfaces, into these front ends. Libra is what you just showed me is very interesting. Like, I'm worried I'm gonna get, I'm gonna lose two games now playing with.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: Right. And as you know, that's my. It's not my preference, as in, I'm frustrated by the fact that I work with the context a lot in Chat GPT because Chat GPT is so good. Okay. From a model quality perspective. Right. But. But the tools sometimes don't work and, you know, it doesn't integrate, you know, everything from their artifact system to integrating to their Canvas tool, which is really an ide. Right. Like, it's. That's really what it is I'm off. Terminologies really have to come together. I think over the next short period of time, you know, we're going to see better and better integration of these, of these. This is the problem. The problem is there's quality LLMs and then there's the work we're doing, David, or you're doing on, on agents. They're not really integrated into the, into these interfaces, into these front ends. Libra is what you just showed me is very interesting. Like, I'm worried I'm gonna get, I'm gonna lose two games now playing with. It because I just, I, I couldn't remember what I saw at one point because you were like, no, this is all hooked up. When you'd actually done it, you all hooked up. And sometimes it'd be brittle. And I'm like, I think this is it. And then I downloaded it and it runs, you know, it runs pretty good. Yeah. Can you run it locally? Are you running Libra? Yeah, no, I ran, I'm running it locally. I, I, Right now it's running as servers, so I have to be my. ID to run it up. I haven't spun it up as its. Own instance all the time, but I think you can quickly wrap it to. Do that with just a startup script and then it can work with a centralized server, which would then allow people to share across the team. I think that's what we need to get to. Right, yeah, that's why I'm pointing to it. I'm like, the amount of right now, it's like somebody's going to figure that piece out. Yeah. This bit is, this bit is open source. And so building that piece on top. Of it seems like it's, it's doable because it's repository new Reliant.
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  text: Yeah, no, I ran, I'm running it locally. I, I, Right now it's running as servers, so I have to be my. ID to run it up. I haven't spun it up as its. Own instance all the time, but I think you can quickly wrap it to. Do that with just a startup script and then it can work with a centralized server, which would then allow people to share across the team. I think that's what we need to get to. Right, yeah, that's why I'm pointing to it. I'm like, the amount of right now, it's like somebody's going to figure that piece out. Yeah. This bit is, this bit is open source. And so building that piece on top. Of it seems like it's, it's doable because it's repository new Reliant. Yeah, yeah, exactly. And you know, there are a ton of tools for quickly getting and deploying these things locally, like Pinocchio and so forth. All these things. Right. Which in fact is what I use to maintain my Open Web ui. Right. Because I have Pinocchio on my machine and so there's a script for Open Web UI and it does all the work of updating Open Web UI and so forth. And I find that works really well. Right. Like, and, and Open Web UI is already set up for a team environment. Like I could share my Open Web UI across anybody in my network, and if I set up data ip, I could share it to you, David. Right, right. Yeah, yeah, yeah. And the interesting thing about that is you'd be using Open Web UI on my Machine remotely. Right, right. And the beauty of that is. And then therefore it would have access to my local. Yeah, be centralized through you. Right, yeah. Right. It shouldn't be. It really should be. We should have. Any step towards sharing that's happening automatically and then having version control on things. And it's a big deal. It's a really big deal to have version control on stuff. And then if you want to get to the quality control, it's even bigger deal. So you have to have it sitting. Somewhere where, like, if somebody's using one agent, it probably has to go through a bunch of rigor.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: And the interesting thing about that is you'd be using Open Web UI on my Machine remotely. Right, right. And the beauty of that is. And then therefore it would have access to my local. Yeah, be centralized through you. Right, yeah. Right. It shouldn't be. It really should be. We should have. Any step towards sharing that's happening automatically and then having version control on things. And it's a big deal. It's a really big deal to have version control on stuff. And then if you want to get to the quality control, it's even bigger deal. So you have to have it sitting. Somewhere where, like, if somebody's using one agent, it probably has to go through a bunch of rigor. Yeah, I would. I would love to get there. There's so many building blocks out there. There's so many. Right. I don't care about the models. The models for me are like. Yeah, just like I. Well, I do care in the sense that I. I personally have a philosophical preference for the ones I can host on a llama and serve myself. Right. Because it makes experimentation cheap and painless. But the rest, I kind of do feel like the whole stack should be on like a common team infrastructure, if you know what I mean. Anyway, definitely want to look at this Libra thing. Yeah, the. The Libra thing is sort of. So that's the UI GUI kind of shared experience. Then underneath the covers and the black screens is CLAUDE code, which is getting a lot of focus too now. And in my conversation yesterday, I was talking about the CLI and how the. CLI is so powerful and in the AI enabled space. Because if you have an AI enabled. IDE and there's a command line interface. For say, a service like AWS's Amplify. Then your IDE can do the work. Of logging you in and doing all of the DevOps. It's beautiful. It's super beautiful. And I uncovered that by accident by using Windsurf and it started doing and publishing to netlify on its own. I'm like, what did you just do? And then there's other services that. The same thing to Railway and they'll spin up Supabases as others.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  text: Yeah, I would. I would love to get there. There's so many building blocks out there. There's so many. Right. I don't care about the models. The models for me are like. Yeah, just like I. Well, I do care in the sense that I. I personally have a philosophical preference for the ones I can host on a llama and serve myself. Right. Because it makes experimentation cheap and painless. But the rest, I kind of do feel like the whole stack should be on like a common team infrastructure, if you know what I mean. Anyway, definitely want to look at this Libra thing. Yeah, the. The Libra thing is sort of. So that's the UI GUI kind of shared experience. Then underneath the covers and the black screens is CLAUDE code, which is getting a lot of focus too now. And in my conversation yesterday, I was talking about the CLI and how the. CLI is so powerful and in the AI enabled space. Because if you have an AI enabled. IDE and there's a command line interface. For say, a service like AWS's Amplify. Then your IDE can do the work. Of logging you in and doing all of the DevOps. It's beautiful. It's super beautiful. And I uncovered that by accident by using Windsurf and it started doing and publishing to netlify on its own. I'm like, what did you just do? And then there's other services that. The same thing to Railway and they'll spin up Supabases as others. Interestingly, the Libra logo looks like the old. I think if I remember correctly, there used to be an Open Office clone, another Open Office called Libra. Libra Office or something like that. Yeah, yeah. And I think this might. I think the logo's similar. So this might be descended from that group, if not that project. Right. That's an. That's an interesting step to take towards. Being somewhat autonomous and you're like being able to keep your stuff as your Stuff, you know, you keep your queries and all your history and your own ID on your own machine or it's, you know, hosted, but it's your own. It's not like going and using quad and going and using chat GBT and going and using something else. So as an organization, it makes a lot of sense to have sort of some place where that stuff has things going on. And in terms of its extensibility, it looks like it's pretty cool. But yeah, that's. That's the stuff I wanted to bring to the table today is like the. Libra chat being kind of a way. Of people being able to build their own agents and within permanence in a simple chat environment. Then to build them in the chat environment like that, and then you can see them work, then you can change them and iterate on them without having. To do any of the work that I've shown or do. Being able to just. Instead of copying and paste it from. Somewhere else, it's right inside that IDE and you can just say, okay. One of my favorite agents right now is extract only the text. Only the text, exclamation mark. Just the text. Give me only the text, exclamation mark. I'm only looking for the text. Text, text. That's fine. That's my favorite prompt right now.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u70
+  - u71
+  - u72
+  - u73
+  text: That's an. That's an interesting step to take towards. Being somewhat autonomous and you're like being able to keep your stuff as your Stuff, you know, you keep your queries and all your history and your own ID on your own machine or it's, you know, hosted, but it's your own. It's not like going and using quad and going and using chat GBT and going and using something else. So as an organization, it makes a lot of sense to have sort of some place where that stuff has things going on. And in terms of its extensibility, it looks like it's pretty cool. But yeah, that's. That's the stuff I wanted to bring to the table today is like the. Libra chat being kind of a way. Of people being able to build their own agents and within permanence in a simple chat environment. Then to build them in the chat environment like that, and then you can see them work, then you can change them and iterate on them without having. To do any of the work that I've shown or do. Being able to just. Instead of copying and paste it from. Somewhere else, it's right inside that IDE and you can just say, okay. One of my favorite agents right now is extract only the text. Only the text, exclamation mark. Just the text. Give me only the text, exclamation mark. I'm only looking for the text. Text, text. That's fine. That's my favorite prompt right now. Well, I must say, I'm sure I would love everybody's opinion on this. All of the models really love emoticons way too much, right? All this stuff has more. All the HTML has emoticons in it now. Everything, everything. Oh, just. I don't want the emoticons. I feel like writing that prompt constantly. Strip emoticons from my plan. Strip emoticons from my. You know, whatever. It's just. Is that. Is that because there's a generation that really does live on emoticons. Is that. Is that what that is? Or is something wrong with me or it.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  text: Well, I must say, I'm sure I would love everybody's opinion on this. All of the models really love emoticons way too much, right? All this stuff has more. All the HTML has emoticons in it now. Everything, everything. Oh, just. I don't want the emoticons. I feel like writing that prompt constantly. Strip emoticons from my plan. Strip emoticons from my. You know, whatever. It's just. Is that. Is that because there's a generation that really does live on emoticons. Is that. Is that what that is? Or is something wrong with me or it. It's just a over. It's already integrated. But folks, how. How are you going to shrug otherwise? It took me forever to figure out what Hugging Face was, man. I'm just like. Because I ignore branding for a long time sometimes apparently. And I just like, what are you. I don't care. Your name is Hugging Face. Now that actually runs on Hugging Face. Hugging Face is doing all kinds of. Crazy things now too. Since they've been. I guess I got a relationship with Dell, stuff like that going on wherever else. But everybody's moving around. But the open web ui. I think I'll take a pass on it for now. And probably even take a pass on Libra chapter because I've got way too much going on. But I thought it. So what I have been able to do in working inside like a proper. Workflow where you're going into the design phase and you're like, oh, think about. Things for more than a second. I'm using 3O or O3 as a. You can even get pronoun whatever the highest, most expensive model is you can get. Put your I need a specification around. This idea or I need a product. Description and whatever else and you begin. Building out the specification document Inside either Cloud Sonnet 4 or some high end version of whatever is working inside ChatGPT. 4o is okay, but the 3.0 or 03 was way better. And you build that out in one of those tools in a conversational way. And you're like, well, it's saying all this stuff and then you can tell. It to not do things, which is always good. And if you're technical like me, then you'll probably try to suggest certain technologies. And if you're somebody else, you've got. A template and say use this technology stack template and then it will go along those lines. You build it there and you spend all your time there and you say, here's my specific. Now if you hand that off to an IDE or even to lovable, it will build something, it'll lose its way, it'll lose its way significantly. So the next step is building a phased plan. And it really is. You take that spec, you go into say Klein clients, really good, go into. Client and say here's my spec, build. Out a phased plan for executing this and in the plan mode and then it will go through and read it all and ask it to make sure that if it's missing anything to add it in, ask questions, whatever. And the planning mode in there is great. So it will then consume that. Other IDs will do the same thing and create memories around it. You do that and create the plan. And the phase plan is wonderful. And if you've got the IDE set up on automatic like I just figured out how to do it, then it will complete each phase of the plan with you kicking back and not doing anything. It's just stupid, man. So you know it, it will complete it. And, and now if the phase plan is done well, it's building test scenarios after each phase to see if the phase is effective. And so at each phase, if you got 10 phases, it's building test phase one, test phase two, HTML such and such and such. And it was like, I mean, this is playing out for me while I'm. Building out this back to plan to then, you know, continue go to the next phase. And I did that and I. And I was able to just intermittently. Come in and build an app throughout. The day because it takes. Or throughout an afternoon, because it takes about 10 to 15 minutes for a phase sometimes. Sometimes it took nothin
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u79
+  text: Hugging Face is doing all kinds of. Crazy things now too. Since they've been. I guess I got a relationship with Dell, stuff like that going on wherever else. But everybody's moving around. But the open web ui. I think I'll take a pass on it for now. And probably even take a pass on Libra chapter because I've got way too much going on. But I thought it. So what I have been able to do in working inside like a proper. Workflow where you're going into the design phase and you're like, oh, think about. Things for more than a second. I'm using 3O or O3 as a. You can even get pronoun whatever the highest, most expensive model is you can get. Put your I need a specification around. This idea or I need a product. Description and whatever else and you begin. Building out the specification document Inside either Cloud Sonnet 4 or some high end version of whatever is working inside ChatGPT. 4o is okay, but the 3.0 or 03 was way better. And you build that out in one of those tools in a conversational way. And you're like, well, it's saying all this stuff and then you can tell. It to not do things, which is always good. And if you're technical like me, then you'll probably try to suggest certain technologies. And if you're somebody else, you've got. A template and say use this technology stack template and then it will go along those lines. You build it there and you spend all your time there and you say, here's my specific. Now if you hand that off to an IDE or even to lovable, it will build something, it'll lose its way, it'll lose its way significantly. So the next step is building a phased plan. And it really is. You take that spec, you go into say Klein clients, really good, go into. Client and say here's my spec, build. Out a phased plan for executing this and in the plan mode and then it will go through and read it all and ask it to make sure that if it's missing anything to add it in, ask questions, whatever. And the planning mode in there is great. So it will then consume that. Other IDs will do the same thing and create memories around it. You do that and create the plan. And the phase plan is wonderful. And if you've got the IDE set up on automatic like I just figured out how to do it, then it will complete each phase of the plan with you kicking back and not doing anything. It's just stupid, man. So you know it, it will complete it. And, and now if the phase plan is done well, it's building test scenarios after each phase to see if the phase is effective. And so at each phase, if you got 10 phases, it's building test phase one, test phase two, HTML such and such and such. And it was like, I mean, this is playing out for me while I'm. Building out this back to plan to then, you know, continue go to the next phase. And I did that and I. And I was able to just intermittently. Come in and build an app throughout. The day because it takes. Or throughout an afternoon, because it takes about 10 to 15 minutes for a phase sometimes. Sometimes it took nothin
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u79
+  text: Hugging Face is doing all kinds of. Crazy things now too. Since they've been. I guess I got a relationship with Dell, stuff like that going on wherever else. But everybody's moving around. But the open web ui. I think I'll take a pass on it for now. And probably even take a pass on Libra chapter because I've got way too much going on. But I thought it. So what I have been able to do in working inside like a proper. Workflow where you're going into the design phase and you're like, oh, think about. Things for more than a second. I'm using 3O or O3 as a. You can even get pronoun whatever the highest, most expensive model is you can get. Put your I need a specification around. This idea or I need a product. Description and whatever else and you begin. Building out the specification document Inside either Cloud Sonnet 4 or some high end version of whatever is working inside ChatGPT. 4o is okay, but the 3.0 or 03 was way better. And you build that out in one of those tools in a conversational way. And you're like, well, it's saying all this stuff and then you can tell. It to not do things, which is always good. And if you're technical like me, then you'll probably try to suggest certain technologies. And if you're somebody else, you've got. A template and say use this technology stack template and then it will go along those lines. You build it there and you spend all your time there and you say, here's my specific. Now if you hand that off to an IDE or even to lovable, it will build something, it'll lose its way, it'll lose its way significantly. So the next step is building a phased plan. And it really is. You take that spec, you go into say Klein clients, really good, go into. Client and say here's my spec, build. Out a phased plan for executing this and in the plan mode and then it will go through and read it all and ask it to make sure that if it's missing anything to add it in, ask questions, whatever. And the planning mode in there is great. So it will then consume that. Other IDs will do the same thing and create memories around it. You do that and create the plan. And the phase plan is wonderful. And if you've got the IDE set up on automatic like I just figured out how to do it, then it will complete each phase of the plan with you kicking back and not doing anything. It's just stupid, man. So you know it, it will complete it. And, and now if the phase plan is done well, it's building test scenarios after each phase to see if the phase is effective. And so at each phase, if you got 10 phases, it's building test phase one, test phase two, HTML such and such and such. And it was like, I mean, this is playing out for me while I'm. Building out this back to plan to then, you know, continue go to the next phase. And I did that and I. And I was able to just intermittently. Come in and build an app throughout. The day because it takes. Or throughout an afternoon, because it takes about 10 to 15 minutes for a phase sometimes. Sometimes it took nothin
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u79
+  - u80
+  text: Hugging Face is doing all kinds of. Crazy things now too. Since they've been. I guess I got a relationship with Dell, stuff like that going on wherever else. But everybody's moving around. But the open web ui. I think I'll take a pass on it for now. And probably even take a pass on Libra chapter because I've got way too much going on. But I thought it. So what I have been able to do in working inside like a proper. Workflow where you're going into the design phase and you're like, oh, think about. Things for more than a second. I'm using 3O or O3 as a. You can even get pronoun whatever the highest, most expensive model is you can get. Put your I need a specification around. This idea or I need a product. Description and whatever else and you begin. Building out the specification document Inside either Cloud Sonnet 4 or some high end version of whatever is working inside ChatGPT. 4o is okay, but the 3.0 or 03 was way better. And you build that out in one of those tools in a conversational way. And you're like, well, it's saying all this stuff and then you can tell. It to not do things, which is always good. And if you're technical like me, then you'll probably try to suggest certain technologies. And if you're somebody else, you've got. A template and say use this technology stack template and then it will go along those lines. You build it there and you spend all your time there and you say, here's my specific. Now if you hand that off to an IDE or even to lovable, it will build something, it'll lose its way, it'll lose its way significantly. So the next step is building a phased plan. And it really is. You take that spec, you go into say Klein clients, really good, go into. Client and say here's my spec, build. Out a phased plan for executing this and in the plan mode and then it will go through and read it all and ask it to make sure that if it's missing anything to add it in, ask questions, whatever. And the planning mode in there is great. So it will then consume that. Other IDs will do the same thing and create memories around it. You do that and create the plan. And the phase plan is wonderful. And if you've got the IDE set up on automatic like I just figured out how to do it, then it will complete each phase of the plan with you kicking back and not doing anything. It's just stupid, man. So you know it, it will complete it. And, and now if the phase plan is done well, it's building test scenarios after each phase to see if the phase is effective. And so at each phase, if you got 10 phases, it's building test phase one, test phase two, HTML such and such and such. And it was like, I mean, this is playing out for me while I'm. Building out this back to plan to then, you know, continue go to the next phase. And I did that and I. And I was able to just intermittently. Come in and build an app throughout. The day because it takes. Or throughout an afternoon, because it takes about 10 to 15 minutes for a phase sometimes. Sometimes it took nothin Philvio, let me ask you a question because I hope everybody can indulge me for five minutes. I'll try to get this out quickly. When I was in high school, when I was being educated because I had school and so forth, you know, they're very big, very good educators. And one of the things they kind of, they, they push on you. And it's not, it's not accidental. It's not like one or two Jesuits do it. It's kind of part of the whole thing is that if you don't, if you don't know how to do something already, if you don't have the intelligence or, or the know how to do something already, you can, you can supplement that or you can, you can supplement. You can. Rather than have that pre knowledge and intelligence, you can add process, process, process. Will, will. Will get over the hump that you can't, you might not be able to do something with because you don't have the intelligence. And, and it's, it's interesting, David, because on the worksona side you have these patterns. And patterns aren't process. Right? Patterns are. Patterns are. The patterns are trying to be as clear as possible. Patterns are the way the agents communicate. Each. There is a process part to it all too. Right? The process kind of like planning. Review your plan, try your plan, test your plan. You know what I mean? That's process, right? Yep. You haven't done something before and you don't have intelligence or, you know, the model just doesn't know. By predicting right away what the right answer is, process can keep you from going astray because process will force you to plan and test and validate and consider and all the rest. Right.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: Philvio, let me ask you a question because I hope everybody can indulge me for five minutes. I'll try to get this out quickly. When I was in high school, when I was being educated because I had school and so forth, you know, they're very big, very good educators. And one of the things they kind of, they, they push on you. And it's not, it's not accidental. It's not like one or two Jesuits do it. It's kind of part of the whole thing is that if you don't, if you don't know how to do something already, if you don't have the intelligence or, or the know how to do something already, you can, you can supplement that or you can, you can supplement. You can. Rather than have that pre knowledge and intelligence, you can add process, process, process. Will, will. Will get over the hump that you can't, you might not be able to do something with because you don't have the intelligence. And, and it's, it's interesting, David, because on the worksona side you have these patterns. And patterns aren't process. Right? Patterns are. Patterns are. The patterns are trying to be as clear as possible. Patterns are the way the agents communicate. Each. There is a process part to it all too. Right? The process kind of like planning. Review your plan, try your plan, test your plan. You know what I mean? That's process, right? Yep. You haven't done something before and you don't have intelligence or, you know, the model just doesn't know. By predicting right away what the right answer is, process can keep you from going astray because process will force you to plan and test and validate and consider and all the rest. Right. Yeah, no, that's what we rely. On as professionals is we have. I, you know, we eventually, I call them frameworks, eventually. Sometimes they get very granular, but we. Have process that will. Yeah. It's funny, I think of pro. I think of frameworks as a combination of pattern and process. Yeah, yeah, yeah, yeah. They're employing. They're employing a pattern with a certain. Conveyance, which is a nomenclature or experience path. And so. Yeah, I get what you're saying. Yeah, I get it. Yeah. It's just. What. I don't see it a lot, which I think would be terribly useful would be like templates of process. You know what I mean? Not just template, like your templates of pattern are really good, but this template. I think there's a missing.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  text: Yeah. It's funny, I think of pro. I think of frameworks as a combination of pattern and process. Yeah, yeah, yeah, yeah. They're employing. They're employing a pattern with a certain. Conveyance, which is a nomenclature or experience path. And so. Yeah, I get what you're saying. Yeah, I get it. Yeah. It's just. What. I don't see it a lot, which I think would be terribly useful would be like templates of process. You know what I mean? Not just template, like your templates of pattern are really good, but this template. I think there's a missing. Yeah, no, it is the next step. It is that. So it's a strategy as to what the best pattern is for. For doing. Reaching a goal. Right. To employ the. Under underlying interaction or communication pattern. Yeah. So what happens is like, I. So you get the one. You've got the orchestration, you've got the delegation and the orchestration, you got strategies for how to do that. And then you're talking about, okay, now we can actually, instead of having some of it loose, we can actually apply framing all around that. And I love that. And that's. That is the next step. And it is. Some of it can be completely dynamic, but some of it will be very much studied and specific because of the. Nature of what you want to be in the can. You want it to analyze on a framework and you know, what the inputs and outputs are. Even though. And I'm learning that from what we. Talked about yesterday with our conversations. But Jason, you were going to say. Something. Been muted the whole time. Jason, it was fun to watch. Yeah, yeah, I got there, I got there. Now it's all. I gotta reproduce that, which is. I know, I hate that. Go ahead. I couldn't live through. Yeah, I was just saying that. It. Was insightful and it's something that I've been thinking a lot about, like how to like, provide the, like the, the frameworks, like for usage when it comes to, you know, addressing some sort of problem. And I haven't put any effort behind that yet. But something that's been. I've been thinking about so when. When Dave mentioned it, I was like. Or when you guys were talking about.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  text: Been muted the whole time. Jason, it was fun to watch. Yeah, yeah, I got there, I got there. Now it's all. I gotta reproduce that, which is. I know, I hate that. Go ahead. I couldn't live through. Yeah, I was just saying that. It. Was insightful and it's something that I've been thinking a lot about, like how to like, provide the, like the, the frameworks, like for usage when it comes to, you know, addressing some sort of problem. And I haven't put any effort behind that yet. But something that's been. I've been thinking about so when. When Dave mentioned it, I was like. Or when you guys were talking about. This, I was like, yes. It'S an exciting piece. So I can bring up the visual of what will help provide some context to what he's saying. The delegator has patterns that it can. Employ, and they're common to how we work. It won't function as I have it. On my desktop, I don't think. No, it won't. Yeah. So this is just visual. Oh, maybe it is. Jesus Christ. Let's see if it loaded them up. No, it didn't load up anything. But. So you can. So the level at what you're talking about, folio, is like. So here's the patterns hierarchical. These are good tasks that the pattern is. That is a. Is applicable for. Right. And so the level up from there is like, here's a use case. That is strategic planning. I know. And the thing is, it's like, often what you do is part of a process. Right. And you almost need a pattern at each step of the process. But then. But the problem is you can have a pattern above the process as well. Right? Like. Well, you want decomposition more than one layer. Right. And you need process. It's this connection between process and that. Is very. Hard to define because I think they. There is intermingled. Like, sometimes you're using a pattern within a process, within a step of a process, and sometimes you're using a pattern above the steps of the process or for the steps of the page. So it's, you know, stepping back and stepping in. I'm very comfortable doing. It's what I'm doing both at the same time in more than one direction that I get. I get confused. Right. About where to put it, where to. And it is how to. How to control process.
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  text: So I can bring up the visual of what will help provide some context to what he's saying. The delegator has patterns that it can. Employ, and they're common to how we work. It won't function as I have it. On my desktop, I don't think. No, it won't. Yeah. So this is just visual. Oh, maybe it is. Jesus Christ. Let's see if it loaded them up. No, it didn't load up anything. But. So you can. So the level at what you're talking about, folio, is like. So here's the patterns hierarchical. These are good tasks that the pattern is. That is a. Is applicable for. Right. And so the level up from there is like, here's a use case. That is strategic planning. I know. And the thing is, it's like, often what you do is part of a process. Right. And you almost need a pattern at each step of the process. But then. But the problem is you can have a pattern above the process as well. Right? Like. Well, you want decomposition more than one layer. Right. And you need process. It's this connection between process and that. Is very. Hard to define because I think they. There is intermingled. Like, sometimes you're using a pattern within a process, within a step of a process, and sometimes you're using a pattern above the steps of the process or for the steps of the page. So it's, you know, stepping back and stepping in. I'm very comfortable doing. It's what I'm doing both at the same time in more than one direction that I get. I get confused. Right. About where to put it, where to. And it is how to. How to control process. It's a mind. Yeah. How to what? I'm sorry? It's a mind. It's like recursive math. It's like. So it's. I call it the amnesiacic wall thing, where it doesn't make any goddamn sense. Until it doesn't. You're like, okay, it makes sense now. I don't know what was wrong before. But it was a big problem. Right. It's a conceptual leap of some sort. Right. Like you're talking about. Yeah. And you know how I keep harping on. And I am harping on it even with myself. The context thing is because I find I have to step back and change the pattern or step back and change the process. But if the result of either of those two steps changing the Pattern or changing the process can be documented in the context. Then I win somehow, right, you follow? Then somehow there's a, there's a win condition because it's captured in the context what that exercise did of changing the. Pattern or changing the process. That's it.
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  text: I know. And the thing is, it's like, often what you do is part of a process. Right. And you almost need a pattern at each step of the process. But then. But the problem is you can have a pattern above the process as well. Right? Like. Well, you want decomposition more than one layer. Right. And you need process. It's this connection between process and that. Is very. Hard to define because I think they. There is intermingled. Like, sometimes you're using a pattern within a process, within a step of a process, and sometimes you're using a pattern above the steps of the process or for the steps of the page. So it's, you know, stepping back and stepping in. I'm very comfortable doing. It's what I'm doing both at the same time in more than one direction that I get. I get confused. Right. About where to put it, where to. And it is how to. How to control process. It's a mind. Yeah. How to what? I'm sorry? It's a mind. It's like recursive math. It's like. So it's. I call it the amnesiacic wall thing, where it doesn't make any goddamn sense. Until it doesn't. You're like, okay, it makes sense now. I don't know what was wrong before. But it was a big problem. Right. It's a conceptual leap of some sort. Right. Like you're talking about. Yeah. And you know how I keep harping on. And I am harping on it even with myself. The context thing is because I find I have to step back and change the pattern or step back and change the process. But if the result of either of those two steps changing the Pattern or changing the process can be documented in the context. Then I win somehow, right, you follow? Then somehow there's a, there's a win condition because it's captured in the context what that exercise did of changing the. Pattern or changing the process. That's it. Yeah, yeah, yeah. So the coolest way to, so, yeah, strategy is really neat that way. Things roll up as they move up into higher order systems into the point. Where you turn a light switch on and off and then I think everything gets very granular down at the bottom of that. But I think there's, I think there's a way of cascading all that stuff from, from the point of setting goals and being able to then arbitrate what it means to reach them and measure them. And so it kind of sounds like what you're talking about is like the, the context that you set for which you move forward and then the context at which you end your result or your journey, those are more powerful than the process. We know that because we, I'm describing my process right now. It's like I build, I build some specification, I build the first version of it, then whatever that the spec is for, that is, that's my piece of, that's my asset.
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u105
+  - u106
+  - u107
+  - u108
+  text: Yeah, yeah, yeah. So the coolest way to, so, yeah, strategy is really neat that way. Things roll up as they move up into higher order systems into the point. Where you turn a light switch on and off and then I think everything gets very granular down at the bottom of that. But I think there's, I think there's a way of cascading all that stuff from, from the point of setting goals and being able to then arbitrate what it means to reach them and measure them. And so it kind of sounds like what you're talking about is like the, the context that you set for which you move forward and then the context at which you end your result or your journey, those are more powerful than the process. We know that because we, I'm describing my process right now. It's like I build, I build some specification, I build the first version of it, then whatever that the spec is for, that is, that's my piece of, that's my asset. That's right, exactly. Because that's, that's what I always mean by context, right? It's like. Yeah, and because, and so I find the LLMs are actually not very good at keeping documents clean. Right? Like that's where I intervene, right? Like they're, I don't understand why they're not good at that, by the way. Because you'd think with the right pattern and agents they could, like how, how about this? The people that are building these LLMs, they are not UI people. These are not application development people. These aren't, this is not Apple and Microsoft. They're not used to databases in the way that we're talking about. It works to what, one algorithm? So the whole thing, it's amazing, right? The whole thing, it, it rolls up into one algorithm. Well, I think, I think, I think the problem is around what's called trimming and memory. So. Because the problem is I don't mind that they make mistakes, okay? I don't mind that they hallucinate because my process finds it and cleans it out. And my process, I will clean it out of the context. You know what I mean? But it's terrible at that. It is terrible at that if it, if it gets, if it gets confused and even if I tell it where it got confused and to forget that I'm generally. And I've got to take my context and go and show up again. I literally got to start a new chapter. You know what I mean? With.
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u108
+  - u109
+  - u110
+  - u111
+  text: Well, I think, I think, I think the problem is around what's called trimming and memory. So. Because the problem is I don't mind that they make mistakes, okay? I don't mind that they hallucinate because my process finds it and cleans it out. And my process, I will clean it out of the context. You know what I mean? But it's terrible at that. It is terrible at that if it, if it gets, if it gets confused and even if I tell it where it got confused and to forget that I'm generally. And I've got to take my context and go and show up again. I literally got to start a new chapter. You know what I mean? With. Oh yeah, no, yeah, I, I abandoned ship. Yeah, yeah. It's, it's. It's like that's. And this is the part that I find because that is, I find. Don't you find that that's like where you're wasting the most time like, like taking your context away, starting again and importing it back in. And like I don't. I feel like these models and the technology are smart enough. Memory should certainly work well enough so that you can keep what you want to keep and get rid of what you don't. But that seems to be the hard part. Trimming seems to be really hard. So inside Windsurf there are messages coming through. The IDE when you're working is. It's. It's telling me when it's doing memories and I'm not sure cursor is right now, but it does them at vital points where it's doing a checkpoint so that you can restore sometimes and sometimes it's not. But it's creating memories in the way that I'm showing like Worksona Agent Designer kind of 2.0 where you go through and you're talking about that you're pruning memories and you have these sort of different concentric circles of scale of memory and gets really, really sophisticated. Right. Like it's super sophisticated how you're going. To use that and manage that. But the ides are doing that. They're doing it on a project by project basis as a sorry, but not very well, unfortunately. But they're doing it the best. What I'm saying is like what their techniques are, is, is. Is. Is I'm just describing their techniques because of the most obvious thing about how to move forward. And the IDE to me is the sort of the maybe cloud code is. But the best experience so far is the IDE and how it's figuring out how to delegate tasks, build tools on the fly, allow you to integrate whatever you want. It'll manage all your git, it'll do. Some of your cidc for you. It's all starting to be able to. Tool up and be able to do these things. And so I think memory it already has long term memory is git and commits. And so it has these mechanisms in place that I think it's going to. Be one of the places where there's. A lot of advancement. It's also getting the most feedback, right? 25% of all coding now in the. US is AI great stat. Probably not, right?
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u111
+  - u112
+  - u113
+  text: So inside Windsurf there are messages coming through. The IDE when you're working is. It's. It's telling me when it's doing memories and I'm not sure cursor is right now, but it does them at vital points where it's doing a checkpoint so that you can restore sometimes and sometimes it's not. But it's creating memories in the way that I'm showing like Worksona Agent Designer kind of 2.0 where you go through and you're talking about that you're pruning memories and you have these sort of different concentric circles of scale of memory and gets really, really sophisticated. Right. Like it's super sophisticated how you're going. To use that and manage that. But the ides are doing that. They're doing it on a project by project basis as a sorry, but not very well, unfortunately. But they're doing it the best. What I'm saying is like what their techniques are, is, is. Is. Is I'm just describing their techniques because of the most obvious thing about how to move forward. And the IDE to me is the sort of the maybe cloud code is. But the best experience so far is the IDE and how it's figuring out how to delegate tasks, build tools on the fly, allow you to integrate whatever you want. It'll manage all your git, it'll do. Some of your cidc for you. It's all starting to be able to. Tool up and be able to do these things. And so I think memory it already has long term memory is git and commits. And so it has these mechanisms in place that I think it's going to. Be one of the places where there's. A lot of advancement. It's also getting the most feedback, right? 25% of all coding now in the. US is AI great stat. Probably not, right? And you're using Claude code more than Klein now, David. No, I'm using Klein. I brought up cloud code because I think it's an interesting next step. Is like, it's just the black screen. You're going in and you're not. You're just, you're you, you. You really don't have gui, right? Like, you don't have the comfort of. Some of the GUI of your ide, which is itself just a bare text editor. So.
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: So inside Windsurf there are messages coming through. The IDE when you're working is. It's. It's telling me when it's doing memories and I'm not sure cursor is right now, but it does them at vital points where it's doing a checkpoint so that you can restore sometimes and sometimes it's not. But it's creating memories in the way that I'm showing like Worksona Agent Designer kind of 2.0 where you go through and you're talking about that you're pruning memories and you have these sort of different concentric circles of scale of memory and gets really, really sophisticated. Right. Like it's super sophisticated how you're going. To use that and manage that. But the ides are doing that. They're doing it on a project by project basis as a sorry, but not very well, unfortunately. But they're doing it the best. What I'm saying is like what their techniques are, is, is. Is. Is I'm just describing their techniques because of the most obvious thing about how to move forward. And the IDE to me is the sort of the maybe cloud code is. But the best experience so far is the IDE and how it's figuring out how to delegate tasks, build tools on the fly, allow you to integrate whatever you want. It'll manage all your git, it'll do. Some of your cidc for you. It's all starting to be able to. Tool up and be able to do these things. And so I think memory it already has long term memory is git and commits. And so it has these mechanisms in place that I think it's going to. Be one of the places where there's. A lot of advancement. It's also getting the most feedback, right? 25% of all coding now in the. US is AI great stat. Probably not, right? And you're using Claude code more than Klein now, David. No, I'm using Klein. I brought up cloud code because I think it's an interesting next step. Is like, it's just the black screen. You're going in and you're not. You're just, you're you, you. You really don't have gui, right? Like, you don't have the comfort of. Some of the GUI of your ide, which is itself just a bare text editor. So. Sorry. So I'm just trying to understand what you're saying. I'm just bringing it up as a topic to discuss. I think it's an interesting next step because my experience inside the IDE is the most powerful thing is when I. Can integrate other organizations. Cleese. Yeah. Because I think, I think what I like about client versus Claude is by being in the IDE with Clyde, I have observability and transparency about what it's actually doing. Right? That's what, that's. That's what I like, right? Because I see things happen in the terminal window. I see files get opened, I see the file structure change. You know what I'm talking about? It's like, yeah, I feel more like I can intervene and fix things and so forth, but as I said, it's between memory and. Between memory and caching and stored tokens. Once it gets confused, I will turn off client, hand, edit the context, close up Visual Studio, reopen up Visual Studio, and then prompt client again in a new session. That's my Chase the gremlins out of my. Out of my kitchen.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  text: That's what I like, right? Because I see things happen in the terminal window. I see files get opened, I see the file structure change. You know what I'm talking about? It's like, yeah, I feel more like I can intervene and fix things and so forth, but as I said, it's between memory and. Between memory and caching and stored tokens. Once it gets confused, I will turn off client, hand, edit the context, close up Visual Studio, reopen up Visual Studio, and then prompt client again in a new session. That's my Chase the gremlins out of my. Out of my kitchen. I just jumped the shark tank and. Open up a new ID and start using another agent. Like, I'll go inside cursor. Yeah, yeah, man, I will, I'll get. I will jump outside of client if it starts to be like, it's better now, it's sonic and four like. So I'm bringing up this, the black, you know, the command line, the terminal window, which, you know, you can't say you don't see much, but you can see a lot of text. You bring it up. Because I've automated by making this phased plan for my builds, I've automated, I've turned on automatically approve everything. So even at the file level structure. And even at the deploy structure, once it has my credentials, it'll deploy automatically. You turned it on? No auto approve. No, no auto approve. I said all auto approved. And so it's like the command line you don't see happening. You can read whatever it wants is changing anything, right? Oh, yeah, no, I read it all. I can undo it and I can go change it. But what I'm saying is I've gone to the point where I will let. It do its thing and then it will only debug just as we normally would, is I'll only go back and look at it if need be. But I bring up the black window because it's, it's where the automation's all happening. And, and that's, that's where I'm asking. For, like when we're talking to other. People as potential clients. Like, do you have a clean? They're like, we have an SDK. I'm like, you sure you don't have a cleat? No, no, we don't got one. Okay, well, you're gonna need one because.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  text: No, no auto approve. I said all auto approved. And so it's like the command line you don't see happening. You can read whatever it wants is changing anything, right? Oh, yeah, no, I read it all. I can undo it and I can go change it. But what I'm saying is I've gone to the point where I will let. It do its thing and then it will only debug just as we normally would, is I'll only go back and look at it if need be. But I bring up the black window because it's, it's where the automation's all happening. And, and that's, that's where I'm asking. For, like when we're talking to other. People as potential clients. Like, do you have a clean? They're like, we have an SDK. I'm like, you sure you don't have a cleat? No, no, we don't got one. Okay, well, you're gonna need one because. Totally agree at that point. The LLM can drive like your ide, the agent in your IDE can drive the clean. And we're seeing WAVE right now is. Getting a lot of attention. I think it's wave. Yeah. Wave is the new AI enabled terminal. And my thing with terminal is remembering the nomenclature for Python and shit. And so I love being able to pull up command K and saying yada. Yada, yada in that terminal window and it will actually tell me what I want. I had an epiphany I want to share now that I had the other day when I was deep thinking about a whole bunch of this stuff and how what's gotten better is what's gotten worse with AI. The main frustration feeling we don't have. The main frustration feeling we have right now is I my opinion, it's my opinion. Nothing like that. Is that AI, you don't understand what I want. Right? And I feel like if these models keep getting smarter and they figure out pattern and process, the main problem will be the AI's feeling that we don't know what we want. AI feeling that we don't know what we want, as opposed to the feeling that we're currently having, which is we're having the feeling that it doesn't know what I want. You follow what I'm saying? Like, it's a. Like as the models get smaller, the problem would not be that it doesn't understand what we want. It's that we don't know what we want. And that's, and that's why it'll be. It's not, it's not its level of understanding. It's that we don't know what we want from it. And I do run into that. Right. Like that's how. That's how, David, that's how we've been building what I would call emergent things. Right? Because like, we didn't know what we wanted when we started building. You know what I mean? Like, what we want to build comes out as we're building. It's much more of a emergence from a. From the process than arriving at a destination.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u126
+  - u127
+  text: I had an epiphany I want to share now that I had the other day when I was deep thinking about a whole bunch of this stuff and how what's gotten better is what's gotten worse with AI. The main frustration feeling we don't have. The main frustration feeling we have right now is I my opinion, it's my opinion. Nothing like that. Is that AI, you don't understand what I want. Right? And I feel like if these models keep getting smarter and they figure out pattern and process, the main problem will be the AI's feeling that we don't know what we want. AI feeling that we don't know what we want, as opposed to the feeling that we're currently having, which is we're having the feeling that it doesn't know what I want. You follow what I'm saying? Like, it's a. Like as the models get smaller, the problem would not be that it doesn't understand what we want. It's that we don't know what we want. And that's, and that's why it'll be. It's not, it's not its level of understanding. It's that we don't know what we want from it. And I do run into that. Right. Like that's how. That's how, David, that's how we've been building what I would call emergent things. Right? Because like, we didn't know what we wanted when we started building. You know what I mean? Like, what we want to build comes out as we're building. It's much more of a emergence from a. From the process than arriving at a destination. Yeah, yeah. There's. I guess even if you stand above. That, then there's a mindset and then. There'S standing above that there's a habit and standing above that, hopefully there's a cohort. And so I think there are ways in which the. There are ways of capturing the power that we're talking about at different layers. And different levels in it. And it's about surfacing something from my desire all along. Surfacing something that I can take some ownership over. Not to. To grab the eggs and run, but to be able to say I can move it around better. And to be able to. Because of the fact that I work. As a programmer most of my life. I want to be able to be able to think about how things can be done instead of just using them. And the tools have come so far. That I rely less on my ability to set up what the spec is and more of my ability to react. To set up the conversation for the spec and then react to the spec with more specificity. And so that's the pattern I set up. I would like to set up for people. It's not the delegation you pick this, it's you go through and you give it a goddamn query and then it asks a few questions which will then. Determine possibly its pattern, possibly the solution path, or possibly a racing situation where you're doing a few of them at once. So that there's a similar pattern to. Our feeling of participation and control and. How it's doing some heavy lifting, but doesn't know the real direction. So you're trim tapping the whole thing. And what I'm speaking to today is like my experience is one of stepping. Back more, knowing that every day I'm still going and I'm like, God damn. And then having to go way deep, meaning it helps to know why things work. But it is to your point, Folio more about the process of curiosity and. Being able to pen that in some. Way, saying, here's a really good query. And like when I was starting early. With this stuff and working with Jason. And Communicating in a really big black way. It was like one word would sometimes be super powerful because I could use. It in a bunch of different ways in chat. And we're getting to the thing now where some things are going to be pivotal and I'm just not sure where. They sit in the stack. So far, this notion of delegation is. The most important thing. It seems to be portable across even technologies. It's definitely portable to any scenario in software. It's just whether or not it's really portable within the software tech stacks. So as quickly as possible, which is interesting. But there's, there's always something at some level that you can take a lot of leadership with. The people were talking to yesterday, a billion transactions a second, a second they. Can spin up to. It's like hyper scaling of the transaction with an agent hitting an LLM. Like, what the man? So it's pretty crazy. That's where they are going to win and they're going to do that at $11 a month.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u127
+  text: Yeah, yeah. There's. I guess even if you stand above. That, then there's a mindset and then. There'S standing above that there's a habit and standing above that, hopefully there's a cohort. And so I think there are ways in which the. There are ways of capturing the power that we're talking about at different layers. And different levels in it. And it's about surfacing something from my desire all along. Surfacing something that I can take some ownership over. Not to. To grab the eggs and run, but to be able to say I can move it around better. And to be able to. Because of the fact that I work. As a programmer most of my life. I want to be able to be able to think about how things can be done instead of just using them. And the tools have come so far. That I rely less on my ability to set up what the spec is and more of my ability to react. To set up the conversation for the spec and then react to the spec with more specificity. And so that's the pattern I set up. I would like to set up for people. It's not the delegation you pick this, it's you go through and you give it a goddamn query and then it asks a few questions which will then. Determine possibly its pattern, possibly the solution path, or possibly a racing situation where you're doing a few of them at once. So that there's a similar pattern to. Our feeling of participation and control and. How it's doing some heavy lifting, but doesn't know the real direction. So you're trim tapping the whole thing. And what I'm speaking to today is like my experience is one of stepping. Back more, knowing that every day I'm still going and I'm like, God damn. And then having to go way deep, meaning it helps to know why things work. But it is to your point, Folio more about the process of curiosity and. Being able to pen that in some. Way, saying, here's a really good query. And like when I was starting early. With this stuff and working with Jason. And Communicating in a really big black way. It was like one word would sometimes be super powerful because I could use. It in a bunch of different ways in chat. And we're getting to the thing now where some things are going to be pivotal and I'm just not sure where. They sit in the stack. So far, this notion of delegation is. The most important thing. It seems to be portable across even technologies. It's definitely portable to any scenario in software. It's just whether or not it's really portable within the software tech stacks. So as quickly as possible, which is interesting. But there's, there's always something at some level that you can take a lot of leadership with. The people were talking to yesterday, a billion transactions a second, a second they. Can spin up to. It's like hyper scaling of the transaction with an agent hitting an LLM. Like, what the man? So it's pretty crazy. That's where they are going to win and they're going to do that at $11 a month.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  text: Yeah, yeah. There's. I guess even if you stand above. That, then there's a mindset and then. There'S standing above that there's a habit and standing above that, hopefully there's a cohort. And so I think there are ways in which the. There are ways of capturing the power that we're talking about at different layers. And different levels in it. And it's about surfacing something from my desire all along. Surfacing something that I can take some ownership over. Not to. To grab the eggs and run, but to be able to say I can move it around better. And to be able to. Because of the fact that I work. As a programmer most of my life. I want to be able to be able to think about how things can be done instead of just using them. And the tools have come so far. That I rely less on my ability to set up what the spec is and more of my ability to react. To set up the conversation for the spec and then react to the spec with more specificity. And so that's the pattern I set up. I would like to set up for people. It's not the delegation you pick this, it's you go through and you give it a goddamn query and then it asks a few questions which will then. Determine possibly its pattern, possibly the solution path, or possibly a racing situation where you're doing a few of them at once. So that there's a similar pattern to. Our feeling of participation and control and. How it's doing some heavy lifting, but doesn't know the real direction. So you're trim tapping the whole thing. And what I'm speaking to today is like my experience is one of stepping. Back more, knowing that every day I'm still going and I'm like, God damn. And then having to go way deep, meaning it helps to know why things work. But it is to your point, Folio more about the process of curiosity and. Being able to pen that in some. Way, saying, here's a really good query. And like when I was starting early. With this stuff and working with Jason. And Communicating in a really big black way. It was like one word would sometimes be super powerful because I could use. It in a bunch of different ways in chat. And we're getting to the thing now where some things are going to be pivotal and I'm just not sure where. They sit in the stack. So far, this notion of delegation is. The most important thing. It seems to be portable across even technologies. It's definitely portable to any scenario in software. It's just whether or not it's really portable within the software tech stacks. So as quickly as possible, which is interesting. But there's, there's always something at some level that you can take a lot of leadership with. The people were talking to yesterday, a billion transactions a second, a second they. Can spin up to. It's like hyper scaling of the transaction with an agent hitting an LLM. Like, what the man? So it's pretty crazy. That's where they are going to win and they're going to do that at $11 a month. Do you say $11 a month or $11 million a month? $11 a month. It's just some ridiculously low pay scale on the transaction costs. That doesn't make any sense. Well, they're going to attach to a. Whole lot of sensors and servers and everything. So it's going to be billions and billions of transactions every day because that's what server wants to.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  text: Yeah, yeah. There's. I guess even if you stand above. That, then there's a mindset and then. There'S standing above that there's a habit and standing above that, hopefully there's a cohort. And so I think there are ways in which the. There are ways of capturing the power that we're talking about at different layers. And different levels in it. And it's about surfacing something from my desire all along. Surfacing something that I can take some ownership over. Not to. To grab the eggs and run, but to be able to say I can move it around better. And to be able to. Because of the fact that I work. As a programmer most of my life. I want to be able to be able to think about how things can be done instead of just using them. And the tools have come so far. That I rely less on my ability to set up what the spec is and more of my ability to react. To set up the conversation for the spec and then react to the spec with more specificity. And so that's the pattern I set up. I would like to set up for people. It's not the delegation you pick this, it's you go through and you give it a goddamn query and then it asks a few questions which will then. Determine possibly its pattern, possibly the solution path, or possibly a racing situation where you're doing a few of them at once. So that there's a similar pattern to. Our feeling of participation and control and. How it's doing some heavy lifting, but doesn't know the real direction. So you're trim tapping the whole thing. And what I'm speaking to today is like my experience is one of stepping. Back more, knowing that every day I'm still going and I'm like, God damn. And then having to go way deep, meaning it helps to know why things work. But it is to your point, Folio more about the process of curiosity and. Being able to pen that in some. Way, saying, here's a really good query. And like when I was starting early. With this stuff and working with Jason. And Communicating in a really big black way. It was like one word would sometimes be super powerful because I could use. It in a bunch of different ways in chat. And we're getting to the thing now where some things are going to be pivotal and I'm just not sure where. They sit in the stack. So far, this notion of delegation is. The most important thing. It seems to be portable across even technologies. It's definitely portable to any scenario in software. It's just whether or not it's really portable within the software tech stacks. So as quickly as possible, which is interesting. But there's, there's always something at some level that you can take a lot of leadership with. The people were talking to yesterday, a billion transactions a second, a second they. Can spin up to. It's like hyper scaling of the transaction with an agent hitting an LLM. Like, what the man? So it's pretty crazy. That's where they are going to win and they're going to do that at $11 a month. Do you say $11 a month or $11 million a month? $11 a month. It's just some ridiculously low pay scale on the transaction costs. That doesn't make any sense. Well, they're going to attach to a. Whole lot of sensors and servers and everything. So it's going to be billions and billions of transactions every day because that's what server wants to. So there's something you said, Dave, there like was about curiosity and something actually I haven't spent much time doing is the models to be curious to explore. Because I, I'm. Because we're kind of, I'm kind of like, no, I want you to do this thing narrow. Yeah, like I've never gone, like, I've. Never spent time really exploring the other direction. Have any of you guys kind of spent time going the other direction? Well, it's exactly what you say, Jason. We spend so much of our time cudgeling it down the wrong path. I'm emotionally in a place where I, I often tell you, don't wander off the path as opposed to, oh, it might be nice to see what's wandering off the path. You know what I mean? So. Well, because then you can use like. Evals on the other side of it. But I'm just wondering if I'm not appropriately harnessing like the diversity of whatever it can get to because I can always put an eval on the other side. Like, am I, am I. Like, is that constraint useful or does it just feel productive? I think, I think, I think it's Like a timing thing in the sense that, like, you need to be making, like there's a moment where walking, like curiosity and walking off the path, you're ready to do that. You know what I mean? Things have to be working enough or. Or you have to be, you know, I'm not sure I'm communicating. I think you get the idea. Right. In the sense that doing it from the beginning sounds too dangerous because at the beginning you're too much trying to focus the right way to go. Right. And so to start. To start giving it freedom to, like, seems. Seems like it's not necessarily that it's wrong. I think you're right. I think there's value in it, but it's just where and when, if you know what I mean. Yeah.
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  text: Evals on the other side of it. But I'm just wondering if I'm not appropriately harnessing like the diversity of whatever it can get to because I can always put an eval on the other side. Like, am I, am I. Like, is that constraint useful or does it just feel productive? I think, I think, I think it's Like a timing thing in the sense that, like, you need to be making, like there's a moment where walking, like curiosity and walking off the path, you're ready to do that. You know what I mean? Things have to be working enough or. Or you have to be, you know, I'm not sure I'm communicating. I think you get the idea. Right. In the sense that doing it from the beginning sounds too dangerous because at the beginning you're too much trying to focus the right way to go. Right. And so to start. To start giving it freedom to, like, seems. Seems like it's not necessarily that it's wrong. I think you're right. I think there's value in it, but it's just where and when, if you know what I mean. Yeah. Then obviously with the amount of complexity and if you guys are talking about code particularly, probably not the place to go. Oh, code's actually the easiest. But like, with curiosity, like, like, I. I think I feel like it's like that's a place that you don't want it to be. Trying to. So I don't know that he's wrong because, like, there's so many ways to skin the cat in code. Yeah. And like, it often is. It's often giving me a choice of, like, should I use this, this or that? Which would you like me to choose? And that's when I, like, give it freedom. And that's when it's like, you should let it be curious and you should use evals. The answer should be about 1, 2, or 3. Let's try all three and figure out a way to test which one's better. That's the moment. If I describe the delegator, if I go back to this right now, the original delegator took a query and then decomposed it and created agents on the fly. So decomposed it on the fly, created its subtasks, and then handed off agents. That it created on the fly. All that dynamic traceable and with. With observability so that you can see that. And to your point, you could do an eval. You can say, we got. We came here, we saw the path. We can actually find markers of truth through the path through process of analyzing it. We can do that kind of thing. It's an eval, and we can say we got there, or we go down this path of saying, I need more articulation. Here's a hierarchical pattern. Okay. I know it's going to be handing off in this sort of way. We can see that we can trace. It we can actually see it play out. Okay, so that's one piece. We have more control there, strategic planning. We're going to put them in a particular version of that strategic pattern. Now we have more articulate control, we. Know what the communication pattern will be even more. And then we can get up about above that. Fulvia was saying, move past the pattern to the workflow, which is a specificity to what's going on and say this is exactly the kind of information we're. Going to move along the pipeline. And by doing that, that's what we're talking to yesterday. By doing that, they know they've hardened. The situation and basically they've typescripted it from JavaScript. That's what you're looking for, is a typescripting of types is to be able. To be confident at the other end. That it's within the parameters of what's supposed to go on. So I'm sitting there whiz, banging, showing them how everything can be crazy dynamic across everything and they're like that, man, we're Java.
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u141
+  - u142
+  text: And like, it often is. It's often giving me a choice of, like, should I use this, this or that? Which would you like me to choose? And that's when I, like, give it freedom. And that's when it's like, you should let it be curious and you should use evals. The answer should be about 1, 2, or 3. Let's try all three and figure out a way to test which one's better. That's the moment. If I describe the delegator, if I go back to this right now, the original delegator took a query and then decomposed it and created agents on the fly. So decomposed it on the fly, created its subtasks, and then handed off agents. That it created on the fly. All that dynamic traceable and with. With observability so that you can see that. And to your point, you could do an eval. You can say, we got. We came here, we saw the path. We can actually find markers of truth through the path through process of analyzing it. We can do that kind of thing. It's an eval, and we can say we got there, or we go down this path of saying, I need more articulation. Here's a hierarchical pattern. Okay. I know it's going to be handing off in this sort of way. We can see that we can trace. It we can actually see it play out. Okay, so that's one piece. We have more control there, strategic planning. We're going to put them in a particular version of that strategic pattern. Now we have more articulate control, we. Know what the communication pattern will be even more. And then we can get up about above that. Fulvia was saying, move past the pattern to the workflow, which is a specificity to what's going on and say this is exactly the kind of information we're. Going to move along the pipeline. And by doing that, that's what we're talking to yesterday. By doing that, they know they've hardened. The situation and basically they've typescripted it from JavaScript. That's what you're looking for, is a typescripting of types is to be able. To be confident at the other end. That it's within the parameters of what's supposed to go on. So I'm sitting there whiz, banging, showing them how everything can be crazy dynamic across everything and they're like that, man, we're Java.
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  text: If I describe the delegator, if I go back to this right now, the original delegator took a query and then decomposed it and created agents on the fly. So decomposed it on the fly, created its subtasks, and then handed off agents. That it created on the fly. All that dynamic traceable and with. With observability so that you can see that. And to your point, you could do an eval. You can say, we got. We came here, we saw the path. We can actually find markers of truth through the path through process of analyzing it. We can do that kind of thing. It's an eval, and we can say we got there, or we go down this path of saying, I need more articulation. Here's a hierarchical pattern. Okay. I know it's going to be handing off in this sort of way. We can see that we can trace. It we can actually see it play out. Okay, so that's one piece. We have more control there, strategic planning. We're going to put them in a particular version of that strategic pattern. Now we have more articulate control, we. Know what the communication pattern will be even more. And then we can get up about above that. Fulvia was saying, move past the pattern to the workflow, which is a specificity to what's going on and say this is exactly the kind of information we're. Going to move along the pipeline. And by doing that, that's what we're talking to yesterday. By doing that, they know they've hardened. The situation and basically they've typescripted it from JavaScript. That's what you're looking for, is a typescripting of types is to be able. To be confident at the other end. That it's within the parameters of what's supposed to go on. So I'm sitting there whiz, banging, showing them how everything can be crazy dynamic across everything and they're like that, man, we're Java. Right, right. And it's like, oh right, Java, it's all pre compiled, it's all about safety and it's all about. I kept wanting to, nothing's dynamic on the fly, that's fine, just tell us, tell us that. Right? And so they told us that and we're like, okay, so that's all, that's fine and dandy. But the delegator can stand above that, figure out what the agents need to be, design them, deploy them in their stub as Java and then it can. Go into the compile process and be ready to deliver. So the delegator doesn't act in real time, it acts in design time for. Them, applying all those layers of patterns and. Well put, David, write that down. Design time. The delegator acts in design time and then the user sort of makes some choices and then it gets, so to speak, cast. There's a spectrum, Jason, to what you're talking about and we experienced it yesterday, having to drill through that where they. Were just like on the other end of the spectrum. They were like, they needed to know exactly what the results were going to be from their agent queries. And we're like, man, I can't tell you that ahead of time until I. Go down the path of this thing. Here to the point of this one. Where now I know you know, and then it'll be a higher level to what Phil Beal was talking about previously. And then they're asking, so where's the. IP and all this tech and it's. A good question, right?
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  text: There's a spectrum, Jason, to what you're talking about and we experienced it yesterday, having to drill through that where they. Were just like on the other end of the spectrum. They were like, they needed to know exactly what the results were going to be from their agent queries. And we're like, man, I can't tell you that ahead of time until I. Go down the path of this thing. Here to the point of this one. Where now I know you know, and then it'll be a higher level to what Phil Beal was talking about previously. And then they're asking, so where's the. IP and all this tech and it's. A good question, right? Yeah, I think that's the question everybody's asking. Well, you know what? You know what the problem here is? Is that in my opinion, dangerous to say there's no ip. There's like all trade secrets. There's understanding we have as to. Yeah, but yeah, yeah, sure, that's ip. Do you know what I mean? I know, but how about like SEO is the simplest thing in terms of ads at the beginning of the ad industry online. And so the thinness of ideas. I. Hey man, I'm there too. I'm just like, you know, I could whisper this up in a weekend. So I got it. I gotcha. But at the same time it's been whispered up and it has traction and it's moving in a direction and this. Is the direction, man. This is, this is agent spanning agents. But I think, I think the focus on do we have IP Is wrong. The focus on do we have IP is wrong. The focus should be do we have understanding? Do we have utility? Because we can make. Yeah, yeah, yeah. No, that's the application of it. It's the application of the ip. Exactly. Exactly. Yeah. I don't know, like that's a very, you know, Hamilton Helmer, 7. 7 Powers. Like, you know, like when you're trying to evaluate from a business perspective, like where your leverage is or what's going on or like even now, like if I look at like the seven powers, I'm like, are these still accurate? Like are these still things that are, you know, the kind of power laws for companies or has like AI like totally unseated these things? I don't know. I just feel like everything now is trade secret. Like your, your, your prompts and your evals and like some of your patterning and that's like what everybody's like holding like this.
+- id: W-0037
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  text: But I think, I think the focus on do we have IP Is wrong. The focus on do we have IP is wrong. The focus should be do we have understanding? Do we have utility? Because we can make. Yeah, yeah, yeah. No, that's the application of it. It's the application of the ip. Exactly. Exactly. Yeah. I don't know, like that's a very, you know, Hamilton Helmer, 7. 7 Powers. Like, you know, like when you're trying to evaluate from a business perspective, like where your leverage is or what's going on or like even now, like if I look at like the seven powers, I'm like, are these still accurate? Like are these still things that are, you know, the kind of power laws for companies or has like AI like totally unseated these things? I don't know. I just feel like everything now is trade secret. Like your, your, your prompts and your evals and like some of your patterning and that's like what everybody's like holding like this. And I think it's useless because the problem with this is like got approach maybe broken now by AI because they will jump the ip, if you know what I mean, they'll figure out how to do it without using the ip. Like that's what the like, like the, the a. Everybody who's building IP at a certain level and like focusing, oh, that IP will protect me. And I'm like, I don't know. These AIs are going to get smart and then there isn't even going to be an API. There isn't even going to be software. There's going to be streaming service. Like it will be dynamically building inter. You understand what I'm saying like, I guess it's a little bit like the paradigm is going to change so that the idea of what IP is, is going to be really hard going forward with AI. Because if like what's the point of owning IP if you owned an AI or have an AI that can generate the IP dynamically for the job you need?
+- id: W-0038
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u158
+  - u159
+  - u160
+  - u161
+  text: And I think it's useless because the problem with this is like got approach maybe broken now by AI because they will jump the ip, if you know what I mean, they'll figure out how to do it without using the ip. Like that's what the like, like the, the a. Everybody who's building IP at a certain level and like focusing, oh, that IP will protect me. And I'm like, I don't know. These AIs are going to get smart and then there isn't even going to be an API. There isn't even going to be software. There's going to be streaming service. Like it will be dynamically building inter. You understand what I'm saying like, I guess it's a little bit like the paradigm is going to change so that the idea of what IP is, is going to be really hard going forward with AI. Because if like what's the point of owning IP if you owned an AI or have an AI that can generate the IP dynamically for the job you need? Well, there's a whole, there's a whole. Business side of things that you know that software services and that's the ability to build a product is, is different than the ability to service it. Right. And, and that's the difference is like. Can you build it from the beginning? Yeah, you can take and reverse engineer it. Have you had the momentum of understanding all along? We actually did it in the conversation the other day and we got to stem this pretty quickly, but conversation the other day we repinned the same notion that we're talking about that was underneath this idea of the delegator in the, in the spreadsheets we were building and we already had multi hop back then, you know, without any working in a pure chat situation. And we had framing around things to be able to eval them and to a certain confidence that things were going on in a particular pattern. And now we have the ability to. Do, instead of maintaining context, we break context down. We managed at a software level, at the app level. And so it's, there's different places where. The confidence is earned. But in terms of this pattern being useful, it's the most useful thing that is occurring in the ide. And the IDE is the most useful piece of AI enabled technology that we have. It is emergent at the same time as useful. Now all the software that's creating can probably go into a used bin software probably right away. So I'm trying to build that, I'm. Trying to build that marketplace right now, fill it full of my software. But the, the idea is like you'll win business and then like you're saying the software would have won you the business to begin with, but you win the business and the software can then follow. Now how it follows will hopefully be in a proven track where the software has been used and it's not on the fly. And you're having to do all this, how do you know it works? Because it's still going to have ui. And so you look at anything that I do that I don't care about sharing widely to make money on, the UI suffers because it doesn't have the iterations of use. And sure the software will get better at doing all that stuff, too, but, man, it ain't right. Now, we got jobs to do to be able to attach the business to the fact that we don't have to build software in the future. I'm gonna keep telling myself that, guys, because I have to build some software to make some money. Thank you all.
+- id: W-0039
+  t_start: 3510.0
+  t_end: 3613.54
+  utterance_ids:
+  - u161
+  - u162
+  text: And, and that's the difference is like. Can you build it from the beginning? Yeah, you can take and reverse engineer it. Have you had the momentum of understanding all along? We actually did it in the conversation the other day and we got to stem this pretty quickly, but conversation the other day we repinned the same notion that we're talking about that was underneath this idea of the delegator in the, in the spreadsheets we were building and we already had multi hop back then, you know, without any working in a pure chat situation. And we had framing around things to be able to eval them and to a certain confidence that things were going on in a particular pattern. And now we have the ability to. Do, instead of maintaining context, we break context down. We managed at a software level, at the app level. And so it's, there's different places where. The confidence is earned. But in terms of this pattern being useful, it's the most useful thing that is occurring in the ide. And the IDE is the most useful piece of AI enabled technology that we have. It is emergent at the same time as useful. Now all the software that's creating can probably go into a used bin software probably right away. So I'm trying to build that, I'm. Trying to build that marketplace right now, fill it full of my software. But the, the idea is like you'll win business and then like you're saying the software would have won you the business to begin with, but you win the business and the software can then follow. Now how it follows will hopefully be in a proven track where the software has been used and it's not on the fly. And you're having to do all this, how do you know it works? Because it's still going to have ui. And so you look at anything that I do that I don't care about sharing widely to make money on, the UI suffers because it doesn't have the iterations of use. And sure the software will get better at doing all that stuff, too, but, man, it ain't right. Now, we got jobs to do to be able to attach the business to the fact that we don't have to build software in the future. I'm gonna keep telling myself that, guys, because I have to build some software to make some money. Thank you all. Take care, guys. Sam.
+- id: W-0040
+  t_start: 3600.0
+  t_end: 3613.54
+  utterance_ids:
+  - u162
+  text: Take care, guys. Sam.

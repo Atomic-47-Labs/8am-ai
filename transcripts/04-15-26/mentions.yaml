@@ -6,7 +6,7 @@ mentions:
 - value: Claude
   kind: tool
   count: 1
-- value: Confluence
+- value: Copilot
   kind: tool
   count: 1
 - value: GPT
@@ -21,6 +21,9 @@ mentions:
 - value: Gmail
   kind: tool
   count: 1
+- value: Grok
+  kind: tool
+  count: 1
 - value: Jira
   kind: tool
   count: 1
@@ -30,7 +33,13 @@ mentions:
 - value: MCP
   kind: tool
   count: 1
+- value: Open Claw
+  kind: tool
+  count: 1
 - value: OpenAI
+  kind: tool
+  count: 1
+- value: OpenClaw
   kind: tool
   count: 1
 - value: Slack
@@ -39,9 +48,6 @@ mentions:
 - value: Vercel
   kind: tool
   count: 1
-- value: python
-  kind: tool
-  count: 1
-- value: react
+- value: Work Sona
   kind: tool
   count: 1

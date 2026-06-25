@@ -1,0 +1,1080 @@
+meeting:
+  date: '2025-02-19'
+  title: 8am-AI 2025-02-19
+  participants:
+  - Anshul Dhariwal
+  - David Olsson
+  - Jason Kryski
+  duration_s: 3047.458
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Anshul Dhariwal
+  t_start: 291.87
+  t_end: 292.726
+  text: Hello?
+- id: u2
+  speaker: David Olsson
+  t_start: 292.918
+  t_end: 296.85
+  text: Good morning, Ansel, can you hear me?
+- id: u3
+  speaker: Anshul Dhariwal
+  t_start: 298.27
+  t_end: 299.126
+  text: Hello?
+- id: u4
+  speaker: David Olsson
+  t_start: 299.318
+  t_end: 300.09
+  text: Hello?
+- id: u5
+  speaker: Anshul Dhariwal
+  t_start: 302.19
+  t_end: 303.19
+  text: Yeah, I can hear you.
+- id: u6
+  speaker: Jason Kryski
+  t_start: 303.23
+  t_end: 304.01
+  text: Excellent.
+- id: u7
+  speaker: David Olsson
+  t_start: 304.43
+  t_end: 317.28
+  text: I usually have a difficulty with my headphones for some reason. I can listen through my EarPods, but I cannot speak through my EarPods with my Macintosh.
+- id: u8
+  speaker: Anshul Dhariwal
+  t_start: 319.14
+  t_end: 323.66
+  text: It's like, maybe it's like a syncing issue. It just takes a bit to just.
+- id: u9
+  speaker: David Olsson
+  t_start: 323.7
+  t_end: 333.88
+  text: Sync up whatever it is. I. I've just learned to live with it patiently a little bit. How have you been?
+- id: u10
+  speaker: Anshul Dhariwal
+  t_start: 335.15
+  t_end: 344.934
+  text: I'm pretty good, actually. I. I was. I was traveling to India last week, so attend the meeting as well. In India.
+- id: u11
+  speaker: David Olsson
+  t_start: 345.102
+  t_end: 345.83
+  text: Excellent.
+- id: u12
+  speaker: Anshul Dhariwal
+  t_start: 345.91
+  t_end: 346.57
+  text: Yeah.
+- id: u13
+  speaker: David Olsson
+  t_start: 346.99
+  t_end: 348.69
+  text: So what time is it for you right now?
+- id: u14
+  speaker: Anshul Dhariwal
+  t_start: 350.11
+  t_end: 351.49
+  text: It's 9:30.
+- id: u15
+  speaker: David Olsson
+  t_start: 352.27
+  t_end: 356.81
+  text: Okay. So we are very much on the other side of the world. Okay. Yeah.
+- id: u16
+  speaker: Anshul Dhariwal
+  t_start: 357.47
+  t_end: 361.952
+  text: I just had my dinner and I was like, you know what? I have time today, so I'll just like hop on.
+- id: u17
+  speaker: David Olsson
+  t_start: 362.086
+  t_end: 365.96
+  text: Okay, cool. Well, I want to talk to you if that's possible after this meeting.
+- id: u18
+  speaker: Anshul Dhariwal
+  t_start: 366.5
+  t_end: 367.916
+  text: Yeah, sure, that works.
+- id: u19
+  speaker: David Olsson
+  t_start: 368.028
+  t_end: 413.5
+  text: Okay, cool. We'll talk for a few minutes because it's good, but let's just see if other people arrive. I've been doing some work. I'll showcase some of the stuff I'm doing, but also programming in the background because something isn't working. Yeah, that's. You got it. And it's just not happening. I'll share. Let's go. Where's my screen? But yeah, things are shaping up better for us and be able to plan for it. But I've got this Haiku project. Oh. It allowed me to export. Let's see. Okay. The export button is working. I'm getting some errors, but it's, it's. It's doing that.
+- id: u20
+  speaker: David Olsson
+  t_start: 420.21
+  t_end: 465.74
+  text: Okay. It gave me a reference of the DB as the export. Okay. That's not really what I wanted. Oh, well. So that's okay. I'm trying to. I'll just. I'll show you what I've got. It's actually online and I share the credentials with it, but it'll still work with that error. We have a project on Lamina hold one. It's a content delivery network blockchain, and they have their own crypto and Neal Stephenson's the creator of it and we're going to be launching our Haiku NFTs on his project next month. Good morning, Jason.
+- id: u21
+  speaker: Jason Kryski
+  t_start: 465.9
+  t_end: 466.904
+  text: Good morning.
+- id: u22
+  speaker: David Olsson
+  t_start: 467.092
+  t_end: 468.38
+  text: Long time no see.
+- id: u23
+  speaker: Jason Kryski
+  t_start: 468.76
+  t_end: 477.38
+  text: No kidding. Yeah, it's been hours, literally. Anshul. Nice. It's nice to not see you, but hear you probably.
+- id: u24
+  speaker: David Olsson
+  t_start: 477.8
+  t_end: 480.752
+  text: Anshul is in. He's at. He's at home. He's in India.
+- id: u25
+  speaker: Jason Kryski
+  t_start: 480.856
+  t_end: 481.78
+  text: Oh, nice.
+- id: u26
+  speaker: David Olsson
+  t_start: 482.2
+  t_end: 484.86
+  text: So it's, it's, it's late.
+- id: u27
+  speaker: Jason Kryski
+  t_start: 487.16
+  t_end: 488.58
+  text: I got it. Yeah.
+- id: u28
+  speaker: Anshul Dhariwal
+  t_start: 491.4
+  t_end: 493.94
+  text: I'm trying to get my late night blue screen.
+- id: u29
+  speaker: David Olsson
+  t_start: 494.36
+  t_end: 498.928
+  text: Oh, there you go. Yeah, right. Sync up with your blue screen.
+- id: u30
+  speaker: Jason Kryski
+  t_start: 499.104
+  t_end: 500.7
+  text: You keep that red light.
+- id: u31
+  speaker: David Olsson
+  t_start: 502.84
+  t_end: 694.72
+  text: Anyways, this is the, this is the Laminone One network and it's a network of content creators and they have this long tail kind of content publishing benefits thing, which it's really quite neat and we're going to be launching this haiku project on there and I needed to create some, some of these high guys. So the haiku is the words and the high guys the image. And so I created a factory where you can set some parameters if you want to, or you can just randomize them and then you can generate. I won't generate, I'll generate one. And then it adds it to the database, which is an index database in the back end in the browser. So it's just very local and then it stores it and you can view them. They're full screen. And I'm, I'm a little enamored by them because they do have an aesthetic and they come up pretty nice sometimes. Here's one. I'm like, that's pretty. Anyways, the idea is that people collect these things and. Is that the one I just created? No, it's creating image still. It takes quite a while to create an image in the way that I'm doing it. But there's a. Yeah, you know, for what we're doing, that's the aesthetic right now it's this dreamy, kind of illustrative photo, real in some capacity kind of imagery and I'm happy with them and the consistency I'm getting. And that's. This is an ideal one right here where you get the haiku and not in the tech, in the image. But I'm still getting 10 to 20%. Here's one. Despite what I say, it's giving me either kanji Chinese or English sometimes, but you can create a whole bunch of them at once. Nicholas, my son is going to be doing more promotional marketing and he wanted some ability to send them out. So I created this kind of thing. But I, I did this stuff way back in the day for like 10 years, did multimedia and I ended up being the engineer or whatever, programmer that put pieces together. And so I would end up seeing the content over and over and over again and I really get into it after a while. I'm like, well, that's good. And so my opinion of content. I've tried to define divorce myself from you Know anyone else's kind of opinion of it? Because you earn that sort of. You think things are good because you put in the time and effort into them. But there's a consistency going on. I do. Like, I'm trying to create a gallery night now so that we can actually show a lot of them at once. But if I keep some of the words the same. Here's a good one. Look at that man. They all have a central, like, if you look at them, you can see that they're structurally similar. Start to look at them, you can see the focality is similar.
+- id: u32
+  speaker: Anshul Dhariwal
+  t_start: 695.58
+  t_end: 701.764
+  text: Yeah, it's like a nature background with like some sort of like a character right in the middle.
+- id: u33
+  speaker: David Olsson
+  t_start: 701.892
+  t_end: 784.15
+  text: Yeah, yeah, you can see that there's like a. The way that it's constructing it is based on the prompt, which is very highly structured. And at first I'm like, no, that's not what I want. But that is exactly what we want. We want people to recognize that there is a pattern in place. Because what's really cool is if you're a collector and you like, if you like winter, you could find out who has winter scenes or who. Who use winter in a keyword. I mean, the fact that there's rain and winter coming at the same time is kind of a odd set of concerns, but. But yeah, you've got it. Like there's a. There's a compositional component to it. And in this machinery here in this app, it's slightly different than my other version. In the other versions, I was creating a slightly different aesthetic. And that is due to some of the subtleties in the prompting. What I will illustrate and I'll move on, talk about other things. I started building. So we had an AMA with Lamina and we had about 50 people or more involved in this conversation with us talking about our project. And there's a lot of nerds in there and they have their own language around things. A lot of them are really pro gen AI. And so they have this thing to go 50 90, 50 90. I'm like 5090. What the hell is that? That's like a buzzword, right? I was like, okay, I'm like so far out of touch for you know what it is?
+- id: u34
+  speaker: Anshul Dhariwal
+  t_start: 784.19
+  t_end: 787.606
+  text: It sounds like the gpu. Yeah, that sounds like the gpu.
+- id: u35
+  speaker: David Olsson
+  t_start: 787.718
+  t_end: 880.86
+  text: That's like the twelve and a half thousand dollar gpu, right? It's like the top of the line. So what they're saying is that like we're saying, no, we generate all this stuff and they're like, 50, 90, I'm like, okay, you guys are like fanboys in a weird way. And so they like the technical component of it. And they're like, what models are you using? And of course, we're just like, we're just trying to get this thing going. And it only had really. It only had dolly in it. And I'm really quite happy with it. But I can actually change it now and I can actually put stability into it. And it has different kind of setup. But if I just use the same prompt in stability, I'll show you my photo realistic illustrative style postcard, whatever thing. It doesn't work. Oh, wait a minute. Is it gonna work? Oh, it did work. Look at that. Okay. Previously was giving me photo real images. And I'm like, okay. So that gets at the point that these things do have, like, I did a bunch of work way back in the day studying stability versus Dolly in terms of the prompt structure, but I haven't revisited because speed of things. But now I'm going to have to go back and look at it because I added one thing into it, and it actually added a whole lot of illustrative stuff. But there's a lot more size components and you can do a lot more wonderful things with stability. And stability, you can. You could direct it, like, really specifically. So it would be a completely.
+- id: u36
+  speaker: Jason Kryski
+  t_start: 880.94
+  t_end: 881.644
+  text: Oh, man.
+- id: u37
+  speaker: David Olsson
+  t_start: 881.732
+  t_end: 910.532
+  text: Getting some wild crap out of here. Holy. Look at that. So completely different aesthetic. But, you know, that would be kind of how I position this project, this haiku project moving forward. We would do sets of things and it would be like, here's one aesthetic set and here's another aesthetic set, and here's another aesthetic set so that there's like some definitiveness to it. And I can do that quickly now. It's kind of cool, the. The haiku thing. Let's see.
+- id: u38
+  speaker: Jason Kryski
+  t_start: 910.716
+  t_end: 911.236
+  text: Haiku.
+- id: u39
+  speaker: David Olsson
+  t_start: 911.268
+  t_end: 1092.2
+  text: Nft. No, I have one up there somewhere. So I was going to make this available. I'll put it in the chat. You can make your own. It is available online right now. And I'll put. Put it in the chat. You need a key. I was like, okay, I'm trying to put environmental variables in there so you don't have to put the OpenAI key in, which, you know, opens up the app to being exploited. I'm like, okay, fine, I can do that. And then I put my own key in there, right. So that it's easier to. So you can put a really simple password in. So the haiku key is right there. And then the API keys are supposed to be in the Environmental variables. But guess what? I'm still learning. I've done it five times and I cannot get it right. Environmental variables. So, yes, here's the wicked haiku key. I'll put the whole thing in here. You can generate some. I actually had it available where you could. You could actually edit the prompts and so that you could totally dicker with the style of the. I would copy those if you want to play with it. You could totally dicker with this. Over above here, I had like the NFT prompts, the haiku and the haiga prompts. And they're like, well, I don't want people to see those. But I put it in there so that you edit it live, which made me realize, like, if you wanted, this could be a set generator you could set up. Okay, page one, here's my sets. I want to talk about these. And the page two is. Here's my numbers. And then this would just allow you to generate your sets based on these. Because I made this editable, you can totally. You can add hell in here and it shows up as a nature scene. The word isn't showing up right now, but yeah, I made them so that they're variable length so that this could be a utility moving forward. That's my demo this morning because it's stupid, stupid fresh, but that's kind of cool. In about an hour, I'm going to be talking about quality control in Alberta. So I don't know, it's been an interesting week. So I have had to put stickies up on my board. I have market research going on. I've got quality control and I've got multimedia and do have financial services, but they won't get back to me yet. So those are four things. And Angela, what I'm going to talk to you about after this meeting is getting your help. I figured out how to get your help.
+- id: u40
+  speaker: Anshul Dhariwal
+  t_start: 1097.3
+  t_end: 1100.88
+  text: I was trying to get. Oh, oh, never mind. I think it worked.
+- id: u41
+  speaker: David Olsson
+  t_start: 1101.22
+  t_end: 1156.45
+  text: Okay. Hey, I'll tell you what. Everything works when it works. And right now all of my stuff is continuous CICD. So when I update my GitHub repo, everything changes. And that's not always good for end users. So it works right now and I'll add more features to it later, depending on what Nicholas comes back with. But yeah, I'm going to do things to stabilize my demos and make them more available online. A lot of them I need to do videos of because I'm never going to revisit them because they're all so specifically fragile. But I want to do more of this NFT stuff. So this is a great place to start seeing how that plays out. We have one more month before we have to get really critical and be online. I have until the end of next week to be able to demonstrate the. The project in its.
+- id: u42
+  speaker: David Olsson
+  t_start: 1163.48
+  t_end: 1179.34
+  text: The actual experience of creating your haiku is a 3D experience with nurage. Maybe I can find it. That'll be cool. And these are the things that we talking to you about. Anshul is stabilizing these things.
+- id: u43
+  speaker: Jason Kryski
+  t_start: 1179.64
+  t_end: 1180.704
+  text: Where is my.
+- id: u44
+  speaker: David Olsson
+  t_start: 1180.792
+  t_end: 1185.78
+  text: I'm looking through all my projects right now, trying to find my last version of that cube.
+- id: u45
+  speaker: Jason Kryski
+  t_start: 1187.65
+  t_end: 1188.59
+  text: Iq.
+- id: u46
+  speaker: David Olsson
+  t_start: 1216.94
+  t_end: 1222.24
+  text: Jason, what are you riffing upon right now? Oh, no.
+- id: u47
+  speaker: Jason Kryski
+  t_start: 1223.5
+  t_end: 1226.388
+  text: Well, we kind of have like. I'll share my screen. I'll show you.
+- id: u48
+  speaker: David Olsson
+  t_start: 1226.524
+  t_end: 1227.024
+  text: Okay.
+- id: u49
+  speaker: Jason Kryski
+  t_start: 1227.076
+  t_end: 1240.96
+  text: We've kind of got like a bit of a POC going for kind of this page creation. We're using this product called Ingest to do like, orchestration.
+- id: u50
+  speaker: David Olsson
+  t_start: 1241.3
+  t_end: 1242.24
+  text: Okay.
+- id: u51
+  speaker: Jason Kryski
+  t_start: 1243.22
+  t_end: 1281.36
+  text: Figured out how to Basically map the GraphQL schema for all of our components to a Zod schema to pass that into the LLM for each of the components. So here's kind of a some just figuring this out. Basically we kind of pass a call and it grabs the schema for each component and then, you know, generates the component and then populates it. And then right now it looks weird, but it kind of looks like.
+- id: u52
+  speaker: David Olsson
+  t_start: 1285.26
+  t_end: 1290.44
+  text: So what is composing that? What is composing the page?
+- id: u53
+  speaker: Jason Kryski
+  t_start: 1292.06
+  t_end: 1298.546
+  text: This thing, this Ingest thing. And then it'll like, here's an example.
+- id: u54
+  speaker: David Olsson
+  t_start: 1298.658
+  t_end: 1300.21
+  text: Okay, cool. All right, man.
+- id: u55
+  speaker: Jason Kryski
+  t_start: 1300.33
+  t_end: 1327.48
+  text: So it like generates the components. It like, you know, populates the components and then adds the content to the page. Obviously this is all like, pretty wonky and it doesn't any of like, the really thoughtful stuff that we've been working on for the last year. So I kind of now have to kind of build the. The orchestration around the prompts to be able to use like, kind of the scrub type style.
+- id: u56
+  speaker: David Olsson
+  t_start: 1329.66
+  t_end: 1330.16
+  text: Right.
+- id: u57
+  speaker: Jason Kryski
+  t_start: 1330.124
+  t_end: 1337.36
+  text: Agents to be able to kind of figure some of this out. But it's kind of coming together. It's like this is. This is a perfect concept. And so.
+- id: u58
+  speaker: David Olsson
+  t_start: 1338.06
+  t_end: 1342.9
+  text: That's great, man. Like, that's how my stuff always looks like. It just does not come together.
+- id: u59
+  speaker: Jason Kryski
+  t_start: 1343.02
+  t_end: 1381.866
+  text: Yeah, I mean, it will once we kind of like figure out some of the pieces here. But Lauren came up with this, found this Ingest product that does kind of the orchestration and runs it through the Vercel AI SDK with the ZOD schema for the GraphQL endpoints to be able to figure out what it needs to make. And so I've got to figure out how to run this. I just haven't. He just did this last bite. So fresh I gotta figure out. But like when you basically give it a payload.
+- id: u60
+  speaker: David Olsson
+  t_start: 1381.978
+  t_end: 1382.75
+  text: Yeah.
+- id: u61
+  speaker: Jason Kryski
+  t_start: 1383.09
+  t_end: 1395.978
+  text: You're kind of giving it like the components. So I can do before this. That figures out which components to have it make. And then it'll go and it'll run it and it'll generate the components and then populate each of them.
+- id: u62
+  speaker: David Olsson
+  t_start: 1396.114
+  t_end: 1416.17
+  text: Okay, this is exactly. So this is the pattern I have. Yeah, but this is on scale. This is at scale. Yeah, this is. This is crazy. You've just stacked I don't know how many pieces on top of a normal stack here. Three big pieces. Like you've got GraphQL, you've got this ingestor, which is your orchestrator. Somewhere you're going to have all your agents.
+- id: u63
+  speaker: Jason Kryski
+  t_start: 1416.59
+  t_end: 1420.71
+  text: Yeah. And that's the agent part, is the part to kind of like, you know, figure out right now.
+- id: u64
+  speaker: David Olsson
+  t_start: 1420.83
+  t_end: 1421.33
+  text: Right.
+- id: u65
+  speaker: Jason Kryski
+  t_start: 1421.342
+  t_end: 1538.376
+  text: But like this orchestrator can basically, you know, grab the agents. I just have to figure out how to like kind of put that piece together. But it's kind of like pretty close. And so then it's. Then we're trying to figure out, okay, what is the kind of bandit side of that experimentation look like and then how do we, you know, effectively have a state. Yeah, but like a friend of mine who I've been like talking to this about, he's, you know, more of a engineer than me and he's actually been able to build and deploy it for his use case, which is an email. So he's got like a cold email machine that like sends email out right to. To businesses. And he had. Then he built a bandit kind of experimentation layer that based off of like interactions with the emails, you know, weight diff weights, the different components of the content of those emails. And now he's just. Yesterday he finished the kind of full loop where it like will self optimize the prom and then drop that into the bandit system. So at least like somebody's doing it and like a proof of concept it works out. And so he's like. Seemed like crazy. Performance improvements in terms of like effectiveness of messaging and response rates and everything. So it's nice to have a little bit of validation theoretically about like the pattern. But yeah, yeah, it's. I haven't been able to do it yet just being resource constrained. So trying to hire a. Got a whole bunch of interviews today, so I'm hoping that I can hire a couple of people to get this pushed forward, because I think we're right on the edge of, like, getting it close to production.
+- id: u66
+  speaker: David Olsson
+  t_start: 1538.528
+  t_end: 1548.648
+  text: Well, yeah, it sounds. You know, there's not many unknowns in what you're talking about. It's. It's about implementing right now, and. And some of them are kind of tricky, so you want people focusing on them.
+- id: u67
+  speaker: Jason Kryski
+  t_start: 1548.784
+  t_end: 1550.3
+  text: Yeah. Yeah.
+- id: u68
+  speaker: David Olsson
+  t_start: 1551.12
+  t_end: 1555.98
+  text: Cool. It's very, very articulate.
+- id: u69
+  speaker: Jason Kryski
+  t_start: 1557.6
+  t_end: 1570.528
+  text: I think I'm just trying, like, I'm a little bit flat out across a bunch of different things, and I haven't been able to allocate enough, like, mental cycles to. To what I. I just need to, like. Like we were talking about, like, you know, going to the woods for a weekend and, like.
+- id: u70
+  speaker: David Olsson
+  t_start: 1570.584
+  t_end: 1571.948
+  text: Yeah, right. Yeah.
+- id: u71
+  speaker: Jason Kryski
+  t_start: 1571.984
+  t_end: 1574.56
+  text: Like, I need to do that even just for myself right now.
+- id: u72
+  speaker: David Olsson
+  t_start: 1574.68
+  t_end: 1594.53
+  text: No, I think that's. That's what I'm. I found with myself in the last little week. It's like, okay, this is. This is grinding. This is. This is not what you intended, and you gotta get on top of it. And that probably means really just tapping out for periods of time where I'm not like you say, and then going someplace.
+- id: u73
+  speaker: Jason Kryski
+  t_start: 1594.69
+  t_end: 1657.602
+  text: Well, I need to kind of dig into, like, making sure that I really clearly understand this, because I'm like, you know, not. Not enough of a software person to really make sure that I had. Understand all the kind of architectural flow here. I mean, I get it kind of conceptually, but in order to kind of build out the usage of the kind of scrub components and the calling of those for larger prompts, that's kind of what I need to figure out. Because, I mean, like, you know, we've done that experimentally through, like, kind of like, you know, CSV up into just like a chat window. But making those available to other prompts based off of objectives that it should define based off of observable measurements. That's really the. The piece that kind of needs to come into play.
+- id: u74
+  speaker: David Olsson
+  t_start: 1657.786
+  t_end: 1660.562
+  text: So. Yeah, you're. You're alive then.
+- id: u75
+  speaker: Jason Kryski
+  t_start: 1660.746
+  t_end: 1678.0
+  text: Yeah. Well, I think we're so. I think we're real close. I think we're, like, you know, maybe a couple of weeks away from having that there. But I'm just trying to, like, make sure I get enough talent locked in, because more to do.
+- id: u76
+  speaker: David Olsson
+  t_start: 1682.06
+  t_end: 1800.586
+  text: This is. This is. This is a view for you, Angel. This is the stuff I'm doing for market research right now. This is an older view of something where I actually got some survey data and a questionnaire, and I think I showed this. Did I? Have you seen it, Ashel? I don't think so, okay, anyway, so there's a questionnaire which is the word Docker. I've got it in JSON. You can, you can upload these things or whatever and then there's results. And then you could create slides based on the questionnaires. I'll just auto generate them and then it would go in. So similar to what Jason's doing, I have the slides. It's a statistical analysis in the page because I can make that happen. And then what it does is it sends up. Oh, no, okay, yeah. And this one's a statistical analysis on the page. And then I send up the. How many slides is it creating? I said two. It's doing fucking all. Excuse me. Then it sends the stats up and it provides me analysis. And I'll move on to the second one, which I built up this week, which I'm going to demonstrate anyways. If I say one and say one, it should generate range. Yeah, there we go. Anyway, so this is a statistical. This is just from the survey data, doing it locally. Then this is based on me sending the stats that are pretty weak, but. And then it's laying it all out and then I could chat to all components of it. And then what it does is it sends that. Those out and it comes back and can update them. So it can update the type of charge, it can update messy. But I built on that. Here's the same sort of thing. Data is in the background. Here it is, here's the survey questionnaire and I have the opportunity to generate slides from it. So do the analysis here. I'm not doing any analysis in the page and so I'll show you in. Jason, have you seen this one?
+- id: u77
+  speaker: Jason Kryski
+  t_start: 1800.658
+  t_end: 1801.75
+  text: I don't think so.
+- id: u78
+  speaker: David Olsson
+  t_start: 1802.13
+  t_end: 1829.648
+  text: This is a good one. This is a really good one to show because it shows the guts. Got all the plumbing on the outside. I moved to London, England in 1988 and prior to that the Lloyds of London building in downtown London town had all of the piping on the outside of the building. It was super cool. Anyways, that's what this is. So I've got a slide here.
+- id: u79
+  speaker: Jason Kryski
+  t_start: 1829.704
+  t_end: 1830.204
+  text: Now.
+- id: u80
+  speaker: David Olsson
+  t_start: 1829.896
+  t_end: 2000.2
+  text: I sent up the first question. There's 59 questions in this. I sent up the first question data and it comes back with a title, a subtitle, the slide chart and then some insights. I've actually asked it to do more. I've actually asked it to extend some notes and so it does some other analyses, which is kind of cool. But more than that, I can send the slide data with different contexts. I can send it to the. I have written up a context over here. The whole of the study, it's, it's down bottom over bottom right. I can send that context and the slide to the LLM. It will then provide me richer response back. It's what we're kind of looking for, right? It's like in the context of Gen I, gen AI, expand this. So here's the context. Workplace culture is changing. What are the strategic implications for this slide? Just this slide. And so it gets at those and then what are the concerns and challenges and what are the actual intel? These are all things that people want. They don't want the slides, they don't want the stats, they don't want anything. So that's kind of where I take statistics and then I can actually use the LLM to generate the slide data. So I send, I send, here's my question, here's the process data that I organize behind the scenes to send it. It's just a list. And then the prompt, here's the pull button, here's the prompt, analyze the questions, yada yada, here's the question, here's the responses. Yeah, that's okay. And then, and then an important only respond in JSON object exactly format shown below. And so I know what I'm getting back. I'm getting a multi response back. So now I can go back Jason, Now I can go back to my agents in the past that did all this verbose work. I had to get them to do all that verbose work and then structure it and come it down. So the next version is going to be super awesome anyways. So it, it will then send back a title, a subtitle, the chart and it can pick one of a bunch of different kinds and this kind based on I, I can change that. Then it gives me the table data in and I want it to be optimized with certain things like the first top three or certain things and then it gives me the insights according to these groups. It's super jammy in terms of how it provides this slide. And now what I've done on my side, I just created a template. I say lay out the template this way, title, subtitle, chart, yada yada. And I can just move the template items around and then the slides move around. I build that into this thing over here which you see to be broken. It's broken. Too bad.
+- id: u81
+  speaker: David Olsson
+  t_start: 2007.14
+  t_end: 2098.35
+  text: Anyways, so the next step of this was all the slides are in here. They, they export as PowerPoint. I can theme them, they're laid out exactly like they were in here. And more than that, I can then do the worksona thing. I say, here is the audience. And then you can focus all of the slide data. You can send back just the raw data for focused insight, or you could take the slide data as it is and focus it on this audience. And so it's really one, you do the ingestion, two, the analysis, and then three, you do the focusing what slides you want, what your audience is. And the final processing there PowerPoints it out. And PowerPoint is. It's bang on. It opens up inside Google Slides with the data. It's an image, but it opens up with the data. So it is properly formatting what the client in this case wants. So it's kind of cool. It took me two weeks to figure out nuts and bolts how to do the next version, which would make this command commercial product. Basically, it's a. You export any of your data from say SurveyMonkey. You get your questions, I don't care what it is. You get your Excel spreadsheet, your cvs, you pump it in, it generates all the regular counts and percentages, then it does cross tabs and then it does the cool. And then it generates the opportunity to focus on your audience and export it as PDF or PowerPoint or whatever you want.
+- id: u82
+  speaker: Jason Kryski
+  t_start: 2098.8
+  t_end: 2103.256
+  text: Could it do like fairly qualitative tables of data?
+- id: u83
+  speaker: David Olsson
+  t_start: 2103.408
+  t_end: 2108.104
+  text: Yeah, yeah. And so that's with the LLM evolved. That's the brilliant part.
+- id: u84
+  speaker: Jason Kryski
+  t_start: 2108.272
+  t_end: 2110.968
+  text: Do you want some data to play with on that?
+- id: u85
+  speaker: David Olsson
+  t_start: 2111.104
+  t_end: 2258.87
+  text: Oh, sure, man. If you've got a set that's really cool. That's what I'm so working with Pantera, they gave me a data set, right? And then they showed I got to see what their final reports look like. They didn't know that, but I got to see what their final reports look like. And then they gave me a template of what they would like the reports to look like. So it gave me a real world problem in terms of being able to. To define the output. And a lot of it's just rigorous programming, which the AI, you know, because I can program in this capacity, I was able to do just a whole ton of regular market research programming behind the scenes. Look, this is seriously, this is like a market research study book or something. Because it's like in market research you can call a study where there's a questionnaire and survey and then some context. And so this is the ability to take any survey System can export CSVs and data maps and then it allows to basically takes about 70% of the capacity out of market research companies puts it in the hands of the end client and that's a win for me. So the neat thing about the project working on right now is like okay, that's great because got to the point where it's product making product happen. Inside enterprise is really interesting and Carol's very good at that. But what's interesting is that I've recognized that these companies work and function the same as mine and that they're not really well horizontally organized. They're really top down told what to do and then they have a very hard time to push up to get that done. And so they're working in enclaves of groups of people and they're trying to champion things and they're all told to, you know, get things done and to work quickly. And that's not their mode. Their mode is to work slowly. So there's a really big opportunity here and I'm working with an organization like Pantera who has some clients on the line that really do want to scale up this kind of thing. I think this kind of product could be out the door within. Within a month they're usable by them and us in a huge capacity but within three months it is servicing a significant component because it's a lot of ETL work. It's just a lot of monkey work. Say that it's really complicated monkey work because I don't want to. It's. It's the kind of thing that your guys are doing. You're getting involved with. It's that granular. Eventually it gets that granular.
+- id: u86
+  speaker: Jason Kryski
+  t_start: 2259.53
+  t_end: 2264.378
+  text: I just sent you a couple of like small. I'm trying to find a big data set to.
+- id: u87
+  speaker: David Olsson
+  t_start: 2264.434
+  t_end: 2265.034
+  text: Okay.
+- id: u88
+  speaker: Jason Kryski
+  t_start: 2265.162
+  t_end: 2278.47
+  text: But they're like these are like maybe 40 or 50 rows but I'm trying to find that are like hundreds of rows but it's basically like qualitative like voice of customer survey data.
+- id: u89
+  speaker: David Olsson
+  t_start: 2280.13
+  t_end: 2290.02
+  text: So there's two ways you go, right? Quant. Quant gets validates. That's all it really does. You can do a little bit more of a quality you can do c such cool work with man.
+- id: u90
+  speaker: Jason Kryski
+  t_start: 2290.14
+  t_end: 2320.368
+  text: Well I think like that's the. I've tried to do this in really naive ways with ChatGPT to analyze this kind of data previously but like not to very not a very good structured approach. But it's basically like you know, you kind of, you send all these surveys to or the survey to like you know, customers and then they answer the questions but you don't really want to know what they answered. You want to understand the insight from the things that they say, right? Like, what's the. What are they really saying, you know?
+- id: u91
+  speaker: David Olsson
+  t_start: 2320.424
+  t_end: 2321.2
+  text: Yeah, yeah.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 2321.36
+  t_end: 2333.472
+  text: And like, how does that impact the business? You know, priorities, obviously. Like, that's kind of what you're leaning into anyway. It's. It's interesting stuff, man.
+- id: u93
+  speaker: David Olsson
+  t_start: 2333.576
+  t_end: 2486.41
+  text: Well, it's. It is really cool. And what I learned, you know, I learned a lot working at Vision Critical. Angus, reading them how to build frameworks around quality, you know, like, that's all they really do is they just both in. In. In typical market research, they just bring frameworks that get to quant so they can do some statistical analysis on qual. And so there's always this casting of qualitative to quantitative. And if you have. The neat thing that I uncovered is that you can use a lot of frameworks to make that casting really cool. And so that's. That's a neat thing to explore. And I watched this video, I posted it in the Discord channel, but I watched this video on Gemini and Google AI Studio. So I'm like, this sounds like I could use my data set that I have and my data map and make it just do some jamming shit. Anyways. It's way better at big data sets and it's way better at streaming, right? I'm like, can I. So I opened up the streaming component. I'm like, I'm not really streaming. It streamed all my data. It really wants stream data. Like, if you can. You have an API that can stream all your log data, you can stream it into this environment, then you can analyze it all in real time, which is super lanky cool. But regardless of that, this environment is really wild. I dropped those two files in the data map and the CSV. It had to be in the right formats. And then I asked it to do some stuff and it built the whole damn survey right there in front of me as an HTML page. Like the whole thing, it capped twice. And that's what I've been told to expect. And I get through everything. But it. I asked it to analyze things as to what I could get out of it. It did all of the work that you're talking about from a qualitative survey. Sorry about a quantitative survey point of view. And I initially did that with this quantitative survey too. It's like I did a qual. A qual analysis of it. And so what I'm getting at is like, whatever Gemini is and that next generation of things, man, is it going to change this kind of analysis? This. It can be a lot looser in terms of the rigor to get to the point of decision making is what I'm thinking. But I don't know when that happens. In the meantime, I'm gonna have to have these like what I'm getting to in my stuff is like having these microservice endpoints that are pretty malleable, that can take different kinds of data and then they convert them into a standardized set, which is what Gemini is doing. But it was very select steps. So there's like, you can do all kinds of weird things with this. Okay, the stream in real time one was. I don't know if I can get to.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 2486.79
+  t_end: 2489.806
+  text: Is this just the kind of basic paid version of.
+- id: u95
+  speaker: David Olsson
+  t_start: 2489.958
+  t_end: 2522.498
+  text: It's free. Yeah, the free one. Yeah, it's free. And I got an API key. You get a billion and a half tokens or whatever and you can use Gemini 2 in any model right now, API wise. And it's pretty too flash experimental and it's multimodal and it does real time streaming. So you can do all this audio stuff and video stuff and, and it will. So for amqc, this is like, man, this is killer because it analyzes video.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 2522.554
+  t_end: 2532.06
+  text: In real time and you don't have to like sit. Like before I was doing this, it was like basically taking the video and then sliding, slicing the video into images and then pushing images.
+- id: u97
+  speaker: David Olsson
+  t_start: 2532.22
+  t_end: 2684.12
+  text: No, it's like, seriously, right here, it's like you can hook up. I don't know where it was. It. Starter app. All right. Analyze video, Interact video player. Lets you summarize. One of them was like, right here is Gemini. Show your webcam and share it and it'll start interacting with whatever web cameras. Okay, I got too much going on with my webcam, right. But I, I was able to do some really weird things with it. And the demo shows that you can do all this object detection in real time and it streams video and audio in real time. And I'm like, man, this just. This with a video feed is like almost all of quality control. Like, I mean there's a lot of handles on it, but in terms of what you would normally do with all kinds of software, take a picture. Now we're going to look at it, we're going to do a small analysis. We're going to have to check it and we can tell you if it's all right and all these other things. The streaming component of the video is just wild because it has audio components into it too. And so it can respond back. If you give a text or anything, it can respond back in audio So I tried not to get too distracted by this because I have so many, you know, things that are kind of pressure prescient. But I do think that this is. This is the kind of thing that we're going to hook up to log files. Everything that I'm doing in terms of the market research stuff, I want it to be real time ready. Like, that was my first experience, is like, if I can make it real time, then it's easier and, and it's ready. But the capacity for something like this Gemini model to leapfrog any of the concerns I was having for, for AMQC is really weird. Right. I don't know what to pitch anymore, you know, because I'm still trying to pitch from that point of view. What. What does it look like? Last time I looked at it was glasses and ar. It'd still be glasses in ar, but now it's like none of the. None of the machinery behind the scenes is the same. It's just a model with a whole bunch of triggers, like thousands of triggers. So that's pretty cool. It's pretty cool stuff. And I, I like how freaking close you are, Jason, because the articulate nature of your things is just so crazy.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 2684.71
+  t_end: 2688.878
+  text: And if only I had like, a week of time to, like, think about this.
+- id: u99
+  speaker: David Olsson
+  t_start: 2689.014
+  t_end: 2696.014
+  text: Once you can start isolating a variable and doing the. The runners, like the planets on it.
+- id: u100
+  speaker: Jason Kryski
+  t_start: 2696.102
+  t_end: 2697.822
+  text: I think I'll be very curious to.
+- id: u101
+  speaker: David Olsson
+  t_start: 2697.846
+  t_end: 2699.534
+  text: See what the big influencers are.
+- id: u102
+  speaker: Jason Kryski
+  t_start: 2699.622
+  t_end: 2704.13
+  text: Yeah, the big kind of breakthrough here was like that, the GraphQL structure.
+- id: u103
+  speaker: David Olsson
+  t_start: 2704.63
+  t_end: 2715.842
+  text: You're using a traditional structure, so it's not the structure. Well, it's going to be how you contour the messaging and how you enable that to be slick as butter. Right?
+- id: u104
+  speaker: Jason Kryski
+  t_start: 2715.59
+  t_end: 2724.366
+  text: Like, yeah, I think, like, the breakthrough here was like, that. Can you hear me? No. Am I muted? Can you hear me now?
+- id: u105
+  speaker: David Olsson
+  t_start: 2724.518
+  t_end: 2728.334
+  text: Is that me? Oh, I might have done something on my side.
+- id: u106
+  speaker: Jason Kryski
+  t_start: 2728.502
+  t_end: 2729.97
+  text: Can you hear me, Angel?
+- id: u107
+  speaker: Anshul Dhariwal
+  t_start: 2731.19
+  t_end: 2732.142
+  text: Yeah, I can hear you.
+- id: u108
+  speaker: David Olsson
+  t_start: 2732.166
+  t_end: 2732.666
+  text: Just.
+- id: u109
+  speaker: Jason Kryski
+  t_start: 2732.71
+  t_end: 2735.13
+  text: Oh, maybe Dave's speakers are cutting out.
+- id: u110
+  speaker: David Olsson
+  t_start: 2738.64
+  t_end: 2746.5
+  text: By running that thing, I might speed my sound. See how I do that.
+- id: u111
+  speaker: Jason Kryski
+  t_start: 2750.08
+  t_end: 2808.32
+  text: Hello? Anyway, Angel, I think the breakthrough here was that we were able to convert the GraphQL schema to ZOD of that Zod pattern for that component, you know, clearly defined and then added to the prompt such that, you know, whatever the. So now it's just like the orchestration of actually all the LLM work that we've done to kind of like, sit on top of this, but being able to, like, know. Okay, we generated like, this is the series, like the Prompt sequence with the record with the inputs that generated this output. And then like just figuring out how to make sure we store that pattern and then have enough understanding of that pattern to know what it created. And so like, when we're able to like use the LLM to generate the patterns, it's, you know, we're able to track that. Like, that's the piece.
+- id: u112
+  speaker: David Olsson
+  t_start: 2808.4
+  t_end: 2828.11
+  text: Okay, so I'm glad my audio came back. So my thing with the microservices endpoints might be like as a pattern, something of interest. Meaning you have this whole other system if it could just call an endpoint and send shit to it, then your agents are actually autonomous and they're just doing the call and return thing.
+- id: u113
+  speaker: Jason Kryski
+  t_start: 2829.77
+  t_end: 2831.43
+  text: Can you repeat that, Dave?
+- id: u114
+  speaker: David Olsson
+  t_start: 2831.85
+  t_end: 2860.52
+  text: So if you make your agents endpoints, so they're just like a web URL/CTA and you send it some information to do a CTA processing, then it just does a call and return. So it's a microservice. So the agents themselves aren't integrated in any way. They're just, they're just an agency that you engage with. And you built, and you build the agencies, the agents, such that they have a series of endpoints that equate to the components that you would send them.
+- id: u115
+  speaker: Jason Kryski
+  t_start: 2861.54
+  t_end: 2868.284
+  text: Right. Well, I think like the kind of way that it is, it's like these components are all available and okay, and.
+- id: u116
+  speaker: David Olsson
+  t_start: 2868.292
+  t_end: 2870.028
+  text: Then it picks one that should pick.
+- id: u117
+  speaker: Jason Kryski
+  t_start: 2870.084
+  t_end: 2928.556
+  text: The components and the component. And I kind of have it set up right now where I'm like, hey, this is a component and it can be, you know, like, I've got it kind of set up in a scrub where it's like, this is the component that can be used this way. And like, so the LLM needs to determine what it wants to communicate and what's the best component for it to do that. And then like, that's kind of how I'm thinking about it to make it like purely generative. So it's like it's developing the strategy and then it's developing the way to communicate that strategy. And like, then it needs to reason why, why that's the best way. And then it needs to, then we need to then test it and then we need to get feedback data around like what the interaction was. And then it needs to review its hypothesis and then it needs to like, either confirm it or then, you know, iterate on it. And then, you know, continue to kind of measure and self optimize and then deploy it through a bandit structure where like the bandit is actually doing testing so we're not relying on the LLM for actual validating.
+- id: u118
+  speaker: David Olsson
+  t_start: 2928.588
+  t_end: 2929.948
+  text: Yeah, yeah.
+- id: u119
+  speaker: Jason Kryski
+  t_start: 2930.044
+  t_end: 2936.556
+  text: So it's like. That's the kind of. Like, I think the. It sounds like a lot, but I think it's kind of last mile, honestly, like.
+- id: u120
+  speaker: David Olsson
+  t_start: 2936.628
+  t_end: 2937.128
+  text: Yeah, yeah.
+- id: u121
+  speaker: Jason Kryski
+  t_start: 2937.148
+  t_end: 2938.38
+  text: No, I don't know.
+- id: u122
+  speaker: David Olsson
+  t_start: 2938.5
+  t_end: 2952.12
+  text: Yeah, I was trying to. Trying to make it accessible as last mile. Like, you've got it figured out in the same way, but I still think this notion of endpoints as the agents and the way that you interact them will allow them to be autonomous and international.
+- id: u123
+  speaker: Jason Kryski
+  t_start: 2953.04
+  t_end: 2970.616
+  text: Well, yeah, I mean, like, I'm just. My. My actual problems, like, trying to convince my engineer that, like, this is the way. That sounds complicated. That's why we'll just do it easier. And I'm like. And I'm like, yeah, man. Like, I get easier, but it's got to be good, you know?
+- id: u124
+  speaker: David Olsson
+  t_start: 2970.768
+  t_end: 2974.28
+  text: Yeah, yeah, yeah, yeah. We've seen easy, and it doesn't sell, actually.
+- id: u125
+  speaker: Jason Kryski
+  t_start: 2974.4
+  t_end: 2978.526
+  text: Yeah, well, I think that's the thing. I gotta. I gotta run to perpetrating.
+- id: u126
+  speaker: David Olsson
+  t_start: 2978.558
+  t_end: 2979.058
+  text: Yeah.
+- id: u127
+  speaker: Jason Kryski
+  t_start: 2978.99
+  t_end: 2982.35
+  text: Guys, sorry I was short. Short today, but.
+- id: u128
+  speaker: David Olsson
+  t_start: 2982.47
+  t_end: 2996.51
+  text: Oh, no, thank you. Thank you both. I appreciate the continuity. I'm gonna set things up a bit better for next week. And, Angela, if I could ask for a phone call with you directly after this, then that would be helpful too. Thanks, Jason.
+- id: u129
+  speaker: Anshul Dhariwal
+  t_start: 2996.59
+  t_end: 2998.158
+  text: Phone call might not work.
+- id: u130
+  speaker: David Olsson
+  t_start: 2998.294
+  t_end: 2999.982
+  text: Oh, right. How about a video call?
+- id: u131
+  speaker: Anshul Dhariwal
+  t_start: 3000.086
+  t_end: 3001.086
+  text: Might not work.
+- id: u132
+  speaker: David Olsson
+  t_start: 3001.238
+  t_end: 3009.6
+  text: Okay, how about. I'll. Here. I'm just gonna set it up right now and hand it off in here. Here, and we can start. I just want to have a private call that's not shared for one second.
+- id: u133
+  speaker: Anshul Dhariwal
+  t_start: 3010.06
+  t_end: 3011.68
+  text: Yeah, yeah, sounds good.
+- id: u134
+  speaker: David Olsson
+  t_start: 3012.3
+  t_end: 3013.36
+  text: Set it up.
+- id: u135
+  speaker: Anshul Dhariwal
+  t_start: 3017.42
+  t_end: 3029.08
+  text: So I. I do have a. A local network connected on my roaming, but it has been dodgy. It connects sometimes and then it disconnects.
+- id: u136
+  speaker: David Olsson
+  t_start: 3031.51
+  t_end: 3044.53
+  text: Yeah, I know. I hear you. I'm. Let's just. I'll add this into our chat. We can both go there. I sent you an email. Here's the link, and we'll connect there. Yeah, okay.
+- id: u137
+  speaker: Anshul Dhariwal
+  t_start: 3044.95
+  t_end: 3046.286
+  text: All right, sounds good.
+- id: u138
+  speaker: David Olsson
+  t_start: 3046.438
+  t_end: 3047.458
+  text: Okay. Yeah.
+windows:
+- id: W-0001
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  text: Hello? Good morning, Ansel, can you hear me? Hello? Hello?
+- id: W-0002
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Hello? Good morning, Ansel, can you hear me? Hello? Hello? Yeah, I can hear you. Excellent. I usually have a difficulty with my headphones for some reason. I can listen through my EarPods, but I cannot speak through my EarPods with my Macintosh. It's like, maybe it's like a syncing issue. It just takes a bit to just. Sync up whatever it is. I. I've just learned to live with it patiently a little bit. How have you been? I'm pretty good, actually. I. I was. I was traveling to India last week, so attend the meeting as well. In India. Excellent. Yeah. So what time is it for you right now? It's 9:30. Okay. So we are very much on the other side of the world. Okay. Yeah. I just had my dinner and I was like, you know what? I have time today, so I'll just like hop on. Okay, cool. Well, I want to talk to you if that's possible after this meeting. Yeah, sure, that works. Okay, cool. We'll talk for a few minutes because it's good, but let's just see if other people arrive. I've been doing some work. I'll showcase some of the stuff I'm doing, but also programming in the background because something isn't working. Yeah, that's. You got it. And it's just not happening. I'll share. Let's go. Where's my screen? But yeah, things are shaping up better for us and be able to plan for it. But I've got this Haiku project. Oh. It allowed me to export. Let's see. Okay. The export button is working. I'm getting some errors, but it's, it's. It's doing that.
+- id: W-0003
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: I just had my dinner and I was like, you know what? I have time today, so I'll just like hop on. Okay, cool. Well, I want to talk to you if that's possible after this meeting. Yeah, sure, that works. Okay, cool. We'll talk for a few minutes because it's good, but let's just see if other people arrive. I've been doing some work. I'll showcase some of the stuff I'm doing, but also programming in the background because something isn't working. Yeah, that's. You got it. And it's just not happening. I'll share. Let's go. Where's my screen? But yeah, things are shaping up better for us and be able to plan for it. But I've got this Haiku project. Oh. It allowed me to export. Let's see. Okay. The export button is working. I'm getting some errors, but it's, it's. It's doing that. Okay. It gave me a reference of the DB as the export. Okay. That's not really what I wanted. Oh, well. So that's okay. I'm trying to. I'll just. I'll show you what I've got. It's actually online and I share the credentials with it, but it'll still work with that error. We have a project on Lamina hold one. It's a content delivery network blockchain, and they have their own crypto and Neal Stephenson's the creator of it and we're going to be launching our Haiku NFTs on his project next month. Good morning, Jason. Good morning. Long time no see. No kidding. Yeah, it's been hours, literally. Anshul. Nice. It's nice to not see you, but hear you probably. Anshul is in. He's at. He's at home. He's in India.
+- id: W-0004
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  text: Okay. It gave me a reference of the DB as the export. Okay. That's not really what I wanted. Oh, well. So that's okay. I'm trying to. I'll just. I'll show you what I've got. It's actually online and I share the credentials with it, but it'll still work with that error. We have a project on Lamina hold one. It's a content delivery network blockchain, and they have their own crypto and Neal Stephenson's the creator of it and we're going to be launching our Haiku NFTs on his project next month. Good morning, Jason. Good morning. Long time no see. No kidding. Yeah, it's been hours, literally. Anshul. Nice. It's nice to not see you, but hear you probably. Anshul is in. He's at. He's at home. He's in India. Oh, nice. So it's, it's, it's late. I got it. Yeah. I'm trying to get my late night blue screen. Oh, there you go. Yeah, right. Sync up with your blue screen. You keep that red light. Anyways, this is the, this is the Laminone One network and it's a network of content creators and they have this long tail kind of content publishing benefits thing, which it's really quite neat and we're going to be launching this haiku project on there and I needed to create some, some of these high guys. So the haiku is the words and the high guys the image. And so I created a factory where you can set some parameters if you want to, or you can just randomize them and then you can generate. I won't generate, I'll generate one. And then it adds it to the database, which is an index database in the back end in the browser. So it's just very local and then it stores it and you can view them. They're full screen. And I'm, I'm a little enamored by them because they do have an aesthetic and they come up pretty nice sometimes. Here's one. I'm like, that's pretty. Anyways, the idea is that people collect these things and. Is that the one I just created? No, it's creating image still. It takes quite a while to create an image in the way that I'm doing it. But there's a. Yeah, you know, for what we're doing, that's the aesthetic right now it's this dreamy, kind of illustrative photo, real in some capacity kind of imagery and I'm happy with them and the consistency I'm getting. And that's. This is an ideal one right here where you get the haiku and not in the tech, in the image. But I'm still getting 10 to 20%. Here's one. Despite what I say, it's giving me either kanji Chinese or English sometimes, but you can create a whole bunch of them at once. Nicholas, my son is going to be doing more promotional marketing and he wanted some ability to send them out. So I created this kind of thing. But I, I did this stuff way back in the day for like 10 years, did multimedia and I ended up being the engineer or whatever, programmer that put pieces together. And so I would end up seeing the content over and over and over again and I really get into it after a while. I'm like, well, that's good. And so my opinion of content. I've tried to define divorce myself from you Know anyone else's kind of opinion of it? Because you earn that sort of. You think things are good because you put in the time and effort into them. But there's a consistency going on. I do. Like, I'm trying to create a gallery night now so that we can actually show a lot of them at once. But if I keep some of the words the same. Here's a good one. Look at that man. They all have a central, like, if you look at them, you can see that they're structurally similar. Start to look at them, you can see the focality is similar.
+- id: W-0005
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u31
+  text: Anyways, this is the, this is the Laminone One network and it's a network of content creators and they have this long tail kind of content publishing benefits thing, which it's really quite neat and we're going to be launching this haiku project on there and I needed to create some, some of these high guys. So the haiku is the words and the high guys the image. And so I created a factory where you can set some parameters if you want to, or you can just randomize them and then you can generate. I won't generate, I'll generate one. And then it adds it to the database, which is an index database in the back end in the browser. So it's just very local and then it stores it and you can view them. They're full screen. And I'm, I'm a little enamored by them because they do have an aesthetic and they come up pretty nice sometimes. Here's one. I'm like, that's pretty. Anyways, the idea is that people collect these things and. Is that the one I just created? No, it's creating image still. It takes quite a while to create an image in the way that I'm doing it. But there's a. Yeah, you know, for what we're doing, that's the aesthetic right now it's this dreamy, kind of illustrative photo, real in some capacity kind of imagery and I'm happy with them and the consistency I'm getting. And that's. This is an ideal one right here where you get the haiku and not in the tech, in the image. But I'm still getting 10 to 20%. Here's one. Despite what I say, it's giving me either kanji Chinese or English sometimes, but you can create a whole bunch of them at once. Nicholas, my son is going to be doing more promotional marketing and he wanted some ability to send them out. So I created this kind of thing. But I, I did this stuff way back in the day for like 10 years, did multimedia and I ended up being the engineer or whatever, programmer that put pieces together. And so I would end up seeing the content over and over and over again and I really get into it after a while. I'm like, well, that's good. And so my opinion of content. I've tried to define divorce myself from you Know anyone else's kind of opinion of it? Because you earn that sort of. You think things are good because you put in the time and effort into them. But there's a consistency going on. I do. Like, I'm trying to create a gallery night now so that we can actually show a lot of them at once. But if I keep some of the words the same. Here's a good one. Look at that man. They all have a central, like, if you look at them, you can see that they're structurally similar. Start to look at them, you can see the focality is similar.
+- id: W-0006
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  text: Anyways, this is the, this is the Laminone One network and it's a network of content creators and they have this long tail kind of content publishing benefits thing, which it's really quite neat and we're going to be launching this haiku project on there and I needed to create some, some of these high guys. So the haiku is the words and the high guys the image. And so I created a factory where you can set some parameters if you want to, or you can just randomize them and then you can generate. I won't generate, I'll generate one. And then it adds it to the database, which is an index database in the back end in the browser. So it's just very local and then it stores it and you can view them. They're full screen. And I'm, I'm a little enamored by them because they do have an aesthetic and they come up pretty nice sometimes. Here's one. I'm like, that's pretty. Anyways, the idea is that people collect these things and. Is that the one I just created? No, it's creating image still. It takes quite a while to create an image in the way that I'm doing it. But there's a. Yeah, you know, for what we're doing, that's the aesthetic right now it's this dreamy, kind of illustrative photo, real in some capacity kind of imagery and I'm happy with them and the consistency I'm getting. And that's. This is an ideal one right here where you get the haiku and not in the tech, in the image. But I'm still getting 10 to 20%. Here's one. Despite what I say, it's giving me either kanji Chinese or English sometimes, but you can create a whole bunch of them at once. Nicholas, my son is going to be doing more promotional marketing and he wanted some ability to send them out. So I created this kind of thing. But I, I did this stuff way back in the day for like 10 years, did multimedia and I ended up being the engineer or whatever, programmer that put pieces together. And so I would end up seeing the content over and over and over again and I really get into it after a while. I'm like, well, that's good. And so my opinion of content. I've tried to define divorce myself from you Know anyone else's kind of opinion of it? Because you earn that sort of. You think things are good because you put in the time and effort into them. But there's a consistency going on. I do. Like, I'm trying to create a gallery night now so that we can actually show a lot of them at once. But if I keep some of the words the same. Here's a good one. Look at that man. They all have a central, like, if you look at them, you can see that they're structurally similar. Start to look at them, you can see the focality is similar. Yeah, it's like a nature background with like some sort of like a character right in the middle. Yeah, yeah, you can see that there's like a. The way that it's constructing it is based on the prompt, which is very highly structured. And at first I'm like, no, that's not what I want. But that is exactly what we want. We want people to recognize that there is a pattern in place. Because what's really cool is if you're a collector and you like, if you like winter, you could find out who has winter scenes or who. Who use winter in a keyword. I mean, the fact that there's rain and winter coming at the same time is kind of a odd set of concerns, but. But yeah, you've got it. Like there's a. There's a compositional component to it. And in this machinery here in this app, it's slightly different than my other version. In the other versions, I was creating a slightly different aesthetic. And that is due to some of the subtleties in the prompting. What I will illustrate and I'll move on, talk about other things. I started building. So we had an AMA with Lamina and we had about 50 people or more involved in this conversation with us talking about our project. And there's a lot of nerds in there and they have their own language around things. A lot of them are really pro gen AI. And so they have this thing to go 50 90, 50 90. I'm like 5090. What the hell is that? That's like a buzzword, right? I was like, okay, I'm like so far out of touch for you know what it is?
+- id: W-0007
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u33
+  - u34
+  - u35
+  text: Yeah, yeah, you can see that there's like a. The way that it's constructing it is based on the prompt, which is very highly structured. And at first I'm like, no, that's not what I want. But that is exactly what we want. We want people to recognize that there is a pattern in place. Because what's really cool is if you're a collector and you like, if you like winter, you could find out who has winter scenes or who. Who use winter in a keyword. I mean, the fact that there's rain and winter coming at the same time is kind of a odd set of concerns, but. But yeah, you've got it. Like there's a. There's a compositional component to it. And in this machinery here in this app, it's slightly different than my other version. In the other versions, I was creating a slightly different aesthetic. And that is due to some of the subtleties in the prompting. What I will illustrate and I'll move on, talk about other things. I started building. So we had an AMA with Lamina and we had about 50 people or more involved in this conversation with us talking about our project. And there's a lot of nerds in there and they have their own language around things. A lot of them are really pro gen AI. And so they have this thing to go 50 90, 50 90. I'm like 5090. What the hell is that? That's like a buzzword, right? I was like, okay, I'm like so far out of touch for you know what it is? It sounds like the gpu. Yeah, that sounds like the gpu. That's like the twelve and a half thousand dollar gpu, right? It's like the top of the line. So what they're saying is that like we're saying, no, we generate all this stuff and they're like, 50, 90, I'm like, okay, you guys are like fanboys in a weird way. And so they like the technical component of it. And they're like, what models are you using? And of course, we're just like, we're just trying to get this thing going. And it only had really. It only had dolly in it. And I'm really quite happy with it. But I can actually change it now and I can actually put stability into it. And it has different kind of setup. But if I just use the same prompt in stability, I'll show you my photo realistic illustrative style postcard, whatever thing. It doesn't work. Oh, wait a minute. Is it gonna work? Oh, it did work. Look at that. Okay. Previously was giving me photo real images. And I'm like, okay. So that gets at the point that these things do have, like, I did a bunch of work way back in the day studying stability versus Dolly in terms of the prompt structure, but I haven't revisited because speed of things. But now I'm going to have to go back and look at it because I added one thing into it, and it actually added a whole lot of illustrative stuff. But there's a lot more size components and you can do a lot more wonderful things with stability. And stability, you can. You could direct it, like, really specifically. So it would be a completely.
+- id: W-0008
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  text: That's like the twelve and a half thousand dollar gpu, right? It's like the top of the line. So what they're saying is that like we're saying, no, we generate all this stuff and they're like, 50, 90, I'm like, okay, you guys are like fanboys in a weird way. And so they like the technical component of it. And they're like, what models are you using? And of course, we're just like, we're just trying to get this thing going. And it only had really. It only had dolly in it. And I'm really quite happy with it. But I can actually change it now and I can actually put stability into it. And it has different kind of setup. But if I just use the same prompt in stability, I'll show you my photo realistic illustrative style postcard, whatever thing. It doesn't work. Oh, wait a minute. Is it gonna work? Oh, it did work. Look at that. Okay. Previously was giving me photo real images. And I'm like, okay. So that gets at the point that these things do have, like, I did a bunch of work way back in the day studying stability versus Dolly in terms of the prompt structure, but I haven't revisited because speed of things. But now I'm going to have to go back and look at it because I added one thing into it, and it actually added a whole lot of illustrative stuff. But there's a lot more size components and you can do a lot more wonderful things with stability. And stability, you can. You could direct it, like, really specifically. So it would be a completely. Oh, man. Getting some wild crap out of here. Holy. Look at that. So completely different aesthetic. But, you know, that would be kind of how I position this project, this haiku project moving forward. We would do sets of things and it would be like, here's one aesthetic set and here's another aesthetic set, and here's another aesthetic set so that there's like some definitiveness to it. And I can do that quickly now. It's kind of cool, the. The haiku thing. Let's see. Haiku. Nft. No, I have one up there somewhere. So I was going to make this available. I'll put it in the chat. You can make your own. It is available online right now. And I'll put. Put it in the chat. You need a key. I was like, okay, I'm trying to put environmental variables in there so you don't have to put the OpenAI key in, which, you know, opens up the app to being exploited. I'm like, okay, fine, I can do that. And then I put my own key in there, right. So that it's easier to. So you can put a really simple password in. So the haiku key is right there. And then the API keys are supposed to be in the Environmental variables. But guess what? I'm still learning. I've done it five times and I cannot get it right. Environmental variables. So, yes, here's the wicked haiku key. I'll put the whole thing in here. You can generate some. I actually had it available where you could. You could actually edit the prompts and so that you could totally dicker with the style of the. I would copy those if you want to play with it. You could totally dicker with this. Over above here, I had like the NFT prompts, the haiku and the haiga prompts. And they're like, well, I don't want people to see those. But I put it in there so that you edit it live, which made me realize, like, if you wanted, this could be a set generator you could set up. Okay, page one, here's my sets. I want to talk about these. And the page two is. Here's my numbers. And then this would just allow you to generate your sets based on these. Because I made this editable, you can totally. You can add hell in here and it shows up as a nature scene. The word isn't showing up right now, but yeah, I made them so that they're variable length so that this could be a utility moving forward. That's my demo this morning because it's stupid, stupid fresh, but that's kind of cool. In about an hour, I'm going to be talking about quality control in Alberta. So I don't know, it's been an interesting week. So I have had to put stickies up on my board. I have market research going on. I've got quality control and I've got multimedia and do have financial services, but they won't get back to me yet. So those are four things. And Angela, what I'm going to talk to you about after this meeting is getting your help. I figured out how to get your help.
+- id: W-0009
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  text: Getting some wild crap out of here. Holy. Look at that. So completely different aesthetic. But, you know, that would be kind of how I position this project, this haiku project moving forward. We would do sets of things and it would be like, here's one aesthetic set and here's another aesthetic set, and here's another aesthetic set so that there's like some definitiveness to it. And I can do that quickly now. It's kind of cool, the. The haiku thing. Let's see. Haiku. Nft. No, I have one up there somewhere. So I was going to make this available. I'll put it in the chat. You can make your own. It is available online right now. And I'll put. Put it in the chat. You need a key. I was like, okay, I'm trying to put environmental variables in there so you don't have to put the OpenAI key in, which, you know, opens up the app to being exploited. I'm like, okay, fine, I can do that. And then I put my own key in there, right. So that it's easier to. So you can put a really simple password in. So the haiku key is right there. And then the API keys are supposed to be in the Environmental variables. But guess what? I'm still learning. I've done it five times and I cannot get it right. Environmental variables. So, yes, here's the wicked haiku key. I'll put the whole thing in here. You can generate some. I actually had it available where you could. You could actually edit the prompts and so that you could totally dicker with the style of the. I would copy those if you want to play with it. You could totally dicker with this. Over above here, I had like the NFT prompts, the haiku and the haiga prompts. And they're like, well, I don't want people to see those. But I put it in there so that you edit it live, which made me realize, like, if you wanted, this could be a set generator you could set up. Okay, page one, here's my sets. I want to talk about these. And the page two is. Here's my numbers. And then this would just allow you to generate your sets based on these. Because I made this editable, you can totally. You can add hell in here and it shows up as a nature scene. The word isn't showing up right now, but yeah, I made them so that they're variable length so that this could be a utility moving forward. That's my demo this morning because it's stupid, stupid fresh, but that's kind of cool. In about an hour, I'm going to be talking about quality control in Alberta. So I don't know, it's been an interesting week. So I have had to put stickies up on my board. I have market research going on. I've got quality control and I've got multimedia and do have financial services, but they won't get back to me yet. So those are four things. And Angela, what I'm going to talk to you about after this meeting is getting your help. I figured out how to get your help.
+- id: W-0010
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u39
+  - u40
+  - u41
+  text: Nft. No, I have one up there somewhere. So I was going to make this available. I'll put it in the chat. You can make your own. It is available online right now. And I'll put. Put it in the chat. You need a key. I was like, okay, I'm trying to put environmental variables in there so you don't have to put the OpenAI key in, which, you know, opens up the app to being exploited. I'm like, okay, fine, I can do that. And then I put my own key in there, right. So that it's easier to. So you can put a really simple password in. So the haiku key is right there. And then the API keys are supposed to be in the Environmental variables. But guess what? I'm still learning. I've done it five times and I cannot get it right. Environmental variables. So, yes, here's the wicked haiku key. I'll put the whole thing in here. You can generate some. I actually had it available where you could. You could actually edit the prompts and so that you could totally dicker with the style of the. I would copy those if you want to play with it. You could totally dicker with this. Over above here, I had like the NFT prompts, the haiku and the haiga prompts. And they're like, well, I don't want people to see those. But I put it in there so that you edit it live, which made me realize, like, if you wanted, this could be a set generator you could set up. Okay, page one, here's my sets. I want to talk about these. And the page two is. Here's my numbers. And then this would just allow you to generate your sets based on these. Because I made this editable, you can totally. You can add hell in here and it shows up as a nature scene. The word isn't showing up right now, but yeah, I made them so that they're variable length so that this could be a utility moving forward. That's my demo this morning because it's stupid, stupid fresh, but that's kind of cool. In about an hour, I'm going to be talking about quality control in Alberta. So I don't know, it's been an interesting week. So I have had to put stickies up on my board. I have market research going on. I've got quality control and I've got multimedia and do have financial services, but they won't get back to me yet. So those are four things. And Angela, what I'm going to talk to you about after this meeting is getting your help. I figured out how to get your help. I was trying to get. Oh, oh, never mind. I think it worked. Okay. Hey, I'll tell you what. Everything works when it works. And right now all of my stuff is continuous CICD. So when I update my GitHub repo, everything changes. And that's not always good for end users. So it works right now and I'll add more features to it later, depending on what Nicholas comes back with. But yeah, I'm going to do things to stabilize my demos and make them more available online. A lot of them I need to do videos of because I'm never going to revisit them because they're all so specifically fragile. But I want to do more of this NFT stuff. So this is a great place to start seeing how that plays out. We have one more month before we have to get really critical and be online. I have until the end of next week to be able to demonstrate the. The project in its.
+- id: W-0011
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  text: Nft. No, I have one up there somewhere. So I was going to make this available. I'll put it in the chat. You can make your own. It is available online right now. And I'll put. Put it in the chat. You need a key. I was like, okay, I'm trying to put environmental variables in there so you don't have to put the OpenAI key in, which, you know, opens up the app to being exploited. I'm like, okay, fine, I can do that. And then I put my own key in there, right. So that it's easier to. So you can put a really simple password in. So the haiku key is right there. And then the API keys are supposed to be in the Environmental variables. But guess what? I'm still learning. I've done it five times and I cannot get it right. Environmental variables. So, yes, here's the wicked haiku key. I'll put the whole thing in here. You can generate some. I actually had it available where you could. You could actually edit the prompts and so that you could totally dicker with the style of the. I would copy those if you want to play with it. You could totally dicker with this. Over above here, I had like the NFT prompts, the haiku and the haiga prompts. And they're like, well, I don't want people to see those. But I put it in there so that you edit it live, which made me realize, like, if you wanted, this could be a set generator you could set up. Okay, page one, here's my sets. I want to talk about these. And the page two is. Here's my numbers. And then this would just allow you to generate your sets based on these. Because I made this editable, you can totally. You can add hell in here and it shows up as a nature scene. The word isn't showing up right now, but yeah, I made them so that they're variable length so that this could be a utility moving forward. That's my demo this morning because it's stupid, stupid fresh, but that's kind of cool. In about an hour, I'm going to be talking about quality control in Alberta. So I don't know, it's been an interesting week. So I have had to put stickies up on my board. I have market research going on. I've got quality control and I've got multimedia and do have financial services, but they won't get back to me yet. So those are four things. And Angela, what I'm going to talk to you about after this meeting is getting your help. I figured out how to get your help. I was trying to get. Oh, oh, never mind. I think it worked. Okay. Hey, I'll tell you what. Everything works when it works. And right now all of my stuff is continuous CICD. So when I update my GitHub repo, everything changes. And that's not always good for end users. So it works right now and I'll add more features to it later, depending on what Nicholas comes back with. But yeah, I'm going to do things to stabilize my demos and make them more available online. A lot of them I need to do videos of because I'm never going to revisit them because they're all so specifically fragile. But I want to do more of this NFT stuff. So this is a great place to start seeing how that plays out. We have one more month before we have to get really critical and be online. I have until the end of next week to be able to demonstrate the. The project in its. The actual experience of creating your haiku is a 3D experience with nurage. Maybe I can find it. That'll be cool. And these are the things that we talking to you about. Anshul is stabilizing these things. Where is my. I'm looking through all my projects right now, trying to find my last version of that cube. Iq.
+- id: W-0012
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: The actual experience of creating your haiku is a 3D experience with nurage. Maybe I can find it. That'll be cool. And these are the things that we talking to you about. Anshul is stabilizing these things. Where is my. I'm looking through all my projects right now, trying to find my last version of that cube. Iq. Jason, what are you riffing upon right now? Oh, no. Well, we kind of have like. I'll share my screen. I'll show you. Okay. We've kind of got like a bit of a POC going for kind of this page creation. We're using this product called Ingest to do like, orchestration. Okay. Figured out how to Basically map the GraphQL schema for all of our components to a Zod schema to pass that into the LLM for each of the components. So here's kind of a some just figuring this out. Basically we kind of pass a call and it grabs the schema for each component and then, you know, generates the component and then populates it. And then right now it looks weird, but it kind of looks like. So what is composing that? What is composing the page?
+- id: W-0013
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  text: Figured out how to Basically map the GraphQL schema for all of our components to a Zod schema to pass that into the LLM for each of the components. So here's kind of a some just figuring this out. Basically we kind of pass a call and it grabs the schema for each component and then, you know, generates the component and then populates it. And then right now it looks weird, but it kind of looks like. So what is composing that? What is composing the page? This thing, this Ingest thing. And then it'll like, here's an example. Okay, cool. All right, man. So it like generates the components. It like, you know, populates the components and then adds the content to the page. Obviously this is all like, pretty wonky and it doesn't any of like, the really thoughtful stuff that we've been working on for the last year. So I kind of now have to kind of build the. The orchestration around the prompts to be able to use like, kind of the scrub type style. Right. Agents to be able to kind of figure some of this out. But it's kind of coming together. It's like this is. This is a perfect concept. And so. That's great, man. Like, that's how my stuff always looks like. It just does not come together. Yeah, I mean, it will once we kind of like figure out some of the pieces here. But Lauren came up with this, found this Ingest product that does kind of the orchestration and runs it through the Vercel AI SDK with the ZOD schema for the GraphQL endpoints to be able to figure out what it needs to make. And so I've got to figure out how to run this. I just haven't. He just did this last bite. So fresh I gotta figure out. But like when you basically give it a payload.
+- id: W-0014
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  text: Yeah, I mean, it will once we kind of like figure out some of the pieces here. But Lauren came up with this, found this Ingest product that does kind of the orchestration and runs it through the Vercel AI SDK with the ZOD schema for the GraphQL endpoints to be able to figure out what it needs to make. And so I've got to figure out how to run this. I just haven't. He just did this last bite. So fresh I gotta figure out. But like when you basically give it a payload. Yeah. You're kind of giving it like the components. So I can do before this. That figures out which components to have it make. And then it'll go and it'll run it and it'll generate the components and then populate each of them. Okay, this is exactly. So this is the pattern I have. Yeah, but this is on scale. This is at scale. Yeah, this is. This is crazy. You've just stacked I don't know how many pieces on top of a normal stack here. Three big pieces. Like you've got GraphQL, you've got this ingestor, which is your orchestrator. Somewhere you're going to have all your agents. Yeah. And that's the agent part, is the part to kind of like, you know, figure out right now. Right. But like this orchestrator can basically, you know, grab the agents. I just have to figure out how to like kind of put that piece together. But it's kind of like pretty close. And so then it's. Then we're trying to figure out, okay, what is the kind of bandit side of that experimentation look like and then how do we, you know, effectively have a state. Yeah, but like a friend of mine who I've been like talking to this about, he's, you know, more of a engineer than me and he's actually been able to build and deploy it for his use case, which is an email. So he's got like a cold email machine that like sends email out right to. To businesses. And he had. Then he built a bandit kind of experimentation layer that based off of like interactions with the emails, you know, weight diff weights, the different components of the content of those emails. And now he's just. Yesterday he finished the kind of full loop where it like will self optimize the prom and then drop that into the bandit system. So at least like somebody's doing it and like a proof of concept it works out. And so he's like. Seemed like crazy. Performance improvements in terms of like effectiveness of messaging and response rates and everything. So it's nice to have a little bit of validation theoretically about like the pattern. But yeah, yeah, it's. I haven't been able to do it yet just being resource constrained. So trying to hire a. Got a whole bunch of interviews today, so I'm hoping that I can hire a couple of people to get this pushed forward, because I think we're right on the edge of, like, getting it close to production.
+- id: W-0015
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  text: But like this orchestrator can basically, you know, grab the agents. I just have to figure out how to like kind of put that piece together. But it's kind of like pretty close. And so then it's. Then we're trying to figure out, okay, what is the kind of bandit side of that experimentation look like and then how do we, you know, effectively have a state. Yeah, but like a friend of mine who I've been like talking to this about, he's, you know, more of a engineer than me and he's actually been able to build and deploy it for his use case, which is an email. So he's got like a cold email machine that like sends email out right to. To businesses. And he had. Then he built a bandit kind of experimentation layer that based off of like interactions with the emails, you know, weight diff weights, the different components of the content of those emails. And now he's just. Yesterday he finished the kind of full loop where it like will self optimize the prom and then drop that into the bandit system. So at least like somebody's doing it and like a proof of concept it works out. And so he's like. Seemed like crazy. Performance improvements in terms of like effectiveness of messaging and response rates and everything. So it's nice to have a little bit of validation theoretically about like the pattern. But yeah, yeah, it's. I haven't been able to do it yet just being resource constrained. So trying to hire a. Got a whole bunch of interviews today, so I'm hoping that I can hire a couple of people to get this pushed forward, because I think we're right on the edge of, like, getting it close to production. Well, yeah, it sounds. You know, there's not many unknowns in what you're talking about. It's. It's about implementing right now, and. And some of them are kind of tricky, so you want people focusing on them. Yeah. Yeah. Cool. It's very, very articulate. I think I'm just trying, like, I'm a little bit flat out across a bunch of different things, and I haven't been able to allocate enough, like, mental cycles to. To what I. I just need to, like. Like we were talking about, like, you know, going to the woods for a weekend and, like.
+- id: W-0016
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  text: But like this orchestrator can basically, you know, grab the agents. I just have to figure out how to like kind of put that piece together. But it's kind of like pretty close. And so then it's. Then we're trying to figure out, okay, what is the kind of bandit side of that experimentation look like and then how do we, you know, effectively have a state. Yeah, but like a friend of mine who I've been like talking to this about, he's, you know, more of a engineer than me and he's actually been able to build and deploy it for his use case, which is an email. So he's got like a cold email machine that like sends email out right to. To businesses. And he had. Then he built a bandit kind of experimentation layer that based off of like interactions with the emails, you know, weight diff weights, the different components of the content of those emails. And now he's just. Yesterday he finished the kind of full loop where it like will self optimize the prom and then drop that into the bandit system. So at least like somebody's doing it and like a proof of concept it works out. And so he's like. Seemed like crazy. Performance improvements in terms of like effectiveness of messaging and response rates and everything. So it's nice to have a little bit of validation theoretically about like the pattern. But yeah, yeah, it's. I haven't been able to do it yet just being resource constrained. So trying to hire a. Got a whole bunch of interviews today, so I'm hoping that I can hire a couple of people to get this pushed forward, because I think we're right on the edge of, like, getting it close to production. Well, yeah, it sounds. You know, there's not many unknowns in what you're talking about. It's. It's about implementing right now, and. And some of them are kind of tricky, so you want people focusing on them. Yeah. Yeah. Cool. It's very, very articulate. I think I'm just trying, like, I'm a little bit flat out across a bunch of different things, and I haven't been able to allocate enough, like, mental cycles to. To what I. I just need to, like. Like we were talking about, like, you know, going to the woods for a weekend and, like. Yeah, right. Yeah. Like, I need to do that even just for myself right now. No, I think that's. That's what I'm. I found with myself in the last little week. It's like, okay, this is. This is grinding. This is. This is not what you intended, and you gotta get on top of it. And that probably means really just tapping out for periods of time where I'm not like you say, and then going someplace. Well, I need to kind of dig into, like, making sure that I really clearly understand this, because I'm like, you know, not. Not enough of a software person to really make sure that I had. Understand all the kind of architectural flow here. I mean, I get it kind of conceptually, but in order to kind of build out the usage of the kind of scrub components and the calling of those for larger prompts, that's kind of what I need to figure out. Because, I mean, like, you know, we've done that experimentally through, like, kind of like, you know, CSV up into just like a chat window. But making those available to other prompts based off of objectives that it should define based off of observable measurements. That's really the. The piece that kind of needs to come into play.
+- id: W-0017
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  - u76
+  text: Well, I need to kind of dig into, like, making sure that I really clearly understand this, because I'm like, you know, not. Not enough of a software person to really make sure that I had. Understand all the kind of architectural flow here. I mean, I get it kind of conceptually, but in order to kind of build out the usage of the kind of scrub components and the calling of those for larger prompts, that's kind of what I need to figure out. Because, I mean, like, you know, we've done that experimentally through, like, kind of like, you know, CSV up into just like a chat window. But making those available to other prompts based off of objectives that it should define based off of observable measurements. That's really the. The piece that kind of needs to come into play. So. Yeah, you're. You're alive then. Yeah. Well, I think we're so. I think we're real close. I think we're, like, you know, maybe a couple of weeks away from having that there. But I'm just trying to, like, make sure I get enough talent locked in, because more to do. This is. This is. This is a view for you, Angel. This is the stuff I'm doing for market research right now. This is an older view of something where I actually got some survey data and a questionnaire, and I think I showed this. Did I? Have you seen it, Ashel? I don't think so, okay, anyway, so there's a questionnaire which is the word Docker. I've got it in JSON. You can, you can upload these things or whatever and then there's results. And then you could create slides based on the questionnaires. I'll just auto generate them and then it would go in. So similar to what Jason's doing, I have the slides. It's a statistical analysis in the page because I can make that happen. And then what it does is it sends up. Oh, no, okay, yeah. And this one's a statistical analysis on the page. And then I send up the. How many slides is it creating? I said two. It's doing fucking all. Excuse me. Then it sends the stats up and it provides me analysis. And I'll move on to the second one, which I built up this week, which I'm going to demonstrate anyways. If I say one and say one, it should generate range. Yeah, there we go. Anyway, so this is a statistical. This is just from the survey data, doing it locally. Then this is based on me sending the stats that are pretty weak, but. And then it's laying it all out and then I could chat to all components of it. And then what it does is it sends that. Those out and it comes back and can update them. So it can update the type of charge, it can update messy. But I built on that. Here's the same sort of thing. Data is in the background. Here it is, here's the survey questionnaire and I have the opportunity to generate slides from it. So do the analysis here. I'm not doing any analysis in the page and so I'll show you in. Jason, have you seen this one?
+- id: W-0018
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  text: This is. This is. This is a view for you, Angel. This is the stuff I'm doing for market research right now. This is an older view of something where I actually got some survey data and a questionnaire, and I think I showed this. Did I? Have you seen it, Ashel? I don't think so, okay, anyway, so there's a questionnaire which is the word Docker. I've got it in JSON. You can, you can upload these things or whatever and then there's results. And then you could create slides based on the questionnaires. I'll just auto generate them and then it would go in. So similar to what Jason's doing, I have the slides. It's a statistical analysis in the page because I can make that happen. And then what it does is it sends up. Oh, no, okay, yeah. And this one's a statistical analysis on the page. And then I send up the. How many slides is it creating? I said two. It's doing fucking all. Excuse me. Then it sends the stats up and it provides me analysis. And I'll move on to the second one, which I built up this week, which I'm going to demonstrate anyways. If I say one and say one, it should generate range. Yeah, there we go. Anyway, so this is a statistical. This is just from the survey data, doing it locally. Then this is based on me sending the stats that are pretty weak, but. And then it's laying it all out and then I could chat to all components of it. And then what it does is it sends that. Those out and it comes back and can update them. So it can update the type of charge, it can update messy. But I built on that. Here's the same sort of thing. Data is in the background. Here it is, here's the survey questionnaire and I have the opportunity to generate slides from it. So do the analysis here. I'm not doing any analysis in the page and so I'll show you in. Jason, have you seen this one? I don't think so. This is a good one. This is a really good one to show because it shows the guts. Got all the plumbing on the outside. I moved to London, England in 1988 and prior to that the Lloyds of London building in downtown London town had all of the piping on the outside of the building. It was super cool. Anyways, that's what this is. So I've got a slide here. Now. I sent up the first question. There's 59 questions in this. I sent up the first question data and it comes back with a title, a subtitle, the slide chart and then some insights. I've actually asked it to do more. I've actually asked it to extend some notes and so it does some other analyses, which is kind of cool. But more than that, I can send the slide data with different contexts. I can send it to the. I have written up a context over here. The whole of the study, it's, it's down bottom over bottom right. I can send that context and the slide to the LLM. It will then provide me richer response back. It's what we're kind of looking for, right? It's like in the context of Gen I, gen AI, expand this. So here's the context. Workplace culture is changing. What are the strategic implications for this slide? Just this slide. And so it gets at those and then what are the concerns and challenges and what are the actual intel? These are all things that people want. They don't want the slides, they don't want the stats, they don't want anything. So that's kind of where I take statistics and then I can actually use the LLM to generate the slide data. So I send, I send, here's my question, here's the process data that I organize behind the scenes to send it. It's just a list. And then the prompt, here's the pull button, here's the prompt, analyze the questions, yada yada, here's the question, here's the responses. Yeah, that's okay. And then, and then an important only respond in JSON object exactly format shown below. And so I know what I'm getting back. I'm getting a multi response back. So now I can go back Jason, Now I can go back to my agents in the past that did all this verbose work. I had to get them to do all that verbose work and then structure it and come it down. So the next version is going to be super awesome anyways. So it, it will then send back a title, a subtitle, the chart and it can pick one of a bunch of different kinds and this kind based on I, I can change that. Then it gives me the table data in and I want it to be optimized with certain things like the first top three or certain things and then it gives me the insights according to these groups. It's super jammy in terms of how it provides this slide. And now what I've done on my side, I just created a template. I say lay out the template this way, title, subtitle, chart, yada yada. And I can just move the template items around and then the slides move around. I build that into this thing over here which you see to be broken. It's broken. Too bad.
+- id: W-0019
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  text: This is. This is. This is a view for you, Angel. This is the stuff I'm doing for market research right now. This is an older view of something where I actually got some survey data and a questionnaire, and I think I showed this. Did I? Have you seen it, Ashel? I don't think so, okay, anyway, so there's a questionnaire which is the word Docker. I've got it in JSON. You can, you can upload these things or whatever and then there's results. And then you could create slides based on the questionnaires. I'll just auto generate them and then it would go in. So similar to what Jason's doing, I have the slides. It's a statistical analysis in the page because I can make that happen. And then what it does is it sends up. Oh, no, okay, yeah. And this one's a statistical analysis on the page. And then I send up the. How many slides is it creating? I said two. It's doing fucking all. Excuse me. Then it sends the stats up and it provides me analysis. And I'll move on to the second one, which I built up this week, which I'm going to demonstrate anyways. If I say one and say one, it should generate range. Yeah, there we go. Anyway, so this is a statistical. This is just from the survey data, doing it locally. Then this is based on me sending the stats that are pretty weak, but. And then it's laying it all out and then I could chat to all components of it. And then what it does is it sends that. Those out and it comes back and can update them. So it can update the type of charge, it can update messy. But I built on that. Here's the same sort of thing. Data is in the background. Here it is, here's the survey questionnaire and I have the opportunity to generate slides from it. So do the analysis here. I'm not doing any analysis in the page and so I'll show you in. Jason, have you seen this one? I don't think so. This is a good one. This is a really good one to show because it shows the guts. Got all the plumbing on the outside. I moved to London, England in 1988 and prior to that the Lloyds of London building in downtown London town had all of the piping on the outside of the building. It was super cool. Anyways, that's what this is. So I've got a slide here. Now. I sent up the first question. There's 59 questions in this. I sent up the first question data and it comes back with a title, a subtitle, the slide chart and then some insights. I've actually asked it to do more. I've actually asked it to extend some notes and so it does some other analyses, which is kind of cool. But more than that, I can send the slide data with different contexts. I can send it to the. I have written up a context over here. The whole of the study, it's, it's down bottom over bottom right. I can send that context and the slide to the LLM. It will then provide me richer response back. It's what we're kind of looking for, right? It's like in the context of Gen I, gen AI, expand this. So here's the context. Workplace culture is changing. What are the strategic implications for this slide? Just this slide. And so it gets at those and then what are the concerns and challenges and what are the actual intel? These are all things that people want. They don't want the slides, they don't want the stats, they don't want anything. So that's kind of where I take statistics and then I can actually use the LLM to generate the slide data. So I send, I send, here's my question, here's the process data that I organize behind the scenes to send it. It's just a list. And then the prompt, here's the pull button, here's the prompt, analyze the questions, yada yada, here's the question, here's the responses. Yeah, that's okay. And then, and then an important only respond in JSON object exactly format shown below. And so I know what I'm getting back. I'm getting a multi response back. So now I can go back Jason, Now I can go back to my agents in the past that did all this verbose work. I had to get them to do all that verbose work and then structure it and come it down. So the next version is going to be super awesome anyways. So it, it will then send back a title, a subtitle, the chart and it can pick one of a bunch of different kinds and this kind based on I, I can change that. Then it gives me the table data in and I want it to be optimized with certain things like the first top three or certain things and then it gives me the insights according to these groups. It's super jammy in terms of how it provides this slide. And now what I've done on my side, I just created a template. I say lay out the template this way, title, subtitle, chart, yada yada. And I can just move the template items around and then the slides move around. I build that into this thing over here which you see to be broken. It's broken. Too bad.
+- id: W-0020
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u80
+  - u81
+  text: I sent up the first question. There's 59 questions in this. I sent up the first question data and it comes back with a title, a subtitle, the slide chart and then some insights. I've actually asked it to do more. I've actually asked it to extend some notes and so it does some other analyses, which is kind of cool. But more than that, I can send the slide data with different contexts. I can send it to the. I have written up a context over here. The whole of the study, it's, it's down bottom over bottom right. I can send that context and the slide to the LLM. It will then provide me richer response back. It's what we're kind of looking for, right? It's like in the context of Gen I, gen AI, expand this. So here's the context. Workplace culture is changing. What are the strategic implications for this slide? Just this slide. And so it gets at those and then what are the concerns and challenges and what are the actual intel? These are all things that people want. They don't want the slides, they don't want the stats, they don't want anything. So that's kind of where I take statistics and then I can actually use the LLM to generate the slide data. So I send, I send, here's my question, here's the process data that I organize behind the scenes to send it. It's just a list. And then the prompt, here's the pull button, here's the prompt, analyze the questions, yada yada, here's the question, here's the responses. Yeah, that's okay. And then, and then an important only respond in JSON object exactly format shown below. And so I know what I'm getting back. I'm getting a multi response back. So now I can go back Jason, Now I can go back to my agents in the past that did all this verbose work. I had to get them to do all that verbose work and then structure it and come it down. So the next version is going to be super awesome anyways. So it, it will then send back a title, a subtitle, the chart and it can pick one of a bunch of different kinds and this kind based on I, I can change that. Then it gives me the table data in and I want it to be optimized with certain things like the first top three or certain things and then it gives me the insights according to these groups. It's super jammy in terms of how it provides this slide. And now what I've done on my side, I just created a template. I say lay out the template this way, title, subtitle, chart, yada yada. And I can just move the template items around and then the slides move around. I build that into this thing over here which you see to be broken. It's broken. Too bad. Anyways, so the next step of this was all the slides are in here. They, they export as PowerPoint. I can theme them, they're laid out exactly like they were in here. And more than that, I can then do the worksona thing. I say, here is the audience. And then you can focus all of the slide data. You can send back just the raw data for focused insight, or you could take the slide data as it is and focus it on this audience. And so it's really one, you do the ingestion, two, the analysis, and then three, you do the focusing what slides you want, what your audience is. And the final processing there PowerPoints it out. And PowerPoint is. It's bang on. It opens up inside Google Slides with the data. It's an image, but it opens up with the data. So it is properly formatting what the client in this case wants. So it's kind of cool. It took me two weeks to figure out nuts and bolts how to do the next version, which would make this command commercial product. Basically, it's a. You export any of your data from say SurveyMonkey. You get your questions, I don't care what it is. You get your Excel spreadsheet, your cvs, you pump it in, it generates all the regular counts and percentages, then it does cross tabs and then it does the cool. And then it generates the opportunity to focus on your audience and export it as PDF or PowerPoint or whatever you want.
+- id: W-0021
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u80
+  - u81
+  - u82
+  text: I sent up the first question. There's 59 questions in this. I sent up the first question data and it comes back with a title, a subtitle, the slide chart and then some insights. I've actually asked it to do more. I've actually asked it to extend some notes and so it does some other analyses, which is kind of cool. But more than that, I can send the slide data with different contexts. I can send it to the. I have written up a context over here. The whole of the study, it's, it's down bottom over bottom right. I can send that context and the slide to the LLM. It will then provide me richer response back. It's what we're kind of looking for, right? It's like in the context of Gen I, gen AI, expand this. So here's the context. Workplace culture is changing. What are the strategic implications for this slide? Just this slide. And so it gets at those and then what are the concerns and challenges and what are the actual intel? These are all things that people want. They don't want the slides, they don't want the stats, they don't want anything. So that's kind of where I take statistics and then I can actually use the LLM to generate the slide data. So I send, I send, here's my question, here's the process data that I organize behind the scenes to send it. It's just a list. And then the prompt, here's the pull button, here's the prompt, analyze the questions, yada yada, here's the question, here's the responses. Yeah, that's okay. And then, and then an important only respond in JSON object exactly format shown below. And so I know what I'm getting back. I'm getting a multi response back. So now I can go back Jason, Now I can go back to my agents in the past that did all this verbose work. I had to get them to do all that verbose work and then structure it and come it down. So the next version is going to be super awesome anyways. So it, it will then send back a title, a subtitle, the chart and it can pick one of a bunch of different kinds and this kind based on I, I can change that. Then it gives me the table data in and I want it to be optimized with certain things like the first top three or certain things and then it gives me the insights according to these groups. It's super jammy in terms of how it provides this slide. And now what I've done on my side, I just created a template. I say lay out the template this way, title, subtitle, chart, yada yada. And I can just move the template items around and then the slides move around. I build that into this thing over here which you see to be broken. It's broken. Too bad. Anyways, so the next step of this was all the slides are in here. They, they export as PowerPoint. I can theme them, they're laid out exactly like they were in here. And more than that, I can then do the worksona thing. I say, here is the audience. And then you can focus all of the slide data. You can send back just the raw data for focused insight, or you could take the slide data as it is and focus it on this audience. And so it's really one, you do the ingestion, two, the analysis, and then three, you do the focusing what slides you want, what your audience is. And the final processing there PowerPoints it out. And PowerPoint is. It's bang on. It opens up inside Google Slides with the data. It's an image, but it opens up with the data. So it is properly formatting what the client in this case wants. So it's kind of cool. It took me two weeks to figure out nuts and bolts how to do the next version, which would make this command commercial product. Basically, it's a. You export any of your data from say SurveyMonkey. You get your questions, I don't care what it is. You get your Excel spreadsheet, your cvs, you pump it in, it generates all the regular counts and percentages, then it does cross tabs and then it does the cool. And then it generates the opportunity to focus on your audience and export it as PDF or PowerPoint or whatever you want. Could it do like fairly qualitative tables of data?
+- id: W-0022
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Anyways, so the next step of this was all the slides are in here. They, they export as PowerPoint. I can theme them, they're laid out exactly like they were in here. And more than that, I can then do the worksona thing. I say, here is the audience. And then you can focus all of the slide data. You can send back just the raw data for focused insight, or you could take the slide data as it is and focus it on this audience. And so it's really one, you do the ingestion, two, the analysis, and then three, you do the focusing what slides you want, what your audience is. And the final processing there PowerPoints it out. And PowerPoint is. It's bang on. It opens up inside Google Slides with the data. It's an image, but it opens up with the data. So it is properly formatting what the client in this case wants. So it's kind of cool. It took me two weeks to figure out nuts and bolts how to do the next version, which would make this command commercial product. Basically, it's a. You export any of your data from say SurveyMonkey. You get your questions, I don't care what it is. You get your Excel spreadsheet, your cvs, you pump it in, it generates all the regular counts and percentages, then it does cross tabs and then it does the cool. And then it generates the opportunity to focus on your audience and export it as PDF or PowerPoint or whatever you want. Could it do like fairly qualitative tables of data? Yeah, yeah. And so that's with the LLM evolved. That's the brilliant part. Do you want some data to play with on that? Oh, sure, man. If you've got a set that's really cool. That's what I'm so working with Pantera, they gave me a data set, right? And then they showed I got to see what their final reports look like. They didn't know that, but I got to see what their final reports look like. And then they gave me a template of what they would like the reports to look like. So it gave me a real world problem in terms of being able to. To define the output. And a lot of it's just rigorous programming, which the AI, you know, because I can program in this capacity, I was able to do just a whole ton of regular market research programming behind the scenes. Look, this is seriously, this is like a market research study book or something. Because it's like in market research you can call a study where there's a questionnaire and survey and then some context. And so this is the ability to take any survey System can export CSVs and data maps and then it allows to basically takes about 70% of the capacity out of market research companies puts it in the hands of the end client and that's a win for me. So the neat thing about the project working on right now is like okay, that's great because got to the point where it's product making product happen. Inside enterprise is really interesting and Carol's very good at that. But what's interesting is that I've recognized that these companies work and function the same as mine and that they're not really well horizontally organized. They're really top down told what to do and then they have a very hard time to push up to get that done. And so they're working in enclaves of groups of people and they're trying to champion things and they're all told to, you know, get things done and to work quickly. And that's not their mode. Their mode is to work slowly. So there's a really big opportunity here and I'm working with an organization like Pantera who has some clients on the line that really do want to scale up this kind of thing. I think this kind of product could be out the door within. Within a month they're usable by them and us in a huge capacity but within three months it is servicing a significant component because it's a lot of ETL work. It's just a lot of monkey work. Say that it's really complicated monkey work because I don't want to. It's. It's the kind of thing that your guys are doing. You're getting involved with. It's that granular. Eventually it gets that granular.
+- id: W-0023
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  - u88
+  text: Oh, sure, man. If you've got a set that's really cool. That's what I'm so working with Pantera, they gave me a data set, right? And then they showed I got to see what their final reports look like. They didn't know that, but I got to see what their final reports look like. And then they gave me a template of what they would like the reports to look like. So it gave me a real world problem in terms of being able to. To define the output. And a lot of it's just rigorous programming, which the AI, you know, because I can program in this capacity, I was able to do just a whole ton of regular market research programming behind the scenes. Look, this is seriously, this is like a market research study book or something. Because it's like in market research you can call a study where there's a questionnaire and survey and then some context. And so this is the ability to take any survey System can export CSVs and data maps and then it allows to basically takes about 70% of the capacity out of market research companies puts it in the hands of the end client and that's a win for me. So the neat thing about the project working on right now is like okay, that's great because got to the point where it's product making product happen. Inside enterprise is really interesting and Carol's very good at that. But what's interesting is that I've recognized that these companies work and function the same as mine and that they're not really well horizontally organized. They're really top down told what to do and then they have a very hard time to push up to get that done. And so they're working in enclaves of groups of people and they're trying to champion things and they're all told to, you know, get things done and to work quickly. And that's not their mode. Their mode is to work slowly. So there's a really big opportunity here and I'm working with an organization like Pantera who has some clients on the line that really do want to scale up this kind of thing. I think this kind of product could be out the door within. Within a month they're usable by them and us in a huge capacity but within three months it is servicing a significant component because it's a lot of ETL work. It's just a lot of monkey work. Say that it's really complicated monkey work because I don't want to. It's. It's the kind of thing that your guys are doing. You're getting involved with. It's that granular. Eventually it gets that granular. I just sent you a couple of like small. I'm trying to find a big data set to. Okay. But they're like these are like maybe 40 or 50 rows but I'm trying to find that are like hundreds of rows but it's basically like qualitative like voice of customer survey data.
+- id: W-0024
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  text: 'Oh, sure, man. If you''ve got a set that''s really cool. That''s what I''m so working with Pantera, they gave me a data set, right? And then they showed I got to see what their final reports look like. They didn''t know that, but I got to see what their final reports look like. And then they gave me a template of what they would like the reports to look like. So it gave me a real world problem in terms of being able to. To define the output. And a lot of it''s just rigorous programming, which the AI, you know, because I can program in this capacity, I was able to do just a whole ton of regular market research programming behind the scenes. Look, this is seriously, this is like a market research study book or something. Because it''s like in market research you can call a study where there''s a questionnaire and survey and then some context. And so this is the ability to take any survey System can export CSVs and data maps and then it allows to basically takes about 70% of the capacity out of market research companies puts it in the hands of the end client and that''s a win for me. So the neat thing about the project working on right now is like okay, that''s great because got to the point where it''s product making product happen. Inside enterprise is really interesting and Carol''s very good at that. But what''s interesting is that I''ve recognized that these companies work and function the same as mine and that they''re not really well horizontally organized. They''re really top down told what to do and then they have a very hard time to push up to get that done. And so they''re working in enclaves of groups of people and they''re trying to champion things and they''re all told to, you know, get things done and to work quickly. And that''s not their mode. Their mode is to work slowly. So there''s a really big opportunity here and I''m working with an organization like Pantera who has some clients on the line that really do want to scale up this kind of thing. I think this kind of product could be out the door within. Within a month they''re usable by them and us in a huge capacity but within three months it is servicing a significant component because it''s a lot of ETL work. It''s just a lot of monkey work. Say that it''s really complicated monkey work because I don''t want to. It''s. It''s the kind of thing that your guys are doing. You''re getting involved with. It''s that granular. Eventually it gets that granular. I just sent you a couple of like small. I''m trying to find a big data set to. Okay. But they''re like these are like maybe 40 or 50 rows but I''m trying to find that are like hundreds of rows but it''s basically like qualitative like voice of customer survey data. So there''s two ways you go, right? Quant. Quant gets validates. That''s all it really does. You can do a little bit more of a quality you can do c such cool work with man. Well I think like that''s the. I''ve tried to do this in really naive ways with ChatGPT to analyze this kind of data previously but like not to very not a very good structured approach. But it''s basically like you know, you kind of, you send all these surveys to or the survey to like you know, customers and then they answer the questions but you don''t really want to know what they answered. You want to understand the insight from the things that they say, right? Like, what''s the. What are they really saying, you know? Yeah, yeah. And like, how does that impact the business? You know, priorities, obviously. Like, that''s kind of what you''re leaning into anyway. It''s. It''s interesting stuff, man. Well, it''s. It is really cool. And what I learned, you know, I learned a lot working at Vision Critical. Angus, reading them how to build frameworks around quality, you know, like, that''s all they really do is they just both in. In. In typical market research, they just bring frameworks that get to quant so they can do some statistical analysis on qual. And so there''s always this casting of qualitative to quantitative. And if you have. The neat thing that I uncovered is that you can use a lot of frameworks to make that casting really cool. And so that''s. That''s a neat thing to explore. And I watched this video, I posted it in the Discord channel, but I watched this video on Gemini and Google AI Studio. So I''m like, this sounds like I could use my data set that I have and my data map and make it just do some jamming shit. Anyways. It''s way better at big data sets and it''s way better at streaming, right? I''m like, can I. So I opened up the streaming component. I''m like, I''m not really streaming. It streamed all my data. It really wants stream data. Like, if you can. You have an API that can stream all your log data, you can stream it into this environment, then you can analyze it all in real time, which is super lanky cool. But regardless of that, this environment is really wild. I dropped those two files in the data map and the CSV. It had to be in the right formats. And then I asked it to do some stuff and it built the whole damn survey right there in front of me as an HTML page. Like the whole thing, it capped twice. And that''s what I''ve been told to expect. And I get through everything. But it. I asked it to analyze things as to what I could get out of it. It did all of the work that you''re talking about from a qualitative survey. Sorry about a quantitative survey point of view. And I initially did that with this quantitative survey too. It''s like I did a qual. A qual analysis of it. And so what I''m getting at is like, whatever Gemini is and that next generation of things, man, is it going to change this kind of analysis? This. It can be a lot looser in terms of the rigor to get to the point of decision making is what I''m thinking. But I don''t know when that happens. In the meantime, I''m gonna have to have these like what I''m getting to in my stuff is like having these microservice endpoints that are pretty malleable, that can take different kinds of data and then they convert them into '
+- id: W-0025
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u93
+  text: Well, it's. It is really cool. And what I learned, you know, I learned a lot working at Vision Critical. Angus, reading them how to build frameworks around quality, you know, like, that's all they really do is they just both in. In. In typical market research, they just bring frameworks that get to quant so they can do some statistical analysis on qual. And so there's always this casting of qualitative to quantitative. And if you have. The neat thing that I uncovered is that you can use a lot of frameworks to make that casting really cool. And so that's. That's a neat thing to explore. And I watched this video, I posted it in the Discord channel, but I watched this video on Gemini and Google AI Studio. So I'm like, this sounds like I could use my data set that I have and my data map and make it just do some jamming shit. Anyways. It's way better at big data sets and it's way better at streaming, right? I'm like, can I. So I opened up the streaming component. I'm like, I'm not really streaming. It streamed all my data. It really wants stream data. Like, if you can. You have an API that can stream all your log data, you can stream it into this environment, then you can analyze it all in real time, which is super lanky cool. But regardless of that, this environment is really wild. I dropped those two files in the data map and the CSV. It had to be in the right formats. And then I asked it to do some stuff and it built the whole damn survey right there in front of me as an HTML page. Like the whole thing, it capped twice. And that's what I've been told to expect. And I get through everything. But it. I asked it to analyze things as to what I could get out of it. It did all of the work that you're talking about from a qualitative survey. Sorry about a quantitative survey point of view. And I initially did that with this quantitative survey too. It's like I did a qual. A qual analysis of it. And so what I'm getting at is like, whatever Gemini is and that next generation of things, man, is it going to change this kind of analysis? This. It can be a lot looser in terms of the rigor to get to the point of decision making is what I'm thinking. But I don't know when that happens. In the meantime, I'm gonna have to have these like what I'm getting to in my stuff is like having these microservice endpoints that are pretty malleable, that can take different kinds of data and then they convert them into a standardized set, which is what Gemini is doing. But it was very select steps. So there's like, you can do all kinds of weird things with this. Okay, the stream in real time one was. I don't know if I can get to.
+- id: W-0026
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: Well, it's. It is really cool. And what I learned, you know, I learned a lot working at Vision Critical. Angus, reading them how to build frameworks around quality, you know, like, that's all they really do is they just both in. In. In typical market research, they just bring frameworks that get to quant so they can do some statistical analysis on qual. And so there's always this casting of qualitative to quantitative. And if you have. The neat thing that I uncovered is that you can use a lot of frameworks to make that casting really cool. And so that's. That's a neat thing to explore. And I watched this video, I posted it in the Discord channel, but I watched this video on Gemini and Google AI Studio. So I'm like, this sounds like I could use my data set that I have and my data map and make it just do some jamming shit. Anyways. It's way better at big data sets and it's way better at streaming, right? I'm like, can I. So I opened up the streaming component. I'm like, I'm not really streaming. It streamed all my data. It really wants stream data. Like, if you can. You have an API that can stream all your log data, you can stream it into this environment, then you can analyze it all in real time, which is super lanky cool. But regardless of that, this environment is really wild. I dropped those two files in the data map and the CSV. It had to be in the right formats. And then I asked it to do some stuff and it built the whole damn survey right there in front of me as an HTML page. Like the whole thing, it capped twice. And that's what I've been told to expect. And I get through everything. But it. I asked it to analyze things as to what I could get out of it. It did all of the work that you're talking about from a qualitative survey. Sorry about a quantitative survey point of view. And I initially did that with this quantitative survey too. It's like I did a qual. A qual analysis of it. And so what I'm getting at is like, whatever Gemini is and that next generation of things, man, is it going to change this kind of analysis? This. It can be a lot looser in terms of the rigor to get to the point of decision making is what I'm thinking. But I don't know when that happens. In the meantime, I'm gonna have to have these like what I'm getting to in my stuff is like having these microservice endpoints that are pretty malleable, that can take different kinds of data and then they convert them into a standardized set, which is what Gemini is doing. But it was very select steps. So there's like, you can do all kinds of weird things with this. Okay, the stream in real time one was. I don't know if I can get to. Is this just the kind of basic paid version of. It's free. Yeah, the free one. Yeah, it's free. And I got an API key. You get a billion and a half tokens or whatever and you can use Gemini 2 in any model right now, API wise. And it's pretty too flash experimental and it's multimodal and it does real time streaming. So you can do all this audio stuff and video stuff and, and it will. So for amqc, this is like, man, this is killer because it analyzes video. In real time and you don't have to like sit. Like before I was doing this, it was like basically taking the video and then sliding, slicing the video into images and then pushing images. No, it's like, seriously, right here, it's like you can hook up. I don't know where it was. It. Starter app. All right. Analyze video, Interact video player. Lets you summarize. One of them was like, right here is Gemini. Show your webcam and share it and it'll start interacting with whatever web cameras. Okay, I got too much going on with my webcam, right. But I, I was able to do some really weird things with it. And the demo shows that you can do all this object detection in real time and it streams video and audio in real time. And I'm like, man, this just. This with a video feed is like almost all of quality control. Like, I mean there's a lot of handles on it, but in terms of what you would normally do with all kinds of software, take a picture. Now we're going to look at it, we're going to do a small analysis. We're going to have to check it and we can tell you if it's all right and all these other things. The streaming component of the video is just wild because it has audio components into it too. And so it can respond back. If you give a text or anything, it can respond back in audio So I tried not to get too distracted by this because I have so many, you know, things that are kind of pressure prescient. But I do think that this is. This is the kind of thing that we're going to hook up to log files. Everything that I'm doing in terms of the market research stuff, I want it to be real time ready. Like, that was my first experience, is like, if I can make it real time, then it's easier and, and it's ready. But the capacity for something like this Gemini model to leapfrog any of the concerns I was having for, for AMQC is really weird. Right. I don't know what to pitch anymore, you know, because I'm still trying to pitch from that point of view. What. What does it look like? Last time I looked at it was glasses and ar. It'd still be glasses in ar, but now it's like none of the. None of the machinery behind the scenes is the same. It's just a model with a whole bunch of triggers, like thousands of triggers. So that's pretty cool. It's pretty cool stuff. And I, I like how freaking close you are, Jason, because the articulate nature of your things is just so crazy.
+- id: W-0027
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u95
+  - u96
+  - u97
+  text: It's free. Yeah, the free one. Yeah, it's free. And I got an API key. You get a billion and a half tokens or whatever and you can use Gemini 2 in any model right now, API wise. And it's pretty too flash experimental and it's multimodal and it does real time streaming. So you can do all this audio stuff and video stuff and, and it will. So for amqc, this is like, man, this is killer because it analyzes video. In real time and you don't have to like sit. Like before I was doing this, it was like basically taking the video and then sliding, slicing the video into images and then pushing images. No, it's like, seriously, right here, it's like you can hook up. I don't know where it was. It. Starter app. All right. Analyze video, Interact video player. Lets you summarize. One of them was like, right here is Gemini. Show your webcam and share it and it'll start interacting with whatever web cameras. Okay, I got too much going on with my webcam, right. But I, I was able to do some really weird things with it. And the demo shows that you can do all this object detection in real time and it streams video and audio in real time. And I'm like, man, this just. This with a video feed is like almost all of quality control. Like, I mean there's a lot of handles on it, but in terms of what you would normally do with all kinds of software, take a picture. Now we're going to look at it, we're going to do a small analysis. We're going to have to check it and we can tell you if it's all right and all these other things. The streaming component of the video is just wild because it has audio components into it too. And so it can respond back. If you give a text or anything, it can respond back in audio So I tried not to get too distracted by this because I have so many, you know, things that are kind of pressure prescient. But I do think that this is. This is the kind of thing that we're going to hook up to log files. Everything that I'm doing in terms of the market research stuff, I want it to be real time ready. Like, that was my first experience, is like, if I can make it real time, then it's easier and, and it's ready. But the capacity for something like this Gemini model to leapfrog any of the concerns I was having for, for AMQC is really weird. Right. I don't know what to pitch anymore, you know, because I'm still trying to pitch from that point of view. What. What does it look like? Last time I looked at it was glasses and ar. It'd still be glasses in ar, but now it's like none of the. None of the machinery behind the scenes is the same. It's just a model with a whole bunch of triggers, like thousands of triggers. So that's pretty cool. It's pretty cool stuff. And I, I like how freaking close you are, Jason, because the articulate nature of your things is just so crazy.
+- id: W-0028
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  text: No, it's like, seriously, right here, it's like you can hook up. I don't know where it was. It. Starter app. All right. Analyze video, Interact video player. Lets you summarize. One of them was like, right here is Gemini. Show your webcam and share it and it'll start interacting with whatever web cameras. Okay, I got too much going on with my webcam, right. But I, I was able to do some really weird things with it. And the demo shows that you can do all this object detection in real time and it streams video and audio in real time. And I'm like, man, this just. This with a video feed is like almost all of quality control. Like, I mean there's a lot of handles on it, but in terms of what you would normally do with all kinds of software, take a picture. Now we're going to look at it, we're going to do a small analysis. We're going to have to check it and we can tell you if it's all right and all these other things. The streaming component of the video is just wild because it has audio components into it too. And so it can respond back. If you give a text or anything, it can respond back in audio So I tried not to get too distracted by this because I have so many, you know, things that are kind of pressure prescient. But I do think that this is. This is the kind of thing that we're going to hook up to log files. Everything that I'm doing in terms of the market research stuff, I want it to be real time ready. Like, that was my first experience, is like, if I can make it real time, then it's easier and, and it's ready. But the capacity for something like this Gemini model to leapfrog any of the concerns I was having for, for AMQC is really weird. Right. I don't know what to pitch anymore, you know, because I'm still trying to pitch from that point of view. What. What does it look like? Last time I looked at it was glasses and ar. It'd still be glasses in ar, but now it's like none of the. None of the machinery behind the scenes is the same. It's just a model with a whole bunch of triggers, like thousands of triggers. So that's pretty cool. It's pretty cool stuff. And I, I like how freaking close you are, Jason, because the articulate nature of your things is just so crazy. And if only I had like, a week of time to, like, think about this. Once you can start isolating a variable and doing the. The runners, like the planets on it. I think I'll be very curious to. See what the big influencers are. Yeah, the big kind of breakthrough here was like that, the GraphQL structure. You're using a traditional structure, so it's not the structure. Well, it's going to be how you contour the messaging and how you enable that to be slick as butter. Right? Like, yeah, I think, like, the breakthrough here was like, that. Can you hear me? No. Am I muted? Can you hear me now? Is that me? Oh, I might have done something on my side. Can you hear me, Angel?
+- id: W-0029
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  text: Yeah, the big kind of breakthrough here was like that, the GraphQL structure. You're using a traditional structure, so it's not the structure. Well, it's going to be how you contour the messaging and how you enable that to be slick as butter. Right? Like, yeah, I think, like, the breakthrough here was like, that. Can you hear me? No. Am I muted? Can you hear me now? Is that me? Oh, I might have done something on my side. Can you hear me, Angel? Yeah, I can hear you. Just. Oh, maybe Dave's speakers are cutting out. By running that thing, I might speed my sound. See how I do that. Hello? Anyway, Angel, I think the breakthrough here was that we were able to convert the GraphQL schema to ZOD of that Zod pattern for that component, you know, clearly defined and then added to the prompt such that, you know, whatever the. So now it's just like the orchestration of actually all the LLM work that we've done to kind of like, sit on top of this, but being able to, like, know. Okay, we generated like, this is the series, like the Prompt sequence with the record with the inputs that generated this output. And then like just figuring out how to make sure we store that pattern and then have enough understanding of that pattern to know what it created. And so like, when we're able to like use the LLM to generate the patterns, it's, you know, we're able to track that. Like, that's the piece. Okay, so I'm glad my audio came back. So my thing with the microservices endpoints might be like as a pattern, something of interest. Meaning you have this whole other system if it could just call an endpoint and send shit to it, then your agents are actually autonomous and they're just doing the call and return thing.
+- id: W-0030
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  text: Hello? Anyway, Angel, I think the breakthrough here was that we were able to convert the GraphQL schema to ZOD of that Zod pattern for that component, you know, clearly defined and then added to the prompt such that, you know, whatever the. So now it's just like the orchestration of actually all the LLM work that we've done to kind of like, sit on top of this, but being able to, like, know. Okay, we generated like, this is the series, like the Prompt sequence with the record with the inputs that generated this output. And then like just figuring out how to make sure we store that pattern and then have enough understanding of that pattern to know what it created. And so like, when we're able to like use the LLM to generate the patterns, it's, you know, we're able to track that. Like, that's the piece. Okay, so I'm glad my audio came back. So my thing with the microservices endpoints might be like as a pattern, something of interest. Meaning you have this whole other system if it could just call an endpoint and send shit to it, then your agents are actually autonomous and they're just doing the call and return thing. Can you repeat that, Dave? So if you make your agents endpoints, so they're just like a web URL/CTA and you send it some information to do a CTA processing, then it just does a call and return. So it's a microservice. So the agents themselves aren't integrated in any way. They're just, they're just an agency that you engage with. And you built, and you build the agencies, the agents, such that they have a series of endpoints that equate to the components that you would send them. Right. Well, I think like the kind of way that it is, it's like these components are all available and okay, and. Then it picks one that should pick. The components and the component. And I kind of have it set up right now where I'm like, hey, this is a component and it can be, you know, like, I've got it kind of set up in a scrub where it's like, this is the component that can be used this way. And like, so the LLM needs to determine what it wants to communicate and what's the best component for it to do that. And then like, that's kind of how I'm thinking about it to make it like purely generative. So it's like it's developing the strategy and then it's developing the way to communicate that strategy. And like, then it needs to reason why, why that's the best way. And then it needs to, then we need to then test it and then we need to get feedback data around like what the interaction was. And then it needs to review its hypothesis and then it needs to like, either confirm it or then, you know, iterate on it. And then, you know, continue to kind of measure and self optimize and then deploy it through a bandit structure where like the bandit is actually doing testing so we're not relying on the LLM for actual validating.
+- id: W-0031
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  text: The components and the component. And I kind of have it set up right now where I'm like, hey, this is a component and it can be, you know, like, I've got it kind of set up in a scrub where it's like, this is the component that can be used this way. And like, so the LLM needs to determine what it wants to communicate and what's the best component for it to do that. And then like, that's kind of how I'm thinking about it to make it like purely generative. So it's like it's developing the strategy and then it's developing the way to communicate that strategy. And like, then it needs to reason why, why that's the best way. And then it needs to, then we need to then test it and then we need to get feedback data around like what the interaction was. And then it needs to review its hypothesis and then it needs to like, either confirm it or then, you know, iterate on it. And then, you know, continue to kind of measure and self optimize and then deploy it through a bandit structure where like the bandit is actually doing testing so we're not relying on the LLM for actual validating. Yeah, yeah. So it's like. That's the kind of. Like, I think the. It sounds like a lot, but I think it's kind of last mile, honestly, like. Yeah, yeah. No, I don't know. Yeah, I was trying to. Trying to make it accessible as last mile. Like, you've got it figured out in the same way, but I still think this notion of endpoints as the agents and the way that you interact them will allow them to be autonomous and international. Well, yeah, I mean, like, I'm just. My. My actual problems, like, trying to convince my engineer that, like, this is the way. That sounds complicated. That's why we'll just do it easier. And I'm like. And I'm like, yeah, man. Like, I get easier, but it's got to be good, you know? Yeah, yeah, yeah, yeah. We've seen easy, and it doesn't sell, actually. Yeah, well, I think that's the thing. I gotta. I gotta run to perpetrating. Yeah. Guys, sorry I was short. Short today, but. Oh, no, thank you. Thank you both. I appreciate the continuity. I'm gonna set things up a bit better for next week. And, Angela, if I could ask for a phone call with you directly after this, then that would be helpful too. Thanks, Jason. Phone call might not work. Oh, right. How about a video call?
+- id: W-0032
+  t_start: 2970.0
+  t_end: 3047.458
+  utterance_ids:
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  text: Well, yeah, I mean, like, I'm just. My. My actual problems, like, trying to convince my engineer that, like, this is the way. That sounds complicated. That's why we'll just do it easier. And I'm like. And I'm like, yeah, man. Like, I get easier, but it's got to be good, you know? Yeah, yeah, yeah, yeah. We've seen easy, and it doesn't sell, actually. Yeah, well, I think that's the thing. I gotta. I gotta run to perpetrating. Yeah. Guys, sorry I was short. Short today, but. Oh, no, thank you. Thank you both. I appreciate the continuity. I'm gonna set things up a bit better for next week. And, Angela, if I could ask for a phone call with you directly after this, then that would be helpful too. Thanks, Jason. Phone call might not work. Oh, right. How about a video call? Might not work. Okay, how about. I'll. Here. I'm just gonna set it up right now and hand it off in here. Here, and we can start. I just want to have a private call that's not shared for one second. Yeah, yeah, sounds good. Set it up. So I. I do have a. A local network connected on my roaming, but it has been dodgy. It connects sometimes and then it disconnects. Yeah, I know. I hear you. I'm. Let's just. I'll add this into our chat. We can both go there. I sent you an email. Here's the link, and we'll connect there. Yeah, okay. All right, sounds good. Okay. Yeah.

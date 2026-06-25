@@ -1,0 +1,28 @@
+id: IDEA-0134
+slug: platform-capabilities-and-future-simulat
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-03-11'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explained that the market research platform is being built to allow for various forms of analysis, including simulating responses based on user profiles or questionnaire data. They noted that simulations are a cost-effective alternative to real-world testing and can produce confident results if profiling is done accurately. David Olsson highlighted that the application allows for external control via an Application Programming Interface (API) and Multiple Control Planes (MCPs), enabling another LLM, such as Claude, to program and deploy a survey without directly accessing the appl
+summary: Platform Capabilities and Future Simulations
+rationale: David Olsson explained that the market research platform is being built to allow for various forms of analysis, including simulating responses based on user profiles or questionnaire data. They noted that simulations are a cost-effective alternative to real-world testing and can produce confident results if profiling is done accurately. David Olsson highlighted that the application allows for exte
+tags: []
+theme_refs:
+- THEME-10
+directive_refs: []
+created: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 67.3
+grade_breakdown:
+  evidence: 25
+  theme: 9.1
+  recency: 5.2
+  concretion: 13.0
+  uniqueness: 15
+  carryover: 0
+rank: 63
+tier: queue

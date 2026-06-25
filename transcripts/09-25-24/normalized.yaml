@@ -1,0 +1,1419 @@
+meeting:
+  date: '2024-09-25'
+  title: 8am-AI 2024-09-25
+  participants:
+  - David Olsson
+  - Jason Kryski
+  - Fulvio Ciano
+  duration_s: 4042.148
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 183.1
+  t_end: 183.8
+  text: Good morning.
+- id: u2
+  speaker: David Olsson
+  t_start: 199.7
+  t_end: 215.61
+  text: Hello. Cool beans. Yeah, I gapped completely last week, man. And mind the gap. Yeah.
+- id: u3
+  speaker: Jason Kryski
+  t_start: 215.654
+  t_end: 216.25
+  text: And.
+- id: u4
+  speaker: David Olsson
+  t_start: 217.99
+  t_end: 309.54
+  text: It was, you know, going to. Calgary is like, because of what I have to deal with is like a completely different me, you know, and, and I live in a completely different condition and everything. And so, yeah, you're somebody else. I was living day to day and. Then Wednesday I'm like, I part way through the day. Like, why is James emailing? Oh, it's Wednesday, but he's not here. That's okay, James. Jason's here. Cool. Good morning. Yeah. I've been working on this other project for oil and gas and stepping. Back from my work a little bit in terms of the prompting to do some business work and using zero one and getting more jiggy with tools like Nan and getting my stack or my development environment set up. Foveo. I'm not sure he's going to make it. He is actually. He's got everything going on his own machine and he's using Claude Dev instead of cursor. And right now I can see why because cursor is fucking up. It's not working very well at all. But you'll be happy to know that I've got the anthropic account working with an API balance now.
+- id: u5
+  speaker: Fulvio Ciano
+  t_start: 310.68
+  t_end: 316.82
+  text: So, David, I sent you a message in slack explaining what needs to be done.
+- id: u6
+  speaker: David Olsson
+  t_start: 317.16
+  t_end: 317.66
+  text: Yeah.
+- id: u7
+  speaker: Fulvio Ciano
+  t_start: 317.528
+  t_end: 345.846
+  text: What the difficulty is in a way nothing can be done, but we'll talk about that later. As unfortunately as I originally thought and the documentation is intentionally kind of confusing. Anthropic is not cloth and Claude is not anthropic. They're separate things. So, you know, when you have an API key from Anthropoc, it has nothing to do with your cloud account, unfortunately, even though the model on the back end is the same.
+- id: u8
+  speaker: Jason Kryski
+  t_start: 345.958
+  t_end: 346.458
+  text: Right.
+- id: u9
+  speaker: Fulvio Ciano
+  t_start: 346.398
+  t_end: 407.2
+  text: And so there are restrictions on the anthropic account. Almost none, really. It's because it's by token use, right. Like all you you're paying. It's the difference between buffets and menu options. Anthropic doesn't give a shit how many members you have in there. Anthropic team stuff. Whereas Claude, because it's buffet style. Right. Or pseudo buffet style with limits. No, no. 500 pound crazy people, whatever. I don't know. The Claude team thing has minimum number of team members and you know, you know, it's, it's kind of stupid because the limitation it provides for Claude, for the team, for everybody to understand is that it's tough to work as a group with Claude unless you have five members right, because you can't really share what they call workspaces, which are indeed agents.
+- id: u10
+  speaker: David Olsson
+  t_start: 408.02
+  t_end: 411.6
+  text: Yeah, no, they got some cool stuff, man.
+- id: u11
+  speaker: Fulvio Ciano
+  t_start: 412.78
+  t_end: 414.164
+  text: I know, I know.
+- id: u12
+  speaker: David Olsson
+  t_start: 414.332
+  t_end: 420.4
+  text: It's sitting on this shelf. Like, a project is basically off the shelf rag. It's just stupid.
+- id: u13
+  speaker: Fulvio Ciano
+  t_start: 421.3
+  t_end: 438.348
+  text: But you can. Anyway, in regards to the particular project we want to use that kind of functionality for, I have a solution plan, but it's outside the scope probably of everybody here, because it's specific to our specific needs. The problem here is that there are.
+- id: u14
+  speaker: Jason Kryski
+  t_start: 438.404
+  t_end: 439.716
+  text: A million ways to do this.
+- id: u15
+  speaker: Fulvio Ciano
+  t_start: 439.748
+  t_end: 445.85
+  text: There's so many ways to skin this cat. Building agents and interacting with documents.
+- id: u16
+  speaker: David Olsson
+  t_start: 446.39
+  t_end: 447.286
+  text: Yeah, I know.
+- id: u17
+  speaker: Fulvio Ciano
+  t_start: 447.438
+  t_end: 474.294
+  text: And they're. And, you know, you know, I'll ruminate just a little bit with the team. You go to so many of these AI's, and they all look the same, right? Like, like, you know what I mean? Like, the basic interface is like, so similar across Gemini, Claude, OpenAI, you know, all of these things, but they aren't exactly the same underneath. And my big peeve is, like, nomenclature.
+- id: u18
+  speaker: Jason Kryski
+  t_start: 474.382
+  t_end: 476.47
+  text: Differences that don't really need to exist.
+- id: u19
+  speaker: Fulvio Ciano
+  t_start: 476.59
+  t_end: 479.65
+  text: Someone's fighting over, like, is it a workspace? Is it a project?
+- id: u20
+  speaker: David Olsson
+  t_start: 483.11
+  t_end: 496.086
+  text: They're all their own language. They want to push forward. But regardless of that difficulty, the upside of actually using the goddamn tools is huge, man.
+- id: u21
+  speaker: Fulvio Ciano
+  t_start: 496.238
+  t_end: 497.038
+  text: Oh, it's enormous.
+- id: u22
+  speaker: David Olsson
+  t_start: 497.094
+  t_end: 503.47
+  text: It's just fucking massive. I'm designing shit that's way above my. Pay grade right now. I'm doing it. Okay.
+- id: u23
+  speaker: Fulvio Ciano
+  t_start: 503.93
+  t_end: 526.674
+  text: And by the way, everyone, if no one's had a look at napkin, if you're doing anything with diagrams, you might want to look at napkin. If you're generating diagrams in any way, you might want to look at napkin. And if you're generating more flowcharts, then I have some other suggestions for you. Not that napkin can't do flow charts.
+- id: u24
+  speaker: Jason Kryski
+  t_start: 526.722
+  t_end: 529.75
+  text: But I've been using eraser.
+- id: u25
+  speaker: Fulvio Ciano
+  t_start: 530.73
+  t_end: 590.766
+  text: That's the other one in the, in the space. But again, it. If you're. I can give you a better way to do eraser stuff, I have found, but napkin is much more like. If you need diagrams for presentations that are, like, ready to drop into the presentation, napkins, the way to go. In my opinion, it's quite beautiful. It's, like, shockingly effective. If you want to do one right now, David, you'll see. No, I don't. But if you want to do, let's say, stuff where you really need to work with it outside of this ide. Let's call this an ide, right? Then there's other methodologies that are better, right? Like getting, getting a real model to do a mermaid output and then bring in a mermaid input and do what you want to do.
+- id: u26
+  speaker: David Olsson
+  t_start: 590.878
+  t_end: 596.21
+  text: But it sounds magical. Mermaids. So. Yeah, I don't know that one either.
+- id: u27
+  speaker: Fulvio Ciano
+  t_start: 596.51
+  t_end: 599.558
+  text: Shouldn't, shouldn't that have a widely variant spelling?
+- id: u28
+  speaker: Jason Kryski
+  t_start: 599.614
+  t_end: 601.13
+  text: It's actually spelled napkin.
+- id: u29
+  speaker: Fulvio Ciano
+  t_start: 601.71
+  t_end: 604.198
+  text: Shouldn't it be an effective tool if.
+- id: u30
+  speaker: Jason Kryski
+  t_start: 604.214
+  t_end: 607.06
+  text: It doesn't have a weird spelling? Yeah. Why is there no why?
+- id: u31
+  speaker: David Olsson
+  t_start: 607.88
+  t_end: 610.216
+  text: See, napkin is like sanitary, I think.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 610.288
+  t_end: 614.152
+  text: I think that means they managed to get the URL. I think that's all that means.
+- id: u33
+  speaker: David Olsson
+  t_start: 614.336
+  t_end: 624.82
+  text: Right? That's about it. I got a word. We're going to use it. It's actually an english word. Anyways, I wanted to show you. Is that my dog out front? Holy cow.
+- id: u34
+  speaker: David Olsson
+  t_start: 635.93
+  t_end: 1006.13
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign
+- id: u35
+  speaker: David Olsson
+  t_start: 1017.39
+  t_end: 1029.49
+  text: I have one too many windows open. I want to show this one because. This is the most valuable thing I've seen in a while.
+- id: u36
+  speaker: David Olsson
+  t_start: 1039.44
+  t_end: 1163.35
+  text: I came across this article on medium. About building strategies for algorithmic trading using oon. And this guy's built his own platform for it. And it's really fucking simple, man. It's really fucking crazy simple. So what I did is I took. The article that was talking about this thing, and it's simple in concept. And so I took this article that. Explained it, and I pasted in here, because you can't do anything fancy yet, otherwise, at least I thought so. And so it analyzed it, and then it gave me sort of the key. Points and model performance. What nexus platform was the strategy? You know, ideal, you know, how the. System works, which is kind of not. My thing right now, because I'm figuring out what it is. But then the functional insights in the. Application enhance the capabilities of finance algorithm trading optimization. It gets into how to practically do this. And so the problem with all trading is you can back test anything, but the conditions aren't live, right? So just breaking this all down into what the sort of actionable steps are. To get to the point of being. Able to do this was incredibly valuable. And then I was like, well, what is all that going to be? And I'm like, I need a step by step define your goals, use it to generate the outline strategy, develop detailed strategy components, translate strategy into executable rules. And then it starts to write code for me. So I'm actually building a system. So you can see where this guy. That did this article and did this nexus thing, he just started following his nose, man, and he put some wrapper. Around this thing and now he's got this spiffy thing that he's offering free, up to 1200 bucks a month. And it's a chat system monitor, optimize, last thing, ensure compliance. Those are all great things, right? So the next steps are, begin this, create an agent that works for doing this. Understand the scope. Okay? So it starts doing this crap of. Building me an agent that I don't want, and that's because I'm rushed through it, so I gotta get to the next step.
+- id: u37
+  speaker: David Olsson
+  t_start: 1169.01
+  t_end: 1250.39
+  text: So I wanted to create an agent ur. And so it gives me the conversation. And as an example of how it will perform. And so it's basically going through the example in the article where he's setting up the conditions and doing all the stuff around it and saying, here's your focus and signals, and there's a lot. Of language around here. You want to learn anything about investment, this is a good one. And so how do you set up the agent? You, you know, it's again telling me how to do things that I'm not really wanting. And then, but I get it to update the agent because I want to use the agent. And then I set it to have a standard configuration file for how to set up a fucking trading strategy based on all this, right? So because it's just inputs and outputs and then the parameters of position sizing. And so it's explaining to me how to build an algorithmic strategy. It's reverse engineering this guy's whole platform. In front of me. Provide a prompt that will fucking do it all. And then I said, ensure you clued what type of agent it is because. I wanted it to be more specific and because I'm trying to get this thing to do things. And so I was able to then take that. And I'm not sure where I've got Matt. Okay, dog arithmetic, I'm sure this time instead.
+- id: u38
+  speaker: David Olsson
+  t_start: 1256.37
+  t_end: 1456.008
+  text: So I've got the define how to build a algorithmic trading strategy right here. Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy. I'm applying that all to the birdwatcher, mister. And that's what my raptors do. This is what they do. They do finance style strategy applied initially. To the intelligence sector, which is market research. And they do it in the fashion of being able to understand it as a market and moving. And on the backside is me spinning simulations all around this to get to the predictive component of what will happen. Next and being able to extract value. So fuck me, man, yesterday this comes together in a very succinct way. So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents. Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund. And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space. And fucking market research is nothing full of boutiques, man, one in two person shops. And they do not have the horsepower to leverage their own intelligence. You give them the money, the capital and the ability to leverage all these LLMs in a succinct way. Then you have a super intelligence, you have an agency working underneath people that. Are very motivated to do business in a very different way. And that is zero one helping me be succinct along. A whole lot of thinking that was. And I was with Jason and talking. About this, I was quite vengeful in my thinking. I was quite spiteful about it. I was quite like I had a. Chip on my shoulder about it. And then through the work that I've. Done in working with AI, I've not. Only found a way to deliver on. What I wanted to be my first promise, my first business about equitable ownership. In a way that distributes value down the chain to the actual people building the code. And to me that was a massive. Revelation of what is possible using AIH. Not only to build machines and Jason's building one of the most sophisticated compound. Machines I've ever seen, but to be. Able to organize people in a new way to build machines. And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a. Sheer limitation of all of us.
+- id: u39
+  speaker: Jason Kryski
+  t_start: 1456.104
+  t_end: 1460.216
+  text: And so teamwork makes the dream work, Dave.
+- id: u40
+  speaker: David Olsson
+  t_start: 1460.368
+  t_end: 1460.976
+  text: Sorry.
+- id: u41
+  speaker: Jason Kryski
+  t_start: 1461.088
+  t_end: 1462.68
+  text: Teamwork makes the dream work.
+- id: u42
+  speaker: David Olsson
+  t_start: 1462.8
+  t_end: 1576.81
+  text: Yeah. The fact that I've been able to actually resonate this back and forth with me and then with you peoples is. The validation step of having somebody not, you know, hit that hang up button. But I thought that was. That was a real proof for me. That just using this thing is the. Space as an effective day to day processes. Process, or series of them is. In itself a product. Right. It is a new way of working. And those people that get it, they. Get it in a way that you don't have to train them to do it. And I'm not talking about developers and programmers. They all get things like that because they're just rigorous and learning at that level. But there's a lot of people that. Are very good pattern recognition types that. See these things in business, and they just don't see them as accessible in terms of being able to touch them. And that's. That's why entrepreneurship has been such a boon and so big is it's intended in some way to level a field. Of opportunity so that the meritocracy can take place. Jason, you've used that phrasing, too, is that there's a merit. Merit base to things that can be promoted. And right now, this stupid fucking arms race for the LLMs and the really. It'S just generative AI that's getting all the limelight. But stupid arms race is purposeless. It's actually purposeless. The people that are building the arms are just like the arms manufacturers. They don't have a purpose other than to provide the capabilities of war.
+- id: u43
+  speaker: Jason Kryski
+  t_start: 1578.11
+  t_end: 1578.61
+  text: Yeah.
+- id: u44
+  speaker: David Olsson
+  t_start: 1578.542
+  t_end: 1600.81
+  text: So some of them, like Nvidia, they recognizing they gotta go to war. Right. So they're jumping on top of. On top of, on top of. And a lot of them are. But for the most part, there is a huge opportunity to sit on top of all of these LLMs. As we're seeing with the concerts that. We'Re seeing in the ensembles, like, within cursory AI, there's, like, eight different options for LLMs that it can draw to not very effectively.
+- id: u45
+  speaker: Jason Kryski
+  t_start: 1601.23
+  t_end: 1619.06
+  text: I think the hardest part here is, like, trying to discern the layers and then the stage of competition at which each of those layers is at, you know, hardware. Like, it's a mechanism, right. But, like, when you get down to the, you know, the product layer, it's like a blue ocean.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 1620.28
+  t_end: 1625.156
+  text: Very succinct chase, because those. There's just so many layers. Right.
+- id: u47
+  speaker: Jason Kryski
+  t_start: 1625.216
+  t_end: 1659.162
+  text: And the parts that I get confused about. Foveo is like the, like I'm paying attention to everything and there's agents and then there's like, you know, rag systems and then there's, you know, all these like, ways that you're putting these pieces together. But as you're ping ponging between a bunch of different things, or at least in my thinking, I'm constantly ping ponging between where I get distracted around what I'm even doing. Because I'm like, maybe I should be building agents for this. Then I'm like, okay, well, maybe, you know, I should be doing this over here or doing that over there. It's really hard to keep things straight right now, at least.
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 1659.226
+  t_end: 1684.744
+  text: Well, I think, I think you have elucidated a yemenite, a very real problem, right. And so I think the solution is dispositional in the sense that like, you have to be the kind of person who's laser focused on what your goal is. Because some of the layers, in my opinion, and I'm not guilty of this. Okay, so I'm not preach, I'm not.
+- id: u49
+  speaker: Jason Kryski
+  t_start: 1684.792
+  t_end: 1685.6
+  text: Doing what I preach.
+- id: u50
+  speaker: Fulvio Ciano
+  t_start: 1685.68
+  t_end: 1691.936
+  text: Okay, but you should ignore, you should like, not pay attention to what do I need tomorrow?
+- id: u51
+  speaker: Jason Kryski
+  t_start: 1692.008
+  t_end: 1693.048
+  text: I need this tomorrow.
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 1693.104
+  t_end: 1702.164
+  text: And if I can get, if I can get 100% of the way there by using 10% of my effort in.
+- id: u53
+  speaker: Jason Kryski
+  t_start: 1702.212
+  t_end: 1704.204
+  text: This layer and ignore those other layers.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 1704.252
+  t_end: 1721.76
+  text: That'S what I should do. And factoring in things like, I don't know, subscription costs and APIs, because inevitably a lot of the layers of technologies are focused on trying to extract subscription fees from you to use those layers or to modify those layers.
+- id: u55
+  speaker: David Olsson
+  t_start: 1722.62
+  t_end: 1726.08
+  text: So there's a cost of validation, right? That's right. Exactly.
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1726.38
+  t_end: 1726.88
+  text: Yeah.
+- id: u57
+  speaker: David Olsson
+  t_start: 1726.852
+  t_end: 1745.48
+  text: So, and so the cost of validation. Is an opportunity, and I call that intelligence arbitrage. Because if you do enough simulations, you can reassure yourself that you're going to be successful. And to your point is like, how much of, how much LLM do you need, how much team do you need? How much time do you need? Is the arbitrage you can do if you have superpower.
+- id: u58
+  speaker: Fulvio Ciano
+  t_start: 1745.86
+  t_end: 1778.538
+  text: Yeah, but I think everyone should give themselves a rabbit hole budget because, because if you go down a rabbit hole at any layer, you learn something and inevitably it will inform your utilization, your meta understanding in a way that it will affect the quality of your output. Right, so it is. And then, like I said, it's wonderfully amplified or modulated by people using different terms descriptions.
+- id: u59
+  speaker: David Olsson
+  t_start: 1778.594
+  t_end: 1783.202
+  text: Yeah, no, that's the best part. Yeah, this is great, Jason. I like this.
+- id: u60
+  speaker: Jason Kryski
+  t_start: 1783.306
+  t_end: 1848.708
+  text: I sent this a day last night. This actually was one of the things that really kind of helped stabilize my anxiety and thinking a little bit. And I think this is this graphics from Microsoft research. And it's basically just kind of showing the different like stages of these, you know, applications and the usage of, um, you know, what they're trying to like move towards. Um, and, and I'm like, okay. Like it helps me kind of think about staying in my lane in a way where like I want my application to do all these things and I'm, you know, like a product visionary like Dave. So I'm thinking about all the, what I want and I'm like, oh. And I'm seeing these different tools come out and then I start to try to figure out as I'm going how to start to jam other capabilities into my stack. And to your point, fulvio, like you got to just stop, like cool. You know, these things, these things work. Build it with this, you know, v one, v two, whatever. Like as the technology gets there because a bunch of these things, like we're just not there with this stuff. Like we're kind of, you know, we're here and we're kind of broaching on to here.
+- id: u61
+  speaker: David Olsson
+  t_start: 1848.844
+  t_end: 1849.344
+  text: Yeah.
+- id: u62
+  speaker: Jason Kryski
+  t_start: 1849.188
+  t_end: 1869.102
+  text: But we're, you know, like, you know, zero, zero one is, you know, is, is here maybe like, you know, I want to do all these other things. So I just kind of felt this, that was a helpful kind of like centering graphic to kind of like illustrate these kinds of, kinds of stages.
+- id: u63
+  speaker: Fulvio Ciano
+  t_start: 1869.286
+  t_end: 1929.634
+  text: Yeah, I'm going to download it from you. I totally agree. And, you know, you get into this, but I do think you need a, I think you need a rabbit hole budget because a lot comes out of going down those rabbit holes and understanding and, you know, the old analogy of I have is like way before AI, right? You know, person who has to like rake the leaves and, you know, they spend two days working on a plastic thing to help them hold open the bag and rake the leaves and do the thing and, you know, and then they could have raked the leaves in half an hour, but they spend a bunch of time, you know, and so this AI problem is exactly that, right? Because if you know the layer you can get, you have the discipline to stay focused on what you need to do in the moment. Then you attack at the right layer, the other layers are done for you. If you're doing it right and your output is sufficient, then it's good. Especially when you get into tools like na n and stuff like that. Right?
+- id: u64
+  speaker: David Olsson
+  t_start: 1929.802
+  t_end: 1930.698
+  text: That was crazy.
+- id: u65
+  speaker: Jason Kryski
+  t_start: 1930.794
+  t_end: 1945.594
+  text: Oh, yeah. That's been like the biggest time suck in my life. The last two weeks has been building something and then editing these workflows as the architecture evolves. And it's like a never ending shithole.
+- id: u66
+  speaker: David Olsson
+  t_start: 1945.722
+  t_end: 1947.778
+  text: Oh, my God. Oh, no.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 1947.914
+  t_end: 1957.002
+  text: And then you find out that, like, the way you are using n eight n, you have to, like, back up and go the other way because you.
+- id: u68
+  speaker: Jason Kryski
+  t_start: 1957.026
+  t_end: 1958.41
+  text: Can'T use it in the cloud because.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 1958.45
+  t_end: 1974.6
+  text: You need file access. And so it's like all these kinds of things, right? Absolutely. I mean, I think I accelerated that in some of my investigations and I got somewhere really quick. But I'm pretty ruthlessly disciplined about fast prototyping and staying on.
+- id: u70
+  speaker: Jason Kryski
+  t_start: 1976.5
+  t_end: 1977.196
+  text: The goal.
+- id: u71
+  speaker: Fulvio Ciano
+  t_start: 1977.268
+  t_end: 1979.16
+  text: Right, what I should generate.
+- id: u72
+  speaker: David Olsson
+  t_start: 1979.58
+  t_end: 2406.49
+  text: 'So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: u73
+  speaker: Fulvio Ciano
+  t_start: 2406.91
+  t_end: 2408.67
+  text: Did we, did we arrive if like.
+- id: u74
+  speaker: Jason Kryski
+  t_start: 2408.75
+  t_end: 2416.99
+  text: O was just using train of thought or if it was using some of these kind of like more complicated like search techniques inside the LLM?
+- id: u75
+  speaker: Fulvio Ciano
+  t_start: 2417.03
+  t_end: 2430.848
+  text: Do we figure that out? So I've been reading a lot of articles on this, so, and there's a very, and the most, a lot of the information isn't coming out of them directly, it's coming out of other people.
+- id: u76
+  speaker: Jason Kryski
+  t_start: 2430.904
+  t_end: 2431.984
+  text: Who are reading their stuff.
+- id: u77
+  speaker: Fulvio Ciano
+  t_start: 2432.032
+  t_end: 2462.072
+  text: And then frankly, I think coming to conclusions. But some of them are in the, in the know. If you know what I mean? So, yes, chain of thought is in there. You can find articles that explain papers that explain how the chain of thought stuff is working and why it's doing what it's working. One of the interesting ones, by the way, that was very elucidating, was talking about a really interesting phenomenon that if you look at. If you look at it, you know.
+- id: u78
+  speaker: Jason Kryski
+  t_start: 2462.096
+  t_end: 2463.368
+  text: The part where it says thinking, and.
+- id: u79
+  speaker: Fulvio Ciano
+  t_start: 2463.384
+  t_end: 2515.688
+  text: It doesn't tell you what it's thinking. People have complained, why doesn't it tell you what it's thinking? And the reason for that is not what you think. Boy, that's a meta statement. Anyway, so the reason for that, and I believe this, okay, is that the chain of thought is unfiltered. And what I mean by that is that, you know, you know how obviously, you know how LLMs will not do things like tell you how to steal a car or tell you how to, you know, rob a bank or steal someone's identity or stuff like that. So the chain of thought stuff is hidden because in the chain of thought process, there's no filtering. None at all. So if you saw it, you would learn everything you needed to learn by following its chain of thought. So it's not a proprietary process issue.
+- id: u80
+  speaker: Jason Kryski
+  t_start: 2515.744
+  t_end: 2516.496
+  text: It's not a.
+- id: u81
+  speaker: Fulvio Ciano
+  t_start: 2516.568
+  t_end: 2555.694
+  text: We don't want you to know how the chain of thought works. In fact, one of the articles I found explained it in great detail. So they are doing chain of thought. They're doing it iteratively. Right. Step by step, iteratively. Chain of thought stuff. They are doing a Monte Carlo tree of thoughts, not just chain of thoughts. They're doing something I coined in 2014, negative thought. Negative chain trimming. Like early, early stumping.
+- id: u82
+  speaker: David Olsson
+  t_start: 2555.882
+  t_end: 2558.334
+  text: Zeros. Like zeros, not negative ones and ones.
+- id: u83
+  speaker: Fulvio Ciano
+  t_start: 2558.502
+  t_end: 2559.118
+  text: Right.
+- id: u84
+  speaker: David Olsson
+  t_start: 2559.254
+  t_end: 2559.97
+  text: Yeah.
+- id: u85
+  speaker: Fulvio Ciano
+  t_start: 2560.63
+  t_end: 2570.29
+  text: And so forth. There's a lot of things going on. I think the chain of thought, one is the most impactful, and here's why I think the chain of thought one is the most impactful.
+- id: u86
+  speaker: Jason Kryski
+  t_start: 2570.95
+  t_end: 2572.294
+  text: Three days ago, I don't even know.
+- id: u87
+  speaker: Fulvio Ciano
+  t_start: 2572.302
+  t_end: 2593.44
+  text: If I told this to David. Maybe I have told this to David. I don't remember. I know I told it to another friend. Very interesting article. Came out of Google where they said they published a mathematical proof that any problem can be solved with chain of thought, even if the model being used is constrained.
+- id: u88
+  speaker: David Olsson
+  t_start: 2593.86
+  t_end: 2594.604
+  text: Oh, yes.
+- id: u89
+  speaker: Fulvio Ciano
+  t_start: 2594.732
+  t_end: 2596.72
+  text: Has a constant number of layers.
+- id: u90
+  speaker: David Olsson
+  t_start: 2597.06
+  t_end: 2600.92
+  text: Okay. There's no. There's no internal mechanism to grow itself.
+- id: u91
+  speaker: Fulvio Ciano
+  t_start: 2601.22
+  t_end: 2601.72
+  text: Yeah.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 2601.692
+  t_end: 2602.192
+  text: Even.
+- id: u93
+  speaker: Fulvio Ciano
+  t_start: 2602.004
+  t_end: 2650.09
+  text: Even if you never static. Yeah. Even if you have a static number of layers, you can solve any problem. They mathematically proved this, I'm highly skeptical. Not that it's not true. I'm highly skeptical of the proof. We'll talk about that another time. But so what that, what that elucidates that is so important to everybody, and as I've mentioned to David a couple of times, is that the Jesuits are right. You know, like your meth, youre, your, your method of thinking about thinking is the key. Okay? And so chain of thoughts, is that powerful? So there are other things going on, trimming Monte Carlo, all sorts of stuff.
+- id: u94
+  speaker: David Olsson
+  t_start: 2650.79
+  t_end: 2653.806
+  text: You know, lots of cosign action.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 2653.998
+  t_end: 2670.178
+  text: Yeah, all sorts of things. But in the end, the one that I think the biggest bang for your buck is Isdev, is the chain of thought stuff. And if you think about it, it's, there is like very simple anecdotal ways of thinking about it.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 2670.274
+  t_end: 2673.146
+  text: You can do incredibly complex things with.
+- id: u97
+  speaker: Fulvio Ciano
+  t_start: 2673.178
+  t_end: 2679.282
+  text: Simple tools if you chain the use of the simple tools to solve the complex problem.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 2679.386
+  t_end: 2679.962
+  text: Right.
+- id: u99
+  speaker: Fulvio Ciano
+  t_start: 2680.106
+  t_end: 2691.0
+  text: And then if you just admit or observe or conclude that you can stack that metal logically.
+- id: u100
+  speaker: Jason Kryski
+  t_start: 2691.5
+  t_end: 2692.22
+  text: Right?
+- id: u101
+  speaker: Fulvio Ciano
+  t_start: 2692.38
+  t_end: 2703.4
+  text: And there you go. That's the answer. So what it means is that this shit's going to get better fast. I think. I don't know.
+- id: u102
+  speaker: Jason Kryski
+  t_start: 2704.34
+  t_end: 2706.452
+  text: I don't think anybody's prediction is too.
+- id: u103
+  speaker: David Olsson
+  t_start: 2706.476
+  t_end: 2713.954
+  text: Aggressive, except the parameter increase did allow. For strategy to entertain a. Right.
+- id: u104
+  speaker: Fulvio Ciano
+  t_start: 2714.122
+  t_end: 2714.83
+  text: Yeah.
+- id: u105
+  speaker: David Olsson
+  t_start: 2717.29
+  t_end: 2730.434
+  text: So at 750 million, stuff started happening and into the, into the billions. That's when the next level of order. Of understanding strategy starts to kick in.
+- id: u106
+  speaker: Jason Kryski
+  t_start: 2730.562
+  t_end: 2731.062
+  text: Right.
+- id: u107
+  speaker: David Olsson
+  t_start: 2730.826
+  t_end: 2738.91
+  text: So there's this magnitude that has to occur for another order of magnitude understanding to occur. Right.
+- id: u108
+  speaker: Fulvio Ciano
+  t_start: 2738.746
+  t_end: 2739.826
+  text: But if you can only raise things.
+- id: u109
+  speaker: Jason Kryski
+  t_start: 2739.858
+  t_end: 2741.282
+  text: To the power of three, who cares.
+- id: u110
+  speaker: Fulvio Ciano
+  t_start: 2741.306
+  t_end: 2745.958
+  text: If you can raise it to the power of three three times, right? Like, you know, you, you can stack.
+- id: u111
+  speaker: David Olsson
+  t_start: 2746.014
+  t_end: 2786.98
+  text: These things, but within that model, like, how big is big in the cost. Of, you know, 10 shot is what is where it's gone. So you can, you can decide anything, assuredly given enough energy. So. And no matter what, that's the case with chain of thought. And chain of thought is the most rigorous thing we have. It's, it's an analytical process, and above that, we have something higher. And we would call it intuition or behavioral science or whatever you want to call that. And so there's that level, which is why scientists say this will never be AI, because it is just a skeptical way of looking at the fact that it's just pattern recognition. Significant.
+- id: u112
+  speaker: Fulvio Ciano
+  t_start: 2789.36
+  t_end: 2803.21
+  text: Oh, one of the significant steps, I suspect. You guys know, the whole Alex saw this thing at OpenAI and, you know, that's what started the whole battle Sam Altman at him. Right. Do you guys know this story?
+- id: u113
+  speaker: David Olsson
+  t_start: 2803.83
+  t_end: 2810.142
+  text: I don't know, but is it. I have to leave in at ten two. Can you get it in so I can leave?
+- id: u114
+  speaker: Fulvio Ciano
+  t_start: 2810.166
+  t_end: 2825.728
+  text: Yeah, it's really fast. So Alex, you know, the guy from University of Toronto, I can never pronounce his last name. I have a speech impediment. Anyway, he left open the eye and accused Sam Altman of all these things. And Sam Altman got removed through the.
+- id: u115
+  speaker: Jason Kryski
+  t_start: 2825.744
+  t_end: 2826.992
+  text: Board and then he came back and.
+- id: u116
+  speaker: Fulvio Ciano
+  t_start: 2827.016
+  t_end: 2832.744
+  text: Sam, and then Alex is gone. And Alex is now running SSi, right.
+- id: u117
+  speaker: Jason Kryski
+  t_start: 2832.872
+  t_end: 2835.004
+  text: Safe super intelligence. Right.
+- id: u118
+  speaker: Fulvio Ciano
+  t_start: 2834.928
+  t_end: 2891.154
+  text: Which is supposedly super intelligence in one shot. Safe super intelligence in one shot. I think basically that's what he saw, determined, concluded, understood. He saw chain of thought. Does this chain of thought is the solution, right. Chain of thought is the critical piece. Not that the other things don't affect, and very important things like speed, efficiency, time, because those are all important too. Right? Like if it's unusable, it's unusable. Right. But I believe that's what happened back then is Alex is one of the guys who really understands how all these things are actually done and achieved and so forth, very early realize the true power of chain of thought and realize that other things were scaling practical problems to be solved by individual algorithms or methodologies and so forth.
+- id: u119
+  speaker: Jason Kryski
+  t_start: 2891.202
+  t_end: 2891.79
+  text: So.
+- id: u120
+  speaker: Fulvio Ciano
+  t_start: 2893.77
+  t_end: 2899.51
+  text: This version is very cool. Orion will be very, very, very cool. Who knows?
+- id: u121
+  speaker: David Olsson
+  t_start: 2900.37
+  t_end: 2922.11
+  text: I do think they'll come out with that model of, you'll be paying like what they say is a low income. Rate for access to a model with a certain capacity to run it, and two grand. They're probably going to give you a certain number of hours of access to the cpu, as an analogy. And it will make sense at the next level. Yeah.
+- id: u122
+  speaker: Fulvio Ciano
+  t_start: 2922.97
+  t_end: 2928.624
+  text: Lets you, unless access to the AI also lets you create your own local model that you don't have to pay for.
+- id: u123
+  speaker: David Olsson
+  t_start: 2928.672
+  t_end: 3019.27
+  text: So it'll be interesting. Right now they're getting all this stuff for free, right? They're getting us using it at this level and they know who's using it to what effect. And they're, they're getting all their next level of training going on right now. And it will be, it will help. Them get closer in a, in maybe not touching the model way, but in. Touching on top of the model way. So it's kind of cool. I think it's, um. I get just, I get. Like, I get in the same mindset of Jason sometimes. And Paulvio is like, it's a lot until you have a win and then you're like, okay, then the last while is worth it. I can reflect on my period when I was programming that. Even at a win, after a long. While, it was not perceived as a big enough win if it took a long while, because it was a predictable win. And at the business development, the ideation and the conceptualizing, like prototyping level, we are able to work as a fairly, at a fairly high competency now, at least to the point of being proven that there is a certain number of variables moving in our models and our ideas, our business or whatever, and we're attenuating them now and in new ways at some point. Jason, if you could just high level walk through the flow that you have. That you're building to understand a direct to consumer world.
+- id: u124
+  speaker: Jason Kryski
+  t_start: 3019.43
+  t_end: 3022.69
+  text: I can show you guys some of the flows even here.
+- id: u125
+  speaker: David Olsson
+  t_start: 3023.51
+  t_end: 3034.52
+  text: They're very rigorous and they use a. Great deal of the Internet to understand people. And it's one, it's one, you know, it's one.
+- id: u126
+  speaker: Fulvio Ciano
+  t_start: 3034.68
+  t_end: 3037.18
+  text: Oh, I'm getting a chubby already.
+- id: u127
+  speaker: David Olsson
+  t_start: 3038.12
+  t_end: 3040.848
+  text: That's what I mean. Your stuff is like out there, man.
+- id: u128
+  speaker: Fulvio Ciano
+  t_start: 3040.904
+  t_end: 3043.664
+  text: So it looks a lot like mine, I gotta tell you.
+- id: u129
+  speaker: Jason Kryski
+  t_start: 3043.752
+  t_end: 3194.16
+  text: I'll give you like some quick background. Like when I, when we first started to, like when I first prototyped this like idea a year and a half ago, basically we were like, hey, can we just take Abe very rigorously developed process that we've kind of established over like a decade, and then can I chunk that into constituent components and then use chained outputs to be able to kind of enrich the context of each kind of subsequent step? But I'll show you a small one here. And basically what this is like, this is just a workflow that does like competitor research for a, for a product. And so I think I might have broken it this morning when I was fucking around with it. But basically what it does is it uses Exa AI. If you guys haven't used Exa, it's pretty interesting. It basically rags the Internet and then allows you to search and based off of similarity for you look up. So you can basically take a domain or a website and it'll find the closestly related websites to that website. So I put it in a company, it finds the kind of five nearest competitors and then goes through, takes each one of those competitors and then pulls all the reviews out of each of those competitors products and then runs a process where we use those reviews to better understand the product category and like, and the, what people like and what they don't like. And then we can use that kind of generated insight from all these things that people care about and don't care about as context to improve the direction of the marketing copy that gets written for websites kind of later on. So that's kind of like a high level, but I'll kind of show simple output. This one is populating. I'm getting some issues where like I'm not a developer, so like I am strung by like having to learn how some of these things fit together. But you're reading a lot of JSON, huh? Yeah, well basically I'm running into an issue where like one of these things is producing a null output and I can't filter it out.
+- id: u130
+  speaker: Fulvio Ciano
+  t_start: 3196.3
+  t_end: 3200.06
+  text: But that's my bag if you ever need help. Jason.
+- id: u131
+  speaker: Jason Kryski
+  t_start: 3200.18
+  t_end: 3202.812
+  text: Oh man. Hey, did you get the Slack channel?
+- id: u132
+  speaker: David Olsson
+  t_start: 3202.876
+  t_end: 3213.6
+  text: Oh no, we haven't got that Slack channel. And so that'll go on the list with Exa right now. And actually, you know, fulfill is super. Fucking adapt at this shit, man.
+- id: u133
+  speaker: Fulvio Ciano
+  t_start: 3214.1
+  t_end: 3217.88
+  text: Yeah, I mean mostly, mostly cooking italian food, so don't listen to it.
+- id: u134
+  speaker: David Olsson
+  t_start: 3220.83
+  t_end: 3225.33
+  text: Oh yeah, sorry. He's italian too, so you gotta, you gotta, you know, I love it.
+- id: u135
+  speaker: Fulvio Ciano
+  t_start: 3225.71
+  t_end: 3227.09
+  text: No no, I've had the same.
+- id: u136
+  speaker: David Olsson
+  t_start: 3228.83
+  t_end: 3230.05
+  text: Italian, man.
+- id: u137
+  speaker: Fulvio Ciano
+  t_start: 3230.55
+  t_end: 3257.01
+  text: You know, I built a lot of full stack applications and JSON's like, you know the meat, right? Everywhere and I know my way and I, and I basically bitched n eight NDE over two days. I just sort of conquered it. But um, it's tough, man. Like you know, you're just going to struggle with little things because you know what, you're using this on the cloud, right?
+- id: u138
+  speaker: Jason Kryski
+  t_start: 3257.13
+  t_end: 3257.63
+  text: Yeah.
+- id: u139
+  speaker: Fulvio Ciano
+  t_start: 3257.546
+  t_end: 3265.602
+  text: One thing I'm interested in about what you're doing is like the input on the front end and the output on the back end because you're not dealing with files, right? You're dealing with.
+- id: u140
+  speaker: Jason Kryski
+  t_start: 3265.706
+  t_end: 3337.16
+  text: Yeah, basically what I'm doing is I'm just using fire scraping, scrape, markdown, and then I'm using the markdown as the basis for the transformation across everything and then storing it all as separate JSON arrays in Supabase and then pulling in the data from those components. This is how the app works. It does all this scraping and research and content generation. Then we have workflows that build a section of a website. Those all have react components to get populated with GraphQL. I have to write these graphql queries, generates the content for those, contextualizes the whole website based off all of the kind of centralized research that gets created in this flow. And then my next step is to build an assistant that I can provide a bunch of directional context to around how it should be making decisions, around how it should be structuring and ordering that content based off of an objective. So I've kind of got a bunch of preliminary work done and this concept that Dave's been talking about around this kind of the knowledge not repository. Dave, what's the, what do you just.
+- id: u141
+  speaker: David Olsson
+  t_start: 3337.28
+  t_end: 3338.848
+  text: Reserve just that idea knowledge?
+- id: u142
+  speaker: Fulvio Ciano
+  t_start: 3338.944
+  t_end: 3339.58
+  text: Yeah.
+- id: u143
+  speaker: Jason Kryski
+  t_start: 3339.96
+  t_end: 3377.964
+  text: So using these knowledge reserves in kind of JSON objects that I want to try and see if it'll work properly in assistance to be able to like hit different decision points, you know, based off of objectives. Um, seems to work in my like preliminary testing, like surprisingly well. It's just a bit of the plumbing around all these graphql queries and everything, which is kind of like of having to learn that as a non developer is like, I got core concepts, but it's been a bit of a, I.
+- id: u144
+  speaker: Fulvio Ciano
+  t_start: 3377.972
+  t_end: 3390.43
+  text: Mean, look, a process like this, if you can keep within any den, if you can keep everything in JSON format inside an I handle everything else at the end or the beginning, you make your life really easy.
+- id: u145
+  speaker: Jason Kryski
+  t_start: 3391.05
+  t_end: 3402.35
+  text: Yeah, I tried to like start to flatten everything into storing it as text, but the schema got so unwieldy, it was like sucking up all of my energy to try and flatten everything.
+- id: u146
+  speaker: Fulvio Ciano
+  t_start: 3403.65
+  t_end: 3408.082
+  text: Don't do that, because you'll end up wasting your time parsing and reparsing and de parsing.
+- id: u147
+  speaker: Jason Kryski
+  t_start: 3408.226
+  t_end: 3430.22
+  text: Yeah. Actually one of the things that I found I was telling Dave is that like one of the things here you'll see is basically it'll run a prompt and get an output, and then I then have to parse it to JSON to store it. Because if you are running parsed JSON as inputs into prompt chains, the quality of the outputs are substantially worse.
+- id: u148
+  speaker: Fulvio Ciano
+  t_start: 3430.52
+  t_end: 3432.54
+  text: Say that again, please, Jason, say that again.
+- id: u149
+  speaker: Jason Kryski
+  t_start: 3433.88
+  t_end: 3498.56
+  text: If you're providing in a prompt chain like this, the output of one prompt into another one, if you are just giving it markdown, it works a lot better than if you were to give it JSON. So this flow would be easier if I was like, okay, I just didn't, I just had this as output as JSON and then defeated into the next prompt. But for whatever reason, as it relates to at least marketing copy or like kind of thought analysis, giving it structured JSON seems to like it definitely truncates the output and it tries to synthesize it. But what part of what we're going for here is like some verbosity, like we want it to be more verbose and have more context created. And if we're, if you give it JSON. Even, even if you try and like take this, this kind of text output. And I said, hey, parse it into JSON, you got to really be explicit to not change the content because it will try and make things shorter and more succinct.
+- id: u150
+  speaker: Fulvio Ciano
+  t_start: 3498.72
+  t_end: 3520.422
+  text: Oh, I was trying to figure out where the problem is going because I suspected the problem wasn't that if it's doing that, that's a problem, right. You're basically removing information when you do that. I thought the problem might be that it only utilizes the content and nothing, so to speak, the header or the labels of the content in this process.
+- id: u151
+  speaker: Jason Kryski
+  t_start: 3520.606
+  t_end: 3624.73
+  text: It uses all of that. But you think that would make it better, right, by defining all of that. But for whatever reason, arriving at the quality of the output seems to not be great if I just give it JSON. So that's why there's a bunch of extra steps in here. But this is pretty simple. Basically, we take the markdown, we turn it into some structured information about a product. We do a bunch of research on that product, we perform a market analysis, find the underlying emotions about the market and about the product, and then, you know, create some people that, that might be interested in that process of like, you know, information that's relevant to a marketer and then takes that. I'm trying to figure out right now how to split those things out effectively and then run this loop for them individually. And then the end goal of what we're building is like dynamic personalization. So the thing that we're shooting for is to be able to go to a website and then just based off of browser detectable data, we want to build this solution, collect a bunch of data, be able to associate different outputs with browser detectable things like how hard did they push on that button and how long did they dwell on the sections, and then be able to fine tune a model that then will dynamically adjust the content based off of the on site behavior. So you're hooking up to Google Analytics.
+- id: u152
+  speaker: Fulvio Ciano
+  t_start: 3624.77
+  t_end: 3627.17
+  text: At some point and bringing that in and matching it up against.
+- id: u153
+  speaker: Jason Kryski
+  t_start: 3627.33
+  t_end: 3692.658
+  text: Yeah, we use an analytics platform called Rudderstack, but we're trying to figure out, like, there's a bunch of stuff that we need to do. I'm just trying to get, like, right now I'm just getting everything kind of piped in. So, like, it generates everything and we can build these pages statically. So we're kind of just at the, you know, two yard line of that, and then we'll have to figure out. That's why I'm trying to figure out what these assistants, if I give it all of this kind of knowledge, this knowledge reserve, will it be able to. And Dave's framing was like, can we kind of create a foot race where we run like say a multi armed bandit style, like bayesian experimentation on different site variables, covariates, and then have the LLM predicting what it thinks would be the best answer, and then have that comparative data set of what worked, what didn't work, and then use that comparative data set to then fine tune a model that's more effective than just kind of the off the shelf model.
+- id: u154
+  speaker: Fulvio Ciano
+  t_start: 3692.834
+  t_end: 3694.378
+  text: Right. Interesting.
+- id: u155
+  speaker: Jason Kryski
+  t_start: 3694.514
+  t_end: 3700.31
+  text: That's kind of what interesting. I'm thinking about it. I mean, I don't know if it's right, but I mean, who knows what's right right now?
+- id: u156
+  speaker: Fulvio Ciano
+  t_start: 3702.21
+  t_end: 3702.71
+  text: Interesting.
+- id: u157
+  speaker: Jason Kryski
+  t_start: 3702.738
+  t_end: 3703.538
+  text: Very, very interesting.
+- id: u158
+  speaker: Fulvio Ciano
+  t_start: 3703.594
+  t_end: 3709.322
+  text: Very cool. Yeah, very, very useful, that's for sure. And for your, this is a, this.
+- id: u159
+  speaker: Jason Kryski
+  t_start: 3709.346
+  t_end: 3744.448
+  text: Is a service for you to provide other people or a tool? Well, yeah, this is the thing. So our backgrounds in like in digital marketing and what we've found is that it's just really hard for people to build websites and landing pages and for products because it takes a copywriter, designer and developer and all these things. So v one here is like, we'll take like whatever the ad is for the product. We deconstruct the ad, and then we use the context for the ad to regenerate the page to make sure that it aligns with exactly what the ad was talking about.
+- id: u160
+  speaker: Fulvio Ciano
+  t_start: 3744.624
+  t_end: 3745.544
+  text: Interesting.
+- id: u161
+  speaker: Jason Kryski
+  t_start: 3745.712
+  t_end: 3816.846
+  text: So what we've observed from that is that when you do that, even manually, the conversion rate of the user is like 20% to 35% higher. So having a system that automatically does that should be pretty valuable. And so from a business model perspective right now, we're taking a percentage of revenue that flows through the platform because it's, we're kind of delivering what people are used to as a service. So we're charging service rates as opposed to charging like a software type rate. So we're kind of operating at like a managed platform. So people don't know how much AI we're doing. They kind of think that there's some AI and some people, and that way, like our pricing power is pretty crazy. And that'll erode over time as competitors come on the market. Someone will try and sell this thing for like $100 a month or something. But right now we're kind of, we think that we can charge more, but that might prove out to be wrong. We have a couple of customers, like beta customers, and they're happily paying it because they only care about the outcomes that they experienced, not they don't care.
+- id: u162
+  speaker: Fulvio Ciano
+  t_start: 3816.878
+  t_end: 3826.83
+  text: About, they don't care about the amount they pay you. They care about, they don't care about the 10% they paid you. They care about the 80% they got because of what you did. Yeah. And as long as they can measure that, it's good, right?
+- id: u163
+  speaker: Jason Kryski
+  t_start: 3826.95
+  t_end: 3880.384
+  text: Yeah, yeah. I think it like if I want to continue down that path that requires a bunch of like sales infrastructure. So we might just relent and be like, hey cool, it's going to be software, it's going to be like you know, two grand a month or something but, but we'll see. You know, like part of the issue right now is like, you know, image and video is just not there yet. You know, like maybe by the end of the year, early next year that stuff will be able to be done. Like we could do it but I can't find a existing APIs from third parties that will deploy that. And then I kind of looked into like building some of the kind of image automation solutions in like replicate or fall and that's just kind of beyond my pay grade right now. I think it's relatively straightforward but you.
+- id: u164
+  speaker: Fulvio Ciano
+  t_start: 3880.392
+  t_end: 3889.83
+  text: Know you could do it now with a bunch of research but for sure before the end of the year it'll just be an API you can call in a reliable way and you can do it. Yeah.
+- id: u165
+  speaker: Jason Kryski
+  t_start: 3889.99
+  t_end: 3939.64
+  text: There are some like wild products that people are building out there on the marketing side. Like I'm actually really curious to see what like what, where the regulation falls on this and how fast it comes into play because say there's one example of a company that if you're an influencer you can license your likeness to that company and then they basically auction off you to different brands that put different products in your hands and use kind of like a hey gen or did style kind of like video generation to pitch different products and then that influencer creator just gets a royalty on whatever happens but they have no actual work to be done.
+- id: u166
+  speaker: Fulvio Ciano
+  t_start: 3940.82
+  t_end: 3946.444
+  text: There's a project Dave and I are collaborating on that so overlaps that I'm.
+- id: u167
+  speaker: Jason Kryski
+  t_start: 3946.452
+  t_end: 3949.88
+  text: Going to create a slack channel for us all so we can, we can jam.
+- id: u168
+  speaker: Fulvio Ciano
+  t_start: 3950.22
+  t_end: 3951.028
+  text: Gonna do that.
+- id: u169
+  speaker: Jason Kryski
+  t_start: 3951.084
+  t_end: 3956.084
+  text: I did notice he didn't. I got it here, I got the email. I can do it right now.
+- id: u170
+  speaker: Fulvio Ciano
+  t_start: 3956.252
+  t_end: 3967.854
+  text: Yeah, just if you want to go ahead and do that and invite him to it, to it, you'll probably notice that you've done it and not him. Yeah, you have all the emails and I would just call it Dave's AI school or something.
+- id: u171
+  speaker: Jason Kryski
+  t_start: 3968.022
+  t_end: 3968.522
+  text: Yeah.
+- id: u172
+  speaker: Fulvio Ciano
+  t_start: 3968.59
+  t_end: 3970.37
+  text: Seems to be the nexus of things.
+- id: u173
+  speaker: Jason Kryski
+  t_start: 3970.99
+  t_end: 3974.214
+  text: Yeah. Um. That's cool.
+- id: u174
+  speaker: Fulvio Ciano
+  t_start: 3974.262
+  t_end: 3979.61
+  text: It's so hard right now, let me tell you. Because the tools are just, like, fast and furious, changing every week.
+- id: u175
+  speaker: Jason Kryski
+  t_start: 3980.99
+  t_end: 3987.958
+  text: Yeah, it's. I'm so into that. I mean, it's distracting, you know, like you.
+- id: u176
+  speaker: Fulvio Ciano
+  t_start: 3988.134
+  t_end: 4008.446
+  text: So distracting. So distracting. I almost feel like I, you know, I could tackle a problem or maybe I should go to sleep for a week because. Yeah. Yeah, like a week. Someone's done it, right? Maybe. I don't know. It's a roll of the dice. Depends on the problem. And a lot of problems are solved.
+- id: u177
+  speaker: Jason Kryski
+  t_start: 4008.478
+  t_end: 4010.086
+  text: And you just can't find the solution.
+- id: u178
+  speaker: Fulvio Ciano
+  t_start: 4010.198
+  t_end: 4012.85
+  text: That's all part of it. That's.
+- id: u179
+  speaker: Jason Kryski
+  t_start: 4014.2
+  t_end: 4027.74
+  text: That's even worse, though, right? Like, it just takes a lot of, like, sifting and then I don't have even a good system for, like, you know, keeping track of all the things that I found, you know, just trying to scrub, scrawl stuff down.
+- id: u180
+  speaker: Fulvio Ciano
+  t_start: 4030.12
+  t_end: 4037.98
+  text: I'm gonna go myself. Always. Awesome, guys. Take care. Yeah, I'll be quick to jump into that AI channel when it pops up.
+- id: u181
+  speaker: Jason Kryski
+  t_start: 4039.08
+  t_end: 4041.496
+  text: Put it right together. All right, take it easy, guys.
+- id: u182
+  speaker: Fulvio Ciano
+  t_start: 4041.648
+  t_end: 4042.148
+  text: Take care.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  text: Good morning. Hello. Cool beans. Yeah, I gapped completely last week, man. And mind the gap. Yeah.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  text: Good morning. Hello. Cool beans. Yeah, I gapped completely last week, man. And mind the gap. Yeah. And. It was, you know, going to. Calgary is like, because of what I have to deal with is like a completely different me, you know, and, and I live in a completely different condition and everything. And so, yeah, you're somebody else. I was living day to day and. Then Wednesday I'm like, I part way through the day. Like, why is James emailing? Oh, it's Wednesday, but he's not here. That's okay, James. Jason's here. Cool. Good morning. Yeah. I've been working on this other project for oil and gas and stepping. Back from my work a little bit in terms of the prompting to do some business work and using zero one and getting more jiggy with tools like Nan and getting my stack or my development environment set up. Foveo. I'm not sure he's going to make it. He is actually. He's got everything going on his own machine and he's using Claude Dev instead of cursor. And right now I can see why because cursor is fucking up. It's not working very well at all. But you'll be happy to know that I've got the anthropic account working with an API balance now.
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  text: It was, you know, going to. Calgary is like, because of what I have to deal with is like a completely different me, you know, and, and I live in a completely different condition and everything. And so, yeah, you're somebody else. I was living day to day and. Then Wednesday I'm like, I part way through the day. Like, why is James emailing? Oh, it's Wednesday, but he's not here. That's okay, James. Jason's here. Cool. Good morning. Yeah. I've been working on this other project for oil and gas and stepping. Back from my work a little bit in terms of the prompting to do some business work and using zero one and getting more jiggy with tools like Nan and getting my stack or my development environment set up. Foveo. I'm not sure he's going to make it. He is actually. He's got everything going on his own machine and he's using Claude Dev instead of cursor. And right now I can see why because cursor is fucking up. It's not working very well at all. But you'll be happy to know that I've got the anthropic account working with an API balance now. So, David, I sent you a message in slack explaining what needs to be done. Yeah. What the difficulty is in a way nothing can be done, but we'll talk about that later. As unfortunately as I originally thought and the documentation is intentionally kind of confusing. Anthropic is not cloth and Claude is not anthropic. They're separate things. So, you know, when you have an API key from Anthropoc, it has nothing to do with your cloud account, unfortunately, even though the model on the back end is the same. Right. And so there are restrictions on the anthropic account. Almost none, really. It's because it's by token use, right. Like all you you're paying. It's the difference between buffets and menu options. Anthropic doesn't give a shit how many members you have in there. Anthropic team stuff. Whereas Claude, because it's buffet style. Right. Or pseudo buffet style with limits. No, no. 500 pound crazy people, whatever. I don't know. The Claude team thing has minimum number of team members and you know, you know, it's, it's kind of stupid because the limitation it provides for Claude, for the team, for everybody to understand is that it's tough to work as a group with Claude unless you have five members right, because you can't really share what they call workspaces, which are indeed agents.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: And so there are restrictions on the anthropic account. Almost none, really. It's because it's by token use, right. Like all you you're paying. It's the difference between buffets and menu options. Anthropic doesn't give a shit how many members you have in there. Anthropic team stuff. Whereas Claude, because it's buffet style. Right. Or pseudo buffet style with limits. No, no. 500 pound crazy people, whatever. I don't know. The Claude team thing has minimum number of team members and you know, you know, it's, it's kind of stupid because the limitation it provides for Claude, for the team, for everybody to understand is that it's tough to work as a group with Claude unless you have five members right, because you can't really share what they call workspaces, which are indeed agents. Yeah, no, they got some cool stuff, man. I know, I know. It's sitting on this shelf. Like, a project is basically off the shelf rag. It's just stupid. But you can. Anyway, in regards to the particular project we want to use that kind of functionality for, I have a solution plan, but it's outside the scope probably of everybody here, because it's specific to our specific needs. The problem here is that there are. A million ways to do this. There's so many ways to skin this cat. Building agents and interacting with documents. Yeah, I know. And they're. And, you know, you know, I'll ruminate just a little bit with the team. You go to so many of these AI's, and they all look the same, right? Like, like, you know what I mean? Like, the basic interface is like, so similar across Gemini, Claude, OpenAI, you know, all of these things, but they aren't exactly the same underneath. And my big peeve is, like, nomenclature. Differences that don't really need to exist. Someone's fighting over, like, is it a workspace? Is it a project?
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  text: And they're. And, you know, you know, I'll ruminate just a little bit with the team. You go to so many of these AI's, and they all look the same, right? Like, like, you know what I mean? Like, the basic interface is like, so similar across Gemini, Claude, OpenAI, you know, all of these things, but they aren't exactly the same underneath. And my big peeve is, like, nomenclature. Differences that don't really need to exist. Someone's fighting over, like, is it a workspace? Is it a project? They're all their own language. They want to push forward. But regardless of that difficulty, the upside of actually using the goddamn tools is huge, man. Oh, it's enormous. It's just fucking massive. I'm designing shit that's way above my. Pay grade right now. I'm doing it. Okay. And by the way, everyone, if no one's had a look at napkin, if you're doing anything with diagrams, you might want to look at napkin. If you're generating diagrams in any way, you might want to look at napkin. And if you're generating more flowcharts, then I have some other suggestions for you. Not that napkin can't do flow charts. But I've been using eraser. That's the other one in the, in the space. But again, it. If you're. I can give you a better way to do eraser stuff, I have found, but napkin is much more like. If you need diagrams for presentations that are, like, ready to drop into the presentation, napkins, the way to go. In my opinion, it's quite beautiful. It's, like, shockingly effective. If you want to do one right now, David, you'll see. No, I don't. But if you want to do, let's say, stuff where you really need to work with it outside of this ide. Let's call this an ide, right? Then there's other methodologies that are better, right? Like getting, getting a real model to do a mermaid output and then bring in a mermaid input and do what you want to do.
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  text: That's the other one in the, in the space. But again, it. If you're. I can give you a better way to do eraser stuff, I have found, but napkin is much more like. If you need diagrams for presentations that are, like, ready to drop into the presentation, napkins, the way to go. In my opinion, it's quite beautiful. It's, like, shockingly effective. If you want to do one right now, David, you'll see. No, I don't. But if you want to do, let's say, stuff where you really need to work with it outside of this ide. Let's call this an ide, right? Then there's other methodologies that are better, right? Like getting, getting a real model to do a mermaid output and then bring in a mermaid input and do what you want to do. But it sounds magical. Mermaids. So. Yeah, I don't know that one either. Shouldn't, shouldn't that have a widely variant spelling? It's actually spelled napkin. Shouldn't it be an effective tool if. It doesn't have a weird spelling? Yeah. Why is there no why? See, napkin is like sanitary, I think. I think that means they managed to get the URL. I think that's all that means. Right? That's about it. I got a word. We're going to use it. It's actually an english word. Anyways, I wanted to show you. Is that my dog out front? Holy cow. Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u34
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u34
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u34
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u34
+  - u35
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign I have one too many windows open. I want to show this one because. This is the most valuable thing I've seen in a while.
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  text: Okay, that's a, that's not a good thing. When my dog runs out front when my wife is there. I just wanted to show you how wicked and awesome zero one is. If you're not using it, you should get Jammy with it, both in a verbose way and in a, if you. Want to go zero shot, like just give it a, give me a strategy. Or give me a unique thing on this. It'll do that kind of thing. But I'm trying to create this concept for a market research company. That I've talked about previously, but it's predatory in. Its nature and it uses a few analogies, but basically it is just an algorithmic business and it's meant to do stuff on its own and distribute the value that way and to acquire that intelligence. I'm going to go after the market research industry anyway. So this little description right here, which is basically the mission vision, how it. Works, what we are and what that. Kind of thing, you throw it at this thing and you say, like, provide me an analysis of the following, and. Then provide strategies for success, super vague zero shot kind of thing. And then it goes through a really nice, you know, it looks like my. Prompt man in many ways because it's. The thought chain of thought thing and it's stepping up above it and it's. Doing a met a series of meta things and it has the critic baked inside and all the stuff, you know, working on in small iterative formats, but. It really does a decent job until. It gets to the end. And I think it just kind of craps out on shit at the end of stuff anyways. But it did a pretty decent job. Of trying to be concise about what this is, and then it just coughs up at what I said, but it does it in a much better and more organized fashion. And then it gives me, you know, the big thing that I think is valuable out of a one is it. Gives you a step by step that's rigorous, and you can, in most cases, pooch about 60% of whatever the step by step is. But you'll find a lot of value. In the framing that it gives you. And this kind of level of intelligence. You can call it, or communication, is exactly what most executives and investors and. Actually a very large pool of wealthy. People that aren't very adept at understanding problems, but they understand sort of a series of indices and indicators and words around it. And these machines do a much better job than me. And basically, I've got this now functioning well enough that it's building in another session, a web page that's going to. Do the intake for the three different groups of people. And it should be the case that within about 8 hours of my time, notice that I conceptualize this for quite a while. It's going to be tested by putting. A job description out on the market and seeing if there's an intake. And so the whole cost of this effort to build potentially a new distributive. Model for value and wealth inside an. Organization that tests the whole model out. I need people, and so the cost. Of it is indeed job posting or posting on LinkedIn. And so I think that's fairly sign I have one too many windows open. I want to show this one because. This is the most valuable thing I've seen in a while. I came across this article on medium. About building strategies for algorithmic trading using oon. And this guy's built his own platform for it. And it's really fucking simple, man. It's really fucking crazy simple. So what I did is I took. The article that was talking about this thing, and it's simple in concept. And so I took this article that. Explained it, and I pasted in here, because you can't do anything fancy yet, otherwise, at least I thought so. And so it analyzed it, and then it gave me sort of the key. Points and model performance. What nexus platform was the strategy? You know, ideal, you know, how the. System works, which is kind of not. My thing right now, because I'm figuring out what it is. But then the functional insights in the. Application enhance the capabilities of finance algorithm trading optimization. It gets into how to practically do this. And so the problem with all trading is you can back test anything, but the conditions aren't live, right? So just breaking this all down into what the sort of actionable steps are. To get to the point of being. Able to do this was incredibly valuable. And then I was like, well, what is all that going to be? And I'm like, I need a step by step define your goals, use it to generate the outline strategy, develop detailed strategy components, translate strategy into executable rules. And then it starts to write code for me. So I'm actually building a system. So you can see where this guy. That did this article and did this nexus thing, he just started following his nose, man, and he put some wrapper. Around this thing and now he's got this spiffy thing that he's offering free, up to 1200 bucks a month. And it's a chat system monitor, optimize, last thing, ensure compliance. Those are all great things, right? So the next steps are, begin this, create an agent that works for doing this. Understand the scope. Okay? So it starts doing this crap of. Building me an agent that I don't want, and that's because I'm rushed through it, so I gotta get to the next step.
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u36
+  - u37
+  text: I came across this article on medium. About building strategies for algorithmic trading using oon. And this guy's built his own platform for it. And it's really fucking simple, man. It's really fucking crazy simple. So what I did is I took. The article that was talking about this thing, and it's simple in concept. And so I took this article that. Explained it, and I pasted in here, because you can't do anything fancy yet, otherwise, at least I thought so. And so it analyzed it, and then it gave me sort of the key. Points and model performance. What nexus platform was the strategy? You know, ideal, you know, how the. System works, which is kind of not. My thing right now, because I'm figuring out what it is. But then the functional insights in the. Application enhance the capabilities of finance algorithm trading optimization. It gets into how to practically do this. And so the problem with all trading is you can back test anything, but the conditions aren't live, right? So just breaking this all down into what the sort of actionable steps are. To get to the point of being. Able to do this was incredibly valuable. And then I was like, well, what is all that going to be? And I'm like, I need a step by step define your goals, use it to generate the outline strategy, develop detailed strategy components, translate strategy into executable rules. And then it starts to write code for me. So I'm actually building a system. So you can see where this guy. That did this article and did this nexus thing, he just started following his nose, man, and he put some wrapper. Around this thing and now he's got this spiffy thing that he's offering free, up to 1200 bucks a month. And it's a chat system monitor, optimize, last thing, ensure compliance. Those are all great things, right? So the next steps are, begin this, create an agent that works for doing this. Understand the scope. Okay? So it starts doing this crap of. Building me an agent that I don't want, and that's because I'm rushed through it, so I gotta get to the next step. So I wanted to create an agent ur. And so it gives me the conversation. And as an example of how it will perform. And so it's basically going through the example in the article where he's setting up the conditions and doing all the stuff around it and saying, here's your focus and signals, and there's a lot. Of language around here. You want to learn anything about investment, this is a good one. And so how do you set up the agent? You, you know, it's again telling me how to do things that I'm not really wanting. And then, but I get it to update the agent because I want to use the agent. And then I set it to have a standard configuration file for how to set up a fucking trading strategy based on all this, right? So because it's just inputs and outputs and then the parameters of position sizing. And so it's explaining to me how to build an algorithmic strategy. It's reverse engineering this guy's whole platform. In front of me. Provide a prompt that will fucking do it all. And then I said, ensure you clued what type of agent it is because. I wanted it to be more specific and because I'm trying to get this thing to do things. And so I was able to then take that. And I'm not sure where I've got Matt. Okay, dog arithmetic, I'm sure this time instead.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u37
+  - u38
+  text: So I wanted to create an agent ur. And so it gives me the conversation. And as an example of how it will perform. And so it's basically going through the example in the article where he's setting up the conditions and doing all the stuff around it and saying, here's your focus and signals, and there's a lot. Of language around here. You want to learn anything about investment, this is a good one. And so how do you set up the agent? You, you know, it's again telling me how to do things that I'm not really wanting. And then, but I get it to update the agent because I want to use the agent. And then I set it to have a standard configuration file for how to set up a fucking trading strategy based on all this, right? So because it's just inputs and outputs and then the parameters of position sizing. And so it's explaining to me how to build an algorithmic strategy. It's reverse engineering this guy's whole platform. In front of me. Provide a prompt that will fucking do it all. And then I said, ensure you clued what type of agent it is because. I wanted it to be more specific and because I'm trying to get this thing to do things. And so I was able to then take that. And I'm not sure where I've got Matt. Okay, dog arithmetic, I'm sure this time instead. So I've got the define how to build a algorithmic trading strategy right here. Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy. I'm applying that all to the birdwatcher, mister. And that's what my raptors do. This is what they do. They do finance style strategy applied initially. To the intelligence sector, which is market research. And they do it in the fashion of being able to understand it as a market and moving. And on the backside is me spinning simulations all around this to get to the predictive component of what will happen. Next and being able to extract value. So fuck me, man, yesterday this comes together in a very succinct way. So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents. Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund. And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space. And fucking market research is nothing full of boutiques, man, one in two person shops. And they do not have the horsepower to leverage their own intelligence. You give them the money, the capital and the ability to leverage all these LLMs in a succinct way. Then you have a super intelligence, you have an agency working underneath people that. Are very motivated to do business in a very different way. And that is zero one helping me be succinct along. A whole lot of thinking that was. And I was with Jason and talking. About this, I was quite vengeful in my thinking. I was quite spiteful about it. I was quite like I had a. Chip on my shoulder about it. And then through the work that I've. Done in working with AI, I've not. Only found a way to deliver on. What I wanted to be my first promise, my first business about equitable ownership. In a way that distributes value down the chain to the actual people building the code. And to me that was a massive. Revelation of what is possible using AIH. Not only to build machines and Jason's building one of the most sophisticated compound. Machines I've ever seen, but to be. Able to organize people in a new way to build machines. And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a. Sheer limitation of all of us.
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u38
+  text: So I've got the define how to build a algorithmic trading strategy right here. Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy. I'm applying that all to the birdwatcher, mister. And that's what my raptors do. This is what they do. They do finance style strategy applied initially. To the intelligence sector, which is market research. And they do it in the fashion of being able to understand it as a market and moving. And on the backside is me spinning simulations all around this to get to the predictive component of what will happen. Next and being able to extract value. So fuck me, man, yesterday this comes together in a very succinct way. So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents. Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund. And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space. And fucking market research is nothing full of boutiques, man, one in two person shops. And they do not have the horsepower to leverage their own intelligence. You give them the money, the capital and the ability to leverage all these LLMs in a succinct way. Then you have a super intelligence, you have an agency working underneath people that. Are very motivated to do business in a very different way. And that is zero one helping me be succinct along. A whole lot of thinking that was. And I was with Jason and talking. About this, I was quite vengeful in my thinking. I was quite spiteful about it. I was quite like I had a. Chip on my shoulder about it. And then through the work that I've. Done in working with AI, I've not. Only found a way to deliver on. What I wanted to be my first promise, my first business about equitable ownership. In a way that distributes value down the chain to the actual people building the code. And to me that was a massive. Revelation of what is possible using AIH. Not only to build machines and Jason's building one of the most sophisticated compound. Machines I've ever seen, but to be. Able to organize people in a new way to build machines. And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a. Sheer limitation of all of us.
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  text: So I've got the define how to build a algorithmic trading strategy right here. Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy. I'm applying that all to the birdwatcher, mister. And that's what my raptors do. This is what they do. They do finance style strategy applied initially. To the intelligence sector, which is market research. And they do it in the fashion of being able to understand it as a market and moving. And on the backside is me spinning simulations all around this to get to the predictive component of what will happen. Next and being able to extract value. So fuck me, man, yesterday this comes together in a very succinct way. So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents. Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund. And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space. And fucking market research is nothing full of boutiques, man, one in two person shops. And they do not have the horsepower to leverage their own intelligence. You give them the money, the capital and the ability to leverage all these LLMs in a succinct way. Then you have a super intelligence, you have an agency working underneath people that. Are very motivated to do business in a very different way. And that is zero one helping me be succinct along. A whole lot of thinking that was. And I was with Jason and talking. About this, I was quite vengeful in my thinking. I was quite spiteful about it. I was quite like I had a. Chip on my shoulder about it. And then through the work that I've. Done in working with AI, I've not. Only found a way to deliver on. What I wanted to be my first promise, my first business about equitable ownership. In a way that distributes value down the chain to the actual people building the code. And to me that was a massive. Revelation of what is possible using AIH. Not only to build machines and Jason's building one of the most sophisticated compound. Machines I've ever seen, but to be. Able to organize people in a new way to build machines. And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a. Sheer limitation of all of us. And so teamwork makes the dream work, Dave. Sorry. Teamwork makes the dream work. Yeah. The fact that I've been able to actually resonate this back and forth with me and then with you peoples is. The validation step of having somebody not, you know, hit that hang up button. But I thought that was. That was a real proof for me. That just using this thing is the. Space as an effective day to day processes. Process, or series of them is. In itself a product. Right. It is a new way of working. And those people that get it, they. Get it in a way that you don't have to train them to do it. And I'm not talking about developers and programmers. They all get things like that because they're just rigorous and learning at that level. But there's a lot of people that. Are very good pattern recognition types that. See these things in business, and they just don't see them as accessible in terms of being able to touch them. And that's. That's why entrepreneurship has been such a boon and so big is it's intended in some way to level a field. Of opportunity so that the meritocracy can take place. Jason, you've used that phrasing, too, is that there's a merit. Merit base to things that can be promoted. And right now, this stupid fucking arms race for the LLMs and the really. It'S just generative AI that's getting all the limelight. But stupid arms race is purposeless. It's actually purposeless. The people that are building the arms are just like the arms manufacturers. They don't have a purpose other than to provide the capabilities of war.
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  text: So I've got the define how to build a algorithmic trading strategy right here. Determine your tolerance, your type of strategy, the indicators, the entry exit points, the position and sizing and capital allocation, the risk management safeguards, the time horizon and trade frequency, the market conditions and adjustments, the monitoring and optimizing of the strategy. I'm applying that all to the birdwatcher, mister. And that's what my raptors do. This is what they do. They do finance style strategy applied initially. To the intelligence sector, which is market research. And they do it in the fashion of being able to understand it as a market and moving. And on the backside is me spinning simulations all around this to get to the predictive component of what will happen. Next and being able to extract value. So fuck me, man, yesterday this comes together in a very succinct way. So I have a story that I'm going to tell about half an hour or now that I'm hoping that we'll have some residents. Because underneath all this I'm building fucking franchise model for intelligence, that these agents or these actors will go out there and do this business and bring it back just like, just like a hedge fund. And they'll work at the level and axes of intelligence in the Aqua build and Aqua hire space. And fucking market research is nothing full of boutiques, man, one in two person shops. And they do not have the horsepower to leverage their own intelligence. You give them the money, the capital and the ability to leverage all these LLMs in a succinct way. Then you have a super intelligence, you have an agency working underneath people that. Are very motivated to do business in a very different way. And that is zero one helping me be succinct along. A whole lot of thinking that was. And I was with Jason and talking. About this, I was quite vengeful in my thinking. I was quite spiteful about it. I was quite like I had a. Chip on my shoulder about it. And then through the work that I've. Done in working with AI, I've not. Only found a way to deliver on. What I wanted to be my first promise, my first business about equitable ownership. In a way that distributes value down the chain to the actual people building the code. And to me that was a massive. Revelation of what is possible using AIH. Not only to build machines and Jason's building one of the most sophisticated compound. Machines I've ever seen, but to be. Able to organize people in a new way to build machines. And I'm pretty sure that I'm too old for some of the thinking that I think I'm doing, meaning I'm not going to be able to capitalize it on the way that I would because of my person and that is a. Sheer limitation of all of us. And so teamwork makes the dream work, Dave. Sorry. Teamwork makes the dream work. Yeah. The fact that I've been able to actually resonate this back and forth with me and then with you peoples is. The validation step of having somebody not, you know, hit that hang up button. But I thought that was. That was a real proof for me. That just using this thing is the. Space as an effective day to day processes. Process, or series of them is. In itself a product. Right. It is a new way of working. And those people that get it, they. Get it in a way that you don't have to train them to do it. And I'm not talking about developers and programmers. They all get things like that because they're just rigorous and learning at that level. But there's a lot of people that. Are very good pattern recognition types that. See these things in business, and they just don't see them as accessible in terms of being able to touch them. And that's. That's why entrepreneurship has been such a boon and so big is it's intended in some way to level a field. Of opportunity so that the meritocracy can take place. Jason, you've used that phrasing, too, is that there's a merit. Merit base to things that can be promoted. And right now, this stupid fucking arms race for the LLMs and the really. It'S just generative AI that's getting all the limelight. But stupid arms race is purposeless. It's actually purposeless. The people that are building the arms are just like the arms manufacturers. They don't have a purpose other than to provide the capabilities of war.
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: Yeah. The fact that I've been able to actually resonate this back and forth with me and then with you peoples is. The validation step of having somebody not, you know, hit that hang up button. But I thought that was. That was a real proof for me. That just using this thing is the. Space as an effective day to day processes. Process, or series of them is. In itself a product. Right. It is a new way of working. And those people that get it, they. Get it in a way that you don't have to train them to do it. And I'm not talking about developers and programmers. They all get things like that because they're just rigorous and learning at that level. But there's a lot of people that. Are very good pattern recognition types that. See these things in business, and they just don't see them as accessible in terms of being able to touch them. And that's. That's why entrepreneurship has been such a boon and so big is it's intended in some way to level a field. Of opportunity so that the meritocracy can take place. Jason, you've used that phrasing, too, is that there's a merit. Merit base to things that can be promoted. And right now, this stupid fucking arms race for the LLMs and the really. It'S just generative AI that's getting all the limelight. But stupid arms race is purposeless. It's actually purposeless. The people that are building the arms are just like the arms manufacturers. They don't have a purpose other than to provide the capabilities of war. Yeah. So some of them, like Nvidia, they recognizing they gotta go to war. Right. So they're jumping on top of. On top of, on top of. And a lot of them are. But for the most part, there is a huge opportunity to sit on top of all of these LLMs. As we're seeing with the concerts that. We'Re seeing in the ensembles, like, within cursory AI, there's, like, eight different options for LLMs that it can draw to not very effectively. I think the hardest part here is, like, trying to discern the layers and then the stage of competition at which each of those layers is at, you know, hardware. Like, it's a mechanism, right. But, like, when you get down to the, you know, the product layer, it's like a blue ocean. Very succinct chase, because those. There's just so many layers. Right. And the parts that I get confused about. Foveo is like the, like I'm paying attention to everything and there's agents and then there's like, you know, rag systems and then there's, you know, all these like, ways that you're putting these pieces together. But as you're ping ponging between a bunch of different things, or at least in my thinking, I'm constantly ping ponging between where I get distracted around what I'm even doing. Because I'm like, maybe I should be building agents for this. Then I'm like, okay, well, maybe, you know, I should be doing this over here or doing that over there. It's really hard to keep things straight right now, at least.
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  text: Very succinct chase, because those. There's just so many layers. Right. And the parts that I get confused about. Foveo is like the, like I'm paying attention to everything and there's agents and then there's like, you know, rag systems and then there's, you know, all these like, ways that you're putting these pieces together. But as you're ping ponging between a bunch of different things, or at least in my thinking, I'm constantly ping ponging between where I get distracted around what I'm even doing. Because I'm like, maybe I should be building agents for this. Then I'm like, okay, well, maybe, you know, I should be doing this over here or doing that over there. It's really hard to keep things straight right now, at least. Well, I think, I think you have elucidated a yemenite, a very real problem, right. And so I think the solution is dispositional in the sense that like, you have to be the kind of person who's laser focused on what your goal is. Because some of the layers, in my opinion, and I'm not guilty of this. Okay, so I'm not preach, I'm not. Doing what I preach. Okay, but you should ignore, you should like, not pay attention to what do I need tomorrow? I need this tomorrow. And if I can get, if I can get 100% of the way there by using 10% of my effort in. This layer and ignore those other layers. That'S what I should do. And factoring in things like, I don't know, subscription costs and APIs, because inevitably a lot of the layers of technologies are focused on trying to extract subscription fees from you to use those layers or to modify those layers. So there's a cost of validation, right? That's right. Exactly. Yeah. So, and so the cost of validation. Is an opportunity, and I call that intelligence arbitrage. Because if you do enough simulations, you can reassure yourself that you're going to be successful. And to your point is like, how much of, how much LLM do you need, how much team do you need? How much time do you need? Is the arbitrage you can do if you have superpower.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  text: That'S what I should do. And factoring in things like, I don't know, subscription costs and APIs, because inevitably a lot of the layers of technologies are focused on trying to extract subscription fees from you to use those layers or to modify those layers. So there's a cost of validation, right? That's right. Exactly. Yeah. So, and so the cost of validation. Is an opportunity, and I call that intelligence arbitrage. Because if you do enough simulations, you can reassure yourself that you're going to be successful. And to your point is like, how much of, how much LLM do you need, how much team do you need? How much time do you need? Is the arbitrage you can do if you have superpower. Yeah, but I think everyone should give themselves a rabbit hole budget because, because if you go down a rabbit hole at any layer, you learn something and inevitably it will inform your utilization, your meta understanding in a way that it will affect the quality of your output. Right, so it is. And then, like I said, it's wonderfully amplified or modulated by people using different terms descriptions. Yeah, no, that's the best part. Yeah, this is great, Jason. I like this. I sent this a day last night. This actually was one of the things that really kind of helped stabilize my anxiety and thinking a little bit. And I think this is this graphics from Microsoft research. And it's basically just kind of showing the different like stages of these, you know, applications and the usage of, um, you know, what they're trying to like move towards. Um, and, and I'm like, okay. Like it helps me kind of think about staying in my lane in a way where like I want my application to do all these things and I'm, you know, like a product visionary like Dave. So I'm thinking about all the, what I want and I'm like, oh. And I'm seeing these different tools come out and then I start to try to figure out as I'm going how to start to jam other capabilities into my stack. And to your point, fulvio, like you got to just stop, like cool. You know, these things, these things work. Build it with this, you know, v one, v two, whatever. Like as the technology gets there because a bunch of these things, like we're just not there with this stuff. Like we're kind of, you know, we're here and we're kind of broaching on to here.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  - u63
+  text: I sent this a day last night. This actually was one of the things that really kind of helped stabilize my anxiety and thinking a little bit. And I think this is this graphics from Microsoft research. And it's basically just kind of showing the different like stages of these, you know, applications and the usage of, um, you know, what they're trying to like move towards. Um, and, and I'm like, okay. Like it helps me kind of think about staying in my lane in a way where like I want my application to do all these things and I'm, you know, like a product visionary like Dave. So I'm thinking about all the, what I want and I'm like, oh. And I'm seeing these different tools come out and then I start to try to figure out as I'm going how to start to jam other capabilities into my stack. And to your point, fulvio, like you got to just stop, like cool. You know, these things, these things work. Build it with this, you know, v one, v two, whatever. Like as the technology gets there because a bunch of these things, like we're just not there with this stuff. Like we're kind of, you know, we're here and we're kind of broaching on to here. Yeah. But we're, you know, like, you know, zero, zero one is, you know, is, is here maybe like, you know, I want to do all these other things. So I just kind of felt this, that was a helpful kind of like centering graphic to kind of like illustrate these kinds of, kinds of stages. Yeah, I'm going to download it from you. I totally agree. And, you know, you get into this, but I do think you need a, I think you need a rabbit hole budget because a lot comes out of going down those rabbit holes and understanding and, you know, the old analogy of I have is like way before AI, right? You know, person who has to like rake the leaves and, you know, they spend two days working on a plastic thing to help them hold open the bag and rake the leaves and do the thing and, you know, and then they could have raked the leaves in half an hour, but they spend a bunch of time, you know, and so this AI problem is exactly that, right? Because if you know the layer you can get, you have the discipline to stay focused on what you need to do in the moment. Then you attack at the right layer, the other layers are done for you. If you're doing it right and your output is sufficient, then it's good. Especially when you get into tools like na n and stuff like that. Right?
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  text: 'Yeah, I''m going to download it from you. I totally agree. And, you know, you get into this, but I do think you need a, I think you need a rabbit hole budget because a lot comes out of going down those rabbit holes and understanding and, you know, the old analogy of I have is like way before AI, right? You know, person who has to like rake the leaves and, you know, they spend two days working on a plastic thing to help them hold open the bag and rake the leaves and do the thing and, you know, and then they could have raked the leaves in half an hour, but they spend a bunch of time, you know, and so this AI problem is exactly that, right? Because if you know the layer you can get, you have the discipline to stay focused on what you need to do in the moment. Then you attack at the right layer, the other layers are done for you. If you''re doing it right and your output is sufficient, then it''s good. Especially when you get into tools like na n and stuff like that. Right? That was crazy. Oh, yeah. That''s been like the biggest time suck in my life. The last two weeks has been building something and then editing these workflows as the architecture evolves. And it''s like a never ending shithole. Oh, my God. Oh, no. And then you find out that, like, the way you are using n eight n, you have to, like, back up and go the other way because you. Can''T use it in the cloud because. You need file access. And so it''s like all these kinds of things, right? Absolutely. I mean, I think I accelerated that in some of my investigations and I got somewhere really quick. But I''m pretty ruthlessly disciplined about fast prototyping and staying on. The goal. Right, what I should generate. So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u72
+  text: 'So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u72
+  text: 'So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u72
+  text: 'So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u72
+  text: 'So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we''re working with Lamina one. So we''re going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it''s a huge win, man. It''s multimedia again, man. It''s totally there. And so it''s a huge win because of some of the things that we''re talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We''ll fix that. But the simplicity of it was more accessible now. And now I haven''t tried my prompts in zero one. I actually don''t think that''s a great. Thing because of the fact that it''s so succinct in what it''s doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it''s like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that''s just data. So I think it''s very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that''s harmonizing. Right. And from Jason''s point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it''s all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It''s not '
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  text: So I just wanted to mention one project that Fulvia and I are going to work on. We actually got. So we're working with Lamina one. So we're going to be the first project to launch on Lamina one. We have a haiku project is now. Funded and granted through Lamina one. And I wanted to reflect on that like, it's a huge win, man. It's multimedia again, man. It's totally there. And so it's a huge win because of some of the things that we're talking about. It achieved with, because of the content being reflective and contemplative. The process was one of ease in. Terms of collaboration, ideation, and even building. A system that it quite effectively found. We found the strength, the layer, and all the essential pieces right there. It just requires some tokens at the beginning and the export at the end. And the sharing lamina one underneath it all. But it was neat to see the harmonizing of the idea with the capabilities. Of the AI, and then what it would provide in a recurring fashion to people, in that it was not going. Against the grain, it was playing with the current state of the nation and allowing hallucination to be a great experience. Even if the text is wrong on the screen. We'll fix that. But the simplicity of it was more accessible now. And now I haven't tried my prompts in zero one. I actually don't think that's a great. Thing because of the fact that it's so succinct in what it's doing. But to be able to. We can gel things with that. With 40, we can just use that with these service. We can build our own haiku thing. Underneath it, but the Runway is such that we can use what we have and just wrap it with some light business capabilities. And then the roadmap is much like you say it can go down the road and fine tune its own engine if we have enough use. But the way that it enters the ecosystem is with the sort of the lightness that is its capability right now. And the weight is on sort of. A really ethereal feeling that it provides. And the chatbot does provide a feeling, right. Intelligence. What I write down, it's like intelligence is a feeling. And in that, feelings are not real. And intelligence is ephemeral. So you have to be doing this to experience, as far as I can understand it, because everything else is crystallizes knowledge, and that's just data. So I think it's very interesting to be building these complex engines and working with this complex or even right now complicated machine underneath it to find some way of creating at a higher level something that's harmonizing. Right. And from Jason's point of view, that can be achieved, like the product owner and the market can have a more meritable understanding in negotiation and opportunity if the system understands them better. And so figuring out what the balance of that is right now, it's all about trying to take what we had yesterday. And I fine to the fuck out of it. But, you know, stage three and four is like, you know what the rationales are basically in question now. It's not  Did we, did we arrive if like. O was just using train of thought or if it was using some of these kind of like more complicated like search techniques inside the LLM? Do we figure that out? So I've been reading a lot of articles on this, so, and there's a very, and the most, a lot of the information isn't coming out of them directly, it's coming out of other people. Who are reading their stuff. And then frankly, I think coming to conclusions. But some of them are in the, in the know. If you know what I mean? So, yes, chain of thought is in there. You can find articles that explain papers that explain how the chain of thought stuff is working and why it's doing what it's working. One of the interesting ones, by the way, that was very elucidating, was talking about a really interesting phenomenon that if you look at. If you look at it, you know.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  text: Do we figure that out? So I've been reading a lot of articles on this, so, and there's a very, and the most, a lot of the information isn't coming out of them directly, it's coming out of other people. Who are reading their stuff. And then frankly, I think coming to conclusions. But some of them are in the, in the know. If you know what I mean? So, yes, chain of thought is in there. You can find articles that explain papers that explain how the chain of thought stuff is working and why it's doing what it's working. One of the interesting ones, by the way, that was very elucidating, was talking about a really interesting phenomenon that if you look at. If you look at it, you know. The part where it says thinking, and. It doesn't tell you what it's thinking. People have complained, why doesn't it tell you what it's thinking? And the reason for that is not what you think. Boy, that's a meta statement. Anyway, so the reason for that, and I believe this, okay, is that the chain of thought is unfiltered. And what I mean by that is that, you know, you know how obviously, you know how LLMs will not do things like tell you how to steal a car or tell you how to, you know, rob a bank or steal someone's identity or stuff like that. So the chain of thought stuff is hidden because in the chain of thought process, there's no filtering. None at all. So if you saw it, you would learn everything you needed to learn by following its chain of thought. So it's not a proprietary process issue. It's not a. We don't want you to know how the chain of thought works. In fact, one of the articles I found explained it in great detail. So they are doing chain of thought. They're doing it iteratively. Right. Step by step, iteratively. Chain of thought stuff. They are doing a Monte Carlo tree of thoughts, not just chain of thoughts. They're doing something I coined in 2014, negative thought. Negative chain trimming. Like early, early stumping.
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  text: We don't want you to know how the chain of thought works. In fact, one of the articles I found explained it in great detail. So they are doing chain of thought. They're doing it iteratively. Right. Step by step, iteratively. Chain of thought stuff. They are doing a Monte Carlo tree of thoughts, not just chain of thoughts. They're doing something I coined in 2014, negative thought. Negative chain trimming. Like early, early stumping. Zeros. Like zeros, not negative ones and ones. Right. Yeah. And so forth. There's a lot of things going on. I think the chain of thought, one is the most impactful, and here's why I think the chain of thought one is the most impactful. Three days ago, I don't even know. If I told this to David. Maybe I have told this to David. I don't remember. I know I told it to another friend. Very interesting article. Came out of Google where they said they published a mathematical proof that any problem can be solved with chain of thought, even if the model being used is constrained. Oh, yes. Has a constant number of layers. Okay. There's no. There's no internal mechanism to grow itself. Yeah. Even. Even if you never static. Yeah. Even if you have a static number of layers, you can solve any problem. They mathematically proved this, I'm highly skeptical. Not that it's not true. I'm highly skeptical of the proof. We'll talk about that another time. But so what that, what that elucidates that is so important to everybody, and as I've mentioned to David a couple of times, is that the Jesuits are right. You know, like your meth, youre, your, your method of thinking about thinking is the key. Okay? And so chain of thoughts, is that powerful? So there are other things going on, trimming Monte Carlo, all sorts of stuff.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  text: Even if you never static. Yeah. Even if you have a static number of layers, you can solve any problem. They mathematically proved this, I'm highly skeptical. Not that it's not true. I'm highly skeptical of the proof. We'll talk about that another time. But so what that, what that elucidates that is so important to everybody, and as I've mentioned to David a couple of times, is that the Jesuits are right. You know, like your meth, youre, your, your method of thinking about thinking is the key. Okay? And so chain of thoughts, is that powerful? So there are other things going on, trimming Monte Carlo, all sorts of stuff. You know, lots of cosign action. Yeah, all sorts of things. But in the end, the one that I think the biggest bang for your buck is Isdev, is the chain of thought stuff. And if you think about it, it's, there is like very simple anecdotal ways of thinking about it. You can do incredibly complex things with. Simple tools if you chain the use of the simple tools to solve the complex problem. Right. And then if you just admit or observe or conclude that you can stack that metal logically. Right? And there you go. That's the answer. So what it means is that this shit's going to get better fast. I think. I don't know. I don't think anybody's prediction is too. Aggressive, except the parameter increase did allow. For strategy to entertain a. Right. Yeah. So at 750 million, stuff started happening and into the, into the billions. That's when the next level of order. Of understanding strategy starts to kick in.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  text: And there you go. That's the answer. So what it means is that this shit's going to get better fast. I think. I don't know. I don't think anybody's prediction is too. Aggressive, except the parameter increase did allow. For strategy to entertain a. Right. Yeah. So at 750 million, stuff started happening and into the, into the billions. That's when the next level of order. Of understanding strategy starts to kick in. Right. So there's this magnitude that has to occur for another order of magnitude understanding to occur. Right. But if you can only raise things. To the power of three, who cares. If you can raise it to the power of three three times, right? Like, you know, you, you can stack. These things, but within that model, like, how big is big in the cost. Of, you know, 10 shot is what is where it's gone. So you can, you can decide anything, assuredly given enough energy. So. And no matter what, that's the case with chain of thought. And chain of thought is the most rigorous thing we have. It's, it's an analytical process, and above that, we have something higher. And we would call it intuition or behavioral science or whatever you want to call that. And so there's that level, which is why scientists say this will never be AI, because it is just a skeptical way of looking at the fact that it's just pattern recognition. Significant. Oh, one of the significant steps, I suspect. You guys know, the whole Alex saw this thing at OpenAI and, you know, that's what started the whole battle Sam Altman at him. Right. Do you guys know this story? I don't know, but is it. I have to leave in at ten two. Can you get it in so I can leave? Yeah, it's really fast. So Alex, you know, the guy from University of Toronto, I can never pronounce his last name. I have a speech impediment. Anyway, he left open the eye and accused Sam Altman of all these things. And Sam Altman got removed through the.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  text: Oh, one of the significant steps, I suspect. You guys know, the whole Alex saw this thing at OpenAI and, you know, that's what started the whole battle Sam Altman at him. Right. Do you guys know this story? I don't know, but is it. I have to leave in at ten two. Can you get it in so I can leave? Yeah, it's really fast. So Alex, you know, the guy from University of Toronto, I can never pronounce his last name. I have a speech impediment. Anyway, he left open the eye and accused Sam Altman of all these things. And Sam Altman got removed through the. Board and then he came back and. Sam, and then Alex is gone. And Alex is now running SSi, right. Safe super intelligence. Right. Which is supposedly super intelligence in one shot. Safe super intelligence in one shot. I think basically that's what he saw, determined, concluded, understood. He saw chain of thought. Does this chain of thought is the solution, right. Chain of thought is the critical piece. Not that the other things don't affect, and very important things like speed, efficiency, time, because those are all important too. Right? Like if it's unusable, it's unusable. Right. But I believe that's what happened back then is Alex is one of the guys who really understands how all these things are actually done and achieved and so forth, very early realize the true power of chain of thought and realize that other things were scaling practical problems to be solved by individual algorithms or methodologies and so forth. So. This version is very cool. Orion will be very, very, very cool. Who knows? I do think they'll come out with that model of, you'll be paying like what they say is a low income. Rate for access to a model with a certain capacity to run it, and two grand. They're probably going to give you a certain number of hours of access to the cpu, as an analogy. And it will make sense at the next level. Yeah.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  text: Which is supposedly super intelligence in one shot. Safe super intelligence in one shot. I think basically that's what he saw, determined, concluded, understood. He saw chain of thought. Does this chain of thought is the solution, right. Chain of thought is the critical piece. Not that the other things don't affect, and very important things like speed, efficiency, time, because those are all important too. Right? Like if it's unusable, it's unusable. Right. But I believe that's what happened back then is Alex is one of the guys who really understands how all these things are actually done and achieved and so forth, very early realize the true power of chain of thought and realize that other things were scaling practical problems to be solved by individual algorithms or methodologies and so forth. So. This version is very cool. Orion will be very, very, very cool. Who knows? I do think they'll come out with that model of, you'll be paying like what they say is a low income. Rate for access to a model with a certain capacity to run it, and two grand. They're probably going to give you a certain number of hours of access to the cpu, as an analogy. And it will make sense at the next level. Yeah. Lets you, unless access to the AI also lets you create your own local model that you don't have to pay for. So it'll be interesting. Right now they're getting all this stuff for free, right? They're getting us using it at this level and they know who's using it to what effect. And they're, they're getting all their next level of training going on right now. And it will be, it will help. Them get closer in a, in maybe not touching the model way, but in. Touching on top of the model way. So it's kind of cool. I think it's, um. I get just, I get. Like, I get in the same mindset of Jason sometimes. And Paulvio is like, it's a lot until you have a win and then you're like, okay, then the last while is worth it. I can reflect on my period when I was programming that. Even at a win, after a long. While, it was not perceived as a big enough win if it took a long while, because it was a predictable win. And at the business development, the ideation and the conceptualizing, like prototyping level, we are able to work as a fairly, at a fairly high competency now, at least to the point of being proven that there is a certain number of variables moving in our models and our ideas, our business or whatever, and we're attenuating them now and in new ways at some point. Jason, if you could just high level walk through the flow that you have. That you're building to understand a direct to consumer world.
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  text: So it'll be interesting. Right now they're getting all this stuff for free, right? They're getting us using it at this level and they know who's using it to what effect. And they're, they're getting all their next level of training going on right now. And it will be, it will help. Them get closer in a, in maybe not touching the model way, but in. Touching on top of the model way. So it's kind of cool. I think it's, um. I get just, I get. Like, I get in the same mindset of Jason sometimes. And Paulvio is like, it's a lot until you have a win and then you're like, okay, then the last while is worth it. I can reflect on my period when I was programming that. Even at a win, after a long. While, it was not perceived as a big enough win if it took a long while, because it was a predictable win. And at the business development, the ideation and the conceptualizing, like prototyping level, we are able to work as a fairly, at a fairly high competency now, at least to the point of being proven that there is a certain number of variables moving in our models and our ideas, our business or whatever, and we're attenuating them now and in new ways at some point. Jason, if you could just high level walk through the flow that you have. That you're building to understand a direct to consumer world. I can show you guys some of the flows even here. They're very rigorous and they use a. Great deal of the Internet to understand people. And it's one, it's one, you know, it's one. Oh, I'm getting a chubby already. That's what I mean. Your stuff is like out there, man. So it looks a lot like mine, I gotta tell you. I'll give you like some quick background. Like when I, when we first started to, like when I first prototyped this like idea a year and a half ago, basically we were like, hey, can we just take Abe very rigorously developed process that we've kind of established over like a decade, and then can I chunk that into constituent components and then use chained outputs to be able to kind of enrich the context of each kind of subsequent step? But I'll show you a small one here. And basically what this is like, this is just a workflow that does like competitor research for a, for a product. And so I think I might have broken it this morning when I was fucking around with it. But basically what it does is it uses Exa AI. If you guys haven't used Exa, it's pretty interesting. It basically rags the Internet and then allows you to search and based off of similarity for you look up. So you can basically take a domain or a website and it'll find the closestly related websites to that website. So I put it in a company, it finds the kind of five nearest competitors and then goes through, takes each one of those competitors and then pulls all the reviews out of each of those competitors products and then runs a process where we use those reviews to better understand the product category and like, and the, what people like and what they don't like. And then we can use that kind of generated insight from all these things that people care about and don't care about as context to improve the direction of the marketing copy that gets written for websites kind of later on. So that's kind of like a high level, but I'll kind of show simple output. This one is populating. I'm getting some issues where like I'm not a developer, so like I am strung by like having to learn how some of these things fit together. But you're reading a lot of JSON, huh? Yeah, well basically I'm running into an issue where like one of these things is producing a null output and I can't filter it out.
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u129
+  text: I'll give you like some quick background. Like when I, when we first started to, like when I first prototyped this like idea a year and a half ago, basically we were like, hey, can we just take Abe very rigorously developed process that we've kind of established over like a decade, and then can I chunk that into constituent components and then use chained outputs to be able to kind of enrich the context of each kind of subsequent step? But I'll show you a small one here. And basically what this is like, this is just a workflow that does like competitor research for a, for a product. And so I think I might have broken it this morning when I was fucking around with it. But basically what it does is it uses Exa AI. If you guys haven't used Exa, it's pretty interesting. It basically rags the Internet and then allows you to search and based off of similarity for you look up. So you can basically take a domain or a website and it'll find the closestly related websites to that website. So I put it in a company, it finds the kind of five nearest competitors and then goes through, takes each one of those competitors and then pulls all the reviews out of each of those competitors products and then runs a process where we use those reviews to better understand the product category and like, and the, what people like and what they don't like. And then we can use that kind of generated insight from all these things that people care about and don't care about as context to improve the direction of the marketing copy that gets written for websites kind of later on. So that's kind of like a high level, but I'll kind of show simple output. This one is populating. I'm getting some issues where like I'm not a developer, so like I am strung by like having to learn how some of these things fit together. But you're reading a lot of JSON, huh? Yeah, well basically I'm running into an issue where like one of these things is producing a null output and I can't filter it out.
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  text: I'll give you like some quick background. Like when I, when we first started to, like when I first prototyped this like idea a year and a half ago, basically we were like, hey, can we just take Abe very rigorously developed process that we've kind of established over like a decade, and then can I chunk that into constituent components and then use chained outputs to be able to kind of enrich the context of each kind of subsequent step? But I'll show you a small one here. And basically what this is like, this is just a workflow that does like competitor research for a, for a product. And so I think I might have broken it this morning when I was fucking around with it. But basically what it does is it uses Exa AI. If you guys haven't used Exa, it's pretty interesting. It basically rags the Internet and then allows you to search and based off of similarity for you look up. So you can basically take a domain or a website and it'll find the closestly related websites to that website. So I put it in a company, it finds the kind of five nearest competitors and then goes through, takes each one of those competitors and then pulls all the reviews out of each of those competitors products and then runs a process where we use those reviews to better understand the product category and like, and the, what people like and what they don't like. And then we can use that kind of generated insight from all these things that people care about and don't care about as context to improve the direction of the marketing copy that gets written for websites kind of later on. So that's kind of like a high level, but I'll kind of show simple output. This one is populating. I'm getting some issues where like I'm not a developer, so like I am strung by like having to learn how some of these things fit together. But you're reading a lot of JSON, huh? Yeah, well basically I'm running into an issue where like one of these things is producing a null output and I can't filter it out. But that's my bag if you ever need help. Jason. Oh man. Hey, did you get the Slack channel? Oh no, we haven't got that Slack channel. And so that'll go on the list with Exa right now. And actually, you know, fulfill is super. Fucking adapt at this shit, man. Yeah, I mean mostly, mostly cooking italian food, so don't listen to it. Oh yeah, sorry. He's italian too, so you gotta, you gotta, you know, I love it. No no, I've had the same. Italian, man. You know, I built a lot of full stack applications and JSON's like, you know the meat, right? Everywhere and I know my way and I, and I basically bitched n eight NDE over two days. I just sort of conquered it. But um, it's tough, man. Like you know, you're just going to struggle with little things because you know what, you're using this on the cloud, right? Yeah. One thing I'm interested in about what you're doing is like the input on the front end and the output on the back end because you're not dealing with files, right? You're dealing with. Yeah, basically what I'm doing is I'm just using fire scraping, scrape, markdown, and then I'm using the markdown as the basis for the transformation across everything and then storing it all as separate JSON arrays in Supabase and then pulling in the data from those components. This is how the app works. It does all this scraping and research and content generation. Then we have workflows that build a section of a website. Those all have react components to get populated with GraphQL. I have to write these graphql queries, generates the content for those, contextualizes the whole website based off all of the kind of centralized research that gets created in this flow. And then my next step is to build an assistant that I can provide a bunch of directional context to around how it should be making decisions, around how it should be structuring and ordering that content based off of an objective. So I've kind of got a bunch of preliminary work done and this concept that Dave's been talking about around this kind of the knowledge not repository. Dave, what's the, what do you just.
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  text: You know, I built a lot of full stack applications and JSON's like, you know the meat, right? Everywhere and I know my way and I, and I basically bitched n eight NDE over two days. I just sort of conquered it. But um, it's tough, man. Like you know, you're just going to struggle with little things because you know what, you're using this on the cloud, right? Yeah. One thing I'm interested in about what you're doing is like the input on the front end and the output on the back end because you're not dealing with files, right? You're dealing with. Yeah, basically what I'm doing is I'm just using fire scraping, scrape, markdown, and then I'm using the markdown as the basis for the transformation across everything and then storing it all as separate JSON arrays in Supabase and then pulling in the data from those components. This is how the app works. It does all this scraping and research and content generation. Then we have workflows that build a section of a website. Those all have react components to get populated with GraphQL. I have to write these graphql queries, generates the content for those, contextualizes the whole website based off all of the kind of centralized research that gets created in this flow. And then my next step is to build an assistant that I can provide a bunch of directional context to around how it should be making decisions, around how it should be structuring and ordering that content based off of an objective. So I've kind of got a bunch of preliminary work done and this concept that Dave's been talking about around this kind of the knowledge not repository. Dave, what's the, what do you just. Reserve just that idea knowledge? Yeah. So using these knowledge reserves in kind of JSON objects that I want to try and see if it'll work properly in assistance to be able to like hit different decision points, you know, based off of objectives. Um, seems to work in my like preliminary testing, like surprisingly well. It's just a bit of the plumbing around all these graphql queries and everything, which is kind of like of having to learn that as a non developer is like, I got core concepts, but it's been a bit of a, I.
+- id: W-0037
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  text: Yeah, basically what I'm doing is I'm just using fire scraping, scrape, markdown, and then I'm using the markdown as the basis for the transformation across everything and then storing it all as separate JSON arrays in Supabase and then pulling in the data from those components. This is how the app works. It does all this scraping and research and content generation. Then we have workflows that build a section of a website. Those all have react components to get populated with GraphQL. I have to write these graphql queries, generates the content for those, contextualizes the whole website based off all of the kind of centralized research that gets created in this flow. And then my next step is to build an assistant that I can provide a bunch of directional context to around how it should be making decisions, around how it should be structuring and ordering that content based off of an objective. So I've kind of got a bunch of preliminary work done and this concept that Dave's been talking about around this kind of the knowledge not repository. Dave, what's the, what do you just. Reserve just that idea knowledge? Yeah. So using these knowledge reserves in kind of JSON objects that I want to try and see if it'll work properly in assistance to be able to like hit different decision points, you know, based off of objectives. Um, seems to work in my like preliminary testing, like surprisingly well. It's just a bit of the plumbing around all these graphql queries and everything, which is kind of like of having to learn that as a non developer is like, I got core concepts, but it's been a bit of a, I. Mean, look, a process like this, if you can keep within any den, if you can keep everything in JSON format inside an I handle everything else at the end or the beginning, you make your life really easy. Yeah, I tried to like start to flatten everything into storing it as text, but the schema got so unwieldy, it was like sucking up all of my energy to try and flatten everything. Don't do that, because you'll end up wasting your time parsing and reparsing and de parsing. Yeah. Actually one of the things that I found I was telling Dave is that like one of the things here you'll see is basically it'll run a prompt and get an output, and then I then have to parse it to JSON to store it. Because if you are running parsed JSON as inputs into prompt chains, the quality of the outputs are substantially worse. Say that again, please, Jason, say that again. If you're providing in a prompt chain like this, the output of one prompt into another one, if you are just giving it markdown, it works a lot better than if you were to give it JSON. So this flow would be easier if I was like, okay, I just didn't, I just had this as output as JSON and then defeated into the next prompt. But for whatever reason, as it relates to at least marketing copy or like kind of thought analysis, giving it structured JSON seems to like it definitely truncates the output and it tries to synthesize it. But what part of what we're going for here is like some verbosity, like we want it to be more verbose and have more context created. And if we're, if you give it JSON. Even, even if you try and like take this, this kind of text output. And I said, hey, parse it into JSON, you got to really be explicit to not change the content because it will try and make things shorter and more succinct.
+- id: W-0038
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  text: Yeah. Actually one of the things that I found I was telling Dave is that like one of the things here you'll see is basically it'll run a prompt and get an output, and then I then have to parse it to JSON to store it. Because if you are running parsed JSON as inputs into prompt chains, the quality of the outputs are substantially worse. Say that again, please, Jason, say that again. If you're providing in a prompt chain like this, the output of one prompt into another one, if you are just giving it markdown, it works a lot better than if you were to give it JSON. So this flow would be easier if I was like, okay, I just didn't, I just had this as output as JSON and then defeated into the next prompt. But for whatever reason, as it relates to at least marketing copy or like kind of thought analysis, giving it structured JSON seems to like it definitely truncates the output and it tries to synthesize it. But what part of what we're going for here is like some verbosity, like we want it to be more verbose and have more context created. And if we're, if you give it JSON. Even, even if you try and like take this, this kind of text output. And I said, hey, parse it into JSON, you got to really be explicit to not change the content because it will try and make things shorter and more succinct. Oh, I was trying to figure out where the problem is going because I suspected the problem wasn't that if it's doing that, that's a problem, right. You're basically removing information when you do that. I thought the problem might be that it only utilizes the content and nothing, so to speak, the header or the labels of the content in this process. It uses all of that. But you think that would make it better, right, by defining all of that. But for whatever reason, arriving at the quality of the output seems to not be great if I just give it JSON. So that's why there's a bunch of extra steps in here. But this is pretty simple. Basically, we take the markdown, we turn it into some structured information about a product. We do a bunch of research on that product, we perform a market analysis, find the underlying emotions about the market and about the product, and then, you know, create some people that, that might be interested in that process of like, you know, information that's relevant to a marketer and then takes that. I'm trying to figure out right now how to split those things out effectively and then run this loop for them individually. And then the end goal of what we're building is like dynamic personalization. So the thing that we're shooting for is to be able to go to a website and then just based off of browser detectable data, we want to build this solution, collect a bunch of data, be able to associate different outputs with browser detectable things like how hard did they push on that button and how long did they dwell on the sections, and then be able to fine tune a model that then will dynamically adjust the content based off of the on site behavior. So you're hooking up to Google Analytics.
+- id: W-0039
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u150
+  - u151
+  - u152
+  - u153
+  text: Oh, I was trying to figure out where the problem is going because I suspected the problem wasn't that if it's doing that, that's a problem, right. You're basically removing information when you do that. I thought the problem might be that it only utilizes the content and nothing, so to speak, the header or the labels of the content in this process. It uses all of that. But you think that would make it better, right, by defining all of that. But for whatever reason, arriving at the quality of the output seems to not be great if I just give it JSON. So that's why there's a bunch of extra steps in here. But this is pretty simple. Basically, we take the markdown, we turn it into some structured information about a product. We do a bunch of research on that product, we perform a market analysis, find the underlying emotions about the market and about the product, and then, you know, create some people that, that might be interested in that process of like, you know, information that's relevant to a marketer and then takes that. I'm trying to figure out right now how to split those things out effectively and then run this loop for them individually. And then the end goal of what we're building is like dynamic personalization. So the thing that we're shooting for is to be able to go to a website and then just based off of browser detectable data, we want to build this solution, collect a bunch of data, be able to associate different outputs with browser detectable things like how hard did they push on that button and how long did they dwell on the sections, and then be able to fine tune a model that then will dynamically adjust the content based off of the on site behavior. So you're hooking up to Google Analytics. At some point and bringing that in and matching it up against. Yeah, we use an analytics platform called Rudderstack, but we're trying to figure out, like, there's a bunch of stuff that we need to do. I'm just trying to get, like, right now I'm just getting everything kind of piped in. So, like, it generates everything and we can build these pages statically. So we're kind of just at the, you know, two yard line of that, and then we'll have to figure out. That's why I'm trying to figure out what these assistants, if I give it all of this kind of knowledge, this knowledge reserve, will it be able to. And Dave's framing was like, can we kind of create a foot race where we run like say a multi armed bandit style, like bayesian experimentation on different site variables, covariates, and then have the LLM predicting what it thinks would be the best answer, and then have that comparative data set of what worked, what didn't work, and then use that comparative data set to then fine tune a model that's more effective than just kind of the off the shelf model.
+- id: W-0040
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  text: It uses all of that. But you think that would make it better, right, by defining all of that. But for whatever reason, arriving at the quality of the output seems to not be great if I just give it JSON. So that's why there's a bunch of extra steps in here. But this is pretty simple. Basically, we take the markdown, we turn it into some structured information about a product. We do a bunch of research on that product, we perform a market analysis, find the underlying emotions about the market and about the product, and then, you know, create some people that, that might be interested in that process of like, you know, information that's relevant to a marketer and then takes that. I'm trying to figure out right now how to split those things out effectively and then run this loop for them individually. And then the end goal of what we're building is like dynamic personalization. So the thing that we're shooting for is to be able to go to a website and then just based off of browser detectable data, we want to build this solution, collect a bunch of data, be able to associate different outputs with browser detectable things like how hard did they push on that button and how long did they dwell on the sections, and then be able to fine tune a model that then will dynamically adjust the content based off of the on site behavior. So you're hooking up to Google Analytics. At some point and bringing that in and matching it up against. Yeah, we use an analytics platform called Rudderstack, but we're trying to figure out, like, there's a bunch of stuff that we need to do. I'm just trying to get, like, right now I'm just getting everything kind of piped in. So, like, it generates everything and we can build these pages statically. So we're kind of just at the, you know, two yard line of that, and then we'll have to figure out. That's why I'm trying to figure out what these assistants, if I give it all of this kind of knowledge, this knowledge reserve, will it be able to. And Dave's framing was like, can we kind of create a foot race where we run like say a multi armed bandit style, like bayesian experimentation on different site variables, covariates, and then have the LLM predicting what it thinks would be the best answer, and then have that comparative data set of what worked, what didn't work, and then use that comparative data set to then fine tune a model that's more effective than just kind of the off the shelf model. Right. Interesting. That's kind of what interesting. I'm thinking about it. I mean, I don't know if it's right, but I mean, who knows what's right right now? Interesting. Very, very interesting. Very cool. Yeah, very, very useful, that's for sure. And for your, this is a, this. Is a service for you to provide other people or a tool? Well, yeah, this is the thing. So our backgrounds in like in digital marketing and what we've found is that it's just really hard for people to build websites and landing pages and for products because it takes a copywriter, designer and developer and all these things. So v one here is like, we'll take like whatever the ad is for the product. We deconstruct the ad, and then we use the context for the ad to regenerate the page to make sure that it aligns with exactly what the ad was talking about.
+- id: W-0041
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  text: Yeah, we use an analytics platform called Rudderstack, but we're trying to figure out, like, there's a bunch of stuff that we need to do. I'm just trying to get, like, right now I'm just getting everything kind of piped in. So, like, it generates everything and we can build these pages statically. So we're kind of just at the, you know, two yard line of that, and then we'll have to figure out. That's why I'm trying to figure out what these assistants, if I give it all of this kind of knowledge, this knowledge reserve, will it be able to. And Dave's framing was like, can we kind of create a foot race where we run like say a multi armed bandit style, like bayesian experimentation on different site variables, covariates, and then have the LLM predicting what it thinks would be the best answer, and then have that comparative data set of what worked, what didn't work, and then use that comparative data set to then fine tune a model that's more effective than just kind of the off the shelf model. Right. Interesting. That's kind of what interesting. I'm thinking about it. I mean, I don't know if it's right, but I mean, who knows what's right right now? Interesting. Very, very interesting. Very cool. Yeah, very, very useful, that's for sure. And for your, this is a, this. Is a service for you to provide other people or a tool? Well, yeah, this is the thing. So our backgrounds in like in digital marketing and what we've found is that it's just really hard for people to build websites and landing pages and for products because it takes a copywriter, designer and developer and all these things. So v one here is like, we'll take like whatever the ad is for the product. We deconstruct the ad, and then we use the context for the ad to regenerate the page to make sure that it aligns with exactly what the ad was talking about. Interesting. So what we've observed from that is that when you do that, even manually, the conversion rate of the user is like 20% to 35% higher. So having a system that automatically does that should be pretty valuable. And so from a business model perspective right now, we're taking a percentage of revenue that flows through the platform because it's, we're kind of delivering what people are used to as a service. So we're charging service rates as opposed to charging like a software type rate. So we're kind of operating at like a managed platform. So people don't know how much AI we're doing. They kind of think that there's some AI and some people, and that way, like our pricing power is pretty crazy. And that'll erode over time as competitors come on the market. Someone will try and sell this thing for like $100 a month or something. But right now we're kind of, we think that we can charge more, but that might prove out to be wrong. We have a couple of customers, like beta customers, and they're happily paying it because they only care about the outcomes that they experienced, not they don't care.
+- id: W-0042
+  t_start: 3780.0
+  t_end: 3900.0
+  utterance_ids:
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  text: So what we've observed from that is that when you do that, even manually, the conversion rate of the user is like 20% to 35% higher. So having a system that automatically does that should be pretty valuable. And so from a business model perspective right now, we're taking a percentage of revenue that flows through the platform because it's, we're kind of delivering what people are used to as a service. So we're charging service rates as opposed to charging like a software type rate. So we're kind of operating at like a managed platform. So people don't know how much AI we're doing. They kind of think that there's some AI and some people, and that way, like our pricing power is pretty crazy. And that'll erode over time as competitors come on the market. Someone will try and sell this thing for like $100 a month or something. But right now we're kind of, we think that we can charge more, but that might prove out to be wrong. We have a couple of customers, like beta customers, and they're happily paying it because they only care about the outcomes that they experienced, not they don't care. About, they don't care about the amount they pay you. They care about, they don't care about the 10% they paid you. They care about the 80% they got because of what you did. Yeah. And as long as they can measure that, it's good, right? Yeah, yeah. I think it like if I want to continue down that path that requires a bunch of like sales infrastructure. So we might just relent and be like, hey cool, it's going to be software, it's going to be like you know, two grand a month or something but, but we'll see. You know, like part of the issue right now is like, you know, image and video is just not there yet. You know, like maybe by the end of the year, early next year that stuff will be able to be done. Like we could do it but I can't find a existing APIs from third parties that will deploy that. And then I kind of looked into like building some of the kind of image automation solutions in like replicate or fall and that's just kind of beyond my pay grade right now. I think it's relatively straightforward but you. Know you could do it now with a bunch of research but for sure before the end of the year it'll just be an API you can call in a reliable way and you can do it. Yeah. There are some like wild products that people are building out there on the marketing side. Like I'm actually really curious to see what like what, where the regulation falls on this and how fast it comes into play because say there's one example of a company that if you're an influencer you can license your likeness to that company and then they basically auction off you to different brands that put different products in your hands and use kind of like a hey gen or did style kind of like video generation to pitch different products and then that influencer creator just gets a royalty on whatever happens but they have no actual work to be done.
+- id: W-0043
+  t_start: 3870.0
+  t_end: 3990.0
+  utterance_ids:
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  text: Yeah, yeah. I think it like if I want to continue down that path that requires a bunch of like sales infrastructure. So we might just relent and be like, hey cool, it's going to be software, it's going to be like you know, two grand a month or something but, but we'll see. You know, like part of the issue right now is like, you know, image and video is just not there yet. You know, like maybe by the end of the year, early next year that stuff will be able to be done. Like we could do it but I can't find a existing APIs from third parties that will deploy that. And then I kind of looked into like building some of the kind of image automation solutions in like replicate or fall and that's just kind of beyond my pay grade right now. I think it's relatively straightforward but you. Know you could do it now with a bunch of research but for sure before the end of the year it'll just be an API you can call in a reliable way and you can do it. Yeah. There are some like wild products that people are building out there on the marketing side. Like I'm actually really curious to see what like what, where the regulation falls on this and how fast it comes into play because say there's one example of a company that if you're an influencer you can license your likeness to that company and then they basically auction off you to different brands that put different products in your hands and use kind of like a hey gen or did style kind of like video generation to pitch different products and then that influencer creator just gets a royalty on whatever happens but they have no actual work to be done. There's a project Dave and I are collaborating on that so overlaps that I'm. Going to create a slack channel for us all so we can, we can jam. Gonna do that. I did notice he didn't. I got it here, I got the email. I can do it right now. Yeah, just if you want to go ahead and do that and invite him to it, to it, you'll probably notice that you've done it and not him. Yeah, you have all the emails and I would just call it Dave's AI school or something. Yeah. Seems to be the nexus of things. Yeah. Um. That's cool. It's so hard right now, let me tell you. Because the tools are just, like, fast and furious, changing every week. Yeah, it's. I'm so into that. I mean, it's distracting, you know, like you. So distracting. So distracting. I almost feel like I, you know, I could tackle a problem or maybe I should go to sleep for a week because. Yeah. Yeah, like a week. Someone's done it, right? Maybe. I don't know. It's a roll of the dice. Depends on the problem. And a lot of problems are solved.
+- id: W-0044
+  t_start: 3960.0
+  t_end: 4042.148
+  utterance_ids:
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  - u180
+  - u181
+  - u182
+  text: Yeah, just if you want to go ahead and do that and invite him to it, to it, you'll probably notice that you've done it and not him. Yeah, you have all the emails and I would just call it Dave's AI school or something. Yeah. Seems to be the nexus of things. Yeah. Um. That's cool. It's so hard right now, let me tell you. Because the tools are just, like, fast and furious, changing every week. Yeah, it's. I'm so into that. I mean, it's distracting, you know, like you. So distracting. So distracting. I almost feel like I, you know, I could tackle a problem or maybe I should go to sleep for a week because. Yeah. Yeah, like a week. Someone's done it, right? Maybe. I don't know. It's a roll of the dice. Depends on the problem. And a lot of problems are solved. And you just can't find the solution. That's all part of it. That's. That's even worse, though, right? Like, it just takes a lot of, like, sifting and then I don't have even a good system for, like, you know, keeping track of all the things that I found, you know, just trying to scrub, scrawl stuff down. I'm gonna go myself. Always. Awesome, guys. Take care. Yeah, I'll be quick to jump into that AI channel when it pops up. Put it right together. All right, take it easy, guys. Take care.

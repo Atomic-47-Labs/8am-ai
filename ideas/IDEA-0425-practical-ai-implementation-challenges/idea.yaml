@@ -1,0 +1,28 @@
+id: IDEA-0425
+slug: practical-ai-implementation-challenges
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-07-30'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'Spencer''s database incident: Claude code caused database drop in development environment, highlighting AI reliability concerns Context rot problem: hallucinations can propagate through context, affecting future interactions even when initial outcome appears successful Agent deployment: Graham and Spencer deploy agents for client lead engagement, conversion, and onboarding processes at scale'
+summary: Practical AI Implementation Challenges
+rationale: 'Spencer''s database incident: Claude code caused database drop in development environment, highlighting AI reliability concerns Context rot problem: hallucinations can propagate through context, affecting future interactions even when initial outcome appears successful Agent deployment: Graham and Spencer deploy agents for client lead engagement, conversion, and onboarding processes at scale'
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:17Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 64.0
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.4
+  concretion: 14.5
+  uniqueness: 15
+  carryover: 0
+rank: 128
+tier: queue

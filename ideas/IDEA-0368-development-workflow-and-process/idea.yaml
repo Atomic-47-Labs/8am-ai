@@ -1,0 +1,28 @@
+id: IDEA-0368
+slug: development-workflow-and-process
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2025-06-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'David outlined his development process: build specification in high-end models (Claude Sonnet 4 or ChatGPT o3), create phased execution plans, then use IDEs for automated implementation. Phased development approach includes automatic test scenario creation after each phase, with 10-15 minute phase completion times. AI-enabled IDEs can handle DevOps tasks automatically, including AWS Amplify login, Netlify publishing, Railway deployment, and Supabase setup. Windsurf IDE performs automatic memory checkpoints and project-based memory management.'
+summary: Development Workflow and Process
+rationale: 'David outlined his development process: build specification in high-end models (Claude Sonnet 4 or ChatGPT o3), create phased execution plans, then use IDEs for automated implementation. Phased development approach includes automatic test scenario creation after each phase, with 10-15 minute phase completion times. AI-enabled IDEs can handle DevOps tasks automatically, including AWS Amplify login,'
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T17:20:16Z'
+updated: '2026-06-25T17:21:27Z'
+grade: 62.5
+grade_breakdown:
+  evidence: 25
+  theme: 8.7
+  recency: 0.3
+  concretion: 13.5
+  uniqueness: 15
+  carryover: 0
+rank: 163
+tier: queue

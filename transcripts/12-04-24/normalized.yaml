@@ -1,0 +1,930 @@
+meeting:
+  date: '2024-12-04'
+  title: 8am-AI 2024-12-04
+  participants:
+  - Hanif Janmohamed
+  - David Olsson
+  - James Giroday
+  - Jason Kryski
+  duration_s: 3600.935
+  source_files:
+    primary: fireflies-transcript.json
+    primary_kind: fireflies-json
+    other:
+    - fireflies-summary.txt
+    - fireflies-transcript.rtf
+utterances:
+- id: u1
+  speaker: Hanif Janmohamed
+  t_start: 267.845
+  t_end: 268.465
+  text: Hello.
+- id: u2
+  speaker: David Olsson
+  t_start: 269.365
+  t_end: 270.225
+  text: Hello.
+- id: u3
+  speaker: David Olsson
+  t_start: 290.735
+  t_end: 291.995
+  text: That's a good one.
+- id: u4
+  speaker: David Olsson
+  t_start: 325.785
+  t_end: 329.525
+  text: Silly setup. Morning.
+- id: u5
+  speaker: James Giroday
+  t_start: 362.365
+  t_end: 363.825
+  text: Good morning. Good morning.
+- id: u6
+  speaker: David Olsson
+  t_start: 364.245
+  t_end: 365.145
+  text: Good morning.
+- id: u7
+  speaker: Jason Kryski
+  t_start: 377.565
+  t_end: 378.957
+  text: Oh, the Ooda loop.
+- id: u8
+  speaker: David Olsson
+  t_start: 379.061
+  t_end: 379.985
+  text: Love that.
+- id: u9
+  speaker: David Olsson
+  t_start: 385.765
+  t_end: 398.785
+  text: Yeah. Trying to find things that people can glom on to. And I've pointed out that I studied the military, and I just realized. I say that now, but they're worth studying.
+- id: u10
+  speaker: Jason Kryski
+  t_start: 399.605
+  t_end: 400.425
+  text: Yeah.
+- id: u11
+  speaker: James Giroday
+  t_start: 405.365
+  t_end: 409.149
+  text: Well, I'm a major glommer myself, so I appreciate all that.
+- id: u12
+  speaker: Jason Kryski
+  t_start: 409.317
+  t_end: 414.185
+  text: Yeah, I'm glomming hard here. Holy gloms.
+- id: u13
+  speaker: David Olsson
+  t_start: 415.205
+  t_end: 475.183
+  text: Yeah. And so I had a discussion yesterday with Fulvio. He won't be joining us today, but. The discussion was along the lines of there's tools coming up for setting. Setting up context properly in development environments like Klein and others, where you. One of the things that happens is. You constantly lose your context. And so you're trying to set it. At a global level. You're trying to set it at, like, at the app level and then even at the function level. Right. But my thing is, like, it's all reflective. What I'm doing at each level is the same thing. It's just described slightly differently. The application needs to do this. Then I wanted to use these things, and then I wanted to perform this way. And then here's a function that's not working properly. And so. You'Ve heard it's turtles all the way down. You've heard that phrasing? No, I like Jason's look. Okay, Jason, what do you.
+- id: u14
+  speaker: Jason Kryski
+  t_start: 475.359
+  t_end: 477.663
+  text: Existential crisis at 8 o'clock in the.
+- id: u15
+  speaker: David Olsson
+  t_start: 477.679
+  t_end: 482.451
+  text: Morning on a Wednesday? No, no, I'm gonna build it up. It's not gonna be a crisis. Okay.
+- id: u16
+  speaker: Jason Kryski
+  t_start: 482.487
+  t_end: 484.135
+  text: I'm not gonna spiral then.
+- id: u17
+  speaker: David Olsson
+  t_start: 484.295
+  t_end: 520.384
+  text: Okay, so, yes, that's the problem. The concept or the phrasing is like. It'S turtles all the way down. And the notion is we're, you know, there. This flat, and we're standing. Or we're standing on the back of a turtle. Right? And then we're, you know, it's a platform. What is it? The turtle is our platform. And then, you know, if you. In the scenario, it's a philosopher talking to somebody, an elder or whomever, and the question is, well, what's, you know, so there's a flat earth and there's a turtle, and we're standing on top of that. Or there's a turtle and we're standing. On top of that. What's under the turtle?
+- id: u18
+  speaker: James Giroday
+  t_start: 521.684
+  t_end: 524.012
+  text: It's another turtle under the turtle.
+- id: u19
+  speaker: David Olsson
+  t_start: 524.188
+  t_end: 636.905
+  text: It's turtles all the way down. And meaning, if you have a platform. Or a foundation, what is it standing on? And so. Yeah, right. And so you keep going Deeper. Right. And so the notion as a negative. Sort of analog, the notion is you have. You keep surf, you uncover more and. More, and it turns into this rat's nest of roots going down, trying to find more and more grounding and more and more founding. But, you know, there's a lot to that value. It's like that recursive. Like I landed on recursion from my experience of working in the code and with prompting, saying that the same thing is happening at every level, but it's. Happening slightly differently at every level, but it's the same description of it. Right. I can say meta, meta with metadata. It's the same thing. The specifics of the tasks are different. But if we, you know, I found this in my work, like, I'll find something. I'm like, okay, this is interesting. Direct to consumer. Okay, direct to consumer. There's a paradigm here. What's a landing page look like? Well, there's a structure to a landing page. Well, there's a structure to the landing page because each of the sections does something. Yes, each of the sections does something. What do they do? Well, they do this. They do social pressure. Okay, what's social pressure? Okay, cool. What's. What kinds of social pressure? Turns out there's a lot of them. What are the best ones? Good, great. What if you're, you know, what if you're building a community? Well, you've got an adoption curve. Which one of those works with an adoption curve? Right. There's your turtles on turtles is that. One framework produces another framework produces another framework in terms of your, you know. You'Re trying to constantly ground things. And if I look at Jason, Jason's got like this amazing workflow because he understands the industry and the turtles keep going on. That's why he doesn't want an existential crisis in the middle of the week. I'm guessing.
+- id: u20
+  speaker: Jason Kryski
+  t_start: 639.085
+  t_end: 641.385
+  text: It'S gone beyond anything useful.
+- id: u21
+  speaker: David Olsson
+  t_start: 641.725
+  t_end: 654.745
+  text: Right. And so that's what the phrase is. Usually is pointed to, is it's never. Really Dr. Sue Turtle Tower. Right. It's not useful. But how about this? I've had this keen understanding of inverted truths for a while.
+- id: u22
+  speaker: James Giroday
+  t_start: 654.785
+  t_end: 655.685
+  text: I like that.
+- id: u23
+  speaker: David Olsson
+  t_start: 657.105
+  t_end: 793.055
+  text: And so inverted truths are like the promise that's delivered is never what's, you. Know, promise that's evoked is never what's evidenced. And so if we say that this turtles on turtles, there's something to it. There's incredible value. I've built it into my platform. Okay. But it's way I'm looking at things is I'm trying To elevate the thinking of people. Decision making strategy, the ability to work at high levels. I'm not asking people to get to the roots of the matter in the code or understand hex or what a machine does. I'm asking them to say, describe your. Problem and maybe some variables around it. And that's high level strategy stuff. So that's actually, if you look at it, it's inverting it, you know, saying we're working upwards instead of saying we're working downwards and it's getting bigger, we're working upwards and it's working towards a point. And that point is something to act upon, a decision to act. And it's a, at the highest level, it's a 0 or a 1, right? In the most, if you do all your work to come to decision, you make a decision and once you're past it, things are different. And so if we invert this turtles instead, instead of it being turtles all the way down, it's turtles all the way up. It turns into a tree and a tree reaches up and you can have all of these strategies reaching up towards understanding what that one concept is. Right. The tree does go like this, but it aspires to go up. And as you go up you get more specificity. And so the turtles thing was quite cool. And where I, bro, bring this back down to the OODA loop is that the turtles can be a process. So the, and that's, I'm getting to what I call the how. Said this before the how of how, but now we can go to the how of how how because they're all just turtles.
+- id: u24
+  speaker: Jason Kryski
+  t_start: 793.675
+  t_end: 797.067
+  text: Dr. Thing was very informative.
+- id: u25
+  speaker: David Olsson
+  t_start: 797.131
+  t_end: 807.267
+  text: Yeah. So yeah, it turns out he's a bad guy, but he might have been. A smart man, but yeah, it was.
+- id: u26
+  speaker: Jason Kryski
+  t_start: 807.291
+  t_end: 810.083
+  text: He was a Nazi though. Was he or was he?
+- id: u27
+  speaker: David Olsson
+  t_start: 810.259
+  t_end: 979.325
+  text: Yeah. Well, we'll leave it at its art and artists are different. And so the turtles thing here is the OODA loot. I need people to understand how to work with agentic systems and I need to give them some way points, right? And so we have problem process solutions. Of super generalized pattern. But the agents do this stuff like give them a document, they go in and they observe it, right? They go in there and they look. At it and then you tell them. To make some assumptions and then we. Do the, you know, if we do the assumptions and the analysis, that's the observance, right? So we, we observe to get tools to orient. So we may build a map from. All that information and then we can move through the Information better. And the purpose of the map is. To decide which path is best. And then we do an A STAR algorithm or whatever we do in terms. Of our head to get down that path. And then once we come to a decision point, and as an executive, I. Realized early on in my career that that's what my job was, to bring. Things to a decision point. And it didn't always mean it was a good decision, but it was a point at which we could act. And so everything comes to that, even. Me deciding to drink coffee. I always forget, now it's warm. So at the global level, I'm going to provide a workflow of an OODA loop and break out my left to right workflow into four stages. So people say, here's where I am. Trying to define the problem. I'm observing. Willie enough in that place of observing, you're defining the problem. You're saying, this is the parameters, this is what I want to know, and. This is the query I have. Then from that, then I would say, well, here's how we have some agents. That can help you with that. To build a structured data set, you. Learn the problem set, and then you could move through that and orient yourself as to what the problem really means, possibly by doing simulations, saying, in the future things could be different. And so if you did simulations, you'd see that it doesn't really matter how. Much money you put into a project, it's the people you put in. And then you're like, okay, that's what we'll move on. That was the decision. Hire people, don't get investment. And so you act upon that and. You have this evidence trail that you went down. And the evidence trail is, I had a problem, I needed to define it, and then I analyzed it. And then we came together once I had something to look at and we decided. And so the turtles is there for the. That's a turtle and it's there for the user, and that's a turtle that's there for the agent, and that's a turtle that's there for the meta agent. Who'S organizing all the agents. And so that framing allowed for the turtle turtles to rise up towards strategy. Stop that.
+- id: u28
+  speaker: Jason Kryski
+  t_start: 981.865
+  t_end: 985.857
+  text: I thought Dave was going to go out on the street there for a second, right.
+- id: u29
+  speaker: David Olsson
+  t_start: 985.881
+  t_end: 1047.615
+  text: I'll throw them out the window. Looks like I'm in professional meetings. I'm asked to have a background. So I just wanted to reflect on the fact that it's a very interesting thing. And what's happening is that with the development tools, the Ability to provide context to working at the global level. Where I'm describing an app. I now do a screenshot. If I can take somebody else, else's stuff, say, this is something. And I do. Here's my description of it. And so that's my first turtle. It's a global view on things. It's like, that's the big thing. It's the platform, it's the foundation. The next thing is I move upwards, upwards, upwards until I get a ui. Right now, if I hand off the ui, I hand off three different things. Or four different things in a video. That's not a very good, uh, why. But at least that's sort of how. Now if we say turtling, that's a completely different thing. But how the analogy, how that anal. A girl taught me that word. I was like, you guys are so terrible women.
+- id: u30
+  speaker: Jason Kryski
+  t_start: 1048.475
+  t_end: 1049.495
+  text: The gross.
+- id: u31
+  speaker: David Olsson
+  t_start: 1050.715
+  t_end: 1393.473
+  text: But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm,
+- id: u32
+  speaker: James Giroday
+  t_start: 1393.569
+  t_end: 1396.255
+  text: Can you see, man, this site is sharp.
+- id: u33
+  speaker: David Olsson
+  t_start: 1396.835
+  t_end: 1402.395
+  text: Well, it's pretty cliche. It's cliche. Yeah.
+- id: u34
+  speaker: James Giroday
+  t_start: 1402.515
+  t_end: 1405.655
+  text: It's good cliche then, because it looks nice.
+- id: u35
+  speaker: David Olsson
+  t_start: 1407.955
+  t_end: 1433.255
+  text: But okay, I say that and I. Guess I've been an outlier my career in that I, you know, the center of an industry is usually mushy and lacking center, and they're just a shimmer or whatever you want to call it. They're in the marketing. They're not in them in the trenches. So that's, you know, it's a marketing website. Websites are meant to sell things.
+- id: u36
+  speaker: James Giroday
+  t_start: 1442.595
+  t_end: 1502.055
+  text: On the topic of turtles, just while you do this, I'll tell a quick story. I actually saw a turtle about a year ago in the summer in Ontario. It was on a stump. It was a snapping turtle. Pretty big. Yeah, probably 30 years old. Like, pretty big one. And we walked up close to it and it didn't move at all. And it was alive. Then we noticed that it had probably like 40 little leeches on the bat on its back leg. So it was like probably kind of in pain. So anyways, we went. Went and grabbed some salt. We threw it on the leeches took. Took a five minutes. The turtle just stayed still on the stump. While we did this, we got all these 40 leeches off of its leg, continued on the walk, came back, turtle was gone. True story. Pretty random. I mean, yeah, like this turtle just chilled while we took the leeches off its leg. It was really random.
+- id: u37
+  speaker: David Olsson
+  t_start: 1502.395
+  t_end: 1505.495
+  text: Well, there's. There's actually a lot of turtles in Kelowna.
+- id: u38
+  speaker: James Giroday
+  t_start: 1506.635
+  t_end: 1510.055
+  text: I've seen one. I saw a paint, a painted, I think, up near.
+- id: u39
+  speaker: David Olsson
+  t_start: 1510.955
+  t_end: 1520.835
+  text: Yeah, but you have to find. You have to know, and you gotta be patient with them. But yeah, there's turtle crossings in Wilden. You know, the community next to mine. There's toll crossing signs.
+- id: u40
+  speaker: James Giroday
+  t_start: 1520.995
+  t_end: 1521.787
+  text: Oh, really?
+- id: u41
+  speaker: David Olsson
+  t_start: 1521.891
+  t_end: 1729.705
+  text: That's cool. This is the tool that I have right now, Playground, and the pattern is bomber. It's just killer. It's a spreadsheet. It's a spreadsheet in the works. Where it really becomes a spreadsheet is. If I go here and this one is broken, it doesn't work other than the ui. But adding sources and adding prompts, now that's a spreadsheet. And because I can pipe between. My. Results, I have a composable workflow as spreadsheets in a row, you can go. Plus, minus, plus, minus, as you do down the row. Now you can do plus, minus, and. You can do multithreading. In the version that doesn't work, I. Can select more than one result. I could say, generate Personas, generate a. Persona and then generate an idea. And then in the next prompt, bring. The idea and the Persona in. And now apply this process to it. Instead of just saying 1, I would. Be able to select 1, 2, 3, and 4, and those would be the. Content source that then this prompt would act on. At which point I have N8N functional. At the node and spoke level, not with the extant functionality in it, but. This playground. And these are going to be like load playground, load export playground. This has 30 reports in it. And just a couple of these would be useful. And they would take a couple hours. If I was going to hand them. Off to a client, they probably take four hours or to take all the. Reports from one meeting. And to hand it off in a proper format would probably mean a lot of work. And in this case, the only work was my UI run all button in this version doesn't work very well. So the only thing I had, you know, I just had to hit the run buttons. That was it. And then I have, for one interview. I have it broken down into all. The bits and pieces I would build out Personas with. And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project. Build out all the assets to build. Personas, user journeys, every component of what primary research would want to deliver. And these prompts that I have in. Here, they're like scrubs. I just invented them on the go. I. From my UX scrub research, I. I. Wanted things to be really not my stuff, like long. I wanted it to be somewhat articulate, but then having a standardized format so. That people could see that because this is a structured prompt, it's more structured. Than most people's and it's just got two parts.
+- id: u42
+  speaker: Hanif Janmohamed
+  t_start: 1730.725
+  t_end: 1735.261
+  text: So. Dave, I had trouble with the piping. I wasn't able to actually.
+- id: u43
+  speaker: David Olsson
+  t_start: 1735.333
+  t_end: 1737.345
+  text: Yeah. Oh, it wasn't working for you?
+- id: u44
+  speaker: Hanif Janmohamed
+  t_start: 1737.685
+  t_end: 1743.189
+  text: Yeah, it said that it couldn't access the source or something like that.
+- id: u45
+  speaker: David Olsson
+  t_start: 1743.237
+  t_end: 1746.205
+  text: Yeah. Okay, so that can be.
+- id: u46
+  speaker: David Olsson
+  t_start: 1752.905
+  t_end: 1820.475
+  text: Oh no, I didn't put in. I didn't put in the password. It's going to give me an error. I didn't put in key. Ok, so thank you. So that context thing that I was talking about in the turtles, the reason. That it's so top of mind is. That when using the AI to code, it will sometimes rewrite code that you. Don'T want it to. And that's what happened is that I. Had the run all button functioning really well. The sequence from left to right, it was beautiful. It would finish one, it would go to the next. Because I want it to. You know, if you're piping from left to right, you need to have what's on the left done. And so my first version was asynchronous. Which was kind of cool. Right? Like that means everything gets done on its own and gets threaded to. It's multi threaded to the, to the. LLM and gets back much faster. It's a great way to burn money. But what I wanted to do is. To be able to, like you say, like, do the piping is like I've. Done something here, bring it in here. As my thing and then run it. And I'm sorry that that broke because it's. I've. I've been able to work it in other demos. So it's kind of. Because I've been demoing.
+- id: u47
+  speaker: Hanif Janmohamed
+  t_start: 1820.515
+  t_end: 1837.555
+  text: I was just curious though, do you just. Because I was trying to load multiple sources and then I decided, well, I'll just load one at a time and then do an analysis on a source and then I wanted to compare the results.
+- id: u48
+  speaker: David Olsson
+  t_start: 1838.095
+  t_end: 1908.085
+  text: Right. And that's a great use case. Yeah, that's the perfect use case. Right. Like that's a great. That's what its utility is supposed to be. And I'm sorry. So I'll just add a note to the transcript, Dave, make sure you look at this as, and describe it. Get it described as the way Hanif did, so that you can then use. That as the vector in. To debug it. I've. I've tried to fix it twice. It takes, you know, a good half. An hour at a time to be. Able to, to work a solution and my time is pretty tight. So I've been trying to. Because I'm just discussing with people, you know, trying to get their interest. There's just way too many things all at once. But I want this tool to be. Bomber by the end of the week so that I can use it more effectively. We have interviews in the, in the quality control project and the stuff I'm pulling out of just with this report, like doing this manually once. It's incredibly good, it's. It's helping. Yeah, some of the interviews are shite. In terms of, you know, they're all leading, you know, because people don't know how to read research. And this allows to work with the bias.
+- id: u49
+  speaker: Hanif Janmohamed
+  t_start: 1908.985
+  t_end: 1914.205
+  text: Yeah, I was just able to copy the results of one and put it into.
+- id: u50
+  speaker: David Olsson
+  t_start: 1914.665
+  t_end: 1917.473
+  text: Right. The prompt and then.
+- id: u51
+  speaker: Hanif Janmohamed
+  t_start: 1917.529
+  t_end: 1918.525
+  text: Yeah, and then.
+- id: u52
+  speaker: David Olsson
+  t_start: 1919.025
+  t_end: 2034.179
+  text: Yeah, and so that's why the copy and paste was there initially to be able to do that because I didn't. Have the piping and I'm like, well. With the copy and paste I can pipe. And so it's moving from me working. In spreadsheets to me trying to enable. That as a ui. And so I really appreciate that feedback because this is another interesting thing working this way. You're doing your best to describe things. In a concise manner and minimize how much is being touched by the AI. And so that's levels of, that's like levels of encapsulation. Right. So like, don't touch this, don't touch that, don't touch this, don't touch that. And that gets really long. So having a programmatic way of saying. You know, I want to do that is great. Now Klein does these whole hot calls. And tries to fix things in a whole way. Cursor AI, you can highlight code and then you can try to fix little. Bits and pieces of code. And that's a different paradigm. It's a much better paradigm, but it's not as effective. So there you go. And right now my limit is like. 1200 lines of code. Anything beyond that, you're hoopy but it. Should be the case and I'll make sure that I follow up with everybody. That I've tested it and put the link in our Slack channel that you can do this piping in a version of it. You do multi select and the UI works because it's showing all the results. But it didn't work in terms of the send to the LLM. So tracing.
+- id: u53
+  speaker: James Giroday
+  t_start: 2034.307
+  t_end: 2049.993
+  text: Can I ask a question? Earlier you described maybe handing some stuff. Stuff off for opportunities for stuff like that. I would wouldn't mind watching the rest of this demo with a bit of an idea about what that might be. Any, any ideas what you're.
+- id: u54
+  speaker: David Olsson
+  t_start: 2050.089
+  t_end: 2052.577
+  text: What you have in mind in terms of demos.
+- id: u55
+  speaker: James Giroday
+  t_start: 2052.641
+  t_end: 2055.905
+  text: Sorry, in terms of like you said you wanted to change.
+- id: u56
+  speaker: David Olsson
+  t_start: 2055.945
+  t_end: 2188.575
+  text: Oh, to hand off. Yeah, yeah, yeah. So there's certain people I know have certain roles and they're top of mind. When I'm trying to think of how to position this. And the piping was a big one. But this UX workflow that I have, I know a lot of UX and they do a lot of primary research. And I'm sure they would, if it didn't cost them any time, they would throw a handful of interviews at this just to get the results. And so I think of that that's one problem. Sets people are in marketing, people don't have a marketing team. You know, I built all these agencies. And now I'm trying to leverage the agencies with specificity. The direct to consumer stuff, it's in an agent, it's in a playground right now and it works on I pass it my fidget spinner and it produces. Okay results. And it's sitting there and I'm not going to let people use. It until it does better than that. But that's what I'm looking at right now is trying to enable simple use cases like here's four or five steps. Or for people to do research. Their problem isn't four or five steps. They know four or five steps. They want to do four or five. Steps 10 times or do like I do 30 steps and then do them 50 times. And so you create 3,000 knowledge blobs that are actual full on reports. So there's probably 100. No, there's 300,000 data points at least. No, it's probably half a million data. Points in a report that has 30 interviews. That's a lot. And then because it's all structured, it's wonderful. It's really wonderful. So that's kind of, that's what I wanted to bring to the Team today. I want to. I want. I really do want to, like, with this forming and Henny having very articulate questions. I want to be. And James, you're pointing to it as well. Is like, that's where things are at. Right now for me. And I think. You know, the question. Of how to use it and what it's useful for are known, like, at least conceptually. But how to work with it differently is tough.
+- id: u57
+  speaker: James Giroday
+  t_start: 2188.695
+  t_end: 2203.385
+  text: That's. Is that what you're kind of, like, looking for a bit of feedback on is, like, how maybe, like. Because that. One of the questions that is how to use it and just like, feedback sort of. Yeah, yeah, I had a. Yeah, sorry, go ahead.
+- id: u58
+  speaker: David Olsson
+  t_start: 2203.505
+  t_end: 2216.961
+  text: No, no, that. That's completely. Is like one, what are you doing? Is a big one, and then two, if you're using it, how are you. Because it does allow for a bunch. Of different use cases. Like just structured use cases.
+- id: u59
+  speaker: James Giroday
+  t_start: 2217.113
+  t_end: 2241.655
+  text: Totally. Okay, got it. Nice. That makes sense. Yeah. So are you thinking of, like, maybe enhancing these cards? The cards is like one of the main things I've glommed onto, if you'll excuse. Yeah, yeah, I'm done to that one big time. Yeah, the cards make a lot of sense to me. Like, they're kind of easy to understand. And are you considering, like, enhancing the cards in any way?
+- id: u60
+  speaker: David Olsson
+  t_start: 2241.815
+  t_end: 2319.395
+  text: Yeah. So what in this version. Yeah, you can see there's a toolbar here. And that toolbar has conceptually extended to. One that has the whatever the AI wizard button thing looks like. And then from that, you know, right below this, it says chat with this content, and so you can chat with the results right in there. Where there's a big opportunity for that is so in every card where there's a result text field, the opportunity to. Analyze that in context is incredibly valuable. And so adding more features into the. Card to make the card provide you. More than just the result. Right. So, sure, that's a great Persona. Can you make it just 20 words? You know, can you focus this Persona on being active this way? So, like, in many prop systems, there's like an enhance button, and that's kind. Of how I saw it. It's like if you have a Persona and the initial ones are pretty. Pretty simple.
+- id: u61
+  speaker: James Giroday
+  t_start: 2321.455
+  t_end: 2323.431
+  text: Enhance, and you have an.
+- id: u62
+  speaker: David Olsson
+  t_start: 2323.463
+  t_end: 2416.265
+  text: Enhanced button, and then I give you. A work sauna Persona, and you're like, whoa. But the card level, that's one thing where I want to integrate the tools to be say, well, here's my prompt. There's a lot of prompt optimizers out there. And the reason Is because it's easy because you add your structure and then. You say, make it like this. And so you could do that here. You could enhance the prompt and then you can say, analyze the result. That's one thing. The real spreadsheet thing is, well, you got the piping from left to right. So you can work your magic from this cell to this cell to this. Cell to this cell. And then at the end you could have a composite result, right. You could say average everything or no, that's not good because they're all separate reports. Create a project plan based on all. Of the results, which is great. That would say you have a longitudinal. View on all these reports. Now, if you want to have a vertical view, that's the super big powerful. Thing that I want to figure out next. And that is this prompt is being executed against all of these things over here. All these. If they're interviews, then the results are going to be structured the same way. And so at the bottom of each of these columns, there would be a very interesting card. And the card would allow you to. Analyze all columnar results. And then it's a spreadsheet.
+- id: u63
+  speaker: James Giroday
+  t_start: 2419.045
+  t_end: 2485.045
+  text: Okay, I got a question here. Have you considered just having like all of these, like, there's two different playground layouts here that we're looking at. Have you considered bringing those both into just like one page where you can toggle between layouts using like a tray and maybe like, maybe there's like. These are all fairly, for lack of a better word, not intimidating, but like complex. Yeah, layouts. Maybe there's one where there's like, you just see one card at a time. And because the card is like a structure all unto its own, I think it's like really powerful if you maybe you just see one card at a time and then you can like, you know, like cycle through images. Like you can go back or forward. But what I'm saying is like, I guess.
+- id: u64
+  speaker: David Olsson
+  t_start: 2490.155
+  t_end: 2492.935
+  text: Oh, can't hear you.
+- id: u65
+  speaker: Jason Kryski
+  t_start: 2493.515
+  t_end: 2494.855
+  text: You're on mute. James.
+- id: u66
+  speaker: James Giroday
+  t_start: 2495.675
+  t_end: 2516.445
+  text: Oh, yeah, Somehow I muted myself. Anyways, on like, design wise, a lot of the. What I try to do is just throw options out there and then like, you know, call them down later. And that might be one way to look at it in terms of the.
+- id: u67
+  speaker: David Olsson
+  t_start: 2517.545
+  t_end: 2681.635
+  text: I like what you're pointing to is the card and I recognize the card. Is super limiting the view that it is. And adding a button that says enhance is just going to be like a thumbnail button. And you're like, well, what's that? And you can't really read things very well. So my notion is the card should extend out. Extend out on the screen, just like a canvas or whatever, a. Modal dialogue, whatever you want to call it, where you're working within the card and then in a way that it's. Taking over the screen. And then the reason I arrived at that is because there's a new card. I want to introduce and that's the. Scenario card and that's the contextualizing and the constraints around the whole of the workflow. And so as soon as I introduce. That, then I have, then I'm saying, well, every prompt that goes to the LLM is going to be contextualized, right? It's like, okay, I use the phrase. I'm salting my steak, I'm sending the steak. And now the salt is going to. Be this context and the context is going to make sure that what the. Results come back are going to be focused. And so that was, that's a really powerful thing. And that scenario card, I've already designed. A scenario because I've been doing this kind of stuff. And the scenario has different components, constraints, you know, description. So those are all field areas, right? So it requires a different type of input because I don't want it to. Be paragraphs, I want it to be broken out so that people say that. Oh, okay, I got that. This is a component, I got a view this way. And so that requires a UI that. Has a card that is scrollable in. Different sections and at which point it breaks the model. And so my design pattern has been since I understood programming is we do everything the same until we don't have to. And so I feel lucky that I've relied on my training such, you know, intuitively. And I have an amazing pattern in place. And it's not even like, it's just amazing how I've applied it. And it's a simple pattern, it's a. Card based pattern, it's a, it's a cell based pattern. And so yeah, I, you know, I. Said like my email, I'm like, man, this is my, seriously, the first job I took was doing this and seeing. What you could do with cells. I didn't know what I was like when, when you're problem solving, you don't know what you're doing a lot of the time in terms of the innovation. So that's been a significant component of this is how to like we pitched yesterday to VC and they're like, come back later. Like, I got that. And so come back later is like. Make it look like it does something. Not it does something, but make it look like it does something.
+- id: u68
+  speaker: James Giroday
+  t_start: 2683.015
+  t_end: 2684.071
+  text: I get that.
+- id: u69
+  speaker: David Olsson
+  t_start: 2684.263
+  t_end: 2713.105
+  text: And so right now it does something. And if I have a problem, I can, I can solve 100 million dollar. Problems with this in days. I can solve 100 million dollar problems. In about three weeks, two weeks, three weeks. But I can solve. And by that I mean here's a. Model and work with it, or here's a problem, develop a model, work with it. This allows for the modeling to be crazy.
+- id: u70
+  speaker: James Giroday
+  t_start: 2713.265
+  t_end: 2725.765
+  text: You know, it's kind of like I remember being in high school and doing physics or math problems and, you know, showing them the answer and then they'd be like, well, you got to show your work. You don't, you don't get full points unless you.
+- id: u71
+  speaker: David Olsson
+  t_start: 2727.385
+  t_end: 2780.423
+  text: I had the same problem in algebra. I skipped grade eight and then I. Was in grade nine. And I could intuitively figure it out. I did it kind of backwards. I still do math a little bit backwards, or I do it, whatever. And they, they, they stopped me in my tracks. And they did the same thing. My daughter and you had the same thing going on. And I feel it's one of the. Greatest disappointments in education that they don't understand. There's a way to teach that doesn't remove that intuition. Took years to get it back, man. Years. Years and years. And I'm not there, right? If I would have been able to keep going on that understanding of things, I would have been a mathematician as a career. But I was derailed in high school to enough where I could get A's and minus A minuses and not know what I was doing after three weeks, you know, like I. The learning pattern was broken. And you point to that maybe that's.
+- id: u72
+  speaker: Hanif Janmohamed
+  t_start: 2780.439
+  t_end: 2786.567
+  text: What high school is. It's kind of where people get derailed, right?
+- id: u73
+  speaker: David Olsson
+  t_start: 2786.591
+  t_end: 2787.927
+  text: And so that you spend the next.
+- id: u74
+  speaker: Hanif Janmohamed
+  t_start: 2787.991
+  t_end: 2789.525
+  text: Four years, that's what it's about.
+- id: u75
+  speaker: Jason Kryski
+  t_start: 2789.695
+  t_end: 2792.285
+  text: I don't know, get in the box.
+- id: u76
+  speaker: David Olsson
+  t_start: 2794.345
+  t_end: 2991.467
+  text: It wasn't about, it wasn't about learning. I mean, learning curricula, right? I mean, I. But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right? But man, now you read Shakespeare, like, why was it so hard? But yeah, I do. See, I see that this is like a really neat place to arrive, you know, after I. My first product was in 1992 with Dean Dean Edwards in Victoria. I had a bulletin board system called Second Sight. We bought it for 75 bucks off a guy who's upgrading to the new version. And we bought his old version. And while we weren't on the Internet, we hosted BBS's, right. We bought used software and we ran it on our phone and that was the first product. But that was, that was years, years. After I had already made products in oil and gas. I just didn't know. Right. So I think that this can turn into air tables. It's going to turn into air tables in, in a week. If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break. So the piping has to be fixed. I also did something cool with it. I decomposed it. It's a proper app. It is running. It has no, it is now it needs to be like the version I. Have, this one is just a web page. But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready. To roll with real devs. I'm still hacking on my old version with 1200 lines of code. So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have. And it's, it's about simplicity is the next thing I've. Yesterday I just sent out a whole lot of emails. A whole lot for me is 5. To people sending them the links, the password, the key and a link to. A data set and just waiting for. The responses and knowing that these are. My friends of sorts, the responses are going to be nice. Dave looks cool. I need a tutorial. That was the best one. My response back is everyone needs a tutorial. And that's been my approach. If you have a unique problem, you have a unique pattern. And that unique pattern is one of looking to expose the value in agentic thinking. And that has that left right workflow thing. So demos are going to be what I'm doing. I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right? So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up. And that's a demonstration of my, my software in your space and ends in their inbox. They get a transcript, they can talk to it, you know.
+- id: u77
+  speaker: Hanif Janmohamed
+  t_start: 2991.611
+  t_end: 3008.445
+  text: So yeah, are you going to support like multiple sources? Right now it's parses the source and puts it into that box on the Left when you upload a second one, it just replaces it or does it append?
+- id: u78
+  speaker: David Olsson
+  t_start: 3009.865
+  t_end: 3087.705
+  text: Right now it replaces it, but what it's supposed to do is append it here. Multiple resources. The multiple sources automatically go into the rows associated. This tray in the next view. This tray can't be stationary like this. With this view, the tray has to. Line up with the columns and your. Tray would be right here. This one will be sourced, it'll be. Different color, just like some other things. And then you could delete that source and that row would go away. It is the case that it works with multiple images. Yeah, I saw that and I didn't ask for that. I tried to replace an image and it went up and then I'm like, I can actually select multiple images. And so, you know, it's already baked in. It's just not across the app because. I haven't put in a requirement to then retune my app. And that is a. That is that workflow that I talked. About where if I had that described at the beginning and I fed it. In each time when I'm, you know. The context, then hopefully. Oh, I just found something.
+- id: u79
+  speaker: Jason Kryski
+  t_start: 3091.405
+  t_end: 3091.905
+  text: Ok.
+- id: u80
+  speaker: David Olsson
+  t_start: 3091.805
+  t_end: 3129.525
+  text: So I've been doing things manually but if I were to create, say here's my prompt that I wanted to change my code to and then I analyzed it and analyzed the results afterwards with the prompt, then I could probably. That could be my context for my next thing. Sorry, thinking out loud because context is driving me crazy and I didn't hopefully. Jason, you're not down the existential rabbit hole because your context is wide and. Deep and we want it to be trees and not turtles.
+- id: u81
+  speaker: Jason Kryski
+  t_start: 3130.345
+  t_end: 3133.329
+  text: Yeah, I kind of just put it down for a minute.
+- id: u82
+  speaker: David Olsson
+  t_start: 3133.497
+  t_end: 3146.435
+  text: I know you're well and I did too. And then it was long enough that when I picked it back up I was able to do that thing. And Jason, we're going to keep talking because I think you're on that cusp too.
+- id: u83
+  speaker: Jason Kryski
+  t_start: 3146.855
+  t_end: 3150.075
+  text: Yeah, no, I think it's right there.
+- id: u84
+  speaker: David Olsson
+  t_start: 3151.335
+  t_end: 3158.303
+  text: One little app will do it. One little app and then you'll bug your devs on fixing your shit outward.
+- id: u85
+  speaker: Jason Kryski
+  t_start: 3158.399
+  t_end: 3173.603
+  text: Yeah, well, I'm going to spend some time this week. I'm going to play with what you built here. I haven't had a chance to really dig into it yet. I've been spending a little bit of like brain dead time just like using to build some stuff.
+- id: u86
+  speaker: David Olsson
+  t_start: 3173.739
+  t_end: 3174.415
+  text: Cool.
+- id: u87
+  speaker: Jason Kryski
+  t_start: 3175.395
+  t_end: 3187.335
+  text: It's actually oddly therapeutic. I don't know why to like just talk to a machine and have it like fix things. There's something about it that is like kind of.
+- id: u88
+  speaker: David Olsson
+  t_start: 3188.195
+  t_end: 3189.483
+  text: It's pretty cool.
+- id: u89
+  speaker: Jason Kryski
+  t_start: 3189.619
+  t_end: 3199.125
+  text: Yeah, I'm just like, I'm just enjoying the. The agency over the machine, I think at this point.
+- id: u90
+  speaker: David Olsson
+  t_start: 3199.665
+  t_end: 3277.015
+  text: Wow. I'm. I'm there. I. The cadence is driving me a bit nuts, so I need it to be better. To your point, since you brought it. Up, I'm gonna follow up Suit. I. Hey, see James, I've got a. Got a 9:00, so I'll be prudent five minutes. But I built two things. I said like, yeah, the CEO linger index was a joy to build. That was me watching tv, building a spec based on an idea I had and then seeing it actually function within three hours. That's how long Karen went to the movie for. And then. And so I did that with this chat thing too. It's like I need just a chat interface where I can just. I wanted to have a works on a chat interface that wasn't me using someone else's. And so this is a great way to do it because the chat interface is very common. And I described it and I gave it a screenshot of what I was looking for because I want to. I'm looking at this color palette kind of thing and I wanted it to. Be similar, but I also am trying to, you know, get all the features in there and see how things work in a short period of time. So. So I was able to, you know, upload and then I got a viewer in there. So.
+- id: u91
+  speaker: David Olsson
+  t_start: 3282.675
+  t_end: 3476.845
+  text: So I, you know, I built. Oh, I did that wrong. I searched Whoops Search and AIM Q. I built, you know, the components that I'd like to see seeing it and they're not talking to each other yet. And I'm getting all these weird token errors. But in various versions of this, I was able to get it functional and acting really cool. Right? Like do a search and then analyze. That in the chat. And that's just a simple thing. But if I'm going to show things to people in the world, this is a great one to have on the website because I can and how it goes. I would upload just like I did with the Shark Tank. And I'll make that available too. I'll just upload like a knowledge or a fact of work Sona and that's how it's loaded. And then you can just do the same thing, your own and you know, and so getting these things, these utilities or these views out there, I'm really quite focused on how I spend my. Time because I burn out and I burn hot. So I want to make sure that. I'm doing the right things in the. Right part of the day. But to your point, Jason, I think the next time we meet, we'll do this together. We'll do it side by side, spec it and do a little app, and then that will be the cracking of the nut. Because it is rewarding if you're doing something to see it fix problems. It's super rewarding if you can describe the problem. And it does understand that. And so because I've been coding for so long, like I can, and doing UXD and all these other things is like, yeah, you can describe things. You know apps. You two guys know apps. Like no one's business, even on all sides of designing them. So debugging them with words is cool. Now it's super awkward. If you get long code and you. Do all kinds of things, you got to be ginger about things. That's the brittle nature of it. But if you do a small app and you just describe it and you give it a sketch, it'll work. I gave like I Jenna J I N AI they have a neat. You can use their reader to do. Markdown of a webpage. They got a neat website. It's all techie because, you know, it's designed after devs. And I just used that as a. Here's my content. Use that website as this page as the design. And it built out a website that looked like that website, a web page. That looked like a website with functionality. That I didn't describe based on the website. And so you can do that kind. Of looky lose thing as the starting point. And then my stuff has a real feel. Like the works on a playground is a work feeling. And it's. I like it, but that's not where I'm gonna go with it. I'm gonna go with this black and green and taupe thing. And it's gonna. It's gonna. I'm in the mode of trying to baffle people or how about this market. To people and their expectations are just kind of cliche.
+- id: u92
+  speaker: Jason Kryski
+  t_start: 3479.185
+  t_end: 3488.555
+  text: That is they. They are not trying to look for something. They're not trying to understand something new. You need to really help them understand.
+- id: u93
+  speaker: David Olsson
+  t_start: 3489.015
+  t_end: 3527.033
+  text: Yeah, it's pretty crazy. Yeah, it's the education part, right? It's like in this piece and I seem to do this to myself. I get into like, I don't like championing the category. And that's where I'm at again. And so examples are everything. And that's what, you know, we're Getting exposure to, to VCs, so being able to elicit more, more quickly and say, oh, it looks like the other guys. Because I'm sorry, VCs are not like. They have money, but they're just regular Joes. They got lucky, most likely because they knew somebody. And their tools for analysis are just. As weak as anyone else in the ecosystem.
+- id: u94
+  speaker: Jason Kryski
+  t_start: 3527.169
+  t_end: 3530.105
+  text: They are pattern recognizing robots.
+- id: u95
+  speaker: David Olsson
+  t_start: 3530.265
+  t_end: 3534.883
+  text: That's it, man. And so if you don't get enough patterns, you recognize the wrong things.
+- id: u96
+  speaker: Jason Kryski
+  t_start: 3535.059
+  t_end: 3561.755
+  text: Yeah, it's just like, it's like buzzword, buzzword, you know, like you, you just gotta be in the. You know, it's funny, I found that you just gotta like frame it up and relate it to something that they understand that they already have like consensus around that is like. And then, then it's like, you know, then a bunch of whys or whatever. But it is more vibe than it is really anything else.
+- id: u97
+  speaker: David Olsson
+  t_start: 3562.135
+  t_end: 3565.183
+  text: Yeah, I know. You know that. And so I'm gonna lean on you here in the next few days, so.
+- id: u98
+  speaker: Jason Kryski
+  t_start: 3565.199
+  t_end: 3568.071
+  text: Yeah, man, I'm happy to help. I love that kind of stuff. That's my.
+- id: u99
+  speaker: David Olsson
+  t_start: 3568.143
+  t_end: 3585.767
+  text: I know. And that's. And so when I, I recognize when I start having no value for myself or I'm working really hard, you know, Working really hard and not getting anywhere or getting where I want to go. Anyways, I gotta get going because I got Manuel on the line, 9:00. And I want to warm up my coffee again.
+- id: u100
+  speaker: James Giroday
+  t_start: 3585.911
+  t_end: 3586.447
+  text: Thanks, Dave.
+- id: u101
+  speaker: Jason Kryski
+  t_start: 3586.471
+  t_end: 3587.739
+  text: Thanks. See you guys.
+- id: u102
+  speaker: David Olsson
+  t_start: 3587.775
+  t_end: 3589.223
+  text: Yeah, thank you guys. I really appreciate.
+- id: u103
+  speaker: Hanif Janmohamed
+  t_start: 3589.239
+  t_end: 3592.355
+  text: I heard a term just as part vibe.
+- id: u104
+  speaker: Jason Kryski
+  t_start: 3593.295
+  t_end: 3594.635
+  text: What Vibe?
+- id: u105
+  speaker: James Giroday
+  t_start: 3596.215
+  t_end: 3597.463
+  text: It's the vibe economy.
+- id: u106
+  speaker: Hanif Janmohamed
+  t_start: 3597.559
+  t_end: 3598.207
+  text: Check it out.
+- id: u107
+  speaker: Jason Kryski
+  t_start: 3598.311
+  t_end: 3598.811
+  text: Yeah.
+- id: u108
+  speaker: David Olsson
+  t_start: 3598.855
+  t_end: 3600.935
+  text: All right. That's a good one to leave on, man.
+windows:
+- id: W-0001
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  text: Hello. Hello. That's a good one.
+- id: W-0002
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  text: Hello. That's a good one. Silly setup. Morning. Good morning. Good morning. Good morning. Oh, the Ooda loop. Love that. Yeah. Trying to find things that people can glom on to. And I've pointed out that I studied the military, and I just realized. I say that now, but they're worth studying.
+- id: W-0003
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  text: Good morning. Good morning. Good morning. Oh, the Ooda loop. Love that. Yeah. Trying to find things that people can glom on to. And I've pointed out that I studied the military, and I just realized. I say that now, but they're worth studying. Yeah. Well, I'm a major glommer myself, so I appreciate all that. Yeah, I'm glomming hard here. Holy gloms. Yeah. And so I had a discussion yesterday with Fulvio. He won't be joining us today, but. The discussion was along the lines of there's tools coming up for setting. Setting up context properly in development environments like Klein and others, where you. One of the things that happens is. You constantly lose your context. And so you're trying to set it. At a global level. You're trying to set it at, like, at the app level and then even at the function level. Right. But my thing is, like, it's all reflective. What I'm doing at each level is the same thing. It's just described slightly differently. The application needs to do this. Then I wanted to use these things, and then I wanted to perform this way. And then here's a function that's not working properly. And so. You'Ve heard it's turtles all the way down. You've heard that phrasing? No, I like Jason's look. Okay, Jason, what do you. Existential crisis at 8 o'clock in the. Morning on a Wednesday? No, no, I'm gonna build it up. It's not gonna be a crisis. Okay.
+- id: W-0004
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: Yeah. And so I had a discussion yesterday with Fulvio. He won't be joining us today, but. The discussion was along the lines of there's tools coming up for setting. Setting up context properly in development environments like Klein and others, where you. One of the things that happens is. You constantly lose your context. And so you're trying to set it. At a global level. You're trying to set it at, like, at the app level and then even at the function level. Right. But my thing is, like, it's all reflective. What I'm doing at each level is the same thing. It's just described slightly differently. The application needs to do this. Then I wanted to use these things, and then I wanted to perform this way. And then here's a function that's not working properly. And so. You'Ve heard it's turtles all the way down. You've heard that phrasing? No, I like Jason's look. Okay, Jason, what do you. Existential crisis at 8 o'clock in the. Morning on a Wednesday? No, no, I'm gonna build it up. It's not gonna be a crisis. Okay. I'm not gonna spiral then. Okay, so, yes, that's the problem. The concept or the phrasing is like. It'S turtles all the way down. And the notion is we're, you know, there. This flat, and we're standing. Or we're standing on the back of a turtle. Right? And then we're, you know, it's a platform. What is it? The turtle is our platform. And then, you know, if you. In the scenario, it's a philosopher talking to somebody, an elder or whomever, and the question is, well, what's, you know, so there's a flat earth and there's a turtle, and we're standing on top of that. Or there's a turtle and we're standing. On top of that. What's under the turtle? It's another turtle under the turtle. It's turtles all the way down. And meaning, if you have a platform. Or a foundation, what is it standing on? And so. Yeah, right. And so you keep going Deeper. Right. And so the notion as a negative. Sort of analog, the notion is you have. You keep surf, you uncover more and. More, and it turns into this rat's nest of roots going down, trying to find more and more grounding and more and more founding. But, you know, there's a lot to that value. It's like that recursive. Like I landed on recursion from my experience of working in the code and with prompting, saying that the same thing is happening at every level, but it's. Happening slightly differently at every level, but it's the same description of it. Right. I can say meta, meta with metadata. It's the same thing. The specifics of the tasks are different. But if we, you know, I found this in my work, like, I'll find something. I'm like, okay, this is interesting. Direct to consumer. Okay, direct to consumer. There's a paradigm here. What's a landing page look like? Well, there's a structure to a landing page. Well, there's a structure to the landing page because each of the sections does something. Yes, each of the sections does something. What do they do? Well, they do this. They do social pressure. Okay, what's social pressure? Okay, cool. What's. What kinds of social pressure? Turns out there's a lot of them. What are the best ones? Good, great. What if you're, you know, what if you're building a community? Well, you've got an adoption curve. Which one of those works with an adoption curve? Right. There's your turtles on turtles is that. One framework produces another framework produces another framework in terms of your, you know. You'Re trying to constantly ground things. And if I look at Jason, Jason's got like this amazing workflow because he understands the industry and the turtles keep going on. That's why he doesn't want an existential crisis in the middle of the week. I'm guessing.
+- id: W-0005
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  text: It's turtles all the way down. And meaning, if you have a platform. Or a foundation, what is it standing on? And so. Yeah, right. And so you keep going Deeper. Right. And so the notion as a negative. Sort of analog, the notion is you have. You keep surf, you uncover more and. More, and it turns into this rat's nest of roots going down, trying to find more and more grounding and more and more founding. But, you know, there's a lot to that value. It's like that recursive. Like I landed on recursion from my experience of working in the code and with prompting, saying that the same thing is happening at every level, but it's. Happening slightly differently at every level, but it's the same description of it. Right. I can say meta, meta with metadata. It's the same thing. The specifics of the tasks are different. But if we, you know, I found this in my work, like, I'll find something. I'm like, okay, this is interesting. Direct to consumer. Okay, direct to consumer. There's a paradigm here. What's a landing page look like? Well, there's a structure to a landing page. Well, there's a structure to the landing page because each of the sections does something. Yes, each of the sections does something. What do they do? Well, they do this. They do social pressure. Okay, what's social pressure? Okay, cool. What's. What kinds of social pressure? Turns out there's a lot of them. What are the best ones? Good, great. What if you're, you know, what if you're building a community? Well, you've got an adoption curve. Which one of those works with an adoption curve? Right. There's your turtles on turtles is that. One framework produces another framework produces another framework in terms of your, you know. You'Re trying to constantly ground things. And if I look at Jason, Jason's got like this amazing workflow because he understands the industry and the turtles keep going on. That's why he doesn't want an existential crisis in the middle of the week. I'm guessing. It'S gone beyond anything useful. Right. And so that's what the phrase is. Usually is pointed to, is it's never. Really Dr. Sue Turtle Tower. Right. It's not useful. But how about this? I've had this keen understanding of inverted truths for a while. I like that. And so inverted truths are like the promise that's delivered is never what's, you. Know, promise that's evoked is never what's evidenced. And so if we say that this turtles on turtles, there's something to it. There's incredible value. I've built it into my platform. Okay. But it's way I'm looking at things is I'm trying To elevate the thinking of people. Decision making strategy, the ability to work at high levels. I'm not asking people to get to the roots of the matter in the code or understand hex or what a machine does. I'm asking them to say, describe your. Problem and maybe some variables around it. And that's high level strategy stuff. So that's actually, if you look at it, it's inverting it, you know, saying we're working upwards instead of saying we're working downwards and it's getting bigger, we're working upwards and it's working towards a point. And that point is something to act upon, a decision to act. And it's a, at the highest level, it's a 0 or a 1, right? In the most, if you do all your work to come to decision, you make a decision and once you're past it, things are different. And so if we invert this turtles instead, instead of it being turtles all the way down, it's turtles all the way up. It turns into a tree and a tree reaches up and you can have all of these strategies reaching up towards understanding what that one concept is. Right. The tree does go like this, but it aspires to go up. And as you go up you get more specificity. And so the turtles thing was quite cool. And where I, bro, bring this back down to the OODA loop is that the turtles can be a process. So the, and that's, I'm getting to what I call the how. Said this before the how of how, but now we can go to the how of how how because they're all just turtles.
+- id: W-0006
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  text: It's turtles all the way down. And meaning, if you have a platform. Or a foundation, what is it standing on? And so. Yeah, right. And so you keep going Deeper. Right. And so the notion as a negative. Sort of analog, the notion is you have. You keep surf, you uncover more and. More, and it turns into this rat's nest of roots going down, trying to find more and more grounding and more and more founding. But, you know, there's a lot to that value. It's like that recursive. Like I landed on recursion from my experience of working in the code and with prompting, saying that the same thing is happening at every level, but it's. Happening slightly differently at every level, but it's the same description of it. Right. I can say meta, meta with metadata. It's the same thing. The specifics of the tasks are different. But if we, you know, I found this in my work, like, I'll find something. I'm like, okay, this is interesting. Direct to consumer. Okay, direct to consumer. There's a paradigm here. What's a landing page look like? Well, there's a structure to a landing page. Well, there's a structure to the landing page because each of the sections does something. Yes, each of the sections does something. What do they do? Well, they do this. They do social pressure. Okay, what's social pressure? Okay, cool. What's. What kinds of social pressure? Turns out there's a lot of them. What are the best ones? Good, great. What if you're, you know, what if you're building a community? Well, you've got an adoption curve. Which one of those works with an adoption curve? Right. There's your turtles on turtles is that. One framework produces another framework produces another framework in terms of your, you know. You'Re trying to constantly ground things. And if I look at Jason, Jason's got like this amazing workflow because he understands the industry and the turtles keep going on. That's why he doesn't want an existential crisis in the middle of the week. I'm guessing. It'S gone beyond anything useful. Right. And so that's what the phrase is. Usually is pointed to, is it's never. Really Dr. Sue Turtle Tower. Right. It's not useful. But how about this? I've had this keen understanding of inverted truths for a while. I like that. And so inverted truths are like the promise that's delivered is never what's, you. Know, promise that's evoked is never what's evidenced. And so if we say that this turtles on turtles, there's something to it. There's incredible value. I've built it into my platform. Okay. But it's way I'm looking at things is I'm trying To elevate the thinking of people. Decision making strategy, the ability to work at high levels. I'm not asking people to get to the roots of the matter in the code or understand hex or what a machine does. I'm asking them to say, describe your. Problem and maybe some variables around it. And that's high level strategy stuff. So that's actually, if you look at it, it's inverting it, you know, saying we're working upwards instead of saying we're working downwards and it's getting bigger, we're working upwards and it's working towards a point. And that point is something to act upon, a decision to act. And it's a, at the highest level, it's a 0 or a 1, right? In the most, if you do all your work to come to decision, you make a decision and once you're past it, things are different. And so if we invert this turtles instead, instead of it being turtles all the way down, it's turtles all the way up. It turns into a tree and a tree reaches up and you can have all of these strategies reaching up towards understanding what that one concept is. Right. The tree does go like this, but it aspires to go up. And as you go up you get more specificity. And so the turtles thing was quite cool. And where I, bro, bring this back down to the OODA loop is that the turtles can be a process. So the, and that's, I'm getting to what I call the how. Said this before the how of how, but now we can go to the how of how how because they're all just turtles.
+- id: W-0007
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  text: And so inverted truths are like the promise that's delivered is never what's, you. Know, promise that's evoked is never what's evidenced. And so if we say that this turtles on turtles, there's something to it. There's incredible value. I've built it into my platform. Okay. But it's way I'm looking at things is I'm trying To elevate the thinking of people. Decision making strategy, the ability to work at high levels. I'm not asking people to get to the roots of the matter in the code or understand hex or what a machine does. I'm asking them to say, describe your. Problem and maybe some variables around it. And that's high level strategy stuff. So that's actually, if you look at it, it's inverting it, you know, saying we're working upwards instead of saying we're working downwards and it's getting bigger, we're working upwards and it's working towards a point. And that point is something to act upon, a decision to act. And it's a, at the highest level, it's a 0 or a 1, right? In the most, if you do all your work to come to decision, you make a decision and once you're past it, things are different. And so if we invert this turtles instead, instead of it being turtles all the way down, it's turtles all the way up. It turns into a tree and a tree reaches up and you can have all of these strategies reaching up towards understanding what that one concept is. Right. The tree does go like this, but it aspires to go up. And as you go up you get more specificity. And so the turtles thing was quite cool. And where I, bro, bring this back down to the OODA loop is that the turtles can be a process. So the, and that's, I'm getting to what I call the how. Said this before the how of how, but now we can go to the how of how how because they're all just turtles. Dr. Thing was very informative. Yeah. So yeah, it turns out he's a bad guy, but he might have been. A smart man, but yeah, it was. He was a Nazi though. Was he or was he? Yeah. Well, we'll leave it at its art and artists are different. And so the turtles thing here is the OODA loot. I need people to understand how to work with agentic systems and I need to give them some way points, right? And so we have problem process solutions. Of super generalized pattern. But the agents do this stuff like give them a document, they go in and they observe it, right? They go in there and they look. At it and then you tell them. To make some assumptions and then we. Do the, you know, if we do the assumptions and the analysis, that's the observance, right? So we, we observe to get tools to orient. So we may build a map from. All that information and then we can move through the Information better. And the purpose of the map is. To decide which path is best. And then we do an A STAR algorithm or whatever we do in terms. Of our head to get down that path. And then once we come to a decision point, and as an executive, I. Realized early on in my career that that's what my job was, to bring. Things to a decision point. And it didn't always mean it was a good decision, but it was a point at which we could act. And so everything comes to that, even. Me deciding to drink coffee. I always forget, now it's warm. So at the global level, I'm going to provide a workflow of an OODA loop and break out my left to right workflow into four stages. So people say, here's where I am. Trying to define the problem. I'm observing. Willie enough in that place of observing, you're defining the problem. You're saying, this is the parameters, this is what I want to know, and. This is the query I have. Then from that, then I would say, well, here's how we have some agents. That can help you with that. To build a structured data set, you. Learn the problem set, and then you could move through that and orient yourself as to what the problem really means, possibly by doing simulations, saying, in the future things could be different. And so if you did simulations, you'd see that it doesn't really matter how. Much money you put into a project, it's the people you put in. And then you're like, okay, that's what we'll move on. That was the decision. Hire people, don't get investment. And so you act upon that and. You have this evidence trail that you went down. And the evidence trail is, I had a problem, I needed to define it, and then I analyzed it. And then we came together once I had something to look at and we decided. And so the turtles is there for the. That's a turtle and it's there for the user, and that's a turtle that's there for the agent, and that's a turtle that's there for the meta agent. Who'S organizing all the agents. And so that framing allowed for the turtle turtles to rise up towards strategy. Stop that.
+- id: W-0008
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u26
+  - u27
+  text: He was a Nazi though. Was he or was he? Yeah. Well, we'll leave it at its art and artists are different. And so the turtles thing here is the OODA loot. I need people to understand how to work with agentic systems and I need to give them some way points, right? And so we have problem process solutions. Of super generalized pattern. But the agents do this stuff like give them a document, they go in and they observe it, right? They go in there and they look. At it and then you tell them. To make some assumptions and then we. Do the, you know, if we do the assumptions and the analysis, that's the observance, right? So we, we observe to get tools to orient. So we may build a map from. All that information and then we can move through the Information better. And the purpose of the map is. To decide which path is best. And then we do an A STAR algorithm or whatever we do in terms. Of our head to get down that path. And then once we come to a decision point, and as an executive, I. Realized early on in my career that that's what my job was, to bring. Things to a decision point. And it didn't always mean it was a good decision, but it was a point at which we could act. And so everything comes to that, even. Me deciding to drink coffee. I always forget, now it's warm. So at the global level, I'm going to provide a workflow of an OODA loop and break out my left to right workflow into four stages. So people say, here's where I am. Trying to define the problem. I'm observing. Willie enough in that place of observing, you're defining the problem. You're saying, this is the parameters, this is what I want to know, and. This is the query I have. Then from that, then I would say, well, here's how we have some agents. That can help you with that. To build a structured data set, you. Learn the problem set, and then you could move through that and orient yourself as to what the problem really means, possibly by doing simulations, saying, in the future things could be different. And so if you did simulations, you'd see that it doesn't really matter how. Much money you put into a project, it's the people you put in. And then you're like, okay, that's what we'll move on. That was the decision. Hire people, don't get investment. And so you act upon that and. You have this evidence trail that you went down. And the evidence trail is, I had a problem, I needed to define it, and then I analyzed it. And then we came together once I had something to look at and we decided. And so the turtles is there for the. That's a turtle and it's there for the user, and that's a turtle that's there for the agent, and that's a turtle that's there for the meta agent. Who'S organizing all the agents. And so that framing allowed for the turtle turtles to rise up towards strategy. Stop that.
+- id: W-0009
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  text: Yeah. Well, we'll leave it at its art and artists are different. And so the turtles thing here is the OODA loot. I need people to understand how to work with agentic systems and I need to give them some way points, right? And so we have problem process solutions. Of super generalized pattern. But the agents do this stuff like give them a document, they go in and they observe it, right? They go in there and they look. At it and then you tell them. To make some assumptions and then we. Do the, you know, if we do the assumptions and the analysis, that's the observance, right? So we, we observe to get tools to orient. So we may build a map from. All that information and then we can move through the Information better. And the purpose of the map is. To decide which path is best. And then we do an A STAR algorithm or whatever we do in terms. Of our head to get down that path. And then once we come to a decision point, and as an executive, I. Realized early on in my career that that's what my job was, to bring. Things to a decision point. And it didn't always mean it was a good decision, but it was a point at which we could act. And so everything comes to that, even. Me deciding to drink coffee. I always forget, now it's warm. So at the global level, I'm going to provide a workflow of an OODA loop and break out my left to right workflow into four stages. So people say, here's where I am. Trying to define the problem. I'm observing. Willie enough in that place of observing, you're defining the problem. You're saying, this is the parameters, this is what I want to know, and. This is the query I have. Then from that, then I would say, well, here's how we have some agents. That can help you with that. To build a structured data set, you. Learn the problem set, and then you could move through that and orient yourself as to what the problem really means, possibly by doing simulations, saying, in the future things could be different. And so if you did simulations, you'd see that it doesn't really matter how. Much money you put into a project, it's the people you put in. And then you're like, okay, that's what we'll move on. That was the decision. Hire people, don't get investment. And so you act upon that and. You have this evidence trail that you went down. And the evidence trail is, I had a problem, I needed to define it, and then I analyzed it. And then we came together once I had something to look at and we decided. And so the turtles is there for the. That's a turtle and it's there for the user, and that's a turtle that's there for the agent, and that's a turtle that's there for the meta agent. Who'S organizing all the agents. And so that framing allowed for the turtle turtles to rise up towards strategy. Stop that. I thought Dave was going to go out on the street there for a second, right. I'll throw them out the window. Looks like I'm in professional meetings. I'm asked to have a background. So I just wanted to reflect on the fact that it's a very interesting thing. And what's happening is that with the development tools, the Ability to provide context to working at the global level. Where I'm describing an app. I now do a screenshot. If I can take somebody else, else's stuff, say, this is something. And I do. Here's my description of it. And so that's my first turtle. It's a global view on things. It's like, that's the big thing. It's the platform, it's the foundation. The next thing is I move upwards, upwards, upwards until I get a ui. Right now, if I hand off the ui, I hand off three different things. Or four different things in a video. That's not a very good, uh, why. But at least that's sort of how. Now if we say turtling, that's a completely different thing. But how the analogy, how that anal. A girl taught me that word. I was like, you guys are so terrible women.
+- id: W-0010
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u29
+  - u30
+  - u31
+  text: I'll throw them out the window. Looks like I'm in professional meetings. I'm asked to have a background. So I just wanted to reflect on the fact that it's a very interesting thing. And what's happening is that with the development tools, the Ability to provide context to working at the global level. Where I'm describing an app. I now do a screenshot. If I can take somebody else, else's stuff, say, this is something. And I do. Here's my description of it. And so that's my first turtle. It's a global view on things. It's like, that's the big thing. It's the platform, it's the foundation. The next thing is I move upwards, upwards, upwards until I get a ui. Right now, if I hand off the ui, I hand off three different things. Or four different things in a video. That's not a very good, uh, why. But at least that's sort of how. Now if we say turtling, that's a completely different thing. But how the analogy, how that anal. A girl taught me that word. I was like, you guys are so terrible women. The gross. But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm,
+- id: W-0011
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u31
+  text: But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm,
+- id: W-0012
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u31
+  text: But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm,
+- id: W-0013
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u31
+  text: But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm,
+- id: W-0014
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  text: But yeah, that. I think that's. That was. To me, that was a. That was a good day where I. Actually started pulling out from the code and seeing through conversation that allowed me to then do eight pages of notes. And James, I think I mentioned this. Your diagrams usually mean you're working at a higher level, understanding things. All my words, which have been there for the last three weeks, words and words and words. I got eight pages of diagrams. So that's a completely different mode of thinking. And it was brought about by this notion of encapsulation of turtle turtles. And it was a really powerful thing to just, you know, go and say. Okay, this is a really, you know, there's. There are a lot of loops, right? I got Bloom's learning loop, which is. A huge one for me because that's. Everybody needs to learn through every cycle. And so you can pop that into as a cycle. Every one of these. Observe, orient and decide things. Right. And then when I'm proposing to do simulations, it's like, how granular do you want to get? Well, we can add another framework out of that. We can get more specific. Do you need to know at the, at the six or seven figures or at the, at the decimal point? And so I've, I've been doing work. To try to expose like the value. Of where works on. It can go with a ux, but it requires a whole lot of discussions because the problem is still nascent that people have. But I wanted, I wanted that pattern that I mentioned. Like I get a screenshot and then. I do a spac and do all kinds. Oh, I did a lot of work. To try to define a website I built like many Websites and I'm trying to do it procedurally, sit down and. Write it and then I use my. Writing in a bunch of ways. Anyways, I asked for an AI website. Look what I got guys. Looks like my stuff, but it's borrowed from every other first stage AI company. Is doing this node and spoke kind of animation background. Anyways, the aesthetic was one I wanted. With the green, brown, green and gray and taupe. And it did break out everything I wanted to in terms of use cases. Examples and providing a playground. And then what I've got right now is agents and agencies. I've designed a product called Workloader which allows you to onboard using my tool to onboard any amount of time series data and then turn it into knowledge graphs and training data. And now I'm going to be evoking how I can use all this for agent based modeling and being able to do predictive modeling. And it ties into the Criterion thing like 2000% and that it told me how to simulate finances from a strategy point of view. And that's that inverted triangle which I'll call the tree. And I'm going to take this and I'm going to keep processing it and. Turn it into you know like the heads on kind of effect theory thing. Like you add a head onto your vector and it turns into a crazy, crazy opportunity for you. But if you just use a vector. For querying, use a bunch of them. Those are like really good strategies for sort of paradigm, Can you see, man, this site is sharp. Well, it's pretty cliche. It's cliche. Yeah. It's good cliche then, because it looks nice. But okay, I say that and I. Guess I've been an outlier my career in that I, you know, the center of an industry is usually mushy and lacking center, and they're just a shimmer or whatever you want to call it. They're in the marketing. They're not in them in the trenches. So that's, you know, it's a marketing website. Websites are meant to sell things. On the topic of turtles, just while you do this, I'll tell a quick story. I actually saw a turtle about a year ago in the summer in Ontario. It was on a stump. It was a snapping turtle. Pretty big. Yeah, probably 30 years old. Like, pretty big one. And we walked up close to it and it didn't move at all. And it was alive. Then we noticed that it had probably like 40 little leeches on the bat on its back leg. So it was like probably kind of in pain. So anyways, we went. Went and grabbed some salt. We threw it on the leeches took. Took a five minutes. The turtle just stayed still on the stump. While we did this, we got all these 40 leeches off of its leg, continued on the walk, came back, turtle was gone. True story. Pretty random. I mean, yeah, like this turtle just chilled while we took the leeches off its leg. It was really random.
+- id: W-0015
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  text: On the topic of turtles, just while you do this, I'll tell a quick story. I actually saw a turtle about a year ago in the summer in Ontario. It was on a stump. It was a snapping turtle. Pretty big. Yeah, probably 30 years old. Like, pretty big one. And we walked up close to it and it didn't move at all. And it was alive. Then we noticed that it had probably like 40 little leeches on the bat on its back leg. So it was like probably kind of in pain. So anyways, we went. Went and grabbed some salt. We threw it on the leeches took. Took a five minutes. The turtle just stayed still on the stump. While we did this, we got all these 40 leeches off of its leg, continued on the walk, came back, turtle was gone. True story. Pretty random. I mean, yeah, like this turtle just chilled while we took the leeches off its leg. It was really random. Well, there's. There's actually a lot of turtles in Kelowna. I've seen one. I saw a paint, a painted, I think, up near. Yeah, but you have to find. You have to know, and you gotta be patient with them. But yeah, there's turtle crossings in Wilden. You know, the community next to mine. There's toll crossing signs. Oh, really? That's cool. This is the tool that I have right now, Playground, and the pattern is bomber. It's just killer. It's a spreadsheet. It's a spreadsheet in the works. Where it really becomes a spreadsheet is. If I go here and this one is broken, it doesn't work other than the ui. But adding sources and adding prompts, now that's a spreadsheet. And because I can pipe between. My. Results, I have a composable workflow as spreadsheets in a row, you can go. Plus, minus, plus, minus, as you do down the row. Now you can do plus, minus, and. You can do multithreading. In the version that doesn't work, I. Can select more than one result. I could say, generate Personas, generate a. Persona and then generate an idea. And then in the next prompt, bring. The idea and the Persona in. And now apply this process to it. Instead of just saying 1, I would. Be able to select 1, 2, 3, and 4, and those would be the. Content source that then this prompt would act on. At which point I have N8N functional. At the node and spoke level, not with the extant functionality in it, but. This playground. And these are going to be like load playground, load export playground. This has 30 reports in it. And just a couple of these would be useful. And they would take a couple hours. If I was going to hand them. Off to a client, they probably take four hours or to take all the. Reports from one meeting. And to hand it off in a proper format would probably mean a lot of work. And in this case, the only work was my UI run all button in this version doesn't work very well. So the only thing I had, you know, I just had to hit the run buttons. That was it. And then I have, for one interview. I have it broken down into all. The bits and pieces I would build out Personas with. And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project. Build out all the assets to build. Personas, user journeys, every component of what primary research would want to deliver. And these prompts that I have in. Here, they're like scrubs. I just invented them on the go. I. From my UX scrub research, I. I. Wanted things to be really not my stuff, like long. I wanted it to be somewhat articulate, but then having a standardized format so. That people could see that because this is a structured prompt, it's more structured. Than most people's and it's just got two parts.
+- id: W-0016
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u41
+  text: That's cool. This is the tool that I have right now, Playground, and the pattern is bomber. It's just killer. It's a spreadsheet. It's a spreadsheet in the works. Where it really becomes a spreadsheet is. If I go here and this one is broken, it doesn't work other than the ui. But adding sources and adding prompts, now that's a spreadsheet. And because I can pipe between. My. Results, I have a composable workflow as spreadsheets in a row, you can go. Plus, minus, plus, minus, as you do down the row. Now you can do plus, minus, and. You can do multithreading. In the version that doesn't work, I. Can select more than one result. I could say, generate Personas, generate a. Persona and then generate an idea. And then in the next prompt, bring. The idea and the Persona in. And now apply this process to it. Instead of just saying 1, I would. Be able to select 1, 2, 3, and 4, and those would be the. Content source that then this prompt would act on. At which point I have N8N functional. At the node and spoke level, not with the extant functionality in it, but. This playground. And these are going to be like load playground, load export playground. This has 30 reports in it. And just a couple of these would be useful. And they would take a couple hours. If I was going to hand them. Off to a client, they probably take four hours or to take all the. Reports from one meeting. And to hand it off in a proper format would probably mean a lot of work. And in this case, the only work was my UI run all button in this version doesn't work very well. So the only thing I had, you know, I just had to hit the run buttons. That was it. And then I have, for one interview. I have it broken down into all. The bits and pieces I would build out Personas with. And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project. Build out all the assets to build. Personas, user journeys, every component of what primary research would want to deliver. And these prompts that I have in. Here, they're like scrubs. I just invented them on the go. I. From my UX scrub research, I. I. Wanted things to be really not my stuff, like long. I wanted it to be somewhat articulate, but then having a standardized format so. That people could see that because this is a structured prompt, it's more structured. Than most people's and it's just got two parts.
+- id: W-0017
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  text: That's cool. This is the tool that I have right now, Playground, and the pattern is bomber. It's just killer. It's a spreadsheet. It's a spreadsheet in the works. Where it really becomes a spreadsheet is. If I go here and this one is broken, it doesn't work other than the ui. But adding sources and adding prompts, now that's a spreadsheet. And because I can pipe between. My. Results, I have a composable workflow as spreadsheets in a row, you can go. Plus, minus, plus, minus, as you do down the row. Now you can do plus, minus, and. You can do multithreading. In the version that doesn't work, I. Can select more than one result. I could say, generate Personas, generate a. Persona and then generate an idea. And then in the next prompt, bring. The idea and the Persona in. And now apply this process to it. Instead of just saying 1, I would. Be able to select 1, 2, 3, and 4, and those would be the. Content source that then this prompt would act on. At which point I have N8N functional. At the node and spoke level, not with the extant functionality in it, but. This playground. And these are going to be like load playground, load export playground. This has 30 reports in it. And just a couple of these would be useful. And they would take a couple hours. If I was going to hand them. Off to a client, they probably take four hours or to take all the. Reports from one meeting. And to hand it off in a proper format would probably mean a lot of work. And in this case, the only work was my UI run all button in this version doesn't work very well. So the only thing I had, you know, I just had to hit the run buttons. That was it. And then I have, for one interview. I have it broken down into all. The bits and pieces I would build out Personas with. And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project. Build out all the assets to build. Personas, user journeys, every component of what primary research would want to deliver. And these prompts that I have in. Here, they're like scrubs. I just invented them on the go. I. From my UX scrub research, I. I. Wanted things to be really not my stuff, like long. I wanted it to be somewhat articulate, but then having a standardized format so. That people could see that because this is a structured prompt, it's more structured. Than most people's and it's just got two parts. So. Dave, I had trouble with the piping. I wasn't able to actually. Yeah. Oh, it wasn't working for you? Yeah, it said that it couldn't access the source or something like that.
+- id: W-0018
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  text: That's cool. This is the tool that I have right now, Playground, and the pattern is bomber. It's just killer. It's a spreadsheet. It's a spreadsheet in the works. Where it really becomes a spreadsheet is. If I go here and this one is broken, it doesn't work other than the ui. But adding sources and adding prompts, now that's a spreadsheet. And because I can pipe between. My. Results, I have a composable workflow as spreadsheets in a row, you can go. Plus, minus, plus, minus, as you do down the row. Now you can do plus, minus, and. You can do multithreading. In the version that doesn't work, I. Can select more than one result. I could say, generate Personas, generate a. Persona and then generate an idea. And then in the next prompt, bring. The idea and the Persona in. And now apply this process to it. Instead of just saying 1, I would. Be able to select 1, 2, 3, and 4, and those would be the. Content source that then this prompt would act on. At which point I have N8N functional. At the node and spoke level, not with the extant functionality in it, but. This playground. And these are going to be like load playground, load export playground. This has 30 reports in it. And just a couple of these would be useful. And they would take a couple hours. If I was going to hand them. Off to a client, they probably take four hours or to take all the. Reports from one meeting. And to hand it off in a proper format would probably mean a lot of work. And in this case, the only work was my UI run all button in this version doesn't work very well. So the only thing I had, you know, I just had to hit the run buttons. That was it. And then I have, for one interview. I have it broken down into all. The bits and pieces I would build out Personas with. And in this version, I could Upload all of my 60 interviews and in one fell swoop analyze the whole of a project. Build out all the assets to build. Personas, user journeys, every component of what primary research would want to deliver. And these prompts that I have in. Here, they're like scrubs. I just invented them on the go. I. From my UX scrub research, I. I. Wanted things to be really not my stuff, like long. I wanted it to be somewhat articulate, but then having a standardized format so. That people could see that because this is a structured prompt, it's more structured. Than most people's and it's just got two parts. So. Dave, I had trouble with the piping. I wasn't able to actually. Yeah. Oh, it wasn't working for you? Yeah, it said that it couldn't access the source or something like that. Yeah. Okay, so that can be. Oh no, I didn't put in. I didn't put in the password. It's going to give me an error. I didn't put in key. Ok, so thank you. So that context thing that I was talking about in the turtles, the reason. That it's so top of mind is. That when using the AI to code, it will sometimes rewrite code that you. Don'T want it to. And that's what happened is that I. Had the run all button functioning really well. The sequence from left to right, it was beautiful. It would finish one, it would go to the next. Because I want it to. You know, if you're piping from left to right, you need to have what's on the left done. And so my first version was asynchronous. Which was kind of cool. Right? Like that means everything gets done on its own and gets threaded to. It's multi threaded to the, to the. LLM and gets back much faster. It's a great way to burn money. But what I wanted to do is. To be able to, like you say, like, do the piping is like I've. Done something here, bring it in here. As my thing and then run it. And I'm sorry that that broke because it's. I've. I've been able to work it in other demos. So it's kind of. Because I've been demoing. I was just curious though, do you just. Because I was trying to load multiple sources and then I decided, well, I'll just load one at a time and then do an analysis on a source and then I wanted to compare the results.
+- id: W-0019
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: Oh no, I didn't put in. I didn't put in the password. It's going to give me an error. I didn't put in key. Ok, so thank you. So that context thing that I was talking about in the turtles, the reason. That it's so top of mind is. That when using the AI to code, it will sometimes rewrite code that you. Don'T want it to. And that's what happened is that I. Had the run all button functioning really well. The sequence from left to right, it was beautiful. It would finish one, it would go to the next. Because I want it to. You know, if you're piping from left to right, you need to have what's on the left done. And so my first version was asynchronous. Which was kind of cool. Right? Like that means everything gets done on its own and gets threaded to. It's multi threaded to the, to the. LLM and gets back much faster. It's a great way to burn money. But what I wanted to do is. To be able to, like you say, like, do the piping is like I've. Done something here, bring it in here. As my thing and then run it. And I'm sorry that that broke because it's. I've. I've been able to work it in other demos. So it's kind of. Because I've been demoing. I was just curious though, do you just. Because I was trying to load multiple sources and then I decided, well, I'll just load one at a time and then do an analysis on a source and then I wanted to compare the results. Right. And that's a great use case. Yeah, that's the perfect use case. Right. Like that's a great. That's what its utility is supposed to be. And I'm sorry. So I'll just add a note to the transcript, Dave, make sure you look at this as, and describe it. Get it described as the way Hanif did, so that you can then use. That as the vector in. To debug it. I've. I've tried to fix it twice. It takes, you know, a good half. An hour at a time to be. Able to, to work a solution and my time is pretty tight. So I've been trying to. Because I'm just discussing with people, you know, trying to get their interest. There's just way too many things all at once. But I want this tool to be. Bomber by the end of the week so that I can use it more effectively. We have interviews in the, in the quality control project and the stuff I'm pulling out of just with this report, like doing this manually once. It's incredibly good, it's. It's helping. Yeah, some of the interviews are shite. In terms of, you know, they're all leading, you know, because people don't know how to read research. And this allows to work with the bias. Yeah, I was just able to copy the results of one and put it into. Right. The prompt and then. Yeah, and then. Yeah, and so that's why the copy and paste was there initially to be able to do that because I didn't. Have the piping and I'm like, well. With the copy and paste I can pipe. And so it's moving from me working. In spreadsheets to me trying to enable. That as a ui. And so I really appreciate that feedback because this is another interesting thing working this way. You're doing your best to describe things. In a concise manner and minimize how much is being touched by the AI. And so that's levels of, that's like levels of encapsulation. Right. So like, don't touch this, don't touch that, don't touch this, don't touch that. And that gets really long. So having a programmatic way of saying. You know, I want to do that is great. Now Klein does these whole hot calls. And tries to fix things in a whole way. Cursor AI, you can highlight code and then you can try to fix little. Bits and pieces of code. And that's a different paradigm. It's a much better paradigm, but it's not as effective. So there you go. And right now my limit is like. 1200 lines of code. Anything beyond that, you're hoopy but it. Should be the case and I'll make sure that I follow up with everybody. That I've tested it and put the link in our Slack channel that you can do this piping in a version of it. You do multi select and the UI works because it's showing all the results. But it didn't work in terms of the send to the LLM. So tracing.
+- id: W-0020
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  text: Right. And that's a great use case. Yeah, that's the perfect use case. Right. Like that's a great. That's what its utility is supposed to be. And I'm sorry. So I'll just add a note to the transcript, Dave, make sure you look at this as, and describe it. Get it described as the way Hanif did, so that you can then use. That as the vector in. To debug it. I've. I've tried to fix it twice. It takes, you know, a good half. An hour at a time to be. Able to, to work a solution and my time is pretty tight. So I've been trying to. Because I'm just discussing with people, you know, trying to get their interest. There's just way too many things all at once. But I want this tool to be. Bomber by the end of the week so that I can use it more effectively. We have interviews in the, in the quality control project and the stuff I'm pulling out of just with this report, like doing this manually once. It's incredibly good, it's. It's helping. Yeah, some of the interviews are shite. In terms of, you know, they're all leading, you know, because people don't know how to read research. And this allows to work with the bias. Yeah, I was just able to copy the results of one and put it into. Right. The prompt and then. Yeah, and then. Yeah, and so that's why the copy and paste was there initially to be able to do that because I didn't. Have the piping and I'm like, well. With the copy and paste I can pipe. And so it's moving from me working. In spreadsheets to me trying to enable. That as a ui. And so I really appreciate that feedback because this is another interesting thing working this way. You're doing your best to describe things. In a concise manner and minimize how much is being touched by the AI. And so that's levels of, that's like levels of encapsulation. Right. So like, don't touch this, don't touch that, don't touch this, don't touch that. And that gets really long. So having a programmatic way of saying. You know, I want to do that is great. Now Klein does these whole hot calls. And tries to fix things in a whole way. Cursor AI, you can highlight code and then you can try to fix little. Bits and pieces of code. And that's a different paradigm. It's a much better paradigm, but it's not as effective. So there you go. And right now my limit is like. 1200 lines of code. Anything beyond that, you're hoopy but it. Should be the case and I'll make sure that I follow up with everybody. That I've tested it and put the link in our Slack channel that you can do this piping in a version of it. You do multi select and the UI works because it's showing all the results. But it didn't work in terms of the send to the LLM. So tracing.
+- id: W-0021
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  text: Yeah, and so that's why the copy and paste was there initially to be able to do that because I didn't. Have the piping and I'm like, well. With the copy and paste I can pipe. And so it's moving from me working. In spreadsheets to me trying to enable. That as a ui. And so I really appreciate that feedback because this is another interesting thing working this way. You're doing your best to describe things. In a concise manner and minimize how much is being touched by the AI. And so that's levels of, that's like levels of encapsulation. Right. So like, don't touch this, don't touch that, don't touch this, don't touch that. And that gets really long. So having a programmatic way of saying. You know, I want to do that is great. Now Klein does these whole hot calls. And tries to fix things in a whole way. Cursor AI, you can highlight code and then you can try to fix little. Bits and pieces of code. And that's a different paradigm. It's a much better paradigm, but it's not as effective. So there you go. And right now my limit is like. 1200 lines of code. Anything beyond that, you're hoopy but it. Should be the case and I'll make sure that I follow up with everybody. That I've tested it and put the link in our Slack channel that you can do this piping in a version of it. You do multi select and the UI works because it's showing all the results. But it didn't work in terms of the send to the LLM. So tracing. Can I ask a question? Earlier you described maybe handing some stuff. Stuff off for opportunities for stuff like that. I would wouldn't mind watching the rest of this demo with a bit of an idea about what that might be. Any, any ideas what you're. What you have in mind in terms of demos. Sorry, in terms of like you said you wanted to change. Oh, to hand off. Yeah, yeah, yeah. So there's certain people I know have certain roles and they're top of mind. When I'm trying to think of how to position this. And the piping was a big one. But this UX workflow that I have, I know a lot of UX and they do a lot of primary research. And I'm sure they would, if it didn't cost them any time, they would throw a handful of interviews at this just to get the results. And so I think of that that's one problem. Sets people are in marketing, people don't have a marketing team. You know, I built all these agencies. And now I'm trying to leverage the agencies with specificity. The direct to consumer stuff, it's in an agent, it's in a playground right now and it works on I pass it my fidget spinner and it produces. Okay results. And it's sitting there and I'm not going to let people use. It until it does better than that. But that's what I'm looking at right now is trying to enable simple use cases like here's four or five steps. Or for people to do research. Their problem isn't four or five steps. They know four or five steps. They want to do four or five. Steps 10 times or do like I do 30 steps and then do them 50 times. And so you create 3,000 knowledge blobs that are actual full on reports. So there's probably 100. No, there's 300,000 data points at least. No, it's probably half a million data. Points in a report that has 30 interviews. That's a lot. And then because it's all structured, it's wonderful. It's really wonderful. So that's kind of, that's what I wanted to bring to the Team today. I want to. I want. I really do want to, like, with this forming and Henny having very articulate questions. I want to be. And James, you're pointing to it as well. Is like, that's where things are at. Right now for me. And I think. You know, the question. Of how to use it and what it's useful for are known, like, at least conceptually. But how to work with it differently is tough.
+- id: W-0022
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u56
+  - u57
+  text: Oh, to hand off. Yeah, yeah, yeah. So there's certain people I know have certain roles and they're top of mind. When I'm trying to think of how to position this. And the piping was a big one. But this UX workflow that I have, I know a lot of UX and they do a lot of primary research. And I'm sure they would, if it didn't cost them any time, they would throw a handful of interviews at this just to get the results. And so I think of that that's one problem. Sets people are in marketing, people don't have a marketing team. You know, I built all these agencies. And now I'm trying to leverage the agencies with specificity. The direct to consumer stuff, it's in an agent, it's in a playground right now and it works on I pass it my fidget spinner and it produces. Okay results. And it's sitting there and I'm not going to let people use. It until it does better than that. But that's what I'm looking at right now is trying to enable simple use cases like here's four or five steps. Or for people to do research. Their problem isn't four or five steps. They know four or five steps. They want to do four or five. Steps 10 times or do like I do 30 steps and then do them 50 times. And so you create 3,000 knowledge blobs that are actual full on reports. So there's probably 100. No, there's 300,000 data points at least. No, it's probably half a million data. Points in a report that has 30 interviews. That's a lot. And then because it's all structured, it's wonderful. It's really wonderful. So that's kind of, that's what I wanted to bring to the Team today. I want to. I want. I really do want to, like, with this forming and Henny having very articulate questions. I want to be. And James, you're pointing to it as well. Is like, that's where things are at. Right now for me. And I think. You know, the question. Of how to use it and what it's useful for are known, like, at least conceptually. But how to work with it differently is tough. That's. Is that what you're kind of, like, looking for a bit of feedback on is, like, how maybe, like. Because that. One of the questions that is how to use it and just like, feedback sort of. Yeah, yeah, I had a. Yeah, sorry, go ahead.
+- id: W-0023
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  text: Oh, to hand off. Yeah, yeah, yeah. So there's certain people I know have certain roles and they're top of mind. When I'm trying to think of how to position this. And the piping was a big one. But this UX workflow that I have, I know a lot of UX and they do a lot of primary research. And I'm sure they would, if it didn't cost them any time, they would throw a handful of interviews at this just to get the results. And so I think of that that's one problem. Sets people are in marketing, people don't have a marketing team. You know, I built all these agencies. And now I'm trying to leverage the agencies with specificity. The direct to consumer stuff, it's in an agent, it's in a playground right now and it works on I pass it my fidget spinner and it produces. Okay results. And it's sitting there and I'm not going to let people use. It until it does better than that. But that's what I'm looking at right now is trying to enable simple use cases like here's four or five steps. Or for people to do research. Their problem isn't four or five steps. They know four or five steps. They want to do four or five. Steps 10 times or do like I do 30 steps and then do them 50 times. And so you create 3,000 knowledge blobs that are actual full on reports. So there's probably 100. No, there's 300,000 data points at least. No, it's probably half a million data. Points in a report that has 30 interviews. That's a lot. And then because it's all structured, it's wonderful. It's really wonderful. So that's kind of, that's what I wanted to bring to the Team today. I want to. I want. I really do want to, like, with this forming and Henny having very articulate questions. I want to be. And James, you're pointing to it as well. Is like, that's where things are at. Right now for me. And I think. You know, the question. Of how to use it and what it's useful for are known, like, at least conceptually. But how to work with it differently is tough. That's. Is that what you're kind of, like, looking for a bit of feedback on is, like, how maybe, like. Because that. One of the questions that is how to use it and just like, feedback sort of. Yeah, yeah, I had a. Yeah, sorry, go ahead. No, no, that. That's completely. Is like one, what are you doing? Is a big one, and then two, if you're using it, how are you. Because it does allow for a bunch. Of different use cases. Like just structured use cases. Totally. Okay, got it. Nice. That makes sense. Yeah. So are you thinking of, like, maybe enhancing these cards? The cards is like one of the main things I've glommed onto, if you'll excuse. Yeah, yeah, I'm done to that one big time. Yeah, the cards make a lot of sense to me. Like, they're kind of easy to understand. And are you considering, like, enhancing the cards in any way? Yeah. So what in this version. Yeah, you can see there's a toolbar here. And that toolbar has conceptually extended to. One that has the whatever the AI wizard button thing looks like. And then from that, you know, right below this, it says chat with this content, and so you can chat with the results right in there. Where there's a big opportunity for that is so in every card where there's a result text field, the opportunity to. Analyze that in context is incredibly valuable. And so adding more features into the. Card to make the card provide you. More than just the result. Right. So, sure, that's a great Persona. Can you make it just 20 words? You know, can you focus this Persona on being active this way? So, like, in many prop systems, there's like an enhance button, and that's kind. Of how I saw it. It's like if you have a Persona and the initial ones are pretty. Pretty simple.
+- id: W-0024
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u60
+  - u61
+  - u62
+  text: Yeah. So what in this version. Yeah, you can see there's a toolbar here. And that toolbar has conceptually extended to. One that has the whatever the AI wizard button thing looks like. And then from that, you know, right below this, it says chat with this content, and so you can chat with the results right in there. Where there's a big opportunity for that is so in every card where there's a result text field, the opportunity to. Analyze that in context is incredibly valuable. And so adding more features into the. Card to make the card provide you. More than just the result. Right. So, sure, that's a great Persona. Can you make it just 20 words? You know, can you focus this Persona on being active this way? So, like, in many prop systems, there's like an enhance button, and that's kind. Of how I saw it. It's like if you have a Persona and the initial ones are pretty. Pretty simple. Enhance, and you have an. Enhanced button, and then I give you. A work sauna Persona, and you're like, whoa. But the card level, that's one thing where I want to integrate the tools to be say, well, here's my prompt. There's a lot of prompt optimizers out there. And the reason Is because it's easy because you add your structure and then. You say, make it like this. And so you could do that here. You could enhance the prompt and then you can say, analyze the result. That's one thing. The real spreadsheet thing is, well, you got the piping from left to right. So you can work your magic from this cell to this cell to this. Cell to this cell. And then at the end you could have a composite result, right. You could say average everything or no, that's not good because they're all separate reports. Create a project plan based on all. Of the results, which is great. That would say you have a longitudinal. View on all these reports. Now, if you want to have a vertical view, that's the super big powerful. Thing that I want to figure out next. And that is this prompt is being executed against all of these things over here. All these. If they're interviews, then the results are going to be structured the same way. And so at the bottom of each of these columns, there would be a very interesting card. And the card would allow you to. Analyze all columnar results. And then it's a spreadsheet.
+- id: W-0025
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u62
+  - u63
+  text: Enhanced button, and then I give you. A work sauna Persona, and you're like, whoa. But the card level, that's one thing where I want to integrate the tools to be say, well, here's my prompt. There's a lot of prompt optimizers out there. And the reason Is because it's easy because you add your structure and then. You say, make it like this. And so you could do that here. You could enhance the prompt and then you can say, analyze the result. That's one thing. The real spreadsheet thing is, well, you got the piping from left to right. So you can work your magic from this cell to this cell to this. Cell to this cell. And then at the end you could have a composite result, right. You could say average everything or no, that's not good because they're all separate reports. Create a project plan based on all. Of the results, which is great. That would say you have a longitudinal. View on all these reports. Now, if you want to have a vertical view, that's the super big powerful. Thing that I want to figure out next. And that is this prompt is being executed against all of these things over here. All these. If they're interviews, then the results are going to be structured the same way. And so at the bottom of each of these columns, there would be a very interesting card. And the card would allow you to. Analyze all columnar results. And then it's a spreadsheet. Okay, I got a question here. Have you considered just having like all of these, like, there's two different playground layouts here that we're looking at. Have you considered bringing those both into just like one page where you can toggle between layouts using like a tray and maybe like, maybe there's like. These are all fairly, for lack of a better word, not intimidating, but like complex. Yeah, layouts. Maybe there's one where there's like, you just see one card at a time. And because the card is like a structure all unto its own, I think it's like really powerful if you maybe you just see one card at a time and then you can like, you know, like cycle through images. Like you can go back or forward. But what I'm saying is like, I guess.
+- id: W-0026
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  text: Okay, I got a question here. Have you considered just having like all of these, like, there's two different playground layouts here that we're looking at. Have you considered bringing those both into just like one page where you can toggle between layouts using like a tray and maybe like, maybe there's like. These are all fairly, for lack of a better word, not intimidating, but like complex. Yeah, layouts. Maybe there's one where there's like, you just see one card at a time. And because the card is like a structure all unto its own, I think it's like really powerful if you maybe you just see one card at a time and then you can like, you know, like cycle through images. Like you can go back or forward. But what I'm saying is like, I guess. Oh, can't hear you. You're on mute. James. Oh, yeah, Somehow I muted myself. Anyways, on like, design wise, a lot of the. What I try to do is just throw options out there and then like, you know, call them down later. And that might be one way to look at it in terms of the. I like what you're pointing to is the card and I recognize the card. Is super limiting the view that it is. And adding a button that says enhance is just going to be like a thumbnail button. And you're like, well, what's that? And you can't really read things very well. So my notion is the card should extend out. Extend out on the screen, just like a canvas or whatever, a. Modal dialogue, whatever you want to call it, where you're working within the card and then in a way that it's. Taking over the screen. And then the reason I arrived at that is because there's a new card. I want to introduce and that's the. Scenario card and that's the contextualizing and the constraints around the whole of the workflow. And so as soon as I introduce. That, then I have, then I'm saying, well, every prompt that goes to the LLM is going to be contextualized, right? It's like, okay, I use the phrase. I'm salting my steak, I'm sending the steak. And now the salt is going to. Be this context and the context is going to make sure that what the. Results come back are going to be focused. And so that was, that's a really powerful thing. And that scenario card, I've already designed. A scenario because I've been doing this kind of stuff. And the scenario has different components, constraints, you know, description. So those are all field areas, right? So it requires a different type of input because I don't want it to. Be paragraphs, I want it to be broken out so that people say that. Oh, okay, I got that. This is a component, I got a view this way. And so that requires a UI that. Has a card that is scrollable in. Different sections and at which point it breaks the model. And so my design pattern has been since I understood programming is we do everything the same until we don't have to. And so I feel lucky that I've relied on my training such, you know, intuitively. And I have an amazing pattern in place. And it's not even like, it's just amazing how I've applied it. And it's a simple pattern, it's a. Card based pattern, it's a, it's a cell based pattern. And so yeah, I, you know, I. Said like my email, I'm like, man, this is my, seriously, the first job I took was doing this and seeing. What you could do with cells. I didn't know what I was like when, when you're problem solving, you don't know what you're doing a lot of the time in terms of the innovation. So that's been a significant component of this is how to like we pitched yesterday to VC and they're like, come back later. Like, I got that. And so come back later is like. Make it look like it does something. Not it does something, but make it look like it does something.
+- id: W-0027
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u67
+  text: I like what you're pointing to is the card and I recognize the card. Is super limiting the view that it is. And adding a button that says enhance is just going to be like a thumbnail button. And you're like, well, what's that? And you can't really read things very well. So my notion is the card should extend out. Extend out on the screen, just like a canvas or whatever, a. Modal dialogue, whatever you want to call it, where you're working within the card and then in a way that it's. Taking over the screen. And then the reason I arrived at that is because there's a new card. I want to introduce and that's the. Scenario card and that's the contextualizing and the constraints around the whole of the workflow. And so as soon as I introduce. That, then I have, then I'm saying, well, every prompt that goes to the LLM is going to be contextualized, right? It's like, okay, I use the phrase. I'm salting my steak, I'm sending the steak. And now the salt is going to. Be this context and the context is going to make sure that what the. Results come back are going to be focused. And so that was, that's a really powerful thing. And that scenario card, I've already designed. A scenario because I've been doing this kind of stuff. And the scenario has different components, constraints, you know, description. So those are all field areas, right? So it requires a different type of input because I don't want it to. Be paragraphs, I want it to be broken out so that people say that. Oh, okay, I got that. This is a component, I got a view this way. And so that requires a UI that. Has a card that is scrollable in. Different sections and at which point it breaks the model. And so my design pattern has been since I understood programming is we do everything the same until we don't have to. And so I feel lucky that I've relied on my training such, you know, intuitively. And I have an amazing pattern in place. And it's not even like, it's just amazing how I've applied it. And it's a simple pattern, it's a. Card based pattern, it's a, it's a cell based pattern. And so yeah, I, you know, I. Said like my email, I'm like, man, this is my, seriously, the first job I took was doing this and seeing. What you could do with cells. I didn't know what I was like when, when you're problem solving, you don't know what you're doing a lot of the time in terms of the innovation. So that's been a significant component of this is how to like we pitched yesterday to VC and they're like, come back later. Like, I got that. And so come back later is like. Make it look like it does something. Not it does something, but make it look like it does something.
+- id: W-0028
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: I like what you're pointing to is the card and I recognize the card. Is super limiting the view that it is. And adding a button that says enhance is just going to be like a thumbnail button. And you're like, well, what's that? And you can't really read things very well. So my notion is the card should extend out. Extend out on the screen, just like a canvas or whatever, a. Modal dialogue, whatever you want to call it, where you're working within the card and then in a way that it's. Taking over the screen. And then the reason I arrived at that is because there's a new card. I want to introduce and that's the. Scenario card and that's the contextualizing and the constraints around the whole of the workflow. And so as soon as I introduce. That, then I have, then I'm saying, well, every prompt that goes to the LLM is going to be contextualized, right? It's like, okay, I use the phrase. I'm salting my steak, I'm sending the steak. And now the salt is going to. Be this context and the context is going to make sure that what the. Results come back are going to be focused. And so that was, that's a really powerful thing. And that scenario card, I've already designed. A scenario because I've been doing this kind of stuff. And the scenario has different components, constraints, you know, description. So those are all field areas, right? So it requires a different type of input because I don't want it to. Be paragraphs, I want it to be broken out so that people say that. Oh, okay, I got that. This is a component, I got a view this way. And so that requires a UI that. Has a card that is scrollable in. Different sections and at which point it breaks the model. And so my design pattern has been since I understood programming is we do everything the same until we don't have to. And so I feel lucky that I've relied on my training such, you know, intuitively. And I have an amazing pattern in place. And it's not even like, it's just amazing how I've applied it. And it's a simple pattern, it's a. Card based pattern, it's a, it's a cell based pattern. And so yeah, I, you know, I. Said like my email, I'm like, man, this is my, seriously, the first job I took was doing this and seeing. What you could do with cells. I didn't know what I was like when, when you're problem solving, you don't know what you're doing a lot of the time in terms of the innovation. So that's been a significant component of this is how to like we pitched yesterday to VC and they're like, come back later. Like, I got that. And so come back later is like. Make it look like it does something. Not it does something, but make it look like it does something. I get that. And so right now it does something. And if I have a problem, I can, I can solve 100 million dollar. Problems with this in days. I can solve 100 million dollar problems. In about three weeks, two weeks, three weeks. But I can solve. And by that I mean here's a. Model and work with it, or here's a problem, develop a model, work with it. This allows for the modeling to be crazy. You know, it's kind of like I remember being in high school and doing physics or math problems and, you know, showing them the answer and then they'd be like, well, you got to show your work. You don't, you don't get full points unless you. I had the same problem in algebra. I skipped grade eight and then I. Was in grade nine. And I could intuitively figure it out. I did it kind of backwards. I still do math a little bit backwards, or I do it, whatever. And they, they, they stopped me in my tracks. And they did the same thing. My daughter and you had the same thing going on. And I feel it's one of the. Greatest disappointments in education that they don't understand. There's a way to teach that doesn't remove that intuition. Took years to get it back, man. Years. Years and years. And I'm not there, right? If I would have been able to keep going on that understanding of things, I would have been a mathematician as a career. But I was derailed in high school to enough where I could get A's and minus A minuses and not know what I was doing after three weeks, you know, like I. The learning pattern was broken. And you point to that maybe that's.
+- id: W-0029
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  text: And so right now it does something. And if I have a problem, I can, I can solve 100 million dollar. Problems with this in days. I can solve 100 million dollar problems. In about three weeks, two weeks, three weeks. But I can solve. And by that I mean here's a. Model and work with it, or here's a problem, develop a model, work with it. This allows for the modeling to be crazy. You know, it's kind of like I remember being in high school and doing physics or math problems and, you know, showing them the answer and then they'd be like, well, you got to show your work. You don't, you don't get full points unless you. I had the same problem in algebra. I skipped grade eight and then I. Was in grade nine. And I could intuitively figure it out. I did it kind of backwards. I still do math a little bit backwards, or I do it, whatever. And they, they, they stopped me in my tracks. And they did the same thing. My daughter and you had the same thing going on. And I feel it's one of the. Greatest disappointments in education that they don't understand. There's a way to teach that doesn't remove that intuition. Took years to get it back, man. Years. Years and years. And I'm not there, right? If I would have been able to keep going on that understanding of things, I would have been a mathematician as a career. But I was derailed in high school to enough where I could get A's and minus A minuses and not know what I was doing after three weeks, you know, like I. The learning pattern was broken. And you point to that maybe that's. What high school is. It's kind of where people get derailed, right? And so that you spend the next. Four years, that's what it's about. I don't know, get in the box. It wasn't about, it wasn't about learning. I mean, learning curricula, right? I mean, I. But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right? But man, now you read Shakespeare, like, why was it so hard? But yeah, I do. See, I see that this is like a really neat place to arrive, you know, after I. My first product was in 1992 with Dean Dean Edwards in Victoria. I had a bulletin board system called Second Sight. We bought it for 75 bucks off a guy who's upgrading to the new version. And we bought his old version. And while we weren't on the Internet, we hosted BBS's, right. We bought used software and we ran it on our phone and that was the first product. But that was, that was years, years. After I had already made products in oil and gas. I just didn't know. Right. So I think that this can turn into air tables. It's going to turn into air tables in, in a week. If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break. So the piping has to be fixed. I also did something cool with it. I decomposed it. It's a proper app. It is running. It has no, it is now it needs to be like the version I. Have, this one is just a web page. But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready. To roll with real devs. I'm still hacking on my old version with 1200 lines of code. So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have. And it's, it's about simplicity is the next thing I've. Yesterday I just sent out a whole lot of emails. A whole lot for me is 5. To people sending them the links, the password, the key and a link to. A data set and just waiting for. The responses and knowing that these are. My friends of sorts, the responses are going to be nice. Dave looks cool. I need a tutorial. That was the best one. My response back is everyone needs a tutorial. And that's been my approach. If you have a unique problem, you have a unique pattern. And that unique pattern is one of looking to expose the value in agentic thinking. And that has that left right workflow thing. So demos are going to be what I'm doing. I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right? So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up. And that's a demonstration of my, my software in your space and ends in their inbox. They get a transcript, they can talk to it, you know.
+- id: W-0030
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u75
+  - u76
+  text: I don't know, get in the box. It wasn't about, it wasn't about learning. I mean, learning curricula, right? I mean, I. But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right? But man, now you read Shakespeare, like, why was it so hard? But yeah, I do. See, I see that this is like a really neat place to arrive, you know, after I. My first product was in 1992 with Dean Dean Edwards in Victoria. I had a bulletin board system called Second Sight. We bought it for 75 bucks off a guy who's upgrading to the new version. And we bought his old version. And while we weren't on the Internet, we hosted BBS's, right. We bought used software and we ran it on our phone and that was the first product. But that was, that was years, years. After I had already made products in oil and gas. I just didn't know. Right. So I think that this can turn into air tables. It's going to turn into air tables in, in a week. If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break. So the piping has to be fixed. I also did something cool with it. I decomposed it. It's a proper app. It is running. It has no, it is now it needs to be like the version I. Have, this one is just a web page. But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready. To roll with real devs. I'm still hacking on my old version with 1200 lines of code. So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have. And it's, it's about simplicity is the next thing I've. Yesterday I just sent out a whole lot of emails. A whole lot for me is 5. To people sending them the links, the password, the key and a link to. A data set and just waiting for. The responses and knowing that these are. My friends of sorts, the responses are going to be nice. Dave looks cool. I need a tutorial. That was the best one. My response back is everyone needs a tutorial. And that's been my approach. If you have a unique problem, you have a unique pattern. And that unique pattern is one of looking to expose the value in agentic thinking. And that has that left right workflow thing. So demos are going to be what I'm doing. I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right? So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up. And that's a demonstration of my, my software in your space and ends in their inbox. They get a transcript, they can talk to it, you know.
+- id: W-0031
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u76
+  - u77
+  text: It wasn't about, it wasn't about learning. I mean, learning curricula, right? I mean, I. But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right? But man, now you read Shakespeare, like, why was it so hard? But yeah, I do. See, I see that this is like a really neat place to arrive, you know, after I. My first product was in 1992 with Dean Dean Edwards in Victoria. I had a bulletin board system called Second Sight. We bought it for 75 bucks off a guy who's upgrading to the new version. And we bought his old version. And while we weren't on the Internet, we hosted BBS's, right. We bought used software and we ran it on our phone and that was the first product. But that was, that was years, years. After I had already made products in oil and gas. I just didn't know. Right. So I think that this can turn into air tables. It's going to turn into air tables in, in a week. If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break. So the piping has to be fixed. I also did something cool with it. I decomposed it. It's a proper app. It is running. It has no, it is now it needs to be like the version I. Have, this one is just a web page. But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready. To roll with real devs. I'm still hacking on my old version with 1200 lines of code. So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have. And it's, it's about simplicity is the next thing I've. Yesterday I just sent out a whole lot of emails. A whole lot for me is 5. To people sending them the links, the password, the key and a link to. A data set and just waiting for. The responses and knowing that these are. My friends of sorts, the responses are going to be nice. Dave looks cool. I need a tutorial. That was the best one. My response back is everyone needs a tutorial. And that's been my approach. If you have a unique problem, you have a unique pattern. And that unique pattern is one of looking to expose the value in agentic thinking. And that has that left right workflow thing. So demos are going to be what I'm doing. I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right? So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up. And that's a demonstration of my, my software in your space and ends in their inbox. They get a transcript, they can talk to it, you know. So yeah, are you going to support like multiple sources? Right now it's parses the source and puts it into that box on the Left when you upload a second one, it just replaces it or does it append?
+- id: W-0032
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u76
+  - u77
+  - u78
+  text: It wasn't about, it wasn't about learning. I mean, learning curricula, right? I mean, I. But the stuff that we learn in high school, like learning Shakespeare, that was no fun, right? But man, now you read Shakespeare, like, why was it so hard? But yeah, I do. See, I see that this is like a really neat place to arrive, you know, after I. My first product was in 1992 with Dean Dean Edwards in Victoria. I had a bulletin board system called Second Sight. We bought it for 75 bucks off a guy who's upgrading to the new version. And we bought his old version. And while we weren't on the Internet, we hosted BBS's, right. We bought used software and we ran it on our phone and that was the first product. But that was, that was years, years. After I had already made products in oil and gas. I just didn't know. Right. So I think that this can turn into air tables. It's going to turn into air tables in, in a week. If I had a team killer killer on my own, I'll get that columnar thing working and that'll be like, okay, don't break. So the piping has to be fixed. I also did something cool with it. I decomposed it. It's a proper app. It is running. It has no, it is now it needs to be like the version I. Have, this one is just a web page. But the version that I've decomposed is now a proper app and it's broken out into its components and it's ready. To roll with real devs. I'm still hacking on my old version with 1200 lines of code. So there's a bit of a foot race going on in terms of me being able to see if I can punch through or just top out with what I have. And it's, it's about simplicity is the next thing I've. Yesterday I just sent out a whole lot of emails. A whole lot for me is 5. To people sending them the links, the password, the key and a link to. A data set and just waiting for. The responses and knowing that these are. My friends of sorts, the responses are going to be nice. Dave looks cool. I need a tutorial. That was the best one. My response back is everyone needs a tutorial. And that's been my approach. If you have a unique problem, you have a unique pattern. And that unique pattern is one of looking to expose the value in agentic thinking. And that has that left right workflow thing. So demos are going to be what I'm doing. I discovered that if you use like Phantom and you invite people into a meeting and they don't show up, they get your demo right? So if you work it with your, if you work it with your people and you say I've invited you to a meeting, you don't need to attend, but you'll get the follow up. And that's a demonstration of my, my software in your space and ends in their inbox. They get a transcript, they can talk to it, you know. So yeah, are you going to support like multiple sources? Right now it's parses the source and puts it into that box on the Left when you upload a second one, it just replaces it or does it append? Right now it replaces it, but what it's supposed to do is append it here. Multiple resources. The multiple sources automatically go into the rows associated. This tray in the next view. This tray can't be stationary like this. With this view, the tray has to. Line up with the columns and your. Tray would be right here. This one will be sourced, it'll be. Different color, just like some other things. And then you could delete that source and that row would go away. It is the case that it works with multiple images. Yeah, I saw that and I didn't ask for that. I tried to replace an image and it went up and then I'm like, I can actually select multiple images. And so, you know, it's already baked in. It's just not across the app because. I haven't put in a requirement to then retune my app. And that is a. That is that workflow that I talked. About where if I had that described at the beginning and I fed it. In each time when I'm, you know. The context, then hopefully. Oh, I just found something.
+- id: W-0033
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  text: Right now it replaces it, but what it's supposed to do is append it here. Multiple resources. The multiple sources automatically go into the rows associated. This tray in the next view. This tray can't be stationary like this. With this view, the tray has to. Line up with the columns and your. Tray would be right here. This one will be sourced, it'll be. Different color, just like some other things. And then you could delete that source and that row would go away. It is the case that it works with multiple images. Yeah, I saw that and I didn't ask for that. I tried to replace an image and it went up and then I'm like, I can actually select multiple images. And so, you know, it's already baked in. It's just not across the app because. I haven't put in a requirement to then retune my app. And that is a. That is that workflow that I talked. About where if I had that described at the beginning and I fed it. In each time when I'm, you know. The context, then hopefully. Oh, I just found something. Ok. So I've been doing things manually but if I were to create, say here's my prompt that I wanted to change my code to and then I analyzed it and analyzed the results afterwards with the prompt, then I could probably. That could be my context for my next thing. Sorry, thinking out loud because context is driving me crazy and I didn't hopefully. Jason, you're not down the existential rabbit hole because your context is wide and. Deep and we want it to be trees and not turtles. Yeah, I kind of just put it down for a minute. I know you're well and I did too. And then it was long enough that when I picked it back up I was able to do that thing. And Jason, we're going to keep talking because I think you're on that cusp too. Yeah, no, I think it's right there. One little app will do it. One little app and then you'll bug your devs on fixing your shit outward. Yeah, well, I'm going to spend some time this week. I'm going to play with what you built here. I haven't had a chance to really dig into it yet. I've been spending a little bit of like brain dead time just like using to build some stuff. Cool. It's actually oddly therapeutic. I don't know why to like just talk to a machine and have it like fix things. There's something about it that is like kind of.
+- id: W-0034
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  text: Yeah, no, I think it's right there. One little app will do it. One little app and then you'll bug your devs on fixing your shit outward. Yeah, well, I'm going to spend some time this week. I'm going to play with what you built here. I haven't had a chance to really dig into it yet. I've been spending a little bit of like brain dead time just like using to build some stuff. Cool. It's actually oddly therapeutic. I don't know why to like just talk to a machine and have it like fix things. There's something about it that is like kind of. It's pretty cool. Yeah, I'm just like, I'm just enjoying the. The agency over the machine, I think at this point. Wow. I'm. I'm there. I. The cadence is driving me a bit nuts, so I need it to be better. To your point, since you brought it. Up, I'm gonna follow up Suit. I. Hey, see James, I've got a. Got a 9:00, so I'll be prudent five minutes. But I built two things. I said like, yeah, the CEO linger index was a joy to build. That was me watching tv, building a spec based on an idea I had and then seeing it actually function within three hours. That's how long Karen went to the movie for. And then. And so I did that with this chat thing too. It's like I need just a chat interface where I can just. I wanted to have a works on a chat interface that wasn't me using someone else's. And so this is a great way to do it because the chat interface is very common. And I described it and I gave it a screenshot of what I was looking for because I want to. I'm looking at this color palette kind of thing and I wanted it to. Be similar, but I also am trying to, you know, get all the features in there and see how things work in a short period of time. So. So I was able to, you know, upload and then I got a viewer in there. So.
+- id: W-0035
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u90
+  - u91
+  text: Wow. I'm. I'm there. I. The cadence is driving me a bit nuts, so I need it to be better. To your point, since you brought it. Up, I'm gonna follow up Suit. I. Hey, see James, I've got a. Got a 9:00, so I'll be prudent five minutes. But I built two things. I said like, yeah, the CEO linger index was a joy to build. That was me watching tv, building a spec based on an idea I had and then seeing it actually function within three hours. That's how long Karen went to the movie for. And then. And so I did that with this chat thing too. It's like I need just a chat interface where I can just. I wanted to have a works on a chat interface that wasn't me using someone else's. And so this is a great way to do it because the chat interface is very common. And I described it and I gave it a screenshot of what I was looking for because I want to. I'm looking at this color palette kind of thing and I wanted it to. Be similar, but I also am trying to, you know, get all the features in there and see how things work in a short period of time. So. So I was able to, you know, upload and then I got a viewer in there. So. So I, you know, I built. Oh, I did that wrong. I searched Whoops Search and AIM Q. I built, you know, the components that I'd like to see seeing it and they're not talking to each other yet. And I'm getting all these weird token errors. But in various versions of this, I was able to get it functional and acting really cool. Right? Like do a search and then analyze. That in the chat. And that's just a simple thing. But if I'm going to show things to people in the world, this is a great one to have on the website because I can and how it goes. I would upload just like I did with the Shark Tank. And I'll make that available too. I'll just upload like a knowledge or a fact of work Sona and that's how it's loaded. And then you can just do the same thing, your own and you know, and so getting these things, these utilities or these views out there, I'm really quite focused on how I spend my. Time because I burn out and I burn hot. So I want to make sure that. I'm doing the right things in the. Right part of the day. But to your point, Jason, I think the next time we meet, we'll do this together. We'll do it side by side, spec it and do a little app, and then that will be the cracking of the nut. Because it is rewarding if you're doing something to see it fix problems. It's super rewarding if you can describe the problem. And it does understand that. And so because I've been coding for so long, like I can, and doing UXD and all these other things is like, yeah, you can describe things. You know apps. You two guys know apps. Like no one's business, even on all sides of designing them. So debugging them with words is cool. Now it's super awkward. If you get long code and you. Do all kinds of things, you got to be ginger about things. That's the brittle nature of it. But if you do a small app and you just describe it and you give it a sketch, it'll work. I gave like I Jenna J I N AI they have a neat. You can use their reader to do. Markdown of a webpage. They got a neat website. It's all techie because, you know, it's designed after devs. And I just used that as a. Here's my content. Use that website as this page as the design. And it built out a website that looked like that website, a web page. That looked like a website with functionality. That I didn't describe based on the website. And so you can do that kind. Of looky lose thing as the starting point. And then my stuff has a real feel. Like the works on a playground is a work feeling. And it's. I like it, but that's not where I'm gonna go with it. I'm gonna go with this black and green and taupe thing. And it's gonna. It's gonna. I'm in the mode of trying to baffle people or how about this market. To people and their expectations are just kind of cliche.
+- id: W-0036
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u91
+  text: So I, you know, I built. Oh, I did that wrong. I searched Whoops Search and AIM Q. I built, you know, the components that I'd like to see seeing it and they're not talking to each other yet. And I'm getting all these weird token errors. But in various versions of this, I was able to get it functional and acting really cool. Right? Like do a search and then analyze. That in the chat. And that's just a simple thing. But if I'm going to show things to people in the world, this is a great one to have on the website because I can and how it goes. I would upload just like I did with the Shark Tank. And I'll make that available too. I'll just upload like a knowledge or a fact of work Sona and that's how it's loaded. And then you can just do the same thing, your own and you know, and so getting these things, these utilities or these views out there, I'm really quite focused on how I spend my. Time because I burn out and I burn hot. So I want to make sure that. I'm doing the right things in the. Right part of the day. But to your point, Jason, I think the next time we meet, we'll do this together. We'll do it side by side, spec it and do a little app, and then that will be the cracking of the nut. Because it is rewarding if you're doing something to see it fix problems. It's super rewarding if you can describe the problem. And it does understand that. And so because I've been coding for so long, like I can, and doing UXD and all these other things is like, yeah, you can describe things. You know apps. You two guys know apps. Like no one's business, even on all sides of designing them. So debugging them with words is cool. Now it's super awkward. If you get long code and you. Do all kinds of things, you got to be ginger about things. That's the brittle nature of it. But if you do a small app and you just describe it and you give it a sketch, it'll work. I gave like I Jenna J I N AI they have a neat. You can use their reader to do. Markdown of a webpage. They got a neat website. It's all techie because, you know, it's designed after devs. And I just used that as a. Here's my content. Use that website as this page as the design. And it built out a website that looked like that website, a web page. That looked like a website with functionality. That I didn't describe based on the website. And so you can do that kind. Of looky lose thing as the starting point. And then my stuff has a real feel. Like the works on a playground is a work feeling. And it's. I like it, but that's not where I'm gonna go with it. I'm gonna go with this black and green and taupe thing. And it's gonna. It's gonna. I'm in the mode of trying to baffle people or how about this market. To people and their expectations are just kind of cliche.
+- id: W-0037
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  text: So I, you know, I built. Oh, I did that wrong. I searched Whoops Search and AIM Q. I built, you know, the components that I'd like to see seeing it and they're not talking to each other yet. And I'm getting all these weird token errors. But in various versions of this, I was able to get it functional and acting really cool. Right? Like do a search and then analyze. That in the chat. And that's just a simple thing. But if I'm going to show things to people in the world, this is a great one to have on the website because I can and how it goes. I would upload just like I did with the Shark Tank. And I'll make that available too. I'll just upload like a knowledge or a fact of work Sona and that's how it's loaded. And then you can just do the same thing, your own and you know, and so getting these things, these utilities or these views out there, I'm really quite focused on how I spend my. Time because I burn out and I burn hot. So I want to make sure that. I'm doing the right things in the. Right part of the day. But to your point, Jason, I think the next time we meet, we'll do this together. We'll do it side by side, spec it and do a little app, and then that will be the cracking of the nut. Because it is rewarding if you're doing something to see it fix problems. It's super rewarding if you can describe the problem. And it does understand that. And so because I've been coding for so long, like I can, and doing UXD and all these other things is like, yeah, you can describe things. You know apps. You two guys know apps. Like no one's business, even on all sides of designing them. So debugging them with words is cool. Now it's super awkward. If you get long code and you. Do all kinds of things, you got to be ginger about things. That's the brittle nature of it. But if you do a small app and you just describe it and you give it a sketch, it'll work. I gave like I Jenna J I N AI they have a neat. You can use their reader to do. Markdown of a webpage. They got a neat website. It's all techie because, you know, it's designed after devs. And I just used that as a. Here's my content. Use that website as this page as the design. And it built out a website that looked like that website, a web page. That looked like a website with functionality. That I didn't describe based on the website. And so you can do that kind. Of looky lose thing as the starting point. And then my stuff has a real feel. Like the works on a playground is a work feeling. And it's. I like it, but that's not where I'm gonna go with it. I'm gonna go with this black and green and taupe thing. And it's gonna. It's gonna. I'm in the mode of trying to baffle people or how about this market. To people and their expectations are just kind of cliche. That is they. They are not trying to look for something. They're not trying to understand something new. You need to really help them understand. Yeah, it's pretty crazy. Yeah, it's the education part, right? It's like in this piece and I seem to do this to myself. I get into like, I don't like championing the category. And that's where I'm at again. And so examples are everything. And that's what, you know, we're Getting exposure to, to VCs, so being able to elicit more, more quickly and say, oh, it looks like the other guys. Because I'm sorry, VCs are not like. They have money, but they're just regular Joes. They got lucky, most likely because they knew somebody. And their tools for analysis are just. As weak as anyone else in the ecosystem. They are pattern recognizing robots. That's it, man. And so if you don't get enough patterns, you recognize the wrong things. Yeah, it's just like, it's like buzzword, buzzword, you know, like you, you just gotta be in the. You know, it's funny, I found that you just gotta like frame it up and relate it to something that they understand that they already have like consensus around that is like. And then, then it's like, you know, then a bunch of whys or whatever. But it is more vibe than it is really anything else.
+- id: W-0038
+  t_start: 3510.0
+  t_end: 3600.935
+  utterance_ids:
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  text: Yeah, it's pretty crazy. Yeah, it's the education part, right? It's like in this piece and I seem to do this to myself. I get into like, I don't like championing the category. And that's where I'm at again. And so examples are everything. And that's what, you know, we're Getting exposure to, to VCs, so being able to elicit more, more quickly and say, oh, it looks like the other guys. Because I'm sorry, VCs are not like. They have money, but they're just regular Joes. They got lucky, most likely because they knew somebody. And their tools for analysis are just. As weak as anyone else in the ecosystem. They are pattern recognizing robots. That's it, man. And so if you don't get enough patterns, you recognize the wrong things. Yeah, it's just like, it's like buzzword, buzzword, you know, like you, you just gotta be in the. You know, it's funny, I found that you just gotta like frame it up and relate it to something that they understand that they already have like consensus around that is like. And then, then it's like, you know, then a bunch of whys or whatever. But it is more vibe than it is really anything else. Yeah, I know. You know that. And so I'm gonna lean on you here in the next few days, so. Yeah, man, I'm happy to help. I love that kind of stuff. That's my. I know. And that's. And so when I, I recognize when I start having no value for myself or I'm working really hard, you know, Working really hard and not getting anywhere or getting where I want to go. Anyways, I gotta get going because I got Manuel on the line, 9:00. And I want to warm up my coffee again. Thanks, Dave. Thanks. See you guys. Yeah, thank you guys. I really appreciate. I heard a term just as part vibe. What Vibe? It's the vibe economy. Check it out. Yeah. All right. That's a good one to leave on, man.
+- id: W-0039
+  t_start: 3600.0
+  t_end: 3600.935
+  utterance_ids:
+  - u108
+  text: All right. That's a good one to leave on, man.

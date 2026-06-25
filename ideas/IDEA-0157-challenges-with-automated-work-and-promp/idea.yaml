@@ -1,0 +1,28 @@
+id: IDEA-0157
+slug: challenges-with-automated-work-and-promp
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-03-25'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Fulvio Ciano expressed hesitation about increased automation using tools like Gemini CLI because they lose visibility into the process and fear breaking the flow without knowing it (00:16:50). David Olsson shared a similar frustration with excessive permission prompts in Claude code and admitted to installing a plugin to automatically approve dangerous command-line interface (CLI) calls to avoid hitting "yes" constantly (00:17:53). Fulvio Ciano highlighted the danger of developing a habit of accepting all prompts, which could lead to accidental destruction of work (00:18:57).
+summary: Challenges with Automated Work and Prompter Fatigue
+rationale: Fulvio Ciano expressed hesitation about increased automation using tools like Gemini CLI because they lose visibility into the process and fear breaking the flow without knowing it (00:16:50). David Olsson shared a similar frustration with excessive permission prompts in Claude code and admitted to installing a plugin to automatically approve dangerous command-line interface (CLI) calls to avoid h
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T17:20:06Z'
+updated: '2026-06-25T17:21:26Z'
+grade: 70.3
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 6.1
+  concretion: 15
+  uniqueness: 15
+  carryover: 0
+rank: 36
+tier: queue

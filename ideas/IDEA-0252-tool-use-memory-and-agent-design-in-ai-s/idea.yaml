@@ -1,0 +1,28 @@
+id: IDEA-0252
+slug: tool-use-memory-and-agent-design-in-ai-s
+phase: backlog
+track: heavy
+source:
+  meeting: '2025-05-14'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Fulvio described enabling dynamic memory in local models, allowing agents to store and recall user-specific information. Discussion on the need for standardized frameworks (e.g., MCPs) for agent tools, filters, and context management. Challenges remain in integrating tools and plugins effectively, with ongoing work to build robust agent architectures.
+summary: Tool Use, Memory, and Agent Design in AI Systems
+rationale: Fulvio described enabling dynamic memory in local models, allowing agents to store and recall user-specific information. Discussion on the need for standardized frameworks (e.g., MCPs) for agent tools, filters, and context management. Challenges remain in integrating tools and plugins effectively, with ongoing work to build robust agent architectures.
+tags: []
+theme_refs:
+- THEME-13
+directive_refs: []
+created: '2026-06-25T17:20:10Z'
+updated: '2026-06-25T17:21:28Z'
+grade: 53.8
+grade_breakdown:
+  evidence: 25
+  theme: 9.2
+  recency: 0.2
+  concretion: 4.5
+  uniqueness: 15
+  carryover: 0
+rank: 355
+tier: backlog
