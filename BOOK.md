@@ -17,6 +17,7 @@ Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 run
 - [The themes](https://scsiwyg.com/8am-ai/themes-index) — all 14 themes, each defined, sized, spanned, with cited ideas
 - [The meetings](https://scsiwyg.com/8am-ai/meetings-index) — every meeting, its idea count, roster size, and dominant theme
 - [The ideas](https://scsiwyg.com/8am-ai/ideas-index) — all 759 ideas, grouped by theme, sorted by grade, each citing its meeting
+- [The threads](https://scsiwyg.com/8am-ai/threads-index) — knowledge-graph map: threads as nodes, shared meetings as edges, typed and tracked rising/fading
 
 ## Explainers (for the group)
 
