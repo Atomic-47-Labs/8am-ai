@@ -1,0 +1,19 @@
+Baseline interview harness — demo run
+
+[REVIEW] risk=0.5  tag=opinion    flags=['lexical_polish', 'hedge_absence']
+          “React is the superior choice. Firstly, it has a larger ecosystem. Furt…”
+
+[OK    ] risk=0.0  tag=opinion    flags=[]
+          “Honestly React, only because I'd find more people who already know it.…”
+
+[WATCH ] risk=0.25  tag=experience flags=['specificity_gap']
+          “When a project goes sideways, the best practice is to assess the situa…”
+
+[OK    ] risk=0.0  tag=experience flags=[]
+          “Our migration broke prod at 9am. I rolled back the deploy first, then …”
+
+Question bank:
+  q1 [experience/specificity_gap] Tell me about a time a project went sideways. What did *you* personally do in the first hour?
+  q2 [opinion/hedge_absence] React or Angular for a new internal tool — pick one and defend it in two sentences.
+  q3 [recall/latency_proxy] Off the top of your head, what's a tool you stopped using this year and why?
+  q4 [self/lexical_polish] What's something you're bad at that you've stopped apologizing for?
