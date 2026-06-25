@@ -7,8 +7,8 @@
     "ideas": 759,
     "themes": 14,
     "directives": 401,
-    "published": 0,
-    "drafted": 14,
+    "published": 14,
+    "drafted": 0,
     "queued": 214,
     "backlog": 531
   },
@@ -769,5 +769,13 @@
     "IDEA-0587",
     "IDEA-0526",
     "IDEA-0005"
-  ]
+  ],
+  "publishing": {
+    "scsiwyg_site": "8am-ai",
+    "site_url": "/8am-ai",
+    "posts": [
+      "/8am-ai/two-years-of-8am-ai",
+      "/8am-ai/from-scrubs-to-swarms"
+    ]
+  }
 }
