@@ -14,23 +14,34 @@ owners:
     email: david@atomic47.co
     role: facility-keeper
 
-# Participants are pulled from transcripts; seeded via meetup-intake.
+# Participants pulled from the full 109-meeting corpus via meetup-intake.
+# Core regulars first, then occasional attendees.
 participants:
   - David Olsson
   - Fulvio Ciano
+  - Hanif Janmohamed
   - Jason Kryski
   - Jen Boger
-  - Shabraj Shahid
-  - Ashley Beckett
-  - Bailey Klinger
-  - Juan Rojas
-  - Hanif Janmohamed
   - Ying
-  - Spencer MacBeth
-  - Mike Grell
+  - Juan Rojas
   - James Giroday
-  - Myles Holt
+  - Scott Morton
+  - Bailey Klinger
+  - Spencer MacBeth
   - Graham Fawcett
+  - Ashley Beckett
+  - Myles Holt
+  - Shabraj Shahid
+  - Travis Worthing
+  - Loren Kuich
+  - Carol Wilder
+  - Bibiana Souza
+  - Eric Johnson
+  - Mike Grell
+  - Anshul Dhariwal
+  - Karen Olsson
+  - Joel Semeniuk
+  - Lee Kennedy
 
 # Where transcripts come from.
 intake:
@@ -81,9 +92,12 @@ lifecycle:
 publishing:
   scsiwyg:
     site_slug: 8am-ai
+    site_url: /8am-ai                     # LIVE — created 2026-06-25
+    site_id: 070f410a-eb8f-439f-93db-fbf707edf929
     theme: editorial
     visibility: unlisted
     auto_publish: true
+    live: true                            # blog exists; publish gate cleared
   gist:
     visibility: secret                  # share by link only
   slack:
