@@ -14,8 +14,23 @@ owners:
     email: david@atomic47.co
     role: facility-keeper
 
-# Participants are pulled from transcripts on first synthesis pass; seed here.
-participants: []
+# Participants are pulled from transcripts; seeded via meetup-intake.
+participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Jason Kryski
+  - Jen Boger
+  - Shabraj Shahid
+  - Ashley Beckett
+  - Bailey Klinger
+  - Juan Rojas
+  - Hanif Janmohamed
+  - Ying
+  - Spencer MacBeth
+  - Mike Grell
+  - James Giroday
+  - Myles Holt
+  - Graham Fawcett
 
 # Where transcripts come from.
 intake:

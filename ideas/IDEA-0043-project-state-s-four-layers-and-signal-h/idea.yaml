@@ -1,0 +1,28 @@
+id: IDEA-0043
+slug: project-state-s-four-layers-and-signal-h
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-05-06'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: The system is conceptualized as four (possibly five or one) layers, with a foundational component called "Work State" that harvests activity signals from various connectors such as GitHub, Gmail, Slack, Jira, Confluence, and RSS feeds. This harvesting of "signals" addresses the challenge of distributed work across numerous environments and repositories, and David Olsson stated they would demonstrate a Kanban view of this Work State (00:02:50). ![][image2]
+summary: Project State's Four Layers and Signal Harvesting
+rationale: The system is conceptualized as four (possibly five or one) layers, with a foundational component called "Work State" that harvests activity signals from various connectors such as GitHub, Gmail, Slack, Jira, Confluence, and RSS feeds. This harvesting of "signals" addresses the challenge of distributed work across numerous environments and repositories, and David Olsson stated they would demonstra
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 73.7
+grade_breakdown:
+  evidence: 25
+  theme: 10.2
+  recency: 9.9
+  concretion: 15
+  uniqueness: 13.6
+  carryover: 0
+rank: 21
+tier: queue

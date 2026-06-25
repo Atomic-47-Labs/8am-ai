@@ -1,0 +1,28 @@
+id: IDEA-0037
+slug: the-challenge-of-oversimplified-tasks-in
+phase: backlog
+track: light
+source:
+  meeting: '2026-04-29'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan explained that LLMs reduce the difficulty and friction for tackling any type of ticket, resulting in developers attempting tasks outside their expertise, such as infrastructure changes, because they "feel that it's easy". Juan is trying to manage this by structuring tasks so they view developers primarily as automators or auditors who check the ticket, process, and output, and then discuss the output before pushing the work (00:13:28). David Olsson agreed that this concept of validating work is a crucial step they have automated, though they noted the automation does not always provide fe
+summary: The Challenge of Oversimplified Tasks in LLM Environment
+rationale: Juan explained that LLMs reduce the difficulty and friction for tackling any type of ticket, resulting in developers attempting tasks outside their expertise, such as infrastructure changes, because they "feel that it's easy". Juan is trying to manage this by structuring tasks so they view developers primarily as automators or auditors who check the ticket, process, and output, and then discuss th
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 66.0
+grade_breakdown:
+  evidence: 25
+  theme: 10.8
+  recency: 9.1
+  concretion: 7.5
+  uniqueness: 13.6
+  carryover: 0
+rank: 68
+tier: backlog

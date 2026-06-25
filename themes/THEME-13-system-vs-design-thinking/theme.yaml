@@ -1,0 +1,47 @@
+id: THEME-13
+slug: system-vs-design-thinking
+status: active
+summary: 'Recurring across 8 meetings: system vs design thinking.'
+first_seen: '2025-08-27'
+last_seen: '2026-06-24'
+idea_refs:
+- IDEA-0145
+- IDEA-0146
+- IDEA-0024
+- IDEA-0040
+- IDEA-0047
+- IDEA-0069
+- IDEA-0090
+- IDEA-0097
+- IDEA-0118
+evidence:
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0145
+  excerpt: The system successfully executed 4000 OpenAI calls in 6 minutes through a serverless architecture, demonstrating efficiency.
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0146
+  excerpt: A CRM-agnostic design allows for easy integration across multiple platforms via RPC API, with Twilio as the SMS provider.
+- meeting: '2026-04-22'
+  idea_ref: IDEA-0024
+  excerpt: David Olsson discussed the shift from design thinking, which used to be valuable for problem-solving, toward "system thinking," which is now increasingly systematic and requires operating at a higher level closer to objectives and goals. Th
+- meeting: '2026-04-29'
+  idea_ref: IDEA-0040
+  excerpt: Jason Kryski reflected that the "typical agile structure" is not working for their four-person team, noting they are probably operating at only 70% of their capability despite moving quickly, leading them to consider rebuilding their system
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0047
+  excerpt: Project State uses files (like YAML, Markdown, JSON) stored locally to document information such as changes, communication, decisions, milestones, and phases (00:07:06) (00:40:19). The system generates weekly reports, including scripted ema
+- meeting: '2026-05-20'
+  idea_ref: IDEA-0069
+  excerpt: Juan discussed the emergence of developers who function as "evolved typists," proficient at writing specific functions within standardized architectures but lacking the deeper knowledge required for refactoring or original problem-solving w
+- meeting: '2026-06-03'
+  idea_ref: IDEA-0090
+  excerpt: Juan argued that the focus of technical work should shift from the specific programming language—such as React or Angular—to identifying the right problem and defining the best solution, as Large Language Models can handle the coding portio
+- meeting: '2026-06-10'
+  idea_ref: IDEA-0097
+  excerpt: Project State functions as a compliance tool using an append-only database, which allows it to track logs, decisions, and risks over time. The system is capable of re-reasoning through project milestones if significant changes, such as a sh
+- meeting: '2026-06-24'
+  idea_ref: IDEA-0118
+  excerpt: David discusses a project to create an automated repository that parses and stores meeting transcripts (00:34:54) (00:51:41). The group discusses moving from passive conversation to building a system that extracts themes and enables operati
+trajectory: steady
+created: '2026-06-25T14:36:57Z'
+updated: '2026-06-25T14:36:57Z'

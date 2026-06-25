@@ -1,0 +1,72 @@
+id: THEME-12
+slug: signal-harvesting
+status: active
+summary: 'Recurring across 10 meetings: signal harvesting.'
+first_seen: '2025-08-27'
+last_seen: '2026-06-24'
+idea_refs:
+- IDEA-0142
+- IDEA-0144
+- IDEA-0155
+- IDEA-0029
+- IDEA-0043
+- IDEA-0044
+- IDEA-0045
+- IDEA-0046
+- IDEA-0048
+- IDEA-0050
+- IDEA-0053
+- IDEA-0059
+- IDEA-0077
+- IDEA-0082
+- IDEA-0085
+- IDEA-0086
+- IDEA-0087
+- IDEA-0088
+- IDEA-0089
+- IDEA-0096
+- IDEA-0100
+- IDEA-0101
+- IDEA-0107
+- IDEA-0109
+- IDEA-0119
+evidence:
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0142
+  excerpt: 'Mercury platform demo showcased version two agent intelligence design system for outbound conversational agents with key components: persona creation, contact management, and conversation design.'
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0144
+  excerpt: Advanced agent intelligence systems include batch operations and skills management, with evaluations running non-deterministic tests up to 4000 samples for confidence analytics.
+- meeting: '2025-09-03'
+  idea_ref: IDEA-0155
+  excerpt: Hanif Janmohamed suggested viewing AI as a conversational partner, promoting the idea of distributed intelligence in collaborative tasks.
+- meeting: '2026-04-22'
+  idea_ref: IDEA-0029
+  excerpt: Hanif Janmohamed noted that working with AI feels like a "constantly evolving paradigm" and that they are impressed by how they can leverage their intuition and get feedback from their AI collaborator. David Olsson described a method called
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0043
+  excerpt: The system is conceptualized as four (possibly five or one) layers, with a foundational component called "Work State" that harvests activity signals from various connectors such as GitHub, Gmail, Slack, Jira, Confluence, and RSS feeds. This
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0044
+  excerpt: Project State was initially designed to manage the Crush Dynamics project, which involved protein generation or fermentation and had complex reporting needs across three companies and four organizations (00:02:50). The need for a centralize
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0045
+  excerpt: The system is built upon a flat file model, operating at the metadata level, which was the original architectural approach for Work Sona (00:03:57). David Olsson noted the high volume of projects and the necessity of viewing them in "portfo
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0046
+  excerpt: The core value of the system lies in its ability to track all work and communication around a project from various sources, making the intelligence queryable from within the IDE using an LLM (00:05:01). The layering of intelligence—from doi
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0048
+  excerpt: A significant revelation was the use of YAML files for data storage, which offers greater value for AI consumption and organizational data capture. The design ensures that intelligence is not exclusively captured within the LLM itself, whic
+- meeting: '2026-05-06'
+  idea_ref: IDEA-0050
+  excerpt: David Olsson found that the new system, despite the extensive development, has actually allowed them to slow down and avoid the feeling of being overwhelmed by work. The system's ability to create layered intelligence using various tools, a
+- meeting: '2026-05-13'
+  idea_ref: IDEA-0053
+  excerpt: Hanif Janmohamed and David Olsson explore the shift from relational engagement to transactional contracts, particularly in school assignments and programming (00:08:56). They discuss the "intelligence of the cell," referencing biological mo
+- meeting: '2026-05-13'
+  idea_ref: IDEA-0059
+  excerpt: David Olsson details "Project State," an infrastructure layer designed to make intelligence durable across projects and organizations (00:25:57). The goal is to evolve the system so that users can simply drop files into a directory, allowin
+trajectory: steady
+created: '2026-06-25T14:36:57Z'
+updated: '2026-06-25T14:36:57Z'

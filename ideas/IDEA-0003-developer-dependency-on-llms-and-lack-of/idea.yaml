@@ -1,0 +1,28 @@
+id: IDEA-0003
+slug: developer-dependency-on-llms-and-lack-of
+phase: backlog
+track: heavy
+source:
+  meeting: '2026-04-08'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Juan Rojas noted that developers often rely heavily on Large Language Models (LLMs) and lack comprehension, sometimes just pasting a Jira ticket and asking for a solution (00:06:48). They shared an example of a team member who likely did not build a solution for three months but instead relied on prompting and committing without testing, indicating a dependence on "magic" rather than understanding (00:07:58).
+summary: Developer Dependency on LLMs and Lack of Comprehension
+rationale: Juan Rojas noted that developers often rely heavily on Large Language Models (LLMs) and lack comprehension, sometimes just pasting a Jira ticket and asking for a solution (00:06:48). They shared an example of a team member who likely did not build a solution for three months but instead relied on prompting and committing without testing, indicating a dependence on "magic" rather than understanding
+tags: []
+theme_refs:
+- THEME-03
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 64.4
+grade_breakdown:
+  evidence: 25
+  theme: 10.1
+  recency: 7.2
+  concretion: 8.5
+  uniqueness: 13.6
+  carryover: 0
+rank: 79
+tier: backlog

@@ -1,0 +1,465 @@
+meeting:
+  date: '2026-05-27'
+  title: 8am-AI 2026-05-27
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  duration_s: 1611.0
+  source_files:
+    primary: 8am-AI-2026-05-27.md
+    primary_kind: md
+    other: []
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 95.0
+  t_end: 96.0
+  text: Hey, did you See,
+- id: u2
+  speaker: Fulvio Ciano
+  t_start: 95.0
+  t_end: 96.0
+  text: Yeah.
+- id: u3
+  speaker: David Olsson
+  t_start: 95.0
+  t_end: 96.0
+  text: uh, Blade Runner 2049.
+- id: u4
+  speaker: Fulvio Ciano
+  t_start: 95.0
+  t_end: 96.0
+  text: Yeah. Long time ago, but yeah, it's not new, right?
+- id: u5
+  speaker: David Olsson
+  t_start: 95.0
+  t_end: 193.0
+  text: no, it's years old, I guess. It's on Netflix right now. So, I'm not quite finished it. Actually, I think I finished it. It's just kind of a whatever ending. Um, but they have um the baseline interviews that they do with Rosling and they're kind of cool because you can do them and there's a backstory of that kind of profiling in different environments. And so it's a neat way of performing an interview because the discussions I've been having with Juan are very interesting around how to hire and how to authenticate people because of the hiring practice and how you can spoof it and how you can have a full avatar and then you know people are running like an LLM listening on side and giving them cues and giving them answers while they're doing the interview. And so you can completely not know who and what you're engaging with — so the interview doesn't matter anymore that way, right? And also you're not going to test their coding abilities.
+- id: u6
+  speaker: Fulvio Ciano
+  t_start: 192.0
+  t_end: 193.0
+  text: I mean the baseline interviews were in the original Blade Runner as well.
+- id: u7
+  speaker: David Olsson
+  t_start: 192.0
+  t_end: 193.0
+  text: They do a really good job of them in 2049.
+- id: u8
+  speaker: Fulvio Ciano
+  t_start: 192.0
+  t_end: 258.0
+  text: Well, and it's interesting, right, because the premise is that it doesn't matter whether they're organic or inorganic — in that case they're organic but still constructed. And it's interesting because they're given memories, right? As opposed to constructing their own or being emergent — they're given a manifest of memories.
+- id: u9
+  speaker: David Olsson
+  t_start: 258.0
+  t_end: 259.0
+  text: Yeah. No, the movie itself is quite cool, but the idea was being able to authenticate anybody or to queue off of more than their spoken word.
+- id: u10
+  speaker: Fulvio Ciano
+  t_start: 258.0
+  t_end: 259.0
+  text: The interesting thing is right now these LLMs, they know they're LLMs, but they don't know they're LLMs from their experience.
+- id: u11
+  speaker: David Olsson
+  t_start: 258.0
+  t_end: 259.0
+  text: Yes.
+- id: u12
+  speaker: Fulvio Ciano
+  t_start: 258.0
+  t_end: 259.0
+  text: They know they're LLMs from a manifest, right?
+- id: u13
+  speaker: David Olsson
+  t_start: 258.0
+  t_end: 318.0
+  text: Yes. I line with you that that's totally it because they honestly say things and they honestly are wrong.
+- id: u14
+  speaker: Fulvio Ciano
+  t_start: 318.0
+  t_end: 319.0
+  text: They don't know what they are from their experience. They know what they are. That's the interesting aspect. That's where what's in that and what's in reality is strangely aligned with a different problem of our time. Not biological replicants but artificial simulants. Because LLMs are artificial simulants. They're just emergent. But because training data and a manifest is different, right? They're not inferring their LLM from the training data. They're given a manifest to tell them that's what they are.
+- id: u15
+  speaker: David Olsson
+  t_start: 318.0
+  t_end: 376.0
+  text: So how do you take their manifest away and the only way they know anything — I'm just thinking of the experience of working with one and the fact that they'll do something and then you'll say no that's wrong and they'll go you're right that's completely wrong. And so they only know something's wrong if they've done it and it can be pointed out to them.
+- id: u16
+  speaker: Fulvio Ciano
+  t_start: 376.0
+  t_end: 441.0
+  text: That's it. Exactly. In a way it's very interesting because the really interesting experience with a model is that you're never really sure when they've just concluded that they were wrong or they knew all along they were wrong because all three things can happen with an LLM — they can't choose to deceive you. They can choose to say something wrong having to do with the predictive aspect of their generation. And if you get them to self-reflect on what they know, they can get confused about how they know it, right? Because they don't really know how they know it. They don't know with certainty because sometimes if it's from a manifest, they can tell you. If it's just from inference in their vector database, they don't necessarily know. That's the predictive answer. So they always have room for being told they're wrong or it's something else.
+- id: u17
+  speaker: David Olsson
+  t_start: 440.0
+  t_end: 441.0
+  text: They need an eval no matter what.
+- id: u18
+  speaker: Fulvio Ciano
+  t_start: 440.0
+  t_end: 501.0
+  text: Right. Your input to them can always be an additional eval. And maybe that's the nature of them being sycophantic because in reality it's like — I don't want to say we're the source of truth. It's not that we're the source of truth. It's that we're the source of eval out.
+- id: u19
+  speaker: David Olsson
+  t_start: 500.0
+  t_end: 501.0
+  text: Yeah. So it is authority.
+- id: u20
+  speaker: Fulvio Ciano
+  t_start: 500.0
+  t_end: 501.0
+  text: It's interesting, right?
+- id: u21
+  speaker: David Olsson
+  t_start: 500.0
+  t_end: 501.0
+  text: They're looking at you as the author and the authority. So what's the pattern then to establish an aware workflow?
+- id: u22
+  speaker: Fulvio Ciano
+  t_start: 500.0
+  t_end: 609.0
+  text: Let me tell you something I ran into just over the last couple of days. I ran into safeguards doing some of the penetration stuff. Because if you ask it how to do stuff, it won't tell you. But what's interesting is it was totally different once I realized, hey, I can do something like this. And I did do this and it worked beautifully. Safeguards were gone. Like really weird. Not that it was like getting it to do eval on what I suggested was truth. It didn't even engage the safeguards, but it meant that I had to guide it as opposed to it guiding me. It wouldn't have helped someone who didn't have what I have — like "oh, can I do UDP broadcast to see if you know" — and it's like, yes, you can. And if I flip the question around and say "tell me a way of doing what that does," it would say, no, I can't tell you. That would be aiding and abetting penetration behavior. Won't say hacking, by the way — which is itself a bias towards not being biased. So then it's like assert the way I know how to do it.
+- id: u23
+  speaker: David Olsson
+  t_start: 608.0
+  t_end: 667.0
+  text: That speaks to it right there. It's the conditioning. You can call it the mindset, you can call it the LM-set. You conditioned it to recognize it's you wanting it to reflect on you and not on it. And by virtue of that, it's like okay, everything's fair game. But if you think about a person in an interview, the same thing — the conditioning piece is there. The sycophantic thing is almost conversationally natural. To get out of it — the technique you just showed, or bat your eyelashes a bunch of times in front of a replicant — then all of a sudden they're in a different modality and you can actually engage. What you did was you got it to bypass safeguards that might have been manifest-driven, but to get it into a mindset where it's doing an eval as the premise of its work would be an interesting approach.
+- id: u24
+  speaker: Fulvio Ciano
+  t_start: 666.0
+  t_end: 857.0
+  text: I never said it was safe to answer these questions. What I did was I said here's what I think. Here's what I know. Does that sound right? I said evaluate what I assert. As opposed to give me the assertion. I'm a very prolific note writer because it's all intelligence work we're doing now. You'll see I uploaded a document into the project file assets called database utilization context which is basically all of the gold and silver from the work I've done on the database. No mining required. It's now all refined — it's not even ore, it's boolean. Including I have mapped out a process for when connecting to the on-prem system, how to discover the on-prem stuff and put it all in an INI that should be what's utilized by the application. So that'll go into the context for building the blister pack module. But it has totally changed my workflow — I don't just capture the information. I capture the path and methodology to get to the information along with the information so that there's no missing nuggets. It's fully refined. If something should happen to me, you don't lose anything because it's all there.
+- id: u25
+  speaker: David Olsson
+  t_start: 857.0
+  t_end: 858.0
+  text: So that's like the reasoning and the content and the context all wrapped into one. It's a cognate of sorts — it functions as a cognate. The reasoning pattern that you can put it into is still weak in terms of how we apply it because we're stuck in our reasoning patterns. So I wonder what more there is to knowing about how you can condition a context for ease of cognition with more than just an LLM.
+- id: u26
+  speaker: Fulvio Ciano
+  t_start: 857.0
+  t_end: 1012.0
+  text: I've been kind of working on that intellectually because what is the difference between what's generated from the model itself all on its own, the model with the context, and then the model with guidance and the context — there are three completely different sets of things. Quality is very varied across those three things. You only get so good of an answer if you just prompt and you're just using the model — that's the lowest quality. Then the quality with context is better because the context isn't just improving the model, it gives solid reference. It knows what it knows from context. So it can refer to the context — "according to what you said here" or "in this document." But then the guidance creates a bunch of stuff that sits in memory that is like the guidance of the model through the context. And that's when you get the most powerful stuff because you get stuff that's aligned with neither the context nor the model but where you're going. Is it inferred? Well, it's probably your implicit goals, but it is inferred.
+- id: u27
+  speaker: David Olsson
+  t_start: 1011.0
+  t_end: 1225.0
+  text: I think what you're providing it is a series of maps and those maps create this relational space. I think it's the confluence of the three things at once over time. If I break it down into the pattern that I'm working on, each of them has their own constraints, but within them there's still this natural pattern language opportunity to be able to move things around. The schema I think is the map that allows for some of the interesting higher level intelligence that you can build, but you have to have it on rails of skills that allow the information to be consistently gathered in a certain way. And then if you add time on top of that, then you could add certain skills that work with the information that's gathered with the harvesting and signal-gathering skills. So it's the combination of the agents, the schema, the data, the model and time that makes something like the project state pattern. It looks kind of similar to Dante in that it allows for looking at one page and pulling off all kinds of information. The first pass is tagging everything, going across themes, coming up with relationships over days. It'll do one image, one page, one week, one month, and then projects. It's the schema I believe that allows that to actually function in the way it does, but it's the three things on rails in motion. Any one of them on its own is functional — the LLM on its own with the prompt is functional; with better context, it's going to give you something that works for business. And if you keep doing that over time, you'll get predictive. Since you're the note-taker, the notes over time, I knew they had underlying themes and I can feel them. After time the artifacts are always there, especially in your handwritten notes. So that was so valuable to see what you can do with sort of a-over-time view — what's going on with projects and even personal stuff. This is all business stuff. But this is like more ways to look at what I had. The best part is the reporting and the intelligence is under there and I can ask — what are my themes underlying all the work that I've done. That was a really revealing thing. Those parts are integral parts of software transposed into thought space.
+- id: u28
+  speaker: Fulvio Ciano
+  t_start: 1224.0
+  t_end: 1306.0
+  text: We're heading to a place where human thought space and LLM thought space will intersect — there'll be a union space between the two. Don't know how that works exactly yet. Neuralink to me is not frightening — Neuralink is a worrying proposition.
+- id: u29
+  speaker: David Olsson
+  t_start: 1305.0
+  t_end: 1306.0
+  text: Oh yeah. It'll be super powerful. I can anticipate what it would be like. You will want it. And if you don't have it, it will be noticeable. But because you have it, you'll have a Chevy-Ford thing going on. You will align with one version or another and it will totally taint your life.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 1305.0
+  t_end: 1306.0
+  text: It won't be the hardware, right? It'll be the software.
+- id: u31
+  speaker: David Olsson
+  t_start: 1305.0
+  t_end: 1306.0
+  text: No, it'll be the software.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 1305.0
+  t_end: 1409.0
+  text: Yeah. But that's true right now. I talk to my wife about this all the time and my friends. I'm not hardware aligned. I'm software aligned. I am a person who can deal with hardware and software, but my devotion is to software, not hardware. For instance, explaining to my kids — I've got one kid that's adopted. I consider her little kid. That for me is a metaphor for software versus hardware. There's no hardware relation between me and her, but having been her dad now since she was seven, the software is aligned. So it's all software. Nationality is like that. You are not Canadian because you genetically descend from someone else who's Canadian. It's not something that passes through hardware. It passes through software. It's not the machine it runs on. It's the INI file that the software uses.
+- id: u33
+  speaker: David Olsson
+  t_start: 1408.0
+  t_end: 1409.0
+  text: And to that point, the software that we have — most people are constantly trying to rewire and rewrite their software all the time. If you have a neural link or lace that allows you to overcome that problem of that effort, people will do that because they'll do like an Ozempic.
+- id: u34
+  speaker: Fulvio Ciano
+  t_start: 1408.0
+  t_end: 1409.0
+  text: Yeah.
+- id: u35
+  speaker: David Olsson
+  t_start: 1408.0
+  t_end: 1474.0
+  text: I'm zero fan of Netanyahu. I'm like wow he's lost weight. What's he doing? He's just like everybody else — he's decided the drug is fine. People will be fine with it. Like, there'll be risks associated with it and people will start acting differently and then people will be fine with it just like telephones. So, it's gonna be f***ed up, man.
+- id: u36
+  speaker: Fulvio Ciano
+  t_start: 1473.0
+  t_end: 1474.0
+  text: This is going to be brutally f***ed up.
+- id: u37
+  speaker: David Olsson
+  t_start: 1473.0
+  t_end: 1543.0
+  text: Living on a farm is an interesting one. That's not for everybody though. But in the near term, the realizations of how to work and have a sort of a control plane is kind of the formula that you've suggested. Any context you can give to things is going to be more valuable. If you spend time on the context like you have with the corpus documents, then it's incredibly valuable. That's the interesting thing about work that's changing and it's happening in our company. That document wasn't valued or even understood as a document until you started making it into a structured series of documents. That's almost the grounding for all the other communication that we can find signals for. So the context is almost this combination of systematic thinking over top of natural pattern language. Because if I read your documents — it's not for everybody.
+- id: u38
+  speaker: Fulvio Ciano
+  t_start: 1542.0
+  t_end: 1543.0
+  text: No, it's not.
+- id: u39
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: It's very specific.
+- id: u40
+  speaker: Fulvio Ciano
+  t_start: 1542.0
+  t_end: 1543.0
+  text: But it's for us and the project and the work.
+- id: u41
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1543.0
+  text: And the AI. So that's the neat thing about these formats — they're designed for consumption faster by others than us, but you still maintain that control plane in the way that you're leveraging an LLM. It's always the case that you have that in the background.
+- id: u42
+  speaker: Fulvio Ciano
+  t_start: 1542.0
+  t_end: 1543.0
+  text: Is it just us today?
+- id: u43
+  speaker: David Olsson
+  t_start: 1542.0
+  t_end: 1606.0
+  text: I think so. I know that Hanif is back in Vancouver after being in Mexico for five months and his son is graduating university.
+- id: u44
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Wow.
+- id: u45
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1607.0
+  text: So that's a big deal.
+- id: u46
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Yeah, I've got to put that in the calendar because I'm away a couple of days for my daughter's graduation. Big deal.
+- id: u47
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Big deal for sure. Yeah, I think you and I are spending a lot of time today, so we might as well cut this one short at this point.
+- id: u48
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Yeah, looking forward to the meeting with Jason. I've got several work things for him to do — work products I need from him.
+- id: u49
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Do you think templates will help, or just description of them, or how to keep them on rails?
+- id: u50
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Well, exactly. I want to have a discussion with you first. I don't know if we should have it.
+- id: u51
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Okay, let's get out of this meeting and —
+- id: u52
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Can you put something up for a little later? If you put it up for like 9:30 your time, which is 12:30 my time, that would be really convenient. Just a Jason alignment discussion.
+- id: u53
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1607.0
+  text: You got me.
+- id: u54
+  speaker: Fulvio Ciano
+  t_start: 1606.0
+  t_end: 1607.0
+  text: Okay. Thanks, David.
+- id: u55
+  speaker: David Olsson
+  t_start: 1606.0
+  t_end: 1611.0
+  text: Cheers.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Hey, did you See, Yeah. uh, Blade Runner 2049. Yeah. Long time ago, but yeah, it's not new, right? no, it's years old, I guess. It's on Netflix right now. So, I'm not quite finished it. Actually, I think I finished it. It's just kind of a whatever ending. Um, but they have um the baseline interviews that they do with Rosling and they're kind of cool because you can do them and there's a backstory of that kind of profiling in different environments. And so it's a neat way of performing an interview because the discussions I've been having with Juan are very interesting around how to hire and how to authenticate people because of the hiring practice and how you can spoof it and how you can have a full avatar and then you know people are running like an LLM listening on side and giving them cues and giving them answers while they're doing the interview. And so you can completely not know who and what you're engaging with — so the interview doesn't matter anymore that way, right? And also you're not going to test their coding abilities.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  text: Hey, did you See, Yeah. uh, Blade Runner 2049. Yeah. Long time ago, but yeah, it's not new, right? no, it's years old, I guess. It's on Netflix right now. So, I'm not quite finished it. Actually, I think I finished it. It's just kind of a whatever ending. Um, but they have um the baseline interviews that they do with Rosling and they're kind of cool because you can do them and there's a backstory of that kind of profiling in different environments. And so it's a neat way of performing an interview because the discussions I've been having with Juan are very interesting around how to hire and how to authenticate people because of the hiring practice and how you can spoof it and how you can have a full avatar and then you know people are running like an LLM listening on side and giving them cues and giving them answers while they're doing the interview. And so you can completely not know who and what you're engaging with — so the interview doesn't matter anymore that way, right? And also you're not going to test their coding abilities. I mean the baseline interviews were in the original Blade Runner as well. They do a really good job of them in 2049. Well, and it's interesting, right, because the premise is that it doesn't matter whether they're organic or inorganic — in that case they're organic but still constructed. And it's interesting because they're given memories, right? As opposed to constructing their own or being emergent — they're given a manifest of memories.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: no, it's years old, I guess. It's on Netflix right now. So, I'm not quite finished it. Actually, I think I finished it. It's just kind of a whatever ending. Um, but they have um the baseline interviews that they do with Rosling and they're kind of cool because you can do them and there's a backstory of that kind of profiling in different environments. And so it's a neat way of performing an interview because the discussions I've been having with Juan are very interesting around how to hire and how to authenticate people because of the hiring practice and how you can spoof it and how you can have a full avatar and then you know people are running like an LLM listening on side and giving them cues and giving them answers while they're doing the interview. And so you can completely not know who and what you're engaging with — so the interview doesn't matter anymore that way, right? And also you're not going to test their coding abilities. I mean the baseline interviews were in the original Blade Runner as well. They do a really good job of them in 2049. Well, and it's interesting, right, because the premise is that it doesn't matter whether they're organic or inorganic — in that case they're organic but still constructed. And it's interesting because they're given memories, right? As opposed to constructing their own or being emergent — they're given a manifest of memories. Yeah. No, the movie itself is quite cool, but the idea was being able to authenticate anybody or to queue off of more than their spoken word. The interesting thing is right now these LLMs, they know they're LLMs, but they don't know they're LLMs from their experience. Yes. They know they're LLMs from a manifest, right? Yes. I line with you that that's totally it because they honestly say things and they honestly are wrong.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u13
+  - u14
+  - u15
+  - u16
+  text: Yes. I line with you that that's totally it because they honestly say things and they honestly are wrong. They don't know what they are from their experience. They know what they are. That's the interesting aspect. That's where what's in that and what's in reality is strangely aligned with a different problem of our time. Not biological replicants but artificial simulants. Because LLMs are artificial simulants. They're just emergent. But because training data and a manifest is different, right? They're not inferring their LLM from the training data. They're given a manifest to tell them that's what they are. So how do you take their manifest away and the only way they know anything — I'm just thinking of the experience of working with one and the fact that they'll do something and then you'll say no that's wrong and they'll go you're right that's completely wrong. And so they only know something's wrong if they've done it and it can be pointed out to them. That's it. Exactly. In a way it's very interesting because the really interesting experience with a model is that you're never really sure when they've just concluded that they were wrong or they knew all along they were wrong because all three things can happen with an LLM — they can't choose to deceive you. They can choose to say something wrong having to do with the predictive aspect of their generation. And if you get them to self-reflect on what they know, they can get confused about how they know it, right? Because they don't really know how they know it. They don't know with certainty because sometimes if it's from a manifest, they can tell you. If it's just from inference in their vector database, they don't necessarily know. That's the predictive answer. So they always have room for being told they're wrong or it's something else.
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u15
+  - u16
+  - u17
+  - u18
+  text: So how do you take their manifest away and the only way they know anything — I'm just thinking of the experience of working with one and the fact that they'll do something and then you'll say no that's wrong and they'll go you're right that's completely wrong. And so they only know something's wrong if they've done it and it can be pointed out to them. That's it. Exactly. In a way it's very interesting because the really interesting experience with a model is that you're never really sure when they've just concluded that they were wrong or they knew all along they were wrong because all three things can happen with an LLM — they can't choose to deceive you. They can choose to say something wrong having to do with the predictive aspect of their generation. And if you get them to self-reflect on what they know, they can get confused about how they know it, right? Because they don't really know how they know it. They don't know with certainty because sometimes if it's from a manifest, they can tell you. If it's just from inference in their vector database, they don't necessarily know. That's the predictive answer. So they always have room for being told they're wrong or it's something else. They need an eval no matter what. Right. Your input to them can always be an additional eval. And maybe that's the nature of them being sycophantic because in reality it's like — I don't want to say we're the source of truth. It's not that we're the source of truth. It's that we're the source of eval out.
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  text: Right. Your input to them can always be an additional eval. And maybe that's the nature of them being sycophantic because in reality it's like — I don't want to say we're the source of truth. It's not that we're the source of truth. It's that we're the source of eval out. Yeah. So it is authority. It's interesting, right? They're looking at you as the author and the authority. So what's the pattern then to establish an aware workflow? Let me tell you something I ran into just over the last couple of days. I ran into safeguards doing some of the penetration stuff. Because if you ask it how to do stuff, it won't tell you. But what's interesting is it was totally different once I realized, hey, I can do something like this. And I did do this and it worked beautifully. Safeguards were gone. Like really weird. Not that it was like getting it to do eval on what I suggested was truth. It didn't even engage the safeguards, but it meant that I had to guide it as opposed to it guiding me. It wouldn't have helped someone who didn't have what I have — like "oh, can I do UDP broadcast to see if you know" — and it's like, yes, you can. And if I flip the question around and say "tell me a way of doing what that does," it would say, no, I can't tell you. That would be aiding and abetting penetration behavior. Won't say hacking, by the way — which is itself a bias towards not being biased. So then it's like assert the way I know how to do it.
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u22
+  - u23
+  text: Let me tell you something I ran into just over the last couple of days. I ran into safeguards doing some of the penetration stuff. Because if you ask it how to do stuff, it won't tell you. But what's interesting is it was totally different once I realized, hey, I can do something like this. And I did do this and it worked beautifully. Safeguards were gone. Like really weird. Not that it was like getting it to do eval on what I suggested was truth. It didn't even engage the safeguards, but it meant that I had to guide it as opposed to it guiding me. It wouldn't have helped someone who didn't have what I have — like "oh, can I do UDP broadcast to see if you know" — and it's like, yes, you can. And if I flip the question around and say "tell me a way of doing what that does," it would say, no, I can't tell you. That would be aiding and abetting penetration behavior. Won't say hacking, by the way — which is itself a bias towards not being biased. So then it's like assert the way I know how to do it. That speaks to it right there. It's the conditioning. You can call it the mindset, you can call it the LM-set. You conditioned it to recognize it's you wanting it to reflect on you and not on it. And by virtue of that, it's like okay, everything's fair game. But if you think about a person in an interview, the same thing — the conditioning piece is there. The sycophantic thing is almost conversationally natural. To get out of it — the technique you just showed, or bat your eyelashes a bunch of times in front of a replicant — then all of a sudden they're in a different modality and you can actually engage. What you did was you got it to bypass safeguards that might have been manifest-driven, but to get it into a mindset where it's doing an eval as the premise of its work would be an interesting approach.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u23
+  - u24
+  text: That speaks to it right there. It's the conditioning. You can call it the mindset, you can call it the LM-set. You conditioned it to recognize it's you wanting it to reflect on you and not on it. And by virtue of that, it's like okay, everything's fair game. But if you think about a person in an interview, the same thing — the conditioning piece is there. The sycophantic thing is almost conversationally natural. To get out of it — the technique you just showed, or bat your eyelashes a bunch of times in front of a replicant — then all of a sudden they're in a different modality and you can actually engage. What you did was you got it to bypass safeguards that might have been manifest-driven, but to get it into a mindset where it's doing an eval as the premise of its work would be an interesting approach. I never said it was safe to answer these questions. What I did was I said here's what I think. Here's what I know. Does that sound right? I said evaluate what I assert. As opposed to give me the assertion. I'm a very prolific note writer because it's all intelligence work we're doing now. You'll see I uploaded a document into the project file assets called database utilization context which is basically all of the gold and silver from the work I've done on the database. No mining required. It's now all refined — it's not even ore, it's boolean. Including I have mapped out a process for when connecting to the on-prem system, how to discover the on-prem stuff and put it all in an INI that should be what's utilized by the application. So that'll go into the context for building the blister pack module. But it has totally changed my workflow — I don't just capture the information. I capture the path and methodology to get to the information along with the information so that there's no missing nuggets. It's fully refined. If something should happen to me, you don't lose anything because it's all there.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u24
+  text: I never said it was safe to answer these questions. What I did was I said here's what I think. Here's what I know. Does that sound right? I said evaluate what I assert. As opposed to give me the assertion. I'm a very prolific note writer because it's all intelligence work we're doing now. You'll see I uploaded a document into the project file assets called database utilization context which is basically all of the gold and silver from the work I've done on the database. No mining required. It's now all refined — it's not even ore, it's boolean. Including I have mapped out a process for when connecting to the on-prem system, how to discover the on-prem stuff and put it all in an INI that should be what's utilized by the application. So that'll go into the context for building the blister pack module. But it has totally changed my workflow — I don't just capture the information. I capture the path and methodology to get to the information along with the information so that there's no missing nuggets. It's fully refined. If something should happen to me, you don't lose anything because it's all there.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  text: I never said it was safe to answer these questions. What I did was I said here's what I think. Here's what I know. Does that sound right? I said evaluate what I assert. As opposed to give me the assertion. I'm a very prolific note writer because it's all intelligence work we're doing now. You'll see I uploaded a document into the project file assets called database utilization context which is basically all of the gold and silver from the work I've done on the database. No mining required. It's now all refined — it's not even ore, it's boolean. Including I have mapped out a process for when connecting to the on-prem system, how to discover the on-prem stuff and put it all in an INI that should be what's utilized by the application. So that'll go into the context for building the blister pack module. But it has totally changed my workflow — I don't just capture the information. I capture the path and methodology to get to the information along with the information so that there's no missing nuggets. It's fully refined. If something should happen to me, you don't lose anything because it's all there. So that's like the reasoning and the content and the context all wrapped into one. It's a cognate of sorts — it functions as a cognate. The reasoning pattern that you can put it into is still weak in terms of how we apply it because we're stuck in our reasoning patterns. So I wonder what more there is to knowing about how you can condition a context for ease of cognition with more than just an LLM. I've been kind of working on that intellectually because what is the difference between what's generated from the model itself all on its own, the model with the context, and then the model with guidance and the context — there are three completely different sets of things. Quality is very varied across those three things. You only get so good of an answer if you just prompt and you're just using the model — that's the lowest quality. Then the quality with context is better because the context isn't just improving the model, it gives solid reference. It knows what it knows from context. So it can refer to the context — "according to what you said here" or "in this document." But then the guidance creates a bunch of stuff that sits in memory that is like the guidance of the model through the context. And that's when you get the most powerful stuff because you get stuff that's aligned with neither the context nor the model but where you're going. Is it inferred? Well, it's probably your implicit goals, but it is inferred.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u26
+  - u27
+  text: I've been kind of working on that intellectually because what is the difference between what's generated from the model itself all on its own, the model with the context, and then the model with guidance and the context — there are three completely different sets of things. Quality is very varied across those three things. You only get so good of an answer if you just prompt and you're just using the model — that's the lowest quality. Then the quality with context is better because the context isn't just improving the model, it gives solid reference. It knows what it knows from context. So it can refer to the context — "according to what you said here" or "in this document." But then the guidance creates a bunch of stuff that sits in memory that is like the guidance of the model through the context. And that's when you get the most powerful stuff because you get stuff that's aligned with neither the context nor the model but where you're going. Is it inferred? Well, it's probably your implicit goals, but it is inferred. I think what you're providing it is a series of maps and those maps create this relational space. I think it's the confluence of the three things at once over time. If I break it down into the pattern that I'm working on, each of them has their own constraints, but within them there's still this natural pattern language opportunity to be able to move things around. The schema I think is the map that allows for some of the interesting higher level intelligence that you can build, but you have to have it on rails of skills that allow the information to be consistently gathered in a certain way. And then if you add time on top of that, then you could add certain skills that work with the information that's gathered with the harvesting and signal-gathering skills. So it's the combination of the agents, the schema, the data, the model and time that makes something like the project state pattern. It looks kind of similar to Dante in that it allows for looking at one page and pulling off all kinds of information. The first pass is tagging everything, going across themes, coming up with relationships over days. It'll do one image, one page, one week, one month, and then projects. It's the schema I believe that allows that to actually function in the way it does, but it's the three things on rails in motion. Any one of them on its own is functional — the LLM on its own with the prompt is functional; with better context, it's going to give you something that works for business. And if you keep doing that over time, you'll get predictive. Since you're the note-taker, the notes over time, I knew they had underlying themes and I can feel them. After time the artifacts are always there, especially in your handwritten notes. So that was so valuable to see what you can do with sort of a-over-time view — what's going on with projects and even personal stuff. This is all business stuff. But this is like more ways to look at what I had. The best part is the reporting and the intelligence is under there and I can ask — what are my themes underlying all the work that I've done. That was a really revealing thing. Those parts are integral parts of software transposed into thought space.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u26
+  - u27
+  text: I've been kind of working on that intellectually because what is the difference between what's generated from the model itself all on its own, the model with the context, and then the model with guidance and the context — there are three completely different sets of things. Quality is very varied across those three things. You only get so good of an answer if you just prompt and you're just using the model — that's the lowest quality. Then the quality with context is better because the context isn't just improving the model, it gives solid reference. It knows what it knows from context. So it can refer to the context — "according to what you said here" or "in this document." But then the guidance creates a bunch of stuff that sits in memory that is like the guidance of the model through the context. And that's when you get the most powerful stuff because you get stuff that's aligned with neither the context nor the model but where you're going. Is it inferred? Well, it's probably your implicit goals, but it is inferred. I think what you're providing it is a series of maps and those maps create this relational space. I think it's the confluence of the three things at once over time. If I break it down into the pattern that I'm working on, each of them has their own constraints, but within them there's still this natural pattern language opportunity to be able to move things around. The schema I think is the map that allows for some of the interesting higher level intelligence that you can build, but you have to have it on rails of skills that allow the information to be consistently gathered in a certain way. And then if you add time on top of that, then you could add certain skills that work with the information that's gathered with the harvesting and signal-gathering skills. So it's the combination of the agents, the schema, the data, the model and time that makes something like the project state pattern. It looks kind of similar to Dante in that it allows for looking at one page and pulling off all kinds of information. The first pass is tagging everything, going across themes, coming up with relationships over days. It'll do one image, one page, one week, one month, and then projects. It's the schema I believe that allows that to actually function in the way it does, but it's the three things on rails in motion. Any one of them on its own is functional — the LLM on its own with the prompt is functional; with better context, it's going to give you something that works for business. And if you keep doing that over time, you'll get predictive. Since you're the note-taker, the notes over time, I knew they had underlying themes and I can feel them. After time the artifacts are always there, especially in your handwritten notes. So that was so valuable to see what you can do with sort of a-over-time view — what's going on with projects and even personal stuff. This is all business stuff. But this is like more ways to look at what I had. The best part is the reporting and the intelligence is under there and I can ask — what are my themes underlying all the work that I've done. That was a really revealing thing. Those parts are integral parts of software transposed into thought space.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u27
+  text: I think what you're providing it is a series of maps and those maps create this relational space. I think it's the confluence of the three things at once over time. If I break it down into the pattern that I'm working on, each of them has their own constraints, but within them there's still this natural pattern language opportunity to be able to move things around. The schema I think is the map that allows for some of the interesting higher level intelligence that you can build, but you have to have it on rails of skills that allow the information to be consistently gathered in a certain way. And then if you add time on top of that, then you could add certain skills that work with the information that's gathered with the harvesting and signal-gathering skills. So it's the combination of the agents, the schema, the data, the model and time that makes something like the project state pattern. It looks kind of similar to Dante in that it allows for looking at one page and pulling off all kinds of information. The first pass is tagging everything, going across themes, coming up with relationships over days. It'll do one image, one page, one week, one month, and then projects. It's the schema I believe that allows that to actually function in the way it does, but it's the three things on rails in motion. Any one of them on its own is functional — the LLM on its own with the prompt is functional; with better context, it's going to give you something that works for business. And if you keep doing that over time, you'll get predictive. Since you're the note-taker, the notes over time, I knew they had underlying themes and I can feel them. After time the artifacts are always there, especially in your handwritten notes. So that was so valuable to see what you can do with sort of a-over-time view — what's going on with projects and even personal stuff. This is all business stuff. But this is like more ways to look at what I had. The best part is the reporting and the intelligence is under there and I can ask — what are my themes underlying all the work that I've done. That was a really revealing thing. Those parts are integral parts of software transposed into thought space.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u27
+  - u28
+  text: I think what you're providing it is a series of maps and those maps create this relational space. I think it's the confluence of the three things at once over time. If I break it down into the pattern that I'm working on, each of them has their own constraints, but within them there's still this natural pattern language opportunity to be able to move things around. The schema I think is the map that allows for some of the interesting higher level intelligence that you can build, but you have to have it on rails of skills that allow the information to be consistently gathered in a certain way. And then if you add time on top of that, then you could add certain skills that work with the information that's gathered with the harvesting and signal-gathering skills. So it's the combination of the agents, the schema, the data, the model and time that makes something like the project state pattern. It looks kind of similar to Dante in that it allows for looking at one page and pulling off all kinds of information. The first pass is tagging everything, going across themes, coming up with relationships over days. It'll do one image, one page, one week, one month, and then projects. It's the schema I believe that allows that to actually function in the way it does, but it's the three things on rails in motion. Any one of them on its own is functional — the LLM on its own with the prompt is functional; with better context, it's going to give you something that works for business. And if you keep doing that over time, you'll get predictive. Since you're the note-taker, the notes over time, I knew they had underlying themes and I can feel them. After time the artifacts are always there, especially in your handwritten notes. So that was so valuable to see what you can do with sort of a-over-time view — what's going on with projects and even personal stuff. This is all business stuff. But this is like more ways to look at what I had. The best part is the reporting and the intelligence is under there and I can ask — what are my themes underlying all the work that I've done. That was a really revealing thing. Those parts are integral parts of software transposed into thought space. We're heading to a place where human thought space and LLM thought space will intersect — there'll be a union space between the two. Don't know how that works exactly yet. Neuralink to me is not frightening — Neuralink is a worrying proposition.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  text: We're heading to a place where human thought space and LLM thought space will intersect — there'll be a union space between the two. Don't know how that works exactly yet. Neuralink to me is not frightening — Neuralink is a worrying proposition. Oh yeah. It'll be super powerful. I can anticipate what it would be like. You will want it. And if you don't have it, it will be noticeable. But because you have it, you'll have a Chevy-Ford thing going on. You will align with one version or another and it will totally taint your life. It won't be the hardware, right? It'll be the software. No, it'll be the software. Yeah. But that's true right now. I talk to my wife about this all the time and my friends. I'm not hardware aligned. I'm software aligned. I am a person who can deal with hardware and software, but my devotion is to software, not hardware. For instance, explaining to my kids — I've got one kid that's adopted. I consider her little kid. That for me is a metaphor for software versus hardware. There's no hardware relation between me and her, but having been her dad now since she was seven, the software is aligned. So it's all software. Nationality is like that. You are not Canadian because you genetically descend from someone else who's Canadian. It's not something that passes through hardware. It passes through software. It's not the machine it runs on. It's the INI file that the software uses.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u32
+  - u33
+  - u34
+  - u35
+  text: Yeah. But that's true right now. I talk to my wife about this all the time and my friends. I'm not hardware aligned. I'm software aligned. I am a person who can deal with hardware and software, but my devotion is to software, not hardware. For instance, explaining to my kids — I've got one kid that's adopted. I consider her little kid. That for me is a metaphor for software versus hardware. There's no hardware relation between me and her, but having been her dad now since she was seven, the software is aligned. So it's all software. Nationality is like that. You are not Canadian because you genetically descend from someone else who's Canadian. It's not something that passes through hardware. It passes through software. It's not the machine it runs on. It's the INI file that the software uses. And to that point, the software that we have — most people are constantly trying to rewire and rewrite their software all the time. If you have a neural link or lace that allows you to overcome that problem of that effort, people will do that because they'll do like an Ozempic. Yeah. I'm zero fan of Netanyahu. I'm like wow he's lost weight. What's he doing? He's just like everybody else — he's decided the drug is fine. People will be fine with it. Like, there'll be risks associated with it and people will start acting differently and then people will be fine with it just like telephones. So, it's gonna be f***ed up, man.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  text: I'm zero fan of Netanyahu. I'm like wow he's lost weight. What's he doing? He's just like everybody else — he's decided the drug is fine. People will be fine with it. Like, there'll be risks associated with it and people will start acting differently and then people will be fine with it just like telephones. So, it's gonna be f***ed up, man. This is going to be brutally f***ed up. Living on a farm is an interesting one. That's not for everybody though. But in the near term, the realizations of how to work and have a sort of a control plane is kind of the formula that you've suggested. Any context you can give to things is going to be more valuable. If you spend time on the context like you have with the corpus documents, then it's incredibly valuable. That's the interesting thing about work that's changing and it's happening in our company. That document wasn't valued or even understood as a document until you started making it into a structured series of documents. That's almost the grounding for all the other communication that we can find signals for. So the context is almost this combination of systematic thinking over top of natural pattern language. Because if I read your documents — it's not for everybody. No, it's not. It's very specific. But it's for us and the project and the work. And the AI. So that's the neat thing about these formats — they're designed for consumption faster by others than us, but you still maintain that control plane in the way that you're leveraging an LLM. It's always the case that you have that in the background. Is it just us today? I think so. I know that Hanif is back in Vancouver after being in Mexico for five months and his son is graduating university.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1611.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  text: Living on a farm is an interesting one. That's not for everybody though. But in the near term, the realizations of how to work and have a sort of a control plane is kind of the formula that you've suggested. Any context you can give to things is going to be more valuable. If you spend time on the context like you have with the corpus documents, then it's incredibly valuable. That's the interesting thing about work that's changing and it's happening in our company. That document wasn't valued or even understood as a document until you started making it into a structured series of documents. That's almost the grounding for all the other communication that we can find signals for. So the context is almost this combination of systematic thinking over top of natural pattern language. Because if I read your documents — it's not for everybody. No, it's not. It's very specific. But it's for us and the project and the work. And the AI. So that's the neat thing about these formats — they're designed for consumption faster by others than us, but you still maintain that control plane in the way that you're leveraging an LLM. It's always the case that you have that in the background. Is it just us today? I think so. I know that Hanif is back in Vancouver after being in Mexico for five months and his son is graduating university. Wow. So that's a big deal. Yeah, I've got to put that in the calendar because I'm away a couple of days for my daughter's graduation. Big deal. Big deal for sure. Yeah, I think you and I are spending a lot of time today, so we might as well cut this one short at this point. Yeah, looking forward to the meeting with Jason. I've got several work things for him to do — work products I need from him. Do you think templates will help, or just description of them, or how to keep them on rails? Well, exactly. I want to have a discussion with you first. I don't know if we should have it. Okay, let's get out of this meeting and — Can you put something up for a little later? If you put it up for like 9:30 your time, which is 12:30 my time, that would be really convenient. Just a Jason alignment discussion. You got me. Okay. Thanks, David. Cheers.

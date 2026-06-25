@@ -1,0 +1,2823 @@
+meeting:
+  date: '2026-05-20'
+  title: 8am-AI 2026-05-20
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Jason Kryski
+  - Jen Boger
+  - Shabraj Shahid
+  - Bailey Klinger
+  - Spencer MacBeth
+  - Juan
+  duration_s: 3306.0
+  source_files:
+    primary: 8am-AI-2026-05-20.md
+    primary_kind: md
+    other: []
+utterances:
+- id: u1
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: Hey David,
+- id: u2
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: Hey, good morning.
+- id: u3
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: how are you?
+- id: u4
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: Not bad. How are you doing?
+- id: u5
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: Oh, better. Last week was awful.
+- id: u6
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: Uh
+- id: u7
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: Yeah,
+- id: u8
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: oh.
+- id: u9
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: we got I got sick. I got I got like a a cold or a flu. I don't know what it was. I took me down and now and I had it took V down. He's coughing the whole thing.
+- id: u10
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: Oh, gross, man. And I I've uh I've got allergies,
+- id: u11
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: I know.
+- id: u12
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: so I'm I feel like I'm on the verge of a cold like for for the first two months of the spring and summer. So,
+- id: u13
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: Oh yeah,
+- id: u14
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: I I uh I'm always curious about gone into cold because our family's
+- id: u15
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: let
+- id: u16
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 153.0
+  text: like, well, it's only Karen right now,
+- id: u17
+  speaker: Juan
+  t_start: 152.0
+  t_end: 153.0
+  text: So
+- id: u18
+  speaker: David Olsson
+  t_start: 152.0
+  t_end: 210.0
+  text: but she's gone in and out of it. And um I uh I hate it. I hate getting a cold. That said, now I'm stiffling. So, that's awesome. But, uh how you been?
+- id: u19
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: good.
+- id: u20
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 211.0
+  text: Have you been working through your sickness?
+- id: u21
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: I've been working my sickness. Uh they've been asking me to work through my sickness, right? what what has
+- id: u22
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 211.0
+  text: Great because you're remote.
+- id: u23
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: happened.
+- id: u24
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 211.0
+  text: Everybody like when you're remote, people don't know any
+- id: u25
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: Yeah. Okay.
+- id: u26
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 211.0
+  text: different.
+- id: u27
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: I I I keep working on the same building and the same right now it's all it's more about using the tool because the more the more we use the tool the more scary it gets.
+- id: u28
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 211.0
+  text: All right.
+- id: u29
+  speaker: Juan
+  t_start: 210.0
+  t_end: 211.0
+  text: like yesterday they wanted to check a new feature and it's like they were saying oh we have we started this work they told us it's 85% complete the people that left so let's check what it is and and finish it up well the tool got and explored the whole code base uh the ticket and it said something like in reality it's only like 10% that it's implemented not 85 and by the Okay, these are all your security issues right now just by checking at at what I was working on.
+- id: u30
+  speaker: David Olsson
+  t_start: 210.0
+  t_end: 281.0
+  text: Oh my god.
+- id: u31
+  speaker: Juan
+  t_start: 281.0
+  t_end: 282.0
+  text: Yeah, because they we don't run vera code or depend depend we have libraries for from 2013 onwards. So the amount we are on every single list of vulnerability uh in every single list of of problems with remote execution of libraries you name it like we have everything
+- id: u32
+  speaker: David Olsson
+  t_start: 281.0
+  t_end: 282.0
+  text: Yeah,
+- id: u33
+  speaker: Juan
+  t_start: 281.0
+  t_end: 282.0
+  text: right.
+- id: u34
+  speaker: David Olsson
+  t_start: 281.0
+  t_end: 282.0
+  text: I've been so that's the one thing I have been learning a lot more about because of uh how I've been getting into AI coding and um the vibe coding or even just using the wrong libraries is what what's going on now for me can get that same place. Um, and so you you you need this uh like I I need it.
+- id: u35
+  speaker: Juan
+  t_start: 281.0
+  t_end: 282.0
+  text: Oh.
+- id: u36
+  speaker: David Olsson
+  t_start: 281.0
+  t_end: 282.0
+  text: I need a pass on all of the code that I do where it actually spends a whole lot of tokens and like four or five agents go through it and they basically tell me I'm crappy and I'm I'm happy I'm happy for
+- id: u37
+  speaker: Juan
+  t_start: 281.0
+  t_end: 282.0
+  text: Yeah.
+- id: u38
+  speaker: David Olsson
+  t_start: 281.0
+  t_end: 353.0
+  text: it, man, because it's like stuff I would not have known. And so um but it's it's tough in an environment where you do have you probably have do you have like thousands and thousands of test unit tests. Yeah. And so you want to keep all those runners going and um and with
+- id: u39
+  speaker: Juan
+  t_start: 352.0
+  t_end: 353.0
+  text: Yeah.
+- id: u40
+  speaker: David Olsson
+  t_start: 352.0
+  t_end: 353.0
+  text: mythos like with even the 5.5 like you can find a lot of problems in your code like a lot of problems.
+- id: u41
+  speaker: Juan
+  t_start: 352.0
+  t_end: 353.0
+  text: Oh, wow.
+- id: u42
+  speaker: David Olsson
+  t_start: 352.0
+  t_end: 353.0
+  text: Um, which is great because now you spend time on on the front side hopefully or the remediation. Um, and then you you set up practices around how to build things in a non-exploitive fashion. And so principles are really important with security. Um, and and it's a great place to be, right? Because if you have principles, you can read them, you can understand them,
+- id: u43
+  speaker: Juan
+  t_start: 352.0
+  t_end: 353.0
+  text: Yeah.
+- id: u44
+  speaker: David Olsson
+  t_start: 352.0
+  t_end: 424.0
+  text: and then you just need to um maintain that um research vector. like you always have to be on research. Um it it software really is I think collapsing in terms of its concerns like collapsing two concerns maybe um and and cyber security as we called it um is a big part of what we would normally hire experts a few few people to do and it's it's rolled right up into the job now.
+- id: u45
+  speaker: Juan
+  t_start: 424.0
+  t_end: 425.0
+  text: Yeah, that's another job that is it was super safe. People were making a lot of money and
+- id: u46
+  speaker: David Olsson
+  t_start: 424.0
+  t_end: 425.0
+  text: Yeah. Yeah. In fact, one of my one of my peers and hopefully we'll get to do some work together.
+- id: u47
+  speaker: Juan
+  t_start: 424.0
+  t_end: 425.0
+  text: You got
+- id: u48
+  speaker: David Olsson
+  t_start: 424.0
+  t_end: 425.0
+  text: He would he did projects that were very, you know, he called them exquisite in terms of cyber security.
+- id: u49
+  speaker: Juan
+  t_start: 424.0
+  t_end: 425.0
+  text: it.
+- id: u50
+  speaker: David Olsson
+  t_start: 424.0
+  t_end: 425.0
+  text: They were very discreet problems and he would he would bring an elite team together to solve that. He's going, well, that's kind of gone away. Um there's models are so strong now and you can do so many um with the proper tuning on a model you can do so much in the way of exploitive um work that our teams really are really like super like they always were for cyber security but the the fact that you don't know something now doesn't mean you can't marshall the skills to actually understand the landscape
+- id: u51
+  speaker: Juan
+  t_start: 424.0
+  t_end: 425.0
+  text: Oh
+- id: u52
+  speaker: David Olsson
+  t_start: 424.0
+  t_end: 425.0
+  text: and and that's that's the real danger of the space,
+- id: u53
+  speaker: Juan
+  t_start: 424.0
+  t_end: 425.0
+  text: yeah.
+- id: u54
+  speaker: David Olsson
+  t_start: 424.0
+  t_end: 493.0
+  text: but it's also if you like for yourself if you're like, "Oh my god, I have all these domains I need to have like control over." You can at least get some understanding of it and um and then and hopefully the KPIs are still relevant.
+- id: u55
+  speaker: Juan
+  t_start: 492.0
+  t_end: 582.0
+  text: Yeah, for for for us the the thing about having people that don't have enough experience working with AI is a double-edged sword because if if the AI doesn't give them the right answer from the start, they can they can really follow the wrong path. and blame the AI, right? The the other day happens was we were uh one of the juniors was working on on a remediation for a for a little uh penetration test and and he maybe prompt the wrong thing. Maybe we didn't give him enough context. I don't know. But the tool was guiding him uh to to the wrong solution to the wrong path. And it was only when he was with well he made up the solution and when he was talking to the devils the dewolves told him like man I don't know what the hell you're talking about like this this is not it this is not that and explain it to him and then the next day his report was like oh that's why you need us you we shouldn't depend on the AI is not that great and we were like man it's not great because you're not great is That's that's the the real reason is exposing what you don't know,
+- id: u56
+  speaker: David Olsson
+  t_start: 582.0
+  t_end: 583.0
+  text: That's That's that's always an interesting one,
+- id: u57
+  speaker: Juan
+  t_start: 582.0
+  t_end: 583.0
+  text: right?
+- id: u58
+  speaker: David Olsson
+  t_start: 582.0
+  t_end: 583.0
+  text: right? Like what exposes your the limit of your knowledge and and and I think what we at least I rely on and I'm starting to do this lesson with myself is rely on the fact that people reason through things in in a common way or they do it in a way that has rigor or um they know how to quality control themselves. And I don't think that's actually real. I don't think people do that. They want to get to the end and they get the result. Um and and and and typically the fastest way there um with orchestration and agents you try to build we tried to build integrity into the orchestration to validate the information as it goes through it. So that if you get information from one agent, there's a way of saying is it garbage? Right?
+- id: u59
+  speaker: Juan
+  t_start: 582.0
+  t_end: 583.0
+  text: Oh yeah, of
+- id: u60
+  speaker: David Olsson
+  t_start: 582.0
+  t_end: 583.0
+  text: And so you can do that like if you have a workflow even for yourself,
+- id: u61
+  speaker: Juan
+  t_start: 582.0
+  t_end: 583.0
+  text: course.
+- id: u62
+  speaker: David Olsson
+  t_start: 582.0
+  t_end: 649.0
+  text: you can have steps that take you back from like the emotional attachment to it and say is it does this fit, you know, like um did I did I go in the wrong direction? Because if you this is what I got into trouble early on in programming like the solutions would just roll out themselves and you you could have very contradictory solutions working together meaning that they were different patterns but they can function because it's code. And you don't know any of that unless you have some step in your process to explain things to yourself to understand it more deeply.
+- id: u63
+  speaker: Juan
+  t_start: 648.0
+  t_end: 649.0
+  text: That is that is very true. You need to you need to always kind of validate your
+- id: u64
+  speaker: David Olsson
+  t_start: 648.0
+  t_end: 649.0
+  text: Yeah, and that that eval step I think is a is a really important one.
+- id: u65
+  speaker: Juan
+  t_start: 648.0
+  t_end: 649.0
+  text: work.
+- id: u66
+  speaker: David Olsson
+  t_start: 648.0
+  t_end: 705.0
+  text: Um, and like in learning I think that's the big thing with the the large language models now is like if you have that in the learning loop in the right place, it it effectively reinforces your learning giving you feedback, right? You're like, "Oh, it does this. Here's my experiment. Tell me how it works and how it's wrong." And you get this feedback. Otherwise, you could do the other thing is just like here's my conditions. Figure out my experiment and give me my results. And so then the second one um will get you to the finish line faster and maybe as
+- id: u67
+  speaker: Juan
+  t_start: 704.0
+  t_end: 705.0
+  text: Yeah.
+- id: u68
+  speaker: David Olsson
+  t_start: 704.0
+  t_end: 768.0
+  text: an entrepreneur you'll win the day, but um you might not have the same results every day. And so that's a it's a hard thing to win over. Um because we tried to we try to do this in our business and I think it reflects how a team would do this normally too is they would there'd be a check sum when you'd hand off. The UX person would did they get it man? Did they actually get the problem? Because what they're handing me suggests they only got half of it because you can tell right like you can because you're experienced and you have this asset and you've seen this asset a previous time. I've got this design asset. I can use it. um the um the feedback is is is not there in terms of the I don't know the pride of the the craft or something like the or the understanding of the craft because the large language model will just marshall the craft. It will just resource it.
+- id: u69
+  speaker: Juan
+  t_start: 767.0
+  t_end: 768.0
+  text: Yeah,
+- id: u70
+  speaker: David Olsson
+  t_start: 767.0
+  t_end: 768.0
+  text: It'll just take us constraints that are okay,
+- id: u71
+  speaker: Juan
+  t_start: 767.0
+  t_end: 768.0
+  text: we we were thinking about that.
+- id: u72
+  speaker: David Olsson
+  t_start: 767.0
+  t_end: 768.0
+  text: right? like in fact it's just like
+- id: u73
+  speaker: Juan
+  t_start: 767.0
+  t_end: 768.0
+  text: We also we were discussing that it also it's because we created a uh like a very evolved typist
+- id: u74
+  speaker: David Olsson
+  t_start: 767.0
+  t_end: 768.0
+  text: sorry
+- id: u75
+  speaker: Juan
+  t_start: 767.0
+  t_end: 768.0
+  text: role, right? like we we created the there is so many people that they call themselves developers right now and and they only know how to write functions, right? Because uh companies already have their code figured it out. It's standardized. It's following rules. If you have your orchestration or your architecture and your infrastructure already in place, then it's manageable. So these people only need to come in to write functions, right? They're used to going to Shopify, going to these big shops and say, "No, I just need to write methods, right?
+- id: u76
+  speaker: David Olsson
+  t_start: 767.0
+  t_end: 768.0
+  text: Yeah,
+- id: u77
+  speaker: Juan
+  t_start: 767.0
+  t_end: 768.0
+  text: But once once they need to start thinking of, oh,
+- id: u78
+  speaker: David Olsson
+  t_start: 767.0
+  t_end: 768.0
+  text: man.
+- id: u79
+  speaker: Juan
+  t_start: 767.0
+  t_end: 837.0
+  text: why is this happening or do I need to refactor or I need to create something new?" That's when nothing works anymore. Right?
+- id: u80
+  speaker: David Olsson
+  t_start: 836.0
+  t_end: 837.0
+  text: Yeah.
+- id: u81
+  speaker: Juan
+  t_start: 836.0
+  t_end: 837.0
+  text: I I I I'm I'm struggling a lot is with the interview process.
+- id: u82
+  speaker: David Olsson
+  t_start: 836.0
+  t_end: 837.0
+  text: Yeah.
+- id: u83
+  speaker: Juan
+  t_start: 836.0
+  t_end: 837.0
+  text: like I I had an interview I told you before and they narrate well they can defend themselves really well because uh well the resume is really well structured and and uh their experience is is they have the whole story. They can narrate it well. They can answer questions from different angles that you usually ask. So today I have a technical test with one of them and because I we we kind of like him but now it's like I don't know what how to do this technical test, right? because it's how do you test this person in a way that you figured out is how he thinks
+- id: u84
+  speaker: David Olsson
+  t_start: 836.0
+  t_end: 837.0
+  text: Yeah.
+- id: u85
+  speaker: Juan
+  t_start: 836.0
+  t_end: 837.0
+  text: and not what the AI tool is giving him.
+- id: u86
+  speaker: David Olsson
+  t_start: 836.0
+  t_end: 837.0
+  text: Yeah. So,
+- id: u87
+  speaker: Juan
+  t_start: 836.0
+  t_end: 837.0
+  text: Right?
+- id: u88
+  speaker: David Olsson
+  t_start: 836.0
+  t_end: 903.0
+  text: so one of one of the things that I have read about um is uh paper tests and um and and that's a way of of eliminating the computer, but you're at a remote situation. So, that's tough too.
+- id: u89
+  speaker: Juan
+  t_start: 903.0
+  t_end: 904.0
+  text: Yeah. in the morning
+- id: u90
+  speaker: David Olsson
+  t_start: 903.0
+  t_end: 904.0
+  text: Um because basically what I think you've told me is that you could have a separate monitor that's listening
+- id: u91
+  speaker: Juan
+  t_start: 903.0
+  t_end: 904.0
+  text: stuff.
+- id: u92
+  speaker: David Olsson
+  t_start: 903.0
+  t_end: 904.0
+  text: and it's feeding the answers and and the gu he's just teleprompting back from the LLM
+- id: u93
+  speaker: Juan
+  t_start: 903.0
+  t_end: 904.0
+  text: Yeah.
+- id: u94
+  speaker: David Olsson
+  t_start: 903.0
+  t_end: 904.0
+  text: all the responses in the in the in the interview. Um so that's a tough one but um so when the experience that you describe like I say say a junior has got full solution it comes to the to the experienced dev or whatever and the dev is going like what is this um the the what is this um response is is like the all
+- id: u95
+  speaker: Juan
+  t_start: 903.0
+  t_end: 904.0
+  text: Yeah.
+- id: u96
+  speaker: David Olsson
+  t_start: 903.0
+  t_end: 904.0
+  text: knowing hey man I can see just a few markers of this being spaghetti I just don't even need to go further Um but on the other side of things um if you were handed that
+- id: u97
+  speaker: Juan
+  t_start: 903.0
+  t_end: 904.0
+  text: Okay.
+- id: u98
+  speaker: David Olsson
+  t_start: 903.0
+  t_end: 972.0
+  text: piece of uh viation go code um and told to like uh how is this inappropriate given these constraints given the series of constraints it might be a you might be able to really see if someone understands code um because the the markers for vibing across say
+- id: u99
+  speaker: Juan
+  t_start: 972.0
+  t_end: 973.0
+  text: Oh,
+- id: u100
+  speaker: David Olsson
+  t_start: 972.0
+  t_end: 973.0
+  text: you know something a little bit sophisticated like an API where they would normally be able to read the top API layer and get it, but then if they go into say the API and find a couple of things like there's two different patterns, there's singletons and then there's something else going on and you're like what the f\*\*\*? And you're like any normal like experienced programmer like
+- id: u101
+  speaker: Juan
+  t_start: 972.0
+  t_end: 973.0
+  text: heat.
+- id: u102
+  speaker: David Olsson
+  t_start: 972.0
+  t_end: 1058.0
+  text: what this is an API it's supposed to be even across or whatever the example is. Um, but in the way that a senior or an experienced person would be able to to be able to identify something, um, have them try to reason through that. Um, here's an example for knowledge work. When I worked with my father, I was building basically spreadsheet applications and I would do a bunch of math and do a bunch of columner stuff, lines and rows and whatever. um and and then produce a graph or and then show it to my father and he would immediately be able to identify problems in what I've done like immediately and I'm like what how can you I spent five hours on this and you're telling me it's wrong by seeing this and then he would explain and he was right he was able to transverse the code from tables to to to curves and by that trans
+- id: u103
+  speaker: Juan
+  t_start: 1058.0
+  t_end: 1059.0
+  text: See how many that makes me
+- id: u104
+  speaker: David Olsson
+  t_start: 1058.0
+  t_end: 1059.0
+  text: modular data to to curves,
+- id: u105
+  speaker: Juan
+  t_start: 1058.0
+  t_end: 1059.0
+  text: want
+- id: u106
+  speaker: David Olsson
+  t_start: 1058.0
+  t_end: 1059.0
+  text: he could tell you an anomaly right away. And so he was able to be able to take information and compress it in a way that's very common now, but at the time I was like I didn't understand how he could quickly do it, but he internalized it. And so he was able to make a curve out of this chart of data like tabs and then be able to move there. And that is the experience that I've recognized in people and expertise in people is that and the 10,000 hours thing is is the gut and I worked for Angus Reed and he had he propped up a whole industry encounter called market
+- id: u107
+  speaker: Juan
+  t_start: 1058.0
+  t_end: 1059.0
+  text: Yeah.
+- id: u108
+  speaker: David Olsson
+  t_start: 1058.0
+  t_end: 1127.0
+  text: research uh predicated on the notion of just being the gut check statistical gut check for companies and everybody had already determined their path by recognizing their experience. A lot of them were wrong a lot of the time. That's why it works in terms of stats. But for you, um, man, it's a really like studying how people interview is really cool. Like it's unfortunate you have to deal with it in a professional environment,
+- id: u109
+  speaker: Juan
+  t_start: 1126.0
+  t_end: 1127.0
+  text: Yeah.
+- id: u110
+  speaker: David Olsson
+  t_start: 1126.0
+  t_end: 1127.0
+  text: but um it's a good one to study one like because right you've already shown an indicator of because this is like education, right? This is how education fails too. Um and leadership is that uh is that people fake it and they can fake it really well and
+- id: u111
+  speaker: Juan
+  t_start: 1126.0
+  t_end: 1127.0
+  text: Well, oh, I haven't told you this. So, one of the dudes,
+- id: u112
+  speaker: David Olsson
+  t_start: 1126.0
+  t_end: 1127.0
+  text: um
+- id: u113
+  speaker: Juan
+  t_start: 1126.0
+  t_end: 1127.0
+  text: I haven't worked with him a lot. Our senior devs, he he's in charge of deployments. The other day I joined uh an afternoon just to see what were they were deploying and they had an issue and they asked the devil to join in and we asked him to open up a terminal and run some commands and the dude doesn't know how to use terminal.
+- id: u114
+  speaker: David Olsson
+  t_start: 1126.0
+  t_end: 1127.0
+  text: Oh,
+- id: u115
+  speaker: Juan
+  t_start: 1126.0
+  t_end: 1197.0
+  text: He doesn't know how to use command line and and I'm like super worried right now. I'm telling the people like I don't know if this dude is AI working for you like he's not doing anything because how do how do you get to be a senior developer and you don't understand how to use the bash or
+- id: u116
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: right.
+- id: u117
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: the command
+- id: u118
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Oh my goodness. Oh,
+- id: u119
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: line.
+- id: u120
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: so there you go. So the the markers are or the signals that you receive from somebody like in that case pretty strong, right? You have you have grave doubt now.
+- id: u121
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Yeah.
+- id: u122
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Um just it's a fundamental tool. If you've got somebody that's got more than like a now the current environment, you immediately have to know terminal. Um in the previous environment. I don't know how you could not either.
+- id: u123
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Yeah, I don't know.
+- id: u124
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Um
+- id: u125
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: I don't know any for I'm trying to understand, right? But I don't I don't think you couldn't be a senior dev without knowing how to use the command line
+- id: u126
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: that's
+- id: u127
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: before.
+- id: u128
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Yeah,
+- id: u129
+  speaker: Juan
+  t_start: 1197.0
+  t_end: 1198.0
+  text: Everything is installed for the command line.
+- id: u130
+  speaker: David Olsson
+  t_start: 1197.0
+  t_end: 1260.0
+  text: that that's Yeah, like it's really hard forgiveness um to to say I I forgive you for this oversight of not learning this. Um, so what do you do when you know something, right? So you've been shown a card. You're like, "Okay, I got to act on this card." Um, uh, wow.
+- id: u131
+  speaker: Juan
+  t_start: 1259.0
+  t_end: 1260.0
+  text: eye opening this past few days. Let me tell
+- id: u132
+  speaker: David Olsson
+  t_start: 1259.0
+  t_end: 1260.0
+  text: Yeah, that's a really big one.
+- id: u133
+  speaker: Juan
+  t_start: 1259.0
+  t_end: 1260.0
+  text: you
+- id: u134
+  speaker: David Olsson
+  t_start: 1259.0
+  t_end: 1260.0
+  text: Like because it's already in motion like this person is uh um effectively there, right? Let's go.
+- id: u135
+  speaker: Juan
+  t_start: 1259.0
+  t_end: 1260.0
+  text: I I don't know how they interviewed this person how he got in but um that's that's some of the things that we're finding right that is that well the thing I know why he got in it's because uh everybody left on the technical team and then the that guy was hired by the the the architect or the the the senior living and he didn't care.
+- id: u136
+  speaker: David Olsson
+  t_start: 1259.0
+  t_end: 1260.0
+  text: Right. Yeah. Yeah. Got
+- id: u137
+  speaker: Juan
+  t_start: 1259.0
+  t_end: 1260.0
+  text: But but I but I see it right now uh like on my interviews like people are getting
+- id: u138
+  speaker: David Olsson
+  t_start: 1259.0
+  t_end: 1260.0
+  text: it.
+- id: u139
+  speaker: Juan
+  t_start: 1259.0
+  t_end: 1260.0
+  text: sophisticated and if you don't if you're not like 100% on like you're right if you don't have the experience you cannot gauge it. They can really lie it right. We can really
+- id: u140
+  speaker: David Olsson
+  t_start: 1259.0
+  t_end: 1324.0
+  text: Okay,
+- id: u141
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: lie.
+- id: u142
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: how about this one? You do exactly what they do.
+- id: u143
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: Not use the command line.
+- id: u144
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: you you run a side runner listening to the conversation telling you whether or not
+- id: u145
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: Oh, there you go.
+- id: u146
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: this person is using AI and and then because you can do it back you you can like if you have proof then you can go back and you say here's the scenario here's the full scenario of what's happened and then the and you can run it as a scenario simulation inside the LM and it can give you all kinds of now tests that you could have given to see if those markers would come out earlier.
+- id: u147
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: Okay.
+- id: u148
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: So what I'm getting at is like weaponize yourself with the tools of the
+- id: u149
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: Wait.
+- id: u150
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: interviewe but
+- id: u151
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: Yeah. So it ends up ends up in a conversation between my child and their
+- id: u152
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1325.0
+  text: um well just to surf to surface the markers that that it sees like you can do it retrospectively for sure because conversation always has those
+- id: u153
+  speaker: Juan
+  t_start: 1324.0
+  t_end: 1325.0
+  text: charges.
+- id: u154
+  speaker: David Olsson
+  t_start: 1324.0
+  t_end: 1394.0
+  text: markers if you have the video too. It's really it's it's really easy. Um, okay. Maybe maybe uh I I want to finish early today. We have a a meeting with a Minister of Parliament at 9:30 and so we demonstrating to him. But have you seen the movie Bladeunner 2049?
+- id: u155
+  speaker: Juan
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Uh the last one.
+- id: u156
+  speaker: David Olsson
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Okay.
+- id: u157
+  speaker: Juan
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Yes.
+- id: u158
+  speaker: David Olsson
+  t_start: 1393.0
+  t_end: 1394.0
+  text: So there's there's an interview sequence in there where they're doing a baseline on the psychology or this person, right? This blade runner, and he's he's maybe he's a bot,
+- id: u159
+  speaker: Juan
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Yeah.
+- id: u160
+  speaker: David Olsson
+  t_start: 1393.0
+  t_end: 1394.0
+  text: maybe he's not, whatever. So he um he's failing these baselines, but the baselines are interviews, right? To see how they're psychologically doing, basically. We call that. And they're told to do things like cells are intertwined.
+- id: u161
+  speaker: Juan
+  t_start: 1393.0
+  t_end: 1394.0
+  text: You can't.
+- id: u162
+  speaker: David Olsson
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Cells cells, do you remember that? like it is like the response back is not an answer to the
+- id: u163
+  speaker: Juan
+  t_start: 1393.0
+  t_end: 1394.0
+  text: Oh.
+- id: u164
+  speaker: David Olsson
+  t_start: 1393.0
+  t_end: 1458.0
+  text: question. The question is you're young, you're you see an animal, it is dead cells and you respond back with the word cells. And the interview is basically it's not picking up your answer and saying he has the correct answer.
+- id: u165
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: Mhm.
+- id: u166
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: It's doing this profiling of you in this weird whackadoodle way um to see if you're psychologically sound. And uh and so as an interview it sounds completely f\*\*\*\*\*\* ridiculous. One side of it is just this person saying these phrases and the other side of it is a person saying the same word
+- id: u167
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: Oh.
+- id: u168
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: every time.
+- id: u169
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: of
+- id: u170
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: So, so what I'm getting at is like you you can't profile somebody on their output skills
+- id: u171
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: interest.
+- id: u172
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: anymore. You have to profile them on their ability to be critical thinkers. And maybe and maybe that is some sort of handwaving exercise.
+- id: u173
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: Yeah.
+- id: u174
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: It's nothing to do with them um them engaging with code at all. Um it's a profiling of like a like unfortunately like deep
+- id: u175
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: Very
+- id: u176
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: behavioral kind but uh
+- id: u177
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1458.0
+  text: interesting though.
+- id: u178
+  speaker: David Olsson
+  t_start: 1457.0
+  t_end: 1458.0
+  text: yeah yeah so there's a
+- id: u179
+  speaker: Juan
+  t_start: 1457.0
+  t_end: 1532.0
+  text: I I think I'm going to I'm going to keep going on that idea.
+- id: u180
+  speaker: David Olsson
+  t_start: 1532.0
+  t_end: 1533.0
+  text: psychological profile that you want for a developer anyways right like you want them opinionated you want them to be critical and you want them to be you know problem solving oriented and and that's base like whatever else
+- id: u181
+  speaker: Juan
+  t_start: 1532.0
+  t_end: 1533.0
+  text: Oh my god.
+- id: u182
+  speaker: David Olsson
+  t_start: 1532.0
+  t_end: 1533.0
+  text: on top of that. But there's a few critical kind of perspectives you want to have and you try to measure those. We used to have three interviews, you probably have one,
+- id: u183
+  speaker: Juan
+  t_start: 1532.0
+  t_end: 1533.0
+  text: Okay.
+- id: u184
+  speaker: David Olsson
+  t_start: 1532.0
+  t_end: 1533.0
+  text: now you have the technical one, whatever. Um, and you do that. You try to average that out. So, uh, how can you how can you figure out the psychological the fit piece? Is he a fit? Is she a Right? They they passed the test. We've done the references. is are they a fit? And now you can redefine a fit as is this person just an AI proxy.
+- id: u185
+  speaker: Juan
+  t_start: 1532.0
+  t_end: 1533.0
+  text: Oh my god. Yeah. Don't get me just getting fat right now.
+- id: u186
+  speaker: David Olsson
+  t_start: 1532.0
+  t_end: 1594.0
+  text: Um because I had a I had a friend say eight years ago or whatever or seven maybe even five years ago talking to me over lunch because he was worried about one of his remote peers and his remote peer couldn't problem solve and
+- id: u187
+  speaker: Juan
+  t_start: 1594.0
+  t_end: 1595.0
+  text: Yeah.
+- id: u188
+  speaker: David Olsson
+  t_start: 1594.0
+  t_end: 1595.0
+  text: discuss a problem or a feature in the moment. He would defer and he would have uh he would find a way of coming back with solution later. And it was his pattern of work and and his thing was like I don't think this guy's doing his
+- id: u189
+  speaker: Juan
+  t_start: 1594.0
+  t_end: 1595.0
+  text: Exactly. What is
+- id: u190
+  speaker: David Olsson
+  t_start: 1594.0
+  t_end: 1595.0
+  text: own work.
+- id: u191
+  speaker: Juan
+  t_start: 1594.0
+  t_end: 1595.0
+  text: it?
+- id: u192
+  speaker: David Olsson
+  t_start: 1594.0
+  t_end: 1595.0
+  text: And so what he figured this guy was doing is he had farmed out to India or offshore um his work and he would do the requirements gathering and he was probably on like
+- id: u193
+  speaker: Juan
+  t_start: 1594.0
+  t_end: 1595.0
+  text: What's
+- id: u194
+  speaker: David Olsson
+  t_start: 1594.0
+  t_end: 1595.0
+  text: multiple projects and he didn't know how to do code but he knew how to do requirements gathering and tell people what to do and then through the time difference was be be able
+- id: u195
+  speaker: Juan
+  t_start: 1594.0
+  t_end: 1595.0
+  text: it
+- id: u196
+  speaker: David Olsson
+  t_start: 1594.0
+  t_end: 1680.0
+  text: to deliver the next day. Right? Somebody so smart to figure that out and still not want to code probably has utilities somewhere in your company. But um that was that was a while ago before AI. And um so so there's some need to figure out what fit means in a remote sense that's way different than you know does this guy have like does this person have any presence that I can handle working next to me? Um that used to be part of the fit is like will he hang out with us? Will she hang out with us? Will we be able to create creatively work together? Um, used to be
+- id: u197
+  speaker: Juan
+  t_start: 1679.0
+  t_end: 1680.0
+  text: that last part that fit is the hardest one right now. I I I don't know where all the people are. I I felt like I keep saying like I thought everybody was looking for a job but finding
+- id: u198
+  speaker: David Olsson
+  t_start: 1679.0
+  t_end: 1680.0
+  text: Yeah.
+- id: u199
+  speaker: Juan
+  t_start: 1679.0
+  t_end: 1680.0
+  text: good candidates that you're right that you want to hang out with them, you want to talk to them, they have things to add. Very difficult.
+- id: u200
+  speaker: David Olsson
+  t_start: 1679.0
+  t_end: 1680.0
+  text: Yeah. Yeah. I know I've I've I've felt
+- id: u201
+  speaker: Juan
+  t_start: 1679.0
+  t_end: 1680.0
+  text: I don't know if it's a salary thing.
+- id: u202
+  speaker: David Olsson
+  t_start: 1679.0
+  t_end: 1680.0
+  text: that
+- id: u203
+  speaker: Juan
+  t_start: 1679.0
+  t_end: 1680.0
+  text: I don't know if it's a money thing. Maybe salaries are higher now.
+- id: u204
+  speaker: David Olsson
+  t_start: 1679.0
+  t_end: 1680.0
+  text: it is different and it it makes it makes startup tough. Uh remote makes startup really hard and teams function like a startup pretty much like I don't know they're always trying to uh innovate and move
+- id: u205
+  speaker: Juan
+  t_start: 1679.0
+  t_end: 1735.0
+  text: No,
+- id: u206
+  speaker: David Olsson
+  t_start: 1735.0
+  t_end: 1736.0
+  text: forward on new things.
+- id: u207
+  speaker: Juan
+  t_start: 1735.0
+  t_end: 1736.0
+  text: it's not. Yeah, the talent pool got got weird, man. The talent pool got it used to be stronger. I feel like you used to used to have people that had at least more experience or had a a a more complete ethic ethics I would say. I don't know. They were go they liked it. You studied development and you liked it.
+- id: u208
+  speaker: David Olsson
+  t_start: 1735.0
+  t_end: 1736.0
+  text: Yeah.
+- id: u209
+  speaker: Juan
+  t_start: 1735.0
+  t_end: 1736.0
+  text: You do it as it's because it was it was a passion.
+- id: u210
+  speaker: David Olsson
+  t_start: 1735.0
+  t_end: 1736.0
+  text: So I think that's an important part like you liked it and that's I guess when I say I I I hire opinionated people is like that's what I like about people they like their work they have opinions about it right like I choose spelt because of this and you're like okay I get it you that's a good reason it's not my thing but that's
+- id: u211
+  speaker: Juan
+  t_start: 1735.0
+  t_end: 1736.0
+  text: Yeah.
+- id: u212
+  speaker: David Olsson
+  t_start: 1735.0
+  t_end: 1736.0
+  text: a really neat reason why you align with rust you know like okay cool it's fundamental but it's not going to help our
+- id: u213
+  speaker: Juan
+  t_start: 1735.0
+  t_end: 1736.0
+  text: Yes.
+- id: u214
+  speaker: David Olsson
+  t_start: 1735.0
+  t_end: 1790.0
+  text: business right now just so you Um but that was that was a big thing for because you could tell people
+- id: u215
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: Yeah.
+- id: u216
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1791.0
+  text: were interested in things you know like really interesting um in in more than just uh developers. So way back in the day I read some article it was a long long time ago and it is the difference between coders
+- id: u217
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: Now
+- id: u218
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1791.0
+  text: and and like developers and programmers and you point to this and I think experience you get to the programming you're building a program that does a bunch of things like it has a work you know it's
+- id: u219
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: let's come up.
+- id: u220
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1791.0
+  text: it's a program a developer works on as you say functions almost um and it's a myopic understanding of how a programming language works more so than how the program that you're working on can function.
+- id: u221
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: I'm
+- id: u222
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1791.0
+  text: And I can I can speak to that having hired a company to work on a project and they still don't understand the concept of
+- id: u223
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: talking.
+- id: u224
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1791.0
+  text: quality control um as it's applied to an industry. They can build software for it,
+- id: u225
+  speaker: Juan
+  t_start: 1790.0
+  t_end: 1791.0
+  text: Yeah.
+- id: u226
+  speaker: David Olsson
+  t_start: 1790.0
+  t_end: 1856.0
+  text: but I can't get them to to to problem solve on on key workflows um because they don't understand that yet. And but they've been on it for months.
+- id: u227
+  speaker: Juan
+  t_start: 1855.0
+  t_end: 1856.0
+  text: There you
+- id: u228
+  speaker: David Olsson
+  t_start: 1855.0
+  t_end: 1856.0
+  text: Right? It's like come on.
+- id: u229
+  speaker: Juan
+  t_start: 1855.0
+  t_end: 1856.0
+  text: go.
+- id: u230
+  speaker: David Olsson
+  t_start: 1855.0
+  t_end: 1856.0
+  text: And so like finding that problem solver, I believe the two people on the other end are really smart. It's just their focus is is is different. So it's a
+- id: u231
+  speaker: Juan
+  t_start: 1855.0
+  t_end: 1856.0
+  text: The the other thing that I have I'm finding that is very tough is the is the change on on
+- id: u232
+  speaker: David Olsson
+  t_start: 1855.0
+  t_end: 1856.0
+  text: tough
+- id: u233
+  speaker: Juan
+  t_start: 1855.0
+  t_end: 1856.0
+  text: what people are are expecting from the work like before they already expected magic right everybody uh that is business already thought things are easy like why don't you move faster right and now with AI is just stupid like they
+- id: u234
+  speaker: David Olsson
+  t_start: 1855.0
+  t_end: 1856.0
+  text: Oh god.
+- id: u235
+  speaker: Juan
+  t_start: 1855.0
+  t_end: 1934.0
+  text: they just keep saying but if I tell if I tell CL to do it it explains me what needs to be done why it's not done why why you guys not doing it in five minutes and and we had to go through the whole thing of saying okay let's try a change and let's give it to CL and then CL was going through every single step of this needs to happen this needs to happen this needs to happen if you want this change to work you need to go this way and then it ends up in saying, "Yeah, it's it's about two weeks,
+- id: u236
+  speaker: David Olsson
+  t_start: 1934.0
+  t_end: 1935.0
+  text: Yeah.
+- id: u237
+  speaker: Juan
+  t_start: 1934.0
+  t_end: 1935.0
+  text: right?" And and and they're saying and and the the the business is like,
+- id: u238
+  speaker: David Olsson
+  t_start: 1934.0
+  t_end: 1935.0
+  text: Yeah.
+- id: u239
+  speaker: Juan
+  t_start: 1934.0
+  t_end: 1935.0
+  text: '"Oh," it''s like, "Yeah, man. It''s not I don''t know why do you think they created AI to understand your ambiguity, but that''s not true, right? Like you can live your life in a very ambiguous way, but software doesn''t live like that, right? We don''t we still need to know exactly what needs to happen. It''s just that this thing does it''s an automation process. It''s not it''s not a a magical is not a reading minds process. So trying to to teach people that that it''s it''s a this is an automation. Yeah, it looks cool. It''s pretty fun. It it does a lot of things for you but still automation. If you if you don''t say what needs to happen and you don''t tell it don''t guess it will guess right. So it''s a those those things is it''s I don''t know the whole idea.'
+- id: u240
+  speaker: David Olsson
+  t_start: 1934.0
+  t_end: 1935.0
+  text: I always I always felt there was a big distance between the product in a larger
+- id: u241
+  speaker: Juan
+  t_start: 1934.0
+  t_end: 2001.0
+  text: Yeah.
+- id: u242
+  speaker: David Olsson
+  t_start: 2001.0
+  t_end: 2002.0
+  text: company and then the executive in terms of how they functioned um in business like the concerns were
+- id: u243
+  speaker: Juan
+  t_start: 2001.0
+  t_end: 2002.0
+  text: Yeah.
+- id: u244
+  speaker: David Olsson
+  t_start: 2001.0
+  t_end: 2002.0
+  text: quite different and then there was this middle ground where you negotiated specs and features and all the rest of it but um that I think what explaining there is now it's almost even weaponized that executive viewpoint where um because they read the news um the the abilities are there because they're maybe performing in a shallow fashion too. Um their responses back are immediate and um and they don't
+- id: u245
+  speaker: Juan
+  t_start: 2001.0
+  t_end: 2002.0
+  text: Wait.
+- id: u246
+  speaker: David Olsson
+  t_start: 2001.0
+  t_end: 2002.0
+  text: require probably hours and hours of effort. That's like executives work on a report for not weeks, right? Like they bounce between a whole lot of things and so this is
+- id: u247
+  speaker: Juan
+  t_start: 2001.0
+  t_end: 2002.0
+  text: Oh yeah.
+- id: u248
+  speaker: David Olsson
+  t_start: 2001.0
+  t_end: 2002.0
+  text: weaponizing that a lot.
+- id: u249
+  speaker: Juan
+  t_start: 2001.0
+  t_end: 2002.0
+  text: Yeah. I don't like it. I don't like it. This is this is the the I think there are good things, bad things.
+- id: u250
+  speaker: David Olsson
+  t_start: 2001.0
+  t_end: 2002.0
+  text: Um,
+- id: u251
+  speaker: Juan
+  t_start: 2001.0
+  t_end: 2093.0
+  text: I still think there is a lot of crap that is getting produced. We we're producing a lot of like a even even in in in those organizations like a business and and and when they are doing deals, when they're writing memos, when they're writing ideas, when they're writing proposals that it's it's getting so big like they're popping up garbage so fast now, right? So you so I think that we're getting into a point in which we are drowned by document,
+- id: u252
+  speaker: David Olsson
+  t_start: 2092.0
+  t_end: 2093.0
+  text: Oh yeah, you can you can Yeah, they're very fluent looking and very fluent sounding.
+- id: u253
+  speaker: Juan
+  t_start: 2092.0
+  t_end: 2093.0
+  text: right?
+- id: u254
+  speaker: David Olsson
+  t_start: 2092.0
+  t_end: 2093.0
+  text: Um and so that's you know that's not the measure of anything now is whether you put time and craft into it. Um so through that time and craft you would actually understand things in a much greater fashion. That's kind of how my education worked. And um but now because there's an immediate response back, you can actually have polish on s\*\*\* pretty well. And um it it's it is a lot like you know polishing a turd and then handing it off to somebody else and they're like,
+- id: u255
+  speaker: Juan
+  t_start: 2092.0
+  t_end: 2093.0
+  text: Yeah.
+- id: u256
+  speaker: David Olsson
+  t_start: 2092.0
+  t_end: 2093.0
+  text: '"Look, there''s the truth. I''ll just add to that." And then it gets further down the line and you end up with a bucket of poop.'
+- id: u257
+  speaker: Juan
+  t_start: 2092.0
+  t_end: 2093.0
+  text: Yeah.
+- id: u258
+  speaker: David Olsson
+  t_start: 2092.0
+  t_end: 2146.0
+  text: Um, but uh I've I started noticing it about two months or three months ago where I was receiving stuff. I'm like, "Wow, this is long." I'm like, "Oh, they didn't even read this." They got they got the headings and all that stuff in there and then they were like, "Okay." Um,
+- id: u259
+  speaker: Juan
+  t_start: 2145.0
+  t_end: 2146.0
+  text: Yeah.
+- id: u260
+  speaker: David Olsson
+  t_start: 2145.0
+  t_end: 2146.0
+  text: and then they read the report. Good morning. And then they read the report and they were fine. But um I think this this interview thing is uh is a really timely piece and um I
+- id: u261
+  speaker: Juan
+  t_start: 2145.0
+  t_end: 2146.0
+  text: Confederation of
+- id: u262
+  speaker: David Olsson
+  t_start: 2145.0
+  t_end: 2211.0
+  text: uh it doesn't work but I I have I have this tech like these libraries that I've been able to use and while in video you can actually pick up people's emotions like it does facial recognition so you you can so it will pick and and it does do that and it's just how brutal it is and how fast your computer is because it's all running on your client side. So, but it'll do facial recognition and it'll pick up things like that. And I've got one for voice and so the voice is quite good. Um, so the the combination of the two allows you to do the 2049 Bladeunner type interview. And so I have something called baseline that I I spent like an hour on on Sunday night. I think it's just like the prompt is really easy. So, I just like, okay, build it. Um, but I have I want to build this out fully and I'm I think I'll try to get a slam around it. Um, to build an interview process that is like the um 2049
+- id: u263
+  speaker: Juan
+  t_start: 2210.0
+  t_end: 2211.0
+  text: See?
+- id: u264
+  speaker: David Olsson
+  t_start: 2210.0
+  t_end: 2277.0
+  text: interview thing and you are responding in a way where the um expectation on the tech side like on my side where I'm programming it is not to answer and analyze what you've said. It's how you've said it and how you've reacted. And the combination of how you've said it and how you reacted can produce a timeline to which then you can say, "Well, I was looking for this reaction. What did I get?" Um, and you know, they've been doing this kind of thing for a long time in universities, so it's really easy to find all the triggers for this s\*\*\*. But it would be a very cool experience and it might actually hold some water. But the whole experience of that interview is really on on the interviewee side.
+- id: u265
+  speaker: Juan
+  t_start: 2276.0
+  t_end: 2277.0
+  text: Okay.
+- id: u266
+  speaker: David Olsson
+  t_start: 2276.0
+  t_end: 2277.0
+  text: It's just like sals and you're like saying the same word over and over again.
+- id: u267
+  speaker: Juan
+  t_start: 2276.0
+  t_end: 2277.0
+  text: Yeah,
+- id: u268
+  speaker: David Olsson
+  t_start: 2276.0
+  t_end: 2338.0
+  text: So it's a remarkable interchange. Um but uh that's how that's how big money works in in terms of video conferencing, right? Like big money is analyzing everything. And so I wanted to see what I could do. And I could pick up a lot. And you don't need to keep the video, but in the case where I was doing it, you do. So you have this timeline view of the video as it plays out. It's really cool. You see, you pick up the markers and then you can see what people were saying. And um and so it's a really really interesting way of of profiling somebody. Um and you can you can get good at it. And um regardless of that, like the the theme that has been running through things of understanding versus knowing, I think, Juan, you've got it hitting you right in the face where these people are showing their cards like many months or weeks down
+- id: u269
+  speaker: Juan
+  t_start: 2338.0
+  t_end: 2339.0
+  text: Anybody?
+- id: u270
+  speaker: David Olsson
+  t_start: 2338.0
+  t_end: 2339.0
+  text: the road where they don't know how to do something that their interview process that they should be a champion of
+- id: u271
+  speaker: Juan
+  t_start: 2338.0
+  t_end: 2339.0
+  text: now
+- id: u272
+  speaker: David Olsson
+  t_start: 2338.0
+  t_end: 2339.0
+  text: that. Um really, so it doesn't have to be punitive, right?
+- id: u273
+  speaker: Juan
+  t_start: 2338.0
+  t_end: 2339.0
+  text: and
+- id: u274
+  speaker: David Olsson
+  t_start: 2338.0
+  t_end: 2339.0
+  text: like it it can be like okay there's a remedial opportunity here we've recognized you don't profile here in this way we're going to give you some opportunity to learn and then that's usually a onetrack opportunity you either learn or you don't um but when when so one had the unfortunate reality of recognizing somebody didn't know how to use a command line interface terminal um as a recognized intermediate or senior programmer and and and it's just
+- id: u275
+  speaker: Juan
+  t_start: 2338.0
+  t_end: 2339.0
+  text: Did we do that?
+- id: u276
+  speaker: David Olsson
+  t_start: 2338.0
+  t_end: 2403.0
+  text: like It's like showing up for your job because you can't open any environment that doesn't have a terminal in it after a few months of work. Um, and so, you know, I rely on the AI now for a lot of that old like getting very particular with bash, but I know how to run my own stuff, too, because you have to nowadays. And so, the the measure of which people are given tests uh to perform, Jen, it's completely it's completely fakeable. um where you can have an LLM in another browser window listening to the whole of the conversation and watching what's going on in your in your browser window and giving you responses back and you just parrot them back at pantoime and and one believes he may have experienced
+- id: u277
+  speaker: Jen Boger
+  t_start: 2402.0
+  t_end: 2403.0
+  text: Yeah.
+- id: u278
+  speaker: David Olsson
+  t_start: 2402.0
+  t_end: 2403.0
+  text: that. Um and I have had other people relate to me the same sort of experiences.
+- id: u279
+  speaker: Juan
+  t_start: 2402.0
+  t_end: 2403.0
+  text: Yes, I
+- id: u280
+  speaker: David Olsson
+  t_start: 2402.0
+  t_end: 2403.0
+  text: So you you can't rely on anybody being honest anymore. It's like the wild west.
+- id: u281
+  speaker: Juan
+  t_start: 2402.0
+  t_end: 2403.0
+  text: think
+- id: u282
+  speaker: David Olsson
+  t_start: 2402.0
+  t_end: 2403.0
+  text: When you you meet somebody on horseback going down the road, what do you do? I think of that one all the time.
+- id: u283
+  speaker: Jen Boger
+  t_start: 2402.0
+  t_end: 2403.0
+  text: Yeah.
+- id: u284
+  speaker: David Olsson
+  t_start: 2402.0
+  t_end: 2403.0
+  text: What do you do? You say
+- id: u285
+  speaker: Jen Boger
+  t_start: 2402.0
+  t_end: 2403.0
+  text: Yeah. No, this is so it is being used especially in job interviews in online
+- id: u286
+  speaker: David Olsson
+  t_start: 2402.0
+  t_end: 2403.0
+  text: hi.
+- id: u287
+  speaker: Jen Boger
+  t_start: 2402.0
+  t_end: 2451.0
+  text: exams um a lot and I actually have a friend who I don't know if
+- id: u288
+  speaker: Juan
+  t_start: 2451.0
+  t_end: 2452.0
+  text: Yes.
+- id: u289
+  speaker: Jen Boger
+  t_start: 2451.0
+  t_end: 2452.0
+  text: they were on this call but firsthand they were doing job interviews and the candidates they were like something's off and then they asked them to scratch their head because apparently that's more difficult for whatever reason for avatars to do and Yep. and then the blur was there. So, someone had a full-on avatar doing the interview on their behalf. Like,
+- id: u290
+  speaker: David Olsson
+  t_start: 2451.0
+  t_end: 2452.0
+  text: Yeah,
+- id: u291
+  speaker: Jen Boger
+  t_start: 2451.0
+  t_end: 2452.0
+  text: not even just reading off the side.
+- id: u292
+  speaker: David Olsson
+  t_start: 2451.0
+  t_end: 2452.0
+  text: because you can so straight on.
+- id: u293
+  speaker: Jen Boger
+  t_start: 2451.0
+  t_end: 2452.0
+  text: It was just like they put an
+- id: u294
+  speaker: David Olsson
+  t_start: 2451.0
+  t_end: 2452.0
+  text: So, so because you can marshall those resources, you know, you can,
+- id: u295
+  speaker: Jen Boger
+  t_start: 2451.0
+  t_end: 2452.0
+  text: Yeah.
+- id: u296
+  speaker: David Olsson
+  t_start: 2451.0
+  t_end: 2452.0
+  text: right? Um, and people are doing it professionally like YouTubers like that have that have depth. They'll just like if they already have audience, they're just like you're watching me as an avatar because I'm doing other work.
+- id: u297
+  speaker: Jen Boger
+  t_start: 2451.0
+  t_end: 2452.0
+  text: Yeah. Mark Zuckerberg, right?
+- id: u298
+  speaker: David Olsson
+  t_start: 2451.0
+  t_end: 2520.0
+  text: So, it's it it's one thing when it's honest, it's two that you can't rely on honesty, right? In a mediated experience, no one is honest is is is maybe the baseline. And then from there you have to have like a cyber or security kind of attitude around everybody and you try to produce exploits like scratch your head or the one I really like is bat your eyelashes.
+- id: u299
+  speaker: Jen Boger
+  t_start: 2519.0
+  t_end: 2520.0
+  text: Is that another one that fills that right
+- id: u300
+  speaker: David Olsson
+  t_start: 2519.0
+  t_end: 2520.0
+  text: It was it was in a movie where where if you had a an android across from you and you batted your eyelashes,
+- id: u301
+  speaker: Jen Boger
+  t_start: 2519.0
+  t_end: 2520.0
+  text: now?
+- id: u302
+  speaker: David Olsson
+  t_start: 2519.0
+  t_end: 2520.0
+  text: it would freak out just like the avatar, right? Each each LLM will have a signature as to what which one you're using and and and you just need to know the exploit and once you have enough exploits against your interviewe, then you'll know if they pass the test as human and then you can go to the next step.
+- id: u303
+  speaker: Jen Boger
+  t_start: 2519.0
+  t_end: 2612.0
+  text: But that's for now, right? Like we've all seen how fast and if they know that that's like a known gap, then the people who provide such things will focus on Yeah. I don't know if you guys saw this. This is just for fun. kind of the emergence experiment where um they put basically they made um online towns and they tossed in 10 avatars with professions from the big four Claude Grock uh Gemini and Chat GBT and then just kind of gave them some laws and said go make a town together and it Like I don't know how they say they set up each experiment exactly the same, but then the models behaved kind of as you would stereotypically expect where Grock's town they set everything on fire and everyone killed each other within like four days and Claude was like they very democratic and peaceful and everything was a vote with but with little originality. Everyone just kind of conformed. So, it's interesting when you layer on top of these types of avatar models and people and trust and all the different things coming in and how you know the flavor of the LLM on top of like how do you disclose? How do you detect when people are not disclosing and the whole like kind of guilty till presumed innocent? How does that then play out with how you analyze the data and how the different models would handle that? And there's so many like
+- id: u304
+  speaker: David Olsson
+  t_start: 2611.0
+  t_end: 2612.0
+  text: Well, I think I think if we reflect back,
+- id: u305
+  speaker: Jen Boger
+  t_start: 2611.0
+  t_end: 2612.0
+  text: layers.
+- id: u306
+  speaker: David Olsson
+  t_start: 2611.0
+  t_end: 2691.0
+  text: there's only one kind of thing that I'm seeing across society and that's like this aggressive aggressive sort of um disposition that you need to take to survive almost. And so that aggressive disposition is one everyone adopts and that if you don't adopt it then you have then you suffer from it. And the aggressiveness is one of using everything and anything to succeed, right? There's no one saying that that's not right other than some social pressure online because it's all mediated and um everybody's grown up pretty much with the digital experience being full of trolls. So, it's not a real, you know, it's not not real respected environment.
+- id: u307
+  speaker: Jen Boger
+  t_start: 2690.0
+  t_end: 2691.0
+  text: like it's not digital anarchy kind of
+- id: u308
+  speaker: David Olsson
+  t_start: 2690.0
+  t_end: 2691.0
+  text: Well, it is digital anarchy.
+- id: u309
+  speaker: Jen Boger
+  t_start: 2690.0
+  t_end: 2691.0
+  text: is
+- id: u310
+  speaker: David Olsson
+  t_start: 2690.0
+  t_end: 2691.0
+  text: It's anarchy because it's digital. Um, meaning it's if you can do it, it's valid.
+- id: u311
+  speaker: Jen Boger
+  t_start: 2690.0
+  t_end: 2691.0
+  text: I get what you're saying. Yeah.
+- id: u312
+  speaker: David Olsson
+  t_start: 2690.0
+  t_end: 2763.0
+  text: It's not like the ethics don't apply. And that's a really weird place, right? And so that's, you know, and I've I've kind of had a different disposition around business in in in that way where showing up and being good has just transferred value and not economics of value. And so that changes my disposition to be aggressive in terms of what I'm looking for in a relationship with a company. And it's no longer them. I've told you this. The first person we're talking to in a category is just that we find the second person and we have the same conversation and we find the third one and we throw them away as we like that wasn't me. That's me as of two months ago. So that's that's just recognizing that no one's coming back with that love. Um or a partnership where they're sitting across from the table you going out for lunch with you a bunch of times. Like that stuff's not going on. And so the the real ability to say this is our set of terms and circumstances no matter what's going on. And so unless you're aggressive about setting up the terms beginning of a relationship, it'll just play out until the end and somebody can take all the value and not pay for it. And that that can be the same thing with an employee. You're paying paying for somebody's tokens and they're getting and they're they're arbitrageing on their own ability to use
+- id: u313
+  speaker: Juan
+  t_start: 2762.0
+  t_end: 2821.0
+  text: That's it. Yeah,
+- id: u314
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: tokens.
+- id: u315
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2822.0
+  text: you you on the way that they can argument and and and prompt the thing. But yeah, it's it's getting I don't know. It's it's not worrisome. I think the game just changes. We used to there's always this thing,
+- id: u316
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: Yeah.
+- id: u317
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2822.0
+  text: right? People trying to get a trying to get in, trying to get ahead. I think I I I don't complain. I kind of enjoy it, guys. I like the I have I find it refreshing to go on interview and see someone trying to b\*\*\*\*\*\*\*
+- id: u318
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: Well,
+- id: u319
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2822.0
+  text: me. So
+- id: u320
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: well, and so you the curiosity you have is driving is driving your ability to to
+- id: u321
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2822.0
+  text: that's
+- id: u322
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: pallet it, right? She's like, man, you try it again. I've Okay, number Oh, a new one. That goes under the column, though. It is a new one. new attempt to screw me over.
+- id: u323
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2822.0
+  text: yeah and you know what I think that being Colombian that's like our default mode.
+- id: u324
+  speaker: David Olsson
+  t_start: 2821.0
+  t_end: 2822.0
+  text: Um,
+- id: u325
+  speaker: Juan
+  t_start: 2821.0
+  t_end: 2881.0
+  text: Sorry to be so stereotypical, but we don't trust anyone from the get-go. We have a really bad trust
+- id: u326
+  speaker: David Olsson
+  t_start: 2880.0
+  t_end: 2881.0
+  text: well, and and so that's that societ like in societal ways that plays out almost
+- id: u327
+  speaker: Juan
+  t_start: 2880.0
+  t_end: 2881.0
+  text: issue.
+- id: u328
+  speaker: David Olsson
+  t_start: 2880.0
+  t_end: 2881.0
+  text: everywhere else in the world that if you're if you are walking down the road and someone's walking towards you, you most likely don't first say hi.
+- id: u329
+  speaker: Juan
+  t_start: 2880.0
+  t_end: 2881.0
+  text: Yeah, that's that's it. Yeah, we we we we have that.
+- id: u330
+  speaker: David Olsson
+  t_start: 2880.0
+  t_end: 2881.0
+  text: So, so Jen's a Jen's a sailor and so sailors have a disposition on the water. You always wave, right? You always wave and when you see somebody. And I asked why because he said, "Well, if they don't wave back, you know something's wrong." And so, you have one rule and you try it and if it doesn't work,
+- id: u331
+  speaker: Juan
+  t_start: 2880.0
+  t_end: 2881.0
+  text: Oh,
+- id: u332
+  speaker: David Olsson
+  t_start: 2880.0
+  t_end: 2881.0
+  text: then you have no rules.
+- id: u333
+  speaker: Jen Boger
+  t_start: 2880.0
+  t_end: 2881.0
+  text: This is so funny. I'm so sorry, but like yesterday Connor,
+- id: u334
+  speaker: Juan
+  t_start: 2880.0
+  t_end: 2881.0
+  text: heat.
+- id: u335
+  speaker: Jen Boger
+  t_start: 2880.0
+  t_end: 2949.0
+  text: a bit of a segue, but it's interesting because Connor, my son, he's really squishy. He's a lovely guy. He was telling me at school they they're doing like constitutions and countries and where they have their constitution and you're allowed to make alliances. So, he and his buddy like allied up and they made turtle like angry turtle was their and they had no rules. Their only law was there was no rules, no laws at all. And their only thing was is they were out to blow up everyone else. And then the whole class got together to see who country survived in this like and Connor and his friends won because they literally went in and blew everyone else up like right out of the door. There was no negotiations, no anything. And the teacher's like, "Yeah, well, but you broke a whole bunch of laws." And Connor's like, "No, we didn't because we don't have any." And he's like, "All right, you guys win. You survived and no one else did." And I was just like, "Oh my gosh." You know,
+- id: u336
+  speaker: David Olsson
+  t_start: 2948.0
+  t_end: 2949.0
+  text: Yep.
+- id: u337
+  speaker: Jen Boger
+  t_start: 2948.0
+  t_end: 3018.0
+  text: and here's here's my son who always is looking for the loophole like always, right? And like how can you gain the system and whatnot? And that's his conclusion to a classroom experiment of creating constitutions to win where the goal is to win. Not to cooperate, but to win. The obvious answer is get in there and kill everyone real fast and have no rules so that you're not beholden to any sort of punishment for acting like a s\*\*\*\*\*\*\*. And I like I was like I don't know if to be proud or disturbed or sad or
+- id: u338
+  speaker: David Olsson
+  t_start: 3017.0
+  t_end: 3018.0
+  text: Well,
+- id: u339
+  speaker: Jen Boger
+  t_start: 3017.0
+  t_end: 3018.0
+  text: like kind of all of them together 12 coming on
+- id: u340
+  speaker: David Olsson
+  t_start: 3017.0
+  t_end: 3018.0
+  text: Conor's how old? How old? Okay, he's fine. He's
+- id: u341
+  speaker: Jen Boger
+  t_start: 3017.0
+  t_end: 3018.0
+  text: 13 like oh he I'm not worried about him as a
+- id: u342
+  speaker: Juan
+  t_start: 3017.0
+  t_end: 3018.0
+  text: Very Canadian. Very Canadian.
+- id: u343
+  speaker: David Olsson
+  t_start: 3017.0
+  t_end: 3018.0
+  text: fine.
+- id: u344
+  speaker: Juan
+  t_start: 3017.0
+  t_end: 3018.0
+  text: Jin
+- id: u345
+  speaker: Jen Boger
+  t_start: 3017.0
+  t_end: 3018.0
+  text: person because I know as a person he's a good guy but it's interesting like how in the simulation when your goal is to game the system and to actually like win for real and not follow the rules of what the classroom's trying to do, but actually like to prove that you found a loophole,
+- id: u346
+  speaker: David Olsson
+  t_start: 3017.0
+  t_end: 3018.0
+  text: It wasn't a loophole.
+- id: u347
+  speaker: Jen Boger
+  t_start: 3017.0
+  t_end: 3018.0
+  text: which is like
+- id: u348
+  speaker: David Olsson
+  t_start: 3017.0
+  t_end: 3071.0
+  text: He was being they were all acting on implicit rule sets and he wasn't. It wasn't a loophole at all. It was it was him explicitly understanding what the rules were and and the rest of them saying, "Well, there's other rules that we really have that we're using. these are just the ones that are the play rules. And they were saying, "These aren't the play rules. These are the real rules. The rest of them are play rules.
+- id: u349
+  speaker: Jen Boger
+  t_start: 3070.0
+  t_end: 3071.0
+  text: Yeah, that's true. It's true. It's just I guess it's sad that we define winning as survival
+- id: u350
+  speaker: David Olsson
+  t_start: 3070.0
+  t_end: 3071.0
+  text: It's
+- id: u351
+  speaker: Jen Boger
+  t_start: 3070.0
+  t_end: 3071.0
+  text: and then this kind of works in that situation because I'm like, yeah, it actually emulates pretty much what's going right
+- id: u352
+  speaker: David Olsson
+  t_start: 3070.0
+  t_end: 3071.0
+  text: so where where I would where I would point to a interesting thing is like on his
+- id: u353
+  speaker: Jen Boger
+  t_start: 3070.0
+  t_end: 3071.0
+  text: now.
+- id: u354
+  speaker: David Olsson
+  t_start: 3070.0
+  t_end: 3135.0
+  text: own what would Connor do and then with any other person you will do exactly what they did. Right? On their own, they would probably not come up with that and be so confident because they would have social pressure from the other people. But together with one other person, they could agree that this was just zany enough to have fun with.
+- id: u355
+  speaker: Jen Boger
+  t_start: 3135.0
+  t_end: 3136.0
+  text: Yep. It's uh it's
+- id: u356
+  speaker: David Olsson
+  t_start: 3135.0
+  t_end: 3136.0
+  text: So that's so the the the cohort thing is really interesting because there the people on the other side of the interview
+- id: u357
+  speaker: Jen Boger
+  t_start: 3135.0
+  t_end: 3136.0
+  text: Piggy.
+- id: u358
+  speaker: David Olsson
+  t_start: 3135.0
+  t_end: 3136.0
+  text: are cohorting with an AI and they don't see anything wrong with that and it's actually propping them up in the same way. Um,
+- id: u359
+  speaker: Jen Boger
+  t_start: 3135.0
+  t_end: 3136.0
+  text: Yeah. Yeah.
+- id: u360
+  speaker: David Olsson
+  t_start: 3135.0
+  t_end: 3136.0
+  text: and so it's it's kind of a cabal of types, but yeah, it's always reflective. And I think it's really neat when you actually minimize the rules like that, right? Like um the other teams would have had so many rules they were acting on, right? And if you just say there's only one rule, there's no rules,
+- id: u361
+  speaker: Jen Boger
+  t_start: 3135.0
+  t_end: 3136.0
+  text: Mhm.
+- id: u362
+  speaker: David Olsson
+  t_start: 3135.0
+  t_end: 3136.0
+  text: then you are actually relying on another set of rules and that is the natural laws of world.
+- id: u363
+  speaker: Jen Boger
+  t_start: 3135.0
+  t_end: 3192.0
+  text: Yep. And it's so funny because I asked him too. I'm like, "So, what did your classmates think of this?" Like, experiment aside, you know, were you looking what what were people's reactions to what you did? And he's like, "Tom," which is one's son and like his bestie in the class. Like he was laughing his ass off. I'm like, "How about everybody else?" He's like, "I don't know. I don't really care." Oh,
+- id: u364
+  speaker: Juan
+  t_start: 3191.0
+  t_end: 3192.0
+  text: But but you know what I think is
+- id: u365
+  speaker: David Olsson
+  t_start: 3191.0
+  t_end: 3192.0
+  text: That's a great one. I'm gonna I'm gonna leave.
+- id: u366
+  speaker: Jen Boger
+  t_start: 3191.0
+  t_end: 3192.0
+  text: Conor
+- id: u367
+  speaker: David Olsson
+  t_start: 3191.0
+  t_end: 3192.0
+  text: We've got a
+- id: u368
+  speaker: Juan
+  t_start: 3191.0
+  t_end: 3192.0
+  text: it's that that I've been reading that is not
+- id: u369
+  speaker: David Olsson
+  t_start: 3191.0
+  t_end: 3192.0
+  text: Sorry.
+- id: u370
+  speaker: Juan
+  t_start: 3191.0
+  t_end: 3255.0
+  text: not f I've been reading about history and and I think Canadians have a really nice chapter. I think it's World War I or World War II. I think it's because of Canadian that some of the rules of engagement in war were made because once Canada joined in it become really harsh. So I think that it comes from from that moment of I don't know maybe the Canadian has this thing in uh surviving in this harsh environment that says okay this is straight line to succeed uh to to being successful and and that's that's the path right I see that a good
+- id: u371
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: I don't know, but it's it's it's out there and and and you if you have a different opinion, you have to function in a different way and that requires a lot more effort a lot of the time. So, um this is a real really big shift this year in alignment with work and and values, too. So, I'm I'm I'm gonna get ready for this meeting that I got coming up. I don't know what to do. I can tell that I can't eat as much ice cream and candies anymore. I've got not one but two zits. I'm like, f\*\*\*, man.
+- id: u372
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: I can't see them. Google's doing a good job.
+- id: u373
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: 60 years old and I got two zits,
+- id: u374
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: Google's doing a good job of just smoothing those out.
+- id: u375
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: man.
+- id: u376
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: I can't really
+- id: u377
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: So,
+- id: u378
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: tell.
+- id: u379
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: the mashiness, the digital mash is helping with my yellow teeth and my zits.
+- id: u380
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: That's all right.
+- id: u381
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3256.0
+  text: Okay,
+- id: u382
+  speaker: Jen Boger
+  t_start: 3255.0
+  t_end: 3256.0
+  text: You look like you're 20\.
+- id: u383
+  speaker: David Olsson
+  t_start: 3255.0
+  t_end: 3301.0
+  text: cool.
+- id: u384
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: It's all good.
+- id: u385
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: So, uh, thanks. That was a great conversation and I I'll share this uh this uh baseline thing once I my computer's not very fast. So when I do all this uh like they're running models in the background for facial recognition and audio recognition because it's really it's doing decent analysis. Um but on a slow computer it's terrible.
+- id: u386
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: I was going to say, are you analyzing us this
+- id: u387
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: No.
+- id: u388
+  speaker: Juan
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Of This
+- id: u389
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: So I I would like if I was running on a really good a really good computer I would be doing that all the time.
+- id: u390
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: call?
+- id: u391
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: I would and I and so I have figured out how to do that. So there's a platform called Jity. I'm going to leave it here. There's a platform called Jity uh that does video conferencing that is open source and I've been trying for like two years to be able to wrangle it as a product. Um because I don't want everything trapped in here and and now you can do the transcripts and all the rest of it really really easily. And you can actually add avatars in or agents in and all the rest of it. But you could add these two libraries that I have for audio and v visual recognition. And so you could have just the best learning experience ever where you have a
+- id: u392
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Oh man, the world.
+- id: u393
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: really tough meeting and everyone's analyzed in real
+- id: u394
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: That is so interesting.
+- id: u395
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: time,
+- id: u396
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: I don't know. Talk about poker face. I'm just gonna wear a mask every meeting now.
+- id: u397
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: right? Everyone's wearing an avatar. That mean that's what they're
+- id: u398
+  speaker: Juan
+  t_start: 3301.0
+  t_end: 3302.0
+  text: the little cat.
+- id: u399
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: for.
+- id: u400
+  speaker: Juan
+  t_start: 3301.0
+  t_end: 3302.0
+  text: The little cat that the guy used on that courtroom. How you see that? That's going to be me from now.
+- id: u401
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: All right.
+- id: u402
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Nice talk to you guys.
+- id: u403
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: So,
+- id: u404
+  speaker: Jen Boger
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Talk to you later.
+- id: u405
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: have a good day.
+- id: u406
+  speaker: Juan
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Nice seeing you. Take care.
+- id: u407
+  speaker: David Olsson
+  t_start: 3301.0
+  t_end: 3302.0
+  text: Bye.
+- id: u408
+  speaker: Juan
+  t_start: 3301.0
+  t_end: 3306.0
+  text: Bye. Bye.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  text: Hey David, Hey, good morning. how are you? Not bad. How are you doing? Oh, better. Last week was awful. Uh Yeah, oh. we got I got sick. I got I got like a a cold or a flu. I don't know what it was. I took me down and now and I had it took V down. He's coughing the whole thing. Oh, gross, man. And I I've uh I've got allergies, I know. so I'm I feel like I'm on the verge of a cold like for for the first two months of the spring and summer. So, Oh yeah, I I uh I'm always curious about gone into cold because our family's let like, well, it's only Karen right now, So but she's gone in and out of it. And um I uh I hate it. I hate getting a cold. That said, now I'm stiffling. So, that's awesome. But, uh how you been?
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  text: but she's gone in and out of it. And um I uh I hate it. I hate getting a cold. That said, now I'm stiffling. So, that's awesome. But, uh how you been? good. Have you been working through your sickness? I've been working my sickness. Uh they've been asking me to work through my sickness, right? what what has Great because you're remote. happened. Everybody like when you're remote, people don't know any Yeah. Okay. different. I I I keep working on the same building and the same right now it's all it's more about using the tool because the more the more we use the tool the more scary it gets. All right. like yesterday they wanted to check a new feature and it's like they were saying oh we have we started this work they told us it's 85% complete the people that left so let's check what it is and and finish it up well the tool got and explored the whole code base uh the ticket and it said something like in reality it's only like 10% that it's implemented not 85 and by the Okay, these are all your security issues right now just by checking at at what I was working on. Oh my god. Yeah, because they we don't run vera code or depend depend we have libraries for from 2013 onwards. So the amount we are on every single list of vulnerability uh in every single list of of problems with remote execution of libraries you name it like we have everything Yeah, right. I've been so that's the one thing I have been learning a lot more about because of uh how I've been getting into AI coding and um the vibe coding or even just using the wrong libraries is what what's going on now for me can get that same place. Um, and so you you you need this uh like I I need it. Oh. I need a pass on all of the code that I do where it actually spends a whole lot of tokens and like four or five agents go through it and they basically tell me I'm crappy and I'm I'm happy I'm happy for Yeah. it, man, because it's like stuff I would not have known. And so um but it's it's tough in an environment where you do have you probably have do you have like thousands and thousands of test unit tests. Yeah. And so you want to keep all those runners going and um and with
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  text: Oh my god. Yeah, because they we don't run vera code or depend depend we have libraries for from 2013 onwards. So the amount we are on every single list of vulnerability uh in every single list of of problems with remote execution of libraries you name it like we have everything Yeah, right. I've been so that's the one thing I have been learning a lot more about because of uh how I've been getting into AI coding and um the vibe coding or even just using the wrong libraries is what what's going on now for me can get that same place. Um, and so you you you need this uh like I I need it. Oh. I need a pass on all of the code that I do where it actually spends a whole lot of tokens and like four or five agents go through it and they basically tell me I'm crappy and I'm I'm happy I'm happy for Yeah. it, man, because it's like stuff I would not have known. And so um but it's it's tough in an environment where you do have you probably have do you have like thousands and thousands of test unit tests. Yeah. And so you want to keep all those runners going and um and with Yeah. mythos like with even the 5.5 like you can find a lot of problems in your code like a lot of problems. Oh, wow. Um, which is great because now you spend time on on the front side hopefully or the remediation. Um, and then you you set up practices around how to build things in a non-exploitive fashion. And so principles are really important with security. Um, and and it's a great place to be, right? Because if you have principles, you can read them, you can understand them, Yeah. and then you just need to um maintain that um research vector. like you always have to be on research. Um it it software really is I think collapsing in terms of its concerns like collapsing two concerns maybe um and and cyber security as we called it um is a big part of what we would normally hire experts a few few people to do and it's it's rolled right up into the job now.
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  text: and then you just need to um maintain that um research vector. like you always have to be on research. Um it it software really is I think collapsing in terms of its concerns like collapsing two concerns maybe um and and cyber security as we called it um is a big part of what we would normally hire experts a few few people to do and it's it's rolled right up into the job now. Yeah, that's another job that is it was super safe. People were making a lot of money and Yeah. Yeah. In fact, one of my one of my peers and hopefully we'll get to do some work together. You got He would he did projects that were very, you know, he called them exquisite in terms of cyber security. it. They were very discreet problems and he would he would bring an elite team together to solve that. He's going, well, that's kind of gone away. Um there's models are so strong now and you can do so many um with the proper tuning on a model you can do so much in the way of exploitive um work that our teams really are really like super like they always were for cyber security but the the fact that you don't know something now doesn't mean you can't marshall the skills to actually understand the landscape Oh and and that's that's the real danger of the space, yeah. but it's also if you like for yourself if you're like, "Oh my god, I have all these domains I need to have like control over." You can at least get some understanding of it and um and then and hopefully the KPIs are still relevant.
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u54
+  - u55
+  text: but it's also if you like for yourself if you're like, "Oh my god, I have all these domains I need to have like control over." You can at least get some understanding of it and um and then and hopefully the KPIs are still relevant. Yeah, for for for us the the thing about having people that don't have enough experience working with AI is a double-edged sword because if if the AI doesn't give them the right answer from the start, they can they can really follow the wrong path. and blame the AI, right? The the other day happens was we were uh one of the juniors was working on on a remediation for a for a little uh penetration test and and he maybe prompt the wrong thing. Maybe we didn't give him enough context. I don't know. But the tool was guiding him uh to to the wrong solution to the wrong path. And it was only when he was with well he made up the solution and when he was talking to the devils the dewolves told him like man I don't know what the hell you're talking about like this this is not it this is not that and explain it to him and then the next day his report was like oh that's why you need us you we shouldn't depend on the AI is not that great and we were like man it's not great because you're not great is That's that's the the real reason is exposing what you don't know,
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  text: Yeah, for for for us the the thing about having people that don't have enough experience working with AI is a double-edged sword because if if the AI doesn't give them the right answer from the start, they can they can really follow the wrong path. and blame the AI, right? The the other day happens was we were uh one of the juniors was working on on a remediation for a for a little uh penetration test and and he maybe prompt the wrong thing. Maybe we didn't give him enough context. I don't know. But the tool was guiding him uh to to the wrong solution to the wrong path. And it was only when he was with well he made up the solution and when he was talking to the devils the dewolves told him like man I don't know what the hell you're talking about like this this is not it this is not that and explain it to him and then the next day his report was like oh that's why you need us you we shouldn't depend on the AI is not that great and we were like man it's not great because you're not great is That's that's the the real reason is exposing what you don't know, That's That's that's always an interesting one, right? right? Like what exposes your the limit of your knowledge and and and I think what we at least I rely on and I'm starting to do this lesson with myself is rely on the fact that people reason through things in in a common way or they do it in a way that has rigor or um they know how to quality control themselves. And I don't think that's actually real. I don't think people do that. They want to get to the end and they get the result. Um and and and and typically the fastest way there um with orchestration and agents you try to build we tried to build integrity into the orchestration to validate the information as it goes through it. So that if you get information from one agent, there's a way of saying is it garbage? Right? Oh yeah, of And so you can do that like if you have a workflow even for yourself, course. you can have steps that take you back from like the emotional attachment to it and say is it does this fit, you know, like um did I did I go in the wrong direction? Because if you this is what I got into trouble early on in programming like the solutions would just roll out themselves and you you could have very contradictory solutions working together meaning that they were different patterns but they can function because it's code. And you don't know any of that unless you have some step in your process to explain things to yourself to understand it more deeply. That is that is very true. You need to you need to always kind of validate your Yeah, and that that eval step I think is a is a really important one. work. Um, and like in learning I think that's the big thing with the the large language models now is like if you have that in the learning loop in the right place, it it effectively reinforces your learning giving you feedback, right? You're like, "Oh, it does this. Here's my experiment. Tell me how it works and how it's wrong." And you get this feedback. Otherwise, you could do the other thing is just like here's my conditions. Figure out my experiment and give me my results. And so then the second one um will get you to the finish line faster and maybe as
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u62
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  text: you can have steps that take you back from like the emotional attachment to it and say is it does this fit, you know, like um did I did I go in the wrong direction? Because if you this is what I got into trouble early on in programming like the solutions would just roll out themselves and you you could have very contradictory solutions working together meaning that they were different patterns but they can function because it's code. And you don't know any of that unless you have some step in your process to explain things to yourself to understand it more deeply. That is that is very true. You need to you need to always kind of validate your Yeah, and that that eval step I think is a is a really important one. work. Um, and like in learning I think that's the big thing with the the large language models now is like if you have that in the learning loop in the right place, it it effectively reinforces your learning giving you feedback, right? You're like, "Oh, it does this. Here's my experiment. Tell me how it works and how it's wrong." And you get this feedback. Otherwise, you could do the other thing is just like here's my conditions. Figure out my experiment and give me my results. And so then the second one um will get you to the finish line faster and maybe as Yeah. an entrepreneur you'll win the day, but um you might not have the same results every day. And so that's a it's a hard thing to win over. Um because we tried to we try to do this in our business and I think it reflects how a team would do this normally too is they would there'd be a check sum when you'd hand off. The UX person would did they get it man? Did they actually get the problem? Because what they're handing me suggests they only got half of it because you can tell right like you can because you're experienced and you have this asset and you've seen this asset a previous time. I've got this design asset. I can use it. um the um the feedback is is is not there in terms of the I don't know the pride of the the craft or something like the or the understanding of the craft because the large language model will just marshall the craft. It will just resource it.
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  text: an entrepreneur you'll win the day, but um you might not have the same results every day. And so that's a it's a hard thing to win over. Um because we tried to we try to do this in our business and I think it reflects how a team would do this normally too is they would there'd be a check sum when you'd hand off. The UX person would did they get it man? Did they actually get the problem? Because what they're handing me suggests they only got half of it because you can tell right like you can because you're experienced and you have this asset and you've seen this asset a previous time. I've got this design asset. I can use it. um the um the feedback is is is not there in terms of the I don't know the pride of the the craft or something like the or the understanding of the craft because the large language model will just marshall the craft. It will just resource it. Yeah, It'll just take us constraints that are okay, we we were thinking about that. right? like in fact it's just like We also we were discussing that it also it's because we created a uh like a very evolved typist sorry role, right? like we we created the there is so many people that they call themselves developers right now and and they only know how to write functions, right? Because uh companies already have their code figured it out. It's standardized. It's following rules. If you have your orchestration or your architecture and your infrastructure already in place, then it's manageable. So these people only need to come in to write functions, right? They're used to going to Shopify, going to these big shops and say, "No, I just need to write methods, right? Yeah, But once once they need to start thinking of, oh, man. why is this happening or do I need to refactor or I need to create something new?" That's when nothing works anymore. Right? Yeah. I I I I'm I'm struggling a lot is with the interview process. Yeah. like I I had an interview I told you before and they narrate well they can defend themselves really well because uh well the resume is really well structured and and uh their experience is is they have the whole story. They can narrate it well. They can answer questions from different angles that you usually ask. So today I have a technical test with one of them and because I we we kind of like him but now it's like I don't know what how to do this technical test, right? because it's how do you test this person in a way that you figured out is how he thinks Yeah. and not what the AI tool is giving him. Yeah. So, Right? so one of one of the things that I have read about um is uh paper tests and um and and that's a way of of eliminating the computer, but you're at a remote situation. So, that's tough too.
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  text: why is this happening or do I need to refactor or I need to create something new?" That's when nothing works anymore. Right? Yeah. I I I I'm I'm struggling a lot is with the interview process. Yeah. like I I had an interview I told you before and they narrate well they can defend themselves really well because uh well the resume is really well structured and and uh their experience is is they have the whole story. They can narrate it well. They can answer questions from different angles that you usually ask. So today I have a technical test with one of them and because I we we kind of like him but now it's like I don't know what how to do this technical test, right? because it's how do you test this person in a way that you figured out is how he thinks Yeah. and not what the AI tool is giving him. Yeah. So, Right? so one of one of the things that I have read about um is uh paper tests and um and and that's a way of of eliminating the computer, but you're at a remote situation. So, that's tough too. Yeah. in the morning Um because basically what I think you've told me is that you could have a separate monitor that's listening stuff. and it's feeding the answers and and the gu he's just teleprompting back from the LLM Yeah. all the responses in the in the in the interview. Um so that's a tough one but um so when the experience that you describe like I say say a junior has got full solution it comes to the to the experienced dev or whatever and the dev is going like what is this um the the what is this um response is is like the all Yeah. knowing hey man I can see just a few markers of this being spaghetti I just don't even need to go further Um but on the other side of things um if you were handed that Okay. piece of uh viation go code um and told to like uh how is this inappropriate given these constraints given the series of constraints it might be a you might be able to really see if someone understands code um because the the markers for vibing across say
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  - u100
+  - u101
+  - u102
+  text: so one of one of the things that I have read about um is uh paper tests and um and and that's a way of of eliminating the computer, but you're at a remote situation. So, that's tough too. Yeah. in the morning Um because basically what I think you've told me is that you could have a separate monitor that's listening stuff. and it's feeding the answers and and the gu he's just teleprompting back from the LLM Yeah. all the responses in the in the in the interview. Um so that's a tough one but um so when the experience that you describe like I say say a junior has got full solution it comes to the to the experienced dev or whatever and the dev is going like what is this um the the what is this um response is is like the all Yeah. knowing hey man I can see just a few markers of this being spaghetti I just don't even need to go further Um but on the other side of things um if you were handed that Okay. piece of uh viation go code um and told to like uh how is this inappropriate given these constraints given the series of constraints it might be a you might be able to really see if someone understands code um because the the markers for vibing across say Oh, you know something a little bit sophisticated like an API where they would normally be able to read the top API layer and get it, but then if they go into say the API and find a couple of things like there's two different patterns, there's singletons and then there's something else going on and you're like what the f\*\*\*? And you're like any normal like experienced programmer like heat. what this is an API it's supposed to be even across or whatever the example is. Um, but in the way that a senior or an experienced person would be able to to be able to identify something, um, have them try to reason through that. Um, here's an example for knowledge work. When I worked with my father, I was building basically spreadsheet applications and I would do a bunch of math and do a bunch of columner stuff, lines and rows and whatever. um and and then produce a graph or and then show it to my father and he would immediately be able to identify problems in what I've done like immediately and I'm like what how can you I spent five hours on this and you're telling me it's wrong by seeing this and then he would explain and he was right he was able to transverse the code from tables to to to curves and by that trans
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  text: what this is an API it's supposed to be even across or whatever the example is. Um, but in the way that a senior or an experienced person would be able to to be able to identify something, um, have them try to reason through that. Um, here's an example for knowledge work. When I worked with my father, I was building basically spreadsheet applications and I would do a bunch of math and do a bunch of columner stuff, lines and rows and whatever. um and and then produce a graph or and then show it to my father and he would immediately be able to identify problems in what I've done like immediately and I'm like what how can you I spent five hours on this and you're telling me it's wrong by seeing this and then he would explain and he was right he was able to transverse the code from tables to to to curves and by that trans See how many that makes me modular data to to curves, want he could tell you an anomaly right away. And so he was able to be able to take information and compress it in a way that's very common now, but at the time I was like I didn't understand how he could quickly do it, but he internalized it. And so he was able to make a curve out of this chart of data like tabs and then be able to move there. And that is the experience that I've recognized in people and expertise in people is that and the 10,000 hours thing is is the gut and I worked for Angus Reed and he had he propped up a whole industry encounter called market Yeah. research uh predicated on the notion of just being the gut check statistical gut check for companies and everybody had already determined their path by recognizing their experience. A lot of them were wrong a lot of the time. That's why it works in terms of stats. But for you, um, man, it's a really like studying how people interview is really cool. Like it's unfortunate you have to deal with it in a professional environment,
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  text: research uh predicated on the notion of just being the gut check statistical gut check for companies and everybody had already determined their path by recognizing their experience. A lot of them were wrong a lot of the time. That's why it works in terms of stats. But for you, um, man, it's a really like studying how people interview is really cool. Like it's unfortunate you have to deal with it in a professional environment, Yeah. but um it's a good one to study one like because right you've already shown an indicator of because this is like education, right? This is how education fails too. Um and leadership is that uh is that people fake it and they can fake it really well and Well, oh, I haven't told you this. So, one of the dudes, um I haven't worked with him a lot. Our senior devs, he he's in charge of deployments. The other day I joined uh an afternoon just to see what were they were deploying and they had an issue and they asked the devil to join in and we asked him to open up a terminal and run some commands and the dude doesn't know how to use terminal. Oh, He doesn't know how to use command line and and I'm like super worried right now. I'm telling the people like I don't know if this dude is AI working for you like he's not doing anything because how do how do you get to be a senior developer and you don't understand how to use the bash or right. the command Oh my goodness. Oh, line. so there you go. So the the markers are or the signals that you receive from somebody like in that case pretty strong, right? You have you have grave doubt now. Yeah. Um just it's a fundamental tool. If you've got somebody that's got more than like a now the current environment, you immediately have to know terminal. Um in the previous environment. I don't know how you could not either. Yeah, I don't know. Um I don't know any for I'm trying to understand, right? But I don't I don't think you couldn't be a senior dev without knowing how to use the command line that's before. Yeah, Everything is installed for the command line. that that's Yeah, like it's really hard forgiveness um to to say I I forgive you for this oversight of not learning this. Um, so what do you do when you know something, right? So you've been shown a card. You're like, "Okay, I got to act on this card." Um, uh, wow.
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  text: He doesn't know how to use command line and and I'm like super worried right now. I'm telling the people like I don't know if this dude is AI working for you like he's not doing anything because how do how do you get to be a senior developer and you don't understand how to use the bash or right. the command Oh my goodness. Oh, line. so there you go. So the the markers are or the signals that you receive from somebody like in that case pretty strong, right? You have you have grave doubt now. Yeah. Um just it's a fundamental tool. If you've got somebody that's got more than like a now the current environment, you immediately have to know terminal. Um in the previous environment. I don't know how you could not either. Yeah, I don't know. Um I don't know any for I'm trying to understand, right? But I don't I don't think you couldn't be a senior dev without knowing how to use the command line that's before. Yeah, Everything is installed for the command line. that that's Yeah, like it's really hard forgiveness um to to say I I forgive you for this oversight of not learning this. Um, so what do you do when you know something, right? So you've been shown a card. You're like, "Okay, I got to act on this card." Um, uh, wow. eye opening this past few days. Let me tell Yeah, that's a really big one. you Like because it's already in motion like this person is uh um effectively there, right? Let's go. I I don't know how they interviewed this person how he got in but um that's that's some of the things that we're finding right that is that well the thing I know why he got in it's because uh everybody left on the technical team and then the that guy was hired by the the the architect or the the the senior living and he didn't care. Right. Yeah. Yeah. Got But but I but I see it right now uh like on my interviews like people are getting it. sophisticated and if you don't if you're not like 100% on like you're right if you don't have the experience you cannot gauge it. They can really lie it right. We can really Okay,
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  text: Okay, lie. how about this one? You do exactly what they do. Not use the command line. you you run a side runner listening to the conversation telling you whether or not Oh, there you go. this person is using AI and and then because you can do it back you you can like if you have proof then you can go back and you say here's the scenario here's the full scenario of what's happened and then the and you can run it as a scenario simulation inside the LM and it can give you all kinds of now tests that you could have given to see if those markers would come out earlier. Okay. So what I'm getting at is like weaponize yourself with the tools of the Wait. interviewe but Yeah. So it ends up ends up in a conversation between my child and their um well just to surf to surface the markers that that it sees like you can do it retrospectively for sure because conversation always has those charges. markers if you have the video too. It's really it's it's really easy. Um, okay. Maybe maybe uh I I want to finish early today. We have a a meeting with a Minister of Parliament at 9:30 and so we demonstrating to him. But have you seen the movie Bladeunner 2049?
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  text: markers if you have the video too. It's really it's it's really easy. Um, okay. Maybe maybe uh I I want to finish early today. We have a a meeting with a Minister of Parliament at 9:30 and so we demonstrating to him. But have you seen the movie Bladeunner 2049? Uh the last one. Okay. Yes. So there's there's an interview sequence in there where they're doing a baseline on the psychology or this person, right? This blade runner, and he's he's maybe he's a bot, Yeah. maybe he's not, whatever. So he um he's failing these baselines, but the baselines are interviews, right? To see how they're psychologically doing, basically. We call that. And they're told to do things like cells are intertwined. You can't. Cells cells, do you remember that? like it is like the response back is not an answer to the Oh. question. The question is you're young, you're you see an animal, it is dead cells and you respond back with the word cells. And the interview is basically it's not picking up your answer and saying he has the correct answer. Mhm. It's doing this profiling of you in this weird whackadoodle way um to see if you're psychologically sound. And uh and so as an interview it sounds completely f\*\*\*\*\*\* ridiculous. One side of it is just this person saying these phrases and the other side of it is a person saying the same word Oh. every time. of So, so what I'm getting at is like you you can't profile somebody on their output skills interest. anymore. You have to profile them on their ability to be critical thinkers. And maybe and maybe that is some sort of handwaving exercise. Yeah. It's nothing to do with them um them engaging with code at all. Um it's a profiling of like a like unfortunately like deep Very behavioral kind but uh interesting though. yeah yeah so there's a I I think I'm going to I'm going to keep going on that idea.
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  text: question. The question is you're young, you're you see an animal, it is dead cells and you respond back with the word cells. And the interview is basically it's not picking up your answer and saying he has the correct answer. Mhm. It's doing this profiling of you in this weird whackadoodle way um to see if you're psychologically sound. And uh and so as an interview it sounds completely f\*\*\*\*\*\* ridiculous. One side of it is just this person saying these phrases and the other side of it is a person saying the same word Oh. every time. of So, so what I'm getting at is like you you can't profile somebody on their output skills interest. anymore. You have to profile them on their ability to be critical thinkers. And maybe and maybe that is some sort of handwaving exercise. Yeah. It's nothing to do with them um them engaging with code at all. Um it's a profiling of like a like unfortunately like deep Very behavioral kind but uh interesting though. yeah yeah so there's a I I think I'm going to I'm going to keep going on that idea. psychological profile that you want for a developer anyways right like you want them opinionated you want them to be critical and you want them to be you know problem solving oriented and and that's base like whatever else Oh my god. on top of that. But there's a few critical kind of perspectives you want to have and you try to measure those. We used to have three interviews, you probably have one, Okay. now you have the technical one, whatever. Um, and you do that. You try to average that out. So, uh, how can you how can you figure out the psychological the fit piece? Is he a fit? Is she a Right? They they passed the test. We've done the references. is are they a fit? And now you can redefine a fit as is this person just an AI proxy. Oh my god. Yeah. Don't get me just getting fat right now. Um because I had a I had a friend say eight years ago or whatever or seven maybe even five years ago talking to me over lunch because he was worried about one of his remote peers and his remote peer couldn't problem solve and
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  - u185
+  - u186
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  - u193
+  - u194
+  - u195
+  - u196
+  text: I I think I'm going to I'm going to keep going on that idea. psychological profile that you want for a developer anyways right like you want them opinionated you want them to be critical and you want them to be you know problem solving oriented and and that's base like whatever else Oh my god. on top of that. But there's a few critical kind of perspectives you want to have and you try to measure those. We used to have three interviews, you probably have one, Okay. now you have the technical one, whatever. Um, and you do that. You try to average that out. So, uh, how can you how can you figure out the psychological the fit piece? Is he a fit? Is she a Right? They they passed the test. We've done the references. is are they a fit? And now you can redefine a fit as is this person just an AI proxy. Oh my god. Yeah. Don't get me just getting fat right now. Um because I had a I had a friend say eight years ago or whatever or seven maybe even five years ago talking to me over lunch because he was worried about one of his remote peers and his remote peer couldn't problem solve and Yeah. discuss a problem or a feature in the moment. He would defer and he would have uh he would find a way of coming back with solution later. And it was his pattern of work and and his thing was like I don't think this guy's doing his Exactly. What is own work. it? And so what he figured this guy was doing is he had farmed out to India or offshore um his work and he would do the requirements gathering and he was probably on like What's multiple projects and he didn't know how to do code but he knew how to do requirements gathering and tell people what to do and then through the time difference was be be able it to deliver the next day. Right? Somebody so smart to figure that out and still not want to code probably has utilities somewhere in your company. But um that was that was a while ago before AI. And um so so there's some need to figure out what fit means in a remote sense that's way different than you know does this guy have like does this person have any presence that I can handle working next to me? Um that used to be part of the fit is like will he hang out with us? Will she hang out with us? Will we be able to create creatively work together? Um, used to be
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u196
+  - u197
+  - u198
+  - u199
+  - u200
+  - u201
+  - u202
+  - u203
+  - u204
+  - u205
+  - u206
+  - u207
+  - u208
+  - u209
+  - u210
+  - u211
+  - u212
+  - u213
+  - u214
+  text: to deliver the next day. Right? Somebody so smart to figure that out and still not want to code probably has utilities somewhere in your company. But um that was that was a while ago before AI. And um so so there's some need to figure out what fit means in a remote sense that's way different than you know does this guy have like does this person have any presence that I can handle working next to me? Um that used to be part of the fit is like will he hang out with us? Will she hang out with us? Will we be able to create creatively work together? Um, used to be that last part that fit is the hardest one right now. I I I don't know where all the people are. I I felt like I keep saying like I thought everybody was looking for a job but finding Yeah. good candidates that you're right that you want to hang out with them, you want to talk to them, they have things to add. Very difficult. Yeah. Yeah. I know I've I've I've felt I don't know if it's a salary thing. that I don't know if it's a money thing. Maybe salaries are higher now. it is different and it it makes it makes startup tough. Uh remote makes startup really hard and teams function like a startup pretty much like I don't know they're always trying to uh innovate and move No, forward on new things. it's not. Yeah, the talent pool got got weird, man. The talent pool got it used to be stronger. I feel like you used to used to have people that had at least more experience or had a a a more complete ethic ethics I would say. I don't know. They were go they liked it. You studied development and you liked it. Yeah. You do it as it's because it was it was a passion. So I think that's an important part like you liked it and that's I guess when I say I I I hire opinionated people is like that's what I like about people they like their work they have opinions about it right like I choose spelt because of this and you're like okay I get it you that's a good reason it's not my thing but that's Yeah. a really neat reason why you align with rust you know like okay cool it's fundamental but it's not going to help our Yes. business right now just so you Um but that was that was a big thing for because you could tell people
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u205
+  - u206
+  - u207
+  - u208
+  - u209
+  - u210
+  - u211
+  - u212
+  - u213
+  - u214
+  - u215
+  - u216
+  - u217
+  - u218
+  - u219
+  - u220
+  - u221
+  - u222
+  - u223
+  - u224
+  - u225
+  - u226
+  text: No, forward on new things. it's not. Yeah, the talent pool got got weird, man. The talent pool got it used to be stronger. I feel like you used to used to have people that had at least more experience or had a a a more complete ethic ethics I would say. I don't know. They were go they liked it. You studied development and you liked it. Yeah. You do it as it's because it was it was a passion. So I think that's an important part like you liked it and that's I guess when I say I I I hire opinionated people is like that's what I like about people they like their work they have opinions about it right like I choose spelt because of this and you're like okay I get it you that's a good reason it's not my thing but that's Yeah. a really neat reason why you align with rust you know like okay cool it's fundamental but it's not going to help our Yes. business right now just so you Um but that was that was a big thing for because you could tell people Yeah. were interested in things you know like really interesting um in in more than just uh developers. So way back in the day I read some article it was a long long time ago and it is the difference between coders Now and and like developers and programmers and you point to this and I think experience you get to the programming you're building a program that does a bunch of things like it has a work you know it's let's come up. it's a program a developer works on as you say functions almost um and it's a myopic understanding of how a programming language works more so than how the program that you're working on can function. I'm And I can I can speak to that having hired a company to work on a project and they still don't understand the concept of talking. quality control um as it's applied to an industry. They can build software for it, Yeah. but I can't get them to to to problem solve on on key workflows um because they don't understand that yet. And but they've been on it for months.
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u226
+  - u227
+  - u228
+  - u229
+  - u230
+  - u231
+  - u232
+  - u233
+  - u234
+  - u235
+  text: but I can't get them to to to problem solve on on key workflows um because they don't understand that yet. And but they've been on it for months. There you Right? It's like come on. go. And so like finding that problem solver, I believe the two people on the other end are really smart. It's just their focus is is is different. So it's a The the other thing that I have I'm finding that is very tough is the is the change on on tough what people are are expecting from the work like before they already expected magic right everybody uh that is business already thought things are easy like why don't you move faster right and now with AI is just stupid like they Oh god. they just keep saying but if I tell if I tell CL to do it it explains me what needs to be done why it's not done why why you guys not doing it in five minutes and and we had to go through the whole thing of saying okay let's try a change and let's give it to CL and then CL was going through every single step of this needs to happen this needs to happen this needs to happen if you want this change to work you need to go this way and then it ends up in saying, "Yeah, it's it's about two weeks,
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u235
+  - u236
+  - u237
+  - u238
+  - u239
+  - u240
+  - u241
+  - u242
+  - u243
+  - u244
+  - u245
+  - u246
+  - u247
+  - u248
+  - u249
+  - u250
+  - u251
+  text: they just keep saying but if I tell if I tell CL to do it it explains me what needs to be done why it's not done why why you guys not doing it in five minutes and and we had to go through the whole thing of saying okay let's try a change and let's give it to CL and then CL was going through every single step of this needs to happen this needs to happen this needs to happen if you want this change to work you need to go this way and then it ends up in saying, "Yeah, it's it's about two weeks, Yeah. right?" And and and they're saying and and the the the business is like, Yeah. "Oh," it's like, "Yeah, man. It's not I don't know why do you think they created AI to understand your ambiguity, but that's not true, right? Like you can live your life in a very ambiguous way, but software doesn't live like that, right? We don't we still need to know exactly what needs to happen. It's just that this thing does it's an automation process. It's not it's not a a magical is not a reading minds process. So trying to to teach people that that it's it's a this is an automation. Yeah, it looks cool. It's pretty fun. It it does a lot of things for you but still automation. If you if you don't say what needs to happen and you don't tell it don't guess it will guess right. So it's a those those things is it's I don't know the whole idea. I always I always felt there was a big distance between the product in a larger Yeah. company and then the executive in terms of how they functioned um in business like the concerns were Yeah. quite different and then there was this middle ground where you negotiated specs and features and all the rest of it but um that I think what explaining there is now it's almost even weaponized that executive viewpoint where um because they read the news um the the abilities are there because they're maybe performing in a shallow fashion too. Um their responses back are immediate and um and they don't Wait. require probably hours and hours of effort. That's like executives work on a report for not weeks, right? Like they bounce between a whole lot of things and so this is Oh yeah. weaponizing that a lot. Yeah. I don't like it. I don't like it. This is this is the the I think there are good things, bad things. Um, I still think there is a lot of crap that is getting produced. We we're producing a lot of like a even even in in in those organizations like a business and and and when they are doing deals, when they're writing memos, when they're writing ideas, when they're writing proposals that it's it's getting so big like they're popping up garbage so fast now, right? So you so I think that we're getting into a point in which we are drowned by document,
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u241
+  - u242
+  - u243
+  - u244
+  - u245
+  - u246
+  - u247
+  - u248
+  - u249
+  - u250
+  - u251
+  - u252
+  - u253
+  - u254
+  - u255
+  - u256
+  - u257
+  - u258
+  text: Yeah. company and then the executive in terms of how they functioned um in business like the concerns were Yeah. quite different and then there was this middle ground where you negotiated specs and features and all the rest of it but um that I think what explaining there is now it's almost even weaponized that executive viewpoint where um because they read the news um the the abilities are there because they're maybe performing in a shallow fashion too. Um their responses back are immediate and um and they don't Wait. require probably hours and hours of effort. That's like executives work on a report for not weeks, right? Like they bounce between a whole lot of things and so this is Oh yeah. weaponizing that a lot. Yeah. I don't like it. I don't like it. This is this is the the I think there are good things, bad things. Um, I still think there is a lot of crap that is getting produced. We we're producing a lot of like a even even in in in those organizations like a business and and and when they are doing deals, when they're writing memos, when they're writing ideas, when they're writing proposals that it's it's getting so big like they're popping up garbage so fast now, right? So you so I think that we're getting into a point in which we are drowned by document, Oh yeah, you can you can Yeah, they're very fluent looking and very fluent sounding. right? Um and so that's you know that's not the measure of anything now is whether you put time and craft into it. Um so through that time and craft you would actually understand things in a much greater fashion. That's kind of how my education worked. And um but now because there's an immediate response back, you can actually have polish on s\*\*\* pretty well. And um it it's it is a lot like you know polishing a turd and then handing it off to somebody else and they're like, Yeah. "Look, there's the truth. I'll just add to that." And then it gets further down the line and you end up with a bucket of poop. Yeah. Um, but uh I've I started noticing it about two months or three months ago where I was receiving stuff. I'm like, "Wow, this is long." I'm like, "Oh, they didn't even read this." They got they got the headings and all that stuff in there and then they were like, "Okay." Um,
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u251
+  - u252
+  - u253
+  - u254
+  - u255
+  - u256
+  - u257
+  - u258
+  - u259
+  - u260
+  - u261
+  - u262
+  text: I still think there is a lot of crap that is getting produced. We we're producing a lot of like a even even in in in those organizations like a business and and and when they are doing deals, when they're writing memos, when they're writing ideas, when they're writing proposals that it's it's getting so big like they're popping up garbage so fast now, right? So you so I think that we're getting into a point in which we are drowned by document, Oh yeah, you can you can Yeah, they're very fluent looking and very fluent sounding. right? Um and so that's you know that's not the measure of anything now is whether you put time and craft into it. Um so through that time and craft you would actually understand things in a much greater fashion. That's kind of how my education worked. And um but now because there's an immediate response back, you can actually have polish on s\*\*\* pretty well. And um it it's it is a lot like you know polishing a turd and then handing it off to somebody else and they're like, Yeah. "Look, there's the truth. I'll just add to that." And then it gets further down the line and you end up with a bucket of poop. Yeah. Um, but uh I've I started noticing it about two months or three months ago where I was receiving stuff. I'm like, "Wow, this is long." I'm like, "Oh, they didn't even read this." They got they got the headings and all that stuff in there and then they were like, "Okay." Um, Yeah. and then they read the report. Good morning. And then they read the report and they were fine. But um I think this this interview thing is uh is a really timely piece and um I Confederation of uh it doesn't work but I I have I have this tech like these libraries that I've been able to use and while in video you can actually pick up people's emotions like it does facial recognition so you you can so it will pick and and it does do that and it's just how brutal it is and how fast your computer is because it's all running on your client side. So, but it'll do facial recognition and it'll pick up things like that. And I've got one for voice and so the voice is quite good. Um, so the the combination of the two allows you to do the 2049 Bladeunner type interview. And so I have something called baseline that I I spent like an hour on on Sunday night. I think it's just like the prompt is really easy. So, I just like, okay, build it. Um, but I have I want to build this out fully and I'm I think I'll try to get a slam around it. Um, to build an interview process that is like the um 2049
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u262
+  - u263
+  - u264
+  - u265
+  - u266
+  - u267
+  - u268
+  text: uh it doesn't work but I I have I have this tech like these libraries that I've been able to use and while in video you can actually pick up people's emotions like it does facial recognition so you you can so it will pick and and it does do that and it's just how brutal it is and how fast your computer is because it's all running on your client side. So, but it'll do facial recognition and it'll pick up things like that. And I've got one for voice and so the voice is quite good. Um, so the the combination of the two allows you to do the 2049 Bladeunner type interview. And so I have something called baseline that I I spent like an hour on on Sunday night. I think it's just like the prompt is really easy. So, I just like, okay, build it. Um, but I have I want to build this out fully and I'm I think I'll try to get a slam around it. Um, to build an interview process that is like the um 2049 See? interview thing and you are responding in a way where the um expectation on the tech side like on my side where I'm programming it is not to answer and analyze what you've said. It's how you've said it and how you've reacted. And the combination of how you've said it and how you reacted can produce a timeline to which then you can say, "Well, I was looking for this reaction. What did I get?" Um, and you know, they've been doing this kind of thing for a long time in universities, so it's really easy to find all the triggers for this s\*\*\*. But it would be a very cool experience and it might actually hold some water. But the whole experience of that interview is really on on the interviewee side. Okay. It's just like sals and you're like saying the same word over and over again. Yeah, So it's a remarkable interchange. Um but uh that's how that's how big money works in in terms of video conferencing, right? Like big money is analyzing everything. And so I wanted to see what I could do. And I could pick up a lot. And you don't need to keep the video, but in the case where I was doing it, you do. So you have this timeline view of the video as it plays out. It's really cool. You see, you pick up the markers and then you can see what people were saying. And um and so it's a really really interesting way of of profiling somebody. Um and you can you can get good at it. And um regardless of that, like the the theme that has been running through things of understanding versus knowing, I think, Juan, you've got it hitting you right in the face where these people are showing their cards like many months or weeks down
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u264
+  - u265
+  - u266
+  - u267
+  - u268
+  - u269
+  - u270
+  - u271
+  - u272
+  - u273
+  - u274
+  - u275
+  - u276
+  text: interview thing and you are responding in a way where the um expectation on the tech side like on my side where I'm programming it is not to answer and analyze what you've said. It's how you've said it and how you've reacted. And the combination of how you've said it and how you reacted can produce a timeline to which then you can say, "Well, I was looking for this reaction. What did I get?" Um, and you know, they've been doing this kind of thing for a long time in universities, so it's really easy to find all the triggers for this s\*\*\*. But it would be a very cool experience and it might actually hold some water. But the whole experience of that interview is really on on the interviewee side. Okay. It's just like sals and you're like saying the same word over and over again. Yeah, So it's a remarkable interchange. Um but uh that's how that's how big money works in in terms of video conferencing, right? Like big money is analyzing everything. And so I wanted to see what I could do. And I could pick up a lot. And you don't need to keep the video, but in the case where I was doing it, you do. So you have this timeline view of the video as it plays out. It's really cool. You see, you pick up the markers and then you can see what people were saying. And um and so it's a really really interesting way of of profiling somebody. Um and you can you can get good at it. And um regardless of that, like the the theme that has been running through things of understanding versus knowing, I think, Juan, you've got it hitting you right in the face where these people are showing their cards like many months or weeks down Anybody? the road where they don't know how to do something that their interview process that they should be a champion of now that. Um really, so it doesn't have to be punitive, right? and like it it can be like okay there's a remedial opportunity here we've recognized you don't profile here in this way we're going to give you some opportunity to learn and then that's usually a onetrack opportunity you either learn or you don't um but when when so one had the unfortunate reality of recognizing somebody didn't know how to use a command line interface terminal um as a recognized intermediate or senior programmer and and and it's just Did we do that? like It's like showing up for your job because you can't open any environment that doesn't have a terminal in it after a few months of work. Um, and so, you know, I rely on the AI now for a lot of that old like getting very particular with bash, but I know how to run my own stuff, too, because you have to nowadays. And so, the the measure of which people are given tests uh to perform, Jen, it's completely it's completely fakeable. um where you can have an LLM in another browser window listening to the whole of the conversation and watching what's going on in your in your browser window and giving you responses back and you just parrot them back at pantoime and and one believes he may have experienced
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u276
+  - u277
+  - u278
+  - u279
+  - u280
+  - u281
+  - u282
+  - u283
+  - u284
+  - u285
+  - u286
+  - u287
+  - u288
+  - u289
+  - u290
+  - u291
+  - u292
+  - u293
+  - u294
+  - u295
+  - u296
+  - u297
+  - u298
+  text: like It's like showing up for your job because you can't open any environment that doesn't have a terminal in it after a few months of work. Um, and so, you know, I rely on the AI now for a lot of that old like getting very particular with bash, but I know how to run my own stuff, too, because you have to nowadays. And so, the the measure of which people are given tests uh to perform, Jen, it's completely it's completely fakeable. um where you can have an LLM in another browser window listening to the whole of the conversation and watching what's going on in your in your browser window and giving you responses back and you just parrot them back at pantoime and and one believes he may have experienced Yeah. that. Um and I have had other people relate to me the same sort of experiences. Yes, I So you you can't rely on anybody being honest anymore. It's like the wild west. think When you you meet somebody on horseback going down the road, what do you do? I think of that one all the time. Yeah. What do you do? You say Yeah. No, this is so it is being used especially in job interviews in online hi. exams um a lot and I actually have a friend who I don't know if Yes. they were on this call but firsthand they were doing job interviews and the candidates they were like something's off and then they asked them to scratch their head because apparently that's more difficult for whatever reason for avatars to do and Yep. and then the blur was there. So, someone had a full-on avatar doing the interview on their behalf. Like, Yeah, not even just reading off the side. because you can so straight on. It was just like they put an So, so because you can marshall those resources, you know, you can, Yeah. right? Um, and people are doing it professionally like YouTubers like that have that have depth. They'll just like if they already have audience, they're just like you're watching me as an avatar because I'm doing other work. Yeah. Mark Zuckerberg, right? So, it's it it's one thing when it's honest, it's two that you can't rely on honesty, right? In a mediated experience, no one is honest is is is maybe the baseline. And then from there you have to have like a cyber or security kind of attitude around everybody and you try to produce exploits like scratch your head or the one I really like is bat your eyelashes.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u287
+  - u288
+  - u289
+  - u290
+  - u291
+  - u292
+  - u293
+  - u294
+  - u295
+  - u296
+  - u297
+  - u298
+  - u299
+  - u300
+  - u301
+  - u302
+  - u303
+  text: exams um a lot and I actually have a friend who I don't know if Yes. they were on this call but firsthand they were doing job interviews and the candidates they were like something's off and then they asked them to scratch their head because apparently that's more difficult for whatever reason for avatars to do and Yep. and then the blur was there. So, someone had a full-on avatar doing the interview on their behalf. Like, Yeah, not even just reading off the side. because you can so straight on. It was just like they put an So, so because you can marshall those resources, you know, you can, Yeah. right? Um, and people are doing it professionally like YouTubers like that have that have depth. They'll just like if they already have audience, they're just like you're watching me as an avatar because I'm doing other work. Yeah. Mark Zuckerberg, right? So, it's it it's one thing when it's honest, it's two that you can't rely on honesty, right? In a mediated experience, no one is honest is is is maybe the baseline. And then from there you have to have like a cyber or security kind of attitude around everybody and you try to produce exploits like scratch your head or the one I really like is bat your eyelashes. Is that another one that fills that right It was it was in a movie where where if you had a an android across from you and you batted your eyelashes, now? it would freak out just like the avatar, right? Each each LLM will have a signature as to what which one you're using and and and you just need to know the exploit and once you have enough exploits against your interviewe, then you'll know if they pass the test as human and then you can go to the next step. But that's for now, right? Like we've all seen how fast and if they know that that's like a known gap, then the people who provide such things will focus on Yeah. I don't know if you guys saw this. This is just for fun. kind of the emergence experiment where um they put basically they made um online towns and they tossed in 10 avatars with professions from the big four Claude Grock uh Gemini and Chat GBT and then just kind of gave them some laws and said go make a town together and it Like I don't know how they say they set up each experiment exactly the same, but then the models behaved kind of as you would stereotypically expect where Grock's town they set everything on fire and everyone killed each other within like four days and Claude was like they very democratic and peaceful and everything was a vote with but with little originality. Everyone just kind of conformed. So, it's interesting when you layer on top of these types of avatar models and people and trust and all the different things coming in and how you know the flavor of the LLM on top of like how do you disclose? How do you detect when people are not disclosing and the whole like kind of guilty till presumed innocent? How does that then play out with how you analyze the data and how the different models would handle that? And there's so many like
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u303
+  - u304
+  - u305
+  - u306
+  text: But that's for now, right? Like we've all seen how fast and if they know that that's like a known gap, then the people who provide such things will focus on Yeah. I don't know if you guys saw this. This is just for fun. kind of the emergence experiment where um they put basically they made um online towns and they tossed in 10 avatars with professions from the big four Claude Grock uh Gemini and Chat GBT and then just kind of gave them some laws and said go make a town together and it Like I don't know how they say they set up each experiment exactly the same, but then the models behaved kind of as you would stereotypically expect where Grock's town they set everything on fire and everyone killed each other within like four days and Claude was like they very democratic and peaceful and everything was a vote with but with little originality. Everyone just kind of conformed. So, it's interesting when you layer on top of these types of avatar models and people and trust and all the different things coming in and how you know the flavor of the LLM on top of like how do you disclose? How do you detect when people are not disclosing and the whole like kind of guilty till presumed innocent? How does that then play out with how you analyze the data and how the different models would handle that? And there's so many like Well, I think I think if we reflect back, layers. there's only one kind of thing that I'm seeing across society and that's like this aggressive aggressive sort of um disposition that you need to take to survive almost. And so that aggressive disposition is one everyone adopts and that if you don't adopt it then you have then you suffer from it. And the aggressiveness is one of using everything and anything to succeed, right? There's no one saying that that's not right other than some social pressure online because it's all mediated and um everybody's grown up pretty much with the digital experience being full of trolls. So, it's not a real, you know, it's not not real respected environment.
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u303
+  - u304
+  - u305
+  - u306
+  - u307
+  - u308
+  - u309
+  - u310
+  - u311
+  - u312
+  text: But that's for now, right? Like we've all seen how fast and if they know that that's like a known gap, then the people who provide such things will focus on Yeah. I don't know if you guys saw this. This is just for fun. kind of the emergence experiment where um they put basically they made um online towns and they tossed in 10 avatars with professions from the big four Claude Grock uh Gemini and Chat GBT and then just kind of gave them some laws and said go make a town together and it Like I don't know how they say they set up each experiment exactly the same, but then the models behaved kind of as you would stereotypically expect where Grock's town they set everything on fire and everyone killed each other within like four days and Claude was like they very democratic and peaceful and everything was a vote with but with little originality. Everyone just kind of conformed. So, it's interesting when you layer on top of these types of avatar models and people and trust and all the different things coming in and how you know the flavor of the LLM on top of like how do you disclose? How do you detect when people are not disclosing and the whole like kind of guilty till presumed innocent? How does that then play out with how you analyze the data and how the different models would handle that? And there's so many like Well, I think I think if we reflect back, layers. there's only one kind of thing that I'm seeing across society and that's like this aggressive aggressive sort of um disposition that you need to take to survive almost. And so that aggressive disposition is one everyone adopts and that if you don't adopt it then you have then you suffer from it. And the aggressiveness is one of using everything and anything to succeed, right? There's no one saying that that's not right other than some social pressure online because it's all mediated and um everybody's grown up pretty much with the digital experience being full of trolls. So, it's not a real, you know, it's not not real respected environment. like it's not digital anarchy kind of Well, it is digital anarchy. is It's anarchy because it's digital. Um, meaning it's if you can do it, it's valid. I get what you're saying. Yeah. It's not like the ethics don't apply. And that's a really weird place, right? And so that's, you know, and I've I've kind of had a different disposition around business in in in that way where showing up and being good has just transferred value and not economics of value. And so that changes my disposition to be aggressive in terms of what I'm looking for in a relationship with a company. And it's no longer them. I've told you this. The first person we're talking to in a category is just that we find the second person and we have the same conversation and we find the third one and we throw them away as we like that wasn't me. That's me as of two months ago. So that's that's just recognizing that no one's coming back with that love. Um or a partnership where they're sitting across from the table you going out for lunch with you a bunch of times. Like that stuff's not going on. And so the the real ability to say this is our set of terms and circumstances no matter what's going on. And so unless you're aggressive about setting up the terms beginning of a relationship, it'll just play out until the end and somebody can take all the value and not pay for it. And that that can be the same thing with an employee. You're paying paying for somebody's tokens and they're getting and they're they're arbitrageing on their own ability to use
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u312
+  - u313
+  text: It's not like the ethics don't apply. And that's a really weird place, right? And so that's, you know, and I've I've kind of had a different disposition around business in in in that way where showing up and being good has just transferred value and not economics of value. And so that changes my disposition to be aggressive in terms of what I'm looking for in a relationship with a company. And it's no longer them. I've told you this. The first person we're talking to in a category is just that we find the second person and we have the same conversation and we find the third one and we throw them away as we like that wasn't me. That's me as of two months ago. So that's that's just recognizing that no one's coming back with that love. Um or a partnership where they're sitting across from the table you going out for lunch with you a bunch of times. Like that stuff's not going on. And so the the real ability to say this is our set of terms and circumstances no matter what's going on. And so unless you're aggressive about setting up the terms beginning of a relationship, it'll just play out until the end and somebody can take all the value and not pay for it. And that that can be the same thing with an employee. You're paying paying for somebody's tokens and they're getting and they're they're arbitrageing on their own ability to use That's it. Yeah,
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u313
+  - u314
+  - u315
+  - u316
+  - u317
+  - u318
+  - u319
+  - u320
+  - u321
+  - u322
+  - u323
+  - u324
+  - u325
+  - u326
+  - u327
+  - u328
+  - u329
+  - u330
+  - u331
+  - u332
+  - u333
+  - u334
+  - u335
+  text: That's it. Yeah, tokens. you you on the way that they can argument and and and prompt the thing. But yeah, it's it's getting I don't know. It's it's not worrisome. I think the game just changes. We used to there's always this thing, Yeah. right? People trying to get a trying to get in, trying to get ahead. I think I I I don't complain. I kind of enjoy it, guys. I like the I have I find it refreshing to go on interview and see someone trying to b\*\*\*\*\*\*\* Well, me. So well, and so you the curiosity you have is driving is driving your ability to to that's pallet it, right? She's like, man, you try it again. I've Okay, number Oh, a new one. That goes under the column, though. It is a new one. new attempt to screw me over. yeah and you know what I think that being Colombian that's like our default mode. Um, Sorry to be so stereotypical, but we don't trust anyone from the get-go. We have a really bad trust well, and and so that's that societ like in societal ways that plays out almost issue. everywhere else in the world that if you're if you are walking down the road and someone's walking towards you, you most likely don't first say hi. Yeah, that's that's it. Yeah, we we we we have that. So, so Jen's a Jen's a sailor and so sailors have a disposition on the water. You always wave, right? You always wave and when you see somebody. And I asked why because he said, "Well, if they don't wave back, you know something's wrong." And so, you have one rule and you try it and if it doesn't work, Oh, then you have no rules. This is so funny. I'm so sorry, but like yesterday Connor, heat. a bit of a segue, but it's interesting because Connor, my son, he's really squishy. He's a lovely guy. He was telling me at school they they're doing like constitutions and countries and where they have their constitution and you're allowed to make alliances. So, he and his buddy like allied up and they made turtle like angry turtle was their and they had no rules. Their only law was there was no rules, no laws at all. And their only thing was is they were out to blow up everyone else. And then the whole class got together to see who country survived in this like and Connor and his friends won because they literally went in and blew everyone else up like right out of the door. There was no negotiations, no anything. And the teacher's like, "Yeah, well, but you broke a whole bunch of laws." And Connor's like, "No, we didn't because we don't have any." And he's like, "All right, you guys win. You survived and no one else did." And I was just like, "Oh my gosh." You know,
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u325
+  - u326
+  - u327
+  - u328
+  - u329
+  - u330
+  - u331
+  - u332
+  - u333
+  - u334
+  - u335
+  - u336
+  - u337
+  text: Sorry to be so stereotypical, but we don't trust anyone from the get-go. We have a really bad trust well, and and so that's that societ like in societal ways that plays out almost issue. everywhere else in the world that if you're if you are walking down the road and someone's walking towards you, you most likely don't first say hi. Yeah, that's that's it. Yeah, we we we we have that. So, so Jen's a Jen's a sailor and so sailors have a disposition on the water. You always wave, right? You always wave and when you see somebody. And I asked why because he said, "Well, if they don't wave back, you know something's wrong." And so, you have one rule and you try it and if it doesn't work, Oh, then you have no rules. This is so funny. I'm so sorry, but like yesterday Connor, heat. a bit of a segue, but it's interesting because Connor, my son, he's really squishy. He's a lovely guy. He was telling me at school they they're doing like constitutions and countries and where they have their constitution and you're allowed to make alliances. So, he and his buddy like allied up and they made turtle like angry turtle was their and they had no rules. Their only law was there was no rules, no laws at all. And their only thing was is they were out to blow up everyone else. And then the whole class got together to see who country survived in this like and Connor and his friends won because they literally went in and blew everyone else up like right out of the door. There was no negotiations, no anything. And the teacher's like, "Yeah, well, but you broke a whole bunch of laws." And Connor's like, "No, we didn't because we don't have any." And he's like, "All right, you guys win. You survived and no one else did." And I was just like, "Oh my gosh." You know, Yep. and here's here's my son who always is looking for the loophole like always, right? And like how can you gain the system and whatnot? And that's his conclusion to a classroom experiment of creating constitutions to win where the goal is to win. Not to cooperate, but to win. The obvious answer is get in there and kill everyone real fast and have no rules so that you're not beholden to any sort of punishment for acting like a s\*\*\*\*\*\*\*. And I like I was like I don't know if to be proud or disturbed or sad or
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u337
+  - u338
+  - u339
+  - u340
+  - u341
+  - u342
+  - u343
+  - u344
+  - u345
+  - u346
+  - u347
+  - u348
+  - u349
+  - u350
+  - u351
+  - u352
+  - u353
+  - u354
+  text: and here's here's my son who always is looking for the loophole like always, right? And like how can you gain the system and whatnot? And that's his conclusion to a classroom experiment of creating constitutions to win where the goal is to win. Not to cooperate, but to win. The obvious answer is get in there and kill everyone real fast and have no rules so that you're not beholden to any sort of punishment for acting like a s\*\*\*\*\*\*\*. And I like I was like I don't know if to be proud or disturbed or sad or Well, like kind of all of them together 12 coming on Conor's how old? How old? Okay, he's fine. He's 13 like oh he I'm not worried about him as a Very Canadian. Very Canadian. fine. Jin person because I know as a person he's a good guy but it's interesting like how in the simulation when your goal is to game the system and to actually like win for real and not follow the rules of what the classroom's trying to do, but actually like to prove that you found a loophole, It wasn't a loophole. which is like He was being they were all acting on implicit rule sets and he wasn't. It wasn't a loophole at all. It was it was him explicitly understanding what the rules were and and the rest of them saying, "Well, there's other rules that we really have that we're using. these are just the ones that are the play rules. And they were saying, "These aren't the play rules. These are the real rules. The rest of them are play rules. Yeah, that's true. It's true. It's just I guess it's sad that we define winning as survival It's and then this kind of works in that situation because I'm like, yeah, it actually emulates pretty much what's going right so where where I would where I would point to a interesting thing is like on his now. own what would Connor do and then with any other person you will do exactly what they did. Right? On their own, they would probably not come up with that and be so confident because they would have social pressure from the other people. But together with one other person, they could agree that this was just zany enough to have fun with.
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u348
+  - u349
+  - u350
+  - u351
+  - u352
+  - u353
+  - u354
+  - u355
+  - u356
+  - u357
+  - u358
+  - u359
+  - u360
+  - u361
+  - u362
+  - u363
+  text: He was being they were all acting on implicit rule sets and he wasn't. It wasn't a loophole at all. It was it was him explicitly understanding what the rules were and and the rest of them saying, "Well, there's other rules that we really have that we're using. these are just the ones that are the play rules. And they were saying, "These aren't the play rules. These are the real rules. The rest of them are play rules. Yeah, that's true. It's true. It's just I guess it's sad that we define winning as survival It's and then this kind of works in that situation because I'm like, yeah, it actually emulates pretty much what's going right so where where I would where I would point to a interesting thing is like on his now. own what would Connor do and then with any other person you will do exactly what they did. Right? On their own, they would probably not come up with that and be so confident because they would have social pressure from the other people. But together with one other person, they could agree that this was just zany enough to have fun with. Yep. It's uh it's So that's so the the the cohort thing is really interesting because there the people on the other side of the interview Piggy. are cohorting with an AI and they don't see anything wrong with that and it's actually propping them up in the same way. Um, Yeah. Yeah. and so it's it's kind of a cabal of types, but yeah, it's always reflective. And I think it's really neat when you actually minimize the rules like that, right? Like um the other teams would have had so many rules they were acting on, right? And if you just say there's only one rule, there's no rules, Mhm. then you are actually relying on another set of rules and that is the natural laws of world. Yep. And it's so funny because I asked him too. I'm like, "So, what did your classmates think of this?" Like, experiment aside, you know, were you looking what what were people's reactions to what you did? And he's like, "Tom," which is one's son and like his bestie in the class. Like he was laughing his ass off. I'm like, "How about everybody else?" He's like, "I don't know. I don't really care." Oh,
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u363
+  - u364
+  - u365
+  - u366
+  - u367
+  - u368
+  - u369
+  - u370
+  - u371
+  - u372
+  - u373
+  - u374
+  - u375
+  - u376
+  - u377
+  - u378
+  - u379
+  - u380
+  - u381
+  - u382
+  - u383
+  text: Yep. And it's so funny because I asked him too. I'm like, "So, what did your classmates think of this?" Like, experiment aside, you know, were you looking what what were people's reactions to what you did? And he's like, "Tom," which is one's son and like his bestie in the class. Like he was laughing his ass off. I'm like, "How about everybody else?" He's like, "I don't know. I don't really care." Oh, But but you know what I think is That's a great one. I'm gonna I'm gonna leave. Conor We've got a it's that that I've been reading that is not Sorry. not f I've been reading about history and and I think Canadians have a really nice chapter. I think it's World War I or World War II. I think it's because of Canadian that some of the rules of engagement in war were made because once Canada joined in it become really harsh. So I think that it comes from from that moment of I don't know maybe the Canadian has this thing in uh surviving in this harsh environment that says okay this is straight line to succeed uh to to being successful and and that's that's the path right I see that a good I don't know, but it's it's it's out there and and and you if you have a different opinion, you have to function in a different way and that requires a lot more effort a lot of the time. So, um this is a real really big shift this year in alignment with work and and values, too. So, I'm I'm I'm gonna get ready for this meeting that I got coming up. I don't know what to do. I can tell that I can't eat as much ice cream and candies anymore. I've got not one but two zits. I'm like, f\*\*\*, man. I can't see them. Google's doing a good job. 60 years old and I got two zits, Google's doing a good job of just smoothing those out. man. I can't really So, tell. the mashiness, the digital mash is helping with my yellow teeth and my zits. That's all right. Okay, You look like you're 20\. cool.
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3306.0
+  utterance_ids:
+  - u370
+  - u371
+  - u372
+  - u373
+  - u374
+  - u375
+  - u376
+  - u377
+  - u378
+  - u379
+  - u380
+  - u381
+  - u382
+  - u383
+  - u384
+  - u385
+  - u386
+  - u387
+  - u388
+  - u389
+  - u390
+  - u391
+  - u392
+  - u393
+  - u394
+  - u395
+  - u396
+  - u397
+  - u398
+  - u399
+  - u400
+  - u401
+  - u402
+  - u403
+  - u404
+  - u405
+  - u406
+  - u407
+  - u408
+  text: not f I've been reading about history and and I think Canadians have a really nice chapter. I think it's World War I or World War II. I think it's because of Canadian that some of the rules of engagement in war were made because once Canada joined in it become really harsh. So I think that it comes from from that moment of I don't know maybe the Canadian has this thing in uh surviving in this harsh environment that says okay this is straight line to succeed uh to to being successful and and that's that's the path right I see that a good I don't know, but it's it's it's out there and and and you if you have a different opinion, you have to function in a different way and that requires a lot more effort a lot of the time. So, um this is a real really big shift this year in alignment with work and and values, too. So, I'm I'm I'm gonna get ready for this meeting that I got coming up. I don't know what to do. I can tell that I can't eat as much ice cream and candies anymore. I've got not one but two zits. I'm like, f\*\*\*, man. I can't see them. Google's doing a good job. 60 years old and I got two zits, Google's doing a good job of just smoothing those out. man. I can't really So, tell. the mashiness, the digital mash is helping with my yellow teeth and my zits. That's all right. Okay, You look like you're 20\. cool. It's all good. So, uh, thanks. That was a great conversation and I I'll share this uh this uh baseline thing once I my computer's not very fast. So when I do all this uh like they're running models in the background for facial recognition and audio recognition because it's really it's doing decent analysis. Um but on a slow computer it's terrible. I was going to say, are you analyzing us this No. Of This So I I would like if I was running on a really good a really good computer I would be doing that all the time. call? I would and I and so I have figured out how to do that. So there's a platform called Jity. I'm going to leave it here. There's a platform called Jity uh that does video conferencing that is open source and I've been trying for like two years to be able to wrangle it as a product. Um because I don't want everything trapped in here and and now you can do the transcripts and all the rest of it really really easily. And you can actually add avatars in or agents in and all the rest of it. But you could add these two libraries that I have for audio and v visual recognition. And so you could have just the best learning experience ever where you have a Oh man, the world. really tough meeting and everyone's analyzed in real That is so interesting. time, I don't know. Talk about poker face. I'm just gonna wear a mask every meeting now. right? Everyone's wearing an avatar. That mean that's what they're the little cat. for. The little cat that the guy used on that courtroom. How you see that? That's going to be me from now. All right. Nice talk to you guys. So, Talk to you later. have a good day. Nice seeing you. Take care. Bye. Bye. Bye.

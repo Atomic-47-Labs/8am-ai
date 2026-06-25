@@ -1,0 +1,28 @@
+id: IDEA-0014
+slug: utilizing-claude-code-for-application-de
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-04-15'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: 'David Olsson detailed a development process where a rigorous application specification was created using Claude''s Opus model, and then the specification was brought into Claude Code inside the desktop app with a simple prompt: "Build this" (00:05:41). Claude Code built the application phase by phase and allowed for quick refinements, such as changing the color scheme, without requiring them to spend excessive time reading code (00:06:45).'
+summary: Utilizing Claude Code for Application Development
+rationale: 'David Olsson detailed a development process where a rigorous application specification was created using Claude''s Opus model, and then the specification was brought into Claude Code inside the desktop app with a simple prompt: "Build this" (00:05:41). Claude Code built the application phase by phase and allowed for quick refinements, such as changing the color scheme, without requiring them to spe'
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 72.4
+grade_breakdown:
+  evidence: 25
+  theme: 10.8
+  recency: 7.8
+  concretion: 15
+  uniqueness: 13.8
+  carryover: 0
+rank: 26
+tier: queue

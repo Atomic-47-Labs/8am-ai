@@ -1,0 +1,28 @@
+id: IDEA-0019
+slug: advanced-code-auditing-and-automation
+phase: backlog
+track: light
+source:
+  meeting: '2026-04-15'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson described running expensive slash commands, which orchestrate the execution of 10 or 11 reports from various skills and templates to perform a full orchestration after code creation, which they deem necessary as even a security audit is insufficient (00:20:33). Juan affirmed this automation trend by admitting that they now ask large language models to handle tasks like generating commits and pushes, noting that the commit messages produced are superior (00:21:41).
+summary: Advanced Code Auditing and Automation
+rationale: David Olsson described running expensive slash commands, which orchestrate the execution of 10 or 11 reports from various skills and templates to perform a full orchestration after code creation, which they deem necessary as even a security audit is insufficient (00:20:33). Juan affirmed this automation trend by admitting that they now ask large language models to handle tasks like generating comm
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 63.9
+grade_breakdown:
+  evidence: 25
+  theme: 11.8
+  recency: 7.8
+  concretion: 6.0
+  uniqueness: 13.3
+  carryover: 0
+rank: 84
+tier: backlog

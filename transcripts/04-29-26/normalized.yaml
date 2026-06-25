@@ -1,0 +1,1341 @@
+meeting:
+  date: '2026-04-29'
+  title: 8am-AI 2026-04-29
+  participants:
+  - David Olsson
+  - Fulvio Ciano
+  - Jason Kryski
+  - Jen Boger
+  - Shabraj Shahid
+  - Bailey Klinger
+  - Spencer MacBeth
+  - Juan
+  - Juan Rojas
+  - Hanif Janmohamed
+  - Ying
+  duration_s: 3264.0
+  source_files:
+    primary: 8am-AI-2026-04-29.md
+    primary_kind: md
+    other: []
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 178.0
+  t_end: 179.0
+  text: Yeah, that's good. Hello. Good morning.
+- id: u2
+  speaker: Juan
+  t_start: 178.0
+  t_end: 179.0
+  text: Hey, good
+- id: u3
+  speaker: David Olsson
+  t_start: 178.0
+  t_end: 179.0
+  text: I was ready and then Karen has a question and it turns into a long question. The answer's curious. Um, when you partner with an organization that is bigger than you, um, their ability to consume what you tell them and operationalize it is eminent. Um, so being a consultant nowadays is a very precarious position as to how your authority can be usurped or how your role can be um, quickly learned.
+- id: u4
+  speaker: Juan
+  t_start: 178.0
+  t_end: 179.0
+  text: Oh.
+- id: u5
+  speaker: David Olsson
+  t_start: 178.0
+  t_end: 277.0
+  text: And so approaching a partnership where you say, "We'll do all this for you." And they're like, "Oh, so that's what needs to be done, guys. Go figure out how to do that. That's the kind of business development discussion I had. But um I'm curious one like you're you're making really interesting progress or good progress on appreciating sort of how a team evolves and good morning Jason. how the team evolves. Um, and maybe unknowingly the team is evolving because you're helping them evolve is kind of how I summarize what I hear from you. But you can reflect on the fact that you've got a bunch of people that you're, you know, you're working with and you're recognizing that their learning loop or their ability to learn is just getting the work done and not creating greater understanding is kind of how I heard things in our discussion. I'm curious about that bit today.
+- id: u6
+  speaker: Juan
+  t_start: 276.0
+  t_end: 277.0
+  text: Yeah. So, this these past few weeks have been interesting. Uh the my my project which nickname is called master of copets has been has been on awesome for for everybody. Um but um but I I now change to have meetings every two days with every single person of the team
+- id: u7
+  speaker: David Olsson
+  t_start: 276.0
+  t_end: 277.0
+  text: Wow.
+- id: u8
+  speaker: Juan
+  t_start: 276.0
+  t_end: 277.0
+  text: because uh thanks to the LM they can be eloquent and a standup
+- id: u9
+  speaker: David Olsson
+  t_start: 276.0
+  t_end: 277.0
+  text: Okay.
+- id: u10
+  speaker: Juan
+  t_start: 276.0
+  t_end: 382.0
+  text: right they they can say I'm working on this because of this and this and that reason so they can read a very convincing prompt to tell you where they are but then only when I sit down individually with them and start checking okay what is the thing that you're doing and and walk me through your steps and and walk me through the the things that you're thinking is that we actually discover what it's missing right the the whole idea of of these individuals is that uh I don't know if it's lack of experience or or is it because the tool just takes away the need for for for research and completion But um but it's he it has gone the other way. I think it's it's like the example um our friend was giving us about teaching like they just cheat right they just prompt it push it and they hope that it's running
+- id: u11
+  speaker: David Olsson
+  t_start: 381.0
+  t_end: 382.0
+  text: This is
+- id: u12
+  speaker: Juan
+  t_start: 381.0
+  t_end: 382.0
+  text: and they use the the output of the prompt to give me an update that feels like they did the work which is very crazy.
+- id: u13
+  speaker: David Olsson
+  t_start: 381.0
+  t_end: 570.0
+  text: Yeah. Well, it's based on uh a paradigm that programmers have been allowing for a long time is they like to be lazy and don't like to do things twice and the fastest way of getting something done is generally the most efficient. It's not the best, but um you know the cheating on your homework thing is real. Everybody does it everywhere because they have deliverables and um came from I'm trying to figure out for our team what it means to collaborate on documents because we have business development and some information comes in and one person will do a bunch of work and then and then the work is is kind of out there and we'll get some comments and people will try to attach meaning to it. Um maybe in the same way that a ticket is completed and that gets communicated. Um, but the feedback is is difficult to work with in a workflow. Meaning that the comments in the current LLM workflow are like this needs to change, that needs to change, and you're like, okay. And so you change a couple things and you're like, well, that didn't really do it. um meaning that the context for those for the collaboration like the information that's provided as feedback um was useful from the person that was giving it but in terms of how it was employed didn't necessarily get the same effect. And so it's like handing off a ticket and saying here's the work and the work comes back and it's so like it's fluent, but the way of making it like a way of validating it um isn't strong enough to iterate on the document um and make it better. It's just providing it um criticism for how it's not working. And that could be the same thing as like reporting in a standup. Like here it is. It's great. It's all there. It's included everything that you've had in your emails and and what they've said and and I'm done. And I'm like, "Nope." Because when I get handed things, I'm like, "Nope, that's not done." And when I hand things off to Karen, she's like, "No, that's not right." And so the feedback loop is very interesting. Um because at the point where I've provided something and she doesn't know it's right, I'm getting feedback that's it it's it's valid, but it's not as useful as it once was because of how the tools work and how you can how fluency can obscure I think productivity. um the the criticism and the game of telephone, it kind of worked back in the day. You go back and you do a bunch of work because you were really using the tools to build production and so you thought about it and you had that rigor. But now, if you get two lines of comments, you probably want to throw it right at the LLM and the document and say, "Fix these for me." because you're being you know like I don't like the editing work is not as gratifying. So the context is is curious to define but the results are easy to identify and so from our side the results are like yeah that's adequate that's what works but how do you how do you make a feedback loop with the team that makes the product better instead of just
+- id: u14
+  speaker: Juan
+  t_start: 569.0
+  t_end: 877.0
+  text: Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fee
+- id: u15
+  speaker: David Olsson
+  t_start: 876.0
+  t_end: 1369.0
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re
+- id: u16
+  speaker: Juan Rojas
+  t_start: 1368.0
+  t_end: 1369.0
+  text: I think it's because things used to used to move at that speed, right? You you you move at the speed of the slowest component and the slowest component was the person that needed to understand document learn talk to a lot of people have a lot of friction and then I remember the projects you you got to meetings and it was months of months and months of meetings trying to figure out stuff and and things didn't move and now we are moving faster but then we assume right so and from what I see It's like doing a movie. I don't know if you you guys have seen behind the movies that they say,
+- id: u17
+  speaker: David Olsson
+  t_start: 1368.0
+  t_end: 1369.0
+  text: See?
+- id: u18
+  speaker: Juan Rojas
+  t_start: 1368.0
+  t_end: 1425.0
+  text: '"Oh, the best movies and the most successful movies are the ones that they do uh the the the whole movie in paper, right? They draw it out. They put all the scenes. They say this goes here, this goes next." Same with books. And if it works in paper, then it will work on the movie. So that''s that''s my my my personal idea when it comes to code. And it''s if if if now the documentation is complete enough it will be a a a guard rail a governance artifact for the team right and then I I know that things that used to happen with time I need to force them now because I know the developer will gain the experience after a month of working on a feature but now they will not do it they will just promp it right so I need to change the conversation to say our our meetings are more planning conversations. You bring me your plan,'
+- id: u19
+  speaker: David Olsson
+  t_start: 1424.0
+  t_end: 1425.0
+  text: Awesome.
+- id: u20
+  speaker: Juan Rojas
+  t_start: 1424.0
+  t_end: 1489.0
+  text: I'll poke holes into your plan, and when I know that the plan is sound and you understand what the plan means, then I I'm I'm fine with you going and running away with the LLM because I know that that toy factory and all the toys are there to control that flow. But the biggest thing for me right now is is making the developer understand what we're doing and why are we doing it. That's that's so big.
+- id: u21
+  speaker: David Olsson
+  t_start: 1488.0
+  t_end: 1489.0
+  text: I like that shift. Um, so a lot of meetings are about status and where people have gotten things done. And that's the one thing with the last version of the project state that pushed me to publish it is that on our project where we're working um within the protein industry um I was able to to push all the reporting off of people's plates. And so why have a meeting if you're just going to report what you did? And so the meetings are now about like okay we don't know what to do or this is a problem or let's do the other thing and set up the rest of the week like you say it moves from a a retrospective of what has been done to where are you going and um that's a big shift. It's still something I don't fully experiencing but it is it is something that is on our doorstep. Um, and I wrote down we assume a lot. That's
+- id: u22
+  speaker: Fulvio Ciano
+  t_start: 1488.0
+  t_end: 1545.0
+  text: So, it's funny you and one are saying something I've been trying to encapsulate that is because the paradigm
+- id: u23
+  speaker: David Olsson
+  t_start: 1545.0
+  t_end: 1546.0
+  text: good.
+- id: u24
+  speaker: Fulvio Ciano
+  t_start: 1545.0
+  t_end: 1635.0
+  text: has changed. Right. And so we talked about this a little bit in previous meetings. The old model was very much depending on you know what tools you used canban water flow or or or um charts or agile. It was very much about compartmentalized and people doing a little piece, right? And so you only needed to have like knowledge of what piece was required before your piece and what piece your piece contributed to, right? Like like it was it was hugely about compartmentalized knowledge. And so and that led to this whole ticket system, right? A piece corresponded to a ticket. You gave a ticket out to a person depending on a bunch of other, you know, targeting factors. But now like that's irrelevant. Um what's relevant is like being able to share the process because like like not just knowing your piece, not just knowing like uh this more detail about the ticket, but how the ticket fits into the greater goals and the greater goals and the shared the shared uh strategies, right? And it's better because rather than creating a little output that someone can use, you're still creating outputs, but like they can have more um alignment with the whole picture and also make use of common patterns and that can come sort of like how do I put it naturally or organically because the processes are aligned because everybody just doesn't just have a picture like people just don't have visibility on tickets, you know, interface attached to the ticket via the sigma that's attached to the ticket or whatever. You have the whole thing, right? Sort of it's it's a very different it's a very different paradigm of dividing up work and visibility on the whole. you you know the the the the AI approach really a lot requires visibility on the greater context and the process not just not just the little deliverables and how they're connected
+- id: u25
+  speaker: David Olsson
+  t_start: 1634.0
+  t_end: 1728.0
+  text: I brought up the the project website uses project state while you were talking Fobio because of what you were saying is that that project like this uh website is would have been a lot of work back in the day nobody would have done it but because of the fact the information is elsewhere it's generated it's easy to do and the reason I did it is because it it's just it allows for that
+- id: u26
+  speaker: Fulvio Ciano
+  t_start: 1728.0
+  t_end: 1729.0
+  text: Never mind. Right. Go ahead. Yeah.
+- id: u27
+  speaker: David Olsson
+  t_start: 1728.0
+  t_end: 1729.0
+  text: conversation with the other side of the team with the partners to be more um organic in that does this work for you? we'll create a different view um and so that the the transparency is there um but understanding how how I can tool the transparency for the participants now is way different than previously and you brought up ticketing like nobody nobody in the executive suites wants to talk tickets but what they do want is a derivative report from the ticket tickets that they can see progress on and that used to be a bunch of people's different jobs and and the reporting now is
+- id: u28
+  speaker: Fulvio Ciano
+  t_start: 1728.0
+  t_end: 1729.0
+  text: I
+- id: u29
+  speaker: David Olsson
+  t_start: 1728.0
+  t_end: 1729.0
+  text: Oh, I don't um but transparent like I I didn't I spent two hours on that website.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 1728.0
+  t_end: 1729.0
+  text: have
+- id: u31
+  speaker: David Olsson
+  t_start: 1728.0
+  t_end: 1729.0
+  text: Okay. Like that wasn't the problem. The problem is what we're talking about here. Jason, that's what you're saying.
+- id: u32
+  speaker: Fulvio Ciano
+  t_start: 1728.0
+  t_end: 1729.0
+  text: s\*\*\*.
+- id: u33
+  speaker: David Olsson
+  t_start: 1728.0
+  t_end: 1729.0
+  text: Did you say something?
+- id: u34
+  speaker: Jason Kryski
+  t_start: 1728.0
+  t_end: 1729.0
+  text: have been on mute.
+- id: u35
+  speaker: David Olsson
+  t_start: 1728.0
+  t_end: 1729.0
+  text: Jason.
+- id: u36
+  speaker: Jason Kryski
+  t_start: 1728.0
+  t_end: 1789.0
+  text: Sorry. Been trying to deal with my my leg here.
+- id: u37
+  speaker: David Olsson
+  t_start: 1788.0
+  t_end: 1789.0
+  text: Oh, how are you,
+- id: u38
+  speaker: Jason Kryski
+  t_start: 1788.0
+  t_end: 1789.0
+  text: Oh,
+- id: u39
+  speaker: David Olsson
+  t_start: 1788.0
+  t_end: 1789.0
+  text: man?
+- id: u40
+  speaker: Jason Kryski
+  t_start: 1788.0
+  t_end: 1789.0
+  text: I'm I'm okay. I got the all clear to walk around. So, um then I realized I couldn't walk. So, it's one thing to be like prevented from walking and you're like, "Oh, how dare they?" And then you're like, you go to walk and you really can't and then you're like,
+- id: u41
+  speaker: David Olsson
+  t_start: 1788.0
+  t_end: 1789.0
+  text: You're not capable
+- id: u42
+  speaker: Jason Kryski
+  t_start: 1788.0
+  t_end: 1789.0
+  text: '"Oh, that''s not a loss. I used to be able to do that." Um interesting regression is an'
+- id: u43
+  speaker: David Olsson
+  t_start: 1788.0
+  t_end: 1789.0
+  text: yet.
+- id: u44
+  speaker: Jason Kryski
+  t_start: 1788.0
+  t_end: 1789.0
+  text: interesting thing in uh in bodily autonomy or code.
+- id: u45
+  speaker: David Olsson
+  t_start: 1788.0
+  t_end: 1789.0
+  text: Yeah. And um you've been you've been approaching like the launch of your project for quite a while like you've been using matter and you've been building a new intelligent version of matter and your team has changed through that process and so has so have you. I'm just curious how you reflect on some of the conversation because I know that you're evaluating things the same way maybe
+- id: u46
+  speaker: Jason Kryski
+  t_start: 1788.0
+  t_end: 1844.0
+  text: Yeah, you know,
+- id: u47
+  speaker: David Olsson
+  t_start: 1844.0
+  t_end: 1845.0
+  text: or like
+- id: u48
+  speaker: Jason Kryski
+  t_start: 1844.0
+  t_end: 1845.0
+  text: it's I think I think back to like a few weeks ago when I when I kind of mentioned this and you know, and then um you know, Juan had kind of uh gone into more detail over the subsequent weeks where it's I think What I mentioned a few weeks ago was, you know, I've got a team of four and I'm not even sure that's the, you know, like the the the kind of typical agile, you know, structure and everything is um is not really working for us. And um I was having a conversation with Spencer um who's kind of who who leads the you know engineering in matter now. And we were talking about like what are the underlying principles that you know that drove agile and you know a bunch of these things we can kind of you know rebuild a new system given the functionality of these tools on top of like principles that existed problems that were like uh to be solved. So it's kind of like a side quest that we've got.
+- id: u49
+  speaker: Fulvio Ciano
+  t_start: 1844.0
+  t_end: 1907.0
+  text: Let's go.
+- id: u50
+  speaker: Jason Kryski
+  t_start: 1907.0
+  t_end: 1908.0
+  text: We haven't really spent much time on it, but it really is just recognizing that how we've been doing things is we're probably only really operating at maybe given where the tools are like 70% of the capability of what we could be um you know running at um despite still going really quickly. But, you know, like the just the stuff that Wong's talking about, it's I'm experiencing the same thing because I'm not a software engineer, but now I'm building product and um I'm but I'm the, you know, founder CEO of the company. So then how do I get the appropriate kind of coaching and support from the engineering lead to be able to do you know what Juan was referencing around you know like setting that architectural foundation so that go off and like you know build the thing that I need to build. Um so there's a bunch of just different dynamics in place that are um a little weird for us. I don't think we have a good beat on
+- id: u51
+  speaker: David Olsson
+  t_start: 1907.0
+  t_end: 1908.0
+  text: So, so yeah,
+- id: u52
+  speaker: Jason Kryski
+  t_start: 1907.0
+  t_end: 1908.0
+  text: it.
+- id: u53
+  speaker: David Olsson
+  t_start: 1907.0
+  t_end: 1973.0
+  text: you're you're going down the stack. Are your stats are coming up the stack?
+- id: u54
+  speaker: Jason Kryski
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Yes, it does feel like everyone's normalizing to the same level.
+- id: u55
+  speaker: David Olsson
+  t_start: 1972.0
+  t_end: 1973.0
+  text: You got to
+- id: u56
+  speaker: Fulvio Ciano
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Interesting. But it's a very high level, isn't it?
+- id: u57
+  speaker: Jason Kryski
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Yeah.
+- id: u58
+  speaker: David Olsson
+  t_start: 1972.0
+  t_end: 1973.0
+  text: where?
+- id: u59
+  speaker: Fulvio Ciano
+  t_start: 1972.0
+  t_end: 1973.0
+  text: It's like everybody's normalizing to a high level, but it's understanding of the whole as opposed to their little bit. Or is that not right?
+- id: u60
+  speaker: Jason Kryski
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Yeah, it it's true. But like the problem is that like it's exposing certain people who would say would be really great in certain areas, but you know, holding all of that as as you say, Fio, in their in their head, like that's not really proving to be true.
+- id: u61
+  speaker: Fulvio Ciano
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Right.
+- id: u62
+  speaker: Jason Kryski
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Um,
+- id: u63
+  speaker: Fulvio Ciano
+  t_start: 1972.0
+  t_end: 1973.0
+  text: It's very challenging for some people because like we've been producing people for that other paradigm, right? For like the agile paradigm where like like like it's all like how five years five years ago that's nothing, right? Everybody was like a PM or a QA person or a DevOps or a
+- id: u64
+  speaker: Jason Kryski
+  t_start: 1972.0
+  t_end: 1973.0
+  text: Yeah.
+- id: u65
+  speaker: Fulvio Ciano
+  t_start: 1972.0
+  t_end: 2044.0
+  text: UX UI person or a a
+- id: u66
+  speaker: Jason Kryski
+  t_start: 2044.0
+  t_end: 2045.0
+  text: Mhm. Mhm.
+- id: u67
+  speaker: Fulvio Ciano
+  t_start: 2044.0
+  t_end: 2045.0
+  text: backend uh JavaScript person or a front-end JavaScript person. And now like I don't want any of those.
+- id: u68
+  speaker: Jason Kryski
+  t_start: 2044.0
+  t_end: 2045.0
+  text: Yeah.
+- id: u69
+  speaker: Fulvio Ciano
+  t_start: 2044.0
+  t_end: 2045.0
+  text: I need people who understand and can deal with the whole more because it's the only piece I want to work with.
+- id: u70
+  speaker: Jason Kryski
+  t_start: 2044.0
+  t_end: 2045.0
+  text: Yeah.
+- id: u71
+  speaker: Fulvio Ciano
+  t_start: 2044.0
+  t_end: 2045.0
+  text: is it's it's I think that's isn't that a hard
+- id: u72
+  speaker: Jason Kryski
+  t_start: 2044.0
+  t_end: 2045.0
+  text: Yeah.
+- id: u73
+  speaker: Fulvio Ciano
+  t_start: 2044.0
+  t_end: 2045.0
+  text: transition for for because like these people and I'm just I want to finish this thought
+- id: u74
+  speaker: Jason Kryski
+  t_start: 2044.0
+  t_end: 2045.0
+  text: It's
+- id: u75
+  speaker: Fulvio Ciano
+  t_start: 2044.0
+  t_end: 2120.0
+  text: because and I and I don't know if I'm projecting a bias I have but like you know it until now like the pressure I was getting was work with all of these young guy who just came out of some like computer I thing and are like and again like fit neatly into one of those roles. UX person, UI, QA, PM, owner, uh technical writer, whatever, right? And like for me who's been around however many years, right? It's it's a two-digit number, but like it's it's a long I've done all of those roles at some point. So for me looking at the whole out of necessity, right, because there weren't those roles. For me, looking at the whole is easy and and and and natural. And for them, it's like, oh my god, it's like they can't do it. They just can't do it. They don't have enough broad experience. I think that's my that's that's what I'm seeing is the transitionary problem.
+- id: u76
+  speaker: Juan Rojas
+  t_start: 2119.0
+  t_end: 2120.0
+  text: Yeah. No, that's super true. They don't they they don't know what they don't know, right? Like I'm saying this tool this tool is awesome for me because even in my experience um it's it's very funny. I tell Viv it's it's this was built for me. Like every job that I done in the past, I switch jobs because I'm interested in a new things and a new problem in a new way of seeing things
+- id: u77
+  speaker: Fulvio Ciano
+  t_start: 2119.0
+  t_end: 2120.0
+  text: Thanks.
+- id: u78
+  speaker: Juan Rojas
+  t_start: 2119.0
+  t_end: 2189.0
+  text: and I've seen every single architecture, every single technology and that's why now I I this is this a very obscure reference but there is this movie called uh the world of the worlds when when Tom Cruz in the first uh few minutes a car fails and and they ask him hey man do you think what what is wrong and he says how you have you check the solenoid, right? It's just such a random thought and it's like that's that's where we are. Like people that have experience know where the solenoid is, right?
+- id: u79
+  speaker: David Olsson
+  t_start: 2188.0
+  t_end: 2189.0
+  text: Yeah,
+- id: u80
+  speaker: Juan Rojas
+  t_start: 2188.0
+  t_end: 2189.0
+  text: And why is it failing, but everybody else still is a is a is a damn car that they have no idea how it works.
+- id: u81
+  speaker: David Olsson
+  t_start: 2188.0
+  t_end: 2189.0
+  text: perfect.
+- id: u82
+  speaker: Juan Rojas
+  t_start: 2188.0
+  t_end: 2189.0
+  text: So the the way I'm doing things with my teams uh again is switching from a lot of handholding and also mentoring to get them to that level of oh you're now understanding more, thinking more and now our conversations are better because that's my like my personal
+- id: u83
+  speaker: Fulvio Ciano
+  t_start: 2188.0
+  t_end: 2189.0
+  text: But I think it's right.
+- id: u84
+  speaker: Juan Rojas
+  t_start: 2188.0
+  t_end: 2189.0
+  text: objective.
+- id: u85
+  speaker: Fulvio Ciano
+  t_start: 2188.0
+  t_end: 2248.0
+  text: Isn't it very frustrating for them because like I think I've seen this. I don't know if everyone has seen it or not because like they can't get to it and contribute because you want them to understand the whole before they can contribute and like they're not useful for a long time, right? Because like gota they got to do so much upskilling to be useful in the current paradigm. Sorry.
+- id: u86
+  speaker: Juan Rojas
+  t_start: 2247.0
+  t_end: 2327.0
+  text: But that has always been the homework, right? You you had to go and learn the tool, you had to go and learn the technology. The thing is that now you have you have to go and do things that you didn't go to school school for, right? And it's like uh getting to understand a good document uh laying out a good blueprint, figuring out how to plan better, how to communicate better, those things you didn't see them at school. But uh if you were in computer science, right? But in this case, they need them now. And and I say because to finalize here um I have uh another side of of my experience and it's a I've been studying for a few years finances and uh if I didn't study all of the things that I've been studying then I wouldn't be able to produce the outputs I'm producing. So I think that it's always the same and is that the bar the the barrier is the person or the the individual needs to challenge themselves to actually learn right learn the abstraction let the pattern like the base principles in order to thrive it's just that it shows way better how long does it take to do that I think is a transparency they've referenced this at the beginning and is it is so transparent now you can know when someone didn't do anything during the week, right? It's it's or when they're not studying or when they're not improving or when they're not grasping the whole idea. So, I think it's it's showing off is more that that lack of if the developer sits down, talks to the tool, researches, I feel like they can upscale pretty quickly. It's just that they're so used to writing just the code that that's a big challenge. Even for resources and and this is personal the quality of resources is very hard to get good quality is for me right now is very hard to find people that understand these things these concepts and they want to do LLMs and they want to combine the two to get ahead like that's I haven't found anyone
+- id: u87
+  speaker: Hanif Janmohamed
+  t_start: 2326.0
+  t_end: 2417.0
+  text: Yeah, I was just sorry it's really loud here, but um I was thinking about uh this little comment I made about normalizing to the muddle and it just really feels like the question of wheelhouse is an important one. you know, you were talking about all these different roles and we were good at this and not good at that and and it was distributed and now it's kind of like everything's in a bit of a muddle and everybody can do a bit of everything and even in my work I end up writing documentation that I don't feel very good about uh but I can do it. I end up tackling things that I kind of have a sense of but I can be more articulate uh than I used to be able to. But I also lose my own wheelhouse and my own sense of where I can contribute and
+- id: u88
+  speaker: Fulvio Ciano
+  t_start: 2416.0
+  t_end: 2417.0
+  text: Yes.
+- id: u89
+  speaker: Hanif Janmohamed
+  t_start: 2416.0
+  t_end: 2417.0
+  text: where that relationship with the work is good and solid and you know actually is additive and I think this is the model and I I find it actually quite hard to play in this arena. Um, one of the things I notice is that my conversational space with the AI can be quite good, but the documentary output is really not that great. Um, because it's trying to talk to too many. It's also in the muddle. You know,
+- id: u90
+  speaker: Fulvio Ciano
+  t_start: 2416.0
+  t_end: 2417.0
+  text: Yes.
+- id: u91
+  speaker: Hanif Janmohamed
+  t_start: 2416.0
+  t_end: 2482.0
+  text: part of the documentation is trying to talk to an AI reader and part of it is not intended for human reading. It's that kind of thing. And there's so much of it that on the receiving side of all that documentation, it's also hard to parse and say what's valuable and not. So I really yeah I really see this as the the kind of normalizing to a modeler and um that's the work is to really understand where strengths lie where the you know capacities are good and where they're not good and that takes a lot of altitude and I think that's not easy to find.
+- id: u92
+  speaker: David Olsson
+  t_start: 2481.0
+  t_end: 2482.0
+  text: Altitude is a good word.
+- id: u93
+  speaker: Jason Kryski
+  t_start: 2481.0
+  t_end: 2482.0
+  text: Yeah, I was just going to say it kind of breaks my heart a little bit honestly to see some people who just aren't um you know like they aren't in you know working to encompass holding all of this in you know in their
+- id: u94
+  speaker: Fulvio Ciano
+  t_start: 2481.0
+  t_end: 2482.0
+  text: Get
+- id: u95
+  speaker: Jason Kryski
+  t_start: 2481.0
+  t_end: 2482.0
+  text: perspective and they uh like you know you get like questions like I just want to know like what's expected of me and like the reality is that
+- id: u96
+  speaker: Fulvio Ciano
+  t_start: 2481.0
+  t_end: 2482.0
+  text: this one. It's
+- id: u97
+  speaker: Jason Kryski
+  t_start: 2481.0
+  t_end: 2482.0
+  text: expectations have changed and shifted and grown you know as a result
+- id: u98
+  speaker: Fulvio Ciano
+  t_start: 2481.0
+  t_end: 2482.0
+  text: not
+- id: u99
+  speaker: Jason Kryski
+  t_start: 2481.0
+  t_end: 2582.0
+  text: of the enablement of people by this technology. So, um, and so then it's like, okay, you have to keep, okay, like, okay, yeah, now you're expected to think about this or now you're expected to do this or now, you know, like it's just there's a lot of uh feels like and I don't have very many people, so it's like really one person I'm talking about on my team, but like I can imagine in a bigger or organization a lot of management overhead to like because like the the way the role was defined a year ago and the way that the role is probably defined in your head as a leader versus the head of the of the of the team member is is really different. And that just things have been pretty static for a long time and now they're they're changing and shifting really
+- id: u100
+  speaker: David Olsson
+  t_start: 2581.0
+  t_end: 2582.0
+  text: Yeah, that's a big
+- id: u101
+  speaker: Jason Kryski
+  t_start: 2581.0
+  t_end: 2582.0
+  text: quickly.
+- id: u102
+  speaker: David Olsson
+  t_start: 2581.0
+  t_end: 2582.0
+  text: one. Yeah, output is so easy now. the fluency and the one thing that like to point to your comment like I think you find a lot of value in reading
+- id: u103
+  speaker: Ying
+  t_start: 2581.0
+  t_end: 2582.0
+  text: slowly one by one after
+- id: u104
+  speaker: David Olsson
+  t_start: 2581.0
+  t_end: 2582.0
+  text: your own work right I I do I I read all day long I read more than I've ever read in my
+- id: u105
+  speaker: Ying
+  t_start: 2581.0
+  t_end: 2582.0
+  text: this.
+- id: u106
+  speaker: David Olsson
+  t_start: 2581.0
+  t_end: 2582.0
+  text: life um and I find incredible value in my own analysis now translating that across a team to more than just information I think is the challenge and so I've tried things in that regard but if you hand off information um it's pretty much done and you don't you're not needed anymore with that, right?
+- id: u107
+  speaker: Ying
+  t_start: 2581.0
+  t_end: 2582.0
+  text: She works
+- id: u108
+  speaker: David Olsson
+  t_start: 2581.0
+  t_end: 2582.0
+  text: Unless unless it's more than information.
+- id: u109
+  speaker: Ying
+  t_start: 2581.0
+  t_end: 2650.0
+  text: with
+- id: u110
+  speaker: David Olsson
+  t_start: 2650.0
+  t_end: 2651.0
+  text: And so the model I appreciate what that means or what you mean by saying that um because again I'll point to Karpathy at one point just saying it.
+- id: u111
+  speaker: Ying
+  t_start: 2650.0
+  t_end: 2651.0
+  text: What's a
+- id: u112
+  speaker: David Olsson
+  t_start: 2650.0
+  t_end: 2651.0
+  text: He's just like I'm spending more time on my system than I am on my code. That's passed. That's passed.
+- id: u113
+  speaker: Ying
+  t_start: 2650.0
+  t_end: 2651.0
+  text: project?
+- id: u114
+  speaker: David Olsson
+  t_start: 2650.0
+  t_end: 2651.0
+  text: But that was just a few months ago. And that's where I remember too, man, it is complicated to get my gear going because I'm not working at the level of a function anymore. I'm working at the level of orchestrating um a team that can take a concept and then move in through a whole process. And um it's it's a different different space. And um we had an employee who was a ticket person and
+- id: u115
+  speaker: Ying
+  t_start: 2650.0
+  t_end: 2651.0
+  text: Well, like right
+- id: u116
+  speaker: David Olsson
+  t_start: 2650.0
+  t_end: 2715.0
+  text: she was born out of the last 5 years of working in the industry and I upset her and I upset my whole team by recognizing very early on that the ticketing was not going to work for us. It was too granular and it just meant that you were servicing the machine and not what the machine was outputting. And man, if I'm using Office 4.7, I'm not coding. If I'm using sonets 46 47, I'm coding like it was yesterday. It's making mistakes. 47 is making weirder mistakes. But um what I'm getting at is like my role is now I want to walk my dog. I want to do enough work where I can go walk my dog and it's programming for me. So that but I have put in the work and the foundation to know that when I come back I'll get the feedback to let me know if that it's correct and I'll do some other work there. bring other people into a company that isn't that don't have the maturity that fully
+- id: u117
+  speaker: Fulvio Ciano
+  t_start: 2714.0
+  t_end: 2715.0
+  text: Interesting.
+- id: u118
+  speaker: David Olsson
+  t_start: 2714.0
+  t_end: 2774.0
+  text: on have decades, right? And so you can like whether it's been in one language or another, there's wisdom where the pain was so great in the past that you learned how to get better at your job. And right now the pain is so easily overachievable as through fluency that it's really hard to know if you've done your job well. So I I I'm I'm really curious as to what it means to provide that human in the loop, a learning a learning loop that gives them a a career in an organization where maybe we're thinking as startups we need people just like ourselves and that doesn't scale.
+- id: u119
+  speaker: Fulvio Ciano
+  t_start: 2773.0
+  t_end: 2774.0
+  text: What's this
+- id: u120
+  speaker: David Olsson
+  t_start: 2773.0
+  t_end: 2774.0
+  text: It doesn't scale very well um time.
+- id: u121
+  speaker: Fulvio Ciano
+  t_start: 2773.0
+  t_end: 2774.0
+  text: guy?
+- id: u122
+  speaker: David Olsson
+  t_start: 2773.0
+  t_end: 2924.0
+  text: So it is a really curious place to be in like it's muddled in one way and then there's this way of achieving a really articulate understanding of things um to demodule it and then that becomes obuscated and you can actually achieve higher levels but it's super siloed even in like portfolio has its own work patterns and I do too and so we come together over document like and so we're talking extensively around aligning and yet we're still going to have issues with all that. I know we are, but we were going to be best position to do that. Now, you know, our employee left and so we didn't have that opportunity to figure that piece out. Um, but it is a really challenging thing to think like if our projects succeed, we have way more work than we could ever execute on. Um, and I'm not sure who we could bring in other than another FO or Dave. Um, and that just won't work as a organization like it just doesn't scale in terms of how you can cost things out. So the the business like the learning curve is what I when I looked at the documentation around the pick project and I showed you the project management tools like the learning loop is is not there yet. Um and that's the part that this room deals with all the time is that we're tr struggling with our learning loops and um meaning that you would have time to process production as the learning loop process like we would you know given a discipline UX other people had some stuff you can read you can go down a path of these are the 10 things you do to get to having good pixel perfect vest and through that you would rewire your brain and the rewiring of the brain is um not happening from what I can recall in this conversation because it requires pattern. It requires repeated effort and only through who's not putting in 3,000 hours a year right now. Um through that grinding of getting through your 10,000 hours um do you find that you've reached new patterns and I'll be f\*\*\*\*\* if the patterns don't change every month. might be getting better. But um it's a really really curious place to figure out how to bring in people to learn in a loop that you just don't know how to put on rails. And I have a half a million dollars worth of work to plan right now. And my name is attacks full so it doesn't scale. So, it's a it's a neat place. Um, I've picked up some things from the conversation and that was like this understanding of the whole learning the principles underneath things and that the principles existed previously and maybe the return to those principles can then be vector through the aggressive new stack that we have. Um, and the last thing is I don't know who's facing there. I don't know.
+- id: u123
+  speaker: Fulvio Ciano
+  t_start: 2923.0
+  t_end: 2924.0
+  text: Okay.
+- id: u124
+  speaker: David Olsson
+  t_start: 2923.0
+  t_end: 2924.0
+  text: I don't know.
+- id: u125
+  speaker: Fulvio Ciano
+  t_start: 2923.0
+  t_end: 2924.0
+  text: All right.
+- id: u126
+  speaker: David Olsson
+  t_start: 2923.0
+  t_end: 3008.0
+  text: Um the last thing is you don't know what you don't know. And so that never after a few years in your career you could say I kind of kind of I have authority. How about this is my favorite not thing to have. You have all the responsibility now and authority is a really curious fleeting thing. Excellent. I'm thankful for the conversation today. I I came out with some positive things. Um we assume a lot. Our meetings move to meet or move to planning. Those are want statements. Jason's got four people on his team. He's considering considering being the full developer and lead entrepreneur in his own organization. He's gonna he's gonna he's going to pay Spencer to train
+- id: u127
+  speaker: Jason Kryski
+  t_start: 3007.0
+  t_end: 3008.0
+  text: I think it would be I think it'd be easier. I I just think it would be like I don't know.
+- id: u128
+  speaker: David Olsson
+  t_start: 3007.0
+  t_end: 3008.0
+  text: him.
+- id: u129
+  speaker: Jason Kryski
+  t_start: 3007.0
+  t_end: 3008.0
+  text: It's like it's there there's going to be a better way here, but we're just in a weird middle ground here. It is a strange time.
+- id: u130
+  speaker: David Olsson
+  t_start: 3007.0
+  t_end: 3073.0
+  text: Yeah. And so it'll be exciting.
+- id: u131
+  speaker: Jason Kryski
+  t_start: 3073.0
+  t_end: 3074.0
+  text: Um
+- id: u132
+  speaker: David Olsson
+  t_start: 3073.0
+  t_end: 3074.0
+  text: It'll be exciting at at some point to be excited about having lived through it. Um I point to the fact that I had a researcher teach me that the word exciting can be negative.
+- id: u133
+  speaker: Jason Kryski
+  t_start: 3073.0
+  t_end: 3074.0
+  text: I don't feel that way. That's interesting.
+- id: u134
+  speaker: David Olsson
+  t_start: 3073.0
+  t_end: 3074.0
+  text: meaning it's just like it's exciting and you don't know what's going to happen. It's exciting that you know it's going to
+- id: u135
+  speaker: Fulvio Ciano
+  t_start: 3073.0
+  t_end: 3074.0
+  text: Sorry.
+- id: u136
+  speaker: Jason Kryski
+  t_start: 3073.0
+  t_end: 3074.0
+  text: It's just like, you know, maybe the key thing just kind of like before I jump off here is like everyone is on a slightly
+- id: u137
+  speaker: David Olsson
+  t_start: 3073.0
+  t_end: 3074.0
+  text: happen.
+- id: u138
+  speaker: Jason Kryski
+  t_start: 3073.0
+  t_end: 3138.0
+  text: different page in terms of their adoption, in terms of their view on adopting the tool and what they should be doing with it, how it should be working. Like this is the time for leadership, you know, in an organization. Like you really need leadership to be like this is how we're doing this. this is how we're thinking about this and the I think the demand on leadership is never even greater than than than now because without that then everyone starts developing their own perspectives and ideas and those things can be inongruent because the space that you can create is really high really significant
+- id: u139
+  speaker: Fulvio Ciano
+  t_start: 3138.0
+  t_end: 3139.0
+  text: Yeah, it's not it's not a time for preference. It's a time for leadership, right? Like you can't fight over
+- id: u140
+  speaker: David Olsson
+  t_start: 3138.0
+  t_end: 3139.0
+  text: And so I just want to reflect on you're talking about authoritarian control. Way to be entrepreneurs.
+- id: u141
+  speaker: Fulvio Ciano
+  t_start: 3138.0
+  t_end: 3139.0
+  text: it.
+- id: u142
+  speaker: Jason Kryski
+  t_start: 3138.0
+  t_end: 3139.0
+  text: Yes. Uh we didn't do kind of entrepreneurial fascism.
+- id: u143
+  speaker: Fulvio Ciano
+  t_start: 3138.0
+  t_end: 3139.0
+  text: I I come by it honestly.
+- id: u144
+  speaker: David Olsson
+  t_start: 3138.0
+  t_end: 3139.0
+  text: At least we're we're in a good mood to do that and laugh at it.
+- id: u145
+  speaker: Juan
+  t_start: 3138.0
+  t_end: 3139.0
+  text: that one book.
+- id: u146
+  speaker: David Olsson
+  t_start: 3138.0
+  t_end: 3139.0
+  text: But it
+- id: u147
+  speaker: Juan
+  t_start: 3138.0
+  t_end: 3139.0
+  text: Yeah, I was I was telling my I was telling Viv my wife about it that I feel like this is such a great opportunity uh and that it this is this probably is happening in so many companies at the
+- id: u148
+  speaker: David Olsson
+  t_start: 3138.0
+  t_end: 3139.0
+  text: That's
+- id: u149
+  speaker: Juan
+  t_start: 3138.0
+  t_end: 3211.0
+  text: same time that they're struggling to see ways to their old product, their mature product, how to put it into this train or if they're building something new, how to really build it in in a way that they know they're moving in the right direction. So, honestly, I'm I'm enjoying a lot of this this this stage in in in the space from this conversation and the only thing that I'm thinking is maybe I should look for a job,
+- id: u150
+  speaker: David Olsson
+  t_start: 3211.0
+  t_end: 3212.0
+  text: Stop.
+- id: u151
+  speaker: Juan
+  t_start: 3211.0
+  t_end: 3212.0
+  text: something that pays me more because I I feel underpaid. I think I'm on the right track.
+- id: u152
+  speaker: David Olsson
+  t_start: 3211.0
+  t_end: 3212.0
+  text: Yeah.
+- id: u153
+  speaker: Juan
+  t_start: 3211.0
+  t_end: 3212.0
+  text: I feel like I'm I'm going into the right place. Um, I don't know if this has a consultancy behind it, but I think that I I might be able to help a bigger team. So, that's that's just some personal sharing here, but I'm just feeling like I should I should think about it.
+- id: u154
+  speaker: David Olsson
+  t_start: 3211.0
+  t_end: 3259.0
+  text: Um, one, I'm going to reflect. I'm going to pump that up a bunch and say that you're the, you know, you're providing a light and shining it really brightly on what it means to work with a team and to be the leader on that team and upskill them, knowing that you got a diversity behind that. And that's that. So, that's why I engaged with that early on in the conversation. And it's it's quite cool to see and and I hear you. It is something out there. I'll just I'll give you some caution around being a consultant right now.
+- id: u155
+  speaker: Fulvio Ciano
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Hey.
+- id: u156
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Make sure it's really pointed and you charge a lot of money out of the gate. So that that's sets the tone because consultancies are are changing too. Um, but what you're pointing out is is is clearly a keen direction and thankful for your reflection on it and I I think leadership is the only thing that will survive this. The technology will fade into the background and I
+- id: u157
+  speaker: Juan
+  t_start: 3259.0
+  t_end: 3260.0
+  text: So maybe we need to do an AI leadership conference,
+- id: u158
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: believe that's
+- id: u159
+  speaker: Juan
+  t_start: 3259.0
+  t_end: 3260.0
+  text: guys, and we can lead it. That's something.
+- id: u160
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: probably all it takes is like is like what does it mean to lead?
+- id: u161
+  speaker: Juan
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Yeah.
+- id: u162
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Um, and I I find that non-technical leaders are the ones to watch. Not the big not none none of the assholes, none of those guys, but non-technical leaders in a really meaningful business. Um, there's a few really good ones to point to, but they walk in not knowing and they walk out with control. That's leadership. So I I think that's a cool way to end and uh thank you all for your time. Bon viageing, where are you going? Somebody's getting on a plane. That's rare. So super expensive to get on a plane right now. Um until next week. Um thank you. I'm gonna tap out now. I've
+- id: u163
+  speaker: Ying
+  t_start: 3259.0
+  t_end: 3260.0
+  text: who are here for your safety and will assist background noise.
+- id: u164
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: got
+- id: u165
+  speaker: Ying
+  t_start: 3259.0
+  t_end: 3260.0
+  text: I'm going back to Colona. I'm attending conference in Vancouver.
+- id: u166
+  speaker: Fulvio Ciano
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Come on.
+- id: u167
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Well, that's great.
+- id: u168
+  speaker: Ying
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Our safety features card is located at your feet.
+- id: u169
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Thanks, Journey.
+- id: u170
+  speaker: Ying
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Thank you.
+- id: u171
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3260.0
+  text: I look forward to hearing from you when you're not in an airport.
+- id: u172
+  speaker: Ying
+  t_start: 3259.0
+  t_end: 3260.0
+  text: Talk to you guys. Some important information.
+- id: u173
+  speaker: David Olsson
+  t_start: 3259.0
+  t_end: 3264.0
+  text: Byebye. Cheers.
+windows:
+- id: W-0001
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  text: Yeah, that's good. Hello. Good morning. Hey, good I was ready and then Karen has a question and it turns into a long question. The answer's curious. Um, when you partner with an organization that is bigger than you, um, their ability to consume what you tell them and operationalize it is eminent. Um, so being a consultant nowadays is a very precarious position as to how your authority can be usurped or how your role can be um, quickly learned. Oh. And so approaching a partnership where you say, "We'll do all this for you." And they're like, "Oh, so that's what needs to be done, guys. Go figure out how to do that. That's the kind of business development discussion I had. But um I'm curious one like you're you're making really interesting progress or good progress on appreciating sort of how a team evolves and good morning Jason. how the team evolves. Um, and maybe unknowingly the team is evolving because you're helping them evolve is kind of how I summarize what I hear from you. But you can reflect on the fact that you've got a bunch of people that you're, you know, you're working with and you're recognizing that their learning loop or their ability to learn is just getting the work done and not creating greater understanding is kind of how I heard things in our discussion. I'm curious about that bit today.
+- id: W-0002
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  text: And so approaching a partnership where you say, "We'll do all this for you." And they're like, "Oh, so that's what needs to be done, guys. Go figure out how to do that. That's the kind of business development discussion I had. But um I'm curious one like you're you're making really interesting progress or good progress on appreciating sort of how a team evolves and good morning Jason. how the team evolves. Um, and maybe unknowingly the team is evolving because you're helping them evolve is kind of how I summarize what I hear from you. But you can reflect on the fact that you've got a bunch of people that you're, you know, you're working with and you're recognizing that their learning loop or their ability to learn is just getting the work done and not creating greater understanding is kind of how I heard things in our discussion. I'm curious about that bit today. Yeah. So, this these past few weeks have been interesting. Uh the my my project which nickname is called master of copets has been has been on awesome for for everybody. Um but um but I I now change to have meetings every two days with every single person of the team Wow. because uh thanks to the LM they can be eloquent and a standup Okay. right they they can say I'm working on this because of this and this and that reason so they can read a very convincing prompt to tell you where they are but then only when I sit down individually with them and start checking okay what is the thing that you're doing and and walk me through your steps and and walk me through the the things that you're thinking is that we actually discover what it's missing right the the whole idea of of these individuals is that uh I don't know if it's lack of experience or or is it because the tool just takes away the need for for for research and completion But um but it's he it has gone the other way. I think it's it's like the example um our friend was giving us about teaching like they just cheat right they just prompt it push it and they hope that it's running
+- id: W-0003
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  text: And so approaching a partnership where you say, "We'll do all this for you." And they're like, "Oh, so that's what needs to be done, guys. Go figure out how to do that. That's the kind of business development discussion I had. But um I'm curious one like you're you're making really interesting progress or good progress on appreciating sort of how a team evolves and good morning Jason. how the team evolves. Um, and maybe unknowingly the team is evolving because you're helping them evolve is kind of how I summarize what I hear from you. But you can reflect on the fact that you've got a bunch of people that you're, you know, you're working with and you're recognizing that their learning loop or their ability to learn is just getting the work done and not creating greater understanding is kind of how I heard things in our discussion. I'm curious about that bit today. Yeah. So, this these past few weeks have been interesting. Uh the my my project which nickname is called master of copets has been has been on awesome for for everybody. Um but um but I I now change to have meetings every two days with every single person of the team Wow. because uh thanks to the LM they can be eloquent and a standup Okay. right they they can say I'm working on this because of this and this and that reason so they can read a very convincing prompt to tell you where they are but then only when I sit down individually with them and start checking okay what is the thing that you're doing and and walk me through your steps and and walk me through the the things that you're thinking is that we actually discover what it's missing right the the whole idea of of these individuals is that uh I don't know if it's lack of experience or or is it because the tool just takes away the need for for for research and completion But um but it's he it has gone the other way. I think it's it's like the example um our friend was giving us about teaching like they just cheat right they just prompt it push it and they hope that it's running This is and they use the the output of the prompt to give me an update that feels like they did the work which is very crazy. Yeah. Well, it's based on uh a paradigm that programmers have been allowing for a long time is they like to be lazy and don't like to do things twice and the fastest way of getting something done is generally the most efficient. It's not the best, but um you know the cheating on your homework thing is real. Everybody does it everywhere because they have deliverables and um came from I'm trying to figure out for our team what it means to collaborate on documents because we have business development and some information comes in and one person will do a bunch of work and then and then the work is is kind of out there and we'll get some comments and people will try to attach meaning to it. Um maybe in the same way that a ticket is completed and that gets communicated. Um, but the feedback is is difficult to work with in a workflow. Meaning that the comments in the current LLM workflow are like this needs to change, that needs to change, and you're like, okay. And so you change a couple things and you're like, well, that didn't really do it. um meaning that the context for those for the collaboration like the information that's provided as feedback um was useful from the person that was giving it but in terms of how it was employed didn't necessarily get the same effect. And so it's like handing off a ticket and saying here's the work and the work comes back and it's so like it's fluent, but the way of making it like a way of validating it um isn't strong enough to iterate on the document um and make it better. It's just providing it um criticism for how it's not working. And that could be the same thing as like reporting in a standup. Like here it is. It's great. It's all there. It's included everything that you've had in your emails and and what they've said and and I'm done. And I'm like, "Nope." Because when I get handed things, I'm like, "Nope, that's not done." And when I hand things off to Karen, she's like, "No, that's not right." And so the feedback loop is very interesting. Um because at the point where I've provided something and she doesn't know it's right, I'm getting feedback that's it it's it's valid, but it's not as useful as it once was because of how the tools work and how you can how fluency can obscure I think productivity. um the the criticism and the game of telephone, it kind of worked back in the day. You go back and you do a bunch of work because you were really using the tools to build production and so you thought about it and you had that rigor. But now, if you get two lines of comments, you probably want to throw it right at the LLM and the document and say, "Fix these for me." because you're being you know like I don't like the editing work is not as gratifying. So the context is is curious to define but the results are easy to identify and so from our side the results are like yeah that's adequate that's what works but how do you how do you make a feedback loop with the team that makes the product better instead of just
+- id: W-0004
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u10
+  - u11
+  - u12
+  - u13
+  text: right they they can say I'm working on this because of this and this and that reason so they can read a very convincing prompt to tell you where they are but then only when I sit down individually with them and start checking okay what is the thing that you're doing and and walk me through your steps and and walk me through the the things that you're thinking is that we actually discover what it's missing right the the whole idea of of these individuals is that uh I don't know if it's lack of experience or or is it because the tool just takes away the need for for for research and completion But um but it's he it has gone the other way. I think it's it's like the example um our friend was giving us about teaching like they just cheat right they just prompt it push it and they hope that it's running This is and they use the the output of the prompt to give me an update that feels like they did the work which is very crazy. Yeah. Well, it's based on uh a paradigm that programmers have been allowing for a long time is they like to be lazy and don't like to do things twice and the fastest way of getting something done is generally the most efficient. It's not the best, but um you know the cheating on your homework thing is real. Everybody does it everywhere because they have deliverables and um came from I'm trying to figure out for our team what it means to collaborate on documents because we have business development and some information comes in and one person will do a bunch of work and then and then the work is is kind of out there and we'll get some comments and people will try to attach meaning to it. Um maybe in the same way that a ticket is completed and that gets communicated. Um, but the feedback is is difficult to work with in a workflow. Meaning that the comments in the current LLM workflow are like this needs to change, that needs to change, and you're like, okay. And so you change a couple things and you're like, well, that didn't really do it. um meaning that the context for those for the collaboration like the information that's provided as feedback um was useful from the person that was giving it but in terms of how it was employed didn't necessarily get the same effect. And so it's like handing off a ticket and saying here's the work and the work comes back and it's so like it's fluent, but the way of making it like a way of validating it um isn't strong enough to iterate on the document um and make it better. It's just providing it um criticism for how it's not working. And that could be the same thing as like reporting in a standup. Like here it is. It's great. It's all there. It's included everything that you've had in your emails and and what they've said and and I'm done. And I'm like, "Nope." Because when I get handed things, I'm like, "Nope, that's not done." And when I hand things off to Karen, she's like, "No, that's not right." And so the feedback loop is very interesting. Um because at the point where I've provided something and she doesn't know it's right, I'm getting feedback that's it it's it's valid, but it's not as useful as it once was because of how the tools work and how you can how fluency can obscure I think productivity. um the the criticism and the game of telephone, it kind of worked back in the day. You go back and you do a bunch of work because you were really using the tools to build production and so you thought about it and you had that rigor. But now, if you get two lines of comments, you probably want to throw it right at the LLM and the document and say, "Fix these for me." because you're being you know like I don't like the editing work is not as gratifying. So the context is is curious to define but the results are easy to identify and so from our side the results are like yeah that's adequate that's what works but how do you how do you make a feedback loop with the team that makes the product better instead of just
+- id: W-0005
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u13
+  - u14
+  text: Yeah. Well, it's based on uh a paradigm that programmers have been allowing for a long time is they like to be lazy and don't like to do things twice and the fastest way of getting something done is generally the most efficient. It's not the best, but um you know the cheating on your homework thing is real. Everybody does it everywhere because they have deliverables and um came from I'm trying to figure out for our team what it means to collaborate on documents because we have business development and some information comes in and one person will do a bunch of work and then and then the work is is kind of out there and we'll get some comments and people will try to attach meaning to it. Um maybe in the same way that a ticket is completed and that gets communicated. Um, but the feedback is is difficult to work with in a workflow. Meaning that the comments in the current LLM workflow are like this needs to change, that needs to change, and you're like, okay. And so you change a couple things and you're like, well, that didn't really do it. um meaning that the context for those for the collaboration like the information that's provided as feedback um was useful from the person that was giving it but in terms of how it was employed didn't necessarily get the same effect. And so it's like handing off a ticket and saying here's the work and the work comes back and it's so like it's fluent, but the way of making it like a way of validating it um isn't strong enough to iterate on the document um and make it better. It's just providing it um criticism for how it's not working. And that could be the same thing as like reporting in a standup. Like here it is. It's great. It's all there. It's included everything that you've had in your emails and and what they've said and and I'm done. And I'm like, "Nope." Because when I get handed things, I'm like, "Nope, that's not done." And when I hand things off to Karen, she's like, "No, that's not right." And so the feedback loop is very interesting. Um because at the point where I've provided something and she doesn't know it's right, I'm getting feedback that's it it's it's valid, but it's not as useful as it once was because of how the tools work and how you can how fluency can obscure I think productivity. um the the criticism and the game of telephone, it kind of worked back in the day. You go back and you do a bunch of work because you were really using the tools to build production and so you thought about it and you had that rigor. But now, if you get two lines of comments, you probably want to throw it right at the LLM and the document and say, "Fix these for me." because you're being you know like I don't like the editing work is not as gratifying. So the context is is curious to define but the results are easy to identify and so from our side the results are like yeah that's adequate that's what works but how do you how do you make a feedback loop with the team that makes the product better instead of just Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fe
+- id: W-0006
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u13
+  - u14
+  text: Yeah. Well, it's based on uh a paradigm that programmers have been allowing for a long time is they like to be lazy and don't like to do things twice and the fastest way of getting something done is generally the most efficient. It's not the best, but um you know the cheating on your homework thing is real. Everybody does it everywhere because they have deliverables and um came from I'm trying to figure out for our team what it means to collaborate on documents because we have business development and some information comes in and one person will do a bunch of work and then and then the work is is kind of out there and we'll get some comments and people will try to attach meaning to it. Um maybe in the same way that a ticket is completed and that gets communicated. Um, but the feedback is is difficult to work with in a workflow. Meaning that the comments in the current LLM workflow are like this needs to change, that needs to change, and you're like, okay. And so you change a couple things and you're like, well, that didn't really do it. um meaning that the context for those for the collaboration like the information that's provided as feedback um was useful from the person that was giving it but in terms of how it was employed didn't necessarily get the same effect. And so it's like handing off a ticket and saying here's the work and the work comes back and it's so like it's fluent, but the way of making it like a way of validating it um isn't strong enough to iterate on the document um and make it better. It's just providing it um criticism for how it's not working. And that could be the same thing as like reporting in a standup. Like here it is. It's great. It's all there. It's included everything that you've had in your emails and and what they've said and and I'm done. And I'm like, "Nope." Because when I get handed things, I'm like, "Nope, that's not done." And when I hand things off to Karen, she's like, "No, that's not right." And so the feedback loop is very interesting. Um because at the point where I've provided something and she doesn't know it's right, I'm getting feedback that's it it's it's valid, but it's not as useful as it once was because of how the tools work and how you can how fluency can obscure I think productivity. um the the criticism and the game of telephone, it kind of worked back in the day. You go back and you do a bunch of work because you were really using the tools to build production and so you thought about it and you had that rigor. But now, if you get two lines of comments, you probably want to throw it right at the LLM and the document and say, "Fix these for me." because you're being you know like I don't like the editing work is not as gratifying. So the context is is curious to define but the results are easy to identify and so from our side the results are like yeah that's adequate that's what works but how do you how do you make a feedback loop with the team that makes the product better instead of just Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fe
+- id: W-0007
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u14
+  text: Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fee
+- id: W-0008
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u14
+  text: Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fee
+- id: W-0009
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u14
+  - u15
+  text: Yeah, we try to remove ambiguity as much as we can. Right now the the product manager uh created skills and agents that are helping him create better specs, better tickets. So for with that one, we we reduce the the ambiguity of what the developer has to do, right? because like you said before it was a two sentence and then two sentences that are inter that are read by the LLM and then whatever he can come up with with the with the search. But now if we have a better prompt or a better ticket then that combined with the skill that says okay when you have a ticket the first thing that you need to do is check where the code is. this is the architecture, this is the infrastructure, this is all the things and layers take into account that give me a plan and then the the same skill has that during the conversation as the ticket progresses it logs uh it divides into two different camps what it is reference which means changes to the code base and what I call engineering and is decisions that have been made around the ticket that change things in the structure. So that way I can see okay you took the ticket you solved it this way and this is the things you change in in our architecture or in in our model. So I can I can then go into the code and even ask like okay what are we been working on what are the engineering decisions that have been made what are the changes in reference and that happens for them. One thing that I I've noticed is that you I I I've been uh cons consistently training them in the process because the other day uh the developer finished a functionality and since we have a repo a monor repo that has subm modules that are secondary repos is able to write the documentation on the dogs repo creates the branch and leaves everything there but the developer didn't put the prompt of okay I'm done now push and create the pull request that's the only thing he was missing right so I ended up with the code but not the documentation just because he didn't even realize that a new branch was created for him every time he did a ticket and a change was done so I I I have to go in and and retrain and okay this is how we do it again this is how the skill is doing here this is how we we're going to work right I'm I'm trying to hold the the the SLDC combined with the help of the LLM and just the the for me it's it's how I resume or or or take out all the assumption right if it's if there is architecture work to be done if it's another layer that it doesn't pertain to them then I leave it aside and put in a different ticket and someone that has a more traverse knowledge will take on on on that one and that's the other thing that I've been seeing that Since LLMs reduce the difficulty or the friction to get into any kind of ticket, then you have people doing every sort of things, right? But that doesn't mean that because you understand code you can do infrastructure or you can do a a big architecture change. But they want to do it because they think and fee That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm r
+- id: W-0010
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u15
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re
+- id: W-0011
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u15
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re
+- id: W-0012
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u15
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re
+- id: W-0013
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u15
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re
+- id: W-0014
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u15
+  - u16
+  - u17
+  - u18
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re I think it's because things used to used to move at that speed, right? You you you move at the speed of the slowest component and the slowest component was the person that needed to understand document learn talk to a lot of people have a lot of friction and then I remember the projects you you got to meetings and it was months of months and months of meetings trying to figure out stuff and and things didn't move and now we are moving faster but then we assume right so and from what I see It's like doing a movie. I don't know if you you guys have seen behind the movies that they say, See? "Oh, the best movies and the most successful movies are the ones that they do uh the the the whole movie in paper, right? They draw it out. They put all the scenes. They say this goes here, this goes next." Same with books. And if it works in paper, then it will work on the movie. So that's that's my my my personal idea when it comes to code. And it's if if if now the documentation is complete enough it will be a a a guard rail a governance artifact for the team right and then I I know that things that used to happen with time I need to force them now because I know the developer will gain the experience after a month of working on a feature but now they will not do it they will just promp it right so I need to change the conversation to say our our meetings are more planning conversations. You bring me your plan,
+- id: W-0015
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  - u20
+  text: That was very valuable. Thank you. Um I'm going to I'm going to blow on to some of the things you said there. And one of the realizations I had is I can build these agents to provide this disambiguity that you mentioned at the beginning. Meaning, okay, so you've had this conversation. this is an initiative have you provided do we have the context do we have the right context have you done the work and so um that's the validation of work I think is a big step that I've automated in terms of what I've been doing but not in the way that it's provided feedback to get better at your job and I think that's a significant step in terms of looking at these skills as not doing the end run which I you know I have some orchestrated flows that I'm like really happy with but it it becomes automagical in terms of not knowing how to provide it better inputs. One of the things that I've been reading um and I sit there and read a lot of code but one of the things while I'm waiting for things to generate that I've recognized is valuable is that when the cursor agent is doing its work and cla work it will say good I have enough context. I think I shared that with Jason. It's like good, I have enough context, I can proceed. Um, and I think that's an interesting sort of wrapper is that and Phobio have mentioned it a lot and others too is that the context is what we provide for the decision making business as a team and we can provide better context for the execution of a of a task as well as the the validation of it. um in being more uh explicit at the beginning and then doing the check at the end. You introduced that discussion a long time ago, one where it's like maybe they start at the same point and then they have a finishing point that's the same and then in between you can have all this messy cognitive thing and as long as it has the markers at the beginning of being able to push into development or reference or feature reference or whatever that is um you have some piping on that. Um, so I thank you for your contribution because I'm dealing with this as um as I move through project state and understanding um what it means to build build um project intelligence in a proactive way. um where the team is doing their good work um in meetings in meeting people and synthesizing and then doing the validation is like or doing the preparation of context and then being able to let the u the team do their work like developers to do their code and managers to the relation relating um but I'm just showing the project state app um that I built and that it is working behind the scenes to do a whole lot of things now um to communicate to the teams that have been working with better information so they can stay in line with the speed of development and that is a passive experience on the other side. So my goal has been to try to make it better noting that we're building wikis and and and to a certain extent the project state itself it is meant for the AEI to enable us but I'm re I think it's because things used to used to move at that speed, right? You you you move at the speed of the slowest component and the slowest component was the person that needed to understand document learn talk to a lot of people have a lot of friction and then I remember the projects you you got to meetings and it was months of months and months of meetings trying to figure out stuff and and things didn't move and now we are moving faster but then we assume right so and from what I see It's like doing a movie. I don't know if you you guys have seen behind the movies that they say, See? "Oh, the best movies and the most successful movies are the ones that they do uh the the the whole movie in paper, right? They draw it out. They put all the scenes. They say this goes here, this goes next." Same with books. And if it works in paper, then it will work on the movie. So that's that's my my my personal idea when it comes to code. And it's if if if now the documentation is complete enough it will be a a a guard rail a governance artifact for the team right and then I I know that things that used to happen with time I need to force them now because I know the developer will gain the experience after a month of working on a feature but now they will not do it they will just promp it right so I need to change the conversation to say our our meetings are more planning conversations. You bring me your plan, Awesome. I'll poke holes into your plan, and when I know that the plan is sound and you understand what the plan means, then I I'm I'm fine with you going and running away with the LLM because I know that that toy factory and all the toys are there to control that flow. But the biggest thing for me right now is is making the developer understand what we're doing and why are we doing it. That's that's so big.
+- id: W-0016
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  text: I'll poke holes into your plan, and when I know that the plan is sound and you understand what the plan means, then I I'm I'm fine with you going and running away with the LLM because I know that that toy factory and all the toys are there to control that flow. But the biggest thing for me right now is is making the developer understand what we're doing and why are we doing it. That's that's so big. I like that shift. Um, so a lot of meetings are about status and where people have gotten things done. And that's the one thing with the last version of the project state that pushed me to publish it is that on our project where we're working um within the protein industry um I was able to to push all the reporting off of people's plates. And so why have a meeting if you're just going to report what you did? And so the meetings are now about like okay we don't know what to do or this is a problem or let's do the other thing and set up the rest of the week like you say it moves from a a retrospective of what has been done to where are you going and um that's a big shift. It's still something I don't fully experiencing but it is it is something that is on our doorstep. Um, and I wrote down we assume a lot. That's So, it's funny you and one are saying something I've been trying to encapsulate that is because the paradigm good. has changed. Right. And so we talked about this a little bit in previous meetings. The old model was very much depending on you know what tools you used canban water flow or or or um charts or agile. It was very much about compartmentalized and people doing a little piece, right? And so you only needed to have like knowledge of what piece was required before your piece and what piece your piece contributed to, right? Like like it was it was hugely about compartmentalized knowledge. And so and that led to this whole ticket system, right? A piece corresponded to a ticket. You gave a ticket out to a person depending on a bunch of other, you know, targeting factors. But now like that's irrelevant. Um what's relevant is like being able to share the process because like like not just knowing your piece, not just knowing like uh this more detail about the ticket, but how the ticket fits into the greater goals and the greater goals and the shared the shared uh strategies, right? And it's better because rather than creating a little output that someone can use, you're still creating outputs, but like they can have more um alignment with the whole picture and also make use of common patterns and that can come sort of like how do I put it naturally or organically because the processes are aligned because everybody just doesn't just have a picture like people just don't have visibility on tickets, you know, interface attached to the ticket via the sigma that's attached to the ticket or whatever. You have the whole thing, right? Sort of it's it's a very different it's a very different paradigm of dividing up work and visibility on the whole. you you know the the the the AI approach really a lot requires visibility on the greater context and the process not just not just the little deliverables and how they're connected
+- id: W-0017
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u22
+  - u23
+  - u24
+  - u25
+  text: So, it's funny you and one are saying something I've been trying to encapsulate that is because the paradigm good. has changed. Right. And so we talked about this a little bit in previous meetings. The old model was very much depending on you know what tools you used canban water flow or or or um charts or agile. It was very much about compartmentalized and people doing a little piece, right? And so you only needed to have like knowledge of what piece was required before your piece and what piece your piece contributed to, right? Like like it was it was hugely about compartmentalized knowledge. And so and that led to this whole ticket system, right? A piece corresponded to a ticket. You gave a ticket out to a person depending on a bunch of other, you know, targeting factors. But now like that's irrelevant. Um what's relevant is like being able to share the process because like like not just knowing your piece, not just knowing like uh this more detail about the ticket, but how the ticket fits into the greater goals and the greater goals and the shared the shared uh strategies, right? And it's better because rather than creating a little output that someone can use, you're still creating outputs, but like they can have more um alignment with the whole picture and also make use of common patterns and that can come sort of like how do I put it naturally or organically because the processes are aligned because everybody just doesn't just have a picture like people just don't have visibility on tickets, you know, interface attached to the ticket via the sigma that's attached to the ticket or whatever. You have the whole thing, right? Sort of it's it's a very different it's a very different paradigm of dividing up work and visibility on the whole. you you know the the the the AI approach really a lot requires visibility on the greater context and the process not just not just the little deliverables and how they're connected I brought up the the project website uses project state while you were talking Fobio because of what you were saying is that that project like this uh website is would have been a lot of work back in the day nobody would have done it but because of the fact the information is elsewhere it's generated it's easy to do and the reason I did it is because it it's just it allows for that
+- id: W-0018
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  text: has changed. Right. And so we talked about this a little bit in previous meetings. The old model was very much depending on you know what tools you used canban water flow or or or um charts or agile. It was very much about compartmentalized and people doing a little piece, right? And so you only needed to have like knowledge of what piece was required before your piece and what piece your piece contributed to, right? Like like it was it was hugely about compartmentalized knowledge. And so and that led to this whole ticket system, right? A piece corresponded to a ticket. You gave a ticket out to a person depending on a bunch of other, you know, targeting factors. But now like that's irrelevant. Um what's relevant is like being able to share the process because like like not just knowing your piece, not just knowing like uh this more detail about the ticket, but how the ticket fits into the greater goals and the greater goals and the shared the shared uh strategies, right? And it's better because rather than creating a little output that someone can use, you're still creating outputs, but like they can have more um alignment with the whole picture and also make use of common patterns and that can come sort of like how do I put it naturally or organically because the processes are aligned because everybody just doesn't just have a picture like people just don't have visibility on tickets, you know, interface attached to the ticket via the sigma that's attached to the ticket or whatever. You have the whole thing, right? Sort of it's it's a very different it's a very different paradigm of dividing up work and visibility on the whole. you you know the the the the AI approach really a lot requires visibility on the greater context and the process not just not just the little deliverables and how they're connected I brought up the the project website uses project state while you were talking Fobio because of what you were saying is that that project like this uh website is would have been a lot of work back in the day nobody would have done it but because of the fact the information is elsewhere it's generated it's easy to do and the reason I did it is because it it's just it allows for that Never mind. Right. Go ahead. Yeah. conversation with the other side of the team with the partners to be more um organic in that does this work for you? we'll create a different view um and so that the the transparency is there um but understanding how how I can tool the transparency for the participants now is way different than previously and you brought up ticketing like nobody nobody in the executive suites wants to talk tickets but what they do want is a derivative report from the ticket tickets that they can see progress on and that used to be a bunch of people's different jobs and and the reporting now is I Oh, I don't um but transparent like I I didn't I spent two hours on that website. have Okay. Like that wasn't the problem. The problem is what we're talking about here. Jason, that's what you're saying. s\*\*\*. Did you say something? have been on mute. Jason. Sorry. Been trying to deal with my my leg here.
+- id: W-0019
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  - u32
+  - u33
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  - u45
+  - u46
+  text: I brought up the the project website uses project state while you were talking Fobio because of what you were saying is that that project like this uh website is would have been a lot of work back in the day nobody would have done it but because of the fact the information is elsewhere it's generated it's easy to do and the reason I did it is because it it's just it allows for that Never mind. Right. Go ahead. Yeah. conversation with the other side of the team with the partners to be more um organic in that does this work for you? we'll create a different view um and so that the the transparency is there um but understanding how how I can tool the transparency for the participants now is way different than previously and you brought up ticketing like nobody nobody in the executive suites wants to talk tickets but what they do want is a derivative report from the ticket tickets that they can see progress on and that used to be a bunch of people's different jobs and and the reporting now is I Oh, I don't um but transparent like I I didn't I spent two hours on that website. have Okay. Like that wasn't the problem. The problem is what we're talking about here. Jason, that's what you're saying. s\*\*\*. Did you say something? have been on mute. Jason. Sorry. Been trying to deal with my my leg here. Oh, how are you, Oh, man? I'm I'm okay. I got the all clear to walk around. So, um then I realized I couldn't walk. So, it's one thing to be like prevented from walking and you're like, "Oh, how dare they?" And then you're like, you go to walk and you really can't and then you're like, You're not capable "Oh, that's not a loss. I used to be able to do that." Um interesting regression is an yet. interesting thing in uh in bodily autonomy or code. Yeah. And um you've been you've been approaching like the launch of your project for quite a while like you've been using matter and you've been building a new intelligent version of matter and your team has changed through that process and so has so have you. I'm just curious how you reflect on some of the conversation because I know that you're evaluating things the same way maybe Yeah, you know,
+- id: W-0020
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u46
+  - u47
+  - u48
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  text: Yeah, you know, or like it's I think I think back to like a few weeks ago when I when I kind of mentioned this and you know, and then um you know, Juan had kind of uh gone into more detail over the subsequent weeks where it's I think What I mentioned a few weeks ago was, you know, I've got a team of four and I'm not even sure that's the, you know, like the the the kind of typical agile, you know, structure and everything is um is not really working for us. And um I was having a conversation with Spencer um who's kind of who who leads the you know engineering in matter now. And we were talking about like what are the underlying principles that you know that drove agile and you know a bunch of these things we can kind of you know rebuild a new system given the functionality of these tools on top of like principles that existed problems that were like uh to be solved. So it's kind of like a side quest that we've got. Let's go. We haven't really spent much time on it, but it really is just recognizing that how we've been doing things is we're probably only really operating at maybe given where the tools are like 70% of the capability of what we could be um you know running at um despite still going really quickly. But, you know, like the just the stuff that Wong's talking about, it's I'm experiencing the same thing because I'm not a software engineer, but now I'm building product and um I'm but I'm the, you know, founder CEO of the company. So then how do I get the appropriate kind of coaching and support from the engineering lead to be able to do you know what Juan was referencing around you know like setting that architectural foundation so that go off and like you know build the thing that I need to build. Um so there's a bunch of just different dynamics in place that are um a little weird for us. I don't think we have a good beat on So, so yeah, it. you're you're going down the stack. Are your stats are coming up the stack?
+- id: W-0021
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  - u64
+  - u65
+  text: Let's go. We haven't really spent much time on it, but it really is just recognizing that how we've been doing things is we're probably only really operating at maybe given where the tools are like 70% of the capability of what we could be um you know running at um despite still going really quickly. But, you know, like the just the stuff that Wong's talking about, it's I'm experiencing the same thing because I'm not a software engineer, but now I'm building product and um I'm but I'm the, you know, founder CEO of the company. So then how do I get the appropriate kind of coaching and support from the engineering lead to be able to do you know what Juan was referencing around you know like setting that architectural foundation so that go off and like you know build the thing that I need to build. Um so there's a bunch of just different dynamics in place that are um a little weird for us. I don't think we have a good beat on So, so yeah, it. you're you're going down the stack. Are your stats are coming up the stack? Yes, it does feel like everyone's normalizing to the same level. You got to Interesting. But it's a very high level, isn't it? Yeah. where? It's like everybody's normalizing to a high level, but it's understanding of the whole as opposed to their little bit. Or is that not right? Yeah, it it's true. But like the problem is that like it's exposing certain people who would say would be really great in certain areas, but you know, holding all of that as as you say, Fio, in their in their head, like that's not really proving to be true. Right. Um, It's very challenging for some people because like we've been producing people for that other paradigm, right? For like the agile paradigm where like like like it's all like how five years five years ago that's nothing, right? Everybody was like a PM or a QA person or a DevOps or a Yeah. UX UI person or a a
+- id: W-0022
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u65
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  - u72
+  - u73
+  - u74
+  - u75
+  text: UX UI person or a a Mhm. Mhm. backend uh JavaScript person or a front-end JavaScript person. And now like I don't want any of those. Yeah. I need people who understand and can deal with the whole more because it's the only piece I want to work with. Yeah. is it's it's I think that's isn't that a hard Yeah. transition for for because like these people and I'm just I want to finish this thought It's because and I and I don't know if I'm projecting a bias I have but like you know it until now like the pressure I was getting was work with all of these young guy who just came out of some like computer I thing and are like and again like fit neatly into one of those roles. UX person, UI, QA, PM, owner, uh technical writer, whatever, right? And like for me who's been around however many years, right? It's it's a two-digit number, but like it's it's a long I've done all of those roles at some point. So for me looking at the whole out of necessity, right, because there weren't those roles. For me, looking at the whole is easy and and and and natural. And for them, it's like, oh my god, it's like they can't do it. They just can't do it. They don't have enough broad experience. I think that's my that's that's what I'm seeing is the transitionary problem.
+- id: W-0023
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: because and I and I don't know if I'm projecting a bias I have but like you know it until now like the pressure I was getting was work with all of these young guy who just came out of some like computer I thing and are like and again like fit neatly into one of those roles. UX person, UI, QA, PM, owner, uh technical writer, whatever, right? And like for me who's been around however many years, right? It's it's a two-digit number, but like it's it's a long I've done all of those roles at some point. So for me looking at the whole out of necessity, right, because there weren't those roles. For me, looking at the whole is easy and and and and natural. And for them, it's like, oh my god, it's like they can't do it. They just can't do it. They don't have enough broad experience. I think that's my that's that's what I'm seeing is the transitionary problem. Yeah. No, that's super true. They don't they they don't know what they don't know, right? Like I'm saying this tool this tool is awesome for me because even in my experience um it's it's very funny. I tell Viv it's it's this was built for me. Like every job that I done in the past, I switch jobs because I'm interested in a new things and a new problem in a new way of seeing things Thanks. and I've seen every single architecture, every single technology and that's why now I I this is this a very obscure reference but there is this movie called uh the world of the worlds when when Tom Cruz in the first uh few minutes a car fails and and they ask him hey man do you think what what is wrong and he says how you have you check the solenoid, right? It's just such a random thought and it's like that's that's where we are. Like people that have experience know where the solenoid is, right? Yeah, And why is it failing, but everybody else still is a is a is a damn car that they have no idea how it works. perfect. So the the way I'm doing things with my teams uh again is switching from a lot of handholding and also mentoring to get them to that level of oh you're now understanding more, thinking more and now our conversations are better because that's my like my personal But I think it's right. objective. Isn't it very frustrating for them because like I think I've seen this. I don't know if everyone has seen it or not because like they can't get to it and contribute because you want them to understand the whole before they can contribute and like they're not useful for a long time, right? Because like gota they got to do so much upskilling to be useful in the current paradigm. Sorry.
+- id: W-0024
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  text: and I've seen every single architecture, every single technology and that's why now I I this is this a very obscure reference but there is this movie called uh the world of the worlds when when Tom Cruz in the first uh few minutes a car fails and and they ask him hey man do you think what what is wrong and he says how you have you check the solenoid, right? It's just such a random thought and it's like that's that's where we are. Like people that have experience know where the solenoid is, right? Yeah, And why is it failing, but everybody else still is a is a is a damn car that they have no idea how it works. perfect. So the the way I'm doing things with my teams uh again is switching from a lot of handholding and also mentoring to get them to that level of oh you're now understanding more, thinking more and now our conversations are better because that's my like my personal But I think it's right. objective. Isn't it very frustrating for them because like I think I've seen this. I don't know if everyone has seen it or not because like they can't get to it and contribute because you want them to understand the whole before they can contribute and like they're not useful for a long time, right? Because like gota they got to do so much upskilling to be useful in the current paradigm. Sorry. But that has always been the homework, right? You you had to go and learn the tool, you had to go and learn the technology. The thing is that now you have you have to go and do things that you didn't go to school school for, right? And it's like uh getting to understand a good document uh laying out a good blueprint, figuring out how to plan better, how to communicate better, those things you didn't see them at school. But uh if you were in computer science, right? But in this case, they need them now. And and I say because to finalize here um I have uh another side of of my experience and it's a I've been studying for a few years finances and uh if I didn't study all of the things that I've been studying then I wouldn't be able to produce the outputs I'm producing. So I think that it's always the same and is that the bar the the barrier is the person or the the individual needs to challenge themselves to actually learn right learn the abstraction let the pattern like the base principles in order to thrive it's just that it shows way better how long does it take to do that I think is a transparency they've referenced this at the beginning and is it is so transparent now you can know when someone didn't do anything during the week, right? It's it's or when they're not studying or when they're not improving or when they're not grasping the whole idea. So, I think it's it's showing off is more that that lack of if the developer sits down, talks to the tool, researches, I feel like they can upscale pretty quickly. It's just that they're so used to writing just the code that that's a big challenge. Even for resources and and this is personal the quality of resources is very hard to get good quality is for me right now is very hard to find people that understand these things these concepts and they want to do LLMs and they want to combine the two to get ahead like that's I haven't found anyone
+- id: W-0025
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u86
+  - u87
+  text: But that has always been the homework, right? You you had to go and learn the tool, you had to go and learn the technology. The thing is that now you have you have to go and do things that you didn't go to school school for, right? And it's like uh getting to understand a good document uh laying out a good blueprint, figuring out how to plan better, how to communicate better, those things you didn't see them at school. But uh if you were in computer science, right? But in this case, they need them now. And and I say because to finalize here um I have uh another side of of my experience and it's a I've been studying for a few years finances and uh if I didn't study all of the things that I've been studying then I wouldn't be able to produce the outputs I'm producing. So I think that it's always the same and is that the bar the the barrier is the person or the the individual needs to challenge themselves to actually learn right learn the abstraction let the pattern like the base principles in order to thrive it's just that it shows way better how long does it take to do that I think is a transparency they've referenced this at the beginning and is it is so transparent now you can know when someone didn't do anything during the week, right? It's it's or when they're not studying or when they're not improving or when they're not grasping the whole idea. So, I think it's it's showing off is more that that lack of if the developer sits down, talks to the tool, researches, I feel like they can upscale pretty quickly. It's just that they're so used to writing just the code that that's a big challenge. Even for resources and and this is personal the quality of resources is very hard to get good quality is for me right now is very hard to find people that understand these things these concepts and they want to do LLMs and they want to combine the two to get ahead like that's I haven't found anyone Yeah, I was just sorry it's really loud here, but um I was thinking about uh this little comment I made about normalizing to the muddle and it just really feels like the question of wheelhouse is an important one. you know, you were talking about all these different roles and we were good at this and not good at that and and it was distributed and now it's kind of like everything's in a bit of a muddle and everybody can do a bit of everything and even in my work I end up writing documentation that I don't feel very good about uh but I can do it. I end up tackling things that I kind of have a sense of but I can be more articulate uh than I used to be able to. But I also lose my own wheelhouse and my own sense of where I can contribute and
+- id: W-0026
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  text: Yeah, I was just sorry it's really loud here, but um I was thinking about uh this little comment I made about normalizing to the muddle and it just really feels like the question of wheelhouse is an important one. you know, you were talking about all these different roles and we were good at this and not good at that and and it was distributed and now it's kind of like everything's in a bit of a muddle and everybody can do a bit of everything and even in my work I end up writing documentation that I don't feel very good about uh but I can do it. I end up tackling things that I kind of have a sense of but I can be more articulate uh than I used to be able to. But I also lose my own wheelhouse and my own sense of where I can contribute and Yes. where that relationship with the work is good and solid and you know actually is additive and I think this is the model and I I find it actually quite hard to play in this arena. Um, one of the things I notice is that my conversational space with the AI can be quite good, but the documentary output is really not that great. Um, because it's trying to talk to too many. It's also in the muddle. You know, Yes. part of the documentation is trying to talk to an AI reader and part of it is not intended for human reading. It's that kind of thing. And there's so much of it that on the receiving side of all that documentation, it's also hard to parse and say what's valuable and not. So I really yeah I really see this as the the kind of normalizing to a modeler and um that's the work is to really understand where strengths lie where the you know capacities are good and where they're not good and that takes a lot of altitude and I think that's not easy to find.
+- id: W-0027
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  - u98
+  - u99
+  text: part of the documentation is trying to talk to an AI reader and part of it is not intended for human reading. It's that kind of thing. And there's so much of it that on the receiving side of all that documentation, it's also hard to parse and say what's valuable and not. So I really yeah I really see this as the the kind of normalizing to a modeler and um that's the work is to really understand where strengths lie where the you know capacities are good and where they're not good and that takes a lot of altitude and I think that's not easy to find. Altitude is a good word. Yeah, I was just going to say it kind of breaks my heart a little bit honestly to see some people who just aren't um you know like they aren't in you know working to encompass holding all of this in you know in their Get perspective and they uh like you know you get like questions like I just want to know like what's expected of me and like the reality is that this one. It's expectations have changed and shifted and grown you know as a result not of the enablement of people by this technology. So, um, and so then it's like, okay, you have to keep, okay, like, okay, yeah, now you're expected to think about this or now you're expected to do this or now, you know, like it's just there's a lot of uh feels like and I don't have very many people, so it's like really one person I'm talking about on my team, but like I can imagine in a bigger or organization a lot of management overhead to like because like the the way the role was defined a year ago and the way that the role is probably defined in your head as a leader versus the head of the of the of the team member is is really different. And that just things have been pretty static for a long time and now they're they're changing and shifting really
+- id: W-0028
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  text: of the enablement of people by this technology. So, um, and so then it's like, okay, you have to keep, okay, like, okay, yeah, now you're expected to think about this or now you're expected to do this or now, you know, like it's just there's a lot of uh feels like and I don't have very many people, so it's like really one person I'm talking about on my team, but like I can imagine in a bigger or organization a lot of management overhead to like because like the the way the role was defined a year ago and the way that the role is probably defined in your head as a leader versus the head of the of the of the team member is is really different. And that just things have been pretty static for a long time and now they're they're changing and shifting really Yeah, that's a big quickly. one. Yeah, output is so easy now. the fluency and the one thing that like to point to your comment like I think you find a lot of value in reading slowly one by one after your own work right I I do I I read all day long I read more than I've ever read in my this. life um and I find incredible value in my own analysis now translating that across a team to more than just information I think is the challenge and so I've tried things in that regard but if you hand off information um it's pretty much done and you don't you're not needed anymore with that, right? She works Unless unless it's more than information. with
+- id: W-0029
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  text: with And so the model I appreciate what that means or what you mean by saying that um because again I'll point to Karpathy at one point just saying it. What's a He's just like I'm spending more time on my system than I am on my code. That's passed. That's passed. project? But that was just a few months ago. And that's where I remember too, man, it is complicated to get my gear going because I'm not working at the level of a function anymore. I'm working at the level of orchestrating um a team that can take a concept and then move in through a whole process. And um it's it's a different different space. And um we had an employee who was a ticket person and Well, like right she was born out of the last 5 years of working in the industry and I upset her and I upset my whole team by recognizing very early on that the ticketing was not going to work for us. It was too granular and it just meant that you were servicing the machine and not what the machine was outputting. And man, if I'm using Office 4.7, I'm not coding. If I'm using sonets 46 47, I'm coding like it was yesterday. It's making mistakes. 47 is making weirder mistakes. But um what I'm getting at is like my role is now I want to walk my dog. I want to do enough work where I can go walk my dog and it's programming for me. So that but I have put in the work and the foundation to know that when I come back I'll get the feedback to let me know if that it's correct and I'll do some other work there. bring other people into a company that isn't that don't have the maturity that fully Interesting. on have decades, right? And so you can like whether it's been in one language or another, there's wisdom where the pain was so great in the past that you learned how to get better at your job. And right now the pain is so easily overachievable as through fluency that it's really hard to know if you've done your job well. So I I I'm I'm really curious as to what it means to provide that human in the loop, a learning a learning loop that gives them a a career in an organization where maybe we're thinking as startups we need people just like ourselves and that doesn't scale.
+- id: W-0030
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u116
+  - u117
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  text: she was born out of the last 5 years of working in the industry and I upset her and I upset my whole team by recognizing very early on that the ticketing was not going to work for us. It was too granular and it just meant that you were servicing the machine and not what the machine was outputting. And man, if I'm using Office 4.7, I'm not coding. If I'm using sonets 46 47, I'm coding like it was yesterday. It's making mistakes. 47 is making weirder mistakes. But um what I'm getting at is like my role is now I want to walk my dog. I want to do enough work where I can go walk my dog and it's programming for me. So that but I have put in the work and the foundation to know that when I come back I'll get the feedback to let me know if that it's correct and I'll do some other work there. bring other people into a company that isn't that don't have the maturity that fully Interesting. on have decades, right? And so you can like whether it's been in one language or another, there's wisdom where the pain was so great in the past that you learned how to get better at your job. And right now the pain is so easily overachievable as through fluency that it's really hard to know if you've done your job well. So I I I'm I'm really curious as to what it means to provide that human in the loop, a learning a learning loop that gives them a a career in an organization where maybe we're thinking as startups we need people just like ourselves and that doesn't scale. What's this It doesn't scale very well um time. guy? So it is a really curious place to be in like it's muddled in one way and then there's this way of achieving a really articulate understanding of things um to demodule it and then that becomes obuscated and you can actually achieve higher levels but it's super siloed even in like portfolio has its own work patterns and I do too and so we come together over document like and so we're talking extensively around aligning and yet we're still going to have issues with all that. I know we are, but we were going to be best position to do that. Now, you know, our employee left and so we didn't have that opportunity to figure that piece out. Um, but it is a really challenging thing to think like if our projects succeed, we have way more work than we could ever execute on. Um, and I'm not sure who we could bring in other than another FO or Dave. Um, and that just won't work as a organization like it just doesn't scale in terms of how you can cost things out. So the the business like the learning curve is what I when I looked at the documentation around the pick project and I showed you the project management tools like the learning loop is is not there yet. Um and that's the part that this room deals with all the time is that we're tr struggling with our learning loops and um meaning that you would have time to process production as the learning loop process like we would you know given a discipline UX other people had some stuff you can read you can go down a path of these are the 10 things you do to get to having good pixel perfect vest and through that you would rewire your brain and the rewiring of the brain is um not happening from what I can recall in this conversation because it requires pattern. It requires repeated effort and only through who's not putting in 3,000 hours a year right now. Um through that grinding of getting through your 10,000 hours um do you find that you've reached new patterns and I'll be f\*\*\*\*\* if the patterns don't change every month. might be getting better. But um it's a really really curious place to figure out how to bring in people to learn in a loop that you just don't know how to put on rails. And I have a half a million dollars worth of work to plan right now. And my name is attacks full so it doesn't scale. So, it's a it's a neat place. Um, I've picked up some things from the conversation and that was like this understanding of the whole learning the principles underneath things and that the principles existed previously and maybe the return to those principles can then be vector through the aggressive new stack that we have. Um, and the last thing is I don't know who's facing there. I don't know.
+- id: W-0031
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u122
+  text: So it is a really curious place to be in like it's muddled in one way and then there's this way of achieving a really articulate understanding of things um to demodule it and then that becomes obuscated and you can actually achieve higher levels but it's super siloed even in like portfolio has its own work patterns and I do too and so we come together over document like and so we're talking extensively around aligning and yet we're still going to have issues with all that. I know we are, but we were going to be best position to do that. Now, you know, our employee left and so we didn't have that opportunity to figure that piece out. Um, but it is a really challenging thing to think like if our projects succeed, we have way more work than we could ever execute on. Um, and I'm not sure who we could bring in other than another FO or Dave. Um, and that just won't work as a organization like it just doesn't scale in terms of how you can cost things out. So the the business like the learning curve is what I when I looked at the documentation around the pick project and I showed you the project management tools like the learning loop is is not there yet. Um and that's the part that this room deals with all the time is that we're tr struggling with our learning loops and um meaning that you would have time to process production as the learning loop process like we would you know given a discipline UX other people had some stuff you can read you can go down a path of these are the 10 things you do to get to having good pixel perfect vest and through that you would rewire your brain and the rewiring of the brain is um not happening from what I can recall in this conversation because it requires pattern. It requires repeated effort and only through who's not putting in 3,000 hours a year right now. Um through that grinding of getting through your 10,000 hours um do you find that you've reached new patterns and I'll be f\*\*\*\*\* if the patterns don't change every month. might be getting better. But um it's a really really curious place to figure out how to bring in people to learn in a loop that you just don't know how to put on rails. And I have a half a million dollars worth of work to plan right now. And my name is attacks full so it doesn't scale. So, it's a it's a neat place. Um, I've picked up some things from the conversation and that was like this understanding of the whole learning the principles underneath things and that the principles existed previously and maybe the return to those principles can then be vector through the aggressive new stack that we have. Um, and the last thing is I don't know who's facing there. I don't know.
+- id: W-0032
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u122
+  - u123
+  - u124
+  - u125
+  - u126
+  text: So it is a really curious place to be in like it's muddled in one way and then there's this way of achieving a really articulate understanding of things um to demodule it and then that becomes obuscated and you can actually achieve higher levels but it's super siloed even in like portfolio has its own work patterns and I do too and so we come together over document like and so we're talking extensively around aligning and yet we're still going to have issues with all that. I know we are, but we were going to be best position to do that. Now, you know, our employee left and so we didn't have that opportunity to figure that piece out. Um, but it is a really challenging thing to think like if our projects succeed, we have way more work than we could ever execute on. Um, and I'm not sure who we could bring in other than another FO or Dave. Um, and that just won't work as a organization like it just doesn't scale in terms of how you can cost things out. So the the business like the learning curve is what I when I looked at the documentation around the pick project and I showed you the project management tools like the learning loop is is not there yet. Um and that's the part that this room deals with all the time is that we're tr struggling with our learning loops and um meaning that you would have time to process production as the learning loop process like we would you know given a discipline UX other people had some stuff you can read you can go down a path of these are the 10 things you do to get to having good pixel perfect vest and through that you would rewire your brain and the rewiring of the brain is um not happening from what I can recall in this conversation because it requires pattern. It requires repeated effort and only through who's not putting in 3,000 hours a year right now. Um through that grinding of getting through your 10,000 hours um do you find that you've reached new patterns and I'll be f\*\*\*\*\* if the patterns don't change every month. might be getting better. But um it's a really really curious place to figure out how to bring in people to learn in a loop that you just don't know how to put on rails. And I have a half a million dollars worth of work to plan right now. And my name is attacks full so it doesn't scale. So, it's a it's a neat place. Um, I've picked up some things from the conversation and that was like this understanding of the whole learning the principles underneath things and that the principles existed previously and maybe the return to those principles can then be vector through the aggressive new stack that we have. Um, and the last thing is I don't know who's facing there. I don't know. Okay. I don't know. All right. Um the last thing is you don't know what you don't know. And so that never after a few years in your career you could say I kind of kind of I have authority. How about this is my favorite not thing to have. You have all the responsibility now and authority is a really curious fleeting thing. Excellent. I'm thankful for the conversation today. I I came out with some positive things. Um we assume a lot. Our meetings move to meet or move to planning. Those are want statements. Jason's got four people on his team. He's considering considering being the full developer and lead entrepreneur in his own organization. He's gonna he's gonna he's going to pay Spencer to train
+- id: W-0033
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  text: Um the last thing is you don't know what you don't know. And so that never after a few years in your career you could say I kind of kind of I have authority. How about this is my favorite not thing to have. You have all the responsibility now and authority is a really curious fleeting thing. Excellent. I'm thankful for the conversation today. I I came out with some positive things. Um we assume a lot. Our meetings move to meet or move to planning. Those are want statements. Jason's got four people on his team. He's considering considering being the full developer and lead entrepreneur in his own organization. He's gonna he's gonna he's going to pay Spencer to train I think it would be I think it'd be easier. I I just think it would be like I don't know. him. It's like it's there there's going to be a better way here, but we're just in a weird middle ground here. It is a strange time. Yeah. And so it'll be exciting. Um It'll be exciting at at some point to be excited about having lived through it. Um I point to the fact that I had a researcher teach me that the word exciting can be negative. I don't feel that way. That's interesting. meaning it's just like it's exciting and you don't know what's going to happen. It's exciting that you know it's going to Sorry. It's just like, you know, maybe the key thing just kind of like before I jump off here is like everyone is on a slightly happen. different page in terms of their adoption, in terms of their view on adopting the tool and what they should be doing with it, how it should be working. Like this is the time for leadership, you know, in an organization. Like you really need leadership to be like this is how we're doing this. this is how we're thinking about this and the I think the demand on leadership is never even greater than than than now because without that then everyone starts developing their own perspectives and ideas and those things can be inongruent because the space that you can create is really high really significant
+- id: W-0034
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u130
+  - u131
+  - u132
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  - u149
+  text: Yeah. And so it'll be exciting. Um It'll be exciting at at some point to be excited about having lived through it. Um I point to the fact that I had a researcher teach me that the word exciting can be negative. I don't feel that way. That's interesting. meaning it's just like it's exciting and you don't know what's going to happen. It's exciting that you know it's going to Sorry. It's just like, you know, maybe the key thing just kind of like before I jump off here is like everyone is on a slightly happen. different page in terms of their adoption, in terms of their view on adopting the tool and what they should be doing with it, how it should be working. Like this is the time for leadership, you know, in an organization. Like you really need leadership to be like this is how we're doing this. this is how we're thinking about this and the I think the demand on leadership is never even greater than than than now because without that then everyone starts developing their own perspectives and ideas and those things can be inongruent because the space that you can create is really high really significant Yeah, it's not it's not a time for preference. It's a time for leadership, right? Like you can't fight over And so I just want to reflect on you're talking about authoritarian control. Way to be entrepreneurs. it. Yes. Uh we didn't do kind of entrepreneurial fascism. I I come by it honestly. At least we're we're in a good mood to do that and laugh at it. that one book. But it Yeah, I was I was telling my I was telling Viv my wife about it that I feel like this is such a great opportunity uh and that it this is this probably is happening in so many companies at the That's same time that they're struggling to see ways to their old product, their mature product, how to put it into this train or if they're building something new, how to really build it in in a way that they know they're moving in the right direction. So, honestly, I'm I'm enjoying a lot of this this this stage in in in the space from this conversation and the only thing that I'm thinking is maybe I should look for a job,
+- id: W-0035
+  t_start: 3150.0
+  t_end: 3264.0
+  utterance_ids:
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  text: same time that they're struggling to see ways to their old product, their mature product, how to put it into this train or if they're building something new, how to really build it in in a way that they know they're moving in the right direction. So, honestly, I'm I'm enjoying a lot of this this this stage in in in the space from this conversation and the only thing that I'm thinking is maybe I should look for a job, Stop. something that pays me more because I I feel underpaid. I think I'm on the right track. Yeah. I feel like I'm I'm going into the right place. Um, I don't know if this has a consultancy behind it, but I think that I I might be able to help a bigger team. So, that's that's just some personal sharing here, but I'm just feeling like I should I should think about it. Um, one, I'm going to reflect. I'm going to pump that up a bunch and say that you're the, you know, you're providing a light and shining it really brightly on what it means to work with a team and to be the leader on that team and upskill them, knowing that you got a diversity behind that. And that's that. So, that's why I engaged with that early on in the conversation. And it's it's quite cool to see and and I hear you. It is something out there. I'll just I'll give you some caution around being a consultant right now. Hey. Make sure it's really pointed and you charge a lot of money out of the gate. So that that's sets the tone because consultancies are are changing too. Um, but what you're pointing out is is is clearly a keen direction and thankful for your reflection on it and I I think leadership is the only thing that will survive this. The technology will fade into the background and I So maybe we need to do an AI leadership conference, believe that's guys, and we can lead it. That's something. probably all it takes is like is like what does it mean to lead? Yeah. Um, and I I find that non-technical leaders are the ones to watch. Not the big not none none of the assholes, none of those guys, but non-technical leaders in a really meaningful business. Um, there's a few really good ones to point to, but they walk in not knowing and they walk out with control. That's leadership. So I I think that's a cool way to end and uh thank you all for your time. Bon viageing, where are you going? Somebody's getting on a plane. That's rare. So super expensive to get on a plane right now. Um until next week. Um thank you. I'm gonna tap out now. I've who are here for your safety and will assist background noise. got I'm going back to Colona. I'm attending conference in Vancouver. Come on. Well, that's great. Our safety features card is located at your feet. Thanks, Journey. Thank you. I look forward to hearing from you when you're not in an airport. Talk to you guys. Some important information. Byebye. Cheers.
+- id: W-0036
+  t_start: 3240.0
+  t_end: 3264.0
+  utterance_ids:
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  - u173
+  text: Um, one, I'm going to reflect. I'm going to pump that up a bunch and say that you're the, you know, you're providing a light and shining it really brightly on what it means to work with a team and to be the leader on that team and upskill them, knowing that you got a diversity behind that. And that's that. So, that's why I engaged with that early on in the conversation. And it's it's quite cool to see and and I hear you. It is something out there. I'll just I'll give you some caution around being a consultant right now. Hey. Make sure it's really pointed and you charge a lot of money out of the gate. So that that's sets the tone because consultancies are are changing too. Um, but what you're pointing out is is is clearly a keen direction and thankful for your reflection on it and I I think leadership is the only thing that will survive this. The technology will fade into the background and I So maybe we need to do an AI leadership conference, believe that's guys, and we can lead it. That's something. probably all it takes is like is like what does it mean to lead? Yeah. Um, and I I find that non-technical leaders are the ones to watch. Not the big not none none of the assholes, none of those guys, but non-technical leaders in a really meaningful business. Um, there's a few really good ones to point to, but they walk in not knowing and they walk out with control. That's leadership. So I I think that's a cool way to end and uh thank you all for your time. Bon viageing, where are you going? Somebody's getting on a plane. That's rare. So super expensive to get on a plane right now. Um until next week. Um thank you. I'm gonna tap out now. I've who are here for your safety and will assist background noise. got I'm going back to Colona. I'm attending conference in Vancouver. Come on. Well, that's great. Our safety features card is located at your feet. Thanks, Journey. Thank you. I look forward to hearing from you when you're not in an airport. Talk to you guys. Some important information. Byebye. Cheers.

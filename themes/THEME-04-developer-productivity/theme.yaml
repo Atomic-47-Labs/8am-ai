@@ -1,0 +1,66 @@
+id: THEME-04
+slug: developer-productivity
+status: active
+summary: 'Recurring across 7 meetings: developer productivity.'
+first_seen: '2025-08-13'
+last_seen: '2026-06-10'
+idea_refs:
+- IDEA-0121
+- IDEA-0122
+- IDEA-0123
+- IDEA-0128
+- IDEA-0002
+- IDEA-0005
+- IDEA-0006
+- IDEA-0012
+- IDEA-0014
+- IDEA-0015
+- IDEA-0016
+- IDEA-0020
+- IDEA-0025
+- IDEA-0036
+- IDEA-0037
+- IDEA-0038
+- IDEA-0063
+- IDEA-0067
+- IDEA-0093
+evidence:
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0121
+  excerpt: Discussion on AI coding tools highlighted Cursor, Claude, and Google’s Jules as key players in agent development and orchestration, emphasizing the importance of cloud code agents.
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0122
+  excerpt: Myles is implementing GitHub code review agents with Cursor and Claude to enhance code quality through automated reviews, showcasing innovative use of AI tools.
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0123
+  excerpt: David’s method of using GitHub as a memory substrate for agent deployment and memory management indicates a novel approach to integrating code reviews and collaboration.
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0128
+  excerpt: Challenges in integrating Fireflies API with GitHub were identified, necessitating innovative solutions for seamless transcript processing.
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0002
+  excerpt: 'Juan Rojas identified people as a major blocker, particularly in getting team members up to speed and thinking differently about new tools (00:04:21). They explained that developers struggle to grasp the value of having a "meta repository" '
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0005
+  excerpt: Juan Rojas confirmed that they are actively walking their team through problem-solving steps, explaining the "why" behind the prompts and questions to improve their understanding of debugging and platform issues. They stressed that while ne
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0006
+  excerpt: Fulvio Ciano argued that as AI develops, there is less need for coders and more need for architects who understand how to steer the code (00:10:16). They proposed that developers must understand the project's corpus, as code writing may soo
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0012
+  excerpt: David Olsson discussed tracking the usage of their Max account tokens, specifically mentioning the progress bars in the Claude desktop application settings under "usage," which show daily, weekly (all models), and Sonnet-only limits. This t
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0014
+  excerpt: 'David Olsson detailed a development process where a rigorous application specification was created using Claude''s Opus model, and then the specification was brought into Claude Code inside the desktop app with a simple prompt: "Build this" '
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0015
+  excerpt: 'David Olsson highlighted that the Claude ecosystem, including Claude Code, now offers a full application development stack comparable to environments like Replit or Vercel, enabling deployment of apps. A recent release allows the API to be '
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0016
+  excerpt: David Olsson shared that their ability to use Claude has led to a significant increase in productivity and higher quality output by leveraging the high token capacity of the Max account (00:08:44). By using Claude Co-work pointed at a direc
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0020
+  excerpt: Juan explained that their current work involves building scaffolding around a mature, existing codebase, and they are increasingly relying on Claude for better code production, following the structure that Claude suggests for managing repos
+trajectory: steady
+created: '2026-06-25T14:36:57Z'
+updated: '2026-06-25T14:36:57Z'

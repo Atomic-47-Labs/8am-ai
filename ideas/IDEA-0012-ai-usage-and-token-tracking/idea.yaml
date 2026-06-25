@@ -1,0 +1,28 @@
+id: IDEA-0012
+slug: ai-usage-and-token-tracking
+phase: backlog
+track: heavy
+source:
+  meeting: '2026-04-15'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson discussed tracking the usage of their Max account tokens, specifically mentioning the progress bars in the Claude desktop application settings under "usage," which show daily, weekly (all models), and Sonnet-only limits. This tracking is done manually, but the Max account is noted as being very generous in its token allowance, enabling extensive use of the Opus model (00:04:49).
+summary: AI Usage and Token Tracking
+rationale: David Olsson discussed tracking the usage of their Max account tokens, specifically mentioning the progress bars in the Claude desktop application settings under "usage," which show daily, weekly (all models), and Sonnet-only limits. This tracking is done manually, but the Max account is noted as being very generous in its token allowance, enabling extensive use of the Opus model (00:04:49).
+tags: []
+theme_refs:
+- THEME-04
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 63.9
+grade_breakdown:
+  evidence: 25
+  theme: 10.8
+  recency: 7.8
+  concretion: 7.0
+  uniqueness: 13.3
+  carryover: 0
+rank: 83
+tier: backlog

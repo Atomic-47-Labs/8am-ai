@@ -1,0 +1,60 @@
+id: THEME-01
+slug: agentic-workflow
+status: active
+summary: 'Recurring across 9 meetings: agentic workflow.'
+first_seen: '2025-08-13'
+last_seen: '2026-06-17'
+idea_refs:
+- IDEA-0127
+- IDEA-0129
+- IDEA-0141
+- IDEA-0149
+- IDEA-0154
+- IDEA-0001
+- IDEA-0017
+- IDEA-0019
+- IDEA-0030
+- IDEA-0034
+- IDEA-0035
+- IDEA-0052
+- IDEA-0106
+evidence:
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0127
+  excerpt: The plan to design a GitHub repository workflow for meeting transcripts suggests a strategic move for better transcript management and accessibility.
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0129
+  excerpt: The potential for knowledge mining using AI agents was emphasized, illustrating the business value of integrating meeting transcripts into project management efforts.
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0141
+  excerpt: GitHub integration with the playground improves dynamic agent creation, as mentioned by David Olsson.
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0149
+  excerpt: User experience improvements suggest employing a meta-agent to assist with context engineering in client engagements.
+- meeting: '2025-09-03'
+  idea_ref: IDEA-0154
+  excerpt: Jen Boger presented her workflow system utilizing separate Chrome windows for distinguishing academic, professional, and personal AI projects, improving focus and productivity.
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0001
+  excerpt: David Olsson described their current process of growing the company by attempting to merge with another organization, which involves a complex orchestration of many concurrent activities, reflecting the complexities of modern software devel
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0017
+  excerpt: 'The conversation touched on the high token consumption of certain non-sanctioned tools like OpenClaw, which led to account freezes (00:10:51). David Olsson explained that they are working to stay ahead of the limits, and by paying more for '
+- meeting: '2026-04-15'
+  idea_ref: IDEA-0019
+  excerpt: David Olsson described running expensive slash commands, which orchestrate the execution of 10 or 11 reports from various skills and templates to perform a full orchestration after code creation, which they deem necessary as even a security
+- meeting: '2026-04-22'
+  idea_ref: IDEA-0030
+  excerpt: 'David Olsson explained that the "app state" evolved to become an actor on its own, reporting to the users and harvesting data. The system now performs background work based on mechanical triggers like commits to Git, receiving an email, or '
+- meeting: '2026-04-29'
+  idea_ref: IDEA-0034
+  excerpt: David Olsson described the difficulty in working with feedback and comments in the current LLM workflow, where criticisms like "this needs to change" do not always provide enough context for effective iteration (00:07:16). They suggested th
+- meeting: '2026-04-29'
+  idea_ref: IDEA-0035
+  excerpt: David Olsson noted that Juan is addressing the quality problem by spending time in one-on-one sessions to work through the cognitive effort that went into producing assets, thereby determining where the person is truly engaged with the prob
+- meeting: '2026-05-13'
+  idea_ref: IDEA-0052
+  excerpt: David Olsson introduces the concept of "orchestration over specialization," arguing that specialization functions like the "deskilling" of a factory worker. They define work outputs as either functions or variables, suggesting that individu
+trajectory: steady
+created: '2026-06-25T14:36:57Z'
+updated: '2026-06-25T14:36:57Z'

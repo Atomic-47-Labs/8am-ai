@@ -1,0 +1,28 @@
+id: IDEA-0030
+slug: autonomous-ai-actors-and-workflow-trigge
+phase: backlog
+track: heavy
+source:
+  meeting: '2026-04-22'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson explained that the "app state" evolved to become an actor on its own, reporting to the users and harvesting data. The system now performs background work based on mechanical triggers like commits to Git, receiving an email, or cron jobs, which allows it to do work and surface patterns that would otherwise consume a significant amount of the user's time and capacity.
+summary: Autonomous AI Actors and Workflow Triggers
+rationale: David Olsson explained that the "app state" evolved to become an actor on its own, reporting to the users and harvesting data. The system now performs background work based on mechanical triggers like commits to Git, receiving an email, or cron jobs, which allows it to do work and surface patterns that would otherwise consume a significant amount of the user's time and capacity.
+tags: []
+theme_refs:
+- THEME-01
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 63.3
+grade_breakdown:
+  evidence: 25
+  theme: 11.8
+  recency: 8.4
+  concretion: 4.5
+  uniqueness: 13.5
+  carryover: 0
+rank: 91
+tier: backlog

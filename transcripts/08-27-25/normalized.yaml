@@ -1,0 +1,1493 @@
+meeting:
+  date: '2025-08-27'
+  title: 8am-AI 2025-08-27
+  participants:
+  - David Olsson
+  - Graham Fawcett
+  - Spencer MacBeth
+  - Fulvio Ciano
+  - Jason Kryski
+  - James Giroday
+  - Jen Boger
+  - Ashley Beckett
+  duration_s: 3905.0
+  source_files:
+    primary: 8am-AI-2fbb87b6-01f0.json
+    primary_kind: json
+    other:
+    - 8am AI! Aug 27 2025 Summary.md
+    - 8am-AI-_2025-08-27.mp3
+    - 8am-AI-c23b7624-ffd8.docx
+utterances:
+- id: u1
+  speaker: David Olsson
+  t_start: 23.0
+  t_end: 61.0
+  text: How's it going in Squamish? Been hot last couple days. Scorching here. Yeah, it was up last Friday and surprisingly it was a lot nicer there than it was here. Just because I think the humidity. Yeah, it's been weird. It's been good, though. Good. Summer coming to a close. I can feel it in the morning. Good morning, Spencer. Feel it in the morning. It's cooler now. You get that heavy precept in the morning. It's not too bad. It's. It's still dry. It's still dry and cool enough, but. Yeah, yeah, but it's. It is. It's changing.
+- id: u2
+  speaker: Graham Fawcett
+  t_start: 64.0
+  t_end: 66.0
+  text: Where are you located? Miles.
+- id: u3
+  speaker: David Olsson
+  t_start: 66.0
+  t_end: 67.0
+  text: Squamish.
+- id: u4
+  speaker: Graham Fawcett
+  t_start: 67.0
+  t_end: 68.0
+  text: Squamish, nice.
+- id: u5
+  speaker: David Olsson
+  t_start: 68.0
+  t_end: 79.0
+  text: Yeah, we get that right at this time of year. We get that heavy, like thick dew in the morning just because I guess the humidity level. But quite hot here.
+- id: u6
+  speaker: Graham Fawcett
+  t_start: 80.0
+  t_end: 81.0
+  text: Mountain dew.
+- id: u7
+  speaker: Spencer MacBeth
+  t_start: 81.0
+  t_end: 82.0
+  text: Eh?
+- id: u8
+  speaker: David Olsson
+  t_start: 83.0
+  t_end: 109.0
+  text: It's also the water. I have a friend who introduced me to the word foggus. Okay. Yeah. Because he works on the water. And during August it's. The humidity is everywhere and Squamish gets all that wind from the water. I think that helps. I lived. I was lucky enough to live in Squamish for 10 years, so I really like Squamish August. I'm gonna write that down.
+- id: u9
+  speaker: Spencer MacBeth
+  t_start: 111.0
+  t_end: 116.0
+  text: I'm just stepping into spring now. I mean, I'm. I'm working from Argentina, so I'm. I'm.
+- id: u10
+  speaker: David Olsson
+  t_start: 116.0
+  t_end: 117.0
+  text: Oh, my God.
+- id: u11
+  speaker: Spencer MacBeth
+  t_start: 117.0
+  t_end: 124.0
+  text: Experiencing spring in September after I've been. I've been in winter this whole time we've been on these calls.
+- id: u12
+  speaker: David Olsson
+  t_start: 125.0
+  t_end: 130.0
+  text: Oh, no way. I thought you were local here in Kelowna. So what time zone are you in?
+- id: u13
+  speaker: Spencer MacBeth
+  t_start: 131.0
+  t_end: 134.0
+  text: It's noon where I am right now. Yeah.
+- id: u14
+  speaker: Fulvio Ciano
+  t_start: 134.0
+  t_end: 135.0
+  text: All right.
+- id: u15
+  speaker: David Olsson
+  t_start: 135.0
+  t_end: 138.0
+  text: So you're well on the east coast or something?
+- id: u16
+  speaker: Spencer MacBeth
+  t_start: 138.0
+  t_end: 140.0
+  text: Well, on the east coast, yeah.
+- id: u17
+  speaker: David Olsson
+  t_start: 141.0
+  t_end: 199.0
+  text: Okay. That's cool, man. It's a neat revelation. Good morning, everyone. Hey, Jen. Good morning. Actually, I'm glad that you guys have something to chat through today. I got excited about the playground a little while ago and it's going to be a great place to play with transcripts. And then this morning I went for a dog walk. We got a cold mask, I went for a dog walk. And I was like, wait a minute, I could hook up my GitHub repos to the playground and like, oh, yeah, let's try that. So that's what's going to go on in the background today when we're chatting. Nice cursor. Is going to figure out how to actually get GitHub repos inside the playground so that it can analyze the repos directly so that we can just put in the 8am repo and then we can create agents dynamically with it and.
+- id: u18
+  speaker: Graham Fawcett
+  t_start: 199.0
+  t_end: 200.0
+  text: Then do whatever we want.
+- id: u19
+  speaker: David Olsson
+  t_start: 201.0
+  t_end: 219.0
+  text: It's a great place to prototype. And then I'm like, yeah, we can just connect the repo. GitHub, man. If you could buy stock in GitHub, I would do that. I mean, you can, you can still buy stock in them too. I thought Microsoft bought them.
+- id: u20
+  speaker: Fulvio Ciano
+  t_start: 220.0
+  t_end: 222.0
+  text: You got to buy stock and clippy.
+- id: u21
+  speaker: Jason Kryski
+  t_start: 222.0
+  t_end: 223.0
+  text: At the same time.
+- id: u22
+  speaker: David Olsson
+  t_start: 223.0
+  t_end: 245.0
+  text: That's the thing. That's why he's like, it would better if it was like a, you know, substrate sub. Yeah, I would like class. I would like the GitHub class of Microsoft. Good morning, Jason. Since. Good, full room. I will show a picture. It's coming along.
+- id: u23
+  speaker: James Giroday
+  t_start: 246.0
+  t_end: 251.0
+  text: I like that new world map you've got back there. Is that new? Looks like glasses in session.
+- id: u24
+  speaker: David Olsson
+  t_start: 251.0
+  t_end: 259.0
+  text: Yes, it is very new. It's new from 1954 by Nestle's Jersey milk chocolate bar.
+- id: u25
+  speaker: James Giroday
+  t_start: 260.0
+  t_end: 261.0
+  text: Unreal. That's awesome.
+- id: u26
+  speaker: Jason Kryski
+  t_start: 262.0
+  t_end: 265.0
+  text: That's a pretty racist map if we looked at it closely.
+- id: u27
+  speaker: David Olsson
+  t_start: 266.0
+  t_end: 278.0
+  text: Oh, man. Anything back then. I like, I, I do like looking at maps from various periods of time. And when I lived in Saudi Arabia, it was always cool to get a map there because it wasn't the same map you got anywhere else in the.
+- id: u28
+  speaker: Graham Fawcett
+  t_start: 278.0
+  t_end: 279.0
+  text: World.
+- id: u29
+  speaker: David Olsson
+  t_start: 280.0
+  t_end: 310.0
+  text: Because everything was, you know, Arab centric. So it wasn't the Persian Gulf. There was no, there was no Israel. There was just Palestine. But we'll drop that right there. Analyze repo, man. And there's the 8am GitHub repo. So it's coming along. Coming along. I think we have some sort of weird quorum today, so I'm going to hand off to you guys, man.
+- id: u30
+  speaker: Fulvio Ciano
+  t_start: 310.0
+  t_end: 311.0
+  text: Cool.
+- id: u31
+  speaker: Graham Fawcett
+  t_start: 311.0
+  t_end: 578.0
+  text: Yeah, thank you so much. I'll start off doing my side of the demo and then I'll hand it over to Spencer. So just going to share my screen here. So here we have Mercury and this is our, I think our version two. This is my build. We got another build going on, but. So Mercury is our agent intelligence conversation design system. So we've been working a lot with clients doing outbound conversational agents. And were doing that in low code, no code tools, and we really wanted to figure out what it is we needed to build. This is our first version, what we think we need to build. What we have here are a few different features. We have the ability to create a Persona, create a contact and to create a conversation. What I'M going to do here is I'm going to create a Persona. The Persona is basically the user prompts that we're using to define an outbound agent or what we're allowing our users to use to define an outbound agent. What I'm going to do here is I'm just going to create an external id. I'm just going to give it a Persona name. Its role is going to be sales. We have a few different roles we're still exploring how do we frame these outbound agents and what roles are actually fulfilling. I'm going to add in business description. Just throw in some information. We got tone here. So she's energetic and helpful. Again we gotta add her name in here. Again we got sales representative. That's her name right now. Job description, super basic. She does cold outreach essentially and where she's located, lona. We have Lead Source Organic and Lead Magnet, a free 20 minute AI assessment campaign context. Right now I'm just keeping it basic. I'm just saying organic outreach and then a call to action strategy. It's just basically coming back to the idea of we want to convey the value of what our platform is doing and hopefully getting them into a 20 minute AI assessment. We have a global URL here. Where our system's design is designed is if you don't have, you can create contacts. If contacts don't have like a URL associated with them that you're trying to drive them to, we can add it in at the Persona level and it will send that URL to them. Not going to do any of these qualifying questions or anything like that. The only thing I really want to focus on is just having a common objection. So the big thing about sales or engaging with potential lead potential customers is overcoming their objections. And so we really try to. One thing that we've really done working with our clients is refining what these objections are refining how we might want an outbound agent or an inbound agent to respond to a specific objection depending on the goals of our clients. So if I do this, I create a Persona. Here we have Ava right here. We can view her and it's just like the basic information. But what I'm going to do is so this is our platform and you can do create Personas, everything like that. But we also have a set of APIs. And really what we're trying to do is work with ou
+- id: u32
+  speaker: Graham Fawcett
+  t_start: 588.0
+  t_end: 611.0
+  text: And I go down here, I just need to do some configuration to make sure that our automation is running properly. These values here are important for actually sending the right data and actually connecting and having a successful API request. So just adding that in these will be populated as we go through.
+- id: u33
+  speaker: David Olsson
+  t_start: 612.0
+  t_end: 613.0
+  text: So.
+- id: u34
+  speaker: Graham Fawcett
+  t_start: 615.0
+  t_end: 682.0
+  text: This contact is all ready to go. I head over to our automation. This is the workflows in High Level. This is what we're using to connect, basically do the API requests. I come in here, I just need to make a quick update. You see here we got this branching automation. That's basically what this is doing fundamentally is facilitating a conversation loop between the conversational context and the agent as managed in Mercury and the channel and the contact as managed in High Level. So if I come in here, all I need to do is update this to make it the proper Persona External ID that I created in Mercury. So I update that, I save it, come back here to the contact.
+- id: u35
+  speaker: David Olsson
+  t_start: 685.0
+  t_end: 686.0
+  text: And.
+- id: u36
+  speaker: Graham Fawcett
+  t_start: 686.0
+  t_end: 715.0
+  text: All I'm going to do is just add them into the automation refresh here.
+- id: u37
+  speaker: Spencer MacBeth
+  t_start: 717.0
+  t_end: 741.0
+  text: Yeah, and basically just to jump in like with one of the reasons we like High Level is we're able to duplicate these workflows and so like, and also it has really nice integration with sms. So one of the things that we can do now that we have this platform and one of the ideas behind it was all we have to do is duplicate the workflow and change that Persona ID and we have a whole new campaign and our clients can go in and like iterate.
+- id: u38
+  speaker: Graham Fawcett
+  t_start: 741.0
+  t_end: 742.0
+  text: And test.
+- id: u39
+  speaker: Spencer MacBeth
+  t_start: 743.0
+  t_end: 749.0
+  text: And yeah, we can like spin up new campaigns and like very rapidly now. That was the goal.
+- id: u40
+  speaker: Graham Fawcett
+  t_start: 750.0
+  t_end: 780.0
+  text: Yeah. So here we have the basic test, the first SMS coming through from the agent. I'm not so concerned about what this content says right now. I'm just trying to show that it's working end to end. I definitely would refine this to make it a little bit more exact. It's a little long winded for a first text, but it's just showing that okay, this contacts received this message from the agent. If I go over to my messenger. You guys aren't seeing this, but I'm going to respond. Just going to respond with that objection. I had.
+- id: u41
+  speaker: David Olsson
+  t_start: 789.0
+  t_end: 792.0
+  text: I see they have AI agents in their tray.
+- id: u42
+  speaker: Graham Fawcett
+  t_start: 793.0
+  t_end: 797.0
+  text: Yeah, we don't believe in building. Building with those.
+- id: u43
+  speaker: David Olsson
+  t_start: 798.0
+  t_end: 813.0
+  text: Yeah. So I'm with you on that kind of thing. There's usually a reason for it though, because integrations are expensive, but yeah, usually they offer some sort of watered down thing that just doesn't kind of respond very well. Exactly.
+- id: u44
+  speaker: Graham Fawcett
+  t_start: 814.0
+  t_end: 843.0
+  text: So I'm just, I've responded here. I'm worried about the agent sounding inauthentic and so we'll wait for this to process. So this automation is. It's going to wait for a few minutes to capture potentially multiple contact responses before it aggregates that message and sends it to Mercury. So I'm just going to show you guys at a high level kind of what our requests are going over to Mercury and just if I.
+- id: u45
+  speaker: Spencer MacBeth
+  t_start: 843.0
+  t_end: 862.0
+  text: Can quickly say the reason we do that is like one of our learnings from our first campaigns was sometimes you see people responding like, hey, sounds good, but wait, I can't talk right now in like separate messages. And like. So it's just about capturing like all that context in one thing. And that's why we have this like branching structure versus just.
+- id: u46
+  speaker: Graham Fawcett
+  t_start: 862.0
+  t_end: 865.0
+  text: Yeah, it's a limitation of high level.
+- id: u47
+  speaker: David Olsson
+  t_start: 867.0
+  t_end: 874.0
+  text: Understood. I got caught in that same understanding of how to make chatbots until I figured out a way around it. But the platform is deterministic.
+- id: u48
+  speaker: Spencer MacBeth
+  t_start: 876.0
+  t_end: 878.0
+  text: Yeah, it's water folly, this thing.
+- id: u49
+  speaker: Graham Fawcett
+  t_start: 880.0
+  t_end: 1073.0
+  text: But if we come in here, we can see the custom code configuration that we're doing or the custom webhook configuration that we're doing to basically do the Mercury API request. So this use case here is create first message. And the way that you can distinguish that is you can generate the Persona message. So this basically says, yes, I want the Persona that this request is coming in for to generate a message. And then basically this here is the ability to append that message to Mercury's message bubble, which I'll show you in a second. But this request here can serve dual purposes. It can do a first message, which is a logical decision that we made in Mercury, like this message type decision that we've made. But it can also do response messages. It's not limited by. It can, it can handle multiple data points. So and the reason it can do that is because we have another use case down here which is basically the request that is sending the aggregated contact response message to Mercury. And so this is we're not expecting the Persona to respond in this case, and we're not expecting a message to be generated. But because this automation is a loop, when the contact goes out and comes back in and hits that first request again, a response message will be generated and the flow of conversation will continue. While we're waiting for the message to come back here, we'll just go over and we'll have a look at Mercury. So here we have Explore Conversations. And this is basically a tool that we're using to not only show the ongoing conversation that's happening between a contact, as it's now been created in Mercury from high level between the contact and the agent, but it's also a place to iterate on how you want your agent to generate like this responses you want your agent to generate depending on the prompting that you've inputted in Persona creation. So it's kind of a. It's a tool for you to easily review what's going on in a live production conversation and then iterate on a agent that you haven't yet deployed to production from a conversational message content perspective. So this is what we got right now. You can see my contact came in. You can see that external ID that I used to create the contact is now here. And it's just the way that it's the unique identifier in Mercury, even though it's sour high level. And we can see here that we also have AVA and just the high level Persona information. So we're just waiting for this to finish running.
+- id: u50
+  speaker: Spencer MacBeth
+  t_start: 1074.0
+  t_end: 1078.0
+  text: Maybe while we're waiting, I'll jump in and just show the other side of the evaluations and everything.
+- id: u51
+  speaker: Graham Fawcett
+  t_start: 1079.0
+  t_end: 1080.0
+  text: Sure.
+- id: u52
+  speaker: Jason Kryski
+  t_start: 1080.0
+  t_end: 1081.0
+  text: Cool.
+- id: u53
+  speaker: Spencer MacBeth
+  t_start: 1081.0
+  t_end: 1088.0
+  text: I'll take over for a moment. So that was I guess, the sort of like conversation design side of things. And then now I will show.
+- id: u54
+  speaker: David Olsson
+  t_start: 1089.0
+  t_end: 1090.0
+  text: I.
+- id: u55
+  speaker: Spencer MacBeth
+  t_start: 1090.0
+  t_end: 1123.0
+  text: Will show the agent intelligence piece. I've got a deployment here that's got a lot more features. This is actually the docs. This is the next version that I'm going to release. The demo was built on the previous version. Things have changed a little bit in the UIs. Now you can do batch operations like batch deletes and all this fun stuff, and you can manage things a bit more nicely than those cards. And now there's this whole evalu. This was the.
+- id: u56
+  speaker: David Olsson
+  t_start: 1123.0
+  t_end: 1124.0
+  text: What was.
+- id: u57
+  speaker: Spencer MacBeth
+  t_start: 1123.0
+  t_end: 1245.0
+  text: What Graham was showing was the conversation design piece. It was also missing this skills, which skills are sort of like, you know, arbitrary things that you can add that are like, you know, sentiment analysis or code generation or like JSON parsing or knowledge Bases, all this type of stuff. And so that's one piece that wasn't in the other demo. And then the other piece that I wanted to show what's like is the agent really the agent intelligence side is like this evaluations and monitoring thing. So looking at the sidebar here, we have like evals set up for like Personas and skills. So I guess, you know, you can imagine the flow is first you sort of eyeball how your agent's looking in the conversation window that Graham showed, then you can actually run evals. And what we actually usually do is because things are non deterministic, we run evals at a sample size. So we could say, okay, we set up a test case, we want to validate the output has X amount of things against this. Say it's like, oh, I want to make sure that the skill is always containing this value or the skill is always finishing in this amount of time, or it always passes or passes in X amount of cases. You can put a sample size of 1000 in here and a confidence level and that will run a test. It'll do it in this very cool thing that probably going to go too far into the weeds here called a step function distributed map, which this is basically a system in AWS that allows you to run things in parallel. And it's fully serverless. I can spin up a thing that executes in this, run like 4000 jobs. It made 4000 OpenAI calls and it finished in. The total execution time for this was six minutes.
+- id: u58
+  speaker: David Olsson
+  t_start: 1246.0
+  t_end: 1247.0
+  text: What?
+- id: u59
+  speaker: Spencer MacBeth
+  t_start: 1247.0
+  t_end: 1254.0
+  text: Yeah, it's a beautiful thing. And it's serverless, so it scales up and down as you need it.
+- id: u60
+  speaker: David Olsson
+  t_start: 1254.0
+  t_end: 1260.0
+  text: So it only serverless infrastructure for calling.
+- id: u61
+  speaker: Spencer MacBeth
+  t_start: 1260.0
+  t_end: 1276.0
+  text: Serverless infrastructure. That's right. So I don't have like a server Anywhere running 247 that can. That is capable of running 4000 things. It's just. You need to run 4000 things. There you go. Six minutes done. So I won't go too far into the weeds.
+- id: u62
+  speaker: David Olsson
+  t_start: 1276.0
+  t_end: 1279.0
+  text: Okay, cool. We'll talk another time about it. Yeah.
+- id: u63
+  speaker: Spencer MacBeth
+  t_start: 1279.0
+  t_end: 1382.0
+  text: And then. And then the other thing that's really cool. And you know, the other biggest learning that we had here is like, great, you eyeballed your conversations great. You ran your non deterministic evals to a point where you're like satisfied that like 90 of the times things are going well still if you're running things at scale, you want some kind of monitoring in there. So here, this is basically ongoing monitoring for conversations tied to a Persona. You can do different types of monitors, hallucination detection, sentiment Analysis, support escalation, like string analysis or just like custom prompts. And then for these you can set like an alerting threshold and you can send email alerts. So if you have like a pager set up, God forbid you're able to like page someone or just send an email report for this particular Persona that you want to be monitoring. And you know that's just kind of, you need that for these non deterministic things. So I'm going to share on the side here. While this API and this platform is not publicly available, we are working on a community edition right now. We just deploy a separate instance and a separate database for individual clients because I've written it all as infrastructure, as code so I can just spin it up really easily. But I'll put the docs in the chat here and maybe send it out after because these things tend to get lost. If anyone's interested to have a read through that. And yeah, I rambled on a bit there. I will pass it back over to Graham. But yeah, if you're interested in that, just feel free to shoot me a message anywhere, email, whatever.
+- id: u64
+  speaker: Graham Fawcett
+  t_start: 1386.0
+  t_end: 1406.0
+  text: Cool, thanks Spencer. Just rounding out this, we can see that the conversation has come back and this flow can, will continue in perpetuity as long as the lead continues to respond. So that's it on the high level side. And if we refresh here, when you.
+- id: u65
+  speaker: David Olsson
+  t_start: 1406.0
+  t_end: 1416.0
+  text: Say the lead will continue, will it will continue on script and pulling from or continue? Like how does it end? How do you know?
+- id: u66
+  speaker: Graham Fawcett
+  t_start: 1417.0
+  t_end: 1461.0
+  text: It ends in three ways. So if the lead continues to respond, the conversation will continue if the lead stops responding. Because we're designing this around marketing sequences, we have mechanisms that will fire, bump or follow up messages from the agent at a set point in the future. And that will happen a few times and then we'll say, okay, this person's not responding, let's end the conversation. There's other mechanisms in place around what justifies closing the conversation prematurely. One of those is if it's an SMS campaign and the person says this is the wrong number, we take that value. We immediately say this is a close conversation and that person is basically removed from the, on the high level side, from the workflow.
+- id: u67
+  speaker: David Olsson
+  t_start: 1461.0
+  t_end: 1462.0
+  text: Cool.
+- id: u68
+  speaker: Graham Fawcett
+  t_start: 1462.0
+  t_end: 1478.0
+  text: Or if the person says like don't talk to me anymore, stop messaging me. That's a clear indication we need to close this conversation. And so we do that. But yeah, we can see this conversation is represented here as well for the end, for the user.
+- id: u69
+  speaker: David Olsson
+  t_start: 1478.0
+  t_end: 1479.0
+  text: Well that's really cool.
+- id: u70
+  speaker: Graham Fawcett
+  t_start: 1481.0
+  t_end: 1527.0
+  text: And it's Again, like, so this is, that's the end of the demo. But just to sum it up, like, we want to be able to enable people to effectively manage conversational context over time because we think that's like an essential data point that we can use to enable effective agents. So the more that we bring our clients on board to Mercury via, you know, high level automations that we've enabled, and the more that we can get users leveraging our APIs in other to integrate with other systems and are finding practical value that this conversational context is really improving the agents that they're deploying. We see value in that. So that's what we're striving for.
+- id: u71
+  speaker: Spencer MacBeth
+  t_start: 1530.0
+  t_end: 1561.0
+  text: Just to tag onto that, like also effective, efficient quality mechanisms for bringing a human into the loop when necessary, such as the monitoring system sending out an alert email if you see like, hey, 5% of your messages had like really negative sentiment or 5% of your messages, you know, like, weren't sending the call to Action link or whatever metrics that you care about so that you can go in, adjust the configuration and then, you know, rapidly deploy an updated version and like measure against it.
+- id: u72
+  speaker: David Olsson
+  t_start: 1561.0
+  t_end: 1590.0
+  text: Yeah, so there's integrations are always kind of, they're complex. And so I'm wondering where you find your control planes in this. Like, I'm using that phrase a lot like these days because you can establish when like even your protocol is to me is the control plane. Like the JSON protocol you said has more than one utility. It has even in its one structured piece. So I'm just wondering how you see or where you see your control planes.
+- id: u73
+  speaker: Spencer MacBeth
+  t_start: 1591.0
+  t_end: 1665.0
+  text: I can take that one. So like, obviously we have the UI in which you configure like the actual Personas themselves and that's like the control plane for the content of the Persona. The endpoint that Graham showed, the webhook is really like an RPC endpoint where you're able to sort of do things on the fly. It has this notion of an external id. So that's to enable people who want to do workflows without having to go do a bunch of setup up front. Graham showed the configuration of the contact ID in like a manual step. But even that, if you already have your own external identifier, you don't need to do anything, you just need to pass all of that through. The idea is the workflow themselves can be the control plane dynamically and that's just to produce the onboarding friction. What we didn't show here and was detailed in Those API docs is there is a full REST API for configuring everything in the background. So if you want to set up a platform, if you're more technically inclined or you have your own automations in place or web apps in place that you want to leverage this with, you can create your own control plane for it as well inside your applications. Does that, does that mostly answer your question?
+- id: u74
+  speaker: David Olsson
+  t_start: 1665.0
+  t_end: 1720.0
+  text: Oh, totally. Not exactly. I see. I'll use another word that I use all the time too. Is like you found substrate for your stuff and it's. It's the fluid moving through the pipes and how you shape that. So you're so back in the day we call you packet shapers but you also have call to action all over the place. So. But yeah, you've shown a whole lot of. Of the validation and eval component and how you have strategies around that and how you're trying to surface your stuff as the. Like how I see it anyways, you surface your experience as the core point of contact and that the substrate, what you call it. So I missed that a long time ago. I put up two blind eyes to CRMs and it's been a problem. So what was the name of the CRM?
+- id: u75
+  speaker: Graham Fawcett
+  t_start: 1721.0
+  t_end: 1722.0
+  text: That one's Go High Level.
+- id: u76
+  speaker: David Olsson
+  t_start: 1722.0
+  t_end: 1741.0
+  text: Go High Level and using it significantly, I think that's a pretty smart way to go. And then figuring out. So how about this? Figuring out how to migrate your. Your stuff to a new platform will be a really interesting process.
+- id: u77
+  speaker: Graham Fawcett
+  t_start: 1742.0
+  t_end: 1743.0
+  text: Yeah.
+- id: u78
+  speaker: Spencer MacBeth
+  t_start: 1744.0
+  t_end: 1765.0
+  text: It'S already all set up to do that. If you're using N8N or make. That's the point of the RPC API there. It's just like, it's kind of one of the things that we started with here was like, okay, great. Our first implementations was really coupled to high level. This was like how do we become CRM agnostic? And that's one of the reasons that we developed this API.
+- id: u79
+  speaker: Jason Kryski
+  t_start: 1766.0
+  t_end: 1776.0
+  text: Yeah. On the E commerce side to kind of advantage that you'd want to. You'd be able to leverage attentive or Klaviyo to do that flow management and sending.
+- id: u80
+  speaker: David Olsson
+  t_start: 1778.0
+  t_end: 1780.0
+  text: The connection points like the points.
+- id: u81
+  speaker: Jason Kryski
+  t_start: 1780.0
+  t_end: 1790.0
+  text: Of contact as opposed to go high level because they're all kind of like have whatever kind of like conditional flow management and then actual message sending.
+- id: u82
+  speaker: David Olsson
+  t_start: 1791.0
+  t_end: 1801.0
+  text: Because those are so cool, man. So the sequence diagrams for your stuff would be quite amazing. Yeah.
+- id: u83
+  speaker: Spencer MacBeth
+  t_start: 1801.0
+  t_end: 1803.0
+  text: Maybe you can show us how to put them in a PDF and sell them.
+- id: u84
+  speaker: Graham Fawcett
+  t_start: 1804.0
+  t_end: 1805.0
+  text: Yeah.
+- id: u85
+  speaker: David Olsson
+  t_start: 1806.0
+  t_end: 1854.0
+  text: Yeah. Well I'd like to be able to get that last bit Done too. But yeah, no. So talking to another company about helping them out and in a way that would be a weird leveraging of IP too. IP as well on our side. Just it's not straightforward here. Use some things. It would be like we'll go inside and help you figure out what it means. So interesting times on my side. But I think what I'm trying to get it like you've got this, and Jason was pointing at it too is like you've got this thing and it's pretty cool where you're tooling it and it's got to be like a snake or something. I don't know. That goes through a lot of pipes. That's how I see it. It's pretty crazy. Thanks for demos guys.
+- id: u86
+  speaker: Spencer MacBeth
+  t_start: 1854.0
+  t_end: 1855.0
+  text: Those are great.
+- id: u87
+  speaker: David Olsson
+  t_start: 1854.0
+  t_end: 1861.0
+  text: I have a question about your SMS provider and have you considered using voice at all?
+- id: u88
+  speaker: Graham Fawcett
+  t_start: 1862.0
+  t_end: 1889.0
+  text: Right now we're just focused on text based communication channels. We haven't bridged that gap into voice yet. But that high levels in SMS is using Twilio on. Okay on the underside and so they have a markup on SMS costs essentially it's like part of their usage based business model. So we're using high level in that instance for using SMS or using that channel.
+- id: u89
+  speaker: Jason Kryski
+  t_start: 1889.0
+  t_end: 1895.0
+  text: Is there an SMS provider that's not. Doesn't end up at Twilio like is Twilio only one?
+- id: u90
+  speaker: Spencer MacBeth
+  t_start: 1895.0
+  t_end: 1897.0
+  text: Nope, not that I've ever seen.
+- id: u91
+  speaker: David Olsson
+  t_start: 1898.0
+  t_end: 1910.0
+  text: That was such a smart thing when it came out. I got so interested in it. Well, thank you for the demo. That was really cool. Is there more interest in chatting through it, critiquing it?
+- id: u92
+  speaker: Jen Boger
+  t_start: 1912.0
+  t_end: 1947.0
+  text: I have a couple of questions on the user side because thank you for the demo. This is super cool. I love that you can analyze the conversations afterwards to really think about how people are receiving your chatbots. So you can maybe fine tune them to customers of interest and to the type of people you want to capture. So that's super awesome. Couple of questions. How do people feel about having an AI agent text them? Have you gotten any feedback on that?
+- id: u93
+  speaker: Graham Fawcett
+  t_start: 1950.0
+  t_end: 1957.0
+  text: It's a spectrum. There's geek level, there's some.
+- id: u94
+  speaker: David Olsson
+  t_start: 1957.0
+  t_end: 1959.0
+  text: There's something smiling really loud.
+- id: u95
+  speaker: Fulvio Ciano
+  t_start: 1960.0
+  t_end: 1963.0
+  text: Tell us, tell us the two ends of the spectrum.
+- id: u96
+  speaker: Jen Boger
+  t_start: 1963.0
+  t_end: 1965.0
+  text: Yeah, I, I can guess at them.
+- id: u97
+  speaker: Graham Fawcett
+  t_start: 1965.0
+  t_end: 2014.0
+  text: But yeah, well like I guess in the early going it was a lot more obvious but we definitely had some agents that have made it. Some people know and some people call it out and then they're. They're not engaged. Some people have very much responded with well to the experience and I think the reason that Is. Is as we've evolved our design of how we're deploying these agents, we've also improved the personalization. So the campaigns that were a lot more personalized and were actually calling out specific information about that contact, I don't think they really cared. They liked the fact that it was engaging for them and then it was facilitating the actions that we wanted them to take. So.
+- id: u98
+  speaker: Spencer MacBeth
+  t_start: 2016.0
+  t_end: 2051.0
+  text: Maybe just to clarify something in this example, like were showing it for an AI agent platform, but like most of the time, and we provide our clients this option, the agents don't disclose that they are AI, even when asked. Sometimes people will say, oh, hey, I can tell you're AI or whatever. That's gone down over time. But yeah, like, just to. Just to be clear, like, that's something that's an option we provide to the client. And like, unanimously, people have always chosen, don't reveal that it's AI, like, even when asked.
+- id: u99
+  speaker: Jen Boger
+  t_start: 2052.0
+  t_end: 2122.0
+  text: Interesting, because like, that was. That's a lead in for kind of. My next question is thinking about trust and things like that. You know, if you're a potential client and you're not told you're interacting with a bottle and then you find out like that too, I could see that putting a lot of people off. And I guess, I mean, to your point, it's up to the person who's using it to decide whether they want to disclose that up front or not. But it's, you know, as you're doing your demo, I found it so ironic that, you know, an AI bot is assuring someone that it's a whole essential, except for it's not revealing in the first place that it's an AI bot. You know, a bit of a. I'm thinking about, you know, responsible, equitable use and sorry, I will be that rain on the parade of what we can do. And just all the kind of stuff that's going on that's unintentional because people didn't realize it was the bot.
+- id: u100
+  speaker: Graham Fawcett
+  t_start: 2122.0
+  t_end: 2131.0
+  text: Is that inauthentic, though, that it's. That it's not saying that it's a bot or not because we have amazing experiences with agents.
+- id: u101
+  speaker: David Olsson
+  t_start: 2132.0
+  t_end: 2135.0
+  text: Is it Scooby morphic to think that you have to say I'm a bot?
+- id: u102
+  speaker: Jason Kryski
+  t_start: 2135.0
+  t_end: 2137.0
+  text: Yeah, I don't know. I want to make.
+- id: u103
+  speaker: Jen Boger
+  t_start: 2139.0
+  t_end: 2156.0
+  text: Yes, but if you ask it, if it's a bot, it can't lie about being a bot? I think that's inauthentic. Right. Like if you ask someone, are you a bot and they're a human, they're like, no, I'm a human. But if you ask a bot, are you a bot? And they're like, no, I'm not a bot. It's like, now that's. That's just downright lying.
+- id: u104
+  speaker: Jason Kryski
+  t_start: 2159.0
+  t_end: 2161.0
+  text: If the bot identifies as a human.
+- id: u105
+  speaker: Jen Boger
+  t_start: 2162.0
+  t_end: 2183.0
+  text: Like, are we not so. Exactly, Jason. So in that. In that text that you saw, let's set up a call together, right? So if someone says, sure, let's take a do that, do you now have a human agent who has to pretend their name's Ava? Because that's what the bot's name is, you know, like, yeah.
+- id: u106
+  speaker: Graham Fawcett
+  t_start: 2185.0
+  t_end: 2191.0
+  text: I think you almost never have the agent being the one you're expected to have in the room.
+- id: u107
+  speaker: Jason Kryski
+  t_start: 2191.0
+  t_end: 2223.0
+  text: I think if you extrapolate this out just a little bit, like six months, a year, the expectation of whether or not you're talking to a human or a bottle, it just diffuses. So this is maybe like a problem or a. It's an ethical thing now. And I totally get where your position is on that gent, but I think it's like, a bunch of stuff will happen and then no one will care and it won't matter. And so how much do we want to care and make it matter now? Like, you guys see, like, Nano Banana yesterday?
+- id: u108
+  speaker: Jen Boger
+  t_start: 2224.0
+  t_end: 2225.0
+  text: Yeah, I saw that.
+- id: u109
+  speaker: David Olsson
+  t_start: 2225.0
+  t_end: 2226.0
+  text: Great.
+- id: u110
+  speaker: Fulvio Ciano
+  t_start: 2226.0
+  t_end: 2227.0
+  text: Right?
+- id: u111
+  speaker: Jason Kryski
+  t_start: 2227.0
+  t_end: 2250.0
+  text: And so people have been using it. It's like a new Google Image model, and it's so good when combined with VO3. Like, you really can't tell. So on the advertising side, people are making ads with it. It's crazy. And like, on X, it's like, wow, like, boomers have no idea. Like, there's a market segment or an audience segment where there's just a lack of awareness around AI, where their experience is great.
+- id: u112
+  speaker: Graham Fawcett
+  t_start: 2251.0
+  t_end: 2252.0
+  text: And.
+- id: u113
+  speaker: Jason Kryski
+  t_start: 2251.0
+  t_end: 2272.0
+  text: And then you kind of end up in this, like, do the ends justify the means kind of scenario where it's like, well, you know, they had a great experience. They really liked this. It was positive. They wouldn't have got it with a human because it was too expensive or didn't have the information. And thus, you know, we can justify our lack of disclosure around AI. There's a regulatory thing.
+- id: u114
+  speaker: Jen Boger
+  t_start: 2272.0
+  t_end: 2301.0
+  text: I completely agree with that. Because, you know, if you're having a good experience, who cares if you're getting the answers you want in the skills, customer service you want? Like, who. Who cares if it's a bot or a human? If it's sticking to the script and it's not doing erroneous things, great. No props. I think the. The part that I'd be like, huh. Is if you ask it should at least be honest. Yes, I'm a bot. Because in the long run, this then generates trust in talking to bots.
+- id: u115
+  speaker: David Olsson
+  t_start: 2301.0
+  t_end: 2302.0
+  text: Right.
+- id: u116
+  speaker: Jen Boger
+  t_start: 2302.0
+  t_end: 2329.0
+  text: If you ask a bot, are you a bot? And says, yes, I'm a bot. But you're like, I'm getting great customers, customer service with this bot. You stop caring whether it's a human or a bot because you start to be like, oh, I can't really tell the difference. Or even it's better when I talk to a bot. Maybe it starts to be like, you get a human. You're like, please transfer me to a bot so I can just like solve this the way I want to on my own time. Right. Which we laugh, but it could happen.
+- id: u117
+  speaker: Fulvio Ciano
+  t_start: 2329.0
+  t_end: 2331.0
+  text: So it is happening for sure.
+- id: u118
+  speaker: Jen Boger
+  t_start: 2331.0
+  t_end: 2359.0
+  text: You know what I mean? It's like at first you might think, like, being honest, like, yes, I'm a bot would be off putting, and it might at first, but it's one of those, as people acclimatize to bots just being, you know, one of the ways to interface with companies, then that's gonna, as Jason says, it's gonna go away. You know, it's more about, am I getting what I need out of this thing I'm talking to. Regardless of what type of entity it is.
+- id: u119
+  speaker: Graham Fawcett
+  t_start: 2360.0
+  t_end: 2381.0
+  text: We've seen that firsthand. We've seen it firsthand and that's what's driving us. Like, we really believe that agents will be the main interface that you have with a business and that they will provide exceptional experiences because they have complete context of who you are as a customer to that business.
+- id: u120
+  speaker: Jen Boger
+  t_start: 2381.0
+  t_end: 2383.0
+  text: And they're absolutely patient.
+- id: u121
+  speaker: Ashley Beckett
+  t_start: 2384.0
+  t_end: 2399.0
+  text: Yeah. I think right now too is most of our experiences with bots are horrible and we just want to get to a human because it's sucks. But what you're designing here is going to be a significantly better experience. And at the end of the day, they just want whatever they want from that conversation.
+- id: u122
+  speaker: Fulvio Ciano
+  t_start: 2399.0
+  t_end: 2466.0
+  text: Yeah, I'm sure we'll get to a point where the bots are performing well enough, if not better than a human. Okay. And, and I'm sure what Jen suggests that some people will prefer to have a bot is fine. My whole problem with the bot not answering that it's a bot has nothing to do with it's a bot. It has to do with you providing a service that is lying. Right. Like, so, you know, if your customer asks you a question and you give a lie back. Right. It's almost irrelevant whether that lie is the price or the, you know, or whether that's actually the product in the picture or not. Right. It, you know, it stops being about whether that you might be allowed to not have the same thing in the picture that you're actually selling to the customer. But if they ask you, you shouldn't lie about what you presented. Right. That, that becomes, it's the lie that becomes the problem, regardless of what the lie is. Right. Like it might be, might not matter that you might, there might be small print somewhere that says, you know, whatever, but you know, you're lying to your customer and if your customer can catch you in your lie, then you've done the damage, in my opinion. Right.
+- id: u123
+  speaker: Graham Fawcett
+  t_start: 2465.0
+  t_end: 2469.0
+  text: Yeah, that's really good feedback. That's really good feedback. Thank you both.
+- id: u124
+  speaker: Jason Kryski
+  t_start: 2469.0
+  t_end: 2562.0
+  text: The other side is that like strict, strategically like you as a startup, you know, small company, like, you know, basically we're trying to overcome like to Ashley's point, the previous like negative experience with like, you know, bots that are just kind of path dependent and so people have had bad experiences. We're trying to overcome that. We're talking about these disclosures. It's like you don't you want to like, I'm kind of like let the big companies, like the Microsofts and everybody take the arrows in the back to try and like spend all their money to convince everybody that these new AI bots are good. And then, you know, the smaller companies should try and skate like a ethical and regulatory line to advantage themselves while the society normalizes around things. Because you see these things happen all the time. Even these big companies, they go and they do a bunch of stuff that's like kind of heinous in order to achieve market position. And then once they have market position, it doesn't really matter. It's like if Meta is using all the Amazon books to train their models and they're like, oh well, maybe we owe them some money afterward, but we got to this place with our model and therefore like, you know, no backseats. But you see these decisions made all the time that are probably not great long term, but short term create enough value to be able to justify the thing. And I think that's where it gets really ethically and morally like nebulous.
+- id: u125
+  speaker: David Olsson
+  t_start: 2563.0
+  t_end: 2642.0
+  text: I work for a man called Angus Reed and he introduced dinner time polling in Canada. So he introduced the Runway for you guys to do SMS marketing by interrupting people's dinner time and asking them political questions. And he enabled that as a public right for businesses to do that, to be able to call up anybody at any time and ask them questions. And that changed the landscape which the media could function and then the political parties could function. So it was, you know, it's a, it was a thing that was just like Jason's talking about. It was in the gray area. It's like with possible man, there's nothing in the legislation that doesn't say don't do it. But there was a respect issue in the 70s at least, and the 80s around dinner time, and it wasn't to be interrupted, but he did that. He knew when people were sitting down at the table and he interrupted everybody. And so telemarketing really took off as a result of him legitimating that. And, and so there's, there is a period of time where there can be reactions to things. Ted Rogers did another thing in Canada. He introduced something called negative billing.
+- id: u126
+  speaker: Fulvio Ciano
+  t_start: 2642.0
+  t_end: 2645.0
+  text: I was just going to say that because I was where you have.
+- id: u127
+  speaker: David Olsson
+  t_start: 2645.0
+  t_end: 2660.0
+  text: We have these amazing innovators in Canada. And he actually did that. And you know, and everybody in Rogers, all of a sudden their bills would go up without them saying anything. And you had to actually say something for your bill not to change. And then that became legislated that you couldn't do that on people.
+- id: u128
+  speaker: Graham Fawcett
+  t_start: 2660.0
+  t_end: 2661.0
+  text: Right?
+- id: u129
+  speaker: Fulvio Ciano
+  t_start: 2660.0
+  t_end: 2706.0
+  text: And so people took Jason's approach because I was CEO of a telecom when that was going on. And everybody did it because. Because Rogers opened the door and did it. They all thought, well, Rogers is doing it, we can follow along. We did it too. Okay. Rogers was told not to do it, legislation passed and then everybody was hammered with fines, right? Hammered with fines. I mean, the fines were not small, they were huge. And we, everybody had to go back and pay back every negative billing dollar they had done retroactively to the thing. And it created a lot of complications and bad will and legal trouble. So you do have to be careful about the. They paved the way with this, you know, with this thing and then we followed you.
+- id: u130
+  speaker: David Olsson
+  t_start: 2708.0
+  t_end: 2751.0
+  text: So I bring them up as examples because it is, it. It is a thing, right? Like it is this gray space. But I believe that it is a skewy, morphic, a social mimetic thing where we will just by way of, within months recognize that we are going to have a front forefront. It'll be when the government in Canada kind of thing does it in a full contact way is like they say, well, now we have bots everywhere and we're not going to announce that you have to ask questions. They'll give you a protocol Right. Something like that. But I do think it is just a transitionary period because of the same reason that Angus Reed was successful. There's just too much benefit.
+- id: u131
+  speaker: Jason Kryski
+  t_start: 2751.0
+  t_end: 2796.0
+  text: I think you've got like a lot of faith in the regulators to be able to like have something that's nuanced, that balances the needs of kind of business and adoption. Because I can see them just being like this potential ARPA legislation that fell off in the U.S. it was like anything that's AI needs to be disclosed as AI. You know, like it needs a this is AI badge. And like, that's not helpful, you know, to be able to drive adoption and actually backfill the value that's potentially being created. Particularly, potentially, particularly in the, like the stock market. Like we saw what happened last week with that MIT study that came out that said, you know, all this investment is not yielding any value. And then the stuff, everybody's like, such a reactionary thing.
+- id: u132
+  speaker: David Olsson
+  t_start: 2796.0
+  t_end: 2826.0
+  text: The one thing I did want to comment on the bots thing is like, no matter disclosure, one company we're talking to right now, they have, they're talking to us because they had a really negative experience where they discovered in situ that they were talking to bots. Their, their CSRs were talking to bots, phoning them, fully having conversations and they were like, we don't know how long this has been going on. We don't know who's doing it. But we found out only because one went squirrely.
+- id: u133
+  speaker: Jen Boger
+  t_start: 2828.0
+  t_end: 2925.0
+  text: Yeah, I think, but to the point too is like everyone's saying, like it's going to progress. It's super new technology is moving super fast. So like any other new tech, it's going to take time for humanity to figure out how to coexist with it and where the lines are and how we define these. Except for this is on steroids now because it's, you know, I can't tell if you're a human or not really bothers people. I think one thing to think about carefully though when deploying our tech is if we are aware of some things like lying, degrading trust, then, you know, wouldn't we want to design to be a good actor in terms of like being really like. It shows that you're ahead of the curve. Right. In terms of like, we recognize lying about whether you're a bot or not can create trust in users. So if someone asks our bot if they're a bot, we say yes. And in that way too, you're positioning yourself as when regulations drop whenever and however that's going to evolve. You know, you don't have to retool your product and you don't have any backlash or less, I should say, because you're already erring on the side of transparency. I think that's the one that we see a lot over and over again is like, we're not sure how to handle this. All those things. There's so many things. Right. But transparency supports trust, which then supports people using.
+- id: u134
+  speaker: David Olsson
+  t_start: 2925.0
+  t_end: 2933.0
+  text: Yeah. Again, I'm going to point to Jason, like, I'm tired of having those discussions. And I want to point to Jason saying, point to Microsoft to figure those things out.
+- id: u135
+  speaker: Jason Kryski
+  t_start: 2934.0
+  t_end: 2941.0
+  text: I think I agree with you wholeheartedly, Jen. I just don't know if it's strategically advantageous for a business to follow 0.
+- id: u136
+  speaker: David Olsson
+  t_start: 2941.0
+  t_end: 2942.0
+  text: '0.'
+- id: u137
+  speaker: Fulvio Ciano
+  t_start: 2942.0
+  t_end: 2943.0
+  text: Well, it might be.
+- id: u138
+  speaker: Jason Kryski
+  t_start: 2943.0
+  t_end: 2955.0
+  text: It might not be. I'm kind of, I'm sitting here thinking, I'm like, oh, I want to go back and do analysis. I'm like, new technological innovations, their adoption. And then like, how those things were rolled out. Because I agree that, like, the way that you're describing it is the way.
+- id: u139
+  speaker: Fulvio Ciano
+  t_start: 2955.0
+  t_end: 2956.0
+  text: That it should be.
+- id: u140
+  speaker: Jason Kryski
+  t_start: 2956.0
+  t_end: 2986.0
+  text: But I think if you're a company that's starting at zero and you apply that and then you've got bigger companies with better market position or other more competitive advantages, and they're like, oh, we're going totally toe the line, then, like, what's the probability that you're going to be able to outpace them? If you're kind of working from a place that you already know, it's a slight disadvantage. And so I'm not advocating for doing something immoral or unethical. I guess I kind of am.
+- id: u141
+  speaker: Fulvio Ciano
+  t_start: 2986.0
+  t_end: 2991.0
+  text: At the same time. At the end.
+- id: u142
+  speaker: Graham Fawcett
+  t_start: 2991.0
+  t_end: 2996.0
+  text: Of the day, at the end of the day, I think the customer experience will make the question a moot point.
+- id: u143
+  speaker: Jen Boger
+  t_start: 2997.0
+  t_end: 3030.0
+  text: Exactly. And I agree with that. Is, I think the point, Graham, if your bots are providing exceptional experience, you don't care anymore if it's a bot or a human. If you're getting what you want out of it. Most people won't even ask exactly if, like. Right. And I think that's to the point. If you don't even ask, you don't care enough. And so whatevs. As long as you're getting what you want out of it. And you know, but to Fulvia's point, and that's. I think where I'm pointing to is if you ask it blatantly, are you a bot? It shouldn't lie.
+- id: u144
+  speaker: Fulvio Ciano
+  t_start: 3031.0
+  t_end: 3047.0
+  text: Well, you know, and you can handle it kind of smoothly, right? Like, the answer to are you a bot? Shouldn't be yes or no. It should be, would you like me to transfer you to a personalized human assistant? Right. Like, like, you know what I mean? Like, like. And, and that's when you etiquette even.
+- id: u145
+  speaker: David Olsson
+  t_start: 3047.0
+  t_end: 3049.0
+  text: Beyond James.
+- id: u146
+  speaker: Fulvio Ciano
+  t_start: 3051.0
+  t_end: 3061.0
+  text: This opposition is true. Because I bet you if the bot asks that, some people say no, it's okay. You know what I mean? They just want to know. They just might just want to know what they're dealing with. Right? Like.
+- id: u147
+  speaker: Graham Fawcett
+  t_start: 3065.0
+  t_end: 3067.0
+  text: James, I don't have.
+- id: u148
+  speaker: James Giroday
+  t_start: 3067.0
+  t_end: 3131.0
+  text: A lot of experience in marketing, but what stood out to me was you said that the campaign, maybe the second or third one that you rolled out with more personalization was more effective. And I mean, you could do it in a campaign or the really beautiful thing as Spencer showed was you could just test what is going to improve that customer experience. And it seems like, I mean, I know enough to know that like a lot of sales is built around trust. Like that whole conversation that's happening is a lot of it's building trust. So to me the question is like, what is the honest Persona and approach of a bot that is going to yield the best results and is it not Spencer, is it possible to simulate that, like, come up, like to just test it, like come up with a Persona, start running it through simulations in these serverless things and then just sort.
+- id: u149
+  speaker: Spencer MacBeth
+  t_start: 3131.0
+  t_end: 3155.0
+  text: Of like do it that way 100%. One of the features that isn't on Mercury yet, but like I have built in another app is like a hypothesis testing conversation simulation framework with like probability models around link clicks. It's hard to get the probability model right. That's very differentiated for different things. But like, that's something I'm looking to build into the actual platform eventually too. But to your point. Yes. Yeah.
+- id: u150
+  speaker: David Olsson
+  t_start: 3156.0
+  t_end: 3161.0
+  text: Can you point one bot, one of your bots at another, at the other at another of your bots?
+- id: u151
+  speaker: Spencer MacBeth
+  t_start: 3161.0
+  t_end: 3163.0
+  text: Yes, that's what I do in the hypothesis testing thing.
+- id: u152
+  speaker: David Olsson
+  t_start: 3163.0
+  t_end: 3164.0
+  text: Yeah, that's what I'm on campus.
+- id: u153
+  speaker: Fulvio Ciano
+  t_start: 3164.0
+  t_end: 3165.0
+  text: Cool.
+- id: u154
+  speaker: David Olsson
+  t_start: 3165.0
+  t_end: 3166.0
+  text: That's cool.
+- id: u155
+  speaker: Fulvio Ciano
+  t_start: 3168.0
+  t_end: 3169.0
+  text: Yeah.
+- id: u156
+  speaker: David Olsson
+  t_start: 3169.0
+  t_end: 3180.0
+  text: One of my first, like one of the first benefits I had to really getting value out of hallucinations was having multi, like having a council of Personas faking discretion in front of me. It was really good.
+- id: u157
+  speaker: Spencer MacBeth
+  t_start: 3182.0
+  t_end: 3184.0
+  text: Ashley, did you have something you wanted to add?
+- id: u158
+  speaker: Ashley Beckett
+  t_start: 3185.0
+  t_end: 3213.0
+  text: Yeah. Oh, I just wanted to ask. A few weeks ago were talking about context rot and it seems like context is so crucial to that workflow. Do you have any like secrets for like how have you come to like, context seems so crucial to what you've presented there. How are you, how are you sort of, I don't know, getting it to a point that it's usable when you're continuously adding to it. It's probably worded, but so like one.
+- id: u159
+  speaker: Spencer MacBeth
+  t_start: 3213.0
+  t_end: 3273.0
+  text: Of the things is surfacing when it goes bad and then, you know, being able to be a human and loop and go fix that, or like a bot in the loop as well. But another thing is like wrapped up in that API is a lot of the work that you can see that you're not just writing a prompt directly, you're basically providing configuration file. Behind there is workflows of prompts that do things like internal concepts. We've. We've constructed around message types and all this type of stuff. And, you know, the way that configuration is presented, certain global rules that are provided across prompts, all to just, you know, make that less of an issue. And over time, we continually improve that system. You know, that's why we're always looking to get more users into the system. But yeah, it's a real problem. And like, our first campaigns were like miles away from where we're at today with what we're able to do with respect to that.
+- id: u160
+  speaker: Graham Fawcett
+  t_start: 3274.0
+  t_end: 3318.0
+  text: It's about getting that the hard problem is what exact context needs to be in the context window of your agent at the time of execution, at the time that the output is being generated. And that's like the art of it. Yeah, that's what we're trying to figure out. So that's why we've honed in on like the notion of a conversation as at least a starting point, because it makes so much sense in the context of marketing communication is that if we have that context, well, then we can expand out into other data points about the business generally that might make sense to ingest in the context window at runtime.
+- id: u161
+  speaker: Jen Boger
+  t_start: 3319.0
+  t_end: 3320.0
+  text: Okay. Yeah.
+- id: u162
+  speaker: Ashley Beckett
+  t_start: 3320.0
+  t_end: 3321.0
+  text: Thank you.
+- id: u163
+  speaker: Fulvio Ciano
+  t_start: 3321.0
+  t_end: 3350.0
+  text: The general strategy towards removing context rot, because it's. It is a function of ever increasing context. It's context growing and growing. Right. And so is generally. And you see it in play all the time with lots of applications. The big one is in, you know, the context you have for a code base, right. Context creeps in as that context gets bigger and bigger. And generally what the strategy that's used in that space in that thing is, you know, summarization.
+- id: u164
+  speaker: Spencer MacBeth
+  t_start: 3351.0
+  t_end: 3352.0
+  text: Right.
+- id: u165
+  speaker: Fulvio Ciano
+  t_start: 3351.0
+  t_end: 3374.0
+  text: You take, when you know you're a preaching. When you know you're preaching a certain approaching. Excuse me, I'm very tired. Approaching the limit of the context window. You, you take the whole conversation, summarize it, condense it. Right. And then start a new context window. Right. So throw everything out and just use the summarization. Right.
+- id: u166
+  speaker: Ashley Beckett
+  t_start: 3373.0
+  t_end: 3386.0
+  text: So yeah, so this is where you have like, it's very important to have that context summary. Agent is a separate sort of identity, I guess who can like do that, translate that for a way for the model to take the next step.
+- id: u167
+  speaker: Fulvio Ciano
+  t_start: 3387.0
+  t_end: 3422.0
+  text: That's right. That's right. So, and you don't have to have it. I shouldn't say this because there is more than one approach to this. You don't have to have it live doing it all the time. You really only need a metric to know when you're reaching a certain threshold of the size of your context. It's not an agent has to be running all the time. It's like a hooked event that happens before you reset your context window. The last thing you do before you reset your context window is condensed and store, then open your new context window and dump in the fresh context.
+- id: u168
+  speaker: Ashley Beckett
+  t_start: 3423.0
+  t_end: 3424.0
+  text: That makes a lot of sense.
+- id: u169
+  speaker: Fulvio Ciano
+  t_start: 3425.0
+  t_end: 3491.0
+  text: That's generally how it's done. I say that is the approach being used to address the context problem. There's articles on it, so forth and all the rest. And you see it recently in some very specific tools that have not just done this, but documented that this is what's going on and that's how the approach is being done. The problem is that all the models are changing their context window sizes and they're a point and their approach to attention, context attention, which also affects this because you have sliding attention and focused attention and these other strategies that also affect this. But, and I will tell you that as a graph, I think I showed to James at one point, or maybe I meant to show to James because I think he asked about context rot and that is it is a mappable graph. Right. So is not very common when you have a small context window and the amount of rot increases as you approach the limit. And so generally people say at the, you know, at the 60 to 70% threshold, you should be thinking about stopping and condensing and you know, starting a new thing.
+- id: u170
+  speaker: Spencer MacBeth
+  t_start: 3492.0
+  t_end: 3507.0
+  text: Thankfully, SMS conversations are pretty short in our use case and like the context windows of the models are like 300 to 500 pages of written text. So like we don't have people carrying on novels with full rag.
+- id: u171
+  speaker: David Olsson
+  t_start: 3511.0
+  t_end: 3526.0
+  text: Yeah. One of the, one of the things that I studied to learn about that And I'll hand off to Jen is sequential thinking. The MCP for using memory inside your ide. Very simple. It's just a series of lists, Jen.
+- id: u172
+  speaker: Fulvio Ciano
+  t_start: 3527.0
+  t_end: 3552.0
+  text: Another thing that they do to avoid context rot, which is a function of just the way these LLMs work is they like positive instructions versus negative instructions. So often when they do the condensation, they will exchange the negative instruction to positive instructions, if you know what I mean. Optimists, rather than say don't do this, they say do this because it just, it creates less problems somehow.
+- id: u173
+  speaker: Jen Boger
+  t_start: 3552.0
+  t_end: 3573.0
+  text: Right, that's cool. So this is really interesting. Just sorry if I missed this, but in terms of defining context, do you guys have a AI agent or similar to help the customer themselves develop context so that they have greater success with their agent? I see David raising his eyebrows because. Yeah, right. It's like meta.
+- id: u174
+  speaker: Graham Fawcett
+  t_start: 3574.0
+  t_end: 3580.0
+  text: It'd be like an onboarding agent. Like a onboarding agent. Yeah, yeah, it's definitely a good idea.
+- id: u175
+  speaker: Jen Boger
+  t_start: 3581.0
+  t_end: 3601.0
+  text: Because you know, I could see people who would be engaging in this, you know, they need some hand holding toward how to start. Engineering context. I'm just putting it in air quotes or whatever you want to call it. But to do it in ways that then adhere to all the stuff we've just been talking about.
+- id: u176
+  speaker: Fulvio Ciano
+  t_start: 3601.0
+  t_end: 3615.0
+  text: Well, and I came up with this term a couple of meetings ago that no one liked. Well, I don't like myself called context grooming. Right. Because isn't so great these days.
+- id: u177
+  speaker: Jen Boger
+  t_start: 3615.0
+  t_end: 3619.0
+  text: But there's some connotation there perhaps.
+- id: u178
+  speaker: Fulvio Ciano
+  t_start: 3619.0
+  t_end: 3629.0
+  text: But yeah, Context cleaning is what it really should be called. Right. Because you want to get rid of not. It's not just about con. Condensing. Right.
+- id: u179
+  speaker: Jen Boger
+  t_start: 3629.0
+  t_end: 3630.0
+  text: Enhancing.
+- id: u180
+  speaker: David Olsson
+  t_start: 3631.0
+  t_end: 3632.0
+  text: Yeah.
+- id: u181
+  speaker: Fulvio Ciano
+  t_start: 3631.0
+  t_end: 3667.0
+  text: Or enhancing and cleaning. And enhancing. Yeah. But you have to be careful with enhancing because that's generally enhancing is usually injection and then you get. And then you get a problem. Right. If you just go nuts with injection, the thing explodes out of control. Control. But context cleaning is a real thing and context cleaning can be done by a in situ, real time agent that's doing that. Right. At least keeping track of what should be cleaned or what is, you know, temporary and should be added to the list of things to look over at the condensation phage Skage. Sorry guys, I'm not fully rested.
+- id: u182
+  speaker: Spencer MacBeth
+  t_start: 3669.0
+  t_end: 3689.0
+  text: To Jen's point, I guess also just like how we approach people, facilitating context engineering in our system right now is like those onboarding wizards. Like those are the things that we've identified. That's just like instead of someone just being like, you know something, you see a lot is upload all of your documents ever and we'll just make you a chat bot.
+- id: u183
+  speaker: David Olsson
+  t_start: 3690.0
+  t_end: 3691.0
+  text: Yeah.
+- id: u184
+  speaker: Spencer MacBeth
+  t_start: 3690.0
+  t_end: 3728.0
+  text: Which is like kind of silly. This is, you know, some feedback we've gotten from some of our clients that have been using. This is like just this configuration flow, such as it is right now, helps people think about, okay, what do I actually need to put into a chatbot? Like, what are the objections? What are the actual pointed knowledge points that. What are the offers that needs to be scoped to? That's something that's like really important for this. You don't want it hallucinating sales that don't actually exist. And yeah, so that's one of the approaches that we've taken so far. It's just like basically that wizard like flow for configuring a Persona.
+- id: u185
+  speaker: Graham Fawcett
+  t_start: 3729.0
+  t_end: 3760.0
+  text: It's like there's a tension between how much system instructions you should surface to the user. And that's really what we're trying to figure out. Like we have system instructions that are the results of the campaigns that we've run, fundamentally built into Mercury now. And now it's like, well, what's the balance of surfacing that to the user and letting them, or letting them inform that. And with our tools we hope that they can iterate on that, on what we give them access to.
+- id: u186
+  speaker: Jason Kryski
+  t_start: 3761.0
+  t_end: 3827.0
+  text: Yeah, I've taken like the kind of exact opposite approach, which is to try and ask them nothing and then try and run a lot of like different categorized prompt chaining to be able to build all of that context in a way that we found the merchants or our customers aren't good at knowing anyway. Okay, so they're like, they don't know like why people really like their thing or like, you know, like you go through like a bunch of like scenario objective generation, objective resolution, objective generation, objective resolution. But like the objective generation is downstream of like a other marketing or sales processes. And we've had pretty good outcomes with that, like generating some context, then using that context with a subsequent prompt to like then generate something. And it. We don't get crazy hallucinations. We typically get valuable stuff that's kind.
+- id: u187
+  speaker: Spencer MacBeth
+  t_start: 3827.0
+  t_end: 3883.0
+  text: Of the, like the seed of that idea. And something I've really been doing a lot of research on lately is like, how do you just like leverage agencies, as we might call them, just like sets of agents to like do prompt generation dynamically for you and, and like, you know, engineering context based on like, for us in the hypothesis testing thing that I've taken around with a bit is we know one thing, which is when people clicked. And then in that, we can look at the content of the conversation, the demographics of the person, the sentiment of the conversation, and try to derive things that way. My dream vision is to be able to get enough data into the system where we can do that reliably, dynamically, and not even have to worry about that other layer. So you're muted, Jason.
+- id: u188
+  speaker: Jason Kryski
+  t_start: 3884.0
+  t_end: 3885.0
+  text: I'm thinking about it the same way.
+- id: u189
+  speaker: Jen Boger
+  t_start: 3886.0
+  t_end: 3900.0
+  text: Yeah, I. I have to run to you, but thank you, guys. That was, like, so awesome. And I love the discussion here today. It's so refreshing to be around people who really get it. So thanks, guys, very much.
+- id: u190
+  speaker: Jason Kryski
+  t_start: 3900.0
+  t_end: 3903.0
+  text: Thanks, Jen. See y'.
+- id: u191
+  speaker: Jen Boger
+  t_start: 3902.0
+  t_end: 3903.0
+  text: All.
+- id: u192
+  speaker: Spencer MacBeth
+  t_start: 3903.0
+  t_end: 3905.0
+  text: Thanks. Likewise.
+windows:
+- id: W-0001
+  t_start: 0.0
+  t_end: 120.0
+  utterance_ids:
+  - u1
+  - u2
+  - u3
+  - u4
+  - u5
+  - u6
+  - u7
+  - u8
+  - u9
+  - u10
+  - u11
+  text: How's it going in Squamish? Been hot last couple days. Scorching here. Yeah, it was up last Friday and surprisingly it was a lot nicer there than it was here. Just because I think the humidity. Yeah, it's been weird. It's been good, though. Good. Summer coming to a close. I can feel it in the morning. Good morning, Spencer. Feel it in the morning. It's cooler now. You get that heavy precept in the morning. It's not too bad. It's. It's still dry. It's still dry and cool enough, but. Yeah, yeah, but it's. It is. It's changing. Where are you located? Miles. Squamish. Squamish, nice. Yeah, we get that right at this time of year. We get that heavy, like thick dew in the morning just because I guess the humidity level. But quite hot here. Mountain dew. Eh? It's also the water. I have a friend who introduced me to the word foggus. Okay. Yeah. Because he works on the water. And during August it's. The humidity is everywhere and Squamish gets all that wind from the water. I think that helps. I lived. I was lucky enough to live in Squamish for 10 years, so I really like Squamish August. I'm gonna write that down. I'm just stepping into spring now. I mean, I'm. I'm working from Argentina, so I'm. I'm. Oh, my God. Experiencing spring in September after I've been. I've been in winter this whole time we've been on these calls.
+- id: W-0002
+  t_start: 90.0
+  t_end: 210.0
+  utterance_ids:
+  - u8
+  - u9
+  - u10
+  - u11
+  - u12
+  - u13
+  - u14
+  - u15
+  - u16
+  - u17
+  - u18
+  - u19
+  text: It's also the water. I have a friend who introduced me to the word foggus. Okay. Yeah. Because he works on the water. And during August it's. The humidity is everywhere and Squamish gets all that wind from the water. I think that helps. I lived. I was lucky enough to live in Squamish for 10 years, so I really like Squamish August. I'm gonna write that down. I'm just stepping into spring now. I mean, I'm. I'm working from Argentina, so I'm. I'm. Oh, my God. Experiencing spring in September after I've been. I've been in winter this whole time we've been on these calls. Oh, no way. I thought you were local here in Kelowna. So what time zone are you in? It's noon where I am right now. Yeah. All right. So you're well on the east coast or something? Well, on the east coast, yeah. Okay. That's cool, man. It's a neat revelation. Good morning, everyone. Hey, Jen. Good morning. Actually, I'm glad that you guys have something to chat through today. I got excited about the playground a little while ago and it's going to be a great place to play with transcripts. And then this morning I went for a dog walk. We got a cold mask, I went for a dog walk. And I was like, wait a minute, I could hook up my GitHub repos to the playground and like, oh, yeah, let's try that. So that's what's going to go on in the background today when we're chatting. Nice cursor. Is going to figure out how to actually get GitHub repos inside the playground so that it can analyze the repos directly so that we can just put in the 8am repo and then we can create agents dynamically with it and. Then do whatever we want. It's a great place to prototype. And then I'm like, yeah, we can just connect the repo. GitHub, man. If you could buy stock in GitHub, I would do that. I mean, you can, you can still buy stock in them too. I thought Microsoft bought them.
+- id: W-0003
+  t_start: 180.0
+  t_end: 300.0
+  utterance_ids:
+  - u17
+  - u18
+  - u19
+  - u20
+  - u21
+  - u22
+  - u23
+  - u24
+  - u25
+  - u26
+  - u27
+  - u28
+  - u29
+  text: Okay. That's cool, man. It's a neat revelation. Good morning, everyone. Hey, Jen. Good morning. Actually, I'm glad that you guys have something to chat through today. I got excited about the playground a little while ago and it's going to be a great place to play with transcripts. And then this morning I went for a dog walk. We got a cold mask, I went for a dog walk. And I was like, wait a minute, I could hook up my GitHub repos to the playground and like, oh, yeah, let's try that. So that's what's going to go on in the background today when we're chatting. Nice cursor. Is going to figure out how to actually get GitHub repos inside the playground so that it can analyze the repos directly so that we can just put in the 8am repo and then we can create agents dynamically with it and. Then do whatever we want. It's a great place to prototype. And then I'm like, yeah, we can just connect the repo. GitHub, man. If you could buy stock in GitHub, I would do that. I mean, you can, you can still buy stock in them too. I thought Microsoft bought them. You got to buy stock and clippy. At the same time. That's the thing. That's why he's like, it would better if it was like a, you know, substrate sub. Yeah, I would like class. I would like the GitHub class of Microsoft. Good morning, Jason. Since. Good, full room. I will show a picture. It's coming along. I like that new world map you've got back there. Is that new? Looks like glasses in session. Yes, it is very new. It's new from 1954 by Nestle's Jersey milk chocolate bar. Unreal. That's awesome. That's a pretty racist map if we looked at it closely. Oh, man. Anything back then. I like, I, I do like looking at maps from various periods of time. And when I lived in Saudi Arabia, it was always cool to get a map there because it wasn't the same map you got anywhere else in the. World. Because everything was, you know, Arab centric. So it wasn't the Persian Gulf. There was no, there was no Israel. There was just Palestine. But we'll drop that right there. Analyze repo, man. And there's the 8am GitHub repo. So it's coming along. Coming along. I think we have some sort of weird quorum today, so I'm going to hand off to you guys, man.
+- id: W-0004
+  t_start: 270.0
+  t_end: 390.0
+  utterance_ids:
+  - u27
+  - u28
+  - u29
+  - u30
+  - u31
+  text: Oh, man. Anything back then. I like, I, I do like looking at maps from various periods of time. And when I lived in Saudi Arabia, it was always cool to get a map there because it wasn't the same map you got anywhere else in the. World. Because everything was, you know, Arab centric. So it wasn't the Persian Gulf. There was no, there was no Israel. There was just Palestine. But we'll drop that right there. Analyze repo, man. And there's the 8am GitHub repo. So it's coming along. Coming along. I think we have some sort of weird quorum today, so I'm going to hand off to you guys, man. Cool. Yeah, thank you so much. I'll start off doing my side of the demo and then I'll hand it over to Spencer. So just going to share my screen here. So here we have Mercury and this is our, I think our version two. This is my build. We got another build going on, but. So Mercury is our agent intelligence conversation design system. So we've been working a lot with clients doing outbound conversational agents. And were doing that in low code, no code tools, and we really wanted to figure out what it is we needed to build. This is our first version, what we think we need to build. What we have here are a few different features. We have the ability to create a Persona, create a contact and to create a conversation. What I'M going to do here is I'm going to create a Persona. The Persona is basically the user prompts that we're using to define an outbound agent or what we're allowing our users to use to define an outbound agent. What I'm going to do here is I'm just going to create an external id. I'm just going to give it a Persona name. Its role is going to be sales. We have a few different roles we're still exploring how do we frame these outbound agents and what roles are actually fulfilling. I'm going to add in business description. Just throw in some information. We got tone here. So she's energetic and helpful. Again we gotta add her name in here. Again we got sales representative. That's her name right now. Job description, super basic. She does cold outreach essentially and where she's located, lona. We have Lead Source Organic and Lead Magnet, a free 20 minute AI assessment campaign context. Right now I'm just keeping it basic. I'm just saying organic outreach and then a call to action strategy. It's just basically coming back to the idea of we want to convey the value of what our platform is doing and hopefully getting them into a 20 minute AI assessment. We have a global URL here. Where our system's design is designed is if you don't have, you can create contacts. If contacts don't have like a URL associated with them that you're trying to drive them to, we can add it in at the Persona level and it will send that URL to them. Not going to do any of these qualifying questions or anything like that. The only thing I really want to focus on is just having a common objection. So the big thing about sales or engaging with potential lead potential customers is overcoming their objections. And so we really try to. One thing that we've really done working with our clients is refining what these objections are refining how we might want an outbound agent or an inbound agent to respond to a specific objection depending on the goals of our clients. So if I do this, I create a Persona. Here we have Ava right here. We can view her and it's just like the basic information. But what I'm going to do is so this is our platform and you can do create Personas, everything like that. But we also have a set of APIs. And really what we're trying to do is work with ou
+- id: W-0005
+  t_start: 360.0
+  t_end: 480.0
+  utterance_ids:
+  - u31
+  text: Yeah, thank you so much. I'll start off doing my side of the demo and then I'll hand it over to Spencer. So just going to share my screen here. So here we have Mercury and this is our, I think our version two. This is my build. We got another build going on, but. So Mercury is our agent intelligence conversation design system. So we've been working a lot with clients doing outbound conversational agents. And were doing that in low code, no code tools, and we really wanted to figure out what it is we needed to build. This is our first version, what we think we need to build. What we have here are a few different features. We have the ability to create a Persona, create a contact and to create a conversation. What I'M going to do here is I'm going to create a Persona. The Persona is basically the user prompts that we're using to define an outbound agent or what we're allowing our users to use to define an outbound agent. What I'm going to do here is I'm just going to create an external id. I'm just going to give it a Persona name. Its role is going to be sales. We have a few different roles we're still exploring how do we frame these outbound agents and what roles are actually fulfilling. I'm going to add in business description. Just throw in some information. We got tone here. So she's energetic and helpful. Again we gotta add her name in here. Again we got sales representative. That's her name right now. Job description, super basic. She does cold outreach essentially and where she's located, lona. We have Lead Source Organic and Lead Magnet, a free 20 minute AI assessment campaign context. Right now I'm just keeping it basic. I'm just saying organic outreach and then a call to action strategy. It's just basically coming back to the idea of we want to convey the value of what our platform is doing and hopefully getting them into a 20 minute AI assessment. We have a global URL here. Where our system's design is designed is if you don't have, you can create contacts. If contacts don't have like a URL associated with them that you're trying to drive them to, we can add it in at the Persona level and it will send that URL to them. Not going to do any of these qualifying questions or anything like that. The only thing I really want to focus on is just having a common objection. So the big thing about sales or engaging with potential lead potential customers is overcoming their objections. And so we really try to. One thing that we've really done working with our clients is refining what these objections are refining how we might want an outbound agent or an inbound agent to respond to a specific objection depending on the goals of our clients. So if I do this, I create a Persona. Here we have Ava right here. We can view her and it's just like the basic information. But what I'm going to do is so this is our platform and you can do create Personas, everything like that. But we also have a set of APIs. And really what we're trying to do is work with ou
+- id: W-0006
+  t_start: 450.0
+  t_end: 570.0
+  utterance_ids:
+  - u31
+  text: Yeah, thank you so much. I'll start off doing my side of the demo and then I'll hand it over to Spencer. So just going to share my screen here. So here we have Mercury and this is our, I think our version two. This is my build. We got another build going on, but. So Mercury is our agent intelligence conversation design system. So we've been working a lot with clients doing outbound conversational agents. And were doing that in low code, no code tools, and we really wanted to figure out what it is we needed to build. This is our first version, what we think we need to build. What we have here are a few different features. We have the ability to create a Persona, create a contact and to create a conversation. What I'M going to do here is I'm going to create a Persona. The Persona is basically the user prompts that we're using to define an outbound agent or what we're allowing our users to use to define an outbound agent. What I'm going to do here is I'm just going to create an external id. I'm just going to give it a Persona name. Its role is going to be sales. We have a few different roles we're still exploring how do we frame these outbound agents and what roles are actually fulfilling. I'm going to add in business description. Just throw in some information. We got tone here. So she's energetic and helpful. Again we gotta add her name in here. Again we got sales representative. That's her name right now. Job description, super basic. She does cold outreach essentially and where she's located, lona. We have Lead Source Organic and Lead Magnet, a free 20 minute AI assessment campaign context. Right now I'm just keeping it basic. I'm just saying organic outreach and then a call to action strategy. It's just basically coming back to the idea of we want to convey the value of what our platform is doing and hopefully getting them into a 20 minute AI assessment. We have a global URL here. Where our system's design is designed is if you don't have, you can create contacts. If contacts don't have like a URL associated with them that you're trying to drive them to, we can add it in at the Persona level and it will send that URL to them. Not going to do any of these qualifying questions or anything like that. The only thing I really want to focus on is just having a common objection. So the big thing about sales or engaging with potential lead potential customers is overcoming their objections. And so we really try to. One thing that we've really done working with our clients is refining what these objections are refining how we might want an outbound agent or an inbound agent to respond to a specific objection depending on the goals of our clients. So if I do this, I create a Persona. Here we have Ava right here. We can view her and it's just like the basic information. But what I'm going to do is so this is our platform and you can do create Personas, everything like that. But we also have a set of APIs. And really what we're trying to do is work with ou
+- id: W-0007
+  t_start: 540.0
+  t_end: 660.0
+  utterance_ids:
+  - u31
+  - u32
+  - u33
+  - u34
+  text: Yeah, thank you so much. I'll start off doing my side of the demo and then I'll hand it over to Spencer. So just going to share my screen here. So here we have Mercury and this is our, I think our version two. This is my build. We got another build going on, but. So Mercury is our agent intelligence conversation design system. So we've been working a lot with clients doing outbound conversational agents. And were doing that in low code, no code tools, and we really wanted to figure out what it is we needed to build. This is our first version, what we think we need to build. What we have here are a few different features. We have the ability to create a Persona, create a contact and to create a conversation. What I'M going to do here is I'm going to create a Persona. The Persona is basically the user prompts that we're using to define an outbound agent or what we're allowing our users to use to define an outbound agent. What I'm going to do here is I'm just going to create an external id. I'm just going to give it a Persona name. Its role is going to be sales. We have a few different roles we're still exploring how do we frame these outbound agents and what roles are actually fulfilling. I'm going to add in business description. Just throw in some information. We got tone here. So she's energetic and helpful. Again we gotta add her name in here. Again we got sales representative. That's her name right now. Job description, super basic. She does cold outreach essentially and where she's located, lona. We have Lead Source Organic and Lead Magnet, a free 20 minute AI assessment campaign context. Right now I'm just keeping it basic. I'm just saying organic outreach and then a call to action strategy. It's just basically coming back to the idea of we want to convey the value of what our platform is doing and hopefully getting them into a 20 minute AI assessment. We have a global URL here. Where our system's design is designed is if you don't have, you can create contacts. If contacts don't have like a URL associated with them that you're trying to drive them to, we can add it in at the Persona level and it will send that URL to them. Not going to do any of these qualifying questions or anything like that. The only thing I really want to focus on is just having a common objection. So the big thing about sales or engaging with potential lead potential customers is overcoming their objections. And so we really try to. One thing that we've really done working with our clients is refining what these objections are refining how we might want an outbound agent or an inbound agent to respond to a specific objection depending on the goals of our clients. So if I do this, I create a Persona. Here we have Ava right here. We can view her and it's just like the basic information. But what I'm going to do is so this is our platform and you can do create Personas, everything like that. But we also have a set of APIs. And really what we're trying to do is work with ou And I go down here, I just need to do some configuration to make sure that our automation is running properly. These values here are important for actually sending the right data and actually connecting and having a successful API request. So just adding that in these will be populated as we go through. So. This contact is all ready to go. I head over to our automation. This is the workflows in High Level. This is what we're using to connect, basically do the API requests. I come in here, I just need to make a quick update. You see here we got this branching automation. That's basically what this is doing fundamentally is facilitating a conversation loop between the conversational context and the agent as managed in Mercury and the channel and the contact as managed in High Level. So if I come in here, all I need to do is update this to make it the proper Persona External ID that I created in Mercury. So I update that, I save it, come back here to the contact.
+- id: W-0008
+  t_start: 630.0
+  t_end: 750.0
+  utterance_ids:
+  - u34
+  - u35
+  - u36
+  - u37
+  - u38
+  - u39
+  text: This contact is all ready to go. I head over to our automation. This is the workflows in High Level. This is what we're using to connect, basically do the API requests. I come in here, I just need to make a quick update. You see here we got this branching automation. That's basically what this is doing fundamentally is facilitating a conversation loop between the conversational context and the agent as managed in Mercury and the channel and the contact as managed in High Level. So if I come in here, all I need to do is update this to make it the proper Persona External ID that I created in Mercury. So I update that, I save it, come back here to the contact. And. All I'm going to do is just add them into the automation refresh here. Yeah, and basically just to jump in like with one of the reasons we like High Level is we're able to duplicate these workflows and so like, and also it has really nice integration with sms. So one of the things that we can do now that we have this platform and one of the ideas behind it was all we have to do is duplicate the workflow and change that Persona ID and we have a whole new campaign and our clients can go in and like iterate. And test. And yeah, we can like spin up new campaigns and like very rapidly now. That was the goal.
+- id: W-0009
+  t_start: 720.0
+  t_end: 840.0
+  utterance_ids:
+  - u37
+  - u38
+  - u39
+  - u40
+  - u41
+  - u42
+  - u43
+  - u44
+  text: Yeah, and basically just to jump in like with one of the reasons we like High Level is we're able to duplicate these workflows and so like, and also it has really nice integration with sms. So one of the things that we can do now that we have this platform and one of the ideas behind it was all we have to do is duplicate the workflow and change that Persona ID and we have a whole new campaign and our clients can go in and like iterate. And test. And yeah, we can like spin up new campaigns and like very rapidly now. That was the goal. Yeah. So here we have the basic test, the first SMS coming through from the agent. I'm not so concerned about what this content says right now. I'm just trying to show that it's working end to end. I definitely would refine this to make it a little bit more exact. It's a little long winded for a first text, but it's just showing that okay, this contacts received this message from the agent. If I go over to my messenger. You guys aren't seeing this, but I'm going to respond. Just going to respond with that objection. I had. I see they have AI agents in their tray. Yeah, we don't believe in building. Building with those. Yeah. So I'm with you on that kind of thing. There's usually a reason for it though, because integrations are expensive, but yeah, usually they offer some sort of watered down thing that just doesn't kind of respond very well. Exactly. So I'm just, I've responded here. I'm worried about the agent sounding inauthentic and so we'll wait for this to process. So this automation is. It's going to wait for a few minutes to capture potentially multiple contact responses before it aggregates that message and sends it to Mercury. So I'm just going to show you guys at a high level kind of what our requests are going over to Mercury and just if I.
+- id: W-0010
+  t_start: 810.0
+  t_end: 930.0
+  utterance_ids:
+  - u43
+  - u44
+  - u45
+  - u46
+  - u47
+  - u48
+  - u49
+  text: Yeah. So I'm with you on that kind of thing. There's usually a reason for it though, because integrations are expensive, but yeah, usually they offer some sort of watered down thing that just doesn't kind of respond very well. Exactly. So I'm just, I've responded here. I'm worried about the agent sounding inauthentic and so we'll wait for this to process. So this automation is. It's going to wait for a few minutes to capture potentially multiple contact responses before it aggregates that message and sends it to Mercury. So I'm just going to show you guys at a high level kind of what our requests are going over to Mercury and just if I. Can quickly say the reason we do that is like one of our learnings from our first campaigns was sometimes you see people responding like, hey, sounds good, but wait, I can't talk right now in like separate messages. And like. So it's just about capturing like all that context in one thing. And that's why we have this like branching structure versus just. Yeah, it's a limitation of high level. Understood. I got caught in that same understanding of how to make chatbots until I figured out a way around it. But the platform is deterministic. Yeah, it's water folly, this thing. But if we come in here, we can see the custom code configuration that we're doing or the custom webhook configuration that we're doing to basically do the Mercury API request. So this use case here is create first message. And the way that you can distinguish that is you can generate the Persona message. So this basically says, yes, I want the Persona that this request is coming in for to generate a message. And then basically this here is the ability to append that message to Mercury's message bubble, which I'll show you in a second. But this request here can serve dual purposes. It can do a first message, which is a logical decision that we made in Mercury, like this message type decision that we've made. But it can also do response messages. It's not limited by. It can, it can handle multiple data points. So and the reason it can do that is because we have another use case down here which is basically the request that is sending the aggregated contact response message to Mercury. And so this is we're not expecting the Persona to respond in this case, and we're not expecting a message to be generated. But because this automation is a loop, when the contact goes out and comes back in and hits that first request again, a response message will be generated and the flow of conversation will continue. While we're waiting for the message to come back here, we'll just go over and we'll have a look at Mercury. So here we have Explore Conversations. And this is basically a tool that we're using to not only show the ongoing conversation that's happening between a contact, as it's now been created in Mercury from high level between the contact and the agent, but it's also a place to iterate on how you want your agent to generate like this responses you want your agent to generate depending on the prompting that you've inputted in Persona creation. So it's kind of a. It's a tool for you to easily review what's going on in a live production conversation and then iterate on a agent that you haven't yet deployed to production from a conversational message content perspective. So this is what we got right now. You can see my contact came in. You can see that external ID that I used to create the contact is now here. And it's just the way that it's the unique identifier in Mercury, even though it's sour high level. And we can see here that we also have AVA and just the high level Persona information. So we're just waiting for this to finish running.
+- id: W-0011
+  t_start: 900.0
+  t_end: 1020.0
+  utterance_ids:
+  - u49
+  text: But if we come in here, we can see the custom code configuration that we're doing or the custom webhook configuration that we're doing to basically do the Mercury API request. So this use case here is create first message. And the way that you can distinguish that is you can generate the Persona message. So this basically says, yes, I want the Persona that this request is coming in for to generate a message. And then basically this here is the ability to append that message to Mercury's message bubble, which I'll show you in a second. But this request here can serve dual purposes. It can do a first message, which is a logical decision that we made in Mercury, like this message type decision that we've made. But it can also do response messages. It's not limited by. It can, it can handle multiple data points. So and the reason it can do that is because we have another use case down here which is basically the request that is sending the aggregated contact response message to Mercury. And so this is we're not expecting the Persona to respond in this case, and we're not expecting a message to be generated. But because this automation is a loop, when the contact goes out and comes back in and hits that first request again, a response message will be generated and the flow of conversation will continue. While we're waiting for the message to come back here, we'll just go over and we'll have a look at Mercury. So here we have Explore Conversations. And this is basically a tool that we're using to not only show the ongoing conversation that's happening between a contact, as it's now been created in Mercury from high level between the contact and the agent, but it's also a place to iterate on how you want your agent to generate like this responses you want your agent to generate depending on the prompting that you've inputted in Persona creation. So it's kind of a. It's a tool for you to easily review what's going on in a live production conversation and then iterate on a agent that you haven't yet deployed to production from a conversational message content perspective. So this is what we got right now. You can see my contact came in. You can see that external ID that I used to create the contact is now here. And it's just the way that it's the unique identifier in Mercury, even though it's sour high level. And we can see here that we also have AVA and just the high level Persona information. So we're just waiting for this to finish running.
+- id: W-0012
+  t_start: 990.0
+  t_end: 1110.0
+  utterance_ids:
+  - u49
+  - u50
+  - u51
+  - u52
+  - u53
+  - u54
+  - u55
+  text: But if we come in here, we can see the custom code configuration that we're doing or the custom webhook configuration that we're doing to basically do the Mercury API request. So this use case here is create first message. And the way that you can distinguish that is you can generate the Persona message. So this basically says, yes, I want the Persona that this request is coming in for to generate a message. And then basically this here is the ability to append that message to Mercury's message bubble, which I'll show you in a second. But this request here can serve dual purposes. It can do a first message, which is a logical decision that we made in Mercury, like this message type decision that we've made. But it can also do response messages. It's not limited by. It can, it can handle multiple data points. So and the reason it can do that is because we have another use case down here which is basically the request that is sending the aggregated contact response message to Mercury. And so this is we're not expecting the Persona to respond in this case, and we're not expecting a message to be generated. But because this automation is a loop, when the contact goes out and comes back in and hits that first request again, a response message will be generated and the flow of conversation will continue. While we're waiting for the message to come back here, we'll just go over and we'll have a look at Mercury. So here we have Explore Conversations. And this is basically a tool that we're using to not only show the ongoing conversation that's happening between a contact, as it's now been created in Mercury from high level between the contact and the agent, but it's also a place to iterate on how you want your agent to generate like this responses you want your agent to generate depending on the prompting that you've inputted in Persona creation. So it's kind of a. It's a tool for you to easily review what's going on in a live production conversation and then iterate on a agent that you haven't yet deployed to production from a conversational message content perspective. So this is what we got right now. You can see my contact came in. You can see that external ID that I used to create the contact is now here. And it's just the way that it's the unique identifier in Mercury, even though it's sour high level. And we can see here that we also have AVA and just the high level Persona information. So we're just waiting for this to finish running. Maybe while we're waiting, I'll jump in and just show the other side of the evaluations and everything. Sure. Cool. I'll take over for a moment. So that was I guess, the sort of like conversation design side of things. And then now I will show. I. Will show the agent intelligence piece. I've got a deployment here that's got a lot more features. This is actually the docs. This is the next version that I'm going to release. The demo was built on the previous version. Things have changed a little bit in the UIs. Now you can do batch operations like batch deletes and all this fun stuff, and you can manage things a bit more nicely than those cards. And now there's this whole evalu. This was the.
+- id: W-0013
+  t_start: 1080.0
+  t_end: 1200.0
+  utterance_ids:
+  - u52
+  - u53
+  - u54
+  - u55
+  - u56
+  - u57
+  text: Cool. I'll take over for a moment. So that was I guess, the sort of like conversation design side of things. And then now I will show. I. Will show the agent intelligence piece. I've got a deployment here that's got a lot more features. This is actually the docs. This is the next version that I'm going to release. The demo was built on the previous version. Things have changed a little bit in the UIs. Now you can do batch operations like batch deletes and all this fun stuff, and you can manage things a bit more nicely than those cards. And now there's this whole evalu. This was the. What was. What Graham was showing was the conversation design piece. It was also missing this skills, which skills are sort of like, you know, arbitrary things that you can add that are like, you know, sentiment analysis or code generation or like JSON parsing or knowledge Bases, all this type of stuff. And so that's one piece that wasn't in the other demo. And then the other piece that I wanted to show what's like is the agent really the agent intelligence side is like this evaluations and monitoring thing. So looking at the sidebar here, we have like evals set up for like Personas and skills. So I guess, you know, you can imagine the flow is first you sort of eyeball how your agent's looking in the conversation window that Graham showed, then you can actually run evals. And what we actually usually do is because things are non deterministic, we run evals at a sample size. So we could say, okay, we set up a test case, we want to validate the output has X amount of things against this. Say it's like, oh, I want to make sure that the skill is always containing this value or the skill is always finishing in this amount of time, or it always passes or passes in X amount of cases. You can put a sample size of 1000 in here and a confidence level and that will run a test. It'll do it in this very cool thing that probably going to go too far into the weeds here called a step function distributed map, which this is basically a system in AWS that allows you to run things in parallel. And it's fully serverless. I can spin up a thing that executes in this, run like 4000 jobs. It made 4000 OpenAI calls and it finished in. The total execution time for this was six minutes.
+- id: W-0014
+  t_start: 1170.0
+  t_end: 1290.0
+  utterance_ids:
+  - u57
+  - u58
+  - u59
+  - u60
+  - u61
+  - u62
+  - u63
+  text: What Graham was showing was the conversation design piece. It was also missing this skills, which skills are sort of like, you know, arbitrary things that you can add that are like, you know, sentiment analysis or code generation or like JSON parsing or knowledge Bases, all this type of stuff. And so that's one piece that wasn't in the other demo. And then the other piece that I wanted to show what's like is the agent really the agent intelligence side is like this evaluations and monitoring thing. So looking at the sidebar here, we have like evals set up for like Personas and skills. So I guess, you know, you can imagine the flow is first you sort of eyeball how your agent's looking in the conversation window that Graham showed, then you can actually run evals. And what we actually usually do is because things are non deterministic, we run evals at a sample size. So we could say, okay, we set up a test case, we want to validate the output has X amount of things against this. Say it's like, oh, I want to make sure that the skill is always containing this value or the skill is always finishing in this amount of time, or it always passes or passes in X amount of cases. You can put a sample size of 1000 in here and a confidence level and that will run a test. It'll do it in this very cool thing that probably going to go too far into the weeds here called a step function distributed map, which this is basically a system in AWS that allows you to run things in parallel. And it's fully serverless. I can spin up a thing that executes in this, run like 4000 jobs. It made 4000 OpenAI calls and it finished in. The total execution time for this was six minutes. What? Yeah, it's a beautiful thing. And it's serverless, so it scales up and down as you need it. So it only serverless infrastructure for calling. Serverless infrastructure. That's right. So I don't have like a server Anywhere running 247 that can. That is capable of running 4000 things. It's just. You need to run 4000 things. There you go. Six minutes done. So I won't go too far into the weeds. Okay, cool. We'll talk another time about it. Yeah. And then. And then the other thing that's really cool. And you know, the other biggest learning that we had here is like, great, you eyeballed your conversations great. You ran your non deterministic evals to a point where you're like satisfied that like 90 of the times things are going well still if you're running things at scale, you want some kind of monitoring in there. So here, this is basically ongoing monitoring for conversations tied to a Persona. You can do different types of monitors, hallucination detection, sentiment Analysis, support escalation, like string analysis or just like custom prompts. And then for these you can set like an alerting threshold and you can send email alerts. So if you have like a pager set up, God forbid you're able to like page someone or just send an email report for this particular Persona that you want to be monitoring. And you know that's just kind of, you need that for these non deterministic things. So I'm going to share on the side here. While this API and this platform is not publicly available, we are working on a community edition right now. We just deploy a separate instance and a separate database for individual clients because I've written it all as infrastructure, as code so I can just spin it up really easily. But I'll put the docs in the chat here and maybe send it out after because these things tend to get lost. If anyone's interested to have a read through that. And yeah, I rambled on a bit there. I will pass it back over to Graham. But yeah, if you're interested in that, just feel free to shoot me a message anywhere, email, whatever.
+- id: W-0015
+  t_start: 1260.0
+  t_end: 1380.0
+  utterance_ids:
+  - u61
+  - u62
+  - u63
+  text: Serverless infrastructure. That's right. So I don't have like a server Anywhere running 247 that can. That is capable of running 4000 things. It's just. You need to run 4000 things. There you go. Six minutes done. So I won't go too far into the weeds. Okay, cool. We'll talk another time about it. Yeah. And then. And then the other thing that's really cool. And you know, the other biggest learning that we had here is like, great, you eyeballed your conversations great. You ran your non deterministic evals to a point where you're like satisfied that like 90 of the times things are going well still if you're running things at scale, you want some kind of monitoring in there. So here, this is basically ongoing monitoring for conversations tied to a Persona. You can do different types of monitors, hallucination detection, sentiment Analysis, support escalation, like string analysis or just like custom prompts. And then for these you can set like an alerting threshold and you can send email alerts. So if you have like a pager set up, God forbid you're able to like page someone or just send an email report for this particular Persona that you want to be monitoring. And you know that's just kind of, you need that for these non deterministic things. So I'm going to share on the side here. While this API and this platform is not publicly available, we are working on a community edition right now. We just deploy a separate instance and a separate database for individual clients because I've written it all as infrastructure, as code so I can just spin it up really easily. But I'll put the docs in the chat here and maybe send it out after because these things tend to get lost. If anyone's interested to have a read through that. And yeah, I rambled on a bit there. I will pass it back over to Graham. But yeah, if you're interested in that, just feel free to shoot me a message anywhere, email, whatever.
+- id: W-0016
+  t_start: 1350.0
+  t_end: 1470.0
+  utterance_ids:
+  - u63
+  - u64
+  - u65
+  - u66
+  - u67
+  - u68
+  text: And then. And then the other thing that's really cool. And you know, the other biggest learning that we had here is like, great, you eyeballed your conversations great. You ran your non deterministic evals to a point where you're like satisfied that like 90 of the times things are going well still if you're running things at scale, you want some kind of monitoring in there. So here, this is basically ongoing monitoring for conversations tied to a Persona. You can do different types of monitors, hallucination detection, sentiment Analysis, support escalation, like string analysis or just like custom prompts. And then for these you can set like an alerting threshold and you can send email alerts. So if you have like a pager set up, God forbid you're able to like page someone or just send an email report for this particular Persona that you want to be monitoring. And you know that's just kind of, you need that for these non deterministic things. So I'm going to share on the side here. While this API and this platform is not publicly available, we are working on a community edition right now. We just deploy a separate instance and a separate database for individual clients because I've written it all as infrastructure, as code so I can just spin it up really easily. But I'll put the docs in the chat here and maybe send it out after because these things tend to get lost. If anyone's interested to have a read through that. And yeah, I rambled on a bit there. I will pass it back over to Graham. But yeah, if you're interested in that, just feel free to shoot me a message anywhere, email, whatever. Cool, thanks Spencer. Just rounding out this, we can see that the conversation has come back and this flow can, will continue in perpetuity as long as the lead continues to respond. So that's it on the high level side. And if we refresh here, when you. Say the lead will continue, will it will continue on script and pulling from or continue? Like how does it end? How do you know? It ends in three ways. So if the lead continues to respond, the conversation will continue if the lead stops responding. Because we're designing this around marketing sequences, we have mechanisms that will fire, bump or follow up messages from the agent at a set point in the future. And that will happen a few times and then we'll say, okay, this person's not responding, let's end the conversation. There's other mechanisms in place around what justifies closing the conversation prematurely. One of those is if it's an SMS campaign and the person says this is the wrong number, we take that value. We immediately say this is a close conversation and that person is basically removed from the, on the high level side, from the workflow. Cool. Or if the person says like don't talk to me anymore, stop messaging me. That's a clear indication we need to close this conversation. And so we do that. But yeah, we can see this conversation is represented here as well for the end, for the user.
+- id: W-0017
+  t_start: 1440.0
+  t_end: 1560.0
+  utterance_ids:
+  - u66
+  - u67
+  - u68
+  - u69
+  - u70
+  - u71
+  text: It ends in three ways. So if the lead continues to respond, the conversation will continue if the lead stops responding. Because we're designing this around marketing sequences, we have mechanisms that will fire, bump or follow up messages from the agent at a set point in the future. And that will happen a few times and then we'll say, okay, this person's not responding, let's end the conversation. There's other mechanisms in place around what justifies closing the conversation prematurely. One of those is if it's an SMS campaign and the person says this is the wrong number, we take that value. We immediately say this is a close conversation and that person is basically removed from the, on the high level side, from the workflow. Cool. Or if the person says like don't talk to me anymore, stop messaging me. That's a clear indication we need to close this conversation. And so we do that. But yeah, we can see this conversation is represented here as well for the end, for the user. Well that's really cool. And it's Again, like, so this is, that's the end of the demo. But just to sum it up, like, we want to be able to enable people to effectively manage conversational context over time because we think that's like an essential data point that we can use to enable effective agents. So the more that we bring our clients on board to Mercury via, you know, high level automations that we've enabled, and the more that we can get users leveraging our APIs in other to integrate with other systems and are finding practical value that this conversational context is really improving the agents that they're deploying. We see value in that. So that's what we're striving for. Just to tag onto that, like also effective, efficient quality mechanisms for bringing a human into the loop when necessary, such as the monitoring system sending out an alert email if you see like, hey, 5% of your messages had like really negative sentiment or 5% of your messages, you know, like, weren't sending the call to Action link or whatever metrics that you care about so that you can go in, adjust the configuration and then, you know, rapidly deploy an updated version and like measure against it.
+- id: W-0018
+  t_start: 1530.0
+  t_end: 1650.0
+  utterance_ids:
+  - u71
+  - u72
+  - u73
+  text: Just to tag onto that, like also effective, efficient quality mechanisms for bringing a human into the loop when necessary, such as the monitoring system sending out an alert email if you see like, hey, 5% of your messages had like really negative sentiment or 5% of your messages, you know, like, weren't sending the call to Action link or whatever metrics that you care about so that you can go in, adjust the configuration and then, you know, rapidly deploy an updated version and like measure against it. Yeah, so there's integrations are always kind of, they're complex. And so I'm wondering where you find your control planes in this. Like, I'm using that phrase a lot like these days because you can establish when like even your protocol is to me is the control plane. Like the JSON protocol you said has more than one utility. It has even in its one structured piece. So I'm just wondering how you see or where you see your control planes. I can take that one. So like, obviously we have the UI in which you configure like the actual Personas themselves and that's like the control plane for the content of the Persona. The endpoint that Graham showed, the webhook is really like an RPC endpoint where you're able to sort of do things on the fly. It has this notion of an external id. So that's to enable people who want to do workflows without having to go do a bunch of setup up front. Graham showed the configuration of the contact ID in like a manual step. But even that, if you already have your own external identifier, you don't need to do anything, you just need to pass all of that through. The idea is the workflow themselves can be the control plane dynamically and that's just to produce the onboarding friction. What we didn't show here and was detailed in Those API docs is there is a full REST API for configuring everything in the background. So if you want to set up a platform, if you're more technically inclined or you have your own automations in place or web apps in place that you want to leverage this with, you can create your own control plane for it as well inside your applications. Does that, does that mostly answer your question?
+- id: W-0019
+  t_start: 1620.0
+  t_end: 1740.0
+  utterance_ids:
+  - u73
+  - u74
+  - u75
+  - u76
+  text: I can take that one. So like, obviously we have the UI in which you configure like the actual Personas themselves and that's like the control plane for the content of the Persona. The endpoint that Graham showed, the webhook is really like an RPC endpoint where you're able to sort of do things on the fly. It has this notion of an external id. So that's to enable people who want to do workflows without having to go do a bunch of setup up front. Graham showed the configuration of the contact ID in like a manual step. But even that, if you already have your own external identifier, you don't need to do anything, you just need to pass all of that through. The idea is the workflow themselves can be the control plane dynamically and that's just to produce the onboarding friction. What we didn't show here and was detailed in Those API docs is there is a full REST API for configuring everything in the background. So if you want to set up a platform, if you're more technically inclined or you have your own automations in place or web apps in place that you want to leverage this with, you can create your own control plane for it as well inside your applications. Does that, does that mostly answer your question? Oh, totally. Not exactly. I see. I'll use another word that I use all the time too. Is like you found substrate for your stuff and it's. It's the fluid moving through the pipes and how you shape that. So you're so back in the day we call you packet shapers but you also have call to action all over the place. So. But yeah, you've shown a whole lot of. Of the validation and eval component and how you have strategies around that and how you're trying to surface your stuff as the. Like how I see it anyways, you surface your experience as the core point of contact and that the substrate, what you call it. So I missed that a long time ago. I put up two blind eyes to CRMs and it's been a problem. So what was the name of the CRM? That one's Go High Level. Go High Level and using it significantly, I think that's a pretty smart way to go. And then figuring out. So how about this? Figuring out how to migrate your. Your stuff to a new platform will be a really interesting process.
+- id: W-0020
+  t_start: 1710.0
+  t_end: 1830.0
+  utterance_ids:
+  - u74
+  - u75
+  - u76
+  - u77
+  - u78
+  - u79
+  - u80
+  - u81
+  - u82
+  - u83
+  - u84
+  - u85
+  text: Oh, totally. Not exactly. I see. I'll use another word that I use all the time too. Is like you found substrate for your stuff and it's. It's the fluid moving through the pipes and how you shape that. So you're so back in the day we call you packet shapers but you also have call to action all over the place. So. But yeah, you've shown a whole lot of. Of the validation and eval component and how you have strategies around that and how you're trying to surface your stuff as the. Like how I see it anyways, you surface your experience as the core point of contact and that the substrate, what you call it. So I missed that a long time ago. I put up two blind eyes to CRMs and it's been a problem. So what was the name of the CRM? That one's Go High Level. Go High Level and using it significantly, I think that's a pretty smart way to go. And then figuring out. So how about this? Figuring out how to migrate your. Your stuff to a new platform will be a really interesting process. Yeah. It'S already all set up to do that. If you're using N8N or make. That's the point of the RPC API there. It's just like, it's kind of one of the things that we started with here was like, okay, great. Our first implementations was really coupled to high level. This was like how do we become CRM agnostic? And that's one of the reasons that we developed this API. Yeah. On the E commerce side to kind of advantage that you'd want to. You'd be able to leverage attentive or Klaviyo to do that flow management and sending. The connection points like the points. Of contact as opposed to go high level because they're all kind of like have whatever kind of like conditional flow management and then actual message sending. Because those are so cool, man. So the sequence diagrams for your stuff would be quite amazing. Yeah. Maybe you can show us how to put them in a PDF and sell them. Yeah. Yeah. Well I'd like to be able to get that last bit Done too. But yeah, no. So talking to another company about helping them out and in a way that would be a weird leveraging of IP too. IP as well on our side. Just it's not straightforward here. Use some things. It would be like we'll go inside and help you figure out what it means. So interesting times on my side. But I think what I'm trying to get it like you've got this, and Jason was pointing at it too is like you've got this thing and it's pretty cool where you're tooling it and it's got to be like a snake or something. I don't know. That goes through a lot of pipes. That's how I see it. It's pretty crazy. Thanks for demos guys.
+- id: W-0021
+  t_start: 1800.0
+  t_end: 1920.0
+  utterance_ids:
+  - u82
+  - u83
+  - u84
+  - u85
+  - u86
+  - u87
+  - u88
+  - u89
+  - u90
+  - u91
+  - u92
+  text: Because those are so cool, man. So the sequence diagrams for your stuff would be quite amazing. Yeah. Maybe you can show us how to put them in a PDF and sell them. Yeah. Yeah. Well I'd like to be able to get that last bit Done too. But yeah, no. So talking to another company about helping them out and in a way that would be a weird leveraging of IP too. IP as well on our side. Just it's not straightforward here. Use some things. It would be like we'll go inside and help you figure out what it means. So interesting times on my side. But I think what I'm trying to get it like you've got this, and Jason was pointing at it too is like you've got this thing and it's pretty cool where you're tooling it and it's got to be like a snake or something. I don't know. That goes through a lot of pipes. That's how I see it. It's pretty crazy. Thanks for demos guys. Those are great. I have a question about your SMS provider and have you considered using voice at all? Right now we're just focused on text based communication channels. We haven't bridged that gap into voice yet. But that high levels in SMS is using Twilio on. Okay on the underside and so they have a markup on SMS costs essentially it's like part of their usage based business model. So we're using high level in that instance for using SMS or using that channel. Is there an SMS provider that's not. Doesn't end up at Twilio like is Twilio only one? Nope, not that I've ever seen. That was such a smart thing when it came out. I got so interested in it. Well, thank you for the demo. That was really cool. Is there more interest in chatting through it, critiquing it? I have a couple of questions on the user side because thank you for the demo. This is super cool. I love that you can analyze the conversations afterwards to really think about how people are receiving your chatbots. So you can maybe fine tune them to customers of interest and to the type of people you want to capture. So that's super awesome. Couple of questions. How do people feel about having an AI agent text them? Have you gotten any feedback on that?
+- id: W-0022
+  t_start: 1890.0
+  t_end: 2010.0
+  utterance_ids:
+  - u89
+  - u90
+  - u91
+  - u92
+  - u93
+  - u94
+  - u95
+  - u96
+  - u97
+  text: Is there an SMS provider that's not. Doesn't end up at Twilio like is Twilio only one? Nope, not that I've ever seen. That was such a smart thing when it came out. I got so interested in it. Well, thank you for the demo. That was really cool. Is there more interest in chatting through it, critiquing it? I have a couple of questions on the user side because thank you for the demo. This is super cool. I love that you can analyze the conversations afterwards to really think about how people are receiving your chatbots. So you can maybe fine tune them to customers of interest and to the type of people you want to capture. So that's super awesome. Couple of questions. How do people feel about having an AI agent text them? Have you gotten any feedback on that? It's a spectrum. There's geek level, there's some. There's something smiling really loud. Tell us, tell us the two ends of the spectrum. Yeah, I, I can guess at them. But yeah, well like I guess in the early going it was a lot more obvious but we definitely had some agents that have made it. Some people know and some people call it out and then they're. They're not engaged. Some people have very much responded with well to the experience and I think the reason that Is. Is as we've evolved our design of how we're deploying these agents, we've also improved the personalization. So the campaigns that were a lot more personalized and were actually calling out specific information about that contact, I don't think they really cared. They liked the fact that it was engaging for them and then it was facilitating the actions that we wanted them to take. So.
+- id: W-0023
+  t_start: 1980.0
+  t_end: 2100.0
+  utterance_ids:
+  - u97
+  - u98
+  - u99
+  text: But yeah, well like I guess in the early going it was a lot more obvious but we definitely had some agents that have made it. Some people know and some people call it out and then they're. They're not engaged. Some people have very much responded with well to the experience and I think the reason that Is. Is as we've evolved our design of how we're deploying these agents, we've also improved the personalization. So the campaigns that were a lot more personalized and were actually calling out specific information about that contact, I don't think they really cared. They liked the fact that it was engaging for them and then it was facilitating the actions that we wanted them to take. So. Maybe just to clarify something in this example, like were showing it for an AI agent platform, but like most of the time, and we provide our clients this option, the agents don't disclose that they are AI, even when asked. Sometimes people will say, oh, hey, I can tell you're AI or whatever. That's gone down over time. But yeah, like, just to. Just to be clear, like, that's something that's an option we provide to the client. And like, unanimously, people have always chosen, don't reveal that it's AI, like, even when asked. Interesting, because like, that was. That's a lead in for kind of. My next question is thinking about trust and things like that. You know, if you're a potential client and you're not told you're interacting with a bottle and then you find out like that too, I could see that putting a lot of people off. And I guess, I mean, to your point, it's up to the person who's using it to decide whether they want to disclose that up front or not. But it's, you know, as you're doing your demo, I found it so ironic that, you know, an AI bot is assuring someone that it's a whole essential, except for it's not revealing in the first place that it's an AI bot. You know, a bit of a. I'm thinking about, you know, responsible, equitable use and sorry, I will be that rain on the parade of what we can do. And just all the kind of stuff that's going on that's unintentional because people didn't realize it was the bot.
+- id: W-0024
+  t_start: 2070.0
+  t_end: 2190.0
+  utterance_ids:
+  - u99
+  - u100
+  - u101
+  - u102
+  - u103
+  - u104
+  - u105
+  - u106
+  text: Interesting, because like, that was. That's a lead in for kind of. My next question is thinking about trust and things like that. You know, if you're a potential client and you're not told you're interacting with a bottle and then you find out like that too, I could see that putting a lot of people off. And I guess, I mean, to your point, it's up to the person who's using it to decide whether they want to disclose that up front or not. But it's, you know, as you're doing your demo, I found it so ironic that, you know, an AI bot is assuring someone that it's a whole essential, except for it's not revealing in the first place that it's an AI bot. You know, a bit of a. I'm thinking about, you know, responsible, equitable use and sorry, I will be that rain on the parade of what we can do. And just all the kind of stuff that's going on that's unintentional because people didn't realize it was the bot. Is that inauthentic, though, that it's. That it's not saying that it's a bot or not because we have amazing experiences with agents. Is it Scooby morphic to think that you have to say I'm a bot? Yeah, I don't know. I want to make. Yes, but if you ask it, if it's a bot, it can't lie about being a bot? I think that's inauthentic. Right. Like if you ask someone, are you a bot and they're a human, they're like, no, I'm a human. But if you ask a bot, are you a bot? And they're like, no, I'm not a bot. It's like, now that's. That's just downright lying. If the bot identifies as a human. Like, are we not so. Exactly, Jason. So in that. In that text that you saw, let's set up a call together, right? So if someone says, sure, let's take a do that, do you now have a human agent who has to pretend their name's Ava? Because that's what the bot's name is, you know, like, yeah. I think you almost never have the agent being the one you're expected to have in the room.
+- id: W-0025
+  t_start: 2160.0
+  t_end: 2280.0
+  utterance_ids:
+  - u104
+  - u105
+  - u106
+  - u107
+  - u108
+  - u109
+  - u110
+  - u111
+  - u112
+  - u113
+  - u114
+  text: If the bot identifies as a human. Like, are we not so. Exactly, Jason. So in that. In that text that you saw, let's set up a call together, right? So if someone says, sure, let's take a do that, do you now have a human agent who has to pretend their name's Ava? Because that's what the bot's name is, you know, like, yeah. I think you almost never have the agent being the one you're expected to have in the room. I think if you extrapolate this out just a little bit, like six months, a year, the expectation of whether or not you're talking to a human or a bottle, it just diffuses. So this is maybe like a problem or a. It's an ethical thing now. And I totally get where your position is on that gent, but I think it's like, a bunch of stuff will happen and then no one will care and it won't matter. And so how much do we want to care and make it matter now? Like, you guys see, like, Nano Banana yesterday? Yeah, I saw that. Great. Right? And so people have been using it. It's like a new Google Image model, and it's so good when combined with VO3. Like, you really can't tell. So on the advertising side, people are making ads with it. It's crazy. And like, on X, it's like, wow, like, boomers have no idea. Like, there's a market segment or an audience segment where there's just a lack of awareness around AI, where their experience is great. And. And then you kind of end up in this, like, do the ends justify the means kind of scenario where it's like, well, you know, they had a great experience. They really liked this. It was positive. They wouldn't have got it with a human because it was too expensive or didn't have the information. And thus, you know, we can justify our lack of disclosure around AI. There's a regulatory thing. I completely agree with that. Because, you know, if you're having a good experience, who cares if you're getting the answers you want in the skills, customer service you want? Like, who. Who cares if it's a bot or a human? If it's sticking to the script and it's not doing erroneous things, great. No props. I think the. The part that I'd be like, huh. Is if you ask it should at least be honest. Yes, I'm a bot. Because in the long run, this then generates trust in talking to bots.
+- id: W-0026
+  t_start: 2250.0
+  t_end: 2370.0
+  utterance_ids:
+  - u112
+  - u113
+  - u114
+  - u115
+  - u116
+  - u117
+  - u118
+  - u119
+  text: And. And then you kind of end up in this, like, do the ends justify the means kind of scenario where it's like, well, you know, they had a great experience. They really liked this. It was positive. They wouldn't have got it with a human because it was too expensive or didn't have the information. And thus, you know, we can justify our lack of disclosure around AI. There's a regulatory thing. I completely agree with that. Because, you know, if you're having a good experience, who cares if you're getting the answers you want in the skills, customer service you want? Like, who. Who cares if it's a bot or a human? If it's sticking to the script and it's not doing erroneous things, great. No props. I think the. The part that I'd be like, huh. Is if you ask it should at least be honest. Yes, I'm a bot. Because in the long run, this then generates trust in talking to bots. Right. If you ask a bot, are you a bot? And says, yes, I'm a bot. But you're like, I'm getting great customers, customer service with this bot. You stop caring whether it's a human or a bot because you start to be like, oh, I can't really tell the difference. Or even it's better when I talk to a bot. Maybe it starts to be like, you get a human. You're like, please transfer me to a bot so I can just like solve this the way I want to on my own time. Right. Which we laugh, but it could happen. So it is happening for sure. You know what I mean? It's like at first you might think, like, being honest, like, yes, I'm a bot would be off putting, and it might at first, but it's one of those, as people acclimatize to bots just being, you know, one of the ways to interface with companies, then that's gonna, as Jason says, it's gonna go away. You know, it's more about, am I getting what I need out of this thing I'm talking to. Regardless of what type of entity it is. We've seen that firsthand. We've seen it firsthand and that's what's driving us. Like, we really believe that agents will be the main interface that you have with a business and that they will provide exceptional experiences because they have complete context of who you are as a customer to that business.
+- id: W-0027
+  t_start: 2340.0
+  t_end: 2460.0
+  utterance_ids:
+  - u118
+  - u119
+  - u120
+  - u121
+  - u122
+  text: You know what I mean? It's like at first you might think, like, being honest, like, yes, I'm a bot would be off putting, and it might at first, but it's one of those, as people acclimatize to bots just being, you know, one of the ways to interface with companies, then that's gonna, as Jason says, it's gonna go away. You know, it's more about, am I getting what I need out of this thing I'm talking to. Regardless of what type of entity it is. We've seen that firsthand. We've seen it firsthand and that's what's driving us. Like, we really believe that agents will be the main interface that you have with a business and that they will provide exceptional experiences because they have complete context of who you are as a customer to that business. And they're absolutely patient. Yeah. I think right now too is most of our experiences with bots are horrible and we just want to get to a human because it's sucks. But what you're designing here is going to be a significantly better experience. And at the end of the day, they just want whatever they want from that conversation. Yeah, I'm sure we'll get to a point where the bots are performing well enough, if not better than a human. Okay. And, and I'm sure what Jen suggests that some people will prefer to have a bot is fine. My whole problem with the bot not answering that it's a bot has nothing to do with it's a bot. It has to do with you providing a service that is lying. Right. Like, so, you know, if your customer asks you a question and you give a lie back. Right. It's almost irrelevant whether that lie is the price or the, you know, or whether that's actually the product in the picture or not. Right. It, you know, it stops being about whether that you might be allowed to not have the same thing in the picture that you're actually selling to the customer. But if they ask you, you shouldn't lie about what you presented. Right. That, that becomes, it's the lie that becomes the problem, regardless of what the lie is. Right. Like it might be, might not matter that you might, there might be small print somewhere that says, you know, whatever, but you know, you're lying to your customer and if your customer can catch you in your lie, then you've done the damage, in my opinion. Right.
+- id: W-0028
+  t_start: 2430.0
+  t_end: 2550.0
+  utterance_ids:
+  - u122
+  - u123
+  - u124
+  text: Yeah, I'm sure we'll get to a point where the bots are performing well enough, if not better than a human. Okay. And, and I'm sure what Jen suggests that some people will prefer to have a bot is fine. My whole problem with the bot not answering that it's a bot has nothing to do with it's a bot. It has to do with you providing a service that is lying. Right. Like, so, you know, if your customer asks you a question and you give a lie back. Right. It's almost irrelevant whether that lie is the price or the, you know, or whether that's actually the product in the picture or not. Right. It, you know, it stops being about whether that you might be allowed to not have the same thing in the picture that you're actually selling to the customer. But if they ask you, you shouldn't lie about what you presented. Right. That, that becomes, it's the lie that becomes the problem, regardless of what the lie is. Right. Like it might be, might not matter that you might, there might be small print somewhere that says, you know, whatever, but you know, you're lying to your customer and if your customer can catch you in your lie, then you've done the damage, in my opinion. Right. Yeah, that's really good feedback. That's really good feedback. Thank you both. The other side is that like strict, strategically like you as a startup, you know, small company, like, you know, basically we're trying to overcome like to Ashley's point, the previous like negative experience with like, you know, bots that are just kind of path dependent and so people have had bad experiences. We're trying to overcome that. We're talking about these disclosures. It's like you don't you want to like, I'm kind of like let the big companies, like the Microsofts and everybody take the arrows in the back to try and like spend all their money to convince everybody that these new AI bots are good. And then, you know, the smaller companies should try and skate like a ethical and regulatory line to advantage themselves while the society normalizes around things. Because you see these things happen all the time. Even these big companies, they go and they do a bunch of stuff that's like kind of heinous in order to achieve market position. And then once they have market position, it doesn't really matter. It's like if Meta is using all the Amazon books to train their models and they're like, oh well, maybe we owe them some money afterward, but we got to this place with our model and therefore like, you know, no backseats. But you see these decisions made all the time that are probably not great long term, but short term create enough value to be able to justify the thing. And I think that's where it gets really ethically and morally like nebulous.
+- id: W-0029
+  t_start: 2520.0
+  t_end: 2640.0
+  utterance_ids:
+  - u124
+  - u125
+  text: The other side is that like strict, strategically like you as a startup, you know, small company, like, you know, basically we're trying to overcome like to Ashley's point, the previous like negative experience with like, you know, bots that are just kind of path dependent and so people have had bad experiences. We're trying to overcome that. We're talking about these disclosures. It's like you don't you want to like, I'm kind of like let the big companies, like the Microsofts and everybody take the arrows in the back to try and like spend all their money to convince everybody that these new AI bots are good. And then, you know, the smaller companies should try and skate like a ethical and regulatory line to advantage themselves while the society normalizes around things. Because you see these things happen all the time. Even these big companies, they go and they do a bunch of stuff that's like kind of heinous in order to achieve market position. And then once they have market position, it doesn't really matter. It's like if Meta is using all the Amazon books to train their models and they're like, oh well, maybe we owe them some money afterward, but we got to this place with our model and therefore like, you know, no backseats. But you see these decisions made all the time that are probably not great long term, but short term create enough value to be able to justify the thing. And I think that's where it gets really ethically and morally like nebulous. I work for a man called Angus Reed and he introduced dinner time polling in Canada. So he introduced the Runway for you guys to do SMS marketing by interrupting people's dinner time and asking them political questions. And he enabled that as a public right for businesses to do that, to be able to call up anybody at any time and ask them questions. And that changed the landscape which the media could function and then the political parties could function. So it was, you know, it's a, it was a thing that was just like Jason's talking about. It was in the gray area. It's like with possible man, there's nothing in the legislation that doesn't say don't do it. But there was a respect issue in the 70s at least, and the 80s around dinner time, and it wasn't to be interrupted, but he did that. He knew when people were sitting down at the table and he interrupted everybody. And so telemarketing really took off as a result of him legitimating that. And, and so there's, there is a period of time where there can be reactions to things. Ted Rogers did another thing in Canada. He introduced something called negative billing.
+- id: W-0030
+  t_start: 2610.0
+  t_end: 2730.0
+  utterance_ids:
+  - u125
+  - u126
+  - u127
+  - u128
+  - u129
+  - u130
+  text: I work for a man called Angus Reed and he introduced dinner time polling in Canada. So he introduced the Runway for you guys to do SMS marketing by interrupting people's dinner time and asking them political questions. And he enabled that as a public right for businesses to do that, to be able to call up anybody at any time and ask them questions. And that changed the landscape which the media could function and then the political parties could function. So it was, you know, it's a, it was a thing that was just like Jason's talking about. It was in the gray area. It's like with possible man, there's nothing in the legislation that doesn't say don't do it. But there was a respect issue in the 70s at least, and the 80s around dinner time, and it wasn't to be interrupted, but he did that. He knew when people were sitting down at the table and he interrupted everybody. And so telemarketing really took off as a result of him legitimating that. And, and so there's, there is a period of time where there can be reactions to things. Ted Rogers did another thing in Canada. He introduced something called negative billing. I was just going to say that because I was where you have. We have these amazing innovators in Canada. And he actually did that. And you know, and everybody in Rogers, all of a sudden their bills would go up without them saying anything. And you had to actually say something for your bill not to change. And then that became legislated that you couldn't do that on people. Right? And so people took Jason's approach because I was CEO of a telecom when that was going on. And everybody did it because. Because Rogers opened the door and did it. They all thought, well, Rogers is doing it, we can follow along. We did it too. Okay. Rogers was told not to do it, legislation passed and then everybody was hammered with fines, right? Hammered with fines. I mean, the fines were not small, they were huge. And we, everybody had to go back and pay back every negative billing dollar they had done retroactively to the thing. And it created a lot of complications and bad will and legal trouble. So you do have to be careful about the. They paved the way with this, you know, with this thing and then we followed you. So I bring them up as examples because it is, it. It is a thing, right? Like it is this gray space. But I believe that it is a skewy, morphic, a social mimetic thing where we will just by way of, within months recognize that we are going to have a front forefront. It'll be when the government in Canada kind of thing does it in a full contact way is like they say, well, now we have bots everywhere and we're not going to announce that you have to ask questions. They'll give you a protocol Right. Something like that. But I do think it is just a transitionary period because of the same reason that Angus Reed was successful. There's just too much benefit.
+- id: W-0031
+  t_start: 2700.0
+  t_end: 2820.0
+  utterance_ids:
+  - u129
+  - u130
+  - u131
+  - u132
+  text: And so people took Jason's approach because I was CEO of a telecom when that was going on. And everybody did it because. Because Rogers opened the door and did it. They all thought, well, Rogers is doing it, we can follow along. We did it too. Okay. Rogers was told not to do it, legislation passed and then everybody was hammered with fines, right? Hammered with fines. I mean, the fines were not small, they were huge. And we, everybody had to go back and pay back every negative billing dollar they had done retroactively to the thing. And it created a lot of complications and bad will and legal trouble. So you do have to be careful about the. They paved the way with this, you know, with this thing and then we followed you. So I bring them up as examples because it is, it. It is a thing, right? Like it is this gray space. But I believe that it is a skewy, morphic, a social mimetic thing where we will just by way of, within months recognize that we are going to have a front forefront. It'll be when the government in Canada kind of thing does it in a full contact way is like they say, well, now we have bots everywhere and we're not going to announce that you have to ask questions. They'll give you a protocol Right. Something like that. But I do think it is just a transitionary period because of the same reason that Angus Reed was successful. There's just too much benefit. I think you've got like a lot of faith in the regulators to be able to like have something that's nuanced, that balances the needs of kind of business and adoption. Because I can see them just being like this potential ARPA legislation that fell off in the U.S. it was like anything that's AI needs to be disclosed as AI. You know, like it needs a this is AI badge. And like, that's not helpful, you know, to be able to drive adoption and actually backfill the value that's potentially being created. Particularly, potentially, particularly in the, like the stock market. Like we saw what happened last week with that MIT study that came out that said, you know, all this investment is not yielding any value. And then the stuff, everybody's like, such a reactionary thing. The one thing I did want to comment on the bots thing is like, no matter disclosure, one company we're talking to right now, they have, they're talking to us because they had a really negative experience where they discovered in situ that they were talking to bots. Their, their CSRs were talking to bots, phoning them, fully having conversations and they were like, we don't know how long this has been going on. We don't know who's doing it. But we found out only because one went squirrely.
+- id: W-0032
+  t_start: 2790.0
+  t_end: 2910.0
+  utterance_ids:
+  - u131
+  - u132
+  - u133
+  text: I think you've got like a lot of faith in the regulators to be able to like have something that's nuanced, that balances the needs of kind of business and adoption. Because I can see them just being like this potential ARPA legislation that fell off in the U.S. it was like anything that's AI needs to be disclosed as AI. You know, like it needs a this is AI badge. And like, that's not helpful, you know, to be able to drive adoption and actually backfill the value that's potentially being created. Particularly, potentially, particularly in the, like the stock market. Like we saw what happened last week with that MIT study that came out that said, you know, all this investment is not yielding any value. And then the stuff, everybody's like, such a reactionary thing. The one thing I did want to comment on the bots thing is like, no matter disclosure, one company we're talking to right now, they have, they're talking to us because they had a really negative experience where they discovered in situ that they were talking to bots. Their, their CSRs were talking to bots, phoning them, fully having conversations and they were like, we don't know how long this has been going on. We don't know who's doing it. But we found out only because one went squirrely. Yeah, I think, but to the point too is like everyone's saying, like it's going to progress. It's super new technology is moving super fast. So like any other new tech, it's going to take time for humanity to figure out how to coexist with it and where the lines are and how we define these. Except for this is on steroids now because it's, you know, I can't tell if you're a human or not really bothers people. I think one thing to think about carefully though when deploying our tech is if we are aware of some things like lying, degrading trust, then, you know, wouldn't we want to design to be a good actor in terms of like being really like. It shows that you're ahead of the curve. Right. In terms of like, we recognize lying about whether you're a bot or not can create trust in users. So if someone asks our bot if they're a bot, we say yes. And in that way too, you're positioning yourself as when regulations drop whenever and however that's going to evolve. You know, you don't have to retool your product and you don't have any backlash or less, I should say, because you're already erring on the side of transparency. I think that's the one that we see a lot over and over again is like, we're not sure how to handle this. All those things. There's so many things. Right. But transparency supports trust, which then supports people using.
+- id: W-0033
+  t_start: 2880.0
+  t_end: 3000.0
+  utterance_ids:
+  - u133
+  - u134
+  - u135
+  - u136
+  - u137
+  - u138
+  - u139
+  - u140
+  - u141
+  - u142
+  - u143
+  text: Yeah, I think, but to the point too is like everyone's saying, like it's going to progress. It's super new technology is moving super fast. So like any other new tech, it's going to take time for humanity to figure out how to coexist with it and where the lines are and how we define these. Except for this is on steroids now because it's, you know, I can't tell if you're a human or not really bothers people. I think one thing to think about carefully though when deploying our tech is if we are aware of some things like lying, degrading trust, then, you know, wouldn't we want to design to be a good actor in terms of like being really like. It shows that you're ahead of the curve. Right. In terms of like, we recognize lying about whether you're a bot or not can create trust in users. So if someone asks our bot if they're a bot, we say yes. And in that way too, you're positioning yourself as when regulations drop whenever and however that's going to evolve. You know, you don't have to retool your product and you don't have any backlash or less, I should say, because you're already erring on the side of transparency. I think that's the one that we see a lot over and over again is like, we're not sure how to handle this. All those things. There's so many things. Right. But transparency supports trust, which then supports people using. Yeah. Again, I'm going to point to Jason, like, I'm tired of having those discussions. And I want to point to Jason saying, point to Microsoft to figure those things out. I think I agree with you wholeheartedly, Jen. I just don't know if it's strategically advantageous for a business to follow 0. 0. Well, it might be. It might not be. I'm kind of, I'm sitting here thinking, I'm like, oh, I want to go back and do analysis. I'm like, new technological innovations, their adoption. And then like, how those things were rolled out. Because I agree that, like, the way that you're describing it is the way. That it should be. But I think if you're a company that's starting at zero and you apply that and then you've got bigger companies with better market position or other more competitive advantages, and they're like, oh, we're going totally toe the line, then, like, what's the probability that you're going to be able to outpace them? If you're kind of working from a place that you already know, it's a slight disadvantage. And so I'm not advocating for doing something immoral or unethical. I guess I kind of am. At the same time. At the end. Of the day, at the end of the day, I think the customer experience will make the question a moot point. Exactly. And I agree with that. Is, I think the point, Graham, if your bots are providing exceptional experience, you don't care anymore if it's a bot or a human. If you're getting what you want out of it. Most people won't even ask exactly if, like. Right. And I think that's to the point. If you don't even ask, you don't care enough. And so whatevs. As long as you're getting what you want out of it. And you know, but to Fulvia's point, and that's. I think where I'm pointing to is if you ask it blatantly, are you a bot? It shouldn't lie.
+- id: W-0034
+  t_start: 2970.0
+  t_end: 3090.0
+  utterance_ids:
+  - u140
+  - u141
+  - u142
+  - u143
+  - u144
+  - u145
+  - u146
+  - u147
+  - u148
+  text: But I think if you're a company that's starting at zero and you apply that and then you've got bigger companies with better market position or other more competitive advantages, and they're like, oh, we're going totally toe the line, then, like, what's the probability that you're going to be able to outpace them? If you're kind of working from a place that you already know, it's a slight disadvantage. And so I'm not advocating for doing something immoral or unethical. I guess I kind of am. At the same time. At the end. Of the day, at the end of the day, I think the customer experience will make the question a moot point. Exactly. And I agree with that. Is, I think the point, Graham, if your bots are providing exceptional experience, you don't care anymore if it's a bot or a human. If you're getting what you want out of it. Most people won't even ask exactly if, like. Right. And I think that's to the point. If you don't even ask, you don't care enough. And so whatevs. As long as you're getting what you want out of it. And you know, but to Fulvia's point, and that's. I think where I'm pointing to is if you ask it blatantly, are you a bot? It shouldn't lie. Well, you know, and you can handle it kind of smoothly, right? Like, the answer to are you a bot? Shouldn't be yes or no. It should be, would you like me to transfer you to a personalized human assistant? Right. Like, like, you know what I mean? Like, like. And, and that's when you etiquette even. Beyond James. This opposition is true. Because I bet you if the bot asks that, some people say no, it's okay. You know what I mean? They just want to know. They just might just want to know what they're dealing with. Right? Like. James, I don't have. A lot of experience in marketing, but what stood out to me was you said that the campaign, maybe the second or third one that you rolled out with more personalization was more effective. And I mean, you could do it in a campaign or the really beautiful thing as Spencer showed was you could just test what is going to improve that customer experience. And it seems like, I mean, I know enough to know that like a lot of sales is built around trust. Like that whole conversation that's happening is a lot of it's building trust. So to me the question is like, what is the honest Persona and approach of a bot that is going to yield the best results and is it not Spencer, is it possible to simulate that, like, come up, like to just test it, like come up with a Persona, start running it through simulations in these serverless things and then just sort.
+- id: W-0035
+  t_start: 3060.0
+  t_end: 3180.0
+  utterance_ids:
+  - u146
+  - u147
+  - u148
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  text: This opposition is true. Because I bet you if the bot asks that, some people say no, it's okay. You know what I mean? They just want to know. They just might just want to know what they're dealing with. Right? Like. James, I don't have. A lot of experience in marketing, but what stood out to me was you said that the campaign, maybe the second or third one that you rolled out with more personalization was more effective. And I mean, you could do it in a campaign or the really beautiful thing as Spencer showed was you could just test what is going to improve that customer experience. And it seems like, I mean, I know enough to know that like a lot of sales is built around trust. Like that whole conversation that's happening is a lot of it's building trust. So to me the question is like, what is the honest Persona and approach of a bot that is going to yield the best results and is it not Spencer, is it possible to simulate that, like, come up, like to just test it, like come up with a Persona, start running it through simulations in these serverless things and then just sort. Of like do it that way 100%. One of the features that isn't on Mercury yet, but like I have built in another app is like a hypothesis testing conversation simulation framework with like probability models around link clicks. It's hard to get the probability model right. That's very differentiated for different things. But like, that's something I'm looking to build into the actual platform eventually too. But to your point. Yes. Yeah. Can you point one bot, one of your bots at another, at the other at another of your bots? Yes, that's what I do in the hypothesis testing thing. Yeah, that's what I'm on campus. Cool. That's cool. Yeah. One of my first, like one of the first benefits I had to really getting value out of hallucinations was having multi, like having a council of Personas faking discretion in front of me. It was really good.
+- id: W-0036
+  t_start: 3150.0
+  t_end: 3270.0
+  utterance_ids:
+  - u149
+  - u150
+  - u151
+  - u152
+  - u153
+  - u154
+  - u155
+  - u156
+  - u157
+  - u158
+  - u159
+  text: Of like do it that way 100%. One of the features that isn't on Mercury yet, but like I have built in another app is like a hypothesis testing conversation simulation framework with like probability models around link clicks. It's hard to get the probability model right. That's very differentiated for different things. But like, that's something I'm looking to build into the actual platform eventually too. But to your point. Yes. Yeah. Can you point one bot, one of your bots at another, at the other at another of your bots? Yes, that's what I do in the hypothesis testing thing. Yeah, that's what I'm on campus. Cool. That's cool. Yeah. One of my first, like one of the first benefits I had to really getting value out of hallucinations was having multi, like having a council of Personas faking discretion in front of me. It was really good. Ashley, did you have something you wanted to add? Yeah. Oh, I just wanted to ask. A few weeks ago were talking about context rot and it seems like context is so crucial to that workflow. Do you have any like secrets for like how have you come to like, context seems so crucial to what you've presented there. How are you, how are you sort of, I don't know, getting it to a point that it's usable when you're continuously adding to it. It's probably worded, but so like one. Of the things is surfacing when it goes bad and then, you know, being able to be a human and loop and go fix that, or like a bot in the loop as well. But another thing is like wrapped up in that API is a lot of the work that you can see that you're not just writing a prompt directly, you're basically providing configuration file. Behind there is workflows of prompts that do things like internal concepts. We've. We've constructed around message types and all this type of stuff. And, you know, the way that configuration is presented, certain global rules that are provided across prompts, all to just, you know, make that less of an issue. And over time, we continually improve that system. You know, that's why we're always looking to get more users into the system. But yeah, it's a real problem. And like, our first campaigns were like miles away from where we're at today with what we're able to do with respect to that.
+- id: W-0037
+  t_start: 3240.0
+  t_end: 3360.0
+  utterance_ids:
+  - u159
+  - u160
+  - u161
+  - u162
+  - u163
+  - u164
+  - u165
+  text: Of the things is surfacing when it goes bad and then, you know, being able to be a human and loop and go fix that, or like a bot in the loop as well. But another thing is like wrapped up in that API is a lot of the work that you can see that you're not just writing a prompt directly, you're basically providing configuration file. Behind there is workflows of prompts that do things like internal concepts. We've. We've constructed around message types and all this type of stuff. And, you know, the way that configuration is presented, certain global rules that are provided across prompts, all to just, you know, make that less of an issue. And over time, we continually improve that system. You know, that's why we're always looking to get more users into the system. But yeah, it's a real problem. And like, our first campaigns were like miles away from where we're at today with what we're able to do with respect to that. It's about getting that the hard problem is what exact context needs to be in the context window of your agent at the time of execution, at the time that the output is being generated. And that's like the art of it. Yeah, that's what we're trying to figure out. So that's why we've honed in on like the notion of a conversation as at least a starting point, because it makes so much sense in the context of marketing communication is that if we have that context, well, then we can expand out into other data points about the business generally that might make sense to ingest in the context window at runtime. Okay. Yeah. Thank you. The general strategy towards removing context rot, because it's. It is a function of ever increasing context. It's context growing and growing. Right. And so is generally. And you see it in play all the time with lots of applications. The big one is in, you know, the context you have for a code base, right. Context creeps in as that context gets bigger and bigger. And generally what the strategy that's used in that space in that thing is, you know, summarization. Right. You take, when you know you're a preaching. When you know you're preaching a certain approaching. Excuse me, I'm very tired. Approaching the limit of the context window. You, you take the whole conversation, summarize it, condense it. Right. And then start a new context window. Right. So throw everything out and just use the summarization. Right.
+- id: W-0038
+  t_start: 3330.0
+  t_end: 3450.0
+  utterance_ids:
+  - u163
+  - u164
+  - u165
+  - u166
+  - u167
+  - u168
+  - u169
+  text: The general strategy towards removing context rot, because it's. It is a function of ever increasing context. It's context growing and growing. Right. And so is generally. And you see it in play all the time with lots of applications. The big one is in, you know, the context you have for a code base, right. Context creeps in as that context gets bigger and bigger. And generally what the strategy that's used in that space in that thing is, you know, summarization. Right. You take, when you know you're a preaching. When you know you're preaching a certain approaching. Excuse me, I'm very tired. Approaching the limit of the context window. You, you take the whole conversation, summarize it, condense it. Right. And then start a new context window. Right. So throw everything out and just use the summarization. Right. So yeah, so this is where you have like, it's very important to have that context summary. Agent is a separate sort of identity, I guess who can like do that, translate that for a way for the model to take the next step. That's right. That's right. So, and you don't have to have it. I shouldn't say this because there is more than one approach to this. You don't have to have it live doing it all the time. You really only need a metric to know when you're reaching a certain threshold of the size of your context. It's not an agent has to be running all the time. It's like a hooked event that happens before you reset your context window. The last thing you do before you reset your context window is condensed and store, then open your new context window and dump in the fresh context. That makes a lot of sense. That's generally how it's done. I say that is the approach being used to address the context problem. There's articles on it, so forth and all the rest. And you see it recently in some very specific tools that have not just done this, but documented that this is what's going on and that's how the approach is being done. The problem is that all the models are changing their context window sizes and they're a point and their approach to attention, context attention, which also affects this because you have sliding attention and focused attention and these other strategies that also affect this. But, and I will tell you that as a graph, I think I showed to James at one point, or maybe I meant to show to James because I think he asked about context rot and that is it is a mappable graph. Right. So is not very common when you have a small context window and the amount of rot increases as you approach the limit. And so generally people say at the, you know, at the 60 to 70% threshold, you should be thinking about stopping and condensing and you know, starting a new thing.
+- id: W-0039
+  t_start: 3420.0
+  t_end: 3540.0
+  utterance_ids:
+  - u167
+  - u168
+  - u169
+  - u170
+  - u171
+  - u172
+  text: That's right. That's right. So, and you don't have to have it. I shouldn't say this because there is more than one approach to this. You don't have to have it live doing it all the time. You really only need a metric to know when you're reaching a certain threshold of the size of your context. It's not an agent has to be running all the time. It's like a hooked event that happens before you reset your context window. The last thing you do before you reset your context window is condensed and store, then open your new context window and dump in the fresh context. That makes a lot of sense. That's generally how it's done. I say that is the approach being used to address the context problem. There's articles on it, so forth and all the rest. And you see it recently in some very specific tools that have not just done this, but documented that this is what's going on and that's how the approach is being done. The problem is that all the models are changing their context window sizes and they're a point and their approach to attention, context attention, which also affects this because you have sliding attention and focused attention and these other strategies that also affect this. But, and I will tell you that as a graph, I think I showed to James at one point, or maybe I meant to show to James because I think he asked about context rot and that is it is a mappable graph. Right. So is not very common when you have a small context window and the amount of rot increases as you approach the limit. And so generally people say at the, you know, at the 60 to 70% threshold, you should be thinking about stopping and condensing and you know, starting a new thing. Thankfully, SMS conversations are pretty short in our use case and like the context windows of the models are like 300 to 500 pages of written text. So like we don't have people carrying on novels with full rag. Yeah. One of the, one of the things that I studied to learn about that And I'll hand off to Jen is sequential thinking. The MCP for using memory inside your ide. Very simple. It's just a series of lists, Jen. Another thing that they do to avoid context rot, which is a function of just the way these LLMs work is they like positive instructions versus negative instructions. So often when they do the condensation, they will exchange the negative instruction to positive instructions, if you know what I mean. Optimists, rather than say don't do this, they say do this because it just, it creates less problems somehow.
+- id: W-0040
+  t_start: 3510.0
+  t_end: 3630.0
+  utterance_ids:
+  - u171
+  - u172
+  - u173
+  - u174
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  text: Yeah. One of the, one of the things that I studied to learn about that And I'll hand off to Jen is sequential thinking. The MCP for using memory inside your ide. Very simple. It's just a series of lists, Jen. Another thing that they do to avoid context rot, which is a function of just the way these LLMs work is they like positive instructions versus negative instructions. So often when they do the condensation, they will exchange the negative instruction to positive instructions, if you know what I mean. Optimists, rather than say don't do this, they say do this because it just, it creates less problems somehow. Right, that's cool. So this is really interesting. Just sorry if I missed this, but in terms of defining context, do you guys have a AI agent or similar to help the customer themselves develop context so that they have greater success with their agent? I see David raising his eyebrows because. Yeah, right. It's like meta. It'd be like an onboarding agent. Like a onboarding agent. Yeah, yeah, it's definitely a good idea. Because you know, I could see people who would be engaging in this, you know, they need some hand holding toward how to start. Engineering context. I'm just putting it in air quotes or whatever you want to call it. But to do it in ways that then adhere to all the stuff we've just been talking about. Well, and I came up with this term a couple of meetings ago that no one liked. Well, I don't like myself called context grooming. Right. Because isn't so great these days. But there's some connotation there perhaps. But yeah, Context cleaning is what it really should be called. Right. Because you want to get rid of not. It's not just about con. Condensing. Right. Enhancing.
+- id: W-0041
+  t_start: 3600.0
+  t_end: 3720.0
+  utterance_ids:
+  - u175
+  - u176
+  - u177
+  - u178
+  - u179
+  - u180
+  - u181
+  - u182
+  - u183
+  - u184
+  text: Because you know, I could see people who would be engaging in this, you know, they need some hand holding toward how to start. Engineering context. I'm just putting it in air quotes or whatever you want to call it. But to do it in ways that then adhere to all the stuff we've just been talking about. Well, and I came up with this term a couple of meetings ago that no one liked. Well, I don't like myself called context grooming. Right. Because isn't so great these days. But there's some connotation there perhaps. But yeah, Context cleaning is what it really should be called. Right. Because you want to get rid of not. It's not just about con. Condensing. Right. Enhancing. Yeah. Or enhancing and cleaning. And enhancing. Yeah. But you have to be careful with enhancing because that's generally enhancing is usually injection and then you get. And then you get a problem. Right. If you just go nuts with injection, the thing explodes out of control. Control. But context cleaning is a real thing and context cleaning can be done by a in situ, real time agent that's doing that. Right. At least keeping track of what should be cleaned or what is, you know, temporary and should be added to the list of things to look over at the condensation phage Skage. Sorry guys, I'm not fully rested. To Jen's point, I guess also just like how we approach people, facilitating context engineering in our system right now is like those onboarding wizards. Like those are the things that we've identified. That's just like instead of someone just being like, you know something, you see a lot is upload all of your documents ever and we'll just make you a chat bot. Yeah. Which is like kind of silly. This is, you know, some feedback we've gotten from some of our clients that have been using. This is like just this configuration flow, such as it is right now, helps people think about, okay, what do I actually need to put into a chatbot? Like, what are the objections? What are the actual pointed knowledge points that. What are the offers that needs to be scoped to? That's something that's like really important for this. You don't want it hallucinating sales that don't actually exist. And yeah, so that's one of the approaches that we've taken so far. It's just like basically that wizard like flow for configuring a Persona.
+- id: W-0042
+  t_start: 3690.0
+  t_end: 3810.0
+  utterance_ids:
+  - u183
+  - u184
+  - u185
+  - u186
+  text: Yeah. Which is like kind of silly. This is, you know, some feedback we've gotten from some of our clients that have been using. This is like just this configuration flow, such as it is right now, helps people think about, okay, what do I actually need to put into a chatbot? Like, what are the objections? What are the actual pointed knowledge points that. What are the offers that needs to be scoped to? That's something that's like really important for this. You don't want it hallucinating sales that don't actually exist. And yeah, so that's one of the approaches that we've taken so far. It's just like basically that wizard like flow for configuring a Persona. It's like there's a tension between how much system instructions you should surface to the user. And that's really what we're trying to figure out. Like we have system instructions that are the results of the campaigns that we've run, fundamentally built into Mercury now. And now it's like, well, what's the balance of surfacing that to the user and letting them, or letting them inform that. And with our tools we hope that they can iterate on that, on what we give them access to. Yeah, I've taken like the kind of exact opposite approach, which is to try and ask them nothing and then try and run a lot of like different categorized prompt chaining to be able to build all of that context in a way that we found the merchants or our customers aren't good at knowing anyway. Okay, so they're like, they don't know like why people really like their thing or like, you know, like you go through like a bunch of like scenario objective generation, objective resolution, objective generation, objective resolution. But like the objective generation is downstream of like a other marketing or sales processes. And we've had pretty good outcomes with that, like generating some context, then using that context with a subsequent prompt to like then generate something. And it. We don't get crazy hallucinations. We typically get valuable stuff that's kind.
+- id: W-0043
+  t_start: 3780.0
+  t_end: 3900.0
+  utterance_ids:
+  - u186
+  - u187
+  - u188
+  - u189
+  text: Yeah, I've taken like the kind of exact opposite approach, which is to try and ask them nothing and then try and run a lot of like different categorized prompt chaining to be able to build all of that context in a way that we found the merchants or our customers aren't good at knowing anyway. Okay, so they're like, they don't know like why people really like their thing or like, you know, like you go through like a bunch of like scenario objective generation, objective resolution, objective generation, objective resolution. But like the objective generation is downstream of like a other marketing or sales processes. And we've had pretty good outcomes with that, like generating some context, then using that context with a subsequent prompt to like then generate something. And it. We don't get crazy hallucinations. We typically get valuable stuff that's kind. Of the, like the seed of that idea. And something I've really been doing a lot of research on lately is like, how do you just like leverage agencies, as we might call them, just like sets of agents to like do prompt generation dynamically for you and, and like, you know, engineering context based on like, for us in the hypothesis testing thing that I've taken around with a bit is we know one thing, which is when people clicked. And then in that, we can look at the content of the conversation, the demographics of the person, the sentiment of the conversation, and try to derive things that way. My dream vision is to be able to get enough data into the system where we can do that reliably, dynamically, and not even have to worry about that other layer. So you're muted, Jason. I'm thinking about it the same way. Yeah, I. I have to run to you, but thank you, guys. That was, like, so awesome. And I love the discussion here today. It's so refreshing to be around people who really get it. So thanks, guys, very much.
+- id: W-0044
+  t_start: 3870.0
+  t_end: 3905.0
+  utterance_ids:
+  - u187
+  - u188
+  - u189
+  - u190
+  - u191
+  - u192
+  text: Of the, like the seed of that idea. And something I've really been doing a lot of research on lately is like, how do you just like leverage agencies, as we might call them, just like sets of agents to like do prompt generation dynamically for you and, and like, you know, engineering context based on like, for us in the hypothesis testing thing that I've taken around with a bit is we know one thing, which is when people clicked. And then in that, we can look at the content of the conversation, the demographics of the person, the sentiment of the conversation, and try to derive things that way. My dream vision is to be able to get enough data into the system where we can do that reliably, dynamically, and not even have to worry about that other layer. So you're muted, Jason. I'm thinking about it the same way. Yeah, I. I have to run to you, but thank you, guys. That was, like, so awesome. And I love the discussion here today. It's so refreshing to be around people who really get it. So thanks, guys, very much. Thanks, Jen. See y'. All. Thanks. Likewise.

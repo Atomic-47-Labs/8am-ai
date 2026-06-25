@@ -1,0 +1,21 @@
+# THEME-06 — Hiring And Authentication
+
+Status: **steady** &nbsp; | &nbsp; First seen: 2025-09-03 &nbsp; | &nbsp; Last seen: 2026-06-17 &nbsp; | &nbsp; Ideas: 5
+
+## Pattern
+
+Across 5 meetings the group keeps returning to **hiring and authentication**. The thread shows up in the following moments:
+
+- *2025-09-03* ([IDEA-0151]): James Giroday proposed innovative workshop formats like participant interviews and debates, aiming to enhance engagement while volunteering to organize the voting process for options.
+- *2026-05-20* ([IDEA-0070]): Juan and David Olsson debated how to conduct technical interviews in a remote setting. Juan noted that candidates often present well-structured resumes and narrate experiences convincingly, making it difficult to assess if they are actually
+- *2026-05-27* ([IDEA-0071]): David Olsson and Fulvio Ciano utilized *Blade Runner 2049* as a framework to discuss contemporary challenges in hiring and identity authentication. David expressed concern regarding the difficulty of verifying candidates in a landscape wher
+- *2026-06-03* ([IDEA-0081]): David Olsson and Ying discussed the challenge of verifying candidates in a job market saturated by Artificial Intelligence tools. They observed that hiring interviews and homework assignments are no longer reliable indicators of authentic c
+- *2026-06-17* ([IDEA-0104]): David Olsson details how their setup automates SHA-256 hashing of content to create "proofs" and discusses integrating an "operator in the loop" for manual signing using Mac OS fingerprint authentication (00:07:43). This approach allows for
+
+## Ideas attached
+
+- IDEA-0151
+- IDEA-0070
+- IDEA-0071
+- IDEA-0081
+- IDEA-0104

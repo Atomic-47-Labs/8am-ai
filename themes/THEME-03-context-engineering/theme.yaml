@@ -1,0 +1,74 @@
+id: THEME-03
+slug: context-engineering
+status: active
+summary: 'Recurring across 14 meetings: context engineering.'
+first_seen: '2025-08-13'
+last_seen: '2026-06-24'
+idea_refs:
+- IDEA-0126
+- IDEA-0136
+- IDEA-0148
+- IDEA-0150
+- IDEA-0152
+- IDEA-0156
+- IDEA-0163
+- IDEA-0170
+- IDEA-0003
+- IDEA-0004
+- IDEA-0007
+- IDEA-0021
+- IDEA-0027
+- IDEA-0028
+- IDEA-0033
+- IDEA-0039
+- IDEA-0060
+- IDEA-0066
+- IDEA-0074
+- IDEA-0075
+- IDEA-0076
+- IDEA-0079
+- IDEA-0095
+- IDEA-0102
+- IDEA-0105
+- IDEA-0108
+- IDEA-0117
+evidence:
+- meeting: '2025-08-13'
+  idea_ref: IDEA-0126
+  excerpt: Successful installation of the MCP for transcript processing by David marks a critical progress point in technical execution for meeting documentation.
+- meeting: '2025-08-20'
+  idea_ref: IDEA-0136
+  excerpt: David Olsson underscored AI development principles centered around documentation, interoperability, and the introduction of Model Context Protocol for seamless LLM integration.
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0148
+  excerpt: The context management strategy involves workflow-based prompt systems to mitigate context rot during expanding conversations.
+- meeting: '2025-08-27'
+  idea_ref: IDEA-0150
+  excerpt: Tension exists between revealing system instructions and leveraging campaign learnings to optimize user experience in automated contexts.
+- meeting: '2025-09-03'
+  idea_ref: IDEA-0152
+  excerpt: Fulvio Ciano highlighted the importance of context engineering in AI, citing the 'quicksand problem' as a significant challenge in achieving sophisticated code completion.
+- meeting: '2025-09-03'
+  idea_ref: IDEA-0156
+  excerpt: Graham Fawcett shared his approach of using AI for identity creation and self-reflection, leveraging journaling dialogues to gain personal insights.
+- meeting: '2025-09-10'
+  idea_ref: IDEA-0163
+  excerpt: Jen Boger noted that consent complexities vary based on context and value propositions, particularly in indefinite research outcomes, stressing the need for tailored approaches.
+- meeting: '2025-09-10'
+  idea_ref: IDEA-0170
+  excerpt: Jen Boger recommended a values-based framework for consent that encourages situational flexibility and includes a model for disclosing conflicts of interest among participants.
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0003
+  excerpt: Juan Rojas noted that developers often rely heavily on Large Language Models (LLMs) and lack comprehension, sometimes just pasting a Jira ticket and asking for a solution (00:06:48). They shared an example of a team member who likely did no
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0004
+  excerpt: 'David Olsson affirmed Juan Rojas''s point, recognizing the power of the repository as a knowledge base for "meta work" and having a single understanding of many things (00:07:58). They noted that a standard wiki format, due to the LLMs, can '
+- meeting: '2026-04-08'
+  idea_ref: IDEA-0007
+  excerpt: Juan Rojas agreed, emphasizing the need to be able to "combat" AI suggestions and critique an approach. They, along with David Olsson and Fulvio Ciano, highlighted that developers who did not learn foundational layers—such as how assembly o
+- meeting: '2026-04-22'
+  idea_ref: IDEA-0021
+  excerpt: 'Mike Grell introduced themself, sharing their background that includes programming on a Commodore 64 and working at IBM for 30 years, and they are now focused on using AI for various development tasks. The group meets weekly to discuss the '
+trajectory: steady
+created: '2026-06-25T14:36:57Z'
+updated: '2026-06-25T14:36:57Z'

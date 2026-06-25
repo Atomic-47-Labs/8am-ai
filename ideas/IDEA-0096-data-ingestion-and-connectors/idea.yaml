@@ -1,0 +1,28 @@
+id: IDEA-0096
+slug: data-ingestion-and-connectors
+phase: researched-queued
+track: heavy
+source:
+  meeting: '2026-06-10'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: Project State allows users to integrate various data sources, including Slack, Google, and GitHub repositories, to gather project information (00:12:01) (00:16:45). David Olsson noted that while LLMs can harvest data automatically, pointing the tool at specific files or folders produces better results (00:17:28). ![][image1]
+summary: Data ingestion and connectors
+rationale: Project State allows users to integrate various data sources, including Slack, Google, and GitHub repositories, to gather project information (00:12:01) (00:16:45). David Olsson noted that while LLMs can harvest data automatically, pointing the tool at specific files or folders produces better results (00:17:28). ![][image1]
+tags: []
+theme_refs:
+- THEME-12
+directive_refs: []
+created: '2026-06-25T14:35:23Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 77.1
+grade_breakdown:
+  evidence: 25
+  theme: 10.2
+  recency: 14.8
+  concretion: 14.0
+  uniqueness: 13.1
+  carryover: 0
+rank: 8
+tier: queue

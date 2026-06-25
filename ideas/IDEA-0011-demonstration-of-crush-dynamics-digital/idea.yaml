@@ -1,0 +1,28 @@
+id: IDEA-0011
+slug: demonstration-of-crush-dynamics-digital
+phase: backlog
+track: heavy
+source:
+  meeting: '2026-04-15'
+  speaker: null
+  window_id: null
+  timestamp_s: null
+  excerpt: David Olsson presented a web-based 3D simulation environment using Babylon.js for Crush Dynamics, which visualizes a mathematical model for fermentation as a digital twin. The visualization is currently basic, but the underlying data is live data from the company, which David is using to learn what is required for further development (00:00:00). The simulation includes avatars that are amusingly seen walking through walls and getting bigger and smaller because it is built in a game environment (00:03:10). ![][image1]
+summary: Demonstration of Crush Dynamics Digital Twin
+rationale: David Olsson presented a web-based 3D simulation environment using Babylon.js for Crush Dynamics, which visualizes a mathematical model for fermentation as a digital twin. The visualization is currently basic, but the underlying data is live data from the company, which David is using to learn what is required for further development (00:00:00). The simulation includes avatars that are amusingly s
+tags: []
+theme_refs:
+- THEME-02
+directive_refs: []
+created: '2026-06-25T14:35:21Z'
+updated: '2026-06-25T14:47:25Z'
+grade: 63.3
+grade_breakdown:
+  evidence: 25
+  theme: 11.2
+  recency: 7.8
+  concretion: 6.0
+  uniqueness: 13.3
+  carryover: 0
+rank: 90
+tier: backlog
