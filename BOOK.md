@@ -4,7 +4,7 @@ The book is not authored upfront. It accretes from published artifacts.
 
 Corpus: 109 meetings, 759 ideas, 14 themes. Span 2024-04-17 to 2026-06-24.
 
-Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 runnable experiments, 3 index pages over the full register.
+Live at https://scsiwyg.com/8am-ai. 89 ideas published across 17 chapters, 3 runnable experiments, 4 index pages over the full register.
 
 ## Index pages (living)
 
@@ -37,8 +37,22 @@ Live at https://scsiwyg.com/8am-ai. 78 ideas published across 11 chapters, 3 run
 - [The meeting as method](https://scsiwyg.com/8am-ai/the-meeting-as-method) — the cadence as the artifact
 - [The social layer](https://scsiwyg.com/8am-ai/the-social-layer) — people and team
 - [The philosophical edge](https://scsiwyg.com/8am-ai/the-philosophical-edge) — future and society
+- [How do you know](https://scsiwyg.com/8am-ai/how-do-you-know) — llm evaluation — the central question, left open
+- [Authenticating the human](https://scsiwyg.com/8am-ai/authenticating-the-human) — hiring — the interview that stopped testing the person
+- [The ninety-five percent](https://scsiwyg.com/8am-ai/the-ninety-five-percent) — the last five percent is the only part left
+- [Forty-fourth of forty-seven](https://scsiwyg.com/8am-ai/forty-fourth-of-forty-seven) — Canada — the readiness gap is cultural
+- [The hundred-meeting simulation](https://scsiwyg.com/8am-ai/the-hundred-meeting-simulation) — the meeting predicting itself
+- [The franchise](https://scsiwyg.com/8am-ai/the-franchise) — 8am-ai.com — the recipe, not the product
+
+## Notes from the record
+
+- [The arrivals log](https://scsiwyg.com/8am-ai/the-arrivals-log) — the entity timeline; the names are a clock
+- [What got dropped](https://scsiwyg.com/8am-ai/what-got-dropped) — 401 directives, two-thirds let go on purpose
 
 ## Experiments
+
+- [The gist as a trust root](https://scsiwyg.com/8am-ai/the-gist-as-a-trust-root) — EXP-0001 write-up — the gist is convenience over SHA-256
+- [The baseline test](https://scsiwyg.com/8am-ai/the-baseline-test) — EXP-0003 write-up — cheap authentication is invertible
 
 - [EXP-0001 gist data substrate](experiments/EXP-0001-gist-data-substrate/) — hash, anchor, sign, verify — the gist is convenience over a SHA-256 trust root
 - [EXP-0002 corpus signal harvester](experiments/EXP-0002-corpus-signal-harvester/) — runs over all 109 meetings; cross-confirms the narrative
@@ -50,4 +64,4 @@ Every Wednesday's transcript flows through a pipeline: harvest, intake, classify
 
 Articles are written in David Olsson's voice. The voice profile is at project-state/voice-profile.md.
 
-Last updated 2026-06-25.
+Last updated 2026-06-26.

@@ -1,21 +1,29 @@
 id: IDEA-0333
 slug: automating-data-verification-and-signing
-phase: researched-queued
+phase: published
 track: heavy
 source:
   meeting: '2026-06-17'
   speaker: null
   window_id: null
   timestamp_s: null
-  excerpt: David Olsson details how their setup automates SHA-256 hashing of content to create "proofs" and discusses integrating an "operator in the loop" for manual signing using Mac OS fingerprint authentication (00:07:43). This approach allows for automated background processes while maintaining the option for human verification of critical data (00:08:38).
+  excerpt: David Olsson details how their setup automates SHA-256 hashing of content
+    to create "proofs" and discusses integrating an "operator in the loop" for manual
+    signing using Mac OS fingerprint authentication (00:07:43). This approach allows
+    for automated background processes while maintaining the option for human verification
+    of critical data (00:08:38).
 summary: Automating Data Verification and Signing
-rationale: David Olsson details how their setup automates SHA-256 hashing of content to create "proofs" and discusses integrating an "operator in the loop" for manual signing using Mac OS fingerprint authentication (00:07:43). This approach allows for automated background processes while maintaining the option for human verification of critical data (00:08:38).
+rationale: David Olsson details how their setup automates SHA-256 hashing of content
+  to create "proofs" and discusses integrating an "operator in the loop" for manual
+  signing using Mac OS fingerprint authentication (00:07:43). This approach allows
+  for automated background processes while maintaining the option for human verification
+  of critical data (00:08:38).
 tags: []
 theme_refs:
 - THEME-06
 directive_refs: []
 created: '2026-06-25T17:20:13Z'
-updated: '2026-06-25T17:21:26Z'
+updated: '2026-06-26T00:52:20Z'
 grade: 70.1
 grade_breakdown:
   evidence: 25
